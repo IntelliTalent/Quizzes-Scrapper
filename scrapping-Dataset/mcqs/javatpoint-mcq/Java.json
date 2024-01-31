@@ -1,0 +1,626 @@
+[
+    {
+        "question": "1) Which of the following option leads to the portability and security of Java?",
+        "options": [
+            "Bytecode is executed by JVM",
+            "The applet makes the Java code secure and portable",
+            "Use of exception handling",
+            "Dynamic binding between objects"
+        ],
+        "answer": "Bytecode is executed by the JVM.",
+        "explanation": " The output of the Java compiler is bytecode, which leads to the security and portability of the Java code. It is a highly developed set of instructions that are designed to be executed by the Java runtime system known as Java Virtual Machine (JVM). The Java programs executed by the JVM that makes the code portable and secure. Because JVM prevents the code from generating its side effects. The Java code is portable, as the same byte code can run on any platform.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following is not a Java features?",
+        "options": [
+            "Dynamic",
+            "Architecture Neutral",
+            "Use of pointers",
+            "Object-oriented"
+        ],
+        "answer": "Use of pointers",
+        "explanation": " The Java language does not support pointers; some of the major reasons are listed below:",
+        "codeblock": null
+    },
+    {
+        "question": "3) What should be the execution order, if a class has a method, static block, instance block, and constructor, as shown below?",
+        "options": [
+            "Instance block, method, static block, and constructor",
+            "Method, constructor, instance block, and static block",
+            "Static block, method, instance block, and constructor",
+            "Static block, instance block, constructor, and method"
+        ],
+        "answer": "Static block, instance block, constructor, and method",
+        "explanation": " The order of execution is:",
+        "codeblock": null
+    },
+    {
+        "question": "4) What will be the output of the following program?",
+        "options": [
+            "10, 5, 0, 20, 0",
+            "10, 30, 20",
+            "60, 5, 0, 20",
+            "60, 30, 0, 20, 0"
+        ],
+        "answer": "60, 30, 0, 20, 0",
+        "explanation": " In the above code, there are two values of variable a, i.e., 10 and 60. Similarly, there are two values of variable b, i.e., 5 and 30. But in the output, the values of a and b are 60 and 30, respectively. It is because of the execution order of the program.",
+        "codeblock": null
+    },
+    {
+        "question": "5) The \\u0021 article referred to as a",
+        "options": [
+            "Unicode escape sequence",
+            "Octal escape",
+            "Hexadecimal",
+            "Line feed"
+        ],
+        "answer": "Unicode escape sequence",
+        "explanation": " In Java, Unicode characters can be used in string literals, comments, and commands, and are expressed by Unicode Escape Sequences. A Unicode escape sequence is made up of the following articles:",
+        "codeblock": null
+    },
+    {
+        "question": "6) _____ is used to find and fix bugs in the Java programs.",
+        "options": [
+            "JVM",
+            "JRE",
+            "JDK",
+            "JDB"
+        ],
+        "answer": "JDB",
+        "explanation": " The Java Debugger (JDB or jdb) is a command-line java debugger that debugs the java class. It is a part of the Java Platform Debugger Architecture (JPDA) that helps in the inspections and debugging of a local or remote Java Virtual Machine (JVM).",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following is a valid declaration of a char?",
+        "options": [
+            "char ch = '\\utea';",
+            "char ca = 'tea';",
+            "char cr = \\u0223;",
+            "char cc = '\\itea';"
+        ],
+        "answer": "char ch = '\\utea';",
+        "explanation": " A char literal may contain a Unicode character (UTF-16). We can directly use these characters only if our file system allows us, else use a Unicode escape (\\u) such as \"\\u02tee\". The char literals are always declared in single quotes (').",
+        "codeblock": null
+    },
+    {
+        "question": "8) What is the return type of the hashCode() method in the Object class?",
+        "options": [
+            "Object",
+            "int",
+            "long",
+            "void"
+        ],
+        "answer": "int",
+        "explanation": " In Java, the return type of hashCode() method is an integer, as it returns a hash code value for the object.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following is a valid long literal?",
+        "options": [
+            "ABH8097",
+            "L990023",
+            "904423",
+            "0xnf029L"
+        ],
+        "answer": "0xnf029L",
+        "explanation": " For every long literal to be recognized by Java, we need to add L character at the end of the expression. It can be either uppercase (L) or lowercase (l) character. However, it is recommended to use uppercase character instead of lowercase because the lowercase (l) character is hard to distinguish from the uppercase (i) character.",
+        "codeblock": null
+    },
+    {
+        "question": "10) What does the expression float a = 35 / 0 return?",
+        "options": [
+            "0",
+            "Not a Number",
+            "Infinity",
+            "Run time exception"
+        ],
+        "answer": "Infinity",
+        "explanation": " In Java, whenever we divide any number (double, float, and long except integer) by zero, it results in infinity. According to the IEEE Standard for Floating-Point Arithmetic (IEEE 754), if we divide 1/0 will give positive infinity, -1/0 will give negative infinity, and 0/0 will give NaN. But on dividing an integer by zero, it throws a runtime exception, i.e., java.lang.ArithmeticException.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Evaluate the following Java expression, if x=3, y=5, and z=10:",
+        "options": [
+            "24",
+            "23",
+            "20",
+            "25"
+        ],
+        "answer": "25",
+        "explanation": " In the above expression, ++z means that the value will first increment by 1, i.e. 12. Now, evaluate the statement by putting the values of x, y, and z. On evaluating the expression, we get 25, as shown below.",
+        "codeblock": null
+    },
+    {
+        "question": "12) What will be the output of the following program?",
+        "options": [
+            "15 times ***",
+            "15 times +++++",
+            "8 times *** and 7 times +++++",
+            "Both will print only once"
+        ],
+        "answer": "8 times *** and 7 times +++++",
+        "explanation": " In the above code, we have declared count = 1. The value of count will be increased till 14 because of the while (count<=15) statement. If the remainder is equal to 1 on dividing the count by 2, it will print (***) else print (+++++). Therefore, for all odd numbers till 15 (1, 3, 5, 7, 9, 11, 13, 15), it will print (***), and for all even numbers till 14 (2, 4, 6, 8, 10, 12, 14) it will print (+++++).",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?",
+        "options": [
+            "javap tool",
+            "javaw command",
+            "Javadoc tool",
+            "javah command"
+        ],
+        "answer": "Javadoc tool",
+        "explanation": " The Javadoc is a tool that is used to generate API documentation in HTML format from the Java source files. In other words, it is a program (tool) that reads a collection of source files into an internal form.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which of the following creates a List of 3 visible items and multiple selections abled?",
+        "options": [
+            "new List(false, 3)",
+            "new List(3, true)",
+            "new List(true, 3)",
+            "new List(3, false)"
+        ],
+        "answer": "new List(3, true)",
+        "explanation": " From the above statements, the new List(3, true) is the correct answer; this is because of the constructor type. To create a list of 3 visible items along with the multiple selections abled, we have to use the following constructor of the List class.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following for loop declaration is not valid?",
+        "options": [
+            "for ( int i = 99; i >= 0; i / 9 )",
+            "for ( int i = 7; i <= 77; i += 7 )",
+            "for ( int i = 20; i >= 2; - -i )",
+            "for ( int i = 2; i <= 20; i = 2* i )"
+        ],
+        "answer": "for ( int i = 99; i>=0; i / 9)",
+        "explanation": " The first option is not a valid declaration as i/9 is not declared correctly. The correct statement will be:\n\u00a0 \u00a0 \u00a0 for ( int i= 99; i>=0; i= i/9)",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+        "options": [
+            "getClass()",
+            "intern()",
+            "getName()",
+            "toString()"
+        ],
+        "answer": "getName()",
+        "explanation": " The getName() method of the Class class returns the name (as String) of the entity (class, interface) represented by this Class object. It is a non-static method, and available in the java.lang package.",
+        "codeblock": null
+    },
+    {
+        "question": "17) In which process, a local variable has the same name as one of the instance variables?",
+        "options": [
+            "Serialization",
+            "Variable Shadowing",
+            "Abstraction",
+            "Multi-threading"
+        ],
+        "answer": "Variable Shadowing",
+        "explanation": " There are following reasons for considering a variable shadowing, they are listed below:",
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following is true about the anonymous inner class?",
+        "options": [
+            "It has only methods",
+            "Objects can't be created",
+            "It has a fixed class name",
+            "It has no class name"
+        ],
+        "answer": "It has no class name",
+        "explanation": " Anonymous inner classes are the same as the local classes except that they don't have any name. The main use of it is to override methods of classes or interfaces.\nAnd the rest three options are false about the anonymous inner classes as it can have both methods and objects. It does not have any fixed came name.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Which package contains the Random class?",
+        "options": [
+            "java.util package",
+            "java.lang package",
+            "java.awt package",
+            "java.io package"
+        ],
+        "answer": "java.util package",
+        "explanation": " The Random class is available in the java.util package. An object of the Random class is used to generate a series of pseudorandom numbers. And the object of this class is a thread-safe and cryptographically insecure object. The Random class provides a variety of methods that are used to create random numbers of type integers, float, long, double, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "20) What do you mean by nameless objects?",
+        "options": [
+            "An object created by using the new keyword.",
+            "An object of a superclass created in the subclass.",
+            "An object without having any name but having a reference.",
+            "An object that has no reference."
+        ],
+        "answer": "An object that has no reference.",
+        "explanation": " The nameless objects are basically referred to as anonymous objects. The anonymous objects do not have any names. We can also say that, when an object is initialized but is not assigned to any reference variable, it is called an anonymous object. For example, new Employee();.",
+        "codeblock": null
+    },
+    {
+        "question": "21) An interface with no fields or methods is known as a ______.",
+        "options": [
+            "Runnable Interface",
+            "Marker Interface",
+            "Abstract Interface",
+            "CharSequence Interface"
+        ],
+        "answer": "Marker Interface",
+        "explanation": " An interface with no methods and fields is known as the marker interface. In other words, an empty interface (containing no fields and methods) is called a marker interface. In Java, the most commonly used marker interfaces are Serializable, Cloneable, Remote, and ThreadSafe interfaces. Marker interfaces are also known as the Tag interface. It is used to tell the JVM or compiler that the particular class has special behavior.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Which of the following is an immediate subclass of the Panel class?",
+        "options": [
+            "Applet class",
+            "Window class",
+            "Frame class",
+            "Dialog class"
+        ],
+        "answer": "Applet class",
+        "explanation": " According to the class hierarchy of Java Swing, the Applet class is the direct subclass of the Panel class. You can go through the link, (https://www.javatpoint.com/java-swing) to deeply understand the class hierarchy diagram. The Panel class and Window class are the child classes of the Container class, and Frame and Dialog classes are the subclasses of the Window class.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which option is false about the final keyword?",
+        "options": [
+            "A final method cannot be overridden in its subclasses.",
+            "A final class cannot be extended.",
+            "A final class cannot extend other classes.",
+            "A final method can be inherited."
+        ],
+        "answer": "A final class cannot extend other classes.",
+        "explanation": " The final is a reserved keyword in Java that is used to make a variable, method, and class immutable. The important features of the final keyword are:",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of these classes are the direct subclasses of the Throwable class?",
+        "options": [
+            "RuntimeException and Error class",
+            "Exception and VirtualMachineError class",
+            "Error and Exception class",
+            "IOException and VirtualMachineError class"
+        ],
+        "answer": "Error and Exception class",
+        "explanation": " According to the class hierarchy of Throwable class, the Error and Exception classes are the direct subclasses of the Throwable class, as shown below.",
+        "codeblock": null
+    },
+    {
+        "question": "25) What do you mean by chained exceptions in Java?",
+        "options": [
+            "Exceptions occurred by the VirtualMachineError",
+            "An exception caused by other exceptions",
+            "Exceptions occur in chains with discarding the debugging information",
+            "None of the above"
+        ],
+        "answer": "An exception caused by other exceptions.",
+        "explanation": " In Java, an exception caused by other exceptions is known as a chained exception. Generally, the first exception causes the second exception. It helps in identifying the cause of the exception. In chained exceptions, the debugging information is not discarded.",
+        "codeblock": null
+    },
+    {
+        "question": "26) In which memory a String is stored, when we create a string using new operator?",
+        "options": [
+            "Stack",
+            "String memory",
+            "Heap memory",
+            "Random storage space"
+        ],
+        "answer": "Heap memory",
+        "explanation": " When a String is created using a new operator, it always created in the heap memory. Whereas when we create a string using double quotes, it will check for the same value as of the string in the string constant pool. If it is found, returns a reference of it else create a new string in the string constant pool.",
+        "codeblock": null
+    },
+    {
+        "question": "27) What is the use of the intern() method?",
+        "options": [
+            "It returns the existing string from memory",
+            "It creates a new string in the database",
+            "It modifies the existing string in the database",
+            "None of the above"
+        ],
+        "answer": "It returns the existing string from the memory",
+        "explanation": " The intern() method is used to return the existing strings from the database. In other words, the intern() method returns a reference of the string. For example, if the string constant pool already has a string object with the same value, the intern() method will return a reference of the string from the pool.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following is a marker interface?",
+        "options": [
+            "Runnable interface",
+            "Remote interface",
+            "Readable interface",
+            "Result interface"
+        ],
+        "answer": "Remote interface",
+        "explanation": " A marker interface is an interface with no fields and methods. In other words, an empty interface (contains nothing) is known as the marker interface. Examples of marker interfaces are Cloneable, Serializable, ThreadSafe, and Remote interface.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following is a reserved keyword in Java?",
+        "options": [
+            "object",
+            "strictfp",
+            "main",
+            "system"
+        ],
+        "answer": "strictfp",
+        "explanation": " In the above options, strictfp is the only reserved keyword of Java. The strictfp keyword is a modifier that restricts the floating-point calculations to assure portability and it was added in Java version 1.2. The objects are referring to those variables that are created using the new operator. In Java, main is the method that is the entry point of any program, and the System is a class.",
+        "codeblock": null
+    },
+    {
+        "question": "30) Which keyword is used for accessing the features of a package?",
+        "options": [
+            "package",
+            "import",
+            "extends",
+            "export"
+        ],
+        "answer": "import",
+        "explanation": " The import keyword is used to access the classes and interfaces of a particular package to the current file. In other words, it is used to import the user-defined and built-in classes and interfaces into the source file of java so that the current file can easily access the other packages by directly using its name. For example,",
+        "codeblock": null
+    },
+    {
+        "question": "31) In java, jar stands for_____.",
+        "options": [
+            "Java Archive Runner",
+            "Java Application Resource",
+            "Java Application Runner",
+            "None of the above"
+        ],
+        "answer": "None of the above",
+        "explanation": " A Java ARchive (JAR) is a package file format used to combine all the metadata and resources into a single file. In other words, it is a file that contains several components, which make up a self-contained, executable, and deployable jar used to execute Java applications and deploy Java applets.",
+        "codeblock": null
+    },
+    {
+        "question": "32) What will be the output of the following program?",
+        "options": [
+            "Complete",
+            "Iomplede",
+            "Cimpletd",
+            "Coipletd"
+        ],
+        "answer": "Cimpletd",
+        "explanation": " In the above code snippet, we have passed a string with value \"Complete\" and set character \"i\" and \"d\" at the index position 1 and 7, respectively. According to the string \"Complete,\" \"o\" is at position 1, and \"e\" is at the position 7. The setChar() method is used to replace the original string values with the new one. Hence, the \"o\" and \"e\" are replaced by the characters \"i\" and \"d,\" respectively, which results in \"Cimpletd.\"",
+        "codeblock": null
+    },
+    {
+        "question": "33) Which of the following is false?",
+        "options": [
+            "The rt.jar stands for the runtime jar",
+            "It is an optional jar file",
+            "It contains all the compiled class files",
+            "All the classes available in rt.jar is known to the JVM"
+        ],
+        "answer": "It is an optional jar file.",
+        "explanation": " The rt.jar stands for the runtime jar that comprises of all the compiled core class files for the Java Runtime Environment. It generally consists of classes like java.lang.String, java.lang.Object, java.io.Exception, etc., and all packages and classes available in the rt.jar are known to the JVM. The rt.jar is the mandatory jar file for every core java application as it contains all the core classes.",
+        "codeblock": null
+    },
+    {
+        "question": "34) What is the use of \\w in regex?",
+        "options": [
+            "Used for a whitespace character",
+            "Used for a non-whitespace character",
+            "Used for a word character",
+            "Used for a non-word character"
+        ],
+        "answer": "Used for a word character",
+        "explanation": " In java, the \"\\w\" regex is used to match with a word character consists of [a-zA-Z_0-9]. For example, \\w+ matches one or more word character that is same as ([a-zA-Z_0-9] +).",
+        "codeblock": null
+    },
+    {
+        "question": "35) Which of the given methods are of Object class?",
+        "options": [
+            "notify(), wait( long msecs ), and synchronized()",
+            "wait( long msecs ), interrupt(), and notifyAll()",
+            "notify(), notifyAll(), and wait()",
+            "sleep( long msecs ), wait(), and notify()"
+        ],
+        "answer": "notify(), notifyAll(), and wait()",
+        "explanation": " The notify(), notifyAll(), and wait() are the methods of the Object class. The notify() method is used to raise a single thread that is waiting on the object's monitor. The notifyAll() method is similar to the notify() method, except that it wakes up all the threads that are waiting on the object's monitor. The wait() method is used to make a thread to wait until another thread invokes the notify() or notifyAll() methods for an object.",
+        "codeblock": null
+    },
+    {
+        "question": "36) Given that Student is a class, how many reference variables and objects are created by the following code?",
+        "options": [
+            "Three reference variables and two objects are created.",
+            "Two reference variables and two objects are created.",
+            "One reference variable and two objects are created.",
+            "Three reference variables and three objects are created."
+        ],
+        "answer": "Three reference variables and two objects are created.",
+        "explanation": " In the above code, there are three reference variables and two objects. The studentName, studentId, and stud_class are the three reference variables. The objects are those variables that are created using the new operator, i.e., studentName and stud_class. The studentId is only a reference variable as it is not declared using the new operator. Both studentName and stud_class are reference variables as well as objects.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following is a valid syntax to synchronize the HashMap?",
+        "options": [
+            "Map m = hashMap.synchronizeMap();",
+            "HashMap map =hashMap.synchronizeMap();",
+            "Map m1 = Collections.synchronizedMap(hashMap);",
+            "Map m2 = Collection.synchronizeMap(hashMap);"
+        ],
+        "answer": "Map m1 = Collections.synchronizedMap(hashMap);",
+        "explanation": " By default, the HashMap class is a non-synchronized collection class. The need for synchronization is to perform thread-safe operations on the class. To synchronize the HashMap class explicitly, we should use the Collections.synchronizedMap(hashMap) method that returns a thread-safe map object.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Given,",
+        "options": [
+            "5",
+            "10",
+            "0",
+            "100"
+        ],
+        "answer": "10",
+        "explanation": " The initial or default quantity of an ArrayList is 10. It means when we create an ArrayList without specifying any quantity, it will be created with the default capacity, i.e., 10. Hence, an ArrayList with the default capacity can hold ten (10) values.",
+        "codeblock": null
+    },
+    {
+        "question": "What is the initial quantity of the ArrayList list?",
+        "options": [
+            "5",
+            "10",
+            "0",
+            "100"
+        ],
+        "answer": "10",
+        "explanation": " The initial or default quantity of an ArrayList is 10. It means when we create an ArrayList without specifying any quantity, it will be created with the default capacity, i.e., 10. Hence, an ArrayList with the default capacity can hold ten (10) values.",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which of the following is a mutable class in java?",
+        "options": [
+            "java.lang.String",
+            "java.lang.Byte",
+            "java.lang.Short",
+            "java.lang.StringBuilder"
+        ],
+        "answer": "java.lang.StringBuilder",
+        "explanation": " A mutable class is a class in which changes can be made after its creation. We can modify the internal state and fields of a mutable class. The StringBuilder class is a mutable class, as it can be altered after it is created.",
+        "codeblock": null
+    },
+    {
+        "question": "40) What will be the output of the following program?",
+        "options": [
+            "No error",
+            "Method is not defined properly",
+            "Constructor is not defined properly",
+            "Extra parentheses"
+        ],
+        "answer": "Method is not defined properly.",
+        "explanation": " Following are some rules for declaring an abstract method:",
+        "codeblock": null
+    },
+    {
+        "question": "41) What is meant by the classes and objects that dependents on each other?",
+        "options": [
+            "Tight Coupling",
+            "Cohesion",
+            "Loose Coupling",
+            "None of the above"
+        ],
+        "answer": "Tight Coupling",
+        "explanation": " In tight coupling, a group of classes and objects are highly dependent on each other. Tight coupling is also used in some cases, like when an object creates some other objects that are going to be used by them.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Given,",
+        "options": [
+            "10",
+            "11",
+            "15",
+            "None of the above"
+        ],
+        "answer": "None of the above",
+        "explanation": " In the above code, we have not defined the variable Y. The code will not execute without any specific value for Y; it results in exception, as shown below.",
+        "codeblock": null
+    },
+    {
+        "question": "Find the value of value[i]?",
+        "options": [
+            "10",
+            "11",
+            "15",
+            "None of the above"
+        ],
+        "answer": "None of the above",
+        "explanation": " In the above code, we have not defined the variable Y. The code will not execute without any specific value for Y; it results in exception, as shown below.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Which of the following code segment would execute the stored procedure \"getPassword()\" located in a database server?",
+        "options": [
+            "CallableStatement cs = connection.prepareCall(\"{call.getPassword()}\");\ncs.executeQuery();",
+            "CallabledStatement callable = conn.prepareCall(\"{call getPassword()}\");\ncallable.executeUpdate();",
+            "CallableStatement cab = con.prepareCall(\"{call getPassword()}\");\ncab.executeQuery();",
+            "Callablestatement cstate = connect.prepareCall(\"{call getpassword()}\");\ncstate.executeQuery();"
+        ],
+        "answer": "CallableStatement cab = con.prepareCall(\"{call getPassword()}\");\ncab.executeQuery();",
+        "explanation": " In Java, java.sql.CallableStatement interface is used to call the SQL stored procedures in the database. The stored procedures are similar to functions as they perform some specific tasks, except that they are only available in the database. The CallableStatement can return either a single ResultSet object or multiple ResultSet objects.",
+        "codeblock": null
+    },
+    {
+        "question": "44) How many threads can be executed at a time?",
+        "options": [
+            "Only one thread",
+            "Multiple threads",
+            "Only main (main() method) thread",
+            "Two threads"
+        ],
+        "answer": "Multiple threads",
+        "explanation": " In Java, multiple threads can be executed at the same time. A Java standalone application always starts with a single thread known as the main thread that is associated with the main() method.",
+        "codeblock": null
+    },
+    {
+        "question": "45) If three threads trying to share a single object at the same time, which condition will arise in this scenario?",
+        "options": [
+            "Time-Lapse",
+            "Critical situation",
+            "Race condition",
+            "Recursion"
+        ],
+        "answer": "Race condition",
+        "explanation": " If two or more threads are trying to access a common resource at the same time. This situation is known as race condition. It generally occurs during the execution of multi-threaded application. It also refers to a programming bug or issue that occurs when the thread scheduler swaps the threads at any time between the process.",
+        "codeblock": null
+    },
+    {
+        "question": "46) If a thread goes to sleep",
+        "options": [
+            "It releases all the locks it has.",
+            "It does not release any locks.",
+            "It releases half of its locks.",
+            "It releases all of its lock except one."
+        ],
+        "answer": "It does not release any locks.",
+        "explanation": " The sleep() method does not release any locks of an object for a specific time or until an interrupt occurs. It leads to the poor performance or deadlock of threads. Whereas, the wait() method does not release the locks of an object.",
+        "codeblock": null
+    },
+    {
+        "question": "47) Which of the following modifiers can be used for a variable so that it can be accessed by any thread or a part of a program?",
+        "options": [
+            "global",
+            "transient",
+            "volatile",
+            "default"
+        ],
+        "answer": "volatile",
+        "explanation": " In Java, we can modify the values of a variable with the help of a reserved keyword known as volatile. It is a different way of making a class thread-safe. Thread-safe means that the methods and objects of a class are accessible by multiple threads at the same time.",
+        "codeblock": null
+    },
+    {
+        "question": "48) What is the result of the following program?",
+        "options": [
+            "It prints A and B with a 1000 seconds delay between them",
+            "It only prints A and exits",
+            "It only prints B and exits",
+            "A will be printed, and then an exception is thrown."
+        ],
+        "answer": "A will be printed, and then an exception is thrown.",
+        "explanation": " The InterruptedException is thrown when a thread is waiting, sleeping, or occupied. The output of the above code is shown below:",
+        "codeblock": null
+    },
+    {
+        "question": "49) In character stream I/O, a single read/write operation performs _____.",
+        "options": [
+            "Two bytes read/write at a time.",
+            "Eight bytes read/write at a time.",
+            "One byte read/write at a time.",
+            "Five bytes read/ write at a time."
+        ],
+        "answer": "Two bytes read/write at a time.",
+        "explanation": " There are two types of I/O stream. One is a byte stream, and the other is the character stream. The Byte stream is used to perform input or output 8-bit (equals to 1 byte) Unicode bytes whereas, the Character stream is used to read or write a 16-bit (equals to 2 bytes) Unicode character.",
+        "codeblock": null
+    },
+    {
+        "question": "50) What is the default encoding for an OutputStreamWriter?",
+        "options": [
+            "UTF-8",
+            "Default encoding of the host platform",
+            "UTF-12",
+            "None of the above"
+        ],
+        "answer": "Default encoding of the host platform",
+        "explanation": " The OutputStreamWriter class translates Unicode character into bytes by using the character encoding. The character encoding can be either a default encoding dependent on the system or encoding that is explicitly defined. If no external encoding is specified, it will use the default encoding of the host platform.",
+        "codeblock": null
+    }
+]

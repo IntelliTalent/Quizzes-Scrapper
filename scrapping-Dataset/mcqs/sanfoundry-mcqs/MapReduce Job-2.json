@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_________ is a  data migration tool added for archiving data.",
+        "options": [
+            "a) Mover",
+            "b) Hiver",
+            "c) Serde",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Mover periodically scans the files in HDFS to check if the block placement satisfies the storage policy."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Mover is not similar to Balancer",
+            "b) hdfs dfsadmin -setStoragePolicy <path> <policyName> puts a storage policy to a file or a directory.",
+            "c) addCacheArchive add archives to be localized",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "addArchiveToClassPath(Path archive) adds an archive path to the current set of classpath entries."
+    },
+    {
+        "question": "Which of the following is used to list out the storage policies?",
+        "options": [
+            "a) hdfs storagepolicies",
+            "b) hdfs storage",
+            "c) hd storagepolicies",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Arguments are none for the hdfs storagepolicies command."
+    },
+    {
+        "question": "Which of the following statement can be used to get the storage policy of a file or a directory?",
+        "options": [
+            "a) hdfs dfsadmin -getStoragePolicy path",
+            "b) hdfs dfsadmin -setStoragePolicy path policyName",
+            "c) hdfs dfsadmin -listStoragePolicy path policyName",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) getInstance() creates a new Job with particular cluster",
+            "b) getInstance(Configuration conf) creates a new Job with no particular Cluster and a given Configuration",
+            "c) getInstance(JobStatus status, Configuration conf) creates a new Job with no particular Cluster and given Configuration and JobStatus",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "getInstance() creates a new Job with particular cluster."
+    },
+    {
+        "question": "Which of the following method is used to get user-specified job name?",
+        "options": [
+            "a) getJobName()",
+            "b) getJobState()",
+            "c) getPriority()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "getPriority() is used to get scheduling info of the job."
+    },
+    {
+        "question": "_________ gets the diagnostic messages for a given task attempt.",
+        "options": [
+            "a) getTaskOutputFilter(Configuration conf)",
+            "b) getTaskReports(TaskType type)",
+            "c) getTrackingURL()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "getTaskDiagnostics(TaskAttemptID taskid) gets the diagnostic messages for a given task attempt."
+    },
+    {
+        "question": "reduceProgress() gets the progress of the job\u2019s reduce-tasks, as a float between _________",
+        "options": [
+            "a) 0.0-1.0",
+            "b) 1.0-2.0",
+            "c) 2.0-3.0",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "mapProgress() is used to get the progress of the job\u2019s map-tasks, as a float between 0.0 and 1.0."
+    },
+    {
+        "question": "The Job makes a copy of the _____________ so that any necessary internal modifications do not reflect on the incoming parameter.",
+        "options": [
+            "a) Component",
+            "b) Configuration",
+            "c) Collector",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A Cluster will be created from the conf parameter only when it\u2019s needed."
+    }
+]

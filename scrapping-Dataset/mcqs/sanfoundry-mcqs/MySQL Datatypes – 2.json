@@ -1,0 +1,90 @@
+[
+    {
+        "question": "What will happen if the data being loaded into a text column exceeds the maximum size of that type?",
+        "options": [
+            "a) Extra memory will be allocated",
+            "b) Process terminate",
+            "c) Data will be truncated",
+            "d) Depend on the system"
+        ],
+        "answer": "c",
+        "explanation": "Mysql cannot allocate dynamic memory therefore if data exceeds the memory then extra data will be truncated."
+    },
+    {
+        "question": "Which data type is more suitable for storing \u201csmall notes\u201d in Mysql?",
+        "options": [
+            "a) Char",
+            "b) Varchar",
+            "c) Mediumtext",
+            "d) Longtext"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which data type is more suitable for storing \u201cdocuments\u201d in Mysql?",
+        "options": [
+            "a) Varchar",
+            "b) Longtext",
+            "c) Mediumtext",
+            "d) Either Varchar or Longtext"
+        ],
+        "answer": "b",
+        "explanation": "Longtext has largest range."
+    },
+    {
+        "question": "\u201cNumeric Data\u201d is used to store ____________",
+        "options": [
+            "a) Whole numbers",
+            "b) Natural numbers",
+            "c) Rational numbers",
+            "d) Both Whole and Natural numbers"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which Numeric Data type has the largest range?",
+        "options": [
+            "a) Mediumint",
+            "b) Smallint",
+            "c) Int",
+            "d) Tinyint"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following are the correct representation of \u201cfloat(4,2)\u201d?",
+        "options": [
+            "a) 24.33",
+            "b) 124.4",
+            "c) 12.123",
+            "d) Both 24.33 and 124.4"
+        ],
+        "answer": "d",
+        "explanation": "Float(4,2) allowed at most 2 digit at right of the decimal and left of the decimal."
+    },
+    {
+        "question": "Which among the following is the correct representation of \u201cfloat(5,0)\u201d?",
+        "options": [
+            "a) 12345.123",
+            "b) 12345.1",
+            "c) 12345",
+            "d) 123.123"
+        ],
+        "answer": "c",
+        "explanation": "\u201cfloat(5,0) says there should be total of five digit, in which no digit should be at the right of the decimal."
+    },
+    {
+        "question": "Which among the following is the correct representation of \u201cfloat(1,1)\u201d?",
+        "options": [
+            "a) Total of 1 digit",
+            "b) Total of 2 digit",
+            "c) Total of 2 digit, one digit at right of the decimal, one digit at left of the decimal",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    }
+]

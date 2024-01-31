@@ -1,0 +1,132 @@
+[
+    {
+        "question": "How many comparisons will be made to sort the array arr={1, 5, 3, 8, 2} using bucket sort?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 9",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "As bucket sort is an example of a non-comparison sort so it is able to sort an array without making any comparison. So the answer should be 0."
+    },
+    {
+        "question": "What is the alternate name of bucket sort?",
+        "options": [
+            "a) group sort",
+            "b) radix sort",
+            "c) bin sort",
+            "d) uniform sort"
+        ],
+        "answer": "c",
+        "explanation": "Bucket sort is also known as bin sort. It is an example of a non-comparison sort."
+    },
+    {
+        "question": "Which of the following non-comparison sort can also be considered as a comparison based sort?",
+        "options": [
+            "a) counting sort",
+            "b) MSD radix sot",
+            "c) bucket sort",
+            "d) pigeonhole sort"
+        ],
+        "answer": "c",
+        "explanation": "Bucket sort can also be considered as a comparison based sort. It is because it can also be implemented with comparisons."
+    },
+    {
+        "question": "Which of the following is not true about bucket sort?",
+        "options": [
+            "a) It is a non comparison based integer sort",
+            "b) It is a distribution sort",
+            "c) It can also be considered as comparison based sort",
+            "d) It is in place sorting algorithm"
+        ],
+        "answer": "d",
+        "explanation": "Bucket sort is a non comparison based integer sort. It sorts the given data by distributing the array elements into a number of buckets. It is not an in place sorting technique."
+    },
+    {
+        "question": "Which of the following don\u2019t affect the time complexity of bucket sort?",
+        "options": [
+            "a) algorithm implemented for sorting individual buckets",
+            "b) number of buckets used",
+            "c) distribution of input",
+            "d) input values"
+        ],
+        "answer": "d",
+        "explanation": "Time complexity of bucket sort is affected by various factors. These include algorithm implemented for sorting individual buckets, number of buckets used and distribution of input. It doesnot depend on the input value. It can be either positive or negative or zero."
+    },
+    {
+        "question": "Bucket sort is most efficient in the case when __________",
+        "options": [
+            "a) the input is non uniformly distributed",
+            "b) the input is uniformly distributed",
+            "c) the input is randomly distributed",
+            "d) the input range is large"
+        ],
+        "answer": "b",
+        "explanation": "Bucket sort works by distributing the array elements into a number of buckets. So bucket sort is most efficient in the case when the input is uniformly distributed."
+    },
+    {
+        "question": "Bucket sort is a generalization of which of the following sort?",
+        "options": [
+            "a) LSD radix sort",
+            "b) Pigeonhole sort",
+            "c) Counting sort",
+            "d) MSD radix sort"
+        ],
+        "answer": "b",
+        "explanation": "Pigeonhole sort is a particular case of bucket sort. Bucket sort is also closely related to MSD radix sort."
+    },
+    {
+        "question": "What is the worst case time complexity of bucket sort (k = number of buckets)?",
+        "options": [
+            "a) O(n + k)",
+            "b) O(n.k)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "Time complexity of bucket sort is O(n"
+    },
+    {
+        "question": "What is the best time complexity of bucket sort (k= number of buckets)?",
+        "options": [
+            "a) O(n + k)",
+            "b) O(n.k)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Time complexity of bucket sort is O(n+k). It performs better than any comparison based sort if there is a uniform input distribution."
+    },
+    {
+        "question": "Which of the following is not necessarily a stable sorting algorithm?",
+        "options": [
+            "a) bucket sort",
+            "b) counting sort",
+            "c) merge sort",
+            "d) pigeonhole sort"
+        ],
+        "answer": "a",
+        "explanation": "Bucket sort is not necessarily a stable sorting algorithm. This is because its stability depends on the stability of the algorithm that we have used to sort the individual buckets."
+    },
+    {
+        "question": "Bucket sort is an in place sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Bucket sort is not an in place sorting algorithm. It requires an auxiliary space of O(n k) in the worst case."
+    },
+    {
+        "question": "What is the worst space complexity of bucket sort (k = number of buckets)?",
+        "options": [
+            "a) O(n + k)",
+            "b) O(n.k)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case space complexity of bucket sort is O(n.k). So it is not an in place sorting algorithm."
+    }
+]

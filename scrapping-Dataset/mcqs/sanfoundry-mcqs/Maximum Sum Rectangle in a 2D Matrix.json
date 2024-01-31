@@ -1,0 +1,118 @@
+[
+    {
+        "question": "Given a 2D matrix, find a submatrix that has the maximum sum. Which of the following methods can be used to solve this problem?",
+        "options": [
+            "a) Brute force",
+            "b) Recursion",
+            "c) Dynamic programming",
+            "d) Brute force, Recursion, Dynamic programming"
+        ],
+        "answer": "d",
+        "explanation": "Brute force, Recursion and Dynamic programming can be used to find the submatrix that has the maximum sum."
+    },
+    {
+        "question": "In which of the following cases, the maximum sum rectangle is the 2D matrix itself?",
+        "options": [
+            "a) When all the elements are negative",
+            "b) When all the elements are positive",
+            "c) When some elements are positive and some negative",
+            "d) When diagonal elements are positive and rest are negative"
+        ],
+        "answer": "a",
+        "explanation": "When all the elements of a matrix are positive, the maximum sum rectangle is the 2D matrix itself."
+    },
+    {
+        "question": "Consider the following statements and select which of the following statement are true.",
+        "options": [
+            "a) Only statement 1 is correct",
+            "b) Only statement 1 and Statement 2 are correct",
+            "c) Only statement 1 and Statement 3 are correct",
+            "d) Statement 1, Statement 2 and Statement 3 are correct"
+        ],
+        "answer": "d",
+        "explanation": "If the matrix size is 1\u00d71 then the element itself is the maximum sum of that 1\u00d71 matrix. If all elements are zero, then the sum of any submatrix of the given matrix is zero. If all elements are negative, then the maximum element in that matrix is the highest sum in that matrix which is again 1X1 submatrix of the given matrix. Hence all three statements are correct."
+    },
+    {
+        "question": "Consider a matrix in which all the elements are non-zero(at least one positive and at least one negative element). In this case, the sum of the elements of the maximum sum rectangle cannot be zero.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If a matrix contains all non-zero elements with at least one positive and at least on negative element, then the sum of elements of the maximum sum rectangle cannot be zero."
+    },
+    {
+        "question": "Consider the 2\u00d73 matrix {{1,2,3},{1,2,3}}. What is the sum of elements of the maximum sum rectangle?",
+        "options": [
+            "a) 3",
+            "b) 6",
+            "c) 12",
+            "d) 18"
+        ],
+        "answer": "c",
+        "explanation": "Since all the elements of the 2\u00d73 matrix are positive, the maximum sum rectangle is the matrix itself and the sum of elements is 12."
+    },
+    {
+        "question": "Consider the 3\u00d73 matrix {{2,1,-3},{6,3,4},{-2,3,0}}. What is the sum of the elements of the maximum sum rectangle?",
+        "options": [
+            "a) 13",
+            "b) 16",
+            "c) 14",
+            "d) 19"
+        ],
+        "answer": "c",
+        "explanation": "The complete matrix represents the maximum sum rectangle and it\u2019s sum is 14."
+    },
+    {
+        "question": "What is the time complexity of the brute force implementation of the maximum sum rectangle problem?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The time complexity of the brute force implementation of the maximum sum rectangle problem is O(n"
+    },
+    {
+        "question": "The dynamic programming implementation of the maximum sum rectangle problem uses which of the following algorithm?",
+        "options": [
+            "a) Hirschberg\u2019s algorithm",
+            "b) Needleman-Wunsch algorithm",
+            "c) Kadane\u2019s algorithm",
+            "d) Wagner Fischer algorithm"
+        ],
+        "answer": "c",
+        "explanation": "The dynamic programming implementation of the maximum sum rectangle problem uses Kadane\u2019s algorithm."
+    },
+    {
+        "question": "Consider the following code snippet:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201cmx_sm = val\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the maximum sum rectangle problem?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above dynamic programming implementation of the maximum sum rectangle is O(row*col*col)."
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the maximum sum rectangle problem?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The space complexity of the above dynamic programming implementation of the maximum sum rectangle problem is O(row)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the sum of elements of the maximum sum rectangle, which is 8."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the sum of elements of the maximum sum rectangle, which is 18."
+    }
+]

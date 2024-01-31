@@ -1,0 +1,101 @@
+[
+    {
+        "question": "___________ generates keys of type LongWritable and values of type Text.",
+        "options": [
+            "a) TextOutputFormat",
+            "b) TextInputFormat",
+            "c) OutputInputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If K2 and K3 are the same, you don\u2019t need to call setMapOutputKeyClass()."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The reduce input must have the same types as the map output, although the reduce output types may be different again",
+            "b) The map input key and value types (K1 and V1) are different from the map output types",
+            "c) The partition function operates on the intermediate key",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In practice, the partition is determined solely by the key (the value is ignored)."
+    },
+    {
+        "question": "In _____________ the default job is similar, but not identical, to the Java equivalent.",
+        "options": [
+            "a) Mapreduce",
+            "b) Streaming",
+            "c) Orchestration",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MapReduce Types and Formats MapReduce has a simple model of data processing."
+    },
+    {
+        "question": "An input _________ is a chunk of the input that is processed by a single map.",
+        "options": [
+            "a) textformat",
+            "b) split",
+            "c) datanode",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each split is divided into records, and the map processes each record\u2014a key-value pair\u2014in turn."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If V2 and V3 are the same, you only need to use setOutputValueClass()",
+            "b) The overall effect of Streaming job is to perform a sort of the input",
+            "c) A Streaming application can control the separator that is used when a key-value pair is turned into a series of bytes and sent to the map or reduce process over standard input",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If a combine function is used then it is the same form as the reduce function, except its output types are the intermediate key and value types (K2 and V2), so they can feed the reduce function."
+    },
+    {
+        "question": "An ___________ is responsible for creating the input splits, and dividing them into records.",
+        "options": [
+            "a) TextOutputFormat",
+            "b) TextInputFormat",
+            "c) OutputInputFormat",
+            "d) InputFormat"
+        ],
+        "answer": "d",
+        "explanation": "As a MapReduce application writer, you don\u2019t need to deal with InputSplits directly, as they are created by an InputFormat."
+    },
+    {
+        "question": "Which of the following is the only way of running mappers?",
+        "options": [
+            "a) MapReducer",
+            "b) MapRunner",
+            "c) MapRed",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Having calculated the splits, the client sends them to the jobtracker."
+    },
+    {
+        "question": "_________ is the base class for all implementations of InputFormat that use files as their data source.",
+        "options": [
+            "a) FileTextFormat",
+            "b) FileInputFormat",
+            "c) FileOutputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "FileInputFormat provides implementation for generating splits for the input files."
+    },
+    {
+        "question": "Which of the following method add a path or paths to the list of inputs?",
+        "options": [
+            "a) setInputPaths()",
+            "b) addInputPath()",
+            "c) setInput()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "FileInputFormat offers four static convenience methods for setting a JobConf input paths."
+    }
+]

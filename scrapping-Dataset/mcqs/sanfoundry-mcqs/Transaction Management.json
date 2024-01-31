@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Transactions can be described with key properties:-",
+        "options": [
+            "a) Atomicity",
+            "b) Consistency",
+            "c) Isolation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The concept of transactions can be described with four key properties: atomicity, consistency, isolation, and durability (ACID)."
+    },
+    {
+        "question": "To access a database running on the Derby server, you have to add:-",
+        "options": [
+            "a) Derby client library",
+            "b) Tomcat client library",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To access a database running on the Derby server, you have to the Derby client library to your CLASSPATH."
+    },
+    {
+        "question": "Spring\u2019s transaction support offers a set of technology-independent facilities, including transaction managers.",
+        "options": [
+            "a) org.springframework.transaction.PlatformTransactionManager",
+            "b) org.springframework.transaction.support.TransactionTemplate",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring\u2019s transaction support offers a set of technology-independent facilities, a transaction template (e.g., org.springframework.transaction.support.TransactionTemplate), and transaction declaration support to simplify your transaction management tasks."
+    },
+    {
+        "question": "Spring\u2019s core transaction management abstraction is based on the interface:-",
+        "options": [
+            "a) PlatformTransaction",
+            "b) PlatformTransactionManager",
+            "c) TransactionManager",
+            "d) PlatformManager"
+        ],
+        "answer": "b",
+        "explanation": "It encapsulates a set of technology-independent methods for transaction management."
+    },
+    {
+        "question": "The PlatformTransactionManager interface provides methods for working with transactions:",
+        "options": [
+            "a) getTransaction(TransactionDefinition definition)",
+            "b) commit(TransactionStatus status)",
+            "c) rollback(TransactionStatus status)",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Spring has several built-in implementations of PlatformTransactionManager interface for use with different transaction management APIs.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "A transaction manager is declared in the Spring IoC container as a normal bean.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For example, the following bean configuration declares a DataSourceTransactionManager instance. It requires the dataSource property to be set so that it can manage transactions for connections made by this data source."
+    },
+    {
+        "question": "Method that allows you to start a new transaction (or obtain the currently active transaction).",
+        "options": [
+            "a) getTransaction()",
+            "b) commit()",
+            "c) rollback()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring\u2019s transaction manager provides a technology-independent API that allows you to start a new transaction (or obtain the currently active transaction) by calling the getTransaction() method."
+    },
+    {
+        "question": "PlatformTransactionManager is an abstract unit for transaction management.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Because PlatformTransactionManager is an abstract unit for transaction management, the methods you called for transaction management are guaranteed to be technology independent."
+    },
+    {
+        "question": "Method to start a new transaction with that definition:-",
+        "options": [
+            "a) getTransaction()",
+            "b) commit()",
+            "c) rollback()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once you have a transaction definition, you can ask the transaction manager to start a new transaction with that definition by calling the getTransaction() method."
+    },
+    {
+        "question": "To help you control the overall transaction management process and transaction exception handling.",
+        "options": [
+            "a) SpringTransactionTemplate",
+            "b) TransactionTemplate",
+            "c) Transaction",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring also provides a TransactionTemplate to help you control the overall transaction management process and transaction exception handling."
+    },
+    {
+        "question": "You just have to encapsulate your code block in a callback class that implements the TransactionCallback",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In this way, you don\u2019t need to repeat the boilerplate transaction management code for this block."
+    },
+    {
+        "question": "A TransactionTemplate can accept a transaction callback object that implements:-",
+        "options": [
+            "a) TransactionCallback",
+            "b) TransactionCallbackWithoutResult class",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A TransactionTemplate can accept a transaction callback object that implements either the TransactionCallback"
+    },
+    {
+        "question": "Spring (since version 2.0) offers a transaction advice that can be easily configured via the:-",
+        "options": [
+            "a) rx:advice",
+            "b) bx:advice",
+            "c) tx:advice",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This advice can be enabled with the AOP configuration facilities defined in the aop saop schema."
+    },
+    {
+        "question": "You can omit the transaction-manager attribute in the",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This element will automatically detect a transaction manager with this name. You have to specify a transaction manager only when it has a different name."
+    }
+]

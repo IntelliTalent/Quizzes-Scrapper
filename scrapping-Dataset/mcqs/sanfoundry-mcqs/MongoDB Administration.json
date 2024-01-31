@@ -1,0 +1,101 @@
+[
+    {
+        "question": "To get a correct snapshot of a running mongod process, you must have _________ enabled.",
+        "options": [
+            "a) journaling",
+            "b) replication",
+            "c) MMS",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Without journaling enabled, there is no guarantee that the snapshot will be consistent or valid."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Journal must reside on the same logical volume as the other MongoDB data files",
+            "b) To get a consistent snapshot of a sharded system, you must disable the balancer",
+            "c) Backups produced by copying the underlying data do not support point in time recovery",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "They are difficult to manage for larger sharded clusters."
+    },
+    {
+        "question": "The _______ tool reads data from a MongoDB database and creates high fidelity BSON files.",
+        "options": [
+            "a) mdump",
+            "b) mongodump",
+            "c) mongod",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongodump is a utility for creating a binary export of the contents of a database."
+    },
+    {
+        "question": "If your storage system does not support snapshots, you can copy the files directly using ____________",
+        "options": [
+            "a) cp",
+            "b) copy",
+            "c) snap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Since copying multiple files is not an atomic operation, you must stop all writes to the mongod before copying the files."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB Cloud Manager Backup offers point in time recovery of MongoDB replica sets",
+            "b) MongoDB Cloud Manager continually backs up MongoDB replica sets",
+            "c) MMS achieves point in time recovery by storing oplog data",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB Cloud Manager Backup also offers a consistent snapshot of sharded clusters."
+    },
+    {
+        "question": "The _________ tool can populate a MongoDB database with the data from these BSON files.",
+        "options": [
+            "a) mongostore",
+            "b) mongorestore",
+            "c) mongod",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This tool is not ideal for capturing backups of larger systems."
+    },
+    {
+        "question": "For replica sets, mongodump also supports a point in time feature with the ________ option.",
+        "options": [
+            "a) \u2013oplog",
+            "b) \u2013log",
+            "c) \u2013op",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " To restore a point in time backup created with \u2013oplog, use mongorestore with the \u2013oplogReplay option."
+    },
+    {
+        "question": "If applications modify data while mongodump is creating a backup _________ will compete for resources with those applications.",
+        "options": [
+            "a) mongostore",
+            "b) mongorestore",
+            "c) mongod",
+            "d) mongodump"
+        ],
+        "answer": "d",
+        "explanation": "Applications may continue modifying data while mongodump captures the output."
+    },
+    {
+        "question": "The MongoDB ______ supports the backing up and restoring of MongoDB deployments.",
+        "options": [
+            "a) Cloud Manager",
+            "b) MMS",
+            "c) MonitorMMS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB Cloud Manager continually backs up MongoDB replica sets and sharded clusters by reading the oplog data from your MongoDB deployment."
+    }
+]

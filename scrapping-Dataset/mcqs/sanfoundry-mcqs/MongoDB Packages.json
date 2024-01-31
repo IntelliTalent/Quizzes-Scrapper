@@ -1,0 +1,112 @@
+[
+    {
+        "question": "____________ does not dump the content of the local database.",
+        "options": [
+            "a) mongoshell",
+            "b) mongodump",
+            "c) mongolocaldump",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongodump can read data from either mongod or mongos instances, in addition to reading directly from MongoDB data files without an active mongod."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The data format used by mongodump from version 2.2 or later is incompatible with earlier versions of mongod",
+            "b) The replica role confers no additional access, in keeping with the policy of least privilege",
+            "c) To backup a given database\u2019s users, you must have the replace action on the admin database\u2019s admin.system.users collection",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Do not use recent versions of mongodump to back up older data stores."
+    },
+    {
+        "question": "To backup all the databases in a cluster via mongodump, you should have the ___________ role.",
+        "options": [
+            "a) restore",
+            "b) backup",
+            "c) replication",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The backup role provides the required privileges for backing up all databases."
+    },
+    {
+        "question": "___________ is a routing service for MongoDB shard configurations that processes queries from the application layer.",
+        "options": [
+            "a) mongod",
+            "b) mongos",
+            "c) mongocon",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "From the perspective of the application, a mongos instance behaves identically to any other MongoDB instance."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To backup a given database, you must have read access on the database",
+            "b) The backup role confers no additional access, in keeping with the policy of least privilege",
+            "c) mongodumplocal overwrites output files if they exist in the backup data folder",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To backup the system.profile collection, which is created when you activate database profiling, you must have additional read access on this collection."
+    },
+    {
+        "question": "__________  sends all diagnostic logging information to a log file instead of to standard output or to the host\u2019s syslog system.",
+        "options": [
+            "a) syspath",
+            "b) syslog",
+            "c) logpath",
+            "d) syspathlog"
+        ],
+        "answer": "c",
+        "explanation": "By default, MongoDB overwrites the log file when the process restarts."
+    },
+    {
+        "question": "___________ is the primary daemon process for the MongoDB system.",
+        "options": [
+            "a) mongos",
+            "b) mongod",
+            "c) logpath",
+            "d) syspathlog"
+        ],
+        "answer": "b",
+        "explanation": "It handles data requests, manages data access, and performs background management operations."
+    },
+    {
+        "question": "__________ is a diagnostic tool for inspecting BSON files.",
+        "options": [
+            "a) jsondump",
+            "b) bsondump",
+            "c) bsondumpjson",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The bsondump converts BSON files into human-readable formats, including JSON."
+    },
+    {
+        "question": "Which of the following is a utility to check disk I/O performance independently of MongoDB?",
+        "options": [
+            "a) mongoperf",
+            "b) mongoio",
+            "c) mongod",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Specify options to mongoperf using a JavaScript document."
+    },
+    {
+        "question": "____________ utility makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.",
+        "options": [
+            "a) mongoperf",
+            "b) mongoio",
+            "c) mongod",
+            "d) mongofiles"
+        ],
+        "answer": "d",
+        "explanation": "All mongofiles commands have the following form:mongofiles <options> <commands> <filename>."
+    }
+]

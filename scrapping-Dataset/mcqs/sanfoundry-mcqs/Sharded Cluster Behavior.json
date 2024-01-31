@@ -1,0 +1,112 @@
+[
+    {
+        "question": "When a chunk grows beyond the chunk size, MongoDB attempts to split the chunk into smaller chunks, always based on ranges in the _____________",
+        "options": [
+            "a) replica set",
+            "b) shard key",
+            "c) tag sets",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Administrators create and associate tags with ranges of the shard key, and then assign those tags to the shards."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The shard key determines the distribution of the collection\u2019s documents among the cluster\u2019s shards",
+            "b) The shard key is either an indexed field or an indexed compound field that exists in every document in the collection",
+            "c) Each range, or chunk, defines a non-overlapping range of shard key values",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB distributes the chunks, and their documents, among the shards in the cluster."
+    },
+    {
+        "question": "The index on the shard key cannot be a _________ index.",
+        "options": [
+            "a) single",
+            "b) multkikey",
+            "c) unique",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Shard keys are immutable and cannot be changed after insertion."
+    },
+    {
+        "question": "Hashed shard keys use a ________ index of a single field as the shard key to partition data across your sharded cluster.",
+        "options": [
+            "a) hashed",
+            "b) unique",
+            "c) multkikey",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The field you choose as your hashed shard key should have a good cardinality, or large number of different values."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hashed keys do not work well with fields that increase monotonically like ObjectId values or timestamps",
+            "b) If you shard an empty collection using a hashed shard key, MongoDB will automatically create and migrate chunks so that each shard has two chunks",
+            "c) Hashed keys work well with ObjectId values only",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hashed keys work well with fields that increase monotonically like ObjectId values or timestamps."
+    },
+    {
+        "question": "You can control how many chunks MongoDB will create with the ___________ parameter.",
+        "options": [
+            "a) numChunks",
+            "b) numInitialChunks",
+            "c) numberofchunks",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Applications do not need to compute hashes."
+    },
+    {
+        "question": "MongoDB automatically computes the hashes when resolving queries using ______ indexes.",
+        "options": [
+            "a) hashed",
+            "b) unique",
+            "c) muiltkey",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "During a chunk migration, the destination shard is sent all the current documents in the chunk from the origin shard."
+    },
+    {
+        "question": "MongoDB generates _______ values upon document creation to produce a unique identifier for the object.",
+        "options": [
+            "a) ObjectId",
+            "b) CompId",
+            "c) DoctId",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Some possible shard keys will allow your application to take advantage of the increased write capacity that the cluster can provide, while others do not."
+    },
+    {
+        "question": "A shard key that increases monotonically will not hinder performance if most of your write operations are ____ operations.",
+        "options": [
+            "a) insert()",
+            "b) update()",
+            "c) delete()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Generally, choose shard keys that have both high cardinality and will distribute write operations across the entire cluster."
+    },
+    {
+        "question": "The mongos provides an interface for applications to interact with sharded clusters that hides the complexity of data ______",
+        "options": [
+            "a) partitioning",
+            "b) replication",
+            "c) sharding",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A mongos receives queries from applications, and uses metadata from the config server, to route queries to the mongod instances with the appropriate data."
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "question": "In Perl DBI, functions are called ______________",
+        "options": [
+            "a) functions",
+            "b) procedures",
+            "c) methods",
+            "d) programs"
+        ],
+        "answer": "c",
+        "explanation": "In the DBI API, functions are called and pointers to structures are used. The functions are called \u2018methods\u2019, pointers are called \u2018references\u2019, pointer variables are called \u2018handles\u2019."
+    },
+    {
+        "question": "Which variable is used as a handle to an open file?",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "c",
+        "explanation": "The variable named \u2018$fh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "The variable that is a handle to a database object is ______________",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "a",
+        "explanation": "The variable named \u2018$dbh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "Which variable returns code from operations that return true or false?",
+        "options": [
+            "a) $rc",
+            "b) $rv",
+            "c) $rows",
+            "d) $ary"
+        ],
+        "answer": "a",
+        "explanation": "The Perl Non-handle variable \u2018$rc\u2019 returns code from operations that return true or false. \u2018$rv\u2019 returns value from operations that return an integer. \u2018$rows\u2019 returns value from operations that return a row count."
+    },
+    {
+        "question": "The statement to remove indexes on tables is ______________",
+        "options": [
+            "a) DROP INDEX",
+            "b) DELETE INDEX",
+            "c) REMOVE INDEX",
+            "d) FLUSH INDEX"
+        ],
+        "answer": "a",
+        "explanation": "MySQL provides statements to change the structure of tables. To add or remove the indexes on the existing database tables, the \u2018CREATE INDEX\u2019 and \u2018DROP INDEX\u2019 tables are used."
+    },
+    {
+        "question": "The operator that does not perform relative-value comparisons is ______________",
+        "options": [
+            "a) =",
+            "b) ==",
+            "c) <=",
+            "d) >="
+        ],
+        "answer": "b",
+        "explanation": "The operators =, <>, >, >=, <, and <= perform relative value comparisons in MySQL. \u2018==\u2019 is not a valid comparison operator in MySQL. Such operators are useful in filtering information from a table."
+    },
+    {
+        "question": "The key declares that an index in one table is related to that in another is called _____________",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) foreign",
+            "d) cross"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, a foreign key is the one that facilitates index relations across tables. It declares that an index in one table is related to that in another and place constraints."
+    },
+    {
+        "question": "Foreign keys can handle deletes and updates.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A foreign key is the one which declares that an index in one table is related to that in another and place constraints. It is useful for handling deletes and updates along with row entries."
+    }
+]

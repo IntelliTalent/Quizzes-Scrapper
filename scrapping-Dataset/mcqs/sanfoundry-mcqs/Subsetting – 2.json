@@ -1,0 +1,61 @@
+[
+    {
+        "question": "Which of the following extracts first element from the following R list?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The [[ operator can also use named indices so that you don\u2019t have to remember the exact ordering of every element of the list."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) You can also use the $ operator to extract elements by name",
+            "b) $ operator can be used with computed indices",
+            "c) The [[ operator can only be used with literal names",
+            "d) $ operator semantics are similar to that of [["
+        ],
+        "answer": "a",
+        "explanation": "You don\u2019t need the quotes when you use the $ operator."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Element \u201cname\u201d doesn\u2019t exist."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "One thing that differentiates the [[ operator from the $ is that the [[ operator can be used with computed indices."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The [[ operator can take an integer sequence if you want to extract a nested element of a list."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Partial matching of names is allowed with [[ and $."
+    },
+    {
+        "question": "Which of the following code extracts 1st element of the 2nd element?",
+        "options": [],
+        "answer": "a",
+        "explanation": "[ operator always returns an object of the same class as the original."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "This is often very useful during interactive work if the object you\u2019re working with has very long element names."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "A common task in data analysis is removing missing values (NAs)."
+    }
+]

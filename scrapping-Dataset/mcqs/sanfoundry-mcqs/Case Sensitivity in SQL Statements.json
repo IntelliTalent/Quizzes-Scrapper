@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Case sensitivity in SQL statements does not vary for different operating systems of the machine on which the server is running.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The case sensitivity rules in SQL statements are different for different statement elements, depend on what is being referred to and also on the machine\u2019s operating system on which the server is running."
+    },
+    {
+        "question": "What is true about the following SQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The keywords and function names are not case sensitive in SQL. They can be named in any letter case. So, the above statement is correct and legal. It retrieves information from the table \u2018table_1\u2019."
+    },
+    {
+        "question": "The default case sensitivity of database and table names depends on ___________",
+        "options": [
+            "a) SQL server",
+            "b) Server SQL mode",
+            "c) Operating system of machine",
+            "d) Does not depend on anything"
+        ],
+        "answer": "c",
+        "explanation": "The default case sensitivity imposes a dependency on the operating system of the machine on which the MySQL server is running. Windows does not treat database and table names as case sensitive unlike Unix."
+    },
+    {
+        "question": "Which of the following is case sensitive?",
+        "options": [
+            "a) Stored function name",
+            "b) Stored procedure name",
+            "c) Trigger name",
+            "d) Event name"
+        ],
+        "answer": "c",
+        "explanation": "The stored functions and stored procedure names in MySQL are not case sensitive. Event names are also not case sensitive. Unlike the standard SQL, the trigger names in MySQL is case sensitive."
+    },
+    {
+        "question": "Which variable is used to set table alias names as non-case sensitive?",
+        "options": [
+            "a) lower_case_table_names",
+            "b) lower_case_all",
+            "c) lower_case_alias",
+            "d) lower_case_aliases"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, by default the alias names are case sensitive. An alias can hence be specified in any letter case, upper, lower or mixed. If the variable \u2018lower_case_table_names\u2019 is non zero, the alias names of tables are not case sensitive."
+    },
+    {
+        "question": "Which case does InnoDB store database names in?",
+        "options": [
+            "a) lower",
+            "b) upper",
+            "c) mixed",
+            "d) random"
+        ],
+        "answer": "a",
+        "explanation": "In InnoDB, all the database names as well as all the table names are stored in lowercase internally. There is no random case assignment to the database elements when the engine is set as InnoDB."
+    },
+    {
+        "question": "Regardless of whether a database or table name is case sensitive on the system, it must be referred to using the same lettercase throughout a given query.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A database or table name must be referred to using the same lettercase throughout a given query. This is regardless of the fact whether it is case sensitive on the system or not."
+    },
+    {
+        "question": "Which of the following is case sensitive in MySQL?",
+        "options": [
+            "a) Event names",
+            "b) Logfile group names",
+            "c) Column names",
+            "d) Indexes"
+        ],
+        "answer": "b",
+        "explanation": "Column names and indexes are not case sensitive on any platform and neither are column aliases. Unlike the standard SQL, the names of the log file groups are always case sensitive."
+    },
+    {
+        "question": "Which property determines whether a database object is a case sensitive?",
+        "options": [
+            "a) COLLATION",
+            "b) ATOMICITY",
+            "c) COLLABORATION",
+            "d) NORMALIZATION"
+        ],
+        "answer": "a",
+        "explanation": "The way to determine whether a database object or a database is case sensitive or not is to check the \u2018COLLATION\u2019 property. The result would be either CI for insensitive or CS for sensitive."
+    },
+    {
+        "question": "What is AI in terms of database collation?",
+        "options": [
+            "a) Accent Insensitive",
+            "b) Augment Insensitive",
+            "c) Articulate Insensitive",
+            "d) Addition Insensitive"
+        ],
+        "answer": "a",
+        "explanation": "The collation in the database can also be specified in the join or comparison conditions. The value \u2018AI\u2019 means \u2018Accent Insensitive\u2019. \u2018CS\u2019 is case sensitive and \u2018CI\u2019 is case insensitive."
+    }
+]

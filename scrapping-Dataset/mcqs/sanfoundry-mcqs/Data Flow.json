@@ -1,0 +1,112 @@
+[
+    {
+        "question": "________ is a programming model designed for processing large volumes of data in parallel by dividing the work into a set of independent tasks.",
+        "options": [
+            "a) Hive",
+            "b) MapReduce",
+            "c) Pig",
+            "d) Lucene"
+        ],
+        "answer": "b",
+        "explanation": "MapReduce is the heart of hadoop."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Data locality means movement of the algorithm to the data instead of data to algorithm",
+            "b) When the processing is done on the data algorithm is moved across the Action Nodes rather than data to the algorithm",
+            "c) Moving Computation is expensive than Moving Data",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Data flow framework possesses the feature of data locality."
+    },
+    {
+        "question": "The daemons associated with the MapReduce phase are ________ and task-trackers.",
+        "options": [
+            "a) job-tracker",
+            "b) map-tracker",
+            "c) reduce-tracker",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Map-Reduce jobs are submitted on job-tracker."
+    },
+    {
+        "question": "The JobTracker pushes work out to available _______ nodes in the cluster, striving to keep the work as close to the data as possible.",
+        "options": [
+            "a) DataNodes",
+            "b) TaskTracker",
+            "c) ActionNodes",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A heartbeat is sent from the TaskTracker to the JobTracker every few minutes to check its status whether the node is dead or alive."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The map function in Hadoop MapReduce have the following general form:map:(K1, V1) -> list(K2, V2)",
+            "b) The reduce function in Hadoop MapReduce have the following general form: reduce: (K2, list(V2)) -> list(K3, V3)",
+            "c) MapReduce has a complex model of data processing: inputs and outputs for the map and reduce functions are key-value pairs",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MapReduce is relatively simple model to implement in Hadoop."
+    },
+    {
+        "question": "InputFormat class calls the ________ function and computes splits for each file and then sends them to the jobtracker.",
+        "options": [
+            "a) puts",
+            "b) gets",
+            "c) getSplits",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "InputFormat uses their storage locations to schedule map tasks to process them on the tasktrackers."
+    },
+    {
+        "question": " On a tasktracker, the map task passes the split to the createRecordReader() method on InputFormat to obtain a _________ for that split.",
+        "options": [
+            "a) InputReader",
+            "b) RecordReader",
+            "c) OutputReader",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The RecordReader loads data from its source and converts into key-value pairs suitable for reading by mapper."
+    },
+    {
+        "question": "The default InputFormat is __________ which treats each value of input a new value and the associated key is byte offset.",
+        "options": [
+            "a) TextFormat",
+            "b) TextInputFormat",
+            "c) InputFormat",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A RecordReader is little more than an iterator over records, and the map task uses one to generate record key-value pairs."
+    },
+    {
+        "question": "__________ controls the partitioning of the keys of the intermediate map-outputs.",
+        "options": [
+            "a) Collector",
+            "b) Partitioner",
+            "c) InputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The output of the mapper is sent to the partitioner."
+    },
+    {
+        "question": "Output of the mapper is first written on the local disk for sorting and _________ process.",
+        "options": [
+            "a) shuffling",
+            "b) secondary sorting",
+            "c) forking",
+            "d) reducing"
+        ],
+        "answer": "a",
+        "explanation": "All values corresponding to the same key will go the same reducer."
+    }
+]

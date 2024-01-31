@@ -1,0 +1,754 @@
+[
+    {
+        "question": "Partitioner controls the partitioning of what data?",
+        "options": [
+            "final keys",
+            "final values",
+            "intermediate keys",
+            "intermediate values"
+        ],
+        "answer": "intermediate keys"
+    },
+    {
+        "question": "SQL Windowing functions are implemented in Hive using which keywords?",
+        "options": [
+            "UNION DISTINCT, RANK",
+            "OVER, RANK",
+            "OVER, EXCEPT",
+            "UNION DISTINCT, RANK"
+        ],
+        "answer": "OVER, RANK"
+    },
+    {
+        "question": "Rather than adding a Secondary Sort to a slow Reduce job, it is Hadoop best practice to perform which optimization?",
+        "options": [
+            "Add a partitioned shuffle to the Map job.",
+            "Add a partitioned shuffle to the Reduce job.",
+            "Break the Reduce job into multiple, chained Reduce jobs.",
+            "Break the Reduce job into multiple, chained Map jobs."
+        ],
+        "answer": "Add a partitioned shuffle to the Reduce job."
+    },
+    {
+        "question": "Hadoop Auth enforces authentication on protected resources. Once authentication has been established, it sets what type of authenticating cookie?",
+        "options": [
+            "encrypted HTTP",
+            "unsigned HTTP",
+            "compressed HTTP",
+            "signed HTTP"
+        ],
+        "answer": "signed HTTP"
+    },
+    {
+        "question": "MapReduce jobs can be written in which language?",
+        "options": [
+            "Java or Python",
+            "SQL only",
+            "SQL or Java",
+            "Python or SQL"
+        ],
+        "answer": "Java or Python"
+    },
+    {
+        "question": "To perform local aggregation of the intermediate outputs, MapReduce users can optionally specify which object?",
+        "options": [
+            "Reducer",
+            "Combiner",
+            "Mapper",
+            "Counter"
+        ],
+        "answer": "Combiner"
+    },
+    {
+        "question": "To verify job status, look for the value `___` in the `___`.",
+        "options": [
+            "SUCCEEDED; syslog",
+            "SUCCEEDED; stdout",
+            "DONE; syslog",
+            "DONE; stdout"
+        ],
+        "answer": "SUCCEEDED; stdout"
+    },
+    {
+        "question": "Which line of code implements a Reducer method in MapReduce 2.0?",
+        "options": [
+            "public void reduce(Text key, Iterator<IntWritable> values, Context context){\u2026}",
+            "public static void reduce(Text key, IntWritable[] values, Context context){\u2026}",
+            "public static void reduce(Text key, Iterator<IntWritable> values, Context context){\u2026}",
+            "public void reduce(Text key, IntWritable[] values, Context context){\u2026}"
+        ],
+        "answer": "public void reduce(Text key, Iterator<IntWritable> values, Context context){\u2026}"
+    },
+    {
+        "question": "To get the total number of mapped input records in a map job task, you should review the value of which counter?",
+        "options": [
+            "FileInputFormatCounter",
+            "FileSystemCounter",
+            "JobCounter",
+            "TaskCounter (NOT SURE)"
+        ],
+        "answer": "TaskCounter (NOT SURE)"
+    },
+    {
+        "question": "Hadoop Core supports which CAP capabilities?",
+        "options": [
+            "A, P",
+            "C, A",
+            "C, P",
+            "C, A, P"
+        ],
+        "answer": "A, P"
+    },
+    {
+        "question": "What are the primary phases of a Reducer?",
+        "options": [
+            "combine, map, and reduce",
+            "shuffle, sort, and reduce",
+            "reduce, sort, and combine",
+            "map, sort, and combine"
+        ],
+        "answer": "shuffle, sort, and reduce"
+    },
+    {
+        "question": "To set up Hadoop workflow with synchronization of data between jobs that process tasks both on disk and in memory, use the `___` service, which is `___`.",
+        "options": [
+            "Oozie; open source",
+            "Oozie; commercial software",
+            "Zookeeper; commercial software",
+            "Zookeeper; open source"
+        ],
+        "answer": "Zookeeper; open source"
+    },
+    {
+        "question": "For high availability, which type of multiple nodes should you use?",
+        "options": [
+            "data",
+            "name",
+            "memory",
+            "worker"
+        ],
+        "answer": "name"
+    },
+    {
+        "question": "DataNode supports which type of drives?",
+        "options": [
+            "hot swappable",
+            "cold swappable",
+            "warm swappable",
+            "non-swappable"
+        ],
+        "answer": "hot swappable"
+    },
+    {
+        "question": "Which method is used to implement Spark jobs?",
+        "options": [
+            "on disk of all workers",
+            "on disk of the master node",
+            "in memory of the master node",
+            "in memory of all workers"
+        ],
+        "answer": "in memory of all workers"
+    },
+    {
+        "question": "In a MapReduce job, where does the map() function run?",
+        "options": [
+            "on the reducer nodes of the cluster",
+            "on the data nodes of the cluster (NOT SURE)",
+            "on the master node of the cluster",
+            "on every node of the cluster"
+        ],
+        "answer": "on the data nodes of the cluster (NOT SURE)"
+    },
+    {
+        "question": "To reference a master file for lookups during Mapping, what type of cache should be used?",
+        "options": [
+            "distributed cache",
+            "local cache",
+            "partitioned cache",
+            "cluster cache"
+        ],
+        "answer": "distributed cache"
+    },
+    {
+        "question": "Skip bad records provides an option where a certain set of bad input records can be skipped when processing what type of data?",
+        "options": [
+            "cache inputs",
+            "reducer inputs",
+            "intermediate values",
+            "map inputs"
+        ],
+        "answer": "map inputs"
+    },
+    {
+        "question": "Which command imports data to Hadoop from a MySQL database?",
+        "options": [
+            "spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --warehouse-dir user/hue/oozie/deployments/spark",
+            "sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --warehouse-dir user/hue/oozie/deployments/sqoop",
+            "sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --password sqoop --warehouse-dir user/hue/oozie/deployments/sqoop",
+            "spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --password spark --warehouse-dir user/hue/oozie/deployments/spark"
+        ],
+        "answer": "sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --password sqoop --warehouse-dir user/hue/oozie/deployments/sqoop"
+    },
+    {
+        "question": "In what form is Reducer output presented?",
+        "options": [
+            "compressed (NOT SURE)",
+            "sorted",
+            "not sorted",
+            "encrypted"
+        ],
+        "answer": "compressed (NOT SURE)"
+    },
+    {
+        "question": "Which library should be used to unit test MapReduce code?",
+        "options": [
+            "JUnit",
+            "XUnit",
+            "MRUnit",
+            "HadoopUnit"
+        ],
+        "answer": "MRUnit"
+    },
+    {
+        "question": "If you started the NameNode, then which kind of user must you be?",
+        "options": [
+            "hadoop-user",
+            "super-user",
+            "node-user",
+            "admin-user"
+        ],
+        "answer": "super-user"
+    },
+    {
+        "question": "State \\_ between the JVMs in a MapReduce job",
+        "options": [
+            "can be configured to be shared",
+            "is partially shared",
+            "is shared",
+            "is not shared (https://www.lynda.com/Hadoop-tutorials/Understanding-Java-virtual-machines-JVMs/191942/369545-4.html)"
+        ],
+        "answer": "is not shared (https://www.lynda.com/Hadoop-tutorials/Understanding-Java-virtual-machines-JVMs/191942/369545-4.html)"
+    },
+    {
+        "question": "To create a MapReduce job, what should be coded first?",
+        "options": [
+            "a static job() method",
+            "a Job class and instance (NOT SURE)",
+            "a job() method",
+            "a static Job class"
+        ],
+        "answer": "a Job class and instance (NOT SURE)"
+    },
+    {
+        "question": "To connect Hadoop to AWS S3, which client should you use?",
+        "options": [
+            "S3A",
+            "S3N",
+            "S3",
+            "the EMR S3"
+        ],
+        "answer": "S3A"
+    },
+    {
+        "question": "HBase works with which type of schema enforcement?",
+        "options": [
+            "schema on write",
+            "no schema",
+            "external schema",
+            "schema on read"
+        ],
+        "answer": "schema on read"
+    },
+    {
+        "question": "HDFS files are of what type?",
+        "options": [
+            "read-write",
+            "read-only",
+            "write-only",
+            "append-only"
+        ],
+        "answer": "append-only"
+    },
+    {
+        "question": "A distributed cache file path can originate from what location?",
+        "options": [
+            "hdfs or top",
+            "http",
+            "hdfs or http",
+            "hdfs"
+        ],
+        "answer": "hdfs or http"
+    },
+    {
+        "question": "Which library should you use to perform ETL-type MapReduce jobs?",
+        "options": [
+            "Hive",
+            "Pig",
+            "Impala",
+            "Mahout"
+        ],
+        "answer": "Pig"
+    },
+    {
+        "question": "What is the output of the Reducer?",
+        "options": [
+            "a relational table",
+            "an update to the input file",
+            "a single, combined list",
+            "a set of <key, value> pairs"
+        ],
+        "answer": "a set of <key, value> pairs"
+    },
+    {
+        "question": "To optimize a Mapper, what should you perform first?",
+        "options": [
+            "Override the default Partitioner.",
+            "Skip bad records.",
+            "Break up Mappers that do more than one task into multiple Mappers.",
+            "Combine Mappers that do one task into large Mappers."
+        ],
+        "answer": "Break up Mappers that do more than one task into multiple Mappers."
+    },
+    {
+        "question": "When implemented on a public cloud, with what does Hadoop processing interact?",
+        "options": [
+            "files in object storage",
+            "graph data in graph databases",
+            "relational data in managed RDBMS systems",
+            "JSON data in NoSQL databases"
+        ],
+        "answer": "files in object storage"
+    },
+    {
+        "question": "In the Hadoop system, what administrative mode is used for maintenance?",
+        "options": [
+            "data mode",
+            "safe mode",
+            "single-user mode",
+            "pseudo-distributed mode"
+        ],
+        "answer": "safe mode"
+    },
+    {
+        "question": "In what format does RecordWriter write an output file?",
+        "options": [
+            "<key, value> pairs",
+            "keys",
+            "values",
+            "<value, key> pairs"
+        ],
+        "answer": "<key, value> pairs"
+    },
+    {
+        "question": "To what does the Mapper map input key/value pairs?",
+        "options": [
+            "an average of keys for values",
+            "a sum of keys for values",
+            "a set of intermediate key/value pairs",
+            "a set of final key/value pairs"
+        ],
+        "answer": "a set of intermediate key/value pairs"
+    },
+    {
+        "question": "Which Hive query returns the first 1,000 values?",
+        "options": [
+            "SELECT\u2026WHERE value = 1000",
+            "SELECT \u2026 LIMIT 1000",
+            "SELECT TOP 1000 \u2026",
+            "SELECT MAX 1000\u2026"
+        ],
+        "answer": "SELECT \u2026 LIMIT 1000"
+    },
+    {
+        "question": "To implement high availability, how many instances of the master node should you configure?",
+        "options": [
+            "one",
+            "zero",
+            "shared",
+            "two or more (https://data-flair.training/blogs/hadoop-high-availability-tutorial)"
+        ],
+        "answer": "two or more (https://data-flair.training/blogs/hadoop-high-availability-tutorial)"
+    },
+    {
+        "question": "Hadoop 2.x and later implement which service as the resource coordinator?",
+        "options": [
+            "kubernetes",
+            "JobManager",
+            "JobTracker",
+            "YARN"
+        ],
+        "answer": "YARN"
+    },
+    {
+        "question": "In MapReduce, **\\_** have \\_",
+        "options": [
+            "tasks; jobs",
+            "jobs; activities",
+            "jobs; tasks",
+            "activities; tasks"
+        ],
+        "answer": "jobs; tasks"
+    },
+    {
+        "question": "What type of software is Hadoop Common?",
+        "options": [
+            "database",
+            "distributed computing framework",
+            "operating system",
+            "productivity tool"
+        ],
+        "answer": "distributed computing framework"
+    },
+    {
+        "question": "If no reduction is desired, you should set the numbers of \\_ tasks to zero.",
+        "options": [
+            "combiner",
+            "reduce",
+            "mapper",
+            "intermediate"
+        ],
+        "answer": "reduce"
+    },
+    {
+        "question": "MapReduce applications use which of these classes to report their statistics?",
+        "options": [
+            "mapper",
+            "reducer",
+            "combiner",
+            "counter"
+        ],
+        "answer": "counter"
+    },
+    {
+        "question": "\\_ is the query language, and \\_ is storage for NoSQL on Hadoop.",
+        "options": [
+            "HDFS; HQL",
+            "HQL; HBase",
+            "HDFS; SQL",
+            "SQL; HBase"
+        ],
+        "answer": "HQL; HBase"
+    },
+    {
+        "question": "MapReduce 1.0 \\_ YARN.",
+        "options": [
+            "does not include",
+            "is the same thing as",
+            "includes",
+            "replaces"
+        ],
+        "answer": "does not include"
+    },
+    {
+        "question": "Which type of Hadoop node executes file system namespace operations like opening, closing, and renaming files and directories?",
+        "options": [
+            "ControllerNode",
+            "DataNode",
+            "MetadataNode",
+            "NameNode"
+        ],
+        "answer": "NameNode"
+    },
+    {
+        "question": "HQL queries produce which job types?",
+        "options": [
+            "Impala",
+            "MapReduce",
+            "Spark",
+            "Pig"
+        ],
+        "answer": "MapReduce"
+    },
+    {
+        "question": "Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?",
+        "options": [
+            "as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);",
+            "as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);",
+            "as (text:CHAR[]); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);",
+            "as (text:CHARARRAY); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);"
+        ],
+        "answer": "as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);"
+    },
+    {
+        "question": "In a MapReduce job, which phase runs after the Map phase completes?",
+        "options": [
+            "Combiner",
+            "Reducer",
+            "Map2",
+            "Shuffle and Sort"
+        ],
+        "answer": "Combiner"
+    },
+    {
+        "question": "Where would you configure the size of a block in a Hadoop environment?",
+        "options": [
+            "dfs.block.size in hdfs-site.xmls",
+            "orc.write.variable.length.blocks in hive-default.xml",
+            "mapreduce.job.ubertask.maxbytes in mapred-site.xml",
+            "hdfs.block.size in hdfs-site.xml"
+        ],
+        "answer": "dfs.block.size in hdfs-site.xmls"
+    },
+    {
+        "question": "Hadoop systems are **\\_** RDBMS systems.",
+        "options": [
+            "replacements for",
+            "not used with",
+            "substitutes for",
+            "additions for"
+        ],
+        "answer": "additions for"
+    },
+    {
+        "question": "Which object can be used to distribute jars or libraries for use in MapReduce tasks?",
+        "options": [
+            "distributed cache",
+            "library manager",
+            "lookup store",
+            "registry"
+        ],
+        "answer": "distributed cache"
+    },
+    {
+        "question": "To view the execution details of an Impala query plan, which function would you use?",
+        "options": [
+            "explain",
+            "query action",
+            "detail",
+            "query plan"
+        ],
+        "answer": "explain"
+    },
+    {
+        "question": "Which feature is used to roll back a corrupted HDFS instance to a previously known good point in time?",
+        "options": [
+            "partitioning",
+            "snapshot",
+            "replication",
+            "high availability"
+        ],
+        "answer": "snapshot"
+    },
+    {
+        "question": "Hadoop Common is written in which language?",
+        "options": [
+            "C++",
+            "C",
+            "Haskell",
+            "Java"
+        ],
+        "answer": "Java"
+    },
+    {
+        "question": "Which file system does Hadoop use for storage?",
+        "options": [
+            "NAS",
+            "FAT",
+            "HDFS",
+            "NFS"
+        ],
+        "answer": "HDFS"
+    },
+    {
+        "question": "What kind of storage and processing does Hadoop support?",
+        "options": [
+            "encrypted",
+            "verified",
+            "distributed",
+            "remote"
+        ],
+        "answer": "distributed"
+    },
+    {
+        "question": "Hadoop Common consists of which components?",
+        "options": [
+            "Spark and YARN",
+            "HDFS and MapReduce",
+            "HDFS and S3",
+            "Spark and MapReduce"
+        ],
+        "answer": "HDFS and MapReduce"
+    },
+    {
+        "question": "Most Apache Hadoop committers' work is done at which commercial company?",
+        "options": [
+            "Cloudera",
+            "Microsoft",
+            "Google",
+            "Amazon"
+        ],
+        "answer": "Amazon"
+    },
+    {
+        "question": "To get information about Reducer job runs, which object should be added?",
+        "options": [
+            "Reporter",
+            "IntReadable",
+            "IntWritable",
+            "Writer"
+        ],
+        "answer": "Reporter"
+    },
+    {
+        "question": "After changing the default block size and restarting the cluster, to which data does the new size apply?",
+        "options": [
+            "all data",
+            "no data",
+            "existing data",
+            "new data"
+        ],
+        "answer": "new data"
+    },
+    {
+        "question": "Which statement should you add to improve the performance of the following query?",
+        "options": [
+            "GROUP BY",
+            "FILTER",
+            "SUB-SELECT",
+            "SORT"
+        ],
+        "answer": "SORT"
+    },
+    {
+        "question": "What custom object should you implement to reduce IO in MapReduce?",
+        "options": [
+            "Comparator",
+            "Mapper",
+            "Combiner",
+            "Reducer"
+        ],
+        "answer": "Combiner"
+    },
+    {
+        "question": "You can optimize Hive queries using which method?",
+        "options": [
+            "secondary indices",
+            "summary statistics",
+            "column-based statistics",
+            "a primary key index"
+        ],
+        "answer": "secondary indices"
+    },
+    {
+        "question": "If you are processing a single action on each input, what type of job should you create?",
+        "options": [
+            "partition-only",
+            "map-only",
+            "reduce-only",
+            "combine-only"
+        ],
+        "answer": "map-only"
+    },
+    {
+        "question": "The simplest possible MapReduce job optimization is to perform which of these actions?",
+        "options": [
+            "Add more master nodes.",
+            "Implement optimized InputSplits.",
+            "Add more DataNodes.",
+            "Implement a custom Mapper."
+        ],
+        "answer": "Implement optimized InputSplits."
+    },
+    {
+        "question": "When you implement a custom Writable, you must also define which of these object?",
+        "options": [
+            "a sort policy",
+            "a combiner policy",
+            "a compression policy",
+            "a filter policy"
+        ],
+        "answer": "a combiner policy"
+    },
+    {
+        "question": "To copy a file into the Hadoop file system, what command should you use?",
+        "options": [
+            "hadoop fs -copy <fromDir> <toDir>",
+            "hadoop fs -copy <toDir> <fromDir>",
+            "hadoop fs -copyFromLocal <fromDir> <toDir>",
+            "hadoop fs -copyFromLocal <toDir> <fromDir>"
+        ],
+        "answer": "hadoop fs -copyFromLocal <fromDir> <toDir>"
+    },
+    {
+        "question": "Delete a Hive **\\_** table and you will delete the table **\\_**.",
+        "options": [
+            "managed; metadata",
+            "external; data and metadata",
+            "external; metadata",
+            "managed; data"
+        ],
+        "answer": "managed; data"
+    },
+    {
+        "question": "To see how Hive executed a JOIN operation, use the \\_ statement and look for the \\_ value.",
+        "options": [
+            "EXPLAIN; JOIN Operator",
+            "QUERY; MAP JOIN Operator",
+            "EXPLAIN; MAP JOIN Operator",
+            "QUERY; JOIN Operator"
+        ],
+        "answer": "EXPLAIN; JOIN Operator"
+    },
+    {
+        "question": "Pig operates in mainly how many nodes?",
+        "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ],
+        "answer": "Two"
+    },
+    {
+        "question": "After loading data, **\\_** and then run a(n) **\\_** query for interactive queries.",
+        "options": [
+            "invalidate metadata; Impala",
+            "validate metadata; Impala",
+            "invalidate metadata; Hive",
+            "validate metadata; Hive"
+        ],
+        "answer": "invalidate metadata; Impala"
+    },
+    {
+        "question": "In Hadoop MapReduce job code, what must be static?",
+        "options": [
+            "configuration",
+            "Mapper and Reducer",
+            "Mapper",
+            "Reducer"
+        ],
+        "answer": "Mapper and Reducer"
+    },
+    {
+        "question": "In Hadoop simple mode, which object determines the identity of a client process?",
+        "options": [
+            "Kerberos ticket",
+            "kubernetes token",
+            "guest operating system",
+            "host operating system"
+        ],
+        "answer": "host operating system"
+    },
+    {
+        "question": "Which is not a valid input format for a MapReduce job?",
+        "options": [
+            "FileReader",
+            "CompositeInputFormat",
+            "RecordReader",
+            "TextInputFormat"
+        ],
+        "answer": "FileReader"
+    },
+    {
+        "question": "If you see org.apache.hadoop.mapred, which version of MapReduce are you working with?",
+        "options": [
+            "1.x",
+            "0.x",
+            "2.x",
+            "3.x"
+        ],
+        "answer": "1.x",
+        "explanation": null,
+        "codeblock": null
+    }
+]

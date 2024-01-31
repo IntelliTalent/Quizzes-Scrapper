@@ -1,0 +1,107 @@
+[
+    {
+        "question": "The most convenient way to use R is at a graphics workstation running a ________ system.",
+        "options": [
+            "a) windowing",
+            "b) running",
+            "c) interfacing",
+            "d) matrix"
+        ],
+        "answer": "a",
+        "explanation": "Most classical statistics and much of the latest methodology is available for use with R."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Setting up a workstation to take full advantage of the customizable features of R is a straightforward thing",
+            "b) q() is used to quit the R program",
+            "c) R has an inbuilt help facility similar to the man facility of UNIX",
+            "d) Windows versions of R have other optional help systems also"
+        ],
+        "answer": "b",
+        "explanation": "help command is used for knowing details of particular command in R."
+    },
+    {
+        "question": "Which of the following is default prompt for UNIX environment?",
+        "options": [
+            "a) >",
+            "b) >>",
+            "c) <",
+            "d) <<"
+        ],
+        "answer": "a",
+        "explanation": "When you use the R program it issues a prompt when it expects input commands."
+    },
+    {
+        "question": "Which of the following will start the R program?",
+        "options": [
+            "a) $ R",
+            "b) > R",
+            "c) * R",
+            "d) @ R"
+        ],
+        "answer": "a",
+        "explanation": "At this point R commands may be issued."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Windows versions of R have other optional help system also",
+            "b) The help.search command (alternatively ??) allows searching for help in various ways",
+            "c) R is case insensitive as are most UNIX based packages, so A and a are different symbols and would refer to different variables",
+            "d) $ R is used to start the R program"
+        ],
+        "answer": "c",
+        "explanation": "R is an expression language with a very simple syntax."
+    },
+    {
+        "question": "Which of the following statement is alternative to _________",
+        "options": [],
+        "answer": "a",
+        "explanation": "help is used to get more information on any specific named function."
+    },
+    {
+        "question": "Elementary commands in R consist of either _______ or assignments.",
+        "options": [
+            "a) utilstats",
+            "b) language",
+            "c) expressions",
+            "d) packages"
+        ],
+        "answer": "c",
+        "explanation": " If an expression is given as a command, it is evaluated, printed (unless specifically made invisible), and the value is lost."
+    },
+    {
+        "question": "If a command is not complete at the end of a line, R will give a different prompt, by default it is ____________",
+        "options": [
+            "a) *",
+            "b) \u2013",
+            "c) +",
+            "d) /"
+        ],
+        "answer": "c",
+        "explanation": "Comments can be put almost anywhere, starting with a hashmark (\u2018#\u2019), everything to the end of the line is a comment."
+    },
+    {
+        "question": "Command lines entered at the console are limited to about ________ bytes.",
+        "options": [
+            "a) 3000",
+            "b) 4095",
+            "c) 5000",
+            "d) 6000"
+        ],
+        "answer": "b",
+        "explanation": "Elementary commands can be grouped together into one compound expression by braces (\u2018{\u2019 and \u2018}\u2019)."
+    },
+    {
+        "question": "10._____ text editor provides more general support mechanisms via ESS for working interactively with R.",
+        "options": [
+            "a) EAC",
+            "b) Emacs",
+            "c) Shell",
+            "d) ECAP"
+        ],
+        "answer": "b",
+        "explanation": "The recall and editing capabilities under UNIX are highly customizable."
+    }
+]

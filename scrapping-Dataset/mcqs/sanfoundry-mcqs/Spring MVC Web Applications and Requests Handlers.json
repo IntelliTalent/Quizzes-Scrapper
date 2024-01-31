@@ -1,0 +1,150 @@
+[
+    {
+        "question": "Design pattern implemented by Dispatcher Servlet.",
+        "options": [
+            "a) jsp",
+            "b) tiles",
+            "c) front controller",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A Spring MVC controller\u2014often referred to as a Dispatcher Servlet\u2014implements one of Sun\u2019s core Java EE design patterns called front controller."
+    },
+    {
+        "question": "Class used to give a class behavior of a Dispatcher Servlet.",
+        "options": [
+            "a) AbstractController",
+            "b) Controller",
+            "c) Abstract Class",
+            "d) AbstractAction"
+        ],
+        "answer": "a",
+        "explanation": "Prior to Spring 3.0 one of a series of classes, such as AbstractController, were used to give a class the behavior of a Dispatcher Servlet."
+    },
+    {
+        "question": "Annotation for Controller Class.",
+        "options": [
+            "a) @Before",
+            "b) @Controller",
+            "c) @After",
+            "d) @Exception"
+        ],
+        "answer": "b",
+        "explanation": "When a @Controller annotated class (i.e., a controller class) receives a request, it looks for an appropriate handler method to handle the request."
+    },
+    {
+        "question": "Handler method annotation.",
+        "options": [
+            "a) @Before",
+            "b) @Controller",
+            "c) @After",
+            "d) @RequestMapping"
+        ],
+        "answer": "d",
+        "explanation": "In order to do so, a controller class\u2019s methods are decorated with the @RequestMapping annotation, making them handler methods."
+    },
+    {
+        "question": "Method arguments that can be used in handler methods using the @RequestMapping annotation.",
+        "options": [
+            "a) HttpServletRequest or HttpServleResponse",
+            "b) @RequestParam",
+            "c) @ModelAttribute",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The above mentioned is only a partial list of valid argument types, just to give you an idea."
+    },
+    {
+        "question": "To add attributes to the model.",
+        "options": [
+            "a) Map",
+            "b) ModelMap",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Map or ModelMap, for the handler method to add attributes to the model."
+    },
+    {
+        "question": "To access the binding and validation result for the command object.",
+        "options": [
+            "a) Errors",
+            "b) BindingResult",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Errors or BindingResult, for the handler method to access the binding and validation result for the command object."
+    },
+    {
+        "question": "To notify its completion of session processing.",
+        "options": [
+            "a) Errors",
+            "b) BindingResult",
+            "c) SessionStatus",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SessionStatus, for the handler method to notify its completion of session processing."
+    },
+    {
+        "question": "Controller Class renders the objects passed by the controller\u2019s handler method.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Once the controller class has resolved a view name into a view implementation, per the view implementation design, it renders the objects (e.g., HttpServletRequest, Map, Errors, or SessionStatus) passed by the controller\u2019s handler method."
+    },
+    {
+        "question": "Parameter used to specify a configuration file.",
+        "options": [
+            "a) contextConfigLocation",
+            "b) contextConfigure",
+            "c) contextLocation",
+            "d) none of these"
+        ],
+        "answer": "a",
+        "explanation": "By default, a look is made for a file by joining the servlet name with -servlet.xml as the file name. You can explicitly specify a configuration file in the contextConfigLocation servlet parameter."
+    },
+    {
+        "question": "The @RequestMapping annotation can be applied to the class level only.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The @RequestMapping annotation can be applied to the class level or the method level."
+    },
+    {
+        "question": "Bean classes pre-registered in the web application context by default.",
+        "options": [
+            "a) DefaultAnnotationHandlerMapping",
+            "b) AnnotationMethodHandlerAdapter",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Next, the DefaultAnnotationHandlerMapping and AnnotationMethodHandlerAdapter bean classes are pre-registered in the web application context by default."
+    },
+    {
+        "question": "By default, @RequestMapping gets all the POST Requests.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "By default, @RequestMapping annotations assume all incoming requests are of the HTTP GET kind, which is the most common in web applications."
+    },
+    {
+        "question": "Callback methods provided by HandlerInterceptor to implement.",
+        "options": [
+            "a) preHandle()",
+            "b) postHandle()",
+            "c) afterCompletion()",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Each handler interceptor must implement the HandlerInterceptor interface, which contains three callback methods for you to implement: preHandle(), postHandle(), and afterCompletion()."
+    }
+]

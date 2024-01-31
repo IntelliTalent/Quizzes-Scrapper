@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The basic operation of PHP is to interpret a script.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The elementary operation of PHP is interpreting a script in order to produce a web page. This is sent to a client. A PHP script generally contains a mix of HTML and executable code."
+    },
+    {
+        "question": "The PHP interpreter switches mode continuously.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "As soon as the PHP interpreter comes across a special opening tag it switches from \u2018text copy\u2019 mode to \u2018PHP code\u2019 mode. It starts interpreting the file as PHP code to be executed."
+    },
+    {
+        "question": "The output from PHP is __________",
+        "options": [
+            "a) statically generated",
+            "b) dynamically generated",
+            "c) not generated",
+            "d) no output"
+        ],
+        "answer": "b",
+        "explanation": "The interpreter switches between code mode back and text mode when it sees another special tag which signals the end of the code. This enables the mix of static text with dynamically generated results."
+    },
+    {
+        "question": "PHP variables are preceded by __________",
+        "options": [
+            "a) _",
+            "b) @",
+            "c) $",
+            "d) &"
+        ],
+        "answer": "c",
+        "explanation": "All the PHP scripts that use variables have variable names preceded by the dollar sign (\u2018$\u2019). The variables are signified by this identifier, irrespective of the value it stores."
+    },
+    {
+        "question": "The datatype best suited to store currency values is __________",
+        "options": [
+            "a) INT",
+            "b) FLOAT",
+            "c) DOUBLE",
+            "d) DECIMAL"
+        ],
+        "answer": "d",
+        "explanation": "Currency is a numeric information. For monetary calculations, FLOAT and DOUBLE are subject to rounding error and may not be suitable. A DECIMAL(M, 2) type is best suited for it."
+    },
+    {
+        "question": "What returns a result to the client?",
+        "options": [
+            "a) Stored functions",
+            "b) Stored procedures",
+            "c) Triggers",
+            "d) Events"
+        ],
+        "answer": "a",
+        "explanation": "Stored functions return a result from a calculation and can be used in expressions. Stored procedures do not return a result directly but can be used to perform general computations."
+    },
+    {
+        "question": "What is defined to execute when the table is modified only?",
+        "options": [
+            "a) Stored functions",
+            "b) Stored procedures",
+            "c) Triggers",
+            "d) Events"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, triggers are associated with a table. They are defined to execute when the table is modified via INSERT, DELETE or UPDATE statements. MySQL supports objects to be stored on server side."
+    },
+    {
+        "question": "Which statement is used to produce a stored function?",
+        "options": [
+            "a) PRODUCE FUNCTION",
+            "b) CREATE FUNCTION",
+            "c) PRODUCE PROCEDURE",
+            "d) CREATE PROCEDURE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CREATE FUNCTION\u2019 statement is used to create a stored function in MySQL. The \u2018CREATE PROCEDURE\u2019 statement is used to create a stored procedure instead, from which values are not returned."
+    },
+    {
+        "question": "The number of values that can be returned from a given stored function is ______________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the stored function cannot return multiple values. Instead, multiple stored functions can be written and invoked from within a single statement however, they are different from stored procedures."
+    },
+    {
+        "question": "The statement used to create a trigger is ______________",
+        "options": [
+            "a) CREATE TRIGGER",
+            "b) CREATE TRIGGERS",
+            "c) PRODUCE TRIGGER",
+            "d) PRODUCE TRIGGERS"
+        ],
+        "answer": "a",
+        "explanation": "In order to create a trigger, the CREATE TRIGGER statement is used. The definition indicates the particular type of statement for which the trigger activates and whether it activates before or after the rows are modified."
+    }
+]

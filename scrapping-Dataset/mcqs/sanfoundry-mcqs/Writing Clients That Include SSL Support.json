@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What enables encrypted connections to be established?",
+        "options": [
+            "a) exec_stmt_ssl",
+            "b) exec_ssl_stmt",
+            "c) exec_stmnt_ssl",
+            "d) exec_ssl_stmnt"
+        ],
+        "answer": "a",
+        "explanation": "For the \u2018exec_stmt_ssl\u2019 to work properly, MySQL must have been built with SSL support, and the server must be started with the proper options that identify its certificate and key files."
+    },
+    {
+        "question": "The exec_stmt_ssl is written in _______________",
+        "options": [
+            "a) C++",
+            "b) C",
+            "c) Python",
+            "d) Perl"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the \u2018sampdb\u2019 distribution contains a source file named \u2018exec_stmt_ssl.c\u2019 from which the client program \u2018exec_stmt_ssl\u2019 can be built. There is a procedure to build this file."
+    },
+    {
+        "question": "On failure, \u2018mysql_query()\u2019 returns _______________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) a non-zero value"
+        ],
+        "answer": "d",
+        "explanation": "Both of the functions named \u2018mysql_query()\u2019 and \u2018mysql_real_query()\u2019 return zero for statements that succeed. They return non zero for failure. A statement is successfully executed if the server accepts it."
+    },
+    {
+        "question": "Input handling cannot be customized with MySQL.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "With mysql, raw SQL statements can be entered. With MySQL programs input methods can be provided for the user that are more intuitive and easier to be used. So input handling is customized."
+    },
+    {
+        "question": "By default, MySQL does not clip out of range numeric values to the nearest fit value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For the numeric or TIME columns, the values that are outside the legal range are clipped to the nearest endpoint of the range. The resulting value is stored. This is the method to handle defaults for numerics."
+    },
+    {
+        "question": "Which mode prevents MySQL to perform full checking of date parts?",
+        "options": [
+            "a) PREVENT_DATE_CHECK",
+            "b) STOP_DATES_CHECK",
+            "c) ALLOW_DATES_INVALID",
+            "d) ALLOW_INVALID_DATES"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, it is also possible to selectively weaken the strict mode in some places. If the ALLOW_INVALID_DATES SQL mode is enabled, MySQL doesn\u2019t perform full checking of the date parts."
+    },
+    {
+        "question": "Which statement is used to determine the storage engine for individual tables?",
+        "options": [
+            "a) SHOW TABLE STATUS",
+            "b) SHOW DEFAULT STATUS",
+            "c) SHOW STATUS OF TABLE",
+            "d) SHOW STATUS TABLE"
+        ],
+        "answer": "a",
+        "explanation": "MySQL provides a method to determine the storage engine for each table with the \u2018SHOW TABLE STATUS\u2019 statement. The output of this statement is the name of the storage engine indicator."
+    },
+    {
+        "question": "Which table in the \u2018INFORMATION_SCHEMA\u2019 stores information about storage engines and server plugins?",
+        "options": [
+            "a) ENGINES, PLUGINS",
+            "b) FILES, PLUGINS",
+            "c) PLUGINS, STATISTICS",
+            "d) ENGINES, FILES"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018INFORMATION_SCHEMA\u2019 is very useful in MySQL. It has many tables each serving its individual purpose. The storage engine information is stored in ENGINES and plugin information in PLUGINS."
+    },
+    {
+        "question": "How many of the following is (are) considered as a special character by \u2018mysql_real_escape_string()\u2019?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The characters that \u2018mysql_real_escape_string()\u2019 considers special are the null byte, single quote, double quote, \u2018backslash\u2019, \u2018newline\u2019, \u2018carriage return\u2019 and the \u2018Control-Z\u2019."
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Which of the following option is wrong about natural numbers?",
+        "options": [
+            "a) Sum of first n natural numbers can be calculated by using Iteration method",
+            "b) Sum of first n natural numbers can be calculated by using Recursion method",
+            "c) Sum of first n natural numbers can be calculated by using Binomial coefficient method",
+            "d) No method is prescribed to calculate sum of first n natural number"
+        ],
+        "answer": "d",
+        "explanation": "All of the above mentioned methods can be used to find the sum of first n natural numbers."
+    },
+    {
+        "question": "Which of the following gives the sum of the first n natural numbers?",
+        "options": [
+            "a) nC2",
+            "b) (n-1)C2",
+            "c) (n+1)C2",
+            "d) (n+2)C2"
+        ],
+        "answer": "c",
+        "explanation": "The sum of first n natural numbers is given by n*(n+1)/2, which is equal to (n+1)C2."
+    },
+    {
+        "question": "Consider the following iterative solution to find the sum of first n natural numbers:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201csm += i\u201d completes the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Since the variable \u201csm\u201d is not initialized to 0, it will produce a garbage value. Some compiler will automatically initialises variables to 0 if not initialised. In that case the value is 55. Hence the value depends on the compiler."
+    },
+    {
+        "question": "What is the time complexity of the following iterative method used to find the sum of the first n natural numbers?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above iterative method used to find the sum of first n natural numbers is O(n)."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The recurrence relation for the above code is: n + recursive_sum(n \u2013 1)."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cif(n == 0)\u201d is the base case for the above recursive code."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation used to find the sum of the first n natural numbers?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation used to find the sum of first n natural numbers is O(n)."
+    },
+    {
+        "question": "Which of the following methods used to find the sum of first n natural numbers has the least time complexity?",
+        "options": [
+            "a) Recursion",
+            "b) Iteration",
+            "c) Binomial coefficient",
+            "d) All have equal time complexity"
+        ],
+        "answer": "c",
+        "explanation": "Recursion and iteration take O(n) time to find the sum of first n natural numbers while binomial coefficient takes O(1) time."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The above code prints the sum of first 5 natural numbers, which is 15."
+    },
+    {
+        "question": "How many times is the function recursive_sum() called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The function recursive_sum is called 6 times when the following code is executed."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the sum of first 0 natural numbers, which is 0."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The above code doesn\u2019t handle the case of negative numbers and so the function recursive_sum() will be called again and again till the stack overflows and the program produces a runtime error."
+    }
+]

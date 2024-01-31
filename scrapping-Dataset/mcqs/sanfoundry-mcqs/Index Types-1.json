@@ -1,0 +1,112 @@
+[
+    {
+        "question": "To support ________ based sharding, MongoDB provides a hashed index type.",
+        "options": [
+            "a) primary",
+            "b) root",
+            "c) hash",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "These indexes have a more random distribution of values along their range, but only support equality matches and cannot support range-based queries."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Whether the use of a compound index or the use of an index intersection is more efficient depends on the particular query and the system",
+            "b) Certain restrictions apply to indexes, such as the length of the index keys or the number of indexes per collection",
+            "c) For queries that specify compound query conditions, if one index can fulfill a part of a query condition, and another index can fulfill another part of the query condition, then MongoDB can use the intersection of the two indexes to fulfill the query",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In general, each index intersection involves two indexes; however, MongoDB can employ multiple/nested index intersections to resolve a query."
+    },
+    {
+        "question": "________ index type, which indexes the hash of the value of a field.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hashed indexes support equality matches and cannot support range-based queries."
+    },
+    {
+        "question": "The _________ property for an index causes MongoDB to reject duplicate values for the indexed field.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " Other than the unique constraint, unique indexes are functionally interchangeable with other MongoDB indexes."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) TTL index is ideal for certain types of information like machine generated event data, logs, and session information that only need to persist in a database for a finite amount of time",
+            "b) You cannot combine the sparse index option with the unique index option",
+            "c) TTL indexes are special indexes that MongoDB can use to automatically remove documents from a collection after a certain amount of time",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can combine to reject documents that have duplicate values for a field but ignore documents that do not have the indexed key."
+    },
+    {
+        "question": "The ______ property of an index ensures that the index only contain entries for documents that have the indexed field.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Sparse",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The index skips documents that do not have the indexed field."
+    },
+    {
+        "question": "MongoDB can use the _________ of indexes to fulfill queries.",
+        "options": [
+            "a) union",
+            "b) intersection",
+            "c) projection",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The $project takes a document that can specify the inclusion of fields, the suppression of the _id field, the addition of new fields, and the resetting the values of existing fields."
+    },
+    {
+        "question": "Which of the following method is to verify whether MongoDB used index intersection?",
+        "options": [
+            "a) explain()",
+            "b) analyze()",
+            "c) intersect()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To determine if MongoDB used index intersection, run explain(); the results of explain() will include either an AND_SORTED stage or an AND_HASH stage."
+    },
+    {
+        "question": "An index prefix is a subset of a ______ index, consisting of one or more keys starting from the beginning of the index.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Sparse",
+            "d) Compound"
+        ],
+        "answer": "d",
+        "explanation": "With index intersection, MongoDB can use an intersection of either the entire index or the index prefix."
+    },
+    {
+        "question": "Index __________ does not eliminate the need for creating compound indexes.",
+        "options": [
+            "a) union",
+            "b) addition",
+            "c) intersection",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Compound index may not support a query condition that does not include the index prefix keys or that specifies a different sort order."
+    }
+]

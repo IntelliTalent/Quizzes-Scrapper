@@ -1,0 +1,90 @@
+[
+    {
+        "question": "For each _______ the Kerberos Key Distribution Center (KDC) maintains a database of the realm\u2019s principal and the principal\u2019s associated \u201csecret keys\u201d.",
+        "options": [
+            "a) key",
+            "b) realm",
+            "c) document",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Principals belong to administrative units called realms."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB Enterprise provides support for Kerberos authentication of MongoDB clients to mongod and mongos",
+            "b) Kerberos is an industry standard authentication protocol for large client/server systems",
+            "c) Kerberos allows MongoDB and applications to take advantage of existing authentication infrastructure and processes",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In a Kerberos-based system, every participant in the authenticated communication is known as a \u201cprincipal\u201d, and every principal must have a unique name."
+    },
+    {
+        "question": "For a client-server authentication, the client requests from the KDC a ________ for access to a specific asset.",
+        "options": [
+            "a) ticket",
+            "b) local",
+            "c) token",
+            "d) user"
+        ],
+        "answer": "a",
+        "explanation": "KDC uses the client\u2019s secret and the server\u2019s secret to construct the ticket which allows the client and server to mutually authenticate each other, while keeping the secrets hidden."
+    },
+    {
+        "question": "To authenticate using Kerberos, you must add the Kerberos user principals to MongoDB to the _________ database.",
+        "options": [
+            "a) $internal",
+            "b) $external",
+            "c) $extern",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For every user you want to authenticate using Kerberos, you must create a corresponding user in MongoDB in the $external database."
+    },
+    {
+        "question": "To specify a different value for <service>, use ________ during the start up of mongod.",
+        "options": [
+            "a) servicepwd",
+            "b) serviceName",
+            "c) servicelogin",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongo shell or other clients may also specify a different service principal name using serviceName."
+    },
+    {
+        "question": "Linux systems can store Kerberos authentication keys for a service principal in ______ files.",
+        "options": [
+            "a) Client",
+            "b) Server",
+            "c) keytab",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To keep keytab files secure, use file permissions that restrict access to only the user that runs the mongod or mongos process."
+    },
+    {
+        "question": "On Linux, MongoDB clients can use Kerberos\u2019s _______ program to initialize a credential cache for authenticating the user principal to servers.",
+        "options": [
+            "a) knight",
+            "b) kinit",
+            "c) Knite",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Unlike on Linux systems, mongod and mongos instances running on Windows do not require access to keytab files."
+    },
+    {
+        "question": "The MongoDB _________ Console interface does not support Kerberos authentication.",
+        "options": [
+            "a) TCP",
+            "b) HTTP",
+            "c) HTTPS",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each host that runs a mongod or mongos instance must have both A and PTR DNS records to provide forward and reverse lookup."
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Which of the following does not belong to input alphabet if S={a, b}* for any language?",
+        "options": [
+            "a) a",
+            "b) b",
+            "c) e",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The automaton may be allowed to change its state without reading the input symbol using epsilon but this does not mean that epsilon has become an input symbol. On the contrary, one assumes that the symbol epsilon does not belong to any alphabet."
+    },
+    {
+        "question": "The number of final states we need as per the given language?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "e-NFA do come up with a convenient feature but nothing new.They do not extend the class of languages that can be represented."
+    },
+    {
+        "question": "Design a NFA for the language:",
+        "options": [
+            "a) e-NFA",
+            "b) Power Construction Method",
+            "c) e-NFA and Power Construction Method",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It is more convenient to simulate a machine using e-NFA else the method of Power Construction is used from the union-closure of DFA\u2019s."
+    },
+    {
+        "question": "Which of the following belongs to the epsilon closure set of a?",
+        "options": [
+            "a) {f1, f2, f3}",
+            "b) {a, f1, f2, f3}",
+            "c) {f1, f2}",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The epsilon closure of the set q is the set that contains q, together with all the states which can be reached starting at q by following only epsilon transitions."
+    },
+    {
+        "question": "The number of elements present in the e-closure(f2) in the given diagram:",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The epsilon closure set of f2 consist of the elements:{f2, f3}. Thus the count of the element in the closure set is 2."
+    },
+    {
+        "question": "Which of the steps are non useful while eliminating the e-transitions for the given diagram?",
+        "options": [
+            "a) Make a as accepting state of N\u2019 if ECLOSE(p) contains an accepting state of N",
+            "b) Add an arc a to f1 labelled a if there is an arc labelled a in N from some state in ECLOSE(a) to f1",
+            "c) Delete all arcs labelled as e",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The given are the steps followed while eliminating epsilon transitions from a NFA or converting an e-NFA to just NFA."
+    },
+    {
+        "question": "Remove all the epsilon transitions in the given diagram and compute the number of a-transitions in the result?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 9",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    }
+]

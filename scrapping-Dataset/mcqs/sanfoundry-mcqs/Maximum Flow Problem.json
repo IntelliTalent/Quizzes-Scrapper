@@ -1,0 +1,163 @@
+[
+    {
+        "question": "What does Maximum flow problem involve?",
+        "options": [
+            "a) finding a flow between source and sink that is maximum",
+            "b) finding a flow between source and sink that is minimum",
+            "c) finding the shortest path between source and sink",
+            "d) computing a minimum spanning tree"
+        ],
+        "answer": "a",
+        "explanation": "The maximum flow problem involves finding a feasible flow between a source and a sink in a network that is maximum and not minimum."
+    },
+    {
+        "question": "A network can have only one source and one sink.",
+        "options": [
+            "a) False",
+            "b) True"
+        ],
+        "answer": "b",
+        "explanation": "A network can have only one source and one sink inorder to find the feasible flow in a weighted connected graph."
+    },
+    {
+        "question": "What is the source?",
+        "options": [
+            "a) Vertex with no incoming edges",
+            "b) Vertex with no leaving edges",
+            "c) Centre vertex",
+            "d) Vertex with the least weight"
+        ],
+        "answer": "a",
+        "explanation": "Vertex with no incoming edges is called as a source. Vertex with no leaving edges is called as a sink."
+    },
+    {
+        "question": "Which algorithm is used to solve a maximum flow problem?",
+        "options": [
+            "a) Prim\u2019s algorithm",
+            "b) Kruskal\u2019s algorithm",
+            "c) Dijkstra\u2019s algorithm",
+            "d) Ford-Fulkerson algorithm"
+        ],
+        "answer": "d",
+        "explanation": "Ford-fulkerson algorithm is used to compute the maximum feasible flow between a source and a sink in a network."
+    },
+    {
+        "question": "Does Ford- Fulkerson algorithm use the idea of?",
+        "options": [
+            "a) Na\u00efve greedy algorithm approach",
+            "b) Residual graphs",
+            "c) Minimum cut",
+            "d) Minimum spanning tree"
+        ],
+        "answer": "b",
+        "explanation": "Ford-Fulkerson algorithm uses the idea of residual graphs which is an extension of na\u00efve greedy approach allowing undo operations."
+    },
+    {
+        "question": "The first step in the na\u00efve greedy algorithm is?",
+        "options": [
+            "a) analysing the zero flow",
+            "b) calculating the maximum flow using trial and error",
+            "c) adding flows with higher values",
+            "d) reversing flow if required"
+        ],
+        "answer": "a",
+        "explanation": "The first step in the na\u00efve greedy algorithm is to start with the zero flow followed by adding edges with higher values."
+    },
+    {
+        "question": "Under what condition can a vertex combine and distribute flow in any manner?",
+        "options": [
+            "a) It may violate edge capacities",
+            "b) It should maintain flow conservation",
+            "c) The vertex should be a source vertex",
+            "d) The vertex should be a sink vertex"
+        ],
+        "answer": "b",
+        "explanation": "A vertex can combine and distribute flow in any manner but it should not violate edge capacities and it should maintain flow conservation."
+    },
+    {
+        "question": "Find the maximum flow from the following graph.",
+        "options": [
+            "a) 22",
+            "b) 17",
+            "c) 15",
+            "d) 20"
+        ],
+        "answer": "c",
+        "explanation": "Initially, zero flow is computed. Then, computing flow= 7+1+5+2=15. Hence, maximum flow=15."
+    },
+    {
+        "question": "A simple acyclic path between source and sink which pass through only positive weighted edges is called?",
+        "options": [
+            "a) augmenting path",
+            "b) critical path",
+            "c) residual path",
+            "d) maximum path"
+        ],
+        "answer": "a",
+        "explanation": "Augmenting path between source and sink is a simple path without cycles. Path consisting of zero slack edges is called critical path."
+    },
+    {
+        "question": "In what time can an augmented path be found?",
+        "options": [
+            "a) O(|E| log |V|)",
+            "b) O(|E|)",
+            "c) O(|E|",
+            "d) O(|E|"
+        ],
+        "answer": "b",
+        "explanation": "An augmenting path can be found in O(|E|) mathematically by an unweighted shortest path algorithm."
+    },
+    {
+        "question": "Dinic\u2019s algorithm runs faster than the Ford-Fulkerson algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Dinic\u2019s algorithm includes construction of level graphs and resLidual graphs and finding of augmenting paths along with blocking flow and is faster than the Ford-Fulkerson algorithm."
+    },
+    {
+        "question": "What is the running time of an unweighted shortest path algorithm whose augmenting path is the path with the least number of edges?",
+        "options": [
+            "a) O(|E|)",
+            "b) O(|E||V|)",
+            "c) O(|E|",
+            "d) O(|E| log |V|)"
+        ],
+        "answer": "c",
+        "explanation": "Each augmenting step takes O(|E|) using an unweighted shortest path algorithm yielding a O(|E|2|V|) bound on the running time."
+    },
+    {
+        "question": "Who is the formulator of Maximum flow problem?",
+        "options": [
+            "a) Lester R. Ford and Delbert R. Fulkerson",
+            "b) T.E. Harris and F.S. Ross",
+            "c) Y.A. Dinitz",
+            "d) Kruskal"
+        ],
+        "answer": "b",
+        "explanation": "The first ever people to formulate Maximum flow problem were T.E. Harris and F.S. Ross. Lester R. Ford and Delbert R. Fulkerson formulated Ford- Fulkerson algorithm."
+    },
+    {
+        "question": "What is the running time of Dinic\u2019s blocking flow algorithm?",
+        "options": [
+            "a) O(V",
+            "b) O(VE",
+            "c) O(V",
+            "d) O(E max |f|)"
+        ],
+        "answer": "a",
+        "explanation": "The running time of Dinic\u2019s blocking flow algorithm is O(V"
+    },
+    {
+        "question": "How many constraints does flow have?",
+        "options": [
+            "a) one",
+            "b) three",
+            "c) two",
+            "d) four"
+        ],
+        "answer": "c",
+        "explanation": "A flow is a mapping which follows two constraints- conservation of flows and capacity constraints."
+    }
+]

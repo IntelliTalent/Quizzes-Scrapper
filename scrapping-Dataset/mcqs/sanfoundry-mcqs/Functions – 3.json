@@ -1,0 +1,112 @@
+[
+    {
+        "question": "R Commander is used to ___________ in R.",
+        "options": [
+            "a) Export data",
+            "b) Import data",
+            "c) Use data",
+            "d) Work on data"
+        ],
+        "answer": "b",
+        "explanation": "R Commander is used to import data in R language. To start the R commander GUI, the user should type in the command Rcmdr into the console. There are 3 different types in which data can be imported in R language."
+    },
+    {
+        "question": "Two vectors M and N are defined as M <- c(3, 2, 4) and N <- c(1, 2). What will be the output of vector Z that is defined as Z <- M*N.",
+        "options": [
+            "a) Z <- (3, 2, 4)",
+            "b) Z <- (3, 6, 4)",
+            "c) Z <- (3, 4, 5)",
+            "d) Z <- (3, 4, 4)"
+        ],
+        "answer": "d",
+        "explanation": "In R language when the vectors have different lengths, the multiplication begins with the smaller vector and continues till all the elements in the larger vector have been multiplied."
+    },
+    {
+        "question": "How missing values and impossible values are represented in R language?",
+        "options": [
+            "a) NA",
+            "b) NAN",
+            "c) NA & NAN",
+            "d) Not Exist"
+        ],
+        "answer": "c",
+        "explanation": "NaN (Not a Number) is used to represent impossible values whereas NA (Not Available) is referred to represent missing values. It is good to find the missing values and then take the necessary steps to handle them."
+    },
+    {
+        "question": "CRAN package ecosystem has more than ______ packages.",
+        "options": [
+            "a) 5000",
+            "b) 4000",
+            "c) 6000",
+            "d) 8000"
+        ],
+        "answer": "c",
+        "explanation": "R language has several packages for solving a particular problem. CRAN package ecosystem has more than 6000 packages."
+    },
+    {
+        "question": "Which function in R language is used to find out whether the means of 2 groups are equal to each other or not?",
+        "options": [
+            "a) f.tests ()",
+            "b) l.tests ()",
+            "c) t.tests ()",
+            "d) not exist"
+        ],
+        "answer": "c",
+        "explanation": "t.tests () function in R language is used to find out whether the means of 2 groups are equal to each other. It is not used most commonly in R. It is used in some specific conditions."
+    },
+    {
+        "question": "__________ is the best way for communicating the results of data analysis using the R language.",
+        "options": [
+            "a) Single document",
+            "b) Files",
+            "c) Structures",
+            "d) Loadings"
+        ],
+        "answer": "Answers: a",
+        "explanation": "The best possible way to do this is to combine the data, code and analysis results for a single document by knitr for reproducible research. This helps others to verify the findings, then engage in discussions."
+    },
+    {
+        "question": "How many types of data structures does R language have?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 5",
+            "d) 8"
+        ],
+        "answer": "a",
+        "explanation": "R language consists of Homogeneous and Heterogeneous data structures. Homogeneous data structures have the same type of objects \u2013 Vector, Matrix and Array. Heterogeneous data structures have a different type of objects \u2013 Data frames and lists."
+    },
+    {
+        "question": "__________ is the easiest method for reshaping the data before analysis.",
+        "options": [
+            "a) Transpose()",
+            "b) Structure()",
+            "c) Package",
+            "d) Function"
+        ],
+        "answer": "a",
+        "explanation": "Transpose t () is the easiest method for reshaping the data before analysis. The transpose (reversing rows and columns) is always the simplest method of reshaping a dataset. Use the t() function to transpose a matrix or a data frame."
+    },
+    {
+        "question": "___________ function is used to apply an expression for a given dataset.",
+        "options": [
+            "a) This()",
+            "b) With()",
+            "c) Unwith()",
+            "d) That()"
+        ],
+        "answer": "b",
+        "explanation": "With a () function is used to apply an expression for a given dataset. R language has a large number of in-built functions and the user can create their own functions. In R, a function is an object to the R interpreter is able to pass control to the function."
+    },
+    {
+        "question": "__________ package is used to speed up data frame management code.",
+        "options": [
+            "a) Data.table",
+            "b) Dplyr",
+            "c) Table",
+            "d) Data.dplyr"
+        ],
+        "answer": "b",
+        "explanation": "dplyr is a powerful R-package to transform and summarize tabular data with rows and columns. dplyr package is used to speed up data frame management code. dplyr is a package for data manipulation, written and maintained regularly by Hadley Wickham."
+    }
+]

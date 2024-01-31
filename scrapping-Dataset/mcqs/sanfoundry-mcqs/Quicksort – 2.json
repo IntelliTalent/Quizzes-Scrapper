@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Quick Sort is a __________",
+        "options": [
+            "a) greedy algorithm",
+            "b) divide and conquer algorithm",
+            "c) dynamic programming algorithm",
+            "d) backtracking algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort is a divide and conquer algorithm. Quick sort first partitions a large array into two smaller sub-arrays. And then recursively sorts the sub-arrays."
+    },
+    {
+        "question": "What is the worst case time complexity of the Quick sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The worst case running time for Quick sort is O(n"
+    },
+    {
+        "question": "Apply Quick sort on a given sequence 7 11 14 6 9 4 3 12. What is the sequence after first phase, pivot is first element?",
+        "options": [
+            "a) 6 4 3 7 11 9 14 12",
+            "b) 6 3 4 7 9 14 11 12",
+            "c) 7 6 14 11 9 4 3 12",
+            "d) 7 6 4 3 9 14 11 12"
+        ],
+        "answer": "b",
+        "explanation": "Let\u2019s apply Quick sort on the given sequence,"
+    },
+    {
+        "question": "The best case behaviour occurs for quick sort is, if partition splits the array of size n  into __________",
+        "options": [
+            "a) n/2 : (n/2) \u2013 1",
+            "b) n/2 : n/3",
+            "c) n/4 : 3n/2",
+            "d) n/4 : 3n/4"
+        ],
+        "answer": "a",
+        "explanation": "The best case analysis of quick sort occurs when the partition splits the array into two subarrays, each of size no more than n/2 since one is of size n/2 and one of size (n/2) \u2013 1."
+    },
+    {
+        "question": "Quick sort is a stable sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In stable sorting algorithm the records with equal keys appear in the same order in the sorted sequence as they appear in the input unsorted sequence. Quick sort does not preserve the relative order of equal sort items. Therefore, Quick sort is not a stable sort."
+    },
+    {
+        "question": "Consider the Quick sort algorithm in which the partitioning procedure splits elements into two sub-arrays and each sub-array contains at least one-fourth of the elements. Let T(n) be the number of comparisons required to sort array of n elements. Then T(n)<=?",
+        "options": [
+            "a) T(n) <= 2 T(n/4) + cn",
+            "b) T(n) <= T(n/4) + T(3n/4) + cn",
+            "c) T(n) <= 2 T(3n/4) + cn",
+            "d) T(n) <= T(n/3) + T(3n/4) + cn"
+        ],
+        "answer": "b",
+        "explanation": "If there are n/4 elements in one sub-array then T(n/4) comparisons are needed for this sub-array. And T(3n/4) comparison are required for the rest 4n/5 elements, and cn is time required for finding the pivot. If there are more than n/4 elements in one sub-array then other sub-array will have less than 3n/4 elements and time complexity will be less than T(n/4) + T(3n/4) + cn."
+    },
+    {
+        "question": "Consider the Quick sort algorithm which sorts elements in ascending order using the first element as pivot. Then which of the following input sequence will require a maximum number of comparisons when this algorithm is applied on it?",
+        "options": [
+            "a) 22 25 56 67 89",
+            "b) 52 25 76 67 89",
+            "c) 22 25 76 67 50",
+            "d) 52 25 89 67 76"
+        ],
+        "answer": "a",
+        "explanation": "If the input sequence is already sorted then worst case behaviour occurs for the Quick sort algorithm which use the first element as pivot. Therefore, the input sequence given in 22 25 56 67 89 will require a maximum number of comparisons."
+    },
+    {
+        "question": "A machine needs a minimum of 200 sec to sort 1000 elements by Quick sort. The minimum time needed to sort 200 elements will be approximately __________",
+        "options": [
+            "a) 60.2 sec",
+            "b) 45.54 sec",
+            "c) 31.11 sec",
+            "d) 20 sec"
+        ],
+        "answer": "c",
+        "explanation": "The Quick sort requires nlog2n comparisons in best case, where n is size of input array. So, 1000 * log21000 \u2248 9000 comparisons are required to sort 1000 elements, which takes 200 sec. To sort 200 elements minimum of 200 * log2200 \u2248 1400 comparisons are required. This will take 200 * 1400 / 9000 \u2248 31.11 sec."
+    },
+    {
+        "question": "Which one of the following sorting algorithm is best suited to sort an array of 1 million elements?",
+        "options": [
+            "a) Bubble sort",
+            "b) Insertion sort",
+            "c) Merge sort",
+            "d) Quick sort"
+        ],
+        "answer": "d",
+        "explanation": "The Quick sort is best suited to sort the array of 1 million elements. The practical implementations of Quick sort use randomised version. In practice randomised Quick sort algorithms rarely shows worst case behaviour and is almost always O(nlogn). And Quick sort requires little additional space and exhibits good cache locality."
+    },
+    {
+        "question": "Quick sort is a space-optimised version of ____",
+        "options": [
+            "a) Bubble sort",
+            "b) Selection sort",
+            "c) Insertion sort",
+            "d) Binary tree sort"
+        ],
+        "answer": "d",
+        "explanation": "Quick sort is a space-optimised version of the binary tree sort. In binary sort tree, the elements are inserted sequentially into the binary search tree and Quick sort organises elements into a tree that is implied by the recursive calls."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is an example of parallel sorting technique?",
+        "options": [
+            "a) bogo sort",
+            "b) sleep sort",
+            "c) cube sort",
+            "d) merge sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options only cube sort is a parallel sorting algorithm. It builds self balancing multi dimensional arrays from the input keys."
+    },
+    {
+        "question": "What is the worst case time complexity of cube sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n log n)",
+            "d) O(n2)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case performance of cube sort is O(n log n). This is the fastest possible complexity with a comparison based sort."
+    },
+    {
+        "question": "What is the auxiliary space requirement of cube sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Cube sort requires an auxiliary space of O(n). This is the worst case of auxiliary space complexity."
+    },
+    {
+        "question": "What is the best case time complexity of cube sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n)",
+            "c) O(n log n)",
+            "d) O(1)"
+        ],
+        "answer": "b",
+        "explanation": "Best case time complexity of cube sort occurs when the input array is almost sorted. So in such a case only O(n) time is required for sorting."
+    },
+    {
+        "question": "What is the average case time complexity of cube sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n log n)",
+            "c) O(log n)",
+            "d) O(n)"
+        ],
+        "answer": "b",
+        "explanation": "The average case performance of cube sort is O(n log n). This is the fastest possible complexity with a comparison based sort."
+    },
+    {
+        "question": "Which of the following algorithm is stable?",
+        "options": [
+            "a) heap sort",
+            "b) cube sort",
+            "c) quick sort",
+            "d) bogosort"
+        ],
+        "answer": "d",
+        "explanation": "Out of the given algorithms only cube sort is stable. This implies that the relative position of equal valued elements in the input and sorted array remains the same."
+    },
+    {
+        "question": "Cube sort is an in place sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Cube sort has an auxiliary space complexity of O(n). So it does not qualify to be an in-place sort."
+    },
+    {
+        "question": "Which of the following is a disadvantage of cube sort?",
+        "options": [
+            "a) high memory overhead for small data",
+            "b) high memory overhead for any data",
+            "c) balancing is slow",
+            "d) Iteration is slow"
+        ],
+        "answer": "a",
+        "explanation": "In a general case the memory overhead of cube sort is low. But when the data set is small then in that case the memory overhead becomes high."
+    },
+    {
+        "question": "Cube sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Cube sort is a comparison based sorting algorithm. This is because it compares elements in order to sort them."
+    },
+    {
+        "question": "Which of the following sorting algorithm uses the method of insertion?",
+        "options": [
+            "a) cube sort",
+            "b) bubble sort",
+            "c) quick sort",
+            "d) selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Cube sort is the only algorithm from the given ones that uses the method of insertion. Other than this, the insertion sort also uses the method of insertion for sorting."
+    }
+]

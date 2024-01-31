@@ -1,0 +1,101 @@
+[
+    {
+        "question": "All set of polynomial questions which can be solved by a turing machine using a polynomial amount of space:",
+        "options": [
+            "a) PSPACE",
+            "b) NPSPACE",
+            "c) EXPSPACE",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "PSPACE is the problem class that contains all set of decision problems which can be solved using a turing machine taking polynomial amount of space."
+    },
+    {
+        "question": "PSPACE is strictly the super set of:",
+        "options": [
+            "a) Regular language",
+            "b) Context free language",
+            "c) Context Sensitive Language",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Membership of a string in a language defined by an arbitrary context sensitive grammar, or by an arbitrary deterministic context sensitive grammar, is a PSPACE -complete problem."
+    },
+    {
+        "question": "Savitch theorem relates to which of the following:",
+        "options": [
+            "a) PSPACE=NPSPACE",
+            "b) Alternating Turing Machine",
+            "c) Time complexity",
+            "d) None of the mentioned",
+            "a) PSPACE=NPSPACE: square of a polynomial function is still a polynomial function.",
+            "b) NL\u2208L2"
+        ],
+        "answer": "a",
+        "explanation": "Some important conclusions of Savitch theorem includes:"
+    },
+    {
+        "question": "The class PSPACE is closed under the following operations:",
+        "options": [
+            "a) Union",
+            "b) Concatenation",
+            "c) Kleene",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The closure property of PSPACE class includes :- Union, Concatenation and Kleene operation."
+    },
+    {
+        "question": "Correct the given order:",
+        "options": [
+            "a) NP\u2208 P\u2208 NL\u2208 PH\u2208 PSPACE",
+            "b) NL\u2208 PH\u2208 NP\u2208 P\u2208 PSPACE",
+            "c) NL\u2208 P\u2208 NP\u2208 PH\u2208 PSPACE",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The given order is the only correct order and further PSPACE belongs to EXPTIME class and subsequently occurs EXPSPACE class."
+    },
+    {
+        "question": "Statement : All PSPACE problems can be reduced to PSPACE-complete problems.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "PSPACE-complete problems are the most difficult problems is PSPACE. Finding a simple solution to PSPACE-complete means simple solution to all other problems in PSPACE because all PSPACE problems can be reduced to PSPACE-complete problems."
+    },
+    {
+        "question": "Without needing extra __________ we can simulate non deterministic turing machine using deterministic turing machine.",
+        "options": [
+            "a) time",
+            "b) space",
+            "c) both time and space",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Though it may use extra time, but as PSPACE=NPSPACE from savitch\u2019s theorem, we can say that space taken is same for both the machines, deterministic as well as non-deterministic."
+    },
+    {
+        "question": "Complement of all the problems in PSPACE is ________",
+        "options": [
+            "a) PSPACE",
+            "b) NL",
+            "c) P",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The complement of all the problems in PSPACE are also in PSPACE, meaning co-PSPACE= PSPACE."
+    },
+    {
+        "question": "Which of the following PSPACE can be characterized into?",
+        "options": [
+            "a) APTIME",
+            "b) AP",
+            "c) Quantom complexity class",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "An alternative characterization of PSPACE is a set of problems decidable by a turing machine in polynomial time, sometimes called, APTIME or AP."
+    }
+]

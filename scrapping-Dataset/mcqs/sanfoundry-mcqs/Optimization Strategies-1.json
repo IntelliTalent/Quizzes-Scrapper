@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following setting defines what constitutes a \u201cslow\u201d operation?",
+        "options": [
+            "a) slowOpThresholdGs",
+            "b) fastOpThresholdMs",
+            "c) slowOpThresholdMs",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The operationProfiling.slowOpThresholdMs setting is available only for mongod."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB uses a locking system to ensure data set consistency",
+            "b) If certain operations are long-running or a queue forms, performance will degrade as requests and operations wait for the lock",
+            "c) Long queries can result from ineffective use of indexes",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Lock-related slowdowns can be intermittent."
+    },
+    {
+        "question": "________ provide the number of times the lock acquisitions encountered deadlocks.",
+        "options": [
+            "a) locks.deadlock",
+            "b) lock.deadlockCount",
+            "c) locks.deadlockCount",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The globalLock data structure contains information regarding the database\u2019s current lock state, historical lock status, current operation queue, and the number of active clients."
+    },
+    {
+        "question": "If __________ is high relative to uptime, the database has existed in a lock state for a significant amount of time.",
+        "options": [
+            "a) globalLock.halfTime",
+            "b) globalLock.totalTime",
+            "c) globalLock.downTime",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The value of totalTime represents the time, in microseconds, since the database last started and creation of the globalLock."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The storage.wiredTiger.indexConfig.prefixCompression setting does not affect all indexes created",
+            "b) Database profiling can impact database performance",
+            "c) The default storage.wiredTiger.engineConfig.cacheSizeGB setting assumes that there is a single mongod instance per node",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you change the value of storage.wiredTiger.indexConfig.prefixCompression on an existing MongoDB deployment, all new indexes will use prefix compression."
+    },
+    {
+        "question": "The __________ data structure value provides more granular information concerning the number of operations queued because of a lock.",
+        "options": [
+            "a) currentQueue",
+            "b) curQueue",
+            "c) currentQu",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The serverStatus command returns a document that provides an overview of the database process\u2019s state"
+    },
+    {
+        "question": "serverStatus includes all fields by default, except _________",
+        "options": [
+            "a) rangeDeleter",
+            "b) rangeDelete",
+            "c) rangeDEL",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " You may only dynamically include top-level fields from the serverStatus document that are not included by default."
+    },
+    {
+        "question": "______ field contains total number of current clients that connect to the database instance.",
+        "options": [
+            "a) available",
+            "b) current",
+            "c) always avail",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "available contains the total number of unused connections available for new clients."
+    },
+    {
+        "question": "MongoDB\u2019s _______ is a database profiling system that can help identify inefficient queries and operations.",
+        "options": [
+            "a) Reporter",
+            "b) Executer",
+            "c) Profiler",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Enable the profiler by setting the profile value using the following command in the mongo shell."
+    }
+]

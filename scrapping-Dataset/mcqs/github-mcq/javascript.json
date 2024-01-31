@@ -1,0 +1,1675 @@
+[
+    {
+        "question": "Which operator returns true if the two compared values are not equal?",
+        "options": [
+            "`<>`",
+            "`~`",
+            "`==!`",
+            "`!==`"
+        ],
+        "answer": "`!==`"
+    },
+    {
+        "question": "How is a forEach statement different from a for statement?",
+        "options": [
+            "Only a for statement uses a callback function.",
+            "A for statement is more generic and can be used with various iterable objects, while a forEach statement is mainly designed for arrays but can also be used with other iterable objects like Sets.",
+            "Only a forEach statement lets you specify your own iterator.",
+            "A forEach statement is generic, but a for statement can be used only with an array."
+        ],
+        "answer": "A for statement is more generic and can be used with various iterable objects, while a forEach statement is mainly designed for arrays but can also be used with other iterable objects like Sets."
+    },
+    {
+        "question": "Review the code below. Which statement calls the addTax function and passes 50 as an argument?",
+        "options": [
+            "`addTax = 50;`",
+            "`return addTax 50;`",
+            "`addTax(50);`",
+            "`addTax 50;`"
+        ],
+        "answer": "`addTax(50);`"
+    },
+    {
+        "question": "Which statement is the correct way to create a variable called rate and assign it the value 100?",
+        "options": [
+            "`let rate = 100;`",
+            "`let 100 = rate;`",
+            "`100 = let rate;`",
+            "`rate = 100;`"
+        ],
+        "answer": "`let rate = 100;`"
+    },
+    {
+        "question": "Which statement creates a new object using the Person constructor? Which statement creates a new Person object called \"student\"?",
+        "options": [
+            "`var student = new Person();`",
+            "`var student = construct Person;`",
+            "`var student = Person();`",
+            "`var student = construct Person();`"
+        ],
+        "answer": "`var student = new Person();`"
+    },
+    {
+        "question": "When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?",
+        "options": [
+            "after 10 second",
+            "after results are received from the HTTP request",
+            "after 10000 seconds",
+            "immediately"
+        ],
+        "answer": "immediately"
+    },
+    {
+        "question": "Which snippet could you add to this code to print \"food\" to the console?",
+        "options": [
+            "`a.prototype.belly[0]`",
+            "`Object.getPrototype0f (a).belly[0]`",
+            "`Animal.belly[0]`",
+            "`a.belly[0]`"
+        ],
+        "answer": "`Animal.belly[0]`"
+    },
+    {
+        "question": "You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?",
+        "options": [
+            "`A`",
+            "`B`",
+            "`C`",
+            "`D`",
+            "`E`"
+        ],
+        "answer": "`D`"
+    },
+    {
+        "question": "How does a function create a closure?",
+        "options": [
+            "It reloads the document whenever the value changes.",
+            "It returns a reference to a variable in its parent scope.",
+            "It completes execution without returning.",
+            "It copies a local variable to the global scope."
+        ],
+        "answer": "It returns a reference to a variable in its parent scope."
+    },
+    {
+        "question": "Which statement creates a new function called discountPrice?",
+        "options": [
+            "`A`",
+            "`B`",
+            "`C`",
+            "`D`"
+        ],
+        "answer": "`D`"
+    },
+    {
+        "question": "What is the result in the console of running the code shown?",
+        "options": [
+            "Storm()",
+            "undefined",
+            "'rain'",
+            "'snow'"
+        ],
+        "answer": "'snow'"
+    },
+    {
+        "question": "You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?",
+        "options": [
+            "`/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/`",
+            "`/\\d\\d:\\d\\d:\\d\\d/`",
+            "`/[0-9]+:[0-9]+:[0-9]+/`",
+            "`/ : : /`"
+        ],
+        "answer": "`/\\d\\d:\\d\\d:\\d\\d/`"
+    },
+    {
+        "question": "What is the result in the console of running this code?",
+        "options": [
+            "`undefined`",
+            "`window`",
+            "`{desc: \"logger\"}`",
+            "`function`"
+        ],
+        "answer": "`{desc: \"logger\"}`"
+    },
+    {
+        "question": "How would you reference the text 'avenue' in the code shown?",
+        "options": [
+            "roadTypes.2",
+            "roadTypes\\[3\\]",
+            "roadTypes.3",
+            "roadTypes\\[2\\]"
+        ],
+        "answer": "roadTypes\\[2\\]"
+    },
+    {
+        "question": "What is the result of running this statement?",
+        "options": [
+            "`'float'`",
+            "`'value'`",
+            "`'number'`",
+            "`'integer'`"
+        ],
+        "answer": "`'number'`"
+    },
+    {
+        "question": "Which property references the DOM object that dispatched an event?",
+        "options": [
+            "`self`",
+            "`object`",
+            "`target`",
+            "`source`"
+        ],
+        "answer": "`target`"
+    },
+    {
+        "question": "You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?",
+        "options": [
+            "`exception('One or both parameters are not numbers')`",
+            "`catch('One or both parameters are not numbers')`",
+            "`error('One or both parameters are not numbers')`",
+            "`throw('One or both parameters are not numbers')`"
+        ],
+        "answer": "`throw('One or both parameters are not numbers')`"
+    },
+    {
+        "question": "Which method converts JSON data to a JavaScript object?",
+        "options": [
+            "`JSON.fromString();`",
+            "`JSON.parse()`",
+            "`JSON.toObject()`",
+            "`JSON.stringify()`"
+        ],
+        "answer": "`JSON.parse()`"
+    },
+    {
+        "question": "When would you use a conditional statement?",
+        "options": [
+            "When you want to reuse a set of statements multiple times.",
+            "When you want your code to choose between multiple options.",
+            "When you want to group data together.",
+            "When you want to loop through a group of statement."
+        ],
+        "answer": "When you want your code to choose between multiple options."
+    },
+    {
+        "question": "What would be the result in the console of running this code?",
+        "options": [
+            "1 2 3 4 5",
+            "1 2 3 4",
+            "0 1 2 3 4",
+            "0 1 2 3 4 5"
+        ],
+        "answer": "0 1 2 3 4"
+    },
+    {
+        "question": "Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+        "options": [
+            "`Object.get()`",
+            "`Object.loop()`",
+            "`Object.each()`",
+            "`Object.keys()`"
+        ],
+        "answer": "`Object.keys()`"
+    },
+    {
+        "question": "What will be logged to the console?",
+        "options": [
+            "101",
+            "3",
+            "4",
+            "100"
+        ],
+        "answer": "101"
+    },
+    {
+        "question": "What is one difference between collections created with Map and collections created with Object?",
+        "options": [
+            "You can iterate over values in a Map in their insertion order.",
+            "You can count the records in a Map with a single method call.",
+            "Keys in Maps can be strings.",
+            "You can access values in a Map without iterating over the whole collection."
+        ],
+        "answer": "You can count the records in a Map with a single method call."
+    },
+    {
+        "question": "What is the value of dessert.type after executing this code?",
+        "options": [
+            "pie",
+            "The code will throw an error.",
+            "pudding",
+            "undefined"
+        ],
+        "answer": "pudding"
+    },
+    {
+        "question": "0 && hi",
+        "options": [
+            "ReferenceError",
+            "true",
+            "0",
+            "false"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "Which of the following operators can be used to do a short-circuit evaluation?",
+        "options": [
+            "`++`",
+            "`--`",
+            "`==`",
+            "`||`"
+        ],
+        "answer": "`||`"
+    },
+    {
+        "question": "Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?",
+        "options": [
+            "`Student.parent = Person;`",
+            "`Student.prototype = new Person();`",
+            "`Student.prototype = Person;`",
+            "`Student.prototype = Person();`"
+        ],
+        "answer": "`Student.prototype = new Person();`"
+    },
+    {
+        "question": "Why would you include a \"use strict\" statement in a JavaScript file?",
+        "options": [
+            "to tell parsers to interpret your JavaScript syntax loosely",
+            "to tell parsers to enforce all JavaScript syntax rules when processing your code",
+            "to instruct the browser to automatically fix any errors it finds in the code",
+            "to enable ES6 features in your code"
+        ],
+        "answer": "to tell parsers to enforce all JavaScript syntax rules when processing your code"
+    },
+    {
+        "question": "Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?",
+        "options": [
+            "all of them",
+            "`const`",
+            "`var`",
+            "`let`"
+        ],
+        "answer": "`var`"
+    },
+    {
+        "question": "Which of the following values is not a Boolean false?",
+        "options": [
+            "`Boolean(0)`",
+            "`Boolean(\"\")`",
+            "`Boolean(NaN)`",
+            "`Boolean(\"false\")`"
+        ],
+        "answer": "`Boolean(\"false\")`"
+    },
+    {
+        "question": "Which of the following is not a keyword in JavaScript?",
+        "options": [
+            "`this`",
+            "`catch`",
+            "`function`",
+            "`array`"
+        ],
+        "answer": "`array`"
+    },
+    {
+        "question": "Which variable is an implicit parameter for every function in JavaScript?",
+        "options": [
+            "Arguments",
+            "args",
+            "argsArray",
+            "argumentsList"
+        ],
+        "answer": "Arguments"
+    },
+    {
+        "question": "For the following class, how do you get the value of 42 from an instance of X?",
+        "options": [
+            "`x.get('Y')`",
+            "`x.Y`",
+            "`x.Y()`",
+            "`x.get().Y`"
+        ],
+        "answer": "`x.Y`"
+    },
+    {
+        "question": "What is the result of running this code?",
+        "options": [
+            "30, ReferenceError, 30, -10",
+            "30, ReferenceError",
+            "30, -10",
+            "ReferenceError, -10"
+        ],
+        "answer": "30, ReferenceError"
+    },
+    {
+        "question": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+        "options": [
+            "Objects are more efficient in terms of storage.",
+            "Adding a record to an object is significantly faster than pushing a record into an array.",
+            "Most operations involve looking up a record, and objects can do that better than arrays.",
+            "Working with objects makes the code more readable."
+        ],
+        "answer": "Most operations involve looking up a record, and objects can do that better than arrays."
+    },
+    {
+        "question": "Which statement is true about the \"async\" attribute for the HTML script tag?",
+        "options": [
+            "It can be used for both internal and external JavaScript code.",
+            "It can be used only for internal JavaScript code.",
+            "It can be used only for internal or external JavaScript code that exports a promise.",
+            "It can be used only for external JavaScript code."
+        ],
+        "answer": "It can be used only for external JavaScript code."
+    },
+    {
+        "question": "How do you import the lodash library making it top-level Api available as the \"\\_\" variable?",
+        "options": [
+            "`import _ from 'lodash';`",
+            "`import 'lodash' as _;`",
+            "`import '_' from 'lodash;`",
+            "`import lodash as _ from 'lodash';`"
+        ],
+        "answer": "`import _ from 'lodash';`"
+    },
+    {
+        "question": "What does the following expression evaluate to?",
+        "options": [
+            "true",
+            "undefined",
+            "[]",
+            "false"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "What type of function can have its execution suspended and then resumed at a later point?",
+        "options": [
+            "Generator function",
+            "Arrow function",
+            "Async/ Await function",
+            "Promise function"
+        ],
+        "answer": "Generator function"
+    },
+    {
+        "question": "What will this code print?",
+        "options": [
+            "2",
+            "1",
+            "Nothing - this code will throw an error.",
+            "undefined"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Which statement is true about Functional Programming?",
+        "options": [
+            "Every object in the program has to be a function.",
+            "Code is grouped with the state it modifies.",
+            "Date fields and methods are kept in units.",
+            "Side effects are not allowed."
+        ],
+        "answer": "Side effects are not allowed."
+    },
+    {
+        "question": "Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?",
+        "options": [
+            "You are calling a method named reduce on an object that's declared but has no value.",
+            "You are calling a method named reduce on an object that does not exist.",
+            "You are calling a method named reduce on an empty array.",
+            "You are calling a method named reduce on an object that has a null value."
+        ],
+        "answer": "You are calling a method named reduce on an object that's declared but has no value."
+    },
+    {
+        "question": "How many prototype objects are in the chain for the following array?",
+        "options": [
+            "3",
+            "2",
+            "0",
+            "1"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which choice is _not_ a unary operator?",
+        "options": [
+            "`typeof`",
+            "`delete`",
+            "`instanceof`",
+            "`void`"
+        ],
+        "answer": "`instanceof`"
+    },
+    {
+        "question": "What type of scope does the end variable have in the code shown?",
+        "options": [
+            "conditional",
+            "block",
+            "global",
+            "function"
+        ],
+        "answer": "block"
+    },
+    {
+        "question": "What will the value of y be in this code:",
+        "options": [
+            "One",
+            "undefined",
+            "TRUE",
+            "Two"
+        ],
+        "answer": "Two"
+    },
+    {
+        "question": "Which keyword is used to create an error?",
+        "options": [
+            "`throw`",
+            "`exception`",
+            "`catch`",
+            "`error`"
+        ],
+        "answer": "`throw`"
+    },
+    {
+        "question": "What's one difference between the async and defer attributes of the HTML script tag?",
+        "options": [
+            "The defer attribute can work synchronously.",
+            "The defer attribute works only with generators.",
+            "The defer attribute works only with promises.",
+            "The defer attribute will asynchronously load the scripts in order."
+        ],
+        "answer": "The defer attribute will asynchronously load the scripts in order."
+    },
+    {
+        "question": "The following program has a problem. What is it?",
+        "options": [
+            "The condition in the ternary is using the assignment operator.",
+            "You can't define a variable without initializing it.",
+            "You can't use a ternary in the right-hand side of an assignment operator.",
+            "The code is using the deprecated var keyword."
+        ],
+        "answer": "The condition in the ternary is using the assignment operator."
+    },
+    {
+        "question": "Which statement references the DOM node created by the code shown?",
+        "options": [
+            "`Document.querySelector('class.pull')`",
+            "`document.querySelector('.pull');`",
+            "`Document.querySelector('pull')`",
+            "`Document.querySelector('#pull')`"
+        ],
+        "answer": "`document.querySelector('.pull');`"
+    },
+    {
+        "question": "What value does this code return?",
+        "options": [
+            "10",
+            "true",
+            "false",
+            "0"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "What is the result in the console of running the code shown?",
+        "options": [
+            "10",
+            "0",
+            "ReferenceError",
+            "undefined"
+        ],
+        "answer": "ReferenceError"
+    },
+    {
+        "question": "What will this code log in the console?",
+        "options": [
+            "undefined",
+            "\"hello\"",
+            "an object with a constructor property",
+            "an error message"
+        ],
+        "answer": "an object with a constructor property"
+    },
+    {
+        "question": "Which collection object allows unique value to be inserted only once?",
+        "options": [
+            "Object",
+            "Set",
+            "Array",
+            "Map"
+        ],
+        "answer": "Set"
+    },
+    {
+        "question": "What two values will this code print?",
+        "options": [
+            "`1` then `1`",
+            "`1` then `undefined`",
+            "`undefined` then `undefined`",
+            "`undefined` then `1`"
+        ],
+        "answer": "`undefined` then `undefined`"
+    },
+    {
+        "question": "How does the `forEach()` method differ from a `for` statement?",
+        "options": [
+            "forEach allows you to specify your own iterator, whereas for does not.",
+            "forEach can be used only with strings, whereas for can be used with additional data types.",
+            "forEach can be used only with an array, whereas for can be used with additional data types.",
+            "for loops can be nested; whereas forEach loop cannot."
+        ],
+        "answer": "forEach can be used only with an array, whereas for can be used with additional data types."
+    },
+    {
+        "question": "Which choice is an incorrect way to define an arrow function that returns an empty object?",
+        "options": [
+            "=> `({})`",
+            "=> `{}`",
+            "=> `{ return {};}`",
+            "=> `(({}))`"
+        ],
+        "answer": "=> `{}`"
+    },
+    {
+        "question": "Why might you choose to make your code asynchronous?",
+        "options": [
+            "to start tasks that might take some time without blocking subsequent tasks from executing immediately",
+            "to ensure that tasks further down in your code are not initiated until earlier tasks have completed",
+            "to make your code faster",
+            "to ensure that the call stack maintains a LIFO (Last in, First Out) structure"
+        ],
+        "answer": "to start tasks that might take some time without blocking subsequent tasks from executing immediately"
+    },
+    {
+        "question": "Which expression evaluates to true?",
+        "options": [
+            "`[3] == [3]`",
+            "`3 == '3'`",
+            "`3 != '3'`",
+            "`3 === '3'`"
+        ],
+        "answer": "`3 == '3'`"
+    },
+    {
+        "question": "Which of these is a valid variable name?",
+        "options": [
+            "5thItem",
+            "firstName",
+            "grand total",
+            "function"
+        ],
+        "answer": "firstName"
+    },
+    {
+        "question": "Which method cancels event default behavior?",
+        "options": [
+            "`cancel()`",
+            "`stop()`",
+            "`preventDefault()`",
+            "`prevent()`"
+        ],
+        "answer": "`preventDefault()`"
+    },
+    {
+        "question": "Which method do you use to attach one DOM node to another?",
+        "options": [
+            "`attachNode()`",
+            "`getNode()`",
+            "`querySelector()`",
+            "`appendChild()`"
+        ],
+        "answer": "`appendChild()`"
+    },
+    {
+        "question": "What statement can be used to skip an iteration in a loop?",
+        "options": [
+            "`break`",
+            "`pass`",
+            "`skip`",
+            "`continue`"
+        ],
+        "answer": "`continue`"
+    },
+    {
+        "question": "Which choice is a valid example for an arrow function?",
+        "options": [
+            "`(a,b) => c`",
+            "`a, b => {return c;}`",
+            "`a, b => c`",
+            "`{ a, b } => c`"
+        ],
+        "answer": "`(a,b) => c`"
+    },
+    {
+        "question": "Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?",
+        "options": [
+            "class",
+            "generator function",
+            "map",
+            "proxy"
+        ],
+        "answer": "class"
+    },
+    {
+        "question": "How do you add a comment to JavaScript code?",
+        "options": [
+            "`! This is a comment`",
+            "`# This is a comment`",
+            "`\\\\ This is a comment`",
+            "`// This is a comment`"
+        ],
+        "answer": "`// This is a comment`"
+    },
+    {
+        "question": "If you attempt to call a value as a function but the value is not a function, what kind of error would you get?",
+        "options": [
+            "TypeError",
+            "SystemError",
+            "SyntaxError",
+            "LogicError"
+        ],
+        "answer": "TypeError"
+    },
+    {
+        "question": "Which method is called automatically when an object is initialized?",
+        "options": [
+            "create()",
+            "new()",
+            "constructor()",
+            "init()"
+        ],
+        "answer": "constructor()"
+    },
+    {
+        "question": "What is the result of running the statement shown?",
+        "options": [
+            "4",
+            "10",
+            "6",
+            "5"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?",
+        "options": [
+            "`e.blockReload();`",
+            "`button.preventDefault();`",
+            "`button.blockReload();`",
+            "`e.preventDefault();`"
+        ],
+        "answer": "`e.preventDefault();`"
+    },
+    {
+        "question": "Which statement represents the starting code converted to an IIFE?",
+        "options": [
+            "`function() { console.log('lorem ipsum'); }()();`",
+            "`function() { console.log('lorem ipsum'); }();`",
+            "`(function() { console.log('lorem ipsum'); })();`"
+        ],
+        "answer": "`(function() { console.log('lorem ipsum'); })();`"
+    },
+    {
+        "question": "Which statement selects all img elements in the DOM tree?",
+        "options": [
+            "`Document.querySelector('img')`",
+            "`Document.querySelectorAll('<img>')`",
+            "`Document.querySelectorAll('img')`",
+            "`Document.querySelector('<img>')`"
+        ],
+        "answer": "`Document.querySelectorAll('img')`"
+    },
+    {
+        "question": "Why would you choose an asynchronous structure for your code?",
+        "options": [
+            "To use ES6 syntax",
+            "To start tasks that might take some time without blocking subsequent tasks from executing immediately",
+            "To ensure that parsers enforce all JavaScript syntax rules when processing your code",
+            "To ensure that tasks further down in your code aren't initiated until earlier tasks have completed"
+        ],
+        "answer": "To start tasks that might take some time without blocking subsequent tasks from executing immediately"
+    },
+    {
+        "question": "What is the HTTP verb to request the contents of an existing resource?",
+        "options": [
+            "DELETE",
+            "GET",
+            "PATCH",
+            "POST"
+        ],
+        "answer": "GET"
+    },
+    {
+        "question": "Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?",
+        "options": [
+            "focus",
+            "blur",
+            "hover",
+            "enter"
+        ],
+        "answer": "focus"
+    },
+    {
+        "question": "What is the result in the console of running this code?",
+        "options": [
+            "function",
+            "undefined",
+            "Function.prototype",
+            "window"
+        ],
+        "answer": "window"
+    },
+    {
+        "question": "Which class-based component is equivalent to this function component?",
+        "options": [
+            "`class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`",
+            "`class Greeting extends React.Component { constructor() { return <h1>Hello {this.props.name}!</h1>; } }`",
+            "`class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`",
+            "`class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`"
+        ],
+        "answer": "`class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "`ReferenceError: obj is not defined`",
+            "`{}`",
+            "`undefined`",
+            "`null`"
+        ],
+        "answer": "`undefined`"
+    },
+    {
+        "question": "How would you use the TaxCalculator to determine the amount of tax on \\$50?",
+        "options": [
+            "calculate(50);",
+            "new TaxCalculator().calculate(\\$50);",
+            "TaxCalculator.calculate(50);",
+            "new TaxCalculator().calculate(50);"
+        ],
+        "answer": "TaxCalculator.calculate(50);"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "The function bar needs to be defined as a key/value pair.",
+            "Trailing commas are not allowed in JavaScript.",
+            "Functions cannot be declared as properties of objects.",
+            "Nothing, there are no errors."
+        ],
+        "answer": "Nothing, there are no errors."
+    },
+    {
+        "question": "What will be logged to the console?",
+        "options": [
+            ".",
+            ".",
+            "The output may change with each execution of code and cannot be determined.",
+            "."
+        ],
+        "answer": "."
+    },
+    {
+        "question": "What will this code log to the console?",
+        "options": [
+            "1",
+            "undefined",
+            "NaN",
+            "Nothing--this is not proper JavaScript syntax and will throw an error."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "How do you remove the property name from this object?",
+        "options": [
+            "delete name from foo;",
+            "delete foo.name;",
+            "del foo.name;",
+            "remove foo.name;"
+        ],
+        "answer": "delete foo.name;"
+    },
+    {
+        "question": "What is the difference between the `map()` and the `forEach()` methods on the Array prototype?",
+        "options": [
+            "There is no difference.",
+            "The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.",
+            "The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.",
+            "The `forEach()` method returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value."
+        ],
+        "answer": "The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value."
+    },
+    {
+        "question": "Which concept does this code illustrate?",
+        "options": [
+            "overloading",
+            "closure",
+            "currying",
+            "overriding"
+        ],
+        "answer": "currying"
+    },
+    {
+        "question": "Which tag pair is used in HTML to embed JavaScript?",
+        "options": [
+            "`<script></script>`",
+            "`<js></js>`",
+            "`<javascript></javascript>`",
+            "`<code></code>`"
+        ],
+        "answer": "`<script></script>`"
+    },
+    {
+        "question": "If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?",
+        "options": [
+            "Security-Mode",
+            "Access-Control-Allow-Origin",
+            "Different-Origin",
+            "Same-Origin"
+        ],
+        "answer": "Access-Control-Allow-Origin"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "`[\"Amazon\",\"Borneo\",\"Cerrado\",\"Congo\"]`",
+            "`[\"Cerrado\", \"Congo\"]`",
+            "`[\"Congo\"]`",
+            "`[\"Amazon\",\"Borneo\"]`"
+        ],
+        "answer": "`[\"Cerrado\", \"Congo\"]`"
+    },
+    {
+        "question": "Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?",
+        "options": [
+            "`const [one,two,three,four,five]=numbers`",
+            "`const {one,two,three,four,five}=numbers`",
+            "`const [one,two,three,four,five]=[numbers]`",
+            "`const {one,two,three,four,five}={numbers}`"
+        ],
+        "answer": "`const [one,two,three,four,five]=numbers`"
+    },
+    {
+        "question": "What will this code print?",
+        "options": [
+            "Nothing, it will throw an error",
+            "0 2",
+            "undefined 2",
+            "undefined 2"
+        ],
+        "answer": "0 2"
+    },
+    {
+        "question": "Which line could you add to this code to print \"jaguar\" to the console?",
+        "options": [
+            "`animals.filter(e => e === \"jaguar\");`",
+            "`animals.reverse();`",
+            "`animals.shift();`",
+            "`animals.pop();`"
+        ],
+        "answer": "`animals.pop();`"
+    },
+    {
+        "question": "What line is missing from this code?",
+        "options": [
+            "`let vowels = \"aeiou\".toArray();`",
+            "`let vowels = Array.of(\"aeiou\");`",
+            "`let vowels = {\"a\", \"e\", \"i\", \"o\", \"u\"};`",
+            "`let vowels = \"aeiou\";`"
+        ],
+        "answer": "`let vowels = \"aeiou\";`"
+    },
+    {
+        "question": "What will be logged to the console?",
+        "options": [
+            "undefined",
+            "One",
+            "true",
+            "Two"
+        ],
+        "answer": "Two"
+    },
+    {
+        "question": "How would you access the word It from this multidimensional array?",
+        "options": [
+            "`matrix[1[2]]`",
+            "`matrix[1][1]`",
+            "`matrix[1,2]`",
+            "`matrix[1][2]`"
+        ],
+        "answer": "`matrix[1][1]`"
+    },
+    {
+        "question": "What does this code do?",
+        "options": [
+            "It adds \"Lizard\" to the start of the animals array.",
+            "It adds \"Lizard\" to the end of the animals array.",
+            "It replaces \"Rabbit\" with \"Lizard\" in the animals array.",
+            "It replaces \"Cat\" with \"Lizard\" in the animals array."
+        ],
+        "answer": "It adds \"Lizard\" to the start of the animals array."
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "93",
+            "12",
+            "66",
+            "633"
+        ],
+        "answer": "93"
+    },
+    {
+        "question": "Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?",
+        "options": [
+            "else",
+            "when",
+            "if",
+            "switch"
+        ],
+        "answer": "switch"
+    },
+    {
+        "question": "Which statement prints \"roar\" to the console?",
+        "options": [
+            "`bear.bind(roar);`",
+            "`roar.bind(bear);`",
+            "`roar.apply(bear);`",
+            "`bear[roar]();`"
+        ],
+        "answer": "`roar.apply(bear);`"
+    },
+    {
+        "question": "Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?",
+        "options": [
+            "`a, b => { return c; }`",
+            "`a, b => c`",
+            "`{ a, b } => c`",
+            "`(a,b) => c`"
+        ],
+        "answer": "`(a,b) => c`"
+    },
+    {
+        "question": "Which statement correctly imports this code from some-file.js?",
+        "options": [
+            "`import printMe from './some-file';`",
+            "`import { printMe } from './some-file';`",
+            "`import default as printMe from './some-file';`",
+            "`const printMe = import './some-file';`"
+        ],
+        "answer": "`import { printMe } from './some-file';`"
+    },
+    {
+        "question": "What will be the output of this code?",
+        "options": [
+            "`[2, 3, 4, 5, 6, 7]`",
+            "`[3,5,7,2,4,6]`",
+            "`[3, 5, 7, 2, 4, 6]`",
+            "`[[2, 4, 6], [3, 5, 7]]`",
+            "`[2, 4, 6, 3, 5, 7]`"
+        ],
+        "answer": "`[2, 4, 6, 3, 5, 7]`"
+    },
+    {
+        "question": "Which method call is chained to handle a successful response returned by `fetch()`?",
+        "options": [
+            "`done()`",
+            "`then()`",
+            "`finally()`",
+            "`catch()`"
+        ],
+        "answer": "`then()`"
+    },
+    {
+        "question": "Which choice is not an array method?",
+        "options": [
+            "`array.slice()`",
+            "`array.shift()`",
+            "`array.push()`",
+            "`array.replace()`"
+        ],
+        "answer": "`array.replace()`"
+    },
+    {
+        "question": "Which JavaScript loop ensures that at least a singular iteration will happen?",
+        "options": [
+            "do\u2026while",
+            "forEach",
+            "while",
+            "for"
+        ],
+        "answer": "do\u2026while"
+    },
+    {
+        "question": "What will be logged to the console?",
+        "options": [
+            "`string`",
+            "`array`",
+            "`Boolean`",
+            "`object`"
+        ],
+        "answer": "`string`"
+    },
+    {
+        "question": "What is the output that is printed when the div containing the text \"Click Here\" is clicked?",
+        "options": [
+            "C B A",
+            "A",
+            "C",
+            "A B C"
+        ],
+        "answer": "C B A"
+    },
+    {
+        "question": "What will this code log to the console?",
+        "options": [
+            "`[4,5,6,7,8,9,10]`",
+            "`[4,5,6,7]`",
+            "`[1,2,3,4,5,6]`",
+            "`[4,5,6]`"
+        ],
+        "answer": "`[4,5,6]`"
+    },
+    {
+        "question": "What does this code print to the console?",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "Which snippet could you add to this code to print \"YOU GOT THIS\" to the console?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which Pokemon will be logged to the console?",
+        "options": [
+            "Charmander",
+            "Jigglypuff",
+            "Snorlax",
+            "Squirtle"
+        ],
+        "answer": "Charmander"
+    },
+    {
+        "question": "Which statement can be used to select the element from the DOM containing the text \"The LinkedIn Learning library has great JavaScript courses\" from this markup?",
+        "options": [
+            "document.querySelector(\"div.content\")",
+            "document.querySelector(\"span.content\")",
+            "document.querySelector(\".content\")",
+            "document.querySelector(\"div.span\")"
+        ],
+        "answer": "document.querySelector(\"span.content\")"
+    },
+    {
+        "question": "Which value is not falsey?",
+        "options": [
+            "`[]`",
+            "`undefined`",
+            "`0`",
+            "`null`"
+        ],
+        "answer": "`[]`"
+    },
+    {
+        "question": "What line of code causes this code segment to throw an error?",
+        "options": [
+            "`line 5, because lion cannot be reassigned a value`",
+            "`line 6, because the += operator cannot be used with the undefined variable bear`",
+            "`line 5, because the prefix (++) operator does not exist in JavaScript`",
+            "`line 3, because the variable bear is left undefined`"
+        ],
+        "answer": "`line 5, because lion cannot be reassigned a value`"
+    },
+    {
+        "question": "What will be the value of `result` after running this code?",
+        "options": [
+            "It will throw a TypeError.",
+            "`[\"Name\", \"Age\", \"HairColor\"]`",
+            "`[\"DAVE\", 40, \"BLUE\"]`",
+            "`[\"NAME\", \"AGE\", \"HAIRCOLOR\"]`"
+        ],
+        "answer": "`[\"NAME\", \"AGE\", \"HAIRCOLOR\"]`"
+    },
+    {
+        "question": "Which snippet could you insert to this code to print \"swim\" to the console?",
+        "options": [
+            "`animals.every(key)`",
+            "`animals.some(key).length === 1`",
+            "`animals.filter(key) === true`",
+            "`animals.some(key)`"
+        ],
+        "answer": "`animals.some(key)`"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "`undefined`",
+            "`None of these answers, as static is not a feature in Javascript.`",
+            "`60`",
+            "`80`"
+        ],
+        "answer": "`undefined`"
+    },
+    {
+        "question": "How can you attempt to access the property `a.b` on `obj` without throwing an error if a is undefined?",
+        "options": [
+            "`obj?.a.b`",
+            "`obj.a?.b`",
+            "`obj[a][b]`",
+            "`obj.?a.?b`"
+        ],
+        "answer": "`obj.a?.b`"
+    },
+    {
+        "question": "What happens when you run this code?",
+        "options": [
+            "It will throw a `ReferenceError` about `x`.",
+            "It will print `18`.",
+            "It will print `undefined`.",
+            "It will throw a `ReferenceError` about `y`."
+        ],
+        "answer": "It will throw a `ReferenceError` about `y`."
+    },
+    {
+        "question": "What does this code print to the console?",
+        "options": [
+            "`[1,2,5,7]`",
+            "`[[1, 2], [5, 7]]`",
+            "`[2,7]`",
+            "`[2,1,7,5]`"
+        ],
+        "answer": "`[1,2,5,7]`"
+    },
+    {
+        "question": "Given this code, which statement will be evaluated as false?",
+        "options": [
+            "`a['x'] === b['x']`",
+            "`a != b`",
+            "`a === b`",
+            "`a.x === b.x`"
+        ],
+        "answer": "`a === b`"
+    },
+    {
+        "question": "What will this code log to the console?",
+        "options": [
+            "`Nothing. It resuults in a ReferenceError.`",
+            "`decimal`",
+            "`float`",
+            "`number`"
+        ],
+        "answer": "`number`"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "`3`",
+            "`4`",
+            "`6`",
+            "`7`"
+        ],
+        "answer": "`4`"
+    },
+    {
+        "question": "What does this code print to the console?",
+        "options": [
+            "`Nothing is printed to the console.`",
+            "`grunt`",
+            "`undefined`",
+            "`roar`"
+        ],
+        "answer": "`undefined`"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "undefined",
+            "Wild",
+            "Tabby",
+            "Athena"
+        ],
+        "answer": "Wild"
+    },
+    {
+        "question": "What will this code output to the log?",
+        "options": [
+            "null no arg",
+            "no arg no arg",
+            "null null",
+            "no arg null"
+        ],
+        "answer": "no arg null"
+    },
+    {
+        "question": "What will this code print to the console?",
+        "options": [
+            "a is 1",
+            "a is undefined",
+            "It won't print anything.",
+            "a is 2"
+        ],
+        "answer": "a is 2"
+    },
+    {
+        "question": "What will this code print to the console?",
+        "options": [
+            "8",
+            "6",
+            "2",
+            "12"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "Which code would you use to access the Irish flag?",
+        "options": [
+            "flagDatabase.countries[1].flag",
+            "flagDatabase.countries[0].flag",
+            "flagDatabase[1].flag",
+            "flagsJSON.countries[0].flag"
+        ],
+        "answer": "flagDatabase.countries[0].flag"
+    },
+    {
+        "question": "Which snippet allows the acresOfRainForest variable to increase?",
+        "options": [
+            "conservation && !deforestation",
+            "!deforestation && !conservation",
+            "!conservation || deforestation",
+            "deforestation && conservation || deforestation"
+        ],
+        "answer": "conservation && !deforestation"
+    },
+    {
+        "question": "Which of these evaluate to true?",
+        "options": [
+            "Boolean(\"false\")",
+            "Boolean(\"\")",
+            "Boolean(0)",
+            "Boolean(NaN)"
+        ],
+        "answer": "Boolean(\"false\")"
+    },
+    {
+        "question": "How would you add a data item named animal with a value of sloth to local storage for the current domain?",
+        "options": [
+            "LocalStorage.setItem(\"animal\",\"sloth\");",
+            "document.localStorage.setItem(\"animal\",\"sloth\");",
+            "localStorage.setItem({animal:\"sloth\"});",
+            "localStorage.setItem(\"animal\",\"sloth\");"
+        ],
+        "answer": "localStorage.setItem(\"animal\",\"sloth\");"
+    },
+    {
+        "question": "What value is printed to the console after this code execute?",
+        "options": [
+            "tiger large",
+            "lion undefined",
+            "undefined large",
+            "lion large"
+        ],
+        "answer": "undefined large"
+    },
+    {
+        "question": "What does this code print to the console?",
+        "options": [
+            "bear bear",
+            "lion bear",
+            "bear bear",
+            "lion bear"
+        ],
+        "answer": "bear bear"
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [
+            "18",
+            "10",
+            "9",
+            "20"
+        ],
+        "answer": "9"
+    },
+    {
+        "question": "Which snippet could you add to this code to print \"{\"type\": \"tiger\"}\" to the console?",
+        "options": [
+            "`cat.toJSON(\"type\");`",
+            "`JSON.stringify(cat, [\"type\"]);`",
+            "`JSON.stringify(cat);`",
+            "`JSON.stringify(cat, /type/);`"
+        ],
+        "answer": "`JSON.stringify(cat, [\"type\"]);`"
+    },
+    {
+        "question": "Which document method is not used to get a reference to a DOM node?",
+        "options": [
+            "document.getNode();",
+            "document.getElementsByClassName();",
+            "document.querySelectorAll();",
+            "document.querySelector();"
+        ],
+        "answer": "document.getNode();"
+    },
+    {
+        "question": "In JavaScript, all objects inherit a built-in property from a **\\*\\*\\*\\***\\_\\_\\_**\\*\\*\\*\\***.",
+        "options": [
+            "node",
+            "instance variable",
+            "prototype",
+            "accessor"
+        ],
+        "answer": "prototype"
+    },
+    {
+        "question": "Which of the following are not server-side Javascript objects?",
+        "options": [
+            "Date",
+            "FileUpload",
+            "Function",
+            "All of the above"
+        ],
+        "answer": "FileUpload"
+    },
+    {
+        "question": "What will be the output of the following code snippet?",
+        "options": [
+            "first: 30 , second: 50",
+            "first: 50 , second: 30",
+            "first: 30 , second: 20",
+            "None of the above"
+        ],
+        "answer": "first: 50 , second: 30"
+    },
+    {
+        "question": "Which object in Javascript doesn\u2019t have a prototype?",
+        "options": [
+            "Base Object",
+            "All objects have prototype",
+            "None of the objects have prototype",
+            "None of the above"
+        ],
+        "answer": "Base Object"
+    },
+    {
+        "question": "What does \u2026 operator do in JS?",
+        "options": [
+            "Used to spread iterables to individual elements",
+            "Describe datatype of undefined",
+            "No such operator exists",
+            "None of the above"
+        ],
+        "answer": "Used to spread iterables to individual elements"
+    },
+    {
+        "question": "How to stop an interval timer in Javascript?",
+        "options": [
+            "clearInterval",
+            "clearTimer",
+            "intervalOver",
+            "None of the above"
+        ],
+        "answer": "clearInterval"
+    },
+    {
+        "question": "What will be the output of the following code snippet?",
+        "options": [
+            "Object",
+            "Number",
+            "String",
+            "None of the above"
+        ],
+        "answer": "Number"
+    },
+    {
+        "question": "What will be the output of the following code snippet?",
+        "options": [
+            "Compilation Error",
+            "14",
+            "Runtime Error",
+            "59"
+        ],
+        "answer": "59"
+    },
+    {
+        "question": "Which of the following methods can be used to display data in some form using Javascript?",
+        "options": [
+            "document.write()",
+            "console.log()",
+            "window.alert()",
+            "all of the above"
+        ],
+        "answer": "all of the above"
+    },
+    {
+        "question": "What value is assigned to total after this code executes?",
+        "options": [
+            "10",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Which statement is applicable to the defer attribute of the HTML <script> tag?",
+        "options": [
+            "defer allows the browser to continue processing the page while the script loads in the background.",
+            "defer causes the script to be loaded from the backup content delivery network (CDN).",
+            "defer blocks the browser from processing HTML below the tag until the script is completely loaded.",
+            "defer lazy loads the script, causing it to download only when it is called by another script on the page."
+        ],
+        "answer": "defer allows the browser to continue processing the page while the script loads in the background."
+    },
+    {
+        "question": "Which method of a class is called to initialize an object of that class?",
+        "options": [
+            "init()",
+            "create()",
+            "new()",
+            "constructor()"
+        ],
+        "answer": "constructor()"
+    },
+    {
+        "question": "Which expression evaluates to true?",
+        "options": [
+            "Boolean(NaN)",
+            "Boolean(0)",
+            "Boolean(\"false\")",
+            "Boolean(\"\")"
+        ],
+        "answer": "Boolean(\"false\")"
+    },
+    {
+        "question": "How would you check if the word \"pot\" is in the word \"potato\"?",
+        "options": [
+            "\"pot\".indexOf(\"potato\") !== -1",
+            "\"potato\".includes(\"Pot\")",
+            "\"potato\".includes(\"pot\")",
+            "\"potato\".contains(\"pot\");"
+        ],
+        "answer": "\"potato\".includes(\"pot\")"
+    },
+    {
+        "question": "Which collection object allows a unique value to be inserted only once?",
+        "options": [
+            "Map",
+            "Array",
+            "Set",
+            "Object"
+        ],
+        "answer": "Set"
+    },
+    {
+        "question": "How would you change the color of this header to pink?",
+        "options": [
+            "document.getElementByName(\"cleverest\").style.color = \"pink\";",
+            "document.getElementsByTagName(\"h2\").style.color = \"pink\";",
+            "document.getElementByName(\"h2\").style.color = \"pink\";",
+            "document.getElementById(\"cleverest\").style.color = \"pink\";"
+        ],
+        "answer": "document.getElementById(\"cleverest\").style.color = \"pink\";"
+    },
+    {
+        "question": "Which line is missing from this code if you expect the code to evaluate to true?",
+        "options": [
+            "`test1==test2;`",
+            "return test1===test2;",
+            "return test1==test2;",
+            "return test1!=test2;"
+        ],
+        "answer": "return test1==test2;"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "You",
+            "You",
+            "undefined",
+            "You"
+        ],
+        "answer": "You"
+    },
+    {
+        "question": "What is the output for the code given below?",
+        "options": [
+            "helloworld!",
+            "helloworld !",
+            "hello world!",
+            "hello world !"
+        ],
+        "answer": "helloworld!"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+        ],
+        "answer": "20"
+    },
+    {
+        "question": "Events related to the browser window can be handled by?",
+        "options": [
+            "Onclicks",
+            "Window",
+            "querySelector",
+            "None of the above"
+        ],
+        "answer": "Window"
+    },
+    {
+        "question": "How do you define a function in JavaScript?",
+        "options": [
+            "function myFunction() {}",
+            "def myFunction() {}",
+            "var myFunction = () => {}",
+            "func myFunction() {}"
+        ],
+        "answer": "function myFunction() {}"
+    },
+    {
+        "question": "Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?",
+        "options": [
+            "You are calling a method named reduce on an object that's declared but has no value.",
+            "You are calling a method named reduce on an object that does not exist.",
+            "You are calling a method named reduce on an empty array.",
+            "You are calling a method named reduce on an object that has a null value."
+        ],
+        "answer": "You are calling a method named reduce on an object that's declared but has no value."
+    },
+    {
+        "question": "Which of the following methods can be used to display data in some form using Javascript?",
+        "options": [
+            "document.write()",
+            "console.log()",
+            "window.alert()",
+            "all of the above"
+        ],
+        "answer": "all of the above"
+    },
+    {
+        "question": "Which document method is not used to get a reference to a DOM node?",
+        "options": [
+            "document.getNode();",
+            "document.getElementsByClassName();",
+            "document.querySelectorAll();",
+            "document.querySelector();"
+        ],
+        "answer": "document.getNode();"
+    },
+    {
+        "question": "Which of these is a valid variable name?",
+        "options": [
+            "5thItem",
+            "firstName",
+            "grand total",
+            "function"
+        ],
+        "answer": "firstName"
+    },
+    {
+        "question": "What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?",
+        "options": [
+            "setTimeout()",
+            "setInterval()",
+            "delay()",
+            "wait()"
+        ],
+        "answer": "setTimeout()"
+    },
+    {
+        "question": "Which of the following is a server-side Java Script object?",
+        "options": [
+            "Function",
+            "File",
+            "FileUpload",
+            "Date"
+        ],
+        "answer": "File"
+    },
+    {
+        "question": "Which statement best describes the var keyword's scope in JavaScript?",
+        "options": [
+            "Block scope",
+            "Function scope",
+            "Global scope",
+            "Instance scope"
+        ],
+        "answer": "Function scope"
+    },
+    {
+        "question": "What will be logged to the console?",
+        "options": [
+            "Second, First, Third",
+            "First, Third, Second",
+            "First, Second, Third",
+            "Third, First, Second"
+        ],
+        "answer": "First, Third, Second"
+    },
+    {
+        "question": "What will be the output of running this code?",
+        "options": [
+            "YAY!!!",
+            "ReferenceError",
+            "Undefined",
+            "TypeError"
+        ],
+        "answer": "YAY!!!",
+        "explanation": null,
+        "codeblock": null
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Value of variable sum is printed as sum and is defined outside try & catch block. If defined inside the try block then sum would be undefined for execution."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Due to occurrence of arithmetic exception here \u2018B\u2019 is printed after 12345."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "When array index goes out of bound then IndexOutOfBoundsException exception is thrown by the system."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Since  b = 0 since a = 10 / 0 so, arithmetic exception is caught and hence statement in catch block is executed."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "finally keyword is used to execute before catch and try block is executed."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "When is no exception thrown at runtime then who will catch it?",
+        "options": [
+            "a) CLR",
+            "b) Operating System",
+            "c) Loader",
+            "d) Compiler"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The catch block is called, as the exception is caught by the same block and hence statements are executed consecutively."
+    },
+    {
+        "question": "Choose the correct statement which makes exception handling work in C#.NET?",
+        "options": [
+            "a) .Net runtime makes search for the exception handler where exception occurs",
+            "b) If no exception is matched, exception handler goes up the stack and hence finds the match there",
+            "c) If no match is found at the highest level of stack call, then unhandledException is generated and hence termination of program occurs",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "By definition of exceptionhandling mechanism in C#.NET."
+    }
+]

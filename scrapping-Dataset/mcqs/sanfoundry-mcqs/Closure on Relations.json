@@ -1,0 +1,101 @@
+[
+    {
+        "question": "R is a binary relation on a set S and R is reflexive if and only if _______",
+        "options": [
+            "a) r(R) = R",
+            "b) s(R) = R",
+            "c) t(R) = R",
+            "d) f(R) = R"
+        ],
+        "answer": "a",
+        "explanation": "Let reflexive closure of R:r(R) = R. If R is reflexive, it satisfies all the condition in the definition of reflexive closure. So, a reflexive closure of a relation is the smallest number of reflexive relation contain in R. Hence, R = r(R)."
+    },
+    {
+        "question": "If R",
+        "options": [
+            "a) (R",
+            "b) (A x B)",
+            "c) (R",
+            "d) (R"
+        ],
+        "answer": "c",
+        "explanation": "To proof (R"
+    },
+    {
+        "question": "The condition for a binary relation to be symmetric is _______",
+        "options": [
+            "a) s(R) = R",
+            "b) R  \u222a R = R",
+            "c) R = R",
+            "d) f(R) = R"
+        ],
+        "answer": "c",
+        "explanation": "If <a,b> \u2208 R then <b,a> \u2208 R, where a and b belong to two different sets and so its symmetric."
+    },
+    {
+        "question": "______ number of reflexive closure exists in a relation R = {(0,1), (1,1), (1,3), (2,1), (2,2), (3,0)} where {0, 1, 2, 3} \u2208 A.",
+        "options": [
+            "a) 2",
+            "b) 6",
+            "c) 8",
+            "d) 36"
+        ],
+        "answer": "b",
+        "explanation": "The reflexive closure of R is the relation, R \u222a \u0394 = { (a,b) | (a,b) R  (a,a) | a  A }. Hence, R \u222a \u0394 =  {(0,1), (1,1), (1,3), (2,1), (2,2), (3,0)} and the answer is 6."
+    },
+    {
+        "question": "The transitive closure of the relation {(0,1), (1,2), (2,2), (3,4), (5,3), (5,4)}  on the set {1, 2, 3, 4, 5}        is _______",
+        "options": [
+            "a) {(0,1), (1,2), (2,2), (3,4)}",
+            "b) {(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)}",
+            "c) {(0,1), (1,1), (2,2), (5,3), (5,4)}",
+            "d) {(0,1), (0,2), (1,2), (2,2), (3,4), (5,3), (5,4)}"
+        ],
+        "answer": "d",
+        "explanation": "Let R be a relation on a set A. The connectivity relation on R* consists of pairs (a,b) such that there is a path of length at least one from a to b in R. Mathematically, R* = R"
+    },
+    {
+        "question": "The number of equivalence relations of the set {3, 6, 9, 12, 18} is ______",
+        "options": [
+            "a) 4",
+            "b) 2",
+            "c) 22",
+            "d) 90"
+        ],
+        "answer": "a",
+        "explanation": "Number of equivalence Relations are given by BELL number. The nth of these numbers i.e, B"
+    },
+    {
+        "question": "Let R",
+        "options": [
+            "a) an equivalence relation",
+            "b) reflexive closure of relation",
+            "c) not an equivalence relation",
+            "d) partial equivalence relation"
+        ],
+        "answer": "a",
+        "explanation": "R"
+    },
+    {
+        "question": "A relation R is defined on the set of integers as aRb if and only if a+b is even and R is termed as ______",
+        "options": [
+            "a) an equivalence relation with one equivalence class",
+            "b) an equivalence relation with two equivalence classes",
+            "c) an equivalence relation",
+            "d) an equivalence relation with three equivalence classes"
+        ],
+        "answer": "b",
+        "explanation": " R is reflexive as (a+b) is even for any integer; R is symmetric as if (a+b) is even (b+a) is also even; R is transitive as if ((a+b)+c) is even, then (a+(b+c)) is also even."
+    },
+    {
+        "question": "The binary relation U = \u03a6 (empty set) on a set A = {11, 23, 35} is _____",
+        "options": [
+            "a) Neither reflexive nor symmetric",
+            "b) Symmetric and reflexive",
+            "c) Transitive and reflexive",
+            "d) Transitive and symmetric"
+        ],
+        "answer": "d",
+        "explanation": "U = \u03a6 (empty set) on a set A = {11, 23, 35} need to be hold Irreflexive, symmetric, anti-symmetric, asymmetric and transitive closure property, but it is not Reflexive as it does not contain any self loop in itself."
+    }
+]

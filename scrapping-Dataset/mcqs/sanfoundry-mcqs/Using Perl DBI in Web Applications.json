@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The module that links DBI to the web is ______________",
+        "options": [
+            "a) CGI.pn",
+            "b) CGI.pem",
+            "c) CGI.pm",
+            "d) CGI.po"
+        ],
+        "answer": "c",
+        "explanation": "The CGI.pm module is used to write scripts that use the \u2018Common Gateway Interface\u2019 protocol. It defines how a web server communicates with other programs. It provides an easy link."
+    },
+    {
+        "question": "CGI stands for ______________",
+        "options": [
+            "a) Computer Gateway Interface",
+            "b) Common Gateway Interface",
+            "c) Computer Generated Interface",
+            "d) Common Generated Interface"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CGI.pm\u2019 module is so called because it helps write scripts that use the \u2018Common Gateway Interface\u2019 protocol which defines how a web server communicates with other programs."
+    },
+    {
+        "question": "Which line is written at the top of the script to write a Perl script using CGI.pm?",
+        "options": [
+            "a) use this CGI",
+            "b) put CGI",
+            "c) use CGI",
+            "d) include CGI"
+        ],
+        "answer": "c",
+        "explanation": "In order to write a Perl script that uses the \u2018CGI.pm\u2019 module, a \u2018use CGI\u2019 statement is included near the beginning of the script that imports the function names of the module."
+    },
+    {
+        "question": "CGI.pm also supports an object oriented style of use.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "\u2018CGI.pm\u2019 supports an object oriented style of use which allows to invoke its functions without importing the names. To do this, a use statement is included and a CGI object is created."
+    },
+    {
+        "question": "There can be more than one column per table with the AUTO_INCREMENT attribute.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there can only be one column per table with the AUTO_INCREMENT attribute. It should also have an integer data type. The AUTO_INCREMENT is also allowed for floating point types."
+    },
+    {
+        "question": "What does the expression \u201912 DIV 5\u2032 evaluate to?",
+        "options": [
+            "a) 2.4",
+            "b) 2",
+            "c) error",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018DIV\u2019 operator in MySQL is used to perform the integer divisions. The operator \u2018/\u2019 performs the quotient of the operands. If result exceeds the 64-bit range, unpredicted results are shown."
+    },
+    {
+        "question": "What does \u2018abc\u2019 || \u2018xyz\u2019 result in if the PIPES_AS_CONCAT is disabled?",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) error",
+            "d) -1"
+        ],
+        "answer": "b",
+        "explanation": "When the SQL mode PIPES_AS_CONCAT is disabled, the SQL standard \u2018||\u2019 operation for string concatenation is not valid in MySQL. Both operands are converted to zero. So the result is zero."
+    },
+    {
+        "question": "The AUTO_INCREMENT column attribute is best used with ______________",
+        "options": [
+            "a) FLOAT",
+            "b) INT",
+            "c) CHARACTER",
+            "d) DOUBLE"
+        ],
+        "answer": "b",
+        "explanation": "The AUTO_INCREMENT is a column attribute and it is best used with the integer datatypes. It automatically assigns monotonically increasing values to the AUTO_INCREMENT columns."
+    },
+    {
+        "question": "The datatype best suited to store currency values is ______________",
+        "options": [
+            "a) INT",
+            "b) FLOAT",
+            "c) DOUBLE",
+            "d) DECIMAL"
+        ],
+        "answer": "d",
+        "explanation": "Currency is a numeric information. For monetary calculations, FLOAT and DOUBLE are subject to rounding error and may not be suitable. A DECIMAL(M, 2) type is best suited for it."
+    }
+]

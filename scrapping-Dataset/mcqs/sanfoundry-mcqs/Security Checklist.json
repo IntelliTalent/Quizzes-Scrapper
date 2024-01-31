@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Use __________ to encrypt communication between mongod and mongos components of a MongoDB client as well as between all applications and MongoDB.",
+        "options": [
+            "a) SSD",
+            "b) TLS",
+            "c) MEAN",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Create roles that define the exact access a set of users needs."
+    },
+    {
+        "question": "With ___________ enabled, MongoDB forces all clients to identify themselves before granting access to the server.",
+        "options": [
+            "a) access",
+            "b) authentication",
+            "c) authorization",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "KDC uses the client\u2019s secret and the server\u2019s secret to construct the ticket which allows the client and server to mutually authenticate each other, while keeping the secrets hidden."
+    },
+    {
+        "question": "___________ allows administrators to define and limit the resources and operations that a user can access.",
+        "options": [
+            "a) Access",
+            "b) Authentication",
+            "c) Authorization",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Using authentication and authorization is a key part of a complete security strategy."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) User principal names have the form: <userpwd>@<KERBEROS PRINCIPAL>",
+            "b) For MongoDB, the <service> defaults to mongodb",
+            "c) Every MongoDB mongod and mongos instance must have an associated service principal",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "User principal names have the form: <userpwd>@<KERBEROS PRINCIPAL>."
+    },
+    {
+        "question": "Use the __________ option to ensure that MongoDB listens for connections from applications on configured addresses.",
+        "options": [
+            "a) bind_ipadd",
+            "b) bind_ip",
+            "c) bind_service",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For a geographically distributed replica sets, ensure that the majority of the set\u2019s mongod instances reside in the primary site."
+    },
+    {
+        "question": "_____________ is used to initiate relica member set.",
+        "options": [
+            "a) rs.rep()",
+            "b) rs.init()",
+            "c) rs.initiate()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " MongoDB initiates a set that consists of the current member and that uses the default replica set configuration."
+    },
+    {
+        "question": "Which of the following is used to display the replica set configuration object?",
+        "options": [
+            "a) rs.config",
+            "b) rs.conf",
+            "c) rs.confrepl",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "rs.conf() returns a document that contains the current replica set configuration."
+    },
+    {
+        "question": "MongoDB supports the execution of JavaScript code for certain server-side operations like ____________",
+        "options": [
+            "a) where",
+            "b) group",
+            "c) mapreduce",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If you do not use these operations, disable server-side scripting by using the \u2013noscripting option on the command line."
+    }
+]

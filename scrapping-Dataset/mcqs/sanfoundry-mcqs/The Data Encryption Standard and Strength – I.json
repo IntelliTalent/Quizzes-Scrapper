@@ -1,0 +1,86 @@
+[
+    {
+        "question": "DES follows",
+        "options": [
+            "a) Hash Algorithm",
+            "b) Caesars Cipher",
+            "c) Feistel Cipher Structure",
+            "d) SP Networks"
+        ],
+        "answer": "c",
+        "explanation": "DES follows Feistel Cipher Structure."
+    },
+    {
+        "question": "The DES Algorithm Cipher System consists of ____________rounds (iterations) each with a round key",
+        "options": [
+            "a) 12",
+            "b) 18",
+            "c)  9",
+            "d) 16"
+        ],
+        "answer": "d",
+        "explanation": "The DES Algorithm Cipher System consists of 16 rounds (iterations) each with a round key."
+    },
+    {
+        "question": "The DES algorithm has a key length of",
+        "options": [
+            "a) 128 Bits",
+            "b) 32 Bits",
+            "c) 64 Bits",
+            "d) 16 Bits"
+        ],
+        "answer": "c",
+        "explanation": "DES encrypts blocks of 64 bits using a 64 bit key."
+    },
+    {
+        "question": "In the DES algorithm, although the key size is 64 bits only 48bits are used for the encryption procedure, the rest are parity bits.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "56 bits are used, the rest 8 bits are parity bits."
+    },
+    {
+        "question": "In the DES algorithm the round key is __________ bit and the Round Input is ____________bits.",
+        "options": [
+            "a) 48, 32",
+            "b) 64,32",
+            "c) 56, 24",
+            "d) 32, 32"
+        ],
+        "answer": "a",
+        "explanation": "The round key is 48 bits. The input is 32 bits."
+    },
+    {
+        "question": "The Initial Permutation table/matrix is of size",
+        "options": [
+            "a) 16\u00d78",
+            "b) 12\u00d78",
+            "c) 8\u00d78",
+            "d) 4\u00d78"
+        ],
+        "answer": "c",
+        "explanation": "There are 64 bits to permute and this requires a 8\u00d78 matrix."
+    },
+    {
+        "question": "The number of unique substitution boxes in DES after the 48 bit XOR operation are",
+        "options": [
+            "a) 8",
+            "b) 4",
+            "c) 6",
+            "d) 12"
+        ],
+        "answer": "a",
+        "explanation": "The substitution consists of a set of 8 S-boxes, each of which accepts 6 bits as input and produces 4 bits as output."
+    },
+    {
+        "question": "In the DES algorithm the 64 bit key input is shortened to 56 bits by ignoring every 4th bit.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Every 8th bit is ignored to shorten the key length."
+    }
+]

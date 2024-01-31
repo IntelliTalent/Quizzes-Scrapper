@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Can a single tape turing machine be simulated using deterministic 2-stack turing machine?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Cannot be said",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The symbols to left of the head of turing macine being simulated can be stored on the stack while the symbols on the right of the head can be placed on another stack. On each stack, symbols closer to the TM\u2019s head are placed closer to the top of the stack than symbols farther from the TM\u2019s head."
+    },
+    {
+        "question": "A ___________ is a multi tape turing machine whose input tape is read only.",
+        "options": [
+            "a) Counter Machine",
+            "b) Multi-stack",
+            "c) Alternating Turing machine",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Counter machines are offline(a multitape turing machine whose input is read only) whose storage tapes are semi-infinite and whose tape symbols contains only two symbols Z and a blank symbol B."
+    },
+    {
+        "question": "Instantaneous description of a counter machine can be described using:",
+        "options": [
+            "a) the input tape contents",
+            "b) position of the input head",
+            "c) distance of storage heads from symbol Z",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Instantaneous description of a counter machine can be described by the state, the input tape contents, the position of input head, and the distance of storage heads from the symbol Z. The counter machine can really store a count on each tape and tell if the count is zero."
+    },
+    {
+        "question": "Which of the following parameters cannot be used to restrict a turing machine?",
+        "options": [
+            "a) tape alphabets",
+            "b) number of tapes",
+            "c) number of states",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Another procedure to restrict a turing machine is to limit the size of tape alphabet or reduce the number of states. If the tape alphabets, number of tapes or number of states are limited, then there is only a finite number of different turing machine, so the restricted model is more powerful than the original one."
+    },
+    {
+        "question": "Linear Bounded Automaton is a:",
+        "options": [
+            "a) Finite Automaton",
+            "b) Turing Machine",
+            "c) Push down Automaton",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Linear Bounded Automaton is a type of Turing Machine where tape is not allowed to move off the portion of the tape containing the input. It is a Turing machine with limited amount of memory."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "A TM with a semi-infinite tape means that there are no cells to the left of the initial head position. A TM with a semi infinite tape simulates a TM with an infinite tape by using a two-track tape."
+    },
+    {
+        "question": "Which of the following is true with reference to semi-infinite tape using a two track tape?",
+        "options": [
+            "a) Can simulate a two way tape",
+            "b) Upper track represents the head-right cells",
+            "c) Lower track represents the head-left cells",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The upper track represents the cells of the original TM that are at the right of the initial head position. The lower track represents the cells to the left of the initial head position, but in reverse order."
+    },
+    {
+        "question": "Which among the following options are correct?",
+        "options": [
+            "a) Statement 1 and 2, both are correct",
+            "b) Statement 1 is correct but Statement 2 is false",
+            "c) Statement 2 is correct while Statement 1 is false",
+            "d) Statement 1 and 2, both are false"
+        ],
+        "answer": "a",
+        "explanation": "Both the statements are true. Both the statements are properties of Multistack machines."
+    },
+    {
+        "question": "A two-way infinite tape turing machine is ________ superior than the basic model of the turing machine in terms of power.",
+        "options": [
+            "a) more",
+            "b) less",
+            "c) no way",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A two way infinite tape turing machine is a turing machine with its input tape infinte in both directions, the other component being the same  as the basic model."
+    },
+    {
+        "question": "For a basic turing machine, there exists an equivalent :",
+        "options": [
+            "a) 2-counter machine",
+            "b) 3-counter machine",
+            "c) 4-counter machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For a basic TM, there exists a 2-counter, 3-counter and 4-counter machines"
+    }
+]

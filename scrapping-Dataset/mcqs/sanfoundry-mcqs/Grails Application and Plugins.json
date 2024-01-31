@@ -1,0 +1,165 @@
+[
+    {
+        "question": "Grails is a self-contained framework that comes with various scripts to automate the creation of Java applications.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In this sense, you simply need to unpack the distribution and perform a few installation steps in order to create Java applications on your workstation."
+    },
+    {
+        "question": "To invoke Grails operations from anywhere on your workstation.",
+        "options": [
+            "a) GRAILS HOME",
+            "b) PATH",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "After you unpack Grails on your workstation, define two environment variables on your operating system: GRAILS HOME and PATH.This allows you to invoke Grails operations from anywhere on your workstation."
+    },
+    {
+        "question": "To see Grails numerous commands.",
+        "options": [
+            "a) grails help",
+            "b) grails -help",
+            "c) grails -h",
+            "d) help grails"
+        ],
+        "answer": "a",
+        "explanation": "If you execute the command grails help from any directory on your workstation, you should see Grails numerous commands."
+    },
+    {
+        "question": "To create a Grails application, command:-",
+        "options": [
+            "a) grails create-app",
+            "b) grails create-app grailsappname",
+            "c) grails create-app default",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To create a Grails application, invoke the following command wherever you wish to create an application: grails create-app grailsappname."
+    },
+    {
+        "question": "Working directories and files are placed under which directory.",
+        "options": [
+            "a) User\u2019s home directory under the name.grails/grails version/.",
+            "b) WEB-APP",
+            "c) WEB-INF",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Grails also creates a series of working directories and files (i.e., not intended to be modified directly) for an application. These working directories and files are placed under a user\u2019s home directory under the name.grails/grails version/."
+    },
+    {
+        "question": "Grails generates a series of files and directories which includes.",
+        "options": [
+            "a) Apache Ant file(build.xml)",
+            "b) Apache Ivy file(ivy.xml)",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Grails generates a series of files and directories that are common in most Java applications. This includes, an Apache Ant file (build.xml) and an Apache Ivy file (ivy.xml), as well as common directories like src for placing source code files and a web-app."
+    },
+    {
+        "question": "Used to define an application\u2019s properties.",
+        "options": [
+            "a) application.properties",
+            "b) build.xml",
+            "c) manifest.xml",
+            "d) court.iml"
+        ],
+        "answer": "a",
+        "explanation": "Used to define an application\u2019s properties, including the Grails version, servlet version, and an application\u2019s name."
+    },
+    {
+        "question": "An Apache Ant script with a series of predefined tasks designed to create a Grails application.",
+        "options": [
+            "a) application.properties",
+            "b) build.xml",
+            "c) manifest.xml",
+            "d) court.iml"
+        ],
+        "answer": "b",
+        "explanation": "An Apache Ant script with a series of predefined tasks designed to create a Grails application."
+    },
+    {
+        "question": "An XML file containing configuration parameters for an application.",
+        "options": [
+            "a) application.properties",
+            "b) build.xml",
+            "c) manifest.xml",
+            "d) court.iml"
+        ],
+        "answer": "d",
+        "explanation": "An XML file containing configuration parameters for an application, such as directory locations and treatment of JARs."
+    },
+    {
+        "question": "An XML file containing configuration parameters for an application\u2019s deployment.",
+        "options": [
+            "a) application.properties",
+            "b) build.xml",
+            "c) court.iws",
+            "d) court.iml"
+        ],
+        "answer": "c",
+        "explanation": "An XML file containing configuration parameters for an application\u2019s deployment, such as web container port and project views."
+    },
+    {
+        "question": "An XML file containing configuration parameters for an application\u2019s launch.",
+        "options": [
+            "a) application.properties",
+            "b) build.xml",
+            "c) court.iws",
+            "d) court.launch"
+        ],
+        "answer": "d",
+        "explanation": "An XML file containing configuration parameters for an application\u2019s launch, such as JVM arguments."
+    },
+    {
+        "question": "An Apache Ivy configuration file used for defining repositories.",
+        "options": [
+            "a) application.properties",
+            "b) ivysettings.xml",
+            "c) court.iws",
+            "d) court.launch"
+        ],
+        "answer": "b",
+        "explanation": "An Apache Ivy configuration file used for defining repositories in order to download dependencies."
+    },
+    {
+        "question": "A directory containing the core of an application.",
+        "options": [
+            "a) application.properties",
+            "b) ivysettings.xml",
+            "c) court.iws",
+            "d) grails-app"
+        ],
+        "answer": "d",
+        "explanation": "A directory containing the core of an application, which further"
+    },
+    {
+        "question": "An XML file containing configuration parameters for an application.",
+        "options": [
+            "a) application.properties",
+            "b) ivysettings.xml",
+            "c) court.iml",
+            "d) court.launch"
+        ],
+        "answer": "c",
+        "explanation": "An XML file containing configuration parameters for an application, such as directory locations and treatment of JARs."
+    },
+    {
+        "question": "Some of the more popular Grails plugins follow:",
+        "options": [
+            "a) App Engine",
+            "b) Quartz",
+            "c) Spring WS",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "With the WiredTiger storage engine, use of _______ is strongly recommended to avoid performance issues.",
+        "options": [
+            "a) XFS",
+            "b) SSD",
+            "c) SST",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Some Linux distributions require different versions of the kernel to support using XFS."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) With the MMAPv1 storage engine, MongoDB preallocates its database files before using them and often creates large files",
+            "b) zlib provides better compression rate but has a higher performance cost",
+            "c) MongoDB includes support for many storage engines",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "WiredTiger uses prefix compression on all indexes by default."
+    },
+    {
+        "question": "MongoDB requires a filesystem that supports ______ on directories.",
+        "options": [
+            "a) fsynconce()",
+            "b) fsync()",
+            "c) sync()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HGFS and Virtual Box\u2019s shared folders do not support this operation."
+    },
+    {
+        "question": "MongoDB Cloud Manager provides integration with Amazon Web Services (AWS) and lets you deploy new ______ instances directly from MongoDB Cloud Manager.",
+        "options": [
+            "a) ECS",
+            "b) EC2",
+            "c) EC3",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB is compatible with EC2."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) When running MongoDB in production on Linux, it is recommended that you use Linux kernel version 2.6.36 or later",
+            "b) The MongoDB distribution for Solaris include support for the WiredTiger storage engine",
+            "c) By default, WiredTiger uses zip compression library",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "By default, WiredTiger uses snappy compression library."
+    },
+    {
+        "question": "WiredTiger can compress collection data using either snappy or zlib compression library.",
+        "options": [
+            "a) snappy",
+            "b) zip",
+            "c) lib",
+            "d) Kit"
+        ],
+        "answer": "a",
+        "explanation": "snappy provides a lower compression rate but has little performance cost"
+    },
+    {
+        "question": "Which of the following is especially important in Sharded Clusters?",
+        "options": [
+            "a) NSS",
+            "b) STP",
+            "c) NTP",
+            "d) SSD"
+        ],
+        "answer": "a",
+        "explanation": "Use the Network Time Protocol (NTP) to synchronize time among your hosts."
+    },
+    {
+        "question": "The TCP keepalive on the Azure load balancer is ______ seconds by default.",
+        "options": [
+            "a) 100",
+            "b) 200",
+            "c) 240",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You should set tcp_keepalive_time to 120 to ameliorate this problem."
+    },
+    {
+        "question": "_____ is a command-line tool for monitoring network use.",
+        "options": [
+            "a) bwm-ng",
+            "b) bwm-g",
+            "c) bwm-n",
+            "d) bwm-ngs"
+        ],
+        "answer": "a",
+        "explanation": "If you suspect a network-based bottleneck, you may use bwm-ng to begin your diagnostic process."
+    }
+]

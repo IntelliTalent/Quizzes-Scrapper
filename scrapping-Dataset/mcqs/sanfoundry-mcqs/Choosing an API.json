@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which of these is the most general purpose language?",
+        "options": [
+            "a) C",
+            "b) Perl",
+            "c) Python",
+            "d) PHP"
+        ],
+        "answer": "a",
+        "explanation": "C is a general purpose language, so in principle it can be used for anything. C tends to be used more often for standalone programs rather than for Web programming in practice."
+    },
+    {
+        "question": "Among the following, for which language is image processing least simple?",
+        "options": [
+            "a) PHP",
+            "b) Perl",
+            "c) Python",
+            "d) C"
+        ],
+        "answer": "d",
+        "explanation": "It is not as easy to perform text processing and memory management in C than it is in languages like Perl and PHP. These capabilities tend to be heavily used in the web applications."
+    },
+    {
+        "question": "The CGI.pm module for website development is a part of _____________",
+        "options": [
+            "a) Perl",
+            "b) Java",
+            "c) Python",
+            "d) C++"
+        ],
+        "answer": "a",
+        "explanation": "Like C, Perl is also suitable for writing standalone programs. However, Perl is quite useful for Web site development. The CGI.pm module of Perl can be extensively used for it."
+    },
+    {
+        "question": "Compiled programs execute faster than interpreted scripts.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For interpreted languages used in web development, the performance is better when the interpreter is invoked as a module which is a part of the Web server itself. Compiler is faster generally."
+    },
+    {
+        "question": "For a heavily used program, which of these languages should be preferred?",
+        "options": [
+            "a) C",
+            "b) Perl",
+            "c) PHP",
+            "d) Python"
+        ],
+        "answer": "a",
+        "explanation": "C is compiled while Perl and PHP are interpreted. So C programs generally will run faster than Perl or PHP scripts. Therefore C should be the best choice for a heavily used program."
+    },
+    {
+        "question": "The protocol CGI is _____________",
+        "options": [
+            "a) computer graphics interface",
+            "b) common graphics interface",
+            "c) computer gateway interface",
+            "d) common gateway interface"
+        ],
+        "answer": "d",
+        "explanation": "The web server \u2018Apache\u2019 uses the interpreters as some CGI programs. This means that it communicates with these programs using the popular \u2018Common Gateway Interface (CGI)\u2019 protocol."
+    },
+    {
+        "question": "There is a startup penalty for a standalone interpreter.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The startup penalty for a standalone interpreter makes it give at least an order of magnitude poorer performance than the module interpreter. Interpreters also have a setup cost."
+    },
+    {
+        "question": "Which of these has a bigger memory footprint?",
+        "options": [],
+        "answer": "a",
+        "explanation": "A clearly significant difference between Perl and PHP is that Perl has a bigger memory footprint than PHP. Apache processes are larger with \u2018mod_perl\u2019 linked in than with \u2018mod_php\u2019."
+    },
+    {
+        "question": "Which is the correct decreasing order for highly developed text manipulation capabilities?",
+        "options": [
+            "a) Perl, PHP, C",
+            "b) Perl, C, PHP",
+            "c) PHP, Perl, C",
+            "d) C, PHP, Perl"
+        ],
+        "answer": "a",
+        "explanation": "Perl has the most highly developed capabilities in terms of text manipulation, and PHP follows it in the order. C is very rudimentary by comparison. It has the least simplicity."
+    },
+    {
+        "question": "Which API provides the lowest level interface to the server?",
+        "options": [
+            "a) C API",
+            "b) Perl",
+            "c) PHP",
+            "d) Python"
+        ],
+        "answer": "a",
+        "explanation": "The C Application Programming Interface provides the lowest level interface to the server. It enforces the least policy. Therefore it provides the least amount of safety net."
+    }
+]

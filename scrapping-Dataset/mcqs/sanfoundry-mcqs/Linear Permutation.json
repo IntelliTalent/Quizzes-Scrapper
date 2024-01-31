@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many substrings (of all lengths inclusive) can be formed from a character string of length 8? (Assume all characters to be distinct)",
+        "options": [
+            "a) 14",
+            "b) 21",
+            "c) 54",
+            "d) 37"
+        ],
+        "answer": "d",
+        "explanation": "Let\u2019s consider the given string is CLEAN, so set of string of length 1 = {C,L,E,A,N} ; cardinality of set = 5 set of string of length 2 = {CL,EE,EA,NN}, set of string of length 3 = {CLE,LEE,EAN}, set of strings of length 4 = {CLEN,LEAN}, set of strings of length 5 = {CLEAN} and set of string of length 0 = {} and we cannot have any substring of length 6 as given string has only 5 length. So total no of substrings are possible = 0 length substring + 1 length substring + 2 length substrings +3 length substrings + 4 length substrings + 5 length substrings = 1 + 5 + 4 + 3 + 2 + 1 = 16 means for 1 length string to n length substrings it will sum of the n natural no from 1 to n."
+    },
+    {
+        "question": "The number of diagonals can be drawn in a hexagon is ______",
+        "options": [
+            "a) 9",
+            "b) 32",
+            "c) 16",
+            "d) 21"
+        ],
+        "answer": "a",
+        "explanation": "A hexagon has 6 sides. We obtain the diagonals by joining the vertices in pairs."
+    },
+    {
+        "question": "The number of binary strings of 17 zeros and 8 ones in which no two ones are adjacent is ___________",
+        "options": [
+            "a) 43758",
+            "b) 24310",
+            "c) 32654",
+            "d) 29803"
+        ],
+        "answer": "a",
+        "explanation": "First place 17 zeroes side by side _ 0 _ 0 _ 0 \u2026 0 _ and 8 1\u2019s can be placed in any of the (17+1) available gaps hence the number of ways  ="
+    },
+    {
+        "question": "How many words that can be formed with the letters of the word \u2018SWIMMING\u2019 such that the vowels do not come together? Assume that words are of with or without meaning.",
+        "options": [
+            "a) 430",
+            "b) 623",
+            "c) 729",
+            "d) 1239"
+        ],
+        "answer": "c",
+        "explanation": "The word \u2018SWIMMING contains 8 letters. Of which, I occurs twice and M occurs twice. Therefore, the number of words formed by this word = \\(\\frac{8!}{2!*2!}\\) = 10080. In order to find the number of permutations that can be formed where the two vowels I and I come together,  we group the letters that should come together and consider that group as one letter. So, the letters are S, W, M, M, N, G, (I, I). So, the number of letters are 7 the number of ways in which 7 letters can be arranged is 7! = 5040. In I and I, the number of ways in which I and I can be arranged is 2!. Hence, the total number of ways in which the letters of the \u2018SWIMMING\u2019 can be arranged such that vowels are always together are \\(\\frac{7!}{2!*2!}\\) = 5040 ways. The number of words in which the vowels do not come together is = (10080 \u2013 5040) = 5040."
+    },
+    {
+        "question": "A number lock contains 6 digits. How many different zip codes can be made with the digits 0\u20139 if repetition of the digits is allowed upto 3 digits from the beginning and the first digit is not 0?",
+        "options": [
+            "a) 254307",
+            "b) 453600",
+            "c) 458760",
+            "d) 972340"
+        ],
+        "answer": "b",
+        "explanation": "For the first position, there are 9 possible choices (since 0 is not allowed). After that number is chosen, there are 10 possible choices (since 0 is now allowed) for the second digit, for the third digit there are 10 possible choices, 9 possible choices for the fourth digit and 8 possible choices for the fifth digit and 7 possible choices for the sixth digit. The count of number locks = 453600."
+    },
+    {
+        "question": "Let M be a sequence of 9 distinct integers sorted in ascending order. How many distinct pairs of sequences, N and O are there such that i) each are sorted in ascending order, ii) N has 5 and O has 4 elements, and iii) the result of merging N and O gives that sequence?",
+        "options": [
+            "a) 84",
+            "b) 35",
+            "c) 194",
+            "d) 138"
+        ],
+        "answer": "a",
+        "explanation": "Selecting any 3 elements from given 9 elements gives"
+    },
+    {
+        "question": "14 different letters of alphabet are given, words with 6 letters are formed from these given letters. How many number of words are there which have at least one letter repeated?",
+        "options": [
+            "a) 892742",
+            "b) 999988",
+            "c) 213216",
+            "d) 786730"
+        ],
+        "answer": "b",
+        "explanation": "Number of words which have at least one letter replaced = total number of words \u2013 total number of words in which no letter is repeated, => 10"
+    },
+    {
+        "question": "In how many ways can 10 boys be seated in a row having 28 seats such that no two friends occupy adjacent seats?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "c",
+        "explanation": "First let us take the 18 unoccupied seats. They create 19 slots i.e., one on the left of each seat and one on the right of the last one. So we can place the 10 boys in any of these 19 slots that are,"
+    },
+    {
+        "question": "In how many ways can the letters of the word SANFOUNDRY be rearranged such that the vowels always appear together?",
+        "options": [
+            "a) \\(\\frac{(8 + 3)!}{2!}\\)",
+            "b) \\(\\frac{6!}{2!}\\)",
+            "c) 8!*3!",
+            "d) \\(\\frac{4!}{8!}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Take AOU together and treat it like 1 entity and arrange SNFNDRY in 8! Ways. Then, the AOU can be arranged in 3! ways. So, total arrangements = 8! * 3! = 40320 * 6 = 241920."
+    },
+    {
+        "question": "How many ways can 8 prizes be given away to 7 students, if each student is eligible for all the prizes?",
+        "options": [
+            "a) 40325",
+            "b) 40320",
+            "c) 40520",
+            "d) 40720"
+        ],
+        "answer": "b",
+        "explanation": "Now the first student is eligible to receive any of the 8 available prizes (so 8 ways), the second student will receive a prize from rest 7 available prizes (so 7 ways), the third student will receive his prize from the rest 6 prizes available(so 6 ways) and so on. So total ways would be 8! = 8*7*6*5*4*3*2*1 = 40320. Hence, the 7 prizes can be distributed in 40320 ways."
+    }
+]

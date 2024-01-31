@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A directed graph or digraph can have directed cycle in which ______",
+        "options": [
+            "a) starting node and ending node are different",
+            "b) starting node and ending node are same",
+            "c) minimum four vertices can be there",
+            "d) ending node does not exist"
+        ],
+        "answer": "b",
+        "explanation": "If the start node and end node are same in the path of a graph then it is termed as directed cycle i.e, c"
+    },
+    {
+        "question": "Let, D = <A, R> be a directed graph or digraph,then D\u2019 = <A\u2019, R\u2019> is a subgraph if ___________",
+        "options": [
+            "a) A\u2019 \u2282 A and R\u2019 = R \u2229 (A\u2019 x A\u2019)",
+            "b) A\u2019 \u2282 A and R \u2282 R\u2019 \u2229 (A\u2019 x A\u2019)",
+            "c) R\u2019 = R \u2229 (A\u2019 x A\u2019)",
+            "d)  A\u2019 \u2286 A and R \u2286 R\u2019 \u2229 (A\u2019 x A\u2019)"
+        ],
+        "answer": "a",
+        "explanation": "A directed graph or digraph is an ordered pair D<A, R> where A(is a set of nodes of D) is a set and R(the elements of R are the arcs of D) is a binary relation on A. The relation R is called the incidence relation on D. Now, a digraph is a subgraph of D if i)A\u2019 \u2282 A and ii)R\u2019 = R \u2229 (A\u2019 x A\u2019). If D\u2019  D, D\u2019 is a proper subgraph of D."
+    },
+    {
+        "question": "The graph representing universal relation is called _______",
+        "options": [
+            "a) complete digraph",
+            "b) partial digraph",
+            "c) empty graph",
+            "d) partial subgraph"
+        ],
+        "answer": "a",
+        "explanation": "Consider, A is a graph with vertices {a, b, c, d} and the universal relation is A x A. The graph representing universal relation is called a complete graph and all ordered pairs are present there."
+    },
+    {
+        "question": "What is a complete digraph?",
+        "options": [
+            "a) connection of nodes without containing any cycle",
+            "b) connecting nodes to make at least three complete cycles",
+            "c) start node and end node in a graph are same having a cycle",
+            "d) connection of every node with every other node including itself in a digraph"
+        ],
+        "answer": "d",
+        "explanation": "Every node should be connected to every other node including itself in a digraph is the complete digraph. Now, graphs are connected, strongly connected and disconnected"
+    },
+    {
+        "question": "Disconnected components can be created in case of ___________",
+        "options": [
+            "a) undirected graphs",
+            "b) partial subgraphs",
+            "c) disconnected graphs",
+            "d) complete graphs"
+        ],
+        "answer": "c",
+        "explanation": "By the deletion of one edge from either connected or strongly connected graphs the graph obtained is termed as a disconnected graph. It can have connected components separated by the deletion of the edges. The edge that has to be deleted called cut edge."
+    },
+    {
+        "question": "A simple graph can have _______",
+        "options": [
+            "a) multiple edges",
+            "b) self loops",
+            "c) parallel edges",
+            "d) no multiple edges, self-loops and parallel edges"
+        ],
+        "answer": "d",
+        "explanation": "If a graph say G = <V, E> has no parallel or multiple edges and no self loops contained in it is called a simple graph. An undirected graph may have multiple edges and self-loops."
+    },
+    {
+        "question": "Degree of a graph with 12 vertices is _______",
+        "options": [
+            "a) 25",
+            "b) 56",
+            "c) 24",
+            "d) 212"
+        ],
+        "answer": "c",
+        "explanation": "Number of edges incident on a graph is known as degree of a vertex. Sum of degrees of each vertex is called total degree of the graph. Total degree = 2 * number of vertices. So, if there are 24 vertices then total degree is 24."
+    },
+    {
+        "question": "In a finite graph the number of vertices of odd degree is always ______",
+        "options": [
+            "a) even",
+            "b) odd",
+            "c) even or odd",
+            "d) infinite"
+        ],
+        "answer": "a",
+        "explanation": "In any finite graph, sum of degree of all the vertices = 2 * number of edges."
+    },
+    {
+        "question": "An undirected graph has 8 vertices labelled 1, 2, \u2026,8 and 31 edges. Vertices 1, 3, 5, 7 have degree 8 and vertices 2, 4, 6, 8 have degree 7. What is the degree of vertex 8?",
+        "options": [
+            "a) 15",
+            "b) 8",
+            "c) 5",
+            "d) 23"
+        ],
+        "answer": "b",
+        "explanation": "Vertices 1, 3, 5, 7 have degree 8 and vertices 2, 4, 6, 8 have degree 7. By definition, sum of degree= 2 * No of edges"
+    },
+    {
+        "question": "G is an undirected graph with n vertices and 26 edges such that each vertex of G has a degree at least 4. Then the maximum possible value of n is ___________",
+        "options": [
+            "a) 7",
+            "b) 43",
+            "c) 13",
+            "d) 10"
+        ],
+        "answer": "c",
+        "explanation": "Let m be min degree and M be a max degree of a graph, then m \u2264 2E/V \u2264 M. Here, m=4, E=26, v=?"
+    }
+]

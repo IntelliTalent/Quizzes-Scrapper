@@ -1,0 +1,75 @@
+[
+    {
+        "question": "Which classes does spatial data types in MySQL correspond to?",
+        "options": [
+            "a) OpenGSS",
+            "b) OpenGIS",
+            "c) ClosedGSS",
+            "d) ClosedGIS"
+        ],
+        "answer": "b",
+        "explanation": "MySQL has spatial data types that correspond to OpenGIS classes. Some of them that hold single geometry values are \u2018GEOMETRY\u2019, \u2018POINT\u2019, \u2018LINESTRING\u2019 and \u2018POLYGON\u2019. Some can hold a collection of values."
+    },
+    {
+        "question": "Which type can store a collection of objects of any type?",
+        "options": [
+            "a) GEOMETRYCOLLECTION",
+            "b) MULTIPOINT",
+            "c) MULTILINESTRING",
+            "d) MULTIPOLYGON"
+        ],
+        "answer": "a",
+        "explanation": "\u2018GEOMETRYCOLLECTION\u2019 can store a collection of objects of any type. The other collection types like \u2018MULTIPOINT\u2019, \u2018MULTILINESTRING\u2019, \u2018MULTIPOLYGON\u2019 and \u2018GEOMETRYCOLLECTION\u2019 restrict collection members to those having a particular geometry type."
+    },
+    {
+        "question": "SPATIAL indexes cannot be created on NOT NULL spatial columns.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018SPATIAL\u2019 indexes can be created on \u2018NOT NULL\u2019 spatial columns. Therefore, if it is planned to index the column, it would need to be declared as NOT NULL. This type can be used in many ways."
+    },
+    {
+        "question": "MySQL does not automatically convert a date or time value to a number if the value is used in a numeric context.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MySQL automatically converts a date or time value into a number if the value is used in a numeric context and vice versa. A \u2018zero\u2019 value can also be represented in MySQL."
+    },
+    {
+        "question": "What is the generic handle whose meaning depends on context?",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "d",
+        "explanation": "The variable named \u2018$fh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "The mode of search is the search string parsed into words and the search looks for rows is ______________",
+        "options": [
+            "a) Boolean mode",
+            "b) Natural language",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a full text search capability is provided, which enables to look for words or phrases without using pattern-matching operations. There are three kinds of full text searches."
+    },
+    {
+        "question": "In which mode is the indicator of the presence/absence of a word in search used?",
+        "options": [
+            "a) Natural language",
+            "b) Boolean mode",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "A full text search capability is provided in MySQL. It facilitates to look for words or phrases without using pattern-matching operations. Boolean search is one of the three modes."
+    }
+]

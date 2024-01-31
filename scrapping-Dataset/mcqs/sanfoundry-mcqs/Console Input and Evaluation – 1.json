@@ -1,0 +1,104 @@
+[
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "When a complete expression is entered at the prompt, it is evaluated and the result of the evaluated expression is returned."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) The grammar of the language determines whether an expression is complete or not",
+            "b) The <- symbol is the assignment operator in R",
+            "c) The ## character indicates a comment",
+            "d) R does not support multi-line comments or comment blocks"
+        ],
+        "answer": "c",
+        "explanation": "Unlike some other languages, R does not support multi-line comments or comment blocks."
+    },
+    {
+        "question": "Which of the R following code is example of explicit printing?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Print command is used for outputting the value."
+    },
+    {
+        "question": "Files containing R scripts ends with extension ____________",
+        "options": [
+            "a) .S",
+            "b) .R",
+            "c) .Rp",
+            "d) .SP"
+        ],
+        "answer": "b",
+        "explanation": "Under many versions of UNIX and on Windows, R provides a mechanism for recalling and re-executing previous commands."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) : operator is used to create integer sequences",
+            "b) The numbers in the square brackets are part of the vector itself",
+            "c) There is a difference between the actual R object and the manner in which that R object is printed to the console",
+            "d) Files containing R scripts ends with extension .R"
+        ],
+        "answer": "b",
+        "explanation": "They are merely part of the printed output."
+    },
+    {
+        "question": "If commands are stored in an external file, say commands.R in the working directory work, they may be executed at any time in an R session with the command ____________",
+        "options": [
+            "a) source(\u201ccommands.R\u201d)",
+            "b) exec(\u201ccommands.R\u201d)",
+            "c) execute(\u201ccommands.R\u201d)",
+            "d) exect(\u201ccommand.R\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "For Windows, Source is also available on the File menu."
+    },
+    {
+        "question": "_______ will divert all subsequent output from the console to an external file.",
+        "options": [
+            "a) sink",
+            "b) div",
+            "c) exp",
+            "d) exc"
+        ],
+        "answer": "a",
+        "explanation": "sink() restores it to the console once again."
+    },
+    {
+        "question": "The entities that R creates and manipulates are known as ________",
+        "options": [
+            "a) objects",
+            "b) task",
+            "c) container",
+            "d) packages"
+        ],
+        "answer": "a",
+        "explanation": "These may be variables, arrays of numbers, character strings, functions, or more general structures built from such components."
+    },
+    {
+        "question": "Which of the following can be used to display the names of (most of) the objects which are currently stored within R?",
+        "options": [
+            "a) object()",
+            "b) objects()",
+            "c) list()",
+            "d) class()"
+        ],
+        "answer": "b",
+        "explanation": "During an R session, objects are created and stored by name."
+    },
+    {
+        "question": "Collection of objects currently stored in R is called as ________________",
+        "options": [
+            "a) package",
+            "b) workspace",
+            "c) list",
+            "d) task"
+        ],
+        "answer": "b",
+        "explanation": "All objects created during an R session can be stored permanently in a file for use in future R sessions."
+    }
+]

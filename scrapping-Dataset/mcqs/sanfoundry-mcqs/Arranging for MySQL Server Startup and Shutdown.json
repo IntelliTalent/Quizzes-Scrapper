@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The error log file has a suffix ______________",
+        "options": [
+            "a) .err",
+            "b) .er",
+            "c) .error",
+            "d) .log"
+        ],
+        "answer": "a",
+        "explanation": "In Windows, by default, the error log is located in the \u2018C:\\Program Files\\MySQL\\MySQL Server 5.7\\data\u2019 directory. It is the file with a suffix of .err, or may be specified by passing in the \u2018\u2013log-error\u2019 option."
+    },
+    {
+        "question": "The option which finds the startup options supported by the server through mysqld is ______________",
+        "options": [
+            "a) \u2013verbose",
+            "b) \u2013vertex",
+            "c) \u2013startup",
+            "d) \u2013shutdown"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018mysqld \u2013verbose \u2013help\u2019 is used for finding out all the startup options that are supported by the server. It is possible to run the server manually or automatically."
+    },
+    {
+        "question": "Server startup can also be done by the ______________",
+        "options": [
+            "a) option file",
+            "b) log file",
+            "c) error file",
+            "d) system file"
+        ],
+        "answer": "a",
+        "explanation": "The options are listed in an option file. Options specified in this way are given one per line. Only the long option form can be used and it is written without the leading dashes."
+    },
+    {
+        "question": "It is required to have an access privilege for a database before selecting it with \u2018USE\u2019.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In order to select a database as the default database for the MySQL server using the \u2018USE\u2019 statement, some access privilege for the database needs to be granted or attained."
+    },
+    {
+        "question": "The keyword used to create a database is __________",
+        "options": [
+            "a) CREATE",
+            "b) SET",
+            "c) SETUP",
+            "d) LINK"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018CREATE DATABASE database_name;\u2019 is used to create a database with the name \u2018database_name\u2019. A database qualifier should be used to specify the full name of the database."
+    },
+    {
+        "question": "Which file is created by the server to store the database attributes?",
+        "options": [
+            "a) db.otp",
+            "b) dp.zip",
+            "c) db.opt",
+            "d) db.cls"
+        ],
+        "answer": "c",
+        "explanation": "Whenever a database is created in MySQL, the MySQL server creates a directory with the same name as the database. It creates the file db.opt to store the attributes."
+    },
+    {
+        "question": "What is the default storage engine?",
+        "options": [
+            "a) EXAMPLE",
+            "b) ARCHIVE",
+            "c) MyISAM",
+            "d) NDB"
+        ],
+        "answer": "c",
+        "explanation": "MySQL comes with multiple storage engines. The default storage engine used is \u2018MyISAM\u2019. \u2018EXAMPLE\u2019 is the stub storage engine, NDB is the storage engine for MySQL Cluster."
+    },
+    {
+        "question": "The name of the format file for a table named my_tbl is __________",
+        "options": [
+            "a) my_tbl.fmt",
+            "b) my_tbl.frm",
+            "c) my_tbl.fmr",
+            "d) my_tbl.ftm"
+        ],
+        "answer": "b",
+        "explanation": "Every time a table is created in MySQL, it creates a disk file containing the format of the table. It has two components, namely, base name (here, \u2018my_tbl\u2019) and an extension (here, \u2018frm\u2019)."
+    },
+    {
+        "question": "In the CREATE TABLE statement, the engine name specified is case insensitive.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Suppose a table is created using the following statement: \u2018CREATE TABLE my_tbl (\u2026..) ENGINE = InnoDB;\u2019. The engine name \u2018InnoDB\u2019 used is always case insensitive."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In AES, to make the s-box, we apply the transformation \u2013",
+        "options": [
+            "a) ci is the ith bit of byte c with value 0x63",
+            "b) ci is the ith bit of byte c with value 0x25",
+            "c) ci is the ith bit of byte c with value 0x8F",
+            "d) ci is the ith bit of byte c with value 0x8A"
+        ],
+        "answer": "a",
+        "explanation": "ci is the ith bit of byte c with value 0x63 i.e,"
+    },
+    {
+        "question": "The inverse s-box permutation follows,",
+        "options": [
+            "a) di is the ith bit of a byte \u2018d\u2019 whose hex value is 0x15",
+            "b) di is the ith bit of a byte \u2018d\u2019 whose hex value is 0x05",
+            "c) di is the ith bit of a byte \u2018d\u2019 whose hex value is 0x25",
+            "d) di is the ith bit of a byte \u2018d\u2019 whose hex value is 0x51"
+        ],
+        "answer": "b",
+        "explanation": "The value of \u2018d\u2019 is 0x05."
+    },
+    {
+        "question": "What is the block size in the Simplified AES algorithm?",
+        "options": [
+            "a) 8 bits",
+            "b) 40 bits",
+            "c) 16 bits",
+            "d) 36 bits"
+        ],
+        "answer": "b",
+        "explanation": "The block size for the AES algorithm is 16 bits."
+    },
+    {
+        "question": "Which function can be used in AES multiplication \u2013",
+        "options": [
+            "a) m(x)=x",
+            "b) m(x)=x",
+            "c) m(x)=x",
+            "d) m(x)=x"
+        ],
+        "answer": "b",
+        "explanation": "m(x)=x"
+    },
+    {
+        "question": "In the DES algorithm the Round Input is 32 bits, which is expanded to 48 bits via ______________",
+        "options": [
+            "a) Scaling of the existing bits",
+            "b) Duplication of the existing bits",
+            "c) Addition of zeros",
+            "d) Addition of ones"
+        ],
+        "answer": "a",
+        "explanation": "The round key is 48 bits. The input is 32 bits. This input is first expanded to 48 bits (permutation plus an expansion), that involves duplication of 16 of the bits."
+    },
+    {
+        "question": "Using Differential Crypt-analysis, the minimum computations required to decipher the DES algorithm is-",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "Differential Crypt-analysis requires only 2"
+    },
+    {
+        "question": "Using SDES, the Plaintext for the Ciphertext 00001111, given that the key is 1111111111 is,",
+        "options": [
+            "a) 01100111",
+            "b) 00001010",
+            "c) 11111111",
+            "d) 01101101"
+        ],
+        "answer": "c",
+        "explanation": "Perform the SDES Decryption algorithm and compute the cipher text."
+    },
+    {
+        "question": "12. For p = 11 and q = 17 and choose e=7. Apply RSA algorithm where Cipher message=11 and thus find the plain text.",
+        "options": [
+            "a) 88",
+            "b) 122",
+            "c) 143",
+            "d) 111"
+        ],
+        "answer": "a",
+        "explanation": "n = pq = 11 \u00d7 19 = 187."
+    },
+    {
+        "question": "Reduce the following Big-O notation. O[ ax",
+        "options": [
+            "a) O[ax",
+            "b) O[sin(x)].",
+            "c) O[x",
+            "d) O[x"
+        ],
+        "answer": "c",
+        "explanation": "O[ ax"
+    },
+    {
+        "question": "Reduce the following Big-O notation. O[ e",
+        "options": [
+            "a) O[ an",
+            "b) O[ n",
+            "c) O[ e",
+            "d) O[ e"
+        ],
+        "answer": "c",
+        "explanation": "O[ e"
+    }
+]

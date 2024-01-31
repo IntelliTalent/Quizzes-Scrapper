@@ -1,0 +1,109 @@
+[
+    {
+        "question": "What is an in-place sorting algorithm?",
+        "options": [
+            "a) It needs O(1) or O(logn) memory to create auxiliary locations",
+            "b) The input is already sorted and in-place",
+            "c) It requires additional storage",
+            "d) It requires additional space"
+        ],
+        "answer": "a",
+        "explanation": "Auxiliary memory is required  for storing the data temporarily."
+    },
+    {
+        "question": "In the following scenarios, when will you use selection sort?",
+        "options": [
+            "a) The input is already sorted",
+            "b) A large file has to be sorted",
+            "c) Large values need to be sorted with small keys",
+            "d) Small values need to be sorted with large keys"
+        ],
+        "answer": "c",
+        "explanation": "Selection is based on keys, hence a file with large values and small keys can be efficiently sorted with selection sort."
+    },
+    {
+        "question": "What is the worst case complexity of selection sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "Selection sort creates a sub-list, LHS of the \u2018min\u2019 element is already sorted and RHS is yet to be sorted. Starting with the first element the \u2018min\u2019 element moves towards the final element."
+    },
+    {
+        "question": "Select the appropriate code that performs selection sort.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Starting with the first element as \u2018min\u2019 element, selection sort loops through the list to select the least element which is then swapped with the \u2018min\u2019 element."
+    },
+    {
+        "question": "What is the advantage of selection sort over other sorting techniques?",
+        "options": [
+            "a) It requires no additional storage space",
+            "b) It is scalable",
+            "c) It works best for inputs which are already sorted",
+            "d) It is faster than any other sorting technique"
+        ],
+        "answer": "a",
+        "explanation": "Since selection sort is an in-place sorting algorithm, it does not require additional storage."
+    },
+    {
+        "question": "What is the average case complexity of selection sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "In the average case, even if the input is partially sorted, selection sort behaves as if the entire array is not sorted. Selection sort is insensitive to input."
+    },
+    {
+        "question": "What is the disadvantage of selection sort?",
+        "options": [
+            "a) It requires auxiliary memory",
+            "b) It is not scalable",
+            "c) It can be used for small keys",
+            "d) It takes linear time to sort the elements"
+        ],
+        "answer": "b",
+        "explanation": "As the input size increases, the performance of selection sort decreases."
+    },
+    {
+        "question": "The given array is arr = {3,4,5,2,1}. The number of iterations in bubble sort and selection sort respectively are __________",
+        "options": [
+            "a) 5 and 4",
+            "b) 4 and 5",
+            "c) 2 and 4",
+            "d) 2 and 5"
+        ],
+        "answer": "a",
+        "explanation": "Since the input array is not sorted, bubble sort takes 5 iterations and selection sort takes 4(n-1) iterations."
+    },
+    {
+        "question": "The given array is arr = {1,2,3,4,5}. (bubble sort is implemented with a flag variable)The number of iterations in selection sort and bubble sort respectively are __________",
+        "options": [
+            "a) 5 and 4",
+            "b) 1 and 4",
+            "c) 0 and 4",
+            "d) 4 and 1"
+        ],
+        "answer": "d",
+        "explanation": "Selection sort is insensitive to input, hence 4(n-1) iterations. Whereas bubble sort iterates only once to set the flag to 0 as the input is already sorted."
+    },
+    {
+        "question": "What is the best case complexity of selection sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The best, average and worst case complexities of selection sort is O(n"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Declaring Beans using:-",
+        "options": [
+            "a) Static field",
+            "b) Object Properties",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Beans can be declared from static fields as well as Object properties."
+    },
+    {
+        "question": "Ways to declare bean from a static field?",
+        "options": [
+            "a) FieldRetrievingFactoryBean",
+            "b) util:contant",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To declare a bean from a static field, you can make use of either the built-in factory bean FieldRetrievingFactoryBean, or the util:constant tag in Spring 2.x."
+    },
+    {
+        "question": "Declaring a bean from a static field requires a built-in factory bean FieldRetrievingFactoryBean and fully qualified field name or instance field is specified in the list property.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "StaticField property is used to specify instance field name."
+    },
+    {
+        "question": "A)",
+        "options": [],
+        "answer": "a",
+        "explanation": "StaticField method fills up the static fields with the provided property values."
+    },
+    {
+        "question": "As an alternative to specifying the field name in the staticField property explicitly, you can set it as the bean name of FieldRetrievingFactoryBean.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Bean name may get rather long and verbose."
+    },
+    {
+        "question": "Is this bean configuration metadata correct?",
+        "options": [],
+        "answer": "a",
+        "explanation": "This is an alternate method of using staticField in property attributes."
+    },
+    {
+        "question": "Which tag is also allowed by static field?",
+        "options": [
+            "a) util:constant",
+            "b) list",
+            "c) set",
+            "d) constructor-args"
+        ],
+        "answer": "a",
+        "explanation": "Spring 2 and later allow you to declare a bean from a static field by using the util:constant tag."
+    },
+    {
+        "question": "Is this bean configuration  correct?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Schema for util:constant needs to be included using this link: http://www.springframework.org/schema/util."
+    },
+    {
+        "question": "Declaring bean form object properties can be done using:-",
+        "options": [
+            "a) PropertyPathFactoryBean",
+            "b) util:constant",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To declare a bean from an object property or a property path, you can make use of either the built-in factory bean PropertyPathFactoryBean or the util:property-path tag in Spring 2.x."
+    },
+    {
+        "question": "Inner Bean can be retrieved by it\u2019s name.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Since inner beans are local to another bean, so can\u2019t be accessed globally."
+    },
+    {
+        "question": "PropertyPathFactoryBean declares a bean from an:-",
+        "options": [
+            "a) Object Property",
+            "b) Property Path",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The factory bean PropertyPathFactoryBean can be used to declare a bean from an object property or a property path."
+    },
+    {
+        "question": "The propertyPath property of PropertyPathFactoryBean can accept only a single property name.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The propertyPath property of PropertyPathFactoryBean can accept not only a single property name but also a property path with dots as the separators."
+    },
+    {
+        "question": "Alternate way of PropertyPathFactoryBean to declare a bean.",
+        "options": [
+            "a) util:property-path tag",
+            "b) util:constant tag",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Compared to using PropertyPathFactoryBean, it is a simpler way of declaring beans from properties."
+    },
+    {
+        "question": "We can combine target Object and propertyPath properties  as bean name/id of PropertyPathFactoryBean.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In addition to specifying the targetObject and propertyPath properties explicitly, you can combine them as the bean name of PropertyPathFactoryBean. The downside is that your bean name may get rather long and verbose."
+    },
+    {
+        "question": "The Spring Expression Language can be accessed by:-",
+        "options": [
+            "a) XML configuration",
+            "b) Annotations",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The expression language is available via XML or annotations."
+    }
+]

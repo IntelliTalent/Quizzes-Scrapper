@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The mongo program can evaluate JavaScript expressions using the command line ________ option.",
+        "options": [
+            "a) \u2013opt",
+            "b) \u2013js",
+            "c) \u2013eval",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The mongo program can evaluate a JavaScript file (.js) passed directly to it (e.g. mongo someFile.js)."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The mongostat diagnostic tool, when running with the \u2013mode need to be able to reach all components of a cluster",
+            "b) All shards in a cluster need to be able to communicate with all other shards to facilitate chunk and balancing operations",
+            "c) Authorization does not control or affect access to this interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can also specify the shard server option with the shardsvr value for the clusterRole setting in the configuration file. Shard members are also often conventional replica sets using the default port."
+    },
+    {
+        "question": "If a .mongorc.js file exists, the mongo shell will evaluate a __________ file before starting.",
+        "options": [
+            "a) .mongorc.js",
+            "b) .mongo.js",
+            "c) .mongorc.jscript",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can disable this behavior by passing the mongo \u2013norc option."
+    },
+    {
+        "question": "On _________ mongo.exe reads the .mongorc.js file from %HOME%.mongorc.js.",
+        "options": [
+            "a) Windows",
+            "b) Linux",
+            "c) Mac",
+            "d) Solaris"
+        ],
+        "answer": "a",
+        "explanation": "On Linux and Unix systems, mongo reads the .mongorc.js file from $HOME/.mongorc.js."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) REST does provide administrative access, and its accessibility represents a vulnerability in a secure environment",
+            "b) REST API does provide any support for insert, update, or remove operations",
+            "c) The net.http.RESTInterfaceEnabled configuration makes the http status interface, which is read-only by default, fully interactive",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "REST API does not provide any support for insert, update, or remove operations."
+    },
+    {
+        "question": "The HTTP interface is always available on the port numbered _________ greater than the primary mongod port.",
+        "options": [
+            "a) 1000",
+            "b) 2000",
+            "c) 3000",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, the HTTP interface port is 28017, but is indirectly set using the port option which allows you to configure the primary mongod port."
+    },
+    {
+        "question": "The _______ API to MongoDB provides additional information and write access on top of the HTTP status interface.",
+        "options": [
+            "a) Web",
+            "b) REST",
+            "c) RestFul",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The REST interface is disabled by default, and is not recommended for production use."
+    },
+    {
+        "question": "________ instances provide query routing for sharded clusters.",
+        "options": [
+            "a) mongod",
+            "b) mongos",
+            "c) netstats",
+            "d) selectindexes"
+        ],
+        "answer": "b",
+        "explanation": "Clients connect to mongos instances, which behave from the client\u2019s perspective as mongod instances."
+    },
+    {
+        "question": "Config servers, host the _______ database that stores metadata for sharded clusters.",
+        "options": [
+            "a) head",
+            "b) master",
+            "c) config",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Each production cluster has three config servers, initiated using the mongod \u2013configsvr option."
+    },
+    {
+        "question": "Config servers listen for connections on port __________",
+        "options": [
+            "a) 27011",
+            "b) 27019",
+            "c) 27107",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You also can run a config server by using the configsvr value for the clusterRole setting in a configuration file."
+    }
+]

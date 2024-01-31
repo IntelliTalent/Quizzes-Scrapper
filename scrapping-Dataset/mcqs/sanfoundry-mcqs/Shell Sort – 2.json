@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Shell sort is also known as _____________",
+        "options": [
+            "a) diminishing decrement sort",
+            "b) diminishing increment sort",
+            "c) partition exchange sort",
+            "d) diminishing insertion sort"
+        ],
+        "answer": "b",
+        "explanation": "Shell sort is also known as diminishing increment sort since each pass is defined by an increment h such that only the records which are h units apart will be sorted."
+    },
+    {
+        "question": "Statement 1: Shell sort is a stable sorting algorithm.",
+        "options": [
+            "a) Both statements are true",
+            "b) Statement 2 is true but statement 1 is false",
+            "c) Statement 2 is false but statement 1 is true",
+            "d) Both statements are false"
+        ],
+        "answer": "b",
+        "explanation": "In Shell sort, the relative order of elements with equal values may change. Therefore, it is not a stable sorting algorithm. Shell sort is an in-place sorting algorithm as it requires O(1) auxiliary space."
+    },
+    {
+        "question": "Shell sort is applied on the elements 27 59 49 37 15 90 81 39 and the chosen decreasing sequence of increments is (5,3,1). The result after the first iteration will be",
+        "options": [
+            "a) 27 59 49 37 15 90 81 39",
+            "b) 27 59 37 49 15 90 81 39",
+            "c) 27 59 39 37 15 90 81 49",
+            "d) 15 59 49 37 27 90 81 39"
+        ],
+        "answer": "c",
+        "explanation": "Given elements 27 59 49 37 15 90 81 39,"
+    },
+    {
+        "question": "Consider the following code snippet, which implements the Shell sort algorithm.",
+        "options": [],
+        "answer": "d",
+        "explanation": "In Shell sort, for increment = h we sort the sub-arrays that start at arbitrary element and include every hth element."
+    },
+    {
+        "question": "Shell sort is an improvement on ____",
+        "options": [
+            "a) insertion sort",
+            "b) selection sort",
+            "c) binary tree sort",
+            "d) quick sort"
+        ],
+        "answer": "a",
+        "explanation": "Shell sort is an improvement on insertion sort that allows the exchange of elements that are far apart. Shell sort algorithm sorts separate sub-arrays of the original input array. These sub-arrays contains every hth element of the original array."
+    },
+    {
+        "question": "An array that is first 7-sorted, then 5-sorted becomes _________",
+        "options": [
+            "a) 7-ordered",
+            "b) 5-ordered",
+            "c) both 2-ordered and 5-ordered",
+            "d) both 7-ordered and 5-ordered"
+        ],
+        "answer": "d",
+        "explanation": "An array that is 7-sorted, becomes 7-ordered. And an array that is 5-sorted, becomes 5-ordered. If k-ordered array is h-sorted, it remains k-ordered. Thus, an array that is first 7-sorted, then 5-sorted becomes both 7-ordered and 5-ordered."
+    },
+    {
+        "question": "If Hibbard increments (h1= 1, h2= 3, h3= 7, \u2026, hk = 2",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(logn)"
+        ],
+        "answer": "a",
+        "explanation": "The best case occurs when the array is already sorted. In best case the number of comparison for each of the increments-based insertion sorts is equal to length of array."
+    },
+    {
+        "question": "Records R1, R2, R3,.. RN  with keys K1, K2, K3,.. KN   are said to be h-ordered, if ________",
+        "options": [
+            "a) Ki <= Ki+h  for 1<= i*h <= N",
+            "b) Kh <= Ki+h  for 1<= i <= N",
+            "c) Ki <= Kh  for 1<= i <= h",
+            "d) Ki <= Ki+h  for 1<= i <= N-h"
+        ],
+        "answer": "d",
+        "explanation": "Records are h-ordered  if every hth element (starting anywhere) yields a sorted array. Therefore, given records with keys K1, K2, K3,.. KN   are said to be h-ordered, if Ki <= Ki+h  for 1<= i <= N-h."
+    },
+    {
+        "question": "Shell sort is more efficient than insertion sort if the length of input arrays is small.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Insertion sort is more efficient than Shell sort if the length of array is small because insertion sort is quite simple to program and involve very few actions other than comparisons and replacements on each pass."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Shell sort\u2019s passes completely sort the elements before going on to the next-smallest gap while Comb sort\u2019s passes do not completely sort the elements",
+            "b) Shell sort\u2019s passes do not completely sort the elements before going on to the next-smallest gap like in Comb sort",
+            "c) Comb sort\u2019s passes completely sort the elements before going on to the next-smallest gap like in Shell sort",
+            "d) Shell sort\u2019s passes do not completely sort the elements before going on to the next-smallest gap while Comb sort\u2019s passes completely sort the elements"
+        ],
+        "answer": "a",
+        "explanation": "Both Shell sort and Comb sort have repeated sorting passes with decreasing gaps. Unlike Comb sort, in Shell sort the array is sorted completely in each pass before going on to the next-smallest gap."
+    }
+]

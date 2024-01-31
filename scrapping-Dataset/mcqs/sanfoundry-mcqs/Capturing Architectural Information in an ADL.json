@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Architecture description language represent architectural structures that can be divided into which of the following?",
+        "options": [
+            "a) Static",
+            "b) Dynamic",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Architecture description language represent architectural structures that can be divided into Static and Dynamic."
+    },
+    {
+        "question": "Which of the following is the essential feature of ADL?",
+        "options": [
+            "a) The ability to provide structures",
+            "b) The ability to declare a component and name its type",
+            "c) The ability to support analytical capability",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The ability to declare a component and name its type is the essential feature of ADL."
+    },
+    {
+        "question": "Which of the following is true for pipe?",
+        "options": [
+            "a) From External perspective pipe has a true state",
+            "b) From Internal perspective pipe is stateless",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "From External perspective pipe is stateless and from Internal perspective pipe has a true state."
+    },
+    {
+        "question": "Which of the following in context to data in pipeline is correct?",
+        "options": [
+            "a) The format conversion should be allowed as long as data that exit the pipe are semantically equivalent to the data that enter the pipe",
+            "b) The format conversion should be allowed as long as data that exit the pipe are syntactically equivalent to the data that enter the pipe",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The format conversion should be allowed as long as data that exit the pipe are semantically equivalent to the data that enter the pipe."
+    },
+    {
+        "question": "Which of the following are considered for connectors?",
+        "options": [
+            "a) Connectors transfers data bidirectionally",
+            "b) Connectors connect two component of type procedure",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are true with respect to connectors."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) A dynamic structure requires a simulator to perform analysis",
+            "b) A dynamic structure does not requires a simulator to perform any analysis",
+            "c) Connectors transfers data unidirectionaly",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A dynamic structure requires a simulator to perform analysis."
+    },
+    {
+        "question": "Which of the following must be estimated for performance analysis?",
+        "options": [
+            "a) Reliability of each component",
+            "b) Resource usage of the component",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Resource usage of the component must be estimated for performance analysis."
+    },
+    {
+        "question": "Which of the following must be estimated for reliability analysis?",
+        "options": [
+            "a) Reliability of each component",
+            "b) Resource usage of the component",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Reliability of each component must be estimated for reliability analysis."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Once resource information is provided, portions of the system can be generate automatically",
+            "b) Once resource information is provided, portions of the system cannot be generate automatically",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once resource information is provided, portions of the system can be generate automatically."
+    }
+]

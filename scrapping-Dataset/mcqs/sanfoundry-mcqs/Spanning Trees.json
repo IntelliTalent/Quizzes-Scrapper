@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Spanning trees have a special class of depth-first search trees named _________",
+        "options": [
+            "a) Euclidean minimum spanning trees",
+            "b) Tremaux trees",
+            "c) Complete bipartite graphs",
+            "d) Decision trees"
+        ],
+        "answer": "b",
+        "explanation": "A tremaux tree of an undirected graph G is a spanning tree of G which is rooted at one of its vertices with the property that every two adjacent vertices in G are related to each other as an ancestor and descendant in the tree."
+    },
+    {
+        "question": "If the weight of an edge e of cycle C in a graph is larger than the individual weights of all other edges of C, then that edge ________",
+        "options": [
+            "a) belongs to an minimum spanning tree",
+            "b) cannot belong to an minimum spanning tree",
+            "c) belongs to all MSTs of the graph",
+            "d) can not belong to the graph"
+        ],
+        "answer": "b",
+        "explanation": "For any cycle C in the graph, if the weight of an edge e of C is larger than the individual weights of all other edges of C, then this edge cannot belong to an MST."
+    },
+    {
+        "question": "For every spanning tree with n vertices and n edges what is the least number of different Spanning trees can be formed?",
+        "options": [
+            "a) 2",
+            "b) 5",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "If graph is connected and has \u2018n\u2019 edges, there will be exactly one cycle, if n vertices are there. A different spanning tree can be constructed by removing one edge from the cycle, one at a time. The minimum cycle length can be 3. So, there must be at least 3 spanning trees in any such Graph. Consider a Graph with n = 4, then 3 spanning trees possible at maximum (removing edges of cycle one at a time, alternatively). So, any Graph with minimum cycle length \u20183\u2019 will have at least 3 spanning trees."
+    },
+    {
+        "question": "Time complexity of Prim\u2019s algorithm is _________",
+        "options": [
+            "a) O((V+E)logV)",
+            "b) O(E+V)",
+            "c) O(E)",
+            "d) O(V+1)"
+        ],
+        "answer": "a",
+        "explanation": "In Prim\u2019s Algorithm, we will start with an arbitrary node (take any point to start) and mark it. In each iteration, a new vertex is marked that is adjacent to the one that we have already marked. Each vertex is inserted in the priority queue only once and insertion in priority queue take logarithmic time. Hence, the time complexity of Prim\u2019s Algorithm is O((V+E)logV)."
+    },
+    {
+        "question": "What is the time complexity of Kruskal\u2019s algorithm?",
+        "options": [
+            "a) O(ElogV)",
+            "b) O(V+logE)",
+            "c) O(E+1)",
+            "d) O(V"
+        ],
+        "answer": "a",
+        "explanation": "In Kruskal\u2019s algorithm, at each iteration, we will select the edge with the lowest weight. So, we will start with the lowest weighted edge first. After that we will select the second lowest weighted edge. In Kruskal\u2019s algorithm, most time consuming operation is sorting because the total complexity of the Disjoint-Set operations will be O(ElogV)  and it is the overall Time Complexity of the algorithm."
+    },
+    {
+        "question": "If minimum cost edge of a graph is unique, then that edge will be added to any MST. Choose the correct option.",
+        "options": [
+            "a) false",
+            "b) maximum cost edge is added",
+            "c) true",
+            "d) minimum cost edge need not be unique"
+        ],
+        "answer": "c",
+        "explanation": "If the edge was not included in the MST, removing any of the (larger cost) edges in the cycle formed after adding e to the MST, would yield a spanning tree of smaller weight. Thus, if the minimum cost edge e of a graph is unique, then this edge is included in any MST."
+    },
+    {
+        "question": "A complete undirected graph of n nodes can have maximum ______ spanning trees.",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) \\(\\frac{n(n+1)}{2}\\)",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "The spanning tree does not contain any cycle. If a spanning tree has n nodes, there are n-1 edges. A complete graph can have a maximum of n"
+    },
+    {
+        "question": "The spanning tree will be maximally acyclic if ____________",
+        "options": [
+            "a) one additional edge makes a cycle in the tree",
+            "b) two additional edges makes a cycle in the tree",
+            "c) removing one edge makes the tree cycle free",
+            "d) removing two edges make the tree cycle free"
+        ],
+        "answer": "a",
+        "explanation": "A connected graph G can have more than one spanning tree. Removing one edge from the spanning tree will make the graph disconnected and the spanning tree is minimally connected. Adding one edge to the spanning tree will create a circuit or loop and the spanning tree is maximally acyclic."
+    },
+    {
+        "question": "In a maximum spanning tree the weighted graph is of _______",
+        "options": [
+            "a) maximum number of edges",
+            "b) maximum number of cyclic trees",
+            "c) minimum number of vertices",
+            "d) maximum weight"
+        ],
+        "answer": "d",
+        "explanation": "A maximum spanning tree can be computed by negating the weights for each edge and applying Kruskal\u2019s algorithm. Thus, it is a spanning tree of a weighted graph having maximum weight assigned to all the edges."
+    },
+    {
+        "question": "Prim\u2019s algorithm can be implemented using _______",
+        "options": [
+            "a) a stack data structure",
+            "b) radix sort",
+            "c) priority queue data structure",
+            "d) bubble sort"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of Prim\u2019s algorithm depends on the data structures used for the graph and for ordering the edges by weight, which can be done using a priority queue. In general, a priority queue will be quicker at finding the vertex in the spanning tree with minimum cost. The choice of data structures for implementation will lead to varying time complexity."
+    }
+]

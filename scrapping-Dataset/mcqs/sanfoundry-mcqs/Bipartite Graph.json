@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Given G is a bipartite graph and the bipartitions of this graphs are U and V respectively. What is the relation between them?",
+        "options": [
+            "a) Number of vertices in U = Number of vertices in V",
+            "b) Sum of degrees of vertices in U = Sum of degrees of vertices in V",
+            "c) Number of vertices in U > Number of vertices in V",
+            "d) Nothing can be said"
+        ],
+        "answer": "b",
+        "explanation": "We can prove this by induction. By adding one edge, the degree of vertices in U is equal to 1 as well as in V. Let us assume that this is true for n-1 edges and add one more edge. Since the given edge adds exactly once to both U and V we can tell that this statement is true for all n vertices."
+    },
+    {
+        "question": "A k-regular bipartite graph is the one in which degree of each vertices is k for all the vertices in the graph. Given that the bipartitions of this graph are U and V respectively. What is the relation between them?",
+        "options": [
+            "a) Number of vertices in U=Number of vertices in V",
+            "b) Number of vertices in U not equal to number of vertices in V",
+            "c) Number of vertices in U always greater than the number of vertices in V",
+            "d) Nothing can be said"
+        ],
+        "answer": "a",
+        "explanation": "We know that in a bipartite graph sum of degrees of vertices in U=sum of degrees of vertices in V. Given that the graph is a k-regular bipartite graph, we have k*(number of vertices in U)=k*(number of vertices in V)."
+    },
+    {
+        "question": "There are four students in a class namely A, B, C and D. A tells that a triangle is a bipartite graph. B tells pentagon is a bipartite graph. C tells square is a bipartite graph. D tells heptagon is a bipartite graph. Who among the following is correct?",
+        "options": [
+            "a) A",
+            "b) B",
+            "c) C",
+            "d) D"
+        ],
+        "answer": "c",
+        "explanation": "We can prove it in this following way. Let \u20181\u2019 be a vertex in bipartite set X and let \u20182\u2019 be a vertex in the bipartite set Y. Therefore the bipartite set X contains all odd numbers and the bipartite set Y contains all even numbers. Now let us consider a graph of odd cycle (a triangle). There exists an edge from \u20181\u2019 to \u20182\u2019, \u20182\u2019 to \u20183\u2019 and \u20183\u2019 to \u20181\u2019. The latter case (\u20183\u2019 to \u20181\u2019) makes an edge to exist in a bipartite set X itself. Therefore telling us that graphs with odd cycles are not bipartite."
+    },
+    {
+        "question": "A complete bipartite graph is a one in which each vertex in set X has an edge with set Y. Let n be the total number of vertices. For maximum number of edges, the total number of vertices hat should be present on set X is?",
+        "options": [
+            "a) n",
+            "b) n/2",
+            "c) n/4",
+            "d) data insufficient"
+        ],
+        "answer": "b",
+        "explanation": "We can prove this by calculus. Let x be the total number of vertices on set X. Therefore set Y will have n-x. We have to maximize x*(n-x). This is true when x=n/2."
+    },
+    {
+        "question": "When is a graph said to be bipartite?",
+        "options": [
+            "a) If it can be divided into two independent sets A and B such that each edge connects a vertex from to A to B",
+            "b) If the graph is connected and it has odd number of vertices",
+            "c) If the graph is disconnected",
+            "d) If the graph has at least n/2 vertices whose degree is greater than n/2"
+        ],
+        "answer": "a",
+        "explanation": "A graph is said to be bipartite if it can be divided into two independent sets A and B such that each edge connects a vertex from A to B."
+    },
+    {
+        "question": "Are trees bipartite?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Yes if it has even number of vertices",
+            "d) No if it has odd number of vertices"
+        ],
+        "answer": "a",
+        "explanation": "Condition needed is that there should not be an odd cycle. But in a tree there are no cycles at all. Hence it is bipartite."
+    },
+    {
+        "question": "A graph has 20 vertices. The maximum number of edges it can have is? (Given it is bipartite)",
+        "options": [
+            "a) 100",
+            "b) 140",
+            "c) 80",
+            "d) 20"
+        ],
+        "answer": "a",
+        "explanation": "Let the given bipartition X have x vertices, then Y will have 20-x vertices. We need to maximize x*(20-x). This will be maxed when x=10."
+    },
+    {
+        "question": "Given that a graph contains no odd cycle. Is it enough to tell that it is bipartite?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "It is required that the graph is connected also. If it is not then it cannot be called a bipartite graph."
+    },
+    {
+        "question": "Can there exist a graph which is both eulerian and is bipartite?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Yes if it has even number of edges",
+            "d) Nothing can be said"
+        ],
+        "answer": "a",
+        "explanation": "If a graph is such that there exists a path which visits every edge atleast once, then it is said to be Eulerian. Taking an example of a square, the given question evaluates to yes."
+    },
+    {
+        "question": "A graph is found to be 2 colorable. What can be said about that graph?",
+        "options": [
+            "a) The given graph is eulerian",
+            "b) The given graph is bipartite",
+            "c) The given graph is hamiltonian",
+            "d) The given graph is planar"
+        ],
+        "answer": "b",
+        "explanation": "A graph is said to be colorable if two vertices connected by an edge are never of the same color. 2 colorable mean that this can be achieved with just 2 colors."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is/are property/properties of a dynamic programming problem?",
+        "options": [
+            "a) Optimal substructure",
+            "b) Overlapping subproblems",
+            "c) Greedy approach",
+            "d) Both optimal substructure and overlapping subproblems"
+        ],
+        "answer": "d",
+        "explanation": "A problem that can be solved using dynamic programming possesses overlapping subproblems as well as optimal substructure properties."
+    },
+    {
+        "question": "If an optimal solution can be created for a problem by constructing optimal solutions for its subproblems, the problem possesses ____________ property.",
+        "options": [
+            "a) Overlapping subproblems",
+            "b) Optimal substructure",
+            "c) Memoization",
+            "d) Greedy"
+        ],
+        "answer": "b",
+        "explanation": "Optimal substructure is the property in which an optimal solution is found for the problem by constructing optimal solutions for the subproblems."
+    },
+    {
+        "question": "If a problem can be broken into subproblems which are reused several times, the problem possesses ____________ property.",
+        "options": [
+            "a) Overlapping subproblems",
+            "b) Optimal substructure",
+            "c) Memoization",
+            "d) Greedy"
+        ],
+        "answer": "a",
+        "explanation": "Overlapping subproblems is the property in which value of a subproblem is used several times."
+    },
+    {
+        "question": "If a problem can be solved by combining optimal solutions to non-overlapping problems, the strategy is called _____________",
+        "options": [
+            "a) Dynamic programming",
+            "b) Greedy",
+            "c) Divide and conquer",
+            "d) Recursion"
+        ],
+        "answer": "c",
+        "explanation": "In divide and conquer, the problem is divided into smaller non-overlapping subproblems and an optimal solution for each of the subproblems is found. The optimal solutions are then combined to get a global optimal solution. For example, mergesort uses divide and conquer strategy."
+    },
+    {
+        "question": "When dynamic programming is applied to a problem, it takes far less time as compared to other methods that don\u2019t take advantage of overlapping subproblems.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Dynamic programming calculates the value of a subproblem only once, while other methods that don\u2019t take advantage of the overlapping subproblems property may calculate the value of the same subproblem several times. So, dynamic programming saves the time of recalculation and takes far less time as compared to other methods that don\u2019t take advantage of the overlapping subproblems property."
+    },
+    {
+        "question": "A greedy algorithm can be used to solve all the dynamic programming problems.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A greedy algorithm gives optimal solution for all subproblems, but when these locally optimal solutions are combined it may NOT result into a globally optimal solution. Hence, a greedy algorithm CANNOT be used to solve all the dynamic programming problems."
+    },
+    {
+        "question": "In dynamic programming, the technique of storing the previously calculated values is called ___________",
+        "options": [
+            "a) Saving value property",
+            "b) Storing value property",
+            "c) Memoization",
+            "d) Mapping"
+        ],
+        "answer": "c",
+        "explanation": "Memoization is the technique in which previously calculated values are stored, so that, these values can be used to solve other subproblems."
+    },
+    {
+        "question": "When a top-down approach of dynamic programming is applied to a problem, it usually _____________",
+        "options": [
+            "a) Decreases both, the time complexity and the space complexity",
+            "b) Decreases the time complexity and increases the space complexity",
+            "c) Increases the time complexity and decreases the space complexity",
+            "d) Increases both, the time complexity and the space complexity"
+        ],
+        "answer": "b",
+        "explanation": "The top-down approach uses the memoization technique which stores the previously calculated values. Due to this, the time complexity is decreased but the space complexity is increased."
+    },
+    {
+        "question": "Which of the following problems is NOT solved using dynamic programming?",
+        "options": [
+            "a) 0/1 knapsack problem",
+            "b) Matrix chain multiplication problem",
+            "c) Edit distance problem",
+            "d) Fractional knapsack problem"
+        ],
+        "answer": "d",
+        "explanation": "The fractional knapsack problem is solved using a greedy algorithm."
+    },
+    {
+        "question": "Which of the following problems should be solved using dynamic programming?",
+        "options": [
+            "a) Mergesort",
+            "b) Binary search",
+            "c) Longest common subsequence",
+            "d) Quicksort"
+        ],
+        "answer": "c",
+        "explanation": "The longest common subsequence problem has both, optimal substructure and overlapping subproblems. Hence, dynamic programming should be used the solve this problem."
+    }
+]

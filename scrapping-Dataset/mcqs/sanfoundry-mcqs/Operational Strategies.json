@@ -1,0 +1,112 @@
+[
+    {
+        "question": "On Linux the ______ manager can create a snapshot.",
+        "options": [
+            "a) LVM",
+            "b) SVM",
+            "c) MMS",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can create a backup by copying MongoDB\u2019s underlying data files."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The mechanics of snapshots depend on the underlying storage system",
+            "b) To get a consistent snapshot of a sharded system, you must disable the balancer",
+            "c) If your storage system does not support snapshots, you can copy the files directly using cp, rsync, or a similar tool",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Backups produced by copying the underlying data do not support point in time recovery for replica sets and are difficult to manage for larger sharded clusters."
+    },
+    {
+        "question": "When connected to a MongoDB instance, mongodump can adversely affect ______ performance.",
+        "options": [
+            "a) mdump",
+            "b) mongodump",
+            "c) mongod",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If your data is larger than system memory, the queries will push the working set out of memory."
+    },
+    {
+        "question": "To mitigate the impact of mongodump on the performance of the replica set, use mongodump to capture backups from a _________ member of a replica set.",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) snaphot",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Alternatively, you can shut down a secondary and use mongodump with the data files directly."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If you shut down a secondary to capture data with mongodump ensure that the operation can complete before its oplog becomes too stale to continue replicating",
+            "b) MongoDB Cloud Manager continually backs up MongoDB replica sets",
+            "c) Sharded cluster snapshots are easy to achieve with other MongoDB backup methods",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Sharded cluster snapshots are difficult to achieve with other MongoDB backup methods."
+    },
+    {
+        "question": "________ an on-premise solution, has similar functionality to the cloud version.",
+        "options": [
+            "a) Opscore Manager",
+            "b) Ops Manager",
+            "c) Mongod",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This tool is available with Enterprise Advanced subscriptions."
+    },
+    {
+        "question": "Ops Manager provides Ops Manager ________ and Ops Manager Backup, which helps users optimize clusters and mitigate operational risk.",
+        "options": [
+            "a) Performance",
+            "b) Administration",
+            "c) Monitoring",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Ops Manager is a package for managing MongoDB deployments."
+    },
+    {
+        "question": "Ops Manager _________ provides an interface for configuring MongoDB nodes and clusters and for upgrading your MongoDB deployment.",
+        "options": [
+            "a) Automation",
+            "b) Performance",
+            "c) Monitoring",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Ops Manager Monitoring provides real-time reporting, visualization, and alerting on key database and hardware indicators."
+    },
+    {
+        "question": "Ops Manager ______ provides scheduled snapshots and point-in-time recovery of your MongoDB replica sets and sharded clusters.",
+        "options": [
+            "a) Automation",
+            "b) Performance",
+            "c) Monitoring",
+            "d) Backup"
+        ],
+        "answer": "d",
+        "explanation": "Backup can also create snapshots of standalones that are run as single-member replica sets."
+    },
+    {
+        "question": "Sharded clusters snapshots temporarily stop the balancer via ______________",
+        "options": [
+            "a) Mongod",
+            "b) MMS",
+            "c) MonitorMMS",
+            "d) mongos"
+        ],
+        "answer": "d",
+        "explanation": "Backup takes and stores snapshots based on a user-defined snapshot retention policy."
+    }
+]

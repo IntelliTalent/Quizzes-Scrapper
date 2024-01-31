@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Which of the following storage engine is supported by default?",
+        "options": [
+            "a) MMAPv1",
+            "b) WiredTiger",
+            "c) WirelessTiger",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " MongoDB includes support for two storage engines: MMAPv1, the storage engine available in previous versions of MongoDB, and WiredTiger."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Replica set configuration is complex",
+            "b) MongoDB includes support for two storage engines",
+            "c) MongoDB includes support for more than three storage engines",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MMAPv1 provides collection-level locking."
+    },
+    {
+        "question": "All collections have a unique ________ lock that allows multiple clients to modify documents in different collections at the same time.",
+        "options": [
+            "a) writer",
+            "b) readers-writer",
+            "c) readers",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each database has a readers-writer lock that allows concurrent read access to a database, but gives exclusive access to a single write operation per database."
+    },
+    {
+        "question": "_________ supports concurrent access by readers and writers to the documents in a collection.",
+        "options": [
+            "a) MMAPv1",
+            "b) WiredTiger",
+            "c) WirelessTiger",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Clients can read documents while write operations are in progress, and multiple threads can modify different documents in a collection at the same time."
+    },
+    {
+        "question": "MongoDB uses ________ logging to an on-disk journal.",
+        "options": [
+            "a) write ahead",
+            "b) read ahead",
+            "c) write once",
+            "d) read only"
+        ],
+        "answer": "a",
+        "explanation": "Leave journaling enabled in order to ensure that mongod will be able to recover its data files and keep the data files in a valid state following a crash."
+    },
+    {
+        "question": "The ________ command returns information regarding the number of open connections.",
+        "options": [
+            "a) connPoolStats",
+            "b) connStats",
+            "c) serverstats",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To avoid overloading the connection resources of a single mongod or mongos instance, ensure that clients maintain reasonable connection pool sizes."
+    },
+    {
+        "question": "________ do not typically provide sufficient performance to support a MongoDB deployment.",
+        "options": [
+            "a) RAID-5",
+            "b) RAID-10",
+            "c) RAID-7",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Most MongoDB deployments should use disks backed by RAID-10."
+    },
+    {
+        "question": "Which of the following should be avoided with MongoDB Deployments?",
+        "options": [
+            "a) RAID-5",
+            "b) RAID-10",
+            "c) RAID-7",
+            "d) RAID-0"
+        ],
+        "answer": "d",
+        "explanation": "While RAID-0 provides good write performance, it also provides limited availability and can lead to reduced performance on read operations, particularly when using Amazon\u2019s EBS volumes."
+    }
+]

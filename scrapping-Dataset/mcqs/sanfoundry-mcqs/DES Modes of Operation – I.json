@@ -1,0 +1,94 @@
+[
+    {
+        "question": "How many modes of operation are there in in DES and AES?",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "DES has 5 modes of operation."
+    },
+    {
+        "question": "Which one of the following modes of operation in DES is used for operating short data?",
+        "options": [
+            "a) Cipher Feedback Mode (CFB)",
+            "b) Cipher Block chaining (CBC)",
+            "c) Electronic code book (ECB)",
+            "d) Output Feedback Modes (OFB)"
+        ],
+        "answer": "c",
+        "explanation": "The Electronic code book mode is used for operating on short data as the same key is used for each block. Thus repetitions in Plain Text lead to repetitions in Cipher Text."
+    },
+    {
+        "question": "Which of the following is false for ECB mode of operation",
+        "options": [
+            "i) The Plain text is broken into blocks of size 128 bytes"
+        ],
+        "answer": "c",
+        "explanation": "Block size is 64 bits. The same Key is used for each block."
+    },
+    {
+        "question": "Which of the following statements are true",
+        "options": [
+            "i) In the CBC mode, the plaintext block is XORed with previous ciphertext block before encryption"
+        ],
+        "answer": "d",
+        "explanation": "The first block in CBC mode uses an IV."
+    },
+    {
+        "question": "There is a dependency on the previous \u2018s\u2019 bits in every  stage in CFB mode. Here \u2018s\u2019 can range from ___",
+        "options": [
+            "a) 8-16 bits",
+            "b) 8-32 bits",
+            "c) 4-16 bits",
+            "d) 8-48 bits"
+        ],
+        "answer": "b",
+        "explanation": "The range of the output of each stage of the cipher system is 8-32 bits for a 64 bit system."
+    },
+    {
+        "question": "What is the fault in the above figure?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The algorithm is the Decryption algorithm for Cipher Feedback Mode (CBF)"
+    },
+    {
+        "question": "Which of the following can be classified under advantages and disadvantages of OFB mode?",
+        "options": [
+            "i) Transmission errors"
+        ],
+        "answer": "d",
+        "explanation": "Advantages:"
+    },
+    {
+        "question": "In OFB Transmission errors do not propagate: only the current ciphertext is affected, since keys are generated \u201clocally\u201d.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Yes, transmission errors do not propagate in OFB mode because of the locally generated key."
+    },
+    {
+        "question": "Which of the following modes does not implement chaining or \u201cdependency on previous stage computations\u201d?",
+        "options": [
+            "a) CTR, ECB",
+            "b) CTR, CFB",
+            "c) CFB, OFB",
+            "d) ECB, OFB"
+        ],
+        "answer": "a",
+        "explanation": "Only CTR and ECB do not implement chaining."
+    },
+    {
+        "question": "The counter value in CTR modes repeats are a regular interval.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The Counter value in CTR mode should never be repeated, else it leads to vulnerability of the mode. We must ensure never reuse key/counter values; otherwise it could break (OFB)."
+    }
+]

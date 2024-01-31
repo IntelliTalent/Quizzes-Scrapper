@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Mahout provides ____________ libraries for common  and primitive Java collections.",
+        "options": [
+            "a) Java",
+            "b) Javascript",
+            "c) Perl",
+            "d) Python"
+        ],
+        "answer": "a",
+        "explanation": "Maths operations are focused on linear algebra and statistics."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Mahout is distributed under a commercially friendly Apache Software license",
+            "b) Mahout is a library of scalable machine-learning algorithms, implemented on top of Apache Hadoop\u00ae and using the MapReduce paradigm",
+            "c) Apache Mahout is a project of the Apache Software Foundation to produce free implementations of distributed or otherwise scalable machine learning algorithms",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The goal of Mahout is to build a vibrant, responsive, diverse community to facilitate discussions not only on the project itself but also on potential use cases."
+    },
+    {
+        "question": "_________ does not restrict contributions to Hadoop based implementations.",
+        "options": [
+            "a) Mahout",
+            "b) Oozie",
+            "c) Impala",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Mahout is distributed under a commercially friendly Apache Software license."
+    },
+    {
+        "question": "Mahout provides an implementation of a ______________ identification algorithm which scores collocations using log-likelihood ratio.",
+        "options": [
+            "a) collocation",
+            "b) compaction",
+            "c) collection",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The log-likelihood score indicates the relative usefulness of a collocation with regards other term combinations in the text."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) \u2018Taste\u2019 collaborative-filtering recommender component of Mahout was originally a separate project and can run standalone without Hadoop",
+            "b) Integration of Mahout with initiatives such as the Pregel-like Giraph are actively under discussion",
+            "c) Calculating the LLR is very straightforward",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are a couple ways to run the llr-based collocation algorithm in mahout."
+    },
+    {
+        "question": "The tokens are passed through a Lucene ____________ to produce NGrams of the desired length.",
+        "options": [
+            "a) ShngleFil",
+            "b) ShingleFilter",
+            "c) SingleFilter",
+            "d) Collfilter"
+        ],
+        "answer": "b",
+        "explanation": "The tools that the collocation identification algorithm are embedded within either consume tokenized text as input or provide the ability to specify an implementation of the Lucene Analyzer class perform tokenization in order to form ngrams."
+    },
+    {
+        "question": "The _________ collocation identifier is integrated into the process that is used to create vectors from sequence files of text keys and values.",
+        "options": [
+            "a) lbr",
+            "b) lcr",
+            "c) llr",
+            "d) lar"
+        ],
+        "answer": "c",
+        "explanation": "The \u2013minLLR option can be used to control the cutoff that prevents collocations below the specified LLR score from being emitted."
+    },
+    {
+        "question": "____________ generates NGrams and counts frequencies for ngrams, head and tail subgrams.",
+        "options": [
+            "a) CollocationDriver",
+            "b) CollocDriver",
+            "c) CarDriver",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each call to the mapper passes in the full set of tokens for the corresponding document using a StringTuple."
+    },
+    {
+        "question": "A key of type ___________ is generated which is used later to join ngrams with their heads and tails in the reducer phase.",
+        "options": [
+            "a) GramKey",
+            "b) Primary",
+            "c) Secondary",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The GramKey is a composite key made up of a string n-gram fragment as the primary key and a secondary key used for grouping and sorting in the reduce phase."
+    },
+    {
+        "question": "________ phase merges the counts for unique ngrams or ngram fragments across multiple documents.",
+        "options": [
+            "a) CollocCombiner",
+            "b) CollocReducer",
+            "c) CollocMerger",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The combiner treats the entire GramKey as the key and as such, identical tuples from separate documents are passed into a single call to the combiner\u2019s reduce method, their frequencies are summed and a single tuple is passed out via the collector."
+    }
+]

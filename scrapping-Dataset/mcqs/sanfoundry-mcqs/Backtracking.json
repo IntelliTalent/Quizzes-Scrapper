@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Which of the problems cannot be solved by backtracking method?",
+        "options": [
+            "a) n-queen problem",
+            "b) subset sum problem",
+            "c) hamiltonian circuit problem",
+            "d) travelling salesman problem"
+        ],
+        "answer": "d",
+        "explanation": "N-queen problem, subset sum problem, Hamiltonian circuit problems can be solved by backtracking method whereas travelling salesman problem is solved by Branch and bound method."
+    },
+    {
+        "question": "Backtracking algorithm is implemented by constructing a tree of choices called as?",
+        "options": [
+            "a) State-space tree",
+            "b) State-chart tree",
+            "c) Node tree",
+            "d) Backtracking tree"
+        ],
+        "answer": "a",
+        "explanation": "Backtracking problem is solved by constructing a tree of choices called as the state-space tree. Its root represents an initial state before the search for a solution begins."
+    },
+    {
+        "question": "What happens when the backtracking algorithm reaches a complete solution?",
+        "options": [
+            "a) It backtracks to the root",
+            "b) It continues searching for other possible solutions",
+            "c) It traverses from a different route",
+            "d) Recursively traverses through the same route"
+        ],
+        "answer": "b",
+        "explanation": "When we reach a final solution using a backtracking algorithm, we either stop or continue searching for other possible solutions."
+    },
+    {
+        "question": "A node is said to be ____________ if it has a possibility of reaching a complete solution.",
+        "options": [
+            "a) Non-promising",
+            "b) Promising",
+            "c) Succeeding",
+            "d) Preceding"
+        ],
+        "answer": "b",
+        "explanation": "If a node has a possibility of reaching the final solution, it is called a promising node. Otherwise, it is non-promising."
+    },
+    {
+        "question": "In what manner is a state-space tree for a backtracking algorithm constructed?",
+        "options": [
+            "a) Depth-first search",
+            "b) Breadth-first search",
+            "c) Twice around the tree",
+            "d) Nearest neighbour first"
+        ],
+        "answer": "a",
+        "explanation": "A state-space tree for a backtracking algorithm is constructed in the manner of depth-first search so that it is easy to look into."
+    },
+    {
+        "question": "In general, backtracking can be used to solve?",
+        "options": [
+            "a) Numerical problems",
+            "b) Exhaustive search",
+            "c) Combinatorial problems",
+            "d) Graph coloring problems"
+        ],
+        "answer": "c",
+        "explanation": "Backtracking approach is used to solve complex combinatorial problems which cannot be solved by exhaustive search algorithms."
+    },
+    {
+        "question": "Which one of the following is an application of the backtracking algorithm?",
+        "options": [
+            "a) Finding the shortest path",
+            "b) Finding the efficient quantity to shop",
+            "c) Ludo",
+            "d) Crossword"
+        ],
+        "answer": "d",
+        "explanation": "Crossword puzzles are based on backtracking approach whereas the rest are travelling salesman problem, knapsack problem and dice game."
+    },
+    {
+        "question": "Backtracking algorithm is faster than the brute force technique",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Backtracking is faster than brute force approach since it can remove a large set of answers in one test."
+    },
+    {
+        "question": "Which of the following logical programming languages is not based on backtracking?",
+        "options": [
+            "a) Icon",
+            "b) Prolog",
+            "c) Planner",
+            "d) Fortran"
+        ],
+        "answer": "d",
+        "explanation": "Backtracking algorithm form the basis for icon, planner and prolog whereas fortran is an ancient assembly language used in second generation computers."
+    },
+    {
+        "question": "The problem of finding a list of integers in a given specific range that meets certain conditions is called?",
+        "options": [
+            "a) Subset sum problem",
+            "b) Constraint satisfaction problem",
+            "c) Hamiltonian circuit problem",
+            "d) Travelling salesman problem"
+        ],
+        "answer": "b",
+        "explanation": "Constraint satisfaction problem is the problem of finding a list of integers under given constraints. Constraint satisfaction problem is solved using a backtracking approach."
+    },
+    {
+        "question": "Who coined the term \u2018backtracking\u2019?",
+        "options": [
+            "a) Lehmer",
+            "b) Donald",
+            "c) Ross",
+            "d) Ford"
+        ],
+        "answer": "a",
+        "explanation": "D.H. Lehmer was the first person to coin the term backtracking. Initially, the backtracking facility was provided using SNOBOL."
+    },
+    {
+        "question": "___________ enumerates a list of promising nodes that could be computed to give the possible solutions of a given problem.",
+        "options": [
+            "a) Exhaustive search",
+            "b) Brute force",
+            "c) Backtracking",
+            "d) Divide and conquer"
+        ],
+        "answer": "c",
+        "explanation": "Backtracking is a general algorithm that evaluates partially constructed candidates that can be developed further without violating problem constraints."
+    },
+    {
+        "question": "The problem of finding a subset of positive integers whose sum is equal to a given positive integer is called as?",
+        "options": [
+            "a) n- queen problem",
+            "b) subset sum problem",
+            "c) knapsack problem",
+            "d) hamiltonian circuit problem"
+        ],
+        "answer": "b",
+        "explanation": "Subset sum problem is the problem of finding a subset using the backtracking algorithm when summed, equals a given integer."
+    },
+    {
+        "question": "The problem of placing n queens in a chessboard such that no two queens attack each other is called as?",
+        "options": [
+            "a) n-queen problem",
+            "b) eight queens puzzle",
+            "c) four queens puzzle",
+            "d) 1-queen problem"
+        ],
+        "answer": "a",
+        "explanation": "The problem of placing n-queens in a chessboard such that no two queens are vertical or horizontal or diagonal to each other is an n-queen problem. The problem only exists for n = 1, 4, 8."
+    }
+]

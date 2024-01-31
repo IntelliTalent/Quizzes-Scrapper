@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Consider the following iterative implementation to find the length of the string:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201cs[len] != \u2018\\0\u2032\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the length of the string \u201clengthofstring\u201d, which is 14."
+    },
+    {
+        "question": "What is the time complexity of the following code used to find the length of the string?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the code used to find the length of the string is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the length of an empty string, which is 0."
+    },
+    {
+        "question": "Which of the following can be the base case for the recursive implementation used to find the length of a string?",
+        "options": [],
+        "answer": "c",
+        "explanation": "\u201cif(string[len] == \u2018\\0\u2019) return 0\u201d can be used as base case in the recursive implementation used to find the length of the string."
+    },
+    {
+        "question": "Consider the following recursive implementation used to find the length of a string:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201c1 + recursive_get_len(s, len+1)\u201d should be inserted to complete the code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The above code prints the length of the string \u201cabcdef\u201d, which is 6."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation used to find the length of the string?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation used to find the length of the string is O(n)."
+    },
+    {
+        "question": "How many times is the function recursive_get_len() called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The function recursive_get_len() is called 8 times when the above code is executed."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The above program prints the length of the string \u201c123-1-2-3\u201d, which is 9."
+    }
+]

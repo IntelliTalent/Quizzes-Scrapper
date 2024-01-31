@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which of the following is NOT a Catalan number?",
+        "options": [
+            "a) 1",
+            "b) 5",
+            "c) 14",
+            "d) 43"
+        ],
+        "answer": "d",
+        "explanation": "Catalan numbers are given by: (2n!)/((n+1)!n!)."
+    },
+    {
+        "question": "Which of the following numbers is the 6th Catalan number?",
+        "options": [
+            "a) 14",
+            "b) 429",
+            "c) 132",
+            "d) 42"
+        ],
+        "answer": "d",
+        "explanation": "Catalan numbers are given by: (2n!)/((n+1)!n!)."
+    },
+    {
+        "question": "Which of the following is not an application of Catalan Numbers?",
+        "options": [
+            "a) Counting the number of Dyck words",
+            "b) Counting the number of expressions containing n pairs of parenthesis",
+            "c) Counting the number of ways in which a convex polygon can be cut into triangles by connecting vertices with straight lines",
+            "d) Creation of head and tail for a given number of tosses"
+        ],
+        "answer": "d",
+        "explanation": "Counting the number of Dyck words, Counting the number of expressions containing n pairs of parenthesis, Counting the number of ways in which a convex polygon can be cut into triangles by connecting vertices with straight lines are the applications of Catalan numbers where as creation of head and tails for a given number of tosses is an application of Pascal\u2019s triangle."
+    },
+    {
+        "question": "Which of the following methods can be used to find the nth Catalan number?",
+        "options": [
+            "a) Recursion",
+            "b) Binomial coefficients",
+            "c) Dynamic programming",
+            "d) Recursion, Binomial Coefficients, Dynamic programming"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned methods can be used to find the nth Catalan number."
+    },
+    {
+        "question": "The recursive formula for Catalan number is given by Cn = \u2211Ci*C(n-i).",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line arr[i] += arr[j] * arr[k] reflects the recursive formula Cn = \u2211Ci*C(n-i)."
+    },
+    {
+        "question": "Which of the following implementations of Catalan numbers has the smallest time complexity?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Binomial coefficients",
+            "c) Recursion",
+            "d) All have equal time complexity"
+        ],
+        "answer": "b",
+        "explanation": "The time complexities are as follows:"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the 8th Catalan number, which is 429."
+    },
+    {
+        "question": "Which of the following implementations of Catalan numbers has the largest space complexity(Don\u2019t consider the stack space)?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Binomial coefficients",
+            "c) Recursion",
+            "d) All have equal space complexities"
+        ],
+        "answer": "a",
+        "explanation": "The space complexities are as follows:"
+    },
+    {
+        "question": "What will be the value stored in arr[5] when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The 6th Catalan number will be stored in arr[5], which is 42."
+    },
+    {
+        "question": "Which of the following errors will occur when the below code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The 100th Catalan number is too large to be stored in an integer. So, the error produced will be integer value out of range.(It will be a logical error and the compiler wont show it)."
+    }
+]

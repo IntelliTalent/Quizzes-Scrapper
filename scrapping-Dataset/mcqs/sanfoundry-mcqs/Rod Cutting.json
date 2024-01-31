@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Given a rod of length n and the selling prices of all pieces smaller than equal to n, find the most beneficial way of cutting the rod into smaller pieces. This problem is called the rod cutting problem. Which of these methods can be used to solve the rod cutting problem?",
+        "options": [
+            "a) Brute force",
+            "b) Dynamic programming",
+            "c) Recursion",
+            "d) Brute force, Dynamic programming and Recursion"
+        ],
+        "answer": "d",
+        "explanation": "Brute force, Dynamic programming and Recursion can be used to solve the rod cutting problem."
+    },
+    {
+        "question": "You are given a rod of length 5 and the prices of each length are as follows:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The pieces {1,2 2} give the maximum value of 12."
+    },
+    {
+        "question": "Consider the brute force implementation of the rod cutting problem in which all the possible cuts are found and the maximum value is calculated. What is the time complexity of this brute force implementation?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(nlogn)",
+            "d) O(2"
+        ],
+        "answer": "d",
+        "explanation": "The brute force implementation finds all the possible cuts. This takes O(2"
+    },
+    {
+        "question": "You are given a rod of length 10 and the following prices.",
+        "options": [],
+        "answer": "c",
+        "explanation": "The pieces {2,2,6} give the maximum value of 27."
+    },
+    {
+        "question": "Consider the following recursive implementation of the rod cutting problem:",
+        "options": [],
+        "answer": "a",
+        "explanation": "max_price, prices[i] + rod_cut(prices,len \u2013 i \u2013 1) completes the above code."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above recursive implementation is O(2"
+    },
+    {
+        "question": "What is the space complexity of the following recursive implementation?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The space complexity of the above recursive implementation is O(1) because it uses a constant space."
+    },
+    {
+        "question": "What will  be the value stored in max_value when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The value stored in max_value after the code is executed is equal to 7."
+    },
+    {
+        "question": "For every rod cutting problem there will be a unique set of pieces that give the maximum price.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Consider a rod of length 3. The prices are {2,3,6} for lengths {1,2,3} respectively. The pieces {1,1,1} and {3} both give the maximum value of 6."
+    },
+    {
+        "question": "10.Consider the following dynamic programming implementation of the rod cutting problem:",
+        "options": [],
+        "answer": "a",
+        "explanation": "prices[j-1] + max_val[tmp_idx] completes the code."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the rod cutting problem?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation of the rod cutting problem is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the rod cutting problem?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The space complexity of the above dynamic programming implementation of the rod cutting problem is O(n) because it uses a space equal to the length of the rod."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the maximum price that can be achieved by cutting the rod into pieces, which is equal to 27."
+    },
+    {
+        "question": "What is the value stored in max_val[5] after the following program is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The value stored in max_val[5] after the program is executed is 12."
+    }
+]

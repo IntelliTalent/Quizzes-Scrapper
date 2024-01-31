@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Classes used to describe an application\u2019s primary elements.",
+        "options": [
+            "a) Domain Classes",
+            "b) Application",
+            "c) Context",
+            "d) View"
+        ],
+        "answer": "a",
+        "explanation": "Domain classes are used to describe an application\u2019s primary elements and characteristics."
+    },
+    {
+        "question": "In web applications, domain classes are generally the first things to be defined.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Domain classes represent data that is saved for posterity\u2014in a permanent storage system\u2014so it interacts with controllers, as well as representing data displayed in views."
+    },
+    {
+        "question": "In Grails, domain classes are placed under:-",
+        "options": [
+            "a) /grails-app/WEB-INF/",
+            "b) /grails-app/domain/",
+            "c) /grails-app/domain/WEB-APP",
+            "d) /grails-app/"
+        ],
+        "answer": "b",
+        "explanation": "In Grails, domain classes are placed under the /grails-app/domain/ directory."
+    },
+    {
+        "question": "The creation of domain classes  by executing a simple command which is:-",
+        "options": [
+            "a) grails create-domain-class",
+            "b) grails create-domain-class domain class name",
+            "c) domain class name",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The creation of domain classes, like most other things in Grails, can be carried out by executing a simple command in the following form:"
+    },
+    {
+        "question": "The command domain class name in creation of domain classes generates a file named domain class name.groovy.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It generates a skeleton domain class file named domain class name.groovy inside the /grails-app/domain/ directory."
+    },
+    {
+        "question": "Static field which defines constraints on the domain class.",
+        "options": [
+            "a) static{}",
+            "b) static field{}",
+            "c) static constraint{}",
+            "d) static constraints{}"
+        ],
+        "answer": "d",
+        "explanation": "static constraints = { }, defines constraints on the domain class."
+    },
+    {
+        "question": "Declaration name which indicates that object\u2019s name field can\u2019t be blank.",
+        "options": [
+            "a) blank:false",
+            "b) blank:true",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The declaration name(blank:false) indicates that a Player object\u2019s name field cannot be left blank."
+    },
+    {
+        "question": "A variety of constraints can be used to enforce a domain class\u2019s structure.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Under certain circumstances, if a constraint is too elaborate, it\u2019s often incorporated within an application\u2019s controller prior to creating an object of a certain domain class."
+    },
+    {
+        "question": "Command to generate the corresponding CRUD controller and views for an application\u2019s domain class.",
+        "options": [
+            "a) grails create-domain-class domain class name",
+            "b) grails create-domain-class",
+            "c) grails generate-all domain class name",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can execute the following command to generate the corresponding CRUD controller and views for an application\u2019s domain class:"
+    },
+    {
+        "question": "Grails is capable of inspecting an application\u2019s domain classes and generating the corresponding controllers and views.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Grails is capable of inspecting an application\u2019s domain classes and generating the corresponding controllers and views necessary to create, read, update, and delete instances belonging to an application\u2019s domain classes."
+    },
+    {
+        "question": "Views corresponding to a controller class\u2019s CRUD operations.",
+        "options": [
+            "a) create.gsp",
+            "b) edit.gsp",
+            "c) list.gsp",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Four views are created corresponding to a controller class\u2019s CRUD operations named create.gsp, edit.gsp, list.gsp, and show.gsp."
+    },
+    {
+        "question": ".gsp extension stands for:-",
+        "options": [
+            "a) Groovy Server Pages",
+            "b) Groovy Service Pages",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": ".gsp extension stands for \u201cGroovy Server Pages,\u201d which is equivalent to JavaServer Pages except it uses Groovy to declare programmatic statements instead of Java."
+    },
+    {
+        "question": "Views are placed under which directory:-",
+        "options": [
+            "a) app/views/",
+            "b) app/",
+            "c) grails-app/views/WEB-INF",
+            "d) grails-app/views/domain class"
+        ],
+        "answer": "d",
+        "explanation": "These views are placed under an application\u2019s grails-app/views/domain class directory."
+    },
+    {
+        "question": "Command to start the Grails application:-",
+        "options": [
+            "a) grails run",
+            "b) grails start-app",
+            "c) grails run-app",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can start the Grails application using grails run-app and work as an end user with the application."
+    }
+]

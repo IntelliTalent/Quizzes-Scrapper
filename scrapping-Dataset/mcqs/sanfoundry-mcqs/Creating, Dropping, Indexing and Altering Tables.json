@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which statement is used to remove indexes on tables?",
+        "options": [
+            "a) DROP INDEX",
+            "b) DELETE INDEX",
+            "c) REMOVE INDEX",
+            "d) FLUSH INDEX"
+        ],
+        "answer": "a",
+        "explanation": "MySQL provides statements to change the structure of tables. To add or remove the indexes on the existing database tables, the \u2018CREATE INDEX\u2019 and \u2018DROP INDEX\u2019 tables are used."
+    },
+    {
+        "question": "Which storage engine is not available in MySQL 5.0?",
+        "options": [
+            "a) InnoDB",
+            "b) ARCHIVE",
+            "c) Falcon",
+            "d) NDB"
+        ],
+        "answer": "c",
+        "explanation": "All of the storage engines given are available in MySQL versions 5.0 and above, except \u2018Falcon\u2019. MySQL supports many storage engines or table handlers that have a specific set of properties."
+    },
+    {
+        "question": "The default storage engine used is ____________",
+        "options": [
+            "a) EXAMPLE",
+            "b) ARCHIVE",
+            "c) MyISAM",
+            "d) NDB"
+        ],
+        "answer": "c",
+        "explanation": "MySQL comes with multiple storage engines. The default storage engine used is \u2018MyISAM\u2019. \u2018EXAMPLE\u2019 is the stub storage engine, NDB is the storage engine for MySQL Cluster."
+    },
+    {
+        "question": "What is the name of the format file for a table named my_tbl?",
+        "options": [
+            "a) my_tbl.fmt",
+            "b) my_tbl.frm",
+            "c) my_tbl.fmr",
+            "d) my_tbl.ftm"
+        ],
+        "answer": "b",
+        "explanation": "Every time a table is created in MySQL, it creates a disk file containing the format of the table. It has two components, namely, base name (here, \u2018my_tbl\u2019) and an extension (here, \u2018frm\u2019)."
+    },
+    {
+        "question": "In the CREATE TABLE statement, the engine name specified is case sensitive.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Suppose a table is created using the following statement: \u2018CREATE TABLE my_tbl (\u2026..) ENGINE = InnoDB;\u2019. The engine name \u2018InnoDB\u2019 used is always case insensitive."
+    },
+    {
+        "question": "Which keyword is used to create a table as a temporary copy of itself?",
+        "options": [
+            "a) TEMP",
+            "b) TEMPO",
+            "c) TEMPR",
+            "d) TEMPORARY"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018CREATE TABLE\u2019 clause has a very vast formal format, although its usage is extremely simple and intuitive. One of the many ways is to create a table as a temporary copy of itself."
+    },
+    {
+        "question": "Which storage engine enables to access tables from a MySQL server managed by another server?",
+        "options": [
+            "a) InnoDB",
+            "b) EXAMPLE",
+            "c) MyISAM",
+            "d) FEDERATED"
+        ],
+        "answer": "d",
+        "explanation": "There are many storage engines that are used in MySQL. By default, MyISAM is used as the storage engine unless specified otherwise. FEDERATED enables access to a foreign MySQL server."
+    },
+    {
+        "question": "It is possible to drop multiple tables in the same statement.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "To drop a table, all that is required is the table name. No additional information like table format or type is necessary. Multiple tables are dropped in the same DROP TABLE statement."
+    },
+    {
+        "question": "The default index type for MEMORY tables is __________",
+        "options": [
+            "a) HASH",
+            "b) SPATIAL",
+            "c) FULLTEXT",
+            "d) UNIQUE"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018HASH\u2019 index is the default index type for \u2018MEMORY\u2019 tables. \u2018SPATIAL\u2019 can only be used with \u2018MyISAM\u2019 tables for the spatial data types. \u2018FULLTEXT\u2019 is used for performing full-text searches."
+    },
+    {
+        "question": "The statement to change the table name is __________",
+        "options": [
+            "a) CHANGE",
+            "b) CHANGENAME",
+            "c) CHANGENM",
+            "d) RENAME"
+        ],
+        "answer": "d",
+        "explanation": "To change the name of a table, the keyword \u2018RENAME\u2019 can be used. It can be used with the \u2018ALTER TABLE\u2019 clause. It can also be used as a statement in itself like \u2018RENAME TABLE old_tbl new_tbl\u2019."
+    }
+]

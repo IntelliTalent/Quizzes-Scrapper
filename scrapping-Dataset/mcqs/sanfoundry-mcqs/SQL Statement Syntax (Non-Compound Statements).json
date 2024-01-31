@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which statement upgrades the database directory name encoding?",
+        "options": [
+            "a) ALTER DATABASE",
+            "b) ALTER SERVER",
+            "c) ALTER EVENT",
+            "d) ALTER FUNCTION"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018ALTER DATABASE\u2019 changes database attributes or upgrades the database directory name encoding. It requires the \u2018ALTER\u2019 privilege for the database to be given."
+    },
+    {
+        "question": "The statement that alters an existing event to have the given definition is _____________",
+        "options": [
+            "a) ALTER EVENT",
+            "b) ALTER DATABASE",
+            "c) ALTER FUNCTION",
+            "d) ALTER DATABASE"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018ALTER EVENT\u2019 alters an existing event to have the given definition. The \u2018RENAME TO\u2019 clause renames the event. The other clauses are described in the entry for \u2018CREATE EVENT\u2019."
+    },
+    {
+        "question": "What sets up an association between one or more MyISAM tables and the named key cache?",
+        "options": [
+            "a) BEGIN",
+            "b) CACHE INDEX",
+            "c) ALTER DATABASE",
+            "d) ALTER EVENT"
+        ],
+        "answer": "b",
+        "explanation": "\u2018CACHE INDEX\u2019 sets up an association between one or more MyISAM tables and the named key cache which must already exist. The INDEX privilege is needed for each table named in the statement."
+    },
+    {
+        "question": "Which statement can produce the same output as \u2018SHOW COLUMNS\u2019?",
+        "options": [
+            "a) DESCRIBE",
+            "b) DISPLAY",
+            "c) SEE",
+            "d) GET"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018DESCRIBE\u2019 statement with a table name or view name produces the same kind of output as the \u2018SHOW COLUMNS\u2019 statement. The \u2018SHOW\u2019 entry can be referred to for further information."
+    },
+    {
+        "question": "Converting a client/server application to embedded server is difficult.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Writing an application that uses the embedded server is different from writing one that operates in a client/server context. A program that is written as a client/server application can easily be converted to use the embedded server."
+    },
+    {
+        "question": "The option that executes all SQL statements in a SQL script irrespective of the number of errors is _______________",
+        "options": [
+            "a) \u2013run",
+            "b) \u2013ensure",
+            "c) \u2013force",
+            "d) \u2013violent"
+        ],
+        "answer": "c",
+        "explanation": "If SQL queries in a file are run using mysql in batch mode, mysql either quits after the first error. If the \u2013force option is specified all the queries are executed indiscriminately."
+    },
+    {
+        "question": "The clause that is used to display information that matches a given pattern is _____________",
+        "options": [
+            "a) WHERE",
+            "b) IS",
+            "c) SAME",
+            "d) LIKE"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018LIKE\u2019 clause filters information that matches a given pattern. \u2018WHERE\u2019 clause selects information that is specified by a condition. \u2018IS\u2019 is used to match the exact condition specified."
+    },
+    {
+        "question": "The header that should be included first is ________________",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "a",
+        "explanation": "The file \u2018my_global.h\u2019 takes care of including several other header files that are likely to be generally useful, like \u2018stdio.h\u2019. It also includes Windows compatibility information."
+    },
+    {
+        "question": "What does mysql_init() return?",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) pointer to a structure"
+        ],
+        "answer": "d",
+        "explanation": "When NULL is passed to mysql_init() it automatically allocates an MYSQL structure, initializes it, and returns a pointer to it. The MYSQL data type is a structure containing information about a connection."
+    }
+]

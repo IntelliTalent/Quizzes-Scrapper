@@ -1,0 +1,112 @@
+[
+    {
+        "question": "IBM and ________ have announced a major initiative to use Hadoop to support university courses in distributed computer programming.",
+        "options": [
+            "a) Google Latitude",
+            "b) Android (operating system)",
+            "c) Google Variations",
+            "d) Google"
+        ],
+        "answer": "d",
+        "explanation": "Google and IBM Announce University Initiative to Address Internet-Scale."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hadoop is an ideal environment for extracting and transforming small volumes of data",
+            "b) Hadoop stores data in HDFS and supports data compression/decompression",
+            "c) The Giraph framework is less  useful than a MapReduce job to solve graph and machine learning",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Data compression can be achieved using compression algorithms like bzip2, gzip, LZO, etc. Different algorithms can be used in different scenarios based on their capabilities."
+    },
+    {
+        "question": "What license is Hadoop distributed under?",
+        "options": [
+            "a) Apache License 2.0",
+            "b) Mozilla Public License",
+            "c) Shareware",
+            "d) Commercial"
+        ],
+        "answer": "a",
+        "explanation": "Hadoop is Open Source, released under Apache 2 license."
+    },
+    {
+        "question": "Sun also has the Hadoop Live CD ________ project, which allows running a fully functional Hadoop cluster using a live CD.",
+        "options": [
+            "a) OpenOffice.org",
+            "b) OpenSolaris",
+            "c) GNU",
+            "d) Linux"
+        ],
+        "answer": "b",
+        "explanation": "The OpenSolaris Hadoop LiveCD project built a bootable CD-ROM image."
+    },
+    {
+        "question": "Which of the following genres does Hadoop produce?",
+        "options": [
+            "a) Distributed file system",
+            "b) JAX-RS",
+            "c) Java Message Service",
+            "d) Relational Database Management System"
+        ],
+        "answer": "a",
+        "explanation": "The Hadoop Distributed File System (HDFS) is designed to store very large data sets reliably, and to stream those data sets at high bandwidth to the user."
+    },
+    {
+        "question": "What was Hadoop written in?",
+        "options": [
+            "a) Java (software platform)",
+            "b) Perl",
+            "c) Java (programming language)",
+            "d) Lua (programming language)"
+        ],
+        "answer": "c",
+        "explanation": "The Hadoop framework itself is mostly written in the Java programming language, with some native code in C and command-line utilities written as shell scripts."
+    },
+    {
+        "question": "Which of the following platforms does Hadoop run on?",
+        "options": [
+            "a) Bare metal",
+            "b) Debian",
+            "c) Cross-platform",
+            "d) Unix-like"
+        ],
+        "answer": "c",
+        "explanation": "Hadoop has support for cross-platform operating system."
+    },
+    {
+        "question": "Hadoop achieves reliability by replicating the data across multiple hosts and hence does not require ________ storage on hosts.",
+        "options": [
+            "a) RAID",
+            "b) Standard RAID levels",
+            "c) ZFS",
+            "d) Operating system"
+        ],
+        "answer": "a",
+        "explanation": "With the default replication value, 3, data is stored on three nodes: two on the same rack, and one on a different rack."
+    },
+    {
+        "question": "Above the file systems comes the ________ engine, which consists of one Job Tracker, to which client applications submit MapReduce jobs.",
+        "options": [
+            "a) MapReduce",
+            "b) Google",
+            "c) Functional programming",
+            "d) Facebook"
+        ],
+        "answer": "a",
+        "explanation": "MapReduce engine uses to distribute work around a cluster."
+    },
+    {
+        "question": "The Hadoop list includes the HBase database, the Apache Mahout ________ system, and matrix operations.",
+        "options": [
+            "a) Machine learning",
+            "b) Pattern recognition",
+            "c) Statistical classification",
+            "d) Artificial intelligence"
+        ],
+        "answer": "a",
+        "explanation": "The Apache Mahout project\u2019s goal is to build a scalable machine learning tool."
+    }
+]

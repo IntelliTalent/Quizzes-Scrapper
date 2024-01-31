@@ -1,0 +1,1475 @@
+[
+    {
+        "question": "How can you check your current git version?",
+        "options": [
+            "git --v",
+            "git --version",
+            "git --option",
+            "git --current"
+        ],
+        "answer": "git --version"
+    },
+    {
+        "question": "What command lets you create a connection between a local and remote repository?",
+        "options": [
+            "git remote add new",
+            "git remote add origin",
+            "git remote new origin",
+            "git remote origin"
+        ],
+        "answer": "git remote add origin"
+    },
+    {
+        "question": "Describe what these Git commands do to the commit history:",
+        "options": [
+            "They reset the HEAD to the fifth commit in the repo, then merge to the master branch.",
+            "The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.",
+            "They delete the last five commits.",
+            "They merge the last five commits into a new branch."
+        ],
+        "answer": "The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit."
+    },
+    {
+        "question": "Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?",
+        "options": [
+            "Checkout the push-notifications branch and run git merge beta",
+            "Checkout the master branch and run git merge beta -> push-notifications",
+            "Delete the push-notifications branch and it will be committed to the master branch automatically",
+            "Checkout the beta branch and run git merge push-notifications"
+        ],
+        "answer": "Checkout the beta branch and run git merge push-notifications"
+    },
+    {
+        "question": "Which of the following is true when you use the following command?",
+        "options": [
+            "All new and updated files are staged",
+            "Files are staged in alphabetical order.",
+            "All new files are staged",
+            "Only updated files are staged"
+        ],
+        "answer": "All new and updated files are staged"
+    },
+    {
+        "question": "What will the following command print to the Terminal?",
+        "options": [
+            "A list of remote repositories and their URLs",
+            "The current git version you're running",
+            "An inline editor for modifying remote repositories",
+            "The last 5 git versions you've installed"
+        ],
+        "answer": "A list of remote repositories and their URLs"
+    },
+    {
+        "question": "Looking at the following commands, describe what is happening.",
+        "options": [
+            "The commit is being tagged for release on the feature-user-location branch",
+            "A commit is being copied from its original branch over to the feature-user-location branch",
+            "The commit is being cherry picked as the new HEAD of the commit history",
+            "A commit is being copied from the feature-user-location branch to the master branch",
+            "The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch."
+        ],
+        "answer": "The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch."
+    },
+    {
+        "question": "What does the following command do to the git repository?",
+        "options": [
+            "It deletes all previous commits and resets the repository history back to its initial state.",
+            "It resets the working branch to the first commit.",
+            "It keeps the HEAD at the current commit but clears all previous commits.",
+            "It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index."
+        ],
+        "answer": "It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index."
+    },
+    {
+        "question": "You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?",
+        "options": [
+            "Manually backtrack through your commit history.",
+            "Use git search -diff to compare all commits in your repository history.",
+            "Run a git rebase to find the buggy commit.",
+            "Use git bisect to compare the buggy commit to an early commit that works as expected."
+        ],
+        "answer": "Use git bisect to compare the buggy commit to an early commit that works as expected."
+    },
+    {
+        "question": "Why would the following command be used?",
+        "options": [
+            "To run a comparative search of the last 10 commits for differences",
+            "To list the last 10 commits and modify them with either the squash or fixup command",
+            "To delete the last 10 commits and reset the HEAD",
+            "In order to locally cache the last 10 commits"
+        ],
+        "answer": "To list the last 10 commits and modify them with either the squash or fixup command"
+    },
+    {
+        "question": "Why would you use a pre-receive hook in your remote repository?",
+        "options": [
+            "You wouldn't, you would use it in the local repository",
+            "To execute a script when a remote receives a push that is triggered before any refs are updated",
+            "To fire a script after updates are made to the remote repository",
+            "To debug all commit tags and release versions"
+        ],
+        "answer": "To execute a script when a remote receives a push that is triggered before any refs are updated"
+    },
+    {
+        "question": "What option can you use to apply git configurations across your entire git environment?",
+        "options": [
+            "`--all`",
+            "`--master`",
+            "`--global`",
+            "`--update`"
+        ],
+        "answer": "`--global`"
+    },
+    {
+        "question": "How could you squash multiple commits together without using git merge --squash?",
+        "options": [
+            "Caching",
+            "You can't. git merge --squash is the only git command for that operation.",
+            "Rebasing",
+            "Reflogging"
+        ],
+        "answer": "Rebasing"
+    },
+    {
+        "question": "If you cloned an existing git repository, what would happen?",
+        "options": [
+            "A new copy would overwrite the central repository",
+            "A copy of the repository would be created on your local machine",
+            "Nothing, cloning is not a supported git function",
+            "A copy of the repository would be created on the hosting platform"
+        ],
+        "answer": "A copy of the repository would be created on your local machine"
+    },
+    {
+        "question": "How can you display a list of files added or modified in a specific commit?",
+        "options": [
+            "Find the commit in the remote repository, as that's the only place that kind of information is stored.",
+            "Use the `diff-tree` command with the commit hash.",
+            "Run `git commit --info` with the commit hash.",
+            "Access the commit stash data with `git stash`."
+        ],
+        "answer": "Use the `diff-tree` command with the commit hash."
+    },
+    {
+        "question": "What files is this .gitignore programmed to leave out?",
+        "options": [
+            "All files with a .swift, .txt, or metadata file extension, as well as the entire build directory",
+            "Only the build directory",
+            "All files in the build directory, as well as files ending with .txt or .metadata",
+            "Only files with .swift and .txt extensions."
+        ],
+        "answer": "All files in the build directory, as well as files ending with .txt or .metadata"
+    },
+    {
+        "question": "After you make changes to a local repository, you run the following command. What will this do?",
+        "options": [
+            "Nothing, you can't use multiple options in the same command",
+            "Adds all new files to the staging area",
+            "Commits all new files with a message",
+            "Adds all modified files to the staging area, then commits them with a message"
+        ],
+        "answer": "Adds all modified files to the staging area, then commits them with a message"
+    },
+    {
+        "question": "After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?",
+        "options": [
+            "There were two copies of beta-notes.js but one was deleted",
+            "beta-notes.js was staged, then modified afterwards, creating two different versions of the file",
+            "Two copies of beta-notes.js were created, but only one is being tracked",
+            "There are two tracked copies of beta-notes.js, but one was removed from the commit"
+        ],
+        "answer": "beta-notes.js was staged, then modified afterwards, creating two different versions of the file"
+    },
+    {
+        "question": "Where are files stored before they are committed to the local repository?",
+        "options": [
+            "Saved files",
+            "git documents",
+            "Staging area",
+            "git cache"
+        ],
+        "answer": "Staging area"
+    },
+    {
+        "question": "What commands would you use to force an overwrite of your local files with the master branch?",
+        "options": [
+            "\u2800",
+            "\u2800",
+            "\u2800",
+            "\u2800"
+        ],
+        "answer": "\u2800"
+    },
+    {
+        "question": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "options": [
+            "use git show refs/push-notifications",
+            "use git show push-notifications",
+            "use git show head/refs/push-notifications",
+            "use git show refs/head/push-notifications"
+        ],
+        "answer": "use git show refs/head/push-notifications"
+    },
+    {
+        "question": "Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?",
+        "options": [
+            "git rebase -log",
+            "git rebase -i",
+            "git rebase -verbose",
+            "git rebase -all"
+        ],
+        "answer": "git rebase -i"
+    },
+    {
+        "question": "What is the operation doing given the Git commands below?",
+        "options": [
+            "It runs a merge of a good commit that is discovered using a known bad commit and known good commit",
+            "It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced a bug",
+            "It defines a bad commit and resets the HEAD using a known bad commit and known good commit",
+            "It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug"
+        ],
+        "answer": "It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug"
+    },
+    {
+        "question": "In a situation where you have several commits for a single task, what is the most efficient way to restructure your commit history?",
+        "options": [
+            "Cherry pick the related commits to another branch.",
+            "Delete the task commits and recommit with a new message.",
+            "Squash the related commits together into a single coherent commit.",
+            "Stash the related commits under a new hash."
+        ],
+        "answer": "Squash the related commits together into a single coherent commit."
+    },
+    {
+        "question": "Which of the following is true of the git push command?",
+        "options": [
+            "By default a push doesn't send tags to the remote repository.",
+            "Commits can only be tagged when they are created.",
+            "Tags are pushed to the remote repository with their respective commits.",
+            "Only annotated tags are automatically pushed to the remote repository with a commit."
+        ],
+        "answer": "By default a push doesn't send tags to the remote repository."
+    },
+    {
+        "question": "After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?",
+        "options": [
+            "git push master",
+            "git push origin",
+            "Same as before, git push -u origin master",
+            "git push"
+        ],
+        "answer": "git push"
+    },
+    {
+        "question": "How would you create a custom shortcut or command across your Git environment?",
+        "options": [
+            "Run `git hotfix` with the shortcut name.",
+            "Assign a shortcut or command using git options file.",
+            "Use the `git custom-key` command.",
+            "Create an alias using the `git config` command."
+        ],
+        "answer": "Create an alias using the `git config` command."
+    },
+    {
+        "question": "What is the status of the beta-notes.js file in the following output?",
+        "options": [
+            "beta-notes.js is untracked and has been modified.",
+            "beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.",
+            "beta-notes.js is untracked but has been added to the current commit.",
+            "beta-notes.js is tracked, and the modified file has been added to the current commit."
+        ],
+        "answer": "beta-notes.js is a tracked file and has been modified, but has not been added to the current commit."
+    },
+    {
+        "question": "What command would let you modify your previous commit?",
+        "options": [
+            "--fix",
+            "--quickfix",
+            "--modify",
+            "--amend"
+        ],
+        "answer": "--amend"
+    },
+    {
+        "question": "What is the best way to characterize the git commit structure?",
+        "options": [
+            "Data array",
+            "Data log",
+            "Data snapshot",
+            "Data dictionary"
+        ],
+        "answer": "Data snapshot"
+    },
+    {
+        "question": "What change will the following command make to the staging area files?",
+        "options": [
+            "testfile.js will be removed from the staging area and its changes no longer tracked.",
+            "testfile.js will be removed from the staging area but its changes will still be tracked.",
+            "A copy of testfile.js will be cached on your desktop.",
+            "The current copy of testfile.js will be saved in the staging area."
+        ],
+        "answer": "testfile.js will be removed from the staging area but its changes will still be tracked."
+    },
+    {
+        "question": "After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?",
+        "options": [
+            "Use the git reset --soft HEAD to roll back one commit.",
+            "Run git branch -d `<branch name>` to delete the merged branch.",
+            "Use git clear-all to clean up any hanging files.",
+            "Run git rebase to move the current commit to its original location."
+        ],
+        "answer": "Run git branch -d `<branch name>` to delete the merged branch."
+    },
+    {
+        "question": "While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?",
+        "options": [
+            "This is not possible, as you cannot save locally without committing.",
+            "Run git hold to save a local copy of what you're doing to return to later.",
+            "Save your work with git local-cache.",
+            "Use git stash to save your work and come back later and reapply the stashed commit."
+        ],
+        "answer": "Use git stash to save your work and come back later and reapply the stashed commit."
+    },
+    {
+        "question": "What command would you use to create a new git repository?",
+        "options": [
+            "git add",
+            "git start",
+            "git new",
+            "git init"
+        ],
+        "answer": "git init"
+    },
+    {
+        "question": "While working on a feature branch you try to use \"git rerere\" to solve a recurring merge conflict but nothing is happening. What could be causing this issue?",
+        "options": [
+            "The \"-all\" option isn't added to the command.",
+            "\"rerere.enabled\" isn't enable in the config file.",
+            "The commit hash is missing.",
+            "The filepath isn't specified."
+        ],
+        "answer": "\"rerere.enabled\" isn't enable in the config file."
+    },
+    {
+        "question": "Which setting determines what pager is used when Git pages output?",
+        "options": [
+            "core.page",
+            "page",
+            "pager",
+            "core.pager"
+        ],
+        "answer": "core.pager"
+    },
+    {
+        "question": "What does commit object contain?",
+        "options": [
+            "A set of files, representing the state of a project at a given point of time.",
+            "Reference to parent commit objects.",
+            "An SHA1 name, a 40-character string that uniquely identifies the commit object.",
+            "Reference to parent commit objects and a set of files, representing the state of a project at a given point of time, and an SHA1 name, a 40-character string that uniquely identifies the commit object."
+        ],
+        "answer": "Reference to parent commit objects and a set of files, representing the state of a project at a given point of time, and an SHA1 name, a 40-character string that uniquely identifies the commit object."
+    },
+    {
+        "question": "Which option enables inclusion of committer name in custom log format?",
+        "options": [
+            "%ce",
+            "%cr",
+            "%cd",
+            "%cn"
+        ],
+        "answer": "%cn"
+    },
+    {
+        "question": "How many ways are present in Git to integrate changes from one branch into another?",
+        "options": [
+            "3",
+            "5",
+            "2",
+            "4"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which user should be created first during setting up of SSH?",
+        "options": [
+            "git",
+            "admin",
+            "root",
+            "None of these"
+        ],
+        "answer": "None of these"
+    },
+    {
+        "question": "Which command will list tags with the 1.4.2 series?",
+        "options": [
+            "git tag 'v1.4.2'",
+            "git tag -l 'v1.4.2.\\*'",
+            "git tag-list 'v1.4.2\\*'",
+            "git tag 'v1.4.2\\*'"
+        ],
+        "answer": "git tag -l 'v1.4.2.\\*'"
+    },
+    {
+        "question": "Which of the following is an integration manager?",
+        "options": [
+            "lieutenants",
+            "benevolent dictator",
+            "Depends upon project type",
+            "Depends upon data"
+        ],
+        "answer": "Depends upon project type"
+    },
+    {
+        "question": "Which Git command begins tracking of a new file?",
+        "options": [
+            "add",
+            "addfile",
+            "begin",
+            "track"
+        ],
+        "answer": "add"
+    },
+    {
+        "question": "Which of the following is called dumb protocol?",
+        "options": [
+            "All of these",
+            "SSH",
+            "Git",
+            "HTTP"
+        ],
+        "answer": "HTTP"
+    },
+    {
+        "question": "Which key press returns a set of suggestions to pick from, when writing a Git command?",
+        "options": [
+            "Control",
+            "Shift",
+            "Tab",
+            "Alt"
+        ],
+        "answer": "Tab"
+    },
+    {
+        "question": "Which of these terms best describes Git?",
+        "options": [
+            "Distributed Version Control System",
+            "Issue Tracking System",
+            "Integrated Development Environment",
+            "Web-Based Repository Hosting Service"
+        ],
+        "answer": "Distributed Version Control System"
+    },
+    {
+        "question": "How does Git think of its data?",
+        "options": [
+            "File",
+            "None of these",
+            "Snapshot",
+            "Folder"
+        ],
+        "answer": "Snapshot"
+    },
+    {
+        "question": "Which option enables inclusion of author name in custom log format?",
+        "options": [
+            "%am",
+            "%ad",
+            "%ae",
+            "%an"
+        ],
+        "answer": "%an"
+    },
+    {
+        "question": "Which version onwards did Git offer reversing a file back to what it looked like when last committed?",
+        "options": [
+            "1.7",
+            "1.6",
+            "2.0",
+            "1.8"
+        ],
+        "answer": "1.6"
+    },
+    {
+        "question": "Which strategy is used by Git for merging two branches?",
+        "options": [
+            "LIFO",
+            "recursive",
+            "FIFO",
+            "octopus"
+        ],
+        "answer": "octopus"
+    },
+    {
+        "question": "What does refs store?",
+        "options": [
+            "SHA-1 value",
+            "None of these",
+            "Branch name",
+            "Project name"
+        ],
+        "answer": "Branch name"
+    },
+    {
+        "question": "What Language is used in GIT?",
+        "options": [
+            "C",
+            "C++",
+            "C#",
+            "Java"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is usually the extension of file which has the public key?",
+        "options": [
+            "ssh",
+            "pub",
+            "key",
+            "pk"
+        ],
+        "answer": "pub"
+    },
+    {
+        "question": "What is the difference between initializing a normal repo and a bare repo?",
+        "options": [
+            "Bare repos store their git history in a .git subfolder.",
+            "Bare repos do not have the .git extension.",
+            "Bare repos do not come with working or checked-out source files.",
+            "Bare repos should be used for local rather than remote repos."
+        ],
+        "answer": "Bare repos do not come with working or checked-out source files."
+    },
+    {
+        "question": "How many individual commits can a single repository have?",
+        "options": [
+            "any number of commits",
+            "only one commit local per repository",
+            "only three commits per branch",
+            "only one commit per HEAD"
+        ],
+        "answer": "any number of commits"
+    },
+    {
+        "question": "What types of tags does Git support?",
+        "options": [
+            "heavy and concise",
+            "lightweight and immutable",
+            "heavy and annotated",
+            "lightweight and annotated"
+        ],
+        "answer": "lightweight and annotated"
+    },
+    {
+        "question": "After staging a series of changes to the index, which command could you use to review them prior to a commit?",
+        "options": [
+            "git diff --cached",
+            "git diff",
+            "git diff --HEAD",
+            "git status -v -v"
+        ],
+        "answer": "git diff --cached"
+    },
+    {
+        "question": "What does the git stash drop command do?",
+        "options": [
+            "removes the most recent stash entry",
+            "deletes the stash",
+            "lists everything in the stash",
+            "throws away the oldest entry"
+        ],
+        "answer": "removes the most recent stash entry"
+    },
+    {
+        "question": "What command creates a new branch from the currently checked-out branch?",
+        "options": [
+            "`git -b checkout <nameOfBranch>`",
+            "`git branch`",
+            "`git checkout <nameOfBranch>`",
+            "`git checkout -b <nameOfBranch>`"
+        ],
+        "answer": "`git checkout -b <nameOfBranch>`"
+    },
+    {
+        "question": "After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?",
+        "options": [
+            "Use git reset HEAD^.",
+            "Use git reset myFile.txt.",
+            "Use git -rm myFile.txt.",
+            "Use git reset."
+        ],
+        "answer": "Use git reset myFile.txt."
+    },
+    {
+        "question": "What happens if you run this command from your master branch?",
+        "options": [
+            "The beta-test branch will be checked out of the current commit.",
+            "The beta-test branch will be checked out and deleted.",
+            "A new branch called beta-test will be created and switched to.",
+            "The beta-test branch will be merged with the master branch."
+        ],
+        "answer": "A new branch called beta-test will be created and switched to."
+    },
+    {
+        "question": "How does Git internally manage branches?",
+        "options": [
+            "by creating a pointer to the most recent snapshot/commit for the branch.",
+            "by creating a data array of branches in the same repository.",
+            "by creating a data dictionary of code changes.",
+            "be creating a debug log that stores repository changes."
+        ],
+        "answer": "by creating a pointer to the most recent snapshot/commit for the branch."
+    },
+    {
+        "question": "You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?",
+        "options": [
+            "git help reset",
+            "git -h reset",
+            "git options reset",
+            "git reset help"
+        ],
+        "answer": "git help reset"
+    },
+    {
+        "question": "What is a remote repository?",
+        "options": [
+            "a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts",
+            "the lead repository elected by the Git arbitrator found within local repositories of collaborating team members",
+            "a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted",
+            "a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators"
+        ],
+        "answer": "a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators"
+    },
+    {
+        "question": "After modifying some existing files in a repository, you decide to discard the changes. What command can you use?",
+        "options": [
+            "git restore",
+            "git undo",
+            "git clean",
+            "git checkout ."
+        ],
+        "answer": "git checkout ."
+    },
+    {
+        "question": "After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?",
+        "options": [
+            "Use git restore -p.",
+            "Use git merge -u.",
+            "Use git merge --abort.",
+            "Use git merge --undo."
+        ],
+        "answer": "Use git merge --abort."
+    },
+    {
+        "question": "Which command correctly creates a lightweight tag?",
+        "options": [
+            "`git tag v3.8.1`",
+            "`git tag --light \"v3.8.1\"`",
+            "`git tag v3.8.1 \u2014-annotate -m \"<tagMessage>\"`",
+            "`git tag -l v3.8.1`"
+        ],
+        "answer": "`git tag v3.8.1`"
+    },
+    {
+        "question": "What is the main issue with using git rebase when working with multiple developers?",
+        "options": [
+            "Rebase affects only your repository and creates a diff in the master branch.",
+            "Rebase creates a temporary copy of the master branch in the remote repo.",
+            "Rebase moves the HEAD of the remote master branch one commit forward.",
+            "Rebase deletes all commit history for the new feature branch."
+        ],
+        "answer": "Rebase affects only your repository and creates a diff in the master branch."
+    },
+    {
+        "question": "What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?",
+        "options": [
+            "Git flow",
+            "Mainline flow",
+            "Trunk-Based Development",
+            "GitHub flow"
+        ],
+        "answer": "Mainline flow"
+    },
+    {
+        "question": "Which option on the git log command allows you to limit output to commits made after certain date?",
+        "options": [
+            "`--since`",
+            "`--sinceWhen`",
+            "`-<n>`",
+            "`--afterDate`"
+        ],
+        "answer": "`--since`"
+    },
+    {
+        "question": "How would you delete unreachable objects older than a specified time from your project database?",
+        "options": [
+            "`git cache --obsolete <time>`",
+            "`git branch --rebase <time>`",
+            "`git delete --inert <time>`",
+            "`git prune --expire <time>`"
+        ],
+        "answer": "`git prune --expire <time>`"
+    },
+    {
+        "question": "What conflicts can occur when forcing a push after rebasing?",
+        "options": [
+            "The remote master branch could have existing changes overwritten.",
+            "The origin URL will be reset to its default value.",
+            "The current HEAD will be deleted and can't be reinstated.",
+            "Nothing, it's common practice to force a push after rebasing."
+        ],
+        "answer": "The remote master branch could have existing changes overwritten."
+    },
+    {
+        "question": "What is the difference between Git and SVN?",
+        "options": [
+            "Git works only on Linux, while SVN works on all operating systems.",
+            "SVN works only on Linux, while Git works on all operating systems.",
+            "SVN is a centralized system, while Git is a distributed system.",
+            "Git a centralized system, while SVN is a distributed system."
+        ],
+        "answer": "SVN is a centralized system, while Git is a distributed system."
+    },
+    {
+        "question": "This command is an example of what kind of tag?",
+        "options": [
+            "verbose",
+            "annotated",
+            "lightweight",
+            "deferred"
+        ],
+        "answer": "annotated"
+    },
+    {
+        "question": "What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset \u2013hard`) ?",
+        "options": [
+            "A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.",
+            "A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.",
+            "A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.",
+            "A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely."
+        ],
+        "answer": "A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes."
+    },
+    {
+        "question": "Consider the following Git workflow:",
+        "options": [
+            "`1. Develop 2. Release 3. Hotfix 4. Feature 5. Master`",
+            "`1. Master 2. Release 3. Hotfix 4. Feature 5. Develop`",
+            "`1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop`",
+            "`1. Master 2. Hotfix 3. Develop 4. Feature 5. Release`"
+        ],
+        "answer": "`1. Master 2. Hotfix 3. Develop 4. Feature 5. Release`"
+    },
+    {
+        "question": "What information does the git config file store?",
+        "options": [
+            "shell scripts and flags",
+            "keychain and account information",
+            "local and global repository options",
+            "pre-compile scripts and settings"
+        ],
+        "answer": "local and global repository options"
+    },
+    {
+        "question": "What is version control?",
+        "options": [
+            "a type of architecture used to manage large databases",
+            "a system that shows, tracks, and controls changes to a set of files over time",
+            "a programmatic design pattern used to manage code between multiple engineering teams",
+            "a type of software that links a project with a GitHub repository"
+        ],
+        "answer": "a system that shows, tracks, and controls changes to a set of files over time"
+    },
+    {
+        "question": "What is the difference between using the `git stash` and `git stash pop` commands?",
+        "options": [
+            "`git stash` removes a commit from the repo history, while `git stash pop` saves changes to multiple branches.",
+            "`git stash` saves changes to multiple branches, while `git stash pop` removes a commit from the repo history.",
+            "`git stash` removes the most recent commit, while `git stash pop` saves current changes.",
+            "`git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory."
+        ],
+        "answer": "`git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory."
+    },
+    {
+        "question": "Which command can be used to list the branches that have been merged into the currently checked-out branch?",
+        "options": [
+            "git master --status",
+            "git branch --status",
+            "git branch --merged",
+            "git status --merged"
+        ],
+        "answer": "git branch --merged"
+    },
+    {
+        "question": "How would you configure Git to abort a commit if a smoke test script fails?",
+        "options": [
+            "Create a post-commit shell script that triggers the action.",
+            "Create a post-commit hook to trigger the script.",
+            "Create a pre-commit hook to trigger the script.",
+            "Create a pre-commit shell script that triggers the action."
+        ],
+        "answer": "Create a pre-commit hook to trigger the script."
+    },
+    {
+        "question": "Which use case is NOT a good candidate for a Git hook?",
+        "options": [
+            "state dependent environment changes",
+            "continuous integration",
+            "increasing code coverage",
+            "enforcing commit rules"
+        ],
+        "answer": "state dependent environment changes"
+    },
+    {
+        "question": "What information do Git reflogs (reference logs) store?",
+        "options": [
+            "shell script pointers and keychain credentials",
+            "updates to branch tips and other references in the local repository",
+            "release notes and hook script values",
+            "tag and versioning information"
+        ],
+        "answer": "updates to branch tips and other references in the local repository"
+    },
+    {
+        "question": "You have just completed rebasing your master branch and need to manually update the remote master, even though there is a merge conflict. How can you accomplish this?",
+        "options": [
+            "`git push --overwrite`",
+            "`git push --update`",
+            "`git push --assert`",
+            "`git push --force-with-lease`"
+        ],
+        "answer": "`git push --force-with-lease`"
+    },
+    {
+        "question": "What is the difference between `git fetch` and `git pull`",
+        "options": [
+            "`git fetch` creates a new branch off the master branch, while `git pull` creates a new branch off the local repository's master branch.",
+            "`git pull` downloads new data from a remote repository without integrating it into local files, while `git fetch` updates the current HEAD branch with the latest changes from the remote server.",
+            "`git fetch` updates remote tracking branches with changes from a remote repository, while `git pull` updates remote tracking branches with changes from a remote repository and merges them into their corresponding local branches.",
+            "`git fetch` downloads and merges data from the local repository, while `git pull` informs your colleagues you are about to make changes to the master branch."
+        ],
+        "answer": "`git fetch` updates remote tracking branches with changes from a remote repository, while `git pull` updates remote tracking branches with changes from a remote repository and merges them into their corresponding local branches."
+    },
+    {
+        "question": "What command displays the difference between the working tree and the stage/index area, as well as files not tracked by Git?",
+        "options": [
+            "`git current`",
+            "`git status`",
+            "`git local`",
+            "`git context`"
+        ],
+        "answer": "`git status`"
+    },
+    {
+        "question": "You would like to restore some previously stashed work to a new branch. How can you do that?",
+        "options": [
+            "Use `git branch <stash hash>`.",
+            "Add the stashed commits to the current commit, then create a new branch.",
+            "Use `git checkout -b`.",
+            "Run `git stash branch <branch name>`."
+        ],
+        "answer": "Run `git stash branch <branch name>`."
+    },
+    {
+        "question": "What is the difference between git branch -d and git branch -D?",
+        "options": [
+            "-D deletes the local branch, while -d deletes the branch regardless of push and merge status.",
+            "-d deletes the current commit head, while -D deletes the entire branch.",
+            "-d deletes the local branch, while -D deletes the local branch regardless of push and merge status.",
+            "-D deletes the current commit head, while -d deletes the entire branch."
+        ],
+        "answer": "-d deletes the local branch, while -D deletes the local branch regardless of push and merge status."
+    },
+    {
+        "question": "You stashed three sets of changes but cannot remember the contents of the first stash entry. What command would you use to see the details of the changes in the first of the three stash entries?",
+        "options": [
+            "git stash show -p stash@{2}",
+            "git stash list",
+            "git stash show -p stash@{1}",
+            "git stash show -p"
+        ],
+        "answer": "git stash show -p"
+    },
+    {
+        "question": "How would you delete a remote branch in your repository?",
+        "options": [
+            "Use `git --delete <branch_name>`.",
+            "Use `git push <remote_name> --d <branch_name>`.",
+            "Use `git push <remote_name> --D`.",
+            "Use `git push <remote_name> --delete <branch_name>`."
+        ],
+        "answer": "Use `git push <remote_name> --delete <branch_name>`."
+    },
+    {
+        "question": "What is the default setting of `git reflog` when no subcommands are specified?",
+        "options": [
+            "delete",
+            "expire",
+            "show",
+            "update"
+        ],
+        "answer": "show"
+    },
+    {
+        "question": "How does the `-p` option change the behavior of the `git add` command",
+        "options": [
+            "It causes tracked files in the parent directory to be included in the staged files.",
+            "It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.",
+            "It automatically pushes changes to the corresponding branch on the remote repository.",
+            "It allows developers to interactively choose which files are committed and outputs the differences for review."
+        ],
+        "answer": "It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review."
+    },
+    {
+        "question": "After checking out a specific commit, you receive a warning message indicating You are in 'detached HEAD' state. What is Git warning you of?",
+        "options": [
+            "You are not working on the most recent commit of a branch.",
+            "A teammate has flagged the code with an issue.",
+            "The commit does not have a parent.",
+            "The branch has not been pushed to the remote repository."
+        ],
+        "answer": "The commit does not have a parent."
+    },
+    {
+        "question": "After accidentally deleting a branch in your local repository, how can you recover it?",
+        "options": [
+            "It cannot be recovered.",
+            "Find the hash of the branch with the `log` command, then execute `git checkout -b <branchname> <hash>`.",
+            "Find the hash of the branch with the `reflog` command, then execute `git checkout -b <branchname> <hash>`.",
+            "Execute `git checkout -b <branchname>`."
+        ],
+        "answer": "Find the hash of the branch with the `reflog` command, then execute `git checkout -b <branchname> <hash>`."
+    },
+    {
+        "question": "How would you display a histogram showing inserts, deletion, and modifications per file for a specific commit along with its general commit information?",
+        "options": [
+            "Use `git stat`.",
+            "Use `git debug --prettyprint`.",
+            "Query the remote repository with the commit hash.",
+            "Use `git show <commit> --stat`."
+        ],
+        "answer": "Use `git show <commit> --stat`."
+    },
+    {
+        "question": "What features do repository managers such as GitHub provide beyond Git?",
+        "options": [
+            "Repository managers are proprietary versions of Git that do not include enhanced features.",
+            "Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.",
+            "Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.",
+            "Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery."
+        ],
+        "answer": "Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews."
+    },
+    {
+        "question": "What command finds the HEAD of the current branch?",
+        "options": [
+            "`git head --verify`",
+            "`git log --head`",
+            "`git hash --head`",
+            "`git show-ref --head`"
+        ],
+        "answer": "`git show-ref --head`"
+    },
+    {
+        "question": "When Git Workflows contain a long-running branch, what purpose does the long-running branch serve?",
+        "options": [
+            "Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.",
+            "Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.",
+            "Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.",
+            "Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into."
+        ],
+        "answer": "Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into."
+    },
+    {
+        "question": "What command takes changes from the master branch on the remote repository origin and merges then to the local checked-out branch?",
+        "options": [
+            "`git commit -u origin`",
+            "`git checkout origin`",
+            "`git pull origin master`",
+            "`git push origin master`"
+        ],
+        "answer": "`git pull origin master`"
+    },
+    {
+        "question": "While pushing changes to a remote repository, you receive the following message. How do you resolve this issue?",
+        "options": [
+            "Use the --atomic option with the push command.",
+            "Execute a pull, then resolve any merge conflicts and execute another push.",
+            "Execute a fetch, then execute another push.",
+            "Use the --force option with the push command."
+        ],
+        "answer": "Execute a pull, then resolve any merge conflicts and execute another push."
+    },
+    {
+        "question": "What does the -p option add to the output of the `git log` command?",
+        "options": [
+            "It adds patch output that shows the differences introduced in each commit.",
+            "It adds patch output that shows a summary listing modified files.",
+            "It adds padding to the output and displays a histogram showing the number of lines changed in each commit.",
+            "It adds the full commit message and notes associated with each commit."
+        ],
+        "answer": "It adds patch output that shows the differences introduced in each commit."
+    },
+    {
+        "question": "What is the staging area or index?",
+        "options": [
+            "an area that stores commits prior to them being pushed to the remote repository",
+            "an area containing stash entries that can applied to the working files",
+            "an area where changes from a branch in the remote repository are stored before they are applied to a local branch",
+            "an area that stores information about changes that will be included in the next commit"
+        ],
+        "answer": "an area that stores information about changes that will be included in the next commit"
+    },
+    {
+        "question": "What command would you use to stage changes to the index strictly for properties files in the current directory?",
+        "options": [
+            "`git add *.properties`",
+            "`git add %.properties`",
+            "`git add .properties`",
+            "`git add properties`"
+        ],
+        "answer": "`git add *.properties`"
+    },
+    {
+        "question": "What are untracked files?",
+        "options": [
+            "files in the local repository that have not been merged into the master branch",
+            "staged files that Git does not know about because the have not been committed",
+            "files in the working directory that Git does not know about because they have not been staged or committed",
+            "files in the remote repository that Git does not know about because they have not been tagged"
+        ],
+        "answer": "files in the working directory that Git does not know about because they have not been staged or committed"
+    },
+    {
+        "question": "What type of Git hook could be used to validate that a commit message contains a ticket number?",
+        "options": [
+            "pre-commit",
+            "commit-msg",
+            "applypatch-msg",
+            "prepare-commit-msg"
+        ],
+        "answer": "commit-msg"
+    },
+    {
+        "question": "What is the difference between git stash pop and git stash apply?",
+        "options": [
+            "git stash pop pushes the topmost commit to the current branch, while git stash apply caches the last commit in the current branch.",
+            "git stash pop applies the topmost entry in the stash to the working files and removes it from the stash, while git stash apply applies the topmost entry in the stash to the working files but leaves it in the stash.",
+            "git stash pop merges the topmost commit to the current branch, while git stash apply merges the last commit in the current branch.",
+            "git stash pop applies the topmost entry in the stash to the working files but leaves it in the stash, while git stash apply applies the topmost entry in the stash to the working files and removes it from the stash."
+        ],
+        "answer": "git stash pop applies the topmost entry in the stash to the working files and removes it from the stash, while git stash apply applies the topmost entry in the stash to the working files but leaves it in the stash."
+    },
+    {
+        "question": "After making some major changes to your code, you are a little nervous about committing. What command would you use to review the commit prior to making it?",
+        "options": [
+            "git commit --verify",
+            "git notes show",
+            "git commit preview",
+            "git commit --dry-run"
+        ],
+        "answer": "git commit --dry-run"
+    },
+    {
+        "question": "What statement best describes Git's concept of HEAD?",
+        "options": [
+            "a pointer to the most recently changed file in the stage/index",
+            "a pointer to the master branch",
+            "a pointer to the most recent commit in the currently checked-out branch",
+            "a pointer to where the repository is stored in memory"
+        ],
+        "answer": "a pointer to the most recent commit in the currently checked-out branch"
+    },
+    {
+        "question": "After staging changes to several files, you realize the changes to the config.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?",
+        "options": [
+            "git reset HEAD^ -- config.properties",
+            "git rm config.properties",
+            "git rf config.properties",
+            "git checkout HEAD -- config.properties"
+        ],
+        "answer": "git reset HEAD^ -- config.properties"
+    },
+    {
+        "question": "After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?",
+        "options": [
+            "git grep -a \"MaxConnections\"",
+            "git log --search-string \"MaxConnections\"",
+            "git log -S \"MaxConnections\"",
+            "git commit --with \"MaxConnections\""
+        ],
+        "answer": "git log -S \"MaxConnections\""
+    },
+    {
+        "question": "Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the remote repository, named origin, to point to the new remote repository at this location?",
+        "options": [
+            "git remote create-update origin https://github.com/yourcompany/core-api.git",
+            "git remote update origin https://github.com/yourcompany/core-api.git",
+            "git remote set-url origin https://github.com/yourcompany/core-api.git",
+            "git remote add https://github.com/yourcompany/core-api.git"
+        ],
+        "answer": "git remote set-url origin https://github.com/yourcompany/core-api.git"
+    },
+    {
+        "question": "When is the cherry-pick command used?",
+        "options": [
+            "when a commit from one branch needs to be copied into another branch",
+            "when the HEAD needs to be reset to a specific commit",
+            "when a specific commit needs to be pulled down from the remote repository",
+            "when a hook script needs to be invoked"
+        ],
+        "answer": "when a commit from one branch needs to be copied into another branch"
+    },
+    {
+        "question": "How would you describe a forked repository?",
+        "options": [
+            "a deleted or archived copy of a repository",
+            "a beta release branch of a repository",
+            "a future branch of a repository",
+            "a separate copy of a repository"
+        ],
+        "answer": "a separate copy of a repository"
+    },
+    {
+        "question": "How can you exclude untracked files within the working directory from a Git repository?",
+        "options": [
+            "You cannot exclude the files from the repository.",
+            "Tag the files with excluded.",
+            "Add a pattern matching the files to the .gitignore file.",
+            "Add the files to the omitted branch"
+        ],
+        "answer": "Add a pattern matching the files to the .gitignore file."
+    },
+    {
+        "question": "What command creates a near-exact copy of the entire repository from a server?",
+        "options": [
+            "`git checkout <url>`",
+            "`git pull <url>`",
+            "`git clone <url>`",
+            "`git replicate <url>`"
+        ],
+        "answer": "`git clone <url>`"
+    },
+    {
+        "question": "What would happen if you ran the `git reset testfile.js` command?",
+        "options": [
+            "testfile.js would be reverted to a blank file.",
+            "testfile.js would be reset to its first saved state.",
+            "testfile.js would be reverted to its last saved copy.",
+            "testfile.js would be removed from the stage/index area, if present."
+        ],
+        "answer": "testfile.js would be reverted to its last saved copy."
+    },
+    {
+        "question": "What situation can occur when attempting to combine branches containing changes to the same piece of code?",
+        "options": [
+            "lost code",
+            "automatic override",
+            "collisions",
+            "merge conflict"
+        ],
+        "answer": "merge conflict"
+    },
+    {
+        "question": "When Git workflows contain a topic branch, what purpose does the topic branch serve?",
+        "options": [
+            "Topic branches store unstable code until it is peer reviewed for integration into another feature branch.",
+            "Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into.",
+            "Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall.",
+            "Topic branches are short-lived branches used to store work related to a particular feature."
+        ],
+        "answer": "Topic branches are short-lived branches used to store work related to a particular feature."
+    },
+    {
+        "question": "What practice can help reduce the chances of encountering a merge conflict?",
+        "options": [
+            "Provide detailed commit messages that describe the changes being introduced by the commit.",
+            "make large commits that introduce multiple features.",
+            "Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently.",
+            "Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts."
+        ],
+        "answer": "Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently."
+    },
+    {
+        "question": "What command can you use to remove untracked files from the working directory?",
+        "options": [
+            "`git rm -all`",
+            "`git rm --cached`",
+            "`git clean -d -f`",
+            "`git checkout`"
+        ],
+        "answer": "`git clean -d -f`"
+    },
+    {
+        "question": "After making a commit, you notice that you forgot to include changes to the doge.txt file. What command or commands would you use to add the changes to the commit?",
+        "options": [
+            "\u2800",
+            "\u2800",
+            "\u2800",
+            "\u2800"
+        ],
+        "answer": "\u2800"
+    },
+    {
+        "question": "Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?",
+        "options": [
+            "\u2800",
+            "\u2800",
+            "\u2800",
+            "\u2800"
+        ],
+        "answer": "\u2800"
+    },
+    {
+        "question": "What is the best way to report a bug to a GitHub project?",
+        "options": [
+            "Send an email to a project owner.",
+            "I don't bother reporting software bugs because there's no transparency and they never get fixed anyway.",
+            "Search for the bug in the project's existing issues and create a new one if it hasn't been reported yet.",
+            "Use git search -diff to compare all commits in your repository history."
+        ],
+        "answer": "Search for the bug in the project's existing issues and create a new one if it hasn't been reported yet."
+    },
+    {
+        "question": "Suppose you have created a bug fix on a new branch and want it to become part of the next production build generated from the main branch. What should you do next?",
+        "options": [
+            "Copy your branch changes and commit them directly to the main branch.",
+            "Create a pull request to merge your new branch into the main branch.",
+            "On second thought, maybe I won't share this fix. I'll just put it in my own private version of the source code.",
+            "Use git bisect to compare the buggy commit to an early commit that works as expected."
+        ],
+        "answer": "Create a pull request to merge your new branch into the main branch."
+    },
+    {
+        "question": "What is GitHub?",
+        "options": [
+            "version control",
+            "A hosting platform for Git repositories",
+            "for keeping images",
+            "for social networking"
+        ],
+        "answer": "A hosting platform for Git repositories"
+    },
+    {
+        "question": "Git Pull is a combination of?",
+        "options": [
+            "Add and commit.",
+            "branch and checkout.",
+            "fetch and merge.",
+            "None of these."
+        ],
+        "answer": "fetch and merge."
+    },
+    {
+        "question": "What is the command to set the user email for the current repository?",
+        "options": [
+            "git email.user",
+            "git config user.email",
+            "git config email",
+            "All of the above."
+        ],
+        "answer": "git config user.email"
+    },
+    {
+        "question": "**\\_** will rewind your project to a specific point in time, losing all commits that came after it. **\\_** will keep changes in those rewound commits as local modifications",
+        "options": [
+            "`git reset HEAD`; `git reset HEAD^`",
+            "`git reset --hard`; `git reset --soft`",
+            "`git reset --soft`; `git reset --hard`",
+            "`git rewind`; `git update`"
+        ],
+        "answer": "`git reset --hard`; `git reset --soft`"
+    },
+    {
+        "question": "When is the cherry-pick command used?",
+        "options": [
+            "when a commit from one branch needs to be copied into another branch",
+            "when the HEAD needs to be reset to a specific commit",
+            "when a specific commit needs to be pulled down from the remote repository",
+            "when a hook script needs to be invoked"
+        ],
+        "answer": "when a commit from one branch needs to be copied into another branch"
+    },
+    {
+        "question": "What would happen if you ran the `git reset testfile.js` command?",
+        "options": [
+            "testfile.js would be reverted to a blank file.",
+            "testfile.js would be reset to its first saved state.",
+            "testfile.js would be reverted to its last saved copy.",
+            "testfile.js would be removed from the stage/index area, if present."
+        ],
+        "answer": "testfile.js would be reverted to its last saved copy."
+    },
+    {
+        "question": "How many individual commits can a single repository have?",
+        "options": [
+            "any number of commits",
+            "only one commit local per repository",
+            "only three commits per branch"
+        ],
+        "answer": "any number of commits"
+    },
+    {
+        "question": "Explain the concept of \"Git blame\" and when it is used in a version control workflow.",
+        "options": [
+            "Git blame is a command for finding and exposing the identity of contributors in a Git repository.",
+            "It's used for blaming others for code issues in a collaborative project.",
+            "Git blame is a feature for tracking the location of bugs in code.",
+            "Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship."
+        ],
+        "answer": "Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship."
+    },
+    {
+        "question": "What is the purpose of C++ move constructor, and when is it automatically generated?",
+        "options": [
+            "A move constructor creates deep copies of objects, improving memory efficiency.",
+            "It is generated when you explicitly define a copy constructor.",
+            "The move constructor is used for copying objects between different data types.",
+            "A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying."
+        ],
+        "answer": "A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying."
+    },
+    {
+        "question": "You have changed your mind about adding broccoli to your project. How should you remove it?",
+        "options": [
+            "`git remove .`",
+            "`git remove broccoli`",
+            "`git clean`",
+            "`git clean -f`"
+        ],
+        "answer": "`git clean -f`"
+    },
+    {
+        "question": "While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without commiting?",
+        "options": [
+            "Use `git stash` to save your work, then come back later and reapply the stashed commit.",
+            "Save your work with `git local-cache`.",
+            "This is not possible, as you cannot save locally without committing.",
+            "Run `git hold` to save a local copy of what you're doing to return to later."
+        ],
+        "answer": "Use `git stash` to save your work, then come back later and reapply the stashed commit."
+    },
+    {
+        "question": "You're creating an action for the Github marketplace. why is it importance to create a release?",
+        "options": [
+            "to alow you to create .zip files that you can easily share",
+            "to initiate a continuos integration process",
+            "to package your software so that it can become available through the Github marketplace",
+            "to create workflows and automate the process of generating software"
+        ],
+        "answer": "to package your software so that it can become available through the Github marketplace"
+    },
+    {
+        "question": "You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?",
+        "options": [
+            "Press the slash(/) key and then the T key.",
+            "Go to advanced search.",
+            "From the search menu, select Path.",
+            "Press the T key."
+        ],
+        "answer": "Press the slash(/) key and then the T key."
+    },
+    {
+        "question": "How do you save a search that you use often using GitHub?",
+        "options": [
+            "Click Save on the Search box.",
+            "Click Save in the advanced search menu.",
+            "Click Save on the search results page.",
+            "Bookmark the search results page."
+        ],
+        "answer": "Click Save on the search results page."
+    },
+    {
+        "question": "which of these is not a label that github creates by default?",
+        "options": [
+            "bug",
+            "documentation",
+            "wontfix",
+            "repo"
+        ],
+        "answer": "repo"
+    },
+    {
+        "question": "What is the fastest way to start a search using Github web pages?",
+        "options": [
+            "Press the slash(/) key on any page of the site.",
+            "Click the Search tab from the Github Version",
+            "Click the advanced Search link.",
+            "Click the search box and type your searc query."
+        ],
+        "answer": "Click the search box and type your searc query."
+    },
+    {
+        "question": "Assigning an issue to a person implies that they \\_\\_\\_\\_.",
+        "options": [
+            "will get a notification asking them to review the issue",
+            "are responsible for resolving the issue",
+            "are being informed of the issue's details",
+            "supervise the team resolving the issue"
+        ],
+        "answer": "are responsible for resolving the issue"
+    },
+    {
+        "question": "What does a Template repository do?",
+        "options": [
+            "It creates a live demo of the current repository for training.",
+            "It allows you to create a default structure and files based on the current repository.",
+            "It lets you archive and store project settings.",
+            "It imports another project\u2019s settings to the current project."
+        ],
+        "answer": "It allows you to create a default structure and files based on the current repository."
+    },
+    {
+        "question": "You\u2019re creating an action for the GitHub Marketplace. Why is it important to create a release?",
+        "options": [
+            "To allow you to create .zip files that you can easily share",
+            "To initiate a continuous integration process",
+            "To package your software so that it can become available through the Github Marketplace",
+            "To create workflows and automate the process of generating software"
+        ],
+        "answer": "To package your software so that it can become available through the Github Marketplace"
+    },
+    {
+        "question": "What are two ways to help Copilot give you more accurate suggestions?",
+        "options": [
+            "Add instructions in parentheses.",
+            "Use shorthand, but accurate, descriptors.",
+            "Add context in comments.",
+            "Use concise variable names.",
+            "Use descriptive function names."
+        ],
+        "answer": "Use descriptive function names."
+    },
+    {
+        "question": "What is the main purpose of the Chat panel?",
+        "options": [
+            "To search for answers in the current project\u2019s repository",
+            "To chat with other developers who are working at your company",
+            "To have a conversational discussion with the AI behind Copilot",
+            "To get a list possible answers to a question"
+        ],
+        "answer": "To have a conversational discussion with the AI behind Copilot"
+    },
+    {
+        "question": "While doing a code review, you want to start an issue by highlighting a function that takes up several lines of code. What is the fastest way to do this in code view?",
+        "options": [
+            "Click the first line number with the function, click the last line number to select a range, then in the hamburger menu select Reference in new issues",
+            "Copy the code and start a new issue, then use backticks around the function to create the issue",
+            "Select the function with the mouse, then right click and select reference in new issue",
+            "Click the line number with the function and select reference function in an issue"
+        ],
+        "answer": null
+    },
+    {
+        "question": "You\u2019re reviewing a file in a repository and want to link to the current version of the file, even if it gets updated later. How can you achieve this?",
+        "options": [
+            "Go to the Code tab and click Download zip",
+            "Right click the code text and select Permalink",
+            "Click Permalink on the code view",
+            "Copy the URL from the address bar"
+        ],
+        "answer": "Click Permalink on the code view",
+        "explanation": null,
+        "codeblock": null
+    }
+]

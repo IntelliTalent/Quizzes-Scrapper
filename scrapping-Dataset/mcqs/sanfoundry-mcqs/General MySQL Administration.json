@@ -1,0 +1,93 @@
+[
+    {
+        "question": "The MySQL server is highly configurable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL server is highly configurable. Some of the operational characteristics that you can control include which storage engines the server supports, the default character set, and its default time zone."
+    },
+    {
+        "question": "Multiple MySQL servers cannot be run on the same machine.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It is useful to run multiple servers on the same machine under certain circumstances. A new MySQL release can also be tested while leaving the current production server in place."
+    },
+    {
+        "question": "The log in which data changes received from a replication master server are written are ______________",
+        "options": [
+            "a) error log",
+            "b) general query log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "d",
+        "explanation": "The Relay Log has the data changes received from a replication master server written in it. The problems encountered during the starting, running or stopping of \u2018mysqld\u2019 are written in error log."
+    },
+    {
+        "question": "Which of these is the metadata log?",
+        "options": [
+            "a) error log",
+            "b) ddl log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "b",
+        "explanation": "The DDL log is also known as the metadata log. The metadata operations performed by the DDL statements. The Relay Log has the data changes received from a replication master server written in it."
+    },
+    {
+        "question": "The max_binlog_cache_size system variable has default size ______________",
+        "options": [
+            "a) 1 GB",
+            "b) 2 GB",
+            "c) 4 GB",
+            "d) 8 GB"
+        ],
+        "answer": "c",
+        "explanation": "The max_binlog_cache_size system variable can be used to restrict the total size used to cache a multiple-statement transaction. If transaction is larger than this it fails and rolls back."
+    },
+    {
+        "question": "What has a higher priority?",
+        "options": [],
+        "answer": "a",
+        "explanation": "A client performing an operation that modifies a table is a writer and the client that performs a retrieval from the table is a reader. The writes have higher priority than reads."
+    },
+    {
+        "question": "The default scheduling property of MySQL is implemented by how many of these?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The MyISAM, MERGE and the MEMORY storage engines implement the default scheduling policy of MySQL with the help of the table locks. Whenever a client accesses a table a lock for it must be acquired first."
+    },
+    {
+        "question": "Which of these is faster when accessing data?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the administrators have more privileges since they have more control of the MySQL server or the machine on which it runs. Accessing data in memory is faster than from disk."
+    },
+    {
+        "question": "The system variable controls the size of the table cache _________________",
+        "options": [
+            "a) table_cache",
+            "b) cache_table",
+            "c) open_cache",
+            "d) cache_open"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, when the server opens table files it keeps them open to minimize the number of file-opening operations. It maintains information about open files in the table cache."
+    },
+    {
+        "question": "Which of these exports table definitions and contents?",
+        "options": [
+            "a) mysqldump",
+            "b) mysqladmin",
+            "c) mysqlimport",
+            "d) mysqlexport"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, some distributions include a set of some client programs. \u2018mysqldump\u2019 exports the table definitions and the contents. \u2018mysqladmin\u2019 performs adminisitrative tasks."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "If a set contains 3 elements then the number of subsets is?",
+        "options": [
+            "a) 6",
+            "b) 3",
+            "c) 12",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "For elements with n elements the number of subsets are 2"
+    },
+    {
+        "question": "The set containing all the collection of subsets is known as _________",
+        "options": [
+            "a) Subset",
+            "b) Power set",
+            "c) Union set",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Power set contains all the subsets as its elements."
+    },
+    {
+        "question": "If a set is empty then number of subsets will be _________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 0",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "The set has zero elements so 2"
+    },
+    {
+        "question": "If the number of subsets of a set are 4 then the number of elements in that sets are _________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The number of elements be x then x"
+    },
+    {
+        "question": "The number of subsets of a set is 5.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The number of subsets will always be a power of 2."
+    },
+    {
+        "question": "The number of subsets of a set can be odd or even.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The number of subsets will be odd in case of empty set otherwise even."
+    },
+    {
+        "question": "Let a set be A={1, 2, 3} then the number of subsets containing two elements will be _________",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "The subsets will be {1, 2}, {2, 3}, {1, 3}."
+    },
+    {
+        "question": "Let the set be A= {a, b, c, {a,b}} then which of the following is false?",
+        "options": [
+            "a) {a, b} \u0404 A",
+            "b) a \u0404 A",
+            "c) {a} \u0404 A",
+            "d) b, c \u0404A"
+        ],
+        "answer": "c",
+        "explanation": "Only elements belongs to a set, {a} is a subset of this set."
+    },
+    {
+        "question": "If A={1, 2, 3, 4}, then the number of the subsets of A that contain the element 2 but not 3, is?",
+        "options": [
+            "a) 16",
+            "b) 4",
+            "c) 8",
+            "d) 24"
+        ],
+        "answer": "b",
+        "explanation": "The subsets would be {1, 2, 4},{1, 2}, {2, 3}, {2}."
+    },
+    {
+        "question": "Let A(1), A(2), A(3),\u2026\u2026.., A(100) be 100 sets such that number of elements in A(i)=i+1 and A(1) is subset of A(2), A(2)is subset of A(3),\u2026.., A(99) is subset of A(100). The number of elements in union of the all the sets are: n(A(1) U A(2) U A(3) \u2026..U A(100)).",
+        "options": [
+            "a) 99",
+            "b) 100",
+            "c) 101",
+            "d) 102"
+        ],
+        "answer": "c",
+        "explanation": "Since all sets are subsets of A(100) therefore in union only elements of A(100)will come.A(100) contains 101 elements."
+    }
+]

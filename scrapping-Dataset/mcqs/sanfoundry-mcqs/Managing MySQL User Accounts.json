@@ -1,0 +1,103 @@
+[
+    {
+        "question": "The grant table that stores users who can connect to the server and their global privileges are ______________",
+        "options": [
+            "a) user",
+            "b) db",
+            "c) tables_priv",
+            "d) procs_priv"
+        ],
+        "answer": "a",
+        "explanation": "The grant table \u2018user\u2019 stores the users who can connect to the server and their global privileges. \u2018db\u2019 has the database privileges records. \u2018tables_priv\u2019 has table privileges."
+    },
+    {
+        "question": "The stored-routine privileges are contained in ______________",
+        "options": [
+            "a) user",
+            "b) db",
+            "c) tables_priv",
+            "d) procs_priv"
+        ],
+        "answer": "d",
+        "explanation": "\u2018procs_priv\u2019 stores stored-routine privileges. The grant table \u2018user\u2019 stores the users who can connect to the server and their global privileges. \u2018db\u2019 has the database privileges records."
+    },
+    {
+        "question": "The statement used to obtain access privileges to an account is ______________",
+        "options": [
+            "a) OBTAIN",
+            "b) GET",
+            "c) GRANT",
+            "d) NEED"
+        ],
+        "answer": "c",
+        "explanation": "If the named account exists, \u2018GRANT\u2019 modifies its privileges. If the account does not exist, \u2018GRANT\u2019 creates it with the given privileges. It is used to obtain access privileges."
+    },
+    {
+        "question": "MySQL does not support the shared-memory connections on Windows.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MySQL supports shared memory connections on Windows. This capability is disabled by default. In order to enable it, the server is started with the \u2018\u2013shared-memory\u2019 option."
+    },
+    {
+        "question": "Usage of aggregates in WHERE clause is disallowed.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The usage of aggregates inside \u2018WHERE\u2019 clauses is not allowed. For example, the following statement will not work: \u2018SELECT * FROM my_table WHERE attribute_name = MAX(attribute_name)\u2019, because the MAX value is not known yet."
+    },
+    {
+        "question": "The operators used when a subquery returns multiple rows to be evaluated in comparison to the outer query are _____________",
+        "options": [
+            "a) IN and NOT IN",
+            "b) EXISTS and NOT EXISTS",
+            "c) OUTER JOIN and INNER JOIN",
+            "d) LEFT JOIN and RIGHT JOIN"
+        ],
+        "answer": "a",
+        "explanation": "When there is a need to evaluate multiple rows in comparison to the outer query, the \u2018IN\u2019 and \u2018NOT IN\u2019 operators are used. They are used for testing whether a comparison value is present in a set of values."
+    },
+    {
+        "question": "The ALL subquery performs the operation _____________",
+        "options": [
+            "a) row",
+            "b) column",
+            "c) table",
+            "d) database"
+        ],
+        "answer": "b",
+        "explanation": "The operators \u2018ALL\u2019 and \u2018ANY\u2019 are used to perform operations on columns. They are used in conjunction with a comparison operator in order to test the result of a column subquery."
+    },
+    {
+        "question": "The following MySQL statement is valid.",
+        "options": [],
+        "answer": "a",
+        "explanation": "Even if the columns \u2018xyz\u2019 and \u2018def\u2019 have different data types, the results from these columns are placed into the column \u2018xyz\u2019. The data types can be determined from the values in the columns."
+    },
+    {
+        "question": "The keyword used with UNION that does not retain duplicate rows is _____________",
+        "options": [
+            "a) ALL",
+            "b) NARROW",
+            "c) STRICT",
+            "d) DISTINCT"
+        ],
+        "answer": "d",
+        "explanation": "The keyword \u2018DISTINCT\u2019 used along with \u2018UNION\u2019 is synonymous with just the \u2018UNION\u2019 statement. It produces only the distinct rows from the combination of the two tables in the SELECT query."
+    },
+    {
+        "question": "The keyword used with UNION that retains duplicate rows is ______________",
+        "options": [
+            "a) ALL",
+            "b) NARROW",
+            "c) STRICT",
+            "d) DISTINCT"
+        ],
+        "answer": "a",
+        "explanation": "The keyword \u2018ALL\u2019 used along with \u2018UNION\u2019 is not synonymous with just the \u2018UNION\u2019 statement. It produces the duplicate rows, if they exist, from the combination of the two tables in the SELECT query."
+    }
+]

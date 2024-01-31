@@ -1,0 +1,61 @@
+[
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the index of the first occurrence of -2. Since, -2 doesn\u2019t exist in the array, the program prints -1."
+    },
+    {
+        "question": "What does the following code do?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The above code counts the number of occurrences of the number 0."
+    },
+    {
+        "question": "Consider the following recursive implementation of the binary search:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201clo = mid + 1\u201d should be added to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the index of number 7, which is 6."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "In this case, when the function recursive_binary_search() is called for the first time we have: lo = 0 and hi = 7. So, the value of mid is:"
+    },
+    {
+        "question": "What is the time complexity of the above recursive implementation of binary search?",
+        "options": [
+            "a) O(n)",
+            "b) O(2",
+            "c) O(logn)",
+            "d) O(n!)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of the above recursive implementation of binary search is O(logn)."
+    },
+    {
+        "question": "In which of the below cases will the following code produce a wrong output?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Since the array {5,4,3,2,1} is sorted in descending order, it will produce a wrong output."
+    },
+    {
+        "question": "How many times is the function recursive_binary_search() called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The function recursive_binary_search() is called 2 times, when the above code is executed."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Since the array is sorted in descending order, the above implementation of binary search will not work for the given array. Even though 1 is present in the array, binary search won\u2019t be able to search it and it will produce -1 as an answer."
+    }
+]

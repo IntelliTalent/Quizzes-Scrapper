@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Suppose, R is a random real number between 5 and 9. What is the probability R is closer to 5 than it is to 6?",
+        "options": [
+            "a) 12.5%",
+            "b) 18%",
+            "c) 73%",
+            "d) 39.8%"
+        ],
+        "answer": "a",
+        "explanation": "Since there are infinitely many possible outcomes for the value of X we will take the equally likely outcomes as random points along the number line from 5 to 9. R will be closer to 5 than it is to 6 if R<5.5. We can easily see it by drawing a probability line. Here, P(R is closer to 5 than to 6) = (length of segment where 5<R<5.5)/(length of segment where (5<R<9) = 0.5/4 = 0.125 = 12.5%."
+    },
+    {
+        "question": "A ball is thrown at a circular bin such that it will land randomly over the area of the bin. Find the probability that it lands closer to the center than to the edge?",
+        "options": [
+            "a) 51%",
+            "b) 25%",
+            "c) 72%",
+            "d) 34%"
+        ],
+        "answer": "b",
+        "explanation": "The set of outcomes are all of the points on the bin, which make up an area of where is the radius of the circle. The points which are closer to the center than to the edge are those that lie within the circle of radius around the center. Hence, the area of the success outcomes is \u03c0(r/2)"
+    },
+    {
+        "question": "A programmer has a 95% chance of finding a bug every time she compiles his code, and it takes her three hours to rewrite the code every time she discovers a bug. Find the probability that she will finish her program by the end of her workday. (Assume that a workday is 9 hours)",
+        "options": [
+            "a) 76%",
+            "b) 44%",
+            "c) 37%",
+            "d) 28%"
+        ],
+        "answer": "d",
+        "explanation": "In this instance, a success is a bug-free compilation, and a failure is the discovery of a bug. The programmer needs to have 0, 1 or 2 failures, so her probability of finishing the program is: P(X=0) + P(X=1) + P(X=2) = (0.95)"
+    },
+    {
+        "question": "A football player has a 45% chance of getting a hit on any given pitch. What is the probability that the player earns a hit ignoring the balls before he strikes out (that requires four strikes)?",
+        "options": [
+            "a) 0.36",
+            "b) 0.95",
+            "c) 0.67",
+            "d) 0.59"
+        ],
+        "answer": "b",
+        "explanation": "IA success is a hit and a failure is a strike. The player requires either 0, 1, 2 or 3 failures in order to get a hit before striking out, so the probability of a hit is:"
+    },
+    {
+        "question": "What is variance of a geometric distribution having parameter p=0.72?",
+        "options": [
+            "a) 54%",
+            "b) 76%",
+            "c) 13%",
+            "d) 69%"
+        ],
+        "answer": "a",
+        "explanation": "The variance of a geometric distribution with parameter p is \\(\\frac{1-p}{p^2} = \\frac{(1-0.72)}{0.722}\\) = 0.54 or 54%. However, the variance of the geometric distribution and the variance of the shifted geometric distribution are identical."
+    },
+    {
+        "question": "Suppose a rectangle edges equals i = 4.7 and j = 8.3. Now, a straight line drawn through randomly selected two points K and L in adjacent rectangle edges. Find the condition for the probability such that the drawn triangle area is smaller than c = 9.38.",
+        "options": [
+            "a) K-L\u226418.76",
+            "b) K+L\u226418.76",
+            "c) KL\u226418.76",
+            "d) K/L\u226418.76"
+        ],
+        "answer": "c",
+        "explanation": "The random sides of the triangle are K and L. These are the uniform random variables with uniform distributions on [0,8.3] and [0,4.7] respectively. They are independent and their joint distribution is uniform on the rectangle R = [0,8.3]\u2217[0,4.7]. The condition is KL/2\u22649.38 \u21d2 KL\u226418.76. The probability that one needs is the ratio between the area under the hyperbola inside R and the area of R."
+    },
+    {
+        "question": "Find the expectation for how many bacteria there are per field if there are 2350 bacteria are randomly distributed over 340 fields (all having the same size) next to each other.",
+        "options": [
+            "a) 4.98",
+            "b) 3.875",
+            "c) 6.91",
+            "d) 7.37"
+        ],
+        "answer": "c",
+        "explanation": "The probability to land in a field for a bacterium is p = 1/340  and since we have n = 2350 bacteria. So, the expectation is m = np = 2350/340 = 6.91."
+    },
+    {
+        "question": "What is the possibility such that the inequality x",
+        "options": [
+            "a) 1.91",
+            "b) 4.3",
+            "c) 2.94",
+            "d) 6.1"
+        ],
+        "answer": "a",
+        "explanation": "x2+76.5>32.4x is equivalent to x"
+    },
+    {
+        "question": "In a bucket there are 5 purple, 15 grey and 25  green balls. If the ball is picked up randomly, find the probability that it is neither grey nor purple?",
+        "options": [
+            "a) \\(\\frac{5}{9}\\)",
+            "b) \\(\\frac{12}{13}\\)",
+            "c) \\(\\frac{51}{43}\\)",
+            "d) \\(\\frac{2}{7}\\)"
+        ],
+        "answer": "a",
+        "explanation": "If the ball is neither grey nor purple then it must be blue. There are 45 balls in total of which 25 are green and so the probability of picking a purple ball is \\(\\frac{25}{45} = \\frac{5}{9}\\)."
+    }
+]

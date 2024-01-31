@@ -1,0 +1,63 @@
+[
+    {
+        "question": "Which keyword is used to declare a base class method while performing overriding of base class methods?",
+        "options": [
+            "a) this",
+            "b) virtual",
+            "c) override",
+            "d) extend"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "The process of defining a method in a subclass having same name & type signature as a method in its superclass is known as?",
+        "options": [
+            "a) Method overloading",
+            "b) Method overriding",
+            "c) Method hiding",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the given modifiers can be used to prevent Method overriding?",
+        "options": [
+            "a) Static",
+            "b) Constant",
+            "c) Sealed",
+            "d) final"
+        ],
+        "answer": "c",
+        "explanation": "When an instance method declaration includes the sealed modifier, the method is said to be sealed method. It means a derived class cannot override this method."
+    },
+    {
+        "question": "Select the correct statement from the following?",
+        "options": [
+            "a) Static methods can be a virtual method",
+            "b) Abstract methods can be a virtual method",
+            "c) When overriding a method, the names and type signatures of the override method must be the same as the virtual method that is being overridden",
+            "d) We can override virtual as well as nonvirtual methods"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following cannot be used to declare a class as a virtual?",
+        "options": [
+            "a) Methods",
+            "b) Properties",
+            "c) Events",
+            "d) Fields"
+        ],
+        "answer": " d",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "When method display() is called using objects of class \u2018B\u2019. The method \u2018display()\u2019 for class \u2018B\u2019 is called instead of class \u2018A\u2019 as class \u2018B\u2019 is inherited by class \u2018A\u2019."
+    }
+]

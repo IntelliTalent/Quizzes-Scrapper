@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Class which represents a real-world entity and its instances will be persisted to a database.",
+        "options": [
+            "a) entity",
+            "b) persistent",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Class is called an entity class or a persistent class because it represents a real-world entity and its instances will be persisted to a database."
+    },
+    {
+        "question": "Each entity class to be persisted by an ORM framework, a default constructor with no argument is required.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For each entity class, you must define an identifier property to uniquely identify an entity."
+    },
+    {
+        "question": "If the identifier value is null, this entity will be treated as a new and unsaved entity.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When this entity is persisted, an insert SQL statement will be issued; otherwise, an update statement will."
+    },
+    {
+        "question": "To allow the identifier to be null, you should choose a primitive wrapper type:-",
+        "options": [
+            "a) java.lang.Integer",
+            "b) java.lang.Long",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To allow the identifier to be null, you should choose a primitive wrapper type like java.lang.Integer and java.lang.Long for the identifier."
+    },
+    {
+        "question": "A set of persistent annotations for you to define mapping metadata.",
+        "options": [
+            "a) JPA",
+            "b) JSR",
+            "c) XML",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JPA defines a set of persistent annotations for you to define mapping metadata in a standard format that is more likely to be reusable in other ORM frameworks."
+    },
+    {
+        "question": "Core Programming Elements for Different Data Access Strategies.",
+        "options": [
+            "a) Resource",
+            "b) Resource Factory",
+            "c) Session",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Core Programming Elements for Different Data Access Strategies"
+    },
+    {
+        "question": "Interface whose instances can be obtained from a SessionFactory instance.",
+        "options": [
+            "a) Session",
+            "b) Session Factory",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In Hibernate, the core interface for object persistence is Session, whose instances can be obtained from a SessionFactory instance."
+    },
+    {
+        "question": "Interface whose instances can be obtained from an EntityManagerFactory instance.",
+        "options": [
+            "a) Entity",
+            "b) EntityManager",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In JPA, the corresponding interface is EntityManager, whose instances can be obtained from an EntityManagerFactory instance."
+    },
+    {
+        "question": "The exceptions thrown by Hibernate are of type HibernateException, while those thrown by JPA may be of type PersistenceException.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Other Java SE exceptions like IllegalArgumentException and IllegalStateException."
+    },
+    {
+        "question": "To accept a session factory via dependency injection.",
+        "options": [
+            "a) HibernateCourseDao",
+            "b) HibernateCourse",
+            "c) HibernateDao",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Modify HibernateCourseDao to accept a session factory via dependency injection, instead of creating it directly with the native Hibernate API in the constructor."
+    },
+    {
+        "question": "Property for factory bean to load the Hibernate configuration file.",
+        "options": [
+            "a) config.xml",
+            "b) config",
+            "c) configLocation",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The configLocation property is of type Resource, but you can assign a string value to it."
+    },
+    {
+        "question": "If you want to use this data source for your session factory, you can inject it into the dataSource property of LocalSessionFactoryBean.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The data source specified in this property will override the database settings in the Hibernate configuration file."
+    },
+    {
+        "question": "FactoryBean to create an entity manager factory in the IoC container.",
+        "options": [
+            "a) LocalEntityManagerFactoryBean",
+            "b) LocalEntityManagerFactory",
+            "c) LocalEntityManager",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring provides a factory bean, LocalEntityManagerFactoryBean, for you to create an entity manager factory in the IoC container."
+    },
+    {
+        "question": "It allows you to override some of the configurations in the JPA configuration file.",
+        "options": [
+            "a) LocalEntityManagerFactoryBean",
+            "b) LocalContainerEntityManagerFactoryBean",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring supports a more flexible way to create an entity manager factory by another factory bean, LocalContainerEntityManagerFactoryBean. It allows you to override some of the configurations in the JPA configuration file, such as the data source and database dialect."
+    }
+]

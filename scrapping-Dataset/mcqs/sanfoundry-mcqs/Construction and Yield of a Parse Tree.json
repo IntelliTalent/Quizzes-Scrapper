@@ -1,0 +1,57 @@
+[
+    {
+        "question": "The most suitable data structure used to represent the derivations in compiler:",
+        "options": [
+            "a) Queue",
+            "b) Linked List",
+            "c) Tree",
+            "d) Hash Tables"
+        ],
+        "answer": "c",
+        "explanation": "The tree, known as \u201cParse tree\u201d when used in a compiler, is the data structure of choice to represent the source program."
+    },
+    {
+        "question": "Which of the following statement is false in context of tree terminology?",
+        "options": [
+            "a) Root with no children is called a leaf",
+            "b) A node can have three children",
+            "c) Root has no parent",
+            "d) Trees are collection of nodes, with a parent child relationship"
+        ],
+        "answer": "a",
+        "explanation": "A node has atmost one parent, drawn above the node, and zero or more children drawn below. Lines connect parents to children. There is one node, one root, that has no parent; this node appears to be at the top of the tree. Nodes with no children are called leaves. Nodes that are not leaves are called interior nodes."
+    },
+    {
+        "question": "In which order are the children of any node ordered?",
+        "options": [
+            "a) From the left",
+            "b) From the right",
+            "c) Arbitrarily",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The children of a node are ordered from the left and drawn so. If N is to the left of node M, then all the descendents of N are considered  to be to the left of all the descendents of M."
+    },
+    {
+        "question": "Which among the following is the root of the parse tree?",
+        "options": [
+            "a) Production P",
+            "b) Terminal T",
+            "c) Variable V",
+            "d) Starting Variable S"
+        ],
+        "answer": "d",
+        "explanation": "The root is labelled by the start symbol. All the leaves are either labelled by a a terminal or with e."
+    },
+    {
+        "question": " For the expression E*(E) where * and brackets are the operation, number of nodes in the respective parse tree are:",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 5",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    }
+]

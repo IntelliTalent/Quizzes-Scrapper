@@ -1,0 +1,90 @@
+[
+    {
+        "question": "The first step in the na\u00efve greedy algorithm is?",
+        "options": [
+            "a) adding flows with higher values",
+            "b) reversing flow if required",
+            "c) analysing the zero flow",
+            "d) calculating the maximum flow using trial and error"
+        ],
+        "answer": "c",
+        "explanation": "The first step in the na\u00efve greedy algorithm is to start with the zero flow followed by adding edges with higher values."
+    },
+    {
+        "question": "Suppose you have coins of denominations 1,3 and 4. You use a greedy algorithm, in which you choose the largest denomination coin which is not greater than the remaining sum. For which of the following sums, will the algorithm produce an optimal answer?",
+        "options": [
+            "a) 100",
+            "b) 10",
+            "c) 6",
+            "d) 14"
+        ],
+        "answer": "a",
+        "explanation": "Using the greedy algorithm, three coins {4,1,1} will be selected to make a sum of 6. But, the optimal answer is two coins {3,3}. Similarly, four coins {4,4,1,1} will be selected to make a sum of 10. But, the optimal answer is three coins {4,3,3}. Also, five coins {4,4,4,1,1} will be selected to make a sum of 14. But, the optimal answer is four coins {4,4,3,3}. For a sum of 100, twenty-five coins {all 4\u2019s} will be selected and the optimal answer is also twenty-five coins {all 4\u2019s}."
+    },
+    {
+        "question": "Choose the correct statement from the following.",
+        "options": [
+            "a) branch and bound is not suitable where a greedy algorithm is not applicable",
+            "b) branch and bound divides a problem into at least 2 new restricted sub problems",
+            "c) backtracking divides a problem into at least 2 new restricted sub problems",
+            "d) branch and bound is more efficient than backtracking"
+        ],
+        "answer": "b",
+        "explanation": "Both backtracking as well as branch and bound are problem solving algorithms. Branch and bound is less efficient than backtracking. Branch and bound divides a problem into at least 2 new restricted sub problems."
+    },
+    {
+        "question": "Dijkstra\u2019s Algorithm is the prime example for ___________",
+        "options": [
+            "a) Dynamic programming",
+            "b) Back tracking",
+            "c) Branch and bound",
+            "d) Greedy algorithm"
+        ],
+        "answer": "d",
+        "explanation": "Dijkstra\u2019s Algorithm is the prime example for greedy algorithms because greedy algorithms generally solve a problem in stages by doing what appears to be the best thing at each stage."
+    },
+    {
+        "question": "Bellmann Ford Algorithm is an example for ____________",
+        "options": [
+            "a) Linear Programming",
+            "b) Greedy Algorithms",
+            "c) Dynamic Programming",
+            "d) Branch and Bound"
+        ],
+        "answer": "c",
+        "explanation": "In Bellmann Ford Algorithm the shortest paths are calculated in bottom up manner which is similar to other dynamic programming problems."
+    },
+    {
+        "question": "Which of the following algorithms is the best approach for solving Huffman codes?",
+        "options": [
+            "a) greedy algorithm",
+            "b) exhaustive search",
+            "c) divide and conquer algorithm",
+            "d) brute force algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Greedy algorithm is the best approach for solving the Huffman codes problem since it greedily searches for an optimal solution."
+    },
+    {
+        "question": "Fractional knapsack problem is solved most efficiently by which of the following algorithm?",
+        "options": [
+            "a) Backtracking",
+            "b) Greedy algorithm",
+            "c) Dynamic programming",
+            "d) Divide and conquer"
+        ],
+        "answer": "b",
+        "explanation": "Greedy algorithm is used to solve this problem. We first sort items according to their value/weight ratio and then add item with highest ratio until we cannot add the next item as a whole. At the end, we add the next item as much as we can."
+    },
+    {
+        "question": "Which of the following is false about the Kruskal\u2019s algorithm?",
+        "options": [
+            "a) It constructs MST by selecting edges in increasing order of their weights",
+            "b) It is a greedy algorithm",
+            "c) It uses union-find data structure",
+            "d) It can accept cycles in the MST"
+        ],
+        "answer": "d",
+        "explanation": "Kruskal\u2019s algorithm is a greedy algorithm to construct the MST of the given graph. It constructs the MST by selecting edges in increasing order of their weights and rejects an edge if it may form the cycle. So, using Kruskal\u2019s algorithm is never formed."
+    }
+]

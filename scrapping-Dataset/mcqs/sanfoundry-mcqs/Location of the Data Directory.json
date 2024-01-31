@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The option that specifies the data directory location at server startup is ______________",
+        "options": [
+            "a) \u2013data",
+            "b) \u2013data_dir",
+            "c) \u2013data-dir",
+            "d) \u2013datadir"
+        ],
+        "answer": "d",
+        "explanation": "At the server startup the data directory location is specified by using a \u2018\u2013datadir=dir_name\u2019 option. It is helpful for naming a location other than the compiled in default."
+    },
+    {
+        "question": "The datadir variable value can be seen using ______________",
+        "options": [
+            "a) SHOW VARIABLES",
+            "b) DISP VARIABLES",
+            "c) CONNECT VARIABLES",
+            "d) SHOW VARIABLE"
+        ],
+        "answer": "a",
+        "explanation": "The data directory location is checked by the \u2018datadir\u2019 variable. It can be obtained using a \u2018SHOW VARIABLES\u2019 statement or a \u2018mysqladmin\u2019 variables command, like: SHOW VARIABLES LIKE \u2018datadir\u2019."
+    },
+    {
+        "question": "Which data directory subdirectory provides the information used to inspect the internal execution of the server at runtime.",
+        "options": [
+            "a) mysql",
+            "b) performance_schema",
+            "c) sys",
+            "d) nbdinfo"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018performance_schema\u2019 directory corresponds to the Performance Schema. It provides information used to inspect the internal execution of the server at runtime. The \u2018sys\u2019 directory maps to \u2018nbdinfo\u2019."
+    },
+    {
+        "question": "Which data directory subdirectory corresponds to the nbdinfo database?",
+        "options": [
+            "a) mysql",
+            "b) performance_schema",
+            "c) sys",
+            "d) nbdinfo"
+        ],
+        "answer": "b",
+        "explanation": "The sys directory corresponds to the sys schema. It provides a set of objects to interpreting Performance Schema information. The \u2018performance_schema\u2019 directory corresponds to the Performance Schema."
+    },
+    {
+        "question": "Encrypted connections can be established using ______________",
+        "options": [
+            "a) exec_stmt_ssl",
+            "b) exec_ssl_stmt",
+            "c) exec_stmnt_ssl",
+            "d) exec_ssl_stmnt"
+        ],
+        "answer": "a",
+        "explanation": "For the \u2018exec_stmt_ssl\u2019 to work properly, MySQL must have been built with SSL support, and the server must be started with the proper options that identify its certificate and key files."
+    },
+    {
+        "question": "What is the embedded server library containing the MySQL server linkable into applications?",
+        "options": [
+            "a) libmysqla",
+            "b) libmysqlb",
+            "c) libmysqlc",
+            "d) libmysqld"
+        ],
+        "answer": "d",
+        "explanation": "MySQL includes an embedded server library, libmysqld, containing the MySQL server in a way that can be linked into applications. This enables the production of MySQL-based standalone applications."
+    },
+    {
+        "question": "What is the embedded server library when building from source enabled by?",
+        "options": [
+            "a) \u2013with-embedded-server",
+            "b) \u2013with-server-embedded",
+            "c) \u2013with-embedded-library",
+            "d) \u2013with-library-embedded"
+        ],
+        "answer": "a",
+        "explanation": "While building from the source, the embedded server library is enabled by using the option \u2018\u2013with-embedded-server\u2019 while running \u2018configure\u2019. This applies equally to MySQL 5.0 and 5.1."
+    },
+    {
+        "question": "Multiple statement execution is not enabled by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018multiple-statement\u2019 execution is not enabled by default, so the server must be told that it is intended to be used. There are two ways to tell the server to enable the execution."
+    },
+    {
+        "question": "An embedded application includes the server side and client side.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, an embedded application includes both a client side and a server side, in order that it can process one group of options for the client and another group for the server."
+    }
+]

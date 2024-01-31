@@ -1,0 +1,101 @@
+[
+    {
+        "question": "________ includes a \ufb02exible and powerful toolkit for displaying monitoring and analyzing results.",
+        "options": [
+            "a) Imphala",
+            "b) Chukwa",
+            "c) BigTop",
+            "d) Oozie"
+        ],
+        "answer": "b",
+        "explanation": "Chukwa is built on top of the Hadoop distributed filesystem (HDFS) and MapReduce framework and inherits Hadoop\u2019s scalability and robustness."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Log processing was one of the original purposes of MapReduce",
+            "b) Chukwa is a Hadoop subproject devoted to bridging that gap between logs processing and Hadoop ecosystem",
+            "c) HICC stands for Hadoop Infrastructure Care Center",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Chukwa is a scalable distributed monitoring and analysis system, particularly logs from Hadoop and other large systems."
+    },
+    {
+        "question": "The items stored on _______ are organized in a hierarchy of widget category.",
+        "options": [
+            "a) HICE",
+            "b) HICC",
+            "c) HIEC",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HICC stands for Hadoop Infrastructure Care Center. It is the central dashboard for visualize and monitoring of metrics collected by Chukwa."
+    },
+    {
+        "question": "HICC, the Chukwa visualization interface, requires HBase version _____________",
+        "options": [
+            "a) 0.90.5+.",
+            "b) 0.10.4+.",
+            "c) 0.90.4+.",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Chukwa cluster management scripts rely on ssh; these scripts, however, are not required if you have some alternate mechanism for starting and stopping daemons."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Using Hadoop for MapReduce processing of logs is easy",
+            "b) Chukwa should work on any POSIX platform",
+            "c) Chukwa is a system for large-scale reliable log collection and processing with Hadoop",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Logs are generated incrementally across many machines, but Hadoop MapReduce works best on a small number of large files."
+    },
+    {
+        "question": "__________ are the Chukwa processes that actually produce data.",
+        "options": [
+            "a) Collectors",
+            "b) Agents",
+            "c) HBase Table",
+            "d) HCatalog"
+        ],
+        "answer": "b",
+        "explanation": "Setting the option chukwaAgent.control.remote will disallow remote connections to the agent control socket."
+    },
+    {
+        "question": "For enabling streaming data to _________ chukwa collector writer class can be configured in chukwa-collector-conf.xml.",
+        "options": [
+            "a) HCatalog",
+            "b) HBase",
+            "c) Hive",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In this mode, the filesystem to write to is determined by the option writer.hdfs.filesystem in chukwa-collector-conf.xml."
+    },
+    {
+        "question": "By default, collector\u2019s listen on port _________",
+        "options": [
+            "a) 8008",
+            "b) 8070",
+            "c) 8080",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Port number can be configured in chukwa-collector.conf.xml"
+    },
+    {
+        "question": "_________ class allows other programs to get incoming chunks fed to them over a socket by the collector.",
+        "options": [
+            "a) PipelineStageWriter",
+            "b) PipelineWriter",
+            "c) SocketTeeWriter",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "PipelineStageWriter lets you string together a series of PipelineableWriters for pre-processing or post-processing incoming data."
+    }
+]

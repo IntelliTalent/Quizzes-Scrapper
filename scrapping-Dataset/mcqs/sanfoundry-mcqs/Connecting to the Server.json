@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which library file contains various portability macros and definitions?",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018my_sys.h\u2019 header file contains a variety of portability macros and definitions required for structures and functions. These structures and functions are used by the client library."
+    },
+    {
+        "question": "Which header should be included first?",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "a",
+        "explanation": "The file \u2018my_global.h\u2019 takes care of including several other header files that are likely to be generally useful, like \u2018stdio.h\u2019. It also includes Windows compatibility information."
+    },
+    {
+        "question": "mysql_init() returns a _____________",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) pointer to a structure"
+        ],
+        "answer": "d",
+        "explanation": "When NULL is passed to mysql_init() it automatically allocates a MYSQL structure, initializes it, and returns a pointer to it. The MYSQL data type is a structure containing information about a connection."
+    },
+    {
+        "question": "When linking to a static MySQL C client library, the client library and the client application must use the same compiler option.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Generally, when linking to a static MySQL C client library, the client library and the client application must use the same compiler option when it is required to link the C runtime."
+    },
+    {
+        "question": "Which of these can be used in place of MYSQL_SERVER_VERSION?",
+        "options": [
+            "a) LIBMYSQL_VERSION",
+            "b) LIBMYSQL_VERSION_ID",
+            "c) MYSQL_VERSION_ID",
+            "d) MYSQL_ID"
+        ],
+        "answer": "a",
+        "explanation": "The macros \u2018LIBMYSQL_VERSION\u2019 and \u2018LIBMYSQL_VERSION_ID\u2019 have the same values as \u2018MYSQL_SERVER_VERSION\u2019 and \u2018MYSQL_VERSION_ID\u2019 and the two sets of macros can be used in place of each other."
+    },
+    {
+        "question": "Which of the following can be used interchangeably with MYSQL_VERSION_ID?",
+        "options": [
+            "a) LIBMYSQL_VERSION",
+            "b) LIBMYSQL_VERSION_ID",
+            "c) MYSQL_VERSION_ID",
+            "d) MYSQL_ID"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018LIBMYSQL_VERSION\u2019 and \u2018LIBMYSQL_VERSION_ID\u2019 macros have the same values as \u2018MYSQL_SERVER_VERSION\u2019 and \u2018MYSQL_VERSION_ID\u2019 and the two sets of macros can be used interchangeably."
+    },
+    {
+        "question": "Which option is supplied to ensure TCP/IP connection to local server?",
+        "options": [
+            "a) \u2013localhost",
+            "b) \u2013host",
+            "c) \u2013hostlocal",
+            "d) \u2013connectlocal"
+        ],
+        "answer": "b",
+        "explanation": "In order to ensure that the client makes a TCP/IP connection to the local server, the \u2018\u2013host\u2019 or \u2018-h\u2019 option is used to specify a host name value of 127.0.0.1 or the IP address of the local server."
+    },
+    {
+        "question": "Connections to remote servers always use TCP/IP.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The connections to remote servers always use TCP/IP. To connect to the server running on remote.example.com using the default port number (3306) this command is used: mysql \u2013host=remote.example.com."
+    },
+    {
+        "question": "The \u2013protocol value \u2018TCP\u2019 runs on which operating systems?",
+        "options": [
+            "a) all",
+            "b) unix only",
+            "c) windows only",
+            "d) none"
+        ],
+        "answer": "a",
+        "explanation": "The connection protocol used by the option \u2018\u2013protocol = TCP\u2019 indicates TCP/IP connection to the local or the remote server. Each \u2013protocol value has the set of permissible OS."
+    },
+    {
+        "question": "The \u2018SOCKET\u2019 protocol is permitted on which operating systems?",
+        "options": [
+            "a) all",
+            "b) unix only",
+            "c) windows only",
+            "d) none"
+        ],
+        "answer": "b",
+        "explanation": "The connection protocol used by the option \u2018\u2013protocol = SOCKET\u2019 indicates the unix socket file connection to the local server. Each \u2013protocol value has the set of permissible OS."
+    }
+]

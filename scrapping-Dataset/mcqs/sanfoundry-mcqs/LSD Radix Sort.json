@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following is the distribution sort?",
+        "options": [
+            "a) Heap sort",
+            "b) Smooth sort",
+            "c) Quick sort",
+            "d) LSD radix sort"
+        ],
+        "answer": "d",
+        "explanation": "In Distribution sort the inputted values are distributed to multiple intermediate structures which are then combined and placed on the output. And LSD radix sort distributes values into buckets based on the digits within values, so it is a distribution sort."
+    },
+    {
+        "question": "What is the worst case time complexity of LSD radix sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(wn)",
+            "c) O(n)",
+            "d) O(n + w)"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of LSD radix sort depends upon the word size and the number on items. It runs in O(wn) time in worst case, where n is the number of inputted elements and w is the number of digits in the largest number."
+    },
+    {
+        "question": "LSD radix sort requires _____ passes to sort N elements.",
+        "options": [
+            "a) (w/logR)",
+            "b) N(w/logR)",
+            "c) (w/log(RN))",
+            "d) (wN/log(N))"
+        ],
+        "answer": "a",
+        "explanation": "LSD radix sort sorts the N elements in  (w/logR) passes where w is the number of digits in largest number and R(radix) is extra space required for performing the sorting operation."
+    },
+    {
+        "question": "Which of the following is false?",
+        "options": [
+            "a) LSD radix sort is an integer sorting algorithm",
+            "b) LSD radix sort is a comparison sorting algorithm",
+            "c) LSD radix sort is a distribution sort",
+            "d) LSD radix sort uses bucket sort"
+        ],
+        "answer": "b",
+        "explanation": "LSD radix sort uses bucket sort for grouping the keys based on the digits at that value. And as it grouped the keys based on the digits at that values, it is integer sorting algorithm."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Heap sort",
+            "b) Selection sort",
+            "c) In-place MSD radix sort",
+            "d) LSD radix sort"
+        ],
+        "answer": "d",
+        "explanation": "In LSD radix sort after sorting the multiple elements with the same key will be in the same order as they were in the input array. So LSD radix sort is stable sort."
+    },
+    {
+        "question": "Which of the following should be used to sort a huge database on a fixed-length key field?",
+        "options": [
+            "a) Insertion sort",
+            "b) Merge sort",
+            "c) LSD radix sort",
+            "d) Quick sort"
+        ],
+        "answer": "c",
+        "explanation": "LSD radix requires only w passes to sort a fixed-length string, where w is a length of the strings. So, LSD radix sort is best suited to sort a huge database on a fixed-length key field."
+    },
+    {
+        "question": "Which of the following is a combination of LSD and MSD radix sorts?",
+        "options": [
+            "a) Forward radix sort",
+            "b) 3-way radix quick sort",
+            "c) Trie base radix sort",
+            "d) Flash sort"
+        ],
+        "answer": "a",
+        "explanation": "Forward radix sort combines the advantages of LSD and MSD radix sort. Forward radix sort inspects a complete horizontal strip at a time just like LSD radix sort."
+    },
+    {
+        "question": "Which of the following is true for the LSD radix sort?",
+        "options": [
+            "a) works best for variable length strings",
+            "b) accesses memory randomly",
+            "c) inner loop has less instructions",
+            "d) sorts the keys in left-to-right order"
+        ],
+        "answer": "b",
+        "explanation": "LSD radix sort sorts the keys in right-to-left order, working with Least Significant Digit first. The inner loop has a lot of instructions and LSD radix sort is used to sort fixed-length strings."
+    },
+    {
+        "question": "LSD radix sort is in-place sorting algorithm.",
+        "options": [
+            "a) False",
+            "b) True"
+        ],
+        "answer": "a",
+        "explanation": "LSD radix is not an in-place sorting algorithm. It needs extra memory to store the elements in bucket and its worst case space complexity is O(w + R)."
+    }
+]

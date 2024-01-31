@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which program converts binary log files to statements in text form?",
+        "options": [
+            "a) mysqldump",
+            "b) mysqllog",
+            "c) mysqlbin",
+            "d) mysqlbinlog"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018mysqlbinlog\u2019 program is used to convert the binary log files to statements in text form. This makes it easy to execute. The output from \u2018mysqlbinlog\u2019 is used as input to mysql."
+    },
+    {
+        "question": "The \u2018mysqlbackup\u2019 command to perform a restore operation is _____________",
+        "options": [
+            "a) copy-back-and-apply-log",
+            "b) apply-log-and-copy-back",
+            "c) copy-log-and-apply-back",
+            "d) apply-back-and-copy-log"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018mysqlbackup\u2019 commands to perform a restore operation are \u2018copy-back-and-apply-log\u2019 and \u2018copy-back\u2019 (for directory backup only). The restoration process requires the database server to be already shut down."
+    },
+    {
+        "question": "The myisamchk variable that represents the size of buffer used to hold index blocks is _____________",
+        "options": [
+            "a) key_buffer_size",
+            "b) read_buffer_size",
+            "c) sort_buffer_size",
+            "d) write_buffer_size"
+        ],
+        "answer": "a",
+        "explanation": "The myisamchk variable \u2018key_buffer_size\u2019 stores the size of buffer that is used to hold index blocks. \u2018read_buffer_size\u2019 stores size of buffer used for read operations, \u2018sort_buffer_size\u2019 is used for sorting."
+    },
+    {
+        "question": "Where does MySQL Enterprise Backup record details of each backup?",
+        "options": [
+            "a) history_backup",
+            "b) backup_history",
+            "c) backlog_history",
+            "d) history_backlog"
+        ],
+        "answer": "b",
+        "explanation": "The restored data includes the \u2018backup_history\u2019 table, where \u2018MySQL Enterprise Backup\u2019 records details of each backup. The table allows to perform future incremental backups using \u2018\u2013incremental-base=history:last_backup\u2019."
+    },
+    {
+        "question": "The MySQL server is not configurable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL server is highly configurable. Some of the operational characteristics that you can control include which storage engines the server supports, the default character set, and its default time zone."
+    },
+    {
+        "question": "Multiple MySQL servers can be run on the same machine.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "It is useful to run multiple servers on the same machine under certain circumstances. A new MySQL release can also be tested while leaving the current production server in place."
+    },
+    {
+        "question": "What is the log in which data changes received from a replication master server are written?",
+        "options": [
+            "a) error log",
+            "b) general query log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "d",
+        "explanation": "The Relay Log has the data changes received from a replication master server written in it. The problems encountered during the starting, running or stopping of \u2018mysqld\u2019 is written in error log."
+    },
+    {
+        "question": "The metadata log is _______________",
+        "options": [
+            "a) error log",
+            "b) ddl log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "b",
+        "explanation": "The DDL log is also known as the metadata log. The metadata operations performed by the DDL statements. The Relay Log has the data changes received from a replication master server written in it."
+    },
+    {
+        "question": "What is the default size of \u2018max_binlog_cache_size\u2019 system variable?",
+        "options": [
+            "a) 1 GB",
+            "b) 2 GB",
+            "c) 4 GB",
+            "d) 8 GB"
+        ],
+        "answer": "c",
+        "explanation": "The max_binlog_cache_size system variable can be used to restrict the total size used to cache a multiple-statement transaction. If transaction is larger than this it fails and rolls back."
+    },
+    {
+        "question": "The higher priority is ______________",
+        "options": [],
+        "answer": "a",
+        "explanation": "A client performing an operation that modifies a table is a writer and the client that performs a retrieval from the table is a reader. The writes have higher priority than reads."
+    }
+]

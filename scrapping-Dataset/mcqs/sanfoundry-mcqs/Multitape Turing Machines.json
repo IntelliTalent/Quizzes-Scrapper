@@ -1,0 +1,101 @@
+[
+    {
+        "question": "A turing machine with several tapes in known as:",
+        "options": [
+            "a) Multi-tape turing machine",
+            "b) Poly-tape turing maching",
+            "c) Universal turing machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A multitape turing machine is an ordinary turing machine with multiple tapes. Each tape has its own head to control the read and write."
+    },
+    {
+        "question": " A multitape turing machine is ________ powerful than a single tape turing machine.",
+        "options": [
+            "a) more",
+            "b) less",
+            "c) equal",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The multitape turing machine model seems much powerful than the single tape model, but any multi tape machine, no matter how many tapes, can be simulated by single taped TM."
+    },
+    {
+        "question": "In what ratio, more computation time is needed to simulate multitape turing machines using single tape turing machines?",
+        "options": [
+            "a) doubly",
+            "b) triple",
+            "c) quadratically",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Thus, multitape turing machines cannot calculate any more functions than single tape machines."
+    },
+    {
+        "question": "Which of the following is true for two stack turing machines?",
+        "options": [
+            "a) one read only input",
+            "b) two storage tapes",
+            "c) one read only input & two storage tapes",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Two-stack Turing machines have a read-only input and two storage tapes. If a head moves left on either tape a blank is printed on that tape, but one symbol from a \u201clibrary\u201d can be printed."
+    },
+    {
+        "question": "Which of the following is not a Non deterministic turing machine?",
+        "options": [
+            "a) Alternating Turing machine",
+            "b) Probabalistic Turing machine",
+            "c) Read-only turing machine",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A read only turing machine or 2 way deterministic finite automaton is a class of model of computability that behaves like a turing machine, and can move in both directions across input, except cannot write to its input tape."
+    },
+    {
+        "question": "Which of the following is false for Quantum Turing machine?",
+        "options": [
+            "a) Abstract machine",
+            "b) Any quantum algorithm can be expressed formally as a particular quantum turing machine",
+            "c) Gives a solution to \u2018Is a universal quantum computer sufficient\u2019",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "\u2018Is a universal quantum computer sufficient\u2019 is one of the unsolved problem from physics."
+    },
+    {
+        "question": "A deterministic turing machine is:",
+        "options": [
+            "a) ambiguous turing machine",
+            "b) unambiguous turing machine",
+            "c) non-deterministic",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A deterministic turing machine is unambiguous and for every input, there is exactly one operation possible. It is a subset of non-deterministic Turing machines."
+    },
+    {
+        "question": "Which of the following is true about Turing\u2019s a-machine?",
+        "options": [
+            "a) a stands for automatic",
+            "b) left ended, right end-infinite",
+            "c) finite number of tape symbols were allowed",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Turings a- machine or automatic machine was left ended,right end infinite.Any of finite number of tape symbols were allowed and the 5 tuples were not in order."
+    },
+    {
+        "question": "Which of the following is a multi tape turing machine?",
+        "options": [
+            "a) Post turing Machine",
+            "b) Wang-B Machine",
+            "c) Oblivious turing Machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An oblivious turing machine where movements of various heads are fixed functions of time, independent of the input. Pippenger and Fischer showed that any computation that can be performed by a multi-tape Turing machine in n steps can be performed by an oblivious two-tape Turing machine in O(n log n) steps."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "All file access uses Java\u2019s __________ APIs which give Lucene stronger index safety.",
+        "options": [
+            "a) NIO.2",
+            "b) NIO.3",
+            "c) NIO.4",
+            "d) NIO.5"
+        ],
+        "answer": "a",
+        "explanation": "Index safety is provided in terms of better error handling and safer commits."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Every Lucene segment now stores a unique id per-segment and per-commit to aid in accurate replication of index files",
+            "b) The default norms format now uses sparse encoding when appropriate",
+            "c) Tokenizers and Analyzers no longer require Reader on init",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "NormsFormat now gets its own dedicated NormsConsumer/Producer."
+    },
+    {
+        "question": "During merging, __________ now always checks the incoming segments for corruption before merging.",
+        "options": [
+            "a) LocalWriter",
+            "b) IndexWriter",
+            "c) ReadWriter",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Lucene supports random-writable and advance-able sparse bitsets."
+    },
+    {
+        "question": "Heap usage during IndexWriter merging is also much lower with the new _________",
+        "options": [
+            "a) LucCodec",
+            "b) Lucene50Codec",
+            "c) Lucene20Cod",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Doc values and norms for the segments being merged are no longer fully loaded into heap for all fields"
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) ConcurScheduler detects whether the index is on SSD or not",
+            "b) Memory index supports payloads",
+            "c) Auto-IO-throttling has been added to ConcurrentMergeScheduler, to rate limit IO writes for each merge depending on incoming merge rate",
+            "d) The default codec has an option to control BEST_SPEED or BEST_COMPRESSION for stored fields"
+        ],
+        "answer": "a",
+        "explanation": "ConcurrentMergeScheduler does a better job defaulting its settings."
+    },
+    {
+        "question": "PostingsFormat now uses a __________ API when writing postings, just like doc values.",
+        "options": [
+            "a) push",
+            "b) pull",
+            "c) read",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This is powerful because you can do things in your postings format that require making more than one pass through the postings such as iterating over all postings."
+    },
+    {
+        "question": "SolrJ now has first class support for __________ API.",
+        "options": [
+            "a) Compactions",
+            "b) Collections",
+            "c) Distribution",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene."
+    },
+    {
+        "question": "____________ Collection API  allows for even distribution of custom replica properties.",
+        "options": [
+            "a) BALANUNIQUE",
+            "b) BALANCESHARDUNIQUE",
+            "c) BALANCEUNIQUE",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Solr powers the search and navigation features of many of the world\u2019s largest internet sites."
+    },
+    {
+        "question": "____________ can be used to generate stats over the results of arbitrary numeric functions.",
+        "options": [
+            "a) stats.field",
+            "b) sta.field",
+            "c) stats.value",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "stats.field allows for requesting for statistics for pivot facets using tags."
+    }
+]

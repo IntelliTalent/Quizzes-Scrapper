@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following function has parameters shown in the below figure?",
+        "options": [
+            "a) par",
+            "b) bar",
+            "c) base",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "R makes it easy to combine multiple plots into one overall graph, using either the par( ) or layout( ) function."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Vector formats are good for line drawings and plots with solid colors using a modest number of points",
+            "b) Vector formats are good for plots with a large number of points, natural scenes or web based plots",
+            "c) The default graphics device is always the screen device",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Bitmap formats are good for plots with a large number of points, natural scenes or web based plots."
+    },
+    {
+        "question": "Which of the following will copy the plot from one device to another?",
+        "options": [
+            "a) dev.copy",
+            "b) dev.copypdf",
+            "c) dev.device",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Copying a plot to another device can be useful because some plots require a lot of code and it can be a pain to type all that in again for a different device."
+    },
+    {
+        "question": "Which of the following is used to change active graphic device?",
+        "options": [
+            "a) dev.set",
+            "b) dev.int",
+            "c) dev.win",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can change the active graphics device with dev.set(<integer>) where <integer> is the number associated with the graphics device you want to switch to."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) File devices are useful for creating plots that can be included in other documents or sent to other people",
+            "b) Plots must be created on a graphics device",
+            "c) For file devices, there are vector and bitmap formats",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For file devices, there are vector and bitmap formats."
+    },
+    {
+        "question": "Which of the following is the second goal of PCA?",
+        "options": [
+            "a) data compression",
+            "b) statistical analysis",
+            "c) data dredging",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The principal components are equal to the right singular values if you first scale the variables."
+    },
+    {
+        "question": "dev.copy2pdf specifically copy a plot to a PDF file.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Copying a plot is not an exact operation, so the result may not be identical to the original."
+    },
+    {
+        "question": "Which of the following is a vector file device?",
+        "options": [
+            "a) png",
+            "b) svg",
+            "c) bmp",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "svg stands for scalable vector graphics."
+    },
+    {
+        "question": "Which of the following is alternative technique toprincipal component analysis?",
+        "options": [
+            "a) Factor analysis",
+            "b) Independent components analysis",
+            "c) Latent semantic analysis",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "PC\u2019s may mix real patterns."
+    },
+    {
+        "question": "Every open graphics device is assigned an integer greater than 2.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Every open graphics device is assigned an integer greater than equal to 2."
+    }
+]

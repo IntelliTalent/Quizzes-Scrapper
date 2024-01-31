@@ -1,0 +1,79 @@
+[
+    {
+        "question": "If end to end connection is done at a network or IP level, and if there are N hosts, then what is the number of keys required?",
+        "options": [
+            "a) N(N-1)/2",
+            "b) N",
+            "c) N(N+1)/2",
+            "d) N/2"
+        ],
+        "answer": "a",
+        "explanation": "The number of keys required would be N(N-1)/2, similar to that of a mesh topology network connection (each node is connection line requires a key)."
+    },
+    {
+        "question": "For 1000 nodes in IP level, how many keys would be required?",
+        "options": [
+            "a) 499000",
+            "b) 499500",
+            "c) 500500",
+            "d) 500000"
+        ],
+        "answer": "b",
+        "explanation": "Use N(N-1)/2 where N=1000."
+    },
+    {
+        "question": "Communication between end systems is encrypted using a key, often known as",
+        "options": [
+            "a) temporary key",
+            "b) section key",
+            "c) line key",
+            "d) session key"
+        ],
+        "answer": "d",
+        "explanation": "The key is referred to as session key."
+    },
+    {
+        "question": "Session keys are transmitted after being encrypted by",
+        "options": [
+            "a) make-shift keys",
+            "b) temporary keys",
+            "c) master keys",
+            "d) section keys"
+        ],
+        "answer": "c",
+        "explanation": "Each node has a master key which it uses to receive the session key."
+    },
+    {
+        "question": "For a network with N nodes, how many master keys are present?",
+        "options": [
+            "a) N(N-1)/2",
+            "b) N",
+            "c) N(N+1)/2",
+            "d) N/2"
+        ],
+        "answer": "b",
+        "explanation": "Each node has a master key to receive the session keys from the Key Distribution Centre (KDC)."
+    },
+    {
+        "question": "SSM stands for",
+        "options": [
+            "a) Secure Security Module",
+            "b) Session Security Module",
+            "c)  Service Session Module",
+            "d) Session Service Module"
+        ],
+        "answer": "b",
+        "explanation": "SSM stands for Session Security Module."
+    },
+    {
+        "question": "Which is the last step in establishing a connection between hosts using the SSM?",
+        "options": [
+            "a) Interaction/ Handshaking between the SSM and the KDC",
+            "b) Establishment of the connection",
+            "c) Release of connection request packet",
+            "d) SSM saves the packet and applies to the KDC for connection permission"
+        ],
+        "answer": "c",
+        "explanation": "The correct order of execution is \u2013 (d,b,a,c)"
+    }
+]

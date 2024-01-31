@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Kruskal\u2019s algorithm is used to ______",
+        "options": [
+            "a) find minimum spanning tree",
+            "b) find  single source shortest path",
+            "c) find all pair shortest path algorithm",
+            "d) traverse the graph"
+        ],
+        "answer": "a",
+        "explanation": "The  Kruskal\u2019s algorithm is used to find the minimum spanning tree of the connected graph. It construct the MST by finding the edge having the least possible weight that connects two trees in the forest."
+    },
+    {
+        "question": "Kruskal\u2019s algorithm is a ______",
+        "options": [
+            "a) divide and conquer algorithm",
+            "b) dynamic programming algorithm",
+            "c) greedy algorithm",
+            "d) approximation algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Kruskal\u2019s algorithm uses a greedy algorithm approach to find the MST of the connected weighted graph. In the greedy method, we attempt to find an optimal solution in stages."
+    },
+    {
+        "question": "Consider the given graph.",
+        "options": [
+            "a) 24",
+            "b) 23",
+            "c) 15",
+            "d) 19"
+        ],
+        "answer": "d",
+        "explanation": "Kruskal\u2019s algorithm constructs the minimum spanning tree by constructing by adding the edges to spanning tree one-one by one. The MST for the given graph is,"
+    },
+    {
+        "question": "What is the time complexity of Kruskal\u2019s algorithm?",
+        "options": [
+            "a) O(log V)",
+            "b) O(E log V)",
+            "c) O(E",
+            "d) O(V log E)"
+        ],
+        "answer": "b",
+        "explanation": "Kruskal\u2019s algorithm involves sorting of the edges, which takes O(E logE) time, where E is a number of edges in graph and V is the number of vertices. After sorting, all edges are iterated and union-find algorithm is applied. union-find algorithm requires O(logV) time. So, overall Kruskal\u2019s algorithm requires O(E log V) time."
+    },
+    {
+        "question": "Consider the following graph. Using Kruskal\u2019s algorithm, which edge will be selected first?",
+        "options": [
+            "a) GF",
+            "b) DE",
+            "c) BE",
+            "d) BG"
+        ],
+        "answer": "c",
+        "explanation": "In Krsuskal\u2019s algorithm the edges are selected and added to the spanning tree in increasing order of their weights. Therefore, the first edge selected will be the minimal one. So, correct option is BE."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Prim\u2019s algorithm can also be used for disconnected graphs",
+            "b) Kruskal\u2019s algorithm can also run on the disconnected graphs",
+            "c) Prim\u2019s algorithm is simpler than Kruskal\u2019s algorithm",
+            "d) In Kruskal\u2019s sort edges are added to MST in decreasing order of their weights"
+        ],
+        "answer": "b",
+        "explanation": "Prim\u2019s algorithm iterates from one node to another, so it can not be applied for disconnected graph. Kruskal\u2019s algorithm can be applied to the disconnected graphs to construct the minimum cost forest. Kruskal\u2019s algorithm is comparatively easier and simpler than prim\u2019s algorithm."
+    },
+    {
+        "question": "Which of the following is false about the Kruskal\u2019s algorithm?",
+        "options": [
+            "a) It is a greedy algorithm",
+            "b) It constructs MST by selecting edges in increasing order of their weights",
+            "c) It can accept cycles in the MST",
+            "d) It uses union-find data structure"
+        ],
+        "answer": "c",
+        "explanation": "Kruskal\u2019s algorithm is a greedy algorithm to construct the MST of the given graph. It constructs the MST by selecting edges in increasing order of their weights and rejects an edge if it may form the cycle. So, using Kruskal\u2019s algorithm is never formed."
+    },
+    {
+        "question": "Kruskal\u2019s algorithm is best suited for the dense graphs than the prim\u2019s algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Prim\u2019s algorithm outperforms the Kruskal\u2019s algorithm in case of the dense graphs. It is significantly faster if graph has more edges than the Kruskal\u2019s algorithm."
+    },
+    {
+        "question": "Consider the following statements.",
+        "options": [
+            "a) S1 is true but S2 is false",
+            "b) Both S1 and S2 are false",
+            "c) Both S1 and S2 are true",
+            "d) S2 is true but S1 is false"
+        ],
+        "answer": "d",
+        "explanation": "In Kruskal\u2019s algorithm, the disjoint-set data structure efficiently identifies the components containing a vertex and adds the new edges. And Kruskal\u2019s algorithm always finds the MST for the connected graph."
+    }
+]

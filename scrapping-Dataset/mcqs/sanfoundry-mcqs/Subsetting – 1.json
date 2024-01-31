@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Which of the following extracts first element from the following R vector?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The element which we want to extract will be in the format of variable[index value of the element] in R script."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) There are three operators that can be used to extract subsets of R objects",
+            "b) The [ operator is used to extract elements of a list or data frame by literal name",
+            "c) The [[ operator is used to extract elements of a list or data frame by string name",
+            "d) There are five operators that can be used to extract subsets of R objects"
+        ],
+        "answer": "a",
+        "explanation": "Three operators are [,[[ and $."
+    },
+    {
+        "question": " Which of the following extracts first four element from the following R vector?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The multiple successive elements which we want to extract will be in the format of variable[index value of the start element:index value of the last element] in R script."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The sequence does not have to be in order; you can specify any arbitrary integer vector."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) $ operator semantics are similar to that of [[",
+            "b) The [ operator always returns an object of the same class as the original",
+            "c) The $ operator is used to extract elements of a list or a data frame",
+            "d) There are three operators that can be used to extract subsets of R objects"
+        ],
+        "answer": "c",
+        "explanation": "The [[ operator is used to extract elements of a list or a data frame. It can only be used to extract a single element and the class of the returned object will not necessarily be a list or data frame."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Matrices can be subsetted in the usual way with (i,j) type indices where i is the row and j is the column numbers."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Matrices can be subsetted in the usual way with (i,j) type indices where i is the row and j is the column numbers. If only row or only column number is specified, then the respective full row or column is printed."
+    },
+    {
+        "question": "Which of the following R code extracts the second column for the following matrix?",
+        "options": [],
+        "answer": "c",
+        "explanation": "This behavior is used to access entire rows or columns of a matrix."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "By default, when a single element of a matrix is retrieved, it is returned as a vector of length 1 rather than a $1\\times 1$ matrix."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The [[ operator can be used to extract single elements from a list."
+    }
+]

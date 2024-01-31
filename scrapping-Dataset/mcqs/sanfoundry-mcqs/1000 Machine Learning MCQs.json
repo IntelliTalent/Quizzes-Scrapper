@@ -1,0 +1,165 @@
+[
+    {
+        "question": "What is Machine learning?",
+        "options": [
+            "a) The selective acquisition of knowledge through the use of computer programs",
+            "b) The selective acquisition of knowledge through the use of manual programs",
+            "c) The autonomous acquisition of knowledge through the use of computer programs",
+            "d) The autonomous acquisition of knowledge through the use of manual programs"
+        ],
+        "answer": "c",
+        "explanation": "Machine learning is the autonomous acquisition of knowledge through the use of computer programs."
+    },
+    {
+        "question": "K-Nearest Neighbors (KNN) is classified as what type of machine learning algorithm?",
+        "options": [
+            "a) Instance-based learning",
+            "b) Parametric learning",
+            "c) Non-parametric learning",
+            "d) Model-based learning"
+        ],
+        "answer": "a",
+        "explanation": "KNN doesn\u2019t build a parametric model of the data. Instead, it directly classifies new data points based on the k nearest points in the training data."
+    },
+    {
+        "question": "Which of the following is not a supervised machine learning algorithm?",
+        "options": [
+            "a) K-means",
+            "b) Na\u00efve Bayes",
+            "c) SVM for classification problems",
+            "d) Decision tree"
+        ],
+        "answer": "a",
+        "explanation": "Decision tree, SVM (Support vector machines) for classification problems and Na\u00efve Bayes are the examples of supervised machine learning algorithm. K-means is an example of unsupervised machine learning algorithm."
+    },
+    {
+        "question": "What\u2019s the key benefit of using deep learning for tasks like recognizing images?",
+        "options": [
+            "a) They need less training data than other methods.",
+            "b) They\u2019re easier to explain and understand than other models.",
+            "c) They can learn complex details from the data on their own.",
+            "d) They work faster and are more efficient computationally."
+        ],
+        "answer": "c",
+        "explanation": "Deep learning is great at figuring out intricate details from data, especially in tasks like recognizing images."
+    },
+    {
+        "question": "Which algorithm is best suited for a binary classification problem?",
+        "options": [
+            "a) K-nearest Neighbors",
+            "b) Decision Trees",
+            "c) Random Forest",
+            "d) Linear Regression"
+        ],
+        "answer": "b",
+        "explanation": "Decision Trees are versatile and can be used for classification problems, particularly for binary classification, where the output is divided into two classes."
+    },
+    {
+        "question": "What is the key difference between supervised and unsupervised learning?",
+        "options": [
+            "a) Supervised learning requires labeled data, while unsupervised learning does not.",
+            "b) Supervised learning predicts labels, while unsupervised learning discovers patterns.",
+            "c) Supervised learning is used for classification, while unsupervised learning is used for regression.",
+            "d) Supervised learning is always more accurate than unsupervised learning."
+        ],
+        "answer": "a",
+        "explanation": "The presence or absence of labeled data in the training set distinguishes supervised and unsupervised learning approaches."
+    },
+    {
+        "question": "Which type of machine learning algorithm falls under the category of \u201cunsupervised learning\u201d?",
+        "options": [
+            "a) Linear Regression",
+            "b) K-means Clustering",
+            "c) Decision Trees",
+            "d) Random Forest"
+        ],
+        "answer": "b",
+        "explanation": "K-means Clustering is an example of unsupervised learning used for clustering unlabeled data based on similarities."
+    },
+    {
+        "question": "Which of the following statements is true about AdaBoost?",
+        "options": [
+            "a) It is particularly prone to overfitting on noisy datasets",
+            "b) Complexity of the weak learner is important in AdaBoost",
+            "c) It is generally more prone to overfitting",
+            "d) It improves classification accuracy"
+        ],
+        "answer": "c",
+        "explanation": "AdaBoost is generally not more prone to overfitting but is less prone to overfitting. And it is prone to overfitting on noisy datasets. If you use very simple weak learners, then the algorithms are much less prone to overfitting and it improves classification accuracy. So Complexity of the weak learner is important in AdaBoost."
+    },
+    {
+        "question": "Which one of the following models is a generative model used in machine learning?",
+        "options": [
+            "a) Support vector machines",
+            "b) Na\u00efve Bayes",
+            "c) Logistic Regression",
+            "d) Linear Regression"
+        ],
+        "answer": "b",
+        "explanation": "Na\u00efve Bayes is a type of generative model which is used in machine learning. Linear Regression, Logistic Regression and Support vector machines are the types of discriminative models which are used in machine learning."
+    },
+    {
+        "question": "An artificially intelligent car decreases its speed based on its distance from the car in front of it. Which algorithm is used?",
+        "options": [
+            "a) Na\u00efve-Bayes",
+            "b) Decision Tree",
+            "c) Linear Regression",
+            "d) Logistic Regression"
+        ],
+        "answer": "c",
+        "explanation": "The output is numerical. It determines the speed of the car. Hence it is not a classification problem. All the three, decision tree, na\u00efve-Bayes, and logistic regression are classification algorithms. Linear regression, on the other hand, outputs numerical values based on input. So, this can be used."
+    },
+    {
+        "question": "Which of the following statements is false about Ensemble learning?",
+        "options": [
+            "a) It is a supervised learning algorithm",
+            "b) It is an unsupervised learning algorithm",
+            "c) More random algorithms can be used to produce a stronger ensemble",
+            "d) Ensembles can be shown to have more flexibility in the functions they can represent"
+        ],
+        "answer": "b",
+        "explanation": "Ensemble learning is not an unsupervised learning algorithm. It is a supervised learning algorithm that combines several machine learning techniques into one predictive model to decrease variance and bias. It can be trained and then used to make predictions. And this ensemble can be shown to have more flexibility in the functions they can represent."
+    },
+    {
+        "question": "Which of the following statements is true about stochastic gradient descent?",
+        "options": [
+            "a) It processes one training example per iteration",
+            "b) It is not preferred, if the number of training examples is large",
+            "c) It processes all the training examples for each iteration of gradient descent",
+            "d) It is computationally very expensive, if the number of training examples is large"
+        ],
+        "answer": "a",
+        "explanation": "Stochastic gradient descent processes one training example per iteration. That is it updates the weight vector based on one data point at a time. All other three are the features of Batch Gradient Descent."
+    },
+    {
+        "question": "Decision tree uses the inductive learning machine learning approach.",
+        "options": [
+            "a) False",
+            "b) True"
+        ],
+        "answer": "b",
+        "explanation": "Decision tree uses the inductive learning machine learning approach. Inductive learning enables the system to recognize patterns and regularities in previous knowledge or training data and extract the general rules from them. A decision tree is considered to be an inductive learning task as it uses particular facts to make more generalized conclusions."
+    },
+    {
+        "question": "What elements describe the Candidate-Elimination algorithm?",
+        "options": [
+            "a) depends on the dataset",
+            "b) just a set of candidate hypotheses",
+            "c) just a set of instances",
+            "d) set of instances, set of candidate hypotheses"
+        ],
+        "answer": "d",
+        "explanation": "A set of instances is required. A set of candidate hypotheses are given. These are applied to the training data and the list of accurate hypotheses is output in accordance with the candidate-elimination algorithm."
+    },
+    {
+        "question": "Which of the following statements is not true about boosting?",
+        "options": [
+            "a) It mainly increases the bias and the variance",
+            "b) It tries to generate complementary base-learners by training the next learner on the mistakes of the previous learners",
+            "c) It is a technique for solving two-class classification problems",
+            "d) It uses the mechanism of increasing the weights of misclassified data in preceding classifiers"
+        ],
+        "answer": "a",
+        "explanation": "Boosting does not increase the bias and variance but it mainly reduces the bias and the variance. It is a technique for solving two-class classification problems. And it tries to generate complementary base-learners by training the next learner (by increasing the weights) on the mistakes (misclassified data) of the previous learners."
+    }
+]

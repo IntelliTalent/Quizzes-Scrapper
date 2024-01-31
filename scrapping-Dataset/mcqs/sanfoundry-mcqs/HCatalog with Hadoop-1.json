@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ is a REST API for HCatalog.",
+        "options": [
+            "a) WebHCat",
+            "b) WbHCat",
+            "c) InpHCat",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "REST stands for \u201crepresentational state transfer\u201d, a style of API based on HTTP verbs."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) There is no guaranteed read consistency when a partition is dropped",
+            "b) Unpartitioned tables effectively have one default partition that must be created at table creation time",
+            "c) Once a partition is created, records cannot be added to it, removed from it, or updated in it",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Partitioned tables have no partitions at create time."
+    },
+    {
+        "question": "With HCatalog _________ does not need to modify the table structure.",
+        "options": [
+            "a) Partition",
+            "b) Columns",
+            "c) Robert",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Without HCatalog, Robert must alter the table to add the required partition."
+    },
+    {
+        "question": "Sally in data processing uses __________ to cleanse and prepare the data.",
+        "options": [
+            "a) Pig",
+            "b) Hive",
+            "c) HCatalog",
+            "d) Impala"
+        ],
+        "answer": "a",
+        "explanation": "Without HCatalog, Sally must be manually informed by Joe when data is available, or poll on HDFS."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The original name of WebHCat was Templeton",
+            "b) Robert in client management uses Hive to analyze his clients\u2019 results",
+            "c) With HCatalog, HCatalog cannot send a JMS message that data is available",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Pig job can then be restarted after analyzing client."
+    },
+    {
+        "question": "For ___________ partitioning jobs, simply specifying a custom directory is not good enough.",
+        "options": [
+            "a) static",
+            "b) semi cluster",
+            "c) dynamic",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Since it writes to multiple destinations, and thus, instead of a directory specification, it requires a pattern specification."
+    },
+    {
+        "question": "___________  property allows us to specify a custom dir location pattern for all the writes, and will interpolate each variable.",
+        "options": [
+            "a) hcat.dynamic.partitioning.custom.pattern",
+            "b) hcat.append.limit",
+            "c) hcat.pig.storer.external.location",
+            "d) hcatalog.hive.client.cache.expiry.time"
+        ],
+        "answer": "a",
+        "explanation": "hcat.append.limit allows an HCatalog user to specify a custom append limit."
+    },
+    {
+        "question": "HCatalog maintains a cache of _________ to talk to the metastore.",
+        "options": [
+            "a) HiveServer",
+            "b) HiveClients",
+            "c) HCatClients",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HCatalog manages a cache of 1 metastore client per thread, defaulting to an expiry of 120 seconds."
+    },
+    {
+        "question": "On the write side, it is expected that the user pass in valid _________ with data correctly.",
+        "options": [
+            "a) HRecords",
+            "b) HCatRecos",
+            "c) HCatRecords",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In some cases where a user of HCat (such as some older versions of pig) does not support all the datatypes supported by hive, there are a few config parameters provided to handle data promotions/conversions to allow them to read data through HCatalog."
+    },
+    {
+        "question": "A float parameter, defaults to 0.0001f, which means we can deal with 1 error every __________ rows.",
+        "options": [
+            "a) 1000",
+            "b) 10000",
+            "c) 1 million rows",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "hcat.input.bad.record.threshold property is throw out error on encountering bad record."
+    }
+]

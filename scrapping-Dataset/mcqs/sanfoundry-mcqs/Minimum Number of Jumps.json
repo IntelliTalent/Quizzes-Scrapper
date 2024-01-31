@@ -1,0 +1,84 @@
+[
+    {
+        "question": "You are given an array of elements where each array element represents the MAXIMUM number of jumps that can be made in the forward direction from that element. You have to find the minimum number of jumps that are required to reach the end of the array. Which of these methods can be used to solve the problem?",
+        "options": [
+            "a) Dynamic Programming",
+            "b) Greedy Algorithm",
+            "c) Recursion",
+            "d) Recursion and Dynamic Programming"
+        ],
+        "answer": "d",
+        "explanation": "Both recursion and dynamic programming can be used to solve minimum number of jumps problem."
+    },
+    {
+        "question": "Consider the following array:",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "The jumps made will be:{1 -> 2 -> 4 -> 9}. So, the number of jumps is three."
+    },
+    {
+        "question": "Consider the following recursive implementation:",
+        "options": [],
+        "answer": "a",
+        "explanation": "arr, strt + idx, end should be passed as arguments."
+    },
+    {
+        "question": "For a given array, there can be multiple ways to reach the end of the array using minimum number of jumps.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Consider the array {1,2,3,4,5}. It is possible to reach the end in the following ways: {1 -> 2 -> 3 -> 5} or {1 -> 2 -> 4 -> 5}."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the minimum number of jumps required to reach the end of the array. One way reach the end using minimum number of jumps is"
+    },
+    {
+        "question": "For any array, given that at most one element is non-zero, it is ALWAYS possible to reach the end of the array using minimum jumps.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Consider the array {1,0,2,3,4}."
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the minimum jumps problem:",
+        "options": [],
+        "answer": "d",
+        "explanation": "None of the above mentioned \u201cfor\u201d loops can be used instead of the inner for loop. Note, for(j = idx + 1; j < len && j <= arr[idx] + idx; j++) covers the same range as the inner for loop but it produces the wrong output because the indexing inside the loops changes as \u201cj\u201d takes different values in the two \u201cfor\u201d loops."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation used to find the minimum number of jumps?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation used to find the minimum number of jumps?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The space complexity of the above dynamic programming implementation is O(n)."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the minimum jumps required to reach the end of the array, which is 8 and so the output is 8."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the minimum jumps required to reach the end of the array, which is 1 and so the output is 1."
+    }
+]

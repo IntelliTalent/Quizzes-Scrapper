@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is the correct formula for total variation?",
+        "options": [
+            "a) Total Variation = Residual Variation \u2013 Regression Variation",
+            "b) Total Variation = Residual Variation + Regression Variation",
+            "c) Total Variation = Residual Variation * Regression Variation",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The complementary part of the total variation is called unexplained or residual."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A standard error is needed to create a prediction interval",
+            "b) The prediction interval must incorporate the variability in the data around the line",
+            "c) Investors use the residual variance to measure the accuracy of their predictions on the value of an asset",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In statistics, explained variation measures the proportion to which a mathematical model accounts for the variation of a given data set."
+    },
+    {
+        "question": "Which of the following things can be accomplished with linear model?",
+        "options": [
+            "a) Flexibly fit complicated functions",
+            "b) Uncover complex multivariate relationships",
+            "c) Build accurate prediction models",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Linear models are the single most important applied statistical and machine learning technique."
+    },
+    {
+        "question": "Which of the following statement is incorrect with respect to outliers?",
+        "options": [
+            "a) Outliers can have varying degrees of influence",
+            "b) Outliers can be the result of spurious or real processes",
+            "c) Outliers cannot conform to the regression relationship",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Outliers can conform to the regression relationship."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The fraction of variance unexplained is an established concept in the context of linear regression",
+            "b) \u201cExplained variance\u201d is routinely used in principal component analysis",
+            "c) The general linear model extends simple linear regression (SLR) by adding terms linearly into the model",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Linearity refers to a mathematical relationship or function that can be graphically represented as a straight line."
+    },
+    {
+        "question": "Which of the following can be useful for diagnosing data entry errors?",
+        "options": [
+            "a) hat values",
+            "b) dffit",
+            "c) resid",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "resid returns the ordinary residuals."
+    },
+    {
+        "question": "Multivariate regression estimates are exactly those having removed the linear relationship of the other variables from both the regressor and response.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Multivariate Data Analysis refers to any statistical technique used to analyze data that arises from more than one variable."
+    },
+    {
+        "question": "Residual ______ plots investigate normality of the errors.",
+        "options": [
+            "a) RR",
+            "b) PP",
+            "c) QQ",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Patterns in your residual plots generally indicate some poor aspect of model fit."
+    },
+    {
+        "question": "Which of the following show residuals divided by their standard deviations?",
+        "options": [
+            "a) rstudent",
+            "b) cooks.distance",
+            "c) rstandard",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "rstandard stands for standardized residuals."
+    },
+    {
+        "question": "The least squares estimate for the coefficient of a multivariate regression model is exactly regression through the origin with the linear relationships.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Multivariate regression adjusts a coefficient for the linear impact of the other variables."
+    }
+]

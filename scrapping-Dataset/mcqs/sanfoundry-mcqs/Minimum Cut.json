@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which algorithm is used to solve a minimum cut algorithm?",
+        "options": [
+            "a) Gale-Shapley algorithm",
+            "b) Ford-Fulkerson algorithm",
+            "c) Stoer-Wagner algorithm",
+            "d) Prim\u2019s algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Minimum cut algorithm is solved using Stoer-Wagner algorithm. Maximum flow problem is solved using Ford-Fulkerson algorithm. Stable marriage problem is solved using Gale-Shapley algorithm."
+    },
+    {
+        "question": "___________ is a partition of the vertices of a graph in two disjoint subsets that are joined by atleast one edge.",
+        "options": [
+            "a) Minimum cut",
+            "b) Maximum flow",
+            "c) Maximum cut",
+            "d) Graph cut"
+        ],
+        "answer": "a",
+        "explanation": "Minimum cut is a partition of the vertices in a graph 4. in two disjoint subsets joined by one edge. It is a cut that is minimal in some sense."
+    },
+    {
+        "question": "Minimum cut algorithm comes along with the maximum flow problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Minimum cut algorithm is considered to be an extension of the maximum flow problem. Minimum cut is finding a cut that is minimal."
+    },
+    {
+        "question": "What does the given figure depict?",
+        "options": [
+            "a) min cut problem",
+            "b) max cut problem",
+            "c) maximum flow problem",
+            "d) flow graph"
+        ],
+        "answer": "a",
+        "explanation": "The given figure is a depiction of min cut problem since the graph is partitioned to find the minimum cut."
+    },
+    {
+        "question": "______________ separates a particular pair of vertices in a graph.",
+        "options": [
+            "a) line",
+            "b) arc",
+            "c) cut",
+            "d) flow"
+        ],
+        "answer": "c",
+        "explanation": "A cut separates a particular pair of vertices in a weighted undirected graph and has minimum possible weight."
+    },
+    {
+        "question": "What is the minimum number of cuts that a graph with \u2018n\u2019 vertices can have?",
+        "options": [
+            "a) n+1",
+            "b) n(n-1)",
+            "c) n(n+1)/2",
+            "d) n(n-1)/2"
+        ],
+        "answer": "c",
+        "explanation": "The mathematical formula for a graph with \u2018n\u2019 vertices can at the most have n(n-1)/2 distinct vertices."
+    },
+    {
+        "question": "What is the running time of Karger\u2019s algorithm to find the minimum cut in a graph?",
+        "options": [
+            "a) O(E)",
+            "b) O(|V|",
+            "c) O(V)",
+            "d) O(|E|)"
+        ],
+        "answer": "b",
+        "explanation": "The running time of Karger\u2019s algorithm to find the minimum cut is mathematically found to be O(|V|"
+    },
+    {
+        "question": "_____________ is a family of combinatorial optimization problems in which a graph is partitioned into two or more parts with constraints.",
+        "options": [
+            "a) numerical problems",
+            "b) graph partition",
+            "c) network problems",
+            "d) combinatorial problems"
+        ],
+        "answer": "b",
+        "explanation": "Graph partition is a problem in which the graph is partitioned into two or more parts with additional conditions."
+    },
+    {
+        "question": "The weight of the cut is not equal to the maximum flow in a network.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "According to max-flow min-cut theorem, the weight of the cut is equal to the maximum flow that is sent from source to sink."
+    },
+    {
+        "question": "__________ is a data structure used to collect a system of cuts for solving min-cut problem.",
+        "options": [
+            "a) Gomory-Hu tree",
+            "b) Gomory-Hu graph",
+            "c) Dancing tree",
+            "d) AA tree"
+        ],
+        "answer": "a",
+        "explanation": "Gomory-Hu tree is a weighted tree that contains the minimum cuts for all pairs in a graph. It is constructed in |V|-1 max-flow computations."
+    },
+    {
+        "question": "In how many ways can a Gomory-Hu tree be implemented?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Gomory-Hu tree can be implemented in two ways- sequential and parallel."
+    },
+    {
+        "question": "The running time of implementing na\u00efve solution to min-cut problem is?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "d",
+        "explanation": "The running time of min-cut algorithm using na\u00efve implementation is mathematically found to be O(N"
+    },
+    {
+        "question": "What is the running time of implementing a min-cut algorithm using bidirected edges in a graph?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "c",
+        "explanation": "The running time of a min-cut algorithm using Ford-Fulkerson method of making edges birected in a graph is mathematically found to be O(N"
+    },
+    {
+        "question": "Which one of the following is not an application of max-flow min-cut algorithm?",
+        "options": [
+            "a) network reliability",
+            "b) closest pair",
+            "c) network connectivity",
+            "d) bipartite matching"
+        ],
+        "answer": "b",
+        "explanation": "Network reliability, connectivity and bipartite matching are all applications of min-cut algorithm whereas closest pair is a different kind of problem."
+    },
+    {
+        "question": "What is the minimum cut of the following network?",
+        "options": [
+            "a) ({1,3},{4,3},{4,5})",
+            "b) ({1,2},{2,3},{4,5})",
+            "c) ({1,0},{4,3},{4,2})",
+            "d) ({1,2},{3,2},{4,5})"
+        ],
+        "answer": "a",
+        "explanation": "The minimum cut of the given graph network is found to be ({1,3},{4,3},{4,5}) and its capacity is 23."
+    }
+]

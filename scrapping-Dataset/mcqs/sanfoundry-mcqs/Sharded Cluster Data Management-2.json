@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_______ enables the balancer and waits for balancing to start.",
+        "options": [
+            "a) sh.waitForBalancer()",
+            "b) sh.startBalancer()",
+            "c) sh.waitForDLock()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "sh.waitForDLock() waits for a specified distributed sharded cluster lock."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) sh.deadForDLock() waits for a specified distributed sharded cluster lock",
+            "b) sh.waitForBalancerOff() waits until the balancer stops running",
+            "c) sh.statusserver() reports on the status of a sharded cluster, as db.printShardingStatus()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "sh.stopBalancer() disables the balancer and waits for any in progress balancing rounds to complete."
+    },
+    {
+        "question": "_________ waits for a change in ping state from one of the mongos in the sharded cluster.",
+        "options": [
+            "a) sh.waitForBalancer()",
+            "b) sh.startBalancer()",
+            "c) sh.waitForPingChange()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "sh.waitForBalancer() waits for the balancer state to change."
+    },
+    {
+        "question": "_______ forces an update to the cluster metadata cached by a mongos.",
+        "options": [
+            "a) config",
+            "b) flushconf",
+            "c) flushRouterConfig",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "flushRouterConfig clears the current cluster information cached by a mongos instance and reloads all sharded cluster metadata from the config database."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) moveChunks provides the ability to combine chunks on a single shard",
+            "b) setShardVersion is used to set the config server version",
+            "c) shardCollection enables the sharding functionality for a collection, allowing the collection to be sharded",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For a sharded collection, mergeChunks combines contiguous chunk ranges on a shard into a single chunk."
+    },
+    {
+        "question": "Which of the following command that validates index on shard key?",
+        "options": [
+            "a) checkShardingIndex",
+            "b) checkSIndex",
+            "c) enableSharding",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "checkShardingIndex is an internal command that supports sharding functionality."
+    },
+    {
+        "question": "Which of the following command is used to determine split points?",
+        "options": [
+            "a) splitVector",
+            "b) medianKey",
+            "c) movePrimary",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "movePrimary\treassigns the primary shard when removing a shard from a sharded cluster."
+    },
+    {
+        "question": "You can only issue listShards against the ________ database.",
+        "options": [
+            "a) local",
+            "b) admin",
+            "c) temp",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "listShards is only available for mongos instances."
+    },
+    {
+        "question": "_________ is an internal command that supports the sharding functionality.",
+        "options": [
+            "a) getBalancerHost()",
+            "b) getShardMap",
+            "c) enableSharding()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "sh.getBalancerHost() returns the name of a mongos that\u2019s responsible for the balancer process."
+    },
+    {
+        "question": "________ command verifies that a process is a mongos.",
+        "options": [
+            "a) medianKey",
+            "b) isdbgrid",
+            "c) movePrimary",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The isdbgrid command is not available to mongod."
+    }
+]

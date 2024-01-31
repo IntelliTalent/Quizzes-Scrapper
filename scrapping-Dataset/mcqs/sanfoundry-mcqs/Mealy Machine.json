@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In mealy machine, the O/P depends upon?",
+        "options": [
+            "a) State",
+            "b) Previous State",
+            "c) State and Input",
+            "d) Only Input"
+        ],
+        "answer": "c",
+        "explanation": "Definition of Mealy Machine."
+    },
+    {
+        "question": "Which of the given are correct?",
+        "options": [
+            "a) Moore machine has 6-tuples",
+            "b) Mealy machine has 6-tuples",
+            "c) Both Mealy and Moore has 6-tuples",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Finite Automaton with Output has a common definition for both the categories."
+    },
+    {
+        "question": "The following mealy machine outputs which of the following?",
+        "options": [
+            "a) 9\u2019s Complement",
+            "b) 2\u2019s Complement",
+            "c) 1\u2019s Complement",
+            "d) 10\u2019s Complement"
+        ],
+        "answer": "b",
+        "explanation": "The input can be taken in form of a binary string and can be verified."
+    },
+    {
+        "question": "The O/P of Mealy machine can be represented in the following format:",
+        "options": [
+            "a) Op(t)= \u03b4(Op(t))",
+            "b) Op(t)= \u03b4(Op(t)i(t))",
+            "c) Op(t): \u2211",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The output of mealy machine depends on the present state as well as the input to that state."
+    },
+    {
+        "question": "5.The ratio of number of input to the number of output in a mealy machine can be given as:",
+        "options": [
+            "a) 1",
+            "b) n: n+1",
+            "c) n+1: n",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The number of output here follows the transitions in place of states as in Moore machine."
+    },
+    {
+        "question": "Mealy and Moore machine can be categorized as:",
+        "options": [
+            "a) Inducers",
+            "b) Transducers",
+            "c) Turing Machines",
+            "d) Linearly Bounder Automata"
+        ],
+        "answer": "b",
+        "explanation": "They are collectively known as Transducers."
+    },
+    {
+        "question": "The major difference between Mealy and Moore machine is about:",
+        "options": [
+            "a) Output Variations",
+            "b) Input Variations",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Mealy and Moore machine vary over how the outputs depends on prior one (transitions) and on the latter one(states)."
+    },
+    {
+        "question": "Statement 1: Mealy machine reacts faster to inputs.",
+        "options": [
+            "a) Statement 1 is true and Statement 2 is true",
+            "b) Statement 1 is true but Statement 2 is false",
+            "c) Statement 1 is false and Statement 2 is true",
+            "d) None of the mentioned is true"
+        ],
+        "answer": "a",
+        "explanation": "Being an input dependent and output capable FSM, Mealy machine reacts faster to inputs."
+    },
+    {
+        "question": "Which of the following does the given Mealy machine represents?",
+        "options": [
+            "a) 9\u2019s Complement",
+            "b) 2\u2019s Complement",
+            "c) 1\u2019s Complement",
+            "d) 10\u2019s Complement"
+        ],
+        "answer": "c",
+        "explanation": "Inputs can be taken and can be verified."
+    },
+    {
+        "question": "Which one of the following is true?",
+        "options": [
+            "a) produces a language",
+            "b) produces a grammar",
+            "c) can be converted to NFA",
+            "d) has less circuit delays"
+        ],
+        "answer": "d",
+        "explanation": "It does not produce a language or grammar or can be converted to a NFA."
+    }
+]

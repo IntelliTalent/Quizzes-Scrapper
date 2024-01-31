@@ -1,0 +1,129 @@
+[
+    {
+        "question": "Which statement correctly defines Interfaces in C#.NET?",
+        "options": [
+            "a) Interfaces cannot be inherited",
+            "b) Interfaces consists of data static in nature and static methods",
+            "c) Interfaces consists of only method declaration",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Leaving all options only option \u2018a\u2019 is correct as interfaces can be inherited i.e inheritance can be performed in csharp .net."
+    },
+    {
+        "question": "Which of the following cannot be used to declare an interface correctly?",
+        "options": [
+            "a) Properties",
+            "b) Methods",
+            "c) Structures",
+            "d) Events"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "A class consists of two interfaces with each interface consisting of three methods. The class had no instance data. Which of the following indicates the correct size of object created from this class?",
+        "options": [
+            "a) 12 bytes",
+            "b) 16 bytes",
+            "c) 0 bytes",
+            "d) 24 bytes"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following statements correctly define about the implementation of interface?",
+        "options": [
+            "a) The calls to implementation of interface methods are routed through a method table",
+            "b) A class which implements an interface can explicitly implement members of that interface",
+            "c) One interface can be implemented in another interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the correct statement among the given statements?",
+        "options": [
+            "a) One class could implement only one interface",
+            "b) Properties could be declared inside an interface",
+            "c) Interfaces cannot be inherited",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which keyword is used for correct implementation of an interface in C#.NET?",
+        "options": [
+            "a) interface",
+            "b) Interface",
+            "c) intf",
+            "d) Intf"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the statements which makes interface different from classes?",
+        "options": [
+            "a) Unlike classes, interfaces consists of only declaration but not implementation",
+            "b) Interfaces cannot be used directly like classes to create new objects",
+            "c) Interfaces consists of declaration of methods, properties events and type definitions",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is the correct way of implementing an interface addition by class maths?",
+        "options": [
+            "a) class maths : addition {}",
+            "b) class maths implements addition {}",
+            "c) class maths imports addition {}",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Does C#.NET support partial implementation of interfaces?",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) Can\u2019t Say",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Interface is a behaviour. It represents a protocol or a contract of sorts. Hence, it is impossible to implement an interface partially."
+    },
+    {
+        "question": "Select the correct implementation of the interface which is mentioned below.",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these can be used to fully abstract a class from its implementation?",
+        "options": [
+            "a) Objects",
+            "b) Packages",
+            "c) Interfaces",
+            "d) None of the Mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Access specifiers which can be used for an interface are?",
+        "options": [
+            "a) Public",
+            "b) Protected",
+            "c) Private",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Access specifier of an interface is either public or none. When no access specifier is specified then only default access specifier is used due to which interface is available only to other members of the package in which it is declared, when declared public it can be used by any code declared anywhere in the class area."
+    }
+]

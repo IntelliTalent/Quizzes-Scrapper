@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Which of these methods of the class String is used to obtain length of String object?",
+        "options": [
+            "a) get()",
+            "b) Sizeof()",
+            "c) lengthof()",
+            "d) length()"
+        ],
+        "answer": "d",
+        "explanation": "Method length() of string class is used to get the length of the object as string. Length and hence invokes the length() method."
+    },
+    {
+        "question": "Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?",
+        "options": [
+            "a) getBytes()",
+            "b) GetByte()",
+            "c) giveByte()",
+            "d) Give Bytes()"
+        ],
+        "answer": "a",
+        "explanation": "getBytes() stores the character in an array of bytes. It uses default character to byte conversions."
+    },
+    {
+        "question": "Which of these methods can be used to convert all characters in a String into a character array?",
+        "options": [
+            "a) CharAt()",
+            "b) getChars()",
+            "c) TocharArray()",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "String(chars) is a constructor of class string, it initializes string s with the values stored in character array chars, therefore s contains \u201cxyz\u201d."
+    }
+]

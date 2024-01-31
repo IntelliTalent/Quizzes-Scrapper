@@ -1,0 +1,71 @@
+[
+    {
+        "question": "When a hash function is used to provide message authentication, the hash function value is referred to as",
+        "options": [
+            "a) Message Field",
+            "b) Message Digest",
+            "c) Message Score",
+            "d) Message Leap"
+        ],
+        "answer": "b",
+        "explanation": "A hash function providing message authentication is referred to as massage digest."
+    },
+    {
+        "question": "Message authentication code is also known as",
+        "options": [
+            "a)  key code",
+            "b) hash code",
+            "c) keyed hash function",
+            "d) message key  hash function"
+        ],
+        "answer": "c",
+        "explanation": "Message authentication code is also known as keyed hash function."
+    },
+    {
+        "question": "The main difference in MACs and digital signatures is that, in digital signatures the hash value of the message is encrypted with a user\u2019s public key.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The main difference in MACs and digital signatures is that, in digital signatures the hash value of the message is encrypted with a user\u2019s private key."
+    },
+    {
+        "question": "Case b ( refer Figure 1 From The chapter Message Authentication Codes in William Stallings )is an example of digital signature.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Yes, case b is an example of digital signature as the hash value of the message is encrypted with a user\u2019s private key."
+    },
+    {
+        "question": "What is a one-way password file?",
+        "options": [
+            "a) A scheme in which the password is jumbled and stored",
+            "b) A scheme in which the password is XOR with a key and stored",
+            "c) A scheme in which the hash of the password is stored",
+            "d) A scheme in which the password is passed through a PRF, which is then stored"
+        ],
+        "answer": "c",
+        "explanation": "A scheme in which the hash of the password is stored by an operating system rather than the password itself is the one-way password file system."
+    },
+    {
+        "question": "If the compression function is collision resistant, then so is the resultant iterated hash function.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. The problem of designing a secure hash function reduces to that of designing a collision resistant compression function."
+    },
+    {
+        "question": "A larger hash code cannot be decomposed into independent subcodes.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Hash codes can be decomposed into independent subcodes and this was the logic behind the meet in the middle attack."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Two fair coins are flipped. As a result of this, tails and heads runs occurred where a tail run is a consecutive occurrence of at least one head. Determine the probability function of number of tail runs.",
+        "options": [
+            "a) \\(\\frac{1}{2}\\)",
+            "b) \\(\\frac{5}{6}\\)",
+            "c) \\(\\frac{32}{19}\\)",
+            "d) \\(\\frac{6}{73}\\)"
+        ],
+        "answer": "a",
+        "explanation": "The sample space of the experiment is S = {HH, HT, TH, TT}. Let X is the number of tails and It takes up the values 0, 1 and 2. Now,  P(no tail) = p(0) = \\(\\frac{1}{4}\\), P(one tail) = p(1) = \\(\\frac{2}{4}\\) and P(two tails) = p(2) = \\(\\frac{1}{4}\\). So, X is the number of tail runs and it takes up the values 0 and 1. P(X = 0) = p(0) = \\(\\frac{2}{4} = \\frac{1}{4}\\)."
+    },
+    {
+        "question": "The length of alike metals produced by a hardware store is approximated by a normal distribution model having a mean of 7 cm and a standard deviation of 0.35 cm. Find the probability that the length of a randomly chosen metal is between 5.36 and 6.14 cm?",
+        "options": [
+            "a) 0.562",
+            "b) 0.2029",
+            "c) 3.765",
+            "d) 1.576"
+        ],
+        "answer": "b",
+        "explanation": "Let L be the random variable that represents the length of the component. It has a mean of 7 cm and a standard deviation of 0.35 cm. To find P( 5.36 < x < 6.14). For x = 5.36, z = \\(\\frac{5.36 \u2013 6}{0.35}\\) = -1.82. For x = 6.14, z = \\(\\frac{6.14 \u2013 6}{0.35}\\) = 0.4 \u21d2  P(5.36 < x < 6.14) = P( -1.82 < z < 0.4) = 0.2029."
+    },
+    {
+        "question": "A personal computer has the length of time between charges of the battery is normally distributed with a mean of 66 hours and a standard deviation of 20 hours. What is the probability when the length of time will be between 58 and 75 hours?",
+        "options": [
+            "a) 0.595",
+            "b) 3.44",
+            "c) 0.0443",
+            "d) 1.98"
+        ],
+        "answer": "c",
+        "explanation": "Suppose x be the random variable that represents the length of time. It has a mean of 66 and a standard deviation of 20. Find the probability that x is between 70 and 90 or P(70 < x < 90). For x = 70, z = \\(\\frac{58 \u2013 66}{20}\\) = -4. For x = 75, z = \\(\\frac{75 \u2013 66}{20}\\) = 0.45. P(70 < x < 90) = P(-4 < z < 0.75) = [area to the left of z = 0.75] \u2013 [area to the left of z = -4] = 0.0443. The required  probability when the length of time between 58 and 75 hours is 0.0443."
+    },
+    {
+        "question": "The length of life of an instrument produced by a machine has a normal distribution with a mean of 9.4 months and a standard deviation of 3.2 months. What is the probability that an instrument produced by this machine will last between 6 and 11.6 months?",
+        "options": [
+            "a) 0.642",
+            "b) 0.4098",
+            "c) 0.16",
+            "d) 0.326"
+        ],
+        "answer": "d",
+        "explanation": "We have to find P(6 < x < 11.6). Now, for x = 6, z becomes -1.062 and for z = 11.6, z = 0.687. So, P(6 < x < 11.6) = P(-1.062 < z < 0.687) = 0.326."
+    },
+    {
+        "question": "The speeds of a number of bicycles have a normal distribution model with a mean of 83 km/hr and a standard deviation of 9.4 km/hr. Find the probability that a bicycle picked at random is travelling at more than 95 km/hr?",
+        "options": [
+            "a) 0.1587",
+            "b) 0.38",
+            "c) 0.49",
+            "d) 0/278"
+        ],
+        "answer": "b",
+        "explanation": "Let x be the random variable that represents the speed of bicycle. x has \u03bc = 90 and \u03c3 = 9.5. We have to find the probability that x is higher than 95 or P(x > 95). For x = 95, z = \\(\\frac{95 \u2013 83}{9.4}\\) = 1.27, P(x > 95) = P(z > 1.27) = [total area] \u2013 [area to the left of z = 1] = 1 \u2013 0.620 = 0.38. The probability that a car selected at a random has a speed greater than 100 km/hr is equal to 0.38."
+    },
+    {
+        "question": "Let us say that X is a normally distributed variable with mean(\u03bc) of 43 and standard deviation (\u03c3) of 6.4. Determine the probability of X<32.",
+        "options": [
+            "a) 0.341",
+            "b) 0.962",
+            "c) 6.231",
+            "d) 0.44"
+        ],
+        "answer": "a",
+        "explanation": "The area is defined as the area under the standard normal curve.Now, for x = 32, z becomes \\(\\frac{32 \u2013 43}{6.4}\\) = -1.71. Hence, the required probability is P(x < 32) = P(z < -1.71) = 0.341."
+    },
+    {
+        "question": "The time taken to assemble a machine in a certain plant is a random variable having a normal distribution of 32 hours and a standard deviation of 3.6 hours. What is the probability that a machine can be assembled at this plant in less than 25.4 hours?",
+        "options": [
+            "a) 0.61",
+            "b) 0.674",
+            "c) 0.298",
+            "d) 1.823"
+        ],
+        "answer": "c",
+        "explanation": "We have to find P(x < 25.4). Now, for x = 25.4, z becomes \\(\\frac{25.4 \u2013 32}{3.6}\\) = -1.83. Hence, P(z < -1.83) = 0.298."
+    },
+    {
+        "question": "The scores on an admission test are normally distributed with a mean of 640 and a standard deviation of 105.7. A student wants to be admitted to this university. He takes the test and scores 755. What is the probability of him to be admitted to this university?",
+        "options": [
+            "a) 65.9%",
+            "b) 84.6%",
+            "c) 40.9%",
+            "d) 54%."
+        ],
+        "answer": "b",
+        "explanation": "Let k be the random variable that represents the scores. k is normally distributed with a mean of 640 and a standard deviation of 124.7. The total area under the normal curve represents the total number of students who take the test. If we multiply the values of the areas under the curve by 124.7, we obtain percentages. Now, for k = 755, z = \\(\\frac{755 \u2013 640}{105.7}\\) = 1.087. The proportion of the students who scored below 755 is given by, P = [area to the left of z = 1.087] = 0.846. Hence, the required probability is 84.6 %."
+    },
+    {
+        "question": "The annual salaries of workers in a large manufacturing factory are normally distributed with a mean of Rs. 48,000 and a standard deviation of Rs. 1500. Find the probability of workers who earn between Rs. 35,000 and Rs. 52,000.",
+        "options": [
+            "a) 64%",
+            "b) 76.2%",
+            "c) 42.1%",
+            "d) 20%"
+        ],
+        "answer": "c",
+        "explanation": "For x = 45000, z = -2 and for x = 52000, z = 0.375. Now, area between z = -2 and z = 0.375 is equal to 0.421 or 42.1% earn between Rs. 45,000 and Rs. 52,000."
+    },
+    {
+        "question": "Discrete probability distribution depends on the properties of ___________",
+        "options": [
+            "a) data",
+            "b) machine",
+            "c) discrete variables",
+            "d) probability function"
+        ],
+        "answer": "a",
+        "explanation": "We know that discrete probability function largely depends on the properties and types of data such as Binomial distribution can lead to model binary data such as flipping of coins."
+    }
+]

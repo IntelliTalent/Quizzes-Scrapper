@@ -1,0 +1,113 @@
+[
+    {
+        "question": "What is the meaning of cipher in cryptography?",
+        "options": [
+            "a) an algorithm that performs encryption",
+            "b) an algorithm that generates a secret code",
+            "c) an algorithm that performs encryption or decryption",
+            "d) a secret code"
+        ],
+        "answer": "c",
+        "explanation": "Cipher is an algorithm for performing encryption or decryption. In cryptography, a set of defined steps are followed to generate ciphers."
+    },
+    {
+        "question": "Which of the following is a type of traditional cipher?",
+        "options": [
+            "a) transportation cipher",
+            "b) transposition cipher",
+            "c) transforming cipher",
+            "d) vigenere cipher"
+        ],
+        "answer": "b",
+        "explanation": "There are two types of a traditional cipher. First is transposition cipher and the second is substitution cipher."
+    },
+    {
+        "question": "Which of the following ciphers are created by shuffling the letters of a word?",
+        "options": [
+            "a) substitution cipher",
+            "b) transposition cipher",
+            "c) vigenere cipher",
+            "d) hill cipher"
+        ],
+        "answer": "b",
+        "explanation": "There are two types of traditional ciphers \u2013 Transposition and substitution cipher. In transposition cipher the letters of the given data are shuffled in a particular order, fixed by a given rule."
+    },
+    {
+        "question": "Which of the following is a type of substitution cipher?",
+        "options": [
+            "a) Mono alphabetic cipher",
+            "b) transposition cipher",
+            "c) transportation cipher",
+            "d) transforming cipher"
+        ],
+        "answer": "a",
+        "explanation": "In substitution cipher the plain text is replaced by cipher text according to a fixed rule. There are two types of substitution cipher \u2013 Mono alphabetic and Poly alphabetic cipher."
+    },
+    {
+        "question": "Which of the following is not a type of mono alphabetic cipher?",
+        "options": [
+            "a) additive cipher",
+            "b) multiplicative cipher",
+            "c) afffine cipher",
+            "d) hill cipher"
+        ],
+        "answer": "d",
+        "explanation": "In mono alphabetic cipher each symbol of plain text is replaced by a particular respective symbol in the cipher text. There are three types of mono alphabetic ciphers- additive, multiplicative and affine."
+    },
+    {
+        "question": "Which of the following is not a type of poly alphabetic cipher?",
+        "options": [
+            "a) Auto key cipher",
+            "b) Hill cipher",
+            "c) Playfair cipher",
+            "d) Additive cipher"
+        ],
+        "answer": "Answer:d",
+        "explanation": "In poly alphabetic cipher each symbol of plain text is replaced by a different cipher text regardless of its occurrence. Out of the given options, only additive cipher is not a poly alphabetic cipher."
+    },
+    {
+        "question": "What will be the ciphered text for the input string \u201csanfoundry\u201d with key string as \u201ccode\u201d to the program of keyword cipher?",
+        "options": [
+            "a) SCMBNUMERY",
+            "b) SSCMBNUMERY",
+            "c) NIFO",
+            "d) NILO"
+        ],
+        "answer": "a",
+        "explanation": "Keyword cipher is type of mono alphabetic cipher. In this algorithm the letters {A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z} by"
+    },
+    {
+        "question": "Which of the following is a type of transposition cipher?",
+        "options": [
+            "a) Rail Fence cipher",
+            "b) Hill cipher",
+            "c) Rotor cipher",
+            "d) One time pad"
+        ],
+        "answer": "a",
+        "explanation": "In transposition cipher the letters of the given data are shuffled in a particular order, fixed by a given rule. There are two types of transposition cipher \u2013 Rail fence cipher and Columnar transposition cipher."
+    },
+    {
+        "question": "What will be output for the given code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code is the implementation of keyword cipher. It is an example of mono alphabetic cipher. The given string is always converted into an uppercase ciphered text."
+    },
+    {
+        "question": "What will be output for the given code taking input string as \u201csanfoundry\u201d?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code is an example of mono-alphabetic cipher. The code replaces the letters of the input string by corresponding keyboard letters."
+    },
+    {
+        "question": "In which of the following cipher the plain text and the ciphered text does not have same number of letters?",
+        "options": [
+            "a) keyword cipher",
+            "b) vigenere cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "In transposition cipher and mono alphabetic cipher the number of letters in the plain text and ciphered text remain same. But in poly alphabetic cipher the number of letters change. So here as vigenere cipher is the only poly alphabetic cipher so it will be the answer."
+    }
+]

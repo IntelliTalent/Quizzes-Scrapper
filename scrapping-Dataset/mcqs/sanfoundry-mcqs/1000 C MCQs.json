@@ -1,0 +1,548 @@
+[
+    {
+        "question": "Who is the father of C language?",
+        "options": [
+            "a) Steve Jobs",
+            "b) James Gosling",
+            "c) Dennis Ritchie",
+            "d) Rasmus Lerdorf"
+        ],
+        "answer": "c",
+        "explanation": "Dennis Ritchie is the father of C Programming Language. C programming language was developed in 1972 at American Telephone & Telegraph Bell Laboratories of USA."
+    },
+    {
+        "question": "Which of the following is not a valid C variable name?",
+        "options": [
+            "a) int number;",
+            "b) float rate;",
+            "c) int variable_count;",
+            "d) int $main;"
+        ],
+        "answer": "d",
+        "explanation": "Since only underscore and no other special character is allowed in a variable name, it results in an error."
+    },
+    {
+        "question": "All keywords in C are in ____________",
+        "options": [
+            "a) LowerCase letters",
+            "b) UpperCase letters",
+            "c) CamelCase letters",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is true for variable names in C?",
+        "options": [
+            "a) They can contain alphanumeric characters as well as special characters",
+            "b) It is not an error to declare a variable to be one of the keywords(like goto, static)",
+            "c) Variable names cannot start with a digit",
+            "d) Variable can be of any length"
+        ],
+        "answer": "c",
+        "explanation": "According to the syntax for C variable name, it cannot start with a digit."
+    },
+    {
+        "question": "Which is valid C expression?",
+        "options": [
+            "a) int my_num = 100,000;",
+            "b) int my_num = 100000;",
+            "c) int my num = 1000;",
+            "d) int $my_num = 10000;"
+        ],
+        "answer": "b",
+        "explanation": "Space, comma and $ cannot be used in a variable name."
+    },
+    {
+        "question": "Which of the following cannot be a variable name in C?",
+        "options": [
+            "a) volatile",
+            "b) true",
+            "c) friend",
+            "d) export"
+        ],
+        "answer": "a",
+        "explanation": "volatile is C keyword."
+    },
+    {
+        "question": "What is short int in C programming?",
+        "options": [
+            "a) The basic data type of C",
+            "b) Qualifier",
+            "c) Short is the qualifier and int is the basic data type",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following declaration is not supported by C language?",
+        "options": [
+            "a) String str;",
+            "b) char *str;",
+            "c) float str = 3e2;",
+            "d) Both \u201cString str;\u201d and \u201cfloat str = 3e2;\u201d"
+        ],
+        "answer": "a",
+        "explanation": "It is legal in Java, but not in C language."
+    },
+    {
+        "question": "Which keyword is used to prevent any changes in the variable within a C program?",
+        "options": [
+            "a) immutable",
+            "b) mutable",
+            "c) const",
+            "d) volatile"
+        ],
+        "answer": "c",
+        "explanation": "const is a keyword constant in C program."
+    },
+    {
+        "question": "What is the result of logical or relational expression in C?",
+        "options": [
+            "a) True or False",
+            "b) 0 or 1",
+            "c) 0 if an expression is false and any positive number if an expression is true",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following typecasting is accepted by C language?",
+        "options": [
+            "a) Widening conversions",
+            "b) Narrowing conversions",
+            "c) Widening & Narrowing conversions",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Where in C the order of precedence of operators do not exist?",
+        "options": [
+            "a) Within conditional statements, if, else",
+            "b) Within while, do-while",
+            "c) Within a macro definition",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is NOT possible with any 2 operators in C?",
+        "options": [
+            "a) Different precedence, same associativity",
+            "b) Different precedence, different associativity",
+            "c) Same precedence, different associativity",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What is an example of iteration in C?",
+        "options": [
+            "a) for",
+            "b) while",
+            "c) do-while",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Functions can return enumeration constants in C?",
+        "options": [
+            "a) true",
+            "b) false",
+            "c) depends on the compiler",
+            "d) depends on the standard"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Functions in C Language are always _________",
+        "options": [
+            "a) Internal",
+            "b) External",
+            "c) Both Internal and External",
+            "d) External and Internal are not valid terms for functions"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of following is not accepted in C?",
+        "options": [
+            "a) static a = 10; //static as",
+            "b) static int func (int); //parameter as static",
+            "c) static static int a; //a static variable prefixed with static",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Property which allows to produce different executable for different platforms in C is called?",
+        "options": [
+            "a) File inclusion",
+            "b) Selective inclusion",
+            "c) Conditional compilation",
+            "d) Recursive macros"
+        ],
+        "answer": "c",
+        "explanation": "Conditional compilation is the preprocessor facility to produce a different executable."
+    },
+    {
+        "question": "What is #include <stdio.h>?",
+        "options": [
+            "a) Preprocessor directive",
+            "b) Inclusion directive",
+            "c) File inclusion directive",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "C preprocessors can have compiler specific features.",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) Depends on the standard",
+            "d) Depends on the platform"
+        ],
+        "answer": "a",
+        "explanation": "#pragma is compiler specific feature."
+    },
+    {
+        "question": "Which of the following are C preprocessors?",
+        "options": [
+            "a) #ifdef",
+            "b) #define",
+            "c) #endif",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "The C-preprocessors are specified with _________ symbol.",
+        "options": [
+            "a) #",
+            "b) $",
+            "c) \u201d \u201d",
+            "d) &"
+        ],
+        "answer": "a",
+        "explanation": "The C-preprocessors are specified with # symbol."
+    },
+    {
+        "question": "How is search done in #include and #include \u201csomelibrary.h\u201d according to C standard?",
+        "options": [
+            "a) When former is used, current directory is searched and when latter is used, standard directory is searched",
+            "b) When former is used, standard directory is searched and when latter is used, current directory is searched",
+            "c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched",
+            "d) For both, search for \u2018somelibrary\u2019 is done in implementation-defined places"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "How many number of pointer (*) does C have against a pointer variable declaration?",
+        "options": [
+            "a) 7",
+            "b) 127",
+            "c) 255",
+            "d) No limits"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is not possible statically in C language?",
+        "options": [
+            "a) Jagged Array",
+            "b) Rectangular Array",
+            "c) Cuboidal Array",
+            "d) Multidimensional Array"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following return-type cannot be used for a function in C?",
+        "options": [
+            "a) char *",
+            "b) struct",
+            "c) void",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "The standard header _______ is used for variable list arguments (\u2026) in C.",
+        "options": [
+            "a) <stdio.h >",
+            "b) <stdlib.h>",
+            "c) <math.h>",
+            "d) <stdarg.h>"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?",
+        "options": [
+            "a) Standard input",
+            "b) Standard output",
+            "c) Standard error",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "In C language, FILE is of which data type?",
+        "options": [
+            "a) int",
+            "b) char *",
+            "c) struct",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the sizeof(char) in a 32-bit C compiler?",
+        "options": [
+            "a) 1 bit",
+            "b) 2 bits",
+            "c) 1 Byte",
+            "d) 2 Bytes"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is not an operator in C?",
+        "options": [
+            "a) ,",
+            "b) sizeof()",
+            "c) ~",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "scanf() is a predefined function in______header file.",
+        "options": [
+            "a) stdlib. h",
+            "b) ctype. h",
+            "c) stdio. h",
+            "d) stdarg. h"
+        ],
+        "answer": "c",
+        "explanation": "scanf() is a predefined function in \"stdio.h\" header file.printf and scanf() carry out input and output functions in C. These functions statements are present in the header file stdio.h."
+    },
+    {
+        "question": "What is meant by \u2018a\u2019 in the following C operation?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since y is already defined, redefining it results in an error."
+    },
+    {
+        "question": "What will happen if the following C code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "A C program can have same function name and same variable name."
+    },
+    {
+        "question": "What will be the output of the following C code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The range of signed character is from -128 to +127. Since we are assigning a value of 128 to the variable \u2018chr\u2019, the result will be negative. 128 in binary is represented as \u201c1000 0000\u201d for character datatype. As you can see that the sign bit is set to 1, followed by 7 zeros (0), its final decimal value will be -128 (negative 128)."
+    },
+    {
+        "question": "What will be the output of the following C code on a 64 bit machine?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Since the size of a union is the size of its maximum data type, here int is the largest data type. Hence the size of the union is 4."
+    },
+    {
+        "question": "What will be the output of the following C function?",
+        "options": [],
+        "answer": "d",
+        "explanation": "m is an integer constant, hence it is compatible."
+    },
+    {
+        "question": "What will be the output of the following C code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Will the following C code compile without any error?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Compilers implementing C90 do not allow this, but compilers implementing C99 allow it."
+    },
+    {
+        "question": "What will be the final value of x in the following C code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C code? (Initial values: x= 7, y = 8)",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the difference between the following 2 C codes?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the value of the following assignment expression?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C function?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the final values of i and j in the following C code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Comment on the following C statement.",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "How many times i value is checked in the following C program?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the data type returned for the following C function?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the problem in the following C declarations?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which option should be selected to work the following C expression?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the meaning of the following C statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What are the elements present in the array of the following C code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C function when EOF returns?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which part of the program address space is p stored in the following C code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following sequences are unaccepted in C language?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Comment on the output of following C code.",
+        "options": [],
+        "answer": "Answer:d",
+        "explanation": "Output:"
+    },
+    {
+        "question": "What is the output of this C code?",
+        "options": [],
+        "answer": "Answer:b",
+        "explanation": "Output:"
+    },
+    {
+        "question": "What is the output of this C code?",
+        "options": [],
+        "answer": "Answer:d",
+        "explanation": "Output:"
+    },
+    {
+        "question": "What is the output of this C code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Output:"
+    },
+    {
+        "question": "What is the output of this C code?",
+        "options": [],
+        "answer": "Answer:c",
+        "explanation": "Output:"
+    }
+]

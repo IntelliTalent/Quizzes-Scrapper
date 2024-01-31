@@ -1,0 +1,155 @@
+[
+    {
+        "question": "JdbcTemplate that takes advantage of Java 1.5 features such as autoboxing, generics, and variable-length arguments to simplify its usage.",
+        "options": [
+            "a) org.springframework.jdbc.core.JdbcTemplate",
+            "b) org.springframework.jdbc.core.simple.SimpleJdbcTemplate",
+            "c) org.springframework.jdbc.*",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "org.springframework.jdbc.core.simple.SimpleJdbcTemplate is an evolution of JdbcTemplate that takes advantage of Java 1.5 features such as autoboxing, generics, and variable-length arguments to simplify its usage."
+    },
+    {
+        "question": "JdbcTemplate require statement parameters to be passed as an object array.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In SimpleJdbcTemplate, they can be passed as variable-length arguments; this saves you the trouble of wrapping them in an array."
+    },
+    {
+        "question": "To use SimpleJdbcTemplate:-",
+        "options": [
+            "a) instantiate it directly",
+            "b) retrieve its instance by extending the SimpleJdbcDaoSupport class",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To use SimpleJdbcTemplate, you can either instantiate it directly or retrieve its instance by extending the SimpleJdbcDaoSupport class."
+    },
+    {
+        "question": "SimpleJdbcTemplate offers a convenient batch update method in the form of:-",
+        "options": [
+            "a) Vector",
+            "b) Set",
+            "c) Map",
+            "d) List"
+        ],
+        "answer": "d",
+        "explanation": "SimpleJdbcTemplate offers a convenient batch update method for you to specify a SQL statement and a batch of parameters in the form of List"
+    },
+    {
+        "question": "Method has a warning from the Java compiler because of an unchecked conversion from List to List",
+        "options": [
+            "a) findAll()",
+            "b) query()",
+            "c) update()",
+            "d) batchUpdate()"
+        ],
+        "answer": "a",
+        "explanation": "When using the classic JdbcTemplate, the findAll() method has a warning from the Java compiler because of an unchecked conversion from List to List"
+    },
+    {
+        "question": "The return type of the queryForObject() method will be determined by the class argument (e.g., String.class).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "So, there\u2019s no need for you to perform typecasting manually."
+    },
+    {
+        "question": "Named SQL parameters are specified by name (starting with a colon) rather than by position.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Another option when binding SQL parameters in the Spring JDBC framework is to use named parameters."
+    },
+    {
+        "question": "Named parameters are supported only in SimpleJdbcTemplate.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Named parameters are supported only in SimpleJdbcTemplate and NamedParameterJdbcTemplate."
+    },
+    {
+        "question": "Implementations of the SqlParameterSource interface:-",
+        "options": [
+            "a) MapSqlParameterSource",
+            "b) BeanPropertySqlParameterSource",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are three implementations of the SqlParameterSource interface. The basic one is MapSqlParameterSource, which wraps a map as its parameter source."
+    },
+    {
+        "question": "The Spring framework offers a consistent data access exception-handling mechanism for its data access module.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In general, all exceptions thrown by the Spring JDBC framework are subclasses of org.springframework.dao.DataAccessException, a type of RuntimeException that you are not forced to catch."
+    },
+    {
+        "question": "In your DAO methods, you neither need to surround the code with a try/catch block nor declare throwing an exception in the method signature.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This is because DataAccessException (and therefore its subclasses, including DuplicateKeyException) is an unchecked exception that you are not forced to catch."
+    },
+    {
+        "question": "The direct parent class of DataAccessException is:-",
+        "options": [
+            "a) RuntimeException",
+            "b) NestedRuntimeException",
+            "c) Exception",
+            "d) Throwable"
+        ],
+        "answer": "b",
+        "explanation": "A core Spring exception class that wraps another exception in a RuntimeException."
+    },
+    {
+        "question": "Which concrete exception in the DataAccessException hierarchy should be thrown?",
+        "options": [
+            "a) errorCode",
+            "b) SQLState properties of the caught SQLException",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "As a DataAccessException wraps the underlying SQLException as the root cause, you can inspect the errorCode and SQLState properties with the following catch block."
+    },
+    {
+        "question": "Error code for The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint.",
+        "options": [
+            "a) -1",
+            "b) 0",
+            "c) 23505",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": "SQL State Message Text"
+    },
+    {
+        "question": "How does the Spring JDBC framework know that state 23505 should be mapped to DuplicateKeyException?",
+        "options": [
+            "a) error code",
+            "b) SQL state",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The error code and SQL state are database specific, which means different database products may return different codes for the same kind of error."
+    }
+]

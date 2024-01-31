@@ -1,0 +1,152 @@
+[
+    {
+        "question": "The most common hamming codes are a generalized version of?",
+        "options": [
+            "a) Hamming(7, 4) code",
+            "b) Hamming(8, 4) code",
+            "c) Hamming(6, 3) code",
+            "d) Hamming(5, 7) code"
+        ],
+        "answer": "a",
+        "explanation": "The most common hamming codes generalize to form hamming(7, 4) code. It encodes four bits of data into seven bits by adding three parity bits."
+    },
+    {
+        "question": "What is the minimal Hamming distance between any two correct codewords?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "Since we use a generalized version of Hamming(7, 4) code, the minimal hamming distance is 3. It cannot correct burst errors."
+    },
+    {
+        "question": "Why do we require hamming codes?",
+        "options": [
+            "a) Error correction",
+            "b) Encryption only",
+            "c) Decryption",
+            "d) Bit stuffing"
+        ],
+        "answer": "a",
+        "explanation": "Hamming codes are used for the purpose of error detection and correction. It is also used for channel encoding and decoding. They are linear-error correcting codes."
+    },
+    {
+        "question": "Hamming codes can be used for both single-bit error and burst error detection and correction.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Hamming bits are suitable only for single-bit error detection and correction and two bit error detection. It is very unlikely to detect burst errors."
+    },
+    {
+        "question": "Who invented Hamming codes?",
+        "options": [
+            "a) Richard Hamming",
+            "b) Ross Hamming",
+            "c) Shannon",
+            "d) Huffman"
+        ],
+        "answer": "a",
+        "explanation": "Richard W. Hamming invented hamming codes in Bell Telephone Laboratory to minimize the errors in punched card readers. Huffman invented huffman codes. Shannon invented Shannon-Fanno codes."
+    },
+    {
+        "question": "What is the message length \u2018k\u2019 of a Hamming(7,4) code?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "Hamming codes are a class of binary linear codes, hence r>=2. For a hamming(7,4) code, the message length \u2018k\u2019 is 2"
+    },
+    {
+        "question": "What is the rate of hamming codes?",
+        "options": [
+            "a) 1-[r/(2",
+            "b) 1-(r/2",
+            "c) 1+(r/2",
+            "d) r/2"
+        ],
+        "answer": "a",
+        "explanation": "Rate of a hamming code is message length divided by block length (i.e.) 2"
+    },
+    {
+        "question": "A two-out-of-five code consists of _________",
+        "options": [
+            "a) Two 0s and three 1s",
+            "b) Three 0s and two 1s",
+            "c) Four 0s and one 1s",
+            "d) One 0s and four 1s"
+        ],
+        "answer": "b",
+        "explanation": "A two-out-of-five code consists of three 0s and two 1s. Hence, it contains ten possible combinations to represent digits from 0-9."
+    },
+    {
+        "question": "Including a parity bit along with the data surely detects the errors.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "If error has occurred in a data string, parity will change inorder to indicate errors. However, if the error occurs in parity bit, the error goes undetected."
+    },
+    {
+        "question": "________ is the mechanism of sending data bits multiple times to ensure consistency.",
+        "options": [
+            "a) Repetition",
+            "b) Duplication",
+            "c) Mirroring",
+            "d) Redundancy"
+        ],
+        "answer": "a",
+        "explanation": "Repeating data bits multiple times is done to ensure consistency. If the data bit to be sent is a 1, a n=3 repetition code will send 111. If the bits are not the same, an error has occurred."
+    },
+    {
+        "question": "An Extended hamming code is also called as __________",
+        "options": [
+            "a) SEDDEC",
+            "b) SEDDED",
+            "c) SECDED",
+            "d) SECDEC"
+        ],
+        "answer": "c",
+        "explanation": "An Extended Hamming code is also called as SECDED (Single Error Correction Double Error Detection). The most popular codes are (72, 64) code and (127,120) code."
+    },
+    {
+        "question": "What is the code rate of a repetition Hamming code (3, 1)?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 1/3",
+            "d) 1.3"
+        ],
+        "answer": "c",
+        "explanation": "The code rate of a repetition hamming code is the second number divided by the first number. Here, it is 1/3."
+    },
+    {
+        "question": "For a hamming code of parity bit m=8, what is the total bits and data bits?",
+        "options": [
+            "a) (255, 247)",
+            "b) (127, 119)",
+            "c) (31, 26)",
+            "d) (0, 8)"
+        ],
+        "answer": "a",
+        "explanation": "Total bits are computed as, 2"
+    },
+    {
+        "question": "What is the rate of the hamming code of parity bit m=8?",
+        "options": [
+            "a) 0.94",
+            "b) 0.92",
+            "c) 0.90",
+            "d) 0.97"
+        ],
+        "answer": "d",
+        "explanation": "For a hamming code of parity bit 8, total bits = 255 and data bits = 247. Rate= data bits/ total bits"
+    }
+]

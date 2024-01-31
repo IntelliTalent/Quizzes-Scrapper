@@ -1,0 +1,156 @@
+[
+    {
+        "question": "A transaction propagation behavior can be specified by the:-",
+        "options": [
+            "a) propagation",
+            "b) consistency",
+            "c) isolation",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A transaction propagation behavior can be specified by the propagation transaction attribute."
+    },
+    {
+        "question": "Transaction propagation behavior are defined in the:-",
+        "options": [
+            "a) org.springframework.transaction.Transaction",
+            "b) org.springframework.transaction.TransactionDefinition",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "These behaviors are defined in the org.springframework.transaction.TransactionDefinition interface."
+    },
+    {
+        "question": "If there\u2019s an existing transaction in progress, the current method should run within this transaction.",
+        "options": [
+            "a) Required",
+            "b) REQUIRES NEW",
+            "c) SUPPORTS",
+            "d) NOT SUPPORTED"
+        ],
+        "answer": "a",
+        "explanation": "If there\u2019s an existing transaction in progress, the current method should run within this transaction. Otherwise, it should start a new transaction and run within its own transaction."
+    },
+    {
+        "question": "The current method must start a new transaction and run within its own transaction.",
+        "options": [
+            "a) Required",
+            "b) REQUIRES NEW",
+            "c) SUPPORTS",
+            "d) NOT SUPPORTED"
+        ],
+        "answer": "b",
+        "explanation": "The current method must start a new transaction and run within its own transaction. If there\u2019s an existing transaction in progress, it should be suspended."
+    },
+    {
+        "question": "If there\u2019s an existing transaction in progress, the current method can run within this transaction.",
+        "options": [
+            "a) Required",
+            "b) REQUIRES NEW",
+            "c) SUPPORTS",
+            "d) NOT SUPPORTED"
+        ],
+        "answer": "c",
+        "explanation": "Otherwise, it is not necessary to run within a transaction."
+    },
+    {
+        "question": "The current method must run within a transaction.",
+        "options": [
+            "a) Required",
+            "b) MANDATORY",
+            "c) SUPPORTS",
+            "d) NOT SUPPORTED"
+        ],
+        "answer": "b",
+        "explanation": "The current method must run within a transaction. If there\u2019s no existing transaction in progress, an exception will be thrown."
+    },
+    {
+        "question": "The current method should not run within a transaction. If there\u2019s an existing transaction in progress, an exception will be thrown.",
+        "options": [
+            "a) Required",
+            "b) MANDATORY",
+            "c) SUPPORTS",
+            "d) NEVER"
+        ],
+        "answer": "d",
+        "explanation": "The current method should not run within a transaction. If there\u2019s an existing transaction in progress, an exception will be thrown."
+    },
+    {
+        "question": "If there\u2019s an existing transaction in progress, the current method should run within the nested transaction.",
+        "options": [
+            "a) Required",
+            "b) MANDATORY",
+            "c) NESTED",
+            "d) NEVER"
+        ],
+        "answer": "c",
+        "explanation": "If there\u2019s an existing transaction in progress, the current method should run within the nested transaction (supported by the JDBC 3.0 save point feature) of this transaction. Otherwise, it should start a new transaction and run within its own transaction."
+    },
+    {
+        "question": "For two transactions T1 and T2, T1 reads a field that has been updated by T2 but not yet committed.",
+        "options": [
+            "a) Dirty Read",
+            "b) Nonrepeatable read",
+            "c) Phantom read",
+            "d) Lost Updates"
+        ],
+        "answer": "a",
+        "explanation": "Later, if T2 rolls back, the field read by T1 will be temporary and invalid."
+    },
+    {
+        "question": "For two transactions T1 and T2, T1 reads a field and then T2 updates the field.",
+        "options": [
+            "a) Dirty Read",
+            "b) Nonrepeatable read",
+            "c) Phantom read",
+            "d) Lost Updates"
+        ],
+        "answer": "b",
+        "explanation": "Later, if T1 reads the same field again, the value will be different."
+    },
+    {
+        "question": "For two transactions T1 and T2, T1 reads some rows from a table and then T2 inserts new rows into the table.",
+        "options": [
+            "a) Dirty Read",
+            "b) Nonrepeatable read",
+            "c) Phantom read",
+            "d) Lost Updates"
+        ],
+        "answer": "c",
+        "explanation": "Later, if T1 reads the same table again, there will be additional rows."
+    },
+    {
+        "question": "For two transactions T1 and T2, they both select a row for update, and based on the state of that row, make an update to it.",
+        "options": [
+            "a) Dirty Read",
+            "b) Nonrepeatable read",
+            "c) Phantom read",
+            "d) Lost Updates"
+        ],
+        "answer": "d",
+        "explanation": "Thus, one overwrites the other when the second transaction to commit should have waited until the first one committed before performing its selection."
+    },
+    {
+        "question": "Isolation Levels Supported by Spring:-",
+        "options": [
+            "a) DEFAULT",
+            "b) READ COMMITTED",
+            "c) READ UNCOMMITTED",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Isolation Description"
+    },
+    {
+        "question": "The exceptions that cause a transaction to roll back or not can be specified by attribute:-",
+        "options": [
+            "a) rollback",
+            "b) commit",
+            "c) serialize",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Any exceptions not explicitly specified in this attribute will be handled by the default rollback rule (i.e., rolling back for unchecked exceptions and not rolling back for checked exceptions)."
+    }
+]

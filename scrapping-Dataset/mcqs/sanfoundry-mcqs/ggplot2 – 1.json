@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_______ grammar makes a clear distinction between your data and what gets displayed on the screen or page.",
+        "options": [
+            "a) ggplot1",
+            "b) ggplot2",
+            "c) d3.js",
+            "d) ggplot3"
+        ],
+        "answer": "b",
+        "explanation": "The emphasis in ggplot2 is reducing the amount of thinking time by making it easier to go from the plot in your brain to the plot on the page."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) mean_se is used to calculate mean and standard errors on either side",
+            "b) hmisc wraps up a selection of summary functions from Hmisc to make it easy to use",
+            "c) plot is used to create a scatterplot matrix (experimental)",
+            "d) translate_qplot_base is used for translating between qplot and base graphics"
+        ],
+        "answer": "c",
+        "explanation": "plotmatrix is used to create a scatterplot matrix (experimental)."
+    },
+    {
+        "question": "Which of the following cuts numeric vector into intervals of equal length?",
+        "options": [
+            "a) cut_interval",
+            "b) cut_time",
+            "c) cut_number",
+            "d) cut_date"
+        ],
+        "answer": "a",
+        "explanation": "cut_number cuts numeric vector into intervals containing equal number of points."
+    },
+    {
+        "question": "Which of the following is a plot to investigate the order in which observations were recorded?",
+        "options": [
+            "a) ggplot",
+            "b) ggsave",
+            "c) ggpcp",
+            "d) ggorder"
+        ],
+        "answer": "d",
+        "explanation": "ggsave save a ggplot with sensible defaults."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) theme_minimal is minimalistic theme with no background annotations",
+            "b) theme_color is classic-looking theme, with x and y axis lines and no gridlines",
+            "c) theme_classic is a classic-looking theme",
+            "d) translate_qplot_base is used for translating between qplot and base graphics"
+        ],
+        "answer": "b",
+        "explanation": "theme_classic is a classic-looking theme, with x and y axis lines and no gridlines."
+    },
+    {
+        "question": "__________ modifies geom/stat aesthetic defaults for future plots.",
+        "options": [
+            "a) translate_qplot_base",
+            "b) translate_qplot_gpl",
+            "c) translate_qplot_defaults",
+            "d) translate_qplot_ggplot"
+        ],
+        "answer": "c",
+        "explanation": "translate_qplot_gpl is used for translating between qplot and Graphics Production Library (GPL)."
+    },
+    {
+        "question": "Which of the following is discrete state calculator?",
+        "options": [
+            "a) discrete_scale",
+            "b) ggpcp",
+            "c) ggfluctuation",
+            "d) ggmissing"
+        ],
+        "answer": "c",
+        "explanation": "ggpcp is used to create a parallel coordinate plot."
+    },
+    {
+        "question": "Which of the following creates fluctuation plot?",
+        "options": [
+            "a) ggmissplot",
+            "b) ggmissing",
+            "c) ggfluctuation",
+            "d) ggpcp"
+        ],
+        "answer": "b",
+        "explanation": "Fluctuations are used to detect outliers."
+    },
+    {
+        "question": "________ is used to create a plot to illustrate patterns of missing values.",
+        "options": [
+            "a) ggmissplot",
+            "b) ggmissing",
+            "c) ggfluctuation",
+            "d) ggpcp"
+        ],
+        "answer": "b",
+        "explanation": "The missing values plot is a useful tool to get a rapid overview of the number and pattern of missing values in a dataset."
+    }
+]

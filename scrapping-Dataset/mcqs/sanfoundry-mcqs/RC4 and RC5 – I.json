@@ -1,0 +1,120 @@
+[
+    {
+        "question": "Which of the following is true for the RC5 algorithm?",
+        "options": [
+            "i) Has variable number of rounds"
+        ],
+        "answer": "a",
+        "explanation": "RC5 algorithm can have a variable key length and requires low amount of memory."
+    },
+    {
+        "question": "What are the allowable values of word size in bit for RC5 algorithm?",
+        "options": [
+            "a) 16, 32",
+            "b) 16, 32, 64",
+            "c) 8, 16, 32",
+            "d) 16, 32, 48"
+        ],
+        "answer": "b",
+        "explanation": "Word sizes in bits for RC5 algorithm can be 16, 32 or 64."
+    },
+    {
+        "question": "The number of rounds in RC5 can range from 0 to _____________",
+        "options": [
+            "a) 127",
+            "b) 63",
+            "c) 255",
+            "d) 31"
+        ],
+        "answer": "c",
+        "explanation": "Number of Rounds range from 0 to 255."
+    },
+    {
+        "question": "The standard/nominal version of the RC5-w/r/b has parameters w/r/b as",
+        "options": [
+            "a) 32/18/16",
+            "b) 16/18/16",
+            "c) 32/12/16",
+            "d) 32/16/18"
+        ],
+        "answer": "c",
+        "explanation": "Nominal/Standard version is RC5-32/12/16."
+    },
+    {
+        "question": "The total number of subkeys t used in the RC5 algorithm is given by the formula (r corresponds to number of rounds)",
+        "options": [
+            "a) t=2r+4",
+            "b) t=2r",
+            "c) t=2r+2",
+            "d) t=2r-2"
+        ],
+        "answer": "c",
+        "explanation": "The total number of keys used in the RC5 algorithm is given by the formula t=2r=2."
+    },
+    {
+        "question": "RC5 uses 2 magic constants to define their subkeys. These are",
+        "options": [
+            "a) Base of natural Logarithm and Golden ratio",
+            "b) Base of natural Logarithm and Pi",
+            "c) Golden Ratio and  Pi",
+            "d) Pi and Golden Ration"
+        ],
+        "answer": "a",
+        "explanation": "The initialize operations makes use of magic constants defined as follows:"
+    },
+    {
+        "question": "The value of the base of natural logarithms is",
+        "options": [
+            "a) e= 2.7073",
+            "b) e= 2.7183",
+            "c) e= 3.7183",
+            "d) e= 1.7273"
+        ],
+        "answer": "b",
+        "explanation": "The base of natural log i.e. \u2018e\u2019 has a value 2.7183."
+    },
+    {
+        "question": "The value of the golden ratio is",
+        "options": [
+            "a) \u1db2 =2.618",
+            "b) \u1db2 =1.622",
+            "c) \u1db2 =1.743",
+            "d) \u1db2 =1.618"
+        ],
+        "answer": "d",
+        "explanation": "The value of the golden ratio is 1.618."
+    },
+    {
+        "question": "In RC5, the initialization operations makes use of magic constants defined as follows:",
+        "options": [
+            "a) B7DF",
+            "b) B7D4",
+            "c) B7E1",
+            "d) B6E2"
+        ],
+        "answer": "c",
+        "explanation": "Pw is B7E1 for \u2018w\u2019 of the size 16 bits."
+    },
+    {
+        "question": "In RC5, the initialization operations makes use of magic constants defined as follows:",
+        "options": [
+            "a) 9D3779B4",
+            "b) 9D7779F9",
+            "c) 9E36D9B2",
+            "d) 9E3779B9"
+        ],
+        "answer": "d",
+        "explanation": "Pw is 9E3779B9 for \u2018w\u2019 of the size 32 bits."
+    },
+    {
+        "question": "Calculate the number of subkeys required in RC5 for 18 rounds of computation.",
+        "options": [
+            "a) 40",
+            "b) 38",
+            "c) 36",
+            "d) 34"
+        ],
+        "answer": "b",
+        "explanation": "Using the formula t=2r+2 we get number of subkeys as 38."
+    }
+]

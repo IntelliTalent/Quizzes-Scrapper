@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Two important methods in analysis is differentiation and   __________ transformation.",
+        "options": [
+            "a) Bernoulli",
+            "b) Fourier",
+            "c) Bohr",
+            "d) Rutherford"
+        ],
+        "answer": "b",
+        "explanation": "Two important methods in the analysis is differentiation and Fourier transformation. Unfortunately, not all functions are differentiable or have a Fourier transform."
+    },
+    {
+        "question": "Every ________ function has a probability distribution function.",
+        "options": [
+            "a) Continuous",
+            "b) Discrete",
+            "c) Categorical",
+            "d) Random"
+        ],
+        "answer": "a",
+        "explanation": "Every continuous random variable x has a great Probability Density Function (PDF). The PDF can sometimes be greater than 1. This is in contrast to the discrete case."
+    },
+    {
+        "question": "Which package resorts to numerical methods when it encounters a model it does not recognize.",
+        "options": [
+            "a) destrEx",
+            "b) ditrEx",
+            "c) distrEx",
+            "d) Exdistr"
+        ],
+        "answer": "c",
+        "explanation": "distrEx provides some extensions of package distr and further functionalities like var, sd, IQR, mad, median, skewness, kurtosis truncated moments."
+    },
+    {
+        "question": "When \u00b5 = ___ and \u03c3 = ___ we say that the random variable has a standard normal distribution.",
+        "options": [
+            "a) 0,1",
+            "b) 0,0",
+            "c) 1,0",
+            "d) 1,1"
+        ],
+        "answer": "a",
+        "explanation": "When \u00b5 = 0 and \u03c3 = 1 we say that the random variable has a standard normal distribution and we typically write Z \u223c norm(mean = 0, sd = 1)."
+    },
+    {
+        "question": "Which of the following is the symbol of standard normal PDF?",
+        "options": [
+            "a) \u03c6",
+            "b) #",
+            "c) &",
+            "d) *"
+        ],
+        "answer": "a",
+        "explanation": "The lowercase Greek letter phi (\u03c6) is used to denote the standard normal PDF and the capital Greek letter phi \u03a6 is used to denote the standard normal CDF."
+    },
+    {
+        "question": "The __________ package has functionality to investigate transformations of univariate distributions.",
+        "options": [
+            "a) Distri",
+            "b) Dirtr",
+            "c) Distr",
+            "d) Hyperbolic"
+        ],
+        "answer": "c",
+        "explanation": "The distr package has a functionality to find the transformations of one variable distribution. There are exact results for the ordinary transformations for the standard distributions, and distr takes advantage of these in many cases."
+    },
+    {
+        "question": "Which distribution looks like a norm distribution but with very heavy tails?",
+        "options": [
+            "a) Simple",
+            "b) Discrete",
+            "c) Continuous",
+            "d) Cauchy"
+        ],
+        "answer": "d",
+        "explanation": "The Cauchy distribution looks like a norm distribution but with very heavy tails. The mean (and variance) do not exist, that is, they are infinite."
+    },
+    {
+        "question": "The ________ is represented by the location parameter.",
+        "options": [
+            "a) Median",
+            "b) Mode",
+            "c) Mean",
+            "d) Variance"
+        ],
+        "answer": "a",
+        "explanation": "The median is represented by the location parameter, and the scale parameter influences the spread of the distribution about its median."
+    },
+    {
+        "question": "The ______ parameter influences the spread of the distribution about its median.",
+        "options": [
+            "a) Scale",
+            "b) Mode",
+            "c) Mean",
+            "d) Variance"
+        ],
+        "answer": "a",
+        "explanation": "The scale parameter influences the spread of the distribution about its median. The median is represented by the location parameter."
+    },
+    {
+        "question": "Which distribution comes up a lot in Bayesian statistics because it is a good model for one\u2019s prior beliefs about a population proportion?",
+        "options": [
+            "a) Bohr",
+            "b) Discrete",
+            "c) Alpha",
+            "d) Beta"
+        ],
+        "answer": "d",
+        "explanation": "Beta distribution comes up a lot in Bayesian statistics because it is a good model for one\u2019s prior beliefs about a population proportion."
+    },
+    {
+        "question": "The associated R function is dlogis (x, location = 0, scale = 1) is for _________ distribution.",
+        "options": [
+            "a) Logistic",
+            "b) Linear",
+            "c) Discrete",
+            "d) Beta"
+        ],
+        "answer": "a",
+        "explanation": "The associated R function is dlogis (x, location = 0, scale = 1). The logistic distribution comes up in differential equations as a model for population growth under certain assumptions."
+    },
+    {
+        "question": "The _________ distribution comes up in differential equations as a model for population growth under certain assumptions.",
+        "options": [
+            "a) Logistic",
+            "b) Linear",
+            "c) Discrete",
+            "d) Beta"
+        ],
+        "answer": "a",
+        "explanation": "The associated R function is dlogis(x, location = 0, scale = 1). The logistic distribution comes up in differential equations as a model for population growth under certain assumptions."
+    },
+    {
+        "question": "Which of the following is a distribution derived from the normal distribution?",
+        "options": [
+            "a) Logistic",
+            "b) Lognormal",
+            "c) Normal",
+            "d) Simple"
+        ],
+        "answer": "b",
+        "explanation": "Lognormal distribution is a distribution derived from the normal distribution (hence the name). Its name also says that it is derived from the normal distribution."
+    },
+    {
+        "question": "The associated R function is dlnorm(x, meanlog = 0, sdlog = 1) is for ________ distribution.",
+        "options": [
+            "a) Logistic",
+            "b) Lognormal",
+            "c) Normal",
+            "d) Simple"
+        ],
+        "answer": "b",
+        "explanation": "The associated R function is dlnorm(x, meanlog = 0, sdlog = 1). Lognormal distribution is a distribution derived from the normal distribution (hence the name). Its name also says that it is derived from the normal distribution."
+    },
+    {
+        "question": "The associated R function is dweibull(x, shape, scale = 1) is for _________ distribution.",
+        "options": [
+            "a) Logistic",
+            "b) Lognormal",
+            "c) Weibull",
+            "d) Simple"
+        ],
+        "answer": "c",
+        "explanation": "The associated R function is dweibull(x, shape, scale = 1). There are exact results for ordinary transformations of the standard distributions, and distr takes advantage of these in many cases."
+    }
+]

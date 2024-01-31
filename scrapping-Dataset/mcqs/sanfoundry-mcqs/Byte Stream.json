@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of these classes is used to read and write bytes in a file?",
+        "options": [
+            "a) FileReader",
+            "b) FileWriter",
+            "c) FileInputStream",
+            "d) InputStreamReader"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these data types is returned by every method of OutputStream?",
+        "options": [
+            "a) int",
+            "b) float",
+            "c) byte",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Every method of OutputStream returns void and throws an IOExeption in case of errors."
+    },
+    {
+        "question": "Which of these classes is used for input and output operation when working with bytes?",
+        "options": [
+            "a) InputStream",
+            "b) Reader",
+            "c) Writer",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "InputStream & OutputStream are designed for byte stream. Reader and writer are designed for character stream."
+    },
+    {
+        "question": "Which among the following is used for storage of memory aspects?",
+        "options": [
+            "a) BufferedStream",
+            "b) FileStream",
+            "c) MemoryStream",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A byte stream that uses memory for storage."
+    },
+    {
+        "question": "Which among the following is used for storage of unmanaged memory aspects?",
+        "options": [
+            "a) BufferedStream",
+            "b) FileStream",
+            "c) MemoryStream",
+            "d) UnmanagedMemoryStream"
+        ],
+        "answer": "d",
+        "explanation": "A byte stream that uses unmanaged memory for storage."
+    },
+    {
+        "question": "Choose the filemode method which is used to create a new output file with the condition that the file with same name must not exist.",
+        "options": [
+            "a) FileMode.CreateNew",
+            "b) FileMode.Create",
+            "c) FileMode.OpenOrCreate",
+            "d) FileMode.Truncate"
+        ],
+        "answer": "a",
+        "explanation": "Creates a new output file. The file must not already be existing."
+    },
+    {
+        "question": "Choose the filemode method which is used to create a new output file with the condition that the file with same name if exists will destroy the old file:",
+        "options": [
+            "a) FileMode.CreateNew",
+            "b) FileMode.Create",
+            "c) FileMode.OpenOrCreate",
+            "d) FileMode.Truncate"
+        ],
+        "answer": "b",
+        "explanation": "Creates a new output file. Any pre-existing file with the same name will be destroyed."
+    },
+    {
+        "question": "Which of these is a method used to clear all the data present in output buffers?",
+        "options": [
+            "a) clear()",
+            "b) flush()",
+            "c) fflush()",
+            "d) close()"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these is a method used for reading bytes from the file?",
+        "options": [
+            "a) clear()",
+            "b) ReadByte()",
+            "c) put()",
+            "d) write()"
+        ],
+        "answer": "b",
+        "explanation": "FileStream defines two methods that reads bytes from a file: ReadByte() and Read()."
+    }
+]

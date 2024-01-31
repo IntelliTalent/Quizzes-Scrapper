@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Bulk loading is less efficient than single row loading.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, bulk loading is more efficient than the single row loading. The key cache does not need to be flushed after each input record is loaded. It can also be flushed at the end of the batch of records."
+    },
+    {
+        "question": "Loading is faster when a table has no indexes than when it is indexed.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Loading is faster when a table has no indexes. If there are indexes, the contents of the row should be added to the table and each index must also be modified to notify the addition of the new row."
+    },
+    {
+        "question": "Which is more efficient?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the \u2018LOAD DATA\u2019 in all forms is more efficient than the \u2018INSERT\u2019 because it loads rows in bulk. The server first parses then interprets only one statement instead of many."
+    },
+    {
+        "question": "Without LOCAL, LOAD DATA is _________________",
+        "options": [
+            "a) more efficient",
+            "b) less efficient",
+            "c) same speed",
+            "d) arbitrary"
+        ],
+        "answer": "a",
+        "explanation": "LOAD DATA is more efficient without LOCAL. Without LOCAL, the file must be located on the server. The FILE privilege must be given. The server can read the file directly from disk."
+    },
+    {
+        "question": "Which option turns on the \u2013extended-insert?",
+        "options": [
+            "a) \u2013opt",
+            "b) \u2013opti",
+            "c) \u2013op",
+            "d) \u2013optimize"
+        ],
+        "answer": "a",
+        "explanation": "If the \u2013opt option is enabled it turns on the \u2013extended-insert option, which produces multiple row INSERT statements and some other options that allow the dump file to be processed more efficiently."
+    },
+    {
+        "question": "Which table option for MyISAM tables reduces index flushing?",
+        "options": [
+            "a) DELAY_KEY_WRITE",
+            "b) DELAY_WRITE_KEY",
+            "c) KEY_WRITE_DELAY",
+            "d) WRITE_KEY_DELAY"
+        ],
+        "answer": "a",
+        "explanation": "For MyISAM tables a strategy for reducing index flushing is to use the DELAY_KEY_WRITE table option. With this option the data rows are written to the data file immediately."
+    },
+    {
+        "question": "Which option repairs MyISAM tables automatically after they open?",
+        "options": [
+            "a) \u2013myisam-recover=FORCE",
+            "b) \u2013myisam-recover=STOP",
+            "c) \u2013recover-myisam=FORCE",
+            "d) \u2013recover-myisam=STOP"
+        ],
+        "answer": "a",
+        "explanation": "In order to make sure that the repairs happen the server is started with the \u2013myisam-recover=FORCE option. This enables the server to check MyISAM tables when it opens them and repair them automatically."
+    },
+    {
+        "question": "The option which delays index flushing for slave server is _________________",
+        "options": [
+            "a) \u2013delay-write-key=ALL",
+            "b) \u2013delay-key-write=ALL",
+            "c) \u2013key-write-delay=NONE",
+            "d) \u2013key-delay-write=NONE"
+        ],
+        "answer": "b",
+        "explanation": "For the replication slave servers, the \u2013delay-key-write=ALL option delays index flushing for all MyISAM tables, regardless of how they were created originally on the master server."
+    },
+    {
+        "question": "TO enable the compressed client/server protocol the option is _________________",
+        "options": [
+            "a) \u2013enable",
+            "b) \u2013compress",
+            "c) \u2013reduce",
+            "d) \u2013restrict"
+        ],
+        "answer": "b",
+        "explanation": "The compressed client/server protocol is used to reduce the amount of data going over the network. For most of the MySQL clients this is specified using the \u2013compress command line option."
+    },
+    {
+        "question": "To reactivate indexes the command used is _________________",
+        "options": [
+            "a) DISABLE KEYS",
+            "b) DISABLE INDEXES",
+            "c) ENABLE KEYS",
+            "d) ENABLE INDEXES"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, the clauses \u2018DISABLE KEYS\u2019 and \u2018ENABLE KEYS\u2019 are used to deactivate and reactivate indexes for the table. The server does the work in deactivations and reactivations."
+    }
+]

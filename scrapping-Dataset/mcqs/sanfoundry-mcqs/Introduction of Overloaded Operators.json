@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Which of the following keyword is used to overload user defined types by defining static member functions?",
+        "options": [
+            "a) op",
+            "b) opoverload",
+            "c) operator",
+            "d) operatoroverload"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following statements are correct in nature?",
+        "options": [
+            "a) The conditional logical operators cannot be overloaded",
+            "b) The array indexing operator can be overloaded",
+            "c) A public or nested public preference type does not overload the equality operator",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Arrange the following overloaded operators in increasing order of precedence?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Operators that can be overloaded are?",
+        "options": [
+            "a) ||",
+            "b) \u2018+=\u2019",
+            "c) +",
+            "d) []"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which statements are correct about operator overloading?",
+        "options": [
+            "a) Mathematical or physical modeling where we use classes to represent objects such as vectors, matrices, complex-numbers etc",
+            "b) Graphical programs where coordinate related objects are used to represent positions on the screen",
+            "c) Financial programs where a class represents an amount of money",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Correct way to define operator method or to perform operator overloading is?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Correct method to define + operator is?",
+        "options": [
+            "a) public sample operator +(int a, int b)",
+            "b) public abstract operator +(int a, int b)",
+            "c) public static sample operator  +(int a, int b)",
+            "d) public abstract sample operator +(int a, int b)"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the correct statement among the below mentioned statements.",
+        "options": [
+            "a) Forgetting to declare an operator method as public",
+            "b) Forgetting to declare an operator method as static",
+            "c) Forgetting to return a bool type value while overloading a relational operator",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None"
+    },
+    {
+        "question": "What is the vector in operator overloading?",
+        "options": [
+            "a) class",
+            "b) method()",
+            "c) data type",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It is a data type of class. It is defined as public static Vector operator + (Vector a, Vector b)."
+    },
+    {
+        "question": "Choose the wrong statement from the given set of statements?",
+        "options": [
+            "a) All operators in C#.NET cannot be overloaded",
+            "b) We can use the new modifier to modify a nested type if the nested type is hiding another type",
+            "c) Operator overloading permits the use of symbols to represent computations for a type",
+            "d) In case of operator overloading all parameters must be of different type than the class or struct that declares the operators"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    }
+]

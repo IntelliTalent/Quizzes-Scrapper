@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following class provides access to configuration parameters?",
+        "options": [
+            "a) Config",
+            "b) Configuration",
+            "c) OutputConfig",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Configurations are specified by resources."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Configuration parameters may be declared static",
+            "b) Unless explicitly turned off, Hadoop by default specifies two resources",
+            "c) Configuration class provides access to configuration parameters",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once a resource declares a value final, no subsequently-loaded resource can alter that value."
+    },
+    {
+        "question": "___________ gives site-specific configuration for a given hadoop installation.",
+        "options": [
+            "a) core-default.xml",
+            "b) core-site.xml",
+            "c) coredefault.xml",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "core-default.xml is read-only defaults for hadoop."
+    },
+    {
+        "question": "Administrators typically define parameters as final in __________ for values that user applications may not alter.",
+        "options": [
+            "a) core-default.xml",
+            "b) core-site.xml",
+            "c) coredefault.xml",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Value strings are first processed for variable expansion."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) addDeprecations adds a set of deprecated keys to the global deprecations",
+            "b) configuration parameters cannot be declared final",
+            "c) addDeprecations method is lockless",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Configuration parameters may be declared final."
+    },
+    {
+        "question": "_________ method clears all keys from the configuration.",
+        "options": [
+            "a) clear",
+            "b) addResource",
+            "c) getClass",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "getClass is used to get the value of the name property as a Class."
+    },
+    {
+        "question": "________ method adds the deprecated key to the global deprecation map.",
+        "options": [
+            "a) addDeprecits",
+            "b) addDeprecation",
+            "c) keyDeprecation",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "addDeprecation does not override any existing entries in the deprecation map."
+    },
+    {
+        "question": "________ checks whether the given key is deprecated.",
+        "options": [
+            "a) isDeprecated",
+            "b) setDeprecated",
+            "c) isDeprecatedif",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Method returns true if the key is deprecated and false otherwise."
+    },
+    {
+        "question": "_________ is useful for iterating the properties when all deprecated properties for currently set properties need to be present.",
+        "options": [
+            "a) addResource",
+            "b) setDeprecatedProperties",
+            "c) addDefaultResource",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "setDeprecatedProperties sets all deprecated properties that are not currently set but have a corresponding new property that is set."
+    },
+    {
+        "question": "Which of the following adds a configuration resource?",
+        "options": [
+            "a) addDeprecation",
+            "b) setDeprecatedProperties",
+            "c) addDefaultResource",
+            "d) addResource"
+        ],
+        "answer": "d",
+        "explanation": "The properties of this resource will override the properties of previously added resources unless they were marked final. addResource adds a configuration resource."
+    }
+]

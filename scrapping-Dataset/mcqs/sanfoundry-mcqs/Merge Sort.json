@@ -1,0 +1,171 @@
+[
+    {
+        "question": "Merge sort uses which of the following technique to implement sorting?",
+        "options": [
+            "a) backtracking",
+            "b) greedy algorithm",
+            "c) divide and conquer",
+            "d) dynamic programming"
+        ],
+        "answer": "c",
+        "explanation": "Merge sort uses divide and conquer in order to sort a given array. This is because it divides the array into two halves and applies merge sort algorithm to each half individually after which the two sorted halves are merged together."
+    },
+    {
+        "question": "What is the average case time complexity of merge sort?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n log n"
+        ],
+        "answer": "a",
+        "explanation": "The recurrence relation for merge sort is given by T(n) = 2T(n/2) + n. It is found to be equal to O(n log n) using the master theorem."
+    },
+    {
+        "question": "What is the auxiliary space complexity of merge sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(log n)",
+            "c) O(n)",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "An additional space of O(n) is required in order to merge two sorted arrays. Thus merge sort is not an in place sorting algorithm."
+    },
+    {
+        "question": "Merge sort can be implemented using O(1) auxiliary space.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Standard merge sort requires O(n) space to merge two sorted arrays. We can optimize this merging process so that it takes only constant space. This version is known as in place merge sort."
+    },
+    {
+        "question": "What is the worst case time complexity of merge sort?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n log n"
+        ],
+        "answer": "a",
+        "explanation": "The time complexity of merge sort is not affected by worst case as its algorithm has to implement the same number of steps in any case. So its time complexity remains to be O(n log n)."
+    },
+    {
+        "question": "Which of the following method is used for sorting in merge sort?",
+        "options": [
+            "a) merging",
+            "b) partitioning",
+            "c) selection",
+            "d) exchanging"
+        ],
+        "answer": "a",
+        "explanation": "Merge sort algorithm divides the array into two halves and applies merge sort algorithm to each half individually after which the two sorted halves are merged together. Thus its method of sorting is called merging."
+    },
+    {
+        "question": "What will be the best case time complexity of merge sort?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n log n"
+        ],
+        "answer": "a",
+        "explanation": "The time complexity of merge sort is not affected in any case as its algorithm has to implement the same number of steps. So its time complexity remains to be O(n log n) even in the best case."
+    },
+    {
+        "question": "Which of the following is not a variant of merge sort?",
+        "options": [
+            "a) in-place merge sort",
+            "b) bottom up merge sort",
+            "c) top down merge sort",
+            "d) linear merge sort"
+        ],
+        "answer": "d",
+        "explanation": "In-place, top down and bottom up merge sort are different variants of merge sort. Whereas linear merge sort is not a possible variant as it is a comparison based sort and the minimum time complexity of any comparison based sort is O(n log n)."
+    },
+    {
+        "question": "Choose the incorrect statement about merge sort from the following?",
+        "options": [
+            "a) it is a comparison based sort",
+            "b) it is an adaptive algorithm",
+            "c) it is not an in place algorithm",
+            "d) it is stable algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Merge sort is not an adaptive sorting algorithm. This is because it takes O(n log n) time complexity irrespective of any case."
+    },
+    {
+        "question": "Which of the following is not in place sorting algorithm by default?",
+        "options": [
+            "a) merge sort",
+            "b) quick sort",
+            "c) heap sort",
+            "d) insertion sort"
+        ],
+        "answer": "a",
+        "explanation": "Quick sort, heap sort, and insertion sort are in-place sorting algorithms, whereas an additional space of O(n) is required in order to merge two sorted arrays. Even though we have a variation of merge sort (to do in-place sorting), it is not the default option. So, among the given choices, merge sort is the most appropriate answer."
+    },
+    {
+        "question": "Which of the following is not a stable sorting algorithm?",
+        "options": [
+            "a) Quick sort",
+            "b) Cocktail sort",
+            "c) Bubble sort",
+            "d) Merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options quick sort is the only algorithm which is not stable. Merge sort is a stable sorting algorithm."
+    },
+    {
+        "question": "Which of the following stable sorting algorithm takes the least time when applied to an almost sorted array?",
+        "options": [
+            "a) Quick sort",
+            "b) Insertion sort",
+            "c) Selection sort",
+            "d) Merge sort"
+        ],
+        "answer": "d",
+        "explanation": "Insertion sort takes linear time to sort a partially sorted array. Though merge and  quick sort takes O(n*logn) complexity to sort, merge sort is stable. Hence, Merge sort takes less time to sort partially sorted array."
+    },
+    {
+        "question": "Merge sort is preferred for arrays over linked lists.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Merge sort is preferred for linked list over arrays. It is because in a linked list the insert operation takes only O(1) time and space which implies that we can implement merge operation in constant time."
+    },
+    {
+        "question": "Which of the following sorting algorithm makes use of merge sort?",
+        "options": [
+            "a) tim sort",
+            "b) intro sort",
+            "c) bogo sort",
+            "d) quick sort"
+        ],
+        "answer": "a",
+        "explanation": "Tim sort is a hybrid sorting algorithm as it uses more than one sorting algorithm internally. It makes use of merge sort and insertion sort."
+    },
+    {
+        "question": "Choose the correct code for merge sort.",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Merge sort first sorts the two halves of the array individually. Then it merges the two sorted halves in order to obtain sorted array."
+    },
+    {
+        "question": "Which of the following sorting algorithm does not use recursion?",
+        "options": [
+            "a) quick sort",
+            "b) merge sort",
+            "c) heap sort",
+            "d) bottom up merge sort"
+        ],
+        "answer": "d",
+        "explanation": "Bottom up merge sort uses the iterative method in order to implement sorting. It begins by merging a pair of adjacent array of size 1 each and then merge arrays of size 2 each in the next step and so on."
+    }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "question": "Which of the following is not true for whirlpool hashing function?",
+        "options": [
+            "a) It is a two way hashing function",
+            "b) It is based on a 512 bit block cipher",
+            "c) The block cipher is similar to AES structure",
+            "d) It is resistant to differential attacks"
+        ],
+        "answer": "a",
+        "explanation": "The whirlpool algorithm is a one way hashing algorithm."
+    },
+    {
+        "question": "The expected workload of generating a collision is of the order of ____________ executions of Whirlpool.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The expected workload of generating a collision is 2"
+    },
+    {
+        "question": "Given a message, the expected workload of finding a message that hashes to that value is of the order ____________",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "The expected workload would be 2"
+    },
+    {
+        "question": "Given a message and its n-bit hash result, the expected workload of finding a message that hashes to the same value is of the order _______________",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": " When the message and hash value are provided, the workload turns out to be 2"
+    },
+    {
+        "question": "The message is padded to",
+        "options": [
+            "a) 1024 bits",
+            "b) 512 bits",
+            "c) Odd multiple of 256 bits",
+            "d) Odd multiple of 512 bits"
+        ],
+        "answer": "c",
+        "explanation": "The message in Whirlpool is padded to an odd multiple of 512 bits."
+    },
+    {
+        "question": "The length of the message is appended to the message. What is the size of this length?",
+        "options": [
+            "a) 256 bits",
+            "b) 512 bits",
+            "c) 128 bits",
+            "d) 1024 bits"
+        ],
+        "answer": "a",
+        "explanation": "The length is expressed as a 256 bit unsigned integer, with most significant byte being the leftmost."
+    },
+    {
+        "question": "The hash matrix is of the size",
+        "options": [
+            "a) 16 \u00d7 8",
+            "b) 16 \u00d7 4",
+            "c) 8 \u00d7 8",
+            "d) 4 \u00d7 16"
+        ],
+        "answer": "c",
+        "explanation": "The hash matrix has a 8 \u00d7 8 matrix."
+    },
+    {
+        "question": "The 8 \u00d7 8 hash matrix holds values of size",
+        "options": [
+            "a) 16 bits",
+            "b) 32 bits",
+            "c) 8 bits",
+            "d) 4 bits"
+        ],
+        "answer": "c",
+        "explanation": "8 \u00d7 8 \u00d7 8 = 512 bits. 512 bits is the size of the message block. Thus we require 8 bits only."
+    },
+    {
+        "question": "The hash matrix of 8 \u00d7 8 is preferred over a 16 \u00d7 4 matrix because",
+        "options": [
+            "a) it is symmetric",
+            "b) it is smaller in size",
+            "c) it is faster in computation",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "8 \u00d7 8 is preferred because it is faster."
+    },
+    {
+        "question": "How many rounds are there in one Whirlpool Iteration?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "There are 4 rounds in each Whirlpool step."
+    },
+    {
+        "question": "Which one of these is not a Whirlpool function?",
+        "options": [
+            "a) Add Key",
+            "b) Substitute Bytes",
+            "c) Mix Rows",
+            "d) Shift Rows"
+        ],
+        "answer": "d",
+        "explanation": "Shift columns is a valid operation. Rows are not shifted."
+    }
+]

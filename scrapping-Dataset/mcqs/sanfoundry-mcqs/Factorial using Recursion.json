@@ -1,0 +1,78 @@
+[
+    {
+        "question": "In general, which of the following methods isn\u2019t used to find the factorial of a number?",
+        "options": [
+            "a) Recursion",
+            "b) Iteration",
+            "c) Dynamic programming",
+            "d) Non iterative / recursive"
+        ],
+        "answer": "d",
+        "explanation": "In general we use recursion, iteration and dynamic programming to find the factorial of a number. We can also implement without using iterative / recursive method by using tgammal() method. Most of us never use it generally."
+    },
+    {
+        "question": "Which of the following recursive formula can be used to find the factorial of a number?",
+        "options": [
+            "a) fact(n) = n * fact(n)",
+            "b) fact(n) = n * fact(n+1)",
+            "c) fact(n) = n * fact(n-1)",
+            "d) fact(n) = n * fact(1)"
+        ],
+        "answer": "c",
+        "explanation": "fact(n) = n * fact(n \u2013 1) can be used to find the factorial of a number."
+    },
+    {
+        "question": "Consider the following iterative implementation to find the factorial of a number. Which of the lines should be inserted to complete the below code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201cfact = fact * i\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the factorial of a number. Which of the lines should be inserted to complete the below code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201cn == 0\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "The time complexity of the following recursive implementation to find the factorial of a number is ________",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation to find the factorial of a number is O(n)."
+    },
+    {
+        "question": "What is the space complexity of the following recursive implementation to find the factorial of a number?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The space complexity of the above recursive implementation to find the factorial of a number is O(1)."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the factorial of a number. Which of the lines is the base case?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201cif(n == 0)\u201d is the base case."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints 0!, which is 1."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints 1!, which is 1."
+    },
+    {
+        "question": "How many times will the function fact() be called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The fact() function will be called 6 times with the following arguments:"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function prints 5!, which is 120."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "When R tries to bind a value to a symbol, it searches through a series of environments to find the appropriate value."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The search list can be found by using the searchlist() function",
+            "b) The search list can be found by using the search() function",
+            "c) The global environment or the user\u2019s workspace is always the second element of the search list",
+            "d) R has separate namespaces for functions and non-functions"
+        ],
+        "answer": "b",
+        "explanation": "Base package is always the last element."
+    },
+    {
+        "question": "A function, together with an environment, makes up what is called a ______ closure.",
+        "options": [
+            "a) formal",
+            "b) function",
+            "c) reflective",
+            "d) symmetry"
+        ],
+        "answer": "b",
+        "explanation": "The function closure model can be used to create functions that \u201ccarry around\u201d data with them."
+    },
+    {
+        "question": "Which of the variable in the following R code is variable?",
+        "options": [],
+        "answer": "c",
+        "explanation": "This function has 2 formal arguments x and y. In the body of the function there is another symbol z. In this case z is called a free variable."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) The order of the packages on the search list does not matter",
+            "b) R has separate namespaces for functions and non-functions",
+            "c) Users can configure which packages get loaded on startup so if you are writing a function",
+            "d) The search list can be found by using the search() function"
+        ],
+        "answer": "a",
+        "explanation": "The order of the packages on the search list matters, particularly if there are multiple objects with the same name in different packages."
+    },
+    {
+        "question": "R uses _________ scoping",
+        "options": [
+            "a) reflective",
+            "b) transitive",
+            "c) lexical",
+            "d) closure"
+        ],
+        "answer": "c",
+        "explanation": "Lexical scoping in R means that the values of free variables are searched for in the environment in which the function was defined."
+    },
+    {
+        "question": "The only environment without a parent is the ________ environment.",
+        "options": [
+            "a) full",
+            "b) half",
+            "c) null",
+            "d) empty"
+        ],
+        "answer": "d",
+        "explanation": "Every environment has a parent environment and it is possible for an environment to have multiple \u201cchildren\u201d."
+    },
+    {
+        "question": "The ________ for R are the main feature that make it different from the original S language.",
+        "options": [
+            "a) scoping rules",
+            "b) closure rules",
+            "c) environment rules",
+            "d) closure & environment rules"
+        ],
+        "answer": "a",
+        "explanation": "This function never actually uses the argument b, so calling f(2) will not produce an error because the 2 gets positionally matched to a."
+    },
+    {
+        "question": "The _________ function is a kind of \u201cconstructor function\u201d that can be used to construct other functions.",
+        "options": [
+            "a) make.pow()",
+            "b) make.power()",
+            "c) keep.power()",
+            "d) keep.pow()"
+        ],
+        "answer": "b",
+        "explanation": "Typically, a function is defined in the global environment, so that the values of free variables are just found in the user\u2019s workspace."
+    },
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Object \u2018y\u2019 not found error is displayed."
+    }
+]

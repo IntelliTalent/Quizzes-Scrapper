@@ -1,0 +1,155 @@
+[
+    {
+        "question": "To fork the process flow from one component to many, either all at once or to a single one based on a predicate condition.",
+        "options": [
+            "a) splitter",
+            "b) fork",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use a splitter component (and maybe its cohort, the aggregator component) to fork and join (respectively) control of processing."
+    },
+    {
+        "question": "A splitter takes an input message and asks you, the user of the component, on what basis it should split the Message",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You\u2019re responsible for providing the split functionality."
+    },
+    {
+        "question": "Spring Integration ships with useful splitters that require no customization.",
+        "options": [
+            "a) Splitter",
+            "b) XPathMessageSplitter",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In a few cases, Spring Integration ships with useful splitters that require no customization. One example is the splitter provided to partition an XML payload along an XPath query, XPathMessageSplitter."
+    },
+    {
+        "question": "Return type of the method annotated by the @Splitter annotation is of type:-",
+        "options": [
+            "a) java.util.Collection",
+            "b) java.util.Date",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The configuration for this is not terribly different from the previous solutions. The Java code is just about the same as well, except that the return type of the method annotated by the @Splitter annotation is of type java.util.Collection."
+    },
+    {
+        "question": "Annotation which collects a series of messages (based on some correlation that you help Spring Integration make between the messages).",
+        "options": [
+            "a) @After",
+            "b) @Splitter",
+            "c) @Aggregator",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An @Aggregator collects a series of messages (based on some correlation that you help Spring Integration make between the messages) and publishes a single message to the components downstream."
+    },
+    {
+        "question": "To determine how many messages to read until it can stop:-",
+        "options": [
+            "a) SequenceSizeCompletionStrategy",
+            "b) SequenceSizeCompletion",
+            "c) SequenceSize",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are many ways for Spring Integration to correlate incoming messages. To determine how many messages to read until it can stop, it uses the class SequenceSizeCompletionStrategy, which reads a well known header value (aggregators are often used after a splitter."
+    },
+    {
+        "question": "For correlation when you might not have a size but know that you\u2019re expecting messages that share a common header value within a known time, Spring Integration provides the HeaderAttributeCorrelationStrategy.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In this way, it knows that all messages with that value are from the same group, in the same way that your last name identifies you as being part of a larger group."
+    },
+    {
+        "question": "The only custom logic is a POJO with an @Aggregator annotation on a method expecting a collection of Message",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It could, of course, be a collection of Customer objects, because they are what you\u2019re expecting as output from the previous splitter."
+    },
+    {
+        "question": "You want to conditionally move a message through different processes based on some criteria.",
+        "options": [
+            "a) router component",
+            "b) EAI",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use a router component to alter the processing flow based on some predicate. You can also use a router to multicast a message to many subscribers (as you did with the splitter)."
+    },
+    {
+        "question": "There are some convenient default routers available to fill common needs:-",
+        "options": [
+            "a) PayloadTypeRouter",
+            "b) PayloadType",
+            "c) Payload",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are some convenient default routers available to fill common needs, such as payload-type\u2013based routing (PayloadTypeRouter) and routing to a group or list of channels (RecipientListRouter)."
+    },
+    {
+        "question": "To receive messages from an external system and process them using Spring Integration.",
+        "options": [
+            "a) channel",
+            "b) channel adapter",
+            "c) EJP",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring Integration makes it trivially easy to build one."
+    },
+    {
+        "question": "Adapters are opaque in nature.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Your external system interfaces with the adapter."
+    },
+    {
+        "question": "Sometimes, functionality is made available from within the application via:-",
+        "options": [
+            "a) Stable API",
+            "b) Cohesive API",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Sometimes, functionality is made available from within the application via a cohesive, stable API but in a component model or form that isn\u2019t directly accessible to the bus."
+    },
+    {
+        "question": "You use Spring Integration\u2019s inbound-channel-adapter element to wire the TwitterMessageSource and a poller element.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The poller element is configured to run every 10 seconds and to consume as many as 100 messages each time it runs."
+    },
+    {
+        "question": "The API surfaces a Paging object, which works something like Criteria in Hibernate.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can configure how many results to return using the count property. The most interesting option is called the sinceId, which lets you search for all records occurring after the Status having the ID equal to the value given as the sinceId."
+    }
+]

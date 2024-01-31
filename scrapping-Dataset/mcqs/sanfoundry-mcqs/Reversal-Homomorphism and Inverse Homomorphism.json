@@ -1,0 +1,116 @@
+[
+    {
+        "question": "If L is a language, the reversal of the language can be represented as:",
+        "options": [
+            "a) L\u2019",
+            "b) L",
+            "c) L",
+            "d) more than one option is correct"
+        ],
+        "answer": "c",
+        "explanation": "L"
+    },
+    {
+        "question": "If L is a regular language, ____ is also regular.",
+        "options": [
+            "a) L",
+            "b) L\u2019",
+            "c) L*",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "L"
+    },
+    {
+        "question": "If E=F+G;",
+        "options": [
+            "a) F",
+            "b) (F+G)",
+            "c) F",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If E is a symbol a, e, or f, then Er=E. Other inductive properties include union of reversals, concatenation and Kleene."
+    },
+    {
+        "question": "If E= FG, E",
+        "options": [
+            "a) F",
+            "b) G",
+            "c) F",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If E= FG, E"
+    },
+    {
+        "question": "Simplify the following identity:",
+        "options": [
+            "a) (1*0+0*1)",
+            "b) (01*10*)",
+            "c) (0*1+10*)",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "01*+10*"
+    },
+    {
+        "question": "Which of the following obey the closure properties of Regular language?",
+        "options": [
+            "a) Homomorphism",
+            "b) Inverse Homomorphism",
+            "c) Reversal",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Homomorphism on an aphabet is a function that gives a string for each symbol in that alphabet. Example: h(0)=ab, etc."
+    },
+    {
+        "question": "Let h(L) be a language of regular expression abe*+e(ab)*. Simplify the h(L)",
+        "options": [
+            "a) (ab)*+eab*",
+            "b) abe*+ea*b*",
+            "c) (ab)*",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "abe*+e(ab)*(Using the identities e=e*, eE=Ee=E)"
+    },
+    {
+        "question": "Let h(0)=ab; h(1)=e",
+        "options": [
+            "a) the language of two one\u2019s and any number of zeroes",
+            "b) the language of two zeroes and any number of one\u2019s",
+            "c) the language of two zeroes and two one\u2019s",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "h-1(L) is the language with two 0\u2019s and any number of 1\u2019s=>(1*01*01*)."
+    },
+    {
+        "question": "While proving Inverse Homomorphism, which of the following steps are needed?",
+        "options": [
+            "a) Start with a DFA Ain L",
+            "b) Construct a DFA B for h-1(L)",
+            "c) The set of states, initial and final states should be same.",
+            "d) All of the mentioned",
+            "a) The same set of states",
+            "b) The same start state",
+            "c) The same final state",
+            "d) Input alphabet = the symbols to which homomorphism h applies."
+        ],
+        "answer": "d",
+        "explanation": "While constructing DFA B, we need to take care of the following:"
+    },
+    {
+        "question": "8. Let h(0)=ab; h(1)=e",
+        "options": [
+            "a) Homomorphism",
+            "b) Inverse Homomorphism",
+            "c) Homomorphism and Inverse Homomorphism",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Let h be a homomorphism and L a language whose alphabet is the output language of h."
+    }
+]

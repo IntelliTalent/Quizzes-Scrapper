@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ produces box-and-whisker plots.",
+        "options": [
+            "a) xyplot",
+            "b) dotplot",
+            "c) barchart",
+            "d) bwplot"
+        ],
+        "answer": "d",
+        "explanation": "Bwplot plots a series of vertical box-and-whisker plots where the individual boxplots represent the data subdivided by the value of some factor. Optionally the y-axis may be scaled logarithmically. Dotplot produces Cleveland dot plots. Barchart produces bar plots."
+    },
+    {
+        "question": "__________ produces bivariate scatterplots or time-series plots.",
+        "options": [
+            "a) xyplot",
+            "b) dotplot",
+            "c) barchart",
+            "d) bwplot"
+        ],
+        "answer": "a",
+        "explanation": "xyplot has points that show the relationship between two sets of data. Optionally the y-axis may be scaled logarithmically. dotplot produces Cleveland dot plots. barchart produces bar plots."
+    },
+    {
+        "question": "Annotation of plots in any plotting system involves adding points, lines, or text to the plot, in addition to customizing axis labels or adding titles. Different plotting systems have different sets of functions for annotating plots in this way. Which of the following functions can be used to annotate the panels in a multi-panel lattice plot?",
+        "options": [
+            "a) points()",
+            "b) panel.abline()",
+            "c) lines()",
+            "d) axis()"
+        ],
+        "answer": "b",
+        "explanation": "panel.abline() is one of the most used panel function."
+    },
+    {
+        "question": "____________ produces one-dimensional scatterplots.",
+        "options": [
+            "a) xyplot",
+            "b) stripplot",
+            "c) barchart",
+            "d) bwplot"
+        ],
+        "answer": "b",
+        "explanation": "This function along with other high-level Lattice functions, respond to a common set of arguments."
+    },
+    {
+        "question": "which of the following functions can be used to finely control the appearance of all lattice plots ?",
+        "options": [
+            "a) par()",
+            "b) print.trellis()",
+            "c) splom()",
+            "d) trellis.par.set()"
+        ],
+        "answer": "d",
+        "explanation": "All high-level function in lattice are generic."
+    },
+    {
+        "question": "What is ggplot2 an implementation of?",
+        "options": [
+            "a) the Grammar of Graphics developed by Leland Wilkinson",
+            "b) 3D visualization system",
+            "c) the S language originally developed by Bell Labs",
+            "d) the base plotting system in R"
+        ],
+        "answer": "a",
+        "explanation": "The ggplot2 package, created by Hadley Wickham, offers a powerful graphics language for creating elegant and complex plots."
+    },
+    {
+        "question": "For barchart and _________ non-trivial methods exist for tables and arrays, documented at barchart.table.",
+        "options": [
+            "a) scatterplot",
+            "b) dotplot",
+            "c) xyplot",
+            "d) scatterplot & xyplot"
+        ],
+        "answer": "b",
+        "explanation": "The numeric methods are equivalent to a call with no left hand side and no conditioning variables in the formula."
+    },
+    {
+        "question": "What is a geom in the ggplot2 system?",
+        "options": [
+            "a) a plotting object like point, line, or other shape",
+            "b) a method for making conditioning plots",
+            "c) a method for mapping data to attributes like color and size",
+            "d) a statistical transformation"
+        ],
+        "answer": "a",
+        "explanation": "The bar geom is used to produce 1d area plots."
+    },
+    {
+        "question": "Logical flag is applicable to which of the following plots?",
+        "options": [
+            "a) scatterplot",
+            "b) dotplot",
+            "c) xyplot",
+            "d) zyplot"
+        ],
+        "answer": "b",
+        "explanation": "Logical flag applicable to bwplot, dotplot, barchart, and stripplot."
+    },
+    {
+        "question": "___________ is used to determine what is plotted for each group.",
+        "options": [
+            "a) panel.expose",
+            "b) panel.impose",
+            "c) panel.superpose",
+            "d) panel.depose"
+        ],
+        "answer": "c",
+        "explanation": "panel.superpose can be combined with different panel.groups functions."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Calculate sum of divisors of n = 1900.",
+        "options": [
+            "a) 6530",
+            "b) 5346",
+            "c) 3387",
+            "d) 4123"
+        ],
+        "answer": "d",
+        "explanation": "The prime factorization of 1800 is 19 * 2"
+    },
+    {
+        "question": "Given the factorization of a number n, then the sum of divisors can be computed in _______",
+        "options": [
+            "a) linear time",
+            "b) polynomial time",
+            "c) O(logn)",
+            "d) o(n+1)"
+        ],
+        "answer": "b",
+        "explanation": "The exact number of running time depends on the computational model. When analyzing arithmetic with large numbers, we usually count either bit operations or arithmetic operations of size O(logn) (where n is the input size). Now, given the factorization of a number n, then the sum of divisors can be computed in polynomial time."
+    },
+    {
+        "question": "Calculate the sum of divisors of N = 9600.",
+        "options": [
+            "a) 23250",
+            "b) 47780",
+            "c) 54298",
+            "d) 31620"
+        ],
+        "answer": "d",
+        "explanation": "The prime factorization of 1800 is 3 * 2"
+    },
+    {
+        "question": "Find the number of odd positive integers of the number 456.",
+        "options": [
+            "a) 54",
+            "b) 27",
+            "c) 16",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "To find the number of odd factors (which includes 1), we can exclude any power of 2 and do the same. So, for 456, we have (3 + 1)(1 + 1) = 8 odd positive factors."
+    },
+    {
+        "question": "The number of even positive integers of 3200 is _______",
+        "options": [
+            "a) 24",
+            "b) 32",
+            "c) 164",
+            "d) 209"
+        ],
+        "answer": "a",
+        "explanation": "To find the number of even factors, we can multiply the number of even factors by the power of 2. For 3200, we have (5 + 1)(1 + 1)(2) = 24 even factors."
+    },
+    {
+        "question": "What is the sum of divisors of the number 1872?",
+        "options": [
+            "a) 12493",
+            "b) 5438",
+            "c) 45862",
+            "d) 654"
+        ],
+        "answer": "a",
+        "explanation": "The prime factorization of 1872 is 13 * 3"
+    },
+    {
+        "question": "Find the odd positive integer of the number 6500.",
+        "options": [
+            "a) 43",
+            "b) 17",
+            "c) 12",
+            "d) 87"
+        ],
+        "answer": "c",
+        "explanation": "To find the number of odd factors, we can exclude any power of 2 and do the same. So, for 6500, we have (5 + 1)(1 + 1) = 6 * 2 = 12 odd positive factors."
+    },
+    {
+        "question": "How many even positive integers are there in the number 7362?",
+        "options": [
+            "a) 16",
+            "b) 58",
+            "c) 35",
+            "d) 165"
+        ],
+        "answer": "a",
+        "explanation": "To find the number of even factors, we can multiply the number of even factors by the power of 2. For 5065, we have (3 + 1)(1 + 1)(2) = 4 * 2 * 2 = 16 even factors."
+    },
+    {
+        "question": "Calculate sum of divisors of n = 8620.",
+        "options": [
+            "a) 7549",
+            "b) 54201",
+            "c) 18102",
+            "d) 654"
+        ],
+        "answer": "c",
+        "explanation": "The prime factorization of 1800 is 431 * 2"
+    },
+    {
+        "question": "Find the odd positive integer of the number 4380.",
+        "options": [
+            "a) 108",
+            "b) 48",
+            "c) 75",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "To find the number of odd factors, we can exclude any power of 2 and do the same. So, for 6500, we have (5 + 1)(3 + 1)(1 + 1) = 6 * 4 * 2 = 48 odd positive factors."
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "question": "A workflow system extricates that process state from the domain and into a separate layer, called a business process.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A workflow system also typically models which agents in the system do what work, providing work lists for different agents in the system."
+    },
+    {
+        "question": "A workflow engine lets you model the process in a higher-level form:-",
+        "options": [
+            "a) XML",
+            "b) Use Case",
+            "c) UML",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A workflow engine lets you model the process in a higher-level form, roughly corresponding in code to what a UML activity diagram can describe."
+    },
+    {
+        "question": "A language that, when deployed to a BPEL container, describes the execution of a process.",
+        "options": [
+            "a) WS-BPEL (BPEL 2.0)",
+            "b) WS-BPEL (BPEL)",
+            "c) WS-BPEL for People (BPEL4People)",
+            "d) Business Process Modeling Notation (BPMN)"
+        ],
+        "answer": "b",
+        "explanation": "It interfaces with the outside world via the invocation of external web services. This language describes the runtime behavior of a process."
+    },
+    {
+        "question": "The main feature common to traditional workflow systems is the ability to support work lists for actors in a process.",
+        "options": [
+            "a) WS-BPEL (BPEL 2.0)",
+            "b) WS-BPEL (BPEL)",
+            "c) WS-BPEL for People (BPEL4People)",
+            "d) Business Process Modeling Notation (BPMN)"
+        ],
+        "answer": "a",
+        "explanation": "BPEL had no such support, as it didn\u2019t support human tasks (that is, wait states for people). This specification addresses that exact shortcoming."
+    },
+    {
+        "question": "This provides a set of diagramming notations that describe a business process. This notation is akin to UML activity diagram.",
+        "options": [
+            "a) WS-BPEL (BPEL 2.0)",
+            "b) WS-BPEL (BPEL)",
+            "c) WS-BPEL for People (BPEL4People)",
+            "d) Business Process Modeling Notation (BPMN)"
+        ],
+        "answer": "d",
+        "explanation": "The notation is sometimes ambiguous, however, and one of the formidable challenges facing BPM vendors is creating a drawing tool that can take a round-trip to BPEL and back, providing seamless authoring."
+    },
+    {
+        "question": "A way of letting your process rest in a known condition indefinitely.",
+        "options": [
+            "a) State",
+            "b) Activity",
+            "c) Sequence",
+            "d) Subprocess"
+        ],
+        "answer": "a",
+        "explanation": "\u201cState\u201d can mean many things, but simply, it\u2019s a pause or window in the action."
+    },
+    {
+        "question": "A pause in the action that can only move forward when a known actor or agent in the system moves it forward.",
+        "options": [
+            "a) State",
+            "b) Activity",
+            "c) Sequence",
+            "d) Subprocess"
+        ],
+        "answer": "b",
+        "explanation": "An activity is a pause in the action that can only move forward when a known actor or agent in the system moves it forward."
+    },
+    {
+        "question": "An aggregation of states, activities, and other types of constructs that serializes them.",
+        "options": [
+            "a) State",
+            "b) Activity",
+            "c) Sequence",
+            "d) Subprocess"
+        ],
+        "answer": "c",
+        "explanation": "A sequence is simply an aggregation of states, activities, and other types of constructs that serializes them."
+    },
+    {
+        "question": "A concurrent execution of multiple threads of execution at the same time, originating from a common thread.",
+        "options": [
+            "a) State",
+            "b) Activity",
+            "c) Sequence",
+            "d) Fork or concurrence or split"
+        ],
+        "answer": "d",
+        "explanation": "Some parts of a business process are inherently sequential, and some are readily concurrent."
+    },
+    {
+        "question": "Each department may have its own task list to complete in order to achieve the goals of the overarching process.",
+        "options": [
+            "a) State",
+            "b) Activity",
+            "c) Subprocess",
+            "d) Fork or concurrence or split"
+        ],
+        "answer": "c",
+        "explanation": "These subtasks (basically a separate process unto their own) may be modeled as a subprocess."
+    },
+    {
+        "question": "A decision describes a node that is conditional, based on some logic that you inject.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You might use this to vary the execution based on some fact that you provide the process as a parameter."
+    },
+    {
+        "question": "To use PostgreSQL, you need to add a the driver library to the classpath.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You might use this to vary the execution based on some fact that you provide the process as a parameter."
+    },
+    {
+        "question": "To use PostgreSQL, you need to add a the driver library to the classpath.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If you are using Maven, add the following dependency to your project."
+    }
+]

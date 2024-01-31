@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is HTML?",
+        "options": [
+            "a) HTML describes the structure of a webpage",
+            "b) HTML is the standard markup language mainly used to create web pages",
+            "c) HTML consists of a set of elements that helps the browser how to view the content",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "HTML is the standard markup language mainly used to create web pages. HTML describes the structure and layout of a webpage. HTML consists of a series of elements that helps the browser how to display content easily."
+    },
+    {
+        "question": "Who is the father of HTML?",
+        "options": [
+            "a) Rasmus Lerdorf",
+            "b) Tim Berners-Lee",
+            "c) Brendan Eich",
+            "d) Sergey Brin"
+        ],
+        "answer": "b",
+        "explanation": "Timothy John Berners-Lee (TimBL) is known as the father of HTML. He is a British computer scientist, best known as the inventor of the World Wide Web."
+    },
+    {
+        "question": "HTML stands for __________",
+        "options": [
+            "a) HyperText Markup Language",
+            "b) HyperText Machine Language",
+            "c) HyperText Marking Language",
+            "d) HighText Marking Language"
+        ],
+        "answer": "a",
+        "explanation": "HTML stands for \u201cHyperText Markup Language\u201d. HTML is the standard markup language mainly used to design and create web pages and web applications."
+    },
+    {
+        "question": "What is the correct syntax of doctype in HTML5?",
+        "options": [
+            "a) </doctype html>",
+            "b) <doctype html>",
+            "c) <doctype html!>",
+            "d) <!doctype html>"
+        ],
+        "answer": "d",
+        "explanation": "The correct syntax of HTML5 doctype is <!doctype html>, doctype is the very first thing to write in HTML5. <!doctype html> or <!DOCTYPE HTML> both are same because \u2018doctype\u2019 keyword is not case sensitive."
+    },
+    {
+        "question": "Which of the following is used to read an HTML page and render it?",
+        "options": [
+            "a) Web server",
+            "b) Web network",
+            "c) Web browser",
+            "d) Web matrix"
+        ],
+        "answer": "c",
+        "explanation": "A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web. A web server process, store and display output to the client as per their request. Web matrix is a discontinued cloud-connected website builder and HTML editor for Windows."
+    },
+    {
+        "question": "Which of the following is not a difference between HTML and XHTML?",
+        "options": [
+            "a) Charset in both html and xhtml is \u201ctext/html\u201d",
+            "b) Tags and attributes are case-insensitive in HTML but not in XHTML",
+            "c) Special characters must be escaped using character entities in XHTML unlike HTML",
+            "d) Charset in html is \u201ctext/html\u201d where as in xhtml it is \u201capplication/xml+xhtml\u201d"
+        ],
+        "answer": "a",
+        "explanation": "HTML is case insensitive while XHTML is case sensitive. In XHTML, special characters can be escaped using character entites but not in HTML. Charset in HTML is \u201ctext/html\u201d where as it is \u201capplication/xml+xhtml\u201d for XHTML."
+    },
+    {
+        "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+        "options": [
+            "a) head",
+            "b) <h1>",
+            "c) <h6>",
+            "d) heading"
+        ],
+        "answer": "b",
+        "explanation": "Headings in HTML starts from <h1> to <h6> in which <h1> heading is the largest one and <h6> is smallest one among those. The heading tags are <h1> <h2> <h3> <h4> <h5> and <h6> that are used for the creations of headings."
+    },
+    {
+        "question": "What is DOM in HTML?",
+        "options": [
+            "a) Language dependent application programming",
+            "b) Hierarchy of objects in ASP.NET",
+            "c) Application programming interface",
+            "d) Convention for representing and interacting with objects in html documents"
+        ],
+        "answer": "d",
+        "explanation": "The Document Object Model is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure. A document can be viewed as a logical tree with help of DOM Model."
+    },
+    {
+        "question": "In which part of the HTML metadata is contained?",
+        "options": [
+            "a) head tag",
+            "b) title tag",
+            "c) html tag",
+            "d) body tag"
+        ],
+        "answer": "a",
+        "explanation": "Metadata is information about data. The meta tag provides metadata/meta information about the HTML document. Metadata will not be displayed on the page. Metadata is present in head. The body tag defines document\u2019s body. A title tag is an HTML element which specifies the title of a web page."
+    },
+    {
+        "question": "Which element is used to get highlighted text in HTML5?",
+        "options": [
+            "a) <u>",
+            "b) <mark>",
+            "c) <highlight>",
+            "d) <b>"
+        ],
+        "answer": "b",
+        "explanation": "The <mark> element is used to highlight a section of text. It is useful for quoting a text or if one wants to bring attention to the text. The <b> tag is used to make text/paragraph bold. <u> tag is used to underline the text you wanted."
+    }
+]

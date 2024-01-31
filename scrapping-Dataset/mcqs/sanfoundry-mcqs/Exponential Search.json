@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Exponential search algorithm requires which of the following condition to be true?",
+        "options": [
+            "a) array should be sorted",
+            "b) array should have not be sorted",
+            "c) array should have a less than 128 elements",
+            "d) array should be partially sorted"
+        ],
+        "answer": "a",
+        "explanation": "Exponential sort requires the input array to be sorted. The algorithm would fail to give the correct result if array is not sorted."
+    },
+    {
+        "question": "Which of the following searching algorithm is used with exponential sort after finding the appropriate range?",
+        "options": [
+            "a) Linear search",
+            "b) Binary search",
+            "c) Jump search",
+            "d) Fibonacci Search"
+        ],
+        "answer": "b",
+        "explanation": "In exponential search, we first find a range where the required elements should be present in the array. Then we apply binary search in this range."
+    },
+    {
+        "question": "Exponential search has ____________",
+        "options": [
+            "a) neither an exponential space complexity nor exponential time complexity",
+            "b) exponential time complexity but a linear space complexity",
+            "c) exponential space complexity but a linear time complexity",
+            "d) both exponential time and space complexity"
+        ],
+        "answer": "a",
+        "explanation": "Exponential search has neither an exponential space complexity nor exponential time complexity. It is named exponential search because it searches for an element in an exponential manner."
+    },
+    {
+        "question": "Choose the correct while loop statement from the following that finds the range where are the element being search is present (x is the element being searched in an array arr of size n)?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In exponential search we first find the range where the element being searched can be present before applying binary search. We do this by comparing the value of element under search with the array elements present at the positions 1,2,4,8\u2026.n."
+    },
+    {
+        "question": "What is the time complexity of exponential sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(2n)",
+            "c) O(n log n)",
+            "d) O(log n)"
+        ],
+        "answer": "d",
+        "explanation": "In exponential search, we first find a range where the required elements should be present in the array. Then we apply binary search in this range. This takes O(log n) time in the worst case."
+    },
+    {
+        "question": "What is the auxiliary space requirement of an exponential sort when used with iterative binary search?",
+        "options": [
+            "a) O(n)",
+            "b) O(2",
+            "c) O(1)",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Exponential search does not require any auxiliary space for finding the element being searched. So it has a constant auxiliary space O(1)."
+    },
+    {
+        "question": "What is the auxiliary space requirement of the exponential sort when used with recursive binary search?",
+        "options": [
+            "a) O(n)",
+            "b) O(2",
+            "c) O(1)",
+            "d) O(log n)"
+        ],
+        "answer": "d",
+        "explanation": "Exponential search requires an auxiliary space of log n when used with recursive binary search. This space is required for the recursion call stack space."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest?",
+        "options": [
+            "a) jump search",
+            "b) exponential search",
+            "c) linear search",
+            "d) all are equally fast"
+        ],
+        "answer": "b",
+        "explanation": "Exponential search has the least time complexity (equal to log n) out of the given searching algorithms. This makes exponential search preferable in most cases."
+    },
+    {
+        "question": "In which of the following case jump search will be preferred over exponential search?",
+        "options": [
+            "a) jumping backwards takes significantly more time than jumping forward",
+            "b) jumping forward takes significantly more time than jumping backwards",
+            "c) when the given array is very large in size",
+            "d) when the given array is very small in size"
+        ],
+        "answer": "a",
+        "explanation": "Jump search only needs to jump backwards once, while an exponential search can jump backwards up to log n times. Thus jump search will be preferred if jumping backwards is expensive."
+    },
+    {
+        "question": "Best case of the exponential search will have time complexity of?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case of the exponential search will be when the first element of the array is the element that is being searched. In this case, only one comparison will be required. Thus it will have a time complexity of O(1)."
+    },
+    {
+        "question": "Which of the following code correctly represent exponential search?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In exponential search we first find a range where the required element should be present in the array. Then we apply binary search in this range."
+    },
+    {
+        "question": "Jump search has a better time complexity than the exponential search.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The worst case time complexity of jump search and exponential searches are O(n1/2) and O(log n) respectively. So exponential search is better in terms of time complexity."
+    },
+    {
+        "question": "Exponential search performs better than binary search when the element being searched is present near the starting point of the array.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Exponential search first finds the range where binary search needs to be applied. So when the element is present near the starting point of the array then exponential search performs better than standard binary search."
+    },
+    {
+        "question": "Choose the incorrect statement about exponential search from the following.",
+        "options": [
+            "a) Exponential search is an in place algorithm",
+            "b) Exponential search has a greater time complexity than binary search",
+            "c) Exponential search performs better than binary search when the element being searched is present near the starting point of the array",
+            "d) Jump search has a greater time complexity than an exponential search"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of exponential search and binary search are the same. But exponential search performs better than binary search when the element being searched is present near the starting point of the array."
+    },
+    {
+        "question": "Which of the following is not an alternate name of exponential search?",
+        "options": [
+            "a) Logarithmic search",
+            "b) Doubling search",
+            "c) Galloping search",
+            "d) Struzik search"
+        ],
+        "answer": "a",
+        "explanation": "Logarithmic search is not an alternate name of the exponential search. Some alternate names of exponential search are Doubling search, Galloping search and Struzik search."
+    }
+]

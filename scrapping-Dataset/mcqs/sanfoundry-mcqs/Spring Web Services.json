@@ -1,0 +1,165 @@
+[
+    {
+        "question": "The concept of an endpoint in web services is much like that of a controller in web applications.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The difference is that a web controller deals with HTTP requests and HTTP responses, while a service endpoint deals with XML request messages and XML response messages."
+    },
+    {
+        "question": "Spring-WS provides various abstract endpoint classes for you to process the request.",
+        "options": [
+            "a) org.springframework.ws.server.endpoint",
+            "b) org.springframework.ws.server",
+            "c) org.springframework.*",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring-WS provides various abstract endpoint classes for you to process the request and response XML messages using different XML processing technologies and APIs. These classes are all located in the org.springframework.ws.server.endpoint package."
+    },
+    {
+        "question": "Endpoint Classes for DOM:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractJDomPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractXomPayloadEndpoint"
+        ],
+        "answer": "a",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for JDOM:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractJDomPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractXomPayloadEndpoint"
+        ],
+        "answer": "b",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for dom4j:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractJDomPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractXomPayloadEndpoint"
+        ],
+        "answer": "c",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for XOM:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractJDomPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractXomPayloadEndpoint"
+        ],
+        "answer": "d",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for SAX:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractSaxPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractXomPayloadEndpoint"
+        ],
+        "answer": "b",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for Event-based StAX:-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractSaxPayloadEndpoint",
+            "c) AbstractDom4jPayloadEndpoint",
+            "d) AbstractStaxEventPayloadEndpoint"
+        ],
+        "answer": "d",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for Streaming StAX :-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractSaxPayloadEndpoint",
+            "c) AbstractStaxStreamPayloadEndpoint",
+            "d) AbstractStaxEventPayloadEndpoint"
+        ],
+        "answer": "c",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "Endpoint Classes for XML marshalling :-",
+        "options": [
+            "a) AbstractDomPayloadEndpoint",
+            "b) AbstractSaxPayloadEndpoint",
+            "c) AbstractStaxStreamPayloadEndpoint",
+            "d) AbstractMarshallingPayloadEndpoint"
+        ],
+        "answer": "d",
+        "explanation": "Endpoint Classes for Different XML Processing Technologies/APIs"
+    },
+    {
+        "question": "If you need to get access to the entire SOAP message, you should write an endpoint class by implementing:-",
+        "options": [
+            "a) org.springframework.ws.server.endpoint.MessageEndpoint",
+            "b) org.springframework.ws",
+            "c) org.springframework.ws.server.endpoint",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you need to get access to the entire SOAP message, you should write an endpoint class by implementing the org.springframework.ws.server.endpoint.MessageEndpoint org.springframework.ws.server.endpoint.MessageEndpoint interface."
+    },
+    {
+        "question": "You can create a dom4j endpoint by extending the:-",
+        "options": [
+            "a) AbstractDom4jPayloadEndpoint",
+            "b) AbstractDom4jPayload",
+            "c) AbstractDom4jEndpoint",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can create a dom4j endpoint by extending the AbstractDom4jPayloadEndpoint class."
+    },
+    {
+        "question": "In this method, you can access the request XML element, whose type is org.dom4j.Element, and the response document, whose type is org.dom4j.Document, as method arguments.",
+        "options": [
+            "a) invoke",
+            "b) invokeInterval",
+            "c) invokeInternal",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The core method defined in this class that you must override is invokeInternal()."
+    },
+    {
+        "question": "Web services can be invoked through the core template class:-",
+        "options": [
+            "a) org.springframework.ws.client.core.WebServiceTemplate",
+            "b) JDBC Template",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When using Spring-WS on the client side, web services can be invoked through the core template class org.springframework.ws.client.core.WebServiceTemplate."
+    },
+    {
+        "question": "WebServiceTemplate provides a sendSourceAndReceiveToResult() method that accepts arguments:-",
+        "options": [
+            "a) java.xml.transform.Source",
+            "b) java.xml.transform.Result",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the getTemperatures() method, you first build the request message using the dom4j API. WebServiceTemplate provides a sendSourceAndReceiveToResult() method that accepts a java.xml.transform.Source and a java.xml.transform.Result object as arguments."
+    }
+]

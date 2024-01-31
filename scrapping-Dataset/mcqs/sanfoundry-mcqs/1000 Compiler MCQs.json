@@ -1,0 +1,278 @@
+[
+    {
+        "question": "What is a compiler?",
+        "options": [
+            "a) system program that converts instructions to machine language",
+            "b) system program that converts machine language to high-level language",
+            "c) system program that writes instructions to perform",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A compiler is a system program that converts instructions in form of code to machine understandable language."
+    },
+    {
+        "question": "Which of the following is a stage of compiler design?",
+        "options": [
+            "a) Semantic analysis",
+            "b) Intermediate code generator",
+            "c) Code generator",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The phases of a compiler are:"
+    },
+    {
+        "question": "What is the use of a symbol table in compiler design?",
+        "options": [
+            "a) Finding name\u2019s scope",
+            "b) Type checking",
+            "c) Keeping all of the names of all entities in one place",
+            "d) All of the mentioned",
+            "i) To keep all of the names of all entities in one place in a systematic format."
+        ],
+        "answer": "d",
+        "explanation": "Both the analysis and synthesis components of a compiler use the symbol table."
+    },
+    {
+        "question": "Which of the following error can a compiler check?",
+        "options": [
+            "a) Syntax Error",
+            "b) Logical Error",
+            "c) Both Logical and Syntax Error",
+            "d) Compiler cannot check errors"
+        ],
+        "answer": "a",
+        "explanation": "Logic flaws can never be checked by a compiler."
+    },
+    {
+        "question": "A programmer, writes a program to multiply two numbers instead of dividing them by mistake, how can this error be detected?",
+        "options": [
+            "a) Compiler or interpreter",
+            "b) Compiler only",
+            "c) Interpreter only",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "This is a logical error that can\u2019t be detected by any compiler or interpreter."
+    },
+    {
+        "question": "Who is responsible for the creation of the symbol table?",
+        "options": [
+            "a) Assembler",
+            "b) Compiler",
+            "c) Interpreter",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The compiler generates a symbol table, which contains a list of lexemes or tokens."
+    },
+    {
+        "question": "Which of the following is known as a compiler for a high-level language that runs on one machine and produces code for a different machine?",
+        "options": [
+            "a) Cross compiler",
+            "b) Multipass compiler",
+            "c) Optimizing compiler",
+            "d) One pass compiler"
+        ],
+        "answer": "a",
+        "explanation": "So done by the definition."
+    },
+    {
+        "question": "Which of the following is a system program that integrates a program\u2019s individually compiled modules into a form that can be executed?",
+        "options": [
+            "a) Interpreter",
+            "b) Assembler",
+            "c) Compiler",
+            "d) Linking Loader"
+        ],
+        "answer": "d",
+        "explanation": "A loader that combines the functionality of a relocation loader with the ability to combine a number of independently compiled program segments."
+    },
+    {
+        "question": "Which of the following is a definition of compiler?",
+        "options": [
+            "a) Acceptance of a program written in a high-level language and produces an object program",
+            "b) Program is put into memory and executes it",
+            "c) Translation of assembly language into machine language",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A compiler is a software (or combination of programs) that converts source code written in one programming language (the source language) into code written in another programming language (the target language) (the target language, often having a binary form known as object code)."
+    },
+    {
+        "question": "Which of the following phase of the compiler is Syntax Analysis?",
+        "options": [
+            "a) Second",
+            "b) Third",
+            "c) First",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is the Second Phase of the Compiler after Lexical Analyzer. It is also called Hierarchical Analysis or Parsing."
+    },
+    {
+        "question": "Which of the following concept of FSA is used in the compiler?",
+        "options": [
+            "a) Code optimization",
+            "b) Code generation",
+            "c) Lexical analysis",
+            "d) Parser"
+        ],
+        "answer": "c",
+        "explanation": "Because the lexer performs its analysis by going from one stage to another."
+    },
+    {
+        "question": "Which of the following is a part of a compiler that takes as input a stream of characters and produces as output a stream of words along with their associated syntactic categories?",
+        "options": [
+            "a) Optimizer",
+            "b) Scanner",
+            "c) Parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A compiler\u2019s scanner scans a character-based input stream and creates a word-based output stream, with each word identified with its Syntactic category."
+    },
+    {
+        "question": "Let L1 = {w \u2208 {0,1}\u2217 | w has at least as many occurrences",
+        "options": [
+            "a) L2 is regular",
+            "b) L1 and L2 are regular",
+            "c) L1 is regular but not L2",
+            "d) None of them are regular"
+        ],
+        "answer": "c",
+        "explanation": "Let\u2019s look at the string 011011011011 to see if L1 is regular. The number of times 011 has occurred is four, however, it has also occurred three times. We can also produce a 110 if the string ends with 011. The following string is 110110110110, where 110 appears four times and 011 appears three times, already satisfying the."
+    },
+    {
+        "question": "What is CFG?",
+        "options": [
+            "a) Regular Expression",
+            "b) Compiler",
+            "c) Language expression",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "They\u2019re defined by the rule A->b, where A isn\u2019t terminal and b is."
+    },
+    {
+        "question": "Which of the following is a correct statement?",
+        "options": [
+            "a) I and III",
+            "b) I and IV",
+            "c) I, II and IV",
+            "d) I, II, III and IV"
+        ],
+        "answer": "b",
+        "explanation": "In recursion, space is used but recursive calls can\u2019t be calculated by the compiler."
+    },
+    {
+        "question": "Which of the following is correct regarding an optimizer Compiler?",
+        "options": [
+            "a) Optimize the code",
+            "b) Is optimized to occupy less space",
+            "c) Both of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "An optimising compiler is a computer programme that strives to minimise or maximise specific characteristics of an executable programme."
+    },
+    {
+        "question": "Which of the following error can Compiler diagnose?",
+        "options": [
+            "a) Logical errors only",
+            "b) Grammatical and logical errors",
+            "c) Grammatical errors only",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Only syntactical errors can be detected by the compiler."
+    },
+    {
+        "question": "In which of the following phase of the compiler is Lexical Analyser?",
+        "options": [
+            "a) Second",
+            "b) Third",
+            "c) First",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Lexical Analyzer is the First Phase of the Compiler."
+    },
+    {
+        "question": "Which of the following does an address code involve?",
+        "options": [
+            "a) No unary operators",
+            "b) Exactly 3 address",
+            "c) At most Three address",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In computer science, three-address is an intermediate code used by optimizing compilers to aid in the implementation of code-improving transformations."
+    },
+    {
+        "question": "An object module for a group of programs that were compiled separately is handed to a linker. Which of the following about an object module isn\u2019t true?",
+        "options": [
+            "a) Relocation bits",
+            "b) Names and locations of all external symbols denied in the object module",
+            "c) Absolute addresses of internal symbols",
+            "d) Object code"
+        ],
+        "answer": "c",
+        "explanation": "A linker, sometimes known as a link editor, is a computer program that merges one or more object files generated by a compiler into a single executable, library, or another object file."
+    },
+    {
+        "question": "Characters are grouped into tokens in which of the following phase of the compiler design?",
+        "options": [
+            "a) Code generator",
+            "b) Lexical analyzer",
+            "c) Parser",
+            "d) Code optimization"
+        ],
+        "answer": "b",
+        "explanation": "Gives tokens as output"
+    },
+    {
+        "question": "Why Generation of intermediate code based on an abstract machine model is useful in compilers?",
+        "options": [
+            "a) Writing for intermediate code generation",
+            "b) Portability of the front end of the compiler",
+            "c) Implementation of lexical analysis and syntax analysis is made easier",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Intermediate code generator receives input from its predecessor phase, semantic analyzer, in the form of an annotated syntax tree."
+    },
+    {
+        "question": "Why System program such as compiler are designed?",
+        "options": [
+            "a) They are Serially usable",
+            "b) They are Re-enterable",
+            "c) They are Nonreusable",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Re-enterable is the keyword for compiler being designed."
+    },
+    {
+        "question": "Which of the following technique is used for building cross compilers for other machines?",
+        "options": [
+            "a) Canadian Cross",
+            "b) Mexican Cross",
+            "c) X-cross",
+            "d) Brazilian Cross"
+        ],
+        "answer": "a",
+        "explanation": "The Canadian Cross is a technique for building cross compilers for other machines. Given three machines X, Y, and Z, one uses machine X (e.g. running Windows XP on an IA-32 processor) to build a cross compiler that runs on machine Y (e.g. running Mac OS X on an x86-64 processor) to create executables for machine Z."
+    },
+    {
+        "question": "Which of the following can detect an error if a programmer by mistake writes multiplication instead of division?",
+        "options": [
+            "a) Interpreter",
+            "b) Compiler or interpreter test",
+            "c) Compiler",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " No Logical errors can\u2019t be detected."
+    }
+]

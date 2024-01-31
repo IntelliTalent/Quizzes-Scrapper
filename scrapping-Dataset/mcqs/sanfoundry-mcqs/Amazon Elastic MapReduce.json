@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Amazon EMR also allows you to run multiple versions concurrently, allowing you to control your ___________ version upgrade.",
+        "options": [
+            "a) Pig",
+            "b) Windows Server",
+            "c) Hive",
+            "d) Ubuntu"
+        ],
+        "answer": "c",
+        "explanation": "Amazon EMR supports several versions of Hive, which you can install on any running cluster."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Amazon Elastic MapReduce (Amazon EMR) provides support for Apache Hive",
+            "b) Pig extends the SQL paradigm by including serialization formats and the ability to invoke mapper and reducer scripts",
+            "c) The Amazon Hive default input format is text",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "With Hive 0.13.1 on Amazon EMR, certain options introduced in previous versions of Hive on EMR have been removed in favor of greater parity with Apache Hive. For example, the -x option was removed."
+    },
+    {
+        "question": "The Amazon EMR default input format for Hive is __________",
+        "options": [
+            "a) org.apache.hadoop.hive.ql.io.CombineHiveInputFormat",
+            "b) org.apache.hadoop.hive.ql.iont.CombineHiveInputFormat",
+            "c) org.apache.hadoop.hive.ql.io.CombineFormat",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can specify the hive.base.inputformat option in Hive to select a different file format,"
+    },
+    {
+        "question": "Hadoop clusters running on Amazon EMR use ______ instances as virtual Linux servers for the master and slave nodes.",
+        "options": [
+            "a) EC2",
+            "b) EC3",
+            "c) EC4",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Amazon EMR has made enhancements to Hadoop and other open-source applications to work seamlessly with AWS."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Apache Hive saves Hive log files to /tmp/{user.name}/ in a file named hive.log",
+            "b) Amazon EMR saves Hive logs to /mnt/var/log/apps/",
+            "c) In order to support concurrent versions of Hive, the version of Hive you run determines the log file name",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If you have many GZip files in your Hive cluster, you can optimize performance by passing multiple files to each mapper."
+    },
+    {
+        "question": "Amazon EMR uses Hadoop processing combined with several __________  products.",
+        "options": [
+            "a) AWS",
+            "b) ASQ",
+            "c) AMR",
+            "d) AWES"
+        ],
+        "answer": "a",
+        "explanation": "Amazon Elastic MapReduce (Amazon EMR) is a web service that makes it easy to process large amounts of data efficiently."
+    },
+    {
+        "question": "___________ is an RPC framework that defines a compact binary serialization format used to persist data structures for later analysis.",
+        "options": [
+            "a) Pig",
+            "b) Hive",
+            "c) Thrift",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Amazon EMR does not support Hive Authorization."
+    },
+    {
+        "question": "Impala on Amazon EMR requires _________ running Hadoop 2.x or greater.",
+        "options": [
+            "a) AMS",
+            "b) AMI",
+            "c) AWR",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Impala is an open source tool in the Hadoop ecosystem for interactive, ad hoc querying using SQL syntax."
+    },
+    {
+        "question": "Impala executes SQL queries using a _________ engine.",
+        "options": [
+            "a) MAP",
+            "b) MPP",
+            "c) MPA",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Impala avoids Hive\u2019s overhead from creating MapReduce jobs, giving it faster query times than Hive."
+    },
+    {
+        "question": "Amazon EMR clusters can read and process Amazon _________ streams directly.",
+        "options": [
+            "a) Kinet",
+            "b) kinematics",
+            "c) Kinesis",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Amazon EMR connector for Amazon Kinesis uses the DynamoDB database as its backing for checkpointing metadata."
+    }
+]

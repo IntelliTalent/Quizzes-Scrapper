@@ -1,0 +1,814 @@
+[
+    {
+        "question": "How can you increase the CPU resources for your Lambda?",
+        "options": [
+            "Increase the configured CPU value",
+            "Increase the configured timeout value",
+            "Increase the configured memory value",
+            "Increase the configured concurrency value"
+        ],
+        "answer": "Increase the configured memory value"
+    },
+    {
+        "question": "How can additional code or content be provided for your Lambda?",
+        "options": [
+            "blocks",
+            "layers",
+            "aliases",
+            "handlers"
+        ],
+        "answer": "layers"
+    },
+    {
+        "question": "How can Step Functions call Lambdas?",
+        "options": [
+            "in sequence",
+            "both of these answers",
+            "neither of these answers",
+            "in parallel"
+        ],
+        "answer": "both of these answers"
+    },
+    {
+        "question": "Which AWS CLI command invokes a function?",
+        "options": [
+            "aws lambda invoke --function ReturnBucketName outputfile.txt",
+            "aws lambda execute --function-name ReturnBucketName outputfile.txt",
+            "aws lambda invoke --function-name ReturnBucketName outputfile.txt",
+            "aws lambda execute --function ReturnBucketName outputfile.txt"
+        ],
+        "answer": "aws lambda invoke --function-name ReturnBucketName outputfile.txt"
+    },
+    {
+        "question": "What adds tracing capabilities to a Lambda?",
+        "options": [
+            "AWS Trace",
+            "CloudStack",
+            "CloudTrail",
+            "AWS X-Ray"
+        ],
+        "answer": "AWS X-Ray"
+    },
+    {
+        "question": "You need to build a continuous integration/deployment pipeline for a set of Lambdas. What should you do?",
+        "options": [
+            "Create configuration files and deploy them using AWS CodePipeline.",
+            "Create CloudFormation templates and deploy them using AWS CodeBuild",
+            "Create configuration file and deploy using AWS CodeBuild",
+            "Create CloudFormation templates and deploy them using AWS CodePipeline."
+        ],
+        "answer": "Create CloudFormation templates and deploy them using AWS CodePipeline."
+    },
+    {
+        "question": "What can you use to monitor function invocations?",
+        "options": [
+            "API Gateway",
+            "S3",
+            "SAS",
+            "CloudTrail"
+        ],
+        "answer": "CloudTrail"
+    },
+    {
+        "question": "It is AWS best practice to enable Lambda logging by which of these methods.",
+        "options": [
+            "Use S3 metrics and CloudWatch alarms",
+            "Create custom metrics within your Lambda code.",
+            "Create custom metrics within your CloudWatch code.",
+            "Use Lambda metrics and CloudWatch alarms."
+        ],
+        "answer": "Use Lambda metrics and CloudWatch alarms."
+    },
+    {
+        "question": "What may be provided for environment variables?",
+        "options": [
+            "an SSL certificate",
+            "a bitmask",
+            "an AWS KMS key",
+            "an HTTP protocol"
+        ],
+        "answer": "an AWS KMS key"
+    },
+    {
+        "question": "Lambdas allow for running of what other things?",
+        "options": [
+            "binaries.",
+            "all of these answers",
+            "executables",
+            "Shell scripts"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "In what style must you write Lambda code?",
+        "options": [
+            "MVC",
+            "virtual",
+            "stateless",
+            "protocol"
+        ],
+        "answer": "stateless"
+    },
+    {
+        "question": "How can a developer provide Lambda code?",
+        "options": [
+            "by uploading a .zip file",
+            "all of these answers",
+            "by editing inline",
+            "from an S3 bucket"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the execution overhead?",
+        "options": [
+            "CLoudWatch logs",
+            "DynamoDB logs",
+            "S3 logs",
+            "Lambda logs."
+        ],
+        "answer": "Lambda logs."
+    },
+    {
+        "question": "What facilitates continuous delivery of Lambdas?",
+        "options": [
+            "CodeStack",
+            "ElasticStack",
+            "Mobile Hub",
+            "CodeDeploy"
+        ],
+        "answer": "CodeDeploy"
+    },
+    {
+        "question": "How are computing resources allocated to Lambdas?",
+        "options": [
+            "proportionally",
+            "equally",
+            "periodically",
+            "daily"
+        ],
+        "answer": "proportionally"
+    },
+    {
+        "question": "You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?",
+        "options": [
+            "resources and users",
+            "resources and conditions",
+            "events and users",
+            "events and conditions"
+        ],
+        "answer": "resources and conditions"
+    },
+    {
+        "question": "What does Lambda logging include?",
+        "options": [
+            "logging streams",
+            "rotating streams",
+            "logging events",
+            "advancing log groups"
+        ],
+        "answer": "logging streams"
+    },
+    {
+        "question": "What can AWS Amplify NOT do for a Lambda?",
+        "options": [
+            "create a Lambda",
+            "be an event source",
+            "assign an IAM role",
+            "delete a Lambda"
+        ],
+        "answer": "be an event source"
+    },
+    {
+        "question": "How do you author a Lambda in a programming language that AWS does not support?",
+        "options": [
+            "Create a Lambda function with a custom runtime and reference the function in your Lambda",
+            "Create a Lambda layer with a custom runtime and reference the layer in your lambda",
+            "You cannot use Lambda in this situation",
+            "Create a Lambda function with a custom runtime"
+        ],
+        "answer": "Create a Lambda layer with a custom runtime and reference the layer in your lambda"
+    },
+    {
+        "question": "What are listed downstream resources based on?",
+        "options": [
+            "the execution policy",
+            "the Lambda configuration",
+            "the Lambda nodes",
+            "the IAM user"
+        ],
+        "answer": "the Lambda configuration"
+    },
+    {
+        "question": "Which is an equivalent and valid tag for a pair of Lambdas?",
+        "options": [
+            "department:Sales,department:Sales",
+            "department:Sales,department:sales",
+            "aws:demo;aws:demo",
+            "aws:demo;aws:DEMO"
+        ],
+        "answer": "department:Sales,department:sales"
+    },
+    {
+        "question": "Outbound connections from Lambdas must be `_`.",
+        "options": [
+            "neither of these answers",
+            "UDP/IP",
+            "TCP/IP",
+            "both of these answers"
+        ],
+        "answer": "both of these answers"
+    },
+    {
+        "question": "How are CloudWatch actions configured?",
+        "options": [
+            "automatically",
+            "none of these answers",
+            "manually",
+            "ad hoc"
+        ],
+        "answer": "manually"
+    },
+    {
+        "question": "You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?",
+        "options": [
+            "stream and record sizes",
+            "stream and shard sizes",
+            "batch and record sizes",
+            "batch and shard sizes"
+        ],
+        "answer": "batch and record sizes"
+    },
+    {
+        "question": "You need to make your Lambda available to services in multiple VPCs. What do you do?",
+        "options": [
+            "Place each subnet in a VPC. Associate all subnets to your Lambda.",
+            "Place all subnets in a VPC. Associate all subnets to your Lambda.",
+            "Configure your Lambda to be available to multiple VPCs.",
+            "Configure all application VPCs to be peered."
+        ],
+        "answer": "Configure all application VPCs to be peered."
+    },
+    {
+        "question": "How is the cost associated with Lambda function calculated?",
+        "options": [
+            "number of function calls",
+            "amount of code run",
+            "compute time",
+            "amount of infrastructure used"
+        ],
+        "answer": "compute time"
+    },
+    {
+        "question": "What is the fastest way to get started with Lambda?",
+        "options": [
+            "Author a Lambda from scratch.",
+            "Use a blueprint.",
+            "Use a .zip deployment package.",
+            "Use the serverless app repository."
+        ],
+        "answer": "Use a blueprint."
+    },
+    {
+        "question": "Where is the disk space allocated for Lambda functions?",
+        "options": [
+            "/tmp",
+            "/default",
+            "/temp",
+            "/ds"
+        ],
+        "answer": "/tmp"
+    },
+    {
+        "question": "How do you stop a running Lambda that is stuck in a recursive loop?",
+        "options": [
+            "Delete the function.",
+            "Set the function concurrent execution limit to 0 while you update the code.",
+            "Reset the function.",
+            "Set the function concurrent execution limit to 100 while you update the code."
+        ],
+        "answer": "Set the function concurrent execution limit to 0 while you update the code."
+    },
+    {
+        "question": "What is AWS best practice for Lambda configuration?",
+        "options": [
+            "Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.",
+            "Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.",
+            "Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.",
+            "Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs."
+        ],
+        "answer": "Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings."
+    },
+    {
+        "question": "Basic Lambda permissions include permissions for what?",
+        "options": [
+            "removing log groups",
+            "none of these answers",
+            "creating log groups",
+            "updating log groups"
+        ],
+        "answer": "updating log groups"
+    },
+    {
+        "question": "How are environment variables stored?",
+        "options": [
+            "DynamoDB tables",
+            "key-value pairs",
+            "S3 buckets",
+            "none of these answers"
+        ],
+        "answer": "key-value pairs"
+    },
+    {
+        "question": "You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?",
+        "options": [
+            "S3",
+            "API Gateway",
+            "X-Ray",
+            "DynamoDB"
+        ],
+        "answer": "API Gateway"
+    },
+    {
+        "question": "You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?",
+        "options": [
+            "in the Lambda function code",
+            "in a Lambda environment variable",
+            "in the Lambda tags",
+            "in another S3 bucket"
+        ],
+        "answer": "in a Lambda environment variable"
+    },
+    {
+        "question": "What action is needed before you can test a Lambda?",
+        "options": [
+            "Deploy the Lambda",
+            "Export the function",
+            "none of these answers",
+            "Configure a test event"
+        ],
+        "answer": "Configure a test event"
+    },
+    {
+        "question": "What kind of packages can you use with Node.js for Lambdas?",
+        "options": [
+            "Fleece",
+            "NPM",
+            "none of these answers",
+            "Pod"
+        ],
+        "answer": "NPM"
+    },
+    {
+        "question": "Lambdas are monitored by default using which service?",
+        "options": [
+            "CloudTrail",
+            "CloudWatch",
+            "CloudFormation",
+            "LogWatch"
+        ],
+        "answer": "CloudWatch"
+    },
+    {
+        "question": "What can trigger a Lambda function execution?",
+        "options": [
+            "a table definition",
+            "queue isolation",
+            "STS Write",
+            "an SNS topic"
+        ],
+        "answer": "an SNS topic"
+    },
+    {
+        "question": "You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?",
+        "options": [
+            "POST",
+            "\"All object create events\"",
+            "PUT",
+            "COPY"
+        ],
+        "answer": "PUT"
+    },
+    {
+        "question": "To make Lambdas more testable, it is AWS best practice to separate which of these?",
+        "options": [
+            "Lambda configuration from logging code",
+            "Lambda handler from logging code",
+            "Lambda handler from core logic",
+            "Lambda configuration from core logic"
+        ],
+        "answer": "Lambda handler from core logic"
+    },
+    {
+        "question": "What is included in an exported Lambda deployment package?",
+        "options": [
+            "YAML definition",
+            "CloudFormation stack configuration",
+            "SAML deployment stack",
+            "Zip file of all related files"
+        ],
+        "answer": "Zip file of all related files"
+    },
+    {
+        "question": "When can you change the execution role of a Lambda?",
+        "options": [
+            "only at creation",
+            "only before deployment",
+            "never",
+            "anytime via configuration"
+        ],
+        "answer": "anytime via configuration"
+    },
+    {
+        "question": "What is the relationship between SAM template and CloudFormation template files?",
+        "options": [
+            "SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.",
+            "SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.",
+            "CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.",
+            "SAM templates are a different name for CloudFormation templates. Both template types include the same resource types."
+        ],
+        "answer": "SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types."
+    },
+    {
+        "question": "What service deploys Lambdas regionally?",
+        "options": [
+            "EdgeCloud",
+            "CloudEdge",
+            "CloudFront",
+            "CloudStack"
+        ],
+        "answer": "CloudFront"
+    },
+    {
+        "question": "What programming language does AWS Lambda support?",
+        "options": [
+            "custom",
+            "all of these answers",
+            "Java",
+            "Ruby"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?",
+        "options": [
+            "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.",
+            "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.",
+            "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.",
+            "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs."
+        ],
+        "answer": "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs."
+    },
+    {
+        "question": "You want to minimize cold start time for your Lambda. What do you do?",
+        "options": [
+            "Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.",
+            "Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.",
+            "Do nothing. AWS minimizes cols start time by default.",
+            "Create a warm-up Lambda that calls your Lambda every minute"
+        ],
+        "answer": "Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored."
+    },
+    {
+        "question": "When is Lambda code stored encrypted?",
+        "options": [
+            "at rest",
+            "at runtime",
+            "at deployment",
+            "non of these answers"
+        ],
+        "answer": "at rest"
+    },
+    {
+        "question": "When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??",
+        "options": [
+            "at the function level",
+            "at the alias or function level",
+            "at the version, alias, or function level",
+            "at the version or function level"
+        ],
+        "answer": "at the version, alias, or function level"
+    },
+    {
+        "question": "Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)",
+        "options": [
+            "Kinesis, S3, and SQS",
+            "Kinesis, S3, and SNS",
+            "Kinesis, DynamoDB, and SNS",
+            "Kinesis, DynamoDB, and SQS"
+        ],
+        "answer": "Kinesis, DynamoDB, and SQS"
+    },
+    {
+        "question": "Via what can a Lambda be called?",
+        "options": [
+            "all of these answers",
+            "a DynamoDB trigger",
+            "an API Gateway",
+            "an S3 bucket event"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "#### 52. which is use case of lambda ?",
+        "options": [
+            "Image processing",
+            "web application",
+            "both",
+            "Neither 1st and 2nd"
+        ],
+        "answer": "both"
+    },
+    {
+        "question": "Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?",
+        "options": [
+            "Integer",
+            "Float",
+            "Array",
+            "String"
+        ],
+        "answer": "Array"
+    },
+    {
+        "question": "A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?",
+        "options": [
+            "Increase the Lambda function timeout",
+            "Route traffic to API Gateway using a Route 53 alias",
+            "Disable payload compression for the API",
+            "Enable API Gateway stage-level caching"
+        ],
+        "answer": "Enable API Gateway stage-level caching"
+    },
+    {
+        "question": "The AWS Serverless Application Model (AWS SAM) is a model that \\_\\_\\_\\_ .",
+        "options": [
+            "defines serverless applications",
+            "associates permissions policies",
+            "creates Lambda functions",
+            "packages deployment artifacts"
+        ],
+        "answer": "defines serverless applications"
+    },
+    {
+        "question": "The code that you want AWS Lambda to invoke as per some defined triggers is known as **\\_**.",
+        "options": [
+            "the event source",
+            "the downstream resource",
+            "the log stream",
+            "the Lambda function"
+        ],
+        "answer": "the Lambda function"
+    },
+    {
+        "question": "A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?",
+        "options": [
+            "Look directly at the Lambda Logs in CloudWatch",
+            "Send the Lambda failures to a Dead Letter Queue",
+            "Use AWS X-Ray to step through the function",
+            "Use Kinesis to write their own custom logging tool"
+        ],
+        "answer": "Use AWS X-Ray to step through the function"
+    },
+    {
+        "question": "Lambdas can be created **\\_**.",
+        "options": [
+            "All of these answers",
+            "From scratch",
+            "From the app repository",
+            "Using a blueprint"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?",
+        "options": [
+            "Enable tracing, rerun the lambdas, and view in the lambda console",
+            "View the logs in CloudTrail",
+            "View the logs in CloudWatch",
+            "Enable tracing, rerun the Lambdas, and view in the X-Ray console"
+        ],
+        "answer": "Enable tracing, rerun the lambdas, and view in the lambda console"
+    },
+    {
+        "question": "Which tool would you use to test a Lambda locally?",
+        "options": [
+            "AWS SAM",
+            "AWS CLI",
+            "AWS CloudFormation",
+            "AWS SAM CLI"
+        ],
+        "answer": "AWS SAM CLI"
+    },
+    {
+        "question": "Your function failed to execute due to a timeout. What type of error is this?",
+        "options": [
+            "Caller",
+            "Runtime",
+            "Request",
+            "Account"
+        ],
+        "answer": "Runtime"
+    },
+    {
+        "question": "A company will be modernizing their application which is currently running on Amazon Elastic Cloud Compute (EC2) instances. They have experience with scaling this infrastructure using Amazon EC2 Autoscaling. They want to move to serverless infrastructure consisting of an Amazon API Gateway that triggers Lambda functions. They are consulting you about scaling this new infrastructure. What should the company consider in order to make sure the serverless infrastructure scales to their needs?",
+        "options": [
+            "Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests",
+            "Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces.",
+            "Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact",
+            "Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests"
+        ],
+        "answer": "Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact"
+    },
+    {
+        "question": "Can we use pakages with AWS Lambda?",
+        "options": [
+            "No, AWS Lambda does not support the use of external packages.",
+            "Yes, AWS Lambda supports the use of custom and NPM packages",
+            "AWS Lambda only supports built-in packages.",
+            "Packages can be used but require additional fees."
+        ],
+        "answer": "Yes, AWS Lambda supports the use of custom and NPM packages"
+    },
+    {
+        "question": "Are AWS Lambda functions available and to what extent?",
+        "options": [
+            "AWS Lambda functions are available 24/7 without any limitations.",
+            "AWS Lambda functions are available but may experience scheduled downtimes.",
+            "AWS Lambda functions are highly available with redundancy and replications.",
+            "AWS Lambda functions are available only during business hours."
+        ],
+        "answer": "AWS Lambda functions are highly available with redundancy and replications."
+    },
+    {
+        "question": "Is there any default limit to be applied at a functional level?",
+        "options": [
+            "Yes, there is a default limit to be applied at a functional level.",
+            "No, there is no default limit to be applied at a functional level.",
+            "The default limit depends on the AWS Lambda service plan.",
+            "Functional limits are set by users during configuration."
+        ],
+        "answer": "No, there is no default limit to be applied at a functional level."
+    },
+    {
+        "question": "How long can an AWS Lambda function execute?",
+        "options": [
+            "60 seconds",
+            "300 seconds",
+            "600 seconds",
+            "30 seconds"
+        ],
+        "answer": "300 seconds"
+    },
+    {
+        "question": "How does AWS Lambda secure my code?",
+        "options": [
+            "AWS Lambda stores code in plaintext without encryption",
+            "AWS Lambda encrypts and stores it in Amazon S3.",
+            "AWS Lambda does not provide any security measures for code.",
+            "AWS Lambda relies on third-party security tools for code protection."
+        ],
+        "answer": "AWS Lambda encrypts and stores it in Amazon S3."
+    },
+    {
+        "question": "Which languages are supported by AWS Lambda?",
+        "options": [
+            "Python, C#, JavaScript and Java",
+            "Ruby, PHP, Swift",
+            "C++ and Rust",
+            "# HTML and CSS"
+        ],
+        "answer": "Python, C#, JavaScript and Java"
+    },
+    {
+        "question": "What does AWS Lambda mean?",
+        "options": [
+            "a) AWS Lambda is a database service offered by AWS.",
+            "b) AWS Lambda is a serverless computing service provided by AWS.",
+            "c) AWS Lambda is a machine learning framework developed by AWS.",
+            "d) AWS Lambda is an IoT platform developed by AWS."
+        ],
+        "answer": "b) AWS Lambda is a serverless computing service provided by AWS."
+    },
+    {
+        "question": "What restrictions apply to AWS Lambda function code?",
+        "options": [
+            "a) Lambda imposes restrictions on the use of outbound network connections.",
+            "b) Lambda imposes restrictions on trace calls for debugging.",
+            "c) Lambda allows unlimited TCP port 25 traffic.",
+            "d) Lambda imposes restrictions on the execution time of functions."
+        ],
+        "answer": "a) Lambda imposes restrictions on the use of outbound network connections."
+    },
+    {
+        "question": "How long can an AWS Lambda function execute?",
+        "options": [
+            "a) 60 seconds",
+            "b) 300 seconds",
+            "c) 600 seconds",
+            "d) 30 seconds"
+        ],
+        "answer": "b) 300 seconds"
+    },
+    {
+        "question": "How does AWS Lambda secure my code?",
+        "options": [
+            "a) AWS Lambda stores code in plaintext without encryption.",
+            "b) AWS Lambda encrypts code and stores it in Amazon S3.",
+            "c) AWS Lambda does not provide any security measures for code.",
+            "d) AWS Lambda relies on third-party security tools for code protection."
+        ],
+        "answer": "b) AWS Lambda encrypts code and stores it in Amazon S3."
+    },
+    {
+        "question": "Which languages are supported by AWS Lambda?",
+        "options": [
+            "a) Python, C#, JavaScript, and Java",
+            "b) Ruby, PHP, and Swift",
+            "c) C++ and Rust",
+            "d) HTML and CSS"
+        ],
+        "answer": "a) Python, C#, JavaScript, and Java"
+    },
+    {
+        "question": "What is the definition of Auto-Scaling?",
+        "options": [
+            "a) Auto-Scaling is a feature that automatically scales AWS Lambda functions.",
+            "b) Auto-Scaling is a feature that automatically scales AWS EC2 instances.",
+            "c) Auto-Scaling is a feature that automatically scales AWS S3 storage.",
+            "d) Auto-Scaling is a feature that automatically scales AWS RDS databases."
+        ],
+        "answer": "b) Auto-Scaling is a feature that automatically scales AWS EC2 instances."
+    },
+    {
+        "question": "Is the infrastructure accessible on which the AWS Lambda runs?",
+        "options": [
+            "a) Yes, users have full access to the underlying infrastructure.",
+            "b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access.",
+            "c) Users have access to infrastructure but with limited permissions.",
+            "d) Users can request access to infrastructure from AWS support."
+        ],
+        "answer": "b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access."
+    },
+    {
+        "question": "Can I use packages with AWS Lambda?",
+        "options": [
+            "a) No, AWS Lambda does not support the use of external packages.",
+            "b) Yes, AWS Lambda supports the use of custom and NPM packages.",
+            "c) AWS Lambda only supports built-in AWS packages.",
+            "d) Packages can be used but require additional fees."
+        ],
+        "answer": "b) Yes, AWS Lambda supports the use of custom and NPM packages."
+    },
+    {
+        "question": "Are AWS Lambda functions available and to what extent?",
+        "options": [
+            "a) AWS Lambda functions are available 24/7 without any limitations.",
+            "b) AWS Lambda functions are available but may experience scheduled downtimes.",
+            "c) AWS Lambda functions are highly available with redundancy and replication.",
+            "d) AWS Lambda functions are available only during business hours."
+        ],
+        "answer": "c) AWS Lambda functions are highly available with redundancy and replication."
+    },
+    {
+        "question": "Is there any default limit to be applied at a functional level?",
+        "options": [
+            "a) Yes, there is a default limit applied at a functional level.",
+            "b) No, there is no default limit applied at a functional level.",
+            "c) The default limit depends on the AWS Lambda service plan.",
+            "d) Functional limits are set by users during configuration."
+        ],
+        "answer": "b) No, there is no default limit applied at a functional level."
+    },
+    {
+        "question": "You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?",
+        "options": [
+            "The default 5 mintutes timeout.",
+            "Lambda does not allow vedio encoding.",
+            "s3 transfer bottlenecks",
+            "s3 cannot talk to Lambda"
+        ],
+        "answer": "The default 5 mintutes timeout."
+    },
+    {
+        "question": "What is an AWS service or application that triggers a Lambda to run?",
+        "options": [
+            "an input trigger",
+            "an input event",
+            "an event source",
+            "an event trigger"
+        ],
+        "answer": "an event source"
+    },
+    {
+        "question": "What does a Lambda need to access DynamoDB tables?",
+        "options": [
+            "HTTPS certificate",
+            "IAM role permissions",
+            "DynamoDB SDK",
+            "admin role"
+        ],
+        "answer": "IAM role permissions",
+        "explanation": null,
+        "codeblock": null
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which of the following is used to convert property values to text Values?",
+        "options": [
+            "a) property Editor",
+            "b) property setter",
+            "c) property getter",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A property editor is a feature of the JavaBeans API for converting property values to and from text values."
+    },
+    {
+        "question": "Which property editor is used to specify a URL String for a property of the URL type?",
+        "options": [
+            "a) java.net.*",
+            "b) java.io.*",
+            "c) java.net.URL",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring will automatically convert the URL string into a URL object and inject it into your property."
+    },
+    {
+        "question": "Which interface is used to create your own property editors?",
+        "options": [
+            "a) CustomEditorConfigurer",
+            "b) RegisterCustomEditor",
+            "c) PropertyEditorConfigurer",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The CustomEditorConfigurer is implemented as a bean factory post processor for you to register your custom property editors before any of the beans get instantiated."
+    },
+    {
+        "question": "Which of the following property editors are registered by Spring?",
+        "options": [
+            "a) CustomNumberEditor",
+            "b) FileEditor",
+            "c) CustomDateEditor",
+            "d) CustomNetEditor"
+        ],
+        "answer": "b",
+        "explanation": "ClassEditor, FileEditor, LocaleEditor, and URLEditor are pre registered by Spring, so you don\u2019t need to register them again."
+    },
+    {
+        "question": "What are the ways to create custom Property Editors?",
+        "options": [
+            "a) implement PropertyEditor interface",
+            "b) extend PropertyEditorSupport Class",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can write custom property editors by implementing the java.beans.PropertyEditor interface or extending the convenient support class java.beans.PropertyEditorSupport."
+    },
+    {
+        "question": "Method which converts property into a string value",
+        "options": [
+            "a) getAsText",
+            "b) setAsText",
+            "c) regText",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The getAsText() method converts a property into a string value."
+    },
+    {
+        "question": "Method that converts string into a property value",
+        "options": [
+            "a) getAsText",
+            "b) setAsText",
+            "c) regText",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The setAsText() method converts a string back into a property."
+    },
+    {
+        "question": "The property value is retrieved by:-",
+        "options": [
+            "a) getValue method",
+            "b) setValue method",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The property value is retrieved and set by calling the getValue() and setValue() methods."
+    },
+    {
+        "question": "For a property editor to be searched correctly, it must be located in the same package as the target class, and the name must be Editor\u2019s name",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The name must be target class name with Editor as its suffix."
+    },
+    {
+        "question": "Which package is used for periodic work",
+        "options": [
+            "a) java.lang.Thread",
+            "b) java.util.TimerTask",
+            "c) java.util.Timer",
+            "d) java.util.concurrent"
+        ],
+        "answer": "b",
+        "explanation": "Java 1.3 saw the introduction of java.util.TimerTask to support doing some sort of work periodically."
+    },
+    {
+        "question": "Which subinterface provides functionality for managing Threads and their events",
+        "options": [
+            "a) ExecutorService",
+            "b) ThreadService",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ExecutorService, a subinterface, provides more functionality for managing threads and providing support for raising events to the threads, such as shutdown()."
+    },
+    {
+        "question": "Method provided by ExectuorService which returns a Future < T >",
+        "options": [
+            "a) submit",
+            "b) publish",
+            "c) addService",
+            "d) registerService"
+        ],
+        "answer": "a",
+        "explanation": "ExecutorService, a subinterface, provides more functionality for managing threads and providing support for raising events to the threads, such as shutdown()."
+    },
+    {
+        "question": "Which method provided by ExecutorService is used to check whether job is finished or cancelled",
+        "options": [
+            "a) Future.isDone()",
+            "b) Future.isCancelled()",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can call Future.isDone() or Future.isCancelled() to determine whether the job is finished or cancelled, respectively."
+    },
+    {
+        "question": "The Quartz integration and message driven POJO container doesn\u2019t needs TaskExecutor Services",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The TaskExecutor interface is used quite a bit internally in the Spring framework."
+    },
+    {
+        "question": "Which of the following class\u2019s instance is used by TimerTaskExecutor for managing jobs",
+        "options": [
+            "a) java.util.Timer",
+            "b) java.util.Date",
+            "c) java.util.HashMap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TimerTaskExecutor uses a java.util.Timer instance and manages jobs (java.util.concurrent.Callable"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following adds marginal sums to an existing table?",
+        "options": [
+            "a) par()",
+            "b) prop.table()",
+            "c) addmargins()",
+            "d) quantile()"
+        ],
+        "answer": "b",
+        "explanation": "prop.table() computes proportions from a contingency table."
+    },
+    {
+        "question": "Which of the following lists names of variables in a data.frame?",
+        "options": [
+            "a) quantile()",
+            "b) names()",
+            "c) barchart()",
+            "d) par()"
+        ],
+        "answer": "a",
+        "explanation": "names function is used to associate name with the value in the vector."
+    },
+    {
+        "question": "Which of the following is tool for chi-square distributions?",
+        "options": [
+            "a) pchisq()",
+            "b) chisq()",
+            "c) pnorm",
+            "d) barchart()"
+        ],
+        "answer": "c",
+        "explanation": "pnorm() is tool for normal distributions."
+    },
+    {
+        "question": "Which of the following groups values of a variable into larger bins?",
+        "options": [
+            "a) cut",
+            "b) col.max(x)",
+            "c) stem",
+            "d) which.max(x)"
+        ],
+        "answer": "a",
+        "explanation": "stem() is used to make a stemplot."
+    },
+    {
+        "question": "Which of the following determine the least-squares regression line?",
+        "options": [
+            "a) histo()",
+            "b) lm",
+            "c) barlm()",
+            "d) col.max(x)"
+        ],
+        "answer": "b",
+        "explanation": "lm calls the lower level functions lm.fit."
+    },
+    {
+        "question": "Which of the following is tool for checking normality?",
+        "options": [
+            "a) qqline()",
+            "b) qline()",
+            "c) anova()",
+            "d) lm()"
+        ],
+        "answer": "a",
+        "explanation": "qqnorm is another tool for checking normality."
+    },
+    {
+        "question": "Which of the following is lattice command for producing boxplots?",
+        "options": [
+            "a) plot()",
+            "b) bwplot()",
+            "c) xyplot()",
+            "d) barlm()"
+        ],
+        "answer": "b",
+        "explanation": "The function bwplot() makes box-and-whisker plots for numerical variables."
+    },
+    {
+        "question": "Which of the following compute analysis of variance table for fitted model?",
+        "options": [
+            "a) ecdf()",
+            "b) cum()",
+            "c) anova()",
+            "d) bwplot()"
+        ],
+        "answer": "c",
+        "explanation": "ecdf() builds empirical cumulative distribution function."
+    },
+    {
+        "question": "Which of the following is used to find variance of all values?",
+        "options": [
+            "a) var()",
+            "b) sd()",
+            "c) mean()",
+            "d) anova()"
+        ],
+        "answer": "a",
+        "explanation": "sd() is used to calculate standard deviation."
+    },
+    {
+        "question": "10.The purpose of fisher.test() is _______ test for contingency table.",
+        "options": [
+            "a) Chisq",
+            "b) Fisher",
+            "c) Prop",
+            "d) Stem"
+        ],
+        "answer": "b",
+        "explanation": "prop.test() is used to inference for 1 proportion using normal approx."
+    }
+]

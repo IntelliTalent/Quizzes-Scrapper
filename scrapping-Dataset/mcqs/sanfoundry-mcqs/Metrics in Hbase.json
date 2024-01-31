@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_______ can change the maximum number of cells of a column family.",
+        "options": [
+            "a) set",
+            "b) reset",
+            "c) alter",
+            "d) select"
+        ],
+        "answer": "c",
+        "explanation": "Alter is the command used to make changes to an existing table."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) You can add a column family to a table using the method addColumn()",
+            "b) Using alter, you can also create a column family",
+            "c) Using disable-all, you can truncate a column family",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Columns can also be added through HbaseAdmin."
+    },
+    {
+        "question": "Which of the following is not a table scope operator?",
+        "options": [
+            "a) MEMSTORE_FLUSH",
+            "b) MEMSTORE_FLUSHSIZE",
+            "c) MAX_FILESIZE",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Using alter, you can set and remove table scope operators such as MAX_FILESIZE, READONLY, MEMSTORE_FLUSHSIZE, DEFERRED_LOG_FLUSH, etc."
+    },
+    {
+        "question": "You can delete a column family from a table using the method _________ of HBAseAdmin class.",
+        "options": [
+            "a) delColumn()",
+            "b) removeColumn()",
+            "c) deleteColumn()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Alter command also can be used to delete a column family."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To read data from an HBase table, use the get() method of the HTable class",
+            "b) You can retrieve data from the HBase table using the get() method of the HTable class",
+            "c) While retrieving data, you can get a single row by id, or get a set of rows by a set of row ids, or scan an entire table or a subset of rows",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can retrieve an HBase table data using the add method variants in Get class."
+    },
+    {
+        "question": "__________ class adds HBase configuration files to its object.",
+        "options": [
+            "a) Configuration",
+            "b) Collector",
+            "c) Component",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can create a configuration object using the create() method of the HbaseConfiguration class."
+    },
+    {
+        "question": "________ communicate with the client and handle data-related operations.",
+        "options": [
+            "a) Master Server",
+            "b) Region Server",
+            "c) Htable",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Region Server handle read and write requests for all the regions under it."
+    },
+    {
+        "question": "_________ is the main configuration file of HBase.",
+        "options": [
+            "a) hbase.xml",
+            "b) hbase-site.xml",
+            "c) hbase-site-conf.xml",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Set the data directory to an appropriate location by opening the HBase home folder in /usr/local/HBase."
+    },
+    {
+        "question": "HBase uses the _______ File System to store its data.",
+        "options": [
+            "a) Hive",
+            "b) Imphala",
+            "c) Hadoop",
+            "d) Scala"
+        ],
+        "answer": "c",
+        "explanation": "The data storage will be in the form of regions (tables). These regions will be split up and stored in region servers."
+    }
+]

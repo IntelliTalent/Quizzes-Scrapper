@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The server sets its default time zone by examining its environment.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the server sets its default time zone by examining its environment. This is the local time zone of the server host. The time zone can be specified explicitly at the server startup."
+    },
+    {
+        "question": "The system variable \u2018system_time_zone\u2019 can be reset at runtime.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018system_time_zone\u2019 represents the time zone that the server determines to be the server host time zone at startup time. It exists only as a global system variable and cannot be reset at runtime."
+    },
+    {
+        "question": "The variable which represents the default time zone of the MySQL server is _____________",
+        "options": [
+            "a) time_zone",
+            "b) system_time_zone",
+            "c) date_and_time",
+            "d) system_time"
+        ],
+        "answer": "a",
+        "explanation": "The system variable \u2018time_zone\u2019 represents the default time zone of the MySQL server. By default, this variable is set to \u2018SYSTEM\u2019 which means to use the system_time_zone setting."
+    },
+    {
+        "question": "The number of options that can be used to control LOCAL capability at runtime is _____________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "At runtime, the server can be started with the \u2018\u2013local-infile\u2019 or \u2018\u2013skip-local-infile\u2019 options to enable or disable \u2018LOCAL\u2019 capability on the server side. It can be enabled at build time too."
+    },
+    {
+        "question": "If an error occurs during the transaction the troubleshoot is ____________",
+        "options": [
+            "a) delete",
+            "b) rollback",
+            "c) commit",
+            "d) update"
+        ],
+        "answer": "b",
+        "explanation": "Whenever an error occurs during a transaction, it is generally taken to the state prior to the beginning of transaction execution. This is known as rollback. It is a set of undo operations."
+    },
+    {
+        "question": "The \u2018A\u2019 in the ACID property of transactions is _______________",
+        "options": [
+            "a) Availability",
+            "b) Accuracy",
+            "c) Adjustability",
+            "d) Atomicity"
+        ],
+        "answer": "d",
+        "explanation": "All the transaction systems have an important set of characteristics in common. This is known as the \u2018ACID\u2019 property of the transaction. It refers to the four elementary characteristics of a transaction."
+    },
+    {
+        "question": "The \u2018C\u2019 in the ACID property of transactions is _______________",
+        "options": [
+            "a) Compound",
+            "b) Concrete",
+            "c) Collision",
+            "d) Consistency"
+        ],
+        "answer": "d",
+        "explanation": "The elementary characteristics of a transaction are known as the \u2018ACID\u2019 properties. \u2018ACID\u2019 is the acronym for the four basic characteristics that a transaction must have for smooth processing."
+    },
+    {
+        "question": "The datatype that means a variable length non binary string is __________",
+        "options": [
+            "a) VARCHAR",
+            "b) BINARY",
+            "c) VARBINARY",
+            "d) BLOB"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there is a wide variety of string datatypes for use. Strings can even hold image and sound data. All four options are string type names. VARCHAR represents a variable length non binary string."
+    },
+    {
+        "question": "The date and time datatype that stores time value in \u2018hh:mm:ss\u2019 format is ___________",
+        "options": [
+            "a) DATE",
+            "b) TIME",
+            "c) DATETIME",
+            "d) TIMESTAMP"
+        ],
+        "answer": "b",
+        "explanation": "MySQL has some variety of date and time datatypes. These datatypes are crucial for representing records in a table. The \u2018TIME\u2019 type represents a time value, stored in the \u2018hh:mm:ss\u2019 format."
+    },
+    {
+        "question": "The spatial datatype used to store a curve is _____________",
+        "options": [
+            "a) GEOMETRY",
+            "b) POINT",
+            "c) LINESTRING",
+            "d) POLYGON"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, there are many spatial datatypes available for use. Some examples are GEOMETRY, POINT, LINESTRING and POLYGON. The LINESTRING type is used to represent a curve."
+    }
+]

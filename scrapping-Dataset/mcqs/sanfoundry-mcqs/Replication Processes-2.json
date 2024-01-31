@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Before mongod creates an oplog, you can specify its size with the __________ option.",
+        "options": [
+            "a) oplogSizeMB",
+            "b) oplogSizeGB",
+            "c) opSizeMB",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " However, after you have started a replica set member for the first time, you can only change the size of the oplog using the Change the Size of the Oplog procedure."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The oplog is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases",
+            "b) MongoDB applies database operations on the primary and then records the operations on the primary\u2019s oplog",
+            "c) The primary members then copy and apply these operations in an asynchronous process",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All replica set members contain a copy of the oplog, in the local.oplog.rs collection, which allows them to maintain the current state of the database."
+    },
+    {
+        "question": "The oplog must translate multi-updates into individual operations in order to maintain ____________",
+        "options": [
+            "a) availability",
+            "b) idempotency",
+            "c) scalability",
+            "d) secondary"
+        ],
+        "answer": "b",
+        "explanation": "This can use a great deal of oplog space without a corresponding increase in data size or disk use."
+    },
+    {
+        "question": "Use _________ from a secondary member and the replication status output to assess the current state of replication.",
+        "options": [
+            "a) db.getReplInfo()",
+            "b) db.getReplicationInfo()",
+            "c) rs.printReplicationInfo()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This will determine if there is any unintended replication delay."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) To facilitate replication, all replica set members send heartbeats (pings) to all other members",
+            "b) For proper replication operations, entries in the oplog must be idempotent",
+            "c) Any member can import oplog entries from any other member",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When you start a replica set member for the first time, MongoDB creates an oplog of a default size."
+    },
+    {
+        "question": "For a member to sync from another, both members must have the same value for the _________ setting.",
+        "options": [
+            "a) buildIndexes",
+            "b) getIndexes",
+            "c) buildpriIndexes",
+            "d) secondary"
+        ],
+        "answer": "a",
+        "explanation": "Beginning in version 2.2, secondaries avoid syncing from delayed members and hidden members."
+    },
+    {
+        "question": "When ______________ is true, the mongod instance saves all documents migrated from the shard to the moveChunk directory of the storage.dbPath.",
+        "options": [
+            "a) sharding.archiveChunks",
+            "b) sharding.archiveMovedChunks",
+            "c) shards.archiveMovedChunks",
+            "d) rs.syncFrom()"
+        ],
+        "answer": "b",
+        "explanation": " MongoDB does not delete data stored in moveChunk."
+    },
+    {
+        "question": "Replication _______ is a delay between operation on the primary and the application of that operation from the oplog to the secondary.",
+        "options": [
+            "a) lag",
+            "b) delay",
+            "c) latency",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Replication lag can be a significant issue and can seriously affect MongoDB replica set deployments."
+    },
+    {
+        "question": "A delayed member may show as 0 seconds behind the primary when the inactivity period on the primary is greater than the ________ value.",
+        "options": [
+            "a) slaveDelayTime",
+            "b) slaveDelay",
+            "c) slaveTime",
+            "d) rs.slave()"
+        ],
+        "answer": "b",
+        "explanation": "slaveDelay is the number of seconds \u201cbehind\u201d the primary that this replica set member should \u201clag\u201d."
+    }
+]

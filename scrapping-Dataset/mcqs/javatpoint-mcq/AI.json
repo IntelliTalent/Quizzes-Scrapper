@@ -1,0 +1,660 @@
+[
+    {
+        "question": "1) Artificial Intelligence is about_____.",
+        "options": [
+            "Playing a game on Computer",
+            "Making a machine Intelligent",
+            "Programming on Machine with your Own Intelligence",
+            "Putting your intelligence in Machine"
+        ],
+        "answer": "Answer: b. Making a machine Intelligent.",
+        "explanation": " Artificial Intelligence is a branch of Computer science, which aims to create intelligent machines so that machine can think intelligently in the same manner as a human does.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Who is known as the -Father of AI\"?",
+        "options": [
+            "Fisher Ada",
+            "Alan Turing",
+            "John McCarthy",
+            "Allen Newell"
+        ],
+        "answer": "Answer: c. John McCarthy",
+        "explanation": " John McCarthy was a pioneer in the AI field and known as the father of Artificial intelligence. He was not only the known as the father of AI but also invented the term Artificial Intelligence.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Select the most appropriate situation for that a blind search can be used.",
+        "options": [
+            "Real-life situation",
+            "Small Search Space",
+            "Complex game",
+            "All of the above"
+        ],
+        "answer": "Answer: b. Small Search Space",
+        "explanation": " Blind Search is also known as uninformed search, and it does not contain any domain information such as closeness, location of the goal, etc. Hence the most appropriate situation that can be used for the blind search is Small-search Space.",
+        "codeblock": null
+    },
+    {
+        "question": "4) The application/applications of Artificial Intelligence is/are",
+        "options": [
+            "Expert Systems",
+            "Gaming",
+            "Vision Systems",
+            "All of the above"
+        ],
+        "answer": "Answer: d. All of the above",
+        "explanation": " All the given options are the applications of AI.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Among the given options, which search algorithm requires less memory?",
+        "options": [
+            "Optimal Search",
+            "Depth First Search",
+            "Breadth-First Search",
+            "Linear Search"
+        ],
+        "answer": "Answer: b. Depth First Search",
+        "explanation": " The Depth Search Algorithm or DFS requires very little memory as it only stores the stack of nodes from the root node to the current node.",
+        "codeblock": null
+    },
+    {
+        "question": "6) If a robot is able to change its own trajectory as per the external conditions, then the robot is considered as the__",
+        "options": [
+            "Mobile",
+            "Non-Servo",
+            "Open Loop",
+            "Intelligent"
+        ],
+        "answer": "Answer: d. Intelligent",
+        "explanation": " If a robot is able to change its own trajectory as per the external conditions, then the robot is considered intelligent. Such type of agents come under the category of AI agents or Rational Agents.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the given language is not commonly used for AI?",
+        "options": [
+            "LISP",
+            "PROLOG",
+            "Python",
+            "Perl"
+        ],
+        "answer": "Answer: d. Perl",
+        "explanation": " Among the given languages, Perl is not commonly used for AI. LISP and PROLOG are the two languages that have been broadly used for AI innovation, and the most preferred language is Python for AI and Machine learning.",
+        "codeblock": null
+    },
+    {
+        "question": "8) A technique that was developed to determine whether a machine could or could not demonstrate the artificial intelligence known as the___",
+        "options": [
+            "Boolean Algebra",
+            "Turing Test",
+            "Logarithm",
+            "Algorithm"
+        ],
+        "answer": "Answer: b. Turing Test",
+        "explanation": " In the year 1950, mathematician and computing pioneer Alan Turing introduced a test to determine whether a machine can think like a human or not, which means it can demonstrate intelligence, known as the Turing Test. It was based on the \"Imitation game\" with some modifications. This technique is still a measure of various successful AI projects, with some updates.",
+        "codeblock": null
+    },
+    {
+        "question": "9) The component of an Expert system is_________.",
+        "options": [
+            "Knowledge Base",
+            "Inference Engine",
+            "User Interface",
+            "All of the above"
+        ],
+        "answer": "Answer: d. All of the above",
+        "explanation": " Expert system is a part of AI and a computer program that is used to solve complex problems, and to give the decision-making ability like human. It does this with the help of a Knowledge base, Inference engine, and User interface, and all these are the components of an Expert System.",
+        "codeblock": null
+    },
+    {
+        "question": "10) Which algorithm is used in the Game tree to make decisions of Win/Lose?",
+        "options": [
+            "Heuristic Search Algorithm",
+            "DFS/BFS algorithm",
+            "Greedy Search Algorithm",
+            "Min/Max algorithm"
+        ],
+        "answer": "Answer: d. Min/Max Algorithm",
+        "explanation": " A game tree is a directed graph whose nodes represent the positions in Game and edges represent the moves. To make any decision, the game tree uses the Min/Max algorithm. The Min/Max algorithm is the preferred one over other search algorithms, as it provides the best move to the player, assuming that the opponent is also playing Optimally.",
+        "codeblock": null
+    },
+    {
+        "question": "11) The available ways to solve a problem of state-space-search.",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "Answer: b. 2",
+        "explanation": " There are only two ways to solve the problems of state-space search.",
+        "codeblock": null
+    },
+    {
+        "question": "12) Among the given options, which is not the required property of Knowledge representation?",
+        "options": [
+            "Inferential Efficiency",
+            "Inferential Adequacy",
+            "Representational Verification",
+            "Representational Adequacy"
+        ],
+        "answer": "Answer: C. Representational Verification",
+        "explanation": " Knowledge representation is the part of Artificial Intelligence that deals with AI agent thinking and how their thinking affects the intelligent behavior of agents. A good knowledge representation requires the following properties:",
+        "codeblock": null
+    },
+    {
+        "question": "13) An AI agent perceives and acts upon the environment using___.",
+        "options": [
+            "Sensors",
+            "Perceiver",
+            "Actuators",
+            "Both a and c"
+        ],
+        "answer": "Answer: d. Both a and c.",
+        "explanation": " An AI agent perceives and acts upon the environment using Sensors and Actuators. With Sensors, it senses the surrounding, and with Actuators, it acts on it.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which rule is applied for the Simple reflex agent?",
+        "options": [
+            "Simple-action rule",
+            "Simple &Condition-action rule",
+            "Condition-action rule",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Condition-action rule",
+        "explanation": " The simple reflex agent takes decisions only on the current condition and acts accordingly; it ignores the rest of history; hence it follows the Condition-action rule.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which agent deals with the happy and unhappy state?",
+        "options": [
+            "Utility-based agent",
+            "Model-based agent",
+            "Goal-based Agent",
+            "Learning Agent"
+        ],
+        "answer": "Answer: a. Utility-based agent",
+        "explanation": " Utility-based agent uses an extra component of utility that provides a measure of success at a given state. It decides that how efficient that state to achieve the goal, which specifies the happiness of the agent.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Rational agent always does the right things.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: a. True",
+        "explanation": " Rational agent has clear preference, goal, and acts in a way to maximize its performance. It is said that it always does the right things, which means it gives the best performance for each action.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which term describes the common-sense of the judgmental part of problem-solving?",
+        "options": [
+            "Values-based",
+            "Critical",
+            "Analytical",
+            "Heuristic"
+        ],
+        "answer": "Answer: d. Heuristic",
+        "explanation": " In problem-solving, the Heuristic describes the common sense or Judgemental part.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Which AI technique enables the computers to understand the associations and relationships between objects and events?",
+        "options": [
+            "Heuristic Processing",
+            "Cognitive Science",
+            "Relative Symbolism",
+            "Pattern Matching"
+        ],
+        "answer": "Answer: d. Pattern Matching",
+        "explanation": " Pattern matching is a way to check a given sequence of tokens in order to determine the presence of a given character or data in the given sequence. It allows computers to understand the relationship between objects and events.",
+        "codeblock": null
+    },
+    {
+        "question": "19) The exploration problem is where______.",
+        "options": [
+            "Agent contains the knowledge of State and actions.",
+            "Agent does not contain the knowledge of State and actions.",
+            "Only actions are known to the agent.",
+            "None of the above"
+        ],
+        "answer": "Answer: b. Agent does not contain knowledge State and actions",
+        "explanation": " In Exploration problems, the agent does not contain the knowledge of state space and actions in advance. These are difficult problems and used in the real world.",
+        "codeblock": null
+    },
+    {
+        "question": "20) In the Wumpus World Problem, the reason for the uncertainty is that the agent's sensor gives only__",
+        "options": [
+            "Full & Global information",
+            "Partial & Global Information",
+            "Full & local information",
+            "Partial & local Information"
+        ],
+        "answer": "Answer: d. Partial & local Information",
+        "explanation": " The Wumpus world is an example environment that is made of grids of squares surrounded by walls. Each square can have agents or objects. The world is used to demonstrate the worth of a knowledge-based agent and knowledge representation. In the environment, uncertainty arises as the agent can only perceive the close environment. The Wumpus world is represented in below image:",
+        "codeblock": null
+    },
+    {
+        "question": "21) The search algorithm which is similar to the minimax search, but removes the branches that don't affect the final output is known as__.",
+        "options": [
+            "Depth-first search",
+            "Breadth-first search",
+            "Alpha-beta pruning",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Alpha-beta pruning",
+        "explanation": " Alpha-beta pruning algorithm is the modified version of the Minimax algorithm and returns the same moves as the original algorithm, but it removes all those nodes/branches that do not affect the final decision.",
+        "codeblock": null
+    },
+    {
+        "question": "22) The maximum depth to which the alpha-beta pruning can be applied.",
+        "options": [
+            "Eight states",
+            "Six states",
+            "Ten states",
+            "Any depth"
+        ],
+        "answer": "Answer: d. Any depth",
+        "explanation": " The Alpha-beta pruning can be applied to any depth of the tree and it can eliminate the entire subtree, if it is not affecting the final decision.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Among the given options, which is also known as inference rule?",
+        "options": [
+            "Reference",
+            "Reform",
+            "Resolution",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Resolution",
+        "explanation": " Resolution is also known as inference rule as it shows the complete inference rule when applied to any search algorithm.",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following option is used to build complex sentences in knowledge representation?",
+        "options": [
+            "Symbols",
+            "Connectives",
+            "Quantifier",
+            "None of the above"
+        ],
+        "answer": "Answer:",
+        "explanation": " Complex sentences are built by combining the atomic sentences using connectives.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Automatic Reasoning tool is used in_____.",
+        "options": [
+            "Personal Computers",
+            "Microcomputers",
+            "LISP Machines",
+            "All of the above"
+        ],
+        "answer": "Answer: c. LISP Machine",
+        "explanation": " ART or Automatic Reasoning tool is used in LISP machines to understand the different aspects of reasoning.",
+        "codeblock": null
+    },
+    {
+        "question": "26) If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as_______.",
+        "options": [
+            "False Negative Hypothesis",
+            "False Positive Hypothesis",
+            "Specialized Hypothesis",
+            "Consistent Hypothesis"
+        ],
+        "answer": "Answer: b. False Positive Hypothesis",
+        "explanation": " The False Positive Hypothesis means that according to results, you have that condition, but in reality, you don't have it. Such as for a medical test, if someone is found Positive for a disease, but actually he doesn't have that disease, then it comes under the False Positive hypothesis.",
+        "codeblock": null
+    },
+    {
+        "question": "27) A hybrid Bayesian Network consist_____.",
+        "options": [
+            "Discrete variables only",
+            "Discontinuous Variable",
+            "Both Discrete and Continuous variables",
+            "Continuous Variable only"
+        ],
+        "answer": "Answer: c. Both Discrete and Continuous Variables",
+        "explanation": " The Hybrid Bayesian network contains both discrete and continuous variables as the numerical inputs. To define the hybrid network, both kinds of distributions are used at wide probability distribution.",
+        "codeblock": null
+    },
+    {
+        "question": "28) The process of capturing the inference process as Single Inference Rule is known as:",
+        "options": [
+            "Clauses",
+            "Ponens",
+            "Generalized Modus Ponens",
+            "Variables"
+        ],
+        "answer": "Answer: c. Generalized Modus Ponens",
+        "explanation": " For all inference process in FOL, the single inference rule can be used, which is called Generalized Modus Ponens. It is said to be the lifted version of Modus ponens.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which process makes two different Logical expressions look identical?",
+        "options": [
+            "Unification",
+            "Lifting",
+            "Inference Process",
+            "None of the above"
+        ],
+        "answer": "Answer: a. Unification",
+        "explanation": " Unification is the process of making two different logical expressions identical by finding a substitution.",
+        "codeblock": null
+    },
+    {
+        "question": "30) Which algorithm takes two sentences as input and returns a Unifier?",
+        "options": [
+            "Inference",
+            "Hill-Climbing",
+            "Unify algorithm",
+            "Depth-first search"
+        ],
+        "answer": "Answer: c. Unify Algorithm",
+        "explanation": " The unify algorithm takes two atomic sentences and return a unifier. It is used for the unification process.",
+        "codeblock": null
+    },
+    {
+        "question": "31) The PEAS in the task environment is about____________.",
+        "options": [
+            "Peer, Environment, Actuators, Sense",
+            "Performance, Environment, Actuators, Sensors",
+            "Perceiving, Environment, Actuators, Sensors",
+            "None of the above"
+        ],
+        "answer": "Answer: b. Performance, Environment, Actuators, Sensors",
+        "explanation": " PEAS is a representation model on which an AI agent works. It is made up of four words:",
+        "codeblock": null
+    },
+    {
+        "question": "32) In state-space, the set of actions for a given problem is expressed by the_____.",
+        "options": [
+            "Intermediate States",
+            "Successor function that takes current action and returns next state",
+            "Initial States",
+            "None of the above"
+        ],
+        "answer": "Answer: b. Successor function that takes current action and returns next state",
+        "explanation": " The successor function provides a description of all possible actions and their next states, which means their outcomes.",
+        "codeblock": null
+    },
+    {
+        "question": "33) In which search problem, to find the shortest path, each city must be visited once only?",
+        "options": [
+            "Map coloring Problem",
+            "Depth-first search traversal on a given map represented as a graph",
+            "Finding the shortest path between a source and a destination",
+            "Travelling Salesman problem"
+        ],
+        "answer": "Answer: d. Travelling Salesman problem",
+        "explanation": " The TSP or Travelling Salesman problem is about finding the shortest possible route to visit each city only once and returning to the origin city when the list of all cities and distances between each pair of cities is given.",
+        "codeblock": null
+    },
+    {
+        "question": "34) In the TSP problem of n cities, the time taken for traversing all cities, without having prior knowledge of the length of the minimum tour will be_______.",
+        "options": [
+            "O(n)",
+            "O(n2)",
+            "O(n!)",
+            "O(n/2)"
+        ],
+        "answer": "Answer: c. O(n!)",
+        "explanation": " In the TSP problem of n cities, the time taken for traversing all cities without having prior knowledge of the length of the minimum tour will be O(n!).",
+        "codeblock": null
+    },
+    {
+        "question": "35) Web Crawler is an example of______.",
+        "options": [
+            "Intelligent Agent",
+            "Problem-solving agent",
+            "Simple reflex agent",
+            "Model-based agent"
+        ],
+        "answer": "Answer: Intelligent Agent",
+        "explanation": " The web crawler is an example of Intelligent agents, which is responsible for collecting resources from the Web, such as HTML documents, images, text files, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "36) The main function of problem-solving agent is to________.",
+        "options": [
+            "Solve the given problem and reach the goal",
+            "Find out which sequence of action will get it to the goal state.",
+            "Both a & b",
+            "None of the above"
+        ],
+        "answer": "Answer: Both a & b",
+        "explanation": " Problem-solving agents are the goal-based agents that use different search strategies and algorithms to solve a given problem.",
+        "codeblock": null
+    },
+    {
+        "question": "37) In artificial Intelligence, knowledge can be represented as_______.",
+        "options": [
+            "Both I and II",
+            "Only II",
+            "Both II and III",
+            "Only IV"
+        ],
+        "answer": "Answer: a. Both I and II",
+        "explanation": " There are several techniques of Knowledge representation in AI, and among them, one is Logical Representation. The logical representation can be done in two ways Predicate Logic and Propositional Logic, hence knowledge can be represented as both predicate and Propositional logic.",
+        "codeblock": null
+    },
+    {
+        "question": "38) For propositional Logic, which statement is false?",
+        "options": [
+            "The sentences of Propositional logic can have answers other than True or False.",
+            "Each sentence is a declarative sentence.",
+            "Propositional logic is a knowledge representation technique in AI.",
+            "None of the above"
+        ],
+        "answer": "Answer: a. The sentences of Propositional logic can have answers other than True or False",
+        "explanation": " Propositional Knowledge or PL is the simplest form of logic that is used to represent the knowledge, where all the sentences are propositions. In this, each sentence is a declarative sentence that can only be either true or False.",
+        "codeblock": null
+    },
+    {
+        "question": "39) First order logic Statements contains______.",
+        "options": [
+            "Predicate and Preposition",
+            "Subject and an Object",
+            "Predicate and Subject",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Predicate and Subject",
+        "explanation": " The first-order logic is also known as the First-order predicate logic, which is another way of knowledge representation. The FOL statements contain two parts that are subject and Predicate.",
+        "codeblock": null
+    },
+    {
+        "question": "40) A knowledge-based agent can be defined with _____ levels.",
+        "options": [
+            "2 Levels",
+            "3 Levels",
+            "4 Levels",
+            "None of the above"
+        ],
+        "answer": "Answer: b. 3 Levels",
+        "explanation": " The knowledge-based agents have the capability of making decisions and reasoning to act efficiently. It can be viewed at three different levels, which are:",
+        "codeblock": null
+    },
+    {
+        "question": "41) Ways to achieve AI in real-life are_________.",
+        "options": [
+            "Machine Learning",
+            "Deep Learning",
+            "Both a & b",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Both a &b",
+        "explanation": " Machine Learning and Deep Learning are the two ways to achieve AI in real life.",
+        "codeblock": null
+    },
+    {
+        "question": "42) The main tasks of an AI agent are_______.",
+        "options": [
+            "Input and Output",
+            "Moment and Humanly Actions",
+            "Perceiving, thinking, and acting on the environment",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Perceiving, thinking, and acting on the environment",
+        "explanation": " The AI agent is the rational agent that runs in the cycle of Perceive, think, and act.",
+        "codeblock": null
+    },
+    {
+        "question": "43) The probabilistic reasoning depends upon____________.",
+        "options": [
+            "Estimation",
+            "Observations",
+            "Likelihood",
+            "All of the above"
+        ],
+        "answer": "Answer: d. All of the above",
+        "explanation": " The probabilistic reasoning is used to represent uncertain knowledge, where we are not sure about the predicates. It depends Upon Estimation, Observation, and likelihood of objects.",
+        "codeblock": null
+    },
+    {
+        "question": "44) The inference engine works on ______.",
+        "options": [
+            "Forward Chaining",
+            "Backward Chaining",
+            "Both a and b",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Both a and b",
+        "explanation": " The inference engine is the component of the intelligent system in artificial intelligence, which applies logical rules to the knowledge base to infer new information from known facts. The first inference engine was part of the expert system. Inference engine commonly proceeds in two modes, which are:",
+        "codeblock": null
+    },
+    {
+        "question": "45) Which of the given statement is true for Conditional Probability?",
+        "options": [
+            "Conditional Probability gives 100% accurate results.",
+            "Conditional Probability can be applied to a single event.",
+            "Conditional Probability has no effect or relevance on independent events.",
+            "None of the above."
+        ],
+        "answer": "Answer: c. Conditional Probability has no effect or relevance on independent events.",
+        "explanation": " The conditional probability is said as the probability of occurring an event when another event has already occurred. And Independent events are those that are not affected by the occurrence of other events; hence conditional probability has no effect or relevance on independents events.",
+        "codeblock": null
+    },
+    {
+        "question": "46) After applying conditional Probability to a given problem, we get______",
+        "options": [
+            "100% accurate result",
+            "Estimated Values",
+            "Wrong Values",
+            "None of the above"
+        ],
+        "answer": "Answer: b. Estimated Values",
+        "explanation": " Like all probability theories and methods, Conditional Probability also provides the estimated result value, which means the probability of an event to occur, not a 100% accurate result.",
+        "codeblock": null
+    },
+    {
+        "question": "47) The best AI agent is one which____________",
+        "options": [
+            "Needs user inputs for solving any problem",
+            "Can solve a problem on its own without any human intervention",
+            "Need a similar exemplary problem in its knowledge base",
+            "All of the above"
+        ],
+        "answer": "Answer: b. Can solve a problem on its own without any human intervention",
+        "explanation": " The best AI agent is one that can solve the problem on its own without any human intervention.",
+        "codeblock": null
+    },
+    {
+        "question": "48) The Bayesian Network gives________",
+        "options": [
+            "A complete description of the problem",
+            "Partial Description of the domain",
+            "A complete description of the domain",
+            "None of the above"
+        ],
+        "answer": "Answer: c. A complete description of the domain",
+        "explanation": " A Bayesian network is a probabilistic graphical model that represents a set of variables and their conditional dependencies using a directed acyclic graph. It gives a complete description of the domain.",
+        "codeblock": null
+    },
+    {
+        "question": "49) In LISP, the addition of 5+8 is entered as_______.",
+        "options": [
+            "5+8",
+            "5 add 8",
+            "5+8=",
+            "(+5 8)"
+        ],
+        "answer": "Answer: d. (+5 8)",
+        "explanation": " The sum of two variables a & b can be entered as (+a b). Hence the sum of 5 and 8 can be entered as (+5 8).",
+        "codeblock": null
+    },
+    {
+        "question": "50) An Algorithm is said as Complete algorithm if_______________",
+        "options": [
+            "It ends with a solution (if any exists).",
+            "It begins with a solution.",
+            "It does not end with a solution.",
+            "It contains a loop"
+        ],
+        "answer": "Answer: a. It ends with a solution (if any exists).",
+        "explanation": " An algorithm is only said the complete algorithm if it ends with a solution (if it exists).",
+        "codeblock": null
+    },
+    {
+        "question": "51) Which statement is valid for the Heuristic function?",
+        "options": [
+            "The heuristic function is used to solve mathematical problems.",
+            "The heuristic function takes parameters of type string and returns an integer value.",
+            "The heuristic function does not have any return type.",
+            "The heuristic function calculates the cost of an optimal path between the pair of states."
+        ],
+        "answer": "Answer: d. The heuristic function calculates the cost of an optimal path between the pair of states",
+        "explanation": " The heuristic function is used in Informed search in AI to find the most promising path in the search. It estimates the closeness of the current state and calculates the cost of an optimal path between the pair of states. It is represented by h(n).",
+        "codeblock": null
+    },
+    {
+        "question": "52) Which of the given element improve the performance of AI agent so that it can make better decisions?",
+        "options": [
+            "Changing Element",
+            "Performance Element",
+            "Learning Element",
+            "None of the above"
+        ],
+        "answer": "Answer: c. Learning Element",
+        "explanation": " The learning element improves the performance of an AI agent while solving a given problem, so that it can make better decisions.",
+        "codeblock": null
+    },
+    {
+        "question": "53) How many types of Machine Learning are there?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "Answer: c. 3",
+        "explanation": " There are three types of Machine Learning techniques, which are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.",
+        "codeblock": null
+    },
+    {
+        "question": "54) The decision tree algorithm reaches its destination using_____________.",
+        "options": [
+            "Single Test",
+            "Two Test",
+            "Sequence of test",
+            "No test"
+        ],
+        "answer": "Answer: c. Sequence of test",
+        "explanation": " A decision tree is the supervised machine learning technique that can be used for both Classification and Regression problems. It reaches its destination using a Sequence of Tests.",
+        "codeblock": null
+    },
+    {
+        "question": "55) In LISP programming, the square root is entered as_____.",
+        "options": [
+            "Sqrt(x)",
+            "(sqrt x)",
+            "x/2",
+            "none of the above"
+        ],
+        "answer": "Answer: (sqrt x)",
+        "explanation": " In LISP programming, the square root of any variable x is entered as (sqrt x).",
+        "codeblock": null
+    }
+]

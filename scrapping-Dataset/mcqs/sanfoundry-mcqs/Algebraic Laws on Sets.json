@@ -1,0 +1,96 @@
+[
+    {
+        "question": "Let C and D be two sets then which of the following statements are true?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Commutative laws hold good in sets."
+    },
+    {
+        "question": "If set C is {1, 2, 3, 4} and C \u2013 D = \u03a6 then set D can be ___________",
+        "options": [
+            "a) {1, 2, 4, 5}",
+            "b) {1, 2, 3}",
+            "c) {1, 2, 3, 4, 5}",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "C \u2229 D should be equivalent to C for C \u2013 D = \u03a6."
+    },
+    {
+        "question": "Let C and D be two sets then C \u2013 D is equivalent to __________",
+        "options": [
+            "a) C\u2019 \u2229 D",
+            "b) C\u2018\u2229 D\u2019",
+            "c) C \u2229 D\u2019",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Set C-D will be having those elements which are in C but not in D."
+    },
+    {
+        "question": "For two sets C and D the set (C \u2013 D) \u2229 D will be __________",
+        "options": [
+            "a) C",
+            "b) D",
+            "c) \u03a6",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "C-D \u2261 C \u2229 D\u2019, D \u2229 D\u2019 \u2261 \u03a6."
+    },
+    {
+        "question": "Let C = {1,2,3,4} and D = {1, 2, 3, 4} then which of the following hold not true in this case?",
+        "options": [
+            "a) C \u2013 D = D \u2013 C",
+            "b) C U D = C \u2229 D",
+            "c) C \u2229 D = C \u2013 D",
+            "d) C \u2013 D = \u03a6"
+        ],
+        "answer": "c",
+        "explanation": "C \u2229 D = {1, 2, 3, 4} \u2260 \u03a6."
+    },
+    {
+        "question": "If C\u2019 U (D \u2229 E\u2019) is equivalent to __________",
+        "options": [
+            "a) (C \u2229 (D U E))\u2019",
+            "b) (C \u2229( D\u2229 E\u2019))\u2019",
+            "c) (C \u2229( D\u2019 U E))\u2019",
+            "d) (C U ( D \u2229 E\u2019)\u2019"
+        ],
+        "answer": "c",
+        "explanation": "(C\u2019)\u2019\u2261 C, (C\u2229 D)\u2019 \u2261 C\u2019 U D\u2019."
+    },
+    {
+        "question": "Let Universal set U is {1, 2, 3, 4, 5, 6, 7, 8}, (Complement of A) A\u2019 is {2, 5, 6, 7}, A \u2229 B is {1, 3, 4}  then the set B\u2019 will surely have of which of the element?",
+        "options": [
+            "a) 8",
+            "b) 7",
+            "c) 1",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "The set A is {1,3,4,8} and thus surely B does not have  8 in it. Since 8 does not belong to A \u2229 B. For other element like 7 we can\u2019t be sure."
+    },
+    {
+        "question": "Let a set be A then  A \u2229 \u03c6 and A U \u03c6 are __________",
+        "options": [
+            "a) \u03c6, \u03c6",
+            "b) \u03c6, A",
+            "c) A, \u03c6",
+            "d)None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By Domination Laws on sets."
+    },
+    {
+        "question": "If in sets A, B, C, the set B \u2229 C consists of 8 elements, set A \u2229 B consists of 7 elements and set C \u2229 A consists of 7 elements then the minimum element in set  A U B U C will be?",
+        "options": [
+            "a) 8",
+            "b) 14",
+            "c) 22",
+            "d) 15"
+        ],
+        "answer": "a",
+        "explanation": "For minimum elements set B and C  have 8 elements each and all of the elements are same,  Also set A should have 7 elements which are already present in B and C. Thus A U B U C \u2261 A \u2261 B."
+    }
+]

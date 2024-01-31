@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Given a string, you have to find the minimum number of characters to be inserted in the string so that the string becomes a palindrome. Which of the following methods can be used to solve the problem?",
+        "options": [
+            "a) Greedy algorithm",
+            "b) Recursion",
+            "c) Dynamic programming",
+            "d) Both recursion and dynamic programming"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic programming and recursion can be used to solve the problem."
+    },
+    {
+        "question": "In which of the following cases the minimum no of insertions to form palindrome is maximum?",
+        "options": [
+            "a) String of length one",
+            "b) String with all same characters",
+            "c) Palindromic string",
+            "d) Non palindromic string"
+        ],
+        "answer": "d",
+        "explanation": "In string of length one, string with all same characters and a palindromic string the no of insertions is zero since the strings are already palindromes. To convert a non-palindromic string to a palindromic string, the minimum length of string to be added is 1 which is greater than all the other above cases. Hence the minimum no of insertions to form palindrome is maximum in non-palindromic strings."
+    },
+    {
+        "question": "In the worst case, the minimum number of insertions to be made to convert the string into a palindrome is equal to the length of the string.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In the worst case, the minimum number of insertions to be made to convert the string into a palindrome is equal to length of the string minus one. For example, consider the string \u201cabc\u201d. The string can be converted to \u201cabcba\u201d by inserting \u201ca\u201d and \u201cb\u201d. The number of insertions is two, which is equal to length minus one."
+    },
+    {
+        "question": "Consider the string \u201cefge\u201d. What is the minimum number of insertions required to make the string a palindrome?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "The string can be converted to \u201cefgfe\u201d by inserting \u201cf\u201d or to \u201cegfge\u201d by inserting \u201cg\u201d. Thus, only one insertion is required."
+    },
+    {
+        "question": "Consider the string \u201cabbccbba\u201d. What is the minimum number of insertions required to make the string a palindrome?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "The given string is already a palindrome. So, no insertions are required."
+    },
+    {
+        "question": "Which of the following problems can be used to solve the minimum number of insertions to form a palindrome problem?",
+        "options": [
+            "a) Minimum number of jumps problem",
+            "b) Longest common subsequence problem",
+            "c) Coin change problem",
+            "d) Knapsack problems"
+        ],
+        "answer": "b",
+        "explanation": "A variation of longest common subsequence can be used to solve the minimum number of insertions to form a palindrome problem."
+    },
+    {
+        "question": "Consider the following dynamic programming implementation:",
+        "options": [],
+        "answer": "d",
+        "explanation": "arr[len][len] contains the length of the longest palindromic subsequence. So, len \u2013 arr[len][len] gives the minimum number of insertions required to form a palindrome."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the minimum number of insertions to form a palindrome problem?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the minimum number of insertions to form a palindrome problem?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation is O(n"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The length of the longest palindromic subsequence is 3. So, the output will be 5 \u2013 3 = 2."
+    },
+    {
+        "question": "What is the value stored in arr[2][4] when the following code is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The value stored in arr[2][4] when the above code is executed is 2."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since the string \u201cefgfe\u201d is already a palindrome, the number of insertions required is 0."
+    }
+]

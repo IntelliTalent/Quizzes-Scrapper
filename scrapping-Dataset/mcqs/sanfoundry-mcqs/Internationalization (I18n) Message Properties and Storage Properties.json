@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Grails applications are equipped to support internationalization.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By default, all Grails applications are equipped to support internationalization."
+    },
+    {
+        "question": "Where can you find series of *.properties files.",
+        "options": [
+            "a) /grails-app/",
+            "b) /grails-app/i18n/",
+            "c) /grails-app/i18n/WEB-INF",
+            "d) /grails-app/i18n/WEB-APP"
+        ],
+        "answer": "b",
+        "explanation": "Inside an application /grails-app/i18n/ folder, you can find series of *.properties files used to define messages in 12 languages."
+    },
+    {
+        "question": "*.properties files allow Grails applications to display messages.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The values declared in these *.properties files allow Grails applications to display messages based on a user\u2019s languages preferences or an application default language."
+    },
+    {
+        "question": "Which locale (i.e., from an internationalization properties file) to use for a user is based on?",
+        "options": [
+            "a) /grails-app/conf/spring/resource.groovy file",
+            "b) user\u2019s browser language preferences",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Grails determines which locale (i.e., from an internationalization properties file) to use for a user based"
+    },
+    {
+        "question": "There is no default configuration present in an application resource.groovy file.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since the explicit configuration of an application locale takes precedence over a user\u2019s browser language preferences, there is no default configuration present in an application resource.groovy file."
+    },
+    {
+        "question": "If you want to coerce users into using a specific language locale.",
+        "options": [
+            "a) /grails-app/conf/spring/resource.groovy file",
+            "b) /grails-app/resource.groovy file",
+            "c) /grails-app/spring/resource.groovy file",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You should define an explicit configuration inside an application /grails-app/conf/spring/resource.groovy file, only if you want to coerce users into using a specific language locale."
+    },
+    {
+        "question": "JSP Tag which declares statements using the Groovy.",
+        "options": [
+            "a) g:message",
+            "b) g:string",
+            "c) g:msg",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JSP page first imports the Groovy tag library and later declares statements using the Groovy g:message tag."
+    },
+    {
+        "question": "Tag can also be used in GSP pages views.",
+        "options": [
+            "a) g:message",
+            "b) g:string",
+            "c) g:msg",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The g:message tag can also be used in GSP pages views, but note that it\u2019s not necessary to import the tag library explicitly, since it\u2019s available by default on all Grails GSP pages."
+    },
+    {
+        "question": "Grails uses RDBMS as a permanent storage system.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Grails is designed to use a RDBMS as a permanent storage system."
+    },
+    {
+        "question": "Grails comes preconfigured to use:-",
+        "options": [
+            "a) MySql",
+            "b) PostgreSQL",
+            "c) Access",
+            "d) HSQLDB"
+        ],
+        "answer": "d",
+        "explanation": "HSQLDB is a database that is automatically started by Grails upon deploying an application (i.e., executing grails run-app)."
+    },
+    {
+        "question": "HSQLDB is a non-volatile database.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Every time an application is restarted in development and testing environments, HSQLDB loses all its data since it\u2019s configured to operate in memory."
+    },
+    {
+        "question": "Configure Grails to use another RDBMS by modifying:-",
+        "options": [
+            "a) Data.groovy",
+            "b) DataSource.groovy",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can configure Grails to use another RDBMS by modifying an application DataSource.groovy file, located under the grails-app/conf directory."
+    },
+    {
+        "question": "Grails relies on the standard Java JDBC notation to specify RDBMS.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Grails relies on the standard Java JDBC notation to specify RDBMS connection parameters, as well as on the corresponding JDBC drivers provided by each RDBMS vendor, to create, read, update, and delete information."
+    },
+    {
+        "question": "DataSource properties, Class name for the JDBC driver.",
+        "options": [
+            "a) driverClassName",
+            "b) dataSource properties",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "dataSource properties for configuring a RDBMS.:-"
+    },
+    {
+        "question": "Indicates whether to enable SQL logging.",
+        "options": [
+            "a) driverClassName",
+            "b) dataSource properties",
+            "c) logSql",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "dataSource properties for configuring a RDBMS.:-"
+    }
+]

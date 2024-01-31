@@ -1,0 +1,121 @@
+[
+    {
+        "question": "You are given n dice each having f faces. You have to find the number of ways in which a sum of S can be achieved. This is the dice throw problem. Which of the following methods can be used to solve the dice throw problem?",
+        "options": [
+            "a) Brute force",
+            "b) Recursion",
+            "c) Dynamic programming",
+            "d) Brute force, Recursion and Dynamic Programming"
+        ],
+        "answer": "d",
+        "explanation": "Brute force, Recursion and Dynamic Programming can be used to solve the dice throw problem."
+    },
+    {
+        "question": "You have n dice each having f faces. What is the number of permutations that can be obtained when you roll the n dice together?",
+        "options": [
+            "a) n*n*n\u2026f times",
+            "b) f*f*f\u2026n times",
+            "c) n*n*n\u2026n times",
+            "d) f*f*f\u2026f times"
+        ],
+        "answer": "b",
+        "explanation": "Each die can take f values and there are n dice. So, the total number of permutations is f*f*f\u2026n times."
+    },
+    {
+        "question": "You have 3 dice each having 6 faces. What is the number of permutations that can be obtained when you roll the 3 dice together?",
+        "options": [
+            "a) 27",
+            "b) 36",
+            "c) 216",
+            "d) 81"
+        ],
+        "answer": "c",
+        "explanation": "The total number of permutations that can be obtained is 6 * 6 * 6 = 216."
+    },
+    {
+        "question": "You have 2 dice each of them having 6 faces numbered from 1 to 6. What is the number of ways in which a sum of 11 can be achieved?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The sum of 11 can be achieved when the dice show {6, 5} or {5, 6}."
+    },
+    {
+        "question": "There are n dice with f faces. The faces are numbered from 1 to f. What is the minimum possible sum that can be obtained when the n dice are rolled together?",
+        "options": [
+            "a) 1",
+            "b) f",
+            "c) n",
+            "d) n*f"
+        ],
+        "answer": "c",
+        "explanation": "The sum will be minimum when all the faces show a value 1. The sum in this case will be n."
+    },
+    {
+        "question": "There are n dice with f faces. The faces are numbered from 1 to f. What is the maximum possible sum that can be obtained when the n dice are rolled together?",
+        "options": [
+            "a) 1",
+            "b) f*f",
+            "c) n*n",
+            "d) n*f"
+        ],
+        "answer": "d",
+        "explanation": "The sum will be maximum when all the faces show a value f. The sum in this case will be n*f."
+    },
+    {
+        "question": "There are 10 dice having 5 faces. The faces are numbered from 1 to 5. What is the number of ways in which a sum of 4 can be achieved?",
+        "options": [
+            "a) 0",
+            "b) 2",
+            "c) 4",
+            "d) 8"
+        ],
+        "answer": "a",
+        "explanation": "Since there are 10 dice and the minimum value each die can take is 1, the minimum possible sum is 10. Hence, a sum of 4 cannot be achieved."
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the dice throw problem:",
+        "options": [],
+        "answer": "a",
+        "explanation": "The line arr[num_of_dice][S] completes the above code."
+    },
+    {
+        "question": "What is time complexity of the following dynamic programming implementation of the dice throw problem where f is the number of faces, n is the number of dice and s is the sum to be found?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above dynamic programming implementation is O(n*f*s)."
+    },
+    {
+        "question": "What is space complexity of the following dynamic programming implementation of the dice throw problem where f is the number of faces, n is the number of dice and s is the sum to be found?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation is O(n*s)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The output of the above code is 10."
+    },
+    {
+        "question": "What will be the value stored in arr[2][2] when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The value stored in arr[2][2] is 1."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The minimum possible sum is 4. So, the output for sum = 3 is 0."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The output of the above code is 4."
+    }
+]

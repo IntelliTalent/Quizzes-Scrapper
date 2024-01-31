@@ -1,0 +1,85 @@
+[
+    {
+        "question": "The longest increasing subsequence problem is a problem to find the length of a subsequence from a sequence of array elements such that the subsequence is sorted in increasing order and it\u2019s length is maximum. This problem can be solved using __________",
+        "options": [
+            "a) Recursion",
+            "b) Dynamic programming",
+            "c) Brute force",
+            "d) Recursion, Dynamic programming, Brute force"
+        ],
+        "answer": "d",
+        "explanation": "The longest increasing subsequence problem can be solved using all of the mentioned methods."
+    },
+    {
+        "question": "Find the longest increasing subsequence for the given sequence:",
+        "options": [
+            "a) {10, 12, 15}",
+            "b) {10, 12, 13, 14}",
+            "c) {-10, 12, 13, 14}",
+            "d) {-10, 9, 10, 13, 14}"
+        ],
+        "answer": "d",
+        "explanation": "The longest increasing subsequence is {-10, 9, 10, 13, 14}."
+    },
+    {
+        "question": "Find the length of the longest increasing subsequence for the given sequence:",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 3",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "The longest increasing subsequence is {-10, 24, 35, 55, 76, 84}  and it\u2019s length is 6."
+    },
+    {
+        "question": "For any given sequence, there will ALWAYS be a unique increasing subsequence with the longest length.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For a given sequence, it is possible that there is more than one subsequence with the longest length."
+    },
+    {
+        "question": "The number of increasing subsequences with the longest length for the given sequence are:",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "Each array element individually forms a longest increasing subsequence and so, the length of the longest increasing subsequence is 1. So, the number of increasing subsequences with the longest length is 6."
+    },
+    {
+        "question": "Complete the following dynamic programming implementation of the longest increasing subsequence problem:",
+        "options": [],
+        "answer": "a",
+        "explanation": "tmp_max is used to store the maximum length of an increasing subsequence for any \u2018j\u2019 such that: arr[j] < arr[i] and 0 < j < i."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation used to find the length of the longest increasing subsequence?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation used to find the length of the longest increasing subsequence is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation used to find the length of the longest increasing subsequence?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The above dynamic programming implementation uses space equal to the length of the sequence. So, the space complexity of the above dynamic programming implementation used to find the length of the longest increasing subsequence is O(n)."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the length of the longest increasing subsequence, which is 6."
+    },
+    {
+        "question": "What is the value stored in LIS[5] after the following program is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The value stored in LIS[5] after the program is executed is 4."
+    }
+]

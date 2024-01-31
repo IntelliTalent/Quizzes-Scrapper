@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A turing machine is a",
+        "options": [
+            "a) real machine",
+            "b) abstract machine",
+            "c) hypothetical machine",
+            "d) more than one option is correct"
+        ],
+        "answer": "d",
+        "explanation": "A turing machine is abstract or hypothetical machine thought by mathematician Alan Turing in 1936 capable of simulating any algorithm, however complicated it is."
+    },
+    {
+        "question": "A turing machine operates over:",
+        "options": [
+            "a) finite memory tape",
+            "b) infinite memory tape",
+            "c) depends on the algorithm",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The turing machine operates on an infinite memory tape divided into cells. The machine positions its head over the cell and reads the symbol."
+    },
+    {
+        "question": "Which of the functions are not performed by the turing machine after reading a symbol?",
+        "options": [
+            "a) writes the symbol",
+            "b) moves the tape one cell left/right",
+            "c) proceeds with next instruction or halts",
+            "d) none of the mentioned",
+            "a) writes a symbol(some model allow symbol erasure/no writing)",
+            "b) moves the tape left or right (some models allows no motion)",
+            "c) proceeds with subsequent instruction or goes either into accepting halting state or rejecting halting state."
+        ],
+        "answer": "d",
+        "explanation": "After the read head  reads the symbol from the input tape, it performs the following functions:"
+    },
+    {
+        "question": "\u2018a\u2019 in a-machine is :",
+        "options": [
+            "a) Alan",
+            "b) arbitrary",
+            "c) automatic",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The turing machine was invented by Alan turing in 1936. He named it as a-machine(automatic machine)."
+    },
+    {
+        "question": "Which of the problems were not answered when the turing machine was invented?",
+        "options": [
+            "a) Does a machine exists that can determine whether any arbitrary machine on its tape is circular.",
+            "b) Does a machine exists that can determine whether any arbitrary machine on its tape is ever prints a symbol",
+            "c) Hilbert Entscheidungs problem",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Invention of turing machine answered a lot of questions which included problems like decision problem, etc.) . Alan was able to prove the properties of computation using such model."
+    },
+    {
+        "question": "Turing machine can be represented using the following tools:",
+        "options": [
+            "a) Transition graph",
+            "b) Transition table",
+            "c) Queue and Input tape",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "We can represent a turing machine, graphically, tabularly and diagramatically."
+    },
+    {
+        "question": "Which of the following is false for an abstract machine?",
+        "options": [
+            "a) Turing machine",
+            "b) theoretical model of computer",
+            "c) assumes a discrete time paradigm",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A n abstract machine also known as abstract computer, is a theoretical model of computer or hardware system in automata theory. Abstraction in computing process usually assumes a discrete time paradigm."
+    },
+    {
+        "question": "Fill in the blank with the most appropriate option.",
+        "options": [
+            "a) thought experiments",
+            "b) principle",
+            "c) hypothesis",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A thought experiment considers some hypothesis, theory or principle for the purpose of thinking through its consequences."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In computer science, Random access machine is an abstract machine in the general class of register machines. Random access machine should not be confused with Random access memory."
+    }
+]

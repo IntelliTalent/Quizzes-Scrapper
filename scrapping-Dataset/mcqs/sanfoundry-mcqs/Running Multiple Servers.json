@@ -1,0 +1,97 @@
+[
+    {
+        "question": "OS imposes per process limits on the number of open file descriptors.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "OS imposes per process limits on the number of open file descriptors. If the system makes it difficult to raise the limit, running multiple instances of the server binary is done."
+    },
+    {
+        "question": "The option that supplies the pathname to root directory of MySQL installation is _____________",
+        "options": [
+            "a) \u2013basedir",
+            "b) \u2013datadir",
+            "c) \u2013port",
+            "d) \u2013socket"
+        ],
+        "answer": "a",
+        "explanation": "The option \u2018\u2013basedir\u2019 has the purpose to specify the pathname to the root directory of the MySQL installation. The pathname to the data directory is specified by the option \u2018\u2013datadir\u2019."
+    },
+    {
+        "question": "The log enabled by \u2013relay-log-index is _____________",
+        "options": [
+            "a) relay log index",
+            "b) relay log",
+            "c) binary log",
+            "d) error log"
+        ],
+        "answer": "a",
+        "explanation": "The system variable \u2018time_zone\u2019 represents the default time zone of the MySQL server. By default, this variable is set to \u2018SYSTEM\u2019 which means to use the system_time_zone setting."
+    },
+    {
+        "question": "What is the storage size in bytes required for the MEDIUMINT datatype?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "The numeric datatypes used in MySQL vary over ranges. There are a variety of INT types in the type specification. TINYINT requires 1, SMALLINT requires 2 bytes and MEDIUMINT requires 3."
+    },
+    {
+        "question": "What is the size of the BIT type?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) variable"
+        ],
+        "answer": "d",
+        "explanation": "All the numeric datatypes used in MySQL vary over the fields. However, the maximum size is fixed. Unlike the other numeric types, the size of the BIT datatype depends on the length of the field."
+    },
+    {
+        "question": "What is the synonym for REAL?",
+        "options": [
+            "a) FLOAT",
+            "b) INT",
+            "c) DOUBLE",
+            "d) BIT"
+        ],
+        "answer": "c",
+        "explanation": "The REAL datatype, by default, is for the DOUBLE type. Floating point types can be defined as UNSIGNED. This eliminates the negative end of the type ranges. MySQL has a variety of default types."
+    },
+    {
+        "question": "Execution on a time activated basis according to a schedule is done by _____________",
+        "options": [
+            "a) Stored program",
+            "b) Events",
+            "c) Triggers",
+            "d) Stored procedures"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the events execute on a time activated basis according to a schedule. Triggers are defined to execute when the table is modified via INSERT, DELETE or UPDATE statements."
+    },
+    {
+        "question": "Stored programs degrade database security.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Stored programs improve database security because controlled access can be enabled to sensitive data by appropriate selection of the privileges a program has when it executes."
+    },
+    {
+        "question": "The character that the MySQL client program recognizes as a statement delimiter is ______________",
+        "options": [
+            "a) :",
+            "b) .",
+            "c) ;",
+            "d) ,"
+        ],
+        "answer": "c",
+        "explanation": "By default, mysql itself recognizes the semicolon as a statement delimiter, so the delimiter must be redefined temporarily to cause mysql to pass the entire stored program definition to the server."
+    }
+]

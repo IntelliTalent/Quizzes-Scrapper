@@ -1,0 +1,77 @@
+[
+    {
+        "question": "The recovery of data changes made since a given point in time is called _____________",
+        "options": [
+            "a) decremental",
+            "b) incremental",
+            "c) close",
+            "d) clear"
+        ],
+        "answer": "b",
+        "explanation": "Incremental recovery refers to the recovery of data changes made since a given point in time. It is performed after restoring a full backup that brings the server to its state as of the time the backup was made."
+    },
+    {
+        "question": "What performs a key distribution analysis and stores the distribution for the named table or tables?",
+        "options": [
+            "a) ANALYZE TABLE",
+            "b) CHECK TABLE",
+            "c) CHECKSUM TABLE",
+            "d) OPTIMIZE TABLE"
+        ],
+        "answer": "a",
+        "explanation": "\u2018ANALYZE TABLE\u2019 performs a key distribution analysis and stores the distribution for the named table or tables. For the MyISAM tables, this statement is equivalent to using \u2018myisamchk \u2013analyze\u2019."
+    },
+    {
+        "question": "Which of the following columns is not returned by \u2018OPTIMIZE TABLE\u2019?",
+        "options": [
+            "a) Table",
+            "b) Op",
+            "c) Msg_type",
+            "d) Msg_txt"
+        ],
+        "answer": "d",
+        "explanation": "\u2018OPTIMIZE TABLE\u2019 table catches and throws any errors that occur while copying table statistics from the old file to the newly created file. It returns a result set of columns."
+    },
+    {
+        "question": "REPAIR TABLE does not work for _____________",
+        "options": [
+            "a) MyISAM",
+            "b) ARCHIVE",
+            "c) InnoDB",
+            "d) CSV"
+        ],
+        "answer": "c",
+        "explanation": "\u2018REPAIR TABLE\u2019 works for MyISAM, ARCHIVE, and CSV tables. For MyISAM tables, it has the same effect as \u2018myisamchk \u2013recover\u2019 tbl_name by default. This statement does not work with views."
+    },
+    {
+        "question": "The binary protocol is easy to use.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The binary protocol is more difficult to use because more setup is necessary for transmitting and receiving data values. The binary protocol does not support all statements like \u2018USE\u2019."
+    },
+    {
+        "question": "What is a synonym for CHARACTER SET?",
+        "options": [
+            "a) CSET",
+            "b) CHSET",
+            "c) CHARSET",
+            "d) CHCSET"
+        ],
+        "answer": "c",
+        "explanation": "\u2018CHARACTER SET\u2019 can be abbreviated into \u2018CHARSET\u2019 and can be used in the same contexts and statements where \u2018CHARACTER SET\u2019 is used. \u2018charset\u2019 is the server-supported character set."
+    },
+    {
+        "question": "The line which is written at the top of the script to write a Perl script using CGI.pm is ______________",
+        "options": [
+            "a) use this CGI",
+            "b) put CGI",
+            "c) use CGI",
+            "d) include CGI"
+        ],
+        "answer": "c",
+        "explanation": "In order to write a Perl script that uses the \u2018CGI.pm\u2019 module, a \u2018use CGI\u2019 statement is included near the beginning of the script that imports the function names of the module."
+    }
+]

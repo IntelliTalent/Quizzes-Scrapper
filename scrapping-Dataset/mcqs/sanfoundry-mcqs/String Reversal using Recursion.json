@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Consider the following iterative implementation used to reverse a string:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201ci < j\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program reverses the string \u201creverse\u201d and prints \u201cesrever\u201d."
+    },
+    {
+        "question": "What is the time complexity of the above code used to reverse a string?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of the above code used to reverse a string is O(n)."
+    },
+    {
+        "question": "What does the following code do?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The main purpose of the above code is to check if a string is a palindrome."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program checks if a string is a palindrome. Since the string rotator is a palindrome, it prints \u201cyes\u201d."
+    },
+    {
+        "question": "Consider the following recursive implementation used to reverse a string:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201crecursive_reverse_string(s, left+1, right-1)\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the reversed string of \u201crecursion\u201d, which  is \u201cnoisrucer\u201d."
+    },
+    {
+        "question": "How many times is the function recursive_reverse_string() called when the following code is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The function recursive_reverse_string() is called 3 times when the above code is executed."
+    },
+    {
+        "question": "What is the time complexity of the above recursive implementation used to reverse a string?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation used to reverse a string is O(n)."
+    },
+    {
+        "question": "In which of the following cases is the reversal of a string not equal to the original string?",
+        "options": [
+            "a) Palindromic strings",
+            "b) Strings of length 1",
+            "c) Empty String",
+            "d) Strings of length 2"
+        ],
+        "answer": "d",
+        "explanation": "String \u201cab\u201d is a string of length 2 whose reversal is not the same as the given one. Palindromic Strings, String of length 1 and Empty Strings case \u2013 the reversal is the same as the one given."
+    }
+]

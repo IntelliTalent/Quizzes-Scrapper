@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Which of the following is the binary representation of 100?",
+        "options": [
+            "a) 1010010",
+            "b) 1110000",
+            "c) 1100100",
+            "d) 1010101"
+        ],
+        "answer": "c",
+        "explanation": "100 = 64 + 32 + 4 = 2"
+    },
+    {
+        "question": "Consider the following iterative code used to convert a decimal number to its equivalent binary:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201cn /= 2\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the binary equivalent of 63, which is 111111."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the binary equivalent of 0, which is 0."
+    },
+    {
+        "question": "What is the time complexity of the following code used to convert a decimal number to its binary equivalent?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above code used to convert a decimal number to its binary equivalent is O(logn)."
+    },
+    {
+        "question": "Consider the following recursive implementation used to convert a decimal number to its binary equivalent:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201carr[len++] = n % 2\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [],
+        "answer": "c",
+        "explanation": "Both of the above mentioned lines are the base cases for the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program doesn\u2019t handle negative inputs and so produces a garbage value."
+    },
+    {
+        "question": "What is the time complexity of the recursive implementation used to convert a decimal number to its binary equivalent?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the recursive implementation used to convert a decimal number to its binary equivalent is O(logn)."
+    },
+    {
+        "question": "What is the space complexity of the recursive implementation used to convert a decimal number to its binary equivalent?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The space complexity of the recursive implementation used to convert a decimal number to its binary equivalent is O(logn)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the binary equivalent of 111, which is 1101111."
+    },
+    {
+        "question": "How many times is the function recursive_dec_to_bin() called when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function recursive_dec_to_bin() is called 8 times when the above code is executed."
+    }
+]

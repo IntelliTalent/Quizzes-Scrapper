@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Which of the following technique is used to find whether a natural language isn\u2019t recursive enumerable?",
+        "options": [
+            "a) Diagonalization",
+            "b) Recursive Induction",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To find a non recursively enumerable language, we use the technique of diagonalization."
+    },
+    {
+        "question": "Diagonalization can be useful in:",
+        "options": [
+            "a) To find a non recursively enumerable language",
+            "b) To prove undecidability of  haltig problem",
+            "c) To find a non recursively enumerable language & also proves undecidability of haltig problem",
+            "d) None of the mentioned",
+            "a) To find a non recursively enumerable language.",
+            "b) To prove undecidability of  halting problem."
+        ],
+        "answer": "c",
+        "explanation": "Diagonalization is a technique we use for the following operations:"
+    },
+    {
+        "question": "Which of the following are undecidable problems?",
+        "options": [
+            "a) Determining whether two grammars generate the same language",
+            "b) Determining whether a grammar is ambiguous",
+            "c) Determining whether a grammar is ambiguous and two grammars generate the same language",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In contrast we can put up an algorithm for checking whether two FA\u2019s are equivalent and this program can be implemented as a program."
+    },
+    {
+        "question": "Which of the following are incorrect options?",
+        "options": [
+            "a) Informally, problem is a yes/no question about an infinite set of possible instances",
+            "b) Formally, a problem is a language",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Example: Does a graph G has a Hamilton cycle?"
+    },
+    {
+        "question": "If a problem has an algorithm to answer it, we call it _________",
+        "options": [
+            "a) decidable",
+            "b) solved",
+            "c) recognizable",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An algorithm is a TM that halts on all inputs,accepted or not. Putting other way, decidable problems are recursive languages."
+    },
+    {
+        "question": "Which of the following are decidable problems?",
+        "options": [
+            "a) Can a particular line of code in a program ever be executed?",
+            "b) Do two given CFG\u2019s generate the same language",
+            "c) Is a given CFG ambiguous?",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned problems are undecidable."
+    },
+    {
+        "question": "7.Which one of the following is true for the given?",
+        "options": [
+            "a) A concrete undecidable problem",
+            "b) A is recognizable but not decidable",
+            "c) -A is not recognizable",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "We can proof A to be undecidable using the contradiction method."
+    },
+    {
+        "question": "Which of the following are correct statements?",
+        "options": [
+            "a) TMs that always halt are known as Decidable problems",
+            "b) TMs are not guaranteed to halt only on acceptance are recursive enumerable",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are two types of TMs on the basis of halting: Recursive and Recursively Enumerable(TM may or may not halt, could loop forever)."
+    },
+    {
+        "question": "Statement: If L id R.E., L",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Maybe",
+            "d) Cannot predict"
+        ],
+        "answer": "b",
+        "explanation": "Any recursive enumerable language is not closed under complementation."
+    },
+    {
+        "question": "Which of the following is true for The Halting problem?",
+        "options": [
+            "a) It is recursively enumerable",
+            "b) It is undecidable",
+            "c) It is recursively enumerable and undecidable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Halting problem: Does a given Turing machine M halt on a given input w?"
+    },
+    {
+        "question": "With reference to binary strings, state true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "When turing machines are coded as Binary strings, we are restricted to take any input alphabet except {0,1}."
+    },
+    {
+        "question": "With reference to enumeration of binary strings, the conversion of binary strings to integer is possible by treating the resulting string as a base ____ integer.",
+        "options": [
+            "a) 2",
+            "b) 8",
+            "c) 16",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It makes sense to talk about the i-th binary string\u201d and about \u201cthe i-th  Turing machine. If i makes no sense as a TM,  assume the i-th TM accepts nothing."
+    }
+]

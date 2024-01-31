@@ -1,0 +1,116 @@
+[
+    {
+        "question": "If L1, L2 are regular and op(L1, L2) is also regular, then L1 and L2 are said to be ____________ under an operation op.",
+        "options": [
+            "a) open",
+            "b) closed",
+            "c) decidable",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If two regular languages are closed under an operation op, then the resultant of the languages over an operation op will also be regular."
+    },
+    {
+        "question": "Suppose a regular language L is closed under the operation halving, then the result would be:",
+        "options": [
+            "a) 1/4 L will be regular",
+            "b) 1/2 L will be regular",
+            "c) 1/8 L will be regular",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "At first stage 1/2 L will be regular and subsequently, all the options will be regular."
+    },
+    {
+        "question": "If L1\u2032 and L2\u2032 are regular languages, then L1.L2 will be",
+        "options": [
+            "a) regular",
+            "b) non regular",
+            "c) may be regular",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regular language is closed under complement operation. Thus, if L1\u2032 and L2\u2032 are regular so are L1 and L2. And if L1 and L2 are regular so is L1.L2."
+    },
+    {
+        "question": "If L1 and L2\u2032 are regular languages, L1 \u2229 (L2\u2032 U L1\u2032)\u2019 will be",
+        "options": [
+            "a) regular",
+            "b) non regular",
+            "c) may be regular",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If L1 is regular, so is L1\u2032 and if L1\u2032 and L2\u2032 are regular so is L1\u2032 U L2\u2032. Further, regular  languages are also closed under intersection operation."
+    },
+    {
+        "question": "If A and B are regular languages, !(A\u2019 U B\u2019) is:",
+        "options": [
+            "a) regular",
+            "b) non regular",
+            "c) may be regular",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If A and B are regular languages, then A \u00c7 B is a regular language and  A \u2229 B is equivalent to  !(A\u2019 U B\u2019)."
+    },
+    {
+        "question": "Which among the following are the boolean operations that under which regular languages are closed?",
+        "options": [
+            "a) Union",
+            "b) Intersection",
+            "c) Complement",
+            "d) All of the mentioned",
+            "a) Regular expression operations",
+            "b) Boolean operations",
+            "c) Homomorphism",
+            "d) Inverse Homomorphism"
+        ],
+        "answer": "d",
+        "explanation": "Regular languages are closed under the following operations:"
+    },
+    {
+        "question": "Suppose a language L1 has 2 states and L2 has 2 states. After using the cross product construction method,\twe have a machine M that accepts L1 \u2229 L2. The total number of states in M:",
+        "options": [
+            "a) 6",
+            "b) 4",
+            "c) 2",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "M is defined as: (Q, S, d, q0, F)"
+    },
+    {
+        "question": "If L is a regular language, then (L\u2019)\u2019 U L will be :",
+        "options": [
+            "a) L",
+            "b) L\u2019",
+            "c) f",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "(L\u2019)\u2019 is equivalent to L and L U L is subsequently equivalent to L."
+    },
+    {
+        "question": "If L is a regular language, then (((L\u2019)r)\u2019)* is:",
+        "options": [
+            "a) regular",
+            "b) non regular",
+            "c) may be regular",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If L is regular so is its complement, if L\u2019 is regular so is its reverse, if (L\u2019)"
+    },
+    {
+        "question": "Which among the following is the closure property of a regular language?",
+        "options": [
+            "a) Emptiness",
+            "b) Universality",
+            "c) Membership",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the following mentioned are decidability properties of a regular language. The closure properties of a regular language include union, concatenation, intersection, Kleene, complement , reverse and many more operations."
+    }
+]

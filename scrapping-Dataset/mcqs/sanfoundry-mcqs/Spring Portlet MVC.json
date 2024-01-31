@@ -1,0 +1,149 @@
+[
+    {
+        "question": "DispatcherServtlet dispatches portlet requests to appropriate handlers that handle the requests.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "DispatcherPortlet. It dispatches portlet requests to appropriate handlers that handle the requests. It acts as the front controller of Spring Portlet MVC, and every portlet request must go through it so that it can manage the entire request-handling process."
+    },
+    {
+        "question": "Maps each request to a handler through one or more handler mapping beans.",
+        "options": [
+            "a) DispatcherServlet",
+            "b) DispatcherPortlet",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Once it has picked an appropriate handler, it will invoke this handler to handle the request."
+    },
+    {
+        "question": "In portlets, there are URLs:-",
+        "options": [
+            "a) render",
+            "b) action",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In portlets, there are two types of URLs: render URLs and action URLs."
+    },
+    {
+        "question": "When a user triggers a render URL, the portlet container will ask all the portlets in the same page to handle a render request to render its view.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When a user triggers a render URL, the portlet container will ask all the portlets in the same page to handle a render request to render its view, unless the view\u2019s content has been cached."
+    },
+    {
+        "question": "When a user triggers an action URL in a portlet, the portlet container will first ask the target portlet to handle an action request.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A controller should return an object in response to a render request. However, when a user triggers an action URL in a portlet, the portlet container will first ask the target portlet to handle an action request. A controller needn\u2019t return anything for an action request."
+    },
+    {
+        "question": "After Controller has finished handling a render request, it returns:-",
+        "options": [
+            "a) model name",
+            "b) view name",
+            "c) view obect",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "After a controller has finished handling a render request, it returns a model and a view name, or sometimes a view object, to DispatcherPortlet."
+    },
+    {
+        "question": "DispatcherPortlet resolves a view name from one or more view resolver beans.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "DispatcherPortlet renders the view and passes in the model returned by the controller. Note that an action request doesn\u2019t need to render a view."
+    },
+    {
+        "question": "portlet deployment descriptor file is:-",
+        "options": [
+            "a) portlet.xml",
+            "b) portlet.config",
+            "c) portlet.xhtml",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Java Portlet specification defines the valid structure of a portlet application, which is very similar to that of a web application, but with the addition of a portlet deployment descriptor (i.e., portlet.xml)."
+    },
+    {
+        "question": "Servlet Listener to load the root application context at startup.",
+        "options": [
+            "a) ContextLoader",
+            "b) ContextLoaderListener",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In the web deployment descriptor (i.e., web.xml), you have to register the servlet listener ContextLoaderListener to load the root application context at startup."
+    },
+    {
+        "question": "Unlike in a web application, you can\u2019t control URLs directly in a portlet.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the web deployment descriptor (i.e., web.xml), you have to register the servlet listener ContextLoaderListener to load the root application context at startup."
+    },
+    {
+        "question": "You can chain multiple handler mapping annotations as required to portlet.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Portlet MVC comes with several strategies for you to map portlet requests."
+    },
+    {
+        "question": "The preceding controller handles portlet requests:-",
+        "options": [
+            "a) render requests",
+            "b) action requests",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The preceding controller handles two types of portlet requests: render requests and action requests."
+    },
+    {
+        "question": "When handling a render request, it gets the time zone attribute from the portlet preference.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When handling a render request, it gets the time zone attribute from the portlet preferences and passes it to the view for editing."
+    },
+    {
+        "question": "When handling an action request, it gets the time zone parameter from the portlet request.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When handling an action request, it gets the time zone parameter from the portlet request and stores it in the portlet preferences as an attribute, which will override the existing one."
+    },
+    {
+        "question": "The submission URL of this form should be a portlet action URL that will trigger an action request to the current portlet.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In portlets, you have to construct an action URL with the portlet:actionURL tag defined in the portlet tag library."
+    }
+]

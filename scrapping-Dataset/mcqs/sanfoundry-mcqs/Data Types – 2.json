@@ -1,0 +1,91 @@
+[
+    {
+        "question": "Which of the following statement is invalid?",
+        "options": [
+            "a) x <- c(1+0i, 2+4i)",
+            "b) x <- c(TRUE, FALSE)",
+            "c) x <- c(T, F)",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "T and F are shorthand ways to specify TRUE and FALSE."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Use explicit TRUE and FALSE values when indicating logical values",
+            "b) rm command is used to remove objects in R",
+            "c) R operates on named data structures",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A number occurring by itself in an expression is taken as a vector of length one."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "class is used to determine data type of the variable."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Sometimes, R can\u2019t figure out how to coerce an object and this can result in NAs being produced."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The usual operator, <-, can be thought of as a syntactic shortcut to expression operation",
+            "b) Assignment can also be made using the function assignment()",
+            "c) Vectors can be used in arithmetic expressions, in which case the operations are performed element by element",
+            "d) seq() is used to delete the numbers"
+        ],
+        "answer": "c",
+        "explanation": " Vectors occurring in the same expression need not all be of the same length."
+    },
+    {
+        "question": "Which of the following is invalid assignment?",
+        "options": [
+            "a)"
+        ],
+        "answer": "d",
+        "explanation": "Assignments can also be made in the other direction, using the obvious change in the assignment operator."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "These metadata can be very useful in that they help to describe the object."
+    },
+    {
+        "question": "Which of the following code constructs vector of length 11?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "The elementary arithmetic operators are the usual +, -, *, / and ^ for raising to a power."
+    },
+    {
+        "question": "_______ function returns a vector of the same size as x with the elements arranged in increasing order.",
+        "options": [
+            "a) sort()",
+            "b) orderasc()",
+            "c) orderby()",
+            "d) sequence()"
+        ],
+        "answer": "a",
+        "explanation": "There are other more flexible sorting facilities available like order() or sort.list() which produce a permutation to do the sorting."
+    },
+    {
+        "question": "Which of the following is used for generating sequences?",
+        "options": [
+            "a) seq()",
+            "b) sequence()",
+            "c) order()",
+            "d) orderasc()"
+        ],
+        "answer": "a",
+        "explanation": "R has a number of facilities for generating commonly used sequences of numbers."
+    }
+]

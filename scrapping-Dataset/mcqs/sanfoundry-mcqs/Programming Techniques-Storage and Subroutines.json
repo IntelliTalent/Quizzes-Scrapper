@@ -1,0 +1,108 @@
+[
+    {
+        "question": "A turing machine has ____________ number of states in a CPU.",
+        "options": [
+            "a) finite",
+            "b) infinte",
+            "c) May be finite",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A turing machine has finite number of states in its CPU. However, the states are not small in number. Real computer consist of registers which can store values (fixed number of bits)."
+    },
+    {
+        "question": "Suppose we have a simple computer with control unit holding a PC with a 32 bit address + Arithmetic unit holding one double length 64 bit Arithmetic Register. The number of states the finite machine will hold:",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 96",
+            "d) 32"
+        ],
+        "answer": "b",
+        "explanation": "According to the statistics of the question, we will have a finite machine with 2^96 states."
+    },
+    {
+        "question": "In one move a turing machine will:",
+        "options": [
+            "a) Change a state",
+            "b) Write a tape symbol in the cell scanned",
+            "c) Move the tape head left or right",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A move of a turing machine is the function of the state of finite control and the tape symbol just scanned."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Statement 1: Multitrack Turing machine.",
+        "options": [
+            "a) Statement 1 is the assertion and Statement 2 is the reason",
+            "b) Statement 1 is the reason and Statement 2 is the assertion",
+            "c) Statement 1 and Statement 2 are independent from each other",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Cartesian product works like a struct in C/C++. For Example: Computer tape storage is something like 8 or 9 bits in each cell. One can recognize a multi track tape machine by looking at the transitions because each will have tuples as the read and write symbols."
+    },
+    {
+        "question": "A multi track turing machine can described as a 6-tuple (Q, X, S, d, q0, F) where X represents:",
+        "options": [
+            "a) input alphabet",
+            "b) tape alphabet",
+            "c) shift symbols",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The 6-tuple (Q, X, S, d, q0, F)  can be explained as:"
+    },
+    {
+        "question": "Which of the following statements are false?",
+        "options": [
+            "a) A multi track turing machine is a special kind of multi tape turing machine",
+            "b) 4-heads move independently along 4-tracks in standard 4-tape turing machine",
+            "c) In a n-track turing machine, n head reads and writes on all the tracks simultaneously.",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In a n-track turing machine, one head reads and writes on all the tracks simultaneously."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "This can be generalized for n- tracks and can be proved equivalent using ennumerable languages."
+    },
+    {
+        "question": "Which of the following is/are not true for recursively enumerable language?",
+        "options": [
+            "a) partially decidable",
+            "b) Turing acceptable",
+            "c) Turing Recognizable",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In automata theory, a formal language is called recursively enumerable language or partially decidable or semi decidable or turing acceptable or turing recognizable if there exists a turing machine which will enumerate all valid strings of the language."
+    },
+    {
+        "question": "According to Chomsky hierarchy, which of the following is adopted by Recursively Ennumerable language?",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "a",
+        "explanation": "Recursively Ennumerable languages are type 0 languages in the Chomsky hierarchy. All regular, context free, context sensitive languages are recursively enumerable language."
+    }
+]

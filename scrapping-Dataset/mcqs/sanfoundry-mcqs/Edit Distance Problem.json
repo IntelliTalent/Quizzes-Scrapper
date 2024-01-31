@@ -1,0 +1,111 @@
+[
+    {
+        "question": "Which of the following methods can be used to solve the edit distance problem?",
+        "options": [
+            "a) Recursion",
+            "b) Dynamic programming",
+            "c) Both dynamic programming and recursion",
+            "d) Greedy Algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Both dynamic programming and recursion can be used to solve the edit distance problem."
+    },
+    {
+        "question": "The edit distance satisfies the axioms of a metric when the costs are non-negative.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "d(s,s) = 0, since each string can be transformed into itself without any change."
+    },
+    {
+        "question": "Which of the following is an application of the edit distance problem?",
+        "options": [
+            "a) Approximate string matching",
+            "b) Spelling correction",
+            "c) Similarity of DNA",
+            "d) Approximate string matching, Spelling Correction and Similarity of DNA"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the applications of the edit distance problem."
+    },
+    {
+        "question": "In which of the following cases will the edit distance between two strings be zero?",
+        "options": [
+            "a) When one string is a substring of another",
+            "b) When the lengths of the two strings are equal",
+            "c) When the two strings are equal",
+            "d) The edit distance can never be zero"
+        ],
+        "answer": "c",
+        "explanation": "The edit distance will be zero only when the two strings are equal."
+    },
+    {
+        "question": "Suppose each edit (insert, delete, replace) has a cost of one. Then, the maximum edit distance cost between the two strings is equal to the length of the larger string.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Consider the strings \u201cabcd\u201d and \u201cefghi\u201d. The string \u201cefghi\u201d can be converted to \u201cabcd\u201d by deleting \u201ci\u201d and converting \u201cefgh\u201d to \u201cabcd\u201d. The cost of transformation is 5, which is equal to the length of the larger string."
+    },
+    {
+        "question": "Consider the strings \u201cmonday\u201d and \u201ctuesday\u201d. What is the edit distance between the two strings?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "\u201cmonday\u201d can be converted to \u201ctuesday\u201d by replacing \u201cm\u201d with \u201ct\u201d, \u201co\u201d with \u201cu\u201d, \u201cn\u201d with \u201ce\u201d and inserting \u201cs\u201d at the appropriate position. So, the edit distance is 4."
+    },
+    {
+        "question": "Consider the two strings \u201c\u201d(empty string) and \u201cabcd\u201d. What is the edit distance between the two strings?",
+        "options": [
+            "a) 0",
+            "b) 4",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "The empty string can be transformed into \u201cabcd\u201d by inserting \u201ca\u201d, \u201cb\u201d, \u201cc\u201d and \u201cd\u201d at appropriate positions. Thus, the edit distance is 4."
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the edit distance problem:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line arr[i][j] = min completes the above code."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the edit distance problem where \u201cm\u201d and \u201cn\u201d are the lengths of two strings?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation of the edit distance problem is O(mn)."
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the edit distance problem where \u201cm\u201d and \u201cn\u201d are the lengths of the two strings?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation of the edit distance problem is O(mn)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the edit distance between the strings \u201cabcd\u201d and \u201cdefg\u201d, which is 4."
+    },
+    {
+        "question": "What is the value stored in arr[2][2] when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The value stored in arr[2][2] when the above code is executed is 2."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The code prints the edit distance between the two strings, which is 1."
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Hive uses _________ for logging.",
+        "options": [
+            "a) logj4",
+            "b) log4l",
+            "c) log4i",
+            "d) log4j"
+        ],
+        "answer": "d",
+        "explanation": " By default Hive will use hive-log4j.default in the conf/ directory of the Hive installation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) list FILE[S] <filepath>*  executes a Hive query and prints results to standard output",
+            "b) <query string> executes a Hive query and prints results to standard output",
+            "c) <query> executes a Hive query and prints results to standard output",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "list FILE[S] <filepath>* checks whether the given resources are already added to the distributed cache or not. See Hive Resources below for more information."
+    },
+    {
+        "question": "What does the hive.rrot.logger specified in the following statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "hive.root.logger specified the logging level as well as the log destination. Specifying console as the target sends the logs to the standard error."
+    },
+    {
+        "question": "HiveServer2 introduced in Hive 0.11 has a new CLI called __________",
+        "options": [
+            "a) BeeLine",
+            "b) SqlLine",
+            "c) HiveLine",
+            "d) CLilLine"
+        ],
+        "answer": "a",
+        "explanation": " Beeline is a JDBC client based on SQLLine."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) There are four namespaces for variables in Hive",
+            "b) Custom variables can be created in a separate namespace with the define",
+            "c) Custom variables can also be created in a separate namespace with hivevar",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Three namespaces for variables are hiveconf, system, and env."
+    },
+    {
+        "question": "HCatalog is installed with Hive, starting with Hive release is ___________",
+        "options": [
+            "a) 0.10.0",
+            "b) 0.9.0",
+            "c) 0.11.0",
+            "d) 0.12.0"
+        ],
+        "answer": "c",
+        "explanation": "hcat commands can be issued as hive commands, and vice versa."
+    },
+    {
+        "question": "hiveconf variables are set as normal by using the following statement?",
+        "options": [
+            "a) set -v x=myvalue",
+            "b) set x=myvalue",
+            "c) reset x=myvalue",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The hiveconf variables are set as normal by set x=myvalue."
+    },
+    {
+        "question": "Variable Substitution is disabled by using ___________",
+        "options": [
+            "a) set hive.variable.substitute=false;",
+            "b) set hive.variable.substitutevalues=false;",
+            "c) set hive.variable.substitute=true;",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Variable substitution is on by default (hive.variable.substitute=true)."
+    },
+    {
+        "question": "_______ supports a new command shell Beeline that works with HiveServer2.",
+        "options": [
+            "a) HiveServer2",
+            "b) HiveServer3",
+            "c) HiveServer4",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Beeline shell works in both embedded mode as well as remote mode."
+    },
+    {
+        "question": "In ______ mode HiveServer2 only accepts valid Thrift calls.",
+        "options": [
+            "a) Remote",
+            "b) HTTP",
+            "c) Embedded",
+            "d) Interactive"
+        ],
+        "answer": "a",
+        "explanation": "In HTTP mode, the message body contains Thrift payloads."
+    }
+]

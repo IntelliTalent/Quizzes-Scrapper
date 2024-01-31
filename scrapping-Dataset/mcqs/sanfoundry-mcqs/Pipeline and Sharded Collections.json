@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following returns a substring of a string?",
+        "options": [
+            "a) $subs",
+            "b) $substring",
+            "c) $substr",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$substr accepts three expressions as arguments: the first argument must resolve to a string, and the second and third arguments must resolve to integers."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) $substr ends at a specified index position up to a specified length",
+            "b) $toLower converts a string to lowercase",
+            "c) $gtle returns true if the first value is greater than or equal to the second",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the argument resolves to null, $toLower returns an empty string \u201c\u201d."
+    },
+    {
+        "question": "Which of the following accepts a single argument expression?",
+        "options": [
+            "a) $toLow",
+            "b) $toUpper",
+            "c) $toEqual",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$toUpper converts a string to uppercase."
+    },
+    {
+        "question": "Which of the following performs case-insensitive string comparison?",
+        "options": [
+            "a) $strcasecmpequals",
+            "b) $strcasecmp",
+            "c) $strcmp",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "$strcasecmp returns 0 if two strings are equivalent."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) { $meta: \u201ctextScore\u201d } expression is only meaningful in a pipeline that includes a $match stage with a $text query",
+            "b) The { $meta: \u201ctextScore\u201d } expression is the only expression that the $sort stage accepts",
+            "c) $toLower only has a well-defined behavior for strings of ASCII characters",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A $meta expression has the following syntax:{ $meta: <metaDataKeyword> }."
+    },
+    {
+        "question": "_______ is used for access text search metadata.",
+        "options": [
+            "a) $text",
+            "b) $metades",
+            "c) $meta",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$meta returns the metadata associated with a document in a pipeline operations."
+    },
+    {
+        "question": "Which of the following accepts named parameters?",
+        "options": [
+            "a) $reduce",
+            "b) $letnum",
+            "c) $let",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "$let defines variables for use within the scope of a subexpression and returns the result of the subexpression."
+    },
+    {
+        "question": "_______ returns the number of elements in the array.",
+        "options": [
+            "a) $number",
+            "b) $size",
+            "c) $div",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The argument for $size can be any expression as long as it resolves to an array."
+    },
+    {
+        "question": "_________ returns a value without parsing.",
+        "options": [
+            "a) $string",
+            "b) $literal",
+            "c) $characters",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use for values that the aggregation pipeline may interpret as an expression."
+    },
+    {
+        "question": "db.collection.aggregate() returns a _______ and can return result sets of any size.",
+        "options": [
+            "a) replica",
+            "b) cursor",
+            "c) document",
+            "d) $subtract"
+        ],
+        "answer": "b",
+        "explanation": "The aggregate command can return results as a cursor or store the results in a collection, which are not subject to the size limit."
+    }
+]

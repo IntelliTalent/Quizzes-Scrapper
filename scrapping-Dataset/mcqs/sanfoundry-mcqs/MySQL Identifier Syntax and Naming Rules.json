@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following characters is illegal in naming an unquoted identifier in SQL?",
+        "options": [
+            "a) _",
+            "b) $",
+            "c) 2",
+            "d) ."
+        ],
+        "answer": "d",
+        "explanation": "An identifier is used to refer to a database or its elements. These elements can be entire tables or attributes. The names of these identifiers follow some set of rules, so they have a set of legal characters."
+    },
+    {
+        "question": "In MySQL, identifier names can start with a digit.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Identifiers are allowed to start with any legal character. So it may begin with a digit. The special characters in the identifier characters consist of the \u2018_\u2019 and \u2018$\u2019. The other characters are the alphanumeric characters."
+    },
+    {
+        "question": "How are identifiers quoted in MySQL?",
+        "options": [
+            "a) single quotes",
+            "b) double quotes",
+            "c) backticks",
+            "d) can\u2019t be quoted"
+        ],
+        "answer": "c",
+        "explanation": "An identifier is quoted within the backtick characters \u2018`\u2019. This allows use of any character except a byte with value 0 or 255. Single quotes and double quotes are not allowed when quoting identifier names."
+    },
+    {
+        "question": "Which of the following is an illegal unquoted identifier name?",
+        "options": [
+            "a) 123_id",
+            "b) 123id",
+            "c) id1",
+            "d) 123"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the quoted and unquoted identifier names have differences in the level of restrictions imposed on them. An unquoted identifier name can\u2019t have all digits since it would be impossible to distinguish it from an integer constant."
+    },
+    {
+        "question": "Which server mode value enables use of double quotes to wrap identifier names?",
+        "options": [
+            "a) ANSI",
+            "b) ANSI_QUOTES",
+            "c) TRADITIONAL",
+            "d) PIPES_AS_CONCAT"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, use of double quotes is enabled when the server SQL mode \u2018ANSI_QUOTES\u2019 is set. The use of backticks is still allowed. For example, SELECT TABLE \u201cmy table\u201d is a statement that is allowed."
+    },
+    {
+        "question": "Which server mode value disables use of built in function names as identifiers?",
+        "options": [
+            "a) ANSI",
+            "b) IGNORE_FUNC",
+            "c) TRADITIONAL",
+            "d) IGNORE_SPACE"
+        ],
+        "answer": "d",
+        "explanation": "The Server SQL mode value \u2018IGNORE_FUNC\u2019 is used to restrict the identifier naming conventions. When this is enabled, the names of built in functions can no longer be used as identifiers."
+    },
+    {
+        "question": "What is the maximum length for alias names in terms of characters?",
+        "options": [
+            "a) 64",
+            "b) 128",
+            "c) 256",
+            "d) 32"
+        ],
+        "answer": "c",
+        "explanation": "The identifiers in MySQL have a maximum length of 64 characters. However, the alias names for identifiers can have the number of characters up to 256. Aliases can also be quoted or unquoted."
+    },
+    {
+        "question": "What does a fully qualified table name consist of?",
+        "options": [
+            "a) only the table name",
+            "b) only the database name",
+            "c) table name followed by database name",
+            "d) database name followed by table name"
+        ],
+        "answer": "d",
+        "explanation": "MySQL identifiers use qualifiers. An element of a database has a fully qualified name. A database table in MySQL has the fully qualified name as the database name followed by the table name."
+    },
+    {
+        "question": "If no database has been selected, specifying a database qualifier is necessary.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When no database has been selected, not specifying the database qualifier would be confusing. A table cannot be referred to if the database qualfier is absent since it would be unclear as to which database it belongs to."
+    },
+    {
+        "question": "Which of the following MySQL statements is valid if \u2018`sampledb`\u2019 is a database and \u2018`tbl`\u2019 is a table in it?",
+        "options": [
+            "a) SELECT * FROM `sampledb.member`",
+            "b) SELECT * FROM `sampledb`.`member`",
+            "c) SELECT * FROM `member`.`sampledb`",
+            "d) SELECT * FROM `member.sampledb`"
+        ],
+        "answer": "b",
+        "explanation": "When quotes are being used to refer to a qualified name, the individual identifiers are quoted within the name separately. So, the database name `sampledb` and table name `tbl` are quoted separately."
+    }
+]

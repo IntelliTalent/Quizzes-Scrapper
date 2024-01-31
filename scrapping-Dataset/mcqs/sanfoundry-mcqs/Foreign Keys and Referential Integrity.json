@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which key declares that an index in one table is related to that in another?",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) foreign",
+            "d) cross"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, a foreign key is the one which facilitates index relations across tables. It declares that an index in one table is related to that in another and place constraints."
+    },
+    {
+        "question": "Foreign keys cannot handle deletes and updates.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A foreign key is the one which declares that an index in one table is related to that in another and place constraints. It is useful for handling deletes and updates along with row entries."
+    },
+    {
+        "question": "Deletion of an employee from table also deletes that employee from another table. This kind of delete is called ____________",
+        "options": [
+            "a) transparent",
+            "b) concrete",
+            "c) elaborate",
+            "d) cascaded"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, a cascaded delete and update is possible where records can be deleted from multiple tables. These tables are related with the help of foreign keys. Foreign keys make table updates flexible."
+    },
+    {
+        "question": "Which storage engine in MySQL provides foreign key support?",
+        "options": [
+            "a) TRANSACTION",
+            "b) InnoDB",
+            "c) MyISAM",
+            "d) MEMORY"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there are a list of storage engines to choose from. Each storage engine provides its own set of facilities. The foreign key facilities are provided by the InnoDB storage engine."
+    },
+    {
+        "question": "The property of InnoDB that enforces foreign key relationships stay intact is called _____________",
+        "options": [
+            "a) atomicity",
+            "b) durability",
+            "c) consistency",
+            "d) referential integrity"
+        ],
+        "answer": "d",
+        "explanation": "The storage engine responsible for providing foreign key support is InnoDB. It enforces that the rules guarantee the foreign key relationship stays intact with no mismatching of data."
+    },
+    {
+        "question": "If the storage engine InnoDB is not used, foreign key cannot be used.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The foreign key support is exclusively provided by the storage engine named InnoDB. Without its inclusion, foreign keys cannot be used. However it is possible to implement with application logic."
+    },
+    {
+        "question": "Which clause is used to remove a foreign key constraint?",
+        "options": [
+            "a) REMOVE",
+            "b) DELETE",
+            "c) DROP",
+            "d) EXCLUDE"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL foreign key definition syntax, there are various components. A foreign key links one table to another table in the table. To remove a foreign key constraint, the \u2018DROP\u2019 clause is used."
+    },
+    {
+        "question": "Which keyword is used to specify the foreign key after the table is created?",
+        "options": [
+            "a) SETUP",
+            "b) SET",
+            "c) ALTER TABLE",
+            "d) SPECIFY"
+        ],
+        "answer": "c",
+        "explanation": "When the table has already been created but the foreign key has not been set of foreign key constraints are not specified, the \u2018ALTER TABLE \u2013 ADD FOREIGN KEY\u2019 clause is used."
+    },
+    {
+        "question": "Which clause in the SQL standard controls how NULL values in a composite foreign key are handled when comparing to a primary key.",
+        "options": [
+            "a) SET",
+            "b) MATCH",
+            "c) ON DELETE",
+            "d) ON CASCADE"
+        ],
+        "answer": "b",
+        "explanation": "The MATCH clause in the SQL standard controls how NULL values in a composite (multiple-column) foreign key are handled when comparing to a primary key. MySQL essentially implements the semantics defined by MATCH SIMPLE."
+    }
+]

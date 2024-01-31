@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following clustering type has characteristic shown in the below figure?",
+        "options": [
+            "a) Partitional",
+            "b) Hierarchical",
+            "c) Naive bayes",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hierarchical clustering groups data over a variety of scales by creating a cluster tree or dendrogram."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The choice of an appropriate metric will influence the shape of the clusters",
+            "b) Hierarchical clustering is also called HCA",
+            "c) In general, the merges and splits are determined in a greedy manner",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Some elements may be close to one another according to one distance and farther away according to another."
+    },
+    {
+        "question": "Which of the following is finally produced by Hierarchical Clustering?",
+        "options": [
+            "a) final estimate of cluster centroids",
+            "b) tree showing how close things are to each other",
+            "c) assignment of each point to clusters",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hierarchical clustering is an agglomerative approach."
+    },
+    {
+        "question": "Which of the following is required by K-means clustering?",
+        "options": [
+            "a) defined distance metric",
+            "b) number of clusters",
+            "c) initial guess as to cluster centroids",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "K-means clustering follows partitioning approach."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) k-means clustering is a method of vector quantization",
+            "b) k-means clustering aims to partition n observations into k clusters",
+            "c) k-nearest neighbor is same as k-means",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "k-nearest neighbor has nothing to do with k-means."
+    },
+    {
+        "question": "Which of the following combination is incorrect?",
+        "options": [
+            "a) Continuous \u2013 euclidean distance",
+            "b) Continuous \u2013 correlation similarity",
+            "c) Binary \u2013 manhattan distance",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You should choose a distance/similarity that makes sense for your problem."
+    },
+    {
+        "question": "Hierarchical clustering should be primarily used for exploration.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Hierarchical clustering is deterministic."
+    },
+    {
+        "question": "Which of the following function is used for k-means clustering?",
+        "options": [
+            "a) k-means",
+            "b) k-mean",
+            "c) heatmap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "K-means requires a number of clusters."
+    },
+    {
+        "question": "Which of the following clustering requires merging approach?",
+        "options": [
+            "a) Partitional",
+            "b) Hierarchical",
+            "c) Naive Bayes",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hierarchical clustering requires a defined distance as well."
+    },
+    {
+        "question": "K-means is not deterministic and it also consists of number of iterations.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "K-means clustering produces the final estimate of cluster centroids."
+    }
+]

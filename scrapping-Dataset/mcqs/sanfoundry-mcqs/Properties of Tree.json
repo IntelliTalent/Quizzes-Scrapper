@@ -1,0 +1,101 @@
+[
+    {
+        "question": "An undirected graph G which is connected and acyclic is called ____________",
+        "options": [
+            "a) bipartite graph",
+            "b) cyclic graph",
+            "c) tree",
+            "d) forest"
+        ],
+        "answer": "c",
+        "explanation": "An undirected graph G which is connected and acyclic is termed as a tree. G contains no cycles and if any edge is added to G a simple cycle is formed."
+    },
+    {
+        "question": "An n-vertex graph has ______ edges.",
+        "options": [
+            "a) n",
+            "b) n-1",
+            "c) n*n",
+            "d) n*(n+1)/2"
+        ],
+        "answer": "b",
+        "explanation": "Suppose G is a connected graph which has no cycles. Every subgraph of G includes at least one vertex with zero or one incident edges. It has n vertices and n-1 edges. Generally, the order-zero graph is not considered to be a tree."
+    },
+    {
+        "question": "What is a star tree?",
+        "options": [
+            "a) A tree having a single internal vertex and n-1 leaves",
+            "b) A tree having n vertices arranged in a line",
+            "c) A tree which has 0 or more connected subtrees",
+            "d) A tree which contains n vertices and n-1 cycles"
+        ],
+        "answer": "a",
+        "explanation": "A star tree of order n is a tree with as many leaves as possible or in other words a star tree is a tree that consists of a single internal vertex and n-1 leaves. However, an internal vertex is a vertex of degree at least 2."
+    },
+    {
+        "question": "A polytree is called _______________",
+        "options": [
+            "a) directed acyclic graph",
+            "b) directed cyclic graph",
+            "c) bipartite graph",
+            "d) connected graph"
+        ],
+        "answer": "a",
+        "explanation": "A directed acyclic graph is known as a polytree whose underlying undirected graph is a tree. In other words, a directed tree is a directed graph which would be tree if the directions on the edges were ignored."
+    },
+    {
+        "question": "The tree elements are called __________",
+        "options": [
+            "a) vertices",
+            "b) nodes",
+            "c) points",
+            "d) edges"
+        ],
+        "answer": "b",
+        "explanation": "Every tree element is called a node and the lines connecting the elements are called branches. A finite tree structure has a member that has no superior and is called the \u201croot\u201d Or root node. Nodes that have no child are called leaf nodes."
+    },
+    {
+        "question": "A linear graph consists of vertices arranged in a line.",
+        "options": [
+            "a) false",
+            "b) true",
+            "c) either true or false",
+            "d) cannot determined"
+        ],
+        "answer": "b",
+        "explanation": "A linear graph also known as a path graph is a graph which consists of k vertices arranged in a line, so that vertices from i and i+1 are connected by an edge for i=0,\u2026, k-1."
+    },
+    {
+        "question": "Two labeled trees are isomorphic if ____________",
+        "options": [
+            "a) graphs of the two trees are isomorphic",
+            "b) the two trees have same label",
+            "c) graphs of the two trees are isomorphic and the two trees have the same label",
+            "d) graphs of the two trees are cyclic"
+        ],
+        "answer": "c",
+        "explanation": "The number of labeled trees of k number of vertices is k"
+    },
+    {
+        "question": "A graph which consists of disjoint union of trees is called ______",
+        "options": [
+            "a) bipartite graph",
+            "b) forest",
+            "c) caterpillar tree",
+            "d) labeled tree"
+        ],
+        "answer": "b",
+        "explanation": "A forest is an undirected acyclic graph in which all the connected components are individual trees. This graph contains a disjoint union of trees."
+    },
+    {
+        "question": "What is a bipartite graph?",
+        "options": [
+            "a) a graph which contains only one cycle",
+            "b) a graph which consists of more than 3 number of vertices",
+            "c) a graph which has odd number of vertices and even number of edges",
+            "d) a graph which contains no cycles of odd length"
+        ],
+        "answer": "d",
+        "explanation": "A graph is called a bipartite graph if and only if it contains no cycle of odd length. Every tree is a bipartite graph and a median graph."
+    }
+]

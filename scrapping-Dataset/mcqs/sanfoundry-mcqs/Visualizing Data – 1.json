@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following method make vector of repeated values?",
+        "options": [
+            "a) rep()",
+            "b) data()",
+            "c) view()",
+            "d) read()"
+        ],
+        "answer": "b",
+        "explanation": "data() load (often into a data.frame) built-in dataset."
+    },
+    {
+        "question": "Which of the following finds the position of a quantile in a dataset?",
+        "options": [
+            "a) quantile()",
+            "b) barplot()",
+            "c) barchart()",
+            "d) rep()"
+        ],
+        "answer": "a",
+        "explanation": "barplot() produces a bar graph."
+    },
+    {
+        "question": "Which of the following function cross-tabulate tables using formulas?",
+        "options": [
+            "a) table",
+            "b) stem",
+            "c) xtabs",
+            "d) read"
+        ],
+        "answer": "d",
+        "explanation": "table() list all values of a variable with frequencies."
+    },
+    {
+        "question": "Which of the following groups find the correlation matrix?",
+        "options": [
+            "a) factor.model",
+            "b) col.max(x)",
+            "c) stem",
+            "d) which.max(x)"
+        ],
+        "answer": "a",
+        "explanation": "factor.congruence is used to find the factor congruence coefficients."
+    },
+    {
+        "question": "which of the following statement make a mosaic plot?",
+        "options": [
+            "a) histogram()",
+            "b) mosaicplot()",
+            "c) bar()",
+            "d) which.max(x)"
+        ],
+        "answer": "b",
+        "explanation": "histogram() is lattice command for producing a histogram."
+    },
+    {
+        "question": "Which of the following compute proportions from a contingency table?",
+        "options": [
+            "a) par()",
+            "b) prop.table()",
+            "c) anova()",
+            "d) mosaicplot()"
+        ],
+        "answer": "b",
+        "explanation": "par() is used to  query and edit graphical settings."
+    },
+    {
+        "question": "Which of the following is lattice command for producing a scatterplot?",
+        "options": [
+            "a) plot()",
+            "b) lm()",
+            "c) xyplot()",
+            "d) anova()"
+        ],
+        "answer": "c",
+        "explanation": "plot() produces a scatterplot."
+    },
+    {
+        "question": "Which of the following builds empirical cumulative distribution function?",
+        "options": [
+            "a) ecdf()",
+            "b) cum",
+            "c) cumsum",
+            "d) lm()"
+        ],
+        "answer": "a",
+        "explanation": "cumsum() is used to produce running total of values for input vector."
+    },
+    {
+        "question": "Which of the following is used to view dataset in a spreadsheet-type format ?",
+        "options": [
+            "a) Disp()",
+            "b) View()",
+            "c) Seq()",
+            "d) lm()"
+        ],
+        "answer": "b",
+        "explanation": "seq() make arithmetic progression vector."
+    },
+    {
+        "question": "________ function carries out a chi-square test.",
+        "options": [
+            "a) chisq.test()",
+            "b) t.test()",
+            "c) prop.test()",
+            "d) fisher.test()"
+        ],
+        "answer": "a",
+        "explanation": "prop.test() is used to inference for 1 proportion using normal approx."
+    }
+]

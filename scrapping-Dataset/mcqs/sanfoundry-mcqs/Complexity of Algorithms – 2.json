@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which is used to measure the Time complexity of an algorithm Big O notation?",
+        "options": [
+            "a) describes limiting behaviour of the function",
+            "b) characterises a function based on growth of function",
+            "c) upper bound on growth rate of the function",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Big O notation describes limiting behaviour, and also gives upper bound on growth rate of a function."
+    },
+    {
+        "question": "If for an algorithm time complexity is given by O(1) then the complexity of it is ____________",
+        "options": [
+            "a) constant",
+            "b) polynomial",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The growth rate of that function will be constant."
+    },
+    {
+        "question": "If for an algorithm time complexity is given by O(log",
+        "options": [
+            "a) constant",
+            "b) polynomial",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The growth rate of that function will be logarithmic therefore complexity will be logarithmic."
+    },
+    {
+        "question": "If for an algorithm time complexity is given by O(n) then the complexity of it is ___________",
+        "options": [
+            "a) constant",
+            "b) linear",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The growth rate of that function will be linear."
+    },
+    {
+        "question": "If for an algorithm time complexity is given by O(n",
+        "options": [
+            "a) constant",
+            "b) quadratic",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The growth rate of that function will be quadratic therefore complexity will be quadratic."
+    },
+    {
+        "question": "The time complexity of binary search is given by ___________",
+        "options": [
+            "a) constant",
+            "b) quardratic",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is O(log"
+    },
+    {
+        "question": "The time complexity of the linear search is given by ___________",
+        "options": [
+            "a) O(log",
+            "b) O(1)",
+            "c) exponential",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is O(n), therefore complexity will be linear."
+    },
+    {
+        "question": "Which algorithm is better for sorting between bubble sort and quicksort?",
+        "options": [
+            "a) bubble sort",
+            "b) quick sort",
+            "c) both are equally good",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Running time of quicksort is logarithmic whereas for bubble sort it is quadratic."
+    },
+    {
+        "question": "Time complexity of the binary search algorithm is constant.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "It is O(log"
+    }
+]

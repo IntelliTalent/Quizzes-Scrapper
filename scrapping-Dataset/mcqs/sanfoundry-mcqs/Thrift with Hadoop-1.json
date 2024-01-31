@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following project is interface definition language for hadoop?",
+        "options": [
+            "a) Oozie",
+            "b) Mahout",
+            "c) Thrift",
+            "d) Impala"
+        ],
+        "answer": "c",
+        "explanation": "Thrift is an interface definition language and binary communication protocol that is used to define and create services for numerous languages."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Thrift is developed for scalable cross-language services development",
+            "b) Thrift includes a complete stack for creating clients and servers",
+            "c) The top part of the Thrift stack is generated code from the Thrift definition",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The services generate from this file client and processor code."
+    },
+    {
+        "question": "__________ is used as a remote procedure call (RPC) framework for facebook.",
+        "options": [
+            "a) Oozie",
+            "b) Mahout",
+            "c) Thrift",
+            "d) Impala"
+        ],
+        "answer": "c",
+        "explanation": "In contrast to built-in types, created data structures are sent as a result in generated code."
+    },
+    {
+        "question": "Which of the following is a straightforward binary format?",
+        "options": [
+            "a) TCompactProtocol",
+            "b) TDenseProtocol",
+            "c) TBinaryProtocol",
+            "d) TSimpleJSONProtocol"
+        ],
+        "answer": "c",
+        "explanation": "TBinaryProtocol is not optimized for space efficiency."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) With Thrift, it is not possible to define a service and change the protocol and transport without recompiling the code",
+            "b) Thrift includes server infrastructure to tie protocols and transports together, like blocking, non-blocking, and multi threaded servers",
+            "c) Thrift supports a number of protocols for service definition",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The underlying I/O part of the stack is differently implemented for different languages."
+    },
+    {
+        "question": "Which of the following is a more compact binary format?",
+        "options": [
+            "a) TCompactProtocol",
+            "b) TDenseProtocol",
+            "c) TBinaryProtocol",
+            "d) TSimpleJSONProtocol"
+        ],
+        "answer": "a",
+        "explanation": "TCompactProtocol is typically more efficient to process as well."
+    },
+    {
+        "question": "Which of the following format is similar to TCompactProtocol?",
+        "options": [
+            "a) TCompactProtocol",
+            "b) TDenseProtocol",
+            "c) TBinaryProtocol",
+            "d) TSimpleJSONProtocol"
+        ],
+        "answer": "b",
+        "explanation": "In TDenseProtocol, stripping off the meta information from what is transmitted."
+    },
+    {
+        "question": "________ is a write-only protocol that cannot be parsed by Thrift.",
+        "options": [
+            "a) TCompactProtocol",
+            "b) TDenseProtocol",
+            "c) TBinaryProtocol",
+            "d) TSimpleJSONProtocol"
+        ],
+        "answer": "d",
+        "explanation": "TSimpleJSONProtocol drops metadata using JSON. Suitable for parsing by scripting languages."
+    },
+    {
+        "question": "Which of the following Uses JSON for encoding of data?",
+        "options": [
+            "a) TCompactProtocol",
+            "b) TDenseProtocol",
+            "c) TBinaryProtocol",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "TJSONProtocol is used JSON for encoding of data."
+    },
+    {
+        "question": "_____________ is a human-readable text format to aid in debugging.",
+        "options": [
+            "a) TMemory",
+            "b) TDebugProtocol",
+            "c) TBinaryProtocol",
+            "d) TSimpleJSONProtocol"
+        ],
+        "answer": "b",
+        "explanation": "TBinaryProtocol is faster to process than the text protocol but more difficult to debug."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Indexes are typically available in ______ or located sequentially on disk.",
+        "options": [
+            "a) RAM",
+            "b) ROM",
+            "c) CMOS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Querying only the index can be much faster than querying documents outside of the index."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Query selectivity refers to how well the query predicate excludes or filters out documents in a collection",
+            "b) Query selectivity can determine whether or not queries can use indexes effectively or even use indexes at all",
+            "c) More selective queries match a larger percentage of documents",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "More selective queries match a smaller percentage of documents."
+    },
+    {
+        "question": "___________ is used to determine whether a query is a covered query.",
+        "options": [
+            "a) explainstats()",
+            "b) explain()",
+            "c) explainall()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "db.collection.explain() provides information on the execution of other operations, such as db.collection.update()."
+    },
+    {
+        "question": "The ________ message is used to update a document in a collection.",
+        "options": [
+            "a) UPDATE",
+            "b) OP_UPDATE",
+            "c) OP_UPDATES",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Only the OP_QUERY and OP_GET_MORE messages result in a response from the database."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) An equality match on the unique _id field is less selective as it can match at most one document",
+            "b) The selectivity of regular expressions depends on the expressions themselves",
+            "c) Less selective queries can use indexes effectively or even at all",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If an index exists for the field, then MongoDB matches the regular expression against the values in the index, which can be faster than a collection scan."
+    },
+    {
+        "question": "_____  can modify specific fields of an existing document or documents or replace an existing document entirely, depending on the update parameter.",
+        "options": [
+            "a) modify()",
+            "b) update()",
+            "c) find()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By default, the update() method updates a single document."
+    },
+    {
+        "question": "The update() method uses the _______ command, which uses the default write concern.",
+        "options": [
+            "a) find",
+            "b) read",
+            "c) update",
+            "d) modify"
+        ],
+        "answer": "c",
+        "explanation": "The update() method returns an object that contains the status of the operation."
+    },
+    {
+        "question": "_________ is used to view statistics about the query plan for a given query.",
+        "options": [
+            "a) db.explain()",
+            "b) cursor.explain()",
+            "c) cursor.explainstats()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This information can help as you develop indexing strategies."
+    },
+    {
+        "question": "A ________ query plan has returned a threshold number of matching results.",
+        "options": [
+            "a) execution",
+            "b) unordered",
+            "c) ordered",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An ordered query plan has returned all the matching results."
+    },
+    {
+        "question": "A query _______ consists of a combination of query, sort, and projection specifications.",
+        "options": [
+            "a) plan",
+            "b) shape",
+            "c) stats",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Index filters determine which indexes the optimizer evaluates for a query shape."
+    }
+]

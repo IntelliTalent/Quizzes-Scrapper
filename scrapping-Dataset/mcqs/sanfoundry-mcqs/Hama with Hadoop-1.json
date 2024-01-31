@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many types of modes are present in Hama?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "Just like Hadoop, Hama has distinct between three modes."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) In local mode, nothing must be launched via the start scripts",
+            "b) Distributed Mode is just like the \u201cPseudo Distributed Mode\u201d",
+            "c) Apache Hama is one of the under-hyped projects in the Hadoop ecosystem",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can adjust the number of threads used in this utility by setting the bsp.local.tasks.maximum property."
+    },
+    {
+        "question": "__________ is the default mode if you download Hama.",
+        "options": [
+            "a) Local Mode",
+            "b) Pseudo Distributed Mode",
+            "c) Distributed Mode",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This mode can be configured via the bsp.master.address property to local."
+    },
+    {
+        "question": "_________ mode is used when you just have a single server and want to launch all the daemon processes.",
+        "options": [
+            "a) Local Mode",
+            "b) Pseudo Distributed Mode",
+            "c) Distributed Mode",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pseudo Distributed Mode can be configured when you set the bsp.master.address to a host address."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Apache Hama is not a pure Bulk Synchronous Parallel Engine",
+            "b) Hama uses the Hadoop Core for RPC calls",
+            "c) Apache Hama is optimized for massive scientific computations such as matrix, graph and network algorithms",
+            "d) Hama is a relatively newer project than Hadoop"
+        ],
+        "answer": "a",
+        "explanation": "Apache Hama is not a pure BSP."
+    },
+    {
+        "question": "Distributed Mode are mapped in the __________ file.",
+        "options": [
+            "a) groomservers",
+            "b) grervers",
+            "c) grsvers",
+            "d) groom"
+        ],
+        "answer": "a",
+        "explanation": "Distributed Mode is used when you have multiple machines."
+    },
+    {
+        "question": "The web UI provides information about ________ job statistics of the Hama cluster.",
+        "options": [
+            "a) MPP",
+            "b) BSP",
+            "c) USP",
+            "d) ISP"
+        ],
+        "answer": "b",
+        "explanation": "Running/completed/Failed jobs is detailed in UI interface."
+    },
+    {
+        "question": "Apache Hama provides complete clone of _________",
+        "options": [
+            "a) Pragmatic",
+            "b) Pregel",
+            "c) ServePreg",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pregel is used for large processing of graphs."
+    },
+    {
+        "question": "A __________ in a social graph is a group of people who interact frequently with each other and less frequently with others.",
+        "options": [
+            "a) semi-cluster",
+            "b) partial cluster",
+            "c) full cluster",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "semi-cluster is different from ordinary clustering in the sense that a vertex may belong to more than one semi-cluster."
+    },
+    {
+        "question": "Which of the following apache project is gaining a lot of traction steadily with the efforts of its committers?",
+        "options": [
+            "a) Hama",
+            "b) Hadoop",
+            "c) Hive",
+            "d) Pig"
+        ],
+        "answer": "a",
+        "explanation": "HAMA is a distributed framework on Hadoop for massive matrix algorithms."
+    }
+]

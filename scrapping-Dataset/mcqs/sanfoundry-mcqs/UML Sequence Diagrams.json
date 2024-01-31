@@ -1,0 +1,145 @@
+[
+    {
+        "question": "What is the Interaction diagram?",
+        "options": [
+            "a) Interaction diagrams are the UML notations for dynamic modeling of collaborations",
+            "b) Interaction diagrams are a central focus of engineering design",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Interaction Diagram are the UML notations for dynamic modeling of collaborations, a central focus of engineering design."
+    },
+    {
+        "question": "What are the different interaction diagram notations does UML have?",
+        "options": [
+            "a) A sequence diagram",
+            "b) A communication diagram",
+            "c) An interaction overview diagram",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "UML has Four different interaction diagram notations \u2013  A sequence diagram, A communication diagram, An interaction overview diagram, A timing diagram."
+    },
+    {
+        "question": "What is a sequence diagram?",
+        "options": [
+            "a) A diagram that shows interacting individuals along the top of the diagram and messages passed among them arranged in temporal order down the page",
+            "b) A diagram that shows messages superimposed on a diagram depicting collaborating individuals and the links among them",
+            "c) A diagram that shows the change of an individual\u2019s state over time",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A sequence diagram shows interacting individuals along the top of the diagram and messages passed among them arranged in temporal order down the page."
+    },
+    {
+        "question": "Which of the following is true about Sequence frames?",
+        "options": [
+            "a) A sequence diagram has a frame consisting of a rectangle with a pentagon in its upper left-hand corner",
+            "b) The pentagon is its name compartment; the interaction is represented inside the rectangle",
+            "c) The string in the name compartment has the form sd interaction Identifier where interaction Identifier is either a simple name or an operation specification with the same format as in a class diagram",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are followed in sequence frames."
+    },
+    {
+        "question": "What is a lifeline?",
+        "options": [
+            "a) It is a frame consisting of a rectangle with a pentagon in its upper left-hand corner",
+            "b) It is a rectangle containing an identifier with a dashed line extending below the rectangle",
+            "c) It is a name compartment; the interaction is represented inside the rectangle",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Lifeline is a rectangle containing an identifier with a dashed line extending below the rectangle."
+    },
+    {
+        "question": "What does a message mean?",
+        "options": [
+            "a) It Passes all communications from one object to another and are represented by message arrows in sequence diagrams",
+            "b) The message goes from the sending object\u2019s lifeline to the receiving object\u2019s lifeline",
+            "c) It is a rectangle containing an identifier with a dashed line extending below the rectangle",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "All communications from one object to another are called messages and are represented by message arrows in sequence diagrams."
+    },
+    {
+        "question": "What are the three different types of message arrows?",
+        "options": [
+            "a) Synchronous, asynchronous, asynchronous with instance creation",
+            "b) Self, Multiplied, instance generator",
+            "c) Synchronous, Asynchronous, synchronous with instance creation",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Three different types of message arrows are- Synchronous, Asynchronous, Synchronous with instance creation."
+    },
+    {
+        "question": "Which of these are true with respect to the message arrows?",
+        "options": [
+            "a) The synchronous message arrow is used when a sending individual continues execution after sending the message",
+            "b) The asynchronous message arrow is used when a sending individual suspends execution after sending the message",
+            "c) The dashed arrow is used either to show the return of control from a synchronous message or to create a new entity",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The asynchronous message arrow is used when a sending individual continues execution after sending the message and The synchronous message arrow is used when a sending individual suspends execution after sending the message."
+    },
+    {
+        "question": "When is the operation executing, suspended and active?",
+        "options": [
+            "a) An operation is executing when some process is actually running its code",
+            "b) An operation is suspended when it sends a synchronous message and it is waiting for the message to return",
+            "c) An operation is active when it is either executing or suspended",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true and respond to operations executing suspended and active states."
+    },
+    {
+        "question": "What is the interaction fragments?",
+        "options": [
+            "a) A fragment which is a  rectangular frame with a pentagonal operation compartment in the upper left-hand corner",
+            "b) A fragment which has a marked part of an interaction specification",
+            "c) The regions resulting from these divisions will not hold the interaction fragment operations",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Interaction fragment is a  fragment which is a  rectangular frame with a pentagonal operation compartment in the upper left-hand corner and  A fragment which has a marked part of an interaction speci?cation."
+    },
+    {
+        "question": "Which of the following is true for optional fragments?",
+        "options": [
+            "a) An optional fragment is a portion of an interaction that may be done",
+            "b) The fragment operator name is opt",
+            "c) Optional fragments have only a single operand, which must contain a guard",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true with respect to optional fragments."
+    },
+    {
+        "question": "What is break fragment?",
+        "options": [
+            "a) An fragment which has one or more guarded operands whose guards are mutually exclusive\u2014that is, at most one of them can be true at any time",
+            "b) A fragment which has a single operand that is performed instead of the remainder of the enclosing fragment or diagram if the operand guard is true",
+            "c) A fragment which has a single operand that may or may not have a guard",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A break fragment has a single operand that is performed instead of the remainder of the enclosing fragment or diagram if the operand guard is true."
+    },
+    {
+        "question": "What are the heuristics which the sequencing diagram follows?",
+        "options": [
+            "a) Put pairs of lifelines that interact heavily next to one another",
+            "b) Position lifelines to make message arrows as short as possible",
+            "c) Position lifelines to make message arrows go from left to right",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Sequencing diagram follows all the mentioned heuristics."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Avro-backed tables can simply be created by using _________ in a DDL statement.",
+        "options": [
+            "a) \u201cSTORED AS AVRO\u201d",
+            "b) \u201cSTORED AS HIVE\u201d",
+            "c) \u201cSTORED AS AVROHIVE\u201d",
+            "d) \u201cSTORED AS SERDE\u201d"
+        ],
+        "answer": "a",
+        "explanation": "AvroSerDe takes care of creating the appropriate Avro schema from the Hive table schema."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Avro Fixed type should be defined in Hive as lists of tiny ints",
+            "b) Avro Bytes type should be defined in Hive as lists of tiny ints",
+            "c) Avro Enum type should be defined in Hive as strings",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The AvroSerde will convert these to Bytes during the saving process."
+    },
+    {
+        "question": "Types that may be null must be defined as a ______ of that type and Null within Avro.",
+        "options": [
+            "a) Union",
+            "b) Intersection",
+            "c) Set",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A null in a field that is not so defined will result in an exception during the save. No changes need be made to the Hive schema to support this, as all fields in Hive can be null."
+    },
+    {
+        "question": "The files that are written by the _______ job are valid Avro files.",
+        "options": [
+            "a) Avro",
+            "b) Map Reduce",
+            "c) Hive",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you copy these files out, you\u2019ll likely want to rename them with .avro."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To create an Avro-backed table, specify the serde as org.apache.hadoop.hive.serde2.avro.AvroSerDe",
+            "b) Avro-backed tables can be created in Hive using AvroSerDe",
+            "c) The AvroSerde cannot serialize any Hive table to Avro files",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The AvroSerde can serialize any Hive table to Avro files."
+    },
+    {
+        "question": "Use ________ and embed the schema in the create statement.",
+        "options": [
+            "a) schema.literal",
+            "b) schema.lit",
+            "c) row.literal",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can embed the schema directly into the create statement."
+    },
+    {
+        "question": "_______ is interpolated into the quotes to correctly handle spaces within the schema.",
+        "options": [
+            "a) $SCHEMA",
+            "b) $ROW",
+            "c) $SCHEMASPACES",
+            "d) $NAMESPACES"
+        ],
+        "answer": "a",
+        "explanation": "Use none to ignore either avro.schema.literal or avro.schema.url."
+    },
+    {
+        "question": "To force Hive to be more verbose, it can be started with ___________",
+        "options": [
+            "a) *hive \u2013hiveconf hive.root.logger=INFO,console*",
+            "b) *hive \u2013hiveconf hive.subroot.logger=INFO,console*",
+            "c) *hive \u2013hiveconf hive.root.logger=INFOVALUE,console*",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This Statement will spit orders of magnitude more information to the console and will likely include any information the AvroSerde is trying to get you about what went wrong."
+    },
+    {
+        "question": "________ was designed to overcome limitations of the other Hive file formats.",
+        "options": [
+            "a) ORC",
+            "b) OPC",
+            "c) ODC",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Optimized Row Columnar (ORC) file format provides a highly efficient way to store Hive data."
+    },
+    {
+        "question": "An ORC file contains groups of row data called __________",
+        "options": [
+            "a) postscript",
+            "b) stripes",
+            "c) script",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The default stripe size is 250 MB. Large stripe sizes enable large, efficient reads from HDFS."
+    }
+]

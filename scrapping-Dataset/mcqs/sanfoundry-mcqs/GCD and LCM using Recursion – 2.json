@@ -1,0 +1,163 @@
+[
+    {
+        "question": "LCM is also called as ________",
+        "options": [
+            "a) GCD",
+            "b) SCM",
+            "c) GCF",
+            "d) HCF"
+        ],
+        "answer": "b",
+        "explanation": "GCD (Greatest Common Divisor), GCF (Greatest Common Factor), HCF (Highest Common Factor) is not an alias for LCM. LCM is also called as Smallest Common Multiple(SCM)."
+    },
+    {
+        "question": "What is the LCM of 8 and 13?",
+        "options": [
+            "a) 8",
+            "b) 12",
+            "c) 20",
+            "d) 104"
+        ],
+        "answer": "d",
+        "explanation": "104 is the smallest positive integer that is divisible by both 8 and 12."
+    },
+    {
+        "question": "Which is the smallest number of 3 digits that is divisible by 2, 4, 8?",
+        "options": [
+            "a) 100",
+            "b) 102",
+            "c) 116",
+            "d) 104"
+        ],
+        "answer": "d",
+        "explanation": "LCM of 2, 4, 8 is 8. So check for the number that is divisible by 8. So 104 is the smallest number that is divisible by 2, 4, 8."
+    },
+    {
+        "question": "Which of the following is also known as LCM?",
+        "options": [
+            "a) Lowest Common Divisor",
+            "b) Least Common Multiple",
+            "c) Lowest Common Measure",
+            "d) Highest Common Multiple"
+        ],
+        "answer": "a",
+        "explanation": "Least Common Multiple is also known as LCM or Lowest Common Multiple."
+    },
+    {
+        "question": "What is the LCM of two coprime numbers?",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) Addition of two coprime numbers",
+            "d) Multiplication of two coprime numbers"
+        ],
+        "answer": "d",
+        "explanation": "Coprime numbers have GCD 1. While LCM of coprime numbers is the product of those two coprime numbers."
+    },
+    {
+        "question": "In terms of Venn Diagram, which of the following expression gives LCM (Given A \ua4f5 B \u2260 \u00d8)?",
+        "options": [
+            "a) Multiplication of A U B terms",
+            "b) Multiplication of A \ua4f5 B terms",
+            "c) Multiplication of A*B terms",
+            "d) Multiplication of A-B terms"
+        ],
+        "answer": "a",
+        "explanation": "In terms of Venn Diagram, the LCM is given by the Union of two sets. So A U B gives the LCM. While A \ua4f5 B gives the GCD."
+    },
+    {
+        "question": "What is the LCM according to the given Venn Diagram?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 180",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "In terms of Venn Diagram, the LCM is given by the Union of two sets. So A U B gives the LCM. So product of all the terms is 180."
+    },
+    {
+        "question": "What is the lcm (a, b)?",
+        "options": [
+            "a) a + b",
+            "b) gcd (a-b, b) if a>b",
+            "c) lcm (b, a)",
+            "d) a \u2013 b"
+        ],
+        "answer": "c",
+        "explanation": "Since the LCM function is commutative, so lcm (a, b) = lcm (b, a)."
+    },
+    {
+        "question": "What is the LCM of 48, 18, 6?",
+        "options": [
+            "a) 12",
+            "b) 12*2",
+            "c) 3",
+            "d) 6"
+        ],
+        "answer": "a",
+        "explanation": "The LCM of 48, 18, 6 is 144 and 12"
+    },
+    {
+        "question": "Is 9 and 28 coprime number.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Coprime numbers have GCD 1 and LCM is the product of the two given terms. So 9 and 28 are coprime numbers."
+    },
+    {
+        "question": "What is the following expression, lcm (a, lcm (b, c) equal to?",
+        "options": [
+            "a) lcm (a, b, c)",
+            "b) a*b*c",
+            "c) a + b + c",
+            "d) lcm (lcm (a, b), c)"
+        ],
+        "answer": "d",
+        "explanation": "Since LCM function follows associativity, hence lcm (a, lcm (b, c) is equal to lcm (lcm (a, b), c)."
+    },
+    {
+        "question": "Is lcm an associative function.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The lcm function is an associative function as lcm (a, lcm (b, c) is equal to lcm (lcm (a, b), c)."
+    },
+    {
+        "question": "Which is the correct term of the given relation, lcm (a, b) * gcd (a, b) =?",
+        "options": [
+            "a) |a*b|",
+            "b) a + b",
+            "c) a \u2013 b",
+            "d) a / b"
+        ],
+        "answer": "a",
+        "explanation": "The lcm is closely related to gcd as lcm (a, b) * gcd (a, b) = |a*b|."
+    },
+    {
+        "question": "What is the following expression, lcm (a, gcd (a, b)) equal to?",
+        "options": [
+            "a) a",
+            "b) b",
+            "c) a*b",
+            "d) a + b"
+        ],
+        "answer": "a",
+        "explanation": "Since the lcm function follows absorption laws so lcm (a, gcd (a, b)) equal to a."
+    },
+    {
+        "question": "Which algorithm is the most efficient numerical algorithm to obtain lcm?",
+        "options": [
+            "a) Euler\u2019s Algorithm",
+            "b) Euclid\u2019s Algorithm",
+            "c) Chebyshev Function",
+            "d) Partial Division Algorithm"
+        ],
+        "answer": "b",
+        "explanation": "The most efficient way of calculating the lcm of a given number is using Euclid\u2019s algorithm which computes the lcm in much lesser time compared to other algorithms."
+    }
+]

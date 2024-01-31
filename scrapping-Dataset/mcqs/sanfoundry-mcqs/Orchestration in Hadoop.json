@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A collection of various actions in a control dependency DAG is referred to as ________________",
+        "options": [
+            "a) workflow",
+            "b) dataflow",
+            "c) clientflow",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Falcon provides the key services for data processing apps."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Large datasets are incentives for users to come to Hadoop",
+            "b) Data management is a common concern to be offered as a service",
+            "c) Understanding the life-time of a feed will allow for implicit validation of the processing rules",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Falcon decouples a data location and its properties from workflows."
+    },
+    {
+        "question": "The ability of Hadoop to efficiently process large volumes of data in parallel is called __________ processing.",
+        "options": [
+            "a) batch",
+            "b) stream",
+            "c) time",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are also a number of use cases that require more \u201creal-time\u201d processing of data\u2014processing the data as it arrives, rather than through batch processing."
+    },
+    {
+        "question": "__________ is used for simplified Data Management in Hadoop.",
+        "options": [
+            "a) Falcon",
+            "b) flume",
+            "c) Impala",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Apache Falcon process orchestration and scheduling."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Falcon promotes Javascript Programming",
+            "b) Falcon does not do any heavy lifting but delegates to tools with in the Hadoop ecosystem",
+            "c) Falcon handles retry logic and late data processing. Records audit, lineage and metrics",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Falcon promotes Polyglot Programming."
+    },
+    {
+        "question": "Falcon provides ___________ workflow for copying data from source to target.",
+        "options": [
+            "a) recurring",
+            "b) investment",
+            "c) data",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Falcon instruments workflows for dependencies, retry logic, Table/Partition registration, notifications, etc."
+    },
+    {
+        "question": "A recurring workflow is used for purging expired data on __________ cluster.",
+        "options": [
+            "a) Primary",
+            "b) Secondary",
+            "c) BCP",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Falcon provides retention workflow for each cluster based on the defined policy."
+    },
+    {
+        "question": "Falcon provides the key services data processing applications need so Sophisticated________ can easily be added to Hadoop applications.",
+        "options": [
+            "a) DAM",
+            "b) DLM",
+            "c) DCM",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Complex data processing logic is handled by Falcon instead of hard-coded in apps."
+    },
+    {
+        "question": "Falcon promotes decoupling of data set location from ___________ definition.",
+        "options": [
+            "a) Oozie",
+            "b) Impala",
+            "c) Kafka",
+            "d) Thrift"
+        ],
+        "answer": "a",
+        "explanation": "Falcon uses declarative processing with simple directives enabling rapid prototyping."
+    },
+    {
+        "question": "Falcon provides seamless integration with _____________",
+        "options": [
+            "a) HCatalog",
+            "b) metastore",
+            "c) HBase",
+            "d) Kafka"
+        ],
+        "answer": "b",
+        "explanation": "Falcon maintains the dependencies and relationships between entities."
+    }
+]

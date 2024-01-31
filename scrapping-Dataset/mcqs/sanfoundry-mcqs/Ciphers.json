@@ -1,0 +1,102 @@
+[
+    {
+        "question": "_______ is an example of asymmetric ciphers.",
+        "options": [
+            "a) Block cipher",
+            "b) RSA encryption",
+            "c) AES encryption",
+            "d) Advanced cryptology"
+        ],
+        "answer": "b",
+        "explanation": "The asymmetric ciphers use asymmetric algorithms that use one key to encrypt data and a different key to decrypt ciphers. These algorithms are used in RSA encryption and public-key cryptography in which the public key is used to encrypt data and the private key is used to decrypt data."
+    },
+    {
+        "question": "There is no secret key in case of ____________",
+        "options": [
+            "a) Symmetric ciphers",
+            "b) Asymmetric ciphers",
+            "c) RSA encryption",
+            "d) Alpha-numeric cryptography"
+        ],
+        "answer": "a",
+        "explanation": "A symmetric algorithm uses the same key to encrypt data as well as to decrypt data. For example, a symmetric algorithm will use the key to encrypt some plaintext information like a password into a ciphertext. Then, it uses again to take that ciphertext and turn it back into the password."
+    },
+    {
+        "question": "Suppose in order to get a message across enemy lines, we need to choose an initial secret key say, 100110. What will be the decrypted cipher when the original message is 010010011.",
+        "options": [
+            "a) 110100",
+            "b) 1001011",
+            "c) 0011010",
+            "d) 011011"
+        ],
+        "answer": "a",
+        "explanation": "In order to decrypt the given cipher text, we need to XOR each bit with the corresponding bit in the secret key. As, the cipher text is longer than the secret key, wrap around the remaining cipher text and begin again at the starting. When there will be a chance to decrypt the 7"
+    },
+    {
+        "question": "Electronic Code Book process is used in ________",
+        "options": [
+            "a) caesar cipher",
+            "b) antisymmetric cipher",
+            "c) block cipher",
+            "d) stream cipher"
+        ],
+        "answer": "c",
+        "explanation": "The block cipher takes a plaintext in the chuck of bits and the bits of key are used to produce bits of ciphertext. They operate on blocks of bits at a time and so it is termed as block ciphers. TIn current cryptomeric systems, the messages that are larger than one block long that need to be split up into smaller messages by using a process called Electronic Code Book (ECB)."
+    },
+    {
+        "question": "______ uses the concept of pseudo-random sequence.",
+        "options": [
+            "a) Stream cipher",
+            "b) DES encryption",
+            "c) Caesar cipher",
+            "d) Block cipher"
+        ],
+        "answer": "a",
+        "explanation": "The stream cipher is the one-time pad that uses the XOR function on the plaintext with a pseudo-random sequence. The input plaintext is encrypted one byte at a time incrementally. As the random sequence is not possible, a pseudo-random sequence is used. These pseudo-random sequence are the outputs of a generator given an initial seed which is a number used to initialize a pseudo-random number generator."
+    },
+    {
+        "question": "What are the steps in the Feistel function?",
+        "options": [
+            "a) expansion, mixing, substitution, permutation",
+            "b) extract, transform, load",
+            "c) extract, load, transform",
+            "d) expansion, divide, mixing, permutation",
+            "i) Expansion:- The incoming 32-bit block has half of its bits duplicated, making it a 48-bit block."
+        ],
+        "answer": "a",
+        "explanation": "The Feistel function which occurs in every block has 3 steps"
+    },
+    {
+        "question": "What type of algorithm does AES encryption use?",
+        "options": [
+            "a) Stream cipher",
+            "b) Symmetric block cipher",
+            "c) Asymmetric caesar cipher",
+            "d) DES encryption"
+        ],
+        "answer": "b",
+        "explanation": "AES encryption uses symmetric block ciphers to encrypt the messages. It is at least 6 times faster than 3 DES. AES uses a substitution-permutation network and this network is a series of operations that either replaces input with output bits (substitution) or shuffles the bits (permutation). It uses 128-bit input plaintext and it operates on bytes rather than bits. Here, the input is represented as 16 bytes (because 128 bits = 16 bytes) and is arranged in a 4 x 4 matrix."
+    },
+    {
+        "question": "What is the block size of blowfish block cipher?",
+        "options": [
+            "a) 64 bits",
+            "b) 128 bits",
+            "c) 1043 bits",
+            "d) 10 bits"
+        ],
+        "answer": "a",
+        "explanation": " Blowfish symmetric block cipher was created after DES but before AES. Its block size is 64 bits, and it can use key lengths from 32 up to 448 bits. It is a 16-round Feistel cipher and unlike in DES it\u2019s S-boxes are key-dependent and so they are generated dynamically."
+    },
+    {
+        "question": "In which cipher each letter of the plaintext is substituted by any other letter to form the cipher message?",
+        "options": [
+            "a) Shift cipher",
+            "b) DES encryption",
+            "c) Block cipher",
+            "d) AES encryption"
+        ],
+        "answer": "a",
+        "explanation": "Shift cipher is a mono-alphabetic cipher in which each letter of the plaintext is substituted by another letter to form the ciphertext. It is the simplest form of substitution cipher scheme wherein the concept is to replace each alphabet by another alphabet which is \u2018shifted\u2019 by some fixed number between 0 and 25. In this scheme, both sender and receiver agree on a secret shift number for shifting the alphabet and this number lies between 0 and 25 becomes the key to the encryption. Occasionally, Caesar cipher is used to describe the Shift cipher when the \u2018shift of three\u2019 is used."
+    }
+]

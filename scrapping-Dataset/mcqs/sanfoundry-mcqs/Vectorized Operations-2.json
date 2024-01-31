@@ -1,0 +1,65 @@
+[
+    {
+        "question": "Which of the following function gives the day of the week?",
+        "options": [
+            "a) weekdays",
+            "b) months",
+            "c) quarters",
+            "d) semesters"
+        ],
+        "answer": "a",
+        "explanation": "Weekdays will give the day of the week. months function give the month name. Quarters divide the year into fourths. Semesters divide the year into halfs."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Times use the POSIXct and POSIXlt class",
+            "b) Dates and times have special classes in R that allow for numerical and statistical calculations",
+            "c) Character strings can be coerced to Date/Time classes using the strptime function",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Character strings can be coerced to Date/Time classes using the as.Date, as.POSIXlt, or as.POSIXct."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The POSIXlt object contains some useful metadata."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "strptime() takes a character vector that has dates and times and converts them into to a POSIXlt object."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) POSIXct is just a very large integer under the hood",
+            "b) POSIXlt stores a bunch of other useful information like the day of the week, day of the year, month, day of the month",
+            "c) There are a number of generic functions that work on dates and times to help you extract pieces of dates and/or times",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "POSIXct uses a useful class when you want to store times in something like a data frame."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "You can use mathematical operations on dates and times."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Matrix operations are also vectorized, making for nicely compact notation."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "POSIXct is just a very large integer under the hood."
+    }
+]

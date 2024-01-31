@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_________ is a Cassandra feature that optimizes the cluster consistency process.",
+        "options": [
+            "a) Hinted handon",
+            "b) Hinted handoff",
+            "c) Tombstone",
+            "d) Hinted tomb"
+        ],
+        "answer": "b",
+        "explanation": "You can enable or disable hinted handoff in the cassandra.yaml file."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Cassandra does not immediately remove data marked for deletion from disk",
+            "b) A deleted column can reappear if you do not run node repair routinely",
+            "c) The deletion of marked data occurs during compaction",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Marking data with a tombstone signals Cassandra to retry sending a delete request to a replica that was down at the time of delete."
+    },
+    {
+        "question": "Cassandra searches the __________ to determine the approximate location on disk of the index entry.",
+        "options": [
+            "a) partition record",
+            "b) partition summary",
+            "c) partition search",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the Bloom filter does not rule out the SSTable, Cassandra checks the partition key cache."
+    },
+    {
+        "question": "You configure sample frequency by changing the ________ property in the table definition.",
+        "options": [
+            "a) index_time",
+            "b) index_interval",
+            "c) index_secs",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By default, the partition summary is a sample of the partition index."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A hint indicates that a write needs to be replayed to one or more unavailable nodes",
+            "b) When the cluster cannot meet the consistency level specified by the client, Cassandra does store a hint",
+            "c) By default, hints are saved for three hours after a replica fails because if the replica is down longer than that, it is likely permanently dead",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When the cluster cannot meet the consistency level specified by the client, Cassandra does not store a hint."
+    },
+    {
+        "question": "The compression offset map grows to ____ GB per terabyte compressed.",
+        "options": [
+            "a) 1-3",
+            "b) 10-16",
+            "c) 20-22",
+            "d) 0-1"
+        ],
+        "answer": "a",
+        "explanation": "The more you compress data, the greater number of compressed blocks you have and the larger the compression offset table."
+    },
+    {
+        "question": "The type of __________ strategy Cassandra performs on your data is configurable and can significantly affect read performance.",
+        "options": [
+            "a) compression",
+            "b) collection",
+            "c) compaction",
+            "d) decompression"
+        ],
+        "answer": "c",
+        "explanation": "Using the SizeTieredCompactionStrategy or DateTieredCompactionStrategy tends to cause data fragmentation when rows are frequently updated."
+    },
+    {
+        "question": "There are _________ types of read requests that a coordinator can send to a replica.",
+        "options": [
+            "a) two",
+            "b) three",
+            "c) four",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The coordinator node contacts one replica node with a direct read request."
+    },
+    {
+        "question": "_________ can be configured per table for non-QUORUM consistency levels.",
+        "options": [
+            "a) Read repair",
+            "b) Read damage",
+            "c) Write repair",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " If the replicas are inconsistent, the coordinator issues writes to the out-of-date replicas to update the row to the most recent values. This process is known as read repair."
+    },
+    {
+        "question": "If the table has been configured with the __________ property, the coordinator node for the read request will retry the request with another replica node.",
+        "options": [
+            "a) rapid_retry",
+            "b) speculative_retry",
+            "c) speculative_rapid",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Rapid read protection allows Cassandra to still deliver read requests when the originally selected replica nodes are either down or taking too long to respond."
+    }
+]

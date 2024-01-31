@@ -1,0 +1,24 @@
+[
+    {
+        "question": "A drawer contains 12 red and 12 blue socks, all unmatched. A person takes socks out at random in the dark. How many socks must he take out to be sure that he has at least two blue socks?",
+        "options": [
+            "a) 18",
+            "b) 35",
+            "c) 28",
+            "d) 14"
+        ],
+        "answer": "d",
+        "explanation": "Given 12 red and 12 blue socks so, in order to take out at least 2 blue socks, first we need to take out 12 shocks (which might end up red in worst case) and then take out 2 socks (which would be definitely blue). Thus we need to take out total 14 socks."
+    },
+    {
+        "question": "The least number of computers required to connect 10 computers to 5 routers to guarantee 5 computers can directly access 5 routers is ______",
+        "options": [
+            "a) 74",
+            "b) 104",
+            "c) 30",
+            "d) 67"
+        ],
+        "answer": "c",
+        "explanation": "Since each 5 computer need directly connected with each router. So 25 connections + now remaining 5 computer, each connected to 5 different routers, so 5  connections = 30 connections. Hence,"
+    }
+]

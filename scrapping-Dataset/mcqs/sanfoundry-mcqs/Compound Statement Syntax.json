@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The statement that constructs a branching flow-control construct is _____________",
+        "options": [
+            "a) BEGIN\u2026END",
+            "b) CASE",
+            "c) ITERATE",
+            "d) LEAVE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CASE\u2019 statement provides a branching flow-control construct. When the initial expression, \u2018expr\u2019, is present, CASE compares it to the expression following each \u2018WHEN\u2019."
+    },
+    {
+        "question": "Which statement terminates the execution of a function?",
+        "options": [
+            "a) BEGIN\u2026END",
+            "b) RETURN",
+            "c) ITERATE",
+            "d) LOOP"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018RETURN\u2019 statement is used only within stored functions, not stored procedures, triggers, or events. When this statement is executed it terminates execution of the function."
+    },
+    {
+        "question": "Association between one or more MyISAM tables and the named key cache is set by _____________",
+        "options": [
+            "a) BEGIN",
+            "b) CACHE INDEX",
+            "c) ALTER DATABASE",
+            "d) ALTER EVENT"
+        ],
+        "answer": "b",
+        "explanation": "\u2018CACHE INDEX\u2019 sets up an association between one or more MyISAM tables and the named key cache which must already exist. The INDEX privilege is needed for each table named in the statement."
+    },
+    {
+        "question": "Which statement exits a labeled flow-control construct?",
+        "options": [
+            "a) DESCRIBE",
+            "b) LEAVE",
+            "c) LOOP",
+            "d) RETURN"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018LEAVE\u2019 statement is used to exit a labeled flow-control construct. This statement must appear within the construct that has the given label. The syntax of the statement is \u2018LEAVE label\u2019."
+    },
+    {
+        "question": "What is the exec_stmt_ssl written in?",
+        "options": [
+            "a) C++",
+            "b) C",
+            "c) Python",
+            "d) Perl"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the \u2018sampdb\u2019 distribution contains a source file named \u2018exec_stmt_ssl.c\u2019 from which the client program \u2018exec_stmt_ssl\u2019 can be built. There is a procedure to build this file."
+    },
+    {
+        "question": "What does \u2018mysql_query()\u2019 return on failure?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) a non-zero value"
+        ],
+        "answer": "d",
+        "explanation": "Both of the functions named \u2018mysql_query()\u2019 and \u2018mysql_real_query()\u2019 return zero for statements that succeed. They return non zero for failure. A statement is successfully executed if the server accepts it."
+    },
+    {
+        "question": "When linking to a static MySQL C client library, the client library and the client application can use different compiler options.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Generally, when linking to a static MySQL C client library, the client library and the client application must use the same compiler option when it is required to link the C runtime."
+    },
+    {
+        "question": "What can be used in place of MYSQL_SERVER_VERSION?",
+        "options": [
+            "a) LIBMYSQL_VERSION",
+            "b) LIBMYSQL_VERSION_ID",
+            "c) MYSQL_VERSION_ID",
+            "d) MYSQL_ID"
+        ],
+        "answer": "a",
+        "explanation": "The macros \u2018LIBMYSQL_VERSION\u2019 and \u2018LIBMYSQL_VERSION_ID\u2019 have the same values as \u2018MYSQL_SERVER_VERSION\u2019 and \u2018MYSQL_VERSION_ID\u2019 and the two sets of macros can be used in place of each other."
+    },
+    {
+        "question": "What can be used interchangeably with MYSQL_VERSION_ID?",
+        "options": [
+            "a) LIBMYSQL_VERSION",
+            "b) LIBMYSQL_VERSION_ID",
+            "c) MYSQL_VERSION_ID",
+            "d) MYSQL_ID"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018LIBMYSQL_VERSION\u2019 and \u2018LIBMYSQL_VERSION_ID\u2019 macros have the same values as \u2018MYSQL_SERVER_VERSION\u2019 and \u2018MYSQL_VERSION_ID\u2019 and the two sets of macros can be used interchangeably."
+    }
+]

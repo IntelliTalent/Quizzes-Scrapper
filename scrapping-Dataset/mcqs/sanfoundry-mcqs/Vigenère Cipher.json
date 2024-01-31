@@ -1,0 +1,116 @@
+[
+    {
+        "question": "What is the meaning of cipher in cryptography?",
+        "options": [
+            "a) an algorithm that performs encryption",
+            "b) an algorithm that generates a secret code",
+            "c) an algorithm that performs encryption or decryption",
+            "d) a secret code"
+        ],
+        "answer": "c",
+        "explanation": "Cipher is an algorithm for performing encryption or decryption. In cryptography, a set of defined steps are followed to generate ciphers. These are necessary to prevent data breach."
+    },
+    {
+        "question": "Vigenere cipher is an example of ______________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Vigenere cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitution at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in Vigenere cipher is done using _________",
+        "options": [
+            "a) vigenere formula",
+            "b) vigenere cycle",
+            "c) vigenere square",
+            "d) vigenere addition"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text using vigenre cipher is done by making use of vigenere table. It is also known as vigenere square."
+    },
+    {
+        "question": "Which of the following correctly defines poly alphabetic cipher?",
+        "options": [
+            "a) a substitution based cipher which uses multiple substitution at different positions",
+            "b) a substitution based cipher which uses fixed substitution over entire message",
+            "c) a transposition based cipher which uses multiple substitution at different positions",
+            "d) a transposition based cipher which uses fixed substitution over entire message"
+        ],
+        "answer": "a",
+        "explanation": "Poly alphabetic cipher is a type of substitution cipher. It uses multiple substitution at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Which of the following is not a type of poly alphabetic cipher?",
+        "options": [
+            "a) Rotor cipher",
+            "b) Hill cipher",
+            "c) One time pad cipher",
+            "d) Multiplicative cipher"
+        ],
+        "answer": "Answer:d",
+        "explanation": "In poly alphabetic cipher each symbol of plain text is replaced by a different cipher text regardless of its occurrence. Out of the given options only multiplicative cipher is not a poly alphabetic cipher."
+    },
+    {
+        "question": "Vigenere table consists of _________",
+        "options": [
+            "a) 26 rows and 26 columns",
+            "b) 26 rows and 1 column",
+            "c) 1 row and 26 columns",
+            "d) 27 rows and 27 columns"
+        ],
+        "answer": "a",
+        "explanation": "Encryption of plain text using vigenre cipher is done by making use of vigenere table. It consists of 26 rows and 26 columns which have alphabets written 26 times. These are shifted towards left after each row."
+    },
+    {
+        "question": "Vigenere cipher is harder to decipher than keyword cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Keyword cipher is less secure than vigenere cipher. It is due to the fact that keyword cipher is mono alphabetic and thus can be cracked using frequency analysis. But vigenere cipher being a poly alphabetic cipher cannot be deciphered using this method."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cPROTO\u201d if vigenere cipher is used with keyword as \u201cHELLO\u201d?",
+        "options": [
+            "a) SANFOUNDRY",
+            "b) WORLD",
+            "c) INDIA",
+            "d) AMERICA"
+        ],
+        "answer": "c",
+        "explanation": "Vigenere cipher is a type of poly alphabetic substitution which uses vigenere table for making substitutions in the plain text. Using the table we find the plain text to be \u201cINDIA\u201d."
+    },
+    {
+        "question": "Which cipher is represented by the following function?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given function represents the function of hill cipher. It is a type of poly alphabetic substitution which makes use of the vigenere table for making substitutions in the plain text."
+    },
+    {
+        "question": "In which of the following cipher the plain text and the ciphered text does not have a same number of letters?",
+        "options": [
+            "a) affine cipher",
+            "b) vigenere cipher",
+            "c) columnar cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "In transposition cipher and mono alphabetic cipher the number of letters remain same in ciphered and deciphered text. But in poly alphabetic cipher the number of letters are different. So here as vigenere cipher is the only poly alphabetic cipher so it will be the answer."
+    },
+    {
+        "question": "What will be the ciphered text if the string \u201cSANFOUNDRY\u201d is given as input to the code of vigenere cipher with keyword as \u201cHELLO\u201d?",
+        "options": [
+            "a) UEWIIDKLL",
+            "b) ZEYQCOCM",
+            "c) ZEYQCBROCM",
+            "d) ZEYQCBROCMJDH"
+        ],
+        "answer": "c",
+        "explanation": "Vigenere cipher is a type of poly alphabetic substitution which uses vigenere table for making substitutions in the plain text. Using the table we find the solution to be ZEYQCBROCM."
+    }
+]

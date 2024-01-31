@@ -1,0 +1,147 @@
+[
+    {
+        "question": "Floyd Warshall\u2019s Algorithm is used for solving ____________",
+        "options": [
+            "a) All pair shortest path problems",
+            "b) Single Source shortest path problems",
+            "c) Network flow problems",
+            "d) Sorting problems"
+        ],
+        "answer": "a",
+        "explanation": "Floyd Warshall\u2019s Algorithm is used for solving all pair shortest path problems. It means the algorithm is used for finding the shortest paths between all pairs of vertices in a graph."
+    },
+    {
+        "question": "Floyd Warshall\u2019s Algorithm can be applied on __________",
+        "options": [
+            "a) Undirected and unweighted graphs",
+            "b) Undirected graphs",
+            "c) Directed graphs",
+            "d)  Acyclic graphs"
+        ],
+        "answer": "c",
+        "explanation": "Floyd Warshall Algorithm can be applied in directed graphs. From a given directed graph, an adjacency matrix is framed and then all pair shortest path is computed by the Floyd Warshall Algorithm."
+    },
+    {
+        "question": "What is the running time of the Floyd Warshall Algorithm?",
+        "options": [
+            "a) Big-oh(V)",
+            "b) Theta(V",
+            "c) Big-Oh(VE)",
+            "d) Theta(V"
+        ],
+        "answer": "d",
+        "explanation": "The running time of the Floyd Warshall algorithm is determined by the triply nested for loops. Since each execution of the for loop takes O(1) time, the algorithm runs in time Theta(V"
+    },
+    {
+        "question": "What approach is being followed in Floyd Warshall Algorithm?",
+        "options": [
+            "a) Greedy technique",
+            "b) Dynamic Programming",
+            "c) Linear Programming",
+            "d) Backtracking"
+        ],
+        "answer": "b",
+        "explanation": "Floyd Warshall Algorithm follows dynamic programming approach because the all pair shortest paths are computed in bottom up manner."
+    },
+    {
+        "question": "Floyd Warshall Algorithm can be used for finding _____________",
+        "options": [
+            "a) Single source shortest path",
+            "b) Topological sort",
+            "c) Minimum spanning tree",
+            "d) Transitive closure"
+        ],
+        "answer": "d",
+        "explanation": "One of the ways to compute the transitive closure of a graph in Theta(N"
+    },
+    {
+        "question": "Floyd- Warshall algorithm was proposed by ____________",
+        "options": [
+            "a) Robert Floyd and Stephen Warshall",
+            "b) Stephen Floyd and Robert Warshall",
+            "c) Bernad Floyd and Robert Warshall",
+            "d) Robert Floyd and Bernad Warshall"
+        ],
+        "answer": "a",
+        "explanation": "Floyd- Warshall Algorithm was proposed by Robert Floyd in the year 1962. The same algorithm was proposed by Stephen Warshall during the same year for finding the transitive closure of the graph."
+    },
+    {
+        "question": "Who proposed the modern formulation of Floyd-Warshall Algorithm as three nested loops?",
+        "options": [
+            "a) Robert Floyd",
+            "b) Stephen Warshall",
+            "c) Bernard Roy",
+            "d) Peter Ingerman"
+        ],
+        "answer": "d",
+        "explanation": "The modern formulation of Floyd-Warshall Algorithm as three nested for-loops was proposed by Peter Ingerman in the year 1962."
+    },
+    {
+        "question": "Complete the program.",
+        "options": [],
+        "answer": "c",
+        "explanation": "In order to compute the shortest path from vertex i to vertex j, we need to find the minimum of 2 values which are dij(k-1) and sum of dik(k-1) and dkj(k-1)."
+    },
+    {
+        "question": "What happens when the value of k is 0 in the Floyd Warshall Algorithm?",
+        "options": [
+            "a) 1 intermediate vertex",
+            "b) 0 intermediate vertex",
+            "c) N intermediate vertices",
+            "d) N-1 intermediate vertices"
+        ],
+        "answer": "b",
+        "explanation": "When k=0, a path from vertex i to vertex j has no intermediate vertices at all. Such a path has at most one edge and hence dij(0) = wij."
+    },
+    {
+        "question": "Using logical operator\u2019s instead arithmetic operators saves time and space.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In computers, logical operations on single bit values execute faster than arithmetic operations on integer words of data."
+    },
+    {
+        "question": "The time taken to compute the transitive closure of a graph is Theta(n",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The time taken to compute the transitive closure of a graph is Theta(n"
+    },
+    {
+        "question": "In the given graph, what is the minimum cost to travel from vertex 1 to vertex 3?",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 10",
+            "d) -3"
+        ],
+        "answer": "d",
+        "explanation": "The minimum cost required to travel from node 1 to node 5 is -3."
+    },
+    {
+        "question": "In the given graph, how many intermediate vertices are required to travel from node a to node e at a minimum cost?",
+        "options": [
+            "a) 2",
+            "b) 0",
+            "c) 1",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The minimum cost to travel from node a to node e is 1 by passing via nodes b and c."
+    },
+    {
+        "question": "What is the formula to compute the transitive closure of a graph?",
+        "options": [
+            "a) tij(k) = tij(k-1) AND (tik(k-1) OR tkj(k-1))",
+            "b) tij(k) = tij(k-1) OR (tik(k-1) AND tkj(k-1))",
+            "c) tij(k) = tij(k-1) AND (tik(k-1) AND tkj(k-1))",
+            "d) tij(k) = tij(k-1) OR (tik(k-1) OR tkj(k-1))"
+        ],
+        "answer": "b",
+        "explanation": "Transitive closure of a graph can be computed by using Floyd Warshall algorithm. This method involves substitution of logical operations (logical OR and logical AND) for arithmetic operations min and + in Floyd Warshall Algorithm."
+    }
+]

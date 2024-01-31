@@ -1,0 +1,94 @@
+[
+    {
+        "question": "What attempts auto recovery based on the contents of its serial log?",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) Falcon",
+            "d) TRANSACTION"
+        ],
+        "answer": "c",
+        "explanation": "When the Falcon storage engine is enabled, it attempts the auto recovery based on the contents of its serial log. If the InnoDB storage engine is enabled, it checks for a variety of problems automatically."
+    },
+    {
+        "question": "How many of these can replace \u2018level\u2019 in \u2018\u2013myisam-recover = level\u2019?",
+        "options": [],
+        "answer": "d",
+        "explanation": "To enable MyISAM table recovery, the server is started with the \u2018\u2013myisam-recover = level\u2019 option. The value of level is a comma-separated list of the following: BACKUP, FORCE, QUICK or DEFAULT."
+    },
+    {
+        "question": "Under which option are index changes not flushed until tables close?",
+        "options": [
+            "a) \u2013delay-write-key",
+            "b) \u2013delay-key-write",
+            "c) \u2013write-key-delay",
+            "d) \u2013key-write-delay"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the MyISAM recovery is important if the server is run with the \u2018\u2013delay-key-write\u2019 option. Under this condition, the index changes are not flushed until the tables close."
+    },
+    {
+        "question": "Which option suppresses output unless there are errors in the table?",
+        "options": [
+            "a) \u2013silent",
+            "b) \u2013wild",
+            "c) \u2013suppress",
+            "d) \u2013noout"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the \u2018\u2013silent\u2019 option suppresses the output unless there are errors in the tables. The \u2018cron\u2019 jobs typically generate a mail message if a job produces any output at all."
+    },
+    {
+        "question": "What is the variable that is a handle to a database object?",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "a",
+        "explanation": "The variable named \u2018$dbh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "The variable that returns code from operations that return true or false is _____________",
+        "options": [
+            "a) $rc",
+            "b) $rv",
+            "c) $rows",
+            "d) $ary"
+        ],
+        "answer": "a",
+        "explanation": "The Perl Non-handle variable \u2018$rc\u2019 returns code from operations that return true or false. \u2018$rv\u2019 returns value from operations that return an integer. \u2018$rows\u2019 returns value from operations that return a row count."
+    },
+    {
+        "question": "In PHP, how is the first element accessed if $a represents an array with numeric indices?",
+        "options": [
+            "a) $a[1]",
+            "b) $a[0]",
+            "c) $a.1",
+            "d) $a.0"
+        ],
+        "answer": "b",
+        "explanation": "If $a represents an array with numeric indices, its elements are accessed as $x[0], $x[1], and so on. In general terms, each element at the position i is accessed and used as $a[i \u2013 1]."
+    },
+    {
+        "question": "Arrays can have associative indices in PHP.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The PHP arrays can even have both numeric and associative elements. For example, $x[1] and $x[\u201clarge\u201d] can both be the elements of the same array. $x can be an object, whose elements are accessed by the arrow \u2018->\u2019 operated."
+    },
+    {
+        "question": "Which operator is used to access property of an object in PHP?",
+        "options": [
+            "a) .",
+            "b) *",
+            "c) ->",
+            "d) @"
+        ],
+        "answer": "c",
+        "explanation": "If $a represents an object, the properties it has can be accessed as $a->property-name. For instance, $a->white, $a->black, $a->blue, $a->red can be the properties of $a and accessed in this way."
+    }
+]

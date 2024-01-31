@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Interface implemented by locale resolver.",
+        "options": [
+            "a) localeResolver",
+            "b) tiles",
+            "c) front controller",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In a Spring MVC application, a user\u2019s locale is identified by a locale resolver, which has to implement the LocaleResolver interface."
+    },
+    {
+        "question": "You can define a locale resolver by registering a bean of type LocaleResolver in the web application context.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You must set the bean name of the locale resolver to localeResolver for DispatcherServlet to auto-detect."
+    },
+    {
+        "question": "Default localeResolver used by Spring.",
+        "options": [
+            "a) AcceptHeaderLocale",
+            "b) AcceptHeader",
+            "c) AcceptHeaderLocaleResolver",
+            "d) AcceptLocaleResolver"
+        ],
+        "answer": "c",
+        "explanation": "The default locale resolver used by Spring is AcceptHeaderLocaleResolver."
+    },
+    {
+        "question": "AcceptHeaderLocaleResolver esolves locales by inspecting the accept-language header of an HTTP request.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This header is set by a user\u2019s web browser according to the locale setting of the underlying operating system."
+    },
+    {
+        "question": "Alternative way to resolve locales.",
+        "options": [
+            "a) AcceptHeaderLocale",
+            "b) AcceptHeader",
+            "c) AcceptHeaderLocaleResolver",
+            "d) SessionLocaleResolver"
+        ],
+        "answer": "d",
+        "explanation": "Another option of resolving locales is by SessionLocaleResolver."
+    },
+    {
+        "question": "Property which indicates how many seconds this cookie should be persisted.",
+        "options": [
+            "a) cookieMaxAge",
+            "b) cookieName",
+            "c) cookieAge",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The cookieMaxAge property indicates how many seconds this cookie should be persisted."
+    },
+    {
+        "question": "Method used to change user\u2019s locale.",
+        "options": [
+            "a) set",
+            "b) setLocale",
+            "c) locale",
+            "d) set_locale"
+        ],
+        "answer": "b",
+        "explanation": "Changing a user\u2019s locale by calling LocaleResolver.setLocale() explicitly."
+    },
+    {
+        "question": "Property of LocaleChangeInterceptor used to customize parameter name.",
+        "options": [
+            "a) localeResolver.setLocale",
+            "b) paramName",
+            "c) locale.parm",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Changing a user\u2019s locale by calling LocaleResolver.setLocale() explicitly."
+    },
+    {
+        "question": "LocaleChangeInterceptor can only detect the parameter for the handler mappings that enable it.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "So, if you have more than one handler mapping configured in your web application context, you have to register this interceptor to allow users to change their locales in any of the URLs."
+    },
+    {
+        "question": "Parameter which can change user\u2019s locale by any URL.",
+        "options": [
+            "a) locale",
+            "b) languageURL",
+            "c) language",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Now a user\u2019s locale can be changed by any URLs with the language parameter."
+    },
+    {
+        "question": "Interface used to resolve text messages.",
+        "options": [
+            "a) Message",
+            "b) Message_Source",
+            "c) Language",
+            "d) MessageSource"
+        ],
+        "answer": "d",
+        "explanation": "Spring is able to resolve text messages for you by using a message source, which has to implement the MessageSource interface."
+    },
+    {
+        "question": "Tag used by view to resolve text messages.",
+        "options": [
+            "a) spring:message",
+            "b) spring:language",
+            "c) spring:title",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Then your JSP files can use the spring:message tag, defined in Spring tag library, to resolve a message given the code."
+    },
+    {
+        "question": "The ResourceBundleMessageSource implementation resolves messages for different locales.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The ResourceBundleMessageSource implementation resolves messages from different resource bundles for different locales."
+    },
+    {
+        "question": "cookieName is used by localeResolver to customize the cookie used.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The cookie used by this locale resolver can be customized by setting the cookieName and cookieMaxAge properties."
+    },
+    {
+        "question": "The cookieMaxAge value when browser is closed.",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) true"
+        ],
+        "answer": "c",
+        "explanation": "The value -1 indicates that this cookie will be invalid after the browser is closed."
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "question": "What is the purpose of using square root decomposition?",
+        "options": [
+            "a) to reduce the time complexity of a code",
+            "b) to increase the space complexity of a code",
+            "c) to reduce the space complexity of a code",
+            "d) to reduce the space and time complexity of a code"
+        ],
+        "answer": "a",
+        "explanation": "Square decomposition is mainly used in competitive programming to optimize code. It reduces the time complexity by a factor of \u221an."
+    },
+    {
+        "question": "By what factor time complexity is reduced when we apply square root decomposition to a code?",
+        "options": [
+            "a) n",
+            "b) \u221an",
+            "c) n",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "In square root decomposition a given array is decomposed into small parts each of size \u221an. This reduces the time complexity of the code by a factor of \u221an."
+    },
+    {
+        "question": "What will be the worst case time complexity of finding the sum of elements in a given range of (l,r) in an array of size n?",
+        "options": [
+            "a) O(n)",
+            "b) O(l+r)",
+            "c) O(l-r)",
+            "d) O(r-l)"
+        ],
+        "answer": "a",
+        "explanation": "For a given array of size n we have to traverse all n elements in the worst case. In such a case l=0, r=n-1 so the time complexity will be O(n)."
+    },
+    {
+        "question": "What will be the worst case time complexity of finding the sum of elements in a given range of (l,r) in an array of size n when we use square root optimization?",
+        "options": [
+            "a) O(n)",
+            "b) O(l+r)",
+            "c) O(\u221an)",
+            "d) O(r-l)"
+        ],
+        "answer": "c",
+        "explanation": "When we use square root optimization we decompose the given array into \u221an chunks each of size \u221an. So after calculating the sum of each chunk individually, we require to iterate only 3*\u221an times to calculate the sum in the worst case."
+    },
+    {
+        "question": "Total how many iterations are required to find the sum of elements in a given range of (l,r) in an array of size n when we use square root optimization?",
+        "options": [
+            "a) \u221an",
+            "b) 2*\u221an",
+            "c) 3*\u221an",
+            "d) n*\u221an"
+        ],
+        "answer": "c",
+        "explanation": "After calculating the sum of each chunk individually we require to iterate only 3*\u221an times to calculate the sum in the worst case. It is because two of the \u221an factors consider the worst case time complexity of summing elements in the first and last block. Whereas the third \u221an considers the factor of summing the \u221an chunks."
+    },
+    {
+        "question": "What will be the time complexity of update query operation in an array of size n when we use square root optimization?",
+        "options": [
+            "a) O(\u221an)",
+            "b) O(n)",
+            "c) O(1)",
+            "d) O(n"
+        ],
+        "answer": "Answer:c",
+        "explanation": "The time complexity of query operation remains the same in both square root optimized code and non optimized code. We simply find the chunk in which the update requires to be performed and then add the new updated value at the desired index."
+    },
+    {
+        "question": "Square root decomposition technique is only applicable when the number of indices in an array is a perfect square.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Square root decomposition technique can be applied to an array with any number of indices. It does not require this number to be a perfect square."
+    },
+    {
+        "question": "What will be the worst case time complexity of code to find sum in given query range (l,r) in an array of size n with q number of such queries?",
+        "options": [
+            "a) O(n)",
+            "b) O(q)",
+            "c) O(n*q)",
+            "d) O(n+q)"
+        ],
+        "answer": "c",
+        "explanation": "For finding the result of one query the worst case time complexity will be n. So for q queries the time complexity will be O(q*n). This can be reduced by using square root optimization."
+    },
+    {
+        "question": "What will be the worst case time complexity of code to find sum in given query range (l,r) in an array of size n with q number of such queries when we apply MO\u2019s algorithm?",
+        "options": [
+            "a) O(n*q)",
+            "b) O(n)",
+            "c) O((q+n)\u221an)",
+            "d) O(q*\u221an)"
+        ],
+        "answer": "c",
+        "explanation": "Mo\u2019s algorithm requires O(q*\u221an) + O(n*\u221an) time for processing all the queries. It is better than the naive solution where O(n*q) time is required."
+    },
+    {
+        "question": "Mo\u2019s algorithm can only be used for problems where the query can be calculated from the result of the previous query.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Mo\u2019s algorithm uses the result of the previous query in order to compute the result of the given query. It cannot be implemented where such a scenario is not possible."
+    },
+    {
+        "question": "What will be the time complexity of the code to find a minimum element from an array of size n and uses square root decomposition(exclude pre processing time)?",
+        "options": [
+            "a) O(\u221an)",
+            "b) O(n)",
+            "c) O(1)",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "For finding the minimum element in a given array of size n using square root decomposition we first divide the array into \u221an chunks and calculate the result for them individually. So for a given query, the result of middle blocks has to be calculated along with the extreme elements. This takes O(\u221an) time in the worst case."
+    }
+]

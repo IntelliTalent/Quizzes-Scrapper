@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Where is linear searching used?",
+        "options": [
+            "a) When the list has only a few elements",
+            "b) When performing a single search in an unordered list",
+            "c) Used all the time",
+            "d) When the list has only a few elements and When performing a single search in an unordered list"
+        ],
+        "answer": "d",
+        "explanation": "It is practical to implement linear search in the situations mentioned in When the list has only a few elements and When performing a single search in an unordered list, but for larger elements the complexity becomes larger and it makes sense to sort the list and employ binary search or hashing."
+    },
+    {
+        "question": "Select the code snippet which performs unordered linear search iteratively?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Unordered term refers to the given array, that is, the elements need not be ordered. To search for an element in such an array, we need to loop through the elements until the desired element is found."
+    },
+    {
+        "question": "What is the best case for linear search?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(1)"
+        ],
+        "answer": "d",
+        "explanation": "The element is at the head of the array, hence O(1)."
+    },
+    {
+        "question": "What is the worst case for linear search?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(1)"
+        ],
+        "answer": "c",
+        "explanation": "Worst case is when the desired element is at the tail of the array or not present at all, in this case you have to traverse till the end of the array, hence the complexity is O(n)."
+    },
+    {
+        "question": "Select the code snippet which performs ordered linear search iteratively?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The term ordered refers to the items in the array being sorted(here we assume ascending order). So traverse through the array until the element, if at any time the value at i exceeds key value, it means the element is not present in the array. This provides a slightly better efficiency than unordered linear search."
+    },
+    {
+        "question": "What is the best case and worst case complexity of ordered linear search?",
+        "options": [
+            "a) O(nlogn), O(logn)",
+            "b) O(logn), O(nlogn)",
+            "c) O(n), O(1)",
+            "d) O(1), O(n)"
+        ],
+        "answer": "d",
+        "explanation": "Although ordered linear search is better than unordered when the element is not present in the array, the best and worst cases still remain the same, with the key element being found at first position or at last position."
+    },
+    {
+        "question": "Choose the code snippet which uses recursion for linear search.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Every time check the key with the array value at first index, if it is not equal then call the function again with an incremented first index."
+    },
+    {
+        "question": "What does the following piece of code do?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The print statement is executed only when the items are equal and their indices are not."
+    },
+    {
+        "question": "Select the code snippet which prints the element with maximum frequency.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Traverse through the array and see if it is equal to the previous element, since the array is sorted this method works with a time complexity of O(nlogn), without sorting a Brute force technique must be applied for which the time complexity will be O(n"
+    },
+    {
+        "question": "Which of the following is a disadvantage of linear search?",
+        "options": [
+            "a) Requires more space",
+            "b) Greater time complexities compared to other searching algorithms",
+            "c) Not easy to understand",
+            "d) Not easy to implement"
+        ],
+        "answer": "b",
+        "explanation": "The complexity of linear search as the name suggests is O(n) which is much greater than other searching techniques like binary search(O(logn)). Linear search is easy to implement and understand than other searching techniques."
+    }
+]

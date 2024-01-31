@@ -1,0 +1,81 @@
+[
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "With the paste() function, the arguments sep and collapse must be named explicitly and in full if the default values are not going to be used."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) In R, a function is an object which has the mode function",
+            "b) R interpreter is able to pass control to the function, along with arguments that may be necessary for the function to accomplish the actions that are desired",
+            "c) Functions are also often written when code must be shared with others or the public",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "An argument list is a comma separated list of formal arguments."
+    },
+    {
+        "question": "The __________ function returns a list of all the formal arguments of a function.",
+        "options": [
+            "a) formals()",
+            "b) funct()",
+            "c) formal()",
+            "d) fun()"
+        ],
+        "answer": "a",
+        "explanation": "Functions have named arguments which can optionally have default values."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) A formal argument can be a symbol, a statement of the form \u2018symbol = expression\u2019, or the special formal argument",
+            "b) The first component of the function declaration is the keyword function",
+            "c) The value returned by the call to function is not a function",
+            "d) Functions are also often written when code must be shared with others or the public"
+        ],
+        "answer": "a",
+        "explanation": "The value returned by the call to function is a function."
+    },
+    {
+        "question": "You can check to see whether an R object is NULL with the _________ function.",
+        "options": [
+            "a) is.null()",
+            "b) is.nullobj()",
+            "c) null()",
+            "d) as.nullobj()"
+        ],
+        "answer": "a",
+        "explanation": "It is sometimes useful to allow an argument to take the NULL value, which might indicate that the function should take some specific action."
+    },
+    {
+        "question": "Which of the following code will print NULL?",
+        "options": [
+            "a) > args(paste)",
+            "b) > arg(paste)",
+            "c) > args(pastebin)",
+            "d) > arg(bin)"
+        ],
+        "answer": "a",
+        "explanation": "One catch with \u2026 is that any arguments that appear after \u2026 on the argument list must be named explicitly and cannot be partially matched or matched positionally."
+    },
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "This function never actually uses the argument b, so calling f(2) will not produce an error because the 2 gets positionally matched to a."
+    },
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "With the paste() function, the arguments sep and collapse must be named explicitly and in full if the default values are not going to be used."
+    },
+    {
+        "question": "What will be the output of the following R code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Arguments to functions are evaluated lazily, so they are evaluated only as needed in the body of the function."
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Quick Sort can be categorized into which of the following?",
+        "options": [
+            "a) Brute Force technique",
+            "b) Divide and conquer",
+            "c) Greedy algorithm",
+            "d) Dynamic programming"
+        ],
+        "answer": "b",
+        "explanation": "First you divide(partition) the array based on the pivot element and sort accordingly."
+    },
+    {
+        "question": "Select the appropriate recursive call for QuickSort.(arr is the array, low is the starting index and high is the ending index of the array, partition returns the pivot element, we will see the code for partition very soon)",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Based on the pivot returned by the call to partition, recursive calls to quickSort sort the given array."
+    },
+    {
+        "question": "What is the worst case complexity of QuickSort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "When the input array is already sorted."
+    },
+    {
+        "question": "What is a randomized QuickSort?",
+        "options": [
+            "a) The leftmost element is chosen as the pivot",
+            "b) The rightmost element is chosen as the pivot",
+            "c) Any element in the array is chosen as the pivot",
+            "d) A random number is generated which is used as the pivot"
+        ],
+        "answer": "c",
+        "explanation": "QuickSort is randomized by placing the input data in the randomized fashion in the array or by choosing a random element in the array as a pivot."
+    },
+    {
+        "question": "Which of the following code performs the partition operation in QuickSort?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The array is partitioned such that the elements left to the pivot are lesser than the pivot while the elements right of the pivot are greater than the pivot."
+    },
+    {
+        "question": "What is the best case complexity of QuickSort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "The array is partitioned into equal halves, using the Divide and Conquer master theorem, the complexity is found to be O(nlogn)."
+    },
+    {
+        "question": "The given array is arr = {2,3,4,1,6}. What are the pivots that are returned as a result of subsequent partitioning?",
+        "options": [
+            "a) 1 and 3",
+            "b) 3 and 1",
+            "c) 2 and 6",
+            "d) 6 and 2"
+        ],
+        "answer": "a",
+        "explanation": "The call to partition returns 1 and 3 as the pivot elements."
+    },
+    {
+        "question": "What is the average case complexity of QuickSort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "The position of partition(split) is unknown, hence all(n) possibilities are considered, the average is found by adding all and dividing by n."
+    },
+    {
+        "question": "The given array is arr = {2,6,1}. What are the pivots that are returned as a result of subsequent partitioning?",
+        "options": [
+            "a) 1 and 6",
+            "b) 6 and 1",
+            "c) 2 and 6",
+            "d) 1"
+        ],
+        "answer": "d",
+        "explanation": "There is only one pivot with which the array will be sorted, the pivot is 1."
+    },
+    {
+        "question": "Which of the following is not true about QuickSort?",
+        "options": [
+            "a) in-place algorithm",
+            "b) pivot position can be changed",
+            "c) adaptive sorting algorithm",
+            "d) can be implemented as a stable sort"
+        ],
+        "answer": "b",
+        "explanation": "Once a pivot is chosen, its position is finalized in the sorted array, it cannot be modified."
+    }
+]

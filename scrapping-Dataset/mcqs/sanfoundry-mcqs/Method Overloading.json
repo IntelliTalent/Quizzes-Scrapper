@@ -1,0 +1,30 @@
+[
+    {
+        "question": "The process of defining two or more methods within the same class that have same name but different parameters list?",
+        "options": [
+            "a) Method overloading",
+            "b) Method overriding",
+            "c) Encapsulation",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Two or more methods can have same name as long as their parameters declaration and definitions are different, the methods are said to be overloaded and the process is called method overloading. Method overloading is used when methods are required to perform similar tasks using different input parameters."
+    },
+    {
+        "question": "Which of these can be overloaded?",
+        "options": [
+            "a) Constructors",
+            "b) Methods",
+            "c) Both Constructors & Methods",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The concept of method overloading is implemented in method \u201cvol\u201d with same name but different definitions and parameter list which is overloaded three times and each time the return type is different for each method and hence matches the method using types of parameters."
+    }
+]

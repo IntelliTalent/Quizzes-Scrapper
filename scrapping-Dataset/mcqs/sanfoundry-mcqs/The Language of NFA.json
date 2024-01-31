@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Subset Construction method refers to:",
+        "options": [
+            "a) Conversion of NFA to DFA",
+            "b) DFA minimization",
+            "c) Eliminating Null references",
+            "d) \u03b5-NFA to NFA"
+        ],
+        "answer": "a",
+        "explanation": " The conversion of a non-deterministic automata into a deterministic one is a process we call subset construction or power set construction."
+    },
+    {
+        "question": "Given Language:",
+        "options": [
+            "a) 16",
+            "b) 15",
+            "c) 8",
+            "d) 7"
+        ],
+        "answer": "b",
+        "explanation": "The finite automaton for the given language is made and thus, the answer can be obtained."
+    },
+    {
+        "question": "Which of the following does the given NFA represent?",
+        "options": [
+            "a) {11, 101} * {01}",
+            "b) {110, 01} * {11}",
+            "c) {11, 110} * {0}",
+            "d) {00, 110} * {1}"
+        ],
+        "answer": "c",
+        "explanation": "The given diagram can be analysed and thus the option can be seeked."
+    },
+    {
+        "question": "The number of transitions required to convert the following into equivalents DFA:",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 1",
+            "d) 0"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "If L is a regular language, L",
+        "options": [
+            "a) Accepted by NFA",
+            "b) Rejected by NFA",
+            "c) One of them will be accepted",
+            "d) Cannot be said"
+        ],
+        "answer": "a",
+        "explanation": "If L is a regular Language, L"
+    },
+    {
+        "question": "We can represent one language in more one FSMs, true or false?",
+        "options": [
+            "a) TRUE",
+            "b) FALSE",
+            "c) May be true",
+            "d) Cannot be said"
+        ],
+        "answer": "a",
+        "explanation": "We can represent one language in more one FSMs, example for a same language we have a DFA and an equivalent NFA."
+    },
+    {
+        "question": "The production of form non-terminal -> \u03b5 is called:",
+        "options": [
+            "a) Sigma Production",
+            "b) Null Production",
+            "c) Epsilon Production",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The production of form non-terminal ->\u03b5 is call null production."
+    },
+    {
+        "question": "Which of the following is a regular language?",
+        "options": [
+            "a) String whose length is a sequence of prime numbers",
+            "b) String with substring ww",
+            "c) Palindrome string",
+            "d) String with even number of Zero\u2019s"
+        ],
+        "answer": "d",
+        "explanation": "DFSM\u2019s for the first three option is not possible; hence they aren\u2019t regular."
+    },
+    {
+        "question": "Which of the following recognizes the same formal language as of DFA and NFA?",
+        "options": [
+            "a) Power set Construction",
+            "b) Subset Construction",
+            "c) Robin-Scott Construction",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the three option refers to same technique if distinguishing similar constructions for different type of automata."
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Which of the following is an alternative name of the quickselect algorithm?",
+        "options": [
+            "a) quick sort",
+            "b) hoare\u2019s selection algorithm",
+            "c) tony\u2019s selection algorithm",
+            "d) kruskal\u2019s algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Quick select is a selection algorithm. It was developed by Tony Hoare, thus it is also known as Hoare\u2019s selection algorithm."
+    },
+    {
+        "question": "Quickselect is an example of ___________",
+        "options": [
+            "a) sorting algorithm",
+            "b) selection algorithm",
+            "c) greedy algorithm",
+            "d) searching algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Quickselect is an example of a selection algorithm. It finds the kth smallest element from the given list."
+    },
+    {
+        "question": "What will be the output if quickselect algorithm is applied to the array arr={1,5,4,3,7} with k given as 4?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "Quickselect algorithm finds the kth smallest element from the given list. So as here the given value of k is 4 so we need to find the fourth smallest element which is 5 in the given array."
+    },
+    {
+        "question": "What is the auxiliary space requirement of the quickselect algorithm?",
+        "options": [
+            "a) O(n",
+            "b) O(n)",
+            "c) O(n log n)",
+            "d) O(1)"
+        ],
+        "answer": "d",
+        "explanation": "Quickselect algorithm requires no extra space in order to calculate the desired result. It performs manipulations in the given array itself so its auxiliary space requirement will be O(1)."
+    },
+    {
+        "question": "Quickselect is an in-place algorithm?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Quickselect\u2019s auxiliary space requirement is O(1). So quickselect qualifies as an in-place algorithm."
+    },
+    {
+        "question": "Quickselect\u2019s algorithm is similar to which of the following algorithm?",
+        "options": [
+            "a) Merge sort",
+            "b) Quicksort",
+            "c) Selection sort",
+            "d) Counting sort"
+        ],
+        "answer": "b",
+        "explanation": "Both quicksort and quickselect algorithms are closely related. They were developed by the same person. Like quicksort, quickselect also works by choosing a pivot and partitioning array."
+    },
+    {
+        "question": "What is the worst case time complexity of quickselect?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n)",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case complexity occurs in the case where bad pivots are chosen consistently due to which the size of the array decreases in the steps of 1 only. This leads to a time complexity of O(n"
+    },
+    {
+        "question": "What is the average case time complexity of quickselect?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n)",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "In quickselect, we don\u2019t recur for both portions of the array. Only that portion is considered where the smallest element lies. So this causes the average time complexity to be O(n)."
+    },
+    {
+        "question": "Which of the following is a disadvantage of quickselect?",
+        "options": [
+            "a) Poor space complexity",
+            "b) Poor best case time complexity",
+            "c) Poor average case time complexity",
+            "d) Poor worst case time complexity"
+        ],
+        "answer": "d",
+        "explanation": "Quickselect has a poor worst case time complexity of O(n"
+    },
+    {
+        "question": "Which of the following correctly represent the algorithm of quickselect?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In quickselect algorithm if index of partitioned element is more than k, then we recur for left part. If index is same as k, we have found the kth smallest element and we return. If index is less than k, then we recur for right part."
+    }
+]

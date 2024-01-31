@@ -1,0 +1,304 @@
+[
+    {
+        "question": "To set object scale values to 1,1,1 without changing the object's size, which command do you use?",
+        "options": [
+            "Freeze Transformations",
+            "Reset Transformations",
+            "Center Pivot",
+            "Delete by Type > History"
+        ],
+        "answer": "Freeze Transformations"
+    },
+    {
+        "question": "Which type of geometry works best for and nCloth shape?",
+        "options": [
+            "alembic cache",
+            "triangle mesh",
+            "quadrilateral mesh",
+            "NURBS"
+        ],
+        "answer": "quadrilateral mesh"
+    },
+    {
+        "question": "How does the Graph Editor represent the rate of change of a channel value? For example, how is the speed of motion of an animated object indicated?",
+        "options": [
+            "difference between key values",
+            "frames per second",
+            "time between keys",
+            "steepness of function curve"
+        ],
+        "answer": "time between keys"
+    },
+    {
+        "question": "A key advantage of physically based rendering is the ability to make extensive adjustment in post-production without compromising image quality. Which output file format preserves the full brightness and contrast range of a physically based rendering?",
+        "options": [
+            "EXR",
+            "GIF",
+            "JPG",
+            "BMP"
+        ],
+        "answer": "EXR"
+    },
+    {
+        "question": "Pose-to-pose is common character animation technique. In this process of blocking out poses and timing, the animator may wish to disable all interpolated motion. How can you disable all inbetweening in the viewport wihout changing the animation curve?",
+        "options": [
+            "Add Scene Time Warp",
+            "Set tangents to Stepped",
+            "Hold Current Keys",
+            "Enable Stepped Previews"
+        ],
+        "answer": "Enable Stepped Previews"
+    },
+    {
+        "question": "Which texture type does not require UVs to render in software?",
+        "options": [
+            "File texture",
+            "3D texture",
+            "2D texture",
+            "Substance texture"
+        ],
+        "answer": "File texture"
+    },
+    {
+        "question": "Before rendering any dynamic simulation, what must you do in order to get a predictable and consistent result?",
+        "options": [
+            "Delete construction history",
+            "Bake to keyframes",
+            "Cache to disk",
+            "Build a mesh"
+        ],
+        "answer": "Bake to keyframes"
+    },
+    {
+        "question": "The marking menu provides shortcuts to context-sensitive commands and tools. How is markin menu accessed for the selected object?",
+        "options": [
+            "Position the mouse cursor in a viewport and hold down the Spacebar",
+            "Position the mouse cursor in a viewport and hold down the right mouse button",
+            "Position the mouse cursor in a viewport and tap the Spacebar",
+            "Position the mouse cursor in a viewport and hold down the middle mouse button"
+        ],
+        "answer": "Position the mouse cursor in a viewport and hold down the right mouse button"
+    },
+    {
+        "question": "Camera field of view is indicated by a pyramid shape. What is this shape called?",
+        "options": [
+            "clip plane",
+            "film back",
+            "frustum",
+            "gate mask"
+        ],
+        "answer": "frustum"
+    },
+    {
+        "question": "Which of these images shows a Bezier curve?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which type of light is best for a flood studio lighting setup?",
+        "options": [
+            "point",
+            "directional",
+            "spot",
+            "area"
+        ],
+        "answer": "area"
+    },
+    {
+        "question": "Why might you choose Quaternion rotation interpolation over the default Euler interpolation?",
+        "options": [
+            "XYZ axes can be keyed independently",
+            "Angle values can be greater than 180 degrees and less than -180 degrees",
+            "Curves are easily shaped with tangent handles",
+            "Rotations are more reliable"
+        ],
+        "answer": "Angle values can be greater than 180 degrees and less than -180 degrees"
+    },
+    {
+        "question": "In a physically based renderer such as Arnold, what material attribute controls reflectivity according the angle of the surface to the camera? For example, if you want to make the front-facing surface more reflective relative to the side-facing surface, what should you increase?",
+        "options": [
+            "Specular Roughness",
+            "Index of Refraction",
+            "Anisotropy",
+            "Transmission Weight"
+        ],
+        "answer": "Specular Roughness"
+    },
+    {
+        "question": "For a dynamic simulation, what Playback Speed setting ensures reliable interactive viewport performance at the most accurate frame rate?",
+        "options": [
+            "Play Every Frame, Max Real-Time (current frame rate \\*1)",
+            "Continuos",
+            "Real-time (current frame rate \\*1)",
+            "Play Every Frame, Free"
+        ],
+        "answer": "Play Every Frame, Max Real-Time (current frame rate \\*1)"
+    },
+    {
+        "question": "A physically based rendering of an interior scene appears overly dark in the shadows. Which rendering attribute can increase the amount of bounce light to brighten the shadows?",
+        "options": [
+            "Specular Samples",
+            "Diffuse Ray Depth",
+            "Diffuse Samples",
+            "Transmission Ray Depth"
+        ],
+        "answer": "Diffuse Samples"
+    },
+    {
+        "question": "An animation rig requires that an object always rotates with another object. The two objects maintain an offset, so that the rotation values are connected, but not equal. The translate and scale channels of the two objects have no relationship. What is the simplest method to build this rig?",
+        "options": [
+            "point constraint",
+            "inverse kinematics",
+            "orient constarint",
+            "parent-child link"
+        ],
+        "answer": "parent-child link"
+    },
+    {
+        "question": "Which constaring would you use to make an object inherit translation only from another object?",
+        "options": [
+            "parent constraint",
+            "aim constraint",
+            "orient constraint",
+            "point constraint"
+        ],
+        "answer": "point constraint"
+    },
+    {
+        "question": "You are rendering a scene in software. An object has a Maya native 3D texture applied. How can you adjust the size of the texture relative to the object?",
+        "options": [
+            "Scale the object UVs",
+            "Scale the object transform",
+            "Scale a texture placement node",
+            "Adjust texture attributes"
+        ],
+        "answer": "Adjust texture attributes"
+    },
+    {
+        "question": "A scene calls for unique trees and other plants in the background, What is the optimal tool or technique to create complex plants that will save production time and still look good in a final rendering?",
+        "options": [
+            "Substance",
+            "XGen",
+            "Modeling Toolkit",
+            "Paint Effects"
+        ],
+        "answer": "Paint Effects"
+    },
+    {
+        "question": "Polygons can be double-sided or single-sided. For a single-sided polygon, only one side is renderable, and the flip side is invisible in a rendering. What property of polygon determines which side is renderable?",
+        "options": [
+            "level of details",
+            "face centers",
+            "vertex normal direction",
+            "face normal direction"
+        ],
+        "answer": "face normal direction"
+    },
+    {
+        "question": "Which tool is designed to enable an artist to manually retopologize a mesh?",
+        "options": [
+            "Quad Draw",
+            "Append to Polygon",
+            "Create Polygon",
+            "Sculpt"
+        ],
+        "answer": "Quad Draw"
+    },
+    {
+        "question": "What is the standard method to preserve links to dependent files such as bitmap textures?",
+        "options": [
+            "Save dependent files to the same project as the scene files",
+            "Save all files to the system drive",
+            "Save scene files in ASCII format",
+            "Save all files to a network drive"
+        ],
+        "answer": "Save dependent files to the same project as the scene files"
+    },
+    {
+        "question": "For most light types, the source of illumination is the light's position. For which type of light is position ignored, and only the rotation of the light determines the illuminations?",
+        "options": [
+            "point",
+            "area",
+            "directional",
+            "spot"
+        ],
+        "answer": "directional"
+    },
+    {
+        "question": "What is the fundamental property of all polygon mesh vertices",
+        "options": [
+            "A vertex always has a mesurable position",
+            "A vertex always lies on a curve",
+            "A vertex always has a mesurable size",
+            "A vertex always has a color"
+        ],
+        "answer": "A vertex always has a mesurable position"
+    },
+    {
+        "question": "What is the simulation of how light propagates in an environment known as?",
+        "options": [
+            "Global Illumination",
+            "Sampling",
+            "Atmosphere",
+            "Local Illumination"
+        ],
+        "answer": "Global Illumination"
+    },
+    {
+        "question": "All new primitives are assigned to what type of material?",
+        "options": [
+            "Phong",
+            "Blinn",
+            "Surface",
+            "Lambert"
+        ],
+        "answer": "Lambert"
+    },
+    {
+        "question": "In which situation should the construction history be completely deleted?",
+        "options": [
+            "The object must be transformed",
+            "The model is finished and ready for rigging",
+            "The model is animated by a deformer",
+            "Input nodes must be adjusted"
+        ],
+        "answer": "The model is finished and ready for rigging"
+    },
+    {
+        "question": "You have set up a particular node--such as a camera, light, or shape--with specific settings that you want to use in the future. What feature allows you to store and retrive all parameters for a particular node type?",
+        "options": [
+            "object template",
+            "Content Browser",
+            "Attribute Editor presents",
+            "tool settings"
+        ],
+        "answer": "Content Browser"
+    },
+    {
+        "question": "In what tool are you able to measure and set the texel density for an object's UVs?",
+        "options": [
+            "Planar Mapping",
+            "UV Toolkit",
+            "Transfer Attributes",
+            "UV Set Editor"
+        ],
+        "answer": "UV Toolkit"
+    },
+    {
+        "question": "What do the Maya modelling features assume that a scene unit is?",
+        "options": [
+            "centimeter",
+            "meter",
+            "inch",
+            "foot"
+        ],
+        "answer": "centimeter",
+        "explanation": null,
+        "codeblock": null
+    }
+]

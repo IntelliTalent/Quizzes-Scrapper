@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following are true for prototype pattern?",
+        "options": [
+            "a) A clone is a copy of an object",
+            "b) When values stored in an entity (including references) are reproduced in the copy, the copy operation is said to be shallow",
+            "c) In contrast, a copy operation is deep when copies are made of all referenced entities in the original composite, and references to the new entities are placed in the copy",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "Any class using the built-in cloning mechanism is supposed to do which of the following?",
+        "options": [
+            "a) Implement the Cloneable interface",
+            "b) Define a concrete public or protected clone() operation",
+            "c) In the clone() operation, obtain a new object by calling super.clone()",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "Which of the following are correct for copy constructor?",
+        "options": [
+            "a) A copy constructor is a constructor that takes an instance of its class as an argument and creates a clone of its argument",
+            "b) A copy constructor must be used when a final field must be set in creating the clone because only a constructor can set a final field",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "Which of the following pattern has Step up phase as its activity?",
+        "options": [
+            "a) Prototype pattern",
+            "b) Reactor Pattern",
+            "c) Command pattern",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Reactor pattern has two phases-Step up phase and Operational Phase."
+    },
+    {
+        "question": "What happen in the operational phase of Reactor pattern?",
+        "options": [
+            "a) The Client registers the Reactor with the Target",
+            "b) The Reactor responds to event notifications from the Target",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The operational phase of Reactor pattern-The Reactor responds to event notifications from the Target."
+    },
+    {
+        "question": "Which of the following are consequences for command pattern?",
+        "options": [
+            "a) Reactor patterns provide event-driven design models",
+            "b) They decouple clients and targets",
+            "c) Encapsulate reactions to event",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All are the consequences for Reactor pattern."
+    },
+    {
+        "question": "Which among these are advantages for Function Class?",
+        "options": [
+            "a) Additional features can be added to the function class, enhancing its capabilities",
+            "b) The function class can include other data and operations the encapsulated operation needs",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are advantages."
+    },
+    {
+        "question": "Which of the several aspects of the Command pattern may be varied or elaborated to help achieve particular design goals",
+        "options": [
+            "a) An invoker may accept registration of more than one command",
+            "b) The invoker may offer operations for un-registering one or more commands",
+            "c) An invoker may offer several kinds of registrations for different kinds of events",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the goals."
+    },
+    {
+        "question": "Which of the following are the consequences for Command pattern?",
+        "options": [
+            "a) Event-driven design is facilitated",
+            "b) Making event-handling code easy to find, change, and reuse",
+            "c) The invoker is loosely coupled to both the command and client classes,making them easy to change",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the consequences."
+    }
+]

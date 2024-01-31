@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following is suitable for knitr?",
+        "options": [
+            "a) Reports",
+            "b) Data preprocessing documents",
+            "c) Technical manuals",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr has short technical documents."
+    },
+    {
+        "question": "Point out the correct combination related to output statements.",
+        "options": [
+            "a) results: \u201casis\u201d",
+            "b) echo: true",
+            "c) echo=false",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Global option relating to echo have values TRUE and FALSE."
+    },
+    {
+        "question": "Which of the following is required for not echoing the code?",
+        "options": [
+            "a) echo=TRUE",
+            "b) print=TRUE",
+            "c) echo=FALSE",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Code has to be written to set the global options."
+    },
+    {
+        "question": "Which of the following global options are available for figures in knitr?",
+        "options": [
+            "a) fig.height",
+            "b) fig.size",
+            "c) fig.breadth",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "fig.height has numeric value."
+    },
+    {
+        "question": "Which of the following global option has value \u201chide\u201d?",
+        "options": [
+            "a) results",
+            "b) fig.width",
+            "c) echo",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Workflow R Markdown is a format for writing reproducible, dynamic reports with R."
+    },
+    {
+        "question": "Which of the following is the correct order of conversion?",
+        "options": [
+            "a) .md->.Rmd->.html",
+            "b) .Rmd->.md->.html",
+            "c) .Rmd->.md->.xml",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr converts markdown document in to html by default."
+    },
+    {
+        "question": "Which of the following statement is used for importing knitr library?",
+        "options": [
+            "a) library(knitr)",
+            "b) import knitr",
+            "c) lib(knitr)",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr is not good for documents that require precise formatting."
+    },
+    {
+        "question": "The document produced by knitr document has which of the following extension?",
+        "options": [
+            "a) .md",
+            "b) .rmd",
+            "c) .html",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "knitr produces markdown document."
+    },
+    {
+        "question": "Code chunks begin with \u201c`{r} and end with \u201c`.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Code chunks can have names."
+    }
+]

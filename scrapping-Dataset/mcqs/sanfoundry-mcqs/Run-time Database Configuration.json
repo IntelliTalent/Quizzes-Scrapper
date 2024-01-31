@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Replica set configuration requires that the _______ have a value that is consistent among all members of the set.",
+        "options": [
+            "a) replSetName",
+            "b) instance",
+            "c) MMS",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use descriptive names for sets. Once configured, use the mongo shell to add hosts to the replica set."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Replica set configuration is straightforward",
+            "b) Keyfile must be less than one kilobyte in size",
+            "c) Keyfile may only contain characters in the base64 set and the file must not have group or \u201cworld\u201d permissions on UNIX systems",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To enable authentication for the replica set, add the keyFile option."
+    },
+    {
+        "question": "Setting _______ enables authentication and specifies a key file for the replica set member use to when authenticating to each other.",
+        "options": [
+            "a) mongostat",
+            "b) mongod",
+            "c) keyFile",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The content of the key file is arbitrary, but must be the same on all members of the replica set and mongos instances that connect to the set."
+    },
+    {
+        "question": "_______ is /srv/mongodb, which specifies where MongoDB will store its data files.",
+        "options": [
+            "a) dbPath",
+            "b) dbPathSts",
+            "c) db.Op",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The user account that mongod runs under will need read and write access to this directory."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Config servers are not replica sets",
+            "b) Sharding requires a number of mongod instances with different configurations",
+            "c) The config servers store the cluster\u2019s metadata, while the cluster distributes data among one or more shard servers",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The command line and configuration file interfaces provide MongoDB administrators with a large number of options and settings for controlling the operation of the database system."
+    },
+    {
+        "question": "Which of the following provide acceptable performance levels for multiple mongod instances?",
+        "options": [
+            "a) GridFS",
+            "b) SST",
+            "c) MMS",
+            "d) SSD"
+        ],
+        "answer": "d",
+        "explanation": "Additionally, you may find that multiple databases with small working sets may function acceptably on a single system."
+    },
+    {
+        "question": "What is the size of Chunk by default?",
+        "options": [
+            "a) 64 MB",
+            "b) 64 GB",
+            "c) 64 KB",
+            "d) 32 MB"
+        ],
+        "answer": "a",
+        "explanation": "Default chunk size provides the ideal balance between the most even distribution of data, for which smaller chunk sizes are best, and minimizing chunk migration, for which larger chunk sizes are optimal."
+    },
+    {
+        "question": "Which of the following sets the database profiler level?",
+        "options": [
+            "a) systemLog.verbosity",
+            "b) operationProfiling.mode",
+            "c) operationProfiling.slowOpThresholdMs",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The profiler is not active by default because of the possible impact on the profiler itself on performance."
+    },
+    {
+        "question": "Which of the following document configures the threshold which determines whether a query is \u201cslow\u201d for the purpose of the logging system?",
+        "options": [
+            "a) systemLog.verbosity",
+            "b) operationProfiling.mode",
+            "c) operationProfiling.slowOpThresholdMs",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "systemLog.verbosity controls the amount of logging output that mongod write to the log."
+    }
+]

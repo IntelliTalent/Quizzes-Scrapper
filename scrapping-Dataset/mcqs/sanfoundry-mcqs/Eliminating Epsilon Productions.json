@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The use of variable dependency graph is in:",
+        "options": [
+            "a) Removal of useless variables",
+            "b) Removal of null productions",
+            "c) Removal of unit productions",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "We use the concept of dependency graph inorder to check, whether any of the variable is reachable from the starting variable or not."
+    },
+    {
+        "question": "The variable which produces an epsilon is called:",
+        "options": [
+            "a) empty variable",
+            "b) nullable",
+            "c) terminal",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Any variable A for which the derivation: A->*e is possible is called Nullable."
+    },
+    {
+        "question": "Statement:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": " A can be erased. So whenever it appears on the right side of the production, replace with another production without the A."
+    },
+    {
+        "question": "Simplify the given grammar:",
+        "options": [
+            "a) S->aXb | ab, X-> aXb | ab",
+            "b) S->X | ab, X-> aXb | ab",
+            "c) S->aXb | ab, X-> S | ab",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "As X is nullable, we replace every right hand side presence of X with e and produce the simplified result."
+    },
+    {
+        "question": "Consider the following grammar:",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 2",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "The modified grammar aftyer the removal of nullable can be shown as:"
+    },
+    {
+        "question": "Let G=(V, T, P, S) be a CFG such that _____________. Then there exists an equivalent grammar G\u2019 having no e productions.",
+        "options": [
+            "a) e \u2208 L(G)",
+            "b) w \u2209 L(G)",
+            "c) e \u2209 L(G)",
+            "d) w \u2208 L(G)"
+        ],
+        "answer": "c",
+        "explanation": "Theorem: Let G = (V, T, S, P) be a CFG such that  e \u2209 L(G). Then there exists an equivalent grammar G\u2019 having no e-productions."
+    },
+    {
+        "question": "For each production in P of the form:",
+        "options": [
+            "a) A->e is put into P\u2019",
+            "b) A->e is not put into P\u2019",
+            "c) e is a member of G\u2019",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It is an exception that A->e is not put into P\u2019 if all x(i) are nullable variables."
+    },
+    {
+        "question": "For the given grammar G:",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 5",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "The grammar after the removal of epsilon production can be shown as:"
+    },
+    {
+        "question": "Consider G=({S,A,B,E}, {a,b,c},P,S), where P consists of S \u2192AB, A \u2192a, B \u2192b and E \u2192c.",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Given grammar G:",
+        "options": [
+            "a) S->aS| AB| A| B, D-> b",
+            "b) S->aS| AB| A| B| a, D-> b",
+            "c) S->aS| AB| A| B",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We will replace all the nullables wherever they appear in the right hand side of any production. D will not be erased as we are just removing nullable variables not completely simplifying the grammar."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "___________ is the world\u2019s most complete, tested, and popular distribution of Apache Hadoop and related projects.",
+        "options": [
+            "a) MDH",
+            "b) CDH",
+            "c) ADH",
+            "d) BDH"
+        ],
+        "answer": "b",
+        "explanation": "Cloudera\u2019s open-source Apache Hadoop distribution, CDH (Cloudera Distribution Including Apache Hadoop), targets enterprise-class deployments of that technology."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Cloudera is also a sponsor of the Apache Software Foundation",
+            "b) CDH is 100% Apache-licensed open source and is the only Hadoop solution to offer unified batch processing, interactive SQL, and interactive search, and role-based access controls",
+            "c) More enterprises have downloaded CDH than all other such distributions combined",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Cloudera says that more than 50% of its engineering output is donated upstream to the various Apache-licensed open source projects."
+    },
+    {
+        "question": "Cloudera ___________ includes CDH and an annual subscription license (per node) to Cloudera Manager and technical support.",
+        "options": [
+            "a) Enterprise",
+            "b) Express",
+            "c) Standard",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "CDH includes the core elements of Apache Hadoop plus several additional key open source projects."
+    },
+    {
+        "question": "Cloudera Express includes CDH and a version of Cloudera ___________ lacking enterprise features such as rolling upgrades and backup/disaster recovery.",
+        "options": [
+            "a) Enterprise",
+            "b) Express",
+            "c) Standard",
+            "d) Manager"
+        ],
+        "answer": "d",
+        "explanation": "All versions may be downloaded from Cloudera\u2019s website."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) CDH contains the main, core elements of Hadoop",
+            "b) In October 2012, Cloudera announced the Cloudera Impala project",
+            "c) CDH may be downloaded from Cloudera\u2019s website at no charge",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "CDH may be downloaded from Cloudera\u2019s website with no technical support nor Cloudera Manager."
+    },
+    {
+        "question": "Cloudera Enterprise comes in ___________ edition.",
+        "options": [
+            "a) One",
+            "b) Two",
+            "c) Three",
+            "d) Four"
+        ],
+        "answer": "c",
+        "explanation": "Cloudera Enterprise comes in three editions: Basic, Flex, and Data Hub."
+    },
+    {
+        "question": "_______ is an open source set of libraries, tools, examples, and documentation engineered.",
+        "options": [
+            "a) Kite",
+            "b) Kize",
+            "c) Ookie",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Kite is used to simplify the most common tasks when building applications on top of Hadoop."
+    },
+    {
+        "question": "To configure short-circuit local reads, you will need to enable ____________ on local Hadoop.",
+        "options": [
+            "a) librayhadoop",
+            "b) libhadoop",
+            "c) libhad",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Short-circuit reads make use of a UNIX domain socket."
+    },
+    {
+        "question": "CDH process and control sensitive data and facilitate __________",
+        "options": [
+            "a) multi-tenancy",
+            "b) flexibilty",
+            "c) scalability",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Cloudera Express offers the fastest and easiest way to getting your Hadoop cluster up and running and exploring your first use cases."
+    }
+]

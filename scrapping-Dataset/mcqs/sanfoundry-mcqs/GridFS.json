@@ -1,0 +1,101 @@
+[
+    {
+        "question": "___________ is a specification for storing and retrieving files that exceed the BSON-document size limit of 16MB.",
+        "options": [
+            "a) FSpec",
+            "b) GridFS",
+            "c) Grid",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Instead of storing a file in a single document, GridFS divides a file into parts, or chunks."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) GridFS uses two collections to store files",
+            "b) You cannot perform range queries on files stored through GridFS",
+            "c) Applications that handle temporal and spatial data often require capturing fractional units of currency",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "One collection stores the file chunks, and the other stores file metadata."
+    },
+    {
+        "question": "By default GridFS limits chunk size to ______ k.",
+        "options": [
+            "a) 225",
+            "b) 255",
+            "c) 256",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " GridFS is useful not only for storing files that exceed 16MB but also for storing any files for which you want access without having to load the entire file into memory."
+    },
+    {
+        "question": "When you query a GridFS store for a file, the _______ will reassemble the chunks as needed.",
+        "options": [
+            "a) client",
+            "b) Server",
+            "c) Agent",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You also can access information from arbitrary sections of files, which allows you to \u201cskip\u201d into the middle of a video or audio file."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Chunks in the context of GridFS is related to the use of the term chunks in the context of sharding",
+            "b) The default chunk size changed from 256k to 255k",
+            "c) If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, GridFS uses two collections with names prefixed by fs bucket."
+    },
+    {
+        "question": "MongoDB represents queries as ___________ objects.",
+        "options": [
+            "a) BSON",
+            "b) JSON",
+            "c) GSON",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "As a client program assembles a query in MongoDB, it builds a BSON object, not a string."
+    },
+    {
+        "question": "GridFS uses a _________ index on the chunks collection for the files_id and n fields.",
+        "options": [
+            "a) unique",
+            "b) single",
+            "c) non unique",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The files_id field contains the _id of the chunk\u2019s \u201cparent\u201d document."
+    },
+    {
+        "question": "The ___ field contains the sequence number of the chunk.",
+        "options": [
+            "a) x",
+            "b) array",
+            "c) field",
+            "d) n"
+        ],
+        "answer": "d",
+        "explanation": " GridFS numbers all chunks, starting with 0."
+    },
+    {
+        "question": "The GridFS index allows efficient retrieval of __________ using the files_id and n values.",
+        "options": [
+            "a) chunks",
+            "b) files",
+            "c) bson",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " When you query for a large file, GridFS automatically reassembles the smaller files into the original large file."
+    }
+]

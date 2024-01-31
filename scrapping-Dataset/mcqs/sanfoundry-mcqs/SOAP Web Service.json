@@ -1,0 +1,153 @@
+[
+    {
+        "question": "A web service contract is described using :-",
+        "options": [
+            "a) Web Services Description Language",
+            "b) Web Services Description",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In contract-last, you expose an existing service interface as a web service whose service contract is generated automatically."
+    },
+    {
+        "question": "There are two approaches to developing a web service, depending on whether you define the contract first or last.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A web service contract is described using Web Services Description Language (WSDL). In contract-last, you expose an existing service interface as a web service whose service contract is generated automatically. In contract-first, you design the service contract in terms of XML and then write code to fulfill it."
+    },
+    {
+        "question": "In contrast, the contract-first approach encourages you to think of the service contract first in terms of :-",
+        "options": [
+            "a) XML",
+            "b) XML Schema(.xsd)",
+            "c) WSDL",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In contrast, the contract-first approach encourages you to think of the service contract first, in terms of XML, using XML schema (.xsd) and WSDL."
+    },
+    {
+        "question": "In some cases, it\u2019s also hard to map an object to XML (e.g., an object graph with cyclic references) because there\u2019s actually an impedance mismatch between an object model and an XML model.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Just like that between an object model and a relational model."
+    },
+    {
+        "question": "Service exporters that can export a bean as a remote service based on the :-",
+        "options": [
+            "a) RMI",
+            "b) Hessian",
+            "c) Burlap",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring comes with several service exporters that can export a bean as a remote service based on the RMI, Hessian, Burlap, or HTTP Invoker remoting technologies."
+    },
+    {
+        "question": "Spring comes with a service exporter that can export a bean as a SOAP web service.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Spring doesn\u2019t come with a service exporter that can export a bean as a SOAP web service. We will use Apache CXF, which is the de facto successor to XFire."
+    },
+    {
+        "question": "The standard for deploying web services on the Java EE platform as of Java EE 1.4:-",
+        "options": [
+            "a) JAX-RPC",
+            "b) JAX",
+            "c) RPC",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The standard for deploying web services on the Java EE platform as of Java EE 1.4 was called JAX-RPC. It supported SOAP 1.0 and 1.1, but didn\u2019t support message-oriented web services."
+    },
+    {
+        "question": "To send objects across the wire, beans need to be encoded using the Java Architecture for XML Binding (JAXB).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "JAXB supports many class types out of the box with no special support."
+    },
+    {
+        "question": "If you are deploying into a Java EE 5 (or better) container, you may simply create a bean that is annotated with:-",
+        "options": [
+            "a) javax.jws.WebService",
+            "b) javax.jws.WebServiceProvider",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you are deploying into a Java EE 5 (or better) container, you may simply create a bean that is annotated with javax.jws.WebService or javax.jws.WebServiceProvider and deploy that into a container in your web application."
+    },
+    {
+        "question": "If you are using the JAX-RS Reference Implementation, this intermediary step will involve a tool called wsgen.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It will generate the configuration (a file called sun-jaxws.xml) and wrapper beans required to expose your service."
+    },
+    {
+        "question": "Spring provides a factory that can export beans annotated with:-",
+        "options": [
+            "a) javax.jws.WebService",
+            "b) javax.jws.WebServiceProvider",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring provides a factory that can export beans annotated with javax.jws.WebService or javax.jws.WebServiceProvider inside the Spring context and then publishes the services using the JAX-WS runtime."
+    },
+    {
+        "question": "Exposing a stand-alone SOAP endpoint using the:-",
+        "options": [
+            "a) SimpleJaxWsServiceExporter",
+            "b) JAX-WS",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Exposing a stand-alone SOAP endpoint using the SimpleJaxWsServiceExporter or the support for JAX-WS in a Java EE container in conjunction with Spring is simple, but these solutions ignore the largest cross-section of developers\u2014people developing on Tomcat."
+    },
+    {
+        "question": "Tomcat doesn\u2019t support JAX-WS by itself.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Tomcat doesn\u2019t support JAX-WS by itself, so we need to help it by embedding a JAX-WS runtime. There are many choices, and you\u2019re free to take your pick. Two popular choices are Axis2 and CXF, both of which are Apache projects."
+    },
+    {
+        "question": "CXF represents the consolidation of the Celtix and XFire projects, which each had useful SOAP support.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For our example, we\u2019ll embed CXF since it\u2019s robust, fairly well tested, and provides support for other important standards like JAX-RS, the API for REST-ful endpoints."
+    },
+    {
+        "question": "Factory to use our Spring bean as the implementation:-",
+        "options": [
+            "a) jaxws:end",
+            "b) jaxws:endpoint",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We tell the jaxws:endpoint factory to use our Spring bean as the implementation. We tell it at what address to publish the service using the address element."
+    }
+]

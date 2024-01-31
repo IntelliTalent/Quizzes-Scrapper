@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Relate the following statement:",
+        "options": [
+            "a) Turing Machine",
+            "b) Pumping Lemma",
+            "c) Arden\u2019s theorem",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pumping lemma defines an essential property for every regular language in automata theory. It has certain rules which decide whether a language is regular or not."
+    },
+    {
+        "question": "While applying Pumping lemma over a language, we consider a string w that belong to L and fragment it into _________ parts.",
+        "options": [
+            "a) 2",
+            "b) 5",
+            "c) 3",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "We select a string w such that w=xyz and |y|>0 and other conditions. However, there exists an integer n such that |w|>=n for any w\u00ceL."
+    },
+    {
+        "question": "If we select a string w such that w\u2208L, and w=xyz. Which of the following portions cannot be an empty string?",
+        "options": [
+            "a) x",
+            "b) y",
+            "c) z",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The lemma says, the portion y in xyz cannot be zero or empty i.e. |y|>0, this condition needs to be fulfilled to check the conclusion condition."
+    },
+    {
+        "question": "Let w= xyz and y refers to the middle portion and |y|>0.What do we call the process of repeating y 0 or more times before checking that they still belong to the language L or not?",
+        "options": [
+            "a) Generating",
+            "b) Pumping",
+            "c) Producing",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The process of repeatation is called pumping and so, pumping is the process we perform before we check whether the pumped string belongs to L or not."
+    },
+    {
+        "question": "There exists a language L. We define a string w such that w\u2208L and w=xyz and |w| >=n for some constant integer n.What can be the maximum length of the substring xy i.e. |xy|<=?",
+        "options": [
+            "a) n",
+            "b) |y|",
+            "c) |x|",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is the first conditional statement of the lemma that states that |xy|<=n, i.e. the maximum length of the substring xy in w can be n only."
+    },
+    {
+        "question": "Fill in the blank in terms of p, where p is the maximum string length in L.",
+        "options": [
+            "a) p*1",
+            "b) p+1",
+            "c) p-1",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Finite languages trivially satisfy the pumping lemma by having n equal to the maximum string length in l plus 1."
+    },
+    {
+        "question": "Answer in accordance to the third and last statement in pumping lemma:",
+        "options": [
+            "a) i>0",
+            "b) i<0",
+            "c) i<=0",
+            "d) i>=0"
+        ],
+        "answer": "d",
+        "explanation": "Suppose L is a regular language . Then there is an integer n so that for any x\u2208L and |x|>=n, there are strings u,v,w so that"
+    },
+    {
+        "question": "If d is a final state, which of the following is correct according to the given diagram?",
+        "options": [
+            "a) x=p, y=qr, z=s",
+            "b) x=p, z=qrs",
+            "c) x=pr, y=r, z=s",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The FSA accepts the string pqrs. In terms of pumping lemma, the string pqrs is broken into an x portion an a, a y portion qr and a z portion s."
+    },
+    {
+        "question": "Let w be a string and fragmented by three variable x, y, and z as per pumping lemma. What does these variables represent?",
+        "options": [
+            "a) string count",
+            "b) string",
+            "c) string count and string",
+            "d) none of  the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Given: w =xyz. Here, xyz individually represents strings or rather substrings which we  compute over conditions to check the regularity of the language."
+    },
+    {
+        "question": "Which of the following one can relate to the given statement:",
+        "options": [
+            "a) Pumping lemma",
+            "b) Pigeon Hole principle",
+            "c) Count principle",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pigeon hole principle states the following example: If there exists n=10 pigeons in m=9 holes, then since 10>9, the pigeonhole principle says that at least one hole has more than one pigeon."
+    }
+]

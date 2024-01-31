@@ -1,0 +1,602 @@
+[
+    {
+        "question": "1) CSS stands for -",
+        "options": [
+            "Cascade style sheets",
+            "Color and style sheets",
+            "Cascading style sheets",
+            "None of the above"
+        ],
+        "answer": "Cascading style sheets",
+        "explanation": " CSS stands for Cascading Style Sheet. CSS is used to design HTML tags. CSS is a widely used language on the web. HTML, CSS and JavaScript are used for web designing. It helps the web designers to apply style on HTML tags.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "2) Which of the following is the correct syntax for referring the external style sheet?",
+        "options": [
+            "<style src = example.css>",
+            "<style src = \"example.css\" >",
+            "<stylesheet> example.css </stylesheet>",
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">"
+        ],
+        "answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">",
+        "explanation": " The external style sheet is generally used when you want to make changes on multiple pages. It uses the <link> tag on every pages and the <link> tag should be put inside the head section.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "3) The property in CSS used to change the background color of an element is -",
+        "options": [
+            "bgcolor",
+            "color",
+            "background-color",
+            "All of the above"
+        ],
+        "answer": "background-color",
+        "explanation": " The background-color property is used to specify the background color of an element. The background of an element covers the total size, including the padding and border and excluding margin.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "4) The property in CSS used to change the text color of an element is -",
+        "options": [
+            "bgcolor",
+            "color",
+            "background-color",
+            "All of the above"
+        ],
+        "answer": "color",
+        "explanation": " The color property in CSS is used to set the color of HTML elements. Typically, this property is used to set the font color of an element. In CSS, we use color values for specifying the color. We can also use this property for the border-color and other decorative effects.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "5) The CSS property used to control the element's font-size is -",
+        "options": [
+            "text-style",
+            "text-size",
+            "font-size",
+            "None of the above"
+        ],
+        "answer": "font-size",
+        "explanation": " The font-size property in CSS is used to specify the height and size of the font. It affects the size of the text of an element. Its default value is medium and can be applied to every element.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "6) The HTML attribute used to define the inline styles is -",
+        "options": [
+            "style",
+            "styles",
+            "class",
+            "None of the above"
+        ],
+        "answer": "style",
+        "explanation": " If you want to use inline CSS, you should use the style attribute to the relevant tag. The inline CSS is also a method to insert style sheets in HTML document. This method mitigates some advantages of style sheets so it is advised to use this method sparingly.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "7) The HTML attribute used to define the internal stylesheet is -",
+        "options": [
+            "<style>",
+            "style",
+            "<link>",
+            "<script>"
+        ],
+        "answer": "<style>",
+        "explanation": " The internal style sheet is used to add a unique style for a single document. It is defined in <head> section of the HTML page inside the <style> tag.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "8) Which of the following CSS property is used to set the background image of an element?",
+        "options": [
+            "background-attachment",
+            "background-image",
+            "background-color",
+            "None of the above"
+        ],
+        "answer": "background-image",
+        "explanation": " The background-image property is used to set an image as a background of an element. By default the image covers the entire element.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "9) Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+        "options": [
+            "p {background-color : yellow;}",
+            "p {background-color : #yellow;}",
+            "all {background-color : yellow;}",
+            "all p {background-color : #yellow;}"
+        ],
+        "answer": "p {background-color : yellow;}",
+        "explanation": " The background-color property in CSS is used to change the background color of an element. The correct syntax to make the background color of all paragraph elements to yellow is: p {background-color : yellow;}.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "10) Which of the following is the correct syntax to display the hyperlinks without any underline?",
+        "options": [
+            "a {text-decoration : underline;}",
+            "a {decoration : no-underline;}",
+            "a {text-decoration : none;}",
+            "None of the above"
+        ],
+        "answer": "a {text-decoration : none;}",
+        "explanation": " The text-decoration property in CSS is used to decorate the content of the text. It adds lines under, above, and through the text. It sets the appearance of decorative lines on text. The correct syntax to display the hyperlinks without any underline is: a {text-decoration : none;}.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "11) Which of the following property is used as the shorthand property for the padding properties?",
+        "options": [
+            "padding-left",
+            "padding-right",
+            "padding",
+            "All of the above"
+        ],
+        "answer": "padding",
+        "explanation": " CSS padding property is used to define the space between the element content and the element border. Top, bottom, left and right padding can be changed independently using separate properties. By using the shorthand padding property we can also change all padding properties at once.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "12) The CSS property used to make the text bold is -",
+        "options": [
+            "font-weight : bold",
+            "weight: bold",
+            "font: bold",
+            "style: bold"
+        ],
+        "answer": "font-weight : bold",
+        "explanation": " The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "13) Are the negative values allowed in padding property?",
+        "options": [
+            "Yes",
+            "No",
+            "Can't say",
+            "May be"
+        ],
+        "answer": "No",
+        "explanation": " The negative values are not allowed when using the padding property.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "14) Which of the following property is used as the shorthand property of margin properties?",
+        "options": [
+            "margin-left",
+            "margin-right",
+            "margin",
+            "None of the above"
+        ],
+        "answer": "margin",
+        "explanation": " CSS Margin property is used to define the space around elements. The Top, bottom, left and right margin can be changed independently using separate properties. By using the shorthand margin property we can change all margin properties at once.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "15) The CSS property used to specify the transparency of an element is -",
+        "options": [
+            "opacity",
+            "filter",
+            "visibility",
+            "overlay"
+        ],
+        "answer": "opacity",
+        "explanation": " The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "16) Which of the following is used to specify the subscript of text using CSS?",
+        "options": [
+            "vertical-align: sub",
+            "vertical-align: super",
+            "vertical-align: subscript",
+            "None of the above"
+        ],
+        "answer": "vertical-align : sub",
+        "explanation": " In CSS, the vertical-align property is used to make the text superscript or subscript. The \"sub\" of vertical-align property is used to make the text subscript in CSS. The subscript text appears in a smaller font and the half character below the normal line. It is generally used to write chemical equations or chemical formulas such as H2O, H2SO4, etc.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "17) Which of the following CSS property is used to specify the space between every letter inside an element?",
+        "options": [
+            "alpha-spacing",
+            "character-spacing",
+            "letter-spacing",
+            "alphabet-spacing"
+        ],
+        "answer": "letter-spacing",
+        "explanation": " The letter-spacing property in CSS is used to control the space between every letter inside an element or the block of text. It sets the spacing behavior between the characters of the text. Using this property, we can increase or decrease the space between the characters of the text.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "18) The CSS property used to specify whether the text is written in the horizontal or vertical direction?",
+        "options": [
+            "writing-mode",
+            "text-indent",
+            "word-break",
+            "None of the above"
+        ],
+        "answer": "writing-mode",
+        "explanation": " The writing-mode CSS property specifies whether the text is written in the vertical or horizontal direction. This property sets whether the lines of text are laid out vertically or horizontally. It specifies the direction in which the content flows on the page.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "19) Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?",
+        "options": [
+            "text-style : capital;",
+            "transform : capitalize;",
+            "text-transform : capital;",
+            "text-transform : capitalize;"
+        ],
+        "answer": "text-transform : capitalize;",
+        "explanation": " The text-transform CSS property allows us to change the case of the text. It is used to control text capitalization. The \"capitalize\" value of the text-transform property transforms the first character of each word to uppercase. It will not capitalize the first letter after the number.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "20) How to select the elements with the class name \"example\"?",
+        "options": [
+            "example",
+            "#example",
+            ".example",
+            "Class example"
+        ],
+        "answer": ".example",
+        "explanation": " The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name. A class name should not be started with a number.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "21) Which of the following is the correct syntax to select all paragraph elements in a div element?",
+        "options": [
+            "div p",
+            "p",
+            "div#p",
+            "div ~ p"
+        ],
+        "answer": "div p",
+        "explanation": " The CSS descendant selector is used to match the descendant elements of a particular element and represent it using a single space. The word descendant indicates nested anywhere in the DOM tree.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "22) Which of the following is the correct syntax to select the p siblings of a div element?",
+        "options": [
+            "p",
+            "div + p",
+            "div p",
+            "div ~ p"
+        ],
+        "answer": "div ~ p",
+        "explanation": " General sibling selector uses the tlide (~) sign as the separator between the elements. It can be used for selecting the group of elements that share the common parent element. The syntax div ~ p will select the paragraph elements that are the siblings of the div element.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "23) The CSS property used to draw a line around the elements outside the border?",
+        "options": [
+            "border",
+            "outline",
+            "padding",
+            "line"
+        ],
+        "answer": "outline",
+        "explanation": " The \"outline\" property in CSS facilitates you to draw an extra border around an element to get visual attention. It is similar to the CSS border property. It is as easy as to apply as a border.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "24) Which of the following CSS property is used to add shadows to the text?",
+        "options": [
+            "text-shadow",
+            "text-stroke",
+            "text-overflow",
+            "text-decoration"
+        ],
+        "answer": "text-shadow",
+        "explanation": " The CSS text-shadow property adds shadows to the text. It accepts the comma-separated list of shadows that applied to the text. It applies one or more than one text-shadow effect on the element's text content.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "25) Which of the following is not a value of the font-variant property in CSS?",
+        "options": [
+            "normal",
+            "small-caps",
+            "large-caps",
+            "inherit"
+        ],
+        "answer": "large-caps",
+        "explanation": " CSS font-variant property specifies how to set a font variant of an element. Its values may be normal and small-caps.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "26) Which of the following CSS property is used to specify whether the table cells share the common or separate border?",
+        "options": [
+            "border-collapse",
+            "border-radius",
+            "border-spacing",
+            "None of the above"
+        ],
+        "answer": "border-collapse",
+        "explanation": " The border-collapse CSS property is used to set the border of the table cells and specifies whether the table cells share a separate or common border. This property has two main values that are separate and collapse.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "27) The CSS property used to make the rounded borders, or rounded corners around an element is -",
+        "options": [
+            "border-collapse",
+            "border-radius",
+            "border-spacing",
+            "None of the above"
+        ],
+        "answer": "border-radius",
+        "explanation": " The border-radius CSS property sets the rounded borders and provides the rounded corners around an element, tags, or div. It defines the radius of the corners of an element.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "28) The CSS property used to set the distance between the borders of the adjacent cells in the table is -",
+        "options": [
+            "border-collapse",
+            "border-radius",
+            "border-spacing",
+            "None of the above"
+        ],
+        "answer": "border-spacing",
+        "explanation": " This CSS property is used to set the distance between the borders of the adjacent cells in the table. It applies only when the border-collapse property is set to separate.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "29) Which of the following selector in CSS is used to select the elements that do not match the selectors?",
+        "options": [
+            ":! selector",
+            ":not selector",
+            ":empty selector",
+            "None of the above"
+        ],
+        "answer": ":not selector",
+        "explanation": " The :not selector in CSS matches the elements that are not the specified element/selector.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "30) Which of the following is not a type of combinator?",
+        "options": [
+            ">",
+            "~",
+            "+",
+            "*"
+        ],
+        "answer": "*",
+        "explanation": " CSS Combinators clarifies the relationship between two selectors. There are four types of combinators in CSS that are listed as follows:",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "31) Which of the following CSS property defines how an image or video fits into container with established height and width?",
+        "options": [
+            "object-fit",
+            "object-position",
+            "position",
+            "None of the above"
+        ],
+        "answer": "object-fit",
+        "explanation": " The object-fit CSS property specifies how a video or an image is resized to fit its content box. It defines how an element fits into the container with an established width and height. It is generally applied to images or videos.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "32) Which type of CSS is used in the below code?",
+        "options": [
+            "Inline CSS",
+            "Internal CSS",
+            "External CSS",
+            "None of the above"
+        ],
+        "answer": "Inline CSS",
+        "explanation": " If you want to use inline CSS, you should use the style attribute to the relevant tag. The inline CSS is also a method to insert style sheets in HTML document.",
+        "codeblock": "<p style = \"border:2px solid red;\">"
+    },
+    {
+        "question": "33) Which of the following CSS property specifies the origin of the background-image?",
+        "options": [
+            "background-origin",
+            "background-attachment",
+            "background-size",
+            "None of the above"
+        ],
+        "answer": "background-origin",
+        "explanation": " The background-origin CSS property helps us to adjust the background image of the webpage. It specifies the background-position area, i.e., the origin of a background image. This CSS property will not work when the value of the background-attachment is set to be fixed. It is similar to the background-clip property, except that it resizes the background instead of clipping it.",
+        "codeblock": null
+    },
+    {
+        "question": "34) The CSS property used to set the maximum width of the element's content box is -",
+        "options": [
+            "max-width property",
+            "height property",
+            "max-height property",
+            "position property"
+        ],
+        "answer": "max-width property",
+        "explanation": " The max-width property in CSS is used to set the maximum width of the element's content box. It means that the width of the content box can be smaller than the max-width value but cannot be greater. It sets the upper bound on the element's width.",
+        "codeblock": null
+    },
+    {
+        "question": "35) Which if the following CSS function allows us to perform calculations?",
+        "options": [
+            "calc() function",
+            "calculator() function",
+            "calculate() function",
+            "cal() function"
+        ],
+        "answer": "calc() function",
+        "explanation": " The calc() is an inbuilt CSS function that allows us to perform the calculations. It can be used to calculate length, percentage, time, number, integer frequency, or angle. It uses the four simple arithmetic operators add (+), multiply (*), subtract (-), and divide (/).",
+        "codeblock": null
+    },
+    {
+        "question": "36) The CSS property used to set the maximum height of the element's content box is -",
+        "options": [
+            "max-width property",
+            "height property",
+            "max-height property",
+            "position property"
+        ],
+        "answer": "max-height property",
+        "explanation": " The max-height property in CSS sets the maximum height of the element's content box. It means that the height of the content box can be smaller than the max-height value but cannot be greater. It sets the upper bound on the element's height.",
+        "codeblock": null
+    },
+    {
+        "question": "37) The CSS property used to set the minimum width of the element's content box is -",
+        "options": [
+            "max-width property",
+            "min-width property",
+            "width property",
+            "All of the above"
+        ],
+        "answer": "min-width property",
+        "explanation": " The min-width property is used to set the minimum width of the element's content box. It means that the width of the content box can be greater than the min-width value but cannot be shorter. It sets the lower bound on the element's width.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Which of the following CSS property is used to represent the overflowed text which is not visible to the user?",
+        "options": [
+            "text-shadow",
+            "text-stroke",
+            "text-overflow",
+            "text-decoration"
+        ],
+        "answer": "text-overflow",
+        "explanation": " The text-overflow property specifies the representation of overflowed text, which is not visible to the user. It signals the user about the content that is not visible. This property helps us to decide whether the text should be clipped, show some dots (ellipsis), or display a custom string.",
+        "codeblock": null
+    },
+    {
+        "question": "39) The CSS property which is used to define the set the difference between two lines of your content is -",
+        "options": [
+            "min-height property",
+            "max-height property",
+            "line-height property",
+            "None of the above"
+        ],
+        "answer": "line-height property",
+        "explanation": " The CSS line-height property is used to define the minimal height of line boxes within the element. It sets the differences between the two lines of your content. It defines the amount of space above and below inline elements.",
+        "codeblock": null
+    },
+    {
+        "question": "40) The CSS property which is used to define the set the difference between two lines of your content is -",
+        "options": [
+            "min-height property",
+            "max-height property",
+            "line-height property",
+            "None of the above"
+        ],
+        "answer": "line-height property",
+        "explanation": " The CSS line-height property is used to define the minimal height of line boxes within the element. It sets the differences between the two lines of your content. It defines the amount of space above and below inline elements.",
+        "codeblock": null
+    },
+    {
+        "question": "41) Which of the following CSS property is used to add stroke to the text?",
+        "options": [
+            "text-stroke property",
+            "text-transform property",
+            "text-decoration property",
+            "None of the above"
+        ],
+        "answer": "text-stroke property",
+        "explanation": " The text-stroke property in CSS is used to add a stroke to the text and also provides decoration options for them. It defines the color and width of strokes for text characters.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Which of the following CSS property is used to set the blend mode for each background layer of an element?",
+        "options": [
+            "background-blend-mode property",
+            "background-collapse property",
+            "background-transform property",
+            "background-origin property"
+        ],
+        "answer": "background-blend-mode property",
+        "explanation": " The background-blend-mode property in CSS is used to set the blend mode for each background layer (image/color) of an element. It defines how the background image of an element blends with the background color of the element. We can blend the background images together or can blend them with background-color.",
+        "codeblock": null
+    },
+    {
+        "question": "43) The CSS property used to specify the transparency of an element is -",
+        "options": [
+            "Hover",
+            "opacity",
+            "clearfix",
+            "overlay"
+        ],
+        "answer": "opacity",
+        "explanation": " The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following CSS property is used to set the horizontal alignment of a table-cell box or the block element?",
+        "options": [
+            "text-align property",
+            "text-transform property",
+            "text-shadow property",
+            "text-decoration"
+        ],
+        "answer": "text-align property",
+        "explanation": " The text-align property in CSS is used to set the horizontal alignment of a table-cell box or the block element. It is similar to the vertical-align property but in the horizontal direction.",
+        "codeblock": null
+    },
+    {
+        "question": "45) The CSS property which is used to set the text wider or narrower compare to the default width of the font is -",
+        "options": [
+            "font-stretch property",
+            "font-weight property",
+            "text-transform property",
+            "font-variant property"
+        ],
+        "answer": "font-stretch property",
+        "explanation": " The font-stretch property in CSS allows us to select a normal, expanded, or condensed face from the font's family. This property sets the text wider or narrower to compare to the default width of the font. It will not work on any font but only works on the font-family that has a width-variant face.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Which of the following CSS property is used to specify the type of quotation mark?",
+        "options": [
+            "quotes property",
+            "z-index property",
+            "hyphens property",
+            "None of the above"
+        ],
+        "answer": "quotes property",
+        "explanation": " The quotes property in CSS specifies the type of quotation mark for the quotation used in the sentence. It defines which quotation mark to be used when the quotation is inserted by using the open-quote and close-quote values of the content property.",
+        "codeblock": null
+    },
+    {
+        "question": "47) The CSS property used to specify the order of flex item in the grid container is -",
+        "options": [
+            "order property",
+            "float property",
+            "overflow property",
+            "None of the above"
+        ],
+        "answer": "order property",
+        "explanation": " This CSS property specifies the order of the flex item in the grid container or flex. It is basically used for ordering the flex items. It is to note that if the element isn't flexible, then this property will not work.",
+        "codeblock": null
+    },
+    {
+        "question": "48) The CSS property used to set the indentation of the first line in a block of text is -",
+        "options": [
+            "text-indent property",
+            "text-stroke property",
+            "text-decoration property",
+            "text-overflow property"
+        ],
+        "answer": "text-indent property",
+        "explanation": " This CSS property sets the indentation of the first line in a block of text. It specifies the amount of horizontal space that puts before the lines of text.",
+        "codeblock": null
+    },
+    {
+        "question": "49) Which of the following CSS property creates a clipping region and specifies the visible area of the element?",
+        "options": [
+            "visibility property",
+            "background-clip property",
+            "clip-path property",
+            "None of the above"
+        ],
+        "answer": "clip-path property",
+        "explanation": " The clip-path CSS property is used to create a clipping region and specifies the element's area that should be visible. The area inside the region will be visible, while the outside area is hidden. Anything outside the clipping will be clipped by browsers, including borders, text-shadows, and many more.",
+        "codeblock": null
+    },
+    {
+        "question": "50) The correct syntax to give a line over text is -",
+        "options": [
+            "text-decoration: line-through",
+            "text-decoration: none",
+            "text-decoration: overline",
+            "text-decoration: underline"
+        ],
+        "answer": "text-decoration: overline",
+        "explanation": " The text-decoration is a CSS property that decorates the content of the text. It sets the kind of text-decoration like overline, underline, or line-through.",
+        "codeblock": null
+    }
+]

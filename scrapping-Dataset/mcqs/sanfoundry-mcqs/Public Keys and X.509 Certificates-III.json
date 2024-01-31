@@ -1,0 +1,105 @@
+[
+    {
+        "question": "How many handshake rounds are required in the Public-Key Distribution Scenario?",
+        "options": [
+            "a) 7",
+            "b) 5",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "A total of seven messages are required in the Public-Key distribution scenario."
+    },
+    {
+        "question": "A total of seven messages are required in the Public-Key distribution scenario. However, the initial five messages need to be used only infrequently because both A and B can save the other\u2019s public key for future \u2013 a technique known as ____",
+        "options": [
+            "a) time stamping",
+            "b) polling",
+            "c) caching",
+            "d) squeezing"
+        ],
+        "answer": "c",
+        "explanation": "This technique is known as caching."
+    },
+    {
+        "question": "X.509 certificate recommends which cryptographic algorithm?",
+        "options": [
+            "a) RSA",
+            "b) DES",
+            "c) AES",
+            "d) Rabin"
+        ],
+        "answer": "a",
+        "explanation": "RSA is the recommended cryptographic algorithm for X.509 certificates."
+    },
+    {
+        "question": "The issuer unique identifier of the X.509 certificates was added in which version?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The issuer unique identifier was added in the 2nd version."
+    },
+    {
+        "question": "The period of validity consists of the date on which the certificate expires.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The Period of validity consists of 2 dates: the first and last date on which the certificate is valid."
+    },
+    {
+        "question": "Certificate extensions fall into 3 categories. Which one of the following is not a Certificate extensions category?",
+        "options": [
+            "a)  Subject and Issuer attributes",
+            "b) Key and Policy information",
+            "c) Certification path constraints",
+            "d) All of the above are Certificate extensions categories"
+        ],
+        "answer": "d",
+        "explanation": "Subject and Issuer attributes, Key and Policy information and Certification path constraints are the three categories of Certificate extensions."
+    },
+    {
+        "question": "What does the above figure represent?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The figure is a representation of Hierarchy in X.509."
+    },
+    {
+        "question": "How many functions are involved in the PKIX architectural model?",
+        "options": [
+            "a) 3",
+            "b) 5",
+            "c) 6",
+            "d) 7"
+        ],
+        "answer": "d",
+        "explanation": "The 7 functions are: Registration, Initialization, Certification, Key pair recovery, Key pair update, Revocation request and Cross certification."
+    },
+    {
+        "question": "CMP stands for",
+        "options": [
+            "a) cipher message protocol",
+            "b) cipher management protocol",
+            "c) certificate message protocol",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "CMP stands for certificate management protocol."
+    },
+    {
+        "question": "CMS stands for",
+        "options": [
+            "a) cipher message syntax",
+            "b) certificate message session",
+            "c) cryptographic message syntax",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "CMS stands for cryptographic message syntax."
+    }
+]

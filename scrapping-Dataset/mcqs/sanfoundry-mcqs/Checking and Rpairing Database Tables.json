@@ -1,0 +1,84 @@
+[
+    {
+        "question": "CHECK TABLE works with how many of the following?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The \u2018CHECK TABLE\u2019 statement provides an interface to the table checking capabilities of the server. It works for MyISAM and InnoDB tables as well as for ARCHIVE and CSV tables."
+    },
+    {
+        "question": "REPAIR TABLE works with how many of the following?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The \u2018REPAIR TABLE\u2019 statement provides an interface to the table repair capabilities of the server. It works with MyISAM and ARCHIVE tables. It also works with CSV tables as of MySQL 5.1.19."
+    },
+    {
+        "question": "Which myisamchk variable represents the size of buffer used to hold index blocks?",
+        "options": [
+            "a) key_buffer_size",
+            "b) read_buffer_size",
+            "c) sort_buffer_size",
+            "d) write_buffer_size"
+        ],
+        "answer": "a",
+        "explanation": "The myisamchk variable \u2018key_buffer_size\u2019 stores the size of buffer that is used to hold index blocks. \u2018read_buffer_size\u2019 stores the size of buffer used for read operations, \u2018sort_buffer_size\u2019 is used for sorting."
+    },
+    {
+        "question": "Which option is used in \u2018mysqldump\u2019 to make all tables in the destination databases to use a different storage engine?",
+        "options": [
+            "a) \u2013next-storage-engine",
+            "b) \u2013new-storage-engine",
+            "c) \u2013clear-storage-engine",
+            "d) \u2013get-storage-engine"
+        ],
+        "answer": "b",
+        "explanation": "While using the program \u2018mysqldump\u2019 in MySQL to copy databases from server to server, all tables in the destination databases can be directed to use a different storage engine with the \u2013new-storage-engine option."
+    },
+    {
+        "question": "With only MyISAM tables, how many of the following are for use?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u2018mysqlcheck\u2019 and \u2018mysqlisamchk\u2019 are the programs that perform table checking, analysis, optimization and repairs when tables become damaged. \u2018mysqlcheck\u2019 works with MyISAM tables."
+    },
+    {
+        "question": "The place where the server stores its databases and status files are the database directory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL data directory is the place where the server stores its databases and status files. It is crucial to understand all structures and contents of the data directory."
+    },
+    {
+        "question": "What is the output from PHP?",
+        "options": [
+            "a) statically generated",
+            "b) dynamically generated",
+            "c) not generated",
+            "d) no output"
+        ],
+        "answer": "b",
+        "explanation": "The interpreter switches between code mode back and text mode when it sees another special tag that signals the end of the code. This enables the mix of static text with dynamically generated results."
+    },
+    {
+        "question": "What are PHP variables preceded by?",
+        "options": [
+            "a) _",
+            "b) @",
+            "c) $",
+            "d) &"
+        ],
+        "answer": "c",
+        "explanation": "All the PHP scripts that use variables have variable names preceded by the dollar sign (\u2018$\u2019). The variables are signified by this identifier, irrespective of the value it stores."
+    },
+    {
+        "question": "Which data type is best suited to store currency values?",
+        "options": [
+            "a) INT",
+            "b) FLOAT",
+            "c) DOUBLE",
+            "d) DECIMAL"
+        ],
+        "answer": "d",
+        "explanation": "Currency is a numeric information. For monetary calculations, FLOAT and DOUBLE are subject to rounding error and may not be suitable. A DECIMAL(M, 2) type is best suited for it."
+    }
+]

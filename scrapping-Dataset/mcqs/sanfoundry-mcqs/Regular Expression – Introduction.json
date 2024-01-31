@@ -1,0 +1,112 @@
+[
+    {
+        "question": "L is a regular Language if and only If the set of __________ classes of IL is finite.",
+        "options": [
+            "a) Equivalence",
+            "b) Reflexive",
+            "c) Myhill",
+            "d) Nerode"
+        ],
+        "answer": "a",
+        "explanation": "According to Myhill Nerode theorem, the corollary proves the given statement correct for equivalence classes."
+    },
+    {
+        "question": "A language can be generated from simple primitive language in a simple way if and only if",
+        "options": [
+            "a) It is recognized by a device of infinite states",
+            "b) It takes no auxiliary memory",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A language is regular if and only if it can be accepted by a finite automaton. Secondly, It supports no concept of auxiliary memory as it loses the data as soon as the device is shut down."
+    },
+    {
+        "question": " Which of the following does not represents the given language?",
+        "options": [
+            "a) 0+01",
+            "b) {0} U {01}",
+            "c) {0} U {0}{1}",
+            "d) {0} ^ {01}"
+        ],
+        "answer": "d",
+        "explanation": "The given option represents {0, 01} in different forms using set operations and Regular Expressions. The operator like ^, v, etc. are logical operation and they form invalid regular expressions when used."
+    },
+    {
+        "question": "According to the given language, which among the following expressions does it corresponds to?",
+        "options": [
+            "a) (0+1+0+1+0+1+0+1)",
+            "b) (0+1)",
+            "c) (01)",
+            "d) (0+1+\u03b5)"
+        ],
+        "answer": "d",
+        "explanation": "The extended notation would be (0+1)"
+    },
+    {
+        "question": "Which among the following looks similar to the given expression?",
+        "options": [
+            "a) {x\u03f5 {0,1} *|x is all binary number with even length}",
+            "b) {x\u03f5 {0,1} |x is all binary number with even length}",
+            "c) {x\u03f5 {0,1} *|x is all binary number with odd length}",
+            "d) {x\u03f5 {0,1} |x is all binary number with odd length}"
+        ],
+        "answer": "a",
+        "explanation": "The given regular expression corresponds to a language of binary strings which is of even length including a length of 0."
+    },
+    {
+        "question": "If R represents a regular language, which of the following represents the Venn-diagram most correctly?",
+        "options": [
+            "a) An Irregular Set",
+            "b) R*",
+            "c) R complement",
+            "d) R reverse"
+        ],
+        "answer": "b",
+        "explanation": "The given diagram represents the Kleene operation over the Regular Language R in which the final states become the initial and the initial state becomes final."
+    },
+    {
+        "question": "The given NFA corresponds to which of the following Regular expressions?",
+        "options": [
+            "a) (0+1) *(00+11) (0+1) *",
+            "b) (0+1) *(00+11) *(0+1) *",
+            "c) (0+1) *(00+11) (0+1)",
+            "d) (0+1) (00+11) (0+1) *"
+        ],
+        "answer": "a",
+        "explanation": "The transition states shown are the result of breaking down the given regular expression in fragments. For dot operation, we change a state, for union (plus) operation, we diverge into two transitions and for Kleene Operation, we apply a loop."
+    },
+    {
+        "question": "Concatenation Operation refers to which of the following set operations:",
+        "options": [
+            "a) Union",
+            "b) Dot",
+            "c) Kleene",
+            "d) Two of the options are correct"
+        ],
+        "answer": "b",
+        "explanation": "Two operands are said to be performing Concatenation operation AB = A\u2022B = {xy: x \u2208 A & y \u2208 B}."
+    },
+    {
+        "question": "Concatenation of R with \u0424 outputs:",
+        "options": [
+            "a) R",
+            "b) \u0424",
+            "c) R.\u0424",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By distributive property (Regular expression identities), we can prove the given identity to be \u0424."
+    },
+    {
+        "question": "RR* can be expressed in which of the forms:",
+        "options": [
+            "a) R+",
+            "b) R-",
+            "c) R+ U R-",
+            "d) R"
+        ],
+        "answer": "a",
+        "explanation": "RR*=R+ as R+ means the occurrence to be at least once."
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Which of the following represents DeSCRIPTOR specification?",
+        "options": [
+            "a) Program component decomposition and component relationships are shown in static models, such as class diagrams",
+            "b) Packaging and implementation specifications, particularly as they relate to information hiding",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Program component decomposition (De) and component relationships(R) are shown in static models, such as class diagrams."
+    },
+    {
+        "question": "Which of the following represents PAID specification?",
+        "options": [
+            "a) Component properties are documented in text",
+            "b) Operation specifications, which elaborate operation responsibilities and state operation interfaces",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Operation specifications, which elaborate operation responsibilities (R)and state operation interfaces (I)."
+    },
+    {
+        "question": "What is a program entity?",
+        "options": [
+            "a) A program entity is anything in a program that is treated as a unit",
+            "b) Variables, constants, sub-programs, packages, classes, attributes and operations are all examples of program entities",
+            "c) Most programming languages allow various kinds of program entities",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A program entity is anything in a program that is treated as a unit. Variables, constants, sub-programs, packages, classes, attributes, and operations are all examples of program entities and Most programming languages allow various kinds of program entities."
+    },
+    {
+        "question": "What is a name and which of the following is true?",
+        "options": [
+            "a) A name is an identifier bound to a program entity",
+            "b) Virtually every programming language will not supports variable and sub-programming",
+            "c) It is not be possible to refer to a particular entity by name at various points of a program\u2019s text",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It may or may not be possible to refer to a particular entity by name at various points of a program\u2019s text."
+    },
+    {
+        "question": "What is visibility?",
+        "options": [
+            "a) A program entity at a point in a program text if it can be referred to by name at that point",
+            "b) The portion of a text over which a program entity is visible",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A program entity is visible at a point in a program text if it can be referred to by name at that point and The portion of a text over which a program entity is visible is its visibility."
+    },
+    {
+        "question": "What are the Object oriented visibility?",
+        "options": [
+            "a) Private and Package",
+            "b) Protected",
+            "c) Public",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Types of object oriented visibility- Private, Packaged, Protected and Public."
+    },
+    {
+        "question": "Which of the following are of non-local form ?",
+        "options": [
+            "a) Private",
+            "b) Protected and Packaged",
+            "c) Public",
+            "d) Public, Protected and Packaged"
+        ],
+        "answer": "d",
+        "explanation": "Private is of local form rest others are non-local forms."
+    },
+    {
+        "question": "When is a program accessible?",
+        "options": [
+            "a) A program entity at a point in a program text if it can be used at that point",
+            "b) A variable is a programming language device for storing values",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " A program entity is accessible at a point in a program text if it can be used at that point."
+    },
+    {
+        "question": "What is reference?",
+        "options": [
+            "a) It is an expression that evaluates to an address where a value is stored",
+            "b) It is a variable with the same address as another variable",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A reference is an expression that evaluates to an address where a value is stored and An alias is a variable with the same address as another variable."
+    },
+    {
+        "question": "When is a variable called extending access beyond visibility?",
+        "options": [
+            "a) Passing a reference as an argument",
+            "b) Passing an argument by reference (which uses aliasing)",
+            "c) Returning a reference from a sub-program",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Making a variable accessible in a portion of a program where it is not visible is called extending access beyond visibility while Passing a reference as an argument, Passing an argument by reference (which uses aliasing), Returning a reference from a sub-program."
+    },
+    {
+        "question": "What does Information Hiding mean?",
+        "options": [
+            "a) The key technique for is to restrict access to program entities as much as possible",
+            "b) It is an expression that evaluates to an address where a value is stored",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The key technique for hiding information is to restrict access to program entities as much as possible."
+    },
+    {
+        "question": "Which of the following are the strategies for restricting access to program entities?",
+        "options": [
+            "a) Limiting Visibility",
+            "b) Not Extending Access",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Restricting access to program entities relies on two strategies-Limiting Visibility and Not Extending Access."
+    },
+    {
+        "question": "What are the heuristics for information hiding?",
+        "options": [
+            "a) Restrict the scope of declarations to the smallest possible program segment",
+            "b) Make class attributes at least protected and preferably private",
+            "c) Avoid global visibility",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are the heuristics followed for information hiding."
+    },
+    {
+        "question": "What are the heuristics for information hiding under don\u2019t extend access?",
+        "options": [
+            "a) Don\u2019t pass or return references to class attributes\u2014pass or return defensive copies instead.",
+            "b) Don\u2019t pass parameters by reference",
+            "c) Don\u2019t make aliases",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are the heuristics followed for information hiding under don\u2019t extend access."
+    }
+]

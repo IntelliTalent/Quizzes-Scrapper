@@ -1,0 +1,145 @@
+[
+    {
+        "question": "Transaction capabilities are built on top of the first class support already provided by the core Spring framework.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Where relevant, Spring Batch surfaces the configuration so that you can control it."
+    },
+    {
+        "question": "Spring core framework provides first-class support for transactions.",
+        "options": [
+            "a) Transaction",
+            "b) TransactionManager",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You simply wire up a TransactionManager and give Spring Batch a reference, just as you would in any regular JdbcTemplate or HibernateTemplate solution."
+    },
+    {
+        "question": "The batch.xml file establishes a:-",
+        "options": [
+            "a) BasicDataSource",
+            "b) DataSourceTransactionManager",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The TransactionManager and BasicDataSource were then wired to the JobRepository, which was in turn wired to the JobLauncher, which you used to launch all jobs thus far."
+    },
+    {
+        "question": "Spring Batch will, by default, try to pluck the:-",
+        "options": [
+            "a) PlatformTransactionManager",
+            "b) transactionManager",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The transaction manager reference can be specified, but in your solutions, it wasn\u2019t required because Spring Batch will, by default, try to pluck the PlatformTransactionManager named transactionManager from the context and use it."
+    },
+    {
+        "question": "Spring Batch excels in the robustness it surfaces as simple configuration options for the edge and failure cases.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If a write fails on an ItemWriter, or some other exception occurs in processing, Spring Batch will rollback the transaction."
+    },
+    {
+        "question": "Element to configure this for the step:-",
+        "options": [
+            "a) no-rollback-exception-classes",
+            "b) no-rollback-exception",
+            "c) no-rollback",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use the no-rollback-exception-classes element to configure this for the step. The value is a list of Exception classes that should not cause the transaction to roll back."
+    },
+    {
+        "question": "no-rollback-exception-classes element Exception classes that should not cause the transaction to roll back.",
+        "options": [],
+        "answer": "a",
+        "explanation": "You can use the no-rollback-exception-classes element to configure this for the step. The value is a list of Exception classes that should not cause the transaction to roll back."
+    },
+    {
+        "question": "You want to work with a resource that may fail when you try to read from or write to it.",
+        "options": [
+            "a) TransactionManager",
+            "b) Transaction",
+            "c) Spring batch retry",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use Spring Batch retry capabilities to systematically retry the read or write."
+    },
+    {
+        "question": " Some invocations will fail but may be retried with some likelihood of success in a transactional scenario.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For example, an update to the database resulting in org.springframework.dao.DeadlockLoserDataAccessException might be usefully retried."
+    },
+    {
+        "question": "You can specify exception classes on which to retry the operation.",
+        "options": [],
+        "answer": "a",
+        "explanation": "As with the rollback exceptions, you can delimit this list of exceptions with newlines or commas."
+    },
+    {
+        "question": "You can leverage Spring Batch support for retries and recovery in your own code.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For example, you can have a custom ItemWriter"
+    },
+    {
+        "question": "The template that (much like its various other Template cousins) isolates your logic from the nuances of retries and instead enables you to write the code as though you were only going to attempt it once.",
+        "options": [
+            "a) Retry",
+            "b) RetryTemplate",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring Batch supports these scenarios through the RetryTemplate that (much like its various other Template cousins) isolates your logic from the nuances of retries and instead enables you to write the code as though you were only going to attempt it once."
+    },
+    {
+        "question": "The RetryTemplate supports many use cases, with convenient APIs to wrap.",
+        "options": [
+            "a) True",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Otherwise tedious retry/fail/recover cycles in concise, single-method invocations."
+    },
+    {
+        "question": "The RetryTemplate itself is configured in the Spring context, although it\u2019s trivial to create in code.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "I declare it in the Spring context only because there is some surface area for configuration when creating the object, and I try to let Spring handle the configuration."
+    },
+    {
+        "question": "One of the more useful settings for the RetryTemplate is the :-",
+        "options": [
+            "a) BackOff",
+            "b) Back",
+            "c) BackOffPolicy",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "BackOffPolicy dictates how long the RetryTemplate should back off between retries."
+    }
+]

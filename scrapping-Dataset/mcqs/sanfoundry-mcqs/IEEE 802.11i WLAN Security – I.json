@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What was the security algorithm defined for the IEEE 802.11?",
+        "options": [
+            "a) WEP",
+            "b) RSN",
+            "c) WPA",
+            "d) SSL"
+        ],
+        "answer": "a",
+        "explanation": "Wired Equivalency Privacy was the security algorithm defined for the IEEE 802.11."
+    },
+    {
+        "question": "The final form of the 802.11i standard is referred to as \u2013",
+        "options": [
+            "a) Wi-Fi Protected Access",
+            "b) Robust Security Network",
+            "c) Wired Equivalency Privacy",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The final form of the 802.11i standard is the Robust Security Network (RSN)."
+    },
+    {
+        "question": "EAP stands for \u2013",
+        "options": [
+            "a) Extended Application Protocol",
+            "b) Extensible Authentication Protocol",
+            "c) Embedded Application Protocol",
+            "d) Embedded Authentication Protocol"
+        ],
+        "answer": "b",
+        "explanation": "EAP stands for Extensible Authentication Protocol."
+    },
+    {
+        "question": "TKIP is an access control protocol.",
+        "options": [
+            "a) True",
+            "b)  False"
+        ],
+        "answer": "b",
+        "explanation": "TKIP stands for Temporal Key Integrity Protocol and falls under \u201cConfidentiality, Data Origin Authentication and Integrity and Replay Protection.\u201d"
+    },
+    {
+        "question": "In which phase of operation does the STA and AS prove their identities to each other?",
+        "options": [
+            "a) Discovery",
+            "b) Authentication",
+            "c) Key generation and distribution",
+            "d) Protected data transfer"
+        ],
+        "answer": "b",
+        "explanation": "The STA and AS prove their identities to each other in the Authentication phase."
+    },
+    {
+        "question": "The specification of a protocol, along with the chosen key length (if variable) is known as \u2013",
+        "options": [
+            "a) cipher suite",
+            "b) system suite",
+            "c) key set",
+            "d) service set"
+        ],
+        "answer": "a",
+        "explanation": "The specification of a protocol, along with the chosen key length (if variable) is known as cipher suite."
+    },
+    {
+        "question": "Which the 3rd phase of operation in the IEEE 802.11i Protocol?",
+        "options": [
+            "a) Protected Data Transfer",
+            "b) Discovery",
+            "c) Authentication",
+            "d) Key Management"
+        ],
+        "answer": "d",
+        "explanation": "Key management is the 3rd Phase of operation in the IEEE 802.11i Protocol."
+    },
+    {
+        "question": "Which phase uses the Extensible Authentication Protocol?",
+        "options": [
+            "a) Discovery",
+            "b) Authentication",
+            "c) Key Management",
+            "d) Protected Data Transfer"
+        ],
+        "answer": "b",
+        "explanation": "EAP belongs to the Authentication Phase and is defined in the IEEE 802.1X standard."
+    },
+    {
+        "question": "There are a number of possible EAP exchanges that can be used during authentication phase. Typically the message flow between the STA and AP employs the ___________ protocol.",
+        "options": [
+            "a) RADUIS",
+            "b) EAPOL",
+            "c) TKIP",
+            "d) KSN"
+        ],
+        "answer": " b",
+        "explanation": "The message flow between the STA and AP employs the EAP over LAN (EAPOL) protocol."
+    },
+    {
+        "question": "Another name for the AAA key (Authentication, Authorization and Accounting Key) is \u2013",
+        "options": [
+            "a) pre-shared key",
+            "b) pairwise transient key",
+            "c) master session key",
+            "d) key conformation key"
+        ],
+        "answer": "c",
+        "explanation": "The AAA key (Authentication, Authorization  and Accounting Key) is also known as master session key."
+    }
+]

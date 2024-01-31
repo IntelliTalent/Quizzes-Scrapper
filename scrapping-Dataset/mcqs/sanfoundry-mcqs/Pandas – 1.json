@@ -1,0 +1,108 @@
+[
+    {
+        "question": "All pandas data structures are ___ mutable but not always _______mutable.",
+        "options": [
+            "a) size, value",
+            "b) semantic, size",
+            "c) value, size",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The length of a Series cannot be changed."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Pandas consist of set of labeled array data structures",
+            "b) Pandas consist of an integrated group by engine for aggregating and transforming data sets",
+            "c) Pandas consist of moving window statistics",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Some elements may be close to one another according to one distance and farther away according to another."
+    },
+    {
+        "question": "Which of the following statement will import pandas?",
+        "options": [
+            "a) import pandas as pd",
+            "b) import panda as py",
+            "c) import pandaspy as pd",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can read data from a CSV file using the read_csv function."
+    },
+    {
+        "question": "Which of the following object you get after reading CSV file?",
+        "options": [
+            "a) DataFrame",
+            "b) Character Vector",
+            "c) Panel",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You get columns out of a DataFrame the same way you get elements out of a dictionary."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Series is 1D labeled homogeneously-typed array",
+            "b) DataFrame is general 2D labeled, size-mutable tabular structure with potentially heterogeneously-typed columns",
+            "c) Panel is generally 2D labeled, also size-mutable array",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Panel is generally 3D labeled."
+    },
+    {
+        "question": "Which of the following library is similar to Pandas?",
+        "options": [
+            "a) NumPy",
+            "b) RPy",
+            "c) OutPy",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "NumPy is the fundamental package for scientific computing with Python."
+    },
+    {
+        "question": "Panel is a container for Series, and DataFrame is a container for dataFrame objects.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "DataFrame is a container for Series, and panel is a container for dataFrame objects."
+    },
+    {
+        "question": "Which of the following is prominent python \u201cstatistics and econometrics library\u201d?",
+        "options": [
+            "a) Bokeh",
+            "b) Seaborn",
+            "c) Statsmodels",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Bokeh is a Python interactive visualization library for large datasets that natively uses the latest web technologies."
+    },
+    {
+        "question": "Which of the following is a foundational exploratory visualization package for the R language in pandas ecosystem?",
+        "options": [
+            "a) yhat",
+            "b) Seaborn",
+            "c) Vincent",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It has great support for pandas data objects."
+    },
+    {
+        "question": "Pandas consist of static and moving window linear and panel regression.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Time series and cross-sectional data are special cases of panel data."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is shortcut for DUMP operator?",
+        "options": [
+            "a) \\de alias",
+            "b) \\d alias",
+            "c) \\q",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If alias is ignored last defined alias will be used."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Invoke the Grunt shell using the \u201center\u201d command",
+            "b) Pig does not support jar files",
+            "c) Both the run and exec commands are useful for debugging because you can modify a Pig script in an editor",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Both commands promote Pig script modularity as they allow you to reuse existing components."
+    },
+    {
+        "question": "Which of the following command is used to show values to keys used in Pig?",
+        "options": [
+            "a) set",
+            "b) declare",
+            "c) display",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "All Pig and Hadoop properties can be set, either in the Pig script or via the Grunt command line."
+    },
+    {
+        "question": "Use the __________ command to run a Pig script that can interact with the Grunt shell (interactive mode).",
+        "options": [
+            "a) fetch",
+            "b) declare",
+            "c) run",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "With the run command, every store triggers execution."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You can run Pig scripts from the command line and from the Grunt shell",
+            "b) DECLARE defines a Pig macro",
+            "c) Use Pig scripts to place Pig Latin statements and Pig commands in a single file",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "DEFINE defines a Pig macro."
+    },
+    {
+        "question": "Which of the following command can be used for debugging?",
+        "options": [
+            "a) exec",
+            "b) execute",
+            "c) error",
+            "d) throw"
+        ],
+        "answer": "a",
+        "explanation": "With the exec command, store statements will not trigger execution; rather, the entire script is parsed before execution starts."
+    },
+    {
+        "question": "Which of the following file contains user defined functions (UDFs)?",
+        "options": [
+            "a) script2-local.pig",
+            "b) pig.jar",
+            "c) tutorial.jar",
+            "d) excite.log.bz2"
+        ],
+        "answer": "c",
+        "explanation": "tutorial.jar contains java classes also."
+    },
+    {
+        "question": "Which of the following is correct syntax for parameter substitution using cmd?",
+        "options": [
+            "a) pig {-param param_name = param_value | -param_file file_name} [-debug | -dryrun] script",
+            "b) {%declare | %default} param_name param_value",
+            "c) {%declare | %default} param_name param_value cmd",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Parameter Substitution is used to substitute values for parameters at run time."
+    },
+    {
+        "question": "You can specify parameter names and parameter values in one of the ways?",
+        "options": [
+            "a) As part of a command line.",
+            "b) In parameter file, as part of a command line",
+            "c) With the declare statement, as part of Pig script",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Parameter substitution may be used inside of macros."
+    },
+    {
+        "question": "_________ are scanned in the order they are specified on the command line.",
+        "options": [
+            "a) Command line parameters",
+            "b) Parameter files",
+            "c) Declare and default preprocessors",
+            "d) Both parameter files and command line parameters"
+        ],
+        "answer": "d",
+        "explanation": "Parameters and command parameters are scanned in FIFO manner."
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "question": "1) Which of the following are the main components of Backbone.js?",
+        "options": [
+            "Model",
+            "View",
+            "Collection",
+            "All of the above"
+        ],
+        "answer": "Answer: D is the correct option. All of the above are the main components of Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "2) What are the key points of Backbone.js?",
+        "options": [
+            "js has a hard dependency with underscore.js to make it more functional and supporting.",
+            "With jQuery, Backbone.js has a soft dependency.",
+            "When the model changes, it can update the HTML of your application automatically.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above are the key points of Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "3) What is the usage of ModelBinder in Backbone.js?",
+        "options": [
+            "The ModelBinder class is used to make a synchronization process of views and models together.",
+            "The ModelBinder class is used to handle routers.",
+            "The ModelBinder class is used to hide the models and views.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. The ModelBinder class is used to make a synchronization process of views and models together.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "4) What are the configuration options available in Backbone.js?",
+        "options": [
+            "InitialCopyDirection",
+            "ModelSetOptions",
+            "Change Triggers",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above are the configuration options available in Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "5) How does Backbone.js decide if it should use POST/GET/ Request to the Server and what methods Backbone has reserved for these Operations?",
+        "options": [
+            "If we instantiate a model with an id, Backbone.js automatically performs a GET request to the urlRoot + '/id' using the fetch() method.",
+            "If the id attribute of the model is null, Backbone.js sends a POST request to the urlRoot of the Server using the save() method.",
+            "If the id attribute of the model is not null, Backbone.js sends a PUT request instead of a POST request using the save() method.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option because all of the above statements are true.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "6) What are the Events in Backbone.js?",
+        "options": [
+            "The events are modules in Backbone.js that can be mixed into any object.",
+            "They give the object the ability to bind and trigger custom-named events.",
+            "Events reflect the state of the model.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following models can be created by extending Backbone.js?",
+        "options": [
+            "var Todo = Backbone.Model.extend({}); var todo1 = new Todo(); console.log(JSON.stringify(todo11)); var todo = new Todo({ title: 'Check the attributes of both model instances in the console.', completed: true }); console.log(JSON.stringify(todo2));",
+            "var Todo = Backbone.Model.extend({}); var todo1 = new Todo(); console.log(JSON.stringify(todo1)); var todo2 = new Todo({ title: 'Check the attributes of both model instances in the console.', completed: true }); console.log(JSON.stringify(todo2));",
+            "var Todo = Backbone.Model.extend({}); var todo1 = new Todo(); console.log(JSON.stringify(todo11)); var todo = new Todo({ title: 'Check the attributes of both model instances in the console.', completed: true }); console.log(JSON.stringify(todo2)); =",
+            "All of the above."
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "8) What is the view in Backbone.js?",
+        "options": [
+            "Views are not HTML.",
+            "It is a description of a model.",
+            "The HTML code comes from templates.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above options specify the view in Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "9) What are the three js files that are required to set up Backbone.js?",
+        "options": [
+            "jQuery, Backbone.js, Underscore",
+            "JavaScript, jQuery, js",
+            "Underscore, JavaScript, jQuery",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. The three js files required to set up Backbone.js are jQuery, Backbone.js, Underscore, etc.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "10) What is the usage of Backbone.sync?",
+        "options": [
+            "When Backbone.js wants to save or read a model to the Server, it calls out a function called Backbone.sync.",
+            "When Backbone wants to save or read a view to the Server, it calls out a function called Backbone.sync.",
+            "When Backbone wants to save or read an event to the Server it calls out a function called Backbone.sync.",
+            "All of the above."
+        ],
+        "answer": "Answer: A is the correct answer. When Backbone.js wants to save or read a model to the Server, it calls out a function called Backbone.sync.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "11) What are the most powerful functionalities of Modelbinder in Backbone.js?",
+        "options": [
+            "Modelbinder allows the developer to define the scope when binding is created using J-Query.",
+            "In some of the cases, we can rely on the default scoping rules based on the name attribute of HTML.",
+            "The scoping rules can be redefined if the views are complex.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above are the most powerful functionalities of Modelbinder in Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "12) What is Converter in Backbone.js?",
+        "options": [
+            "When a model's attribute is copied to an HTML element or when an HTML element's value is copied into a model's attribute, a function is called; this function is known as a converter in Backbone Js.",
+            "The converter is an interface describing a Java class that can perform Object-to-String and String-to-Object conversions between model data objects and a String representation of those objects.",
+            "Converters are the type of compilers that are used to convert one programming language into another.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. When a model's attribute is copied to an HTML element or when an HTML element's value is copied into a model's attribute, a function is called; this function is known as a converter in Backbone Js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the following code should we use to define a root route?",
+        "options": [
+            "Route = Backbone.Router.extend({ route: { \": 'index' }, index: function(){ $(document.body).append(\"root index route\"); } });",
+            "Router = Backbone.Router.extend({ routes: { \": 'index' }, index: function(){ $(document.body).append(\"root index route\"); } });",
+            "Router = Backbone.Route.extend({ route: { \": 'index' }, index: function(){ $(document.body).append(\"root index route\"); } });",
+            "All of the above."
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "14) Which of the following are the functions of Tojson?",
+        "options": [
+            "Tojson returns a shallow copy of the model's attribute for JSON stringification.",
+            "The Tojson function is used for persistence, serialization, and for augmentation before being sent to the server.",
+            "Tojson does not return a JSON string.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above are the functions of Tojson.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "15) The sync method is called with the following parameters?",
+        "options": [
+            "Model",
+            "Method",
+            "Options",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. The sync method is called with all of the above parameters.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following are the built-in events in Backbone.js?",
+        "options": [
+            "map",
+            "every",
+            "sort",
+            "each"
+        ],
+        "answer": "Answer: C is the correct option. The sort is the built-in events in Backbone.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "17) What are the typical problems you might face with the Backbone.js view code?",
+        "options": [
+            "The application models don't change very often.",
+            "Application pages are frequently refreshed from scratch from the server.",
+            "Models are not shared between different views.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. All of the above are typical problems you might face with the Backbone.js view code.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following code is used to fetch with sending id?",
+        "options": [
+            "var Type = Backbone.Model.extend({ url : \"/api/SomeRoute\" });",
+            "var Type = Backbone.Model.extend({ urlRoot : \"/api/SomeRoute\" });",
+            "Both of the above.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "19) Which of the following code is used when the model or collection is synchronized successfully with the server?",
+        "options": [
+            "\"change:[attribute]\"(model, value, options)",
+            "\"destroy\"(model, collection, options)",
+            "\"request\"(model_or_collection, xhr, options)",
+            "\"sync\"(model_or_collection, resp, options)"
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "20) Which of the following code should you use to get only the first 20 items in a backbone collection?",
+        "options": [
+            "first(20)",
+            "first(collection, 20)",
+            "collection(20)",
+            "All of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

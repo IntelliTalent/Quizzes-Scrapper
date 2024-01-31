@@ -1,0 +1,116 @@
+[
+    {
+        "question": "AES uses a ____________ bit block size and a key size of __________ bits.",
+        "options": [
+            "a) 128; 128 or 256",
+            "b) 64; 128 or 192",
+            "c) 256; 128, 192, or 256",
+            "d) 128; 128, 192, or 256"
+        ],
+        "answer": "d",
+        "explanation": "It uses a 128-bit block size and a key size of 128, 192, or 256 bits."
+    },
+    {
+        "question": "Like DES, AES also uses Feistel Structure.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "AES does not use a Feistel structure. Instead, each full round consists of four separate functions:"
+    },
+    {
+        "question": "Which one of the following is not a cryptographic algorithm- JUPITER, Blowfish, RC6, Rijndael and Serpent?",
+        "options": [
+            "a) JUPITER",
+            "b) Blowfish",
+            "c) Serpent",
+            "d) Rijndael"
+        ],
+        "answer": "a",
+        "explanation": "JUPITER is not a cryptographic algorithm."
+    },
+    {
+        "question": "Which algorithm among- MARS, Blowfish, RC6, Rijndael and Serpent -was chosen as the AES algorithm?",
+        "options": [
+            "a) MARS",
+            "b) Blowfish",
+            "c) RC6",
+            "d) Rijndael"
+        ],
+        "answer": "a",
+        "explanation": "In October 2000 the Rijndael algorithm was selected as the winner and NIIST officially announced that Rijndael has been chosen as Advanced Encryption Standard (AES) in November 2001."
+    },
+    {
+        "question": "How many rounds does the AES-192 perform?",
+        "options": [
+            "a) 10",
+            "b) 12",
+            "c) 14",
+            "d) 16"
+        ],
+        "answer": "b",
+        "explanation": "AES 192 performs 12 rounds."
+    },
+    {
+        "question": "What is the expanded key size of AES-192?",
+        "options": [
+            "a) 44 words",
+            "b) 60 words",
+            "c) 52 words",
+            "d) 36 words"
+        ],
+        "answer": "c",
+        "explanation": "AES-192 has an expanded key size of 52 words."
+    },
+    {
+        "question": "The 4\u00d74 byte matrices in the AES algorithm are called",
+        "options": [
+            "a) States",
+            "b) Words",
+            "c) Transitions",
+            "d) Permutations"
+        ],
+        "answer": "a",
+        "explanation": "The matrices are called states."
+    },
+    {
+        "question": "In AES the 4\u00d74 bytes matrix key is transformed into a keys of size __________",
+        "options": [
+            "a) 32 words",
+            "b) 64 words",
+            "c) 54 words",
+            "d) 44 words"
+        ],
+        "answer": "d",
+        "explanation": "In AES the 4\u00d74 bytes matrix key is transformed into a keys of size 44 bytes."
+    },
+    {
+        "question": "For the AES-128 algorithm there are __________ similar rounds and _________ round is different.",
+        "options": [
+            "a) 2 pair of 5 similar rounds ; every alternate",
+            "b) 9 ; the last",
+            "c) 8 ; the first and last",
+            "d) 10 ; no"
+        ],
+        "answer": "b",
+        "explanation": "In the AES-128 there are 9 similar rounds and the last round is different."
+    },
+    {
+        "question": "Which of the 4 operations are false for each round in the AES algorithm",
+        "options": [
+            "i) Substitute Bytes"
+        ],
+        "answer": "b",
+        "explanation": "AES rounds involve substitute bytes, shift rows, mix columns and addition of round key."
+    },
+    {
+        "question": "There is an addition of round key before the start of the AES round algorithms.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In AES the final round contains only three transformations, and there is an initial single transformation (Add Round Key) before the first round which can be considered Round 0. Each transformation takes 4\u00d74 matrixes as input and produces a 4\u00d74 matrix as output."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Replica sets provide high availability using automatic ________",
+        "options": [
+            "a) failover",
+            "b) replication",
+            "c) failure",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Failover, in most situations does not require manual intervention."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) When the primary rejoins the set as a secondary, it reverts, or \u201crolls back,\u201d its write operations to maintain database consistency with the other members",
+            "b) A rollback is necessary only if the primary had accepted write operations that the secondaries had not successfully replicated before the primary stepped down",
+            "c) MongoDB attempts for rollbacks, which should be rare",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When a rollback does occur, it is often the result of a network partition."
+    },
+    {
+        "question": "Failover allows a ________ member to become primary if primary is unavailable.",
+        "options": [
+            "a) Hidden",
+            "b) Primary",
+            "c) ViewState",
+            "d) Secondary"
+        ],
+        "answer": "d",
+        "explanation": "Replica set members keep the same data set but are otherwise independent."
+    },
+    {
+        "question": "Sometimes the failover process may require a ____________ during operation.",
+        "options": [
+            "a) savepoint",
+            "b) rollback",
+            "c) commit",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A rollback reverts write operations on a former primary when the member rejoins its replica set after a failover."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A rollback does not occur if the write operations replicate to another member of the replica set before the primary steps down",
+            "b) Secondaries that can not keep up with the throughput of operations on the former primary, decrease the size and impact of the rollback",
+            "c) Fault tolerance is an effect of replica set size, but the relationship is not direct",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When a rollback does occur, administrators must decide whether to apply or ignore the rollback data."
+    },
+    {
+        "question": "MongoDB writes the rollback data to BSON files in the rollback/ folder under the database\u2019s ________ directory.",
+        "options": [
+            "a) dbPath",
+            "b) logPath",
+            "c) dataPath",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The storage.dbPath setting is available only for mongod."
+    },
+    {
+        "question": "The names of rollback files have the following form.",
+        "options": [
+            "a) <database>.<collection>.<timestamp>.bson.",
+            "b) <database>.<collection>.<tp>.bson.",
+            "c) <database>.<collection>.<timestamp>.json.",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Administrators must apply rollback data manually after the member completes the rollback and returns to secondary status."
+    },
+    {
+        "question": "_________ is used to read the contents of the rollback files.",
+        "options": [
+            "a) bsondumpdata",
+            "b) bsondp",
+            "c) bsondump",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The bsondump converts BSON files into human-readable formats, including JSON."
+    },
+    {
+        "question": "Use ______ to apply the changes to the new primary after rollback.",
+        "options": [
+            "a) mongostore",
+            "b) mongorestore",
+            "c) restore",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mongorestore program writes data from a binary database dump created by mongodump to a MongoDB instance."
+    },
+    {
+        "question": "mongorestore recreates indexes recorded by _____________",
+        "options": [
+            "a) bsondump",
+            "b) mongodump",
+            "c) mongostore",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The data format used by mongodump from version 2.2 or later is incompatible with earlier versions of mongod."
+    }
+]

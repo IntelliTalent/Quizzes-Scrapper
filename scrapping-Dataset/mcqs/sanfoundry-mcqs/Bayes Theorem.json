@@ -1,0 +1,101 @@
+[
+    {
+        "question": "A single card is drawn from a standard deck of playing cards. What is the probability that the card is a face card provided that a queen is drawn from the deck of cards?",
+        "options": [
+            "a) \\(\\frac{3}{13}\\)",
+            "b) \\(\\frac{1}{3}\\)",
+            "c) \\(\\frac{4}{13}\\)",
+            "d) \\(\\frac{1}{52}\\)"
+        ],
+        "answer": "b",
+        "explanation": " The probability that the card drawn is a queen = \\(\\frac{4}{52}\\), since there are 4 queens in a standard deck of 52 cards. If the event is \u201cthis card is a queen\u201d the prior probability P(queen) = \\(\\frac{4}{52} = \\frac{1}{13}\\). The posterior probability P(queen|face) can be calculated using Bayes theorem: P(king|face) = P(face|king)/P(face)*P(king). Since every queen is also a face card, P(face|queen) = 1. The probability of a face card is P(face) = (\\(\\frac{3}{13}\\)). [since there are 3 face cards in each suit (Jack, Queen, King)]. Using Bayes theorem gives P(queen|face) = \\(\\frac{13}{3}*\\frac{1}{13} = \\frac{1}{3}\\)."
+    },
+    {
+        "question": "Naina receives emails that consists of 18% spam of those emails. The spam filter is 93% reliable i.e., 93% of the mails it marks as spam are actually a spam and 93% of spam mails are correctly labelled as spam. If a mail marked spam by her spam filter, determine the probability that it is really spam.",
+        "options": [
+            "a) 50%",
+            "b) 84%",
+            "c) 39%",
+            "d) 63%"
+        ],
+        "answer": "a",
+        "explanation": "18% email are spam and 82% email are not spam. Now, 18% of mail marked as spam is spam and 82% mail marked as spam are not spam. By Bayes theorem the probability that a mail marked spam is really a spam = (Probability of being spam and being detected as spam)/(Probability of being detected as spam)  = (0.18 * 0.82)/(0.18 * 0.82) + (0.18 * 0.82) = 0.5 or 50%."
+    },
+    {
+        "question": "A meeting has 12 employees. Given that 8 of the employees is a woman, find the probability that all the employees are women?",
+        "options": [
+            "a) \\(\\frac{11}{23}\\)",
+            "b) \\(\\frac{12}{35}\\)",
+            "c) \\(\\frac{2}{9}\\)",
+            "d) \\(\\frac{1}{8}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Assume that the probability of an employee being a man or woman is (\\(\\frac{1}{2}\\)). By using Bayes\u2019 theorem: let B be the event that the meeting has 3 employees who is a woman and let A be the event that all employees are women. We want to find P(A|B) = \\(\\frac{P(B|A)*P(A)}{P(B)}\\). P(B|A) = 1, P(A) = \\(\\frac{1}{12}\\) and P(B) = \\(\\frac{8}{12}\\). So, P(A|B) = \\(\\frac{1*\\frac{1}{12}}{\\frac{8}{12}} = \\frac{1}{8}\\)."
+    },
+    {
+        "question": "A cupboard A has 4 red carpets and 4 blue carpets and a cupboard B has 3 red carpets and 5 blue carpets. A carpet is selected from a cupboard and the carpet is chosen from the selected cupboard such that each carpet in the cupboard is equally likely to be chosen. Cupboards A and B can be selected in \\(\\frac{1}{5}\\) and \\(\\frac{3}{5}\\) ways respectively. Given that a carpet selected in the above process is a blue carpet, find the probability that it came from the cupboard B.",
+        "options": [
+            "a) \\(\\frac{2}{5}\\)",
+            "b) \\(\\frac{15}{19}\\)",
+            "c) \\(\\frac{31}{73}\\)",
+            "d) \\(\\frac{4}{9}\\)"
+        ],
+        "answer": "b",
+        "explanation": "The probability of selecting a blue carpet = \\(\\frac{1}{5} * \\frac{4}{8} + \\frac{3}{5} * \\frac{5}{8} = \\frac{4}{40} + \\frac{15}{40} = \\frac{19}{40}\\). Probability of selecting a blue carpet from cupboard, P(B) = \\(\\frac{3}{5} * \\frac{5}{8} = \\frac{15}{40}\\). Given that a carpet selected in the above process is a blue carpet, the probability that it came from the cupboard A is = \\(\\frac{\\frac{15}{40}}{\\frac{19}{40}} = \\frac{15}{19}\\)."
+    },
+    {
+        "question": "Mangoes numbered 1 through 18 are placed in a bag for delivery. Two mangoes are drawn out of the bag without replacement. Find the probability such that all the mangoes have even numbers on them?",
+        "options": [
+            "a) 43.7%",
+            "b) 34%",
+            "c) 6.8%",
+            "d) 9.3%"
+        ],
+        "answer": "c",
+        "explanation": "The events are not independent. There will be a \\(\\frac{10}{18} = \\frac{5}{9}\\) chance that any of the mangoes in the bag is even. The probability that the first one is even is \\(\\frac{1}{2}\\), for the second mango, given that the first one was even, there are only 9 even numbered balls that could be drawn from a total of 17 balls, so the probability is \\(\\frac{9}{17}\\). For the third mango, since the first two are both odd, there are 8 even numbered mangoes that could be drawn from a total of 16 remaining balls and so the probability is \\(\\frac{8}{16}\\) and for fourth mango, the probability is = \\(\\frac{7}{15}\\). So the probability that all 4 mangoes are even numbered is \\(\\frac{10}{18}*\\frac{9}{17}*\\frac{8}{16}*\\frac{7}{16}\\) = 0.068 or 6.8%."
+    },
+    {
+        "question": "Suppose a fair eight-sided die is rolled once. If the value on the die is 1, 3, 5 or 7 the die is rolled a second time. Determine the probability that the sum of values that turn up is at least 8?",
+        "options": [
+            "a) \\(\\frac{32}{87}\\)",
+            "b) \\(\\frac{12}{43}\\)",
+            "c) \\(\\frac{6}{13}\\)",
+            "d) \\(\\frac{23}{64}\\)"
+        ],
+        "answer": "d",
+        "explanation": "Sample space consists of 8*8=64 events. While (8) has \\(\\frac{1}{8}\\) probability of occurrence, (1,7) has only \\(\\frac{1}{64}\\) probability. So, the required probability = \\(\\frac{1}{6} + (9 * \\frac{1}{64}) = \\frac{69}{192} = \\frac{23}{64}\\)."
+    },
+    {
+        "question": "A jar containing 8 marbles of which 4 red and 4 blue marbles are there. Find the probability of getting a red given the first one was red too.",
+        "options": [
+            "a) \\(\\frac{4}{13}\\)",
+            "b) \\(\\frac{2}{11}\\)",
+            "c) \\(\\frac{3}{7}\\)",
+            "d) \\(\\frac{8}{15}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Suppose, P (A) = getting a red marble in the first turn, P (B) = getting a black marble in the second turn. P (A) = \\(\\frac{4}{8}\\) and P (B) = \\(\\frac{3}{7}\\) and P (A and B) = \\(\\frac{4}{8}*\\frac{3}{7} = \\frac{3}{14}\\) P(B/A) = \\(\\frac{P(A \\,and \\,B)}{P(A)} = \\frac{\\frac{3}{14}}{\\frac{1}{2}} = \\frac{3}{7}\\)."
+    },
+    {
+        "question": "A bin contains 4 red and 6 blue balls and three balls are drawn at random. Find the probability such that both are of the same color.",
+        "options": [
+            "a) \\(\\frac{10}{28}\\)",
+            "b) \\(\\frac{1}{5}\\)",
+            "c) \\(\\frac{1}{10}\\)",
+            "d) \\(\\frac{4}{7}\\)"
+        ],
+        "answer": "b",
+        "explanation": "Total no of balls = 10. Number of ways drawing 3 balls at random out of 10 ="
+    },
+    {
+        "question": "A bucket contains 6 blue, 8 red and 9 black pens. If six pens are drawn one by one without replacement, find the probability of getting all black pens?",
+        "options": [
+            "a) \\(\\frac{8}{213}\\)",
+            "b) \\(\\frac{8}{4807}\\)",
+            "c) \\(\\frac{5}{1204}\\)",
+            "d) \\(\\frac{7}{4328}\\)"
+        ],
+        "answer": "b",
+        "explanation": "Total number of pens = 23, number of pens we have chosen = 6, total number of black pens = 9. According to the combination probability formula it states that"
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following function is good for the automatic splitting of names?",
+        "options": [
+            "a) split",
+            "b) strsplit",
+            "c) autsplit",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "strsplit split a character string or vector of character strings using a regular expression or a literal string."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) gsub is used for fixing character vectors",
+            "b) sub is used for finding values like grep",
+            "c) grep is used for fixing character vectors",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "sub and gsub is used for fixing character vectors."
+    },
+    {
+        "question": "Which of the following function is used for fixing character vectors?",
+        "options": [
+            "a) tolower",
+            "b) toUPPER",
+            "c) toLOWER",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It translates character to lowercase."
+    },
+    {
+        "question": "Which of the following metacharacter is used to refer to any character?",
+        "options": [
+            "a) %",
+            "b) @",
+            "c) .",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A dot in function name can mean any of the following: nothing at all; a separator between method and class in S3 method."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Variables with character values should be made less descriptive",
+            "b) Variables with character values should usually be made into factor variable",
+            "c) Common variables are used to apply transforms",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Variables with character values should be made more descriptive."
+    },
+    {
+        "question": "Which of the following is used for specifying character class with metacharacter?",
+        "options": [
+            "a) []",
+            "b) {}",
+            "c) /+",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can list set of characters to accept a given point in the match."
+    },
+    {
+        "question": "Which of the following signs are used to indicate repetition?",
+        "options": [
+            "a) #",
+            "b) *",
+            "c) \u2013",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "* and + are metacharacters for repetition of data."
+    },
+    {
+        "question": "Which of the following function is used for searching text strings by means of regular expression?",
+        "options": [
+            "a) grepd",
+            "b) grepl",
+            "c) gepexpr",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "grep, grepl, regexpr, gregexpr and regexec search for matches to argument pattern within each element of a character vector."
+    },
+    {
+        "question": "merge function is used for merging data frames.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "To merge two data frames horizontally, use the merge function."
+    }
+]

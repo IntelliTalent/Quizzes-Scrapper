@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ runs Demux parsers inside for convert unstructured data to semi-structured data, then load the key value pairs to HBase table.",
+        "options": [
+            "a) HCatWriter",
+            "b) HBWriter",
+            "c) HBaseWriter",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Demux parser class package, HBaseWriter uses hbase.demux.package to validate HBase for annotated demux parser classes."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) chukwa supports two different reliability strategies",
+            "b) chukwaCollector.asyncAcks.scantime affects how often collectors will check the filesystem for commits",
+            "c) chukwaCollector.asyncAcks.scanperiod defaults to thrice the rotation interval",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The first, default strategy, is as follows: collectors write data to HDFS, and as soon as the HDFS write call returns success, report success to the agent, which advances its checkpoint state."
+    },
+    {
+        "question": "The __________ streams chunks of data to HDFS, and write data in temp filename with .chukwa suffix.",
+        "options": [
+            "a) LocalWriter",
+            "b) SeqFileWriter",
+            "c) SocketTeeWriter",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When the file is completed writing, the filename is renamed with .done suffix. SeqFileWriter has the following configuration in chukwa-collector-conf.xml."
+    },
+    {
+        "question": "Conceptually, each _________ emits a semi-infinite stream of bytes, numbered starting from zero.",
+        "options": [
+            "a) Collector",
+            "b) Adaptor",
+            "c) Compactor",
+            "d) LocalWriter"
+        ],
+        "answer": "b",
+        "explanation": " A Chunk is a sequence of bytes, with some metadata. Several of these are set automatically by the Agent or Adaptors."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Filters use the same syntax as the Dump command",
+            "b) \u201cRAW\u201d will send the internal data of the Chunk, without any metadata, prefixed by its length encoded as a 32-bit int",
+            "c) Specifying \u201cWRITABLE\u201d will cause the chunks to be written using Hadoop Writable serialization framework",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "\u201cHEADER\u201d is similar to \u201cRAW\u201d, but with a one-line header in front of the content."
+    },
+    {
+        "question": "The _____________ allows external processes to watch the stream of chunks passing through the collector.",
+        "options": [
+            "a) LocalWriter",
+            "b) SeqFileWriter",
+            "c) SocketTeeWriter",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SocketTeeWriter listens on a port (specified by conf option chukwaCollector.tee.port, defaulting to 9094.)"
+    },
+    {
+        "question": "If demux is successful within ____________ attempts, archives the completed files in Chukwa.",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Demux MapReduce job is run on the data in demuxProcessing/mrInput."
+    },
+    {
+        "question": "Chukwa is ___________ data collection system for managing large distributed systems.",
+        "options": [
+            "a) open source",
+            "b) proprietary",
+            "c) service based",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Chukwa is built on top of the Hadoop Distributed File System (HDFS) and Map/Reduce framework and inherits Hadoop scalability and robustness."
+    },
+    {
+        "question": "Collectors write chunks to logs/*.chukwa files until a __________ MB chunk is reached.",
+        "options": [
+            "a) 64",
+            "b) 108",
+            "c) 256",
+            "d) 1024"
+        ],
+        "answer": "a",
+        "explanation": "PostProcessManager wakes up every few minutes and aggregates, orders and de-dups record files."
+    }
+]

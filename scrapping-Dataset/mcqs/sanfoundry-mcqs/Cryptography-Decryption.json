@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Suppose that there are two primes, P",
+        "options": [
+            "a) 13969, 13680",
+            "b) 5853, 23452",
+            "c) 7793, 34565",
+            "d) 17146, 69262"
+        ],
+        "answer": "a",
+        "explanation": "We know that, z = p"
+    },
+    {
+        "question": "________ can decrypt traffic to make it available to all other network security functions such as web proxies.",
+        "options": [
+            "a) SSL visibility appliances",
+            "b) RSA appliances",
+            "c) Rodriguez cipher system",
+            "d) Standard cipher system"
+        ],
+        "answer": "a",
+        "explanation": "In the data loss prevention systems, Web proxies and antivirus network security functions, SSL visibility appliances decrypt traffic to make it available for all networks."
+    },
+    {
+        "question": "The ROT13 caesar cipher system has an offset of ___________",
+        "options": [
+            "a) 13",
+            "b) 45",
+            "c) 71",
+            "d) 37"
+        ],
+        "answer": "a",
+        "explanation": "The ROT13 Caesar cipher system has an offset of 13 and it is one of the comprehensive cipher scheme. However, the Vigenere cipher employs Caesar cipher as one element of the encryption process."
+    },
+    {
+        "question": "In a public key system, the cipher text received is C = 10 if RSA encryption used with a public key(e = 11, n = 77) to deduce the plain text. Determine the value of \u03d5(n)?",
+        "options": [
+            "a) 49",
+            "b) 60",
+            "c) 123",
+            "d) 70"
+        ],
+        "answer": "b",
+        "explanation": "Given n = 77, that means p and q must be 7 and 11 that is they must be co-prime to each other. Now we know that \u03d5(n) = (p \u2013 1) (q \u2013 1)"
+    },
+    {
+        "question": "To encrypt a message _______ is used on the character\u2019s positions.",
+        "options": [
+            "a) boolean algebra",
+            "b) bijective function",
+            "c) inverse function",
+            "d) surjective function"
+        ],
+        "answer": "b",
+        "explanation": " We have a mathematical notion that a bijective function can be used on the characters\u2019 positions to encrypt a message and an inverse function is used to decrypt the message."
+    },
+    {
+        "question": "The public key of given user, in an RSA encryption system is e = 57 and n = 3901. What is the value of  Euler\u2019s totient function \u03d5(n) for calculating the private key of the user?",
+        "options": [
+            "a) 4369",
+            "b) 3772",
+            "c) 871",
+            "d) 7892"
+        ],
+        "answer": "b",
+        "explanation": "Given that n=3901 and e=31. We know that n = p\u2217q where p and q are prime numbers, which gives 3901 = 47*83. Now, \u03d5(n) is Euler\u2019s totient function i.e., \u03d5(n) = (p\u22121)\u2217(q\u22121)"
+    },
+    {
+        "question": "Using RSA algorithm what is the value of cipher test c if the plain text e = 7 and P = 5, q = 16 & n = 832. Determine the Euler\u2019s totient function for the plain text?",
+        "options": [
+            "a) 47",
+            "b) 584",
+            "c) 428",
+            "d) 60"
+        ],
+        "answer": "d",
+        "explanation": "Given plain text (m) = 7, P = 5, Q = 16, where P and Q are two prime integer"
+    },
+    {
+        "question": "There are 67 people in a company where they are using secret key encryption and decryption system for privacy purpose. Determine the number of secret keys required for this purpose?",
+        "options": [
+            "a) 887",
+            "b) 6529",
+            "c) 2211",
+            "d) 834"
+        ],
+        "answer": "c",
+        "explanation": "Since every two employee have their own secret key encryption and decryption. Both users have to agree on a secret key to communicate using symmetric cryptography. After that, each message is encrypted with that key it is transmitted and decrypted with the same key. Here, key distribution must be secret. For n = 67 we would need  \\(\\frac{n(n-1)}{2} = \\frac{67(67-1)}{2}\\) = 2211 keys."
+    },
+    {
+        "question": "In a transposition cipher, the plaintext is constructed by the ________ of the ciphertext.",
+        "options": [
+            "a) permutation",
+            "b) combination",
+            "c) sequence",
+            "d) series"
+        ],
+        "answer": "a",
+        "explanation": "In cryptography, a method of encryption where the positions of plaintext held by units are shifted according to a regular system so that the ciphertext constructs a permutation of the plaintext is termed as transposition cipher."
+    },
+    {
+        "question": "How many bits of message does the Secure Hash Algorithm produce?",
+        "options": [
+            "a) 160 bits",
+            "b) 1035 bits",
+            "c) 621 bits",
+            "d) 3761 bits"
+        ],
+        "answer": "a",
+        "explanation": "The Secure Hash Algorithm or SHA  is based on MD4 encryption system. This algorithm gives an output of a longer 160-bit message that is why it is harder to construct another message that yields the same resultant message."
+    }
+]

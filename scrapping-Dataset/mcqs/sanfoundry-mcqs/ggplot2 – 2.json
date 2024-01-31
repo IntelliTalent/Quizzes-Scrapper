@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_________ generate aesthetic mappings that describe how variables in the data.",
+        "options": [
+            "a) aes_all",
+            "b) aes_auto",
+            "c) aes",
+            "d) aes_string"
+        ],
+        "answer": "c",
+        "explanation": "aes generate aesthetic mappings that describe how variables in the data. aes_auto is used for automatic aesthetic mapping."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) update_element update contents of a theme",
+            "b) Use theme_update_element to modify a small number of elements of the current theme or use theme_set to completely override it",
+            "c) theme_bw is theme with grey background and white gridlines",
+            "d) is.rel reports whether x is a theme object"
+        ],
+        "answer": "a",
+        "explanation": "update_element function is deprecated. Use %+replace% or +.gg instead."
+    },
+    {
+        "question": "______ generate aesthetic mappings from a string.",
+        "options": [
+            "a) aes_all",
+            "b) aes_auto",
+            "c) aes_string",
+            "d) aes_position"
+        ],
+        "answer": "c",
+        "explanation": "Aesthetic mappings describe how variables in the data are mapped to visual properties (aesthetics) of geoms."
+    },
+    {
+        "question": "Which of the following is a differentiation related aesthetic?",
+        "options": [
+            "a) aes_position",
+            "b) aes_group_order",
+            "c) aes_linetype_size_shape",
+            "d) ggorder"
+        ],
+        "answer": "c",
+        "explanation": "aes_position is position related aesthetics."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) is.rel reports whether x is a theme object",
+            "b) is.theme reports whether x is a theme object",
+            "c) opts build a theme (or partial theme) from theme elements",
+            "d) theme_bw is theme with grey background and white gridlines"
+        ],
+        "answer": "a",
+        "explanation": "is.rel reports whether x is a real object."
+    },
+    {
+        "question": "________ modify a ggplot or theme object by adding on new components.",
+        "options": [
+            "a) +.gg",
+            "b) -.gg",
+            "c) /.gg",
+            "d) .gg"
+        ],
+        "answer": "a",
+        "explanation": "This operator allows you to add objects to a ggplot or theme object."
+    },
+    {
+        "question": "__________ create a complete ggplot appropriate to a particular data type.",
+        "options": [
+            "a) autoplot",
+            "b) is.ggplot",
+            "c) printplot",
+            "d) qplot_ggplot"
+        ],
+        "answer": "a",
+        "explanation": "autoplot uses ggplot2 to draw a particular plot for an object of a particular class in a single command."
+    },
+    {
+        "question": "Which of the following creates a new ggplot plot from a data frame?",
+        "options": [
+            "a) qplot_ggplot",
+            "b) ggplot.data.frame",
+            "c) ggfluctuation",
+            "d) ggmissplot"
+        ],
+        "answer": "b",
+        "explanation": "Default list of aesthetic mappings are displayed."
+    },
+    {
+        "question": "Which of the following draws plot on current graphics device?",
+        "options": [
+            "a) ggmissplot",
+            "b) printplot",
+            "c) print.ggplot",
+            "d) ggfluctuation"
+        ],
+        "answer": "c",
+        "explanation": "print.ggplot is also known as plot.ggplot."
+    },
+    {
+        "question": "________ is used for relative sizing of theme elements.",
+        "options": [
+            "a) rel",
+            "b) size",
+            "c) relative",
+            "d) timrinterval"
+        ],
+        "answer": "a",
+        "explanation": "The syntax for rel is rel(X) where x is a number representing the relative size."
+    }
+]

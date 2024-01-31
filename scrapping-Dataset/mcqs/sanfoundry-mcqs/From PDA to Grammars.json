@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The instantaneous PDA is has the following elements",
+        "options": [
+            "a) State",
+            "b) Unconsumed input",
+            "c) Stack content",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The instantaneous description of a PDA is represented by 3 tuple:"
+    },
+    {
+        "question": "The moves in the PDA is technically termed as:",
+        "options": [
+            "a) Turnstile",
+            "b) Shifter",
+            "c) Router",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A turnstile notation is used for connecting pairs od ID\u2019s taht represents one or many moves of a PDA."
+    },
+    {
+        "question": "Which of the following option resembles the given PDA?",
+        "options": [
+            "a) {0",
+            "b) {0",
+            "c) {0",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following correctly resembles the given state diagram?",
+        "options": [
+            "a) {ww",
+            "b) \u03b5 is called the initial stack symbol",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Initially we put a special symbol \u2018#\u2019 into the empty stack. At state q1, the w is being read. In state q2, each 0 or 1 is popped when it matches the input. If any other input is given, the PDA will go to a dead state. When we reach that special symbol \u2018#\u2019, we go to the accepting state q3."
+    },
+    {
+        "question": "Which of the following assertion is false?",
+        "options": [
+            "a) If L is a language accepted by PDA1 by final state, there exist a PDA2 that accepts L by empty stack i.e. L=L(PDA1)=L(PDA2)",
+            "b) If L is a CFL then there exists a push down automata P accepting CF; by empty stack i.e. L=M(P)",
+            "c) Let L is a language accepted by PDA1 then there exist a CFG X such that L(X)=M(P)",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the assertions mentioned are theorems or corollary."
+    },
+    {
+        "question": "A push down automata  can represented using:",
+        "options": [
+            "a) Transition graph",
+            "b) Transition table",
+            "c) ID",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Yes, a PDA can be represented using a transition diagram, transition table and an instantaneous description."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Push down automata is the automaton machine for all the context free grammar or Type 2 languages."
+    },
+    {
+        "question": "Which of the following statement is false?",
+        "options": [
+            "a) For non deterministic PDA, equivalence is undecidable",
+            "b) For deterministic PDA, equivalence is decidable",
+            "c) For deterministic PDA, equivalence is undecidable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Geraud proved the equivalence problem decidable for Deterministic PDA ."
+    },
+    {
+        "question": "Which of the following are the actions that operates on stack top?",
+        "options": [
+            "a) Pushing",
+            "b) Popping",
+            "c) Replacing",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Push, pop and replace are all the basic and only operations that takes place on stack top."
+    },
+    {
+        "question": "A push down automata is said to be _________ if it has atmost one transition around all configurations.",
+        "options": [
+            "a) Finite",
+            "b) Non regular",
+            "c) Non-deterministic",
+            "d) Deterministic"
+        ],
+        "answer": "d",
+        "explanation": "DPDA or Deterministic Push down automata has atmost one transition applicable to each configuration."
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "question": "How many passes does an insertion sort algorithm consist of?",
+        "options": [
+            "a) N",
+            "b) N-1",
+            "c) N+1",
+            "d) N"
+        ],
+        "answer": "b",
+        "explanation": "An insertion algorithm consists of N-1 passes when an array of N elements is given."
+    },
+    {
+        "question": "Which of the following algorithm implementations is similar to that of an insertion sort?",
+        "options": [
+            "a) Binary heap",
+            "b) Quick sort",
+            "c) Merge sort",
+            "d) Radix sort"
+        ],
+        "answer": "a",
+        "explanation": "Insertion sort is similar to that of a binary heap algorithm because of the use of temporary variable to swap."
+    },
+    {
+        "question": "What is the average case running time of an insertion sort algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "d",
+        "explanation": "The average case analysis of a tight bound algorithm is mathematically achieved to be O(N"
+    },
+    {
+        "question": "Any algorithm that sorts by exchanging adjacent elements require O(N",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Each swap removes only one inversion, so O(N"
+    },
+    {
+        "question": "What is the average number of inversions in an array of N distinct numbers?",
+        "options": [
+            "a) N(N-1)/4",
+            "b) N(N+1)/2",
+            "c) N(N-1)/2",
+            "d) N(N-1)/3"
+        ],
+        "answer": "a",
+        "explanation": "The total number of pairs in a list L is N(N-1)/2. Thus, an average list has half this amount, or N(N-1)/4 inversions."
+    },
+    {
+        "question": "What is the running time of an insertion sort algorithm if the input is pre-sorted?",
+        "options": [
+            "a) O(N",
+            "b) O(N log N)",
+            "c) O(N)",
+            "d) O(M log N)"
+        ],
+        "answer": "c",
+        "explanation": "If the input is pre-sorted, the running time is O(N), because the test in the inner for loop always fails immediately and the algorithm will run quickly."
+    },
+    {
+        "question": "What will be the number of passes to sort the elements using insertion sort?",
+        "options": [
+            "a) 6",
+            "b) 5",
+            "c) 7",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "The number of passes is given by N-1. Here, N=6. Therefore,"
+    },
+    {
+        "question": "For the following question, how will the array elements look like after second pass?",
+        "options": [
+            "a) 8, 21, 32, 34, 51, 64",
+            "b) 8, 32, 34, 51, 64, 21",
+            "c) 8, 34, 51, 64, 32, 21",
+            "d) 8, 34, 64, 51, 32, 21"
+        ],
+        "answer": "d",
+        "explanation": "After swapping elements in the second pass, the array will look like, 8, 34, 64, 51, 32, 21."
+    },
+    {
+        "question": "Which of the following real time examples is based on insertion sort?",
+        "options": [
+            "a) arranging a pack of playing cards",
+            "b) database scenarios and distributes scenarios",
+            "c) arranging books on a library shelf",
+            "d) real-time systems"
+        ],
+        "answer": "a",
+        "explanation": "Arranging a pack of cards mimics an insertion sort. Database scenario is an example for merge sort, arranging books is a stack and real-time systems uses quick sort."
+    },
+    {
+        "question": "In C, what are the basic loops required to perform an insertion sort?",
+        "options": [
+            "a) do- while",
+            "b) if else",
+            "c) for and while",
+            "d) for and if"
+        ],
+        "answer": "c",
+        "explanation": "To perform an insertion sort, we use two basic loops- an outer for loop and an inner while loop."
+    },
+    {
+        "question": "Binary search can be used in an insertion sort algorithm to reduce the number of comparisons.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Binary search can be used in an insertion sort algorithm to reduce the number of comparisons. This is called a Binary insertion sort."
+    },
+    {
+        "question": "Which of the following options contain the correct feature of an insertion sort algorithm?",
+        "options": [
+            "a) anti-adaptive",
+            "b) dependable",
+            "c) stable, not in-place",
+            "d) stable, adaptive"
+        ],
+        "answer": "d",
+        "explanation": "An insertion sort is stable, adaptive, in-place and incremental in nature."
+    },
+    {
+        "question": "Which of the following sorting algorithms is the fastest for sorting small arrays?",
+        "options": [
+            "a) Quick sort",
+            "b) Insertion sort",
+            "c) Shell sort",
+            "d) Heap sort"
+        ],
+        "answer": "b",
+        "explanation": "For sorting small arrays, insertion sort runs even faster than quick sort. But, it is impractical to sort large arrays."
+    },
+    {
+        "question": "For the best case input, the running time of an insertion sort algorithm is?",
+        "options": [
+            "a) Linear",
+            "b) Binary",
+            "c) Quadratic",
+            "d) Depends on the input"
+        ],
+        "answer": "a",
+        "explanation": "The best case input for an insertion sort algorithm runs in linear time and is given by O(N)."
+    },
+    {
+        "question": "Which of the following examples represent the worst case input for an insertion sort?",
+        "options": [
+            "a) array in sorted order",
+            "b) array sorted in reverse order",
+            "c) normal unsorted array",
+            "d) large array"
+        ],
+        "answer": "b",
+        "explanation": "The worst case input for an insertion sort algorithm will be an array sorted in reverse order and its running time is quadratic."
+    }
+]

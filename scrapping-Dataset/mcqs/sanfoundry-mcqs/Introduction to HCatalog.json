@@ -1,0 +1,112 @@
+[
+    {
+        "question": "HCatalog supports reading and writing files in any format for which a ________ can be written.",
+        "options": [
+            "a) SerDE",
+            "b) SaerDear",
+            "c) DocSear",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, HCatalog supports RCFile, CSV, JSON, and SequenceFile, and ORC file formats. To use a custom format, you must provide the InputFormat, OutputFormat, and SerDe."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) HCat provides connectors for MapReduce",
+            "b) Apache HCatalog provides table data access for CDH components such as Pig and MapReduce",
+            "c) HCat makes Hive metadata available to users of other Hadoop tools like Pig, MapReduce and Hive",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Table definitions are maintained in the Hive metastore."
+    },
+    {
+        "question": "Hive version ___________ is the first release that includes HCatalog.",
+        "options": [
+            "a) 0.10.0",
+            "b) 0.11.0",
+            "c) 0.12.0",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HCatalog graduated from the Apache incubator and merged with the Hive project on March 26, 2013."
+    },
+    {
+        "question": "HCatalog is built on top of the Hive metastore and incorporates Hive\u2019s is ____________",
+        "options": [
+            "a) DDL",
+            "b) DML",
+            "c) TCL",
+            "d) DCL"
+        ],
+        "answer": "a",
+        "explanation": "HCatalog provides read and write interfaces for Pig and MapReduce and uses Hive\u2019s command line interface for issuing data definition and metadata exploration commands."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) HCatalog is a table and storage management layer for Hadoop that enables users with different data processing tools",
+            "b) There is Hive-specific interface for HCatalog",
+            "c) Data is defined using HCatalog\u2019s command line interface (CLI)",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Since HCatalog uses Hive\u2019s metastore, Hive can read data in HCatalog directly."
+    },
+    {
+        "question": "The HCatalog interface for Pig consists of ____________ and HCatStorer, which implement the Pig load and store interfaces respectively.",
+        "options": [
+            "a) HCLoader",
+            "b) HCatLoader",
+            "c) HCatLoad",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HCatLoader accepts a table to read data from; you can indicate which partitions to scan by immediately following the load statement with a partition filter statement."
+    },
+    {
+        "question": "_____________ accepts a table to read data from and optionally a selection predicate to indicate which partitions to scan.",
+        "options": [
+            "a) HCatOutputFormat",
+            "b) HCatInputFormat",
+            "c) OutputFormat",
+            "d) InputFormat"
+        ],
+        "answer": "b",
+        "explanation": "The HCatalog interface for MapReduce \u2014 HCatInputFormat and HCatOutputFormat \u2014 is an implementation of Hadoop InputFormat and OutputFormat."
+    },
+    {
+        "question": "The HCatalog __________ supports all Hive DDL that does not require MapReduce to execute.",
+        "options": [
+            "a) Powershell",
+            "b) CLI",
+            "c) CMD",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Data is defined using HCatalog\u2019s command line interface (CLI)."
+    },
+    {
+        "question": "You can write to a single partition by specifying the partition key(s) and value(s) in the ___________ method.",
+        "options": [
+            "a) setOutput",
+            "b) setOut",
+            "c) put",
+            "d) get"
+        ],
+        "answer": "a",
+        "explanation": "You can write to multiple partitions if the partition key(s) are columns in the data being stored."
+    },
+    {
+        "question": "HCatalog supports the same data types as _________",
+        "options": [
+            "a) Pig",
+            "b) Hama",
+            "c) Hive",
+            "d) Oozie"
+        ],
+        "answer": "c",
+        "explanation": "Partitions are multi-dimensional and not hierarchical. Records are divided into columns."
+    }
+]

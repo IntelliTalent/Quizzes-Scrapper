@@ -1,0 +1,103 @@
+[
+    {
+        "question": "The datatype for single precision floating point number is ____________",
+        "options": [
+            "a) FLOAT",
+            "b) DOUBLE",
+            "c) INT",
+            "d) BIGINT"
+        ],
+        "answer": "a",
+        "explanation": "There are various numeric datatypes in MySQL. Some of them are TINYINT, SMALLINT, BIGINT, FLOAT, DOUBLE and BIT. \u2018FLOAT\u2019 is for single precision floating point numbers unlike DOUBLE."
+    },
+    {
+        "question": "Which datatype is used for a fixed length binary string?",
+        "options": [
+            "a) VARCHAR",
+            "b) BINARY",
+            "c) VARBINARY",
+            "d) BLOB"
+        ],
+        "answer": "b",
+        "explanation": "MySQL has a variety of string datatypes for use. Strings can hold arbitrary binary data. All the four options are string type names. BINARY is used for a fixed length binary string."
+    },
+    {
+        "question": "Which datatype means a variable length non binary string?",
+        "options": [
+            "a) VARCHAR",
+            "b) BINARY",
+            "c) VARBINARY",
+            "d) BLOB"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there are a wide variety of string datatypes for use. Strings can even hold image and sound data. All the four options are string type names. VARCHAR represents a variable length non binary string."
+    },
+    {
+        "question": "Which data and time datatype stores time value in \u2018hh:mm:ss\u2019 format?",
+        "options": [
+            "a) DATE",
+            "b) TIME",
+            "c) DATETIME",
+            "d) TIMESTAMP"
+        ],
+        "answer": "b",
+        "explanation": "MySQL has some variety of date and time datatypes. These datatypes are crucial for representing records in a table. The \u2018TIME\u2019 type represents a time value, stored in the \u2018hh:mm:ss\u2019 format."
+    },
+    {
+        "question": "Which spatial datatype is used to store a curve?",
+        "options": [
+            "a) GEOMETRY",
+            "b) POINT",
+            "c) LINESTRING",
+            "d) POLYGON"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, there are many spatial datatypes available for use. Some examples are GEOMETRY, POINT, LINESTRING and POLYGON. The LINESTRING type is used to represent a curve."
+    },
+    {
+        "question": "How many of the following attributes are allowed only for numeric types?",
+        "options": [],
+        "answer": "b",
+        "explanation": "UNSIGNED and ZEROFILL are allowable only for numeric types, and CHARACTER SET and COLLATE are allowable only for non-binary string types. These are type specific attributes."
+    },
+    {
+        "question": "A DEFAULT value cannot be supplied to spatial types.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For every data type except the BLOB and TEXT types, spatial types, or columns with the AUTO_INCREMENT attribute, a DEFAULT def_value clause can be specified to keep a default value for a column."
+    },
+    {
+        "question": "A DEFAULT value cannot be supplied to TEXT types.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The DEFAULT def_value clause can be specified for every data type except the BLOB and TEXT types, spatial types, or columns with the AUTO_INCREMENT attribute. The def_value holds the default."
+    },
+    {
+        "question": "The datatype INT stores ___________",
+        "options": [
+            "a) 16 bit",
+            "b) 32 bit",
+            "c) 48 bit",
+            "d) 64 bit"
+        ],
+        "answer": "b",
+        "explanation": "Numeric datatypes in MySQL are many. Each numeric datatype used in MySQL have their own ranges in terms of bits. The INT datatype stores signed and unsigned values of 32 bits."
+    },
+    {
+        "question": "The datatype SMALLINT stores ___________",
+        "options": [
+            "a) 16 bit",
+            "b) 32 bit",
+            "c) 48 bit",
+            "d) 8 bit"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the numeric datatypes are many. A numeric datatype used in MySQL has its own range in terms of bits. The SMALLINT datatype stores signed and unsigned values of 16 bits."
+    }
+]

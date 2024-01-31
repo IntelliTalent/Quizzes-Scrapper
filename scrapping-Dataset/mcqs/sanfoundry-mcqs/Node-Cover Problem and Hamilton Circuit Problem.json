@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of the given problems are NP-complete?",
+        "options": [
+            "a) Node cover problems",
+            "b) Directed Hamilton Circuit Problem",
+            "c) Node cover problems & Directed Hamilton Circuit Problem",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Vertex cover or Node cover problem, and Hamilton Circuit problem, both are NP complete type of problems."
+    },
+    {
+        "question": "Which of the following problems do not belong to Karp\u2019s 21 NP-complete problems?",
+        "options": [
+            "a) Vertex Cover problems",
+            "b) Knapsack",
+            "c) 0-1 integer programming",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There exists a set of 21 problems that are NP-complete and the set is called Karp\u2019s 21 NP-complete problems."
+    },
+    {
+        "question": "Which of the following problems were reduced to Knapsack?",
+        "options": [
+            "a) Exact Cover",
+            "b) Max Cut",
+            "c) 0-1 integer programming",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Exact cover is a decision problem in computer science to determine if an exact cover exists."
+    },
+    {
+        "question": "An exact cover problem can be represented using:",
+        "options": [
+            "a) incidence matrix",
+            "b) bipartite graph",
+            "c) both incidence matrix and bipartite graph",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The relation \u2018contains\u2019 can be represented using a bipartite graph. The vertices of the graph can be divided into two disjoint sets, one representing the subset S and the other representing the elements of P and one edge for each subset in S;each node is included in exactly one of the edges forming the cover."
+    },
+    {
+        "question": "For which of the following, greedy algorithm finds a minimal vertex cover in polynomial time?",
+        "options": [
+            "a) tree graphs",
+            "b) bipartite graphs",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For bipartite graphs, Konigs theorem allows the bipartite vertex problem to be solved in polynomial time."
+    },
+    {
+        "question": "Hamilton circuit problem can have the following version/s as per the input graph:",
+        "options": [
+            "a) directed",
+            "b) undirected",
+            "c) both directed and undirected",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hamilton circuit problem is a problem determining whether a Hamiltonian path(a path in an undirected or directed graph that visits each vertex exactly once) exists in a graph(directed or undirected)."
+    },
+    {
+        "question": "Hamilton Circuit problem is a special case of ____________",
+        "options": [
+            "a) travelling salesman problem",
+            "b) halting problem",
+            "c) hitting set",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hamilton circuit problem is a special case of travelling salesman problem, obtained by setting the distance between two cities to one if they are adjacent and two otherwise, and verifying that the total distance travelled is equal to n (if so, the route is a Hamiltonian circuit; if there is no Hamiltonian circuit then the shortest route will be longer)."
+    },
+    {
+        "question": "Which of the following cannot solve Hamilton Circuit problem?",
+        "options": [
+            "a) DNA Computer",
+            "b) Monte Carlo algorithm",
+            "c) Dynamic programming",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Using Inclusion-exclusion principle, Andreas showed how to solve Hamilton Circuit problem in arbitrary n-vertex graphs by a Monte Carlo algorithm in time O(1.657n)."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Handshaking lemma states that \u2018Every finite undirected graph has an even number of vertices  with odd degree."
+    },
+    {
+        "question": "Fibonacci number falls in the category of _________ combinatorics.",
+        "options": [
+            "a) Algebric",
+            "b) Enumerative",
+            "c) Analytic",
+            "d) Extremal"
+        ],
+        "answer": "b",
+        "explanation": "Enumerative combinatorics is the most classical area of combinatorics and concentrates on counting the number of certain combinatorial objects. Fibonacci series is a basic example of Enumerative Combinatorics."
+    }
+]

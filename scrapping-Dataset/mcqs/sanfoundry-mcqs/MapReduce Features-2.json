@@ -1,0 +1,112 @@
+[
+    {
+        "question": "____________ specifies the number of segments on disk to be merged at the same time.",
+        "options": [
+            "a) mapred.job.shuffle.merge.percent",
+            "b) mapred.job.reduce.input.buffer.percen",
+            "c) mapred.inmem.merge.threshold",
+            "d) io.sort.factor"
+        ],
+        "answer": "d",
+        "explanation": "io.sort.factor limits the number of open files and compression codecs during the merge."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The number of sorted map outputs fetched into memory before being merged to disk",
+            "b) The memory threshold for fetched map outputs before an in-memory merge is finished",
+            "c) The percentage of memory relative to the maximum heap size in which map outputs may not be retained during the reduce",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When the reduce begins, map outputs will be merged to disk until those that remain are under the resource limit this defines."
+    },
+    {
+        "question": "Map output larger than ___________ percent of the memory allocated to copying map outputs.",
+        "options": [
+            "a) 10",
+            "b) 15",
+            "c) 25",
+            "d) 35"
+        ],
+        "answer": "c",
+        "explanation": "Map output will be written directly to disk without first staging through memory."
+    },
+    {
+        "question": "Jobs can enable task JVMs to be reused by specifying the job configuration _________",
+        "options": [
+            "a) mapred.job.recycle.jvm.num.tasks",
+            "b) mapissue.job.reuse.jvm.num.tasks",
+            "c) mapred.job.reuse.jvm.num.tasks",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Many of my tasks had performance improved over 50% using mapissue.job.reuse.jvm.num.tasks."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The task tracker has local directory to create localized cache and localized job",
+            "b) The task tracker can define multiple local directories",
+            "c) The Job tracker cannot define multiple local directories",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "When the job starts, task tracker creates a localized job directory relative to the local directory specified in the configuration."
+    },
+    {
+        "question": "During the execution of a streaming job, the names of the _______ parameters are transformed.",
+        "options": [
+            "a) vmap",
+            "b) mapvim",
+            "c) mapreduce",
+            "d) mapred"
+        ],
+        "answer": "d",
+        "explanation": "To get the values in a streaming job\u2019s mapper/reducer use the parameter names with the underscores."
+    },
+    {
+        "question": "The standard output (stdout) and error (stderr) streams of the task are read by the TaskTracker and logged to _________",
+        "options": [
+            "a) ${HADOOP_LOG_DIR}/user",
+            "b) ${HADOOP_LOG_DIR}/userlogs",
+            "c) ${HADOOP_LOG_DIR}/logs",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The child-jvm always has its current working directory added to the java.library.path and LD_LIBRARY_PATH."
+    },
+    {
+        "question": "____________ is the primary interface by which user-job interacts with the JobTracker.",
+        "options": [
+            "a) JobConf",
+            "b) JobClient",
+            "c) JobServer",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "JobClient provides facilities to submit jobs, track their progress, access component-tasks\u2019 reports and logs, get the MapReduce cluster status information and so on."
+    },
+    {
+        "question": "The _____________ can also be used to distribute both jars and native libraries for use in the map and/or reduce tasks.",
+        "options": [
+            "a) DistributedLog",
+            "b) DistributedCache",
+            "c) DistributedJars",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Cached libraries can be loaded via System.loadLibrary or System.load."
+    },
+    {
+        "question": "__________ is used to filter log files from the output directory listing.",
+        "options": [
+            "a) OutputLog",
+            "b) OutputLogFilter",
+            "c) DistributedLog",
+            "d) DistributedJars"
+        ],
+        "answer": "b",
+        "explanation": "User can view the history logs summary in specified directory using the following command $ bin/hadoop job -history output-dir."
+    }
+]

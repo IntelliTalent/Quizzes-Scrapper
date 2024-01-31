@@ -1,0 +1,91 @@
+[
+    {
+        "question": "What is the meaning of \u201cGROUP BY\u201d clause in Mysql?",
+        "options": [
+            "a) Group data by column values",
+            "b) Group data by row values",
+            "c) Group data by column and row values",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which clause is similar to \u201cHAVING\u201d clause in Mysql?",
+        "options": [
+            "a) SELECT",
+            "b) WHERE",
+            "c) FROM",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "\u201cWHERE\u201d is also used to filter the row values in Mysql."
+    },
+    {
+        "question": "What is the meaning of \u201cHAVING\u201d clause in Mysql?",
+        "options": [
+            "a) To filter out the row values",
+            "b) To filter out the column values",
+            "c) To filter out the row and column values",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "\u201cCOUNT\u201d keyword belongs to which categories in Mysql?",
+        "options": [
+            "a) Aggregate functions",
+            "b) Operators",
+            "c) Clauses",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following belongs to an \u201caggregate function\u201d?",
+        "options": [
+            "a) COUNT",
+            "b) UPPER",
+            "c) LOWER",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following belongs to an \u201caggregate function\u201d?",
+        "options": [
+            "a) COUNT",
+            "b) SUM/AVG",
+            "c) MIN/MAX",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which clause is used with an \u201caggregate functions\u201d?",
+        "options": [
+            "a) GROUP BY",
+            "b) SELECT",
+            "c) WHERE",
+            "d) Both GROUP BY and WHERE"
+        ],
+        "answer": "a",
+        "explanation": "\u201cGROUP BY\u201d is used with aggregate functions."
+    },
+    {
+        "question": "What is the significance of the statement \u201cGROUP BY d.name\u201d in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cGROUP BY\u201d clause s used for aggregation of field."
+    },
+    {
+        "question": "What is the significance of the statement \u201cHAVING COUNT (emp_id)>2\u201d in the following MySQL statement?",
+        "options": [],
+        "answer": "c",
+        "explanation": "\u201cHAVING\u201d clause are worked similar as \u201cWHERE\u201d clause."
+    }
+]

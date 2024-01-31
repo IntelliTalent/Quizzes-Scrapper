@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Cross product is a mathematical operation performed between ________________",
+        "options": [
+            "a) 2 scalar numbers",
+            "b) a scalar and a vector",
+            "c) 2 vectors",
+            "d) any 2 numbers"
+        ],
+        "answer": "c",
+        "explanation": "Cross product is a mathematical operation that is performed on 2 vectors in a 3D plane. It has many applications in computer programming and physics."
+    },
+    {
+        "question": "Cross product is also known as?",
+        "options": [
+            "a) scalar product",
+            "b) vector product",
+            "c) dot product",
+            "d) multiplication"
+        ],
+        "answer": "b",
+        "explanation": "Cross product is also known as a vector product. It is a mathematical operation that is performed on 2 vectors in 3D plane."
+    },
+    {
+        "question": "What is the magnitude of resultant of cross product of two parallel vectors a and b?",
+        "options": [
+            "a) |a|.|b|",
+            "b) |a|.|b| cos(180)",
+            "c) |a|.|b| sin(180)",
+            "d) 1"
+        ],
+        "answer": "c",
+        "explanation": "The resultant of cross product of 2 parallel vectors is always 0 as the angle between them is 0 or 180 degrees. So the answer is |a|.|b| sin(180)."
+    },
+    {
+        "question": "What is the general formula for finding the magnitude of the cross product of two vectors a and b with angle \u03b8 between them?",
+        "options": [
+            "a) |a|.|b|",
+            "b) |a|.|b| cos(\u03b8)",
+            "c) |a|.|b| sin(\u03b8)",
+            "d) |a|.|b| tan(\u03b8)"
+        ],
+        "answer": "c",
+        "explanation": "The general formula for finding the magnitude of cross product of two vectors is |a|.|b| sin(\u03b8). Its direction is perpendicular to the plane containing a and b."
+    },
+    {
+        "question": "The concept of cross product is applied in the field of computer graphics.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The concept of cross product find its application in the field of computer graphics. It can be used to find the winding of polygon about a point."
+    },
+    {
+        "question": "Which of the following equals the a x b ( a and b are two vectors)?",
+        "options": [
+            "a) \u2013 (a x b)",
+            "b) a.b",
+            "c) b x a",
+            "d) \u2013 (b x a)"
+        ],
+        "answer": "d",
+        "explanation": "The vector product a x b is equal to \u2013 (b x a). The minus sign shows that these vectors have opposite directions."
+    },
+    {
+        "question": "Cross product of two vectors can be used to find?",
+        "options": [
+            "a) area of rectangle",
+            "b) area of square",
+            "c) area of parallelogram",
+            "d) perimeter of rectangle"
+        ],
+        "answer": "c",
+        "explanation": "Cross product of two vectors can be used to find the area of parallelogram. For this, we need to consider the vectors as the adjacent sides of the parallelogram."
+    },
+    {
+        "question": "The resultant vector from the cross product of two vectors is _____________",
+        "options": [
+            "a) perpendicular to any one of the two vectors involved in cross product",
+            "b) perpendicular to the plane containing both vectors",
+            "c) parallel to to any one of the two vectors involved in cross product",
+            "d) parallel to the plane containing both vectors"
+        ],
+        "answer": "b",
+        "explanation": "The resultant vector from the cross product of two vectors is perpendicular to the plane containing both vectors. In other words, it should be perpendicular to both the vectors involved in the cross product."
+    },
+    {
+        "question": "What will be the cross product of the vectors 2i + 3j + k and 3i + 2j + k?",
+        "options": [
+            "a) i + 2j + k",
+            "b) 2i + 3j + k",
+            "c) i + j \u2013 5k",
+            "d) 2i \u2013 j \u2013 5k"
+        ],
+        "answer": "c",
+        "explanation": "We can find the cross product of the given vectors by solving the determinant."
+    },
+    {
+        "question": "What will be the cross product of the vectors 2i + 3j + k and 6i + 9j + 3k?",
+        "options": [
+            "a) i + 2j + k",
+            "b) i \u2013 j \u2013 5k",
+            "c) 0",
+            "d) 2i \u2013 j \u2013 5k"
+        ],
+        "answer": "c",
+        "explanation": "The given vectors are parallel to each other. The cross product of parallel vectors is 0 because sin(0) is 0."
+    },
+    {
+        "question": "Find the output of the following code.",
+        "options": [],
+        "answer": "d",
+        "explanation": "The given code calculates the cross product of the vectors stored in arrays A and B respectively. So the output will be -8 -6 -1."
+    },
+    {
+        "question": "Which of the following operation will give a vector that is perpendicular to both vectors a and b?",
+        "options": [
+            "a) a x b",
+            "b) a.b",
+            "c) b x a",
+            "d) both a x b and b x a"
+        ],
+        "answer": "d",
+        "explanation": "The resultant vector from the cross product of two vectors is perpendicular to the plane containing both vectors. So both a x b and b x a will give a vector that is perpendicular to both vectors a and b."
+    }
+]

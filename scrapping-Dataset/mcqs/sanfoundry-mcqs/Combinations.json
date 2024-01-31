@@ -1,0 +1,101 @@
+[
+    {
+        "question": "There are 6 equally spaced points A, B, C, D, E and F marked on a circle with radius R. How many convex heptagons of distinctly different areas can be drawn using these points as vertices?",
+        "options": [
+            "a) 7! * 6",
+            "b) 7C5",
+            "c) 7!",
+            "d) same area"
+        ],
+        "answer": "d",
+        "explanation": "Since all the points are equally spaced; hence the area of all the convex heptagons will be the same."
+    },
+    {
+        "question": "There are 2 twin sisters among a group of 15 persons. In how many ways can the group be arranged around a circle so that there is exactly one person between the two sisters?",
+        "options": [
+            "a) 15 *12! * 2!",
+            "b) 15! * 2!",
+            "c)",
+            "d) 16 * 15!"
+        ],
+        "answer": "a",
+        "explanation": "We know that n objects can be arranged around a circle in \\(\\frac{(n\u22121)!}{2}\\). If we consider the two sisters and the person in between the brothers as a block, then there will 12 others and this block of three people to be arranged around a circle. The number of ways of arranging 13 objects around a circle is in 12! ways. Now the sisters can be arranged on either side of the person who is in between the sisters in 2! ways. The person who sits in between the two sisters can be any of the 15 in the group and can be selected in 15 ways. Therefore, the total number of ways 15 *12! * 2!."
+    },
+    {
+        "question": "The number of words of 4 consonants and 3 vowels can be made from 15 consonants and 5 vowels, if all the letters are different is ________",
+        "options": [
+            "a) 3! *",
+            "b)",
+            "c) 15! * 4",
+            "d)"
+        ],
+        "answer": "d",
+        "explanation": "There are 4 consonants out of 15 can be selected in"
+    },
+    {
+        "question": "How many ways are there to arrange 7 chocolate biscuits and 12 cheesecake biscuits into a row of 19 biscuits?",
+        "options": [
+            "a) 52347",
+            "b) 50388",
+            "c) 87658",
+            "d) 24976"
+        ],
+        "answer": "b",
+        "explanation": "Consider the situation as having 19 spots and filling them with 7 chocolate biscuits and 19 cheesecake biscuits. Then we just choose 7 spots for the chocolate biscuits and let the other 10 spots have cheesecake biscuits. The number of ways to do this job is"
+    },
+    {
+        "question": "If a, b, c, d and e are five natural numbers, then find the number of ordered sets(a, b, c, d, e) possible such that a+b+c+d+e=75.",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "d",
+        "explanation": "Let assumes that there are 75 identical balls which are to be arranged in 5 different compartments (Since a, b, c, d, e are distinguishable). If the balls are arranged in the row. We have 74 gaps where we can place a ball in each gap since we need 5 compartments we need to place only 4 balls. We can do this in"
+    },
+    {
+        "question": "There are six movie parts numbered from 1 to 6. Find the number of ways in which they be arranged so that part-1 and part-3 are never together.",
+        "options": [
+            "a) 876",
+            "b) 480",
+            "c) 654",
+            "d) 237"
+        ],
+        "answer": "b",
+        "explanation": "The total number of ways in which 6 part can be arranged = 6! = 720. The total number of ways in which part-1 and part-3 are always together: = 5!*2! = 240. Therefore, the total number of arrangements, in which they are not together is = 720 \u2212 240 = 480."
+    },
+    {
+        "question": "How many ways are there to divide 4 Indian countries and 4 China countries into 4 groups of 2 each such that at least one group must have only Indian countries?",
+        "options": [
+            "a) 6",
+            "b) 45",
+            "c) 12",
+            "d) 76"
+        ],
+        "answer": "a",
+        "explanation": "The number of ways to divide 4+4=8 countries into 4 groups of 2 each is as follows: ("
+    },
+    {
+        "question": "Find the number of factors of the product 5",
+        "options": [
+            "a) 47",
+            "b) 30",
+            "c) 65",
+            "d) 19"
+        ],
+        "answer": "b",
+        "explanation": "Any factor of this number should be of the form 5"
+    },
+    {
+        "question": "From a group of 8 men and 6 women, five persons are to be selected to form a committee so that at least 3 women are there on the committee. In how many ways can it be done?",
+        "options": [
+            "a) 686",
+            "b) 438",
+            "c) 732",
+            "d) 549"
+        ],
+        "answer": "a",
+        "explanation": "We may have (2 men and 3 women) or (1 men and 4 woman) or (5 women only). The Required number of ways = ("
+    }
+]

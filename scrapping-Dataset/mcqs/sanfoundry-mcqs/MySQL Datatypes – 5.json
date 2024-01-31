@@ -1,0 +1,92 @@
+[
+    {
+        "question": "The maximum non zero value for FLOAT is ___________",
+        "options": [
+            "a) 3.402823466E+38",
+            "b) 3.402823466E+37",
+            "c) 3.402823466E+39",
+            "d) 3.402823466E+35"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, each datatype has its own range. Data types give an idea of the kind of values and the ranges that a variable is allowed to store. The maximum non zero value for FLOAT is 3.402823466E+38."
+    },
+    {
+        "question": "The maximum non zero values for DOUBLE is ___________",
+        "options": [
+            "a) \u00b11.7976931348623157E+307",
+            "b) \u00b11.7976931348623157E+308",
+            "c) \u00b11.7976931348623157E+306",
+            "d) \u00b11.7976931348623157E+305"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, all the datatypes have their own ranges. Data types give an idea of the kind of values and the ranges that a variable is allowed to store. The maximum non zero value for DOUBLE is \u00b11.7976931348623157E+308."
+    },
+    {
+        "question": "The storage size in bytes required for the MEDIUMINT datatype is ___________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "The numeric datatypes used in MySQL vary over ranges. There are a variety of INT types in the type specification. TINYINT requires 1, SMALLINT requires 2 bytes and MEDIUMINT requires 3."
+    },
+    {
+        "question": "The size of the BIT type is ___________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) variable"
+        ],
+        "answer": "d",
+        "explanation": "All the numeric datatypes used in MySQL vary over the fields. However the maximum size is fixed. Unlike the other numeric types the size of the BIT datatype depends on the length of the field."
+    },
+    {
+        "question": "The REAL type is synonym for ___________",
+        "options": [
+            "a) FLOAT",
+            "b) INT",
+            "c) DOUBLE",
+            "d) BIT"
+        ],
+        "answer": "c",
+        "explanation": "The REAL datatype, by default, is for the DOUBLE type. Floating point types can be defined as UNSIGNED. This eliminates the negative end of the type ranges. MySQL has a variety of default types."
+    },
+    {
+        "question": "The number of binary string types among the following is ___________",
+        "options": [],
+        "answer": "c",
+        "explanation": "In MySQL, the string datatypes are broadly categorised into two, namely, binary string types and non binary string types. BINARY, VARBINARY and BLOB are the binary string datatypes."
+    },
+    {
+        "question": "The maximum size in bytes of a row in MySQL is __________",
+        "options": [
+            "a) 65534",
+            "b) 65535",
+            "c) 65536",
+            "d) 65537"
+        ],
+        "answer": "b",
+        "explanation": "The allowable range of M for VARCHAR(M) syntactically is 1 to 65535, but the effective number of the maximum characters is less than 65535 since MySQL has a maximum row size of 65,535 bytes."
+    },
+    {
+        "question": "MEMORY tables do not support BLOB and TEXT indexes.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "BLOB or TEXT columns sometimes can be indexed, depending on the storage engine. MEMORY tables do not support BLOB and TEXT indexes. The MEMORY engine does not support BLOB or TEXT."
+    },
+    {
+        "question": "MySQL works with spatial values in 3 formats.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL works with the spatial values in three formats. They are the internal format, the Well-Known Text (WKT) and the Well-Known Binary(WKB) formats for the spatial datatypes."
+    }
+]

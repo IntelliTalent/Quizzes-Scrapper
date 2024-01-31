@@ -1,0 +1,140 @@
+[
+    {
+        "question": "Each block in class A contains _____________ addresses.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "Each block in class A contains 2"
+    },
+    {
+        "question": "Each block in class B contains __________ addresses.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "Each block in class B contains 2"
+    },
+    {
+        "question": "Number of Blocks in class B are \u2013",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "Number of Blocks in class B are 2"
+    },
+    {
+        "question": "Number of Blocks in class C are \u2013",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "Number of Blocks in class C are 2"
+    },
+    {
+        "question": "Percent of addresses occupied by Class D?",
+        "options": [
+            "a) 50 %",
+            "b) 25 %",
+            "c) 6.25 %",
+            "d) 12.5 %"
+        ],
+        "answer": "c",
+        "explanation": "Class D has 2"
+    },
+    {
+        "question": "Which of the following does not have a Net ID and Host ID?",
+        "options": [
+            "a) Class A",
+            "b) Class B",
+            "c) Class C",
+            "d) Class D"
+        ],
+        "answer": "d",
+        "explanation": "Class D is the multicast address class. It does not have Net ID and Host ID fields."
+    },
+    {
+        "question": "Which Class is reserved for future use?",
+        "options": [
+            "a) A",
+            "b) B",
+            "c) D",
+            "d) None of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Class E is reserved for future use."
+    },
+    {
+        "question": "Number of Blocks in class C are \u2013",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "Number of Blocks in class A are 2"
+    },
+    {
+        "question": "What is the size of the Host ID in Class C?",
+        "options": [
+            "a) 24 bits",
+            "b) 16 bits",
+            "c) 8 bits",
+            "d) 14 bits"
+        ],
+        "answer": "c",
+        "explanation": "The size of the Host ID in Class C is 8 bits."
+    },
+    {
+        "question": "An address in a block is given as 180.8.17.9. Find the number of addresses in the block, the first address, and the last address.",
+        "options": [],
+        "answer": "b",
+        "explanation": "Since 180 is between 128 and 191, it is class B address n=16."
+    },
+    {
+        "question": "First Address is \u2013",
+        "options": [
+            "a) 180.8.0.0",
+            "b) 180.7.64.0",
+            "c) 180.8.1.256",
+            "d) 180.12.0.0"
+        ],
+        "answer": "a",
+        "explanation": "Keep the leftmost 16 bits and set the rightmost 16 bits all to 0s. First address = 180.8.0.0, in which 16 is the value of n."
+    },
+    {
+        "question": "Last Address is \u2013",
+        "options": [
+            "a) 180.8.255.255.",
+            "b) 180.8.255.0.",
+            "c) 180.12.0.255.",
+            "d) 180.9.255.255."
+        ],
+        "answer": "a",
+        "explanation": "Keep the leftmost 16 bits and set the rightmost 16 bits all to 1s. Last address = 180.8.255.255."
+    },
+    {
+        "question": "A router receives a packet with the destination address 132.7.21.84. Find the network address of the packet.",
+        "options": [
+            "a) 1.32.7",
+            "b) 132.7",
+            "c) 13.27",
+            "d) 21.84"
+        ],
+        "answer": "b",
+        "explanation": "132 is between 128 and 191, so it is Class B address i.e. n=16-bit. Therefore,"
+    }
+]

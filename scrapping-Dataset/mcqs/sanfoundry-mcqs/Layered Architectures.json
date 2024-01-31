@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is incorrect?",
+        "options": [
+            "a) A Layered-style program is divided into an array of modules or layers",
+            "b) Each layer provides services to the layer \u201cbelow\u201d and makes use of services provided by the layer \u201cabove\u201d",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each layer provides services to the layer \u201cabove\u201d and makes use of services provided by the layer \u201cbelow\u201d."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) The dynamic structure of the Layered style is to partition software units into modular layers",
+            "b) The static structure of the Layered style is nothing more than a constraint on interactions between layers",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The static structure of the Layered style is to partition software units into modular layers whereas The dynamic structure of the Layered style is nothing more than a constraint on interactions between layers."
+    },
+    {
+        "question": "What is Relaxed Layered Style?",
+        "options": [
+            "a) Each layer can be constrained to use only the layer directly below it",
+            "b) Sometimes this constraint is relaxed slightly to allow each layer to use all the layers below it",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each layer can be constrained to use only the layer directly below it\u2014this is a Strict Layered style whereas Sometimes this constraint is relaxed slightly to allow each layer to use all the layers below it\u2014this is a Relaxed Layered style."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) Module A uses Module B if a correct version of B must be present for A to execute correctly",
+            "b) Module A calls (or invokes ) module B if  B triggers execution of A",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Module A uses Module B if a correct version of B must be present for A to execute correctly and Module A calls (or invokes ) module B if  A triggers execution of B."
+    },
+    {
+        "question": "Which of the following is true with respect to layered architecture?",
+        "options": [
+            "a) Each layer is allowed to depend on the layer above it being present and correct",
+            "b) A layer may call other layers above and below it, as long as it uses them",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Each layer is allowed to depend on the layer below it being present and correct. A layer may call other layers above and below it, as long as it does not use them."
+    },
+    {
+        "question": "What is Onion diagram illustrates?",
+        "options": [
+            "a) It  illustrates the connection between the layers in communications protocols, such as the International Standards Organization Open Systems Interconnection (ISO OSI) model,or the layers in user interface and windowing systems, such as the X  Window System",
+            "b) It often illustrates operating system layers, with the kernel at the core",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Onion diagram illustrates operating system layers, with the kernel at the core."
+    },
+    {
+        "question": "In particular, layers have which of the following characteristics?",
+        "options": [
+            "a) Layers are by definition highly cohesive, thus satisfying the Principle of Cohesion",
+            "b) Layers doesn\u2019t support information hiding",
+            "c) Layers are constrained to use only above layers",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Layers are by definition highly cohesive, thus satisfying the Principle of Cohesion. Layers support information hiding Layers are constrained to use only lower layers."
+    },
+    {
+        "question": "Which of the following is incorrect?",
+        "options": [
+            "a) Layered architectures are highly changeable, so this pattern can be used when changeability is an important quality attribute",
+            "b) Layered-style programs are easy to modify because changes can be made to a layer independently of the rest of the program",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct."
+    },
+    {
+        "question": "What are the drawbacks for Layers?",
+        "options": [
+            "a) It is often necessary to pass data through many layers, which can slow performance significantly",
+            "b) Layers support information hiding",
+            "c) Multi-layered programs can be hard to debug because operations tend to be implemented through a series of calls across layers",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " Layers support information hiding is an advantage and not a drawback."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) Layers are not strongly coupled to the layers above them",
+            "b) Each layer is strongly coupled only to the layer immediately below it",
+            "c) Overall Layered-style architectures are loosely coupled",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Layers are not strongly coupled to the layers above them. If a program uses theStrict Layered style, then each layer is strongly coupled only to the layer immediately below it. As a result, overall Layered-style architectures are loosely coupled."
+    }
+]

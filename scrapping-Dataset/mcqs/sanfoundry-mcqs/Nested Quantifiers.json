@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Let Q(x, y) denote \u201cM + A = 0.\u201d What is the truth value of the quantifications \u2203A\u2200M Q(M, A).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For each A there exist only one M, because there is no real number A such that M + A = 0 for all real numbers M."
+    },
+    {
+        "question": "Translate \u2200x\u2203y(x < y) in English, considering domain as a real number for both the variable.",
+        "options": [
+            "a) For all real number x there exists a real number y such that x is less than y",
+            "b) For every real number y there exists a real number x such that x is less than y",
+            "c) For some real number x there exists a real number y such that x is less than y",
+            "d) For each and every  real number x and y such that x is less than y"
+        ],
+        "answer": "a",
+        "explanation": "Statement is x is less than y. Quantifier used are for each x, there exists a y."
+    },
+    {
+        "question": "\u201cThe product of two negative real numbers is not negative.\u201d Is given by?",
+        "options": [
+            "a) \u2203x \u2200y ((x < 0) \u2227 (y < 0) \u2192 (xy > 0))",
+            "b) \u2203x \u2203y ((x < 0) \u2227 (y < 0) \u2227 (xy > 0))",
+            "c) \u2200x \u2203y ((x < 0) \u2227 (y < 0) \u2227 (xy > 0))",
+            "d) \u2200x \u2200y ((x < 0) \u2227 (y < 0) \u2192 (xy > 0))"
+        ],
+        "answer": "d",
+        "explanation": "For every negative real number x and y, the product of these integer is positive."
+    },
+    {
+        "question": "Let Q(x, y) be the statement \u201cx + y = x \u2212 y.\u201d If the domain for both variables consists of all integers, what is the truth value of \u2203xQ(x, 4).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "There exist no integer for which x+4=x-4."
+    },
+    {
+        "question": "Let L(x, y) be the statement \u201cx loves y,\u201d where the domain for both x and y consists of all people in the world.  Use quantifiers to express, \u201cJoy is loved by everyone.\u201d",
+        "options": [
+            "a) \u2200x L(x, Joy)",
+            "b) \u2200y L(Joy,y)",
+            "c) \u2203y\u2200x L(x, y)",
+            "d) \u2203x \u00acL(Joy, x)"
+        ],
+        "answer": "a",
+        "explanation": "Joy is loved by all the people in the world."
+    },
+    {
+        "question": "Express, \u201cThe difference of a real number and itself is zero\u201d using required operators.",
+        "options": [
+            "a) \u2200x(x \u2212 x! = 0)",
+            "b) \u2200x(x \u2212 x = 0)",
+            "c) \u2200x\u2200y(x \u2212 y = 0)",
+            "d) \u2203x(x \u2212 x = 0)"
+        ],
+        "answer": "b",
+        "explanation": "For every real number x, difference with itself is always zero."
+    },
+    {
+        "question": "Use quantifiers and predicates with more than one variable to express, \u201cThere is a pupil in this lecture who has taken at least one course in Discrete Maths.\u201d",
+        "options": [
+            "a) \u2203x\u2203yP (x, y), where P (x, y) is \u201cx has taken y,\u201d the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures",
+            "b) \u2203x\u2203yP (x, y), where P (x, y) is \u201cx has taken y,\u201d the domain for x consists of all Discrete Maths lectures, and the domain for y consists of all pupil in this class",
+            "c) \u2200x\u2200yP(x, y), where P (x, y) is \u201cx has taken y,\u201d the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures",
+            "d) \u2203x\u2200yP(x, y), where P (x, y) is \u201cx has taken y,\u201d the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures"
+        ],
+        "answer": "a",
+        "explanation": "For some x pupil, there exists a course in Discrete Maths such that x has taken y."
+    },
+    {
+        "question": "Determine the truth value of \u2203n\u2203m(n + m = 5 \u2227 n \u2212 m = 2) if the domain for all variables consists of all integers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The equation does not satisfy any value of m and n in the domain consist of integers."
+    },
+    {
+        "question": "Find a counterexample of \u2200x\u2200y(xy > y), where the domain for all variables consists of all integers.",
+        "options": [
+            "a) x = -1, y = 17",
+            "b) x = -2  y = 8",
+            "c) Both x = -1, y = 17 and x = -2  y = 8",
+            "d) Does not have any counter example"
+        ],
+        "answer": "c",
+        "explanation": "Putting x=-1, y=17; -17>17 which is wrong. Putting x=-2, y=8; -16>8 which is wrong."
+    }
+]

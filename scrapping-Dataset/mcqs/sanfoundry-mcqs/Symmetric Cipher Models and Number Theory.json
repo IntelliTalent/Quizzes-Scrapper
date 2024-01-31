@@ -1,0 +1,124 @@
+[
+    {
+        "question": "In brute force attack, on average half of all possible keys must be tried to achieve success.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In brute force attack the attacker tries every possible key on a piece of cipher-text until an intelligible translation into plaintext is obtained."
+    },
+    {
+        "question": "If the sender and receiver use different keys, the system is referred to as conventional cipher system.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Such a system is called asymmetric, two-key, or public-key cipher system."
+    },
+    {
+        "question": "Divide (HAPPY)26 by (SAD)26. We get quotient \u2013",
+        "options": [
+            "a) KD",
+            "b) LD",
+            "c) JC",
+            "d) MC"
+        ],
+        "answer": "a",
+        "explanation": "Dividing (HAPPY)26 by (SAD)26  gives us KD with a remainder MLP."
+    },
+    {
+        "question": "Dividing (11001001) by (100111) gives remainder \u2013",
+        "options": [
+            "a) 11",
+            "b) 111",
+            "c) 101",
+            "d) 110"
+        ],
+        "answer": "d",
+        "explanation": "Dividing (11001001) by (100111) gives us (110)."
+    },
+    {
+        "question": "pi in terms of base 26 is",
+        "options": [
+            "a) C.DRS",
+            "b) D.SQR",
+            "c) D.DRS",
+            "d) D.DSS"
+        ],
+        "answer": "c",
+        "explanation": "On converting using base conversions we get 3.1415926  as D.DRS."
+    },
+    {
+        "question": "The time required to convert a k-bit integer to its representation in the base 10 in terms of big-O notation is",
+        "options": [
+            "a) O(log2 n)",
+            "b) O(log n)",
+            "c) O(log2 2n)",
+            "d) O(2log n)"
+        ],
+        "answer": "a",
+        "explanation": "Let n be a k-bit integer in binary. The conversion algorithm is as follows. Divide 10 = (1010) into n. The remainder \u2013 which will be one of the integers 0, 1, 10, 11, 100, 101, 110, 11 1, 1000, or 1001 \u2013 will be the ones digit d0. Now replace n by the quotient and repeat the process, dividing that quotient by (1010), using the remainder as d1 and the quotient as the next number into which to divide (1010). This process must be repeated a number of times equal to the number of decimal digits in n, which is [log n/log 10] +1 = O(k)."
+    },
+    {
+        "question": "In base 26, multiplication of YES by NO gives \u2013",
+        "options": [
+            "a) THWOE",
+            "b) MPAHT",
+            "c) MPJNS",
+            "d) THWAE"
+        ],
+        "answer": "c",
+        "explanation": "Convert the alphabets into their respective values in base 26 and proceed with base 26 multiplications."
+    },
+    {
+        "question": "Division of  (131B6C3) base 16 by (lA2F) base 16 yeilds \u2013",
+        "options": [
+            "a) 1AD",
+            "b) DAD",
+            "c) BAD",
+            "d) 9AD"
+        ],
+        "answer": "d",
+        "explanation": "Base 16 division to be followed where A-F stand for 10-15."
+    },
+    {
+        "question": "An encryption scheme is unconditionally secure if the ciphertext generated does not contain enough information to determine uniquely the corresponding plaintext, no matter how much cipher text is available.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The above statement is the definition for unconditionally secure cipher systems."
+    },
+    {
+        "question": "The estimated computations required to crack a password of 6 characters from the 26 letter alphabet is-",
+        "options": [
+            "a) 308915776",
+            "b) 11881376",
+            "c) 456976",
+            "d) 8031810176"
+        ],
+        "answer": "a",
+        "explanation": "The required answer is 26^6 = 308915776."
+    },
+    {
+        "question": "Reduce the following big-O natations:",
+        "options": [],
+        "answer": "c",
+        "explanation": "O[ ax"
+    },
+    {
+        "question": "Reduce the following big-O natations:",
+        "options": [],
+        "answer": "c",
+        "explanation": "O[ e"
+    },
+    {
+        "question": "Reduce the following big-O natations:",
+        "options": [],
+        "answer": "b",
+        "explanation": "O [ n! + n"
+    }
+]

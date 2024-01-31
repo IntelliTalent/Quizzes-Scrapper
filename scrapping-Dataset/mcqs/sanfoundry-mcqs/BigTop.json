@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following is project for Infrastructure Engineers and Data Scientists?",
+        "options": [
+            "a) Impala",
+            "b) BigTop",
+            "c) Oozie",
+            "d) Flume"
+        ],
+        "answer": "b",
+        "explanation": "Bigtop supports a wide range of components/projects, including, but not limited to, Hadoop, HBase and Spark."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Bigtop provides an integrated smoke testing framework, alongside a suite of over 10 test files",
+            "b) Bigtop includes tools and a framework for testing at various levels",
+            "c) Bigtop components supports only one Operating Systems",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Bigtop  is used for both initial deployments as well as upgrade scenarios for the entire data platform, not just the individual components."
+    },
+    {
+        "question": "Which of the following work is done by BigTop in Hadoop framework?",
+        "options": [
+            "a) Packaging",
+            "b) Smoke Testing",
+            "c) Virtualization",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "BigTop is looking for comprehensive packaging, testing, and configuration of the leading open source big data components."
+    },
+    {
+        "question": "Which of the following operating system is not supported by BigTop?",
+        "options": [
+            "a) Fedora",
+            "b) Solaris",
+            "c) Ubuntu",
+            "d) SUSE"
+        ],
+        "answer": "b",
+        "explanation": "Bigtop components power the leading Hadoop distros and support many Operating Systems, including Debian/Ubuntu, CentOS, Fedora, SUSE and many others."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Bigtop-0.5.0 : Builds the 0.5.0 release",
+            "b) Bigtop-trunk-HBase builds the HCatalog packages only",
+            "c) There are also jobs for building virtual machine images",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Bigtop provides vagrant recipes, raw images, and (work-in-progress) docker recipes for deploying Hadoop from zero."
+    },
+    {
+        "question": "Apache Bigtop uses ___________ for continuous integration testing.",
+        "options": [
+            "a) Jenkinstop",
+            "b) Jerry",
+            "c) Jenkins",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are 2 Jenkins servers running for the project."
+    },
+    {
+        "question": "The Bigtop Jenkins server runs daily jobs for the _______ and trunk branches.",
+        "options": [
+            "a) 0.1",
+            "b) 0.2",
+            "c) 0.3",
+            "d) 0.4"
+        ],
+        "answer": "c",
+        "explanation": "Each job has a configuration for each supported operating system. In each branch there is a job to build each component."
+    },
+    {
+        "question": "Which of the following builds an APT or YUM package repository?",
+        "options": [
+            "a) Bigtop-trunk-packagetest",
+            "b) Bigtop-trunk-repository",
+            "c) Bigtop-VM-matrix",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Bigtop-trunk-packagetest runs the package tests."
+    },
+    {
+        "question": "___________ builds virtual machines of branches trunk and 0.3 for KVM, VMWare and VirtualBox.",
+        "options": [
+            "a) Bigtop-trunk-packagetest",
+            "b) Bigtop-trunk-repository",
+            "c) Bigtop-VM-matrix",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Bigtop-trunk-repository builds an APT or YUM package repository."
+    }
+]

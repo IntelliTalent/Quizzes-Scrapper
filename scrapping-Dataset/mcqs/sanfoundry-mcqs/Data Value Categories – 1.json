@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Numbers prefixed with \u20180x\u2019 are in base __________",
+        "options": [
+            "a) 8",
+            "b) 16",
+            "c) 32",
+            "d) 64"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there are many numeric datatypes. They include integers and floating points. For example, 34, 12.3, -1.3E11. The numbers that are prefixed with \u20180x\u2019 are in hexadecimal."
+    },
+    {
+        "question": "Hexadecimal numbers cannot be used in scientific notation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The scientific notation for real numbers is possible in MySQL. Approximate values are represented as floating point numbers in scientific notation. It consists of a mantissa and exponent."
+    },
+    {
+        "question": "The mantissa in -1.58E5 is __________",
+        "options": [
+            "a) -1.58",
+            "b) 1.58",
+            "c) E",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the scientific notation for real numbers is possible. Some values are represented as floating point numbers in scientific notation consisting of a mantissa and exponent."
+    },
+    {
+        "question": "The BIGINT precision is of bit _________",
+        "options": [
+            "a) 32",
+            "b) 64",
+            "c) 128",
+            "d) 16"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, for the expressions containing only exact values that are all integers, the evaluation uses BIGINT (64 \u2013 bit) precision. MySQL evaluates expressions using exact/approximate math."
+    },
+    {
+        "question": "The DECIMAL used for expressions containing only exact values with fractional part is of digit precision _________",
+        "options": [
+            "a) 32",
+            "b) 64",
+            "c) 65",
+            "d) 16"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, for the expressions containing only exact values and where one or more values have a fractional part, the DECIMAL arithmetic is used with digits of precision equal to 65."
+    },
+    {
+        "question": "If a string is to be converted to a number, it is converted into a _____________",
+        "options": [
+            "a) double precision floating point",
+            "b) single precision floating point",
+            "c) decimal integer",
+            "d) hexadecimal integer"
+        ],
+        "answer": "a",
+        "explanation": "When there is a need to convert a string to a number to evaluate an expression, it is first converted to a double precision floating point value. Then, it can be used to do arithmetic."
+    },
+    {
+        "question": "The bit-field values are prefixed with __________",
+        "options": [
+            "a) 0b",
+            "b) 0bit",
+            "c) bit-",
+            "d) \u2018bit\u2019"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the bit-field values can be either written as b\u2019value\u2019 or 0bvalue. Here, value is a sequence of digits zero or/and one. For example, b\u20191010\u2032 and 0b1010 are decimal value 10."
+    },
+    {
+        "question": "A BIT value in a result set is displayed as a binary string.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the BIT values in the result set are displayed as binary strings. In order to convert them to integers, either a zero is added or the \u2018CAST()\u2019 operator is used to cast them."
+    },
+    {
+        "question": "\u20182341\u2019 is a ____________",
+        "options": [
+            "a) integer",
+            "b) floating point",
+            "c) hexadecimal",
+            "d) string"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the string values are written by enclosing them within quotes. Values like \u2018Alexander\u2019, \u2018Kolkata, India\u2019 and \u20182341\u2019 are strings. \u20182341\u2019 looks like an integer but is a string."
+    },
+    {
+        "question": "If ANSI_QUOTES is enabled, MySQL treats the double quotes as ________________",
+        "options": [
+            "a) identifier-quoting character",
+            "b) string-quoting character",
+            "c) hexadecimal",
+            "d) string"
+        ],
+        "answer": "a",
+        "explanation": "The SQL standard specifies the single quotes so that statements are portable across database engines. If ANSI_QUOTES is enabled, MySQL treats the double quotes as identifier-quoting character."
+    }
+]

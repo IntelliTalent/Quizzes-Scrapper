@@ -1,0 +1,101 @@
+[
+    {
+        "question": "HBase is a distributed ________ database built on top of the Hadoop file system.",
+        "options": [
+            "a) Column-oriented",
+            "b) Row-oriented",
+            "c) Tuple-oriented",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HBase is a data model that is similar to Google\u2019s big table designed to provide quick random access to huge amounts of structured data."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) HDFS provides low latency access to single rows from billions of records (Random access)",
+            "b) HBase sits on top of the Hadoop File System and provides read and write access",
+            "c) HBase is a distributed file system suitable for storing large files",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "One can store the data in HDFS either directly or through HBase. Data consumer reads/accesses the data in HDFS randomly using HBase."
+    },
+    {
+        "question": "HBase is ________ defines only column families.",
+        "options": [
+            "a) Row Oriented",
+            "b) Schema-less",
+            "c) Fixed Schema",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HBase doesn\u2019t have the concept of fixed columns schema."
+    },
+    {
+        "question": "Apache HBase is a non-relational database modeled after Google\u2019s _________",
+        "options": [
+            "a) BigTop",
+            "b) Bigtable",
+            "c) Scanner",
+            "d) FoundationDB"
+        ],
+        "answer": "b",
+        "explanation": "Bigtable acts up on Google File System, likewise Apache HBase works on top of Hadoop and HDFS."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) HBase provides only sequential access to data",
+            "b) HBase provides high latency batch processing",
+            "c) HBase internally provides serialized access",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "HBase internally uses Hash tables and provides random access."
+    },
+    {
+        "question": "The _________ Server assigns regions to the region servers and takes the help of Apache ZooKeeper for this task.",
+        "options": [
+            "a) Region",
+            "b) Master",
+            "c) Zookeeper",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Master Server maintains the state of the cluster by negotiating the load balancing."
+    },
+    {
+        "question": "Which of the following command does not operate on tables?",
+        "options": [
+            "a) enabled",
+            "b) disabled",
+            "c) drop",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "is_disabled command verifies whether a table is disabled."
+    },
+    {
+        "question": "_________ command fetches the contents of a row or a cell.",
+        "options": [
+            "a) select",
+            "b) get",
+            "c) put",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "put command puts a cell value at a specified column in a specified row in a particular table."
+    },
+    {
+        "question": "HBaseAdmin and ____________ are the two important classes in this package that provide DDL functionalities.",
+        "options": [
+            "a) HTableDescriptor",
+            "b) HDescriptor",
+            "c) HTable",
+            "d) HTabDescriptor"
+        ],
+        "answer": "a",
+        "explanation": "Java provides an Admin API to achieve DDL functionalities through programming."
+    }
+]

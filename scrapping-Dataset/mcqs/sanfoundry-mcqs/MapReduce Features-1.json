@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is the default Partitioner for Mapreduce?",
+        "options": [
+            "a) MergePartitioner",
+            "b) HashedPartitioner",
+            "c) HashPartitioner",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The total number of partitions is the same as the number of reduce tasks for the job."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The right number of reduces seems to be 0.95 or 1.75",
+            "b) Increasing the number of reduces increases the framework overhead",
+            "c) With 0.95 all of the reduces can launch immediately and start transferring map outputs as the maps finish",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "With 1.75 the faster nodes will finish their first round of reduces and launch a second wave of reduces doing a much better job of load balancing."
+    },
+    {
+        "question": "Which of the following partitions the key space?",
+        "options": [
+            "a) Partitioner",
+            "b) Compactor",
+            "c) Collector",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Partitioner controls the partitioning of the keys of the intermediate map-outputs."
+    },
+    {
+        "question": "____________ is a generalization of the facility provided by the MapReduce framework to collect data output by the Mapper or the Reducer.",
+        "options": [
+            "a) OutputCompactor",
+            "b) OutputCollector",
+            "c) InputCollector",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hadoop MapReduce comes bundled with a library of generally useful mappers, reducers, and partitioners."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) It is legal to set the number of reduce-tasks to zero if no reduction is desired",
+            "b) The outputs of the map-tasks go directly to the FileSystem",
+            "c) The Mapreduce framework does not sort the map-outputs before writing them out to the FileSystem",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Outputs of the map-tasks go directly to the FileSystem, into the output path set by setOutputPath(Path)."
+    },
+    {
+        "question": "__________ is the primary interface for a user to describe a MapReduce job to the Hadoop framework for execution.",
+        "options": [
+            "a) JobConfig",
+            "b) JobConf",
+            "c) JobConfiguration",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "JobConf is typically used to specify the Mapper, combiner (if any), Partitioner, Reducer, InputFormat, OutputFormat and OutputCommitter implementations."
+    },
+    {
+        "question": "The ___________ executes the Mapper/ Reducer task as a child process in a separate jvm.",
+        "options": [
+            "a) JobTracker",
+            "b) TaskTracker",
+            "c) TaskScheduler",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The child-task inherits the environment of the parent TaskTracker."
+    },
+    {
+        "question": "Maximum virtual memory of the launched child-task is specified using _________",
+        "options": [
+            "a) mapv",
+            "b) mapred",
+            "c) mapvim",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Admins can also specify the maximum virtual memory of the launched child-task, and any sub-process it launches recursively, using mapred."
+    },
+    {
+        "question": "Which of the following parameter is the threshold for the accounting and serialization buffers?",
+        "options": [
+            "a) io.sort.spill.percent",
+            "b) io.sort.record.percent",
+            "c) io.sort.mb",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When the percentage of either buffer has filled, their contents will be spilled to disk in the background."
+    },
+    {
+        "question": "______________ is percentage of memory relative to the maximum heap size in which map outputs may be retained during the reduce.",
+        "options": [
+            "a) mapred.job.shuffle.merge.percent",
+            "b) mapred.job.reduce.input.buffer.percen",
+            "c) mapred.inmem.merge.threshold",
+            "d) io.sort.factor"
+        ],
+        "answer": "b",
+        "explanation": "When the reduce begins, map outputs will be merged to disk until those that remain are under the resource limit this defines."
+    }
+]

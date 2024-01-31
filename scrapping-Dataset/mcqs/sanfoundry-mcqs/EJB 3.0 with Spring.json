@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Interceptor to let Spring configure @Autowired elements on your EJB.",
+        "options": [
+            "a) org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor",
+            "b) org.springframework.ejb.interceptor.SpringBeanAutowiring",
+            "c) org.springframework.ejb.interceptor.SpringBean",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use the org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor interceptor to let Spring configure @Autowired elements on your EJB."
+    },
+    {
+        "question": "A remote stateless session bean requires annotations:-",
+        "options": [
+            "a) @Remote",
+            "b) @Stateless",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A remote stateless session bean requires the @Stateless and @Remote annotations. In the @Remote annotation, you have to specify the remote interface for this EJB component."
+    },
+    {
+        "question": "Proxying Spring services with EJB3s, injecting custom resources configured in Spring, or even using Spring to isolate your EJBs from acquiring references to other distributed resources such as a REST endpoint or an RMI endpoint.",
+        "options": [
+            "a) SpringBeanAutowiringInterceptor",
+            "b) SpringBeanAutowiring",
+            "c) SpringBean",
+            "d) SpringBeanInterceptor"
+        ],
+        "answer": "a",
+        "explanation": "To do this, use Spring\u2019s SpringBeanAutowiringInterceptor class to provide configuration for the EJB."
+    },
+    {
+        "question": "Annotation which decorates the PostageServiceBean:-",
+        "options": [
+            "a) @Interceptors",
+            "b) @Autowire",
+            "c) @Wire",
+            "d) @Mention"
+        ],
+        "answer": "a",
+        "explanation": "This tells Spring to handle @Autowired injection points in the class."
+    },
+    {
+        "question": "The interceptor obtains beans, by default, from a ContextSingletonBeanFactoryLocation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The interceptor obtains beans, by default, from a ContextSingletonBeanFactoryLocation, which in turn looks for an XML application context named beanRefContext.xml, which is presumed to be on the classpath."
+    },
+    {
+        "question": "EJB interface is a simple Java interface whose methods don\u2019t throw RemoteException.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "EJB interface is a simple Java interface whose methods don\u2019t throw RemoteException, while the implementation class is a simple Java class annotated with EJB annotations."
+    },
+    {
+        "question": "To declare a JNDI object reference in the Spring IoC container.",
+        "options": [
+            "a) JndiObjectFactory",
+            "b) JndiObjectFactoryBean",
+            "c) JndiObject",
+            "d) JndiFactoryBean"
+        ],
+        "answer": "b",
+        "explanation": "By using Spring\u2019s JndiObjectFactoryBean, you can easily declare a JNDI object reference in the Spring IoC container. You can use this factory bean to declare a reference to an EJB 3.0 component."
+    },
+    {
+        "question": "The default JNDI name for a remote EJB 3.0 component is the EJB class name with Remote as its suffix .",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If you have chosen OpenEJB as your EJB container, the default JNDI name for a remote EJB 3.0 component is the EJB class name with Remote as its suffix (PostageServiceBeanRemote, in this case)."
+    },
+    {
+        "question": "You can configure the JNDI details for factory bean in:-",
+        "options": [
+            "a) jndiEnvironment",
+            "b) jndiName",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can configure the JNDI details for factory bean in the jndiEnvironment and jndiName properties."
+    },
+    {
+        "question": "Lightweight remoting technologies developed by Caucho Technology.",
+        "options": [
+            "a) Hessian",
+            "b) Burlap",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hessian and Burlap are two simple lightweight remoting technologies developed by Caucho Technology (http://www.caucho.com/)."
+    },
+    {
+        "question": "Spring framework itself also offers a remoting technology called HTTP Invoker.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It also communicates over HTTP, but uses Java\u2019s object serialization mechanism to serialize objects."
+    },
+    {
+        "question": "To expose a Hessian or Burlap service, you have to add the:-",
+        "options": [
+            "a) Hessian library",
+            "b) Burlap library",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To expose a Hessian or Burlap service, you have to add the Hessian library to your classpath."
+    },
+    {
+        "question": "For a HessianServiceExporter instance, you have to configure a service object to export and its service interface.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can export any bean configured in the IoC container as a Hessian service, and HessianServiceExporter will create a proxy to wrap this bean."
+    },
+    {
+        "question": "By default, BeanNameUrlHandlerMapping is preconfigured for a Spring MVC application.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It maps requests to handlers according to the URL patterns specified as bean names."
+    },
+    {
+        "question": "Invoking a Burlap service:-",
+        "options": [
+            "a) HessianProxyFactoryBean",
+            "b) BurlapProxyFactoryBean",
+            "c) BurlapProxyFactory",
+            "d) BurlapProxy"
+        ],
+        "answer": "b",
+        "explanation": "Invoking a Burlap service is very similar to Hessian. The only difference is that you should use BurlapProxyFactoryBean."
+    }
+]

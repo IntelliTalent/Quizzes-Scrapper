@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The _________ codec from Google provides modest compression ratios.",
+        "options": [
+            "a) Snapcheck",
+            "b) Snappy",
+            "c) FileCompress",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Snappy has fast compression and decompression speeds."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Snappy is licensed under the GNU Public License (GPL)",
+            "b) BgCIK needs to create an index when it compresses a file",
+            "c) The Snappy codec is integrated into Hadoop Common, a set of common utilities that supports other Hadoop subprojects",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can use Snappy as an add-on for more recent versions of Hadoop that do not yet provide Snappy codec support."
+    },
+    {
+        "question": "Which of the following compression is similar to Snappy compression?",
+        "options": [
+            "a) LZO",
+            "b) Bzip2",
+            "c) Gzip",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "LZO is only really desirable if you need to compress text files."
+    },
+    {
+        "question": "Which of the following supports splittable compression?",
+        "options": [
+            "a) LZO",
+            "b) Bzip2",
+            "c) Gzip",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "LZO enables the parallel processing of compressed text file splits by your MapReduce jobs."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) From a usability standpoint, LZO and Gzip are similar",
+            "b) Bzip2 generates a better compression ratio than does Gzip, but it\u2019s much slower",
+            "c) Gzip is a compression utility that was adopted by the GNU project",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "From a usability standpoint, Bzip2 and Gzip are similar."
+    },
+    {
+        "question": "Which of the following is the slowest compression technique?",
+        "options": [
+            "a) LZO",
+            "b) Bzip2",
+            "c) Gzip",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Of all the available compression codecs in Hadoop, Bzip2 is by far the slowest."
+    },
+    {
+        "question": "Which of the following is based on the DEFLATE algorithm?",
+        "options": [
+            "a) LZO",
+            "b) Bzip2",
+            "c) Gzip",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "gzip is based on the DEFLATE algorithm, which is a combination of LZ77 and Huffman Coding."
+    },
+    {
+        "question": "__________  typically compresses files to within 10% to 15% of the best available techniques.",
+        "options": [
+            "a) LZO",
+            "b) Bzip2",
+            "c) Gzip",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "bzip2 is a freely available, patent free (see below), high-quality data compressor."
+    },
+    {
+        "question": "The LZO compression format is composed of approximately __________ blocks of compressed data.",
+        "options": [
+            "a) 128k",
+            "b) 256k",
+            "c) 24k",
+            "d) 36k"
+        ],
+        "answer": "b",
+        "explanation": "LZO was designed with speed in mind: it decompresses about twice as fast as gzip, meaning it\u2019s fast enough to keep up with hard drive read speeds."
+    }
+]

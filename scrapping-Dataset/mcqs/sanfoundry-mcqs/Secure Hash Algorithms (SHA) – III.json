@@ -1,0 +1,132 @@
+[
+    {
+        "question": "In SHA-3, which step function does the operation L[2,3] <- L[2,3]  XOR NOT(L[3,3]) AND L[4,3] represent?",
+        "options": [
+            "a) Theta",
+            "b) Rho",
+            "c) Pi",
+            "d) Chi"
+        ],
+        "answer": "d",
+        "explanation": "The above operation represents the chi step function."
+    },
+    {
+        "question": "In SHA-3, which function does the operation L[2,3]<- C[1]  XOR L[2,3]  XOR  ROT(C[3],1) represent?",
+        "options": [
+            "a) Theta",
+            "b) Rho",
+            "c) Pi",
+            "d) Chi"
+        ],
+        "answer": "a",
+        "explanation": "The above operation represents the theta step function."
+    },
+    {
+        "question": "How many rounds are present in each iteration function of SHA-3?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:Each Iteration of the SHA-3 algorithm has 5 step functions."
+    },
+    {
+        "question": "In SHA-3, which step function does not affect W [0, 0]?",
+        "options": [
+            "a) Theta",
+            "b) Iota",
+            "c) Pi",
+            "d) Chi"
+        ],
+        "answer": "c",
+        "explanation": "Pi and Rho step functions do not cause any change on W [0, 0]."
+    },
+    {
+        "question": "Which among the following is not a substitution operation?",
+        "options": [
+            "a) Theta",
+            "b) Iota",
+            "c) Pi",
+            "d) Chi"
+        ],
+        "answer": "c",
+        "explanation": "Pi and Rho are permutation operations."
+    },
+    {
+        "question": "In SHA-3, for a message digest size of 256, what is the bitrate \u2018r\u2019 (capacity = 512) ?",
+        "options": [
+            "a) 576",
+            "b) 1088",
+            "c) 1152",
+            "d) 832"
+        ],
+        "answer": "b",
+        "explanation": "In SHA-3,  c+r  = 1600, therefore here \u2018r\u2019 = 1088."
+    },
+    {
+        "question": "The sponge construction involves 2 phases, these are",
+        "options": [
+            "a) absorbing and adaptive",
+            "b) adaptive and squeezing",
+            "c) absorbing and squeezing",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The sponge construction involves 2 phases \u2013 the absorbing phase and the squeezing phase."
+    },
+    {
+        "question": "Within the Keccak function-f, the 1600 bits are arranged into a 5 x 5 x 64 array a. The 64-bit units are referred to as",
+        "options": [
+            "a) lemma",
+            "b) z co-ordinate",
+            "c) kernel",
+            "d) lanes"
+        ],
+        "answer": "d",
+        "explanation": "They are referred to as lanes."
+    },
+    {
+        "question": "What are the co-ordinates of the bottom-right most lane?",
+        "options": [
+            "a) L[4 ,4].",
+            "b) L[4, 0].",
+            "c) L[5, 5].",
+            "d) L[5, 1]."
+        ],
+        "answer": "b",
+        "explanation": "The bottom right most lane corresponds to x=4 and y=0 i.e. L[4, 0]."
+    },
+    {
+        "question": "How many iterations / rounds does the Keccak function have ?",
+        "options": [
+            "a) 12",
+            "b) 36",
+            "c) 16",
+            "d) 24"
+        ],
+        "answer": "d",
+        "explanation": "The Keccak function has 24 rounds, each of which has 5 step functions."
+    },
+    {
+        "question": "Which step function works only W[0, 0]?",
+        "options": [
+            "a) Theta",
+            "b) Iota",
+            "c) Pi",
+            "d) Chi"
+        ],
+        "answer": "b",
+        "explanation": "The last step function Iota works only on W[0, 0]."
+    },
+    {
+        "question": "SHA-3 has an advantage over other algorithms because, there is no need for table look ups, arithmetic operations or data dependent operations.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. SHA-3 does not require look-up tables, and is thus easily implemented on both hardware and software."
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "question": "Choose the correct statement among the followings?",
+        "options": [
+            "a) Indexers are location indicators",
+            "b) Indexers are used to access class objects",
+            "c) Indexer is a form of property and works in the same way as a property",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "By definition."
+    },
+    {
+        "question": "Choose the keyword which declares the indexer?",
+        "options": [
+            "a) base",
+            "b) this",
+            "c) super",
+            "d) extract"
+        ],
+        "answer": "b",
+        "explanation": "The indexer is declared using the name this."
+    },
+    {
+        "question": "Choose the operator/operators which is/are not used to access the [] operator in indexers?",
+        "options": [
+            "a) get",
+            "b) set",
+            "c) access",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The indexer is implemented through the get and set accessors for the [] operator as:"
+    }
+]

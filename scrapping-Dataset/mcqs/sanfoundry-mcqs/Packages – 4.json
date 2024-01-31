@@ -1,0 +1,96 @@
+[
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Make sure you have the latest version of R and then run the above code to get the packages you\u2019ll need. It installs the given packages. Confirm that you have a recent version of RStudio."
+    },
+    {
+        "question": "Which of the following is the formal requirement?",
+        "options": [
+            "a) Package",
+            "b) Function",
+            "c) Letters",
+            "d) Interfaces"
+        ],
+        "answer": "c",
+        "explanation": "There are three formal requirements: the name can only consist of letters, numbers and periods, i.e., it must start with the letter and it should not end with a period."
+    },
+    {
+        "question": "To start with the new package in RStudio, double-click the pkgname.Rproj file that _______",
+        "options": [
+            "a) Delete()",
+            "b) Create()",
+            "c) Run()",
+            "d) Exit()"
+        ],
+        "answer": "b",
+        "explanation": "To get started with your new package in RStudio, double-click the pkgname.Rproj file that create() just made. This will open a new RStudio project for your package. Projects are the way to develop packages."
+    },
+    {
+        "question": "An .Rproj file is a ____ file.",
+        "options": [
+            "a) Pdf",
+            "b) Jpeg",
+            "c) Text",
+            "d) Png"
+        ],
+        "answer": "c",
+        "explanation": "An .Rproj file is a text file. If you don\u2019t use RStudio, you can get many of the benefits by starting a new R session and ensuring that the directory is set to the package directory."
+    },
+    {
+        "question": "A bundled package is a package that\u2019s been compressed into a ______ file.",
+        "options": [
+            "a) Double",
+            "b) Triple",
+            "c) Single",
+            "d) No file"
+        ],
+        "answer": "c",
+        "explanation": "A bundled package is a package that\u2019s been compressed into a single file. A source package is just a directory with components like R/, DESCRIPTION, and so on."
+    },
+    {
+        "question": "________ are built in R so that you get HTML.",
+        "options": [
+            "a) Vignettes",
+            "b) Vighnaants",
+            "c) Bignats",
+            "d) Viddnets"
+        ],
+        "answer": "a",
+        "explanation": "Vignettes are built for getting the HTML and PDF output instead of Markdown or LaTeX input. A bundled package is a package that\u2019s been compressed into a single file."
+    },
+    {
+        "question": "Which of the following package has temporary files?",
+        "options": [
+            "a) Single",
+            "b) Source",
+            "c) Bundle",
+            "d) Double"
+        ],
+        "answer": "b",
+        "explanation": "Source package might contain temporary files used to save time during development and the compilation artifacts in a source. These will be never found in a bundle."
+    },
+    {
+        "question": "files listed in the Rbuildignore are not included in the ______",
+        "options": [
+            "a) single",
+            "b) source",
+            "c) bundle",
+            "d) double"
+        ],
+        "answer": "c",
+        "explanation": "Files listed in the Rbuildignore were not included in the bundle. .Rbuildignore prevents files from the src package and appearing in the bundled package. It allows you to have some extra directories in your source package that will not be included in the package bundle."
+    },
+    {
+        "question": ".Rbuildignore prevents files in the ___________  package from appearing in the bundled package.",
+        "options": [
+            "a) single",
+            "b) source",
+            "c) bundle",
+            "d) double"
+        ],
+        "answer": "b",
+        "explanation": ".Rbuildignore prevents files from the source package and appearing in the bundled package. It allows to have some extra directories in your source package that will not be included in the package bundle."
+    }
+]

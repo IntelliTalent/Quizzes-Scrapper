@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Which of the following is example of vectorized operation as far as subtraction is concerned?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Subtraction, multiplication and division are also vectorized."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Very less operations in R are vectorized",
+            "b) Vectorization allows you to write code that is efficient, concise, and easier to read than in non-vectorized languages",
+            "c) vectorized means that operations occur in parallel in certain R objects",
+            "d) Matrix operations are also vectorized"
+        ],
+        "answer": "a",
+        "explanation": "Many operations in R are vectorized."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "This is  simplest example of adding two vectors together."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Another operation you can do in a vectorized manner is logical comparisons."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Dates are represented by the Date class",
+            "b) Times are represented by the POSIXct or the POSIXlt class",
+            "c) Dates are represented by the DateTime class",
+            "d) Times can be coerced from a character string"
+        ],
+        "answer": "c",
+        "explanation": "Dates are stored internally as the number of days since 1970-01-01 while times are stored internally as the number of seconds since 1970-01-01."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Logical operations return a logical vector of TRUE and FALSE."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Matrix operations are also vectorized, making for nicely compact notation."
+    },
+    {
+        "question": "Which of the following code represents internal representation of a Date object?",
+        "options": [
+            "a) class(as.Date(\u201c1970-01-02\u201d))",
+            "b) unclass(as.Date(\u201c1970-01-02\u201d))",
+            "c) unclassint(as.Date(\u201c1970-01-02\u201d))",
+            "d) classint(as.Date(\u201c1970-02-02\u201d))"
+        ],
+        "answer": "b",
+        "explanation": "You can see the internal representation of a Date object by using the unclass() function."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Dates are represented by the Date class and can be coerced from a character string using the as.Date() function."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Times can be coerced from a character string using the as.POSIXlt or as.POSIXct function."
+    }
+]

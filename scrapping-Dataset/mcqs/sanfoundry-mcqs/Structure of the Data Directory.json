@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Each database has a data directory located under database directory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, each database has a database directory that is located under the data directory. The tables, views and triggers within a database correspond to files in the database directory."
+    },
+    {
+        "question": "In the database directory of the database each view and trigger object is associated with how many files?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "Each view and trigger object is associated with one file in the database directory of the database containing that object. A view consists of a .frm file that contains the view definition."
+    },
+    {
+        "question": "What is the maximum number of characters allowed for a database name to have?",
+        "options": [
+            "a) 16",
+            "b) 32",
+            "c) 64",
+            "d) 128"
+        ],
+        "answer": "c",
+        "explanation": "MySQL allows the database names and the table names to be a maximum of 64 characters long. The length of these names is also bound by the length allowed by the operating system on the machine."
+    },
+    {
+        "question": "The data directory subdirectory that corresponds to the nbdinfo database is ______________",
+        "options": [
+            "a) mysql",
+            "b) performance_schema",
+            "c) sys",
+            "d) nbdinfo"
+        ],
+        "answer": "b",
+        "explanation": "The sys directory corresponds to the sys schema. It provides a set of objects to interpret Performance Schema information. The \u2018performance_schema\u2019 directory corresponds to the Performance Schema."
+    },
+    {
+        "question": "Which of these is preferred when stored procedures are not being used?",
+        "options": [],
+        "answer": "c",
+        "explanation": "If the program does not use stored procedures anyone is suitable. If the program uses stored procedures and invokes a \u2018CALL\u2019 statement that returns a result set, the first method is better."
+    },
+    {
+        "question": "mysql_next_result() does not return.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The function \u2018mysql_next_result()\u2019 returns a status and initiates retrieval of the next set if more results are available. The status is zero if more results are available and -1 if not."
+    },
+    {
+        "question": "The option that executes all SQL statements in a SQL script irrespective of the number of errors is ______________",
+        "options": [
+            "a) \u2013ensure",
+            "b) \u2013force",
+            "c) \u2013violent",
+            "d) \u2013run"
+        ],
+        "answer": "b",
+        "explanation": "If SQL queries in a file are run using mysql in batch mode, mysql either quits after the first error. If the \u2013force option is specified all the queries are executed indiscriminately."
+    },
+    {
+        "question": "What is the synonym for CHARACTER SET?",
+        "options": [
+            "a) CSET",
+            "b) CHSET",
+            "c) CHARSET",
+            "d) CHCSET"
+        ],
+        "answer": "c",
+        "explanation": "\u2018CHARACTER SET\u2019 can be abbreviated into \u2018CHARSET\u2019 and can be used in the same contexts and statements where \u2018CHARACTER SET\u2019 is used. \u2018charset\u2019 is the server-supported character set."
+    },
+    {
+        "question": "What is the statement used to select a default database?",
+        "options": [
+            "a) USE",
+            "b) CREATE",
+            "c) DROP",
+            "d) SCHEMA"
+        ],
+        "answer": "a",
+        "explanation": "MySQL has the facility to use various statements specifically at the database level. For selecting a default database, the keyword or clause used is the \u2018USE\u2019 statement."
+    }
+]

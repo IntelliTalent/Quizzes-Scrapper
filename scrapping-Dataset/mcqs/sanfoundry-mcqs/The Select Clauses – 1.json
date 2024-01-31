@@ -1,0 +1,76 @@
+[
+    {
+        "question": "What is the meaning of \u201cSELECT\u201d clause in Mysql?",
+        "options": [
+            "a) Show me all Columns and rows",
+            "b) Show me all columns",
+            "c) Show me all rows",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following clause is evaluated in the last by database server?",
+        "options": [
+            "a) SELECT",
+            "b) WHERE",
+            "c) FROM",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "\u201cSELECT\u201d clause is used to show all rows or columns therefore it evaluated at last."
+    },
+    {
+        "question": "What will be the output of the following SQL statement?",
+        "options": [],
+        "answer": "Answer:a",
+        "explanation": "\u201cSELECT\u201d clause is used to show all rows or columns."
+    },
+    {
+        "question": "What will be the output of of the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cSELECT\u201d clause is used to show all rows and columns that are mention with the   query."
+    },
+    {
+        "question": "Can \u201cSELECT\u201d clause be used without the clause \u201cFROM\u201d?",
+        "options": [
+            "a) YES",
+            "b) NO",
+            "c) DEPENDS",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "\u201cSELECT\u201d clause is used to show rows and columns of a particular table and clause \u201cfrom\u201d is used to denote a  table name."
+    },
+    {
+        "question": "Find the error in the following SQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cSELECT\u201d clause cannot be used without clause \u201cFROM\u201d."
+    },
+    {
+        "question": "What will be the output of the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Clause \u201cWHERE\u201d is also used, which tells the compiler to show only that rows which belong to person_id=1."
+    },
+    {
+        "question": "What will be the output of the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": " Clause \u201cWHERE\u201d is also used, which tells the compiler to show only that rows which are belong to person_id=1."
+    },
+    {
+        "question": "Which clause is mandatory with clause \u201cSELECT\u201d in Mysql?",
+        "options": [
+            "a) FROM",
+            "b) WHERE",
+            "c) Both FROM and WHERE",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "\u201cSELECT\u201d clause cannot be used without clause \u201cFROM\u201d."
+    }
+]

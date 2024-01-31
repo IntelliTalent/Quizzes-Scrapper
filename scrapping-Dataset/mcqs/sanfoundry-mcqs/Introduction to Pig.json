@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Pig operates in mainly how many nodes?",
+        "options": [
+            "a) Two",
+            "b) Three",
+            "c) Four",
+            "d) Five"
+        ],
+        "answer": "a",
+        "explanation": "You can run Pig (execute Pig Latin statements and Pig commands) using various mode: Interactive and Batch Mode."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) You can run Pig in either mode using the \u201cpig\u201d command",
+            "b) You can run Pig in batch mode using the Grunt shell",
+            "c) You can run Pig in interactive mode using the FS shell",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can run Pig in either mode using the \u201cpig\u201d command (the bin/pig Perl script) or the \u201cjava\u201d command (java -cp pig.jar \u2026)."
+    },
+    {
+        "question": "You can run Pig in batch mode using __________",
+        "options": [
+            "a) Pig shell command",
+            "b) Pig scripts",
+            "c) Pig options",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pig script contains Pig Latin statements."
+    },
+    {
+        "question": "Pig Latin statements are generally organized in one of the following ways?",
+        "options": [
+            "a) A LOAD statement to read data from the file system",
+            "b) A series of \u201ctransformation\u201d statements to process the data",
+            "c) A DUMP statement to view results or a STORE statement to save the results",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A DUMP or STORE statement is required to generate output."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To run Pig in local mode, you need access to a single machine",
+            "b) The DISPLAY operator will display the results to your terminal screen",
+            "c) To run Pig in mapreduce mode, you need access to a Hadoop cluster and HDFS installation",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The DUMP operator will display the results to your terminal screen."
+    },
+    {
+        "question": "Which of the following function is used to read data in PIG?",
+        "options": [
+            "a) WRITE",
+            "b) READ",
+            "c) LOAD",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "PigStorage is the default load function."
+    },
+    {
+        "question": "You can run Pig in interactive mode using the ______ shell.",
+        "options": [
+            "a) Grunt",
+            "b) FS",
+            "c) HDFS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Invoke the Grunt shell using the \u201cpig\u201d command (as shown below) and then enter your Pig Latin statements and Pig commands interactively at the command line."
+    },
+    {
+        "question": "Which of the following is the default mode?",
+        "options": [
+            "a) Mapreduce",
+            "b) Tez",
+            "c) Local",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To run Pig in mapreduce mode, you need access to a Hadoop cluster and HDFS installation."
+    },
+    {
+        "question": "Which of the following will run pig in local mode?",
+        "options": [
+            "a) $ pig -x local \u2026",
+            "b) $ pig -x tez_local \u2026",
+            "c) $ pig \u2026",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Specify local mode using the -x flag (pig -x local)."
+    },
+    {
+        "question": "10.$ pig -x tez_local \u2026 will enable ________ mode in Pig.",
+        "options": [
+            "a) Mapreduce",
+            "b) Tez",
+            "c) Local",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Tez Local Mode is similar to local mode, except internally Pig will invoke tez runtime engine."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many ways are there to select exactly four clocks from a store with 10 wall-clocks and 16 stand-clocks?",
+        "options": [
+            "a) 325",
+            "b) 468",
+            "c) 398",
+            "d) 762"
+        ],
+        "answer": "a",
+        "explanation": "To choose any clock for the first pick, there are 10+16=26 options. For the second choice, we have 25 clocks left to choose from and so on. Thus, by the rule of product, there are 26 * 25 * 24 * 23 = 650 possible ways to choose exactly four clocks. However, we have counted every clock combination twice. Hence, the correct number of possible ways are 650/2 = 325."
+    },
+    {
+        "question": "If a 12-sided fair die is rolled twice, find the probability that both rolls have a result of 8.",
+        "options": [
+            "a) \\(\\frac{2}{19}\\)",
+            "b) \\(\\frac{3}{47}\\)",
+            "c) \\(\\frac{1}{64}\\)",
+            "d) \\(\\frac{2}{9}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Each die roll is independent, that is, if the first die roll result is 8, it will not affect the probability of the second die roll resulting in 8. The probability of rolling one die is \\(\\frac{1}{8}\\). Now, P (1st roll is 8 \u2229 2nd roll is 8). By using the rule of product: \\(\\frac{1}{8} * \\frac{1}{8}\\). Hence, the probability that both die rolls are 8 is \\(\\frac{1}{64}\\)."
+    },
+    {
+        "question": "How many positive divisors does 4000 = 2",
+        "options": [
+            "a) 49",
+            "b) 73",
+            "c) 65",
+            "d) 15"
+        ],
+        "answer": "d",
+        "explanation": "Any positive divisor of 4000 must be of the form 2"
+    },
+    {
+        "question": "Mina has 6 different skirts, 3 different scarfs and 7 different tops to wear. She has exactly one orange scarf, exactly one blue skirt, and exactly one black top. If Mina randomly selects each item of clothing, find the probability that she will wear those clothings for the outfit.",
+        "options": [
+            "a) \\(\\frac{1}{321}\\)",
+            "b) \\(\\frac{1}{126}\\)",
+            "c) \\(\\frac{4}{411}\\)",
+            "d) \\(\\frac{2}{73}\\)"
+        ],
+        "answer": "b",
+        "explanation": "There is a \\(\\frac{1}{3}\\) probability that Mina would randomly select the orange scarf, a \\(\\frac{1}{6}\\) probability to select the blue skirt, and a \\(\\frac{1}{7}\\) probability to select the black top. These events are independent, that is, the selection of the scarf does not affect the selection of the tops and so on. Hence, the probability that she selects the clothings of her choice is \\(\\frac{1}{3} * \\frac{1}{6} * \\frac{1}{7}\\) = 126."
+    },
+    {
+        "question": "There are 6 possible routes (1, 2, 3, 4, 5, 6) from Chennai to Kochi and 4 routes (7, 8, 9, 10) from the Kochi to the Trivendrum. If each path is chosen at random, what is the probability that a person can travel from the Chennai to the via the 4",
+        "options": [
+            "a) \\(\\frac{3}{67}\\)",
+            "b) \\(\\frac{5}{9}\\)",
+            "c) \\(\\frac{2}{31}\\)",
+            "d) \\(\\frac{1}{24}\\)"
+        ],
+        "answer": "d",
+        "explanation": "There is a \\(\\frac{1}{6}\\) chance of choosing the 4"
+    },
+    {
+        "question": "If two 14-sided dice one is red and one is blue are rolled, find the probability that a 3 on the red die, a 5 on the blue die are rolled.",
+        "options": [
+            "a) \\(\\frac{4}{167}\\)",
+            "b) \\(\\frac{3}{197}\\)",
+            "c) \\(\\frac{5}{216}\\)",
+            "d) \\(\\frac{1}{196}\\)"
+        ],
+        "answer": "b",
+        "explanation": "Using the rule of product, there are 196 possible combinations of rolls. Since having the red die = 3 and the blue die = 5 are one of the 196 combinations, the required probability is \\(\\frac{1}{14}*\\frac{1}{14} = \\frac{1}{196}\\)."
+    },
+    {
+        "question": "Suraj wants to go to Delhi. He can choose from bus services or train services to downtown Punjab. From there, he can choose from 4 bus services or 7 train services to head to Delhi. The number of ways to get to Delhi is?",
+        "options": [
+            "a) 51",
+            "b) 340",
+            "c) 121",
+            "d) 178"
+        ],
+        "answer": "c",
+        "explanation": "Since Suraj can either take a bus or a train downtown and he has 4+7=11 ways to head downtown (Rule of sum). After that, he can either take a bus or a train to Delhi and hence he has another 4 * 7 = 11 ways to head to Delhi(Rule of sum). Thus, he has 11 * 11 = 121 ways to head from home to Delhi(Rule of product)."
+    },
+    {
+        "question": "Two cards are chosen at random from a standard deck of 52 playing cards. What is the probability of selecting a jack and a Spade from the deck?",
+        "options": [
+            "a) \\(\\frac{4}{13}\\)",
+            "b) \\(\\frac{1}{13}\\)",
+            "c) \\(\\frac{4}{13}\\)",
+            "d) \\(\\frac{1}{52}\\)"
+        ],
+        "answer": "d",
+        "explanation": "The required probability is : P(Jack or spade)  =  P(Jack)  * P(spade) = \\(\\frac{4}{52} * \\frac{13}{52} = \\frac{1}{52}\\)."
+    },
+    {
+        "question": "If I throw 3 standard 7-sided dice, what is the probability that the sum of their top faces equals to 21? Assume both throws are independent to each other.",
+        "options": [
+            "a) \\(\\frac{1}{273}\\)",
+            "b) \\(\\frac{2}{235}\\)",
+            "c) \\(\\frac{1}{65}\\)",
+            "d) \\(\\frac{2}{9}\\)"
+        ],
+        "answer": "a",
+        "explanation": "To obtain a sum of 21 from three 7-sided dice is that 3 die will show 7 face up. Therefore, the probability is simply \\(\\frac{1}{7} * \\frac{1}{7} * \\frac{1}{7} = \\frac{1}{273}\\)."
+    },
+    {
+        "question": "A box consists of 5 yellow, 12 red and 8 blue balls. If 5 balls are drawn from this box one after the other without replacement, find the probability that the 5 balls are all yellow balls.",
+        "options": [
+            "a) \\(\\frac{5}{144}\\)",
+            "b) \\(\\frac{6}{321}\\)",
+            "c) \\(\\frac{4}{67}\\)",
+            "d) \\(\\frac{1}{231}\\)"
+        ],
+        "answer": "a",
+        "explanation": "The total number of the balls in the box is 25. Let events Y: drawing black balls,"
+    }
+]

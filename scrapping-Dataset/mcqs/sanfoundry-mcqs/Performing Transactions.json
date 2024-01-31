@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is known as the set of SQL statements that either executes successfully or none of them have an effect?",
+        "options": [
+            "a) joins",
+            "b) transactions",
+            "c) filters",
+            "d) deletions"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a transaction is a set of SQL statements that are run as a single unit. They can be canceled when required, but they can either execute successfully or neither of them executes."
+    },
+    {
+        "question": "What is generally done after the transactions are executed successfully?",
+        "options": [
+            "a) delete",
+            "b) rollback",
+            "c) commit",
+            "d) update"
+        ],
+        "answer": "c",
+        "explanation": "In a transaction, either all the statements are executed successfully or neither of them are successful. This is facilitated by the commit and rollback capabilities. Commit is made after a transaction."
+    },
+    {
+        "question": "What is generally done if an error occurs during the transaction?",
+        "options": [
+            "a) delete",
+            "b) rollback",
+            "c) commit",
+            "d) update"
+        ],
+        "answer": "b",
+        "explanation": "Whenever an error occurs during a transaction, it is generally taken to the state prior to the beginning of transaction execution. This is known as rollback. It is a set of undo operations."
+    },
+    {
+        "question": "What does \u2018A\u2019 stand for in the ACID property of transactions?",
+        "options": [
+            "a) Availability",
+            "b) Accuracy",
+            "c) Adjustability",
+            "d) Atomicity"
+        ],
+        "answer": "d",
+        "explanation": "All the transaction systems have an important set of characteristics in common. This is known as the \u2018ACID\u2019 property of the transaction. It refers to the four elementary characteristics of a transaction."
+    },
+    {
+        "question": "What does \u2018C\u2019 stand for in the ACID property of transactions?",
+        "options": [
+            "a) Compound",
+            "b) Concrete",
+            "c) Collision",
+            "d) Consistency"
+        ],
+        "answer": "d",
+        "explanation": "The elementary characteristics of a transaction are known as the \u2018ACID\u2019 properties. \u2018ACID\u2019 is the acronym for the four basic characteristics that a transaction must have for smooth processing."
+    },
+    {
+        "question": "What is the command to disable autocommit and launch a transaction?",
+        "options": [
+            "a) INITIATE TRANSACTION",
+            "b) START TRANSACTION",
+            "c) DISABLE AUTOCOMMIT",
+            "d) TRANSACTION"
+        ],
+        "answer": "b",
+        "explanation": "By default, MySQL runs in the autocommit mode. This means that the changes performed by individual statements or operations on tables are automatically committed to the database immediately."
+    },
+    {
+        "question": "Transactional processing provides strong guarantees about the outcome of operations.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A transaction can either execute successfully or it can be rolled back to the point of initiation. Once a transaction completes, changes are recorded with commit. If it fails, changes are rolled back."
+    },
+    {
+        "question": "Transactional processing requires lesser overhead due to CPU cycles and memory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Transactional processing is a Compound process. The statements and the state of the database need to be kept track of during the execution of the transaction. This means CPU cycles need to be reserved."
+    },
+    {
+        "question": "What is the durability property of transactions?",
+        "options": [
+            "a) statements form a logic unit",
+            "b) database remains consistent",
+            "c) one transaction does not affect the other",
+            "d) transaction effects are recorded permanently"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018durability\u2019 property of a transaction is one of the four elementary characteristics that are expected for a database transaction to maintain throughout. The others are Isolation, Atomicity and Consistency."
+    },
+    {
+        "question": "How many storage engines among the following are transaction-safe?",
+        "options": [],
+        "answer": "b",
+        "explanation": "For some applications, transactional properties are essential. For example, financial operations usually require transaction processing. InnoDB and Falcon are transaction-safe while the other two are not."
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Which of the following database command is used for mapreduce function?",
+        "options": [
+            "a) mapReduce",
+            "b) mapperRed",
+            "c) redmap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " For map-reduce operations, MongoDB provides the mapReduce database command."
+    },
+    {
+        "question": "MongoDB applies the _____ phase to each input document in mapreduce.",
+        "options": [
+            "a) map",
+            "b) reduce",
+            "c) mapper",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The map function emits key-value pairs."
+    },
+    {
+        "question": "MongoDB applies the _________ phase, which collects and condenses the aggregated data.",
+        "options": [
+            "a) map",
+            "b) reduce",
+            "c) mapper",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB then stores the results in a collection."
+    },
+    {
+        "question": "The output of the reduce function may pass through a ______ function to further condense or process the results of the aggregation.",
+        "options": [
+            "a) finalize",
+            "b) filter",
+            "c) procedure",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " The input and the output collections may be sharded."
+    },
+    {
+        "question": "_________ can return the results of a map-reduce operation as a document, or may write the results to collections.",
+        "options": [
+            "a) mapReduce",
+            "b) mapperRed",
+            "c) RedMap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Map-reduce operations take the documents of a single collection as the input and can perform any arbitrary sorting and limiting before beginning the map stage."
+    },
+    {
+        "question": "Map-reduce uses custom __________ functions to perform the map and reduce operations.",
+        "options": [
+            "a) Java",
+            "b) Javascript",
+            "c) JSON",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " JavaScript provide great flexibility compared to the aggregation pipeline."
+    },
+    {
+        "question": "For most aggregation operations, the ______ Pipeline provides better performance and more coherent interface.",
+        "options": [
+            "a) Aggregate",
+            "b) Replication",
+            "c) Sharding",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Map-reduce operations provide some flexibility that is not presently available in the aggregation pipeline."
+    },
+    {
+        "question": "What would be the maximum document size for results of mapreduce operation?",
+        "options": [
+            "a) 15 MB",
+            "b) 16 MB",
+            "c) 17 MB",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When returning the results of a map reduce operation inline, the result documents must be within the BSON Document Size limit, which is currently 16 megabytes."
+    }
+]

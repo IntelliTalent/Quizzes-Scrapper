@@ -1,0 +1,104 @@
+[
+    {
+        "question": "If there exist an integer x such that x",
+        "options": [
+            "a) Quadratic Residue",
+            "b) Linear Residue",
+            "c) Pseudoprime",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "q is called quadratic residue if it is congruent to a perfect square modulo n."
+    },
+    {
+        "question": "If there exist no integer x such that x",
+        "options": [
+            "a) Quadratic Residue",
+            "b) Quadratic Nonresidue",
+            "c) Pseudoprime",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "q is called quadratic nonresidue if it is not congurent to a perfect square modulo n."
+    },
+    {
+        "question": "The Fermat\u2019s little theorem for odd prime p and coprime number a is?",
+        "options": [
+            "a) a",
+            "b) a",
+            "c) a",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "According to Fermat\u2019s little theorem a"
+    },
+    {
+        "question": "5 is quardratic non-residue of 7.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since there exists no number which gives 5 modulo 7 when squared."
+    },
+    {
+        "question": "4 is quardratic residue of 7.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since 25 \u2261 4(mod)7, 4 is quardratic residue of 7."
+    },
+    {
+        "question": "8 is quardratic residue of 17.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since 25 \u2261 8(mod)17."
+    },
+    {
+        "question": "8 is quardratic residue of 11.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Since x"
+    },
+    {
+        "question": "Which of the following is a quardratic residue of 11?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 9",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Since 4, 16, 32 satisfies the criteria, all are quardratic residue of 11."
+    },
+    {
+        "question": "What is pseudo prime number?",
+        "options": [
+            "a) is a probable prime and is not a prime number",
+            "b) is a prime number",
+            "c) does not share any property with prime number",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A pseudo prime number is an integer that shares a property common to all prime number and is not a prime number."
+    },
+    {
+        "question": "Pseudo prime are classified based on property which they satisfy, which of the following are classes of pseudoprimes?",
+        "options": [
+            "a) Fermat pseudoprime",
+            "b) Fibonacci pseudoprime",
+            "c) Euler pseudoprime",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Fermat pseudoprime, Fibonacci pseudoprime, Euler pseudoprime are different classes of pseudoprimes."
+    }
+]

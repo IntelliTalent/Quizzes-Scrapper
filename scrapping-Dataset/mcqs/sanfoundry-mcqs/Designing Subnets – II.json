@@ -1,0 +1,140 @@
+[
+    {
+        "question": "An ISP is granted a block of addresses starting with 190.100.0.0/16 (65,536 addresses). The ISP needs to distribute these addresses to three groups of customers as follows:",
+        "options": [],
+        "answer": "a",
+        "explanation": "64 customers, each needs 256 addresses"
+    },
+    {
+        "question": "What is the prefix length for group 1?",
+        "options": [
+            "a) 8",
+            "b) 16",
+            "c) 24",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "64 customers, each needs 256 addresses"
+    },
+    {
+        "question": "What are the total number of addresses in Group 1?",
+        "options": [
+            "a) 32768",
+            "b) 8192",
+            "c) 16384",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Total addresses: 64\u00d7256 = 16384."
+    },
+    {
+        "question": "What is the prefix length for group 2?",
+        "options": [
+            "a) 14",
+            "b) 7",
+            "c) 25",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "128 customers, each needs 128 addresses"
+    },
+    {
+        "question": "What is the first address of group 3?",
+        "options": [
+            "a) 190.100.128.63/26",
+            "b) 190.100.128.0/26",
+            "c) 190.100.128.64/26",
+            "d) 190.100.128.127/25"
+        ],
+        "answer": "b",
+        "explanation": "Find the IP address using basic networking concepts."
+    },
+    {
+        "question": "What are the total number of addresses in Group 3?",
+        "options": [
+            "a) 32768",
+            "b) 8192",
+            "c) 16384",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Total addresses: 128\u00d764 = 8192."
+    },
+    {
+        "question": "What is the suffix length for group 3?",
+        "options": [
+            "a) 7",
+            "b) 6",
+            "c) 5",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "128 customers, each needs 64 addresses"
+    },
+    {
+        "question": "What is the prefix length for group 3?",
+        "options": [
+            "a) 28",
+            "b) 26",
+            "c) 24",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "128 customers, each needs 64 addresses"
+    },
+    {
+        "question": "What is the first address of group 1?",
+        "options": [
+            "a) 190.100.0.0/24",
+            "b) 190.100.0.0/16",
+            "c) 190.100.63.255/24",
+            "d) 190.100.0.255/16"
+        ],
+        "answer": "a",
+        "explanation": "Find the IP address using basic networking concepts."
+    },
+    {
+        "question": "What is the first address for customer 128 of group 2?",
+        "options": [
+            "a) 190.100.127.128/26",
+            "b) 190.100.127.255/26",
+            "c) 190.100.127.128/25",
+            "d) 190.100.127.255/25"
+        ],
+        "answer": "a",
+        "explanation": "Find the IP address using basic networking concepts."
+    },
+    {
+        "question": "Loopback address is given by \u2013",
+        "options": [
+            "a) 0.0.0.0",
+            "b) 127.x.x.x",
+            "c) 255.255.255.255",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Loopback address is given by 127.x.x.x"
+    },
+    {
+        "question": "Broadcast address is given by \u2013",
+        "options": [
+            "a) 0.0.0.0",
+            "b) 127.x.x.x",
+            "c) 255.255.255.255",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Broadcast address is given by 255.255.255.255. This address is the last address in the range of addresses, and is the address whose host portion is set to all ones."
+    },
+    {
+        "question": "Network address is given by \u2013",
+        "options": [
+            "a) 0.0.0.0",
+            "b) 127.x.x.x",
+            "c) 255.255.255.255",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Network address is given by 0.0.0.0. It is reserved for communication when a host needs to send an IPv4 packet but it does not know its own address."
+    }
+]

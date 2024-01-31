@@ -1,0 +1,112 @@
+[
+    {
+        "question": "MongoDB provides high ____________  with replica sets.",
+        "options": [
+            "a) performance",
+            "b) availability",
+            "c) scalability",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A replica set consists of two or more copies of the data."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB cannot be used as a file system",
+            "b) MongoDB can run over single servers only",
+            "c) Embedded documents and arrays reduce need for joins",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB can run over multiple servers, balancing the load and/or duplicating data to keep the system up and running in case of hardware failure."
+    },
+    {
+        "question": "___________ replicas maintain a copy of the data on the primary using built-in replication.",
+        "options": [
+            "a) Primary",
+            "b) Secondary",
+            "c) Backup",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When a primary replica fails, the replica set automatically conducts an election process to determine which secondary should become the primary."
+    },
+    {
+        "question": "MongoDB scales horizontally using _________ for load balancing purpose.",
+        "options": [
+            "a) Replication",
+            "b) Partitioning",
+            "c) Sharding",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The user chooses a shard key, which determines how the data in a collection will be distributed."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Each replica set member will act in the role of primary replica only",
+            "b) The primary replica performs all writes and reads by default",
+            "c) Secondaries can also perform read operations, but the data is eventually consistent by default",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each replica set member may act in the role of the primary or secondary replica at any time."
+    },
+    {
+        "question": "MongoDB can be used as a ____________ taking advantage of load balancing and data replication features over multiple machines for storing files.",
+        "options": [
+            "a) AMS",
+            "b) CMS",
+            "c) File system",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The data is split into ranges (based on the shard key) and distributed across multiple shards."
+    },
+    {
+        "question": "_____________ can be used for batch processing of data and aggregation operations.",
+        "options": [
+            "a) Hive",
+            "b) MapReduce",
+            "c) Oozie",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The aggregation framework enables users to obtain the kind of results for which the SQL GROUP BY clause is used."
+    },
+    {
+        "question": "MongoDB supports fixed-size collections called ____________ collections.",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) capped",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This type of collection maintains insertion order and, once the specified size has been reached, behaves like a circular queue."
+    },
+    {
+        "question": "MongoDB uses a ____________ lock that allows concurrent read access to a database but exclusive write access to a single write operation.",
+        "options": [
+            "a) readers",
+            "b) readers-writer",
+            "c) writer",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Before version 2.2, this lock was implemented on a per-mongod basis. Since version 2.2, the lock has been implemented at the database level."
+    },
+    {
+        "question": "Which of the following sorting is not supported by MongoDB?",
+        "options": [
+            "a) collation",
+            "b) collection",
+            "c) heap",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB does not support collation-based sorting and is limited to byte-wise comparison via memcmp."
+    }
+]

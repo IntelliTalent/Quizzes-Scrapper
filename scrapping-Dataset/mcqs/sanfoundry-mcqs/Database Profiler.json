@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Which of the following information is captured by database profiler?",
+        "options": [
+            "a) Read operations",
+            "b) Write operations",
+            "c) Cursor Operations",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The database profiler captures data information about read and write operations, cursor operations, and database commands."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A limit() value of 0 (i.e. .limit(0)) is equivalent to setting no limit",
+            "b) The behavior of limit() is undefined for values less than -231 and greater than 231",
+            "c) You can use the ulimit command at the system prompt to check system limits",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Use limit() to maximize performance and prevent MongoDB from returning more results than required for processing."
+    },
+    {
+        "question": "Which of the following collection is capped?",
+        "options": [
+            "a) system.index",
+            "b) system.replica",
+            "c) system.profile",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The database profiler writes data in the system.profile collection, which is a capped collection."
+    },
+    {
+        "question": "The ___________ provides information for various lock types and lock modes held during the operation.",
+        "options": [
+            "a) admin.system.authlocks",
+            "b) system.profile.locks",
+            "c) admin.system.locks",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB uses reader-writer locks that allow concurrent readers shared access to a resource, such as a database or collection, but give exclusive access to a single write operation."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Beginning with version 3.0, MongoDB ships with the WiredTiger storage engine",
+            "b) Some global operations, typically short lived operations involving multiple databases, still require a global \u201cinstance-wide\u201d lock",
+            "c) The MMAPv1 storage engine uses collection-level locking",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB operations can also yield locks between individual document modifications in write operations that affect multiple documents like update() with the multi parameter."
+    },
+    {
+        "question": "Which of the following keyword represents lock on the collection?",
+        "options": [
+            "a) Database",
+            "b) Collection",
+            "c) Metadata",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Database represents database lock."
+    },
+    {
+        "question": "Which of the following represents number of times the operation acquired the lock in the specified mode?",
+        "options": [
+            "a) system.profile.locks.acquireCount",
+            "b) system.profile.locks.acquireWaitCount",
+            "c) system.profile.locks.Count",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "system.profile.locks.acquireWaitCount is number of times the operation had to wait for the acquireCount lock acquisitions because the locks were held in a conflicting mode. acquireWaitCount is less than or equal to acquireCount."
+    },
+    {
+        "question": "__________ can be used to limit the size of the result document for a query operation.",
+        "options": [
+            "a) limit()",
+            "b) aggregate()",
+            "c) skip()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "limit() is analogous to the LIMIT statement in a SQL database."
+    }
+]

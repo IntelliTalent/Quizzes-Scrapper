@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following function gives information about top level data?",
+        "options": [
+            "a) head",
+            "b) tail",
+            "c) summary",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The function head is very useful for working with lists, tables, data frames and even functions."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) head function work on string",
+            "b) tail function work on string",
+            "c) head function work on string but tail function do not",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Both head and tail function do not work on strings."
+    },
+    {
+        "question": "Which of the following function is used for quantiles of quantitative values?",
+        "options": [
+            "a) quantile",
+            "b) quantity",
+            "c) quantiles",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In probability and statistics, the quantile function specifies, for a given probability in the probability distribution of a random variable, the value at which the probability of the random variable will be less than or equal to that probability."
+    },
+    {
+        "question": "Which of the following function is used for determining missing values?",
+        "options": [
+            "a) any",
+            "b) all",
+            "c) is",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In R, missing values are represented by the symbol NA."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Common variables are used to create missingness vector",
+            "b) Common variables are used to cutting up quantitative variables",
+            "c) Common variables are not used to apply transforms",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Common variables are not used to apply transforms."
+    },
+    {
+        "question": "Which of the following transforms can be performed with data value?",
+        "options": [
+            "a) log2",
+            "b) cos",
+            "c) log10",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Many common transforms can be applied to the data with R."
+    },
+    {
+        "question": "Each observation forms a column in tidy data.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Each variable forms a column in tidy data."
+    },
+    {
+        "question": "Which of the following function is used for casting data frames?",
+        "options": [
+            "a) dcast",
+            "b) ucast",
+            "c) rcast",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use acast or dcast depending on whether you want vector/matrix/array output or data frame output."
+    },
+    {
+        "question": "Which of the following join is by default used in plyr package?",
+        "options": [
+            "a) left",
+            "b) right",
+            "c) full",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Join is faster in plyr package."
+    },
+    {
+        "question": "mutate function is used for casting as multi dimensional arrays.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "mutate is used for adding new variables."
+    }
+]

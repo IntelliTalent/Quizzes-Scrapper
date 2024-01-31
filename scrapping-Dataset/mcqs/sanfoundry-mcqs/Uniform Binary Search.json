@@ -1,0 +1,84 @@
+[
+    {
+        "question": "In which of the cases uniform binary search fails compared to binary search?",
+        "options": [
+            "a) A table lookup is generally faster than an addition and a shift",
+            "b) Many searches will be performed on the same array",
+            "c) Many searches will be performed on several arrays of the same length",
+            "d) Complexity of code"
+        ],
+        "answer": "d",
+        "explanation": "Uniform binary search code is more complex to implement than binary search as it involves mid points to be computed in hand before search."
+    },
+    {
+        "question": "Which of the following is a suitable lookup table that can be used in the uniform binary search?(N is the number of elements in the array and the delta array is global)",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "This provides a single lookup index and the values are dependent on the the number of elements(N) in the array."
+    },
+    {
+        "question": "Given delta[4] is a global array and number of elements in the sorted array is 10, what are the values in the delta array?",
+        "options": [
+            "a) 4, 3, 1, 0",
+            "b) 5, 3, 1, 0",
+            "c) 4, 2, 1, 1",
+            "d) 5, 2, 1, 1"
+        ],
+        "answer": "b",
+        "explanation": "Trace with respect to the make_delta function, always note that the last element is always 0."
+    },
+    {
+        "question": "Choose the appropriate code snippet that performs uniform binary search.",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "Unlike the usual binary search which a low, high and a mid variable and every time comparing the key with the mid value, the comparing index is obtained from the lookup delta table, choosing the left or right side of the array is same as with the normal binary search."
+    },
+    {
+        "question": "What is the time complexity of uniform binary search?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "With every iteration we are dividing the array into two parts(though not equal halves), the complexity remains same as the normal binary search."
+    },
+    {
+        "question": "Given, arr = {1,3,5,6,7,9,14,15,17,19} key = 17 and delta = {5,3,1,0}",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "Tracing with the above code, comparison #1: i=4, comparison #2: i=7, comparison #3: i=8"
+    },
+    {
+        "question": "How can Jump Search be improved?",
+        "options": [
+            "a) Start searching from the end",
+            "b) Begin from the kth item, where k is the step size",
+            "c) Cannot be improved",
+            "d) Step size should be other than sqrt(n)"
+        ],
+        "answer": "b",
+        "explanation": "This gives a very slight improvement as you are skipping the first k elements."
+    },
+    {
+        "question": "Which of the following false about Jump Search?",
+        "options": [
+            "a) Jump Search is better than Linear Search",
+            "b) Useful when jumping back is more costly than jumping forward",
+            "c) Jump Search is worse than Binary Search",
+            "d) Jump search starts from the index 0 even though specified index is k"
+        ],
+        "answer": "d",
+        "explanation": "Linear search has O(n) complexity and Binary search has O(logn) complexity, in Jump search you have to jump backwards only once, hence it is preferable if jumping backwards is costly. Jump search starts from index k (specified index) and searches for the element. It won\u2019t start searching from index 0."
+    }
+]

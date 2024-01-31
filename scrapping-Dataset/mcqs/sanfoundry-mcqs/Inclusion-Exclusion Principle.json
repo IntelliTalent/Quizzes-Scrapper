@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Which one of the following problem types does inclusion-exclusion principle belong to?",
+        "options": [
+            "a) Numerical problems",
+            "b) Graph problems",
+            "c) String processing problems",
+            "d) Combinatorial problems"
+        ],
+        "answer": "d",
+        "explanation": "Inclusion-Exclusion principle is a kind of combinatorial problem. It is a counting technique to obtain the number of elements present in sets( two, three , etc.,)."
+    },
+    {
+        "question": "Which of the following is a correct representation of inclusion exclusion principle (|A,B| represents intersection of sets A,B)?",
+        "options": [
+            "a) |A U B|=|A|+|B|-|A,B|",
+            "b) |A,B|=|A|+|B|-|A U B|",
+            "c) |A U B|=|A|+|B|+|A,B|",
+            "d) |A,B|=|A|+|B|+|A U B|"
+        ],
+        "answer": "a",
+        "explanation": "The formula for computing the union of two sets according to inclusion-exclusion principle is |A U B|=|A|+|B|-|A,B| where |A,B| represents the intersection of the sets A and B."
+    },
+    {
+        "question": "____________ is one of the most useful principles of enumeration in combinationatorics and discrete probability.",
+        "options": [
+            "a) Inclusion-exclusion principle",
+            "b) Quick search algorithm",
+            "c) Euclid\u2019s algorithm",
+            "d) Set theory"
+        ],
+        "answer": "a",
+        "explanation": "Inclusion-exclusion principle serves as one of the most useful principles of enumeration in combinationatorics and discrete probability because it provides simple formula for generalizing results."
+    },
+    {
+        "question": "Which of the following is not an application of inclusion-exclusion principle?",
+        "options": [
+            "a) Counting intersections",
+            "b) Graph coloring",
+            "c) Matching of bipartite graphs",
+            "d) Maximum flow problem"
+        ],
+        "answer": "d",
+        "explanation": "Counting intersections, Graph coloring and Matching of bipartite graphs are all examples of inclusion-exclusion principle whereas maximum flow problem is solved using Ford-Fulkerson algorithm."
+    },
+    {
+        "question": "Who invented the concept of inclusion-exclusion principle?",
+        "options": [
+            "a) Abraham de Moivre",
+            "b) Daniel Silva",
+            "c) J.J. Sylvester",
+            "d) Sieve"
+        ],
+        "answer": "a",
+        "explanation": "The concept of inclusion- exclusion principle was initially invented by Abraham de Moivre in 1718 but it was published first by Daniel Silva in his paper in 1854."
+    },
+    {
+        "question": "According to inclusion-exclusion principle, a n-tuple wise intersection is included if n is even.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "According to inclusion-exclusion principle, a n-tuple wise intersection is included if n is odd and excluded if n is even."
+    },
+    {
+        "question": "With reference to the given Venn diagram, what is the formula for computing |AUBUC| (where |x, y| represents intersection of sets x and y)?",
+        "options": [
+            "a) |A U B U C|=|A|+|B|+|C|-|A,B|-|A,C|-|B,C|+|A, B,C|",
+            "b) |A, B,C|=|A|+|B|+|C|-|A U B|-|A U C|-|B U C|+|A U B U C|",
+            "c) |A, B,C|=|A|+|B|+|C|+|A,B|-|A,C|+|B,C|+|A U B U C|",
+            "d) |A U B U C|=|A|+|B|+|C| + |A,B| + |A,C| + |B,C|+|A, B,C|"
+        ],
+        "answer": "a",
+        "explanation": "The formula for computing the union of three sets using inclusion-exclusion principle is|A U B U C|=|A|+|B|+|C|-|A,B|-|A,C|-|B,C|+|A, B,C|  where |A,B|, |B,C|, |A,C|, |A,B,C| represents the intersection of the sets A and B, B and C, A and C, A, B and C respectively."
+    },
+    {
+        "question": "Which of the following statement is incorrect with respect to generalizing the solution using the inclusion-exclusion principle?",
+        "options": [
+            "a) including cardinalities of sets",
+            "b) excluding cardinalities of pairwise intersections",
+            "c) excluding cardinalities of triple-wise intersections",
+            "d) excluding cardinalities of quadraple-wise intersections"
+        ],
+        "answer": "c",
+        "explanation": "According to inclusion-exclusion principle, an intersection is included if the intersecting elements are odd and excluded, if the intersecting elements are even. Hence triple-wise intersections should be included."
+    },
+    {
+        "question": "Counting intersections can be done using the inclusion-exclusion principle only if it is combined with De Morgan\u2019s laws of complementing.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The application of counting intersections can be fulfiled if and only if it is combined with De Morgan laws to count the cardinality of intersection of sets."
+    },
+    {
+        "question": "Using the inclusion-exclusion principle, find the number of integers from a set of 1-100 that are not divisible by 2, 3 and 5.",
+        "options": [
+            "a) 22",
+            "b) 25",
+            "c) 26",
+            "d) 33"
+        ],
+        "answer": "c",
+        "explanation": "Consider sample space S={1,\u2026100}. Consider three subsets A, B, C that have elements that are divisible by 2, 3, 5 respectively. Find integers that are divisible by A and B, B and C, A and C. Then find the integers that are divisible by A, B, C. Applying the inclusion-exclusion principle, 100 \u2212 (50 + 33 + 20) + (16 + 10 + 6) \u2212 3 = 26."
+    },
+    {
+        "question": "____________ is an arithmetic function that calculates the total number of positive integers less than or equal to some number n, that are relatively prime to n.",
+        "options": [
+            "a) Euler\u2019s phi function",
+            "b) Euler\u2019s omega function",
+            "c) Cauchy\u2019s totient function",
+            "d) Legrange\u2019s function"
+        ],
+        "answer": "a",
+        "explanation": "Euler\u2019s phi function is an arithmetic function that calculates the total number of positive integers less than or equal to some number n, that are relatively prime to n. The inclusion-exclusion principle is used to obtain a formula for Euler\u2019s phi function."
+    },
+    {
+        "question": "Let A={1,2,3} B={2,3,4} C={1,3,5} D={2,3}. Find the cardinality of sum of all the sets.",
+        "options": [
+            "a) 6",
+            "b) 5",
+            "c) 4",
+            "d) 7"
+        ],
+        "answer": "b",
+        "explanation": "First, include the cardinalities of all the sets. Then, exclude the cardinalities of even intersections. Then include the cardinalities of odd intersections. Hence, 3+3+3+2-2-2-2-1-2-1+1+2+1+1-1=5."
+    }
+]

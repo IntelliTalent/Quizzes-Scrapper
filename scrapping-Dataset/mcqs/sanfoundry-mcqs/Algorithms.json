@@ -1,0 +1,112 @@
+[
+    {
+        "question": "An algorithm is a _________ set of precise instructions for performing computation.",
+        "options": [
+            "a) Infinite",
+            "b) Finite",
+            "c) Constant",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By the definition of an algorithm."
+    },
+    {
+        "question": "Out of the following which property algorithms does not share?",
+        "options": [
+            "a) Input",
+            "b) Finiteness",
+            "c) Generality",
+            "d) Constancy"
+        ],
+        "answer": "d",
+        "explanation": "All the others are the properties of algorithms."
+    },
+    {
+        "question": "In ________ search each element is compared with x till not found.",
+        "options": [
+            "a) Binary",
+            "b) Sequential",
+            "c) Merge",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In linear or sequential search entire list is searched sequentially for x."
+    },
+    {
+        "question": "If the entire list is searched sequentially without locating x in linear search, the solution is __________",
+        "options": [
+            "a) 0",
+            "b) -1",
+            "c) 1",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "If the element is not found in the entire list, then the solution is 0."
+    },
+    {
+        "question": "To sort a list with n elements, the insertion sort begins with the __________ element.",
+        "options": [
+            "a) First",
+            "b) Second",
+            "c) Third",
+            "d) Fourth"
+        ],
+        "answer": "b",
+        "explanation": "The insertion sort compares the second element with the first element to start sorting."
+    },
+    {
+        "question": "__________ comparisons required to sort the list 1, 2, 3\u2026\u2026.n using insertion sort.",
+        "options": [
+            "a) (n",
+            "b) (n",
+            "c) (n",
+            "d) (n"
+        ],
+        "answer": "c",
+        "explanation": "2+3+4+\u2026.6n = (n"
+    },
+    {
+        "question": "The Worst case occurs in linear search algorithm when ____________",
+        "options": [
+            "a) Item is somewhere in the middle of the array",
+            "b) Item is not in the array at all",
+            "c) Item is the last element in the array",
+            "d) Item is the last element in the array or is not there at all"
+        ],
+        "answer": "d",
+        "explanation": "The Worst case occur in linear search algorithm when Item is the last element in the array or is not there at all."
+    },
+    {
+        "question": "List obtained in third pass of selection sort for list 3, 5, 4, 1, 2 is ___________",
+        "options": [
+            "a) 1, 2, 4, 3, 5",
+            "b) 1, 2, 3, 4, 5",
+            "c) 1, 5, 4, 3, 2",
+            "d) 3, 5, 4, 1, 2"
+        ],
+        "answer": "b",
+        "explanation": "The selection sort begins with finding the least element in the list. This element is moved to front and then the least element among the remaining elements. Is found and put into the second position and so on."
+    },
+    {
+        "question": "The operation of processing each element in the list is known as _________",
+        "options": [
+            "a) Sorting",
+            "b) Merging",
+            "c) Inserting",
+            "d) Traversal"
+        ],
+        "answer": "d",
+        "explanation": "The operation of processing each element in the list is known as Traversal."
+    },
+    {
+        "question": "The complexity of Bubble sort algorithm is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "The complexity of Bubble sort algorithm is O(n"
+    }
+]

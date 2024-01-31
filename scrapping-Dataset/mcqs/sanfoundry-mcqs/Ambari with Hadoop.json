@@ -1,0 +1,112 @@
+[
+    {
+        "question": "___________ provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs.",
+        "options": [
+            "a) Oozie",
+            "b) Ambari",
+            "c) Hive",
+            "d) Imphala"
+        ],
+        "answer": "b",
+        "explanation": "The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Ambari provides a dashboard for monitoring the health and status of the Hadoop cluster",
+            "b) Ambari provides a step-by-step wizard for installing Hadoop services across any number of hosts",
+            "c) Ambari handles configuration of Hadoop services for the cluster",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Ambari provides central management for starting, stopping, and reconfiguring Hadoop services across the entire cluster."
+    },
+    {
+        "question": "Ambari leverages ________ for metrics collection.",
+        "options": [
+            "a) Nagios",
+            "b) Nagaond",
+            "c) Ganglia",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids."
+    },
+    {
+        "question": "Ambari leverages ___________ for system alerting and will send emails when your attention is needed.",
+        "options": [
+            "a) Nagios",
+            "b) Nagaond",
+            "c) Ganglia",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Nagios Is The Industry Standard In IT Infrastructure Monitoring."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Ambari Views framework was greatly improved to better support instantiating and loading custom views",
+            "b) The Ambari shell is written is Java, and uses the Groovy bases Ambari REST client",
+            "c) Ambari-Shell is distributed as a single-file executable jar",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The uber jar is generated with the help of spring-boot-maven-plugin."
+    },
+    {
+        "question": "A ________ is a way of extending Ambari that allows 3rd parties to plug in new resource types along with the APIs.",
+        "options": [
+            "a) trigger",
+            "b) view",
+            "c) schema",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A view is an application that is deployed into the Ambari container."
+    },
+    {
+        "question": "Ambari ___________ deliver a template approach to cluster deployment.",
+        "options": [
+            "a) View",
+            "b) Stack Advisor",
+            "c) Blueprints",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Ambari Blueprints deliver a template approach to cluster deployment."
+    },
+    {
+        "question": "___________ facilitates installation of Hadoop across any number of hosts.",
+        "options": [
+            "a) API-driven installations",
+            "b) Wizard-driven interface",
+            "c) Extensible framework",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Extensible framework brings custom services under management via Ambari Stacks."
+    },
+    {
+        "question": "Ambari provides a ________  API that enables integration with existing tools, such as Microsoft System Center.",
+        "options": [
+            "a) RestLess",
+            "b) Web Service",
+            "c) RESTful",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "RESTful APIs enables integration with enterprise systems."
+    },
+    {
+        "question": "If Ambari Agent has any output in /var/log/ambari-agent/ambari-agent.out, it is indicative of a __________ problem.",
+        "options": [
+            "a) Less Severe",
+            "b) Significant",
+            "c) Extremely Severe",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Ambari enables system administrators to provision, manage and monitor a Hadoop cluster, and also to integrate Hadoop with the existing enterprise infrastructure."
+    }
+]

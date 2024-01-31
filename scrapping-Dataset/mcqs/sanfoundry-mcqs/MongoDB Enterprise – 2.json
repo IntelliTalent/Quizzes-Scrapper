@@ -1,0 +1,112 @@
+[
+    {
+        "question": "To install the latest stable version of MongoDB on SUSE, issue ______________",
+        "options": [
+            "a) sudo zypper install mongodb-enterprise",
+            "b) sudo zypper update mongodb-enterprise",
+            "c) sudo zyp install mongodb-enterprise",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When you install the packages, you choose whether to install the current release or a previous one. This step provides the commands for both."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB can be installed on SUSE which is a Linux flavour",
+            "b) MongoDB Enterprise is available on select platforms and contains support for several features related to security and monitoring",
+            "c) A commercial edition of MongoDB that includes additional features",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB is a server process that runs on Linux, Windows and OS X."
+    },
+    {
+        "question": "The MongoDB instance stores its _________ files in /var/lib/mongo by default.",
+        "options": [
+            "a) log",
+            "b) data",
+            "c) replica",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can specify alternate log and data file directories in /etc/mongod.conf."
+    },
+    {
+        "question": "The MongoDB process listens on port _________ by default.",
+        "options": [
+            "a) 27017",
+            "b) 27170",
+            "c) 27107",
+            "d) 26017"
+        ],
+        "answer": "a",
+        "explanation": "Clients connect to the MongoDB process, optionally authenticate themselves if security is turned on, and perform a sequence of actions, such as inserts, queries and updates."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If you change the user that runs the MongoDB process, you must modify the access control rights",
+            "b) The MongoDB instance stores its data files in /var/log/mongodb by default",
+            "c) MongoDB uses memory mapped files for data management for efficiency",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The MongoDB instance stores its data files in /var/lib/mongo and its log files in /var/log/mongodb by default."
+    },
+    {
+        "question": "Which of the following file is a MongoDB configuration file?",
+        "options": [
+            "a) mongodb.conf",
+            "b) mongod.conf",
+            "c) mongodb.con",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Enterprise packages include an example SNMP configuration file named mongod.conf."
+    },
+    {
+        "question": "User account running mongod has _______ permissions for the directory.",
+        "options": [
+            "a) write only",
+            "b) read only",
+            "c) read and write",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To run MongoDB, run the mongod process at the system prompt."
+    },
+    {
+        "question": "___________ allows you to scale your cluster linearly by adding more machines.",
+        "options": [
+            "a) Vertical sharding",
+            "b) Autosharding",
+            "c) Horizontal sharding",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It is possible to increase capacity without any downtime, which is very important on the web when load can increase suddenly and bringing down the website for extended maintenance can cost your business large amounts of revenue."
+    },
+    {
+        "question": "MongoDB is installed unattended on Windows from the command line using ____________",
+        "options": [
+            "a) msi.exe",
+            "b) msiexec.exe",
+            "c) exec.exe",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB requires a data directory to store all data. MongoDB\u2019s default data directory path is \\data\\db."
+    },
+    {
+        "question": "Sometimes mongod.exe is visible on public networks without running in _________ Mode with the auth setting.",
+        "options": [
+            "a) Permanent",
+            "b) Secure",
+            "c) Primary",
+            "d) Protected"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB is designed to be run in trusted environments, and the database does not enable \u201cSecure Mode\u201d by default."
+    }
+]

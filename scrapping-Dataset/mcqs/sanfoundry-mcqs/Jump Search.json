@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Jump search algorithm requires which of the following condition to be true?",
+        "options": [
+            "a) array should be sorted",
+            "b) array should have not be sorted",
+            "c) array should have a less than 64 elements",
+            "d) array should be partially sorted"
+        ],
+        "answer": "a",
+        "explanation": "Jump sort requires the input array to be sorted. The algorithm would fail to give the correct result if array is not sorted."
+    },
+    {
+        "question": "Jumps are made in the jump search algorithm until ___________",
+        "options": [
+            "a) element having value less than that of the required element is found",
+            "b) element having value equal to the median of values of the array is found",
+            "c) element having value greater than that of the required element is found",
+            "d) middle element is found equal to the element being searched"
+        ],
+        "answer": "c",
+        "explanation": "In jump search algorithm jumps are made until element having value greater than the value of element being searched is found. After this linear search is performed in backwards direction."
+    },
+    {
+        "question": "Which of the following step is taken after finding an element having value greater than the element being searched?",
+        "options": [
+            "a) linear search takes place in the forward direction",
+            "b) linear search takes place in the backward direction",
+            "c) binary search takes place in the forward direction",
+            "d) binary search takes place in a backward direction"
+        ],
+        "answer": "b",
+        "explanation": "First an element having value greater than the element being searched is found. After this linear search is performed in a backward direction."
+    },
+    {
+        "question": "How many jumps will be made in the worst case of jump search(let block jumped =k)?",
+        "options": [
+            "a) n*k",
+            "b) n/k",
+            "c) k/n",
+            "d) n+k"
+        ],
+        "answer": "b",
+        "explanation": "Worst case occurs when the value to be searched is in the last section of the array. So, in this case the number of jumps will be n/k."
+    },
+    {
+        "question": "What will be the maximum number of comparisons that can be made in jump search algorithm (assuming k to be blocks jumped)?",
+        "options": [
+            "a) k",
+            "b) n/k",
+            "c) k-1",
+            "d) k-1"
+        ],
+        "answer": "c",
+        "explanation": "Worst case occurs when the element being searched is present just after the element that has been compared while making the last jump. So, in this case k-1 comparisons will have to be made."
+    },
+    {
+        "question": "What is the auxiliary space requirement of the jump search?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(1)"
+        ],
+        "answer": "d",
+        "explanation": "Jump search does not require any additional space for searching the required element. Thus its auxiliary space requirement will be O(1)."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest?",
+        "options": [
+            "a) jump search",
+            "b) binary search",
+            "c) linear search",
+            "d) all are equally fast"
+        ],
+        "answer": "b",
+        "explanation": "Binary search has the least time complexity (equal to log n) out of the given searching algorithms. This makes binary search preferable in most cases."
+    },
+    {
+        "question": "In which of the following case jump search will be preferred over binary search?",
+        "options": [
+            "a) jumping backwards takes significantly more time than jumping forward",
+            "b) jumping forward takes significantly more time than jumping backwards",
+            "c) when the given array is very large in size",
+            "d) when the given array is very small in size"
+        ],
+        "answer": "a",
+        "explanation": "Jump search only needs to jump backwards once, while a binary can jump backwards up to log n times. Thus jump search will be preferred over binary search if jumping backwards is expensive."
+    },
+    {
+        "question": "Best case of jump search will have time complexity of _________",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case of jump search will be when the first element of the array is the element that is being searched. In this case only one comparison will be required. Thus it will have a time complexity of O(1)."
+    },
+    {
+        "question": "Which of the following code correctly represent jump search?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The correct code first makes jumps until an element greater than the required element is found. Then linear search is performed in a backwards direction. If the element is not found then we return -1."
+    },
+    {
+        "question": "Jump search is worse than linear search in terms of time complexity.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Linear search has a time complexity of O(n) and the time complexity of jump search is O(n"
+    },
+    {
+        "question": "Jump search has a worst case time complexity of O(n).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of jump search is O(n"
+    }
+]

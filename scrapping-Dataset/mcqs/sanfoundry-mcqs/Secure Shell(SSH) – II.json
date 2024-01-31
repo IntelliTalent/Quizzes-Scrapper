@@ -1,0 +1,165 @@
+[
+    {
+        "question": "In the Key generation procedure, the Integrity Key from the client to server is represented as:",
+        "options": [
+            "a) HASH(K||H||\u201dE\u201d||session_id)",
+            "b) HASH(K||H||\u201dC\u201d||session_id)",
+            "c) HASH(K||H||\u201dB\u201d||session_id)",
+            "d) HASH(K||H||\u201dD\u201d||session_id)"
+        ],
+        "answer": "a",
+        "explanation": "The Initialization Vector from the client to server is given by HASH(K||H||\u201dE\u201d||session_id)."
+    },
+    {
+        "question": "2.In the Key generation procedure, the Integrity Key from the server to client is represented as:",
+        "options": [
+            "a) HASH(K||H||\u201dA\u201d||session_id)",
+            "b) HASH(K||H||\u201dB\u201d||session_id)",
+            "c) HASH(K||H||\u201dE\u201d||session_id)",
+            "d) HASH(K||H||\u201dF\u201d||session_id)"
+        ],
+        "answer": "d",
+        "explanation": "The Initialization Vector from the server to client is given by HASH(K||H||\u201dF\u201d||session_id)."
+    },
+    {
+        "question": "3.In the Key generation procedure, the Encryption key from the server to client is represented as:",
+        "options": [
+            "a) HASH(K||H||\u201dC\u201d||session_id)",
+            "b) HASH(K||H||\u201dB\u201d||session_id)",
+            "c) HASH(K||H||\u201dF\u201d||session_id)",
+            "d) HASH(K||H||\u201dD\u201d||session_id)"
+        ],
+        "answer": "d",
+        "explanation": "The Initialization Vector from the server to client is given by HASH(K||H||\u201dD\u201d||session_id)."
+    },
+    {
+        "question": "In the User Authentication Protocol, when the client requests for authentication, then the first byte ( in this format) has decimal value \u2013",
+        "options": [
+            "a) 80",
+            "b) 60",
+            "c) 50",
+            "d) 61"
+        ],
+        "answer": "c",
+        "explanation": "The first byte is assigned a value 50. This is the SSH user authentication message/byte."
+    },
+    {
+        "question": "SSH_MSG_USERAUTH_FALIURE is represented by byte-",
+        "options": [
+            "a) 50",
+            "b) 51",
+            "c) 52",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SSH_MSG_USERAUTH_FALIURE is represented by 51. This happens in cases when the server (1) either rejects the authentication request or (2) accepts the request but requires one or more additional authentication methods."
+    },
+    {
+        "question": "6.SSH_MSG_USERAUTH_SUCCESS is represented by the byte \u2013",
+        "options": [
+            "a) 50",
+            "b) 51",
+            "c) 60",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "SSH_MSG_USERAUTH_SUCCESS is represented by 52."
+    },
+    {
+        "question": "Which of the following are valid authentication methods?",
+        "options": [
+            "a) Public Key Based",
+            "b) Password Based",
+            "c) Host Based",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The server may require one or more of the three authentication methods mentioned above."
+    },
+    {
+        "question": "8.The SSH Connection Protocol runs on top of the SSH Transport Layer Protocol and assumes that a secure authentication connection is in use.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true.The SSH Connection Protocol does run on top of the SSH Transport Layer Protocol."
+    },
+    {
+        "question": "The secure authentication connection is referred to as-",
+        "options": [
+            "a) chisel",
+            "b) tunnel",
+            "c) zeroing",
+            "d) handshaking"
+        ],
+        "answer": "b",
+        "explanation": "The secure connection is referred to as tunnel."
+    },
+    {
+        "question": "The Secure Shell Connection Protocol Message exchange has the fist phase as \u201cOpening a Channel\u201d and it sends a message with parameters-",
+        "options": [
+            "a) uint16",
+            "b) uint32",
+            "c) int16",
+            "d) int32"
+        ],
+        "answer": "b",
+        "explanation": "The data type is unsigned integer of size 32 bits."
+    },
+    {
+        "question": "In the \u201cOpening a channel\u201d phase what is the function of the \u201cinnitial window size\u201d parameter?",
+        "options": [
+            "a) It specifies the number of bytes in the IV",
+            "b) It specifies the maximum size of an individual packet",
+            "c) It specifies how many bytes of channel data can be sent",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018innitial window size\u2019 specifies how many bytes of channel data can be sent."
+    },
+    {
+        "question": "In the \u201cOpening a channel\u201d phase what is the function of the \u201cmaximum packet size\u201d parameter?",
+        "options": [
+            "a) It specifies the number of bytes in the IV",
+            "b) It specifies the maximum size of an individual packet",
+            "c) It specifies how many bytes of channel data can be sent",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The \u201cmaximum packet size\u201d specifies the maximum size of an individual packet."
+    },
+    {
+        "question": "Which is not a channel recognized by the SSH connection protocol?",
+        "options": [
+            "a) session",
+            "b) backward-tcpip",
+            "c) direct-tcpip",
+            "d) x11"
+        ],
+        "answer": "b",
+        "explanation": "Backward-tcpip is not a channel."
+    },
+    {
+        "question": "Which channel ensures local port forwarding?",
+        "options": [
+            "a) session",
+            "b) x11",
+            "c) forward-tcpip",
+            "d) direct-tcpip"
+        ],
+        "answer": "d",
+        "explanation": "Direct-tcpip has the function of local port forwarding."
+    },
+    {
+        "question": "15.On which port will the server generally listen to for SMTP?",
+        "options": [
+            "a) port 35",
+            "b) port 63",
+            "c) port 25",
+            "d) port 65"
+        ],
+        "answer": "c",
+        "explanation": "The server would have to listen on port 25 for the simple mail transfer protocol."
+    }
+]

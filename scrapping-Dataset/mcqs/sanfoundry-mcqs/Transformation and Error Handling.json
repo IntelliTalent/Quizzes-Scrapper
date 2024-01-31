@@ -1,0 +1,97 @@
+[
+    {
+        "question": "To send a message into the bus and transform it before working with it further.",
+        "options": [
+            "a) adding extra headers or augmenting the payload",
+            "b) transformer",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You might also want to transform a message by enriching it\u2014adding extra headers or augmenting the payload so that components downstream in the processing pipeline can benefit from it. Use a transformer component to take a Message"
+    },
+    {
+        "question": "Spring Integration provides a transformer message endpoint to permit the augmentation of the message headers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Integration provides a transformer message endpoint to permit the augmentation of the message headers or the transformation of the message itself. In Spring Integration, components are chained together, and output from one component is returned by way of the method invoked for that component."
+    },
+    {
+        "question": "3.The output is constructed dynamically using MessageBuilder",
+        "options": [],
+        "answer": "b",
+        "explanation": "As before, this code is simply a method with an input and an output. The output is constructed dynamically using MessageBuilder"
+    },
+    {
+        "question": "Spring Integration provides the ability to catch exceptions and send them to an error channel of your choosing. By default, it\u2019s a global channel called :-",
+        "options": [
+            "a) error",
+            "b) exceptionChannel",
+            "c) exception",
+            "d) errorChannel"
+        ],
+        "answer": "d",
+        "explanation": "You can have components subscribe to messages from this channel to override the exception handling behavior."
+    },
+    {
+        "question": "The errorChannel doesn\u2019t need to be a service-activator.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "We just use it for convenience here. The code for the following service-activator depicts some of the machinations you might go through to build a handler for the errorChannel."
+    },
+    {
+        "question": "All errors thrown from Spring Integration components will be a subclass of:-",
+        "options": [
+            "a) Messaging",
+            "b) MessagingException",
+            "c) Exception",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MessagingException carries a pointer to the original Message that caused an error, which you can dissect for more context information."
+    },
+    {
+        "question": "One way to discriminate by Exception type is to use:-",
+        "options": [
+            "a) org.springframework.integration.router.ErrorMessageExceptionType",
+            "b) org.springframework.integration.router.ErrorMessageException",
+            "c) org.springframework.integration.router.ErrorMessageExceptionTypeRouter",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Sometimes, more specific error handling is required. One way to discriminate by Exception type is to use the org.springframework.integration.router.ErrorMessageExceptionTypeRouter class."
+    },
+    {
+        "question": "Sending all the errors to the same channel can eventually lead to a large switch-laden class that\u2019s too complex to maintain.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Instead, it\u2019s better to selectively route error messages to the error channel most appropriate to each integration."
+    },
+    {
+        "question": "You can explicitly specify on what channel errors for a given integration should go.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A component (service-activator) that upon receiving a message, adds a header indicating the name of the error channel."
+    },
+    {
+        "question": "Spring Integration will use that header and forward errors encountered in the processing of this message to that channel.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The following example shows a component (service-activator) that upon receiving a message, adds a header indicating the name of the error channel. Spring Integration will use that header and forward errors encountered in the processing of this message to that channel."
+    }
+]

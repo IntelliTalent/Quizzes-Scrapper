@@ -1,0 +1,91 @@
+[
+    {
+        "question": "What is the time complexity for a given pancake sort given it undergoes \u201cn\u201d flip operations?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(2n)"
+        ],
+        "answer": "b",
+        "explanation": "Most sorting algorithms try to sort making the least number of comparisons but in pancake sort we try to sort using as few reversals as possible. Because the total number of flip operations performed in a pancake sort is O(n), the overall time complexity is O(n"
+    },
+    {
+        "question": "Which operation is most essential to the process of pancake sort?",
+        "options": [
+            "a) Flip the given data",
+            "b) Find the largest of given data",
+            "c) Finding the least of given data",
+            "d) Inserting something into the given data"
+        ],
+        "answer": "a",
+        "explanation": "When we use pancake sort, we sort the array to find the largest, and then flip the array at that point to bring that value to the bottom of the pancake stack. The size of the array that we are dealing with is then reduced and the process continues. Flip operation is the most important function in the pancake sort technique."
+    },
+    {
+        "question": "There is one small error in the following flip routine. Find out which line it is on.",
+        "options": [],
+        "answer": "c",
+        "explanation": "After initialization of the array titled arr; for each while loop iteration of increasing init, we should make arr[init]=arr[i]. This makes sure that the changes will be made in order to flip the order of the array that was to be flipped. Here in line 7 it has been written in reverse and is incorrect."
+    },
+    {
+        "question": "Pancake Sorting appears in which of the following?",
+        "options": [
+            "a) Frequency Scaling",
+            "b) Storage Virtualization",
+            "c) Parallel Processing",
+            "d) Neural Networking"
+        ],
+        "answer": "c",
+        "explanation": "Pancake Sorting finds application in educational use not to mention parallel processing networks by providing optimal routing algorithms between networks."
+    },
+    {
+        "question": "In addition to the pancake sorting problem, there is the case of the burnt pancake problem in which we are dealing with pancakes (discs) that are burnt on one side only. In this case it is taken that the burnt side must always end up _______",
+        "options": [
+            "a) Faced down",
+            "b) Faced up",
+            "c) It doesn\u2019t matter",
+            "d) Both sides are burnt"
+        ],
+        "answer": "a",
+        "explanation": "A varation of this pancake is with burnt pancakes. Here each pancake has a burnt side and all pancakes must, in addition, end up with the burnt side on bottom. It is a more difficult version of the regular pancake problem."
+    },
+    {
+        "question": "In a computational complexity theory, a problem with decision making is said to be NP-complete when it is both in NP and NP-hard. What does NP mean?",
+        "options": [
+            "a) Non Polynomial time",
+            "b) Non-deterministic Probabilistic",
+            "c) Non-deterministic Polynomial time",
+            "d) Non Probabilistic time"
+        ],
+        "answer": "c",
+        "explanation": "Although any given solution to an NP-complete problem can be validated quickly in polynomial time; there is no way to efficiently locate a solution to begin with. The unique characteristic of NP-complete problems is that no fast solution to them is known and hence NP-complete problems are said to be non-deterministic polynomial time."
+    },
+    {
+        "question": "When we realize a specific implementation of a pancake algorithm, every move when we find the greatest of the sized array and flipping can be modeled through __________",
+        "options": [
+            "a) Combinations",
+            "b) Exponential functions",
+            "c) Logarithmic functions",
+            "d) Permutations"
+        ],
+        "answer": "d",
+        "explanation": "Here when we flipping the array or stack, we have to take utmost priority to preserve the order of the list so that that sorting doesnt become invalid. Hence we use permutations, we are ensuring that order matters."
+    },
+    {
+        "question": "The Pancake Problems (1975, 1979, 1973) did NOT involve which of the following people?",
+        "options": [
+            "a) Bill Gates",
+            "b) Jacob Goodman",
+            "c) Christos Papadimitriou",
+            "d) John Goodman"
+        ],
+        "answer": "d",
+        "explanation": "(Jacob Goodman \u2013 1975) What is the maximum number of flips needed to sort a permutation of [n] into ascending order?"
+    },
+    {
+        "question": "There is a one line error in the following routine. Find that line.",
+        "options": [],
+        "answer": "b",
+        "explanation": "The increment condition in the for loop declaration is incorrect. We should use ++i instead of i++."
+    }
+]

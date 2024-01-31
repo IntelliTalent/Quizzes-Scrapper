@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What is the class defined in the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Numeric and FALSE is executed as 0. It is somewhat different from other programming languages. Console will give a class as Numeric. A vector can only contain objects of the same class. A list is represented as a vector but can contain objects of different classes."
+    },
+    {
+        "question": "Which one of the following is not a basic datatype?",
+        "options": [
+            "a) Numeric",
+            "b) Character",
+            "c) Data frame",
+            "d) Integer"
+        ],
+        "answer": "c",
+        "explanation": "Data frame is not the basic data type of R. Numeric, character, integer are the basic types of R. The basic data types are used many times. Data frames are used to store tabular data in R. They are an important type of object in R and are used in a variety of statistical modelling applications."
+    },
+    {
+        "question": "How do you create an integer suppose 5 in R?",
+        "options": [
+            "a) 5L",
+            "b) 5l",
+            "c) 5i",
+            "d) 5d"
+        ],
+        "answer": "a",
+        "explanation": "To create an integer L should be added to the integer. L is added to specify that it is an integer. An integer can also be created with many types. If you explicitly want an integer, you need to specify the L suffix."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Characters cannot be expressed as numeric. Therefore NA\u2019s are printed as output. NA will specify the missing elements in the list. When nonsensical coercion takes place, you will usually get a warning from R."
+    },
+    {
+        "question": "The dimension attribute is itself an integer vector of length _______",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "It is itself an integer vector of length 2. The dimension attribute in R is an integer vector. Real values larger in modulus than the largest integer are coerced to NA. Matrices are vectors with a dimension attribute. The dimension attribute is itself an integer vector of length 2 (number of rows, number of columns)."
+    },
+    {
+        "question": "How could be the matrix constructed by using the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "If nothing is mentioned, matrix is created column-wise. If we want in row-wise then we have to specify. We have to mention \u201cby row\u201d to create a matrix in row wise. The filter( ) function is used to extract subsets of rows from a data frame. This function is similar to the existing subset( ) function."
+    },
+    {
+        "question": "Matrices can be created by row-binding with the help of the following function.",
+        "options": [
+            "a) rjoin()",
+            "b) rbind()",
+            "c) rowbind()",
+            "d) rbinding()"
+        ],
+        "answer": "b",
+        "explanation": "rbind() is used to create a matrix by row-binding. Row- binding is the basic function of R. R \u2013 bind is used to bind the functions in R. Matrices can be created by column-binding or row-binding with the cbind() and rbind() functions."
+    },
+    {
+        "question": "What is the function used to test objects (returns a logical operator) if they are NA?",
+        "options": [
+            "a) is.na()",
+            "b) is.nan()",
+            "c) as.na()",
+            "d) as.nan()"
+        ],
+        "answer": "a",
+        "explanation": "is.na() is the function used to test if they are NA. We can check NA \u2018s at any stage of the code. Generally, We will remove the NA\u2019s for the operations in R like mean etc.., is.na() is used to test objects if they are NA."
+    },
+    {
+        "question": "What is the function used to test objects (returns a logical operator) if they are NaN?",
+        "options": [
+            "a) as.nan()",
+            "b) is.na()",
+            "c) as.na()",
+            "d) is.nan()"
+        ],
+        "answer": "d",
+        "explanation": "is.nan() is used to test if they are NaN. We can check NAN\u2018s at any stage of the code. We will remove the NA\u2019s for the operations in R. is.nan() is used to test for NaN."
+    },
+    {
+        "question": "What is the function to set column names for a matrix?",
+        "options": [
+            "a) names()",
+            "b) colnames()",
+            "c) col.names()",
+            "d) column name cannot be set for a matrix"
+        ],
+        "answer": "b",
+        "explanation": "colnames() is the function to set column names for a matrix. rownames() is the function to set row names for a matrix. But we can\u2019t use both at a time. Column names and row names can be set separately using the colnames() and rownames() functions."
+    }
+]

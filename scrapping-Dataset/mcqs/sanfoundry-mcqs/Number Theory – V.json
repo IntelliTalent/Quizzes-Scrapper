@@ -1,0 +1,127 @@
+[
+    {
+        "question": "\u1db2(231)=",
+        "options": [
+            "a) 230",
+            "b) 60",
+            "c) 80",
+            "d) 120"
+        ],
+        "answer": "d",
+        "explanation": "\u1db2(231) = \u1db2(3) x \u1db2(7) x \u1db2(11) = 2 x 6 x 10 = 120."
+    },
+    {
+        "question": "n is prime if and only if n divides (2",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "This isn\u2019t true for all cases. Take for example 341 which is non prime."
+    },
+    {
+        "question": "Find x for the CRT when x= 2 mod 3; x= 3 mod 5; x = 2 mod 7",
+        "options": [
+            "a) 33",
+            "b) 22",
+            "c) 23",
+            "d) 31"
+        ],
+        "answer": "c",
+        "explanation": "We have M = 3 x 5 x 7 = 105; M/3 = 35; M/5 = 21; M/7 = 15."
+    },
+    {
+        "question": "Consider a function: f(n) = number of elements in the set {a: 0 <= a < n and gcd(a,n) = 1}. What is this function?",
+        "options": [
+            "a) Primitive",
+            "b) Totient",
+            "c) Primality",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Such a set is known as Totient."
+    },
+    {
+        "question": "The inverse of 49 mod 37 is \u2013",
+        "options": [
+            "a) 31",
+            "b) 23",
+            "c) 22",
+            "d) 34"
+        ],
+        "answer": "d",
+        "explanation": "49"
+    },
+    {
+        "question": "Six teachers begin courses on Monday Tuesday Wednesday Thursday Friday and Saturday, respectively, and announce their intentions of lecturing at intervals of 2,3,4,1,6 and 5 days respectively. Sunday lectures are forbidden. When first will all the teachers feel compelled to omit a lecture? Use CRT.",
+        "options": [
+            "a) 354",
+            "b) 371",
+            "c) 432",
+            "d) 213"
+        ],
+        "answer": "b",
+        "explanation": "Use CRT to get the answer as 371."
+    },
+    {
+        "question": "How many primitive roots are there for 25?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 7",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "2, 3, 8, 12, 13, 17, 22, 23 are the primitive roots of 25."
+    },
+    {
+        "question": "Given 2 as a primitive root of 29, construct a table of discrete algorithms and solve for x in the following \u2013",
+        "options": [],
+        "answer": "c",
+        "explanation": "On solving we get x = 2, 27 (mod 29)."
+    },
+    {
+        "question": "x",
+        "options": [
+            "a) x = 6, 24 (mod 29)",
+            "b) x = 9, 24 (mod 29)",
+            "c) x = 9, 22 (mod 29)",
+            "d) x = 6, 22 (mod 29)"
+        ],
+        "answer": "b",
+        "explanation": "On solving we get x = 9, 24 (mod 29)."
+    },
+    {
+        "question": "x",
+        "options": [
+            "a) x = 8, 9, 12, 13, 15, 24, 28 (mod 29)",
+            "b) x = 8, 10, 12, 15, 18, 26, 27 (mod 29)",
+            "c) x = 8, 10, 12, 15, 17, 24, 27 (mod 29)",
+            "d) x = 8, 9, 13, 15, 17, 24, 28 (mod 29)"
+        ],
+        "answer": "b",
+        "explanation": "On solving we get x = 8, 10, 12, 15, 18, 26, 27 (mod 29)."
+    },
+    {
+        "question": "The inverse of 37 mod 49 is \u2013",
+        "options": [
+            "a) 23",
+            "b) 12",
+            "c) 4",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "37"
+    },
+    {
+        "question": "How many primitive roots are there for 19?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 3",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "2, 3, 10, 13, 14, 15 are the primitive roots of 19."
+    }
+]

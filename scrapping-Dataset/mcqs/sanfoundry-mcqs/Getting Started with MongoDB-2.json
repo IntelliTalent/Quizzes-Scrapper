@@ -1,0 +1,112 @@
+[
+    {
+        "question": "When you query a collection, MongoDB returns a ________ object that contains the results of the query.",
+        "options": [
+            "a) row",
+            "b) cursor",
+            "c) colums",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mongo shell then iterates over the cursor to display the results."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A database is a set of key-value pairs",
+            "b) A MongoDB deployment hosts a number of databases",
+            "c) A document holds a set of collections",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A database holds a set of collections. A collection holds a set of documents."
+    },
+    {
+        "question": "Which of the following method returns true if the cursor has documents?",
+        "options": [
+            "a) hasMethod()",
+            "b) hasNext()",
+            "c) hasDoc()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "hasNext() returns true if the cursor returned by the db.collection.find() query can iterate further to return more documents."
+    },
+    {
+        "question": "____________ method renders the document in a JSON-like format.",
+        "options": [
+            "a) displayjson",
+            "b) print",
+            "c) printjson",
+            "d) printdoc"
+        ],
+        "answer": "c",
+        "explanation": "printjson() operation displays all documents."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Documents have static schema in MongoDB",
+            "b) Eventually-consistent reads can be distributed over replicated servers",
+            "c) Indexes can include keys from embedded documents and arrays",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection\u2019s documents may hold different types of data."
+    },
+    {
+        "question": "Which of the following method is called while accessing documents using the array index notation?",
+        "options": [
+            "a) cur.toArray()",
+            "b) cursor.toArray()",
+            "c) doc.toArray()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The toArray() method returns an array that contains all the documents from a cursor."
+    },
+    {
+        "question": "The mongo shell and the drivers provide several cursor methods that call on the cursor returned by the _______ method to modify its behavior.",
+        "options": [
+            "a) cursor()",
+            "b) find()",
+            "c) findc()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The method iterates completely the cursor, loading all the documents."
+    },
+    {
+        "question": "Which of the following method corresponds to Order by clause in SQL?",
+        "options": [
+            "a) sort()",
+            "b) order()",
+            "c) orderby()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The sort() method orders the documents in the result set."
+    },
+    {
+        "question": "The __________ method limits the number of documents in the result set.",
+        "options": [
+            "a) limit()",
+            "b) limitOf()",
+            "c) limitBy()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "limit() corresponds to the LIMIT statement in SQL."
+    },
+    {
+        "question": "Which of the following line skips the first 5 documents in the bios collection and returns all remaining documents?",
+        "options": [
+            "a) db.bios.find().limit( 5 )",
+            "b) db.bios.find().skip( 1 )",
+            "c) db.bios.find().skip( 5 )",
+            "d) db.bios.find().sort( 5 )"
+        ],
+        "answer": "c",
+        "explanation": "The skip() method controls the starting point of the results set."
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "question": "What is the objective of tower of hanoi puzzle?",
+        "options": [
+            "a) To move all disks to some other rod by following rules",
+            "b) To divide the disks equally among the three rods by following rules",
+            "c) To move all disks to some other rod in random order",
+            "d) To divide the disks equally among three rods in random order"
+        ],
+        "answer": "a",
+        "explanation": "Objective of tower of hanoi problem is to move all disks to some other rod by following the following rules-1) Only one disk can be moved at a time. 2) Disk can only be moved if it is the uppermost disk of the stack. 3) No disk should be placed over a smaller disk."
+    },
+    {
+        "question": "Which of the following is NOT a rule of tower of hanoi puzzle?",
+        "options": [
+            "a) No disk should be placed over a smaller disk",
+            "b) Disk can only be moved if it is the uppermost disk of the stack",
+            "c) No disk should be placed over a larger disk",
+            "d) Only one disk can be moved at a time"
+        ],
+        "answer": "c",
+        "explanation": "The rule is to not put a disk over a smaller one. Putting a smaller disk over larger one is allowed."
+    },
+    {
+        "question": "The time complexity of the solution tower of hanoi problem using recursion is _________",
+        "options": [
+            "a) O(n",
+            "b) O(2",
+            "c) O(n log n)",
+            "d) O(n)"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of the problem can be found out by solving the recurrence relation: T(n)=2T(n-1)+c. Result of this relation is found to be equal to 2"
+    },
+    {
+        "question": "Recurrence equation formed for the tower of hanoi problem is given by _________",
+        "options": [
+            "a) T(n) = 2T(n-1)+n",
+            "b) T(n) = 2T(n/2)+c",
+            "c) T(n) = 2T(n-1)+c",
+            "d) T(n) = 2T(n/2)+n"
+        ],
+        "answer": "c",
+        "explanation": "As there are 2 recursive calls to n-1 disks and one constant time operation so the recurrence relation will be given by T(n) = 2T(n-1)+c."
+    },
+    {
+        "question": "Minimum number of moves required to solve a tower of hanoi problem with n disks is __________",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) n",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "Minimum number of moves can be calculated by solving the recurrence relation \u2013 T(n)=2T(n-1)+c. Alternatively we can observe the pattern formed by the series of number of moves 1,3,7,15\u2026..Either way it turn out to be equal to 2"
+    },
+    {
+        "question": "Space complexity of recursive solution of tower of hanoi puzzle is ________",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Space complexity of tower of hanoi problem can be found out by solving the recurrence relation T(n)=T(n-1)+c. Result of this relation is found out to be n. It can be solved using substitution."
+    },
+    {
+        "question": "Which of the following functions correctly represent the solution to tower of hanoi puzzle?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The first recursive call moves n-1 disks from a to b using c. Then we move a disk from a to c. Finally the second recursive call moves n-1 disks from b to c using a."
+    },
+    {
+        "question": "Recursive solution of tower of hanoi problem is an example of which of the following algorithm?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Backtracking",
+            "c) Greedy algorithm",
+            "d) Divide and conquer"
+        ],
+        "answer": "d",
+        "explanation": "The recursive approach uses divide and conquer algorithm as we break the problem into smaller parts and then solve the smaller parts and finally combine their results to get the overall solution."
+    },
+    {
+        "question": "Tower of hanoi problem can be solved iteratively.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Iterative solution to tower of hanoi puzzle also exists. Its approach depends on whether the total numbers of disks are even or odd."
+    },
+    {
+        "question": "Minimum time required to solve tower of hanoi puzzle with 4 disks assuming one move takes 2 seconds, will be __________",
+        "options": [
+            "a) 15 seconds",
+            "b) 30 seconds",
+            "c) 16 seconds",
+            "d) 32 seconds"
+        ],
+        "answer": "b",
+        "explanation": "Number of moves = 2"
+    }
+]

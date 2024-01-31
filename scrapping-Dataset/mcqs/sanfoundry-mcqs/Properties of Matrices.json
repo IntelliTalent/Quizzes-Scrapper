@@ -1,0 +1,106 @@
+[
+    {
+        "question": "The determinant of identity matrix is?",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) Depends on the matrix",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In identity matrix a"
+    },
+    {
+        "question": "If determinant of a matrix A is Zero than __________",
+        "options": [
+            "a) A is a Singular matrix",
+            "b) A is a non-Singular matrix",
+            "c) Can\u2019t say",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Determinant of singular matrices are zero."
+    },
+    {
+        "question": "For a skew symmetric even ordered matrix A of integers, which of the following will not hold true?",
+        "options": [
+            "a) det(A) = 9",
+            "b) det(A) = 81",
+            "c) det(A) = 7",
+            "d) det(A) = 4"
+        ],
+        "answer": "c",
+        "explanation": "Determinant of a skew symmetric even ordered matrix A  is a perfect square."
+    },
+    {
+        "question": "For a skew symmetric odd ordered matrix A of integers, which of the following will hold true?",
+        "options": [
+            "a) det(A) = 9",
+            "b) det(A) = 81",
+            "c) det(A) = 0",
+            "d) det(A) = 4"
+        ],
+        "answer": "c",
+        "explanation": "Determinant of a skew symmetric odd ordered matrix A is always 0."
+    },
+    {
+        "question": "Let A = [ka",
+        "options": [
+            "a) Kdet(B)",
+            "b) K",
+            "c) K",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The scalar is multiplied with each of the element of matrix A then determinant is multiplied, the number of row times to the scalar i.e. K"
+    },
+    {
+        "question": "The Inverse exist only for non-singular matrices.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since for singular matrix det(A)=0.Hence Inverse does not exist."
+    },
+    {
+        "question": "If for a square matrix A and B, null matrix O, AB = O implies BA=O.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Let A = [0 1 0 0], B = [1 0 0 0]AB=O and BA is not equal to O."
+    },
+    {
+        "question": "If for a square matrix A and B,null matrix O, AB = O implies A=O and B=O.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Let A = [0 1 0 0], B = [1 0 0 0]AB=O and B, A is not equal to O."
+    },
+    {
+        "question": "Let A be a nilpotent matrix of order n then?",
+        "options": [
+            "a) A",
+            "b) nA = O",
+            "c) A = nI, I is Identity matrix",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "n is the smallest possible number such that An = O."
+    },
+    {
+        "question": "Which of the following property of matrix multiplication is correct?",
+        "options": [
+            "a) Multiplication is not commutative in general",
+            "b) Multiplication is associative",
+            "c) Multiplication is distributive over addition",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Matrix multiplication is associative, distributive, but not commutative."
+    }
+]

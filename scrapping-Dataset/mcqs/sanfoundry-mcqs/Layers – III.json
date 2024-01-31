@@ -1,0 +1,123 @@
+[
+    {
+        "question": "A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the requirement to make this frame collision-free?",
+        "options": [
+            "a) 2msec",
+            "b) 4msec",
+            "c) 2sec",
+            "d) 4sec"
+        ],
+        "answer": "a",
+        "explanation": "Average frame transmission time"
+    },
+    {
+        "question": "A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 1000 frames per second?",
+        "options": [
+            "a) 150 frames",
+            "b) 80 frames",
+            "c) 135 frames",
+            "d) 96 frames"
+        ],
+        "answer": "c",
+        "explanation": "Frame transmission time"
+    },
+    {
+        "question": "A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 500 frames per second?",
+        "options": [
+            "a) 146 frames",
+            "b) 92 frames",
+            "c) 38 frames",
+            "d) 156 frames"
+        ],
+        "answer": "b",
+        "explanation": "If the system creates 500 frames per second, or 1/2 frames per millisecond."
+    },
+    {
+        "question": "A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 250 frames per second?",
+        "options": [
+            "a) 38 frames",
+            "b) 48 frames",
+            "c) 96 frames",
+            "d) 126 frames"
+        ],
+        "answer": "a",
+        "explanation": "If the system creates 250 frames per second, or 1/4 frames per millisecond, then G = \u00bc."
+    },
+    {
+        "question": "A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 1000 frames per second.",
+        "options": [
+            "a) 92 frames",
+            "b) 368 frames",
+            "c) 276 frames",
+            "d) 151 frames"
+        ],
+        "answer": "b",
+        "explanation": "G =1 S=G\u00d7e\u2212G=0.368 (36.8%)"
+    },
+    {
+        "question": "A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 500 frames per second.",
+        "options": [
+            "a) 92 frames",
+            "b) 368 frames",
+            "c) 276 frames",
+            "d) 151 frames"
+        ],
+        "answer": "d",
+        "explanation": "G=1/2   S = G \u00d7 e\u2212G = 0.303 (30.3 percent)"
+    },
+    {
+        "question": "A network using CSMA/CD has a bandwidth of 10 Mbps. If the maximum propagation time (including the delays in the devices and ignoring the time needed to send a jamming signal, as we see later) is 25.6 \u03bcs, what is the minimum size of the frame?",
+        "options": [
+            "a) 128 bytes",
+            "b) 32 bytes",
+            "c) 16 bytes",
+            "d) 64 bytes"
+        ],
+        "answer": "d",
+        "explanation": "The minimum frame transmission time is Tfr = 2 \u00d7 Tp = 51.2 \u03bcs. This means, in the worst case, a station needs to transmit for a period of 51.2 \u03bcs to detect the collision."
+    },
+    {
+        "question": "In collision free protocol channel efficiency is given by-",
+        "options": [
+            "a) d/(d + log2(N))",
+            "b) d*(d + log2(N))",
+            "c) log2(N)",
+            "d) (d + log2(N))"
+        ],
+        "answer": "a",
+        "explanation": "In collision free protocol channel efficiency is given by d/(d + log2(N))."
+    },
+    {
+        "question": "9.",
+        "options": [
+            "a) 10",
+            "b) 11",
+            "c) 12",
+            "d) 14"
+        ],
+        "answer": " a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "10.",
+        "options": [
+            "a) A-B-C-J-D-K",
+            "b) A-B-C-G-H-D-K",
+            "c) A-E-D-K",
+            "d) A-E-G-H-D-K"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "After performing bit stuffing on the following stream : 01101111111111111110010, the output is-",
+        "options": [
+            "a) 01101111101111101111100010",
+            "b) 01101111111111111110010111",
+            "c) 10010000000000000000001101",
+            "d) 01101111111111111111110010"
+        ],
+        "answer": "a",
+        "explanation": "Bit stuffing involves adding a 0 after every five 1s during transmission."
+    }
+]

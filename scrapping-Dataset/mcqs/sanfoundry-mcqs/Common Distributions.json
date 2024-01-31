@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following goal is incorrectly represented in the below figure?",
+        "options": [
+            "a) Relationship between variables",
+            "b) Distribution of variables",
+            "c) Inference about relationships",
+            "d) Causal"
+        ],
+        "answer": "d",
+        "explanation": "Causal is not directly related to goal of statistical modelling."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The exponent of a normally distributed random variables follows what is called the log-normal distribution",
+            "b) Sums of normally distributed random variables are again normally distributed even if the variables are dependent",
+            "c) The square of a standard normal random variable follows what is called chi-squared distribution",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Many random variables, properly normalized, limit to a normal distribution."
+    },
+    {
+        "question": "Which of the following is incorrect with respect to use of Poisson distribution?",
+        "options": [
+            "a) Modeling event/time data",
+            "b) Modeling bounded count data",
+            "c) Modeling contingency tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Poisson distribution is used for modeling unbounded count data."
+    },
+    {
+        "question": "__________ random variables are used to model rates.",
+        "options": [
+            "a) Empirical",
+            "b) Binomial",
+            "c) Poisson",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Poisson distribution is used to model counts."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The normal distribution is asymmetric and peaked about its mode",
+            "b) A constant times a normally distributed random variable is also normally distributed",
+            "c) Sample means of normally distributed random variables are again normally distributed",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The normal distribution is symmetric and peaked about its mean."
+    },
+    {
+        "question": "Which of the following form the basis for frequency interpretation of probabilities?",
+        "options": [
+            "a) Asymptotics",
+            "b) Symptotics",
+            "c) Asymmetry",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Asymptotics is the term for the behavior of statistics as the sample size."
+    },
+    {
+        "question": "Bernoulli random variables take (only) the values 1 and 0.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Bernoulli distribution arises as the result of a binary outcome."
+    },
+    {
+        "question": "The _________ basically states that the sample mean is consistent.",
+        "options": [
+            "a) LAN",
+            "b) LLN",
+            "c) LWN",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "LLN stands for law of large numbers."
+    },
+    {
+        "question": "Which of the following theorem states that the distribution of averages of iid variables, properly normalized, becomes that of a standard normal as the sample size increases?",
+        "options": [
+            "a) Central Limit Theorem",
+            "b) Central Mean Theorem",
+            "c) Centroid Limit Theorem",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Central Limit Theorem (CLT) is one of the most important theorems in statistics."
+    },
+    {
+        "question": "The binomial random variables are obtained as the sum of iid Gaussian trials.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The binomial random variables are obtained as the sum of iid Bernoulli trials."
+    }
+]

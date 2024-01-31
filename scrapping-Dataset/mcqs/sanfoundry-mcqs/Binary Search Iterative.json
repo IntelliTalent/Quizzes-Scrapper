@@ -1,0 +1,128 @@
+[
+    {
+        "question": "What is the advantage of recursive approach than an iterative approach?",
+        "options": [
+            "a) Consumes less memory",
+            "b) Less code and easy to implement",
+            "c) Consumes more memory",
+            "d) More code has to be written"
+        ],
+        "answer": "b",
+        "explanation": "A recursive approach is easier to understand and contains fewer lines of code."
+    },
+    {
+        "question": "Choose the appropriate code that does binary search using recursion.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Calculate the \u2018mid\u2019 value, and check if that is the key, if not, call the function again with 2 sub arrays, one with till mid-1 and the other starting from mid+1."
+    },
+    {
+        "question": "Given an input arr = {2,5,7,99,899}; key = 899; What is the level of recursion?",
+        "options": [
+            "a) 5",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "level 1: mid = 7"
+    },
+    {
+        "question": "Given an array arr = {45,77,89,90,94,99,100} and key = 99; what are the mid values(corresponding array elements) in the first and second levels of recursion?",
+        "options": [
+            "a) 90 and 99",
+            "b) 90 and 94",
+            "c) 89 and 99",
+            "d) 89 and 94"
+        ],
+        "answer": "a",
+        "explanation": "At first level key = 90"
+    },
+    {
+        "question": "What is the worst case complexity of binary search using recursion?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "Using the divide and conquer master theorem."
+    },
+    {
+        "question": "What is the average case time complexity of binary search using recursion?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "T(n) = T(n/2) + 1, Using the divide and conquer master theorem."
+    },
+    {
+        "question": "Which of the following is not an application of binary search?",
+        "options": [
+            "a) To find the lower/upper bound in an ordered sequence",
+            "b) Union of intervals",
+            "c) Debugging",
+            "d) To search in unordered list"
+        ],
+        "answer": "d",
+        "explanation": "In Binary search, the elements in the list should be sorted. It is applicable only for ordered list. Hence Binary search in unordered list is not an application."
+    },
+    {
+        "question": "Choose among the following code for an iterative binary search.",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Find the \u2018mid\u2019, check if it equals the key, if not, continue the iterations until low <= high."
+    },
+    {
+        "question": "Binary Search can be categorized into which of the following?",
+        "options": [
+            "a) Brute Force technique",
+            "b) Divide and conquer",
+            "c) Greedy algorithm",
+            "d) Dynamic programming"
+        ],
+        "answer": "b",
+        "explanation": "Since \u2018mid\u2019 is calculated for every iteration or recursion, we are diving the array into half and then try to solve the problem."
+    },
+    {
+        "question": "Given an array arr = {5,6,77,88,99} and key = 88; How many iterations are done until the element is found?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 4",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "Iteration1 : mid = 77; Iteration2 : mid = 88;"
+    },
+    {
+        "question": "Given an array arr = {45,77,89,90,94,99,100} and key = 100; What are the mid values(corresponding array elements) generated in the first and second iterations?",
+        "options": [
+            "a) 90 and 99",
+            "b) 90 and 100",
+            "c) 89 and 94",
+            "d) 94 and 99"
+        ],
+        "answer": "a",
+        "explanation": "Trace the input with the binary search iterative code."
+    },
+    {
+        "question": "What is the time complexity of binary search with iteration?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "T(n) = T(n/2) + theta(1)"
+    }
+]

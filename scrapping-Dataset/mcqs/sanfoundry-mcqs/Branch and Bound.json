@@ -1,0 +1,119 @@
+[
+    {
+        "question": "Branch and bound is a __________",
+        "options": [
+            "a) problem solving technique",
+            "b) data structure",
+            "c) sorting algorithm",
+            "d) type of tree"
+        ],
+        "answer": "a",
+        "explanation": "Branch and bound is a problem solving technique generally used for solving combinatorial optimization problems. Branch and bound helps in solving them faster."
+    },
+    {
+        "question": "Which of the following is not a branch and bound strategy to generate branches?",
+        "options": [
+            "a) LIFO branch and bound",
+            "b) FIFO branch and bound",
+            "c) Lowest cost branch and bound",
+            "d) Highest cost branch and bound"
+        ],
+        "answer": "d",
+        "explanation": "LIFO, FIFO and Lowest cost branch and bound are different strategies to generate branches. Lowest cost branch and bound helps us find the lowest cost path."
+    },
+    {
+        "question": "Which data structure is used for implementing a LIFO branch and bound strategy?",
+        "options": [
+            "a) stack",
+            "b) queue",
+            "c) array",
+            "d) linked list"
+        ],
+        "answer": "a",
+        "explanation": "Stack is the data structure is used for implementing LIFO branch and bound strategy. This leads to depth first search as every branch is explored until a leaf node is discovered."
+    },
+    {
+        "question": "Which data structure is used for implementing a FIFO branch and bound strategy?",
+        "options": [
+            "a) stack",
+            "b) queue",
+            "c) array",
+            "d) linked list"
+        ],
+        "answer": "b",
+        "explanation": "Queue is the data structure is used for implementing FIFO branch and bound strategy. This leads to breadth first search as every branch at depth is explored first before moving to the nodes at greater depth."
+    },
+    {
+        "question": "Which data structure is most suitable for implementing best first branch and bound strategy?",
+        "options": [
+            "a) stack",
+            "b) queue",
+            "c) priority queue",
+            "d) linked list"
+        ],
+        "answer": "c",
+        "explanation": "Priority Queue is the data structure is used for implementing best first branch and bound strategy. Dijkstra\u2019s algorithm is an example of best first search algorithm."
+    },
+    {
+        "question": "Which of the following branch and bound strategy leads to breadth first search?",
+        "options": [
+            "a) LIFO branch and bound",
+            "b) FIFO branch and bound",
+            "c) Lowest cost branch and bound",
+            "d) Highest cost branch and bound"
+        ],
+        "answer": "b",
+        "explanation": "LIFO, FIFO and Lowest cost branch and bound are different strategies to generate branches.  FIFO branch and bound leads to breadth first search."
+    },
+    {
+        "question": "Which of the following branch and bound strategy leads to depth first search?",
+        "options": [
+            "a) LIFO branch and bound",
+            "b) FIFO branch and bound",
+            "c) Lowest cost branch and bound",
+            "d) Highest cost branch and bound"
+        ],
+        "answer": "a",
+        "explanation": "LIFO, FIFO and Lowest cost branch and bound are different strategies to generate branches. LIFO branch and bound leads to depth first search."
+    },
+    {
+        "question": "Both FIFO branch and bound strategy and backtracking leads to depth first search.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "FIFO branch and bound leads to breadth first search. Whereas backtracking leads to depth first search."
+    },
+    {
+        "question": "Both LIFO branch and bound strategy and backtracking leads to depth first search.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Both backtrackings as well as branch and bound are problem solving algorithms. Both LIFO branch and bound strategy and backtracking leads to depth first search."
+    },
+    {
+        "question": "Choose the correct statement from the following.",
+        "options": [
+            "a) branch and bound is more efficient than backtracking",
+            "b) branch and bound is not suitable where a greedy algorithm is not applicable",
+            "c) branch and bound divides a problem into at least 2 new restricted sub problems",
+            "d) backtracking divides a problem into at least 2 new restricted sub problems"
+        ],
+        "answer": "c",
+        "explanation": "Both backtracking as well as branch and bound are problem solving algorithms. Branch and bound is less efficient than backtracking. Branch and bound divides a problem into at least 2 new restricted sub problems."
+    },
+    {
+        "question": "Which of the following can traverse the state space tree only in DFS manner?",
+        "options": [
+            "a) branch and bound",
+            "b) dynamic programming",
+            "c) greedy algorithm",
+            "d) backtracking"
+        ],
+        "answer": "d",
+        "explanation": "Both backtracking as well as branch and bound are problem solving algorithms. Branch and bound can traverse in DFS as well as BFS manner whereas backtracking only traverses in DFS manner."
+    }
+]

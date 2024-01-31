@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Which system variable when set to 1, makes all temporary tables to get stored on disk rather than in memory?",
+        "options": [
+            "a) basedir",
+            "b) back_log",
+            "c) big_tables",
+            "d) bind_address"
+        ],
+        "answer": "c",
+        "explanation": "The variable \u2018big_tables\u2019 if set to 1, all temporary tables are stored on disk rather than in memory. This is a little slower but the error \u2018The table tbl_name is full\u2019 does not occur for SELECT operations that require a large temporary table."
+    },
+    {
+        "question": "The permitted value type for the variable \u2018character_set_client\u2019 is _____________",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) double",
+            "d) string"
+        ],
+        "answer": "d",
+        "explanation": "\u2018character_set_client\u2019 is the character set for statements that arrive from the client. The session value of this variable is set using the character set requested by the client when client connects to server."
+    },
+    {
+        "question": "\u2018character_set_database\u2019 represents the character set used by the default database.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "\u2018character_set_database\u2019 is the character set used by the default database. The server sets the variable whenever the default database changes. If there is no default database the variable has the same value as \u2018character_set_server\u2019."
+    },
+    {
+        "question": "Which string function returns the index of the first occurrence of substring?",
+        "options": [
+            "a) INSERT()",
+            "b) INSTR()",
+            "c) INSTRING()",
+            "d) INFSTR()"
+        ],
+        "answer": "b",
+        "explanation": "The string funtion \u2018INSTR()\u2019 is used to return the index of the first occurrence of the substring. The function \u2018INSERT()\u2019 is used to insert a substring at the specified position up to the specified number of characters."
+    },
+    {
+        "question": "Which module links DBI to the web?",
+        "options": [
+            "a) CGI.pn",
+            "b) CGI.pem",
+            "c) CGI.pm",
+            "d) CGI.po"
+        ],
+        "answer": "c",
+        "explanation": "The CGI.pm module is used to write scripts that use the \u2018Common Gateway Interface\u2019 protocol. It defines how a web server communicates with other programs. It provides an easy link."
+    },
+    {
+        "question": "What does CGI stand for?",
+        "options": [
+            "a) Computer Gateway Interface",
+            "b) Common Gateway Interface",
+            "c) Computer Generated Interface",
+            "d) Common Generated Interface"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CGI.pm\u2019 module is so called because it helps write scripts that use the \u2018Common Gateway Interface\u2019 protocol which defines how a web server communicates with other programs."
+    },
+    {
+        "question": "The line that is written at the top of the script to write a Perl script using CGI.pm is ___________",
+        "options": [
+            "a) use this CGI",
+            "b) put CGI",
+            "c) use CGI",
+            "d) include CGI"
+        ],
+        "answer": "c",
+        "explanation": "In order to write a Perl script that uses the \u2018CGI.pm\u2019 module, a \u2018use CGI\u2019 statement is included near the beginning of the script that imports the function names of the module."
+    },
+    {
+        "question": "What is the shebang line?",
+        "options": [
+            "a) #!",
+            "b) !#",
+            "c) #$",
+            "d) $#"
+        ],
+        "answer": "a",
+        "explanation": "The Perl scripts are text files, which can be ceated using any text editor. All Perl scripts generally begin with a #! (shebang) line. A script is a file containing a sequence of commands."
+    }
+]

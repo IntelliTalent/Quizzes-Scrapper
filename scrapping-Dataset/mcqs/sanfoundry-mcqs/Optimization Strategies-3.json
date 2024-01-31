@@ -1,0 +1,101 @@
+[
+    {
+        "question": "____________ does not provide query execution information for the rejected plans.",
+        "options": [
+            "a) serverstats",
+            "b) queryPlanner",
+            "c) executionStats",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "executionStats contains statistics that describe the completed query execution for the winning plan."
+    },
+    {
+        "question": "Which of the following provides information on the MongoDB instance?",
+        "options": [
+            "a) serverInfo",
+            "b) queryPlanner",
+            "c) executeStats",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The verbosity mode (i.e. queryPlanner, executionStats, allPlansExecution) determines whether the results include executionStats and whether executionStats includes data captured during plan selection."
+    },
+    {
+        "question": "_________ corresponds to the millis field returned by cursor.explain() in earlier versions of MongoDB.",
+        "options": [
+            "a) executionMillis",
+            "b) executionTimeMillis",
+            "c) timemillis",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " explain.executionStats.executionTimeMillis is total time in milliseconds required for query plan selection and query execution."
+    },
+    {
+        "question": "For sharded collections, explain returns the __________ for each accessed shard.",
+        "options": [
+            "a) clientInfo",
+            "b) serverInfo",
+            "c) serverplan",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For sharded collections, explain returns the core query planner and server information for each accessed shard in the shards field"
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If MongoDB can use an index scan to obtain the requested sort order, the result will not include a SORT stage",
+            "b) In previous versions of MongoDB, cursor.explain() returned the scanAndOrder field to specify whether MongoDB could use the index order to return sorted results",
+            "c) If MongoDB uses indexes for a $and expression, the result will include the AND stage with an inputStages array that details the replicata sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If MongoDB uses indexes for a $or expression, the result will include the OR stage with an inputStages array that details the indexes"
+    },
+    {
+        "question": "If the query planner selects a collection scan, the explain result includes a _________ stage.",
+        "options": [
+            "a) COLLSCAN",
+            "b) TABLESCAN",
+            "c) ROWSCAN",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The format and fields of the explain results have changed from previous versions."
+    },
+    {
+        "question": "Which of the following parameter specifies the verbosity mode for the explain output?",
+        "options": [
+            "a) verbosity",
+            "b) verbose",
+            "c) queryPlanner",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mode affects the behavior of explain() and determines the amount of information to return."
+    },
+    {
+        "question": "In _____________ mode, MongoDB returns statistics describing the execution of the winning plan as well as statistics for the other candidate plans captured during plan selection.",
+        "options": [
+            "a) somePlansExecution",
+            "b) allPlansExecution",
+            "c) rejPlansExecution",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "cursor.explain() returns the queryPlanner and executionStats information for the evaluated method."
+    },
+    {
+        "question": "If the query planner selects a _________ the explain result includes an IXSCAN stage.",
+        "options": [
+            "a) Index",
+            "b) Replica Set",
+            "c) Document",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB runs the query optimizer to choose the winning plan for the operation under evaluation."
+    }
+]

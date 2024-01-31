@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Object_Id is similar to _________ key in Relational Databases.",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) composite",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Object_Id is unique and cannot be changed."
+    },
+    {
+        "question": "Which of the field is reserved for use as a primary key?",
+        "options": [
+            "a) _id",
+            "b) _uid",
+            "c) _uuid",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ID value value must be unique in the collection, is immutable, and may be of any type other than an array."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The field names cannot start with the dollar sign ($) character",
+            "b) The field names cannot contain the dot (.) character",
+            "c) The field names cannot contain the null character",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Documents have certain restrictions on field names."
+    },
+    {
+        "question": "To ensure functioning replication, do not store values that are of the _______ regular expression type in the _id field.",
+        "options": [
+            "a) JSON",
+            "b) XML",
+            "c) JScript",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The _id field may contain values of any BSON data type, other than an array."
+    },
+    {
+        "question": "The ______ field is always the first field in the document.",
+        "options": [
+            "a) _id",
+            "b) id",
+            "c) Ob_id",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Updates that include renaming of field names may result in the reordering of fields in the document."
+    },
+    {
+        "question": "__________ returns the JavaScript representation in the form of a string literal.",
+        "options": [
+            "a) toStringJava()",
+            "b) toString()",
+            "c) String()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In previous versions, toString() returns the hexadecimal string representation, which as of version 2.2 can be retrieved by the str property."
+    },
+    {
+        "question": "Which of the following query is used to generate a new ObjectId, use the ObjectId() constructor with no argument?",
+        "options": [
+            "a) x = ObjectIdAdd()",
+            "b) x = addObjectId()",
+            "c) x = ObjectId()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " ObjectId() constructor is used with no argument for new object."
+    }
+]

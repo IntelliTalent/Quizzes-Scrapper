@@ -1,0 +1,107 @@
+[
+    {
+        "question": "A symbol X is ________ if there exists : S->* aXb",
+        "options": [
+            "a) reachable",
+            "b) generating",
+            "c) context free",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A symbol X is generating if there exists : X->*w for some w that belongs to T*."
+    },
+    {
+        "question": "A symbol X is called to be useful if and only if its is:",
+        "options": [
+            "a) generating",
+            "b) reachable",
+            "c) both generating and reachable",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For a symbol X to be useful, it has to be both reachable and generating i.e."
+    },
+    {
+        "question": "Which of the following is false for a grammar G in Chomsky Normal Form:",
+        "options": [
+            "a) G has no useless symbols",
+            "b) G has no unit productions",
+            "c) G has no epsilon productions",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "G, a CFG is said to be in Chomsky normal form if all its productions are in one of the following form:"
+    },
+    {
+        "question": "Given Checklist:",
+        "options": [
+            "i) G has no useless symbols",
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "b",
+        "explanation": "The grammar is not in CNF if it violates the normal form of the productions which is strictly restricted."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "It is the parse tree theorem which states:"
+    },
+    {
+        "question": "If |w|>=2",
+        "options": [
+            "a) h",
+            "b) h+1",
+            "c) h-1",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "It is the basic implication of Parse tree theorem (assuming CNF). If the height of the parse tree is h, then |w| <=2"
+    },
+    {
+        "question": "If w belongs to L(G), for some CFG, then w has a parse tree, which tell us the ________ structure of w.",
+        "options": [
+            "a) semantic",
+            "b) syntactic",
+            "c) lexical",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A parse tree or concrete syntactic tree is an ordered, rooted tree that represents the syntactic structure of a string according to some context free grammar."
+    },
+    {
+        "question": "Which of the following are distinct to parse trees?",
+        "options": [
+            "a) abstract parse trees",
+            "b) sentence diagrams",
+            "c) both abstract parse trees and sentence diagrams",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Both of the mentioned are different from parse trees. Sentence diagrams are pictorial representations of grammatical structure of a sentence."
+    },
+    {
+        "question": "Choose the correct option:",
+        "options": [
+            "a) true",
+            "b) partially true",
+            "c) false",
+            "d) cant be said"
+        ],
+        "answer": "a",
+        "explanation": "Ideally, there should be only one parse tree for each string, i.e. the language should be unambiguous."
+    },
+    {
+        "question": "Is the given statement correct?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "It is also true that multiple leftmost or rightmost derivations do cause ambiguity. Unfortunately, it is not possible to remove the ambiguity always."
+    }
+]

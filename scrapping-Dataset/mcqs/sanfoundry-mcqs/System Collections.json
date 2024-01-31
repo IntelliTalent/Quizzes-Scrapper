@@ -1,0 +1,101 @@
+[
+    {
+        "question": "MongoDB stores additional instance-local metadata in the _______ database.",
+        "options": [
+            "a) Master",
+            "b) Model",
+            "c) Local",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It is stored specifically for replication purposes."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) You can limit the number of incoming connections using the maxConnections run-time option",
+            "b) mongos instances maintain a connection pool to each shard so that the mongos can reuse connections",
+            "c) You can use the limit command at the system prompt to check system limits",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This would quickly fulfill requests without needing to create new connections."
+    },
+    {
+        "question": "In replica sets, each ________ maintains a connection to all other members of the set.",
+        "options": [
+            "a) serverInfo",
+            "b) mongod",
+            "c) mongos",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongod uses background threads for a number of internal processes, including TTL collections, replication, and replica set health checks, which may require a small number of additional resources."
+    },
+    {
+        "question": "The ___________ collection stores the user\u2019s authentication credentials as well as any roles assigned to the user.",
+        "options": [
+            "a) admin.system.auth",
+            "b) admin.system.users",
+            "c) admin.system.usersauth",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Users may define authorization roles in the admin.system.roles collection."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The \u201chard\u201d ulimit refers to the maximum number of processes that a user can have active at any time",
+            "b) The \u201csoft\u201d ulimit refers to the minimum number of processes that a user can have active at any time",
+            "c) ulimit will modify both \u201chard\u201d and \u201csoft\u201d values unless the -H or -S modifiers are specified when modifying limit values",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are both \u201chard\u201d and the \u201csoft\u201d ulimits that affect MongoDB\u2019s performance."
+    },
+    {
+        "question": "The <database>.system.indexes collection lists all the _________ in the database.",
+        "options": [
+            "a) serverinfo",
+            "b) indexes",
+            "c) profiling",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The <database>.system.profile collection stores database profiling information. For information on profiling."
+    },
+    {
+        "question": "Which of the following The collection holds special JavaScript code for use in server side JavaScript?",
+        "options": [
+            "a) <database>.system.jserver",
+            "b) <database>.system.jscript",
+            "c) <database>.system.js",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Do not store application logic in the database."
+    },
+    {
+        "question": "Which of the following can store JavaScript functions for reuse?",
+        "options": [
+            "a) store.js",
+            "b) system.js",
+            "c) system.store.js",
+            "d) save.js"
+        ],
+        "answer": "b",
+        "explanation": "To store a function, you can use the db.collection.save()."
+    },
+    {
+        "question": "______ is used to load all the scripts saved in the system.js collection for the current database.",
+        "options": [
+            "a) db.loadServerScripts()",
+            "b) db.loadScripts()",
+            "c) db.loadServerScriptsjs()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The documents in the system.js collection provide functions that your applications can use in any JavaScript context with MongoDB in this database."
+    }
+]

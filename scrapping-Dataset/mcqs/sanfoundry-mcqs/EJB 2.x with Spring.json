@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Key technology in developing distributed applications, especially multi-tier enterprise applications.",
+        "options": [
+            "a) Remoting",
+            "b) EJB",
+            "c) RMI",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring support for various remoting technologies, such as EJB, RMI, Hessian, Burlap, HTTP Invoker, and web services. Remoting is a key technology in developing distributed applications, especially multi-tier enterprise applications."
+    },
+    {
+        "question": "Java-based remoting technology that allows two Java applications running in different JVMs to communicate with each other.",
+        "options": [
+            "a) Burlap",
+            "b) EJB",
+            "c) RMI",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "With RMI, an object can invoke the methods of a remote object. RMI relies on object serialization to marshall and unmarshall method arguments and return values."
+    },
+    {
+        "question": "To expose a service through RMI, you have to create the service interface that extends:-",
+        "options": [
+            "a) java.rmi.Remote",
+            "b) java.rmi.RemoteException",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Considering the typical RMI usage scenario, to expose a service through RMI, you have to create the service interface that extends java.rmi.Remote and whose methods declare throwing java.rmi.RemoteException."
+    },
+    {
+        "question": "To call the methods on a remote service:-",
+        "options": [
+            "a) java.rmi.Remote",
+            "b) java.rmi.RemoteException",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "However, to call the methods on a remote service, you must handle java.rmi.RemoteException in case any exception is thrown by the remote service."
+    },
+    {
+        "question": "Spring remoting facilities can significantly simplify the RMI usage on both the server and client sides.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "On the server side, you can use RmiServiceExporter to export a Spring bean as an RMI service whose methods can be invoked remotely. It\u2019s just several lines of bean configuration without any programming. On the client side, you can simply use RmiProxyFactoryBean to create a proxy for the remote service."
+    },
+    {
+        "question": "There are several properties you must configure for an RmiServiceExporter instance:-",
+        "options": [
+            "a) service name",
+            "b) service interface",
+            "c) service object",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are several properties you must configure for an RmiServiceExporter instance, including the service name, the service interface, and the service object to export."
+    },
+    {
+        "question": "By default, RmiServiceExporter attempts to look up an RMI registry at localhost port 1099.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If it can\u2019t find the RMI registry, it will start a new one."
+    },
+    {
+        "question": "The Spring support classes facilitate building session beans:-",
+        "options": [
+            "a) stateful session beans (SFSBs)",
+            "b) stateless session beans (SLSBs)",
+            "c) message-driven beans (MDBs)",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The Spring support classes facilitate building session beans\u2014stateful session beans (SFSBs) and stateless session beans (SLSBs)\u2014and message-driven beans (MDBs) with Spring."
+    },
+    {
+        "question": "Spring EJB Support Classes for Different Types of EJB:-",
+        "options": [
+            "a) AbstractStatelessSessionBean",
+            "b) AbstractStatefulSessionBean",
+            "c) AbstractMessageDrivenBean",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring EJB Support Classes for Different Types of EJB"
+    },
+    {
+        "question": "EJB support classes provide access to the Spring IoC container for you to implement your business logic in POJOs and wrap them with EJB components.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Because POJOs are easier to develop and test, implementing business logic in POJOs can accelerate your EJB development."
+    },
+    {
+        "question": "OpenEJB 3.1.1 supports:-",
+        "options": [
+            "a) EJB 2.x components",
+            "b) EJB 3.0 and EJB 3.1 components",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To compile and build your EJB component, you have to include a library that contains standard EJB classes and interfaces in your classpath. OpenEJB 3.1.1 supports both legacy EJB 2.x components as well as newer EJB 3.0 and EJB 3.1 components, so we\u2019ll use its implementation library."
+    },
+    {
+        "question": "If you want to expose EJB component for local access within an enterprise application, the preceding two interfaces should extend EJBLocalObject and EJBLocalHome.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If you want to expose this EJB component for local access within an enterprise application, the preceding two interfaces should extend EJBLocalObject and EJBLocalHome instead, whose methods don\u2019t need to throw RemoteException. For simplicity\u2019s sake, we\u2019re omitting the local and local home interfaces here."
+    },
+    {
+        "question": "The ejbCreate() method is the EJB hook for initialization of state, much as a JSR-250 annotated @PostConstruct() method or afterPropertiesSet() method work in Java EE 5 and Spring.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Similarly, for each overloaded form of ejbCreate() on the SessionBean, there must be a create method with the same arguments on the EJBHome."
+    },
+    {
+        "question": "To start the OpenEJB container, you first set environment variable:-",
+        "options": [
+            "a) EJB_HOME",
+            "b) OPENEJB_HOME",
+            "c) Bashrc",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To start the OpenEJB container, you first set the OPENEJB_HOME environment variable to point to your OpenEJB installation directory."
+    },
+    {
+        "question": "To use Spring EJB support for your EJB implementation classes, you have to include a few Spring framework JARs:-",
+        "options": [
+            "a) spring-beans",
+            "b) spring-core",
+            "c) spring-context",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To use Spring EJB support for your EJB implementation classes, you have to include a few Spring framework JARs, including spring-beans, spring-core, spring-context, spring-asm, and spring-expression in the classpath of your EJB container."
+    }
+]

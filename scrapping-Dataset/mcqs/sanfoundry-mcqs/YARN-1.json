@@ -1,0 +1,112 @@
+[
+    {
+        "question": "________ is the architectural center of Hadoop that allows multiple data processing engines.",
+        "options": [
+            "a) YARN",
+            "b) Hive",
+            "c) Incubator",
+            "d) Chuckwa"
+        ],
+        "answer": "a",
+        "explanation": "YARN is the prerequisite for Enterprise Hadoop, providing resource management and a central platform to deliver consistent operations, security, and data governance tools across Hadoop clusters."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) YARN also extends the power of Hadoop to incumbent and new technologies found within the data center",
+            "b) YARN is the central point of investment for Hortonworks within the Apache community",
+            "c) YARN enhances a Hadoop compute cluster in many ways",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "YARN provides ISVs and developers a consistent framework for writing data access applications that run IN Hadoop."
+    },
+    {
+        "question": "YARN\u2019s dynamic allocation of cluster resources improves utilization over more static _______ rules used in early versions of Hadoop.",
+        "options": [
+            "a) Hive",
+            "b) MapReduce",
+            "c) Imphala",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Multi-tenant data processing improves an enterprise\u2019s return on its Hadoop investments."
+    },
+    {
+        "question": "The __________ is a framework-specific entity that negotiates resources from the ResourceManager.",
+        "options": [
+            "a) NodeManager",
+            "b) ResourceManager",
+            "c) ApplicationMaster",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Each ApplicationMaster has the responsibility for negotiating appropriate resource containers from the schedule."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) From the system perspective, the ApplicationMaster runs as a normal container",
+            "b) The ResourceManager is the per-machine slave, which is responsible for launching the applications\u2019 containers",
+            "c) The NodeManager is the per-machine slave, which is responsible for launching the applications\u2019 containers, monitoring their resource usage",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "ResourceManager has a scheduler, which is responsible for allocating resources to the various applications running in the cluster, according to constraints such as queue capacities and user limits."
+    },
+    {
+        "question": "Apache Hadoop YARN stands for _________",
+        "options": [
+            "a) Yet Another Reserve Negotiator",
+            "b) Yet Another Resource Network",
+            "c) Yet Another Resource Negotiator",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "YARN is a cluster management technology."
+    },
+    {
+        "question": "MapReduce has undergone a complete overhaul in hadoop is _________",
+        "options": [
+            "a) 0.21",
+            "b) 0.23",
+            "c) 0.24",
+            "d) 0.26"
+        ],
+        "answer": "b",
+        "explanation": "The fundamental idea of MRv2 is to split up the two major functionalities of the JobTracker."
+    },
+    {
+        "question": "The ____________ is the ultimate authority that arbitrates resources among all the applications in the system.",
+        "options": [
+            "a) NodeManager",
+            "b) ResourceManager",
+            "c) ApplicationMaster",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The ResourceManager and per-node slave, the NodeManager (NM), form the data-computation framework."
+    },
+    {
+        "question": "The __________ is responsible for allocating resources to the various running applications subject to familiar constraints of capacities, queues etc.",
+        "options": [
+            "a) Manager",
+            "b) Master",
+            "c) Scheduler",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Scheduler is a pure scheduler in the sense that it performs no monitoring or tracking of status for the application."
+    },
+    {
+        "question": "The CapacityScheduler supports _____________ queues to allow for more predictable sharing of cluster resources.",
+        "options": [
+            "a) Networked",
+            "b) Hierarchical",
+            "c) Partition",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Scheduler has a pluggable policy plugin, which is responsible for partitioning the cluster resources among the various queues, applications etc."
+    }
+]

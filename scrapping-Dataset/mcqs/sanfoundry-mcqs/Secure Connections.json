@@ -1,0 +1,86 @@
+[
+    {
+        "question": "The number of files that each end of a client/server connection including SSL support use to set up secure communications is __________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "d",
+        "explanation": "With a MySQL installation that includes SSL support the server and its clients can communicate securely. Each end of a connection uses three files to set up secure communications."
+    },
+    {
+        "question": "What is the TLS protocol?",
+        "options": [
+            "a) transparent layer security",
+            "b) transport layer security",
+            "c) transparent level security",
+            "d) transport level security"
+        ],
+        "answer": "b",
+        "explanation": "MySQL supports encrypted connections between clients and the server using the TLS protocol. It is also referred to as SSL but MySQL does not actually use the SSL protocol for encrypted connections."
+    },
+    {
+        "question": "Which grant table scope columns are case insensitive?",
+        "options": [
+            "a) Host",
+            "b) User",
+            "c) Password",
+            "d) Db"
+        ],
+        "answer": "a",
+        "explanation": "\u2018Db\u2019 and \u2018Table_name\u2019 values are always treated as case sensitive even though the treatment of database and table names in SQL statements depends on the filesystem case sensitivity of the host."
+    },
+    {
+        "question": "The variable that checks for availability of SSL support is ____________",
+        "options": [
+            "a) have_ssl",
+            "b) has_ssl",
+            "c) avail_ssl",
+            "d) ssl_avail"
+        ],
+        "answer": "a",
+        "explanation": "After the SSL-capable server is started, to verify that it supports SSL, connection is established with \u2018mysql\u2019 and the following query is issued: SHOW VARIABLES LIKE \u2018have_ssl\u2019."
+    },
+    {
+        "question": "MySQL does provides a date type that has an optional time part.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there is no data type provided which has an optional time part. The \u2018DATE\u2019 type values never have a time part. The \u2018DATETIME\u2019 type values must have a time part in them."
+    },
+    {
+        "question": "The function that returns a reference to an array of row values is ______________",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "b",
+        "explanation": "\u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "The MySQL server is configurable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL server is highly configurable. Some of the operational characteristics that you can control include which storage engines the server supports, the default character set, and its default time zone."
+    },
+    {
+        "question": "The log in which data changes received from a replication master server are written is _____________",
+        "options": [
+            "a) error log",
+            "b) general query log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "d",
+        "explanation": "The Relay Log has the data changes received from a replication master server written in it. The problems encountered during the starting, running or stopping of \u2018mysqld\u2019 are written in error log."
+    }
+]

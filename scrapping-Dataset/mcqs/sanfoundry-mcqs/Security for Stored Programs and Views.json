@@ -1,0 +1,87 @@
+[
+    {
+        "question": "The creation of a stored program is similar to the definition of a _______________",
+        "options": [
+            "a) Trigger",
+            "b) Event",
+            "c) View",
+            "d) Table"
+        ],
+        "answer": "c",
+        "explanation": "When a stored program is created, an object is created that is to be executed later. This also the case when a view is defined: It sets up a SELECT statement intended for later invocation."
+    },
+    {
+        "question": "When the security context enables carefully written stored programs to be set up that provide controlled access to tables for users, it is called __________",
+        "options": [
+            "a) good",
+            "b) bad",
+            "c) illegal",
+            "d) fare"
+        ],
+        "answer": "a",
+        "explanation": "The security context is good if it enables carefully written stored programs to be set up that provide controlled access to tables for users who are not able to access them directly."
+    },
+    {
+        "question": "When a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access, the security context is __________",
+        "options": [
+            "a) good",
+            "b) bad",
+            "c) illegal",
+            "d) fare"
+        ],
+        "answer": "b",
+        "explanation": "The security context is bad if a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access to that data as its definer."
+    },
+    {
+        "question": "Triggers and events are invoked automatically by the server.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The triggers and events are invoked automatically by the server, so the concept of invoking user is not applied. Thus, they have no SQL SECURITY characteristic and always execute with definer privileges."
+    },
+    {
+        "question": "A stored procedure is invoked using the statement __________",
+        "options": [
+            "a) INVOKE",
+            "b) SEE",
+            "c) CALL",
+            "d) RETURN"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, a stored procedure is invoked using the CALL statement. A stored procedure does not have a return value but can modify its parameters. It also returns some result sets."
+    },
+    {
+        "question": "Which privilege is enabled to create of alter a stored function?",
+        "options": [
+            "a) SUPER",
+            "b) PRIOR",
+            "c) TOP",
+            "d) SUPERIOR"
+        ],
+        "answer": "a",
+        "explanation": "In order to create or alter a stored function, the SUPER privilege should be given in addition to the CREATE ROUTINE privilege that is normally required. Depending on the DEFINER value in the function definition SUPER might be required."
+    },
+    {
+        "question": "The locking statements LOCK TABLES and UNLOCK TABLES are not permitted in stored routines.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the stored routines cannot contain arbitrary SQL statements. For example, the locking statements LOCK TABLES and UNLOCK TABLES are not permitted in the stored routines."
+    },
+    {
+        "question": "How many of the following can be used in stored procedures?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The SQL prepared statements, PREPARE, EXECUTE, DEALLOCATE PREPARE can be used in the stored procedures. They can however, not be stored in the stored functions or triggers."
+    },
+    {
+        "question": "How many of the following can be used in stored functions?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the SQL prepared statements: PREPARE, EXECUTE and DEALLOCATE PREPARE can be used in the stored procedures. They cannot be stored in stored functions or triggers."
+    }
+]

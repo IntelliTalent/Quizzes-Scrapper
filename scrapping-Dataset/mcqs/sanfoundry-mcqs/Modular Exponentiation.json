@@ -1,0 +1,101 @@
+[
+    {
+        "question": "If the multiplicative inverse of \u201c53 modulo 21\u201d exists, then which of the following is true?",
+        "options": [
+            "a) GCD(53,21) = 1",
+            "b) GCD(53,21) = 29",
+            "c) GCD(53,21) = 53",
+            "d) GCD(53,21) = 12"
+        ],
+        "answer": "a",
+        "explanation": "The multiplicative inverse of \u201ca modulo m\u201d can be found out by extended Euler\u2019s GCD algorithm, and the time complexity of this method is O(logm). We know that the multiplicative inverse of \u201cx modulo n\u201d exists if and only if x and n are relatively prime (i.e., if gcd(a, m) = 1). So, in this case GCD(53,21) = 1."
+    },
+    {
+        "question": "A multiplicative monoid defines the property of exponentiation with ________",
+        "options": [
+            "a) integer exponents",
+            "b) fractional exponents",
+            "c) rational exponents",
+            "d) negative integer exponents"
+        ],
+        "answer": "a",
+        "explanation": "Exponentiation with integer exponents is termed in any multiplicative monoid. Exponentiation is described inductively by 1) h"
+    },
+    {
+        "question": "Which of the following algorithms has better computational complexity than standard division algorithms?",
+        "options": [
+            "a) Montgomery algorithm",
+            "b) Classical modular exponentiation algorithm",
+            "c) ASM algorithm",
+            "d) FSM algorithm"
+        ],
+        "answer": "b",
+        "explanation": "To multiply m and n, they are converted to Montgomery form: mR mod X and nR mod X. When multiplied, these produce mnR"
+    },
+    {
+        "question": "Which of the following methods uses the concept that exponentiation is computationally inexpensive in the finite field?",
+        "options": [
+            "a) Diffie-HEllman key exchange",
+            "b) RSA key exchange",
+            "c) Arithmetic key exchange",
+            "d) FSM method"
+        ],
+        "answer": "a",
+        "explanation": " Exponentiation in the finite fields has its many applications in the public key cryptography system. Now, the Diffie\u2013Hellman key exchange can have the concept that exponentiation is computationally inexpensive in the finite fields and the discrete logarithm which is the inverse of exponentiation, can be computationally expensive."
+    },
+    {
+        "question": "If there is a unique prime number p",
+        "options": [
+            "a) p",
+            "b) f(x) = f(xp",
+            "c) p",
+            "d) xy + p"
+        ],
+        "answer": "a",
+        "explanation": "A field can be defined as an algebraic structure in which multiplication, addition, subtraction, and division are well-defined and satisfy similar properties. If there is a unique prime number p"
+    },
+    {
+        "question": "The time complexity to perform the modular exponentiation of a \u2261 c",
+        "options": [
+            "a) O(m+a)",
+            "b) O(a*g)",
+            "c) O(gm)",
+            "d) O(g)"
+        ],
+        "answer": "d",
+        "explanation": "The modular exponentiation completely depends on the operating system environment and the processor for its performance. The above said method requires a time complexity of O(g) for its completion."
+    },
+    {
+        "question": "According to congruence relation, find the remainder of 56 mod 24.",
+        "options": [
+            "a) 10",
+            "b) 12",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "According to congruence relation, 56 \u2261 8 (mod 24), because 56 \u2212 32 = 24, which is a multiple of 8. So, the remainder is 8."
+    },
+    {
+        "question": "In cryptography system, the value of z in x \u2261 z",
+        "options": [
+            "a) 1024 bits",
+            "b) 1GB",
+            "c) 596 bits",
+            "d) 54 Bytes"
+        ],
+        "answer": "a",
+        "explanation": " In cryptography system, the value of z in x \u2261 z"
+    },
+    {
+        "question": "Determine the value of x, where y = 7, e = 12 and n = 566 using modular exponentiation method (x \u2261 y",
+        "options": [
+            "a) 735",
+            "b) 321",
+            "c) 872",
+            "d) 487"
+        ],
+        "answer": "d",
+        "explanation": "Given y = 5, e = 12, and n = 566 and so x \u2261 512 (mod 566). Now 512 comes out to 244140625 and taking this value modulo 566, x is determined to be 487."
+    }
+]

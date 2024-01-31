@@ -1,0 +1,149 @@
+[
+    {
+        "question": "GCD(a,b) = GCD(b,a mod b)",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. For example, GCD(55,22) = GCD(22,55 mod 22) = GCD(22,11) = 11"
+    },
+    {
+        "question": "Consider the Following properties Properties",
+        "options": [],
+        "answer": "b",
+        "explanation": "Group G denoted by {G,o}, is a set of elements that satisfy the properties G-i to G-iv."
+    },
+    {
+        "question": "An Abelian Group satisfies the properties",
+        "options": [
+            "a) G-i to G-v",
+            "b) G-i to R-iv",
+            "c) G-i to R-v",
+            "d) R-i to R-v"
+        ],
+        "answer": "a",
+        "explanation": "An Abelian group is a group that satisfies the Commutative property also."
+    },
+    {
+        "question": "A Ring satisfies the properties",
+        "options": [
+            "a) R-i to R-v",
+            "b) G-i to G-iv",
+            "c) G-i to R-v",
+            "d) G-i to R-iii"
+        ],
+        "answer": "d",
+        "explanation": "A ring R denoted by {R, + , x} is a set of elements with two binary operations addition and multiplication and satisfy axioms G-i to R-iii."
+    },
+    {
+        "question": "A Ring is said to be commutative if it also satisfies the property",
+        "options": [
+            "a) R-vi",
+            "b) R-v",
+            "c) R-vii",
+            "d) R-iv"
+        ],
+        "answer": "d",
+        "explanation": "A Ring is said to be commutative if it also satisfies the property R-iv: Commutativity of multiplication."
+    },
+    {
+        "question": "An \u2018Integral Domain\u2019 satisfies the properties",
+        "options": [
+            "a) G-i to G-iii",
+            "b) G-i to R-v",
+            "c) G-i to R-vi",
+            "d) G-i to R-iii"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:An \u2018Integral Domain\u2019 satisfies the properties G-i to R-vi."
+    },
+    {
+        "question": "A Field satisfies all the properties above from G-i to R-vi.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A Field satisfies all the properties above from G-i to R-vi and is denoted by {F, +, x}."
+    },
+    {
+        "question": "In modular arithmetic : (a/b) = b(a^-1)",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "This statement is not true. The correct version would be : (a/b) = a(b"
+    },
+    {
+        "question": "a.(b.c) = (a.b).c is the representation for which property?",
+        "options": [
+            "a) G-ii",
+            "b) G-iii",
+            "c) R-ii",
+            "d) R-iii"
+        ],
+        "answer": "a",
+        "explanation": "a.(b.c) = (a.b).c represents the Associative property."
+    },
+    {
+        "question": "a(b+c) = ac+bc is the representation for which property?",
+        "options": [
+            "a) G-ii",
+            "b) G-iii",
+            "c) R-ii",
+            "d) R-iii"
+        ],
+        "answer": "d",
+        "explanation": "a(b+c) = ac+bc represents the Distributive Property."
+    },
+    {
+        "question": "For the group Sn of all permutations of n distinct symbols, what is the number of elements in Sn?",
+        "options": [
+            "a) n",
+            "b) n-1",
+            "c) 2n",
+            "d) n!"
+        ],
+        "answer": "d",
+        "explanation": "There there are n distinct symbols there will be n! elements."
+    },
+    {
+        "question": "For the group Sn of all permutations of n distinct symbols, Sn is an abelian group for all values of n.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For n>2 it does not form a Abelian Group."
+    },
+    {
+        "question": "Is S a ring from the following multiplication and addition tables?",
+        "options": [],
+        "answer": "a",
+        "explanation": "S is a ring as it satisfies the properties G-i to R-iii."
+    },
+    {
+        "question": "Does the set of residue classes (mod 3) form a group with respect to modular addition?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Can\u2019t Say",
+            "d) Insufficient Data"
+        ],
+        "answer": "a",
+        "explanation": "Yes. The identity element is 0, and the inverses of 0, 1, 2 are respectively 0, 2, 1."
+    },
+    {
+        "question": "Does the set of residue classes (mod 3) form a group with respect to modular addition?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Can\u2019t Say",
+            "d) Insufficient Data"
+        ],
+        "answer": "b",
+        "explanation": "No. The identity element is 1, but 0 has no inverse."
+    }
+]

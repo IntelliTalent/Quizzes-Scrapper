@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following collections work in a way similar to circular buffers?",
+        "options": [
+            "a) Capped",
+            "b) Secondary",
+            "c) Sharded",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once a collection fills its allocated space, it makes room for new documents by overwriting the oldest documents in the collection."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Capped collections automatically remove the oldest documents in the collection without requiring scripts or explicit remove operations",
+            "b) Capped collections do not guarantee that insertion order is identical to the order on disk",
+            "c) Capped collections does not allow updates that fit the original document size",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Document does not change its location on disk."
+    },
+    {
+        "question": "_________ stores a log of the operations in a replica set.",
+        "options": [
+            "a) oplog.rs",
+            "b) log.rs",
+            "c) oplog",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Built-in first-in-first-out property maintains the order of events while managing storage use."
+    },
+    {
+        "question": "___________ is also used to pre-allocate space for an ordinary collection.",
+        "options": [
+            "a) db.createCollection.",
+            "b) db.create",
+            "c) db.createColl",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB creates a collection implicitly when the collection is first referenced in a command."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Queries need an index to return documents in insertion order",
+            "b) The options document creates a capped collection or preallocates space in a new ordinary collection",
+            "c) Capped collections have maximum size or document counts that prevent them from growing beyond maximum thresholds",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Capped collections guarantee preservation of the insertion order."
+    },
+    {
+        "question": "If you perform a ________ on a capped collection with no ordering specified, MongoDB guarantees that the ordering of results is the same as the insertion order.",
+        "options": [
+            "a) find()",
+            "b) write()",
+            "c) modify()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To retrieve documents in reverse insertion order, issue find() along with the sort() method with the $natural parameter set to -1."
+    },
+    {
+        "question": "Which of the following should is used to check whether collection is capped or not?",
+        "options": [
+            "a) isCAP()",
+            "b) isCapped()",
+            "c) isColl()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use the isCapped() method to determine if a collection is capped, as: db.collection.isCapped()."
+    },
+    {
+        "question": "___________ convert a non-capped collection to a capped collection.",
+        "options": [
+            "a) ToCapped",
+            "b) convertToCap",
+            "c) convertToCapped",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "convertToCapped takes an existing collection (<collection>) and transforms it into a capped collection with a maximum size in bytes, specified by the size argument (<capped size>)."
+    },
+    {
+        "question": "_________ command creates the capped collection and imports the data.",
+        "options": [
+            "a) CollectionAsCapped",
+            "b) cloneCollection",
+            "c) cloneCollectionAsCapped",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB does not support the convertToCapped command in a sharded cluster."
+    },
+    {
+        "question": "Which of the following command obtains a global write lock and will block other operations until it has completed?",
+        "options": [
+            "a) ToCapped",
+            "b) isCapped",
+            "c) convertToCapped",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the capped size specified for the capped collection is smaller than the size of the original uncapped collection, then MongoDB will overwrite documents in the capped collection based on the insertion order, or first in, first out order."
+    }
+]

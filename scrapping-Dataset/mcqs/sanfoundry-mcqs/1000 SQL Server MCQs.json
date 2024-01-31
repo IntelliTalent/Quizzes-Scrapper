@@ -1,0 +1,376 @@
+[
+    {
+        "question": "What is SQL Server?",
+        "options": [
+            "a) SQL Server is a relational database management system",
+            "b) SQL Server is a software whose main purpose is to store and retrieve data",
+            "c) SQL Server is a highly secure server and does not allow any database file manipulation during execution",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Microsoft\u2019s SQL Server is a relational database management system (RDBMS). It was created largely to compete with the MySQL and Oracle databases. The standard SQL (Structured Query Language) language, ANSI SQL is supported by SQL Server. SQL Server is a highly secure server and does not allow any database file manipulation during the execution process."
+    },
+    {
+        "question": "When was the first version of Microsoft SQL Server released?",
+        "options": [
+            "a) 1991",
+            "b) 1990",
+            "c) 1988",
+            "d) 1983"
+        ],
+        "answer": "c",
+        "explanation": "Microsoft released its first version of SQL Server in the year of 1988. This version was developed jointly by Microsoft and Sybase for the OS/2 platform."
+    },
+    {
+        "question": "Which of the following is a free database software running free SQL Server technology?",
+        "options": [
+            "a) SQL Server Web",
+            "b) SQL Server Enterprise",
+            "c) SQL Server Workgroup",
+            "d) SQL Server Express"
+        ],
+        "answer": "d",
+        "explanation": "SQL Server Express Edition is a scaled down, free edition of SQL Server, which includes the core database engine."
+    },
+    {
+        "question": "Which of the following companies originally worked together to create and market the first version of SQL Server?",
+        "options": [
+            "a) Sybase",
+            "b) Ashton-Tate",
+            "c) Microsoft",
+            "d) All of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "First version of SQL Server was designed for the OS/2 platform and was developed jointly by Microsoft and Sybase along with Ashton-Tate."
+    },
+    {
+        "question": "What is the Codename for SQL Server 2012?",
+        "options": [
+            "a) Katmai",
+            "b) Denali",
+            "c) Hekaton",
+            "d) Kilimanjaro"
+        ],
+        "answer": "b",
+        "explanation": "Codenames for SQL Server 2005, 2008, 2008 R2, 2012, 2014 are Yukon, Katmai, Kilimanjaro, Denali and Hekaton respectively."
+    },
+    {
+        "question": "Which was the first version of SQL Server to introduce in-memory capability?",
+        "options": [
+            "a) SQL Server 2005",
+            "b) SQL Server 2008",
+            "c) SQL Server 2012",
+            "d) SQL Server 2014"
+        ],
+        "answer": "d",
+        "explanation": "SQL Server 2014 provides a new in-memory capability for tables that can fit entirely in memory (also known as Hekaton)."
+    },
+    {
+        "question": "Which of the following data type is not present in SQL Server?",
+        "options": [
+            "a) geography",
+            "b) hierarchyid",
+            "c) boolean",
+            "d) bit"
+        ],
+        "answer": "c",
+        "explanation": "SQL Server doesn\u2019t have a Boolean data type, at least not by that name. To store True/False, Yes/No, and On/Off values, use the bit data type. It accepts only three values: 0, 1, and NULL."
+    },
+    {
+        "question": "Which database is used by SQL Server Agent for scheduling alerts and jobs, and recording operators?",
+        "options": [
+            "a) temp",
+            "b) model",
+            "c) msdb",
+            "d) master"
+        ],
+        "answer": "c",
+        "explanation": "MSDB Database stores information related to database backups, DTS packages, Replication, SQL Agent information, SQL Server jobs."
+    },
+    {
+        "question": "SQL Server has mainly how many types of views?",
+        "options": [
+            "a) four",
+            "b) three",
+            "c) one",
+            "d) two"
+        ],
+        "answer": "d",
+        "explanation": "In SQL Server we have two types of views-System Defined Views and User Defined Views."
+    },
+    {
+        "question": "Which of the following is not a SQL Server INFORMATION_SCHEMA view?",
+        "options": [
+            "a) sys.dm_exec_connections",
+            "b) INFORMATION_SCHEMA.KEY_COLUMN_USAGE",
+            "c) INFORMATION_SCHEMA.DOMAIN_CONSTRAINTS",
+            "d) INFORMATION_SCHEMA.CONSTRAINT_TABLE_USAGE"
+        ],
+        "answer": "a",
+        "explanation": "The INFORMATION_SCHEMA views allow you to retrieve metadata about the objects within a database.  These views can be found in the master database under Views / System Views and be called from any database in your SQL Server instance."
+    },
+    {
+        "question": "Which of the following joins are SQL server default?",
+        "options": [
+            "a) Inner",
+            "b) Equi",
+            "c) Outer",
+            "d) None of the Mentioned"
+        ],
+        "answer": "a",
+        "explanation": "SQL inner joins are the default joins in SQL Server. Inner query joins only the rows that are matching."
+    },
+    {
+        "question": "Which of the following is not a class of constraint in SQL Server?",
+        "options": [
+            "a) UNIQUE",
+            "b) NOT NULL",
+            "c) CHECK",
+            "d) NULL"
+        ],
+        "answer": "d",
+        "explanation": "In SQL Server, NOT NULL specifies that the column does not accept NULL values."
+    },
+    {
+        "question": "Which of the reasons will force you to use the XML data model in SQL Server?",
+        "options": [
+            "a) Order is inherent in your data",
+            "b) Your data is sparse or you do not know the structure of the data",
+            "c) Your data represents containment hierarchy",
+            "d) All of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In SQL Server, the XML data model is a good choice if you want a platform-independent model in order to ensure the portability of the data by using structural and semantic markup."
+    },
+    {
+        "question": "What is the hybrid model in SQL Server?",
+        "options": [
+            "a) Using XML with views",
+            "b) Using XML with triggers",
+            "c) Combination of relational and XML data type columns",
+            "d) Combination of relational and non relational data type columns"
+        ],
+        "answer": "c",
+        "explanation": "Hybrid model may yield better performance in that you have more control over the indexes created on the relational columns and locking characteristics."
+    },
+    {
+        "question": "Which of the following feature of SQL Server was used before XML technology for semi structured data?",
+        "options": [
+            "a) In memory database",
+            "b) Stored Procedure",
+            "c) Dynamic management views",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You need to create a stored procedure to process incoming XML from a partner before SQL Server 2005."
+    },
+    {
+        "question": "Which of the following language is used for procedural flow in SQL Server?",
+        "options": [
+            "a) Control-of-flow language",
+            "b) Flow language",
+            "c) Control language",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Transact-SQL provides special words called control-of-flow language that control the flow of execution of Transact-SQL statements in SQL Server."
+    },
+    {
+        "question": "Exception handling is possible in SQL Server using _____________",
+        "options": [
+            "a) FINAL",
+            "b) FINALLY",
+            "c) THROW",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Exception handling is possible in SQL Server using THROW. It generates an error message and initiates error processing for the session."
+    },
+    {
+        "question": "Which of the following stored procedure is already defined in SQL Server?",
+        "options": [
+            "a) System defined Procedure",
+            "b) CLR Stored Procedure",
+            "c) Extended Procedure",
+            "d) User Defined Stored Procedure"
+        ],
+        "answer": "a",
+        "explanation": "System defined Procedure is already defined in SQL Server. System defined Procedure procedure starts with the sp_ prefix."
+    },
+    {
+        "question": "DML triggers in SQL Server is applicable to _____________",
+        "options": [
+            "a) Update",
+            "b) Delete",
+            "c) Insert",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In SQL Server we can create triggers on DML statements (like INSERT, UPDATE, and DELETE) and stored procedures that perform DML-like operations."
+    },
+    {
+        "question": "User defined function in SQL Server can return ____________",
+        "options": [
+            "a) Result set",
+            "b) Scalar value",
+            "c) Set of values",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "SQL Server user-defined functions are routines that accept parameters, perform an action, such as a complex calculation, and return the result of that action as a value."
+    },
+    {
+        "question": "Which of the stored procedure is used to test the SQL injection attack?",
+        "options": [
+            "a) xp_reg",
+            "b) xp_write",
+            "c) xp_regwrite",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "xp_regwrite writes an arbitrary value into the Registry (undocumented extended procedure) and it is used to test the SQL injection attack."
+    },
+    {
+        "question": "Which is the default field terminator for bulk insert in SQL Server?",
+        "options": [
+            "a) Brackets",
+            "b) Parenthesis",
+            "c) Full stop",
+            "d) Comma"
+        ],
+        "answer": "d",
+        "explanation": "In SQL Server, Field Terminator is used to delimit columns in the source file. There are some cases where I have seen \u201c|\u201d also. \u201c,\u201d can be part of Name. So in that case the bulk insert may fail."
+    },
+    {
+        "question": "Which of the following is the main feature of dotConnect for SQL Server?",
+        "options": [
+            "a) Supports the latest versions of SQL Server",
+            "b) Extra data binding capabilities",
+            "c) Ability of monitoring query execution",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "dotConnect for SQL Server includes base-class-based provider model, provider factories, connection string builder, metadata schemas, asynchronous commands, pooling enhancements, batch update support, provider-specific types, server enumeration, database change notification support and so on."
+    },
+    {
+        "question": "Which of the following is used to overcome the Replication in SQL Server?",
+        "options": [
+            "a) Availability problems",
+            "b) Maintenance problems",
+            "c) Performance problems",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Replication allows us to maintain the same database with multiple copies at different locations."
+    },
+    {
+        "question": "When you _______ an Access table from a SQL Server, SSMA restores the original Access table and its data.",
+        "options": [
+            "a) unlink",
+            "b) import",
+            "c) link",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you have linked the Access tables to one SQL Server instance, and then you want to change the links to another instance, you must relink the tables."
+    },
+    {
+        "question": "Which of the following SQL Server tools is used to enhance data management and governance?",
+        "options": [
+            "a) SSDT",
+            "b) OBEII",
+            "c) SSIT",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "SSDT stands for SQL Server Data Tools and is available for data management and quality."
+    },
+    {
+        "question": "Backing up your SQL Server database is essential for _______ your data.",
+        "options": [
+            "a) replication",
+            "b) protecting",
+            "c) preventing",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SQL Server offers many options for creating backups."
+    },
+    {
+        "question": "Which of the following is the instance of SQL Server that is your production server in log shipping?",
+        "options": [
+            "a) secondary server",
+            "b) primary server",
+            "c) secondary database",
+            "d) primary database"
+        ],
+        "answer": "b",
+        "explanation": "Once the monitor server has been configured, it cannot be changed without removing log shipping first."
+    },
+    {
+        "question": "Which of the following pair of technology is supported in SQL Server?",
+        "options": [
+            "a) Mirroring and Clustering",
+            "b) Mirroring and Log Shipping",
+            "c) Mirroring and Replication",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Database mirroring is a solution for increasing the availability of a SQL Server database. Mirroring is implemented on a per-database basis and works only with databases that use the full recovery model."
+    },
+    {
+        "question": "Which of the following is the biggest disadvantage of SQL Server Authentication mode?",
+        "options": [
+            "a) Allows SQL Server to support Web-based applications where users create their own identities",
+            "b) Allows SQL Server to support older applications and applications provided by third parties that require SQL Server Authentication",
+            "c) SQL Server Authentication cannot use Kerberos security protocol",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Windows Authentication uses Kerberos security protocol."
+    },
+    {
+        "question": "Which of the following operation requires to run the SQL Server Setup on the node?",
+        "options": [
+            "a) Update",
+            "b) Add",
+            "c) Remove",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To update or remove a SQL Server failover cluster, you must be a local administrator with permission to login as a service on all nodes of the failover cluster."
+    },
+    {
+        "question": "Which of the following tool is used for purpose of data auditing for SQL Server only?",
+        "options": [
+            "a) Idera",
+            "b) ApexSQL",
+            "c) SQL Ninja",
+            "d) SQL Audit"
+        ],
+        "answer": "b",
+        "explanation": "ApexSQL Audit is a tool for auditing SQL Server data changes specifically for Microsoft SQL Server."
+    },
+    {
+        "question": "Which of the following is the benefit of SQL Server Profiler?",
+        "options": [
+            "a) Correlating performance counters to diagnose problems",
+            "b) Capturing the series of Transact-SQL statements that lead to a problem",
+            "c) Finding and diagnosing slow-running queries",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Microsoft SQL Server Profiler is a graphical user interface to SQL Trace for monitoring an instance of the Database Engine or Analysis Services."
+    },
+    {
+        "question": "Which of the following catalog view is used for SQL Server Extended Events?",
+        "options": [
+            "a) sys.server_event_session_actions",
+            "b) sys.server_sessions",
+            "c) sys.server_event_sess",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "sys.server_event_session_actions returns a row for each action on each event of an event session."
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which feature enables to obtain information about the use and capabilities of types at runtime?",
+        "options": [
+            "a) Runtime type ID",
+            "b) Reflection",
+            "c) Attributes",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Reflection is the feature that enables you to obtain information about a type. The term reflection comes from the way the process works: A Type object mirrors the underlying type that it represents. Reflection is a powerful mechanism because it allows us to learn and use the capabilities of types that are known only at runtime."
+    },
+    {
+        "question": "Choose the namespace which consists of classes that are part of .NET Reflection API?",
+        "options": [
+            "a) System.Text",
+            "b) System.Name",
+            "c) System.Reflection",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Many of the classes that support reflection are part of the .NET Reflection API, which is in the System.Reflection namespace."
+    },
+    {
+        "question": "Choose the correct statement about System.Type namespace.",
+        "options": [
+            "a) Core of the reflection subsystem as it encapsulates a type",
+            "b) Consists of many methods and properties that can be used to obtain information about a type at runtime",
+            "c) Both Core of the reflection subsystem as it encapsulates a type & Consists of many methods and properties that can be used to obtain information about a type at runtime",
+            "d) Only Consists of many methods and properties that can be used to obtain information about a type at runtime"
+        ],
+        "answer": "c",
+        "explanation": "System.Type is at the core of the reflection subsystem because it encapsulates a type. It contains many properties and methods that you will use to obtain information about a type at runtime."
+    },
+    {
+        "question": "Choose the class from which the namespace \u2018System.Type\u2019 is derived?",
+        "options": [
+            "a) System.Reflection",
+            "b) System.Reflection.MemberInfo",
+            "c) Both System.Reflection & System.Reflection.MemberInfo",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Type is derived from an abstract class called System.Reflection.MemberInfo"
+    },
+    {
+        "question": "What does the following property signify?",
+        "options": [],
+        "answer": "c",
+        "explanation": "This property obtains the kind of the member. This value indicates if the member is a field, method, property, event, or constructor among others."
+    },
+    {
+        "question": "The property signifies \u201cObtains a Module object that represents the module (an executable file) in which the reflected type resides\u201d. Choose the property which specifies the following statement?",
+        "options": [
+            "a) Type DeclaringType",
+            "b) int MetadataToken",
+            "c) Module Module",
+            "d) Type ReflectedType"
+        ],
+        "answer": "c",
+        "explanation": "By definition."
+    },
+    {
+        "question": "Choose the method defined by MemberInfo.",
+        "options": [
+            "a) GetCustomAttributes()",
+            "b) IsDefined()",
+            "c) GetCustomeAttributesData()",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MemberInfo includes two abstract methods: GetCustomAttributes( ) and IsDefined( ). These both relate to attributes. The first obtains a list of the custom attributes associated with the invoking object. The second determines if an attribute is defined for the invoking object. The .NET Framework Version 4.0 adds a method called GetCustomAttributesData(), which returns information about custom attributes."
+    },
+    {
+        "question": "What does the following declaration specify?",
+        "options": [],
+        "answer": "c",
+        "explanation": " A list of the public methods supported by the type can be obtained by using GetMethods(). It returns an array of MethodInfo objects that describe the methods supported by the invoking type. MethodInfo is in the System.Reflection namespace."
+    },
+    {
+        "question": "What does the following C# code specify?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Here, obj is a reference to the object on which the method is invoked. (For static methods, you can pass null to obj.) Any arguments that need to be passed to the method are specified in the array parameters. If no arguments are needed, parameters must be null. Also, parameters must contain exactly the same number of elements as the number of arguments."
+    },
+    {
+        "question": "What does the following C# method specify?",
+        "options": [],
+        "answer": "d",
+        "explanation": " The following method Obtains a list of the type arguments bound to a closed constructed generic type or the type parameters if the specified type is a generic type definition. For an open constructed type, the list may contain both type arguments and type parameters."
+    }
+]

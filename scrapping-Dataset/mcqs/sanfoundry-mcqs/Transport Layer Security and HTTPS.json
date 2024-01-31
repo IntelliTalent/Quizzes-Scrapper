@@ -1,0 +1,110 @@
+[
+    {
+        "question": "In the SSLv3 the padding bits are ____________ with the secret key.",
+        "options": [
+            "a) Padded",
+            "b) XORed",
+            "c) Concatenated",
+            "d) ANDed"
+        ],
+        "answer": "c",
+        "explanation": "The padding bits are concatenated with the secret key."
+    },
+    {
+        "question": "Which of the following is not a valid input to the PRF in SSLv3?",
+        "options": [
+            "a) secret value",
+            "b) identifying label",
+            "c) initialization vector",
+            "d) secret value"
+        ],
+        "answer": "c",
+        "explanation": "The PRF does not require an initialization vector."
+    },
+    {
+        "question": "Which of the following alert codes is not supported by SSLv3?",
+        "options": [
+            "a) record_overflow",
+            "b) no_certificate",
+            "c) internal_error",
+            "d) decode_error"
+        ],
+        "answer": "b",
+        "explanation": "no_certificate is not supported by the SSLv3."
+    },
+    {
+        "question": "We encounter the record_overflow error when the payload length exceeds \u2013",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "The overflow error is encountered when the length exceeds 2"
+    },
+    {
+        "question": "Which key exchange technique is not supported by SSLv3?",
+        "options": [
+            "a) Anonymous Diffie-Hellman",
+            "b) Fixed Diffie-Hellman",
+            "c) RSA",
+            "d) Fortezza"
+        ],
+        "answer": "d",
+        "explanation": "Fortezza is not supported in SSLv3."
+    },
+    {
+        "question": "Calculation of the certificate_verify in TLS involves the use of a finished_label. The finished_label is the string-",
+        "options": [
+            "a) client finished for the client",
+            "b) client finished for the client, server finished for the server",
+            "c) server finished for the server",
+            "d) client finished for the server, server finished for the client"
+        ],
+        "answer": "b",
+        "explanation": "The finished_label is the string client finished for the client, server finished for the server."
+    },
+    {
+        "question": "In TLS padding cann be upto a maximum of \u2013",
+        "options": [
+            "a) 79 bytes",
+            "b) 127 bytes",
+            "c) 255 bytes",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Padding can be upto a maximum of 255 bytes."
+    },
+    {
+        "question": "URL stands for \u2013",
+        "options": [
+            "a) Universal Remote Locator",
+            "b) Universal Resource Language",
+            "c) Uniform Resource Locator",
+            "d) Uniform Resource Language"
+        ],
+        "answer": "c",
+        "explanation": "URL stands for Uniform Resource Locator."
+    },
+    {
+        "question": "HTTPS stands for Hypertext Transfer Protocol over TLS.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. HTTPS is HTTP invoked over SSL/TLS."
+    },
+    {
+        "question": "An HTTP connection uses port _________ whereas HTTPS uses port ____________ and invokes SSL.",
+        "options": [
+            "a) 40; 80",
+            "b) 60; 620",
+            "c) 80; 443",
+            "d) 620; 80"
+        ],
+        "answer": "c",
+        "explanation": "HTTP uses 80 ports, whereas HTTPS uses 443 ports."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "________ is a systematic way to examine how much time is spent in different parts of a program.",
+        "options": [
+            "a) Profiling",
+            "b) Monitoring",
+            "c) Logging",
+            "d) Debugging"
+        ],
+        "answer": "a",
+        "explanation": "Sometimes profiling becomes necessary as a project grows and layers of code are placed on top of each other."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The Rprofiler() function starts the profiler in R",
+            "b) Using system.time() allows you to test certain functions or code blocks to see if they are taking excessive amounts of time",
+            "c) R must not be compiled with profiler support",
+            "d) Rprofiler() tabulates how much time is spent inside each function"
+        ],
+        "answer": "b",
+        "explanation": "However, this approach assumes that you already know where the problem is and can call system.time() on it that piece of code."
+    },
+    {
+        "question": "R comes with a ________ to help you optimize your code and improve its performance.",
+        "options": [
+            "a) debugger",
+            "b) monitor",
+            "c) browser",
+            "d) profiler"
+        ],
+        "answer": "a",
+        "explanation": "In general, it\u2019s usually a bad idea to focus on optimizing your code at the very beginning of development."
+    },
+    {
+        "question": "The _______ function computes the time (in seconds) needed to execute an expression.",
+        "options": [
+            "a) system.timedeb()",
+            "b) system.time()",
+            "c) system.datetime()",
+            "d) system.deb()"
+        ],
+        "answer": "b",
+        "explanation": "They system.time() function takes an arbitrary R expression as input and returns the amount of time taken to evaluate the expression."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Rprofiler() tabulates how much time is spent inside each function",
+            "b) Rprof() keeps track of the function call stack at regularly sampled intervals",
+            "c) By default, the profiler samples the function call stack every 2 seconds",
+            "d) R must not be compiled with profiler support"
+        ],
+        "answer": "b",
+        "explanation": "The profiler is started by calling the Rprof() function."
+    },
+    {
+        "question": "system.time function returns an object of class _______ which contains two useful bits of information.",
+        "options": [
+            "a) debug_time",
+            "b) proc_time",
+            "c) procedure_time",
+            "d) date.time_time"
+        ],
+        "answer": "b",
+        "explanation": "if there\u2019s an error, gives the time until the error occurred."
+    },
+    {
+        "question": "_________ time is time charged to the CPU(s) for the R expression.",
+        "options": [
+            "a) elapsed",
+            "b) user",
+            "c) response",
+            "d) monitor"
+        ],
+        "answer": "a",
+        "explanation": "Usually, the user time and elapsed time are relatively close, for straight computing tasks."
+    },
+    {
+        "question": "The elapsed time may be ________ than the user time if your machine has multiple cores/processors.",
+        "options": [
+            "a) smaller",
+            "b) greater",
+            "c) equal to",
+            "d) null"
+        ],
+        "answer": "a",
+        "explanation": "The elapsed time may be greater than the user time if the CPU spends a lot of time waiting around."
+    },
+    {
+        "question": "Parallel processing is done via __________ package can make the elapsed time smaller than the user time.",
+        "options": [
+            "a) parallel",
+            "b) statistics",
+            "c) distributed",
+            "d) symmetry"
+        ],
+        "answer": "a",
+        "explanation": "When you have multiple processors/- cores/machines working in parallel, the amount of time that the collection of CPUs spends working on a problem is the same as with a single CPU, but because they are operating in parallel, there is a savings in elapsed time."
+    },
+    {
+        "question": "You can time ________ expressions by wrapping them in curly braces within the call to system.time().",
+        "options": [
+            "a) smaller",
+            "b) longer",
+            "c) error",
+            "d) grater"
+        ],
+        "answer": "b",
+        "explanation": "If your expression is getting pretty long (more than 2 or 3 lines), it might be better to either break it into smaller pieces or to use the profiler."
+    }
+]

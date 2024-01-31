@@ -1,0 +1,99 @@
+[
+    {
+        "question": "SELECT select_list FROM table_list WHERE row_constraint GROUP BY grouping_columns; Which of these is not optional?",
+        "options": [
+            "a) select_list",
+            "b) table_list",
+            "c) row_constraint",
+            "d) grouping_columns"
+        ],
+        "answer": "a",
+        "explanation": "Given above was a basic syntax of the SELECT statement. Everything in the syntax is optional except the \u2018select_list\u2019 option. All the others are free to be omitted, and will work fine."
+    },
+    {
+        "question": "In inner join, result is produced by matching rows in one table with rows in another table.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The inner join is a form of join in MySQL that is used to combine the result of concatenating the contents of two tables into a new table. In inner join, result is produced by matching rows in one table with rows in another table."
+    },
+    {
+        "question": "The join where all possible row combinations are produced is called _________",
+        "options": [
+            "a) INNER JOIN",
+            "b) OUTER",
+            "c) NATURAL",
+            "d) CARTESIAN"
+        ],
+        "answer": "d",
+        "explanation": "In \u2018cartesian product\u2019, each row of each table is combined with each row in every other table to produce all possible combination. This produces a very large number of rows since the number is the product of rows."
+    },
+    {
+        "question": "The clause that filters JOIN results is called _________",
+        "options": [
+            "a) WHERE",
+            "b) SORT",
+            "c) GROUP",
+            "d) GROUP BY"
+        ],
+        "answer": "a",
+        "explanation": "Sometimes the result of a join is very large and is not desirable. In these cases, the results can be filtered with the help of the \u2018WHERE\u2019 clause which is followed by a set of condition(s)."
+    },
+    {
+        "question": "CROSS JOIN and JOIN are similar to __________",
+        "options": [
+            "a) INNER JOIN",
+            "b) NATURAL JOIN",
+            "c) OUTER JOIN",
+            "d) CARTESIAN JOIN"
+        ],
+        "answer": "a",
+        "explanation": "The joins \u2018CROSS JOIN\u2019 and \u2018JOIN\u2019 types are exactly similar to the \u2018INNER JOIN\u2019. The statements containing \u2018INNER JOIN\u2019 can replace it with \u2018CROSS JOIN\u2019 or \u2018JOIN\u2019 to get exactly the same result."
+    },
+    {
+        "question": "The left and right joins are also known as __________",
+        "options": [
+            "a) INNER JOIN",
+            "b) NATURAL JOIN",
+            "c) OUTER JOIN",
+            "d) CARTESIAN JOIN"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018inner join\u2019 only deals with rows where a match can be found in both tables. The \u2018LEFT JOIN\u2019 and \u2018RIGHT JOIN\u2019 types are \u2018OUTER JOIN\u2019 types which differ from inner joins in this sense."
+    },
+    {
+        "question": "What is joining a table to itself called?",
+        "options": [
+            "a) COMPLETE",
+            "b) SELF",
+            "c) OBSOLETE",
+            "d) CROSS"
+        ],
+        "answer": "b",
+        "explanation": "Joining a table to itself in a database is called \u2018self-join\u2019. When a self-join is being performed, the table is being used multiple times within the query and a table name qualifier is unnecessary."
+    },
+    {
+        "question": "In which join all the rows from the left table appear in the output irrespective of the content of the other table?",
+        "options": [
+            "a) RIGHT JOIN",
+            "b) LEFT JOIN",
+            "c) INNER JOIN",
+            "d) OUTER JOIN"
+        ],
+        "answer": "b",
+        "explanation": "In a \u2018LEFT JOIN\u2019, the output is produced for every row of the left table, even if it does not exist in the right table. This is the reason it is called a \u2018LEFT JOIN\u2019. \u2018LEFT JOIN\u2019 is a kind of OUTER JOIN."
+    },
+    {
+        "question": "The join in which all the rows from the right table appear in the output irrespective of the content of the other table is ___________",
+        "options": [
+            "a) CARTESIAN JOIN",
+            "b) CROSS JOIN",
+            "c) INNER JOIN",
+            "d) RIGHT JOIN"
+        ],
+        "answer": "d",
+        "explanation": "In a \u2018RIGHT JOIN\u2019, the output is produced for every row of the right table, even if it does not exist in the other table. This is the reason why it is called a \u2018RIGHT JOIN\u2019. \u2018RIGHT JOIN\u2019 and \u2018LEFT JOIN\u2019 are a kind of OUTER JOIN."
+    }
+]

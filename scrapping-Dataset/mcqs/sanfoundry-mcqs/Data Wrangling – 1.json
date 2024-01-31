@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_________  is new package that makes it easy to \u201ctidy\u201d your data.",
+        "options": [
+            "a) tidy",
+            "b) tidyr",
+            "c) tidyneat",
+            "d) tidynr"
+        ],
+        "answer": "c",
+        "explanation": "Tidy data is data that\u2019s easy to work in R."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Each row is an observation in tidy data",
+            "b) Each column is a variable in tidy data",
+            "c) Arranging your data in tidy way makes it easier to work",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "When use tidy data and tidy tools, you spend less time worrying about how to feed the output from one function into the input of another."
+    },
+    {
+        "question": "Which of the following is complementary to tidyr?",
+        "options": [
+            "a) geolr",
+            "b) dplyr",
+            "c) d3lr",
+            "d) gekl2"
+        ],
+        "answer": "b",
+        "explanation": "Its easy to munge with dplyr."
+    },
+    {
+        "question": "How many functions exist for tidying the data?",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) four"
+        ],
+        "answer": "c",
+        "explanation": "tidyr provides three main functions for tidying your messy data: gather(), separate() and spread()."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) gather() makes \u201cwide\u201d data longer",
+            "b) Two functions are present for tidy data",
+            "c) separate() makes \u201cwide\u201d data longer",
+            "d) spread() function takes multiple columns"
+        ],
+        "answer": "c",
+        "explanation": "Other names for gather include melt (reshape2), pivot (spreadsheets) and fold (databases)."
+    },
+    {
+        "question": "Which of the following function takes multiple columns?",
+        "options": [
+            "a) spread()",
+            "b) gather()",
+            "c) separate()",
+            "d) extract()"
+        ],
+        "answer": "b",
+        "explanation": "gather() gathers column into key-value pairs."
+    },
+    {
+        "question": "__________  uses regex groups instead of a splitting pattern or position.",
+        "options": [
+            "a) spread()",
+            "b) gather()",
+            "c) separate()",
+            "d) extract()"
+        ],
+        "answer": "c",
+        "explanation": "separate() allows you to tease columns apart."
+    },
+    {
+        "question": "Which of the following function works similar to separate()?",
+        "options": [
+            "a) extract()",
+            "b) gather()",
+            "c) sep()",
+            "d) separate()"
+        ],
+        "answer": "a",
+        "explanation": "extract() works in a similar way."
+    },
+    {
+        "question": "Which of the following d takes two columns and spreads them into multiple columns?",
+        "options": [
+            "a) ggmissplot",
+            "b) printplot",
+            "c) print.ggplot",
+            "d) ggplot"
+        ],
+        "answer": "c",
+        "explanation": "spread() makes \u201clong\u201d data wide."
+    }
+]

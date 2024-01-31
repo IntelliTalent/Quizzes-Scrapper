@@ -1,0 +1,134 @@
+[
+    {
+        "question": "_______ is not useful when developing a package since you have to install the package first.",
+        "options": [
+            "a) Function",
+            "b) Library",
+            "c) Interface",
+            "d) Class"
+        ],
+        "answer": "b",
+        "explanation": "library() is not useful when developing a package since you have to install the package first. A library is a simple directory containing installed packages."
+    },
+    {
+        "question": "Which function is used for seeing currently active libraries?",
+        "options": [
+            "a) Curlib()",
+            "b) Currlib()",
+            "c) .libpaths()",
+            "d) Pathlibr()"
+        ],
+        "answer": "c",
+        "explanation": "A library is simply a directory containing installed packages. Everyone can use the dot libPaths() for seeing which libraries are currently active."
+    },
+    {
+        "question": "Which function is used for loading packages?",
+        "options": [
+            "a) Library",
+            "b) Interface",
+            "c) Loader",
+            "d) Linker"
+        ],
+        "answer": "a",
+        "explanation": "library() function is used to load a package. library() is not useful when we are developing a package since you have to install the package first. A library is a simple directory containing installed packages."
+    },
+    {
+        "question": "The job of the __________ file is to store important metadata about your package.",
+        "options": [
+            "a) Description",
+            "b) Interface",
+            "c) Thinker",
+            "d) Loader"
+        ],
+        "answer": "a",
+        "explanation": "The job of the DESCRIPTION file is to store the metadata about your package. When you first start writing packages, you\u2019ll mostly use these metadata to record what packages are needed to run your package."
+    },
+    {
+        "question": "DCF is an abbreviation for__________",
+        "options": [
+            "a) Debian control function",
+            "b) Differentiative common function",
+            "c) Debian control format",
+            "d) Debian common format"
+        ],
+        "answer": "c",
+        "explanation": "DESCRIPTION uses a very simple file format called DCF, the Debian control format. When you first start writing packages, you\u2019ll mostly use these metadata to record what packages are needed to run your package."
+    },
+    {
+        "question": "Which of the following is most important when releasing the package?",
+        "options": [
+            "a) Versioning",
+            "b) Developing",
+            "c) Redundancy",
+            "d) Functioning"
+        ],
+        "answer": "a",
+        "explanation": "Versioning is most important when you release your package. Usually, people don\u2019t have exactly the same versions of packages installed that you do."
+    },
+    {
+        "question": "Which of the following is called a one-line description of the package?",
+        "options": [
+            "a) Function",
+            "b) Title",
+            "c) Interface",
+            "d) Class"
+        ],
+        "answer": "b",
+        "explanation": "Title is a one-line description of the package, and is often also shown in package listing. It should be plain text, capitalised like a title, and NOT end in a period."
+    },
+    {
+        "question": "To release a package to _____ you must pick a standard license.",
+        "options": [
+            "a) R",
+            "b) CRAN",
+            "c) CRON",
+            "d) Studio"
+        ],
+        "answer": "b",
+        "explanation": "To release your package to CRAN, you must pick a standard license. Otherwise, it\u2019s difficult for CRAN to determine whether or not it\u2019s legal to distribute your package."
+    },
+    {
+        "question": "_____ package version is the sequence of atleast two integers separated by either. or -.",
+        "options": [
+            "a) Java",
+            "b) C",
+            "c) R",
+            "d) Python"
+        ],
+        "answer": "c",
+        "explanation": "R package version is the sequence of atleast two integers separated by either. or -. When you first start writing packages, you\u2019ll mostly use these metadata to record what packages are needed to run your package."
+    },
+    {
+        "question": "The ________ number of your package increases with subsequent releases of a package.",
+        "options": [
+            "a) Function",
+            "b) Studio",
+            "c) Version",
+            "d) Sequence"
+        ],
+        "answer": "c",
+        "explanation": "The version number of your package increases with subsequent releases of a package, but it\u2019s more than just an incrementing the counter of the way the number changes with each release can convey information."
+    },
+    {
+        "question": "Which of the following is one of the most important aspects of a good package?",
+        "options": [
+            "a) Title",
+            "b) Description",
+            "c) Documentation",
+            "d) Libraries"
+        ],
+        "answer": "c",
+        "explanation": "Documentation is one of the most important aspects of a good package. Without it, users won\u2019t know how to use your package. Documentation is very much useful for the future."
+    },
+    {
+        "question": "___________ are the most commonly documented object.",
+        "options": [
+            "a) Interface",
+            "b) Class",
+            "c) Functions",
+            "d) Libraries"
+        ],
+        "answer": "c",
+        "explanation": "Function is very most commonly documented object. The introduction block, most functions have three tags namely @param, @examples and @return."
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "question": "Which of the following convert a matrix of phi coefficients to polychoric correlations?",
+        "options": [
+            "a) poly()",
+            "b) qline()",
+            "c) phi2poly",
+            "d) multi.plot()"
+        ],
+        "answer": "c",
+        "explanation": "In statistics, polychoric correlation is a technique for estimating the correlation between two theorized normally distributed continuous latent variables, from two observed ordinal variables."
+    },
+    {
+        "question": "Which of the following is used to plot multiple histograms?",
+        "options": [
+            "a) multi.plot()",
+            "b) multi.hist",
+            "c) xyplot.multi()",
+            "d) poly()"
+        ],
+        "answer": "b",
+        "explanation": "A histogram is a graphical representation of the distribution of numerical data."
+    },
+    {
+        "question": "Which of the following count the number of good cases when doing pairwise analysis?",
+        "options": [
+            "a) count.pairwise",
+            "b) count() +",
+            "c) anova.para()",
+            "d) count.poly()"
+        ],
+        "answer": "a",
+        "explanation": "Pairwise comparison generally is any process of comparing entities in pairs to judge which of each entity is preferred."
+    },
+    {
+        "question": "Which of the following gives the summary of values likes mean etc?",
+        "options": [
+            "a) mean",
+            "b) sd",
+            "c) describe",
+            "d) lm"
+        ],
+        "answer": "c",
+        "explanation": "Describe give means, sd, skew, n, and se."
+    },
+    {
+        "question": "The purpose of correct.cor is to correct _________ in values.",
+        "options": [
+            "a) difference",
+            "b) reliability",
+            "c) error",
+            "d) similar"
+        ],
+        "answer": "b",
+        "explanation": "Correlation matrix and a vector of reliabilities is given to correct reliability."
+    },
+    {
+        "question": "What plot(s) are used to view the linear regression?",
+        "options": [
+            "a) Scatterplot",
+            "b) Box plot",
+            "c) Density plot",
+            "d) Scatterplot, Boxplot, Density plot"
+        ],
+        "answer": "d",
+        "explanation": "Each plot has its own importance of highlighting a specific feature. Scatter plot is used to visualise the relationship between the variables, Box plot is used to spot the outliers which effect line of best fit."
+    },
+    {
+        "question": "Common Metrics which are used to select linear model are ____________",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "For choosing linear regression model it is always advised to have more R-squared and lower F-Statistic. It ensures the best fit for the given data."
+    },
+    {
+        "question": "In lm(response ~ terms), terms specification of the form \u201cfirst*second\u201d is same as __________",
+        "options": [
+            "a) first+second",
+            "b) first:second",
+            "c) first+second+first:second",
+            "d) first:second+second:first"
+        ],
+        "answer": "c",
+        "explanation": "A terms specification of the form \u201cfirst + second\u201d indicates all the terms in first together with all the terms in second with duplicates removed."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "______ gives the length and height of the current figure in inches.",
+        "options": [
+            "a) Din",
+            "b) Fin",
+            "c) Sin",
+            "d) Cin"
+        ],
+        "answer": "b",
+        "explanation": "R has a variety of graphics functions. Each function has its own set of arguments. Fin gives the length and height of the current figure in inches."
+    },
+    {
+        "question": "__________ read only parameter that returns the width and height of the current device surface in inches.",
+        "options": [
+            "a) Din",
+            "b) Fin",
+            "c) Gin",
+            "d) Kin"
+        ],
+        "answer": "a",
+        "explanation": "R has a variety of graphics functions. Din will read only parameter that returns the length and height of the current device surface in inches."
+    },
+    {
+        "question": "ask=T is a parameter that R asks before producing the _______",
+        "options": [
+            "a) function",
+            "b) package",
+            "c) interface",
+            "d) graphics"
+        ],
+        "answer": "d",
+        "explanation": "Each function has its own set of arguments. ask=T in R language asks before producing the graphic. This is useful if you need to view multiple plots, one at a time."
+    },
+    {
+        "question": "Which of the following declares the current plot undeclared?",
+        "options": [
+            "a) New = H",
+            "b) New = T",
+            "c) New = J",
+            "d) New = L"
+        ],
+        "answer": "b",
+        "explanation": "New=T will declare the current plot is unused (even if it is not). This means that R will not erase it before moving in through the next plot."
+    },
+    {
+        "question": "Which of the following will be used in fancy plots?",
+        "options": [
+            "a) New = T",
+            "b) New = J",
+            "c) New = K",
+            "d) New = L"
+        ],
+        "answer": "a",
+        "explanation": "New=T will declare the current plot is unused (even if it is not). This is useful for more fancy plots, where you may be producing a number of plots on the one figure."
+    },
+    {
+        "question": "________ level plotting functions that start a new plot.",
+        "options": [
+            "a) High",
+            "b) Low",
+            "c) Medium",
+            "d) Simple"
+        ],
+        "answer": "a",
+        "explanation": "R has a variety of graphics functions. High-level plotting functions will start a new plot. Low-level plotting functions that add elements to an existing plot."
+    },
+    {
+        "question": "________ level plotting functions that add elements to an existing plot.",
+        "options": [
+            "a) High",
+            "b) Low",
+            "c) Medium",
+            "d) Simple"
+        ],
+        "answer": "b",
+        "explanation": "R has many varieties of graphics functions. High-level plotting functions will start a new plot. Low-level plotting functions that add elements to an existing plot."
+    },
+    {
+        "question": "Which of the following is the plotting character?",
+        "options": [
+            "a) Sch",
+            "b) Pch",
+            "c) Grd",
+            "d) Pck"
+        ],
+        "answer": "b",
+        "explanation": "R has a variety of graphics functions. Each function has its own set of arguments. Pch gives the plotting character of the graph."
+    },
+    {
+        "question": "Which of the following is the colour argument?",
+        "options": [
+            "a) Col",
+            "b) Dol",
+            "c) Cul",
+            "d) Acol"
+        ],
+        "answer": "a",
+        "explanation": "Col is the colouring argument in R and R has a variety of graphics functions. Each function has its own set of arguments."
+    },
+    {
+        "question": "________ is used for main title in graph.",
+        "options": [
+            "a) Title",
+            "b) Main",
+            "c) Title Main",
+            "d) Main Title"
+        ],
+        "answer": "b",
+        "explanation": "Main is used for the main title in the graphics.R has a variety of graphics functions. Each function has its own set of arguments."
+    }
+]

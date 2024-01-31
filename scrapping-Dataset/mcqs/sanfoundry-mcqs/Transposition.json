@@ -1,0 +1,121 @@
+[
+    {
+        "question": "What is the meaning of cipher in computer terminology?",
+        "options": [
+            "a) an algorithm that performs encryption",
+            "b) an algorithm that generates a secret code",
+            "c) an algorithm that performs encryption or decryption",
+            "d) a secret code"
+        ],
+        "answer": "c",
+        "explanation": "Cipher can be defined to be an algorithm that performs encryption or decryption. In cryptography, a set of defined steps are followed to generate ciphers."
+    },
+    {
+        "question": "Which of the following cipher is created by shuffling the letters of a word?",
+        "options": [
+            "a) substitution cipher",
+            "b) transposition cipher",
+            "c) mono alphabetic cipher",
+            "d) poly alphabetic cipher"
+        ],
+        "answer": "b",
+        "explanation": "Types of traditional ciphers- Transposition and substitution cipher. In transposition cipher the letters of the given message are shuffled in a particular order, fixed by a given rule."
+    },
+    {
+        "question": "Which of the following is not a type of transposition cipher?",
+        "options": [
+            "a) Rail fence cipher",
+            "b) Columnar transposition cipher",
+            "c) One time pad cipher",
+            "d) Route cipher"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options only One time pad cipher is not a type of transposition cipher. It is a type of substitution cipher."
+    },
+    {
+        "question": "Which of the following is not a type of mono alphabetic cipher?",
+        "options": [
+            "a) additive cipher",
+            "b) multiplicative cipher",
+            "c) afffine cipher",
+            "d) hill cipher"
+        ],
+        "answer": "d",
+        "explanation": "In mono alphabetic cipher each symbol of plain text is replaced by a particular respective symbol in the cipher text. There are three types of mono alphabetic ciphers- additive, multiplicative and affine."
+    },
+    {
+        "question": "Route cipher falls under the category of?",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "c",
+        "explanation": "Route cipher is a transposition cipher. It falls under the category of transposition cipher as it encrypts the plain text by rearranging its letters."
+    },
+    {
+        "question": "Which of the following ciphered text would have used transposition cipher for encryption of the plain text \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) SSCMBNUMERY",
+            "b) TBMGPVOESZ",
+            "c) UCNHQWPFTA",
+            "d) SNONRAFUDY"
+        ],
+        "answer": "d",
+        "explanation": "We know that transposition cipher encrypts the plain text by shuffling the letters of the plain text. So out of the given options, only \u201cSNONRAFUDY\u201d has the same set of letters as \u201cSANFOUNDRY\u201d."
+    },
+    {
+        "question": "Which of the following is a type of transposition cipher?",
+        "options": [
+            "a) Rail Fence cipher",
+            "b) Hill cipher",
+            "c) Rotor cipher",
+            "d) One time pad"
+        ],
+        "answer": "a",
+        "explanation": "In transposition cipher the letters of the given message are shuffled in a particular order, fixed by a given rule. Two types of transposition cipher are \u2013 Rail fence cipher and Columnar transposition cipher."
+    },
+    {
+        "question": "In which of the following cipher the plain text and the ciphered text have same set of letters?",
+        "options": [
+            "a) one time pad cipher",
+            "b) columnar transposition cipher",
+            "c) playfair cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "In transposition cipher, the letters remain same in ciphered and plain text. Their position is only changed whereas in substitution cipher the letters become different in encrypted text. So columnar transposition cipher will be the correct option."
+    },
+    {
+        "question": "Combining transposition cipher with substitution cipher improves its strength?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Combining transposition cipher with substitution cipher helps in overcoming its weaknesses. But it causes the cipher to become more laborious to decode and it becomes more prone to errors."
+    },
+    {
+        "question": "What will be the encrypted text corresponding to plain text \u201cSANFOUNDRY\u201d using rail fence cipher with key value given to be 2?",
+        "options": [
+            "a) SNONRAFUDY",
+            "b) SORAFUDYNN",
+            "c) SNAUDNORFY",
+            "d) SANFOUNDRY"
+        ],
+        "answer": "a",
+        "explanation": "For encrypting a plain text using rail fence cipher we use a table having a number of rows equal to key value as shown below. Then we read along the rows to get the ciphered text. So the ciphered text will be \u201cSNONRAFUDY\u201d."
+    },
+    {
+        "question": "What will be the encrypted text corresponding to plain text \u201cSANFOUNDRY\u201d using columnar transposition cipher with the keyword as \u201cGAMES\u201d?",
+        "options": [
+            "a) SNONRAFUDY",
+            "b) SORAFUDYNN",
+            "c) SNAUDNORFY",
+            "d) ANFRSUNDOY"
+        ],
+        "answer": "d",
+        "explanation": "For encrypting using columnar cipher we have to arrange the letters of the plain text in a table which has the same number of columns as the letters of the keyword. Then the letters of the keyword are arranged in alphabetical order and we read along each column."
+    }
+]

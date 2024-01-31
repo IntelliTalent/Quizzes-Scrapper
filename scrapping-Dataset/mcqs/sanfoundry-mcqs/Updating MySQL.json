@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which upgrade involves exporting existing data using mysqldump?",
+        "options": [
+            "a) inplace",
+            "b) logical",
+            "c) illogical",
+            "d) system"
+        ],
+        "answer": "b",
+        "explanation": "The in-place upgrade involves shutting down the old MySQL version, replacing the old MySQL binaries or packages with the new ones, restarting MySQL on the existing data directory, and running mysql_upgrade."
+    },
+    {
+        "question": "Which upgrade involves shutting down the old MySQL version and replacing the old binaries?",
+        "options": [
+            "a) inplace",
+            "b) logical",
+            "c) illogical",
+            "d) system"
+        ],
+        "answer": "a",
+        "explanation": "The logical upgrade involves exporting existing data from the old MySQL version using mysqldump, installing the new MySQL version, loading the dump file into the new MySQL version."
+    },
+    {
+        "question": "Slow shutdown can be performed by setting innodb_fast_shutdown to _____________",
+        "options": [
+            "a) 0",
+            "b) -1",
+            "c) 1",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "With a slow shutdown InnoDB performs a full purge and change buffer merge before shutting down. This ensures that data files are fully prepared in case of file format differences."
+    },
+    {
+        "question": "A procedure that involves REPAIR TABLE with the USE_FRM option must be done before upgrading.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A procedure that involves REPAIR TABLE with the USE_FRM option must be done before upgrading. Use of this statement with a version of MySQL different from the one used to create the table can damage the table."
+    },
+    {
+        "question": "The command to see the warning messages is ______________",
+        "options": [
+            "a) DISPLAY WARNINGS",
+            "b) DISP WARNINGS",
+            "c) DISP WARNING",
+            "d) SHOW WARNINGS"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the default value conversions are reported as warnings for INSERT, REPLACE and UPDATE statements. The SHOW WARNINGS command is used after executing one of those statements to see the warning messages."
+    },
+    {
+        "question": "The mode used to turn on strict mode and all of the additional restrictions is _____________",
+        "options": [
+            "a) STRICT_ALL_TABLES",
+            "b) ERROR_FOR_DIVISION_BY_ZERO",
+            "c) TRADITIONAL",
+            "d) ERROR_WHEN_DIVIDE_BY_ZERO"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018TRADITIONAL\u2019 mode is used to enable the strict mode and all of the additional restrictions. It is done by the command SET sql_mod = \u2018TRADITIONAL\u2019; The other SQL modes have other functions."
+    },
+    {
+        "question": "The number of values returned from a stored procedure can be _______________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, unlike the stored functions, the stored procedures cannot return values. They can be used to perform calculations or produce the result sets passed back to the clients."
+    },
+    {
+        "question": "How would a stored function named PI() written in the database \u2018sampdb\u2019 be called?",
+        "options": [
+            "a) PI()",
+            "b) sampdb.PI()",
+            "c) MySQL.PI()",
+            "d) db.PI()"
+        ],
+        "answer": "b",
+        "explanation": "When a stored function is defined with the same name as a built in function, the function name should be qualified with the database name when it is invoked. The function \u2018PI()\u2019 is built in."
+    },
+    {
+        "question": "The privilege that must be given to the database to create a stored function or procedure is ____________",
+        "options": [
+            "a) CREATE ROUTINE",
+            "b) CREATE METHOD",
+            "c) CREATE FUNCTION",
+            "d) CREATE PROCEDURE"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018CREATE ROUTINE\u2019 privilege must be given for the database in order to create a stored function or procedure. Stored functions and procedures always belong to a particular database."
+    }
+]

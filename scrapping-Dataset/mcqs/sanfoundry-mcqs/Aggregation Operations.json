@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_______ filters the document stream to allow only matching documents to pass unmodified into the next pipeline stage.",
+        "options": [
+            "a) $regex",
+            "b) $reg",
+            "c) $match",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$match uses standard MongoDB queries. For each input document, outputs either one document (a match) or zero documents (no match)."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Documents do not pass through the stages in sequence",
+            "b) Pipeline stages appear in an multi dimensional array",
+            "c) $project reshapes each document in the stream, such as by adding new fields or removing existing fields",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For each input document, outputs one document."
+    },
+    {
+        "question": "Which of the following can be used to implement field level redaction?",
+        "options": [
+            "a) $skip",
+            "b) $limit",
+            "c) $match",
+            "d) $redact"
+        ],
+        "answer": "d",
+        "explanation": "$redact reshapes each document in the stream by restricting the content for each document based on information stored in the documents themselves."
+    },
+    {
+        "question": "________ passes the first n documents unmodified to the pipeline where n is the specified limit.",
+        "options": [
+            "a) $skip",
+            "b) $limit",
+            "c) $match",
+            "d) $redact"
+        ],
+        "answer": "b",
+        "explanation": "For each input document, outputs either one document (for the first n documents) or zero documents (after the first n documents)."
+    },
+    {
+        "question": "_______ reorders the document stream by a specified sort key.",
+        "options": [
+            "a) $skip",
+            "b) $limit",
+            "c) $sort",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Only the order changes; the documents remain unmodified."
+    },
+    {
+        "question": "Which of the following operator incorporates the functionality of $match, $sort, and $limit for geospatial data?",
+        "options": [
+            "a) $geoSpatial",
+            "b) $geoNear",
+            "c) $geoRear",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The output documents include an additional distance field and can include a location identifier field."
+    },
+    {
+        "question": "_____ Writes the resulting documents of the aggregation pipeline to a collection.",
+        "options": [
+            "a) $out",
+            "b) $in",
+            "c) $output",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To use the $out stage, it must be the last stage in the pipeline."
+    },
+    {
+        "question": "________ deconstructs an array field from the input documents to output a document for each element.",
+        "options": [
+            "a) $unwindelem",
+            "b) $unwind",
+            "c) $unwin",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Each output document replaces the array with an element value."
+    },
+    {
+        "question": "Which of the following operator is related to geography of data?",
+        "options": [
+            "a) $geoSpatial",
+            "b) $geoNear",
+            "c) $geoRear",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$geoNear returns an ordered stream of documents based on the proximity to a geospatial point."
+    }
+]

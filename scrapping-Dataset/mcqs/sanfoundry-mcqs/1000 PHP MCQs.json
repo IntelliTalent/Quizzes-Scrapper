@@ -1,0 +1,363 @@
+[
+    {
+        "question": "What is PHP?",
+        "options": [
+            "a) PHP is an open-source programming language",
+            "b) PHP is used to develop dynamic and interactive websites",
+            "c) PHP is a server-side scripting language",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "PHP is an open-source server-side scripting language that is used to build dynamic and interactive web pages or web applications."
+    },
+    {
+        "question": "Who is the father of PHP?",
+        "options": [
+            "a) Drek Kolkevi",
+            "b) Rasmus Lerdorf",
+            "c) Willam Makepiece",
+            "d) List Barely"
+        ],
+        "answer": "b",
+        "explanation": "PHP was originally created by Rasmus Lerdorf in 1994."
+    },
+    {
+        "question": "What does",
+        "options": [
+            "a) PHP stands for Preprocessor Home Page",
+            "b) PHP stands for Pretext Hypertext Processor",
+            "c) PHP stands for Hypertext Preprocessor",
+            "d) PHP stands for Personal Hyper Processor"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Which of the following is the correct syntax to write a PHP code?",
+        "options": [
+            "a) <?php   ?>",
+            "b) < php    >",
+            "c) < ? php   ?>",
+            "d) <?   ?>"
+        ],
+        "answer": "d",
+        "explanation": "Every section of PHP code starts and ends by turning on and off PHP tags to let the server know that it needs to execute the PHP in between them."
+    },
+    {
+        "question": "Which of the following is the correct way to add a comment in PHP code?",
+        "options": [
+            "a) #",
+            "b) //",
+            "c) /* */",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In PHP, /* */ can also be used to comment just a single line although it is used for paragraphs. // and # are used only for single-line comments."
+    },
+    {
+        "question": "Which of the following is the default file extension of PHP files?",
+        "options": [
+            "a) .php",
+            "b) .ph",
+            "c) .xml",
+            "d) .html"
+        ],
+        "answer": "a",
+        "explanation": "To run a PHP file on the server, it should be saved as AnyName.php"
+    },
+    {
+        "question": "How to define a function in PHP?",
+        "options": [
+            "a) functionName(parameters) {function body}",
+            "b) function {function body}",
+            "c) function functionName(parameters) {function body}",
+            "d) data type functionName(parameters) {function body}"
+        ],
+        "answer": "c",
+        "explanation": "PHP allows us to create our own user-defined functions. Any name ending with an open and closed parenthesis is a function. The keyword function is always used to begin a function."
+    },
+    {
+        "question": "What will be the output of the following PHP code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Expression evaluates to true."
+    },
+    {
+        "question": "Which is the right way of declaring a variable in PHP?",
+        "options": [
+            "a) $3hello",
+            "b) $_hello",
+            "c) $this",
+            "d) $5_Hello"
+        ],
+        "answer": "b",
+        "explanation": "A variable in PHP can not start with a number, also $this is mainly used to refer properties of a class so we can\u2019t use $this as a user defined variable name."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "function count() will return the number of elements in an array. The parameter 1 counts the array recursively i.e it will count all the elements of multidimensional arrays."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The stripos() function finds the position of the first occurrence of a string inside another string. In this case it returns 7."
+    },
+    {
+        "question": "Which of the following PHP functions can be used for generating unique ids?",
+        "options": [
+            "a) md5()",
+            "b) uniqueid()",
+            "c) mdid()",
+            "d) id()"
+        ],
+        "answer": "b",
+        "explanation": "The function uniqueid() is used to generate a unique ID based on the microtime (current time in microseconds). The ID generated from the function uniqueid() is not optimal, as it is based on the system time. To generate an ID which is extremely difficult to predict we can use the md5() function."
+    },
+    {
+        "question": "In the following PHP program, what is/are the properties?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Above code is an example of \u2018classes\u2019.  Classes are the blueprints of objects. Classes are the programmer-defined data type, which includes the local methods and the local variables. Class is a collection of objects which has properties and behaviour."
+    },
+    {
+        "question": "What will be the output of the following PHP code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Constants do not need a $ before them, they are referenced by their variable names itself."
+    },
+    {
+        "question": "A function in PHP which starts with __ (double underscore) is known as __________",
+        "options": [
+            "a) Default Function",
+            "b) User Defined Function",
+            "c) Inbuilt Function",
+            "d) Magic Function"
+        ],
+        "answer": "d",
+        "explanation": "PHP functions that start with a double underscore \u2013 a \u201c__\u201d \u2013 are called magic functions. They are functions that are always defined inside classes, and are not stand-alone functions."
+    },
+    {
+        "question": "How many functions does PHP offer for searching and modifying strings using Perl-compatible regular expressions.",
+        "options": [
+            "a) 10",
+            "b) 7",
+            "c) 8",
+            "d) 9"
+        ],
+        "answer": "c",
+        "explanation": "The functions are preg_filter(), preg_grep(), preg_match(), preg_match_all(), preg_quote(), preg_replace(), preg_replace_callback(), and preg_split()."
+    },
+    {
+        "question": "Which of the following web servers are required to run the PHP script?",
+        "options": [
+            "a) Apache and PHP",
+            "b) IIS",
+            "c) XAMPP",
+            "d) Any of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To run PHP code you need to have PHP and a web server, both IIS, XAMPP and Apache are web servers. You can choose either one according to your platform."
+    },
+    {
+        "question": "What will be the output of the following PHP code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The strstr() function returns the remainder of a string beginning with the first occurrence of a predefined string."
+    },
+    {
+        "question": "Which of the following PHP functions can be used to get the current memory usage?",
+        "options": [
+            "a) memory_get_usage()",
+            "b) memory_get_peak_usage()",
+            "c) get_peak_usage()",
+            "d) get_usage()"
+        ],
+        "answer": "a",
+        "explanation": "memory_get_usage() returns the amount of memory, in bytes, that\u2019s currently being allocated to the PHP script. We can set the parameter \u2018real_usage\u2019 to TRUE to get total memory allocated from system, including unused pages. If it is not set or FALSE then only the used memory is reported. To get the highest amount of memory used at any point, we can use the memory_get_peak_usage() function."
+    },
+    {
+        "question": "Which one of the following PHP function is used to determine a file\u2019s last access time?",
+        "options": [
+            "a) filetime()",
+            "b) fileatime()",
+            "c) fileltime()",
+            "d) filectime()"
+        ],
+        "answer": "b",
+        "explanation": "The fileatime() function returns a file\u2019s last access time in Unix timestamp format or FALSE on error."
+    },
+    {
+        "question": "What will be the output of the following PHP code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The value of global variable y does not change therefore it\u2019ll print 10;"
+    },
+    {
+        "question": "PHP recognizes constructors by the name _________",
+        "options": [
+            "a) function __construct()",
+            "b) function _construct()",
+            "c) classname()",
+            "d) _construct()"
+        ],
+        "answer": "a",
+        "explanation": "PHP recognizes constructors by double underscore followed by the construct keyword. Its syntax is function __construct ([ argument1, argument2,\u2026..]) { Class Initialization code }."
+    },
+    {
+        "question": "The developers of PHP deprecated the safe mode feature as of which PHP version?",
+        "options": [
+            "a) PHP 5.3.1",
+            "b) PHP 5.3.0",
+            "c) PHP 5.1.0",
+            "d) PHP 5.2.0"
+        ],
+        "answer": "b",
+        "explanation": "This happened because safe mode often creates many problems as it resolves, largely due to the need for enterprise applications to use many of the features safe mode disables."
+    },
+    {
+        "question": "What will be the value of the variable $input in the following PHP program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Italic tags <i></i> might be allowable, but table tags <td></td> could potentially wreak havoc on a page."
+    },
+    {
+        "question": "Which of the following variables does PHP use to authenticate a user?",
+        "options": [],
+        "answer": "b",
+        "explanation": "$_SERVER[\u2018PHP_AUTH_USER\u2019] and $_SERVER[\u2018PHP_AUTH_PW\u2019] store the username and password values, respectively."
+    },
+    {
+        "question": "What does PDO stand for?",
+        "options": [
+            "a) PHP Database Orientation",
+            "b) PHP Data Orientation",
+            "c) PHP Data Object",
+            "d) PHP Database Object"
+        ],
+        "answer": "c",
+        "explanation": "PDO stands for PHP Data Object. The PDO class provides a common interface to different database applications."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "b",
+        "explanation": "In if else if one condition is satisfied then no other condition is checked."
+    },
+    {
+        "question": "Which of the looping statements is/are supported by PHP?",
+        "options": [],
+        "answer": "d",
+        "explanation": "All are supported looping statements in PHP as they can repeat the same block of code a given number of times, or until a certain condition is met."
+    },
+    {
+        "question": "Which PHP statement will give output as $x on the screen?",
+        "options": [
+            "a) echo \u201c\\$x\u201d;",
+            "b) echo \u201c$$x\u201d;",
+            "c) echo \u201c/$x\u201d;",
+            "d) echo \u201c$x;\u201d;"
+        ],
+        "answer": "a",
+        "explanation": "A backslash is used so that the dollar sign is treated as a normal string character rather than prompt PHP to treat $x as a variable. The backslash used in this manner is known as the escape character."
+    },
+    {
+        "question": "Which version of PHP introduced the advanced concepts of OOP?",
+        "options": [
+            "a) PHP 6",
+            "b) PHP 4",
+            "c) PHP 5",
+            "d) PHP 5.3"
+        ],
+        "answer": "c",
+        "explanation": "Advanced concepts of OOP were introduced in PHP version 5."
+    },
+    {
+        "question": "What will be the output of the following PHP code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Normal addition of variables x, y and z occurs and result of 8 will be displayed."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since variables $winner and $looser is not defined we only see / as output."
+    },
+    {
+        "question": "Which one of the following is the default PHP session name?",
+        "options": [
+            "a) PHPSESSIONID",
+            "b) PHPIDSESS",
+            "c) PHPSESSID",
+            "d) PHPSESID"
+        ],
+        "answer": "c",
+        "explanation": "PHPSESSID is the default PHP session name. You can change this name by using the session.name directive."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Print returns 1, thus it gives case 1."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "b",
+        "explanation": "${VAR_NAME} creates a new variable that is not same as VAR_NAME."
+    },
+    {
+        "question": "Which PHP function displays the web page\u2019s most recent modification date?",
+        "options": [
+            "a) getlastmod()",
+            "b) get_last_mod()",
+            "c) lastmod()",
+            "d) last_mod()"
+        ],
+        "answer": "a",
+        "explanation": "The function getlastmod() gets the time of the last modification of the main script of execution. It returns the value of the page\u2019s last modified header or FALSE in the case of an error."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "As it is && operator it is being incremented and decremented continuously in PHP."
+    },
+    {
+        "question": "What will be the output of the following PHP code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "By default, constants are case sensitive in php. But the third parameter in define(), if set to true, makes constants case insensitive."
+    },
+    {
+        "question": "Which variable is used to collect form data sent with both the GET and POST methods?",
+        "options": [
+            "a) $_BOTH",
+            "b) $REQUEST",
+            "c) $_REQUEST",
+            "d) $BOTH"
+        ],
+        "answer": "c",
+        "explanation": "In PHP the global variable $_REQUEST is used to collect data after submitting an HTML form."
+    },
+    {
+        "question": "What will be the output of the following PHP program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The pos() function returns the value of the current element in an array, and since no operation has been done, the current element is the first element."
+    },
+    {
+        "question": "If $a = 12 what will be returned when ($a == 12) ? 5 : 1 is executed?",
+        "options": [
+            "a) 1",
+            "b) 5",
+            "c) 12",
+            "d) Error"
+        ],
+        "answer": "b",
+        "explanation": "?: is known as ternary operator. If condition is true then the part just after the ? is executed else the part after : ."
+    }
+]

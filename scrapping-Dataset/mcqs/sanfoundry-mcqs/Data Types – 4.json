@@ -1,0 +1,96 @@
+[
+    {
+        "question": "Find the following type of vector?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The labels are always character irrespective of whether it is numeric or character and also Boolean etc. on the input vector. The nlevels functions will give the count of levels. Factors are created using the factor() function."
+    },
+    {
+        "question": "All columns in a matrix must have the same mode and the _________ length.",
+        "options": [
+            "a) Different",
+            "b) Same",
+            "c) May be the same",
+            "d) May be different"
+        ],
+        "answer": "b",
+        "explanation": "All columns in a matrix must have the same mode(numeric, character, etc) and also the same length. byrow=TRUE indicates that the matrix should be filled by rows. byrow=FALSE indicates that the matrix should be filled by columns (the default)."
+    },
+    {
+        "question": "___________ provides optional labels with the columns and rows.",
+        "options": [
+            "a) Disnames",
+            "b) Dimnames",
+            "c) Denmes",
+            "d) Demnesd"
+        ],
+        "answer": "b",
+        "explanation": "byrow=TRUE indicates that the matrix should be filled by rows. byrow=FALSE indicates that the matrix should be filled by columns (the default). dimnames provides optional labels with the columns and rows."
+    },
+    {
+        "question": "Which is more general than a matrix, in that different columns can have different modes?",
+        "options": [
+            "a) Data types",
+            "b) Data frames",
+            "c) Data sets",
+            "d) Databases"
+        ],
+        "answer": "b",
+        "explanation": "A data frame is more general than a matrix, in that different columns can have different modes (numeric, character, factor, etc). This is similar to SAS and SPSS datasets. There are many ways to identify the elements of a data frame."
+    },
+    {
+        "question": "An ordered collection of objects or components are called ________",
+        "options": [
+            "a) Data frames",
+            "b) Datasets",
+            "c) Databases",
+            "d) Lists"
+        ],
+        "answer": "d",
+        "explanation": "An ordered collection of objects are called lists. A list allows you to gather a variety of (possibly unrelated) objects under one name. We can Identify elements of a list using the [[]] convention."
+    },
+    {
+        "question": "The ________ stores the nominal values as a vector of integers in the range of 1 to unique values in the nominal variable.",
+        "options": [
+            "a) Factor",
+            "b) Matrix",
+            "c) Lists",
+            "d) Functions"
+        ],
+        "answer": "a",
+        "explanation": "The factor stores the nominal values as a vector of integers in the range [1\u2026 k] (where k is the no. of unique values of the nominal variable), and an internal vector of character strings (the original values) mapped to these integers."
+    },
+    {
+        "question": "An ordered factor is used to represent an __________",
+        "options": [
+            "a) Ordinal variable",
+            "b) Simple variable",
+            "c) Coordinal variable",
+            "d) Biordinal variable"
+        ],
+        "answer": "a",
+        "explanation": "An ordered factor is used to represent an ordinal variable. R will treat factors as nominal variables and also ordered factors as ordinal variables in statistical procedures and graphical analyses."
+    },
+    {
+        "question": "On what basis of a variable, OS allocates memory and decides what can be stored in the reserved memory?",
+        "options": [
+            "a) Data bases",
+            "b) Data sets",
+            "c) Data types",
+            "d) Lists"
+        ],
+        "answer": "c",
+        "explanation": "Based on the data type of a variable, the OS allocates the memory and decides what can be stored on the reserved memory. This means that when you create a variable you reserve some space in memory."
+    },
+    {
+        "question": "The data type of the R-object becomes the data type of the ________",
+        "options": [
+            "a) Functions",
+            "b) Packages",
+            "c) Variables",
+            "d) Lists"
+        ],
+        "answer": "c",
+        "explanation": "In R, the variables are not declared as some data type. The variables are assigned with R-Objects and the data type of the R-object will become the data type of the variable. There are many types of R-objects."
+    }
+]

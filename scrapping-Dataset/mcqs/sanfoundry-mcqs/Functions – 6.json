@@ -1,0 +1,101 @@
+[
+    {
+        "question": "R code can be tested using _________________ package.",
+        "options": [
+            "a) Dplyr",
+            "b) Hadley\u2019s testthat",
+            "c) SKLearn",
+            "d) KNN"
+        ],
+        "answer": "b",
+        "explanation": "R code can be tested using Hadley\u2019s testthat package. Testthat draws inspiration from the xUnit family of testing packages, as well as from many of the innovative ruby testing libraries."
+    },
+    {
+        "question": "If the programmers want the output to be a data frame or a vector, then  ________ function is used.",
+        "options": [
+            "a) Lapply",
+            "b) Sapply",
+            "c) Vapply",
+            "d) Zapply"
+        ],
+        "answer": "a",
+        "explanation": "If the programmers want the output to be a data frame or a vector, then sapply function is used whereas if the programmer wants the output to be a list then lapply is used. vapply allows the programmer to specific the output type."
+    },
+    {
+        "question": "If a programmer wants the output to be a list then ___________ function is used.",
+        "options": [
+            "a) Lapply",
+            "b) Sapply",
+            "c) Vapply",
+            "d) Zapply"
+        ],
+        "answer": "b",
+        "explanation": "sapply() function does the same jobs as lapply() function but returns a vector. We can use a user built-in function into lapply() or sapply(). We create a function named avg to compute the average of the minimum and maximum of the vector."
+    },
+    {
+        "question": "_____________ function is preferred over sapply as vapply allows the programmer to specific the output type.",
+        "options": [
+            "a) Lapply",
+            "b) Japply",
+            "c) Vapply",
+            "d) Zapply"
+        ],
+        "answer": "c",
+        "explanation": "Vapply is similar to sapply, but has a pre-specified type of return value, so it can be safer (and sometimes faster) to use. simplify2array() is the utility called from sapply() when simplify is not false and is similarly called from mapply()."
+    },
+    {
+        "question": "Which function is difficult to implement?",
+        "options": [
+            "a) Lapply",
+            "b) Japply",
+            "c) Vapply",
+            "d) Zapply"
+        ],
+        "answer": "c",
+        "explanation": "Vapply allows the programmer to specific the output type. The disadvantage of using vapply is that it is very  difficult to be implemented and more verbose. vapply is similar to sapply, but has a pre-specified type of return value, so it can be safer to use."
+    },
+    {
+        "question": "_____________ will produce a sequential vector c( (1,2,3,4,5,6,7,8,9)).",
+        "options": [
+            "a) Seq(9)",
+            "b) Seq(10)",
+            "c) Seq(15)",
+            "d) Seq(12)"
+        ],
+        "answer": "a",
+        "explanation": "Seq generates a sequence of a priori known pattern. Seq_along(6) will produce a vector with length 6 whereas seq(6) will produce a sequential vector from 1 to 6 c((1,2,3,4,5,6))."
+    },
+    {
+        "question": "__________ function is used for reading the .csv file in R language.",
+        "options": [
+            "a) Write.csv()",
+            "b) Read.csv ()",
+            "c) Let.csv()",
+            "d) Table.csv()"
+        ],
+        "answer": "b",
+        "explanation": "read.csv () function is used for reading the .csv file in R language. We will use the built in the read.csv() function call, which reads the data as the data frame, and assign the data frame to a variable."
+    },
+    {
+        "question": "The line of code in R language should begin with a ________________",
+        "options": [
+            "a) Hash symbol",
+            "b) Alphabet",
+            "c) Number",
+            "d) Character"
+        ],
+        "answer": "a",
+        "explanation": "The line of code in R language should begin with a hash symbol (#). R has a large number of in-built functions and also the user can create their own functions."
+    },
+    {
+        "question": "_______________ returns TRUE then X can be termed as a matrix data object.",
+        "options": [
+            "a) is.\u201dmatrix(X\u201d)",
+            "b) is.matrix(X)",
+            "c) is.notamatrix(X )",
+            "d) is.matrix(\u201cX\u201d)"
+        ],
+        "answer": "b",
+        "explanation": "The function call is.matrix(X ) returns TRUE then X can be termed as a matrix data object. R has a large number of in-built functions and also the user can create their own functions."
+    }
+]

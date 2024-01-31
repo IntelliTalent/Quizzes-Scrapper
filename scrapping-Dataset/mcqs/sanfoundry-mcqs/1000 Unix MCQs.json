@@ -1,0 +1,123 @@
+[
+    {
+        "question": "What is Unix?",
+        "options": [
+            "a) Unix is a programming language",
+            "b) Unix is a software program",
+            "c) Unix is an operating system",
+            "d) Unix is a text editor"
+        ],
+        "answer": "c",
+        "explanation": "Unix is an operating system developed in the early 1970\u2019s at Bell Labs by Dennis Ritchie, Ken Thompson, and others. It is a multiuser, multitasking and timesharing operating system. The power of Unix is derived from its commands and their multiple options."
+    },
+    {
+        "question": "The Unix shell is both _______ and _______ language.",
+        "options": [
+            "a) scripting, interpreter",
+            "b) high level, low level",
+            "c) interactive, responsive",
+            "d) interpreter, executing"
+        ],
+        "answer": "a",
+        "explanation": "The UNIX shell is both an interpreter and scripting language. We can also say that shell can be interactive or non-interactive. When we log in to our system, interactive shell presents a prompt and wait for our requests while a non-interactive shell is managed by an interactive shell while executing a shell script."
+    },
+    {
+        "question": "In which language UNIX is written?",
+        "options": [
+            "a) C++",
+            "b) C",
+            "c) JAVA",
+            "d) Python"
+        ],
+        "answer": "b",
+        "explanation": "UNIX was originally written in Assembly language but Dennis Ritchie and Ken Thompson wanted an operating system which could run on more than one type of hardware. So in 1973, they rewrote the whole operating system in C language due to which one of the strongest features i.e. portability was added to the operating system."
+    },
+    {
+        "question": "Which of the following is the first UNIX editor?",
+        "options": [
+            "a) vi",
+            "b) emacs",
+            "c) ex",
+            "d) ed"
+        ],
+        "answer": "d",
+        "explanation": "The first editor that was used in UNIX systems was \u2018ed\u2019.  The main reason behind the replacement of \u2018ed\u2019 was that it can only edit files in the current directory and cannot execute shell commands."
+    },
+    {
+        "question": "Which of the following is not a feature of Unix?",
+        "options": [
+            "a) multiuser",
+            "b) easy to use",
+            "c) multitasking",
+            "d) portability"
+        ],
+        "answer": "b",
+        "explanation": "UNIX is a multitasking operating system i.e. a user can run multiple tasks concurrently. Similarly, it is a multiuser system because it permits working with multiple users on a single operating system. But a major disadvantage of UNIX lies in the fact that the richness provided by its commands requires a special type of commitment to understand the subject. i.e. the user must be well aware of commands he is using and the functions performed by them."
+    },
+    {
+        "question": "Which of the following is not true about Unix?",
+        "options": [
+            "a) UNIX was not written in \u2018C\u2019 language",
+            "b) Linux is also known as a version of UNIX",
+            "c) A user can run multiple programs at the same time; hence UNIX is called a multitasking environment",
+            "d) Many people can use a UNIX based computer at the same time; hence UNIX is called as a multiuser system"
+        ],
+        "answer": "a`",
+        "explanation": "One of the most attractive features of UNIX is that it supports multi-user and multitasking environment which makes it so popular among its users. There are many UNIX variants available in the market. Solaris Unix, AIX, HP Unix, BSD are some of the examples. Linux is also a flavor of UNIX which is freely available. Unix was developed in 1969 by AT&T employees Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna at Bell Labs and was written in \u2018C\u2019."
+    },
+    {
+        "question": "Which editor is used by the Unix system to edit files?",
+        "options": [
+            "a) word",
+            "b) notepad++",
+            "c) vi",
+            "d) notepad"
+        ],
+        "answer": "c",
+        "explanation": "It doesn\u2019t matter what kind of work we are doing on a UNIX system, we always need an editor to edit some system files or ordinary files. For this purpose, vi editor is used in UNIX. Currently, vim (vi improved) is an improved version which is supported by LINUX systems."
+    },
+    {
+        "question": "Which of the following is not a part of all the versions of Unix?",
+        "options": [
+            "a) System Calls",
+            "b) Graphical user interface",
+            "c) Kernel and Shell",
+            "d) Commands and utilities"
+        ],
+        "answer": "b",
+        "explanation": "The kernel is the heart of the operating system while the shell is the utility which processes our requests. While system calls are a handful of functions which are used to interact with the kernel and make available the services provided by the operating system. A Graphical user interface (GUI) is available in UNIX, but the traditional UNIX interface is the command line only."
+    },
+    {
+        "question": "Which part of the Unix operating system interacts with the hardware?",
+        "options": [
+            "a) Application program",
+            "b) Vi editor",
+            "c) Shell",
+            "d) Kernel"
+        ],
+        "answer": "d",
+        "explanation": "The kernel is the core of the operating system. It is a collection of routines written in C which directly communicates with the hardware. User programs that need to interact with the hardware access the services of the kernel. There is only one kernel running on a system, unlike shells which can be multiple."
+    },
+    {
+        "question": "Which command is used to display the documentation of commands in Unix?",
+        "options": [
+            "a) man",
+            "b) whatis",
+            "c) help",
+            "d) search"
+        ],
+        "answer": "a",
+        "explanation": "UNIX provides us with a facility of man command, which is used for getting documentation of any command. For example, to seek help on wc command simply type man wc. This will simply display all the possible operations, options, description, synopsis of wc command. The POSIX specification requires only one available option with man command i.e.  -k, which prints a one-line description of the command. whatis command is also available on many UNIX systems which also displays a one-line description of the command. man -f emulates the behavior of whatis command."
+    },
+    {
+        "question": "Which Unix command is used for changing the current directory?",
+        "options": [
+            "a) pwd",
+            "b) rm",
+            "c) cd",
+            "d) cp"
+        ],
+        "answer": "c",
+        "explanation": "cd (change directory) command is used for moving around the file system. cd command is usually invoked with a argument. After invocation, it changes the current directory to the directory specified as argument. Cp command is used for copying files while rm command is used for deleting files."
+    }
+]

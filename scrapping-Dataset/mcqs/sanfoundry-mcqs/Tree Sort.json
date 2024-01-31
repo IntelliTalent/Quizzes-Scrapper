@@ -1,0 +1,174 @@
+[
+    {
+        "question": "Which of the following data structure is required for the implementation of tree sort?",
+        "options": [
+            "a) any ordinary tree",
+            "b) balanced tree",
+            "c) binary search tree",
+            "d) unbalanced tree"
+        ],
+        "answer": "c",
+        "explanation": "Tree sort uses a binary search tree for sorting the given elements. Tree sort can also be performed by using an unbalanced binary search tree."
+    },
+    {
+        "question": "Tree sort is an online sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Tree sort does not require the entire input data at the beginning itself in order to sort the array. It rather creates a partial solution in every step, so future elements are not required to be considered. Hence it is an online sorting algorithm."
+    },
+    {
+        "question": "Which of the following traversal in a binary search tree results in a sorted output?",
+        "options": [
+            "a) in order traversal",
+            "b) pre order traversal",
+            "c) post order traversal",
+            "d) breadth first traversal"
+        ],
+        "answer": "a",
+        "explanation": "Tree sort uses a binary search tree for sorting the given elements. First a BST is formed by using the input data elements and then the BST is traversed in an in order fashion which gives a sorted output."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Selection sort",
+            "b) Quick sort",
+            "c) Tree sort",
+            "d) Heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options Tree sort is the only algorithm which is stable. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following sorting algorithm uses a binary search tree?",
+        "options": [
+            "a) radix sort",
+            "b) tree sort",
+            "c) odd-even sort",
+            "d) bead sort"
+        ],
+        "answer": "b",
+        "explanation": "Tree sort makes use of a binary search tree. It is because every time when a BST is traversed in an in order fashion it gives a sorted output."
+    },
+    {
+        "question": "What is the average case time complexity of tree sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "As on an average every element takes log n time for insertion in a binary search tree so for n elements O(n log n) time will be required on an average."
+    },
+    {
+        "question": "What is the best case time complexity of tree sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "The best case time complexity of tree sort is the same as its average case complexity. So best case time complexity is O(n log n)."
+    },
+    {
+        "question": "What is the worst case time complexity of tree sort (when implemented with a balanced tree)?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "The worst case time complexity of tree sort depends on whether the tree used in the implementation is balanced or not. If the tree is balanced then the worst case complexity is O(n log n)."
+    },
+    {
+        "question": "What is the worst case time complexity of tree sort (when implemented with an unbalanced tree)?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case time complexity of tree sort depends on whether the tree used in the implementation is balanced or not. If the tree is unbalanced then the worst case complexity is O(n"
+    },
+    {
+        "question": "What is the auxiliary space complexity of tree sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Tree sort requires auxiliary space for maintaining a binary search tree. So the auxiliary space complexity of tree sort is O(n)."
+    },
+    {
+        "question": "In which of the following case does a tree sort become adaptive?",
+        "options": [
+            "a) when implemented with an unbalanced tree",
+            "b) when implemented with a balanced tree",
+            "c) when implemented with a splay tree as BST",
+            "d) when implemented with AVL tree as BST"
+        ],
+        "answer": "c",
+        "explanation": "Tree sort becomes an adaptive sort when it is implemented with a splay tree as a BST. In such a case the best case time complexity is better than (n log n)."
+    },
+    {
+        "question": "Which of the following is not true about tree sort?",
+        "options": [
+            "a) it is not an in place sorting algorithm",
+            "b) its every implementation is adaptive",
+            "c) it requires in order traversal of BST for sorting input elements",
+            "d) it is a stable sort"
+        ],
+        "answer": "b",
+        "explanation": "Every implementation of tree sort is not adaptive. It becomes adaptive only when implemented with a splay tree as BST."
+    },
+    {
+        "question": "Which of the following sorting algorithm is not in place?",
+        "options": [
+            "a) insertion sort",
+            "b) quick sort",
+            "c) tree sort",
+            "d) gnome sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options tree sort is the only algorithm which is not in place. It is because the auxiliary space required by tree sort is O(n)."
+    },
+    {
+        "question": "The worst case time complexity of tree sort remains unaffected when implemented with an unbalanced tree or a balanced tree.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of tree sort is affected when implemented with an unbalanced tree or a balanced tree. In case of a balanced tree it is O(n log n) and in case of unbalanced tree it is O(n"
+    },
+    {
+        "question": "Which of the following is not an advantage of tree sort?",
+        "options": [
+            "a) it has a low space complexity",
+            "b) it has good time complexity for balanced BST",
+            "c) it is an online sorting algorithm",
+            "d) it is stable sorting algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Tree sort has a linear time complexity O(n) which makes it inefficient. This the main reason why sorting algorithms like quick sort, heap sort etc. are preferred over it."
+    },
+    {
+        "question": "Which of the following version of tree sort will have the highest worst case time complexity?",
+        "options": [
+            "a) using AVL tree as BST",
+            "b) using red black tree as BST",
+            "c) using splay tree as BST",
+            "d) using ordinary BST"
+        ],
+        "answer": "d",
+        "explanation": "Out of the given options tree sort has the highest worst case time complexity with ordinary BST as it may not be balanced in every case. Whereas all other options have self balancing BST."
+    }
+]

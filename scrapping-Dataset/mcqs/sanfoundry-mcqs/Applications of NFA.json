@@ -1,0 +1,117 @@
+[
+    {
+        "question": "Under which of the following operation, NFA is not closed?",
+        "options": [
+            "a) Negation",
+            "b) Kleene",
+            "c) Concatenation",
+            "d) None of the mentioned",
+            "a) Union",
+            "b) Intersection",
+            "c) Concatenation",
+            "d) Kleene",
+            "e) Negation."
+        ],
+        "answer": "d",
+        "explanation": "NFA is said to be closed under the following operations:"
+    },
+    {
+        "question": "It is less complex to prove the closure properties over regular languages using:",
+        "options": [
+            "a) NFA",
+            "b) DFA",
+            "c) PDA",
+            "d) Can\u2019t be said"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is an application of Finite Automaton?",
+        "options": [
+            "a) Compiler Design",
+            "b) Grammar Parsers",
+            "c) Text Search",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are many applications of finite automata, mainly in the field of Compiler Design and Parsers and Search Engines."
+    },
+    {
+        "question": "John is asked to make an automaton which accepts a given string for all the occurrence of \u20181001\u2019 in it. How many number of transitions would John use such that, the string processing application works?",
+        "options": [
+            "a) 9",
+            "b) 11",
+            "c) 12",
+            "d) 15"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following do we use to form an NFA from a regular expression?",
+        "options": [
+            "a) Subset Construction Method",
+            "b) Power Set Construction Method",
+            "c) Thompson Construction Method",
+            "d) Scott Construction Method"
+        ],
+        "answer": "c",
+        "explanation": "Thompson Construction method is used to turn a regular expression in an NFA by fragmenting the given regular expression through the operations performed on the input alphabets."
+    },
+    {
+        "question": "Which among the following can be an example of application of finite state machine(FSM)?",
+        "options": [
+            "a) Communication Link",
+            "b) Adder",
+            "c) Stack",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Idle is the state when data in form of packets is send and returns if NAK is received else waits for the NAK to be received."
+    },
+    {
+        "question": "Which among the following is not an application of FSM?",
+        "options": [
+            "a) Lexical Analyser",
+            "b) BOT",
+            "c) State charts",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Finite state automation is used in Lexical Analyser, Computer BOT (used in games), State charts, etc."
+    },
+    {
+        "question": "L1= {w | w does not contain the string tr }",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) Cannot be said"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Predict the number of transitions required to automate the following language using only 3 states:",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 4",
+            "d) Cannot be said"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "The total number of states to build the given language using DFA:",
+        "options": [
+            "a) 10",
+            "b) 11",
+            "c) 12",
+            "d) 13"
+        ],
+        "answer": "a",
+        "explanation": "We need to make the number of a as fixed i.e. 2 and b can be 2 or more. Thus, using this condition a finite automata can be created using 1 states."
+    }
+]

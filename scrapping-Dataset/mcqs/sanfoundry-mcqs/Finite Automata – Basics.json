@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Assume the R is a relation on a set A, aRb is partially ordered such that a and b are _____________",
+        "options": [
+            "a) reflexive",
+            "b) transitive",
+            "c) symmetric",
+            "d) reflexive and transitive"
+        ],
+        "answer": "d",
+        "explanation": "A partially ordered relation refers to one which is Reflexive, Transitive and Antisymmetric."
+    },
+    {
+        "question": "The non- Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1",
+        "options": [
+            "a) 01,0011,010101",
+            "b) 0011,11001100",
+            "c) \u03b5,0011,11001100",
+            "d) \u03b5,0011,11001100"
+        ],
+        "answer": "b",
+        "explanation": "The Kleene star of A, denoted by A*, is the set of all strings obtained by concatenating zero or more strings from A."
+    },
+    {
+        "question": "A regular language over an alphabet \u2211 is one that cannot be obtained from the basic languages using the operation",
+        "options": [
+            "a) Union",
+            "b) Concatenation",
+            "c) Kleene*",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Union, Intersection, Concatenation, Kleene*, Reverse are all the closure properties of Regular Language."
+    },
+    {
+        "question": "Statement 1: A Finite automata can be represented graphically; Statement 2: The nodes can be its states;   Statement 3: The edges or arcs can be used for transitions",
+        "options": [
+            "a) Statement 1 is false but Statement 2 and 3 are correct",
+            "b) Statement 1 and 2 are correct while 3 is wrong",
+            "c) None of the mentioned statements are correct",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is possible to represent a finite automaton graphically, with nodes for states, and arcs for transitions."
+    },
+    {
+        "question": "The minimum number of states required to recognize an octal number divisible by 3 are/is",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 5",
+            "d) 7"
+        ],
+        "answer": "b",
+        "explanation": "According to the question, minimum of 3 states are required to recognize an octal number divisible by 3."
+    },
+    {
+        "question": "Which of the following is not a part of 5-tuple finite automata?",
+        "options": [
+            "a) Input alphabet",
+            "b) Transition function",
+            "c) Initial State",
+            "d) Output Alphabet"
+        ],
+        "answer": "d",
+        "explanation": "A FA can be represented as FA = (Q, \u2211, \u03b4, q0, F) where Q=Finite Set of States, \u2211=Finite Input Alphabet, \u03b4=Transition Function, q0=Initial State, F=Final/Acceptance State)."
+    },
+    {
+        "question": "If an Infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______________",
+        "options": [
+            "a) Compiler",
+            "b) Interpreter",
+            "c) Loader and Linkers",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A Compiler is used to give a finite solution to an infinite phenomenon. An example of an infinite phenomenon is Language C, etc."
+    },
+    {
+        "question": "The number of elements in the set for the Language L={x\u03f5(\u2211r) *|length if x is at most 2} and \u2211={0,1} is _________",
+        "options": [
+            "a) 7",
+            "b) 6",
+            "c) 8",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "\u2211r = {1,0} and a Kleene* operation would lead to the following set=COUNT{\u03b5,0,1,00,11,01,10} = 7."
+    },
+    {
+        "question": "For the following change of state in FA, which of the following codes is an incorrect option?",
+        "options": [
+            "a) \u03b4 (m, 1) = n",
+            "b) \u03b4 (0, n) = m",
+            "c) \u03b4 (m,0) = \u03b5",
+            "d)"
+        ],
+        "answer": "b",
+        "explanation": "\u03b4(QX\u2211) = Q1 is the correct representation of change of state. Here, \u03b4 is called the Transition function."
+    },
+    {
+        "question": "Given: \u2211= {a, b}",
+        "options": [
+            "a) {aa, ab, ba, bb}",
+            "b) {aaaa, abab, \u03b5, abaa, aabb}",
+            "c) {aaa, aab, aba, bbb}",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "\u2211* represents any combination of the given set while \u2211x represents the set of combinations with length x where x \u03f5 I."
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "question": "Which among these access specifiers should be used for main() method?",
+        "options": [
+            "a) private",
+            "b) public",
+            "c) protected",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "main() method must be specified public as it called by Csharp run time system outside of the program, by default main is private in nature if no access specifier is used."
+    },
+    {
+        "question": "Which of these is used as default for a member of a class if no access specifier is used for it?",
+        "options": [
+            "a) private",
+            "b) public",
+            "c) protected internal",
+            "d) protected"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the process by which we can control what parts of a program can access the members of a class?",
+        "options": [
+            "a) Polymorphism",
+            "b) Abstraction",
+            "c) Encapsulation",
+            "d) Recursion"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these base class are accessible to the derived class members?",
+        "options": [
+            "a) static",
+            "b) protected",
+            "c) private",
+            "d) shared"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "\u2018y\u2019 is defined privately which cannot be accessed outside its scope."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Here, a = 2, a + 1 = 2 + 1 = 3."
+    }
+]

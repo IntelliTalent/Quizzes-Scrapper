@@ -1,0 +1,722 @@
+[
+    {
+        "question": "1) How can we describe an array in the best possible way?",
+        "options": [
+            "The Array shows a hierarchical structure.",
+            "Arrays are immutable.",
+            "Container that stores the elements of similar types",
+            "The Array is not a data structure"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c because array stores the elements in a contiguous block of memory of similar types. Therefore, we can say that array is a container that stores the elements of similar types.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following is the correct way of declaring an array?",
+        "options": [
+            "int javatpoint[10];",
+            "int javatpoint;",
+            "javatpoint{20};",
+            "array javatpoint[10];"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a because int specifies the type of the array, javatpoint is the name of the array, and 10 is the size of the array enclosed within the square brackets.",
+        "codeblock": null
+    },
+    {
+        "question": "3) How can we initialize an array in C language?",
+        "options": [
+            "int arr[2]=(10, 20)",
+            "int arr(2)={10, 20}",
+            "int arr[2] = {10, 20}",
+            "int arr(2) = (10, 20)"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c because the values assigned to the array must be enclosed within a curly bracket.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following is the advantage of the array data structure?",
+        "options": [
+            "Elements of mixed data types can be stored.",
+            "Easier to access the elements in an array",
+            "Index of the first element starts from 1.",
+            "Elements of an array cannot be sorted"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b because the elements in an array are stored in a contiguous block of memory, so it is easier to access the elements of an array through indexing.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following highly uses the concept of an array?",
+        "options": [
+            "Binary Search tree",
+            "Caching",
+            "Spatial locality",
+            "Scheduling of Processes"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c, i.e., Spatial locality. Here, spatial locality means that the instruction accessed recently, then the nearby memory location would be accessed in the next iteration. As we know that in an array, all the elements are stored in a contiguous block of memory, so spatial locality is accessed quickly.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Which of the following is the disadvantage of the array?",
+        "options": [
+            "Stack and Queue data structures can be implemented through an array.",
+            "Index of the first element in an array can be negative",
+            "Wastage of memory if the elements inserted in an array are lesser than the allocated size",
+            "Elements can be accessed sequentially."
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. For example, if we have an array of size 10 elements and we have inserted only 5 elements in an array then there is a wastage of 5 memory blocks which cannot be utilized by another variable.",
+        "codeblock": null
+    },
+    {
+        "question": "7) What is the output of the below code?",
+        "options": [
+            "Garbage value",
+            "10",
+            "50",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a because the indexing in an array starts from 0, so it starts from arr[0] to arr[4]. If we try to access arr[5] then the garbage value will be printed.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which one of the following is the size of int arr[9] assuming that int is of 4 bytes?",
+        "options": [
+            "9",
+            "36",
+            "35",
+            "None of the above"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b because the size of int type data is 4 bytes. The array stores 9 elements, so the size of the array is 9*4=36 bytes.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which one of the following is the process of inserting an element in the stack?",
+        "options": [
+            "Insert",
+            "Add",
+            "Push",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. In stack, the process of inserting an element is known as a push operation.",
+        "codeblock": null
+    },
+    {
+        "question": "10) When the user tries to delete the element from the empty stack then the condition is said to be a ____",
+        "options": [
+            "Underflow",
+            "Garbage collection",
+            "Overflow",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a. Underflow is a condition that occurs when user tries to implement the pop operation in the empty stack.",
+        "codeblock": null
+    },
+    {
+        "question": "11) If the size of the stack is 10 and we try to add the 11th element in the stack then the condition is known as___",
+        "options": [
+            "Underflow",
+            "Garbage collection",
+            "Overflow",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c because the stack is full with its 10 elements, and inserting one more element in a stack will lead to the stack overflow.",
+        "codeblock": null
+    },
+    {
+        "question": "12) Which one of the following is not the application of the stack data structure",
+        "options": [
+            "String reversal",
+            "Recursion",
+            "Backtracking",
+            "Asynchronous data transfer"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. The first three options are the stack applications, but option d is not a stack application. The queue data structure is used for synchronization between the processes.",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which data structure is mainly used for implementing the recursive algorithm?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Binary tree",
+            "Linked list"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b. Recursion means calling the function itself again. Stack is used to maintain the previous records of the function.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which data structure is required to convert the infix to prefix notation?",
+        "options": [
+            "Stack",
+            "Linked list",
+            "Binary tree",
+            "Queue"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., stack. Stack is a data structure used to reverse the order of the operators in the expression. It is also used as a storage structure that stores all the operators and print all the operators when all the operands have appeared.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following is the infix expression?",
+        "options": [
+            "A+B*C",
+            "+A*BC",
+            "ABC+*",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., A+B*C because, in infix notation, all the operators appear between the operands.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following is the prefix form of A+B*C?",
+        "options": [
+            "A+(BC*)",
+            "+AB*C",
+            "ABC+*",
+            "+A*BC"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. The prefix notation means all the operators that appear before operand.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following is not the correct statement for a stack data structure?",
+        "options": [
+            "Arrays can be used to implement the stack",
+            "Stack follows FIFO",
+            "Elements are stored in a sequential manner",
+            "Top of the stack contains the last inserted element"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b because Stack does not follow FIFO. It follows LIFO.",
+        "codeblock": null
+    },
+    {
+        "question": "18) If the elements '1', '2', '3' and '4' are added in a stack, so what would be the order for the removal?",
+        "options": [
+            "1234",
+            "2134",
+            "4321",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c because stack follows LIFO, which means that the element inserted at the last will be removed first.",
+        "codeblock": null
+    },
+    {
+        "question": "19) What is the outcome of the prefix expression +, -, *, 3, 2, /, 8, 4, 1?",
+        "options": [
+            "12",
+            "11",
+            "5",
+            "4"
+        ],
+        "answer": "Answer: c",
+        "explanation": " Reverse of the prefix expression: 1, 4, 8, /, 2, 3, *, -, +",
+        "codeblock": null
+    },
+    {
+        "question": "20) The minimum number of stacks required to implement a stack is __",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is 2. In Queue, one stack is required for the enqueue operation, and another stack will be used for the dequeue operation. The first stack is considered as the input stack whereas the second stack is considered as the output stack.",
+        "codeblock": null
+    },
+    {
+        "question": "21) Which one of the following node is considered the top of the stack if the stack is implemented using the linked list?",
+        "options": [
+            "First node",
+            "Second node",
+            "Last node",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., First node. As we know, that last inserted element in the stack is considered as the top of the stack. Whenever the element is added to the linked list, it is always added at the beginning of the list. Therefore, we can say that the first node in the linked list is considered as the top of the stack.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Consider the following stack implemented using stack.",
+        "options": [
+            "8",
+            "9",
+            "11",
+            "10"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is 10. The maximum size of the array is 11; therefore, we can insert 11 elements in the stack. The top value is initialized by -1, and on every insertion, the top value gets incremented.",
+        "codeblock": null
+    },
+    {
+        "question": "23) What is another name for the circular queue among the following options?",
+        "options": [
+            "Square buffer",
+            "Rectangle buffer",
+            "Ring buffer",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The circular queue is also known as a ring buffer. In a circular queue, the last element is connected back to the first element of the queue that forms a circle. Therefore, the structure of a circular queue is also known as a ring structure.",
+        "codeblock": null
+    },
+    {
+        "question": "24) If the elements '1', '2', '3' and '4' are inserted in a queue, what would be order for the removal?",
+        "options": [
+            "1234",
+            "4321",
+            "3241",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., 1234. The queue follows the FIFO principle in which the element inserted first will be removed first.",
+        "codeblock": null
+    },
+    {
+        "question": "25) A list of elements in which enqueue operation takes place from one end, and dequeue operation takes place from one end is__",
+        "options": [
+            "Binary tree",
+            "Stack",
+            "Queue",
+            "Linked list"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is Queue. Queue is a data structure in which insertion takes place from one end, and deletion takes place from one end.",
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following principle does Queue use?",
+        "options": [
+            "LIFO principle",
+            "FIFO principle",
+            "Linear tree",
+            "Ordered array"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is FIFO principle. Here, FIFO stands for First-In-First-Out. It means that the element which is inserted first will also be removed first.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which one of the following is not the type of the Queue?",
+        "options": [
+            "Linear Queue",
+            "Circular Queue",
+            "Double ended Queue",
+            "Single ended Queue"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. i.e., single ended queue. Queue has two ends in which one end is used for the insertion and another end is used for the deletion. Therefore, it is not possible for the Queue to have a single ended queue.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which one of the following is the overflow condition if linear queue is implemented using an array with a size MAX_SIZE?",
+        "options": [
+            "rear = front",
+            "rear = front+1",
+            "rear=MAX_SIZE -1",
+            "rear = MAX_SIZE"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c, i.e., rear=MAX_SIZE-1. As the size of the array is MAX_SIZE, so we can insert the elements till MAX_SIZE-1. If we try to insert the elements of size MAX_SIZE or more than MAX_SIZE in a queue, then it leads to the overflow condition.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which one of the following is the overflow condition if a circular queue is implemented using array having size MAX?",
+        "options": [
+            "rear= MAX-1",
+            "rear=MAX",
+            "front=(rear+1) mod max",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c, i.e., front=(rear+1) mod max. The overflow condition for the linear queue is rear =MAX-1 as there is no space left in the Queue if rear = MAX-1. On the other hand, in a circular queue, the overflow condition is front=(rear+1) mod max because the last element is connected to the first element in a circular queue.",
+        "codeblock": null
+    },
+    {
+        "question": "30) The time complexity of enqueue operation in Queue is __",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(logn)",
+            "O(nlogn)"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., O(1). In Queue, the insertion is performed at the rear end, which is directly accessible; therefore, it takes O(1) time to insert an element in a Queue.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the following that determines the need for the Circular Queue?",
+        "options": [
+            "Avoid wastage of memory",
+            "Access the Queue using priority",
+            "Follows the FIFO principle",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., Avoid wastage of memory. In a linear queue, there are chances of wastage of memory because if the rear is pointing to the last element whereas the front is pointing to the element other than the first element; it means that spaces allocated before the front are free, but it cannot be reused as rear cannot be incremented. In contrast, the last element is connected to the first element in a circular queue; if initial spaces are vacant, then rear can be incremented by using the statement (rear+1) mod max where max is the size of the array. Therefore, we conclude that the circular queue avoids wastage of memory.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Which one of the following is the correct way to increment the rear end in a circular queue?",
+        "options": [
+            "rear =rear+1",
+            "(rear+1) % max",
+            "(rear % max) + 1",
+            "None of the above"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b. It ensures that the rear will have the value from 0 to max-1; if the rear end points to the last position, and we increment the rear end using (rear+1) % max, then rear will point to the first position in the queue.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Consider the following code.",
+        "options": [
+            "Enqueue",
+            "Dequeue",
+            "Return the front element",
+            "Both b and c"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d because two operations are performed in the above code. The first one is returning the value of the front with the help of the statement n=q[front], and the second operation is dequeue (deleting an element) by using the statement front++.",
+        "codeblock": null
+    },
+    {
+        "question": "34) In the linked list implementation of queue, where will the new element be inserted?",
+        "options": [
+            "At the middle position of the linked list",
+            "At the head position of the linked list",
+            "At the tail position of the linked list",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. If the queue is implemented using linked list, then the new element will be inserted at the tail position of the linked list as Queue follows FIFO principle in which new element will always be added at the end of the Queue.",
+        "codeblock": null
+    },
+    {
+        "question": "35) How many Queues are required to implement a Stack?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b because one queue is required to perform the push operation while the other queue is used to perform the pop operation.",
+        "codeblock": null
+    },
+    {
+        "question": "36) Which one of the following is not the application of the Queue data structure?",
+        "options": [
+            "Resource shared between various systems",
+            "Data is transferred asynchronously",
+            "Load balancing",
+            "Balancing of symbols"
+        ],
+        "answer": "Answer: d",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following option is true if implementation of Queue is from the linked list?",
+        "options": [
+            "In enqueue operation, new nodes are inserted from the beginning and in dequeue operation, nodes are removed from the end.",
+            "In enqueue operation, new nodes are inserted from the end and in dequeue operation, nodes are deleted from the beginning.",
+            "In enqueue operation, new nodes are inserted from the end and in dequeue operation, nodes are deleted from the end.",
+            "Both a and b"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. As we know that Queue has two ends, i.e., one for the insertion and another one for the deletion. If Queue is implemented using Linked list then it can be done in either of the ways.",
+        "codeblock": null
+    },
+    {
+        "question": "38) The necessary condition to be checked before deletion from the Queue is__",
+        "options": [
+            "Overflow",
+            "Underflow",
+            "Rear value",
+            "Front value"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b, i.e., Underflow. Before deleting an element from the Queue, we first need to check whether the Queue is empty or not.",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which data structure is the best for implementing a priority queue?",
+        "options": [
+            "Stack",
+            "Linked list",
+            "Array",
+            "Heap"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d, i.e., Heap. All the data structures that are given in the above options can be used to implement a priority queue but the most efficient way of implementing a priority queue is heap data structure.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the following principle is used if two elements in the priority queue have the same priority?",
+        "options": [
+            "LIFO",
+            "FIFO",
+            "Linear tree",
+            "None of the above"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b, i.e., FIFO. In a priority queue, if two or more elements have the same priority then they are arranged based on the FIFO principle.",
+        "codeblock": null
+    },
+    {
+        "question": "41) Which of the following statement is not true regarding the priority queue?",
+        "options": [
+            "Processes with different priority can be easily handled",
+            "Easy to implement",
+            "Deletion is easier",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. i.e., deletion is easier. In worst case, the deletion is not easier as we have to traverse to the n elements until the element to be removed is not found.",
+        "codeblock": null
+    },
+    {
+        "question": "42) A linear data structure in which insertion and deletion operations can be performed from both the ends is___",
+        "options": [
+            "Queue",
+            "Deque",
+            "Priority queue",
+            "Circular queue"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b, i.e., Deque. The deque is a data structure in which both insertion and deletion can be performed from both the ends whereas, in Queue, insertion can be done from one end and deletion can be performed from another end.",
+        "codeblock": null
+    },
+    {
+        "question": "43) In the Deque implementation using singly linked list, what would be the time complexity of deleting an element from the rear end?",
+        "options": [
+            "O(1)",
+            "O(n2)",
+            "O(n)",
+            "O(nlogn)"
+        ],
+        "answer": "Answer: O(n)",
+        "explanation": " The answer is O(n) because we need to traverse till the n element to delete the element from the rear end.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following data structure allows you to insert the elements from both the ends while deletion from only one end?",
+        "options": [
+            "Input-restricted queue",
+            "Output-restricted queue",
+            "Priority queue",
+            "None of the above"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b. The output-restricted queue is one of the types of the Deque data structure in which insertion is allowed from both the ends but the deletion is allowed from only one end.",
+        "codeblock": null
+    },
+    {
+        "question": "45) What would be the output after performing the following operations in a Deque?",
+        "options": [
+            "10, 20, 30",
+            "50, 10, 30",
+            "40, 20, 30",
+            "None of the above"
+        ],
+        "answer": "Answer: b",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "46) In a circular queue implementation using array of size 5, the array index starts with 0 where front and rear values are 3 and 4 respectively. Determine the array index at which the insertion of the next element will take place.",
+        "options": [
+            "5",
+            "0",
+            "1",
+            "2"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b, i.e., 0. As it is mentioned in the question that the size of the array is 5; therefore, the range would be from 0 to 4. In a circular queue, the last element is connected to the first element; the value of rear is 4 so when we increment the value then it will point to the 0th position of the array.",
+        "codeblock": null
+    },
+    {
+        "question": "47) If circular queue is implemented using array having size MAX_SIZE in which array index starts with 0, front points to the first element in the queue, and rear points to the last element in the queue. Which one of the following conditions used to specify that the circular queue is empty?",
+        "options": [
+            "Front=rear= -1",
+            "Front=rear=0",
+            "Front=rear+1",
+            "None of the above"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a, i.e., front=rear= -1. When the circular queue is empty means that no element is available in the queue then the front and rear are initialized with a -1 value.",
+        "codeblock": null
+    },
+    {
+        "question": "48) Consider the implementation of the singly linked list having the head pointer only in the representation. Which of the following operations can be performed in O(1) time?",
+        "options": [
+            "ii",
+            "both ii and iii",
+            "both i and iv",
+            "both i and ii"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b. As it is mentioned in the above question that there is only head pointer pointing to the front node in the list so it will take O(1) time to insert at the front as well as to delete the first node from the list. If we try to insert the node at the end or delete the last node then it will take O(n) time as we need to traverse till the n elements.",
+        "codeblock": null
+    },
+    {
+        "question": "49) What would be the time complexity if user tries to insert the element at the end of the linked list (head pointer is known)?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(logn)",
+            "O(nlogn)"
+        ],
+        "answer": "Answer: b",
+        "explanation": " The answer is b, i.e., O(n). As it is mentioned in the above question that head pointer is known, so to insert the node at the end of the linked list; we have to traverse till the nth node. Therefore, the time complexity would be O(n).",
+        "codeblock": null
+    },
+    {
+        "question": "50) Which of the following is the time complexity to search an element in the linked list?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(logn)",
+            "O(nlogn)"
+        ],
+        "answer": "Answer: O(n)",
+        "explanation": " The answer is O(n). The worst-case time complexity to search an element in the linked list is O(n) because if we have to find the last element then we need to traverse till the nth node.",
+        "codeblock": null
+    },
+    {
+        "question": "51) Consider the following code",
+        "options": [
+            "ptr= (node*)malloc(sizeof(node*))",
+            "ptr=(node)malloc(sizeof(node))",
+            "ptr=(node*)malloc(sizeof(node))",
+            "None of the above"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c, i.e., ptr=(node*)malloc(sizeof(node)). In this statement, we have used a malloc() function for allocating the memory to the node and ptr is a pointer variable that will point to the newly created node.",
+        "codeblock": null
+    },
+    {
+        "question": "52) Which of the following statement is not true about the doubly linked list?",
+        "options": [
+            "We can traverse in both the directions.",
+            "It requires extra space",
+            "Implementation of doubly linked list is easier than the singly linked list",
+            "It stores the addresses of the next and the previous node"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. The implementation of doubly linked list is complex as compared to singly linked list as it needs to store the addresses of the two nodes, i.e., the previous and the next node. If we insert or delete the node from the doubly linked list then it needs to adjust two pointers, previous and the next pointer.",
+        "codeblock": null
+    },
+    {
+        "question": "53) What is the maximum number of children that a node can have in a binary tree?",
+        "options": [
+            "3",
+            "1",
+            "4",
+            "2"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. The binary tree can contain utmost two children.",
+        "codeblock": null
+    },
+    {
+        "question": "54) Which one of the following techniques is not used in the Binary tree?",
+        "options": [
+            "Randomized traversal",
+            "Preorder traversal",
+            "Postorder traversal",
+            "Inorder traversal"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a. The binary tree contains three traversal techniques, preorder, postorder and inorder traversal.",
+        "codeblock": null
+    },
+    {
+        "question": "55) Which of the following options is not true about the Binary Search tree?",
+        "options": [
+            "The value of the left child should be less than the root node",
+            "The value of the right child should be greater than the root node.",
+            "The left and right sub trees should also be a binary search tree",
+            "None of the above"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. All the three options, i.e., a, b and c are true for the binary search tree. In binary search tree, the left child should be less than the root node and the right child should be greater than the value of the root node.",
+        "codeblock": null
+    },
+    {
+        "question": "56) How can we define a AVL tree?",
+        "options": [
+            "A tree which is binary search tree and height balanced tree.",
+            "A tree which is a binary search tree but unbalanced tree.",
+            "A tree with utmost two children",
+            "A tree with utmost three children"
+        ],
+        "answer": "Answer: a",
+        "explanation": " The answer is a. An AVL tree is a binary search tree and height balanced tree.",
+        "codeblock": null
+    },
+    {
+        "question": "57) Why do we prefer Red Black tree over AVL tree?",
+        "options": [
+            "Red Black trees are not strictly balanced",
+            "Red black tree requires lesser rotations than AVL tree.",
+            "AVL tree needs more space to store the balance factor.",
+            "Both b and c"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. Red Black tree requires fewer rotations for inserting or deleting the node whereas AVL tree requires multiple rotations to balance the tree. AVL tree stores balance factor per node that requires space whereas Red Black tree stores 1-bit information.",
+        "codeblock": null
+    },
+    {
+        "question": "58) Which of the following satisfies the property of the Red Black tree?",
+        "options": [
+            "A tree which is a binary search tree but not strictly balanced tree.",
+            "A node must be either Red or Black in color and root node must be black.",
+            "A tree with maximum three children",
+            "Both a and b"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. Red black tree is a binary search tree but it is not a strictly balanced tree like AVL tree. In Red Black tree, a node must be either in Black or Red in color and root node must be in Black color.",
+        "codeblock": null
+    },
+    {
+        "question": "59) What would be the color of newly created node while inserting a new element in a Red black tree?",
+        "options": [
+            "Black, if the new node is not a root node",
+            "Red, if the new node is not a root node",
+            "Black, if the new node is a root node",
+            "Both b and c"
+        ],
+        "answer": "Answer: d",
+        "explanation": " The answer is d. The property of Red Black tree is that if the newly created node is a root node then the color of the node would be Black otherwise the color of the node would be Red.",
+        "codeblock": null
+    },
+    {
+        "question": "60) Identify the AVL tree among the following options?",
+        "options": [
+            "A",
+            "C",
+            "Both A and C",
+            "B"
+        ],
+        "answer": "Answer: c",
+        "explanation": " The answer is c. Both A and C are the AVL trees but B is not a AVL tree. As we know that balance factor of every node in AVL tree should be either -1, 0 or 1. But in case of B, the balance factor of node 80 is 2, so it is not a AVL tree.",
+        "codeblock": null
+    }
+]

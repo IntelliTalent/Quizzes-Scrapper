@@ -1,0 +1,119 @@
+[
+    {
+        "question": "Mix Row functions operate on the 8 \u00d7 8 matrix (A) to form the new matrix. The operation can be considered to be B = AC. The matrix C is formed by",
+        "options": [
+            "a) each successive even row having left shifts",
+            "b) each successive row having a left shifts",
+            "c) each successive odd row having right shifts",
+            "d) each successive row having a right shifts"
+        ],
+        "answer": "d",
+        "explanation": "The matrix C is formed by each successive row having right shifts."
+    },
+    {
+        "question": "Which of the following hexadecimal values are not present in the matrix C of the Mix Rows function?",
+        "options": [
+            "a) 01",
+            "b) 09",
+            "c) 05",
+            "d) 03"
+        ],
+        "answer": "d",
+        "explanation": "03 is not a valid value in matrix C."
+    },
+    {
+        "question": "There\u2019s no known successful attacks made against Whirlpool.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The reason for this is because the Whirlpool algorithm is a new algorithm and hasn\u2019t been used very much."
+    },
+    {
+        "question": "Which hash algorithm is the most hardware intensive among the following?",
+        "options": [
+            "a) SHA-1",
+            "b) SHA-2",
+            "c) MD-5",
+            "d) Whirlpool"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which algorithm has the most execution latency?",
+        "options": [
+            "a) SHA-1",
+            "b) SHA-2",
+            "c) MD-5",
+            "d) Whirlpool"
+        ],
+        "answer": "b",
+        "explanation": "Whirlpool has the lowest latency. Latency is defined by the number of iteration rounds. SHA-2 has 80 rounds, whereas Whirlpool has 10."
+    },
+    {
+        "question": "Which among the following has not been broken yet( still collision free)?",
+        "options": [
+            "a) MD-5",
+            "b) SHA-1",
+            "c) DES",
+            "d) SHA-2"
+        ],
+        "answer": "d",
+        "explanation": "SHA-2 has not yet been broken, but since SHA-1 has been found to be not collision free (and SHA-2 has the same logic as SHA-1), SHA-3 algorithm was developed and officialised in 2012."
+    },
+    {
+        "question": "Before the first round of the Whirlpool algorithm, which is the operation that takes place?",
+        "options": [
+            "a) Addition of Key",
+            "b) Substitution of Bytes",
+            "c) Mixing of Rows",
+            "d) Shifting of Columns"
+        ],
+        "answer": "a",
+        "explanation": "Before the first round of the Whirlpool algorithm, addition of key round takes place."
+    },
+    {
+        "question": "How many rounds does the Whirlpool algorithm undergo?",
+        "options": [
+            "a) 12",
+            "b) 14",
+            "c) 10",
+            "d) 16"
+        ],
+        "answer": "c",
+        "explanation": "There are 10 rounds in the algorithm."
+    },
+    {
+        "question": "Each round uses a different key in the algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Whirlpool produces keys for each round using the same algorithm itself. Keys are updated per round."
+    },
+    {
+        "question": "What is the size of the key in the algorithm?",
+        "options": [
+            "a) 256 bits",
+            "b) 512 bits",
+            "c) 128 bits",
+            "d) 1024 bits"
+        ],
+        "answer": "b",
+        "explanation": "The size of the key is 512 bits."
+    },
+    {
+        "question": "How many add round key functions are present in the Whirlpool algorithm?",
+        "options": [
+            "a) 16",
+            "b) 18",
+            "c) 11",
+            "d) 10"
+        ],
+        "answer": "c",
+        "explanation": "There are 11 round key addition functions in the Whirlpool algorithm. One key addition per round. One key addition before the 1st round."
+    }
+]

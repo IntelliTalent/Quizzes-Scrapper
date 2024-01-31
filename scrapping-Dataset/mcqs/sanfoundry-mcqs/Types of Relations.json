@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The binary relation {(1,1), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2)} on the set {1, 2, 3} is __________",
+        "options": [
+            "a) reflective, symmetric and transitive",
+            "b) irreflexive, symmetric and transitive",
+            "c) neither reflective, nor irreflexive but transitive",
+            "d) irreflexive and antisymmetric"
+        ],
+        "answer": "c",
+        "explanation": "Not reflexive -> (3,3) not present; not irreflexive -> (1, 1) is present; not symmetric -> (2, 1) is present but not (1, 2); not antisymmetric \u2013 (2, 3) and (3, 2) are present; not asymmetric -> asymmetry requires both antisymmetry and irreflexivity. So, it is transitive closure of relation."
+    },
+    {
+        "question": "Consider the relation: R\u2019 (x, y) if and only if x, y>0  over the set of non-zero rational numbers,then R\u2019 is _________",
+        "options": [
+            "a) not equivalence relation",
+            "b) an equivalence relation",
+            "c) transitive and asymmetry relation",
+            "d) reflexive and antisymmetric relation"
+        ],
+        "answer": "b",
+        "explanation": " Reflexive: a, a>0"
+    },
+    {
+        "question": "Let S be a set of n>0 elements. Let  be the number B",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) n and n",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "For a set with n elements the number of binary relations should be 2"
+    },
+    {
+        "question": "Let A be a set of k (k>0) elements. Which is larger between the number of binary relations (say, N",
+        "options": [
+            "a) number of relations",
+            "b) number of functions",
+            "c) the element set",
+            "d) number of subsets of the relation"
+        ],
+        "answer": "a",
+        "explanation": "For a set with k elements the number of binary relations should be 2"
+    },
+    {
+        "question": "Consider the binary relation, A = {(a,b) | b = a \u2013 1 and a, b belong to {1, 2, 3}}. The reflexive transitive closure of A is?",
+        "options": [
+            "a) {(a,b) | a >= b and a, b belong to {1, 2, 3}}",
+            "b) {(a,b) | a > b and a, b belong to {1, 2, 3}}",
+            "c) {(a,b) | a <= b and a, b belong to {1, 2, 3}}",
+            "d) {(a,b) | a = b and a, b belong to {1, 2, 3}}"
+        ],
+        "answer": "a",
+        "explanation": "By definition of Transitive closure we have that a is related to all smaller b (as every a is related to b \u2013 1) and from the reflexive property a is related to a."
+    },
+    {
+        "question": "Let R",
+        "options": [
+            "a) R",
+            "b) \u03a6",
+            "c) R",
+            "d) R"
+        ],
+        "answer": "b",
+        "explanation": "By definition, i) R"
+    },
+    {
+        "question": "The time complexity of computing the transitive closure of a binary relation on a set of n elements should be ________",
+        "options": [
+            "a) O(n)",
+            "b) O(logn)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "Calculation of transitive closure results into matrix multiplication. We can do matrix multiplication in O(n"
+    },
+    {
+        "question": "Let A and B be two non-empty relations on a set S. Which of the following statements is false?",
+        "options": [
+            "a) A and B are transitive \u21d2 A\u2229B is transitive",
+            "b) A and B are symmetric \u21d2 A\u222aB is symmetric",
+            "c) A and B are transitive \u21d2 A\u222aB is not transitive",
+            "d) A and B are reflexive \u21d2 A\u2229B is reflexive"
+        ],
+        "answer": "c",
+        "explanation": "In terms of set theory, the binary relation R defined on the set X is a transitive relation if, for all a, b, c \u2208 X, if aRb and bRc, then aRc. If there are two relations on a set satisfying transitive property then there union must satisfy transitive property."
+    },
+    {
+        "question": "Determine the characteristics of the relation aRb if a",
+        "options": [
+            "a) Transitive and symmetric",
+            "b) Reflexive and asymmetry",
+            "c) Trichotomy, antisymmetry, and irreflexive",
+            "d) Symmetric, Reflexive, and transitive"
+        ],
+        "answer": "d",
+        "explanation": "Since, x"
+    },
+    {
+        "question": "Let R be a relation between A and B. R is asymmetric if and only if ________",
+        "options": [
+            "a) Intersection of D(A) and R is empty, where D(A) represents diagonal of set",
+            "b) R",
+            "c) Intersection of R and R",
+            "d) D(A) is a subset of R, where D(A) represents diagonal of set"
+        ],
+        "answer": "a",
+        "explanation": "A relation is asymmetric if and only if it is both antisymmetric and irreflexive. As a consequence, a relation is transitive and asymmetric if and only if it is a strict partial order. If D(A) is a diagonal of A set and intersection of D(A) and R is empty, then R is asymmetric."
+    }
+]

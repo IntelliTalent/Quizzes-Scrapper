@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The maximum number of edges in a bipartite graph on 14 vertices is ___________",
+        "options": [
+            "a) 56",
+            "b) 14",
+            "c) 49",
+            "d) 87"
+        ],
+        "answer": "c",
+        "explanation": "Maximum number of edges occur in a complete bipartite graph when every vertex has an edge to every opposite vertex in the graph. Number of edges in a complete bipartite graph is a*b, where a and b are no. of vertices on each side. This quantity is maximum when a = b i.e. when there are 7 vertices on each side. So answer is 7 * 7 = 49."
+    },
+    {
+        "question": "In a ______ the degree of each and every vertex is equal.",
+        "options": [
+            "a) regular graph",
+            "b) point graph",
+            "c) star graph",
+            "d) euler graph"
+        ],
+        "answer": "c",
+        "explanation": " A regular graph has the same degree in each of its vertices. In a regular bipartite graph, if the common degree of each vertices is 1, the two parts are of the same size."
+    },
+    {
+        "question": "The time complexity to test whether a graph is bipartite or not is said to be _______ using depth first search.",
+        "options": [
+            "a) O(n",
+            "b) linear time",
+            "c) O(1)",
+            "d) O(nlogn)"
+        ],
+        "answer": "b",
+        "explanation": "It is possible to test whether a graph is bipartite, and to return either a two-coloring (if it is bipartite) or an odd cycle (if it is not) in linear time i.e, O(n) using depth first search. In case of the intersection of n line segments or other simple shapes in the Euclidean graph, it is possible to test whether the graph is bipartite and it will return either a two-coloring or an odd cycle in time O(nlogn), even though the graph itself has up to O(n"
+    },
+    {
+        "question": "The partition V = V",
+        "options": [
+            "a) bipartition of G",
+            "b) 2-vertex set of G",
+            "c) sub bipartite graphs",
+            "d) disjoint vertex set"
+        ],
+        "answer": "b",
+        "explanation": "A graph G"
+    },
+    {
+        "question": "What is the maximum number of edges in a bipartite graph on 14 vertices?",
+        "options": [
+            "a) 78",
+            "b) 15",
+            "c) 214",
+            "d) 49"
+        ],
+        "answer": "d",
+        "explanation": "By definition, the maximum possible number of edges in a bipartite graph on \u2018n\u2019 vertices = (1/4) x n"
+    },
+    {
+        "question": "Bipartite graphs are used in ________",
+        "options": [
+            "a) modern coding theory",
+            "b) colouring graphs",
+            "c) neural networks",
+            "d) chemical bonds"
+        ],
+        "answer": "a",
+        "explanation": "All types of cyclic graphs are examples of cyclic graphs. A cyclic graph is considered bipartite if all the cycles involved are of even length. Bipartite graphs are widely used in modern coding theory apart from being used in modeling relationships."
+    },
+    {
+        "question": "All closed walks are of ______ length in a bipartite graph.",
+        "options": [
+            "a) infinite",
+            "b) even",
+            "c) odd",
+            "d) odd prime"
+        ],
+        "answer": "b",
+        "explanation": "In a bipartite graph G all closed walks must be of even length as well as all cycles in G are of even length. Then only the graph is considered a bipartite graph."
+    },
+    {
+        "question": "Every complete bipartite graph must not be _______",
+        "options": [
+            "a) planar graph",
+            "b) line graph",
+            "c) complete graph",
+            "d) subgraph"
+        ],
+        "answer": "c",
+        "explanation": "The below bipartite graph is not a complete graph as there is no edge between A-B, B-C, C-D, C-Q, P-Q, Q-R, Q-D and so it is not a complete graph."
+    },
+    {
+        "question": "The spectrum of a graph is _______ if and only if it is _______ graph.",
+        "options": [
+            "a) symmetry, bipartite",
+            "b) transitive, bipartite",
+            "c) cyclic, Euler",
+            "d) reflexive, planar"
+        ],
+        "answer": "a",
+        "explanation": "A graph is bipartite if and only if it does not contain an odd cycle. The spectrum of a graph is symmetric if and only if it is a bipartite graph. These are the characteristics of the graph."
+    }
+]

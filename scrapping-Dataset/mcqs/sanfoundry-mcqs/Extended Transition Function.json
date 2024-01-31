@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The number of tuples in an extended Non Deterministic Finite Automaton:",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 7",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "For NFA or extended transition function on NFA, the tuple elements remains same i.e. 5."
+    },
+    {
+        "question": "Choose the correct option for the given statement:",
+        "options": [
+            "a) Correct",
+            "b) Incorrect, Incomplete DFA",
+            "c) Wrong proposition",
+            "d) May be correct"
+        ],
+        "answer": "c",
+        "explanation": "The given figure is an NFA. The statement contradicts itself."
+    },
+    {
+        "question": "What is wrong in the given definition?",
+        "options": [
+            "a) The definition does not satisfy 5 Tuple definition of NFA",
+            "b) There are no transition definition",
+            "c) Initial and Final states do not belong to the Graph",
+            "d) Initial and final states can\u2019t be same"
+        ],
+        "answer": "c",
+        "explanation": "q3 does not belong to Q where Q= set of finite states."
+    },
+    {
+        "question": "If \u03b4 is the transition function for a given NFA, then we define the \u03b4\u2019 for the DFA accepting the same language would be:",
+        "options": [
+            "a) \u03b4\u2019 (S, a) =U",
+            "b) \u03b4\u2019 (S, a) =U",
+            "c) \u03b4\u2019 (S, a) =U",
+            "d) \u03b4\u2019 (S) =U"
+        ],
+        "answer": "a",
+        "explanation": "According to subset construction, equation 1 holds true."
+    },
+    {
+        "question": "What is the relation between DFA and NFA on the basis of computational power?",
+        "options": [
+            "a) DFA > NFA",
+            "b) NFA > DFA",
+            "c) Equal",
+            "d) Can\u2019t be said"
+        ],
+        "answer": "c",
+        "explanation": "DFA is said to be a specific case of NFA and for every NFA that exists for a given language, an equivalent DFA also exists."
+    },
+    {
+        "question": "If a string S is accepted by a finite state automaton, S=s",
+        "options": [
+            "a) initial state",
+            "b) transition symbol",
+            "c) accepting state",
+            "d) intermediate state"
+        ],
+        "answer": "c",
+        "explanation": "r(n) is the final state and accepts the string S after the string being traversed through r(i) other states where I \u03f5 01,2\u2026(n-2)."
+    },
+    {
+        "question": "According to the given table, compute the number of transitions with 1 as its symbol but not 0:",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 2",
+            "d) 1"
+        ],
+        "answer": "d",
+        "explanation": "The transition graph is made and thus the answer can be found."
+    },
+    {
+        "question": "From the given table, \u03b4*(q0, 011) =?",
+        "options": [
+            "a) {q0}",
+            "b) {q1} U {q0, q1, q2}",
+            "c) {q2, q1}",
+            "d) {q3, q1, q2, q0}"
+        ],
+        "answer": "b",
+        "explanation": "\u03b4*(q0,011) = U"
+    },
+    {
+        "question": "Number of times the state q3 or q2 is being a part of extended 6 transition state is",
+        "options": [
+            "a) 6",
+            "b) 5",
+            "c) 4",
+            "d) 7"
+        ],
+        "answer": "a",
+        "explanation": "According to the question, presence of q2 or q1 would count so it does and the answer according to the diagram is 6."
+    },
+    {
+        "question": "Predict the missing procedure:",
+        "options": [
+            "a) {Q0, Q1, Q2}",
+            "b) {Q0, Q1}",
+            "c) {Q0, Q2}",
+            "d) {Q1, Q2}"
+        ],
+        "answer": "c",
+        "explanation": "According to given table and extended transition state implementation, we can find the state at which it rests."
+    }
+]

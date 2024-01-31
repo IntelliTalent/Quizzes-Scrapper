@@ -1,0 +1,81 @@
+[
+    {
+        "question": "Which of these is not an exact numeric type?",
+        "options": [
+            "a) SMALLINT",
+            "b) DECIMAL",
+            "c) NUMERIC",
+            "d) REAL"
+        ],
+        "answer": "d",
+        "explanation": "MySQL supports all the standard SQL numeric data types. These are the exact numeric data types like INTEGER, SMALLINT, DECIMAL and NUMERIC and the approximate numeric data types like FLOAT, REAL and DOUBLE PRECISION."
+    },
+    {
+        "question": "How many of the following do not support \u2018BIT\u2019 data type?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The BIT data type stores the bit values. It is supported for the MyISAM, MEMORY, InnoDB and NDB tables. MySQL supports all the standard SQL numeric data types, both the exact and approximate."
+    },
+    {
+        "question": "The statement that suspends the replication related activity of the slave server is _____________",
+        "options": [
+            "a) RESUME SLAVE",
+            "b) START SLAVE",
+            "c) STOP SLAVE",
+            "d) GET SLAVE"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018STOP SLAVE\u2019 and \u2018START SLAVE\u2019 statements suspend and resume the replication-related activity of a slave server. These statements are useful for telling the slave to be quiescent."
+    },
+    {
+        "question": "The minimum value stored by signed TINYINT is _____________",
+        "options": [
+            "a) -256",
+            "b) -128",
+            "c) 0",
+            "d) 128"
+        ],
+        "answer": "b",
+        "explanation": "MySQL supports the SQL standard integer types INTEGER, or INT, and SMALLINT. As an extension to this standard, MySQL also supports the integer types TINYINT, MEDIUMINT and BIGINT."
+    },
+    {
+        "question": "On Unix, \u2018mysql\u2019 client writes a record of executed statements to a history file.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "On Unix the mysql client writes a record of the executed statements to a history file. By default, this file is named as \u2018.mysql_history\u2019. It is created in the home directory."
+    },
+    {
+        "question": "A password applies locally to an account.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In the MySQL privilege system, a password applies globally to an account. A password cannot be explicitly associated with a specific object such as a database, table, or routine."
+    },
+    {
+        "question": "If $a represents an array with numeric indices in PHP, the first element accessed by ______________",
+        "options": [
+            "a) $a[1]",
+            "b) $a[0]",
+            "c) $a.1",
+            "d) $a.0"
+        ],
+        "answer": "b",
+        "explanation": "If $a represents an array with numeric indices, its elements are accessed as $x[0], $x[1], and so on. In general terms, each element at the position i is accessed and used as $a[i \u2013 1]."
+    },
+    {
+        "question": "The operator used in PHP to access property of an object is ________________",
+        "options": [
+            "a) .",
+            "b) *",
+            "c) ->",
+            "d) @"
+        ],
+        "answer": "c",
+        "explanation": "If $a represents an object, the properties it has can be accessed as $a->property-name. For instance, $a->white, $a->black, $a->blue, $a->red can be the properties of $a and accessed in this way."
+    }
+]

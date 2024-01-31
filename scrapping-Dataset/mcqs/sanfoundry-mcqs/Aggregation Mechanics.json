@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following stages cannot appear multiple times in a pipeline?",
+        "options": [
+            "a) $regex",
+            "b) $reg",
+            "c) $match",
+            "d) $out"
+        ],
+        "answer": "c",
+        "explanation": "To use the $out stage, it must be the last stage in the pipeline."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) To access variables in expressions, use a string that prefixes the variable name with $$$",
+            "b) Expressions can include field paths and system variables, literals, expression objects, and expression operators",
+            "c) To specify a field path, use a string that prefixes with a dollar sign % the field name or the dotted field name",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Expressions can be nested."
+    },
+    {
+        "question": "Aggregation expressions use ______ path to access fields in the input documents.",
+        "options": [
+            "a) mpath",
+            "b) dbpath",
+            "c) lpath",
+            "d) field"
+        ],
+        "answer": "d",
+        "explanation": "To specify a field path, use a string that prefixes with a dollar sign $ the field name or the dotted field name, if the field is in embedded document."
+    },
+    {
+        "question": "Which of the following statement is equivalent to \u201c$$CURRENT.<field>\u201d?",
+        "options": [
+            "a) \u201c$%<field>\u201d",
+            "b) \u201c%<field>\u201d",
+            "c) \u201c$$<field>\u201d",
+            "d) \u201c$<field>\u201d"
+        ],
+        "answer": "d",
+        "explanation": "CURRENT is a system variable that defaults to the root of the current object in the most stages, unless stated otherwise in specific stages."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Literals can be of any type",
+            "b) CURRENT cannot be rebound",
+            "c) MongoDB parses string literals that start with a dollar sign $",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Along with the CURRENT system variable, other system variables are also available for use in expressions."
+    },
+    {
+        "question": "______ binds variables for use in the specified expression.",
+        "options": [
+            "a) $skip",
+            "b) $let",
+            "c) $bind",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$let also returns the result of the expression."
+    },
+    {
+        "question": "________ applies an expression to each item in an array and returns an array with the applied results.",
+        "options": [
+            "a) $map",
+            "b) $geo",
+            "c) $geoRear",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The $map expression has the following syntax: { $map: { input: <expressi>, as: <string>, in: <expression> } }"
+    },
+    {
+        "question": "In the vars assignment block, ________ refers to the value of an externally defined variable low.",
+        "options": [
+            "a) \u201c$$low\u201d",
+            "b) \u201c$$lowin\u201d",
+            "c) \u201c$$1\u201d",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If low is not defined outside this $let expression block, the expression is invalid."
+    },
+    {
+        "question": "To avoid treating numeric or boolean literals as projection flags, use the _______ expression to wrap the numeric or boolean literals.",
+        "options": [
+            "a) $literal",
+            "b) $bool",
+            "c) $unwin",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The $literal expression has the following syntax: { $literal: <value> }"
+    },
+    {
+        "question": "MongoDB treats the literals as projection flags, valid only in the _______ stage.",
+        "options": [
+            "a) $project",
+            "b) $gmap",
+            "c) $match",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Projection flags can be 1 or true to include the field."
+    }
+]

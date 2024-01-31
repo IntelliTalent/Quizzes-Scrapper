@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ is a fully integrated, state-of-the-art analytic database architected specifically to leverage strengths of Hadoop.",
+        "options": [
+            "a) Oozie",
+            "b) Impala",
+            "c) Lucene",
+            "d) BigTop"
+        ],
+        "answer": "b",
+        "explanation": "Impala provides scalability and flexibility to hadoop."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) With Impala, more users, whether using SQL queries or BI applications, can interact with more data",
+            "b) Technical support for Impala is not available via a Cloudera Enterprise subscription",
+            "c) Impala is proprietary tool for Hadoop",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is possible through a single repository and metadata store from source through analysis."
+    },
+    {
+        "question": "Impala is an integrated part of a ____________ enterprise data hub.",
+        "options": [
+            "a) MicroSoft",
+            "b) IBM",
+            "c) Cloudera",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Impala is open source (Apache License), so you can self-support in perpetuity if you wish."
+    },
+    {
+        "question": "For Apache __________ users, Impala utilizes the same metadata.",
+        "options": [
+            "a) cTakes",
+            "b) Hive",
+            "c) Pig",
+            "d) Oozie"
+        ],
+        "answer": "b",
+        "explanation": "You don\u2019t have to worry about re-inventing the implementation wheel."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) For Apache Hive users, Impala utilizes the same metadata, ODBC driver, SQL syntax, and user interface as Hive",
+            "b) Impala provides high latency and low concurrency",
+            "c) Impala also scales linearly, even in multi tenant environments",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Impala provides low latency and high concurrency."
+    },
+    {
+        "question": "Impala is integrated with native Hadoop security and Kerberos for authentication via __________ module.",
+        "options": [
+            "a) Sentinue",
+            "b) Sentry",
+            "c) Sentinar",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Via the Sentry module, you can ensure that the right users and applications are authorized for the right data."
+    },
+    {
+        "question": "Which of the following companies shipped Impala?",
+        "options": [
+            "a) Amazon",
+            "b) Oracle",
+            "c) MapR",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Impala is shipped by Cloudera, MapR, Oracle, and Amazon."
+    },
+    {
+        "question": "____________ analytics is a work in progress with Impala.",
+        "options": [
+            "a) Reproductive",
+            "b) Exploratory",
+            "c) Predictive",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Impala is the de facto standard for open source interactive business intelligence and data discovery."
+    },
+    {
+        "question": "Which of the following features is not provided by Impala?",
+        "options": [
+            "a) SQL functionality",
+            "b) ACID",
+            "c) Flexibility",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Impala combines all of the benefits of other Hadoop frameworks, including flexibility, scalability, and cost-effectiveness, with the performance, usability, and SQL functionality necessary for an enterprise-grade analytic database."
+    },
+    {
+        "question": "Which of the following hadoop file formats is supported by Impala?",
+        "options": [
+            "a) SequenceFile",
+            "b) Avro",
+            "c) RCFile",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Impala reads Hadoop file formats, including text, LZO, SequenceFile, Avro, RCFile, and Parquet."
+    }
+]

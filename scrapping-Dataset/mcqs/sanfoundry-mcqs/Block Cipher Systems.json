@@ -1,0 +1,101 @@
+[
+    {
+        "question": "In affine block cipher systems if f(m)=Am + t, what is f(m1+m2) ?",
+        "options": [
+            "a) f(m1) + f(m2) + t",
+            "b) f(m1) + f(m2) + 2t",
+            "c) f(m1) + t",
+            "d) f(m1) + f(m2)"
+        ],
+        "answer": "a",
+        "explanation": "In general  f(\u2211(i=1 to n) m_i = \u2211(i=1 to n) f(m_i) + t\u03b4_n) where \u03b4_n=0 if n is odd and 1 if n is even."
+    },
+    {
+        "question": "In affine block cipher systems if f(m)=Am + t, what is f(m1+m2+m3) ?",
+        "options": [
+            "a) f(m1) + f(m2) + f(m3) + t",
+            "b) f(m1) + f(m2) + f(m3) +2t",
+            "c) f(m1) + f(m2) + f(m3)",
+            "d) 2(f(m1) + f(m2) + f(m3))"
+        ],
+        "answer": "c",
+        "explanation": "In general  f(\u2211(i=1 to n) m_i =\u2211(i=1 to n) f(m_i ) + t\u03b4_n) where \u03b4_n=0 if n is odd and 1 if n is even."
+    },
+    {
+        "question": "If the block size is \u2018s\u2019, how many affine transformations are possible ?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "2"
+    },
+    {
+        "question": "What is the number of possible 3 x 3 affine cipher transformations ?",
+        "options": [
+            "a) 168",
+            "b) 840",
+            "c) 1024",
+            "d) 1344"
+        ],
+        "answer": "d",
+        "explanation": " Since \u2018A\u2019 cannot have columns of \u20180\u2019s. so there are \u20187\u2019 choices i.e. 001/010/011/100/101/110/111. \u2018a1\u2019 is chosen for first column of \u2018A."
+    },
+    {
+        "question": "Super-Encipherment using two affine transformations results in another affine transformation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "f(g(m))=A_1 g(m)+c_1"
+    },
+    {
+        "question": "If the key is 110100001 where,",
+        "options": [
+            "a) 010110011",
+            "b) 111000011",
+            "c) 110110111",
+            "d) 010110110"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Confusion hides the relationship between the ciphertext and the plaintext.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Confusion hides the relationship between the ciphertext and the key."
+    },
+    {
+        "question": "The S-Box is used to provide confusion, as it is dependent on the unknown key.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The S-Box is used to provide confusion, as it is dependent on the unknown key."
+    },
+    {
+        "question": "This is an example of",
+        "options": [],
+        "answer": "b",
+        "explanation": "The figure is the Feistel Cipher Structure."
+    },
+    {
+        "question": "Which of the following slows the cryptographic algorithm \u2013",
+        "options": [
+            "1) Increase in Number of rounds",
+            "2) Decrease in Block size",
+            "3) Decrease in Key Size",
+            "4) Increase in Sub key Generation"
+        ],
+        "answer": "b",
+        "explanation": "Increase in any of the above 4 leads to slowing of the cipher algorithm i.e. more computational time will be required."
+    }
+]

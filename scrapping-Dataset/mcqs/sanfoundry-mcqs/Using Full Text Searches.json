@@ -1,0 +1,87 @@
+[
+    {
+        "question": "In which mode of search is the search string parsed into words and the search looks for rows?",
+        "options": [
+            "a) Natural language",
+            "b) Boolean mode",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, a full text search capability is provided, which enables to look for words or phrases without using pattern-matching operations. There are three kinds of full text searches."
+    },
+    {
+        "question": "The indicator of presence or absence of a word in search is used in which mode?",
+        "options": [
+            "a) Natural language",
+            "b) Boolean mode",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "A full text search capability is provided in MySQL. It facilitates to look for words or phrases without using pattern-matching operations. Boolean search is one of the three modes."
+    },
+    {
+        "question": "Which search mode uses natural language search as a subroutine?",
+        "options": [
+            "a) Natural language",
+            "b) Boolean mode",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "c",
+        "explanation": "The query expansion search occurs in two phases. The natural language search is applied in the first phase. Query expansion search is one of the three modes of fulltext searching."
+    },
+    {
+        "question": "FULLTEXT indexes can be created only for ____________",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) MEMORY",
+            "d) TRANSITION"
+        ],
+        "answer": "a",
+        "explanation": "Full-text searches are based on the FULLTEXT indexes. They can be created for MyISAM tables only. In MySQL, a full text search enables to look for words or phrases without using pattern-matching operations."
+    },
+    {
+        "question": "A FULLTEXT index cannot be created for multiple columns.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a full-text search is based on the FULLTEXT indexes. A FULLTEXT index can be created both for a single column and for multiple columns. Searching is possible across columns."
+    },
+    {
+        "question": "What is xyz in the following MySQL statement?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The natural language fulltext search in MySQL tables is carried out using the MATCH and AGAINST clause. The MATCH clause is used to specify the column and AGAINST specifies the search string."
+    },
+    {
+        "question": "What is abc in the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The MATCH clause is used to specify the column and AGAINST specifies the search string in the natural language full text search syntax. It is one of the three modes of full-text search."
+    },
+    {
+        "question": "In Boolean search, results are sorted by relevance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Boolean mode FULLTEXT search is one of the three modes of FULLTEXT searches in MySQL. Boolean searches deal with the presence or absence of a word in a particular row to carry out the searches."
+    },
+    {
+        "question": "Which parameter determines the shortest words to index in FULLTEXT indexes?",
+        "options": [
+            "a) ft_min_word_len",
+            "b) ft_min_len_word",
+            "c) ft_word_min_len",
+            "d) ft_word_len_word"
+        ],
+        "answer": "a",
+        "explanation": "There are many full-text parameters that are configurable. They can be modified by setting the system variables accordingly. The \u2018ft_min_word_len\u2019 parameter determines the shortest words to index in FULLTEXT indexes."
+    }
+]

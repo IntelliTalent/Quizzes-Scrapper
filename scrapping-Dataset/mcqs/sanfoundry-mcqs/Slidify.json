@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following framework is compatible with slidify?",
+        "options": [
+            "a) io2015",
+            "b) io2012",
+            "c) d3",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Slidify is created by Ramnath Vaidyanathan",
+            "b) Slidify is non customizable",
+            "c) Slidify presentation are just HTML files",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Slidify is customizable and extendable."
+    },
+    {
+        "question": "Which of the following statement will load slidify?",
+        "options": [
+            "a) library(slidify)",
+            "b) install.library(slidify)",
+            "c) install.load(slidify)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Devtools should be installed in advance."
+    },
+    {
+        "question": "Which of the following will be used to compose the content of the presentation?",
+        "options": [
+            "a) ui.RMD",
+            "b) index.RMD",
+            "c) server.RMD",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "index.RMD is an R markdown document."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Slidify allows embedded code chunks",
+            "b) Slidify presentation cannot be shared easily",
+            "c) Slidify is difficult to use",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Slidify allows mathematical formulas as well."
+    },
+    {
+        "question": "Which of the following statement generates a html slide deck from index.Rmd?",
+        "options": [
+            "a) slidify(\u201cindex.Rmd\u201d)",
+            "b) lib.slidify(\u201cindex.Rmd\u201d)",
+            "c) slidifylib(\u201cindex.Rmd\u201d)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is a static file, which means that you can open it in your browser locally and it should display fine."
+    },
+    {
+        "question": "The first part of index.Rmd is XML code.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The first part of index.Rmd is YAML code."
+    },
+    {
+        "question": "Which of the following statement will install slidify from github?",
+        "options": [
+            "a) install_github(\u2018slidify\u2019, \u2018ramnathv\u2019)",
+            "b) install_github(\u2018slidify\u2019, \u2018r\u2019)",
+            "c) install(\u2018slidify\u2019, \u2018ramnathv\u2019)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Slidify is not on CRAN."
+    },
+    {
+        "question": "Which of the following element can be added to slidify?",
+        "options": [
+            "a) Quiz",
+            "b) RCharts",
+            "c) Shiny apps",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Many interactive elements can be added to slidify."
+    },
+    {
+        "question": "MathJax is a cross-browser JavaScript library that displays mathematical notation in web browsers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MathJax uses MathML."
+    }
+]

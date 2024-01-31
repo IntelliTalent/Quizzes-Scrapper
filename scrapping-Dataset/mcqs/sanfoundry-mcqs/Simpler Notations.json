@@ -1,0 +1,104 @@
+[
+    {
+        "question": "1.Given Language: L= {x\u03f5\u2211= {a, b} |x has a substring \u2018aa\u2019 in the production}. Which of the corresponding representation notate the same?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The states transited has been written corresponding to the transitions as per the row and column. The row represents the transitions made and the ultimate."
+    },
+    {
+        "question": "2.Let u=\u20191101\u2019, v=\u20190001\u2019, then uv=11010001 and vu= 00011101.Using the given information what is the identity element for the string?",
+        "options": [
+            "a) u",
+            "b) v",
+            "c) u",
+            "d) \u03b5"
+        ],
+        "answer": "d",
+        "explanation": " Identity relation: \u03b5w = w\u03b5 = w, thus the one satisfying the given relation will be the identity element."
+    },
+    {
+        "question": "3.Which of the following substring will the following notation result?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given DFA notation accepts the string of even length and prefix \u201801\u2019."
+    },
+    {
+        "question": "4.Predict the following step in the given bunch of steps which accepts a strings which is of even length and has a prefix=\u201901\u2019",
+        "options": [
+            "a) \u03b4 (q0, 011) =\u03b4 (\u03b4 (q0,1), 1) =\u03b4 (q2, 1) =q3",
+            "b) \u03b4 (q0, 01) =\u03b4 (\u03b4 (q0, 0), 1) = \u03b4 (q1, 1) =q2",
+            "c) \u03b4 (q0, 011) =\u03b4 (\u03b4 (q01, 1), 1) =\u03b4 (q2, 0) =q3",
+            "d) \u03b4 (q0, 0111) =\u03b4 (\u03b4 (q0, 011), 0) = \u03b4 (q3, 1) =q2"
+        ],
+        "answer": "b",
+        "explanation": "Here, \u03b4 refers to transition function and results into new state or function when an transition is performed over its state."
+    },
+    {
+        "question": "Fill the missing blank in the given Transition Table:",
+        "options": [
+            "a) Q0",
+            "b) Q1",
+            "c) Q2",
+            "d) No Transition"
+        ],
+        "answer": "b",
+        "explanation": "The tabular representation of DFA is quite readable and can be used to some ore complex problems. Here, we need to form the transition graph and fill up the given blank."
+    },
+    {
+        "question": "Which among the following is the missing transition in the given DFA?",
+        "options": [
+            "a) \u03b4 (q0, a) = q0",
+            "b) \u03b4 (F, a) = q1",
+            "c) \u03b4 (F, a) = D",
+            "d) \u03b4 (q1, a) = D"
+        ],
+        "answer": "b",
+        "explanation": " For the given Language, the transition missing is \u03b4 (F, a) = q1."
+    },
+    {
+        "question": "The complement of a language will only be defined when and only when the __________ over the language is defined.",
+        "options": [
+            "a) String",
+            "b) Word",
+            "c) Alphabet",
+            "d) Grammar"
+        ],
+        "answer": "c",
+        "explanation": "It is not possible to define the complement of a language without defining the input alphabets. Example: A language which does not consist of substring \u2018ab\u2019 while the complement would be the language which does contain a substring \u2018ab\u2019."
+    },
+    {
+        "question": "Which among the following is not notated as infinite language?",
+        "options": [
+            "a) Palindrome",
+            "b) Reverse",
+            "c) Factorial",
+            "d) L={ab}*"
+        ],
+        "answer": "c",
+        "explanation": "Factorial, here is the most appropriate non-infinite domain. Otherwise, palindrome and reverse have infinite domains."
+    },
+    {
+        "question": "Which among the following states would be notated as the final state/acceptance state?",
+        "options": [
+            "a) q1",
+            "b) q2",
+            "c) q1, q2",
+            "d) q3"
+        ],
+        "answer": "b",
+        "explanation": "According to the given language, q2 Is to become the final/acceptance state in order to satisfy."
+    },
+    {
+        "question": "Which of the following are the final states in the given DFA according to the Language given.?",
+        "options": [
+            "a) q0, q1",
+            "b) q0, q2",
+            "c) q1, q2",
+            "d) q0, q1, q2"
+        ],
+        "answer": "d",
+        "explanation": "According to the given language, the length is at most 2, thus the answer is found accordingly."
+    }
+]

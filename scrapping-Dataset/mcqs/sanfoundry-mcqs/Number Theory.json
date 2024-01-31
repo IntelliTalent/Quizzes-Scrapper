@@ -1,0 +1,137 @@
+[
+    {
+        "question": "If a|b and b|c, then a|c.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. For ex, 11|66 and 66|198 = 11|198."
+    },
+    {
+        "question": "GCD(a,b) is the same as GCD(|a|,|b|).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:This is true. gcd(60,24) = gcd(60,-24) = 12."
+    },
+    {
+        "question": "Calculate the GCD of 1160718174 and 316258250 using Euclidean algorithm.",
+        "options": [
+            "a) 882",
+            "b) 770",
+            "c) 1078",
+            "d) 1225"
+        ],
+        "answer": "c",
+        "explanation": "GCD(1160718174, 316258250) = 1078."
+    },
+    {
+        "question": "Calculate the GCD of 102947526 and 239821932 using Euclidean algorithm.",
+        "options": [
+            "a) 11",
+            "b) 12",
+            "c) 8",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "GCD(102947526, 239821932) = 6."
+    },
+    {
+        "question": "Calculate the GCD of 8376238 and 1921023 using Euclidean algorithm.",
+        "options": [
+            "a) 13",
+            "b) 12",
+            "c) 17",
+            "d) 7"
+        ],
+        "answer": "a",
+        "explanation": "GCD(8376238, 1921023) = 13."
+    },
+    {
+        "question": "What is 11 mod 7 and -11 mod 7?",
+        "options": [
+            "a) 4 and 5",
+            "b) 4 and 4",
+            "c) 5 and 3",
+            "d) 4 and -4"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:11 mod 7 = 4 ; -11 mod 7 = -4 mod 7 = 3 mod 7."
+    },
+    {
+        "question": "Which of the following is a valid property for concurrency?",
+        "options": [
+            "a) a = b (mod n) if n|(a-b)",
+            "b) a = b (mod n) implies b = a (mod n)",
+            "c) a = b (mod n) and b = c (mod n) implies a = c (mod n)",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All are valid properties of congruences and can be checked by using substituting values."
+    },
+    {
+        "question": "[(a mod n) + (b mod n)] mod n = (a+b) mod n",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The equivalence is true and can be checked by substituting values."
+    },
+    {
+        "question": "[(a mod n) \u2013 (b mod n)] mod n = (b \u2013 a) mod n",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "Answer:b",
+        "explanation": "Explanation:The equivalence is false and can be checked by substituting values. The correct equivalence would be [(a mod n) \u2013 (b mod n)] mod n = (a \u2013 b) mod n."
+    },
+    {
+        "question": "11",
+        "options": [
+            "a) 3",
+            "b) 7",
+            "c) 5",
+            "d) 15"
+        ],
+        "answer": "d",
+        "explanation": "The correct answer is 2. Or in this case 15 mod 13 = 2."
+    },
+    {
+        "question": "The multiplicative Inverse of 1234 mod 4321 is",
+        "options": [
+            "a) 3239",
+            "b) 3213",
+            "c) 3242",
+            "d) Does not exist"
+        ],
+        "answer": "a",
+        "explanation": "The multiplicative Inverse of 1234 mod 4321 is 3239."
+    },
+    {
+        "question": "The multiplicative Inverse of 550 mod 1769 is",
+        "options": [
+            "a) 434",
+            "b) 224",
+            "c) 550",
+            "d) Does not exist"
+        ],
+        "answer": "a",
+        "explanation": "The multiplicative Inverse of 550 mod 1769 is 550."
+    },
+    {
+        "question": "The multiplicative Inverse of 24140 mod 40902 is",
+        "options": [
+            "a) 2355",
+            "b) 5343",
+            "c) 3534",
+            "d) Does not exist"
+        ],
+        "answer": "d",
+        "explanation": "The multiplicative Inverse does not exist as GCD (24140, 40902) = 34."
+    }
+]

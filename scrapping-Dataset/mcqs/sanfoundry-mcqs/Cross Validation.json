@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following is correct use of cross validation?",
+        "options": [
+            "a) Selecting variables to include in a model",
+            "b) Comparing predictors",
+            "c) Selecting parameters in prediction function",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Cross-validation is also used to pick type of prediction function to be used."
+    },
+    {
+        "question": "Point out the wrong combination.",
+        "options": [
+            "a) True negative=correctly rejected",
+            "b) False negative=correctly rejected",
+            "c) False positive=correctly identified",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "False positive means incorrectly identified."
+    },
+    {
+        "question": "Which of the following is a common error measure?",
+        "options": [
+            "a) Sensitivity",
+            "b) Median absolute deviation",
+            "c) Specificity",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Sensitivity and specificity are statistical measures of the performance of a binary classification test, also known in statistics as classification function."
+    },
+    {
+        "question": "Which of the following is not a machine learning algorithm?",
+        "options": [
+            "a) SVG",
+            "b) SVM",
+            "c) Random forest",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "SVM stands for scalable vector machine."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) ROC curve stands for receiver operating characteristic",
+            "b) Foretime series, data must be in chunks",
+            "c) Random sampling must be done with replacement",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Random sampling with replacement is the bootstrap."
+    },
+    {
+        "question": "Which of the following is a categorical outcome?",
+        "options": [
+            "a) RMSE",
+            "b) RSquared",
+            "c) Accuracy",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "RMSE stands for Root Mean Squared Error."
+    },
+    {
+        "question": "Which of the following method is used for trainControl resampling?",
+        "options": [
+            "a) repeatedcv",
+            "b) svm",
+            "c) bag32",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "repeatedcv stands for repeated cross-validation."
+    },
+    {
+        "question": "Which of the following can be used to create the most common graph types?",
+        "options": [
+            "a) qplot",
+            "b) quickplot",
+            "c) plot",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "qplot() is short for a quick plot."
+    },
+    {
+        "question": "For k cross-validation, smaller k value implies less variance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Larger k value implies more variance."
+    }
+]

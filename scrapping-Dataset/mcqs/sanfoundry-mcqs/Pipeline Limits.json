@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Comparison expressions return a boolean except for ________ which returns a number.",
+        "options": [
+            "a) $copy",
+            "b) $cmp",
+            "c) $num",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The $cmp compares both value and type, using the specified BSON comparison order for values of different types."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The comparison expressions take two argument expressions and compare both value and type, using the specified Java comparison order for values of different types",
+            "b) $gte\treturns true if the first value is greater than the second",
+            "c) $gte\treturns true if the first value is greater than or equal to the second",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In general, these expressions take an array of arguments and have the following form: { <operator>: [ <argument1>, <argument2> \u2026 ] }"
+    },
+    {
+        "question": "______ returns true if the first value is less than the second.",
+        "options": [
+            "a) $lte",
+            "b) $lt",
+            "c) $setEquals",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:$lte returns true if the first value is less than or equal to the second."
+    },
+    {
+        "question": "$ne returns true if the values are not _______",
+        "options": [
+            "a) equivalent",
+            "b) null",
+            "c) 0",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:$ne compares two values and returns false when the values are equivalent."
+    },
+    {
+        "question": "$multiply __________ numbers to return the result.",
+        "options": [
+            "a) multiplies",
+            "b) divides",
+            "c) comapres",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:$multiply accepts any number of argument expressions."
+    },
+    {
+        "question": "_______ adds numbers to return the sum, or adds numbers and a date to return a new date.",
+        "options": [
+            "a) $addnum",
+            "b) $setadd",
+            "c) $adds",
+            "d) $add"
+        ],
+        "answer": "d",
+        "explanation": "If adding numbers and a date, treats the numbers as milliseconds."
+    },
+    {
+        "question": "_______ returns the remainder of the first number divided by the second.",
+        "options": [
+            "a) $rem",
+            "b) $mod",
+            "c) $div",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:$divide returns the result of dividing the first number by the second."
+    },
+    {
+        "question": "String expressions, with the exception of ________ only have a well-defined behavior for strings of ASCII characters.",
+        "options": [
+            "a) $setcon",
+            "b) $concatenation",
+            "c) $concat",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:$concat behavior is well-defined regardless of the characters used."
+    },
+    {
+        "question": "________ subtracts two dates to return the difference in milliseconds.",
+        "options": [
+            "a) $rem",
+            "b) $mod",
+            "c) $div",
+            "d) $subtract"
+        ],
+        "answer": "a",
+        "explanation": "The $subtract expression has the following syntax: { $subtract: [ <expression1>, <expression2> ] }."
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Using indexes optimizes query performance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there are many techniques available for optimizing queries. Indexing is the most useful. Generally the one thing that makes the most difference is the proper use of indexes."
+    },
+    {
+        "question": "The maximum number of indexes on MyISAM table is __________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) more than 1"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, for a MyISAM table, there can be more than one indexes. The data rows of the MyISAM table are stored in a data file and the index values are stored in a separate index file."
+    },
+    {
+        "question": "The data rows of a MyISAM table are stored in __________",
+        "options": [
+            "a) data file",
+            "b) index file",
+            "c) log file",
+            "d) error file"
+        ],
+        "answer": "a",
+        "explanation": "The data rows of the MyISAM table are stored in a data file and the index values are stored in a separate index file. In MySQL, for a MyISAM table, there can be more than one indexes."
+    },
+    {
+        "question": "In a single table (with 10 columns) join query the number of values needed to examine per column is __________",
+        "options": [
+            "a) 1",
+            "b) 10",
+            "c) 0",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "For indexing in the context of performing joins, in a single table query, the number of values that are needed to be examined per column is the number of rows in the table."
+    },
+    {
+        "question": "Suppose tbl_1 is a table consisting of 8 rows and tbl_2 is a table consisting of 6 rows, the number of combinations through which the search is performed is __________",
+        "options": [],
+        "answer": "d",
+        "explanation": "In MySQL, when the tables are unindexed, the searches are run through all the possible combinations. In this case, the search space is 8 x 6 = 48, the product of the number of rows."
+    },
+    {
+        "question": "How many of the following shared tablespaces is bound by the OS file size limit?",
+        "options": [],
+        "answer": "b",
+        "explanation": "In MySQL, all the MyISAM tables shared tablespace files size if bound by the operating system file size limits. For InnoDB tables shared tablespaces, it is not bound by this factor."
+    },
+    {
+        "question": "If a column contains 7 values and 6 distinct values, the cardinality is __________",
+        "options": [
+            "a) 7",
+            "b) 6",
+            "c) 13",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the cardinality of a column is the number of distinct values that it contains. A column that contains the values 1, 2, 3, 4, 4, 5, 6 has a cardinality of six and not seven."
+    },
+    {
+        "question": "For a table having 4 columns, the number of columns to which hash function is applied when using hash indexes is __________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, for the hash indexes, a hash function is applied to each of the column values. The resulting hash values are stored in the index and used to perform lookups on it."
+    },
+    {
+        "question": "The slow query log can be used to identify queries that may be performing badly.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the slow query log is used to identify queries that may be performing badly. This log can help find the queries that might benefit from indexing. The slow query log is written as text."
+    },
+    {
+        "question": "The slow query log is written as __________",
+        "options": [
+            "a) numbers",
+            "b) text",
+            "c) image",
+            "d) graph"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the slow query log is written as text, so it is viewable with any file display program. The mysqldumpslow utility can also be used to summarize the contents of the same."
+    }
+]

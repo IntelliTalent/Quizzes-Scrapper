@@ -1,0 +1,112 @@
+[
+    {
+        "question": "1._________  operator is used to review the schema of a relation.",
+        "options": [
+            "a) DUMP",
+            "b) DESCRIBE",
+            "c) STORE",
+            "d) EXPLAIN"
+        ],
+        "answer": "b",
+        "explanation": "DESCRIBE returns the schema of a relation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) During the testing phase of your implementation, you can use LOAD to display results to your terminal screen",
+            "b) You can view outer relations as well as relations defined in a nested FOREACH statement",
+            "c) Hadoop properties are interpreted by Pig",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Viewing outer relations is possible using DESCRIBE operator."
+    },
+    {
+        "question": "Which of the following operator is used to view the map reduce execution plans?",
+        "options": [
+            "a) DUMP",
+            "b) DESCRIBE",
+            "c) STORE",
+            "d) EXPLAIN"
+        ],
+        "answer": "d",
+        "explanation": "EXPLAIN displays execution plans."
+    },
+    {
+        "question": "___________ operator is used to view the step-by-step execution of a series of statements.",
+        "options": [
+            "a) ILLUSTRATE",
+            "b) DESCRIBE",
+            "c) STORE",
+            "d) EXPLAIN"
+        ],
+        "answer": "a",
+        "explanation": "ILLUSTRATE allows you to test your programs on small datasets and get faster turnaround times."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) ILLUSTRATE operator is used to review how data is transformed through a sequence of Pig Latin statements",
+            "b) ILLUSTRATE is based on an example generator",
+            "c) Several new private classes make it harder for external tools such as Oozie to integrate with Pig statistics",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Several new public classes make it easier for external tools such as Oozie to integrate with Pig statistics."
+    },
+    {
+        "question": "__________ is a framework for collecting and storing script-level statistics for Pig Latin.",
+        "options": [
+            "a) Pig Stats",
+            "b) PStatistics",
+            "c) Pig Statistics",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The new Pig statistics and the existing Hadoop statistics can also be accessed via the Hadoop job history file."
+    },
+    {
+        "question": "The ________ class mimics the behavior of the Main class but gives users a statistics object back.",
+        "options": [
+            "a) PigRun",
+            "b) PigRunner",
+            "c) RunnerPig",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Optionally, you can call the API with an implementation of progress listener which will be invoked by Pig runtime during the execution."
+    },
+    {
+        "question": "___________ is a simple xUnit framework that enables you to easily test your Pig scripts.",
+        "options": [
+            "a) PigUnit",
+            "b) PigXUnit",
+            "c) PigUnitX",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "With PigUnit you can perform unit testing, regression testing, and rapid prototyping. No cluster setup is required if you run Pig in local mode."
+    },
+    {
+        "question": "Which of the following will compile the Pigunit?",
+        "options": [
+            "a) $pig_trunk ant pigunit-jar",
+            "b) $pig_tr ant pigunit-jar",
+            "c) $pig_ ant pigunit-jar",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The compile will create the pigunit.jar file."
+    },
+    {
+        "question": "PigUnit runs in Pig\u2019s _______ mode by default.",
+        "options": [
+            "a) local",
+            "b) tez",
+            "c) mapreduce",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Local mode does not require a real cluster but a new local one is created each time."
+    }
+]

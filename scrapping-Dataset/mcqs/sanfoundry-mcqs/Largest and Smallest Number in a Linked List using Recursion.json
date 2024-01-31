@@ -1,0 +1,73 @@
+[
+    {
+        "question": "Which of the following methods can be used to find the largest and smallest number in a linked list?",
+        "options": [
+            "a) Recursion",
+            "b) Iteration",
+            "c) Both Recursion and iteration",
+            "d) Impossible to find the largest and smallest numbers"
+        ],
+        "answer": "c",
+        "explanation": "Both recursion and iteration can be used to find the largest and smallest number in a linked list."
+    },
+    {
+        "question": "Consider the following code snippet to find the largest element in a linked list:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201ctemp != 0\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "Consider the following code snippet to find the smallest element in a linked list:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201ctemp->val = min_num\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The variable temp will always point to the first element in the linked list due to the line \u201ctemp = head->next\u201d in the while loop. So, it will be an infinite while loop and the program will produce  a runtime error."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the largest and smallest elements in the linked list, which are 8 and 2 respectively."
+    },
+    {
+        "question": "What is the time complexity of the following iterative code used to find the smallest and largest element in a linked list?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above iterative code used to find the largest and smallest element in a linked list is O(n)."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the largest element in a linked list:",
+        "options": [],
+        "answer": "a",
+        "explanation": "The arguments {temp->val,recursive_get_max(temp->next)} should be passed to the function max_of_two() to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the largest and the smallest elements in the linked list, which are 7 and 0 respectively."
+    },
+    {
+        "question": "What is the time complexity of the recursive implementation used to find the largest and smallest element in a linked list?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation used to find the largest and smallest element in linked list is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the smallest element in the linked list, which is 1."
+    },
+    {
+        "question": "How many times will the function recursive_get_min() be called when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function recursive_get_min() will be called 5 times when the above code is executed."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "MongoDB uses _________ to support deployments with very large data sets and high throughput operations.",
+        "options": [
+            "a) sharding",
+            "b) replication",
+            "c) replica sets",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Sharding is a method for storing data across multiple machines."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) High query rates can exhaust the CPU capacity of the server",
+            "b) Database systems with small data sets and high throughput applications can challenge the capacity of a single server",
+            "c) Smaller data sets exceed the storage capacity of a single machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Working set sizes larger than the system\u2019s RAM stress the I/O capacity of disk drives."
+    },
+    {
+        "question": "How many types of sharding exist in MongoDB?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB have two basic approaches: vertical scaling and sharding."
+    },
+    {
+        "question": "_______ scaling adds more CPU and storage resources to increase capacity.",
+        "options": [
+            "a) Horizontal",
+            "b) Vertical",
+            "c) Partition",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When the primary steps down, the mongod closes all client connections."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Scaling by adding capacity do not have limitations.",
+            "b) cloud-based providers may only allow users to provision smaller instances",
+            "c) There is a practical maximum capability for vertical scaling",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "High performance systems with large numbers of CPUs and large amount of RAM are disproportionately more expensive than smaller systems"
+    },
+    {
+        "question": "_______ divides the data set and distributes the data over multiple servers, or shards.",
+        "options": [
+            "a) Vertical",
+            "b) Sharding",
+            "c) Partition",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each shard is an independent database, and collectively, the shards make up a single logical database."
+    },
+    {
+        "question": "How many components are present in sharded cluster?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Sharded cluster has the following components: shards, query routers and config servers."
+    },
+    {
+        "question": "To provide high availability and data consistency, in a production sharded cluster, each shard is a ___________",
+        "options": [
+            "a) replica set",
+            "b) cluster",
+            "c) partition",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each shard stores less data as the cluster grows."
+    },
+    {
+        "question": "_________ interface with client applications and direct operations to the appropriate shard or shards.",
+        "options": [
+            "a) Query Parsers",
+            "b) Query Routers",
+            "c) Query Executors",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The query router processes and targets operations to shards and then returns results to the clients."
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "question": "An IP packet has arrived with the first 8 bits as 01000010. What is the version?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "The first 4-bits show the version i.e. 0100 -> version 4."
+    },
+    {
+        "question": "An IP packet has arrived with the first 8 bits as 01000010. What is the header length?",
+        "options": [
+            "a) 4",
+            "b) 8",
+            "c) 12",
+            "d) 16"
+        ],
+        "answer": "b",
+        "explanation": "The right 4-bits multiplied by 4 is the header length (0010=2)."
+    },
+    {
+        "question": "In an IP packet, the value of HLEN is 1000 in binary. How many bytes of options are being carried by this packet?",
+        "options": [
+            "a) 16",
+            "b) 64",
+            "c) 32",
+            "d) 8"
+        ],
+        "answer": "c",
+        "explanation": "HLEN = 1000 = 8."
+    },
+    {
+        "question": "In an IP packet, the value of HLEN is 5_16 and the value of the total length field is 0028_16. How many bytes of data are being carried by this packet?",
+        "options": [
+            "a) 10",
+            "b) 40",
+            "c) 60",
+            "d) 20"
+        ],
+        "answer": "d",
+        "explanation": "Total number of bytes in the header = 5 x 4 = 20 bytes."
+    },
+    {
+        "question": "In an IP packet, the value of HLEN is 516 and the value of the total length field is 002816.What is the efficiency of this datagram?",
+        "options": [
+            "a) 80%",
+            "b) 50%",
+            "c) 66%",
+            "d) 75%"
+        ],
+        "answer": "b",
+        "explanation": "Total number of bytes in the header = 5 x 4 = 20 bytes."
+    },
+    {
+        "question": "An IP packet has arrived with the first few hexadecimal digits as shown below:",
+        "options": [
+            "a) 2",
+            "b) 5",
+            "c) 3",
+            "d) 1"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    }
+]

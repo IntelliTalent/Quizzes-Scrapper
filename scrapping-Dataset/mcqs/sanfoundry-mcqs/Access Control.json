@@ -1,0 +1,79 @@
+[
+    {
+        "question": "If you create the user administrator before enabling access control, MongoDB disables the ________ exception.",
+        "options": [
+            "a) localhost",
+            "b) server",
+            "c) runtime",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The localhost exception allows you to enable authorization before creating the first user in the system."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) After you create the user administrator, the localhost exception is no longer available",
+            "b) Enabling access control on a MongoDB instance restricts access to the instance by requiring that users identify themselves when connecting",
+            "c) The mongo shell executes a number of commands at start up",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "As a result, when you log in as the user administrator, you may see authentication errors from one or more commands."
+    },
+    {
+        "question": "If you use the localhost exception when deploying a new MongoDB system, the first user you create must be in the ________ database.",
+        "options": [
+            "a) head",
+            "b) local",
+            "c) admin",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the case of a sharded cluster, the localhost exception applies to each shard individually as well as to the cluster as a whole."
+    },
+    {
+        "question": "If you need to disable access control for any reason, restart the process with ______ setting.",
+        "options": [
+            "a) KeyFile",
+            "b) Authentication",
+            "c) Authorization",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Login in with the user administrator\u2019s credentials and create additional users."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Authentication does not require an authentication mechanism",
+            "b) To enable authentication on a sharded cluster, you must enable authentication individually on each component of the cluster",
+            "c) The content of the key file must be the same on all cluster members",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Authentication requires an authentication mechanism and, in most cases, a key file."
+    },
+    {
+        "question": "enableLocalhostAuthBypass is not available using _________ database command.",
+        "options": [
+            "a) setParameter",
+            "b) enableParameter",
+            "c) removeParameter",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " Use the setParameter option in the configuration file or the \u2013setParameter option on the command line."
+    },
+    {
+        "question": "______________ enables a set of internal commands useful for internal testing operations.",
+        "options": [
+            "a) enableTestAll",
+            "b) enableTest",
+            "c) enableTestCommands",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "enableTestCommands is only available when starting mongod and you cannot use setParameter to modify this parameter."
+    }
+]

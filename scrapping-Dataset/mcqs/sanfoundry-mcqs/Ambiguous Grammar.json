@@ -1,0 +1,110 @@
+[
+    {
+        "question": "A CFG is ambiguous if",
+        "options": [
+            "a) It has more than one rightmost derivations",
+            "b) It has more than one leftmost derivations",
+            "c) No parse tree can be generated for the CFG",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A context free grammar is ambiguous if it has more than one parse tree generated or more than one leftmost derivations. An unambiguous grammar is a context free grammar for which every valid string has a unique leftmost derivation."
+    },
+    {
+        "question": "Which of the following are always unambiguous?",
+        "options": [
+            "a) Deterministic Context free grammars",
+            "b) Non-Deterministic Regular grammars",
+            "c) Context sensitive grammar",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Deterministic CFGs are always unambiguous , and are an important subclass of unambiguous CFGs; there are non-deterministic unambiguous CFGs, however."
+    },
+    {
+        "question": "A CFG is not closed under",
+        "options": [
+            "a) Dot operation",
+            "b) Union Operation",
+            "c) Concatenation",
+            "d) Iteration"
+        ],
+        "answer": "d",
+        "explanation": "The closure property of a context free grammar does not include iteration or kleene or star operation."
+    },
+    {
+        "question": "Which of the following is an real-world programming language ambiguity?",
+        "options": [
+            "a) dangling else problem",
+            "b) halting problem",
+            "c) maze problem",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Dangling else problem: In many languages,the else in an if-then-else statement is optional, which results into nested conditionals being ambiguous, at least in terms of the CFG."
+    },
+    {
+        "question": "Which of the following is a parser for an ambiguous grammar?",
+        "options": [
+            "a) GLR parser",
+            "b) Chart parser",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "GLR parser: a type of parser for non deterministic and ambiguous grammar"
+    },
+    {
+        "question": "A language that admits only ambiguous grammar:",
+        "options": [
+            "a) Inherent Ambiguous language",
+            "b) Inherent Unambiguous language",
+            "c) Context free language",
+            "d) Context Sensitive language"
+        ],
+        "answer": "a",
+        "explanation": "A context free language for which no unambiguous grammar exists, is called Inherent ambiguous language."
+    },
+    {
+        "question": "Which of the following is an example of inherent ambiguous language?",
+        "options": [
+            "a) {a",
+            "b) {a",
+            "c) {0",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This set is context-free, since the union of two context-free languages is always context free."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The production can be either itself or an empty string. Thus the empty string has more than one leftmost derivations, depending on how many times R->R is being used."
+    },
+    {
+        "question": "In context to ambiguity, the number of times the following programming statement can be interpreted as:",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": " Dangling else problem"
+    },
+    {
+        "question": "CFGs can be parsed in polynomial time using__________",
+        "options": [
+            "a) LR parser",
+            "b) CYK algorithm",
+            "c) SLR parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CYK algorithm parses the CFG in polynomial time while LR parsers do the same in linear time. DCFGs are accepted by DPDAs and parsed using LR parsers or CYK algorithm."
+    }
+]

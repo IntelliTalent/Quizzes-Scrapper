@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following GeoJSON object is not supported in MongoDB?",
+        "options": [
+            "a) Point",
+            "b) LineString",
+            "c) MultiPoint",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In version 2.2 and newer, capped collections do have an _id field, except those in the local database."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB can query for locations contained entirely within a specified polygon",
+            "b) MongoDB require an index for inclusion queries; however, such indexes will improve query performance",
+            "c) Indexes on embedded fields allow you to use a \u201cdot notation,\u201d to introspect into embedded documents",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Both 2d and 2dsphere indexes can support inclusion queries."
+    },
+    {
+        "question": "MongoDB supports spherical surface calculations on legacy coordinate pairs using a _______ index.",
+        "options": [
+            "a) 2dsphere",
+            "b) 2d",
+            "c) geoHaystack",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you choose flat surface calculations via a 2d index, you can store data only as legacy coordinate pairs."
+    },
+    {
+        "question": "Inclusion queries use the _________ operator in MongoDB.",
+        "options": [
+            "a) $geokey",
+            "b) $geoin",
+            "c) $geoWithin",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$geoWithin selects documents with geospatial data that exists entirely within a specified shape."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) For $geoSphere queries that specify GeoJSON geometries with areas greater than a single hemisphere, the use of the default CRS results in queries for the complementary geometries",
+            "b) When determining inclusion, MongoDB considers the border of a shape to be part of the shape, subject to the precision of floating point numbers",
+            "c) The custom MongoDB CRS uses a anti-clockwise winding order",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The specified shape can be either a GeoJSON Polygon, a GeoJSON MultiPolygon, or a shape defined by legacy coordinate pairs."
+    },
+    {
+        "question": "The $geoWithin operator uses the _______ operator to specify the GeoJSON object.",
+        "options": [
+            "a) $sphere",
+            "b) $geoin",
+            "c) $geometry",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For $geoWithin, if you specify a single-ringed polygon that has an area greater than a single hemisphere, include the custom MongoDB coordinate reference system in the $geometry expression."
+    },
+    {
+        "question": "If the specified polygon is _______ than a single hemisphere, the behavior of $geoWithin with the MongoDB CRS is the same as with the default CRS.",
+        "options": [
+            "a) smaller",
+            "b) bigger",
+            "c) equal",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " For all other GeoJSON polygons with areas greater than a hemisphere, $geoWithin queries for the complementary geometry."
+    },
+    {
+        "question": "To query with a single-ringed GeoJSON polygon whose area is greater than a single hemisphere, the $geometry expression must specify the custom MongoDB ________",
+        "options": [
+            "a) CRS",
+            "b) CDS",
+            "c) CLS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "CRS stands for coordinate reference system."
+    },
+    {
+        "question": "$geoWithin replaces _______ in MongoDB 2.4.",
+        "options": [
+            "a) $withing",
+            "b) $gwithin",
+            "c) $within",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$within is deprecated since version 2.4."
+    },
+    {
+        "question": "When used with the _____ operator, $geoWithin returns documents based on grid coordinates and does not query for GeoJSON shapes.",
+        "options": [
+            "a) $box",
+            "b) $circle",
+            "c) $shape",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "$box specifies a rectangle for a geospatial $geoWithin query to return documents that are within the bounds of the rectangle, according to their point-based location data."
+    }
+]

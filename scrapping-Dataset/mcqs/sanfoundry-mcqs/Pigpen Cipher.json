@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following cipher replaces letters with symbols?",
+        "options": [
+            "a) polybius square ciper",
+            "b) affine cipher",
+            "c) caesar cipher",
+            "d) pigpen cipher"
+        ],
+        "answer": "d",
+        "explanation": "Pigpen cipher encrypts the plain text by replacing each letter with a corresponding symbol. Pigpen cipher is an example of geometric substitution cipher."
+    },
+    {
+        "question": "Which of the following is not an alternative name of pigpen cipher?",
+        "options": [
+            "a) pen cipher",
+            "b) freemason\u2019s cipher",
+            "c) napoleon cipher",
+            "d) tic-tac-toe cipher"
+        ],
+        "answer": "a",
+        "explanation": "Pigpen cipher is also known by the names like:- freemason\u2019s cipher, napoleon cipher, tic-tac-toe cipher, masonic cipher. It is a cipher which is believed to be used by freemasons in the 18th century."
+    },
+    {
+        "question": "Which of the following cipher was used by freemasons?",
+        "options": [
+            "a) Vigenere cipher",
+            "b) Autokey cipher",
+            "c) Pigpen cipher",
+            "d) Hill cipher"
+        ],
+        "answer": "c",
+        "explanation": "Pigpen cipher is believed to be used by freemasons in the 18th century. Pigpen cipher is an example of geometric substitution cipher."
+    },
+    {
+        "question": "Choose the weakest cipher from the following?",
+        "options": [
+            "a) vigenere cipher",
+            "b) rail fence cipher",
+            "c) hill cipher",
+            "d) pigpen cipher"
+        ],
+        "answer": "d",
+        "explanation": "Pigpen cipher is the weakest cipher out of the given options. This is because it is a simple geometric substitution cipher so can be easily cracked using frequency analysis."
+    },
+    {
+        "question": "Which of the following is not a poly alphabetic substitution cipher?",
+        "options": [
+            "a) vigenere cipher",
+            "b) one time pad cipher",
+            "c) play fair cipher",
+            "d) pigpen cipher"
+        ],
+        "answer": "d",
+        "explanation": "Pigpen cipher is the only non poly alphabetic substitution cipher out of the given options. It is an example of geometric substitution cipher."
+    },
+    {
+        "question": "Pigpen cipher is less secure than a vigenere cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Vigenere cipher is more secure as compared to pigpen cipher. It is because pigpen cipher is geometric substitution cipher and vigenere cipher is poly alphabetic substitution cipher."
+    },
+    {
+        "question": "Pigpen cipher is not susceptible to frequency analysis.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Pigpen cipher is a very weak cipher as it just replaces letters with corresponding symbols. It can be easily broken using frequency analysis."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to plain text \u201cACT\u201d if pigpen cipher is used for encryption?",
+        "options": [
+            "a) _| |_ >",
+            "b) |_ > |_",
+            "c) _| |_<",
+            "d) |_< _|"
+        ],
+        "answer": "a",
+        "explanation": "Pigpen cipher replaces letters of the plain text with corresponding symbols. These symbols are fragment of a grid."
+    },
+    {
+        "question": "What will be the plain text corresponding to ciphered text \u201c|_  _|  >\u201d if pigpen cipher is used for encryption?",
+        "options": [
+            "a) cat",
+            "b) hat",
+            "c) dog",
+            "d) rat"
+        ],
+        "answer": "a",
+        "explanation": "Pigpen cipher replaces letters of the plain text with corresponding symbols. So by using the grid we can replace these symbols by their corresponding letters which are \u201ccat\u201d here."
+    },
+    {
+        "question": "What is common between affine cipher and pigpen cipher.",
+        "options": [
+            "a) both are mono alphabetic substitution cipher",
+            "b) both are poly alphabetic substitution cipher",
+            "c) both can be cracked using frequency analysis",
+            "d) both are transposition cipher"
+        ],
+        "answer": "c",
+        "explanation": "Both affine cipher and pigpen cipher can be broken using frequency analysis. Pigpen cipher is an example of geometric substitution cipher."
+    }
+]

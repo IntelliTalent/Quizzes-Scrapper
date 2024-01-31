@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which column attribute provides unique numbers for identification?",
+        "options": [
+            "a) AUTO_INCREMENT",
+            "b) UNSIGNED",
+            "c) IDENTIFY",
+            "d) DESCRIBE"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the mechanism for providing unique numbers is through the AUTO_INCREMENT column attribute. It enables the generation of sequential numbers automatically. This facilitates identification."
+    },
+    {
+        "question": "There can be only one column per table with the AUTO_INCREMENT attribute.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there can only be one column per table with the AUTO_INCREMENT attribute. It should also have an integer data type. The AUTO_INCREMENT is also allowed for floating point types."
+    },
+    {
+        "question": "The AUTO_INCREMENT sequences normally begin at __________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "The AUTO_INCREMENT column attribute provides unique numbers for column identification. AUTO_INCREMENT sequences normally begin at 1 and increase monotonically like 1, 2, 3, and so on."
+    },
+    {
+        "question": "The value of recently generated sequence number can be obtained by ____________",
+        "options": [
+            "a) LAST_INSERT_ID()",
+            "b) LATEST_INSERT_ID()",
+            "c) INITIAL_INSERT_ID()",
+            "d) INSERT_ID()"
+        ],
+        "answer": "a",
+        "explanation": "The value of most recently generated sequence number can be obtained by calling the LAST_INSERT_ID() function. This enables to reference the AUTO_INCREMENT value in the subsequent statement."
+    },
+    {
+        "question": "When no AUTO_INCREMENT value has been generated during the current connection, LAST_INSERT_ID() returns ____________",
+        "options": [
+            "a) -1",
+            "b) 0",
+            "c) 1",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018LAST_INSERT_ID()\u2019 function returns zero when no \u2018AUTO_INCREMENT\u2019 value has been generated during the current connection with the server. It is tied to the current connection."
+    },
+    {
+        "question": "The \u2018LAST_INSERT_ID()\u2019 is tied only to the \u2018AUTO_INCREMENT\u2019 values generated during the current connection to the server.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018LAST_INSERT_ID()\u2019 is tied only to AUTO_INCREMENT values that are generated during the current connection to the server. It is not affected by AUTO_INCREMENT tied with the other clients."
+    },
+    {
+        "question": "Suppose the last row has the AUTO_INCREMENT column value 32. Suppose a new row is added by setting AUTO_INCREMENT value equal to 100. The next row added will have value _____________",
+        "options": [
+            "a) 32",
+            "b) 33",
+            "c) 100",
+            "d) 101"
+        ],
+        "answer": "d",
+        "explanation": "If the new value is larger than the current next sequence number, then the sequence is reset to continue with the next value after that for the following rows. In this way, \u201cbumping up\u201d the counter is done."
+    },
+    {
+        "question": "The number of rows in the table is 10. Suppose all rows are deleted. The new row starts with sequence number _____________",
+        "options": [
+            "a) 11",
+            "b) 1",
+            "c) 100",
+            "d) 101"
+        ],
+        "answer": "b",
+        "explanation": "When the row containing the largest value in an AUTO_INCREMENT column is deleted, that value is reused the next time a new value is generated. In this case the sequence number is 1."
+    },
+    {
+        "question": "In a MyISAM table, if the maximum value of an AUTO_INCREMENT increment column is 12 and that row is deleted, the next value generated is _____________",
+        "options": [
+            "a) 12",
+            "b) 13",
+            "c) 1",
+            "d) 14"
+        ],
+        "answer": "b",
+        "explanation": "In the MyISAM tables, AUTO_INCREMENT sequences normally are monotonic. The values in an automatically generated series are strictly increasing. They are not reused when rows are deleted."
+    },
+    {
+        "question": "In MyISAM tables, when a table is emptied with the TRUNCATE TABLE, the counter begins at _____________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) arbitrary"
+        ],
+        "answer": "b",
+        "explanation": "In the MyISAM tables, whenever a table is truncated with the \u2018TRUNCATE TABLE\u2019 clause, the \u2018AUTO_INCREMENT\u2019 counter again gets reset. It begins with the value one and increases monotonically."
+    }
+]

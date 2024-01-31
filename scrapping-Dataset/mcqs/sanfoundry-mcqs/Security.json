@@ -1,0 +1,101 @@
+[
+    {
+        "question": "For running hadoop service daemons in Hadoop in secure mode ___________ principals are required.",
+        "options": [
+            "a) SSL",
+            "b) Kerberos",
+            "c) SSH",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each service reads authenticate information saved in keytab file with appropriate permission."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hadoop does have the definition of group by itself",
+            "b) MapReduce JobHistory server run as same user such as mapred",
+            "c) SSO environment is managed using Kerberos with LDAP for Hadoop in secure mode",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can change a way of mapping by specifying the name of mapping provider as a value of hadoop.security.group.mapping."
+    },
+    {
+        "question": "The simplest way to do authentication is using _________ command of Kerberos.",
+        "options": [
+            "a) auth",
+            "b) kinit",
+            "c) authorize",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HTTP web-consoles should be served by principal different from RPC\u2019s one."
+    },
+    {
+        "question": "Data transfer between Web-console and clients are protected by using _________",
+        "options": [
+            "a) SSL",
+            "b) Kerberos",
+            "c) SSH",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "AES offers the greatest cryptographic strength and the best performance."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Data transfer protocol of DataNode does not use the RPC framework of Hadoop",
+            "b) Apache Oozie which access the services of Hadoop on behalf of end users need to be able to impersonate end users",
+            "c) DataNode must authenticate itself by using privileged ports which are specified by dfs.datanode.address and dfs.datanode.http.address",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Authentication is based on the assumption that the attacker won\u2019t be able to get root privileges."
+    },
+    {
+        "question": "In order to turn on RPC authentication in hadoop, set the value of hadoop.security.authentication property to _________",
+        "options": [
+            "a) zero",
+            "b) kerberos",
+            "c) false",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Security settings need to be modified properly for robustness."
+    },
+    {
+        "question": "___________ used by YARN framework which defines how any container launched and controlled.",
+        "options": [
+            "a) Container",
+            "b) ContainerExecutor",
+            "c) Executor",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The container process has the same Unix user as the NodeManager."
+    },
+    {
+        "question": "The ____________ requires that paths including and leading up to the directories specified in yarn.nodemanager.local-dirs.",
+        "options": [
+            "a) TaskController",
+            "b) LinuxTaskController",
+            "c) LinuxController",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "LinuxTaskController keeps track of all paths and directories on datanode."
+    },
+    {
+        "question": "The configuration file must be owned by the user running _________",
+        "options": [
+            "a) DataManager",
+            "b) NodeManager",
+            "c) ValidationManager",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To recap, local file-system permissions need to be modified."
+    }
+]

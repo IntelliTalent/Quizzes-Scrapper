@@ -1,0 +1,141 @@
+[
+    {
+        "question": "Which of the following algorithms is the best approach for solving Huffman codes?",
+        "options": [
+            "a) exhaustive search",
+            "b) greedy algorithm",
+            "c) brute force algorithm",
+            "d) divide and conquer algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Greedy algorithm is the best approach for solving the Huffman codes problem since it greedily searches for an optimal solution."
+    },
+    {
+        "question": "How many printable characters does the ASCII character set consists of?",
+        "options": [
+            "a) 120",
+            "b) 128",
+            "c) 100",
+            "d) 98"
+        ],
+        "answer": "c",
+        "explanation": "Out of 128 characters in an ASCII set, roughly, only 100 characters are printable while the rest are non-printable."
+    },
+    {
+        "question": "Which bit is reserved as a parity bit in an ASCII set?",
+        "options": [
+            "a) first",
+            "b) seventh",
+            "c) eighth",
+            "d) tenth"
+        ],
+        "answer": "c",
+        "explanation": "In an ASCII character set, seven bits are reserved for character representation while the eighth bit is a parity bit."
+    },
+    {
+        "question": "How many bits are needed for standard encoding if the size of the character set is X?",
+        "options": [
+            "a) log X",
+            "b) X+1",
+            "c) 2X",
+            "d) X"
+        ],
+        "answer": "a",
+        "explanation": "If the size of the character set is X, then [log X] bits are needed for representation in a standard encoding."
+    },
+    {
+        "question": "The code length does not depend on the frequency of occurrence of characters.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "The code length depends on the frequency of occurrence of characters. The more frequent the character occurs, the less is the length of the code."
+    },
+    {
+        "question": "In Huffman coding, data in a tree always occur?",
+        "options": [
+            "a) roots",
+            "b) leaves",
+            "c) left sub trees",
+            "d) right sub trees"
+        ],
+        "answer": "b",
+        "explanation": "In Huffman encoding, data is always stored at the leaves of a tree inorder to compute the codeword effectively."
+    },
+    {
+        "question": "From the following given tree, what is the code word for the character \u2018a\u2019?",
+        "options": [
+            "a) 011",
+            "b) 010",
+            "c) 100",
+            "d) 101"
+        ],
+        "answer": "a",
+        "explanation": "By recording the path of the node from root to leaf, the code word for character \u2018a\u2019 is found to be 011."
+    },
+    {
+        "question": "From the following given tree, what is the computed codeword for \u2018c\u2019?",
+        "options": [
+            "a) 111",
+            "b) 101",
+            "c) 110",
+            "d) 011"
+        ],
+        "answer": "c",
+        "explanation": "By recording the path of the node from root to leaf, assigning left branch as 0 and right branch as 1, the codeword for c is 110."
+    },
+    {
+        "question": "What will be the cost of the code if character c",
+        "options": [
+            "a) c",
+            "b) \u222bc",
+            "c) \u2211f",
+            "d) f"
+        ],
+        "answer": "c",
+        "explanation": "If character c"
+    },
+    {
+        "question": "An optimal code will always be present in a full tree.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "An optimal tree will always have the property that all nodes are either leaves or have two children. Otherwise, nodes with one child could move up a level."
+    },
+    {
+        "question": "The type of encoding where no character code is the prefix of another character code is called?",
+        "options": [
+            "a) optimal encoding",
+            "b) prefix encoding",
+            "c) frequency encoding",
+            "d) trie encoding"
+        ],
+        "answer": "b",
+        "explanation": "Even if the character codes are of different lengths, the encoding where no character code is the prefix of another character code is called prefix encoding."
+    },
+    {
+        "question": "What is the running time of the Huffman encoding algorithm?",
+        "options": [
+            "a) O(C)",
+            "b) O(log C)",
+            "c) O(C log C)",
+            "d) O( N log C)"
+        ],
+        "answer": "c",
+        "explanation": "If we maintain the trees in a priority queue, ordered by weight, then the running time is given by O(C log C)."
+    },
+    {
+        "question": "What is the running time of the Huffman algorithm, if its implementation of the priority queue is done using linked lists?",
+        "options": [
+            "a) O(C)",
+            "b) O(log C)",
+            "c) O(C log C)",
+            "d) O(C"
+        ],
+        "answer": "d",
+        "explanation": "If the implementation of the priority queue is done using linked lists, the running time of Huffman algorithm is O(C"
+    }
+]

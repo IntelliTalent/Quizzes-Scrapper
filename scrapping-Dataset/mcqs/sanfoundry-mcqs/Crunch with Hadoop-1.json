@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The Apache Crunch Java library provides a framework for writing, testing, and running ___________ pipelines.",
+        "options": [
+            "a) MapReduce",
+            "b) Pig",
+            "c) Hive",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Goal of Crunch is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Scrunch\u2019s Java API is centered around three interfaces that represent distributed datasets",
+            "b) All of the other data transformation operations supported by the Crunch APIs are implemented in terms of three primitives",
+            "c) A number of common Aggregator<V> implementations are provided in the Aggregators class",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "PGroupedTable provides a combine values operation that allows a commutative and associative Aggregator to be applied to the values of the PGroupedTable instance on both the map and reduce sides of the shuffle."
+    },
+    {
+        "question": "For Scala users, there is the __________ API, which is built on top of the Java APIs.",
+        "options": [
+            "a) Prunch",
+            "b) Scrunch",
+            "c) Hivench",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It includes a REPL (read-eval-print loop) for creating MapReduce pipelines."
+    },
+    {
+        "question": "The Crunch APIs are modeled after _________  which is the library that Google uses for building data pipelines on top of their own implementation of MapReduce.",
+        "options": [
+            "a) FlagJava",
+            "b) FlumeJava",
+            "c) FlakeJava",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Apache Crunch project develops and supports Java APIs that simplify the process of creating data pipelines on top of Apache Hadoop."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Crunch pipeline written by the development team sessionizes a set of user logs generates are then processed by a diverse collection of Pig scripts and Hive queries",
+            "b) Crunch pipelines provide a thin veneer on top of MapReduce",
+            "c) Developers have access to low-level MapReduce APIs",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Crunch is extremely fast, only slightly slower than a hand-tuned pipeline developed with the MapReduce APIs."
+    },
+    {
+        "question": "Crunch was designed for developers who understand __________ and want to use MapReduce effectively.",
+        "options": [
+            "a) Java",
+            "b) Python",
+            "c) Scala",
+            "d) Javascript"
+        ],
+        "answer": "a",
+        "explanation": "Crunch is often used in conjunction with Hive and Pig."
+    },
+    {
+        "question": "A __________ represents a distributed, immutable collection of elements of type T.",
+        "options": [
+            "a) PCollect<T>",
+            "b) PCollection<T>",
+            "c) PCol<T>",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "PCollection<T> provides a method, parallelDo, that applies a DoFn to each element in the PCollection<T>."
+    },
+    {
+        "question": "___________ executes the pipeline as a series of MapReduce jobs.",
+        "options": [
+            "a) SparkPipeline",
+            "b) MRPipeline",
+            "c) MemPipeline",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Every Crunch data pipeline is coordinated by an instance of the Pipeline interface."
+    },
+    {
+        "question": "__________ represent the logical computations of your Crunch pipelines.",
+        "options": [
+            "a) DoFns",
+            "b) DoFn",
+            "c) ThreeFns",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DoFns are designed to be easy to write, easy to test, and easy to deploy within the context of a MapReduce job."
+    }
+]

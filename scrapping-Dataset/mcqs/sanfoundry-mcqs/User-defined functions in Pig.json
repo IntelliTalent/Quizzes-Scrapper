@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ abstract class has three main methods for loading data and for most use cases it would suffice to extend it.",
+        "options": [
+            "a) Load",
+            "b) LoadFunc",
+            "c) FuncLoad",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "LoadFunc and StoreFunc implementations should use the Hadoop 20 API based classes."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) LoadMeta has methods to convert byte arrays to specific types",
+            "b) The Pig load/store API is aligned with Hadoop InputFormat class only",
+            "c) LoadPush has methods to push operations from Pig runtime into loader implementations",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Currently only the pushProjection() method is called by Pig to communicate to the loader the exact fields that are required in the Pig script."
+    },
+    {
+        "question": "Which of the following has methods to deal with metadata?",
+        "options": [
+            "a) LoadPushDown",
+            "b) LoadMetadata",
+            "c) LoadCaster",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Most implementation of loaders don\u2019t need to implement this unless they interact with some metadata system."
+    },
+    {
+        "question": "____________ method will be called by Pig both in the front end and back end to pass a unique signature to the Loader.",
+        "options": [
+            "a) relativeToAbsolutePath()",
+            "b) setUdfContextSignature()",
+            "c) getCacheFiles()",
+            "d) getShipFiles()"
+        ],
+        "answer": "b",
+        "explanation": "The signature can be used to store into the UDFContext any information which the Loader needs to store between various method invocations in the front end and back end."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The load/store UDFs control how data goes into Pig and comes out of Pig.",
+            "b) LoadCaster has methods to convert byte arrays to specific types.",
+            "c) The meaning of getNext() has changed and is called by Pig runtime to get the last tuple in the data",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The meaning of getNext() has not changed and is called by Pig runtime to get the next tuple in the data."
+    },
+    {
+        "question": "___________ return a list of hdfs files to ship to distributed cache.",
+        "options": [
+            "a) relativeToAbsolutePath()",
+            "b) setUdfContextSignature()",
+            "c) getCacheFiles()",
+            "d) getShipFiles()"
+        ],
+        "answer": "d",
+        "explanation": "The default implementation provided in LoadFunc handles this for FileSystem locations."
+    },
+    {
+        "question": "____________ method enables the RecordReader associated with the InputFormat provided by the LoadFunc is passed to the LoadFunc.",
+        "options": [
+            "a) getNext()",
+            "b) relativeToAbsolutePath()",
+            "c) prepareToRead()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The RecordReader can then be used by the implementation in getNext() to return a tuple representing a record of data back to pig."
+    },
+    {
+        "question": "__________  method tells LoadFunc which fields are required in the Pig script.",
+        "options": [
+            "a) pushProjection()",
+            "b) relativeToAbsolutePath()",
+            "c) prepareToRead()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " Pig will use the column index requiredField.index to communicate with the LoadFunc about the fields required by the Pig script."
+    },
+    {
+        "question": "A loader implementation should implement __________  if casts (implicit or explicit) from DataByteArray fields to other types need to be supported.",
+        "options": [
+            "a) LoadPushDown",
+            "b) LoadMetadata",
+            "c) LoadCaster",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "LoadCaster has methods to convert byte arrays to specific types."
+    }
+]

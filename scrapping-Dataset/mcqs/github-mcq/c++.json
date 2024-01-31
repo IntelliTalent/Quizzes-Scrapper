@@ -1,0 +1,1590 @@
+[
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "False",
+            "0",
+            "1",
+            "This code has an error."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)",
+        "options": [
+            "The compiled code is always bigger because of all of the imported symbols.",
+            "If the code uses a function defined in two different libraries with the same prototype but possibly with different implementations, there will be a compilation error due to ambiguity.",
+            "It automatically includes all header files in the standard library (cstdint, cstdlib, cstdio, iostream, etc).",
+            "It causes the compiler to enforce the exclusive inclusion of header files belonging to the standard library, generating a compilation error when a different header file is included."
+        ],
+        "answer": "If the code uses a function defined in two different libraries with the same prototype but possibly with different implementations, there will be a compilation error due to ambiguity."
+    },
+    {
+        "question": "What is the smallest size a variable of the type child_t may occupy in memory?",
+        "options": [
+            "7 bits.",
+            "25 bytes.",
+            "1 bit.",
+            "1 byte."
+        ],
+        "answer": "1 byte."
+    },
+    {
+        "question": "What are the vectors v1 and v2 after executing the code?",
+        "options": [
+            "Error",
+            "v1:{1,2,3,4}; v2:{5};",
+            "v1:{1,2,3,4,5}; v2:{1,2,3,4,5};",
+            "v1:{1,2,3,4}; v2:{1,2,3,5};"
+        ],
+        "answer": "v1:{1,2,3,4}; v2:{1,2,3,5};"
+    },
+    {
+        "question": "Which of the following is a true statement about the difference between pointers and iterators?",
+        "options": [
+            "While pointers are variables that hold memory addresses, iterators are generic functions used to traverse containers. This function allows the programmer to implement read and write code as the container is traversed.",
+            "Incrementing an iterator always means accessing the next element in the container(if any), no matter the container. Incrementing the pointer means pointing to the next element in memory, not always the next element.",
+            "Pointers are variables that hold memory address whereas iterator is unsigned integers that refer to offsets in arrays.",
+            "All iterators are implemented with pointers so all iterators are pointers but not all pointers are iterators."
+        ],
+        "answer": "Incrementing an iterator always means accessing the next element in the container(if any), no matter the container. Incrementing the pointer means pointing to the next element in memory, not always the next element."
+    },
+    {
+        "question": "What's the storage occupied by u1?",
+        "options": [
+            "4 bytes",
+            "7 bytes",
+            "8 bytes",
+            "2 bytes"
+        ],
+        "answer": "4 bytes"
+    },
+    {
+        "question": "Which of the following operator can be overloaded?",
+        "options": [
+            "`?:`",
+            "`new`",
+            "`::`",
+            "`.`"
+        ],
+        "answer": "`new`"
+    },
+    {
+        "question": "Which of the following shows the contents of the vector pointed by v1 and v2 after running this code?",
+        "options": [
+            "`*v1:{1,2,3,4}; *v2:{5};`",
+            "`*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`",
+            "Error",
+            "`*v1:{1,2,3,4}; *v2:{1,2,3,5};`"
+        ],
+        "answer": "`*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`"
+    },
+    {
+        "question": "Which of the following is not a difference between a class and a struct?",
+        "options": [
+            "Because structs are part of the C programming language, there is some complexity between C and C++ structs. This is not the case with classes.",
+            "Classes may have member functions; structs are private.",
+            "The default access specifier for members of a struct is public, whereas, for members of the class, it is private.",
+            "Template type parameters can be declared with classes, but not with the struct keyword."
+        ],
+        "answer": "Template type parameters can be declared with classes, but not with the struct keyword."
+    },
+    {
+        "question": "Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is an lvalue?",
+        "options": [
+            "It's a constant expression, meaning an expression composed of constants and operations.",
+            "It's an expression that represents an object with an address.",
+            "It's an expression suitable for the left-hand side operand in a binary operation.",
+            "It's a location value, meaning a memory address suitable for assigning to a pointer or reference."
+        ],
+        "answer": "It's a location value, meaning a memory address suitable for assigning to a pointer or reference."
+    },
+    {
+        "question": "What does auto type specifier do in this line of code (since C++11)?",
+        "options": [
+            "It specifies that the type of x will be deduced from the initializer - in this case, double.",
+            "It specifies that the type of x is automatic meaning that it can be assigned different types of data throughout the program.",
+            "It specifies that x is a variable with automatic storage duration.",
+            "It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow."
+        ],
+        "answer": "It specifies that the type of x will be deduced from the initializer - in this case, double."
+    },
+    {
+        "question": "A class template is a \\_?",
+        "options": [
+            "class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.",
+            "blank superclass intended for inheritance and polymorphism.",
+            "class that only consists of a member variable, with no constructor, destructor, or member functions.",
+            "skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used."
+        ],
+        "answer": "class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type."
+    },
+    {
+        "question": "What is the ternary operator equivalent to this code snippet?",
+        "options": [
+            "`y=a?b:x;`",
+            "`y=if(x?a:b);`",
+            "`y=(x&a)?a:(x&b)?b:0;`",
+            "`y=x?a:b;`"
+        ],
+        "answer": "`y=x?a:b;`"
+    },
+    {
+        "question": "What is the output of the code given below?",
+        "options": [
+            "`x = 10 and y = 20`",
+            "`x = 11 and y = 19`",
+            "`x = 10 and y = 19`",
+            "`x = 11 and y = 20`"
+        ],
+        "answer": "`x = 10 and y = 19`"
+    },
+    {
+        "question": "What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?",
+        "options": [
+            "The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.",
+            "The first is an iterator, and the second is the increment value to be added to the iterator.",
+            "The first is the iterating variable. The second is a `std::pair` that specifies the range (start and end) in which the variable will iterate.",
+            "The first is a container object. The second is a `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop."
+        ],
+        "answer": "The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse."
+    },
+    {
+        "question": "What is the output of the code given below?",
+        "options": [
+            "There is no output because there is an exception when comparing an int8_t with a uint8_t.",
+            "greater",
+            "less",
+            "There is no output because there is a compiler error."
+        ],
+        "answer": "less"
+    },
+    {
+        "question": "What is the output of this block of code?",
+        "options": [
+            "a=-56, b=100",
+            "a=-55, b=100",
+            "a=200, b=-156",
+            "a=200, b=100"
+        ],
+        "answer": "a=-56, b=100"
+    },
+    {
+        "question": "What is the output after executing this code snippet?",
+        "options": [
+            "Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true.",
+            "Part B executes because (x & y) results in 0, or false.",
+            "Part A executes because (x & y) results in a nonzero value, or true.",
+            "Part B executes because the statement (x & y) is invalid, thus false."
+        ],
+        "answer": "Part B executes because (x & y) results in 0, or false."
+    },
+    {
+        "question": "What is a valid definition for the `get_length` function, which returns the length of a null-terminated string?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which STL class is the best fit for implementing a collection of data that is always ordered so that the pop operation always gets the greatest of the elements? Suppose you are interested only in push and pop operations.",
+        "options": [
+            "`std::list`",
+            "`std::vector`",
+            "`std::priority_queue`",
+            "`std::map`"
+        ],
+        "answer": "`std::priority_queue`"
+    },
+    {
+        "question": "What is the meaning of the three sections specified between parentheses in a for loop separated by semicolons?",
+        "options": [
+            "The first is the iterating variable name, the second is the number of times to iterate, and the third is the desired increment or decrement (specified with a signed integer).",
+            "The first is the initialization block, the second is the condition to iterate, and the third is the increment block.",
+            "The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.",
+            "The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one)."
+        ],
+        "answer": "The first is the initialization block, the second is the condition to iterate, and the third is the increment block."
+    },
+    {
+        "question": "What does this code print?",
+        "options": [
+            "0,1,1,0",
+            "0,1,0,1",
+            "0,0,1,0",
+            "1,0,1,0"
+        ],
+        "answer": "0,1,1,0"
+    },
+    {
+        "question": "What is true about the variable named `ptr`?",
+        "options": [
+            "It is a pointer initialized at NULL.",
+            "It is a pointer to a void function.",
+            "That declaration causes a compiler error, as pointers must specify a type.",
+            "It is a pointer to a value with no specific type, so it may be cast to point to any type."
+        ],
+        "answer": "It is a pointer to a value with no specific type, so it may be cast to point to any type."
+    },
+    {
+        "question": "What is the output of the code given below?",
+        "options": [
+            "c is d and d is c",
+            "c is A and d is 3",
+            "c is 3 and d is A",
+            "c is c and d is d"
+        ],
+        "answer": "c is 3 and d is A"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "1/2 = 0.499999",
+            "1/2 = 0",
+            "1/2 = 0.000000",
+            "1/2 = 0.5"
+        ],
+        "answer": "1/2 = 0.000000"
+    },
+    {
+        "question": "What is the difference between a public and a private class member?",
+        "options": [
+            "Public members are the same as global variables, so every part of the code has access to them. Private members are the same as automatic variables, so only their class has access to them.",
+            "Public members are made accessible to any running application. Private members are made accessible only to the application where the object is instantiated.",
+            "Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.",
+            "Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class."
+        ],
+        "answer": "Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class."
+    },
+    {
+        "question": "What is the value of `x` after executing this code?",
+        "options": [
+            "3",
+            "7",
+            "-3",
+            "13"
+        ],
+        "answer": "7"
+    },
+    {
+        "question": "Which statement is true?",
+        "options": [
+            "Only classes can have member variables and methods.",
+            "C++ supports multiple inheritance.",
+            "C++ supports only single inheritance.",
+            "Only structs can inherit."
+        ],
+        "answer": "C++ supports multiple inheritance."
+    },
+    {
+        "question": "Consider a pointer to void, named `ptr`, which has been set to point to a floating point variable `g`. Which choice is a valid way to dereference `ptr` to assign its pointed value to a float variable `f` later in the program?",
+        "options": [
+            "`float f=*(float)ptr;`",
+            "`float f=(float *)ptr;`",
+            "`float f=(float)*ptr;`",
+            "`float f=*(float *)ptr;`"
+        ],
+        "answer": "`float f=*(float *)ptr;`"
+    },
+    {
+        "question": "What is the `.*` operator and what does it do?",
+        "options": [
+            "It is the same as the class member access operator, or arrow operator `(->)`, which allows you to access a member of an object through a pointer to the object.",
+            "It is the pointer to the member operator, and it allows you to access a member of an object through a pointer to that specific class member.",
+            "It is the member access with an address of the operator, which returns the address of a class or struct member.",
+            "It is a combination of the member access operator `(.)` and the dereference operator `(*)`, so it allows you to access the object that a member pointer points to."
+        ],
+        "answer": "It is the pointer to the member operator, and it allows you to access a member of an object through a pointer to that specific class member."
+    },
+    {
+        "question": "For these declarations, which choice shows four equivalent ways to assign the character \"y\" in the string to a char variable c?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which choice is the correct declaration for the class named Dog, derived from the Animal class?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the output of this code given below?",
+        "options": [
+            "c = -1, which is less than 10",
+            "c = 255, which is greater than 10",
+            "c = -1, which is greater than 10",
+            "c = 255, which is less than 10"
+        ],
+        "answer": "c = -1, which is less than 10"
+    },
+    {
+        "question": "How can C++ code call a C function?",
+        "options": [
+            "by simply calling the C code",
+            "There is no way for C++ to call a C function",
+            "by using extern \"C\"",
+            "by importing the source C code"
+        ],
+        "answer": "by using extern \"C\""
+    },
+    {
+        "question": "Which choice is _not_ a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named `center`?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which choice does _not_ produce the same output as this code snippet? Assume the variable `i` will not be used anywhere else in the code.",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What does this part of a main.cpp file do?",
+        "options": [
+            "It causes the toolchain to compile all the contents of library.h so that its executable code is available when needed by the final application.",
+            "It cherry-picks library.h for the declarations and definitions of all data and functions used in the remainder of the source file main.cpp, finally replacing the `#include` directive with those declarations and definitions.",
+            "It informs the linker that some functions or data used in the source file main.cpp are contained in library.h, so that they can be called in run time. This is also known as dynamic linking.",
+            "It causes the replacement of the `#include` directive by the entire contents of the source file library.h. This is similar to the Copy-Paste operation of library.h into main.cpp."
+        ],
+        "answer": "It causes the replacement of the `#include` directive by the entire contents of the source file library.h. This is similar to the Copy-Paste operation of library.h into main.cpp."
+    },
+    {
+        "question": "Consider this function declaration of `is_even`, which takes in an integer and returns true if the argument is an even number and false otherwise. Which declarations are correct for overloaded versions of that function to support floating point numbers and string representations of numbers?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which choice is an include guard for the header file `my_library.h`?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What's wrong with this definition when using a pre-C++11 compiler?",
+        "options": [
+            "There's nothing wrong with it.",
+            "An `std::vector` cannot contain more `std::vector` containers as its elements.",
+            "The correct syntax should be: `std::vector[std::vector[int]] thematrix;`",
+            "`>>` is parsed as the shift-right operator, and thus results in a compile error."
+        ],
+        "answer": "There's nothing wrong with it."
+    },
+    {
+        "question": "What is the statement below equivalent to?",
+        "options": [],
+        "answer": null
+    },
+    {
+        "question": "#### Q42.b. What is the statement equivalent to?",
+        "options": [
+            "`sprite.x`",
+            "`sprite.*x`",
+            "`(*sprite).x`",
+            "`*sprite.x`"
+        ],
+        "answer": "`(*sprite).x`"
+    },
+    {
+        "question": "Consider a class named `complexNumber`. Which code will result in an equivalent object?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the result of executing this code snippet?",
+        "options": [
+            "Part A executes because the expression `(~x || y)` always results in true if `y==false`.",
+            "Part B executes because the statement `(~x || y)` is invalid, thus false.",
+            "Part A executes because `~x` is not zero, meaning true.",
+            "Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false."
+        ],
+        "answer": "Part A executes because `~x` is not zero, meaning true."
+    },
+    {
+        "question": "What would be the output of this code?",
+        "options": [
+            "The output is the addresses of `nums[0]`, `nums[1]`, and `nums[2]`, in that order, with no spaces.",
+            "256",
+            "`0`",
+            "`243`"
+        ],
+        "answer": "256"
+    },
+    {
+        "question": "What is the output of this code?",
+        "options": [
+            "`0.54 2.71828 3.14159 5.499999 10.0`",
+            "`1 3 4 6 11`",
+            "`0 2 3 5 10`",
+            "`1 3 3 5 10`"
+        ],
+        "answer": "`1 3 3 5 10`"
+    },
+    {
+        "question": "Which of the following STL classes is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have a lookup by name.",
+        "options": [
+            "`std::priority_queue`",
+            "`std::list`",
+            "`std::vector`",
+            "`std::map`"
+        ],
+        "answer": "`std::map`"
+    },
+    {
+        "question": "What does this program do?",
+        "options": [
+            "It renames text1.txt to text2.txt.",
+            "It makes a directory called text2.txt and moves text1.txt there.",
+            "It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt.",
+            "It appends the contents of text1.txt into text2.txt - i.e., replaces the contents of text2.txt by the concatenation of text2.txt and text1.txt."
+        ],
+        "answer": "It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt."
+    },
+    {
+        "question": "Which of the following is _not_ a consequence of declaring the member variable `count` of my_class as static? / Alt.: Which statement is true when declaring the member variable `count` as static?",
+        "options": [
+            "The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.",
+            "The variable exists even when no objects of the class have been defined so it can be modified at any point in the source code.",
+            "The variable is allocated only once, regardless of how many objects are instantiated because it is bound to the class itself, not its instances.",
+            "All objects that try to access their count member variable actually refer to the only class-bound static count variable."
+        ],
+        "answer": "The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it."
+    },
+    {
+        "question": "What is the assumed type of a constant represented in the source code as `0.44`?",
+        "options": [
+            "double",
+            "long float",
+            "long double",
+            "float"
+        ],
+        "answer": "double"
+    },
+    {
+        "question": "What is an appropriate way of removing `my_object` as shown below?",
+        "options": [
+            "`delete(my_object);`",
+            "`free(my_object);`",
+            "The garbage collector will destroy the object eventually.",
+            "Exiting the scope will destroy the object."
+        ],
+        "answer": "`delete(my_object);`"
+    },
+    {
+        "question": "What is the correct way to call the `count` member function for the object pointer called `grades`?",
+        "options": [
+            "`grades.count();`",
+            "`my_array->count();`",
+            "`grades->count();`",
+            "`my_array.count();`"
+        ],
+        "answer": "`grades->count();`"
+    },
+    {
+        "question": "What would be the output of this code?",
+        "options": [
+            "There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal.",
+            "846",
+            "The output is the addresses of `i2`, `i0`, and `i1`, in that order, with no spaces.",
+            "468"
+        ],
+        "answer": "There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal."
+    },
+    {
+        "question": "Does this code cause a compiler error? If so, why, and if not, what is `child_t`?",
+        "options": [
+            "Yes, it causes a compiler error because the colon character is not allowed in struct definitions.",
+            "No, and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte.",
+            "Yes, it causes a compiler error because there is an unnamed field.",
+            "Yes, it causes a compiler error because one field is defined as having a size of 0."
+        ],
+        "answer": "No, and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte."
+    },
+    {
+        "question": "What is this expression equivalent to?",
+        "options": [
+            "`*(A.B)`",
+            "`B=A`",
+            "`(*A).B`",
+            "`&A.B`"
+        ],
+        "answer": "`(*A).B`"
+    },
+    {
+        "question": "What is this expression equivalent to?",
+        "options": [
+            "`A.B.C.D`",
+            "`*A.*B.*C.*D`",
+            "`&A.&B.&C.&D`",
+            "`*(*((*A).B).C).D`"
+        ],
+        "answer": "`*(*((*A).B).C).D`"
+    },
+    {
+        "question": "What does this function do?",
+        "options": [
+            "It declares a memory buffer named buff that starts at address 20 and ends at address 70.",
+            "It sets all bits in the array named buffer from its element at index 20 to its element at index 50.",
+            "It writes the value 20 in every memory address from buff to buff+49.",
+            "It declares a memory buffer named buff that starts at address 20 and ends at address 50."
+        ],
+        "answer": "It writes the value 20 in every memory address from buff to buff+49."
+    },
+    {
+        "question": "Consider a class named `CustomData`. Which choice is a correct declaration syntax to overload the postfix `++` operator as a class member?",
+        "options": [
+            "`CustomData& operator++();`",
+            "`void operator++(CustomData);`",
+            "`CustomData operator++(CustomData);`",
+            "`CustomData operator++(int);`"
+        ],
+        "answer": "`CustomData operator++(int);`"
+    },
+    {
+        "question": "You want to sort my_array, declared below. Which choice is the correct call to std::sort, using a lambda expression as the comparison function?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the main difference between these two Functions?",
+        "options": [
+            "`lock()` has a higher privilege over `try_lock()`. This means that you have a better chance of acquiring a mutex `with lock()`.",
+            "Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not.",
+            "`lock()` enforces preemption, whereas `try_lock()` suggests preemption.",
+            "If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it."
+        ],
+        "answer": "Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not."
+    },
+    {
+        "question": "What is the purpose of a destructor?",
+        "options": [
+            "It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.",
+            "It deletes an object. One example of a destructor is the `delete()` function.",
+            "It terminates a program. This may be achieved as a regular function call or as an exception.",
+            "There are no destructors in C++."
+        ],
+        "answer": "It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself."
+    },
+    {
+        "question": "What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?",
+        "options": [
+            "Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.",
+            "There are no benefits because a reference and an object are treated as the same thing.",
+            "The `const` qualifier forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged. / Alt.: The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.",
+            "The argument is passed as a reference, so the function receives a copy that can be modified without affecting the original variable."
+        ],
+        "answer": "The `const` qualifier forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged. / Alt.: The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory."
+    },
+    {
+        "question": "What is an include guard?",
+        "options": [
+            "a preprocessor directive that prevents inconsistent behaviors in lines that contain the #ifdef, #ifndef, or #elif directives",
+            "a compiler option that prevents the user code from including additional libraries",
+            "a preprocessor statement that prevents a source file from being included more than once in a project",
+            "a library that adds safety features such as mutexes, watchdog timers, and assertions to the project"
+        ],
+        "answer": "a preprocessor statement that prevents a source file from being included more than once in a project"
+    },
+    {
+        "question": "What would be the correct declaration of a default constructor for a class named Sprite?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the purpose of this line in a header file?",
+        "options": [
+            "to restrict the use of its contents to only one source file",
+            "to tell the compiler that only one variable can be instantiated from the classes or types contained in this header file",
+            "to help the compiler finish faster by assuring that only one compiler pass is necessary for the code included in this header file",
+            "to make the compiler parse that header file only once, even if it is included multiple times in the source"
+        ],
+        "answer": "to make the compiler parse that header file only once, even if it is included multiple times in the source"
+    },
+    {
+        "question": "What is a variable of type double?",
+        "options": [
+            "a 2-tuple",
+            "an integer number",
+            "a floating point number",
+            "a string with more than 255 characters"
+        ],
+        "answer": "a floating point number"
+    },
+    {
+        "question": "Other than shifting bits to the left, what is the << operator used for?",
+        "options": [
+            "shifting characters to the left in a string.",
+            "inserting characters into an output stream like std::cout.",
+            "comparing floating point numbers as less-than.",
+            "assigning a variable to a reference."
+        ],
+        "answer": "inserting characters into an output stream like std::cout."
+    },
+    {
+        "question": "Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer to any type?",
+        "options": [
+            "The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.",
+            "`void *` does not work for any type. The language does not allow assigning anything other than `void` to a pointer to `void *`.",
+            "The compiler needs the data type to know how much memory to allocate for the pointer because different data types require different pointer lengths.",
+            "Yes, it causes a compiler error because one field is defined as having a size of 0."
+        ],
+        "answer": "The compiler needs the data type to know how much memory to allocate for the pointer because different data types require different pointer lengths."
+    },
+    {
+        "question": "What is wrong with this piece of code?",
+        "options": [
+            "The main function is supposed to have a void return type.",
+            "`std::cin` and `std::cout` are invalid. The correct names for the character input and output streams are `cin` and `cout`.",
+            "The address of `str` is supposed to be used. That is `&str` instead of `str`.",
+            "The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`."
+        ],
+        "answer": "The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`."
+    },
+    {
+        "question": "When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?",
+        "options": [
+            "`int anInt = new int(11);`",
+            "`int* anInt = new int[11];`",
+            "`int anInt = new int[11];`",
+            "`int* anInt = new int(11);`"
+        ],
+        "answer": "`int* anInt = new int(11);`"
+    },
+    {
+        "question": "Which choice best describes the type `long`?",
+        "options": [
+            "an integer number of at least 32 bits",
+            "a string with more than 255 characters",
+            "a pointer",
+            "a 64-bit floating point number"
+        ],
+        "answer": "an integer number of at least 32 bits"
+    },
+    {
+        "question": "Which of the following types has the closest functionality to a class?",
+        "options": [
+            "`struct`",
+            "`union`",
+            "`enum`",
+            "`namespace`"
+        ],
+        "answer": "`struct`"
+    },
+    {
+        "question": "Given these records in a map, how will you update the value for the key \"Sinead\" to 22?",
+        "options": [
+            "`marks[\"Sinead\"] = 22`",
+            "`marks[\"Sinead\"].22`",
+            "`marks[\"Sinead\"] -> 22`",
+            "`marks[\"Sinead\"].value = 22`"
+        ],
+        "answer": "`marks[\"Sinead\"] = 22`"
+    },
+    {
+        "question": "Why can the std::sort receive a function object as one of its parameters?",
+        "options": [
+            "`The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`",
+            "`Actually, std::sort takes only one argument, which is the container to be sorted.`",
+            "`std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`",
+            "`std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`"
+        ],
+        "answer": "`The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`"
+    },
+    {
+        "question": "What will happen when you execute this code snippet?",
+        "options": [
+            "`6 will be printed on standard output, with no compilation warnings generated.`",
+            "`5 will be printed on standard output, with no compilation warnings generated.`",
+            "`6 will be printed on standard output, with compilation warnings generated.`",
+            "`5 will be printed on standard output, with compilation warnings generated.`"
+        ],
+        "answer": "`5 will be printed on standard output, with no compilation warnings generated.`"
+    },
+    {
+        "question": "Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?",
+        "options": [
+            "guarded",
+            "protected",
+            "public",
+            "private"
+        ],
+        "answer": "protected"
+    },
+    {
+        "question": "The default executable generation on UNIX for a C++ program is \\_",
+        "options": [
+            "a.exe",
+            "a",
+            "a.out",
+            "out.a"
+        ],
+        "answer": "a.out"
+    },
+    {
+        "question": "What will be the output of the following program?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "6"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "What does \"c\" stand for in cout and cin?",
+        "options": [
+            "compiler",
+            "console",
+            "character",
+            "standard namespace"
+        ],
+        "answer": "character"
+    },
+    {
+        "question": "What is the use of tellp()?",
+        "options": [
+            "Current Input Pointer position",
+            "Current Output Pointer position",
+            "Last Input Pointer position",
+            "Last Output Pointer position"
+        ],
+        "answer": "Current Output Pointer position"
+    },
+    {
+        "question": "What is callback function?",
+        "options": [
+            "Pointer for a pointer",
+            "Pointer for a function",
+            "function for a pointer",
+            "function for a class"
+        ],
+        "answer": "Pointer for a function"
+    },
+    {
+        "question": "What is the correct syntax to output \"Hello World\" in C++?",
+        "options": [
+            "`cout << \"Hello World\";`",
+            "`System.out.println(\"Hello World\");`",
+            "`print(\"Hello World\");`",
+            "Console.WriteLine(\"Hello World\");```"
+        ],
+        "answer": "`cout << \"Hello World\";`"
+    },
+    {
+        "question": "How many categories of iterators are there in C++?",
+        "options": [
+            "4",
+            "3",
+            "7",
+            "5"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "What is the meaning of base class in C++ ?",
+        "options": [
+            "It inherits other class",
+            "It has a pointer variable",
+            "It is the first class declared",
+            "Another class got inherited from this class"
+        ],
+        "answer": "Another class got inherited from this class"
+    },
+    {
+        "question": "The size of C++ objects is expressed in terms of multiples of the size of a ** and the size of a char is **.",
+        "options": [
+            "char, 4",
+            "float, 8",
+            "int, 1",
+            "char, 1"
+        ],
+        "answer": "char, 1"
+    },
+    {
+        "question": "Implementation-dependent aspects about an implementation can be found in",
+        "options": [
+            "`<numeric>`",
+            "`<limit>`",
+            "`<limits>`",
+            "`<implementation>`"
+        ],
+        "answer": "`<limits>`"
+    },
+    {
+        "question": "What is a default constructor?",
+        "options": [
+            "a constructor that can be used with no arguments",
+            "a constructor that does not have a return value",
+            "a constructor that is used by multiple classes",
+            "a constructor that initializes all members of a class"
+        ],
+        "answer": "a constructor that can be used with no arguments"
+    },
+    {
+        "question": "When protecting a header file, why would you use '#pragma once' instead of 'include' guard?",
+        "options": [
+            "There is no reason to choose because they serve different purposes",
+            "An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all",
+            "'#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler",
+            "Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists"
+        ],
+        "answer": "An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all"
+    },
+    {
+        "question": "Which of the following statements is valid?",
+        "options": [
+            "We can create a new C++ operator.",
+            "We can change the precedence of the C++ operator.",
+            "We can not change the operator templates.",
+            "We can change the associativity of the C++ operators."
+        ],
+        "answer": "We can not change the operator templates."
+    },
+    {
+        "question": "Which of the following is/are automatically added to every class, if we do not write our own?",
+        "options": [
+            "Copy Constructor",
+            "Assignment Operator",
+            "A constructor without any parameter",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "The if-else statement can be replaced by which operator?",
+        "options": [
+            "certain structure",
+            "choosing structure",
+            "selective structure",
+            "None of the Above"
+        ],
+        "answer": "selective structure"
+    },
+    {
+        "question": "Which choice would be a recursive solution to the factorial n! problem?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?",
+        "options": [
+            "The program is terminated. This calls the destructor of static duration objects.",
+            "The delete () function is called for an object pointer assigned with the new operator.",
+            "The garbage collector detects that an object is no longer going to be used.",
+            "An automatic storage duration object goes out of scope."
+        ],
+        "answer": "The garbage collector detects that an object is no longer going to be used."
+    },
+    {
+        "question": "You are designing a foreign exchange payments system in C++, You need to model a transaction of a currency that has an integer as its quantity and a float as its price. You then want to declare an actual object of this type. How will you achieve this?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What will happen if you attempt to call this function with checkConcatThreshold(\"a\");?",
+        "options": [
+            "A compilation warning will occur and the second argument will be given a default value of b.",
+            "A compilation warning will occur and the second argument will be given a default value of the empty string.",
+            "A compilation error will occur.",
+            "No compilation errors will occur and no compilation warnings will occur."
+        ],
+        "answer": "A compilation error will occur."
+    },
+    {
+        "question": "You need to define a C++ lambda function. You want the function to have access to only the variables that are local to it. The function should receive a single parameter, and a name, and construct a simple greeting. How will you achieve this?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the value of X after running this code?",
+        "options": [
+            "-3",
+            "7",
+            "13",
+            "3"
+        ],
+        "answer": "7"
+    },
+    {
+        "question": "Once you are done writing to a file, what method will you call on the `ofstream` to notify the operating system?",
+        "options": [
+            "printout()",
+            "close()",
+            "destroy()",
+            "flush()"
+        ],
+        "answer": "close()"
+    },
+    {
+        "question": "Which choice is not a C++ keyword?",
+        "options": [
+            "static_assert",
+            "reinterpret_cast",
+            "comPl",
+            "alignas"
+        ],
+        "answer": "comPl"
+    },
+    {
+        "question": "The size_in_bits function seems to take any type of parameter. This can be done by overloading the function, or by letting the compiler take care of it by writing a template. Which choice is an implementation of that template?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?",
+        "options": [
+            "fstream",
+            "cstdlib",
+            "filestream",
+            "iostream"
+        ],
+        "answer": "fstream"
+    },
+    {
+        "question": "What will this object-oriented program print?",
+        "options": [
+            "fossil",
+            "fossil none",
+            "hydrogen",
+            "none"
+        ],
+        "answer": "fossil"
+    },
+    {
+        "question": "The program below is handling a stack container. What is the output of running the program?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which choice is a valid way to overload the ternary conditional operator?",
+        "options": [
+            "`void& operator ?:(const bool cond, const void& iftrue, const void& iffalse);`",
+            "`The ternary operator is not overloadable.`",
+            "`void& operator conditional(const bool cond, const void& iftrue, const void& iffalse);`",
+            "`void* operator ?:(const bool cond, const void* iftrue, const void* iffalse);`"
+        ],
+        "answer": "`The ternary operator is not overloadable.`"
+    },
+    {
+        "question": "Which class hierarchy represents an example of multilevel inheritance?",
+        "options": [
+            "In the same program, at different points, a given class derives individually from more than one different class.",
+            "A first-class derives directly, at the same time, from a second and third class.",
+            "In the same program, at different points, a given class derives individually from more than two different classes.",
+            "A first classderives from a second class, and that second class is already derived from a third class"
+        ],
+        "answer": "In the same program, at different points, a given class derives individually from more than two different classes."
+    },
+    {
+        "question": "Which of the following is the correct syntax to print the message in C++ language?",
+        "options": [
+            "Out <<\"Hello world!",
+            "Cout << Hello world! ;",
+            "cout <<\"Hello world!\";",
+            "None of the above"
+        ],
+        "answer": "cout <<\"Hello world!\";"
+    },
+    {
+        "question": "Consider the following program. What will be the output/error?",
+        "options": [
+            "1",
+            "0",
+            "-1",
+            "Compilation Error: function is not defined"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Consider the following code segment. Fill in the blank at LINE-1 so that the program will print \"not found\"?",
+        "options": [
+            "&data[0], &data[5], key",
+            "data, data+5, key",
+            "&data[0], &data[4], key",
+            "data+1, data+4, key"
+        ],
+        "answer": "data+1, data+4, key"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "10 20 30 40 50",
+            "10 30 40 50 20",
+            "50 10 30 40 20",
+            "50 10 20 30 40"
+        ],
+        "answer": "50 10 30 40 20"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "5 10 15 20 25",
+            "5 10 15 25 20",
+            "20 10 15 25 5",
+            "25 5 10 15 20"
+        ],
+        "answer": "5 10 15 25 20"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "A A A B C Z Z Z",
+            "A A B B C Z Z Z",
+            "A A A B C Z Z",
+            "A A A B C Z Z Z Z"
+        ],
+        "answer": "A A A B C Z Z Z"
+    },
+    {
+        "question": "Consider the following code segment. Choose the appropriate option to fill in the blank at LINE-1, such that the output of the code would be: a C++ Program.",
+        "options": [
+            "s1 += s2",
+            "strcat(s1, s2)",
+            "s1.append(s2)",
+            "s1.insert(s2)"
+        ],
+        "answer": "s1.append(s2)"
+    },
+    {
+        "question": "Consider the following code segment. Fill in the blank at LINE-1 such that the output is 5 2 3 4 5",
+        "options": [
+            "data + 4 - i",
+            "data + 5 - i",
+            "data + i - 4",
+            "data + i - 5"
+        ],
+        "answer": "data + 4 - i"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "1234987654",
+            "123498765",
+            "1234897654",
+            "123459876"
+        ],
+        "answer": "1234987654"
+    },
+    {
+        "question": "Consider the following code segment. Which statement/statements is/are correct?",
+        "options": [
+            "STMT-1",
+            "STMT-2",
+            "STMT-3",
+            "STMT-4"
+        ],
+        "answer": "STMT-2"
+    },
+    {
+        "question": "Consider the following program. What will be the output/error(s)?",
+        "options": [
+            "y",
+            "z",
+            "Compilation Error: default argument missing for \"char add(char, char, char)\"",
+            "Compilation Error: call of overload \"add(char, char)\" is ambiguous"
+        ],
+        "answer": "Compilation Error: call of overload \"add(char, char)\" is ambiguous"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "12",
+            "25",
+            "9",
+            "16"
+        ],
+        "answer": "12"
+    },
+    {
+        "question": "Consider the following code segment. Which line/s will give you an error?",
+        "options": [
+            "LINE-1",
+            "LINE-2",
+            "LINE-3",
+            "LINE-4"
+        ],
+        "answer": "LINE-4"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output/error?",
+        "options": [
+            "36",
+            "30",
+            "25",
+            "Compilation Error: invalid initialization of non-const reference"
+        ],
+        "answer": "Compilation Error: invalid initialization of non-const reference"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output?",
+        "options": [
+            "6 6 2 2",
+            "6 6 7 7",
+            "1 1 2 2",
+            "1 1 7 7"
+        ],
+        "answer": "6 6 2 2"
+    },
+    {
+        "question": "Consider the following code segment. Choose the appropriate option to fill in the blanks at LINE-1, such that the output of the code would be: 300 20000.",
+        "options": [
+            "int n3, int\\* n4",
+            "int& n3, int \\*n4",
+            "int* n3, int* n4",
+            "int& n3, int& n4"
+        ],
+        "answer": "int& n3, int \\*n4"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output/error?",
+        "options": [
+            "`<garbage value>`",
+            "5",
+            "Compilation Error at LINE-1: uninitialized const \u2019ptr\u2019",
+            "Compilation Error at LINE-2: assignment of read-only variable \u2019ptr\u2019"
+        ],
+        "answer": "Compilation Error at LINE-2: assignment of read-only variable \u2019ptr\u2019"
+    },
+    {
+        "question": "Consider the following code segment. What will be the output/error?",
+        "options": [
+            "5",
+            "10",
+            "5",
+            "Compilation error at LINE-2: ambiguating new declaration of \u2019int fun(int)\u2019"
+        ],
+        "answer": "Compilation error at LINE-2: ambiguating new declaration of \u2019int fun(int)\u2019"
+    },
+    {
+        "question": "Consider the following code segment. Fill in the blank at LINE-1 such that the program will print 5 + i3",
+        "options": [
+            "complex operator+(complex &c1, complex &c2)",
+            "complex operator+(const complex &c1, const complex &c2)",
+            "operator+(complex &c1, complex &c2)",
+            "complex +(complex &c1, complex &c2)"
+        ],
+        "answer": "complex operator+(complex &c1, complex &c2)"
+    },
+    {
+        "question": "Consider the following program. Which line/s will generate an error?",
+        "options": [
+            "LINE-1",
+            "LINE-2",
+            "LINE-3",
+            "LINE-4"
+        ],
+        "answer": "LINE-1"
+    },
+    {
+        "question": "Consider the following class. Fill in the blanks with proper access specifiers so that member y can be accessed from outside of the class but member x cannot be accessed.",
+        "options": [
+            "public, public",
+            "public, private",
+            "private, public",
+            "private, private"
+        ],
+        "answer": "private, private"
+    },
+    {
+        "question": "Which C++ Standard did add in-class default member initializers?",
+        "options": [
+            "C++98",
+            "C++11",
+            "C++14",
+            "C++17."
+        ],
+        "answer": "C++11"
+    },
+    {
+        "question": "Can you use auto type deduction for non-static data members?",
+        "options": [
+            "Yes, since C++11",
+            "No",
+            "Yes, since C++20"
+        ],
+        "answer": "No"
+    },
+    {
+        "question": "Do you need to define a static inline data member in a cpp file?",
+        "options": [
+            "No, the definition happens at the same place where a static inline member is declared.",
+            "Yes, the compiler needs the definition in a cpp file.",
+            "Yes, the compiler needs a definition in all translation units that use this variable."
+        ],
+        "answer": "No, the definition happens at the same place where a static inline member is declared."
+    },
+    {
+        "question": "What's the output of the following code:",
+        "options": [
+            "Output is: 1, 0",
+            "Output is: 10, 42",
+            "Output is: 1, 42"
+        ],
+        "answer": "Output is: 1, 42"
+    },
+    {
+        "question": "Can a static inline variable be non-constant?",
+        "options": [
+            "Yes, it's just a regular variable.",
+            "No, inline variables must be constant."
+        ],
+        "answer": "Yes, it's just a regular variable."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [
+            "C::a is initialized twice. The first time, it's initialized with 10, and then the second time with 0 in the constructor.",
+            "C::a is initialized only once with 0 in the constructor.",
+            "The code doesn't compile because the compiler cannot decide how to initialize the C::a member.",
+            "2 bytes"
+        ],
+        "answer": "C::a is initialized only once with 0 in the constructor."
+    },
+    {
+        "question": "What happens when you throw an exception from a constructor?",
+        "options": [
+            "The object is considered \"created\" so it will follow the regular lifetime of an object.",
+            "The object is considered \"partially created,\" and thus, the compiler won't call its destructor.",
+            "he compiler calls std::terminate as you cannot throw exceptions from constructors."
+        ],
+        "answer": "The object is considered \"partially created,\" and thus, the compiler won't call its destructor."
+    },
+    {
+        "question": "What happens when you compile this code?",
+        "options": [
+            "The code doesn't compile. Designators have to be in the same order as the data members in the Point class.",
+            "The code compiles and prints 11, 10.",
+            "The code compiles and prints 10, 11."
+        ],
+        "answer": "The code doesn't compile. Designators have to be in the same order as the data members in the Point class."
+    },
+    {
+        "question": "Will this code work in C++11?",
+        "options": [
+            "Yes, the code compiles in C++11 mode.",
+            "The code compiles starting with C++14 mode.",
+            "The code doesn't compile even in C++20."
+        ],
+        "answer": "The code compiles starting with C++14 mode."
+    },
+    {
+        "question": "Assume you have a std::map<string, int> m;. Select the single true statement about the following loop:",
+        "options": [
+            "A The loop properly iterates over the map, creating no extra copies.",
+            "B The loop will create a copy of each element in the map as the type of elem mismatches.",
+            "C The code won't compile as a const pair cannot bind to a map."
+        ],
+        "answer": "A The loop properly iterates over the map, creating no extra copies."
+    },
+    {
+        "question": "Identify the correct extension of the user-defined header file in C++.",
+        "options": [
+            ".cpp",
+            ".hg",
+            ".h",
+            ".hf"
+        ],
+        "answer": ".h"
+    },
+    {
+        "question": "#### Q139.Identify the incorrect constructor type.",
+        "options": [
+            "Friend Constructor",
+            "Default Constructor",
+            "Parameterised Constructor",
+            "CopyConstructor"
+        ],
+        "answer": "Friend Constructor"
+    },
+    {
+        "question": "#### Q140.Which of the following data types is supported in C++ but not in C?",
+        "options": [
+            "bool",
+            "int",
+            "double",
+            "float"
+        ],
+        "answer": "bool"
+    },
+    {
+        "question": "Identify the correct syntax for declaring arrays in C++.",
+        "options": [
+            "int arr[10]",
+            "array arr[10]",
+            "array{10}",
+            "int arr"
+        ],
+        "answer": "int arr[10]"
+    },
+    {
+        "question": "#### Q142.Size of wchat_t is.",
+        "options": [
+            "2",
+            "4",
+            "2 or 4",
+            "Depends on the number of bits in the system"
+        ],
+        "answer": "Depends on the number of bits in the system"
+    },
+    {
+        "question": "#### Q143.Which of the following loops is best when we know the number of iterations?",
+        "options": [
+            "while",
+            "for",
+            "do",
+            "All of the above"
+        ],
+        "answer": "for"
+    },
+    {
+        "question": "#### Q144.Which keyword is used to define the macros in C++?",
+        "options": [
+            "#macro",
+            "#define",
+            "macro",
+            "keyword"
+        ],
+        "answer": "#define"
+    },
+    {
+        "question": "#### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?",
+        "options": [
+            "Postfix ++",
+            "Comparison Operator",
+            "Insertion Operator <<",
+            "Prefix++"
+        ],
+        "answer": "Comparison Operator"
+    },
+    {
+        "question": "#### Q146.How can we restrict the dynamic allocation of objects of a class using new?",
+        "options": [
+            "By overloading new operator",
+            "By making an empty private new operator.",
+            "By making an empty private new and new[] operators",
+            "By overloading new operators and new[] operators"
+        ],
+        "answer": "By making an empty private new and new[] operators"
+    },
+    {
+        "question": "#### Q147.What is the time complexity of the below code?",
+        "options": [
+            "O(n^3)",
+            "O(n^2)",
+            "O(n)",
+            "O(1)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "question": "#### Q148.What is the output of the code given below?",
+        "options": [
+            "20",
+            "21",
+            "22",
+            "23"
+        ],
+        "answer": "22"
+    },
+    {
+        "question": "Which C++ construct is used for exception handling?",
+        "options": [
+            "try-catch",
+            "if-else",
+            "for loop",
+            "switch-case"
+        ],
+        "answer": "try-catch"
+    },
+    {
+        "question": "What is the purpose of the `break` statement in a loop in C++?",
+        "options": [
+            "Exit the program",
+            "Skip the current iteration and continue with the next one",
+            "Terminate the loop",
+            "Return a value"
+        ],
+        "answer": "Terminate the loop"
+    },
+    {
+        "question": "In C++, what is the purpose of the `const` keyword when used with a variable?",
+        "options": [
+            "It makes the variable immutable",
+            "It changes the data type",
+            "It defines a constant function",
+            "It makes the variable a pointer"
+        ],
+        "answer": "It makes the variable immutable"
+    },
+    {
+        "question": "Which is more effective while calling the C++ functions??",
+        "options": [
+            "Call by reference",
+            "Call by value",
+            "Call by pointer",
+            "Call by object"
+        ],
+        "answer": "Call by reference"
+    },
+    {
+        "question": "What will be the output of the following C++ program?",
+        "options": [
+            "Segmentation fault",
+            "\u201cConstructor called\u201d five times and then \u201cDestructor called\u201d five times",
+            "\u201cConstructor called\u201d five times and then \u201cDestructor called\u201d once",
+            "Error"
+        ],
+        "answer": "\u201cConstructor called\u201d five times and then \u201cDestructor called\u201d five times"
+    },
+    {
+        "question": "#### Q.154 What is the output of this code?",
+        "options": [
+            "1/2 = 0.499999",
+            "1/2 = 0",
+            "1/2 = 0.000000",
+            "1/2 = 0.5"
+        ],
+        "answer": "1/2 = 0.000000"
+    },
+    {
+        "question": "#### Q.155 Which choice is _not_ related to declaring the member variable count as static in my_class?",
+        "options": [
+            "All objects that try to access their count member variable actually refer to the only class-bound static count variable.",
+            "The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.",
+            "The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.",
+            "The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances."
+        ],
+        "answer": "The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it."
+    },
+    {
+        "question": "What is the purpose of the `constexpr` keyword in C++?",
+        "options": [
+            "It is used to define constants in C++.",
+            "`constexpr` is used to specify that a variable is a constant pointer.",
+            "`constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.",
+            "It is a keyword used to create asynchronous functions."
+        ],
+        "answer": "`constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions."
+    },
+    {
+        "question": "What is a template metaprogram in C++?",
+        "options": [
+            "A template metaprogram is a high-level programming language.",
+            "It refers to metaprogramming that uses templates in C++.",
+            "It's a type of user interface design pattern.",
+            "A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time."
+        ],
+        "answer": "A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time."
+    },
+    {
+        "question": "#### Q158.Identify the correct example for a pre-increment operator.",
+        "options": [
+            "++i",
+            "i++",
+            "--i",
+            "+i"
+        ],
+        "answer": "++i"
+    },
+    {
+        "question": "What will be the output of following code?",
+        "options": [
+            "Traspose of matrix",
+            "Same matrix",
+            "Mirror image of Matrix",
+            "Inverted matrix"
+        ],
+        "answer": "Same matrix",
+        "explanation": null,
+        "codeblock": null
+    }
+]

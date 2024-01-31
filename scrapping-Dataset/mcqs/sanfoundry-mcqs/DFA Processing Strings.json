@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The password to the admins account=\u201dadministrator\u201d. The total number of states required to make a password-pass system using DFA would be __________",
+        "options": [
+            "a) 14 states",
+            "b) 13 states",
+            "c) 12 states",
+            "d) A password pass system cannot be created using DFA"
+        ],
+        "answer": "a",
+        "explanation": "For a string of n characters with no repetitive substrings, the number of states required to pass the string is n+1."
+    },
+    {
+        "question": "Which of the following is the corresponding Language to the given DFA?",
+        "options": [
+            "a) L = {x \u03f5 {0, 1} * | x ends in 1 and does not contain substring 01}",
+            "b) L = {x \u03f5 {0,1} * |x ends in 1 and does not contain substring 00}",
+            "c) L = {x \u03f5 {0,1} |x ends in 1 and does not contain substring 00}",
+            "d) L = {x \u03f5 {0,1} * |x ends in 1 and does not contain substring 11}"
+        ],
+        "answer": "b",
+        "explanation": "The Language can be anonymously checked and thus the answer can be predicted. The language needs to be accepted by the automata (acceptance state) in order to prove its regularity."
+    },
+    {
+        "question": "Let \u2211= {a, b, \u2026. z} and A = {Hello, World}, B= {Input, Output}, then (A*\u2229B) U (B*\u2229A) can be represented as:",
+        "options": [
+            "a) {Hello, World, Input, Output, \u03b5}",
+            "b) {Hello, World, \u03b5}",
+            "c) {Input, Output, \u03b5}",
+            "d) {}"
+        ],
+        "answer": "d",
+        "explanation": "Union operation creates the universal set by combining all the elements of first and second set while intersection operation creates a set of common elements of the first and the second state."
+    },
+    {
+        "question": "Let the given DFA consist of x states. Find x-y such that y is the number of states on minimization of DFA?",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 1",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Use the equivalence theorem or Myphill Nerode theorem to minimize the DFA."
+    },
+    {
+        "question": "For a machine to surpass all the letters of alphabet excluding vowels, how many number of states in DFA would be required?",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 22",
+            "d) 27"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "For the DFA given below compute the following:",
+        "options": [
+            "a) {aba, ac, cc, ca, cb, bc, bab, ca}",
+            "b) {bab, bc, ac, aba, ca, aac, ccb}",
+            "c) {cc, ca, cb, aba, bab, ac}",
+            "d) {aba, ac, cc, ca, cb, bc, bab, caa}"
+        ],
+        "answer": "d",
+        "explanation": "The string a state receives is the combination of all input alphabets which lie across the path covered."
+    },
+    {
+        "question": "Given L= {X\u03f5\u2211*= {a, b} |x has equal number of a, s and b\u2019s}.",
+        "options": [
+            "a) Regularity is dependent upon the length of the string",
+            "b) Regularity is not dependent upon the length of the string",
+            "c) Can\u2019t be said for a particular string of a language",
+            "d) It may depend on the length of the string"
+        ],
+        "answer": "b",
+        "explanation": "DFA can be made for infinite language with an infinite length. Thus, dependency over length is unfruitful."
+    },
+    {
+        "question": "Given:",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "b",
+        "explanation": "It is not possible to have a count of equal number of 0 and 1 at any instant in DFA. Thus, It is not possible to build a DFA for the given Language."
+    },
+    {
+        "question": "\u03b4(A,1) = B, \u03b4(A,0) =A",
+        "options": [
+            "a) A",
+            "b) C",
+            "c) B",
+            "d) Invalid String"
+        ],
+        "answer": "a",
+        "explanation": "It is east and simple to create the table and then the corresponding transition graph in order to get the result, at which state the given string would be accepted."
+    }
+]

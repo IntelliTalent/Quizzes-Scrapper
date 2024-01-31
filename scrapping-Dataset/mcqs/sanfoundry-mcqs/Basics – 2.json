@@ -1,0 +1,87 @@
+[
+    {
+        "question": "What is output of getOption(\u201cdefaultPackages\u201d) in R studio?",
+        "options": [
+            "a) Installs a new package",
+            "b) Shows default packages in R",
+            "c) Error",
+            "d) Nothing will print"
+        ],
+        "answer": "b",
+        "explanation": "There are base packages (which come with R automatically), and contributed packages. The base packages are maintained by a select group of volunteers, called R Core. In addition to the base packages, there are over ten thousand additional contributed packages written by individuals all over the world."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": " Missing data are a persistent and prevalent problem in many statistical analyses, especially those associated with the social sciences. R reserves the special symbol NA to represent missing data. Ordinary arithmetic with NA value gives NA\u2019s (addition, subtraction, etc.) and applying a function to a vector that has a NA in it will usually give a NA."
+    },
+    {
+        "question": "R language is a dialect of which of the following languages?",
+        "options": [
+            "a) S",
+            "b) C",
+            "c) MATLAB",
+            "d) SAS"
+        ],
+        "answer": "a",
+        "explanation": "The R language is a dialect of S which was designed in the 1980s. Since the early 90\u2019s the life of the S language has gone down a rather winding path. The scoping rules for R are the main feature that makes it different from the original S language."
+    },
+    {
+        "question": "R language has superficial similarity with _________",
+        "options": [
+            "a) C",
+            "b) Python",
+            "c) MATLAB",
+            "d) SAS"
+        ],
+        "answer": "a",
+        "explanation": "The language syntax has a superficial similarity with C, but the semantics are of the FPL (functional programming language) variety with stronger affinities with Lisp and APL. There are many syntaxes in C, which are closely resembled with R."
+    },
+    {
+        "question": "What is the mode of \u2018a\u2019 in the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "All three elements can be expressed as a character. Both paste() and cat() will printout text to the console by combining multiple character vectors together. The original data are formatted as character strings so we convert them to R\u2019s Date format for easier manipulation."
+    },
+    {
+        "question": "What is the length of b?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Length of b [1] 2 3 4 5 6 7 is 6. We can also create an empty list of a prespecified length with the vector() function. Data frames are represented as a special type of list where every element of the list has to have the same length."
+    },
+    {
+        "question": "What is the mode of b in the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "All the elements in \u2018b\u2019 can be expressed in numeric. Both paste() and cat() will printout text to the console by combining multiple character vectors together. The original data are formatted as character strings so we convert them to R\u2019s Data format for easier manipulation."
+    },
+    {
+        "question": "What are the typeof(x) and mode(x) in the following R syntax?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Here typeof() tells about the data type. They are an important type of object in R and are used in a variety of statistical modelling applications. You can determine an object\u2019s type with the typeof function."
+    },
+    {
+        "question": "How many atomic vector types does R have?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 8",
+            "d) 10"
+        ],
+        "answer": "b",
+        "explanation": "R language has 6 atomic data types. They are logical, integer, real, complex, string (or character) and raw. There is also a class for \u201craw\u201d objects, but they are not commonly used directly in data analysis."
+    },
+    {
+        "question": "What is the function to set row names for a data frame?",
+        "options": [
+            "a) row.names()",
+            "b) colnames()",
+            "c) col.names()",
+            "d) column name cannot be set for a data frame"
+        ],
+        "answer": "a",
+        "explanation": "row.names() is the function to set row names for a data frame. Data frames have a special attribute called row.names, which indicate information about each row of the data frame."
+    }
+]

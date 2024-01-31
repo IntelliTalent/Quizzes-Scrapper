@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A bridge can not be a part of _______",
+        "options": [
+            "a) a simple cycle",
+            "b) a tree",
+            "c) a clique with size \u2265 3 whose every edge is a bridge",
+            "d) a graph which contains cycles"
+        ],
+        "answer": "a",
+        "explanation": "In a connected graph, a bridge is an edge whose removal disconnects the graph. In a cycle if we remove an edge, it will still be connected. So, bridge cannot be part of a cycle. A clique is any complete subgraph of a graph."
+    },
+    {
+        "question": "Any subset of edges that connects all the vertices and has minimum total weight, if all the edge weights of an undirected graph are positive is called _______",
+        "options": [
+            "a) subgraph",
+            "b) tree",
+            "c) hamiltonian cycle",
+            "d) grid"
+        ],
+        "answer": "b",
+        "explanation": "If all the edge weights of an undirected graph are positive, any subset of edges that connects all the vertices and has minimum total weight is termed as a tree. In this case, we need to have a minimum spanning tree need to be exact."
+    },
+    {
+        "question": "G is a simple undirected graph and some vertices of G are of odd degree. Add a node n to G and make it adjacent to each odd degree vertex of G. The resultant graph is ______",
+        "options": [
+            "a) Complete bipartite graph",
+            "b) Hamiltonian cycle",
+            "c) Regular graph",
+            "d) Euler graph"
+        ],
+        "answer": "d",
+        "explanation": "In any simple undirected graph, total degree of all vertices is even (since each edge contributes 2 degrees). So number of vertices having odd degrees must be even, otherwise, their sum would have been odd, making total degree also odd. Now single vertex n is connected to all these even number of vertices (which have odd degrees). So, degree of n is also even. Moreover, now degree of all vertices which are connected to v is increased by 1, hence earlier vertices which had odd degree now have even degree. So now, all vertices in the graph have even degree, which is necessary and sufficient condition for euler graph."
+    },
+    {
+        "question": "Let G be a directed graph whose vertex set is the set of numbers from 1 to 50. There is an edge from a vertex i to a vertex j if and only if either j = i + 1 or j = 3i. Calculate the minimum number of edges in a path in G from vertex 1 to vertex 50.",
+        "options": [
+            "a) 98",
+            "b) 13",
+            "c) 6",
+            "d) 34"
+        ],
+        "answer": "c",
+        "explanation": "Edge set consists of edges from i to j using either 1) j = i+1 OR 2) j=3i. The trick to solving this question is to think in a reverse way. Instead of finding a path from 1 to 50, try to find a path from 100 to 1. The edge sequence with the minimum number of edges is 1 \u2013 3 \u2013 9 \u2013 10 \u2013 11 \u2013 33 which consists of 6 edges."
+    },
+    {
+        "question": "What is the number of vertices in an undirected connected graph with 39 edges, 7 vertices of degree 2, 2 vertices of degree 5 and remaining of degree 6?",
+        "options": [
+            "a) 11",
+            "b) 14",
+            "c) 18",
+            "d) 19"
+        ],
+        "answer": "c",
+        "explanation": "We know that, sum of degree of all the vertices = 2 * number of edges"
+    },
+    {
+        "question": "______ is the maximum number of edges in an acyclic undirected graph with k vertices.",
+        "options": [
+            "a) k-1",
+            "b) k",
+            "c) 2k+3",
+            "d) k"
+        ],
+        "answer": "a",
+        "explanation": "This is possible with spanning trees since, a spanning tree with k nodes has k \u2013 1 edges."
+    },
+    {
+        "question": "The minimum number of edges in a connected cyclic graph on n vertices is _____________",
+        "options": [
+            "a) n \u2013 1",
+            "b) n",
+            "c) 2n+3",
+            "d) n+1"
+        ],
+        "answer": "b",
+        "explanation": "For making a cyclic graph, the minimum number of edges have to be equal to the number of vertices. SO, the answer should be n minimum edges."
+    },
+    {
+        "question": "The maximum number of edges in a 8-node undirected graph without self loops is ____________",
+        "options": [
+            "a) 45",
+            "b) 61",
+            "c) 28",
+            "d) 17"
+        ],
+        "answer": "c",
+        "explanation": "In a graph of n vertices we can draw an edge from a vertex to n-1 vertex we will do it for n vertices and so total number of edges is n*(n-1). Now each edge is counted twice so the required maximum number of edges is n*(n-1)/2. Hence, 8*(8-1)/2 = 28 edges."
+    },
+    {
+        "question": "Let G be an arbitrary graph with v nodes and k components. If a vertex is removed from G, the number of components in the resultant graph must necessarily lie down between _____ and _____",
+        "options": [
+            "a) n-1 and n+1",
+            "b) v and k",
+            "c) k+1 and v-k",
+            "d) k-1 and v-1"
+        ],
+        "answer": "d",
+        "explanation": "If a vertex is removed from the graph, lower bound: number of components decreased by one = k-1 (remove an isolated vertex which was a component) and upper bound: number of components = v-1 (consider a vertex connected to all other vertices in a component as in a star and all other vertices outside this component being isolated. Now, removing the considered vertex makes all other (v-1) vertices isolated making (v-1) components."
+    },
+    {
+        "question": "The 2",
+        "options": [
+            "a) n+2",
+            "b) 3",
+            "c) n",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "n+1(subsets of size < 2 are all disconnected) (subsets of size >= 2 are all connected)+1(subset of size >= 2 are all connected)=n+2 is the number of connected components in G."
+    }
+]

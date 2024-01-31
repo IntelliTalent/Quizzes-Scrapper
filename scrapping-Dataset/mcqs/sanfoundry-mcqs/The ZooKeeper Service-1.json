@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Zookeeper essentially mirrors the _______ functionality exposed in the Linux kernel.",
+        "options": [
+            "a) iread",
+            "b) inotify",
+            "c) iwrite",
+            "d) icount"
+        ],
+        "answer": "b",
+        "explanation": "A client can request for Zookeeper to generate the node name to avoid collisions."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) If we are to deploy Zookeeper in a distributed environment, we have to think about both the availability and scalability of the service",
+            "b) Chubby and Hbase are both much more than a distributed lock service",
+            "c) Given a cluster of Zookeeper servers, many can act as leader",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "At its core, Zookeeper is modeled after a straightforward, tree based, file system API."
+    },
+    {
+        "question": " A ___________ server is a machine that keeps a copy of the state of the entire system and persists this information in local log files.",
+        "options": [
+            "a) Master",
+            "b) Region",
+            "c) Zookeeper",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A very large Hadoop cluster can be supported by multiple ZooKeeper servers."
+    },
+    {
+        "question": "ZooKeeper\u2019s architecture supports high ____________ through redundant services.",
+        "options": [
+            "a) flexibility",
+            "b) scalability",
+            "c) availability",
+            "d) interactivity"
+        ],
+        "answer": "c",
+        "explanation": "The clients can thus ask another ZooKeeper master if the first fails to answer."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Cluster-wide status centralization service is essential for management and serialization tasks across a large distributed set of servers",
+            "b) Within ZooKeeper, an application can create what is called a znode",
+            "c) The znode can be updated by any node in the cluster, and any node in the cluster can register to be informed of changes to that znode",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "ZooKeeper provides an infrastructure for cross-node synchronization and can be used by applications to ensure that tasks across the cluster are serialized or synchronized."
+    },
+    {
+        "question": "_________ serves distributed Lucene indexes in a grid environment.",
+        "options": [
+            "a) Katta",
+            "b) Helprace",
+            "c) Neo4j",
+            "d) 101tec"
+        ],
+        "answer": "a",
+        "explanation": "Zookeeper is used for node, master and index management in the grid."
+    },
+    {
+        "question": "The Email & Apps team of ___________ uses ZooKeeper to coordinate sharding and responsibility changes in a distributed email client.",
+        "options": [
+            "a) Katta",
+            "b) Helprace",
+            "c) Rackspace",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "ZooKeeper also provides distributed locking for connections to prevent a cluster from overwhelming servers."
+    },
+    {
+        "question": "ZooKeeper is used for configuration, leader election in Cloud edition of ______________",
+        "options": [
+            "a) Solr",
+            "b) Solur",
+            "c) Solar101",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ZooKeeper is used for internal application development with Solr and Hadoop with Hbase."
+    },
+    {
+        "question": "Helprace is using ZooKeeper on a _______ cluster in conjunction with Hadoop and HBase.",
+        "options": [
+            "a) 3-node",
+            "b) 4-node",
+            "c) 5-node",
+            "d) 6-node"
+        ],
+        "answer": "a",
+        "explanation": "Zookeeper is used to manage a system build out of hadoop, katta, oracle batch jobs and a web component."
+    },
+    {
+        "question": "The ZooKeeper Data Directory contains files which are _________ copy of the znodes stored by a particular serving ensemble.",
+        "options": [
+            "a) transient",
+            "b) read only",
+            "c) persistent",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "As changes are made to the znodes these changes are appended to a transaction log, occasionally, when a log grows large, a snapshot of the current state of all znodes will be written to the filesystem."
+    }
+]

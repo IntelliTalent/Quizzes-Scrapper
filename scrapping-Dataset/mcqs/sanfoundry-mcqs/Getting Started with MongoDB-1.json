@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ is a part of the standard MongoDB distribution and provides a full JavaScript environment.",
+        "options": [
+            "a) mongod",
+            "b) mongodb",
+            "c) mongo",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "mongo provides complete access to the JavaScript language and all standard functions as well as a full database interface for MongoDB."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MMS provides backup and monitoring",
+            "b) MongoDB can also be configured for data replication",
+            "c) MMS is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB is limited to a total data size of about 2GB for all databases in 32-bit mode."
+    },
+    {
+        "question": "mongo looks for a database server listening on port 27017 on the ________ interface.",
+        "options": [
+            "a) web",
+            "b) localhost",
+            "c) web host",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To connect to a server on a different port or interface, use the \u2013port and \u2013host options."
+    },
+    {
+        "question": "After starting the mongo shell, your session will use the ________ database by default.",
+        "options": [
+            "a) mongo",
+            "b) master",
+            "c) test",
+            "d) primary"
+        ],
+        "answer": "c",
+        "explanation": "At any time, db operation at the mongo shell is used to report the name of the current database."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB works right out of the box, and you can dive right into developing your application, instead of spending a lot of time fine-tuning obscure database configurations",
+            "b) MongoDB works hard to be very easy to install, configure, maintain, and use",
+            "c) MongoDB does not provide a lot of the features of a traditional RDBMS",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB focuses on flexibility, power, speed, and ease of use."
+    },
+    {
+        "question": "___________ command display the list of databases.",
+        "options": [
+            "a) show db",
+            "b) show dbs",
+            "c) show data",
+            "d) display dbs"
+        ],
+        "answer": "b",
+        "explanation": "Show dbs print a list of all databases on the server."
+    },
+    {
+        "question": "Which of the following operation is used to switch to new database mydb?",
+        "options": [
+            "a) use dbs",
+            "b) use db",
+            "c) use mydb",
+            "d) use mydbs"
+        ],
+        "answer": "c",
+        "explanation": ".Confirm that your session has the mydb database as context, by checking the value of the db object, which returns the name of the current database."
+    },
+    {
+        "question": "Which of the following also returns a list of databases?",
+        "options": [
+            "a) show databases",
+            "b) show database",
+            "c) display dbs",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "show databases is new in version 2.4."
+    },
+    {
+        "question": "Command to check existence of collection is _____________",
+        "options": [
+            "a) show collection",
+            "b) show collections",
+            "c) show collect",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mongo shell will return the list of the collections in the current database."
+    },
+    {
+        "question": "Which of the following method is used to query documents in collections?",
+        "options": [
+            "a) find",
+            "b) move",
+            "c) shell",
+            "d) replace"
+        ],
+        "answer": "a",
+        "explanation": "The find() method with no parameters returns all documents from a collection and returns all fields for the documents."
+    }
+]

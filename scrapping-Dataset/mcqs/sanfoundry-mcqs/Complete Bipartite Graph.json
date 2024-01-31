@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which type of graph has all the vertex of the first set connected to all the vertex of the second set?",
+        "options": [
+            "a) Bipartite",
+            "b) Complete Bipartite",
+            "c) Cartesian",
+            "d) Pie"
+        ],
+        "answer": "b",
+        "explanation": "The graph is known as Bipartite if the graph does not contain any odd length cycle in it. The complete bipartite graph has all the vertex of first set connected to all the vertex of second set."
+    },
+    {
+        "question": "Which graph is also known as biclique?",
+        "options": [
+            "a) Histogram",
+            "b) Complete Bipartite",
+            "c) Cartesian",
+            "d) Tree"
+        ],
+        "answer": "b",
+        "explanation": "A graph is known as complete bipartite graph if and only if it has all the vertex of first set connected to all the vertex of second set. Complete Bipartite graph is also known as Biclique."
+    },
+    {
+        "question": "Which term defines all the complete bipartite graph that are trees?",
+        "options": [
+            "a) Symmetric",
+            "b) Anti \u2013 Symmetric",
+            "c) Circular",
+            "d) Stars"
+        ],
+        "answer": "d",
+        "explanation": "Star is a complete bipartite graph with one internal node and k leaves. Therefore, all complete bipartite graph which is trees are known as stars in graph theory."
+    },
+    {
+        "question": "How many edges does a n vertex triangle free graph contains?",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) n",
+            "d) n"
+        ],
+        "answer": "c",
+        "explanation": "A n vertex triangle free graph contains a total of n"
+    },
+    {
+        "question": "Which graph is used to define the claw free graph?",
+        "options": [
+            "a) Bipartite Graph",
+            "b) Claw Graph",
+            "c) Star Graph",
+            "d) Cartesian Graph"
+        ],
+        "answer": "b",
+        "explanation": "Star is a complete bipartite graph with one internal node and k leaves. Star with three edges is called a claw. Hence this graph is used to define claw free graph."
+    },
+    {
+        "question": "What is testing of a complete bipartite subgraph in a bipartite graph problem called?",
+        "options": [
+            "a) P Problem",
+            "b) P-Complete Problem",
+            "c) NP Problem",
+            "d) NP-Complete Problem"
+        ],
+        "answer": "d",
+        "explanation": "NP stands for nondeterministic polynomial time. In a bipartite graph, the testing of a complete bipartite subgraph in a bipartite graph is an NP-Complete Problem."
+    },
+    {
+        "question": "Which graph cannot contain K3, 3 as a minor of graph?",
+        "options": [
+            "a) Planar Graph",
+            "b) Outer Planar Graph",
+            "c) Non Planar Graph",
+            "d) Inner Planar Graph"
+        ],
+        "answer": "a",
+        "explanation": "Minor graph is formed by deleting certain number of edges from a graph or by deleting certain number off vertices from a graph. Hence Planar graph cannot contain K3, 3 as a minor graph."
+    },
+    {
+        "question": "Which of the following is not an Eigen value of the adjacency matrix of the complete bipartite graph?",
+        "options": [
+            "a) (nm)",
+            "b) (-nm)",
+            "c) 0",
+            "d) nm"
+        ],
+        "answer": "d",
+        "explanation": "The adjacency matrix is a square matrix that is used to represent a finite graph. Therefore, the Eigen values for the complete bipartite graph is found to be (nm)"
+    },
+    {
+        "question": "Which complete graph is not present in minor of Outer Planar Graph?",
+        "options": [
+            "a) K3, 3",
+            "b) K3, 1",
+            "c) K3, 2",
+            "d) K1, 1"
+        ],
+        "answer": "c",
+        "explanation": "Minor graph is formed by deleting certain number of edges from a graph or by deleting certain number off vertices from a graph. Hence Outer Planar graph cannot contain K3, 2 as a minor graph."
+    },
+    {
+        "question": "Is every complete bipartite graph a Moore Graph.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In graph theory, Moore graph is defined as a regular graph that has a degree d and diameter k. therefore, every complete bipartite graph is a Moore Graph."
+    },
+    {
+        "question": "What is the multiplicity for the adjacency matrix of complete bipartite graph for 0 Eigen value?",
+        "options": [
+            "a) 1",
+            "b) n + m \u2013 2",
+            "c) 0",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "The adjacency matrix is a square matrix that is used to represent a finite graph. The multiplicity of the adjacency matrix off complete bipartite graph with Eigen Value 0 is n + m \u2013 2."
+    },
+    {
+        "question": "Which of the following is not an Eigen value of the Laplacian matrix of the complete bipartite graph?",
+        "options": [
+            "a) n + m",
+            "b) n",
+            "c) 0",
+            "d) n*m"
+        ],
+        "answer": "d",
+        "explanation": "The laplacian matrix is used to represent a finite graph in the mathematical field of Graph Theory. Therefore, the Eigen values for the complete bipartite graph is found to be n + m, n, m, 0."
+    },
+    {
+        "question": "What is the multiplicity for the laplacian matrix of the complete bipartite graph for n Eigen value?",
+        "options": [
+            "a) 1",
+            "b) m-1",
+            "c) n-1",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "The laplacian matrix is used to represent a finite graph in the mathematical field of Graph Theory. The multiplicity of the laplacian matrix of complete bipartite graph with Eigen Value n is m-1."
+    },
+    {
+        "question": "Is it true that every complete bipartite graph is a modular graph.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Yes, the modular graph in graph theory is defined as an undirected graph in which all three vertices have at least one median vertex. So all complete bipartite graph is called modular graph."
+    },
+    {
+        "question": "How many spanning trees does a complete bipartite graph contain?",
+        "options": [
+            "a) n",
+            "b) m",
+            "c) 1",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "Spanning tree of a given graph is defined as the subgraph or the tree with all the given vertices but having minimum number of edges. So, there are a total of m"
+    }
+]

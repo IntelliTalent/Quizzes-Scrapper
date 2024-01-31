@@ -1,0 +1,161 @@
+[
+    {
+        "question": "To publish a REST service with Spring.",
+        "options": [
+            "a) publishing an application\u2019s data as a REST service",
+            "b) accessing data from third-party REST services",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "One involves publishing an application\u2019s data as a REST service, the other one involves accessing data from third-party REST services to be used in an application."
+    },
+    {
+        "question": "Publishing an application\u2019s data as a REST service requires.",
+        "options": [
+            "a) @RequestMapping",
+            "b) @PathVariable",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Publishing an application\u2019s data as a REST service revolves around the use of the Spring MVC annotations @RequestMapping and @PathVariable."
+    },
+    {
+        "question": "Spring supports a series of mechanisms to generate a REST service payload.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This recipe will explore the simplest mechanism, which involves the use of Spring\u2019s MarshallingView class."
+    },
+    {
+        "question": "Annotation added as an input parameter to the handler method.",
+        "options": [
+            "a) @PathVariable",
+            "b) @Path",
+            "c) @PathLocale",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The @PathVariable annotation is added as an input parameter to the handler method, per Spring\u2019s MVC conventions, in order for it to be used inside the handler method body."
+    },
+    {
+        "question": "Notation for defining REST endpoints.",
+        "options": [
+            "a) { }",
+            "b) *",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In addition to supporting the { } notation, it\u2019s also possible to use a wildcard * notation for defining REST endpoints."
+    },
+    {
+        "question": "General-purpose class that allows a response to be rendered using a marshaller.",
+        "options": [
+            "a) MarshallingView",
+            "b) Marshalling",
+            "c) View",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The membertemplate view is defined as a MarshallingView type, which is a general-purpose class that allows a response to be rendered using a marshaller."
+    },
+    {
+        "question": "Marshalling is the process of transforming an in-memory representation of an object into a data format.a",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Therefore, for this particular case, a marshaller is charged with transforming a Member object into an XML data format."
+    },
+    {
+        "question": "The marshaller used by MarshallingView belongs to one of a series of XML marshallers.",
+        "options": [
+            "a) Jaxb2Marshaller",
+            "b) XmlBeansMarshaller",
+            "c) CastorMarshalle",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The marshaller used by MarshallingView belongs to one of a series of XML marshallers provided by Spring\u2014Jaxb2Marshaller. Other marshallers provided by Spring include CastorMarshaller, JibxMarshaller, XmlBeansMarshaller, and XStreamMarshaller."
+    },
+    {
+        "question": "To configure Jaxb2Marshaller marshaller we require.",
+        "options": [
+            "a) ClassesToBeBound",
+            "b) ContextPath",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Jaxb2Marshaller marshaller requires to be configured with either a property named classesToBeBound or contextPath."
+    },
+    {
+        "question": "In the case of classesToBeBound, the classes assigned to this property, indicate the class (i.e., object) structure that is to be transformed into XML.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Jaxb2Marshaller marshaller requires to be configured with either a property named classesToBeBound or contextPath."
+    },
+    {
+        "question": "Annotation which allows the Jaxb2Marshaller marshaller to detect a class\u2019s (i.e., object\u2019s) fields.",
+        "options": [
+            "a) @XmlRootElement",
+            "b) @XmlRoot",
+            "c) @NotNull",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This annotation allows the Jaxb2Marshaller marshaller to detect a class\u2019s (i.e., object\u2019s) fields and transform them into XML data."
+    },
+    {
+        "question": "Accessing a third-party REST service inside a Spring application.",
+        "options": [
+            "a) RestTemplate Class",
+            "b) ViewResolver",
+            "c) InternalViewResolver",
+            "d) View"
+        ],
+        "answer": "a",
+        "explanation": "Accessing a third-party REST service inside a Spring application revolves around the use of the Spring RestTemplate class."
+    },
+    {
+        "question": "REST service end point comprises an address.",
+        "options": [
+            "a) starts with http:// and ends with ?",
+            "b) starts with http:// and ends with &",
+            "c) no certain URL is specified",
+            "d) depends upon the platform used"
+        ],
+        "answer": "a",
+        "explanation": "The structure of the REST service end point comprises an address, which starts with http:// and ends with ?, as well as a series of parameters that start with ? and are delimited by &, each represented by a key and value divided by =."
+    },
+    {
+        "question": "XML tag which represents information related to a REST service request.",
+        "options": [
+            "a) Result",
+            "b) Title",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The actual meaning of the payload is highly dependent on a REST service. In this case, the XML tags (e.g., Result, Title ) are definitions set forth by Yahoo, while the character data enclosed in each XML tag represents information related to a REST service request."
+    },
+    {
+        "question": "RestTemplate class method which performs an HTTP HEAD operation.",
+        "options": [
+            "a) headForHeaders(String, Object\u2026)",
+            "b) getForObject(String, Class, Object\u2026)",
+            "c) postForLocation(String, Object, Object\u2026)",
+            "d) postForObject(String, Object, Class, Object\u2026)"
+        ],
+        "answer": "a",
+        "explanation": "headforHeaders() is a RestTemplate class method based on HTTP protocol request methods."
+    }
+]

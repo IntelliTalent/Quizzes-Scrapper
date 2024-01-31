@@ -1,0 +1,571 @@
+[
+    {
+        "question": "Who invented OOP?",
+        "options": [
+            "a) Andrea Ferro",
+            "b) Adele Goldberg",
+            "c) Alan Kay",
+            "d) Dennis Ritchie"
+        ],
+        "answer": "c",
+        "explanation": "Alan Kay invented OOP, Andrea Ferro was a part of SmallTalk Development. Dennis invented C++ and Adele Goldberg was in team to develop SmallTalk but Alan actually had got rewarded for OOP."
+    },
+    {
+        "question": "Which is not a feature of OOP in general definitions?",
+        "options": [
+            "a) Efficient Code",
+            "b) Code reusability",
+            "c) Modularity",
+            "d) Duplicate/Redundant data"
+        ],
+        "answer": "d",
+        "explanation": "Duplicate/Redundant data is dependent on programmer and hence can\u2019t be guaranteed by OOP. Code reusability is done using inheritance. Modularity is supported by using different code files and classes. Codes are more efficient because of features of OOP."
+    },
+    {
+        "question": "Which was the first purely object oriented programming language developed?",
+        "options": [
+            "a) Kotlin",
+            "b) SmallTalk",
+            "c) Java",
+            "d) C++"
+        ],
+        "answer": "b",
+        "explanation": "SmallTalk was the first programming language developed which was purely object oriented. It was developed by Alan Kay. OOP concept came into the picture in 1970\u2019s."
+    },
+    {
+        "question": "When OOP concept did first came into picture?",
+        "options": [
+            "a) 1980\u2019s",
+            "b) 1995",
+            "c) 1970\u2019s",
+            "d) 1993"
+        ],
+        "answer": "c",
+        "explanation": "OOP first came into picture in 1970\u2019s by Alan and his team. Later it was used by some programming languages and got implemented successfully, SmallTalk was first language to use pure OOP and followed all rules strictly."
+    },
+    {
+        "question": "Which feature of OOP indicates code reusability?",
+        "options": [
+            "a) Abstraction",
+            "b) Polymorphism",
+            "c) Encapsulation",
+            "d) Inheritance"
+        ],
+        "answer": "d",
+        "explanation": "Inheritance indicates the code reusability. Encapsulation and abstraction are meant to hide/group data into one element. Polymorphism is to indicate different tasks performed by a single entity."
+    },
+    {
+        "question": "Which header file is required in C++ to use OOP?",
+        "options": [
+            "a) OOP can be used without using any header file",
+            "b) stdlib.h",
+            "c) iostream.h",
+            "d) stdio.h"
+        ],
+        "answer": "a",
+        "explanation": "We need not include any specific header file to use OOP concept in C++, only specific functions used in code need their respective header files to be included or classes should be defined if needed."
+    },
+    {
+        "question": "Why Java is Partially OOP language?",
+        "options": [
+            "a) It allows code to be written outside classes",
+            "b) It supports usual declaration of primitive data types",
+            "c) It does not support pointers",
+            "d) It doesn\u2019t support all types of inheritance"
+        ],
+        "answer": "b",
+        "explanation": "As Java supports usual declaration of data variables, it is partial implementation of OOP. Because according to rules of OOP, object constructors must be used, even for declaration of variables."
+    },
+    {
+        "question": "Which among the following doesn\u2019t come under OOP concept?",
+        "options": [
+            "a) Data hiding",
+            "b) Message passing",
+            "c) Platform independent",
+            "d) Data binding"
+        ],
+        "answer": "c",
+        "explanation": "Platform independence is not feature of OOP. C++ supports OOP but it\u2019s not a platform independent language. Platform independence depends on the programming language."
+    },
+    {
+        "question": "Which is the correct syntax of inheritance?",
+        "options": [
+            "a) class base_classname :access derived_classname{ /*define class body*/ };",
+            "b) class derived_classname : access base_classname{ /*define class body*/ };",
+            "c) class derived_classname : base_classname{ /*define class body*/ };",
+            "d) class base_classname : derived_classname{ /*define class body*/ };"
+        ],
+        "answer": "b",
+        "explanation": "Firstly, keyword class should come, followed by the derived class name. Colon is must followed by access in which base class has to be derived, followed by the base class name. And finally the body of class. Semicolon after the body is also must."
+    },
+    {
+        "question": "Which feature of OOP is indicated by the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Encapsulation is indicated by use of classes. Inheritance is shown by inheriting the student class into topper class. Polymorphism is not shown here because we have defined the constructor in the topper class but that doesn\u2019t mean that default constructor is overloaded."
+    },
+    {
+        "question": "The feature by which one object can interact with another object is _____________",
+        "options": [
+            "a) Message reading",
+            "b) Message Passing",
+            "c) Data transfer",
+            "d) Data Binding"
+        ],
+        "answer": "b",
+        "explanation": "The interaction between two object is called the message passing feature. Data transfer is not a feature of OOP. Also, message reading is not a feature of OOP."
+    },
+    {
+        "question": "Which among the following, for a pure OOP language, is true?",
+        "options": [
+            "a) The language should follow at least 1 feature of OOP",
+            "b) The language must follow only 3 features of OOP",
+            "c) The language must follow all the rules of OOP",
+            "d) The language should follow 3 or more features of OOP"
+        ],
+        "answer": "c",
+        "explanation": "The language must follow all the rules of OOP to be called a purely OOP language. Even if a single OOP feature is not followed, then it\u2019s known to be a partially OOP language."
+    },
+    {
+        "question": "How many types of access specifiers are provided in OOP (C++)?",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 2",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "Only 3 types of access specifiers are available. Namely, private, protected and public. All these three can be used according to the need of security of members."
+    },
+    {
+        "question": "In multilevel inheritance, which is the most significant feature of OOP used?",
+        "options": [
+            "a) Code efficiency",
+            "b) Code readability",
+            "c) Flexibility",
+            "d) Code reusability"
+        ],
+        "answer": "d",
+        "explanation": "The classes using multilevel inheritance will use the code in all the subsequent subclasses if available. Hence the most significant feature among the options given is code reusability. This feature is generally intended to use the data values and reuse the redundant functions."
+    },
+    {
+        "question": "What is encapsulation in OOP?",
+        "options": [
+            "a) It is a way of combining various data members and member functions that operate on those data members into a single unit",
+            "b) It is a way of combining various data members and member functions into a single unit which can operate on any data",
+            "c) It is a way of combining various data members into a single unit",
+            "d) It is a way of combining various member functions into a single unit"
+        ],
+        "answer": "a",
+        "explanation": "It is a way of combining both data members and member functions, which operate on those data members, into a single unit. We call it a class in OOP generally. This feature have helped us modify the structures used in C language to be upgraded into class in C++ and other languages."
+    },
+    {
+        "question": "Which of the following is not true about polymorphism?",
+        "options": [
+            "a) Helps in redefining the same functionality",
+            "b) Increases overhead of function definition always",
+            "c) It is feature of OOP",
+            "d) Ease in readability of program"
+        ],
+        "answer": "b",
+        "explanation": "It never increases function definition overhead, one way or another if you don\u2019t use polymorphism, you will use the definition in some other way, so it actually helps to write efficient codes."
+    },
+    {
+        "question": "Which constructor will be called from the object created in the below C++ code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "When a default constructor is defined and another constructor with 1 default value argument is defined, creating object without parameter will create ambiguity for the compiler. The compiler won\u2019t be able to decide which constructor should be called, hence compile time error."
+    },
+    {
+        "question": "What is an abstraction in object-oriented programming?",
+        "options": [
+            "a) Hiding the implementation and showing only the features",
+            "b) Hiding the important data",
+            "c) Hiding the implementation",
+            "d) Showing the important data"
+        ],
+        "answer": "a",
+        "explanation": "It includes hiding the implementation part and showing only the required data and features to the user. It is done to hide the implementation complexity and details from the user. And to provide a good interface in programming."
+    },
+    {
+        "question": "Which among the following can show polymorphism?",
+        "options": [
+            "a) Overloading &&",
+            "b) Overloading <<",
+            "c) Overloading ||",
+            "d) Overloading +="
+        ],
+        "answer": "b",
+        "explanation": "Only insertion operator can be overloaded among all the given options. And the polymorphism can be illustrated here only if any of these is applicable of being overloaded. Overloading is type of polymorphism."
+    },
+    {
+        "question": "In which access should a constructor be defined, so that object of the class can be created in any function?",
+        "options": [
+            "a) Any access specifier will work",
+            "b) Private",
+            "c) Public",
+            "d) Protected"
+        ],
+        "answer": "c",
+        "explanation": "Constructor function should be available to all the parts of program where the object is to be created. Hence it is advised to define it in public access, so that any other function is able to create objects."
+    },
+    {
+        "question": "Which among the following is correct for the class defined below?",
+        "options": [],
+        "answer": "d",
+        "explanation": "It is a special case of constructor with only 1 argument. While calling a constructor with one argument, you are actually implicitly creating a conversion from the argument type to the type of class. Hence you can directly specify the value of that one argument with assignment operator."
+    },
+    {
+        "question": "The copy constructors can be used to ________",
+        "options": [
+            "a) Copy an object so that it can be passed to another primitive type variable",
+            "b) Copy an object for type casting",
+            "c) Copy an object so that it can be passed to a function",
+            "d) Copy an object so that it can be passed to a class"
+        ],
+        "answer": "c",
+        "explanation": "When an object is passed to a function, actually its copy is made in the function. To copy the values, copy constructor is used. Hence the object being passed and object being used in function are different."
+    },
+    {
+        "question": "Which constructor will be called from the object obj2 in the following C++ program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The two argument constructor will be called as we are passing 2 arguments to the object while creation. The arguments will be passed together and hence compiler resolves that two argument constructor have to be called."
+    },
+    {
+        "question": "Which among the following represents correct constructor?",
+        "options": [
+            "a) \u2013classname()",
+            "b) classname()",
+            "c) ()classname",
+            "d) ~classname()"
+        ],
+        "answer": "b",
+        "explanation": "The constructors must contain only the class name. The class name is followed by the blank parenthesis or we can have parameters if some values are to be passed."
+    },
+    {
+        "question": "What happens when an object is passed by reference?",
+        "options": [
+            "a) Destructor is called at end of function",
+            "b) Destructor is called when called explicitly",
+            "c) Destructor is not called",
+            "d) Destructor is called when function is out of scope"
+        ],
+        "answer": "c",
+        "explanation": "The destructor is never called in this situation. The concept is that when an object is passed by reference to the function, the constructor is not called, but only the main object will be used. Hence no destructor will be called at end of function."
+    },
+    {
+        "question": "Which access specifier is usually used for data members of a class?",
+        "options": [
+            "a) Protected",
+            "b) Private",
+            "c) Public",
+            "d) Default"
+        ],
+        "answer": "b",
+        "explanation": "All the data members should be made private to ensure the highest security of data. In special cases we can use public or protected access, but it is advised to keep the data members private always."
+    },
+    {
+        "question": "How to access data members of a class?",
+        "options": [
+            "a) Dot, arrow or direct call",
+            "b) Dot operator",
+            "c) Arrow operator",
+            "d) Dot or arrow as required"
+        ],
+        "answer": "d",
+        "explanation": "The data members can never be called directly. Dot operator is used to access the members with help of object of class. Arrow is usually used if pointers are used."
+    },
+    {
+        "question": "Which feature of OOP reduces the use of nested classes?",
+        "options": [
+            "a) Inheritance",
+            "b) Binding",
+            "c) Abstraction",
+            "d) Encapsulation"
+        ],
+        "answer": "a",
+        "explanation": "Using inheritance we can have the security of the class being inherited. The subclass can access the members of parent class. And have more feature than a nested class being used."
+    },
+    {
+        "question": "Which keyword among the following can be used to declare an array of objects in java?",
+        "options": [
+            "a) allocate",
+            "b) arr",
+            "c) new",
+            "d) create"
+        ],
+        "answer": "c",
+        "explanation": "The keyword new can be used to declare an array of objects in java. The syntax must be specified with an object pointer which is assigned with a memory space containing the required number of object space. Even initialization can be done directly."
+    },
+    {
+        "question": "Which operator can be used to free the memory allocated for an object in C++?",
+        "options": [
+            "a) Unallocate",
+            "b) Free()",
+            "c) Collect",
+            "d) delete"
+        ],
+        "answer": "d",
+        "explanation": "The delete operator in C++ can be used to free the memory and resources held by an object. The function can be called explicitly whenever required. In C++ memory management must be done by the programmer. There is no automatic memory management in C++."
+    },
+    {
+        "question": "Which of the following is not a property of an object?",
+        "options": [
+            "a) Properties",
+            "b) Names",
+            "c) Identity",
+            "d) Attributes"
+        ],
+        "answer": "b",
+        "explanation": "The names are not property of an object. The identity can be in any form like address or name of object but name can\u2019t be termed as only identity of an object. The objects contain attributes that define what type of data an object can store."
+    },
+    {
+        "question": "Which type of members can\u2019t be accessed in derived classes of a base class?",
+        "options": [
+            "a) All can be accessed",
+            "b) Protected",
+            "c) Private",
+            "d) Public"
+        ],
+        "answer": "c",
+        "explanation": "The private members can be accessed only inside the base class. If the class is derived by other classes. Those members will not be accessible. This concept of OOP is made to make the members more secure."
+    },
+    {
+        "question": "Which among the following best describes the Inheritance?",
+        "options": [
+            "a) Using the data and functions into derived segment",
+            "b) Using already defined functions in a programming language",
+            "c) Using the code already written once",
+            "d) Copying the code already written"
+        ],
+        "answer": "a",
+        "explanation": "It can only be indicated by using the data and functions that we use in derived class, being provided by parent class. Copying code is nowhere similar to this concept, also using the code already written is same as copying. Using already defined functions is not inheritance as we are not adding any of our own features."
+    },
+    {
+        "question": "Single level inheritance supports _____________ inheritance.",
+        "options": [
+            "a) Language independency",
+            "b) Multiple inheritance",
+            "c) Compile time",
+            "d) Runtime"
+        ],
+        "answer": "d",
+        "explanation": "The runtime inheritance is done when object of a class is created to call a method. At runtime the function is searched if it is in class of object. If not, it will search in its parent classes and hierarchy for that method."
+    },
+    {
+        "question": "How to overcome diamond problem?",
+        "options": [
+            "a) Using seperate derived class",
+            "b) Using virtual keyword with same name function",
+            "c) Can\u2019t be done",
+            "d) Using alias name"
+        ],
+        "answer": "b",
+        "explanation": "To overcome the ambiguity and conflict we can use keyword virtual. This will help us to differentiate the functions with same name that came to last derived class in diamond problem."
+    },
+    {
+        "question": "Which keyword is used to declare virtual functions?",
+        "options": [
+            "a) virt",
+            "b) virtually",
+            "c) virtual",
+            "d) anonymous"
+        ],
+        "answer": "c",
+        "explanation": "The virtual keyword is used to declare virtual functions. Anonymous keyword is used with classes and have a different meaning. The virtual functions are used to call the intended function of the derived class."
+    },
+    {
+        "question": "What happens if non static members are used in static member function?",
+        "options": [
+            "a) Executes fine",
+            "b) Compile time error",
+            "c) Executes if that member function is not used",
+            "d) Runtime error"
+        ],
+        "answer": "b",
+        "explanation": "There must be specific memory space allocated for the data members before the static member functions uses them. But the space is not reserved if object is not declared. Hence only if static members are not used, it leads to compile time error."
+    },
+    {
+        "question": "What is friend member functions in C++?",
+        "options": [
+            "a) Non-member functions which have access to all the members (including private) of a class",
+            "b) Member function which doesn\u2019t have access to private members",
+            "c) Member function which can modify any data of a class",
+            "d) Member function which can access all the members of a class"
+        ],
+        "answer": "a",
+        "explanation": "A non-member function of a class which can access even the private data of a class is a friend function. It is an exception on access to private members outside the class. It is sometimes considered as a member functions since it has all the access that a member function in general have."
+    },
+    {
+        "question": "Where is the memory allocated for the objects?",
+        "options": [
+            "a) Cache",
+            "b) ROM",
+            "c) HDD",
+            "d) RAM"
+        ],
+        "answer": "d",
+        "explanation": "The memory for the objects or any other data is allocated in RAM initially. This is while we run a program all the memory allocation takes place in some RAM segments. Arrays in heap and local members in stack etc."
+    },
+    {
+        "question": "Which of the following best describes member function overriding?",
+        "options": [
+            "a) Member functions having the same name in derived class only",
+            "b) Member functions having the same name and different signature inside main function",
+            "c) Member functions having the same name in base and derived classes",
+            "d) Member functions having the same name in base class only"
+        ],
+        "answer": "c",
+        "explanation": "The member function which is defined in base class and again in the derived class, is overridden by the definition given in the derived class. This is because the preference is given more to the local members. When derived class object calls that function, definition from the derived class is used."
+    },
+    {
+        "question": "Encapsulation and abstraction differ as ____________",
+        "options": [
+            "a) Hiding and hiding respectively",
+            "b) Binding and Hiding respectively",
+            "c) Hiding and Binding respectively",
+            "d) Can be used any way"
+        ],
+        "answer": "b",
+        "explanation": "Abstraction is hiding the complex code. For example, we directly use cout object in C++ but we don\u2019t know how is it actually implemented. Encapsulation is data binding, as in, we try to combine a similar type of data and functions together."
+    },
+    {
+        "question": "Which feature of OOP is exhibited by the function overriding?",
+        "options": [
+            "a) Polymorphism",
+            "b) Encapsulation",
+            "c) Abstraction",
+            "d) Inheritance"
+        ],
+        "answer": "a",
+        "explanation": "The polymorphism feature is exhibited by function overriding. Polymorphism is the feature which basically defines that same named functions can have more than one functionalities."
+    },
+    {
+        "question": "How to access the private member function of a class?",
+        "options": [
+            "a) Using class address",
+            "b) Using object of class",
+            "c) Using object pointer",
+            "d) Using address of member function"
+        ],
+        "answer": "d",
+        "explanation": "Even the private member functions can be called outside the class. This is possible if address of the function is known. We can use the address to call the function outside the class."
+    },
+    {
+        "question": "Which keyword should be used to declare static variables?",
+        "options": [
+            "a) const",
+            "b) common",
+            "c) static",
+            "d) stat"
+        ],
+        "answer": "c",
+        "explanation": "The keyword used to declare static variables is static. This is must be used while declaring the static variables. The compiler can make variables static if and only if they are mentioned with static keyword."
+    },
+    {
+        "question": "Which is correct syntax for declaring pointer to object?",
+        "options": [
+            "a) *className objectName;",
+            "b) className* objectName;",
+            "c) className objectName();",
+            "d) className objectName;"
+        ],
+        "answer": "b",
+        "explanation": "The syntax must contain * symbol after the className as the type of object. This declares an object pointer. This can store address of any object of the specified class."
+    },
+    {
+        "question": "Which class/set of classes can illustrate polymorphism in the following C++ code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Since Student class is abstract class and class topper and average are inheriting student, class topper and average must define the function named calc_grade(); in abstract class. Since both the definition are different in those classes, calc_grade() will work in different way for same input from different objects. Hence it shows polymorphism."
+    },
+    {
+        "question": "If data members are private, what can we do to access them from the class object?",
+        "options": [
+            "a) Private data members can never be accessed from outside the class",
+            "b) Create public member functions to access those data members",
+            "c) Create private member functions to access those data members",
+            "d) Create protected member functions to access those data members"
+        ],
+        "answer": "b",
+        "explanation": "We can define public member functions to access those private data members and get their value for use or alteration. They can\u2019t be accessed directly but is possible to be access using member functions. This is done to ensure that the private data doesn\u2019t get modified accidentally."
+    },
+    {
+        "question": "Which among the following is not a necessary condition for constructors?",
+        "options": [
+            "a) Its name must be same as that of class",
+            "b) It must not have any return type",
+            "c) It must contain a definition body",
+            "d) It can contains arguments"
+        ],
+        "answer": "c",
+        "explanation": "Constructors are predefined implicitly, even if the programmer doesn\u2019t define any of them. Even if the programmer declares a constructor, it\u2019s not necessary that it must contain some definition."
+    },
+    {
+        "question": "Object being passed to a copy constructor ___________",
+        "options": [
+            "a) Must not be mentioned in parameter list",
+            "b) Must be passed with integer type",
+            "c) Must be passed by value",
+            "d) Must be passed by reference"
+        ],
+        "answer": "d",
+        "explanation": "This is mandatory to pass the object by reference. Otherwise, the object will try to create another object to copy its values, in turn a constructor will be called, and this will keep on calling itself. This will cause the compiler to give out of memory error."
+    },
+    {
+        "question": "If in multiple inheritance, class C inherits class B, and Class B inherits class A. In which sequence are their destructors called if an object of class C was declared?",
+        "options": [
+            "a) ~A() then ~B() then ~C()",
+            "b) ~C() then ~A() then ~B()",
+            "c) ~C() then ~B() then ~A()",
+            "d) ~B() then ~C() then ~A()"
+        ],
+        "answer": "c",
+        "explanation": "The destructors are always called in the reverse order of how the constructors were called. Here class A constructor would have been created first if Class C object is declared. Hence class A destructor is called at last."
+    },
+    {
+        "question": "Instance of which type of class can\u2019t be created?",
+        "options": [
+            "a) Parent class",
+            "b) Abstract class",
+            "c) Anonymous class",
+            "d) Nested class"
+        ],
+        "answer": "b",
+        "explanation": "Instance of abstract class can\u2019t be created as it will not have any constructor of its own, hence while creating an instance of class, it can\u2019t initialize the object members. Actually the class inheriting the abstract class can have its instance because it will have implementation of all members."
+    },
+    {
+        "question": "___________ underlines the feature of Polymorphism in a class.",
+        "options": [
+            "a) Virtual Function",
+            "b) Inline function",
+            "c) Enclosing class",
+            "d) Nested class"
+        ],
+        "answer": "a",
+        "explanation": "Virtual Functions can be defined in any class using the keyword virtual. All the classes which inherit the class containing the virtual function, define the virtual function as required. Redefining the function on all the derived classes according to class and use represents polymorphism."
+    },
+    {
+        "question": "Which feature in OOP is used to allocate additional functions to a predefined operator in any language?",
+        "options": [
+            "a) Function Overloading",
+            "b) Function Overriding",
+            "c) Operator Overloading",
+            "d) Operator Overriding"
+        ],
+        "answer": "c",
+        "explanation": "The feature is operator overloading. There is not a feature named operator overriding specifically. Function overloading and overriding doesn\u2019t give addition function to any operator."
+    },
+    {
+        "question": "Which feature can be implemented using encapsulation?",
+        "options": [
+            "a) Polymorphism",
+            "b) Overloading",
+            "c) Inheritance",
+            "d) Abstraction"
+        ],
+        "answer": "d",
+        "explanation": "Data abstraction can be achieved by using encapsulation. We can hide the operation and structure of actual program from the user and can show only required information by the user."
+    }
+]

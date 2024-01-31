@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is meant by the term generics?",
+        "options": [
+            "a) parameterized types",
+            "b) class",
+            "c) structure",
+            "d) interface"
+        ],
+        "answer": "a",
+        "explanation": "The term generics means parameterized types. Parameterized types are important because they enable us to create classes, structures, interfaces, methods, and delegates in which, the type of data upon which they operate is specified as a parameter."
+    },
+    {
+        "question": "Are generics in C# are same as the generics in java and templates in C++?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) May be",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Although C# generics are similar to templates in C++ and generics in Java, they are not the same as either. In fact, there are some fundamental differences among these three approaches to generics."
+    },
+    {
+        "question": "Choose the advantages of using generics?",
+        "options": [
+            "a) Generics facilitate type safety",
+            "b) Generics facilitate improved performance and reduced code",
+            "c) Generics promote the usage of parameterized types",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "By definition of generics."
+    },
+    {
+        "question": "What does the following C# code block defines?",
+        "options": [],
+        "answer": "a",
+        "explanation": "class Gen<T> This defines the generics declaration where \u2018T\u2019 is the name of the type parameter. This parameter is used as a placeholder for the actual type that will be specified when a Gen object is created. Gen is a generic class. T is used to declare a variable called \u2018ob\u2019."
+    },
+    {
+        "question": "What does the following C# code set defines?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the type argument of an open constructed type?",
+        "options": [
+            "a) Gen<int>",
+            "b) Gen<T>",
+            "c) Gen<>",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A generic type, such as Gen<T>, is an abstraction. In C# terminology, a construct such as Gen<T> is called an open constructed type, because the type parameter T (rather than an actual type, such as int) is specified."
+    },
+    {
+        "question": "Which among the given classes is present in System.Collection.Generic.namespace?",
+        "options": [
+            "a) Stack",
+            "b) Tree",
+            "c) Sorted Array",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these is a correct way of defining generic method?",
+        "options": [
+            "a) name(T1, T2, \u2026, Tn) { /* \u2026 */ }",
+            "b) public name { /* \u2026 */ }",
+            "c) class name[T1, T2, \u2026, Tn] { /* \u2026 */ }",
+            "d) name{T1, T2, \u2026, Tn} { /* \u2026 */ }"
+        ],
+        "answer": "b",
+        "explanation": "The syntax for a generic method includes a type parameter, inside angle brackets, and appears before the method\u2019s return type. For static generic methods, the type parameter section must appear before the method\u2019s return type."
+    },
+    {
+        "question": "Which of these type parameters is used for generic methods to return and accept any type of object?",
+        "options": [
+            "a) K",
+            "b) N",
+            "c) T",
+            "d) V"
+        ],
+        "answer": "c",
+        "explanation": "T is used for type, A type variable can be any non-primitive type you specify: any class type, any interface type, any array type, or even another type variable."
+    },
+    {
+        "question": "Choose the correct way to call subroutine fun() of the sample class?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    }
+]

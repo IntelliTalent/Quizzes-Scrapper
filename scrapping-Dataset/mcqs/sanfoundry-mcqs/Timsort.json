@@ -1,0 +1,166 @@
+[
+    {
+        "question": "Which of the following is Python\u2019s standard sorting algorithm?",
+        "options": [
+            "a) quick sort",
+            "b) introsort",
+            "c) merge sort",
+            "d) tim sort"
+        ],
+        "answer": "d",
+        "explanation": "Tim sort has been python\u2019s standard sorting algorithm since its version 2.3. It is an example of hybrid sorting algorithm which means it uses more than one sorting algorithm as a routine."
+    },
+    {
+        "question": "Which of the following sorting algorithm is a constituent of tim sort?",
+        "options": [
+            "a) selection sort",
+            "b) quick sort",
+            "c) merge sort",
+            "d) heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Tim sort is a hybrid sorting algorithm which means it uses more than one sorting algorithm as a routine. It is derived from insertion sort and merge sort."
+    },
+    {
+        "question": "Tim sort begins sorting the given array by using which of the following sorting algorithm?",
+        "options": [
+            "a) selection sort",
+            "b) quick sort",
+            "c) insertion sort",
+            "d) merge sort"
+        ],
+        "answer": "c",
+        "explanation": "Tim sort begins sorting any given array by using insertion sort for each run. The array is divided into smaller parts for this purpose, each part having a size equal to value of run. Then these small parts called runs are merged in order to obtain sorted array."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Tim sort",
+            "b) Introsort",
+            "c) Quick sort",
+            "d) Heap sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options Tim sort is the only algorithm which is stable. As both constituents of Tim sort (I.e insertion sort and merge sort) are stable so Tim sort also becomes stable."
+    },
+    {
+        "question": "Which of the following sorting algorithm is not in-place?",
+        "options": [
+            "a) insertion sort",
+            "b) tim sort",
+            "c) quick sort",
+            "d) intro sort"
+        ],
+        "answer": "b",
+        "explanation": "Tim sort is not an in-place sorting algorithm as it requires auxiliary space. It is because it requires to merge sorted runs which requires a third array of the size equal to the sum of the two runs."
+    },
+    {
+        "question": "Tim sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Merge sort and insertion sort are comparison based sorts. Thus overall Tim sort also becomes a comparison based sort."
+    },
+    {
+        "question": "What is the best case time complexity of Tim sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case time complexity of Tim sort occurs when the input array is already sorted. In such a case only one run will be required."
+    },
+    {
+        "question": "What is the worst case time complexity of Tim sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case time complexity of Tim sort is O(n log n). It is because the worst complexity of merge sort is O(n log n) and insertion sort is only applied for small arrays."
+    },
+    {
+        "question": "What is the average time complexity of Tim sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Average time complexity of Tim sort remains to be O(n log n). It is the same as the average case complexity of merge sort."
+    },
+    {
+        "question": "What is the auxiliary space requirement of Tim sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "Tim sort is a hybrid of merge sort and insertion sort. It requires to merge sorted runs which require a third array of the size equal to the sum of the two runs. So in worst case the auxiliary space requirement will be O(n)."
+    },
+    {
+        "question": "Which of the following algorithm is implemented internally in java when we use function arrays.sort()?",
+        "options": [
+            "a) intro sort",
+            "b) quick sort",
+            "c) tim sort",
+            "d) merge sort"
+        ],
+        "answer": "c",
+        "explanation": "Java makes use of Tim sort internally for implementing arrays.sort(). It is mainly due to the fastness of this algorithm in comparison to other comparison based sorts."
+    },
+    {
+        "question": "Why is insertion sort preferred over other sorting algorithms (like selection sort, bubble sort etc.) for Tim sort implementation?",
+        "options": [
+            "a) Because insertion sort is faster and adaptive",
+            "b) Because insertion sort requires less space",
+            "c) Because insertion sort is easy to implement",
+            "d) Because insertion sort is easy to understand"
+        ],
+        "answer": "a",
+        "explanation": "When small arrays need to be sorted then insertion sort proves to be the best choice. Also, it is adaptive so it performs better than others when the given array is fully/partially sorted."
+    },
+    {
+        "question": "In which case will tim sort will work as an insertion sort?",
+        "options": [
+            "a) when no. of elements are less than 64",
+            "b) when no. of elements are greater than 64",
+            "c) when no. of elements are less than size of run",
+            "d) when no. of elements are less than 32"
+        ],
+        "answer": "c",
+        "explanation": "Tim sort uses a hybrid of insertion and merge sort. It reduces to insertion sort when the size of array is less than the size of run as insertion sort is efficient in sorting small arrays."
+    },
+    {
+        "question": "What is the usual size of a run in tim sort?",
+        "options": [
+            "a) 32",
+            "b) less than 32",
+            "c) 32-64 depending on size of the array",
+            "d) 64"
+        ],
+        "answer": "c",
+        "explanation": "Usually the size of the run is chosen somewhere between 32 and 64. The size of run is preferably chosen in powers of 2 in order to maintain balance while merging the sorted runs."
+    },
+    {
+        "question": "What will be the output of the given Java code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given program sorts the input in ascending order by using the function Arrays.sort(). It uses Tim sort internally."
+    },
+    {
+        "question": "What will be the output of the given Java code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The given program sorts only a portion of the input array. It is done by passing two extra arguments to the function Arrays.sort(). It sorts the elements between index 1 and 2."
+    }
+]

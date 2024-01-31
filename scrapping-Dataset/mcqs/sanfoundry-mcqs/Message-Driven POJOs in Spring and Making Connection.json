@@ -1,0 +1,55 @@
+[
+    {
+        "question": "When you call the receive() method on a JMS message consumer to receive a message.",
+        "options": [
+            "a) send",
+            "b) receive",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When you call the receive() method on a JMS message consumer to receive a message, the calling thread is blocked until a message is available."
+    },
+    {
+        "question": "EJB component which was introduced for asynchronous reception of JMS messages.",
+        "options": [
+            "a) message-driven bean",
+            "b) message-driven",
+            "c) message bean",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Starting with EJB 2.0, a new kind of EJB component called a message-driven bean (MDB) was introduced for asynchronous reception of JMS messages."
+    },
+    {
+        "question": "MDB must implements interfaces:-",
+        "options": [
+            "a) javax.ejb.MessageDrivenBean",
+            "b) javax.jms.MessageListener",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An MDB must implement both the javax.ejb.MessageDrivenBean and javax.jms.MessageListener interfaces and override all EJB life cycle methods (ejbCreate and ejbRemove)."
+    },
+    {
+        "question": "In EJB 3.0, an MDB can be a POJO that implements the MessageListener interface and is annotated with the:-",
+        "options": [
+            "a) @MessageDrive",
+            "b) @Message",
+            "c) all of the mentioned",
+            "d) @MessageDriven"
+        ],
+        "answer": "d",
+        "explanation": "In EJB 3.0, an MDB can be a POJO that implements the MessageListener interface and is annotated with the @MessageDriven annotation."
+    },
+    {
+        "question": "You create a message listener to listen for JMS messages. This negates the need for the approach taken in BackOfficeImpl in previous recipes.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For example, the following MailListener listens for JMS messages that contain mail information:-"
+    }
+]

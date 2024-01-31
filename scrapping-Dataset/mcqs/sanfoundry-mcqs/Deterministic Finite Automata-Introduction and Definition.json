@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following not an example Bounded Information?",
+        "options": [
+            "a) fan switch outputs {on, off}",
+            "b) electricity meter reading",
+            "c) colour of the traffic light at the moment",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Bounded information refers to one whose output is limited and it cannot be said what were the recorded outputs previously until memorized."
+    },
+    {
+        "question": "A Language for which no DFA exist is a________",
+        "options": [
+            "a) Regular Language",
+            "b) Non-Regular Language",
+            "c) May be Regular",
+            "d) Cannot be said"
+        ],
+        "answer": "b",
+        "explanation": "A language for which there is no existence of a deterministic finite automata is always Non Regular and methods like Pumping Lemma can be used to prove the same."
+    },
+    {
+        "question": "A DFA cannot be represented in the following format",
+        "options": [
+            "a) Transition graph",
+            "b) Transition Table",
+            "c) C code",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A DFA can be represented in the following formats: Transition Graph, Transition Table, Transition tree/forest/Any programming Language."
+    },
+    {
+        "question": "What the following DFA accepts?",
+        "options": [
+            "a) x is a string such that it ends with \u2018101\u2019",
+            "b) x is a string such that it ends with \u201801\u2019",
+            "c) x is a string such that it has odd 1\u2019s and even 0\u2019s",
+            "d) x is a strings such that it has starting and ending character as 1"
+        ],
+        "answer": "a",
+        "explanation": "Strings such as {1101,101,10101} are being accepted while {1001,11001} are not. Thus, this conclusion leads to option a."
+    },
+    {
+        "question": "When are 2 finite states equivalent?",
+        "options": [
+            "a) Same number of transitions",
+            "b) Same number of states",
+            "c) Same number of states as well as transitions",
+            "d) Both are final states"
+        ],
+        "answer": "c",
+        "explanation": "Two states are said to be equivalent if and only if they have same number of states as well as transitions."
+    },
+    {
+        "question": "What does the following figure most correctly represents?",
+        "options": [
+            "a) Final state with loop x",
+            "b) Transitional state with loop x",
+            "c) Initial state as well as final state with loop x",
+            "d) Insufficient Data"
+        ],
+        "answer": "c",
+        "explanation": "The figure represents the initial as well as the final state with an iteration of x."
+    },
+    {
+        "question": "Which of the following will not be accepted by the following DFA?",
+        "options": [
+            "a) ababaabaa",
+            "b) abbbaa",
+            "c) abbbaabb",
+            "d) abbaabbaa"
+        ],
+        "answer": "a",
+        "explanation": "All the Strings are getting accepted except \u2018ababaabaa\u2019 as it is directed to dumping state. Dumping state also refers to the reject state of the automata."
+    },
+    {
+        "question": "Which of the following will the given DFA won\u2019t accept?",
+        "options": [
+            "a) \u03b5",
+            "b) 11010",
+            "c) 10001010",
+            "d) String of letter count 11"
+        ],
+        "answer": "a",
+        "explanation": "As the initial state is not made an acceptance state, thus \u03b5 will not be accepted by the given DFA. For the automata to accept \u03b5 as an entity, one should make the initial state as also the final state."
+    },
+    {
+        "question": "Can a DFA recognize a palindrome number?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Yes, with input alphabet as \u2211*",
+            "d) Can\u2019t be determined"
+        ],
+        "answer": "b",
+        "explanation": "Language to accept a palindrome number or string will be non-regular and thus, its DFA cannot be obtained. Though, PDA is possible."
+    },
+    {
+        "question": "Which of the following is not an example of finite state machine system?",
+        "options": [
+            "a) Control Mechanism of an elevator",
+            "b) Combinational Locks",
+            "c) Traffic Lights",
+            "d) Digital Watches"
+        ],
+        "answer": "d",
+        "explanation": "Proper and sequential combination of events leads the machines to work in hand which includes The elevator, Combinational Locks, Traffic Lights, vending machine, etc. Other applications of Finite machine state system are Communication Protocol Design, Artificial Intelligence Research, A Turnstile, etc."
+    }
+]

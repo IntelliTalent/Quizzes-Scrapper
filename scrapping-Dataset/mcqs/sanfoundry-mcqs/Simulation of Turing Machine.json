@@ -1,0 +1,115 @@
+[
+    {
+        "question": "Fill in the blank with an appropriate option.",
+        "options": [
+            "a) Computer\u2019s instruction set",
+            "b) A programming language",
+            "c) Cellular Automaton",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Computationally Universal or Turing Complete is a set of data manipulation rules if it can be used to simulate a single-taped turing machine."
+    },
+    {
+        "question": "Give a classic example of the concept of turing complete.",
+        "options": [
+            "a) lambda calculus",
+            "b) C++",
+            "c) Lisp",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Most of the programming languages, conventional or unconventional are turing complete. Functional languages like Lisp and Haskell are also turing complete."
+    },
+    {
+        "question": "Let two machines be P and Q. The state in which P can simulate Q and Q can simulate P is called:",
+        "options": [
+            "a) Turing Equivalence",
+            "b) State Equivalence",
+            "c) Universal Turing Machine",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is a closely related concept with Turing complete. It says, two computers P and Q are called equivalent if P can simulate Q and Q can simulate P."
+    },
+    {
+        "question": "Which of the following remarks the given statement?",
+        "options": [
+            "a) Smn theorem",
+            "b) Structured Program theorem",
+            "c) Church-Turing thesis",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The following conclusion is laid down from the Church-Turing thesis:"
+    },
+    {
+        "question": "Which of the following can be used to simulate any turing machine?",
+        "options": [
+            "a) Finite State Automaton",
+            "b) Universal Turing Machine",
+            "c) Counter machines",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The computational aspect of any possible real world computer can be simulated using an Universal Turing Machine so can be any turing machine."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Yes it is. For instance, an imperative language is called Turing complete if it tends to have conditional branching and an ability to maintain an arbitrary number of symbols."
+    },
+    {
+        "question": "Which of the following can lack in a Universal computer?",
+        "options": [
+            "a) Turing Complete Instruction set",
+            "b) Infinite memory",
+            "c) Infinite time",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Real computers which are manufactured till date, all are similar to single taped turing machine. However, they have limited physical resources so they are linearly bounded complete on the contrary."
+    },
+    {
+        "question": "Which among are not the results of computational theory?",
+        "options": [
+            "a) In general, it is impossible to predict that what a Turing-complete program will do over an arbitrarily long time",
+            "b) It is impossible to determine for every input, whether the program will eventually stop or continue forever",
+            "c) It is not possible to determine whether a program will return true or false",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the following mentioned are the conclusions of automata theory or computability theory."
+    },
+    {
+        "question": "Which of the games fill under the category of Turing-complete?",
+        "options": [
+            "a) Minecraft",
+            "b) Minesweeper",
+            "c) Dwarf Fortress",
+            "d) All of the mentioned",
+            "a) Minecraft",
+            "b) Minesweeper",
+            "c) Dwarf Fortress",
+            "d) Conway\u2019s Game of Life",
+            "e) Pokemon Yellow, etc."
+        ],
+        "answer": "d",
+        "explanation": "Many games fall under the category og turing complete:"
+    },
+    {
+        "question": "Which of the following a Non-turing Complete language?",
+        "options": [
+            "a) Regular Language",
+            "b) Context free grammars",
+            "c) Epigram",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There exists some computational languages which are not turing complete. Regular language which is accepted by finite automata tops the list. Other examples are pixel shader languages embedded in Direct3D and OpenGL extensions."
+    }
+]

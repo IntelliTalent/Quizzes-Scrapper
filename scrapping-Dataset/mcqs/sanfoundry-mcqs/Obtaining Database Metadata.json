@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The general term for information about databases and the objects in MySQL is _________",
+        "options": [
+            "a) datum",
+            "b) info",
+            "c) record",
+            "d) metadata"
+        ],
+        "answer": "d",
+        "explanation": "There are various ways in which MySQL facilitates the methods to obtain information about databases and the objects in them. For example, \u2018SHOW\u2019 statements and \u2018INFORMATION_SCHEMA\u2019."
+    },
+    {
+        "question": "Which statement is used to determine the storage engine for individual tables?",
+        "options": [
+            "a) SHOW STATUS OF TABLE",
+            "b) SHOW STATUS TABLE",
+            "c) SHOW TABLE STATUS",
+            "d) SHOW DEFAULT STATUS"
+        ],
+        "answer": "c",
+        "explanation": "MySQL provides a method to determine the storage engine for each table with the \u2018SHOW TABLE STATUS\u2019 statement. The output of this statement is the name of the storage engine indicator."
+    },
+    {
+        "question": "INFORMATION_SCHEMA is based on the SQL standard.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "\u2018INFORMATION_SCHEMA\u2019 is another way to access information about the databases and its objects (metadata). It is based on the \u2018SQL standard\u2019, although some content is MySQL-specific."
+    },
+    {
+        "question": "Which disk data does FILES table in INFORMATION_SCHEMA store?",
+        "options": [
+            "a) NDB",
+            "b) NBD",
+            "c) NBK",
+            "d) NCD"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018INFORMATION_SCHEMA\u2019 is a method to access information about the databases and its objects known as metadata. It has various tables that can be viewed with \u2018SHOW\u2019 statement."
+    },
+    {
+        "question": "The information about table index characteristics is stored in which table of INFORMATION_SCHEMA?",
+        "options": [
+            "a) FILES",
+            "b) STATISTICS",
+            "c) SCHEMATA",
+            "d) VIEWS"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018STATISTICS\u2019 table in the \u2018INFORMATION_SCHEMA\u2019 stores information about the table index characteristics. \u2018INFORMATION_SCHEMA\u2019 is responsible for storing database metadata."
+    },
+    {
+        "question": "Which table in INFORMATION_SCHEMA stores information about storage engines and server plugins?",
+        "options": [
+            "a) ENGINES, PLUGINS",
+            "b) FILES, PLUGINS",
+            "c) ENGINES, FILES",
+            "d) PLUGINS, STATISTICS"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018INFORMATION_SCHEMA\u2019 is a very useful in MySQL. It has many tables each serving its individual purpose. The storage engine information is stored in ENGINES and plugin information in PLUGINS."
+    },
+    {
+        "question": "INFORMATION_SCHEMA is more portable than SHOW statements.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018INFORMATION_SCHEMA\u2019 is a method to access information about the databases and its objects known as metadata. Its content is MySQL-specific which makes it more portable."
+    },
+    {
+        "question": "Which table stores information about the threads executing within the server?",
+        "options": [
+            "a) PROCESS",
+            "b) PROCESSLIST",
+            "c) LIST",
+            "d) THREADSLIST"
+        ],
+        "answer": "b",
+        "explanation": "The table \u2018PROCESSLIST\u2019 is responsible for storing all the information about the threads executing within the server. The other tables are not valid tables in the INFORMATION_SCHEMA."
+    },
+    {
+        "question": "The command which lists databases managed by the server is _____________",
+        "options": [
+            "a) mysqld",
+            "b) mysqlshow",
+            "c) mysqllist",
+            "d) mysqldb"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018mysqlshow\u2019 command provides almost the similar information as some \u2018SHOW\u2019 statements. It also enables to extract database and table information at the command prompt."
+    },
+    {
+        "question": "The option in mysqlshow to show information about indexes in a table is _________",
+        "options": [
+            "a) \u2013no-data",
+            "b) \u2013indexes",
+            "c) \u2013keys",
+            "d) \u2013flag"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018mysqlshow\u2019 command has various flags to provide a lot of options on displaying tables. The \u2018\u2013keys\u2019 flag is specifically used to show information about indexes in a table."
+    }
+]

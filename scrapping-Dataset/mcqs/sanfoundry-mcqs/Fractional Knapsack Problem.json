@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Fractional knapsack problem is also known as __________",
+        "options": [
+            "a) 0/1 knapsack problem",
+            "b) Continuous knapsack problem",
+            "c) Divisible knapsack problem",
+            "d) Non continuous knapsack problem"
+        ],
+        "answer": "b",
+        "explanation": "Fractional knapsack problem is also called continuous knapsack problem. Fractional knapsack is solved using dynamic programming."
+    },
+    {
+        "question": "Fractional knapsack problem is solved most efficiently by which of the following algorithm?",
+        "options": [
+            "a) Divide and conquer",
+            "b) Dynamic programming",
+            "c) Greedy algorithm",
+            "d) Backtracking"
+        ],
+        "answer": "c",
+        "explanation": "Greedy algorithm is used to solve this problem. We first sort items according to their value/weight ratio and then add item with highest ratio until we cannot add the next item as a whole. At the end, we add the next item as much as we can."
+    },
+    {
+        "question": "What is the objective of the knapsack problem?",
+        "options": [
+            "a) To get maximum total value in the knapsack",
+            "b) To get minimum total value in the knapsack",
+            "c) To get maximum weight in the knapsack",
+            "d) To get minimum weight in the knapsack"
+        ],
+        "answer": "a",
+        "explanation": "The objective is to fill the knapsack of some given volume with different materials such that the value of selected items is maximized."
+    },
+    {
+        "question": "Which of the following statement about 0/1 knapsack and fractional knapsack problem is correct?",
+        "options": [
+            "a) In 0/1 knapsack problem items are divisible and in fractional knapsack items are indivisible",
+            "b) Both are the same",
+            "c) 0/1 knapsack is solved using a greedy algorithm and fractional knapsack is solved using dynamic programming",
+            "d) In 0/1 knapsack problem items are indivisible and in fractional knapsack items are divisible"
+        ],
+        "answer": "d",
+        "explanation": "In fractional knapsack problem we can partially include an item into the knapsack whereas in 0/1 knapsack we have to either include or exclude the item wholly."
+    },
+    {
+        "question": "Time complexity of fractional knapsack problem is ____________",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(nW)"
+        ],
+        "answer": "a",
+        "explanation": "As the main time taking a step is of sorting so it defines the time complexity of our code. So the time complexity will be O(n log n) if we use quick sort for sorting."
+    },
+    {
+        "question": "Given items as {value,weight} pairs {{40,20},{30,10},{20,5}}. The capacity of knapsack=20. Find the maximum value output assuming items to be divisible.",
+        "options": [
+            "a) 60",
+            "b) 80",
+            "c) 100",
+            "d) 40"
+        ],
+        "answer": "a",
+        "explanation": "The value/weight ratio are-{2,3,4}. So we include the second and third items wholly into the knapsack. This leaves only 5 units of volume for the first item. So we include the first item partially."
+    },
+    {
+        "question": "The result of the fractional knapsack is greater than or equal to 0/1 knapsack.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "As fractional knapsack gives extra liberty to include the object partially which is not possible with 0/1 knapsack, thus we get better results with a fractional knapsack."
+    },
+    {
+        "question": "The main time taking step in fractional knapsack problem is ___________",
+        "options": [
+            "a) Breaking items into fraction",
+            "b) Adding items into knapsack",
+            "c) Sorting",
+            "d) Looping through sorted items"
+        ],
+        "answer": "c",
+        "explanation": "The main time taking step is to sort the items according to their value/weight ratio. It defines the time complexity of the code."
+    },
+    {
+        "question": "Given items as {value,weight} pairs {{60,20},{50,25},{20,5}}. The capacity of knapsack=40. Find the maximum value output assuming items to be divisible and nondivisible respectively.",
+        "options": [
+            "a) 100, 80",
+            "b) 110, 70",
+            "c) 130, 110",
+            "d) 110, 80"
+        ],
+        "answer": "d",
+        "explanation": "Assuming items to be divisible-"
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "question": "How many comparisons will be made to sort the array arr={1,5,3,8,2} using counting sort?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 9",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "As counting sort is an example of non comparison sort so it is able to sort an array without making any comparison."
+    },
+    {
+        "question": "Which of the following is not an example of non comparison sort?",
+        "options": [
+            "a) bubble sort",
+            "b) counting sort",
+            "c) radix sort",
+            "d) bucket sort"
+        ],
+        "answer": "a",
+        "explanation": "Bubble sort is not an example of non comparison sort as it needs to compare array elements in order to sort an array."
+    },
+    {
+        "question": "Which of the following sorting techniques is most efficient if the range of input data is not significantly greater than a number of elements to be sorted?",
+        "options": [
+            "a) selection sort",
+            "b) bubble sort",
+            "c) counting sort",
+            "d) insertion sort"
+        ],
+        "answer": "c",
+        "explanation": "Time complexity of counting sort is given as O(n+k) where n is the number of input elements and k is the range of input. So if range of input is not significantly larger than number of elements in the array then it proves to be very efficient."
+    },
+    {
+        "question": "What is the auxiliary space requirement of counting sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n+k) k=range of input"
+        ],
+        "answer": "d",
+        "explanation": "Counting sort uses two extra arrays to get the input array sorted. First array is required to store the count of all the elements which fall in the range of input data elements, so its size is k. The second array is required to store the input elements in sorted manner, so its size is n. Thus overall auxiliary space required becomes O(n+k)."
+    },
+    {
+        "question": "It is not possible to implement counting sort when any of the input element has negative value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "It is possible to extend the counting sort algorithm for negative numbers as well. In such a case we store the minimum element at the 0th index."
+    },
+    {
+        "question": "Which of the following sorting techniques is stable?",
+        "options": [
+            "a) quick sort",
+            "b) counting sort",
+            "c) heap sort",
+            "d) selection sort"
+        ],
+        "answer": "b",
+        "explanation": "Counting sort is an example of stable sorting algorithm as the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following uses the largest amount of auxiliary space for sorting?",
+        "options": [
+            "a) Bubble sort",
+            "b) Counting sort",
+            "c) Quick sort",
+            "d) Heap sort"
+        ],
+        "answer": "b",
+        "explanation": "Counting sort requires auxiliary space of O(n+k) whereas quick sort, bubble sort and heap sort are in place sorting techniques. Thus counting sort requires most auxiliary space."
+    },
+    {
+        "question": "What is the average time complexity of counting sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n+k) k=range of input",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of counting sort is O(n+k) as counting the occurrence of each element in the input range takes k time and then finding the correct index value of each element in the sorted array takes n time."
+    },
+    {
+        "question": "The complexity of which of the following sorting algorithms remains to be the same in its best, average and worst case?",
+        "options": [
+            "a) quick sort",
+            "b) insertion sort",
+            "c) counting sort",
+            "d) gnome sort"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of counting sort remains unvaried in all the three cases. It is given by O(n+k)."
+    },
+    {
+        "question": "Which of the following statement is true about comparison based sorting?",
+        "options": [
+            "a) counting sort is a comparison based sort",
+            "b) any comparison based sorting can be made stable",
+            "c) bubble sort is not a comparison based sort",
+            "d) any comparison based sort requires at least O(n"
+        ],
+        "answer": "b",
+        "explanation": "Any comparison based sorting technique can be made stable by considering a position as criteria while making comparisons."
+    },
+    {
+        "question": "Counting sort is often used as a sub routine for radix sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Counting sort is used as a sub routine for radix sort as it is a stable and non comparison based sorting algorithm."
+    },
+    {
+        "question": "What is the advantage of counting sort over quick sort?",
+        "options": [
+            "a) counting sort has lesser time complexity when range is comparable to number of input elements",
+            "b) counting sort has lesser space complexity",
+            "c) counting sort is not a comparison based sorting technique",
+            "d) it has no advantage"
+        ],
+        "answer": "a",
+        "explanation": "Counting sort is very efficient in the cases where range is comparable to number of input elements as it performs sorting in linear time."
+    },
+    {
+        "question": "which of the following represents the algorithm of counting sort correctly?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The first loop counts the number of occurrences of each element. Second loop performs prefix sum on count to determine position range where items having that key should be placed in. The third loop places each element at its correct position."
+    },
+    {
+        "question": "What is the disadvantage of counting sort?",
+        "options": [
+            "a) counting sort has large time complexity",
+            "b) counting sort has large space complexity",
+            "c) counting sort is not a comparison based sorting technique",
+            "d) counting sort cannot be used for array with non integer elements"
+        ],
+        "answer": "d",
+        "explanation": "Counting sort can only be used for arrays with integer elements because otherwise array of frequencies cannot be constructed."
+    },
+    {
+        "question": "Which of the following algorithm takes non linear time for sorting?",
+        "options": [
+            "a) counting sort",
+            "b) quick sort",
+            "c) bucket sort",
+            "d) radix sort"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort requires O(n log n) time for sorting so it takes non linear time for sorting whereas counting sort, bucket sort and radix sort sorts in linear time."
+    }
+]

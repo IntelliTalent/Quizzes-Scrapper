@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Which mode exists at both global level and session-specific level?",
+        "options": [
+            "a) sql_mode",
+            "b) key_buffer_size",
+            "c) server_mode",
+            "d) query_mode"
+        ],
+        "answer": "a",
+        "explanation": "The system variable \u2018sql_mode\u2019 that indicates the default SQL mode is an example of a variable that exists at both the global and session levels. This mode affects several aspects of SQL statement processing."
+    },
+    {
+        "question": "Which system variable determines the number of rows from INSERT DELAYED statements that can be queued per table?",
+        "options": [
+            "a) fast_queue_size",
+            "b) general_queue_size",
+            "c) slow_queue_size",
+            "d) delayed_queue_size"
+        ],
+        "answer": "d",
+        "explanation": "The system variable \u2018delayed_queue_size\u2019 determines the number of rows from INSERT DELAYED statements that can be queued per table (for the storage engines that support DELAYED inserts)."
+    },
+    {
+        "question": "The largest value to which the variable \u2018max_allowed_packet\u2019 can be set is ______________",
+        "options": [
+            "a) 1GB",
+            "b) 2GB",
+            "c) 4GB",
+            "d) 8GB"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018max_allowed_packet\u2019 stores the maximum size to which the buffer used for client communications can grow. The largest value to which \u2018max_allowed_packet\u2019 variable can be set is 1GB."
+    },
+    {
+        "question": "Increasing the value of which system variable enables mysqld to keep more tables open simultaneously?",
+        "options": [
+            "a) table_cache",
+            "b) max_connect",
+            "c) delayed_queue_size",
+            "d) max_allowed_packet"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018table_cache\u2019 stores the size of the table cache. Increasing the value enables \u2018mysqld\u2019 to keep more tables open simultaneously by reducing the number of files open and close operations."
+    },
+    {
+        "question": "The keyword used with UNION that retains duplicate rows is ___________",
+        "options": [
+            "a) ALL",
+            "b) NARROW",
+            "c) STRICT",
+            "d) DISTINCT"
+        ],
+        "answer": "a",
+        "explanation": "The keyword \u2018ALL\u2019 used along with \u2018UNION\u2019 is not synonymous with just the \u2018UNION\u2019 statement. It produces the duplicate rows, if they exist, from the combination of the two tables in the SELECT query."
+    },
+    {
+        "question": "For what can the FULLTEXT indexes be created for?",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) MEMORY",
+            "d) TRANSITION"
+        ],
+        "answer": "a",
+        "explanation": "Full-text searches are based on the FULLTEXT indexes. They can be created for MyISAM tables only. In MySQL, a full text search enables to look for words or phrases without using pattern-matching operations."
+    },
+    {
+        "question": "A FULLTEXT index can be created for multiple columns.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, a full-text search is based on the FULLTEXT indexes. A FULLTEXT index can be created both for a single column and for multiple columns. Searching is possible across columns."
+    }
+]

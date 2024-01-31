@@ -1,0 +1,90 @@
+[
+    {
+        "question": "__________ is used when you have variables that form rows instead of columns.",
+        "options": [
+            "a) tidy()",
+            "b) spread()",
+            "c) separate()",
+            "d) gather()"
+        ],
+        "answer": "b",
+        "explanation": "You need spread() less frequently than gather() or separate()."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) tidyr and dplyr packages do not make use of the pipe operator",
+            "b) tidyr does less than reshape2",
+            "c) tidyr provides ability to string multiple functions together by incorporating %",
+            "d) tidyr does greater than reshape2"
+        ],
+        "answer": "b",
+        "explanation": "Just as reshape2 did less than reshape, tidyr does less than reshape2."
+    },
+    {
+        "question": "Which of the following merges two variables into one?",
+        "options": [
+            "a) spread()",
+            "b) gather()",
+            "c) separate()",
+            "d) unite()"
+        ],
+        "answer": "b",
+        "explanation": "The unite() function is a convenience function to paste together multiple variable values into one."
+    },
+    {
+        "question": "How many functions exist for wrangling the data with dplyr package?",
+        "options": [
+            "a) one",
+            "b) seven",
+            "c) three",
+            "d) five"
+        ],
+        "answer": "b",
+        "explanation": "dplyr provides seven main functions for tidying your messy data."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) gather() makes \u201clong\u201d data wider",
+            "b) tidyr is a reframing of reshape designed to accompany the tidy data framework",
+            "c) there are two fundamental verbs of data tidying",
+            "d) tidyr and dplyr packages do not make use of the pipe operator"
+        ],
+        "answer": "c",
+        "explanation": "In particular, built-in methods only work for data frames, and tidyr provides no margins or aggregation."
+    },
+    {
+        "question": "________ add new variables/columns or transform existing variables.",
+        "options": [
+            "a) mutate",
+            "b) add",
+            "c) apped",
+            "d) arrange"
+        ],
+        "answer": "a",
+        "explanation": "arrange is used to reorder rows of a data frame."
+    },
+    {
+        "question": "_________ extract a subset of rows from a data frame based on logical conditions.",
+        "options": [
+            "a) rename",
+            "b) filter",
+            "c) set",
+            "d) subset"
+        ],
+        "answer": "a",
+        "explanation": "rename is used to rename variables in a data frame."
+    },
+    {
+        "question": "Spread function is known as ___________ in spreadsheets.",
+        "options": [
+            "a) pivot",
+            "b) unpivot",
+            "c) cast",
+            "d) order"
+        ],
+        "answer": "b",
+        "explanation": "Spread is known by other names in other places: it\u2019s cast in reshape2, unpivot in spreadsheets and unfold in databases."
+    }
+]

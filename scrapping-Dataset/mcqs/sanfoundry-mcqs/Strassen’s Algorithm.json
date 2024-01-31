@@ -1,0 +1,158 @@
+[
+    {
+        "question": "Strassen\u2019s algorithm is a/an_____________ algorithm.",
+        "options": [
+            "a) Non- recursive",
+            "b) Recursive",
+            "c) Approximation",
+            "d) Accurate"
+        ],
+        "answer": "b",
+        "explanation": "Strassen\u2019s Algorithm for matrix multiplication is a recursive algorithm since the present output depends on previous outputs and inputs."
+    },
+    {
+        "question": "What is the running time of Strassen\u2019s algorithm for matrix multiplication?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "Strassen\u2019s matrix algorithm requires only 7 recursive multiplications of n/2 x n/2 matrix and Theta(n"
+    },
+    {
+        "question": "What is the running time of na\u00efve matrix multiplication algorithm?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The traditional matrix multiplication algorithm takes O(n"
+    },
+    {
+        "question": "Strassen\u2019s matrix multiplication algorithm follows ___________ technique.",
+        "options": [
+            "a) Greedy technique",
+            "b) Dynamic Programming",
+            "c) Divide and Conquer",
+            "d) Backtracking"
+        ],
+        "answer": "c",
+        "explanation": "Strassen\u2019s matrix multiplication algorithm follows divide and conquer technique. In this algorithm the input matrices are divided into n/2 x n/2 sub matrices and then the recurrence relation is applied."
+    },
+    {
+        "question": "The number of scalar additions and subtractions used in Strassen\u2019s matrix multiplication algorithm is ________",
+        "options": [
+            "a) O(n",
+            "b) Theta(n",
+            "c) Theta(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "Using Theta(n"
+    },
+    {
+        "question": "Running time of Strassen\u2019s algorithm is better than the na\u00efve Theta(n",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Strassen\u2019s Algorithm requires only 7 recursive multiplications when compared with the na\u00efve Theta(n"
+    },
+    {
+        "question": "Given the program of na\u00efve method.",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the na\u00efve method of matrix multiplication the number of iterating statements involved are 3, because of the presence of rows and columns. The element in each row of one matrix is multiplied with each element in the column of the second matrix. The computed value is placed in the new matrix Z[i][j]."
+    },
+    {
+        "question": "Who demonstrated the difference in numerical stability?",
+        "options": [
+            "a) Strassen",
+            "b) Bailey",
+            "c) Lederman",
+            "d) Higham"
+        ],
+        "answer": "d",
+        "explanation": "The difference in the numerical stability was demonstrated by Higham. He overemphasized that Strassen\u2019s algorithm is numericaly unstable for some applications."
+    },
+    {
+        "question": "What is the recurrence relation used in Strassen\u2019s algorithm?",
+        "options": [
+            "a) 7T(n/2) + Theta(n",
+            "b) 8T(n/2) + Theta(n",
+            "c) 7T(n/2) + O(n",
+            "d) 8T(n/2) + O(n"
+        ],
+        "answer": "a",
+        "explanation": "The recurrence relation used in Strassen\u2019s algorithm is 7T(n/2) + Theta(n"
+    },
+    {
+        "question": "Who discussed techniques for reducing the memory requirements for Strassen\u2019s algorithm?",
+        "options": [
+            "a) Strassen",
+            "b) Lederman",
+            "c) Bailey",
+            "d) Higham"
+        ],
+        "answer": "c",
+        "explanation": "The submatrices formed at the levels of recursion consume space. Hence in order to overcome that Bailey discussed techniques for reducing the memory required."
+    },
+    {
+        "question": "What is the formula to calculate the element present in second row, first column of the product matrix?",
+        "options": [
+            "a) M1+M7",
+            "b) M1+M3",
+            "c) M2+M4 \u2013 M5 + M7",
+            "d) M2+M4"
+        ],
+        "answer": "d",
+        "explanation": "The element at second row, first column can be found by the formula M2 + M4, where M2 and M4 can be calculated by"
+    },
+    {
+        "question": "Strassen\u2019s Matrix Algorithm was proposed by _____________",
+        "options": [
+            "a) Volker Strassen",
+            "b) Andrew Strassen",
+            "c) Victor Jan",
+            "d) Virginia Williams"
+        ],
+        "answer": "a",
+        "explanation": "Strassen\u2019s matrix multiplication algorithm was first published by Volker Strassen in the year 1969 and proved that the n"
+    },
+    {
+        "question": "How many iterating statements are involved in the na\u00efve method of matrix multiplication?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "In the na\u00efve method of matrix multiplication the number of iterating statements involved are 3, because of the presence of rows and columns in a matrix. The element in each row of the first matrix is multiplied with each element in the column of the second matrix."
+    },
+    {
+        "question": "Strassen\u2019s algorithm is quite numerically stable as the na\u00efve method.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Strassen\u2019s algorithm is too numerically unstable for some applications.   The computed result C=AB satisfies the inequality with a unit roundoff error which corresponds to strong stability inequality(obtained by replacing matrix norms with absolute values of the matrix elements)."
+    },
+    {
+        "question": "Compute the product matrix using Strassen\u2019s matrix multiplication algorithm.",
+        "options": [
+            "a) c11=20;c12=12;c21=100;c22=15",
+            "b) c11=22;c12=8;c21=90;c22=32",
+            "c) c11=15;c12=7;c21=80;c22=34",
+            "d) c11=26;c12=10;c21=82;c22=34"
+        ],
+        "answer": "d",
+        "explanation": "The solution can be obtained by"
+    }
+]

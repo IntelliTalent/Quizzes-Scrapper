@@ -1,0 +1,153 @@
+[
+    {
+        "question": "You want to share object state across multiple virtual machines.",
+        "options": [
+            "a) Terracotta",
+            "b) Hibernate Transaction",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use Terracotta to build such a solution. Terracotta (http://www.terracotta.org) is a free open source clustering solution."
+    },
+    {
+        "question": "The company, Terracotta, has also recently become the corporate sponsor of:-",
+        "options": [
+            "a) Ehcache",
+            "b) Quartz",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The company, Terracotta, has also recently become the corporate sponsor of the Ehcache and Quartz projects."
+    },
+    {
+        "question": "Terracotta works like many other clustered caches, except that, in addition to being a good Hibernate clustered cache.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It also works as a mostly unnoticeable engine to enable API-free shared state across a cluster."
+    },
+    {
+        "question": "Terracotta doesn\u2019t use serialization of objects.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Terracotta doesn\u2019t use serialization of objects (not even highly compact serialization like Swift, Google\u2019s Protocol Buffers, Coherence Pofs, or Hazelcast DataSerializables), and instead ferries around deltas of VM memory across the cluster."
+    },
+    {
+        "question": "Terracotta works as a JVM agent that monitors the object graph of a given JVM instance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It ensures replication of object state across a cluster."
+    },
+    {
+        "question": "Terracotta is different than most clustered caches today because it has no visible API",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Terracotta is different than most clustered caches today because it has no visible API, and because it\u2019s far more efficient in conveying the changed state to nodes across the cluster."
+    },
+    {
+        "question": "Terracotta has a client/server architecture.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The server, in this case, is the one that contains the original working memory."
+    },
+    {
+        "question": "To deploy a Terracotta application, you first download the distribution. The distribution provides :-",
+        "options": [
+            "a) utility scripts",
+            "b) JAR files",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The distribution provides utility scripts, as well as JARs. You may download Terracotta from http://www.terracotta.org."
+    },
+    {
+        "question": "On Unix-like operating systems, you start Terracotta as :-",
+        "options": [
+            "a) $TERRACOTTA HOME/bin/start-tc-server.sh \u2013f $PATH TO TERRACOTTA CONFIGURATION",
+            "b) $TERRACOTTA HOME/bin/start-tc-server.sh \u2013f $PATH TO TERRACOTTA",
+            "c) $TERRACOTTA HOME/bin/start-tc-server.sh \u2013f $PATH TO TERRACOTTA bin",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "On Unix-like operating systems, you start Terracotta as follows:"
+    },
+    {
+        "question": "For each virtual machine client that you want to \u201csee\u201d and share that state, start it with a customized bootclasspath parameter when starting Java.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The arguments for this vary per operating system, so Terracotta provides a handy script for determining the correct arguments, dso-env.sh."
+    },
+    {
+        "question": "To use the script on Unix-like operating systems:",
+        "options": [
+            "a) $TERRACOTTA HOME/bin/dso-env.sh $HOST:3312",
+            "b) $TERRACOTTA HOME/bin/dso-env.sh $HOST:$PORT",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To use the script on Unix-like operating systems:"
+    },
+    {
+        "question": "To distribute processing over many nodes, perhaps to increase result speed through the use of concurrences, perhaps merely to provide load balance and fault tolerance.",
+        "options": [
+            "a) Grid",
+            "b) GridGain",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can use something like GridGain, which was designed to transparently offload processing to a grid."
+    },
+    {
+        "question": "GridGain is an implementation of a processing grid.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "GridGain differs from data grids like Terracotta or Coherence, although data grids and processing grids are often used together."
+    },
+    {
+        "question": "There are many data grids, such as :-",
+        "options": [
+            "a) Coherence",
+            "b) Terracotta",
+            "c) Hadoop\u2019s HFS",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "These are designed to be fault-tolerant, memory-based RAM disks, essentially."
+    },
+    {
+        "question": "Map/reduce is a pattern that was popularized by Google, and it comes from functional programming languages, which often have:-",
+        "options": [
+            "a) map",
+            "b) reduce",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The idea is that you somehow partition a job and send those pieces to be processed. Finally, you take the results and join them, and those results are then sent back. Often, you won\u2019t have results per se; instead, you\u2019ll have sought only to distribute the processing asynchronously."
+    }
+]

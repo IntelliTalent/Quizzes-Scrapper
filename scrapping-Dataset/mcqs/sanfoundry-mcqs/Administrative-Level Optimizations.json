@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Accessing data from which of these is faster?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the administrators have more privileges since they have more control of the MySQL server or the machine on which it runs. Accessing data in memory is faster than from disk."
+    },
+    {
+        "question": "Which system variable controls the size of the table cache?",
+        "options": [
+            "a) table_cache",
+            "b) cache_table",
+            "c) open_cache",
+            "d) cache_open"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, when the server opens table files it keeps them open to minimize the number of file-opening operations. It maintains information about open files in the table cache."
+    },
+    {
+        "question": "Which status indicator assesses how effective the table cache is?",
+        "options": [
+            "a) Open_tables",
+            "b) Opened_tables",
+            "c) Close_tables",
+            "d) Closed_tables"
+        ],
+        "answer": "b",
+        "explanation": "When the server accesses various tables, the table cache fills up. The server closes the tables that have not been used recently in order to make room for opening the new tables."
+    },
+    {
+        "question": "In MySQL, the default size of the key buffer in MB is _________________",
+        "options": [
+            "a) 4",
+            "b) 8",
+            "c) 16",
+            "d) 32"
+        ],
+        "answer": "b",
+        "explanation": "The larger values allow MySQL to hold more index blocks in memory at once. This increases the chances of finding key values in memory without having to read a new block from disk."
+    },
+    {
+        "question": "The system variable to maintain InnoDB log buffer size is _________________",
+        "options": [
+            "a) innodb_log_buffer_size",
+            "b) innodb_buffer_log_size",
+            "c) buffer_log_innodb_size",
+            "d) log_buffer_innodb_size"
+        ],
+        "answer": "a",
+        "explanation": "The InnoDB storage engine has its own cache used for buffering the data and index values. It maintains a log buffer. The size for this is controlled by innodb_log_buffer_size."
+    },
+    {
+        "question": "All queries can be cached.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A query is not cached if the query returns non deterministic results. For example, a query that uses the NOW() function returns different results over time. Therefore, it cannot be cached."
+    },
+    {
+        "question": "To determine whether query cache is supported by the server the variable is _________________",
+        "options": [
+            "a) have_query_cache",
+            "b) have_cache_query",
+            "c) query_cache_have",
+            "d) cache_query_have"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, in order to determine whether a server supports the query cache or not, the value of the \u2018have_query_cache\u2019 system variable is checked. It returns \u2018YES\u2019 if support is available."
+    },
+    {
+        "question": "Which mode tells not to cache query results?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "The have_query_cache system variable is used to check whether there is support for query cache. The mode \u20180\u2019 tells not to cache the query results or to retrieve the cached results."
+    },
+    {
+        "question": "Which mode tells cache queries that begin with SELECT SQL_CACHE?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The have_query_cache system variable is used to check whether there is support for query cache. The mode \u20182\u2019 tells cache only those queries that begin with SELECT SQL_CACHE."
+    },
+    {
+        "question": "Installing more memory into the machine enables to configure larger values for cache server.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Installing more memory into the machine enables to configure larger values for the cache server and buffer sizes. This enables it to keep data in memory for longer duration."
+    }
+]

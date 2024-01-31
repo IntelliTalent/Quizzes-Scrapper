@@ -1,0 +1,112 @@
+[
+    {
+        "question": "As companies move past the experimental phase with Hadoop, many cite the need for additional capabilities, including _______________",
+        "options": [
+            "a) Improved data storage and information retrieval",
+            "b) Improved extract, transform and load features for data integration",
+            "c) Improved data warehousing functionality",
+            "d) Improved security, workload management, and SQL support"
+        ],
+        "answer": "d",
+        "explanation": "Adding security to Hadoop is challenging because all the interactions do not follow the classic client-server pattern."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hadoop do need specialized hardware to process the data",
+            "b) Hadoop 2.0 allows live stream processing of real-time data",
+            "c) In the Hadoop programming framework output files are divided into lines or records",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hadoop batch processes data distributed over a number of computers ranging in 100s and 1000s."
+    },
+    {
+        "question": "According to analysts, for what can traditional IT systems provide a foundation when they\u2019re integrated with big data technologies like Hadoop?",
+        "options": [
+            "a) Big data management and data mining",
+            "b) Data warehousing and business intelligence",
+            "c) Management of Hadoop clusters",
+            "d) Collecting and storing unstructured data"
+        ],
+        "answer": "a",
+        "explanation": "Data warehousing integrated with Hadoop would give a better understanding of data."
+    },
+    {
+        "question": "Hadoop is a framework that works with a variety of related tools. Common cohorts include ____________",
+        "options": [
+            "a) MapReduce, Hive and HBase",
+            "b) MapReduce, MySQL and Google Apps",
+            "c) MapReduce, Hummer and Iguana",
+            "d) MapReduce, Heron and Trumpet"
+        ],
+        "answer": "a",
+        "explanation": "To use Hive with HBase you\u2019ll typically want to launch two clusters, one to run HBase and the other to run Hive."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Hardtop processing capabilities are huge and its real advantage lies in the ability to process terabytes & petabytes of data",
+            "b) Hadoop uses a programming model called \u201cMapReduce\u201d, all the programs should conform to this model in order to work on the Hadoop platform",
+            "c) The programming model, MapReduce, used by Hadoop is difficult to write and test",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The programming model, MapReduce, used by Hadoop is simple to write and test."
+    },
+    {
+        "question": "What was Hadoop named after?",
+        "options": [
+            "a) Creator Doug Cutting\u2019s favorite circus act",
+            "b) Cutting\u2019s high school rock band",
+            "c) The toy elephant of Cutting\u2019s son",
+            "d) A sound Cutting\u2019s laptop made during Hadoop development"
+        ],
+        "answer": "c",
+        "explanation": "Doug Cutting, Hadoop creator, named the framework after his child\u2019s stuffed toy elephant."
+    },
+    {
+        "question": "All of the following accurately describe Hadoop, EXCEPT ____________",
+        "options": [
+            "a) Open-source",
+            "b) Real-time",
+            "c) Java-based",
+            "d) Distributed computing approach"
+        ],
+        "answer": "b",
+        "explanation": "Apache Hadoop is an open-source software framework for distributed storage and distributed processing of Big Data on clusters of commodity hardware."
+    },
+    {
+        "question": "__________ can best be described as a programming model used to develop Hadoop-based applications that can process massive amounts of data.",
+        "options": [
+            "a) MapReduce",
+            "b) Mahout",
+            "c) Oozie",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MapReduce is a programming model and an associated implementation for processing and generating large data sets with a parallel, distributed algorithm."
+    },
+    {
+        "question": "__________ has the world\u2019s largest Hadoop cluster.",
+        "options": [
+            "a) Apple",
+            "b) Datamatics",
+            "c) Facebook",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Facebook has many Hadoop clusters, the largest among them is the one that is used for Data warehousing."
+    },
+    {
+        "question": "Facebook Tackles Big Data With _______ based on Hadoop.",
+        "options": [
+            "a) \u2018Project Prism\u2019",
+            "b) \u2018Prism\u2019",
+            "c) \u2018Project Big\u2019",
+            "d) \u2018Project Data\u2019"
+        ],
+        "answer": "a",
+        "explanation": "Prism automatically replicates and moves data wherever it\u2019s needed across a vast network of computing facilities."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Kafka is comparable to traditional messaging systems such as _____________",
+        "options": [
+            "a) Impala",
+            "b) ActiveMQ",
+            "c) BigTop",
+            "d) Zookeeper"
+        ],
+        "answer": "b",
+        "explanation": "Kafka works well as a replacement for a more traditional message broker."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The original use case for Kafka was to be able to rebuild a user activity tracking pipeline as a set of real-time publish-subscribe feeds",
+            "b) Activity tracking is often very high volume as many activity messages are generated for each user page view",
+            "c) Kafka is often used for operational monitoring data",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " This involves aggregating statistics from distributed applications to produce centralized feeds of operational data."
+    },
+    {
+        "question": "Many people use Kafka as a replacement for a ___________ solution.",
+        "options": [
+            "a) log aggregation",
+            "b) compaction",
+            "c) collection",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Log aggregation typically collects physical log files off servers and puts them in a central place."
+    },
+    {
+        "question": "_______________ is a style of application design where state changes are logged as a time-ordered sequence of records.",
+        "options": [
+            "a) Event sourcing",
+            "b) Commit Log",
+            "c) Stream Processing",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Kafka\u2019s support for very large stored log data makes it an excellent backend for an application built in this style."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Kafka can serve as a kind of external commit-log for a distributed system",
+            "b) The log helps replicate data between nodes and acts as a re-syncing mechanism for failed nodes to restore their data",
+            "c) Kafka comes with a command-line client that will take input from a file or from standard input and send it out as messages to the Kafka cluster",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "By default, each line will be sent as a separate message."
+    },
+    {
+        "question": "Kafka uses __________ so you need to first start a ZooKeeper server if you don\u2019t already have one.",
+        "options": [
+            "a) Impala",
+            "b) ActiveMQ",
+            "c) BigTop",
+            "d) Zookeeper"
+        ],
+        "answer": "d",
+        "explanation": "You can use the convenience script packaged with Kafka to get a quick-and-dirty single-node ZooKeeper instance."
+    },
+    {
+        "question": "__________ is the node responsible for all reads and writes for the given partition.",
+        "options": [
+            "a) replicas",
+            "b) leader",
+            "c) follower",
+            "d) isr"
+        ],
+        "answer": "b",
+        "explanation": "Each node will be the leader for a randomly selected portion of the partitions."
+    },
+    {
+        "question": "__________ is the subset of the replicas list that is currently alive and caught up to the leader.",
+        "options": [
+            "a) replicas",
+            "b) leader",
+            "c) follower",
+            "d) isr"
+        ],
+        "answer": "d",
+        "explanation": "\u201cisr\u201d is the set of \u201cin-sync\u201d replicas."
+    },
+    {
+        "question": "Kafka uses key-value pairs in the ____________ file format for configuration.",
+        "options": [
+            "a) RFC",
+            "b) Avro",
+            "c) Property",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "These key values can be supplied either from a file or programmatically."
+    },
+    {
+        "question": "__________ is the amount of time to keep a log segment before it is deleted.",
+        "options": [
+            "a) log.cleaner.enable",
+            "b) log.retention",
+            "c) log.index.enable",
+            "d) log.flush.interval.message"
+        ],
+        "answer": "b",
+        "explanation": "log.cleaner.enable is configuration must be set to true for log compaction to run."
+    }
+]

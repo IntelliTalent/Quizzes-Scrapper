@@ -1,0 +1,541 @@
+[
+    {
+        "question": "1) Which of the following statement is correct?",
+        "options": [
+            "js is Server Side Language.",
+            "js is the Client Side Language.",
+            "js is both Server Side and Client Side Language.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. Node.js is Server Side Language.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "2) What does the REPL stand for?",
+        "options": [
+            "REPL stands for \"Read Eval Print Loop.\"",
+            "REPL stands for \"Research Eval Program Learn.\"",
+            "REPL stands for \"Read Earn Point Learn.\"",
+            "REPL stands for \"Read Eval Point Loop.\""
+        ],
+        "answer": "Answer: A is the correct option. REPL stands for \"Read Eval Print Loop\".",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following command is used to start a REPL session?",
+        "options": [
+            "$ node",
+            "$ node start",
+            "$ node repl",
+            "$ node console"
+        ],
+        "answer": "Answer: A is the correct option. We can start REPL simply by running node on shell/console without any argument.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "4) In which language is Node.js written?",
+        "options": [
+            "JavaScript",
+            "C",
+            "C++",
+            "CoffeeScript",
+            "All of the above"
+        ],
+        "answer": "Answer: E is the correct option. Node.js is a cross-platform, back-end JavaScript runtime environment written in JavaScript, C, C++, and CoffeeScript language.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following command is used to install the Node.js express module?",
+        "options": [
+            "$ npm install express",
+            "$ node install express",
+            "$ install express",
+            "None of the above"
+        ],
+        "answer": "Answer: A is the correct option. The $ npm install express command is used to install the Node.js express module.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "6) What is Callback?",
+        "options": [
+            "The callback is a technique in which a method calls back the caller method.",
+            "The callback is an asynchronous equivalent for a function.",
+            "Both of the above.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The callback is an asynchronous equivalent for a function.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following extension is used to save the Node.js files?",
+        "options": [
+            ".js",
+            ".node",
+            ".java",
+            ".txt"
+        ],
+        "answer": "Answer: A is the correct option. The \".js\" extension is used to save the Node.js files.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "8) The Node.js modules can be exposed using:",
+        "options": [
+            "expose",
+            "module",
+            "exports",
+            "All of the above"
+        ],
+        "answer": "Answer: C is the correct option. The Node.js modules can be exposed using module.exports.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following module is not a built-in node module?",
+        "options": [
+            "zlib",
+            "https",
+            "dgram",
+            "fsread"
+        ],
+        "answer": "Answer: D is the correct option. The \"fsread\" is not a built-in node module.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "10) Which of the following method of fs module is used to get file information?",
+        "options": [
+            "fs.open(path, flags[, mode], callback)",
+            "fs.stat(path, callback)",
+            "fs.readFile(path, flags[, mode], callback)",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The fs.stat(path, callback) method is used to get information about a file.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "11) What does the fs module stand for?",
+        "options": [
+            "File Service",
+            "File System",
+            "File Store",
+            "File Sharing"
+        ],
+        "answer": "Answer: B is the correct option. The fs module stands for File System.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "12) Which of the following method of fs module is used to truncate a file?",
+        "options": [
+            "fs.delete(fd, len, callback)",
+            "fs.remove(fd, len, callback)",
+            "fs.ftruncate(fd, len, callback)",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option. The fs.ftruncate(fd, len, callback) method is used to truncate a file.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the following template engines can be used with Node.js?",
+        "options": [
+            "Jade",
+            "Vash",
+            "Handlebars",
+            "All of the above"
+        ],
+        "answer": "Answer: C is the correct option. Handlebars are the template engines that can be used with Node.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "14) Which of the following code print the platform of operating system?",
+        "options": [
+            "console.log('platform : ' + os.platform);",
+            "console.log('platform : ' + os.platform());",
+            "console.log('platform : ' + os.getPlatform());",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The os.platform() returns the operating system platform.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following method is used to return the current working directory of the process?",
+        "options": [
+            "cwd();",
+            "cwd();",
+            "pwd();",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. The process.cwd() method is used to return the current working directory of the process.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following statement defines Express?",
+        "options": [
+            "Express is an application framework that provides a robust set of features to develop desktop-based applications.",
+            "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+            "Both of the above.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following is not a benefit of using modules in Express?",
+        "options": [
+            "It provides a means of dividing up tasks.",
+            "It provides a means of reuse of program code.",
+            "It provides a means of reducing the size of the program.",
+            "It provides a means of testing individual parts of the program."
+        ],
+        "answer": "Answer: C is the correct option. \"It provides a means of reducing the size of the program\" is not a benefit of modules in Express.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "18) What is the best practice to do in your code to improve the performance of your application?",
+        "options": [
+            "Using gzip compression.",
+            "Don't use synchronous functions.",
+            "Do logging correctly.",
+            "Handle exceptions properly."
+        ],
+        "answer": "Answer: A is the correct option. Using gzip compression is the best practice to do in your code to improve the performance of your application.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "19) What is the default scope in the Node.js application?",
+        "options": [
+            "Global",
+            "Local",
+            "Global Function",
+            "Local to object"
+        ],
+        "answer": "Answer: B is the correct option. Local is the default scope in the Node.js application.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "20) Which of the following engine Node in core?",
+        "options": [
+            "Chrome V8",
+            "Microsoft Chakra",
+            "SpiderMonkey",
+            "Node En"
+        ],
+        "answer": "Answer: A is the correct option. Node uses the Chrome V8 engine in the core.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "21) Which of the following statement is used to execute the code of the sample.js file?",
+        "options": [
+            "sample.js",
+            "node sample.js",
+            "nodejs sample.js",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The \"node sample.js\" statement is used to execute the code of the sample.js file.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "22) Which of the following is not a valid language for Node.js?",
+        "options": [
+            "JavaScript",
+            "Java",
+            "C",
+            "C++"
+        ],
+        "answer": "Answer: B is the correct option. Java is not a valid language for Node.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following shortcut command is used to kill a process in Node.js?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + K",
+            "Ctrl + T",
+            "Ctrl + C"
+        ],
+        "answer": "Answer: D is the correct option. The Ctrl + C command is used to kill a process in Node.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "24) How many Node object methods are available?",
+        "options": [
+            "21",
+            "18",
+            "19",
+            "20"
+        ],
+        "answer": "Answer: B is the correct option. There are 18 object methods available in Node.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "25) What is the main usage of Node.js terminal (REPL)?",
+        "options": [
+            "To specify the preview of the Node.js application.",
+            "For testing Node.js/JavaScript expressions.",
+            "For executing browser's JavaScript expressions.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The Node.js terminal (REPL) is used for testing Node.js/JavaScript expressions.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following types of applications can be built using Node.js?",
+        "options": [
+            "Web Application",
+            "Chat Application",
+            "RESTful Service",
+            "All of the above"
+        ],
+        "answer": "Answer: D is the correct option. All of the above types of applications can be built by using Node.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following is used to test if two nodes are equal?",
+        "options": [
+            "==",
+            "equal()",
+            "isEqualNode()",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option. The \"isEqualNode()\" is used to test if two nodes are equal.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following tool is used to automate the various tasks of the Node.js application?",
+        "options": [
+            "Express.js",
+            "GruntJS",
+            "NPM",
+            "None of the above"
+        ],
+        "answer": "Answer: B is the correct option. GruntJS tool is used to automate the various tasks of the Node.js application.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following areas, Node.js, is not advised to be used?",
+        "options": [
+            "Single Page Applications",
+            "JSON APIs based Applications",
+            "CPU intensive applications",
+            "Data-Intensive Real-time Applications (DIRT)"
+        ],
+        "answer": "Answer: C is the correct option. It is not advisable to use Node.js for CPU-intensive applications.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "30) Which of the following route parameter formats are valid?",
+        "options": [
+            "/books/!:from-:to",
+            "/flights/:from-:to",
+            "/users/:userId/books/:bookId",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the following module is required to create a web server?",
+        "options": [
+            "net module",
+            "http module",
+            "net module",
+            "url module"
+        ],
+        "answer": "Answer: D is the correct option. The url module is required to create a web server.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "32) Which of the following is the correct syntax to initiate the Node.js File?",
+        "options": [
+            "filename.js",
+            "javascript filename.js",
+            "node filename.js",
+            "node filename"
+        ],
+        "answer": "Answer: C is the correct option. The correct syntax to initiate the Node.js File is node filename.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "33) Which of the following method is used to compare the placement of two nodes in the DOM hierarchy (document)?",
+        "options": [
+            "cloneNode()",
+            "compareDocumentPosition()",
+            "getFeature()",
+            "getUserData()"
+        ],
+        "answer": "Answer: B is the correct option. The compareDocumentPosition()method compares the placement of two nodes in the DOM hierarchy (document).",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "34) Which of the following platforms does Node.js support?",
+        "options": [
+            "Windows",
+            "Macintosh",
+            "Unix/Linux",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option. Node.js is supported on all of the above written operating systems.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "35) Which of the following keyword is used to make properties and methods available outside the module file?",
+        "options": [
+            "import",
+            "module",
+            "exports",
+            "require"
+        ],
+        "answer": "Answer: C is the correct option. The exports keyword is used to make properties and methods available outside the module file.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "36) Which of the following Node.js object property is used to return the node immediately before a node?",
+        "options": [
+            "localName",
+            "index",
+            "previousSibling",
+            "textContent"
+        ],
+        "answer": "Answer: C is the correct option. The previousSibling object property is used to return the node immediately before a node.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following method can append specified content to a file?",
+        "options": [
+            "fs.appendFile()",
+            "fs.open()",
+            "fs.writeFile()",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. The fs.appendFile() method is used to append the specified content to a file. If the file does not exist, it creates the file.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "38) Which of the following is a GUI-based debugging tool for Node.js?",
+        "options": [
+            "Core node debugger",
+            "Console",
+            "REPL",
+            "Node Inspector"
+        ],
+        "answer": "Answer: D is the correct option. Node Inspector is a GUI-based debugging tool for Node.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "39) What is the use of underscore variable in REPL session in Node.js?",
+        "options": [
+            "It is used to store the result.",
+            "It is used to get the last command used.",
+            "It is used to get the last result.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option. In Node.js, the underscore variable in REPL session is used to get the last result.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "40) The buffer class is a global class that can be accessed without importing a buffer module.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option. A buffer class is a global class that can be accessed in the application without importing a buffer module.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "41) Is Node.js multithreaded?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Answer: No. B is the correct option. Node.js is not multithreaded.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "42) Is the process a global object and can be accessed from anywhere?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option. The process object is a global object and can be accessed from anywhere.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "43) Node.js uses an event-driven, non-blocking I/O model. Is it true?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option. Node.js uses an event-driven, non-blocking I/O model.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "44) The net.isIP(input) returns 0 for invalid input. Is it true?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option. The net.isIP(input) tests if input is an IP address. It returns 0 for invalid strings, returns 4 for IP version 4 addresses, and returns 6 for IP version 6 addresses.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "45) A stream fires finish event when all data has been flushed to the underlying system. Is it true?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "46) A stream fires data event when there is data available to read. Is it true?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "Answer: True. A is the correct option. A stream fires data event when there is data available to read.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

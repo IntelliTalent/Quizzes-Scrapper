@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Which of the following header file is a must to implement sleep sort algorithm?",
+        "options": [
+            "a) string.h",
+            "b) math.hw",
+            "c) bios.h",
+            "d) windows.h"
+        ],
+        "answer": "d",
+        "explanation": "To implement sleep sort algorithm we need functions like WaitForMultipleObjects(), _beginthread(). These are included in the header file windows.h."
+    },
+    {
+        "question": "Sleep sort does not work for ___________",
+        "options": [
+            "a) negative numbers",
+            "b) large numbers",
+            "c) small numbers",
+            "d) positive numbers"
+        ],
+        "answer": "a",
+        "explanation": "Sleep sort algorithm does not work for negative numbers. It is because thread cannot sleep for negative amount of time."
+    },
+    {
+        "question": "In how many comparisons does the array arr={1,4,2,3,5} gets sorted if we use sleep sort?",
+        "options": [
+            "a) 5",
+            "b) 3",
+            "c) 1",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "Sleep sort makes different elements of the array to sleep for an amount of time that is proportional to its magnitude. So it does not require to perform any comparison in order to sort the array."
+    },
+    {
+        "question": "Sleep sort works by ___________",
+        "options": [
+            "a) making elements to sleep for a time that is proportional to their magnitude",
+            "b) making elements to sleep for a time that is inversely proportional to their magnitude",
+            "c) partitioning the input array",
+            "d) dividing the value of input elements"
+        ],
+        "answer": "a",
+        "explanation": "In sleep sort each element is made to sleep for a time that is proportional to its magnitude. Then the elements are printed in the order in which they wake up."
+    },
+    {
+        "question": "Sleep sort code cannot compile online because ___________",
+        "options": [
+            "a) it has very high time complexity",
+            "b) it has very high space complexity",
+            "c) it requires multithreading process",
+            "d) online compilers are not efficient"
+        ],
+        "answer": "c",
+        "explanation": "Sleep sort requires multithreading process for making the elements to sleep. This process happens in the background at the core of the OS and so cannot be compiled on an online compiler."
+    },
+    {
+        "question": "Time complexity of sleep sort can be approximated to be ___________",
+        "options": [
+            "a) O(n + max(input))",
+            "b) O(n",
+            "c) O(n log n + max(input))",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "As the sleep() function creates multiple threads by using priority queue which takes n log n time for insertion. Also the output is obtained when all the elements wake up. This time is proportional to the max(input). So its time complexity is approximately O(n log n + max(input))."
+    },
+    {
+        "question": "Sleep sort can be preferred over which of the following sorting algorithms for large number of input elements?",
+        "options": [
+            "a) Quick sort",
+            "b) Bubble sort",
+            "c) Selection sort",
+            "d) No sorting algorithm is preferred"
+        ],
+        "answer": "d",
+        "explanation": "Sleep sort is not preferred over any of the given sorting algorithms as sleep sort does not guarantee a correct output every time. So sleep sort is not a reliable sorting technique."
+    },
+    {
+        "question": "Auxiliary space requirement of sleep sort is ___________",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(max(input))",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "All the major processes involved in sleep sort takes place internally in the OS. So it does not require any auxiliary space to sort the elements."
+    },
+    {
+        "question": "Sleep sort does gives a correct output when ___________",
+        "options": [
+            "a) any input element is negative",
+            "b) input array is reverse sorted",
+            "c) any input element is positive",
+            "d) when there is a very small number to the left of very large number"
+        ],
+        "answer": "c",
+        "explanation": "Sleep sort gives a sorted output when the array elements are positive. But when any other case than this occur out of the above given cases then we may not see a correct output. This makes sleep sort very unreliable sorting technique."
+    },
+    {
+        "question": "Which of the following sorting algorithm is most closely related to the OS?",
+        "options": [
+            "a) gnome sort",
+            "b) sleep sort",
+            "c) radix sort",
+            "d) bogo sort"
+        ],
+        "answer": "b",
+        "explanation": "Sleep sort is most closely related to the operating system. It is because most of the major steps of this algorithm takes place at the core of OS."
+    },
+    {
+        "question": "Sleep sort is an in-place sorting technique.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Sleep sort is an in-place sorting technique as most of its major steps takes place in the background. So it does not require auxiliary space to sort the input."
+    }
+]

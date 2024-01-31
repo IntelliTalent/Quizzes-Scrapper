@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ provides the functionality of a messaging system.",
+        "options": [
+            "a) Oozie",
+            "b) Kafka",
+            "c) Lucene",
+            "d) BigTop"
+        ],
+        "answer": "b",
+        "explanation": "Kafka is a distributed, partitioned, replicated commit log service."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) With Kafka, more users, whether using SQL queries or BI applications, can interact with more data",
+            "b) A topic is a category or feed name to which messages are published",
+            "c) For each topic, the Kafka cluster maintains a partitioned log",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Kafka is possible through a single repository and metadata store from source through analysis."
+    },
+    {
+        "question": "Kafka maintains feeds of messages in categories called __________",
+        "options": [
+            "a) topics",
+            "b) chunks",
+            "c) domains",
+            "d) messages"
+        ],
+        "answer": "a",
+        "explanation": "We\u2019ll call processes that publish messages to Kafka topic producers."
+    },
+    {
+        "question": "Kafka is run as a cluster comprised of one or more servers each of which is called __________",
+        "options": [
+            "a) cTakes",
+            "b) broker",
+            "c) test",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We\u2019ll call processes that subscribe to topics and process the feed of published messages consumers."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The Kafka cluster does not retain all published messages",
+            "b) A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients",
+            "c) Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization",
+            "d) Messages are persisted on disk and replicated within the cluster to prevent data loss"
+        ],
+        "answer": "a",
+        "explanation": "The Kafka cluster retains all published messages\u2014whether or not they have been consumed\u2014for a configurable period of time."
+    },
+    {
+        "question": "Communication between the clients and the servers is done with a simple, high-performance, language-agnostic _________ protocol.",
+        "options": [
+            "a) IP",
+            "b) TCP",
+            "c) SMTP",
+            "d) ICMP"
+        ],
+        "answer": "b",
+        "explanation": "Java client is provided for Kafka, but clients are available in many languages."
+    },
+    {
+        "question": "The only metadata retained on a per-consumer basis is the position of the consumer in the log, called __________",
+        "options": [
+            "a) offset",
+            "b) partition",
+            "c) chunks",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "offset is controlled by the consumer: normally a consumer will advance its offset linearly as it reads messages"
+    },
+    {
+        "question": "Each kafka partition has one server which acts as the _________",
+        "options": [
+            "a) leaders",
+            "b) followers",
+            "c) staters",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each partition is replicated across a configurable number of servers for fault tolerance."
+    },
+    {
+        "question": "_________ has stronger ordering guarantees than a traditional messaging system.",
+        "options": [
+            "a) kafka",
+            "b) Slider",
+            "c) Suz",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A traditional queue retains messages in-order on the server."
+    },
+    {
+        "question": "Kafka only provides a _________ order over messages within a partition.",
+        "options": [
+            "a) partial",
+            "b) total",
+            "c) 30%",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Per-partition ordering combined with the ability to partition data by key is sufficient for most applications."
+    }
+]

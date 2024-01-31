@@ -1,0 +1,112 @@
+[
+    {
+        "question": "If two cycle graphs Gm and Gn are joined together with a vertex, the number of spanning trees in the new graph is ______",
+        "options": [
+            "a) m+n-1",
+            "b) m-n",
+            "c) m*n",
+            "d) m*n+1"
+        ],
+        "answer": "c",
+        "explanation": "As there are n possible edges to be removed from G and m edges to be removed from G and the rest from a spanning tree so the number of spanning tree in the new graph is m*n."
+    },
+    {
+        "question": "For an n-vertex undirected graph, the time required to find a cycle is ____________",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n+1)",
+            "d) O(logn)"
+        ],
+        "answer": "a",
+        "explanation": "The existence of a cycle in directed and undirected graphs can be determined by depth-first search (DFS) of the graph finds an edge that points to an ancestor of the current vertex. In an undirected graph, finding any already visited vertex will indicate a back edge. All the back edges which DFS skips over are part of cycles. In the case of undirected graphs, only O(n) time is required to find a cycle in an n-vertex graph, since at most n \u2212 1 edges can be tree edges."
+    },
+    {
+        "question": "A binary cycle space forms a ______ over the two element field.",
+        "options": [
+            "a) triangular graph",
+            "b) vector space",
+            "c) binary tree",
+            "d) hamiltonian graph"
+        ],
+        "answer": "b",
+        "explanation": "The term cycle refers to an element of the cycle space of a graph. There are many cycle spaces. The most common is the binary cycle space, which contains the edge sets that have even degrees at every vertex and it forms a vector space over the two-element field."
+    },
+    {
+        "question": "If G is a simple graph with n-vertices and n>=3, the condition for G has a Hamiltonian circuit is __________",
+        "options": [
+            "a) the degree of each vertex is at most n/2",
+            "b) the degree of each vertex is equal to n",
+            "c) the degree of every vertex is at least n+1/2",
+            "d) the degree of every vertex in G is at least n/2"
+        ],
+        "answer": "d",
+        "explanation": "A simple circuit in a graph G that passes through every vertex exactly once is called a Hamiltonian circuit. If there is a vertex of degree one in a graph then it is impossible for it to have a Hamiltonian circuit. If G is a simple graph with n-vertices and n>=3 such that the degree of every vertex in G is at least n/2, then G has a Hamiltonian circuit."
+    },
+    {
+        "question": "What is a separable graph?",
+        "options": [
+            "a) A disconnected graph by deleting a vertex",
+            "b) A disconnected graph by removing an edge",
+            "c) A disconnected graph by removing one edge and a vertex",
+            "d) A simple graph which does not contain a cycle"
+        ],
+        "answer": "a",
+        "explanation": "By deletion of a vertex the graph is disconnected and the graph is called separable graph and the vertex is called cut vertex."
+    },
+    {
+        "question": "How many edges are there in a complete graph of order 9?",
+        "options": [
+            "a) 35",
+            "b) 36",
+            "c) 45",
+            "d) 19"
+        ],
+        "answer": "b",
+        "explanation": "In a complete graph of order n, there are n*(n-1) number of edges and degree of each vertex is (n-1). Hence, for a graph of order 9 there should be 36 edges in total."
+    },
+    {
+        "question": "How many cycles are there in a wheel graph of order 5?",
+        "options": [
+            "a) 6",
+            "b) 10",
+            "c) 25",
+            "d) 7"
+        ],
+        "answer": "d",
+        "explanation": "In a cycle of a graph G if we join all the vertices to the centre point, then that graph is called a wheel graph. There is always a Hamiltonian cycle in a wheel graph and there are n"
+    },
+    {
+        "question": "The time complexity to find a Eulerian path in a graph of vertex V and edge E is _____________",
+        "options": [
+            "a) O(V",
+            "b) O(V+E-1)",
+            "c) O(V+E)",
+            "d) O(E+1)"
+        ],
+        "answer": "c",
+        "explanation": "An undirected graph has Eulerian Path if the following two conditions are true: -a) All vertices with a non-zero degree are connected. A graph of vertices with zero degrees don\u2019t belong to Eulerian Cycle or Path, b) If two vertices have odd degree and all other vertices have even degree. Thus, the time to find whether a graph has a Eulerian path or not is O(V+E) with V vertices and E edges."
+    },
+    {
+        "question": "The time complexity to find shortest distances by using Dijkstra\u2019s algorithm is __________",
+        "options": [
+            "a) O(E",
+            "b) O(V+1-E)",
+            "c) O(V+E)",
+            "d) O(E+VlogV)"
+        ],
+        "answer": "d",
+        "explanation": "Time complexity of finding shortest distance can be O(E + VLogV) using Fibonacci Heap. The reason is that Fibonacci Heap takes O(1) time for decrease-key operation while Binary Heap takes O(logn) time."
+    },
+    {
+        "question": "Topological sorting of a graph represents _______ of a graph.",
+        "options": [
+            "a) linear probing",
+            "b) linear ordering",
+            "c) quadrilateral ordering",
+            "d) insertion sorting"
+        ],
+        "answer": "b",
+        "explanation": "Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. If the graph is not a DAG, topological sorting for a graph is not possible."
+    }
+]

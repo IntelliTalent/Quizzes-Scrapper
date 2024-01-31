@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following are related to construction of One Tape turing machines?",
+        "options": [
+            "a) JFLAP",
+            "b) NFLAP",
+            "c) All of the mm",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JFLAP is educational software written in java to experiment with the topics in automata theory and area of formal languages."
+    },
+    {
+        "question": "Which of the following topics cannot be covered using JFLAPS?",
+        "options": [
+            "a) L-System",
+            "b) Unrestricted Grammar",
+            "c) Regular Expression",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Topics like regular expressions, context free languages and unrestricted grammar including parsers like LL,SLR parsers can be covered using JFLAPS."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Multitape turing machines do have multiple tapes but they they are accessed by separate heads."
+    },
+    {
+        "question": "Which of the following statements is/are true?",
+        "options": [
+            "a) Every multitape turing machine has its equivalent single tape turing machine",
+            "b) Every multitape turing machine is not an abstract machine",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A multitape turing machine is an ordinary turing machine which is always abstract.And they do have their equivalent single tape turing machines."
+    },
+    {
+        "question": "Are Multitape and Multitrack turing machines same?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Somewhat yes",
+            "d) Cannot tell"
+        ],
+        "answer": "a",
+        "explanation": "Multitrack turing machines are special types of Multitape turing machines. In a standard n-tape Turing machine, n heads move independently along n-tracks."
+    },
+    {
+        "question": "In a n-track turing machine, _________ head/heads read and write on all tracks simultaneously.",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) n",
+            "d) infinite"
+        ],
+        "answer": "a",
+        "explanation": "In a n-track Turing machine, one head reads and writes on all tracks simultaneously. A tape position in a n-track Turing Machine contains n symbols from the tape alphabet."
+    },
+    {
+        "question": "Which of the following does not exists?",
+        "options": [
+            "a) Turing Machine with Multiple heads",
+            "b) Turing Machine with infinite tapes",
+            "c) Turing machine with two dimensional tapes",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are one or the other kind of Turing machines in existence."
+    },
+    {
+        "question": "Can a multitape turing machine have an infinte number of tapes?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "b",
+        "explanation": "One needs a finite number of tapes. The proofs that show the equivalence between multi-tape TM and one-band TM rely on the fact that the number of tapes is bounded."
+    },
+    {
+        "question": "Every language accepted by a k-tape TM is _____ by a single-tape TM.",
+        "options": [
+            "a) accepted",
+            "b) not accepted",
+            "c) generated",
+            "d) not generated"
+        ],
+        "answer": "a",
+        "explanation": "Its the theorem that states Every multitape turing machine can be simulated by a single tape turing machine and the corresponding language can be accepted."
+    },
+    {
+        "question": "Which of the following is/are a basic TM equivalent to?",
+        "options": [
+            "a) Multitrack TM",
+            "b) Multitape TM",
+            "c) Non-deterministic TM",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Tms can be used as both: language recognizers/Computers. TMs are like universal computing machines with universal storage."
+    }
+]

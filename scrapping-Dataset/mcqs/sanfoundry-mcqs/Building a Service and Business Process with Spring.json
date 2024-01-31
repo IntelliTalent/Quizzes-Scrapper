@@ -1,0 +1,135 @@
+[
+    {
+        "question": "jBPM will expose beans using the:-",
+        "options": [
+            "a) jBPM expression language",
+            "b) jBoss",
+            "c) Spring expression language",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "jBPM will expose beans using the jBPM expression language, and you can then just reference them by name."
+    },
+    {
+        "question": "jBPM, and indeed most workflow engines, passivate state for you, allowing a process to wait on external events :-",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Indeed, because you\u2019ve decomposed your process into a series of isolated steps, each of which contributes to the larger goal while remaining independently useful, you get the best of both worlds:"
+    },
+    {
+        "question": "We override the List bean (with id annotatedHibernateClasses) that we created for the last recipe (jbpm4 context.xml) to provide the session factory with a collection of annotated entities which is here as:-",
+        "options": [],
+        "answer": "b",
+        "explanation": "This bean leverages Hibernate (through the HibernateTemplate instance) to handle persistence, and it leverages jBPM (through the SpringConfiguration instance) to handle BPM."
+    },
+    {
+        "question": "The method annotated with @PostConstruct will be run after the bean\u2019s been configured to let the user inject custom initialization logic.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The bean handles as part of its duties in its post-initialization phase."
+    },
+    {
+        "question": "The business process file\u2019s name needs to end in :-",
+        "options": [
+            "a) jpdl",
+            "b) xml",
+            "c) jpdl.xml",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The business process file\u2019s name needs to end in jpdl.xml; otherwise, jBPM won\u2019t deploy it."
+    },
+    {
+        "question": "At the top, we\u2019ve injected some dependencies:",
+        "options": [
+            "a) springConfiguration",
+            "b) repositoryService",
+            "c) executionService",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "At the top, we\u2019ve injected three dependencies:"
+    },
+    {
+        "question": "The class(CustomerServiceImpl) provides a few salient methods:-",
+        "options": [],
+        "answer": "d",
+        "explanation": "The class provides a few"
+    },
+    {
+        "question": "In the bean, setupProcessDefinitions is run when the bean is created.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It iterates through the processDefinitions collection and deploys the resource whose path it is given."
+    },
+    {
+        "question": "Process definition will reference Spring beans using the JBoss expression language.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "We\u2019ll walk through how the business process uses our customerService bean and how the customerService bean uses the business process to handle the customer\u2019s sign-up."
+    },
+    {
+        "question": "In jBPM, a business process is built using jPDL.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can use the Eclipse plug-in to model jBPM processes, but the jPDL schema is so simple that you don\u2019t really need it."
+    },
+    {
+        "question": "11.In the customerService bean, a client will use createCustomer to create a customer record.",
+        "options": [],
+        "answer": "a",
+        "explanation": "In a real-world example, you might imagine exposing these services as a SOAP endpoint to be consumed by various clients, such as a web application or other business applications."
+    },
+    {
+        "question": "12.Inside the createCustomer method, we use jBPM to start the business process to track the Customer. This is done with the :-",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the invocation, we give jBPM variables through a Map"
+    },
+    {
+        "question": "Once in the java element named send-verification-email, jBPM will invoke the method:-",
+        "options": [
+            "a) sendCustomerVerificationEmail",
+            "b) sendCustomerVerification",
+            "c) veifyCustomerVerificationEmail",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once in the java element named send-verification-email, jBPM will invoke the method sendCustomerVerificationEmail on the customerService bean in Spring."
+    },
+    {
+        "question": "Inside authorizeCustomer, the service queries the server for the any processes waiting at the:-",
+        "options": [
+            "a) confirm-receipt-of-verification",
+            "b) confirm-receipt",
+            "c) confirm-receipt-of-verification-email",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Inside authorizeCustomer, the service queries the server for the any processes waiting at the confirm-receipt-of-verification-email state and having this customer\u2019s ID."
+    },
+    {
+        "question": "The authorizeCustomer method also updates the Customer entity, marking it as authorized. From there, execution proceeds to the send-welcome-email java element.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "As before, the java element will be used to invoke a method on the customerService bean. This time, it will invoke sendWelcomeEmail to send the newly registered Customer a welcome email."
+    }
+]

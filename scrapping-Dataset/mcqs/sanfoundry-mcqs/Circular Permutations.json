@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In a playground, 3 sisters and 8 other girls are playing together. In a particular game, how many ways can all the girls be seated in a circular order so that the three sisters are not seated together?",
+        "options": [
+            "a) 457993",
+            "b) 3386880",
+            "c) 6544873",
+            "d) 56549"
+        ],
+        "answer": "b",
+        "explanation": "There are 3 sisters and 8 other girls in total of 11 girls. The number of ways to arrange these 11 girls in a circular manner = (11\u2013 1)! = 10!. These three sisters can now rearrange themselves in 3! ways. By the multiplication theorem, the number of ways so that 3 sisters always come together in the arrangement = 8! \u00d7 3!. Hence, the required number of ways in which the arrangement can take place if none of the 3 sisters is seated together: 10! \u2013 (8! \u00d7 3!) = 3628800 \u2013 (40320 * 6) = 3628800 \u2013 241920 = 3386880."
+    },
+    {
+        "question": "How many numbers of three digits can be formed with digits 1, 3, 5, 7 and 9?",
+        "options": [
+            "a) 983",
+            "b) 120",
+            "c) 345",
+            "d) 5430"
+        ],
+        "answer": "b",
+        "explanation": "Here number of digits, n = 5 and number of places to be filled-up r = 3. Hence, the required number is"
+    },
+    {
+        "question": "The size of a multiset is 6 which is equal to the number of elements in it with counting repetitions (a multiset is an unordered collection of elements where the elements may repeat any number of times). Determine the number of multisets can be grouped from n distinct elements so that at least one element occurs exactly twice?",
+        "options": [
+            "a) 326",
+            "b) 28",
+            "c) 45",
+            "d) 62"
+        ],
+        "answer": "c",
+        "explanation": "There are six places to be filled in the multiset using the n distinct elements. At least one element has to occur exactly twice and that would leave 4 more places in the multiset means that at most four elements can occur exactly once. Thus there are two mutually exclusive cases as follows: 1) Exactly one element occurs exactly twice and select this element in n ways. Fill up the remaining four spots using 5 distinct elements from the remaining n\u22121 elements in"
+    },
+    {
+        "question": "How many words can be formed with the letters of the word \u2018CASTLE\u2019 when \u2018O\u2019 and \u2018A\u2019 occupying end places.",
+        "options": [
+            "a) 217",
+            "b) 48",
+            "c) 75",
+            "d) 186"
+        ],
+        "answer": "b",
+        "explanation": "When \u2018O\u2019 and \u2018A\u2019 are occupying end-places => A.S.T.L. (CE). We can see that (CE) are fixed, hence A, S, T, L can be arranged in  4! Ways and (C, E) can be arranged themselves is 2! ways. So, the number of words formed =  4! x  2! = 48 ways."
+    },
+    {
+        "question": "Determine the number of ways of choosing a cricket team (consists of 11 players) out of 18 players if a particular player is never chosen.",
+        "options": [
+            "a) 12798",
+            "b) 22800",
+            "c) 31824",
+            "d) 43290"
+        ],
+        "answer": "c",
+        "explanation": "If a particular player is never chosen that would mean 11 players are selected out of 18 players. Hence, required number of ways ="
+    },
+    {
+        "question": "How many different choices can be made from 5 roses, 4 marigold and 8 sunflowers if at least one flower is to be chosen for making of garland?",
+        "options": [
+            "a) 269",
+            "b) 270",
+            "c) 281",
+            "d) 320"
+        ],
+        "answer": "a",
+        "explanation": "Number of ways of selecting roses = (5+1) = 6 ways, number of ways of selecting marigold = (4+1) = 5 ways, and the number of ways of selecting sunflowers = (8+1) = 9 ways. Total number of ways of selecting flowers= 6 * 5 * 9 = 270. But this includes when no flowers or zero flowers is selected (There is no flowers of a different type, hence n=0 =>   2"
+    },
+    {
+        "question": "In how many ways 6 pens can be selected from 15 identical black pens?",
+        "options": [
+            "a) 9*3!",
+            "b) 21",
+            "c) 14!",
+            "d) 1"
+        ],
+        "answer": "d",
+        "explanation": "Here the pens are identical, the total number of ways of selecting 6 pens is 1."
+    },
+    {
+        "question": "Determine the number of ways of selecting one or more letters from the letters BBBBBB?",
+        "options": [
+            "a) 6",
+            "b) 73",
+            "c) 23",
+            "d) 56"
+        ],
+        "answer": "a",
+        "explanation": "The number of ways of selecting one \u2018B\u2019s = 1, selecting two \u2018B\u2019s = 1, selecting three \u2018B\u2019s = 1, selecting four \u2018B\u2019s = 1, selecting five \u2018B\u2019s = 1 and selecting six \u2018B\u2019s = 1. Hence, the required number of ways = 6."
+    },
+    {
+        "question": "Determine the number of ways such that 5 men and 5 women be seated at a round table if no two women are seated together.",
+        "options": [
+            "a) 654870",
+            "b) 144521",
+            "c) 362160",
+            "d) 5634"
+        ],
+        "answer": "c",
+        "explanation": "The men and women can be seated alternately so that no two women will sit together. Hence, 4 women can be seated on alternate seats at a round table in (4 \u2013 1)! or 6"
+    },
+    {
+        "question": "Find the number of ways in which 4 people E, F, G, H, A, C can be seated at a round table, such that E and F must always sit together.",
+        "options": [
+            "a) 32",
+            "b) 290",
+            "c) 124",
+            "d) 48"
+        ],
+        "answer": "d",
+        "explanation": "E and F can sit together in all arrangements in 2! Ways. Now, the arrangement of the 5 people in a circle can be done in  (5 \u2013 1)! or 24 ways. Therefore, the total number of ways will be 24 x 2 = 48."
+    }
+]

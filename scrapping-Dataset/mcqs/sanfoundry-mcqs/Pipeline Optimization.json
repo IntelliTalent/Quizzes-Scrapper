@@ -1,0 +1,112 @@
+[
+    {
+        "question": "______ expressions ignores the duplicate entries in each input array and the order of the elements.",
+        "options": [
+            "a) set",
+            "b) boolean",
+            "c) aggregate",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If the set operation returns a set, the operation filters out duplicates in the result to output an array that contains only unique entries."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) To avoid parsing ambiguity if the argument is a literal array, you must wrap the literal array in a $lits expression or keep the outer array that designates the argument list",
+            "b) Expressions cannot include field paths and system variables, literals, expression objects, and expression operators",
+            "c) Operator expressions are similar to functions that take arguments",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In general, these expressions take an array of arguments and have the following form: { <operator>: [ <argument1>, <argument2> \u2026 ] }"
+    },
+    {
+        "question": "________ returns true if the input sets have the same distinct elements.",
+        "options": [
+            "a) $setUnion",
+            "b) $setDifference",
+            "c) $setEquals",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:$setEquals accepts two or more argument expressions."
+    },
+    {
+        "question": "Which of the following accepts any number of argument expression?",
+        "options": [
+            "a) $setIntersection",
+            "b) $setDifference",
+            "c) $setEquals",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:$setIntersection returns a set with elements that appear in all of the input sets."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Boolean expressions evaluate their argument expressions as booleans and return a boolean as the result",
+            "b) In addition to the false boolean value, Boolean expression evaluates as false the following: null, 0, and undefined values",
+            "c) Set expressions performs set operation on arrays, treating arrays as sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The Boolean expression evaluates all other values as true, including non-zero numeric values and arrays."
+    },
+    {
+        "question": "________ returns a set with elements that appear in any of the input sets.",
+        "options": [
+            "a) $setIntersection",
+            "b) $setDifference",
+            "c) $setEquals",
+            "d) $setUnion"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:$setUnion performs set operation on arrays, treating arrays as sets."
+    },
+    {
+        "question": "Which of the following performs a relative complement of the second set relative to the first?",
+        "options": [
+            "a) $setIntersection",
+            "b) $setDifference",
+            "c) $setEquals",
+            "d) $setUnion"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:$setDifference returns a set with elements that appear in the first set but not in the second set."
+    },
+    {
+        "question": "$setIsSubset\treturns _______ if all elements of the first set appear in the second set, including when the first set equals the second set.",
+        "options": [
+            "a) Null",
+            "b) True",
+            "c) False",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:$setIsSubset accepts exactly two argument expressions."
+    },
+    {
+        "question": "_______ accepts only single argument expression.",
+        "options": [
+            "a) $setIsSubset",
+            "b) $bool",
+            "c) $anyElementTrue",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:$anyElementTrue returns true if any elements of a set evaluate to true; otherwise, returns false."
+    },
+    {
+        "question": "$allElementsTrue returns true if no element of a set evaluates to ____________",
+        "options": [
+            "a) false",
+            "b) true",
+            "c) 0",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": "An empty array returns true."
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "question": "Polybius square is also known by the name of?",
+        "options": [
+            "a) Polybius checkboard",
+            "b) Polybius table",
+            "c) Ploybius board",
+            "d) Ploybius keypad"
+        ],
+        "answer": "a",
+        "explanation": "Polybius square is similar to substitution cipher. It is also known by the name of Polybius checkboard."
+    },
+    {
+        "question": "How many keys are required for encryption and decryption of data when we use asymmetric cipher?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "Asymmetric cipher makes use of 2 keys for the purpose of encryption. One is known as public key whereas other is called private key."
+    },
+    {
+        "question": "Which of the following is made possible by the use of Polybius square?",
+        "options": [
+            "a) To represent the plain text by smaller set of symbols",
+            "b) To represent the plain text by larger set of symbols",
+            "c) To represent the plain text by the letters of some other language",
+            "d) To represent the plain text by the same set of symbols"
+        ],
+        "answer": "a",
+        "explanation": "Polybius square is similar to substitution cipher. Polybius square allows us to cipher the plain text in such a way that a minimum number of symbols are used in the encrypted text."
+    },
+    {
+        "question": "What is the usual size of polybius square used for encrypting English alphabets?",
+        "options": [
+            "a) 5 X 5",
+            "b) 6 X 6",
+            "c) 26 X 26",
+            "d) 25 X 25"
+        ],
+        "answer": "a",
+        "explanation": "The usual size of poybius square for encrypting English alphabets is 5 X 5. Usually, I and J are combined so as to fit all English letters in this table."
+    },
+    {
+        "question": "Polybius square cipher is most closely related to?",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "a",
+        "explanation": "Polybius square cipher is much like any mono alphabetic cipher. It is because it applies a fixed substitution to the letters present in plain text."
+    },
+    {
+        "question": "Auto key cipher is more secure than polybius square cipher?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Polybius square is closely related to mono alphabetic substitution cipher and thus is more vulnerable to frequency analysis. Whereas polybius square being a poly alphabetic cipher is less vulnerable to frequency analysis and so is more secure."
+    },
+    {
+        "question": "Polybius square cipher is less susceptible to frequency analysis.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Polybius square cipher is closely related to mono alphabetic cipher. Thus it is quite vulnerable to frequency analysis much like any other mono alphabetic cipher."
+    },
+    {
+        "question": "Which of the following cipher uses polybius square cipher in its first step of encrypting data?",
+        "options": [
+            "a) Autokey cipher",
+            "b) One time pad cipher",
+            "c) ADFGVX cipher",
+            "d) Rail fence cipher"
+        ],
+        "answer": "c",
+        "explanation": "ADFGVX cipher uses polybius square cipher in its first step of encrypting data. It uses a 6 X 6 version of polybius square."
+    },
+    {
+        "question": "What will be the plain text corresponding to ciphered text \u201c134325\u201d if standard polybius square cipher is used for encryption?",
+        "options": [
+            "a) SRH",
+            "b) CSK",
+            "c) RCB",
+            "d) KKR"
+        ],
+        "answer": "b",
+        "explanation": "For decoding ciphered text we have to use the polybius square in and find out the letters corresponding to each pair of coordinate. So in this case the plain text is found to be \u201cCSK\u201d."
+    },
+    {
+        "question": "What will be the encrypted text corresponding to plain text \u201cSAN\u201d using standard polybius square cipher?",
+        "options": [
+            "a) 431133",
+            "b) 341133",
+            "c) 441133",
+            "d) 114433"
+        ],
+        "answer": "a",
+        "explanation": "For encrypting using polybius square cipher we have to use the table which is shown below and write (row, col) coordinates corresponding to each letter."
+    },
+    {
+        "question": "12.What will be the output of the following C++ code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code implements polybius square cipher on a given plain text. So here as the plain text is \u201cnsit\u201d so the output of the code should be \u201c33432444\u201d."
+    }
+]

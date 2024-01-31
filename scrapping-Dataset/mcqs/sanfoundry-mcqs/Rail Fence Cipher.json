@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is the alternative name given to Rail fence cipher?",
+        "options": [
+            "a) random cipher",
+            "b) matrix cipher",
+            "c) zig zag cipher",
+            "d) columnar cipher"
+        ],
+        "answer": "c",
+        "explanation": "Rail fence cipher is also known as zig zag cipher. It is so because the plain text gets ciphered by arranging the letters in a zig zag fashion."
+    },
+    {
+        "question": "Rail fence cipher is an example of ___________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "c",
+        "explanation": "Rail fence cipher is a transposition cipher. It falls under the category of transposition cipher as it encrypts the plain text by rearranging its letters."
+    },
+    {
+        "question": "Encryption in Rail fence cipher is done using _____________",
+        "options": [
+            "a) by arranging the letters in a zig zag fashion in a table",
+            "b) by randomly arranging letters",
+            "c) by arranging letters in vigenere table",
+            "d) by swapping adjacent letters"
+        ],
+        "answer": "a",
+        "explanation": "Rail fence cipher is a transposition cipher. It encrypts a given plain text by arranging the letters in a zig zag fashion in a table."
+    },
+    {
+        "question": "Which of the following ciphers are created by shuffling the letters of a word?",
+        "options": [
+            "a) substitution cipher",
+            "b) transposition cipher",
+            "c) vigenere cipher",
+            "d) hill cipher"
+        ],
+        "answer": "b",
+        "explanation": "There are two types of traditional ciphers- Transposition and substitution cipher. In transposition cipher the letters of the given data are shuffled in a particular order, fixed by a given rule."
+    },
+    {
+        "question": "Which of the following is not a type of poly alphabetic cipher?",
+        "options": [
+            "a) Autokey cipher",
+            "b) Hill cipher",
+            "c) One time pad cipher",
+            "d) Additive cipher"
+        ],
+        "answer": "Answer:d",
+        "explanation": "In poly alphabetic cipher each symbol of plain text is replaced by a different cipher text regardless of its occurrence. Out of the given options, only additive cipher is not a poly alphabetic cipher."
+    },
+    {
+        "question": "The number of columns in the table used for encryption in rail fence cipher depends upon the given key value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The number of columns in the table of rail fence cipher is always equal to the number of letters in the plain text. It is independent of the given key value."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cSCSEMG\u201d if rail fence cipher is used with key value 2?",
+        "options": [
+            "a) MSGSEC",
+            "b) SECMSG",
+            "c) GSMSEC",
+            "d) SECGSM"
+        ],
+        "answer": "b",
+        "explanation": "For decryption we reverse the process used in encryption."
+    }
+]

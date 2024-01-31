@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Which of the following sorting algorithm has best case time complexity of O(n",
+        "options": [
+            "a) bubble sort",
+            "b) selection sort",
+            "c) insertion sort",
+            "d) stupid sort"
+        ],
+        "answer": "b",
+        "explanation": "Selection sort is not an adaptive sorting algorithm. It finds the index of minimum element in each iteration even if the given array is already sorted. Thus its best case time complexity becomes O(n"
+    },
+    {
+        "question": "Which of the following is the biggest advantage of selection sort?",
+        "options": [
+            "a) its has low time complexity",
+            "b) it has low space complexity",
+            "c) it is easy to implement",
+            "d) it requires only n swaps under any condition"
+        ],
+        "answer": "d",
+        "explanation": "Selection sort works by obtaining least value element in each iteration and then swapping it with the current index. So it will take n swaps under any condition which will be useful when memory write operation is expensive."
+    },
+    {
+        "question": "What will be the recurrence relation of the code of recursive selection sort?",
+        "options": [
+            "a) T(n) = 2T(n/2) + n",
+            "b) T(n) = 2T(n/2) + c",
+            "c) T(n) = T(n-1) + n",
+            "d) T(n) = T(n-1) + c"
+        ],
+        "answer": "c",
+        "explanation": "Function to find the minimum element index takes n time.The recursive call is made to one less element than in the previous call so the overall recurrence relation becomes T(n) = T(n-1) + n."
+    },
+    {
+        "question": "Which of the following sorting algorithm is NOT stable?",
+        "options": [
+            "a) Selection sort",
+            "b) Brick sort",
+            "c) Bubble sort",
+            "d) Merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options selection sort is the only algorithm which is not stable. It is because the order of identical elements in sorted output may be different from input array."
+    },
+    {
+        "question": "What will be the best case time complexity of recursive selection sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Selection sort\u2019s algorithm is such that it finds the index of minimum element in each iteration even if the given array is already sorted. Thus its best case time complexity becomes O(n"
+    },
+    {
+        "question": "Recursive selection sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In selection sort we need to compare elements in order to find the minimum element in each iteration. So we can say that it uses comparisons in order to sort the array. Thus it qualifies as a comparison based sort."
+    },
+    {
+        "question": "What is the average case time complexity of recursive selection sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The overall recurrence relation of recursive selection sort is given by T(n) = T(n-1) + n. It is found to be equal to O(n"
+    },
+    {
+        "question": "What is the bidirectional variant of selection sort?",
+        "options": [
+            "a) cocktail sort",
+            "b) bogo sort",
+            "c) gnome sort",
+            "d) bubble sort"
+        ],
+        "answer": "a",
+        "explanation": "A bidirectional variant of selection sort is called cocktail sort. It\u2019s an algorithm which finds both the minimum and maximum values in the array in every pass. This reduces the number of scans of the array by a factor of 2."
+    },
+    {
+        "question": "Choose correct C++ code for recursive selection sort from the following.",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Using the function recursiveSelectionSort() we find the element that needs to be placed at the current index. For finding the minimum element index we use another function minIndex(). After finding the minimum element index the current element is swapped with this element in the function recursiveSelectionSort()."
+    },
+    {
+        "question": "What is the number of swaps required to sort the array arr={5,3,2,4,1} using recursive selection sort?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The first swap takes place between 1 and 5. The second swap takes place between 3 and 2 which sorts our array."
+    }
+]

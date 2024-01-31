@@ -1,0 +1,894 @@
+[
+    {
+        "question": "In which of these situations are interfaces better than abstract classes?",
+        "options": [
+            "When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.",
+            "Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.",
+            "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
+            "You should use both an interface and an abstract class when defining any complex object."
+        ],
+        "answer": "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class."
+    },
+    {
+        "question": "Which statement is true of delegates?",
+        "options": [
+            "Delegates are not supported in the current version of C#",
+            "They cannot be used as callbacks.",
+            "Only variables can be passed to delegates as parameters.",
+            "They can be chained together."
+        ],
+        "answer": "They can be chained together."
+    },
+    {
+        "question": "Which choice best defines C#'s asynchronous programming model?",
+        "options": [
+            "reactive",
+            "inherited callback",
+            "task-based",
+            "callback-based"
+        ],
+        "answer": "task-based"
+    },
+    {
+        "question": "How would you determine if a class has a particular attribute?",
+        "options": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "answer": "."
+    },
+    {
+        "question": "What is the difference between the ref and out keywords?",
+        "options": [
+            "Variables passed to specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.",
+            "Variables passed to ref can be passed to a function without being initialized, while out specifies that the value is a reference value that can be changed inside the calling method.",
+            "Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.",
+            "Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function without being initialized."
+        ],
+        "answer": "Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method."
+    },
+    {
+        "question": "How could you retrieve information about a class, as well as create an instance at runtime?",
+        "options": [
+            "reflection",
+            "serialization",
+            "abstraction",
+            "dependency injection"
+        ],
+        "answer": "reflection"
+    },
+    {
+        "question": "What is this code an example of?",
+        "options": [
+            "a private class that uses multithreading",
+            "multithread coding",
+            "thread mismanagement",
+            "a potential deadlock"
+        ],
+        "answer": "a potential deadlock"
+    },
+    {
+        "question": "What is the difference between an anonymous type and a regular data type?",
+        "options": [
+            "Anonymous types don't have type names",
+            "Anonymous types can only be static",
+            "Anonymous types can be used only in struts",
+            "Anonymous types don't work with LINQ."
+        ],
+        "answer": "Anonymous types don't have type names"
+    },
+    {
+        "question": "When would you use a Dictionary rather than an Array type in your application?",
+        "options": [
+            "When you need a jagged collection structure",
+            "When you need to store values of the same type",
+            "When you need to store key-value pairs rather than single values",
+            "When you need an ordered, searchable list"
+        ],
+        "answer": "When you need to store key-value pairs rather than single values"
+    },
+    {
+        "question": "What is the difference between a.Equals(b) and a == b?",
+        "options": [
+            "The .Equals method compares reference identities while the `==` compares contents.",
+            "The .Equals method compares primitive values while `==` compares all values.",
+            "The .Equals method compares contents while `==` compares reference identity.",
+            "The .Equals method compares reference types while `==` compares primitive value types"
+        ],
+        "answer": "The .Equals method compares contents while `==` compares reference identity."
+    },
+    {
+        "question": "Which choice best describes a deadlock situation?",
+        "options": [
+            "when you try to instantiate two objects at the same time in the same class or struct",
+            "when you are trying to execute an action after a user event is registered",
+            "when simultaneous instructions are waiting on each other to finish before executing",
+            "when you try to execute a series of events simultaneously on multiple threads"
+        ],
+        "answer": "when simultaneous instructions are waiting on each other to finish before executing"
+    },
+    {
+        "question": "How does the async keyword work?",
+        "options": [
+            "It allows access to asynchronous methods in the C# API",
+            "It allows thread pooling and synchronous processes in static classes.",
+            "It allows the await keyword to be used in a method",
+            "It allows access to synchronous methods in the C# API"
+        ],
+        "answer": "It allows the await keyword to be used in a method"
+    },
+    {
+        "question": "What is an object in C#?",
+        "options": [
+            "a class or struct, including its variables and functions",
+            "a primitive data type that can be created only at compile time",
+            "a value type that can be used only with an abstract class",
+            "an instance of a class or struct that includes fields, properties, and/or methods"
+        ],
+        "answer": "an instance of a class or struct that includes fields, properties, and/or methods"
+    },
+    {
+        "question": "Which code snippet declares an anonymous type named userData?",
+        "options": [
+            "`var<<!---->T> userData = new <<!---->T> { name = \"John\", age = 32 };`",
+            "`var userData = new { name = \"John\", age = 32 };`",
+            "`AType userData = new AType { name = \"John\", age = 32 };`",
+            "`Anonymous<T> userData = new Anonymous<T> { name = \"John\", age = 32 };`"
+        ],
+        "answer": "`var userData = new { name = \"John\", age = 32 };`"
+    },
+    {
+        "question": "What will be returned when this method is executed?",
+        "options": [
+            "Nothing",
+            "a Boolean",
+            "a string variable",
+            "an integer"
+        ],
+        "answer": "Nothing"
+    },
+    {
+        "question": "In what order would the employee names in this example be printed to the console?",
+        "options": [
+            "ascending",
+            "unordered",
+            "descending",
+            "first in, first out"
+        ],
+        "answer": "ascending"
+    },
+    {
+        "question": "Lambda expressions are often used in tandem with which of the following?",
+        "options": [
+            "Namespaces",
+            "LINQ",
+            "Type Aliasing",
+            "Assemblies"
+        ],
+        "answer": "LINQ"
+    },
+    {
+        "question": "What is the correct formatting for single-line and multiline comments?",
+        "options": [
+            "`/_/ - Single Line`",
+            "`// Multiline`",
+            "`//\\* Multiline`",
+            "`// Single Line`"
+        ],
+        "answer": "`// Single Line`"
+    },
+    {
+        "question": "How do you make a method in an abstract class overridable?",
+        "options": [
+            "Make it public",
+            "Make it static",
+            "Make it private",
+            "Make it virtual"
+        ],
+        "answer": "Make it virtual"
+    },
+    {
+        "question": "How would you write code for an integer property called Age with a getter and setter?",
+        "options": [
+            "public int Age { get - set }",
+            "public int Age: get set;",
+            "public int Age (get, set );",
+            "public int Age { get; set; }"
+        ],
+        "answer": "public int Age { get; set; }"
+    },
+    {
+        "question": "What is an abstract class?",
+        "options": [
+            "a class that is denoted by the class keyword (can be seen and used by any other class in the system--thus it is by default public)",
+            "something denoted by the abstract keyword and used system-wide; if you want any program to create an object of a class you use the abstract class",
+            "a class that is denoted by the virtual keyword",
+            "a class that can be used only as a base class"
+        ],
+        "answer": "a class that can be used only as a base class"
+    },
+    {
+        "question": "When using a thread pool what happens to a given thread after it finishes its task?",
+        "options": [
+            "The thread is destroyed and memory is freed up.",
+            "The thread runs in a loop until the next assignment.",
+            "The thread goes inactive in the background and waits for garbage collection.",
+            "The thread returns to the pool for reuse."
+        ],
+        "answer": "The thread returns to the pool for reuse."
+    },
+    {
+        "question": "Which choice represents a class that inherits behavior from a base class?",
+        "options": [
+            "a second base class",
+            "a revised class",
+            "a derived class",
+            "a parent class"
+        ],
+        "answer": "a derived class"
+    },
+    {
+        "question": "What does operator overloading allow you to do?",
+        "options": [
+            "hide built-in operators when necessary",
+            "add methods to be interpreted by the compiler at runtime",
+            "define how enums and other primitive value types work within the rest of the application",
+            "define custom functionality for common operators like addition and equality"
+        ],
+        "answer": "define custom functionality for common operators like addition and equality"
+    },
+    {
+        "question": "What is the main purpose of LINQ?",
+        "options": [
+            "to delete duplicate data",
+            "to bind namespaces and assemblies",
+            "to query and transform data",
+            "to connect assemblies"
+        ],
+        "answer": "to query and transform data"
+    },
+    {
+        "question": "What is the correct syntax for a new generic list of strings named contacts?",
+        "options": [
+            "public List<string names> contacts = new List<string names>();",
+            "public List(string names) contacts = new List(string names)();",
+            "var contacts = new List<string>();",
+            "var contacts = new List(string);"
+        ],
+        "answer": "var contacts = new List<string>();"
+    },
+    {
+        "question": "What is the difference between throw exceptions and throw clauses?",
+        "options": [
+            "Throw clauses fire only at runtime, while throw exceptions can fire at any time.",
+            "Throw exceptions overwrite the stack trace, while throw clauses retain the stack information.",
+            "Throw clauses overwrite the stack trace, while throw exceptions retain the stack information.",
+            "Throw exceptions fire only at runtime, while throw clauses can fire during compile time."
+        ],
+        "answer": "Throw exceptions overwrite the stack trace, while throw clauses retain the stack information."
+    },
+    {
+        "question": "When an asynchronous method is executed, the code runs but nothing happens other than a compiler warning. What is most likely causing the method to not return anything?",
+        "options": [
+            "The return yield statement is missing at the end of the method.",
+            "The method is missing an await keyword in its body.",
+            "The wait keyword is missing from the end of the method.",
+            "The yield keyword is missing from the method."
+        ],
+        "answer": "The method is missing an await keyword in its body."
+    },
+    {
+        "question": "What are C# events?",
+        "options": [
+            "system actions that communicate directly with the compiler at runtime",
+            "actions that execute when the code compiles, generating logs and test output",
+            "actions that generate notifications, which are sent to their registered listeners",
+            "user-only methods that send data to the application's back end"
+        ],
+        "answer": "actions that generate notifications, which are sent to their registered listeners"
+    },
+    {
+        "question": "What kind of values can arrays store?",
+        "options": [
+            "unordered collections of numeric values",
+            "key-value pairs of any C# supported type",
+            "class and struct instances",
+            "multiple variables, or collections, of the same type"
+        ],
+        "answer": "multiple variables, or collections, of the same type"
+    },
+    {
+        "question": "Given this enumeration, how would you access the integer-type value of 'AppState.Loading'?",
+        "options": [
+            "string currentState = (string)AppState.Loading;",
+            "string currentState = AppState.Loading.integralVal;",
+            "int currentState = AppState.Loading.rawValue;",
+            "int currentState = (int)AppState.Loading;"
+        ],
+        "answer": "int currentState = (int)AppState.Loading;"
+    },
+    {
+        "question": "What character would you use to start a regular expression pattern at a word boundary?",
+        "options": [
+            "d",
+            "\\a",
+            "\\b",
+            "\\w"
+        ],
+        "answer": "\\b"
+    },
+    {
+        "question": "To conform to the following interface, which of its members need to be implemented?",
+        "options": [
+            "Both the FirstName and LastName properties need to be implemented.",
+            "Neither, they are both optional.",
+            "Only the LastName property needs to be implemented.",
+            "Only the FirstName property needs to be implemented."
+        ],
+        "answer": "Both the FirstName and LastName properties need to be implemented."
+    },
+    {
+        "question": "You're dealing with multiple assemblies in your program, but are worried about memory allocation. At what point in the program life cycle are assemblies loaded into memory?",
+        "options": [
+            "at runtime",
+            "at compile time",
+            "only when required",
+            "only when programmatically loaded"
+        ],
+        "answer": "only when required"
+    },
+    {
+        "question": "What is the most accurate description of a regular expression?",
+        "options": [
+            "A regular expression is a C# tool used to parse HTML",
+            "A regular expression is a special text string for describing a search pattern.",
+            "A regular expression allows a variable to be passed by reference.",
+            "A regular expression allows a class to conform to the Equatable protocol."
+        ],
+        "answer": "A regular expression is a special text string for describing a search pattern."
+    },
+    {
+        "question": "Why would you use a class field in C#",
+        "options": [
+            "To define the behaviors of the class",
+            "To hold information and data contained in the class object",
+            "To communicate between classes and object",
+            "To store the class definition value"
+        ],
+        "answer": "To hold information and data contained in the class object"
+    },
+    {
+        "question": "When would you use generics in your code?",
+        "options": [
+            "to increase code performance",
+            "all of these answers",
+            "when code reuse is a priority",
+            "when type safety is important"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "What prints to the console when this code is executed?",
+        "options": [
+            "Login successful...",
+            "Valid user!",
+            "an error, because the method signature of Login doesn't match the delegate",
+            "Login successful... Valid user!"
+        ],
+        "answer": "an error, because the method signature of Login doesn't match the delegate"
+    },
+    {
+        "question": "How would you declare a sealed class named User?",
+        "options": [
+            "public class User {}",
+            "abstract User {}",
+            "sealed class User {}",
+            "private sealed class User {}"
+        ],
+        "answer": "sealed class User {}"
+    },
+    {
+        "question": "What is the difference between non-static and static classes?",
+        "options": [
+            "non-static classes need to be initialized before use, while static classes do not",
+            "non-static classes are accessible only from an interface while static classes are accessible from anywhere",
+            "non-static classes need to initialize all class members at runtime, while static classes do not",
+            "non-static classes do not need to be initialized while static classes do"
+        ],
+        "answer": "non-static classes need to be initialized before use, while static classes do not"
+    },
+    {
+        "question": "Which characteristic prevents this code from compiling?",
+        "options": [
+            "type safety",
+            "single inheritance",
+            "dependency injection",
+            "multiple inheritance"
+        ],
+        "answer": "type safety"
+    },
+    {
+        "question": "How would you serialize this class?",
+        "options": [
+            "Mark the User class with the `DeserializableAttribute`.",
+            "Declare the class as `public serializable class User {}`.",
+            "Mark the User class with the `SerializableAttribute` attribute.",
+            "Declare the class as `private serializable class User {}`."
+        ],
+        "answer": "Mark the User class with the `SerializableAttribute` attribute."
+    },
+    {
+        "question": "How would you write a delegate named ResultCallback with an int parameter named responseCode?",
+        "options": [
+            "public delegate ResultCallback(int responseCode);",
+            "public delegate void ResultCallback<(int) responseCode>;",
+            "public void delegate ResultCallback\\<int responseCode\\>;",
+            "public delegate void ResultCallback(int responseCode);"
+        ],
+        "answer": "public delegate void ResultCallback(int responseCode);"
+    },
+    {
+        "question": "What is the difference between a static and non-static method?",
+        "options": [
+            "non-static methods always need to have a void return type",
+            "non-static methods do not have access to static member variables",
+            "static methods do not have to instantiate an instance of the class to call the method",
+            "static methods always have to be public"
+        ],
+        "answer": "static methods do not have to instantiate an instance of the class to call the method"
+    },
+    {
+        "question": "What is the correct way to write an event named apiResult based on a delegate named ResultCallback?",
+        "options": [
+            "public void event ResultCallback apiResult;",
+            "public event ResultCallback(() -> apiResult);",
+            "public event void ResultCallback",
+            "public event ResultCallback apiResult;"
+        ],
+        "answer": "public event ResultCallback apiResult;"
+    },
+    {
+        "question": "When will the code inside finally block be executed in a try-catch statement?",
+        "options": [
+            "if there is an error, it won't execute at all",
+            "between the try and catch blocks",
+            "after the try and catch blocks",
+            "when the finally block overrides the catch block and executes in its place"
+        ],
+        "answer": "after the try and catch blocks"
+    },
+    {
+        "question": "What method correctly extends the string class?",
+        "options": [
+            "public static string IsvalidName(this string i, string value) {}",
+            "public static void IsvalidName(this string i, string value) {}",
+            "public string IsvalidName(this string i, string value) {}",
+            "public void IsvalidName(this string i, string value) {}"
+        ],
+        "answer": "public static string IsvalidName(this string i, string value) {}"
+    },
+    {
+        "question": "How are C# classes limited?",
+        "options": [
+            "They do not support multiple inheritance.",
+            "They support multiple inheritance.",
+            "They can have only a set number of properties.",
+            "They can have only a set number of methods."
+        ],
+        "answer": "They do not support multiple inheritance."
+    },
+    {
+        "question": "What function do namespaces perform?",
+        "options": [
+            "Namespaces calculate code coverage at runtime.",
+            "Namespaces compile application code together at compile time.",
+            "Namespaces group code together into a single repository.",
+            "Namespaces separate code into groupings, control access, and avoid naming collisions."
+        ],
+        "answer": "Namespaces separate code into groupings, control access, and avoid naming collisions."
+    },
+    {
+        "question": "What is the correct way to write a public property with a private backing field?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is a thread pool?",
+        "options": [
+            "a collection of synchronous methods created during initialization that cannot be reused",
+            "a collection of threads created during initialization that can be reused",
+            "a collection of threads only recognized at compile time that can be reused",
+            "a collection of asynchronous methods created at compile time that cannot be reused"
+        ],
+        "answer": "a collection of threads created during initialization that can be reused"
+    },
+    {
+        "question": "When an object in C# is serialized, what is it converted to?",
+        "options": [
+            "XML",
+            "JSON",
+            "byte stream",
+            "value stream"
+        ],
+        "answer": "byte stream"
+    },
+    {
+        "question": "What is a delegate",
+        "options": [
+            "a variable that holds a reference to a value type and its content",
+            "a specific value type that can be used only in callback methods",
+            "a type that holds a reference to a method with a particular parameter list and return type",
+            "a custom variable type that can be used in abstract classes"
+        ],
+        "answer": "a type that holds a reference to a method with a particular parameter list and return type"
+    },
+    {
+        "question": "What are the four keywords associated with exception handling in C#?",
+        "options": [
+            "try, catch, valid, invalid",
+            "try, valid, finally, throw",
+            "try, catch, finally, throw",
+            "finally, throw, valid, invalid"
+        ],
+        "answer": "try, catch, finally, throw"
+    },
+    {
+        "question": "What is the main difference between the is and as operators?",
+        "options": [
+            "The is operator checks instance types, while the as operator checks the inherited type.",
+            "The is operator checks primitive data types, while the as operator checks the object type.",
+            "The as operator checks the object type, while the is operator attempts to cast an object to a specific type.",
+            "The is operator checks the object type, while the as operator attempts to cast an object to a specific type."
+        ],
+        "answer": "The is operator checks the object type, while the as operator attempts to cast an object to a specific type."
+    },
+    {
+        "question": "What is the difference between finally and finalize blocks?",
+        "options": [
+            "The finally block is called during the execution of a try and catch block, while the finalize method is called after garbage collection.",
+            "The finally block is called after the execution of a try and catch block, while the finalize method is called just before garbage collection.",
+            "The finalize block is called before the execution of a try and catch block, while the finally method is called just before garbage collection.",
+            "The finalize block is called during the execution of a try and catch block, while the finally method is called after garbage collection."
+        ],
+        "answer": "The finally block is called after the execution of a try and catch block, while the finalize method is called just before garbage collection."
+    },
+    {
+        "question": "Your application has a value type called username that needs to be able to accept null values, but this is generating compile-time errors. How would you fix this in code?",
+        "options": [
+            "Null<string> username = null;",
+            "string? username = null;",
+            "Type<string>? username = null;",
+            "Optional<string> username = null;"
+        ],
+        "answer": "string? username = null;"
+    },
+    {
+        "question": "Which code snippet correctly declares a custom exception named InvalidResponse?",
+        "options": [
+            "struct InvalidResponse: Exception {}",
+            "class InvalidResponse: Exception {}",
+            "public Exception InvalidResponse = new Exception ();",
+            "public Exception InvalidResponse () -> Exception;"
+        ],
+        "answer": "class InvalidResponse: Exception {}"
+    },
+    {
+        "question": "How would you write an enum variable called AppState with values for Offline, Loading, and Ready?",
+        "options": [
+            "enum AppState = [Offline, Loading, Ready]",
+            "enum AppState {\"Offline\", \"Loading\", \"Ready\"}",
+            "enum AppState = {Offline, Loading, Ready}",
+            "enum AppState {Offline, Loading, Ready}"
+        ],
+        "answer": "enum AppState {Offline, Loading, Ready}"
+    },
+    {
+        "question": "What is the main difference between a value type and a reference type?",
+        "options": [
+            "A value type can be any primitive type, while reference types must be type-agnostic.",
+            "A value type refers to another value, while a reference type refers to a value in memory.",
+            "A value type stores an actual value, while a reference type is a pointer to a value.",
+            "A value type is available only at runtime, while a reference type is available only at compile time."
+        ],
+        "answer": "A value type stores an actual value, while a reference type is a pointer to a value."
+    },
+    {
+        "question": "What is the difference between the `break` and `continue` keywords?",
+        "options": [
+            "The `break` keyword is used to break out of multiple iteration statements, while `continue` can only break out of code blocks that have single iterations.",
+            "The `break` keyword literally breaks out of a control flow statement, while `continue` ignores the rest of the control statement or iteration and starts the next one.",
+            "The `break` keyword literally breaks out of the current control flow code and stops it dead, while `continue` keeps executing the code after an exception is thrown.",
+            "The `break` keyword jumps out of an iteration and then proceeds with the rest of the control flow code, while `continue` stops the executing code dead."
+        ],
+        "answer": "The `break` keyword literally breaks out of a control flow statement, while `continue` ignores the rest of the control statement or iteration and starts the next one."
+    },
+    {
+        "question": "Which code snippet correctly declares a variable named userId with a public `get` and private `set`?",
+        "options": [
+            "`public int userID <get, set>;`",
+            "`public int userID [get, private set];`",
+            "`public int userID { get; private set; }`",
+            "`public int userID = { public get, private set };`"
+        ],
+        "answer": "`public int userID { get; private set; }`"
+    },
+    {
+        "question": "What is true about virtual methods?",
+        "options": [
+            "`Overriding virtual methods in a derived class is mandatory.`",
+            "`Overriding virtual methods in a derived class is not possible.`",
+            "`Virtual methods always need a default implementation.`",
+            "`Virtual methods cannot have a default implementation.`"
+        ],
+        "answer": "`Virtual methods always need a default implementation.`"
+    },
+    {
+        "question": "What is likely to happen if you have multiple threads accessing the same resource in your program?",
+        "options": [
+            "`resource overload`",
+            "`thread jumping`",
+            "`deadlock and race conditions`",
+            "`nothing, since this is what threading is for`"
+        ],
+        "answer": "`deadlock and race conditions`"
+    },
+    {
+        "question": "How do you indicate that a string might be null?",
+        "options": [
+            "`A string cannot be nullable.`",
+            "`string? myVariable`",
+            "`string myVariable = null`",
+            "`string(null) myVariable`"
+        ],
+        "answer": "`string? myVariable`"
+    },
+    {
+        "question": "Do you need to declare an out variable before you use it?",
+        "options": [
+            "`No, you can declare an out in the parameter list.`",
+            "`No, Out variables are no longer part of C#.`",
+            "`You must declare it if it is a primitive type.`",
+            "`Yes.`"
+        ],
+        "answer": "`No, you can declare an out in the parameter list.`"
+    },
+    {
+        "question": "How would you access the last two people in an array named People?",
+        "options": [
+            "`People[..^2]`",
+            "`You cannot do this in C#.`",
+            "`People[..^3]`",
+            "`People[^2]`"
+        ],
+        "answer": "`People[..^2]`"
+    },
+    {
+        "question": "When can anonymous types be created?",
+        "options": [
+            "`at compile time`",
+            "`after runtime`",
+            "`at runtime`",
+            "`after compile time`"
+        ],
+        "answer": "`at compile time`"
+    },
+    {
+        "question": "What is true about thread multitasking?",
+        "options": [
+            "`Thread multitasking allows code to be executed concurrently`",
+            "`Thread multitasking allows code to be executed only when handling a user event.`",
+            "`Thread multitasking blocks code from being executed simultaneously to guard memory.`",
+            "`Thread multitasking adds single-threaded code blocks together.`"
+        ],
+        "answer": "`Thread multitasking allows code to be executed concurrently`"
+    },
+    {
+        "question": "What accessibility level does this class field have?",
+        "options": [
+            "It can be used by other code only in the same class or struct.",
+            "It can be used by other code in a referenced assembly.",
+            "It can be used only by code contained in a derived class.",
+            "It can be used by other code in the same assembly."
+        ],
+        "answer": "It can be used by other code only in the same class or struct."
+    },
+    {
+        "question": "How would you correctly declare a jagged array called 'partyInvites' with 10 empty elements?",
+        "options": [
+            "`string[] partyInvites = new string[10];`",
+            "`string[][] partyInvites = new string[10][];`",
+            "`string[][] partyInvites = new string[10]();`",
+            "`string <[]> partyInvites = new string <[10]>;`"
+        ],
+        "answer": "`string[][] partyInvites = new string[10][];`"
+    },
+    {
+        "question": "How could you pause a thread for three seconds?",
+        "options": [
+            "Thread.Pause(3000);",
+            "Thread.Resume(-3000);",
+            "Thread.Suspend(3000);",
+            "Thread.Sleep(3000);"
+        ],
+        "answer": "Thread.Sleep(3000);"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "Variable c is never used; displaying it on the console does not count as usage.",
+            "Variables a and b are never used.",
+            "You cannot place code inside brackets inside another block.",
+            "Variable c no longer exists outside the block."
+        ],
+        "answer": "Variable c no longer exists outside the block."
+    },
+    {
+        "question": "Which statement is True?",
+        "options": [
+            "All are true.",
+            "None are true.",
+            "string is a value type.",
+            "string is an alias for String"
+        ],
+        "answer": "string is an alias for String"
+    },
+    {
+        "question": "How would you return more than one value from a method?",
+        "options": [
+            "Use either a tuple or an out variable.",
+            "The only way is to use an out variable.",
+            "The only way is to use a tuple.",
+            "This cannot be done"
+        ],
+        "answer": "Use either a tuple or an out variable."
+    },
+    {
+        "question": "Which is a valid example of a derived class?",
+        "options": [
+            "`public class PremiumUser sub User {}`",
+            "`public class PremiumUser: User {}`",
+            "`public class PremiumUser -> sub User {}`",
+            "`public class User: PremiumUser {}`"
+        ],
+        "answer": "`public class PremiumUser: User {}`"
+    },
+    {
+        "question": "What is the correct way to call a static method named DebugString from a static class called InputManager?",
+        "options": [
+            "`static InputManager.DebugString();`",
+            "`InputManager().DebugString;`",
+            "`new InputManager().DebugString();`",
+            "`InputManager.DebugString();`"
+        ],
+        "answer": "`InputManager.DebugString();`"
+    },
+    {
+        "question": "What values can be assigned to this variable?",
+        "options": [
+            "null",
+            "String values",
+            "String values or null",
+            "String values with more than one character"
+        ],
+        "answer": "String values or null"
+    },
+    {
+        "question": "What is a destructor?",
+        "options": [
+            "`a special called automatically whenever an object is created or updated`",
+            "`an implicit method called automatically when thread pools are processed concurrently`",
+            "`an explicit method called automatically when the compiler starts running`",
+            "`a special method called automatically whenever an object is deleted or destroyed`"
+        ],
+        "answer": "`a special method called automatically whenever an object is deleted or destroyed`"
+    },
+    {
+        "question": "Which code snippet correctly declares a CustomInt type alias of type Int32?",
+        "options": [
+            "`typealias CustomInt = System.Int32;`",
+            "`var<T> CustomInt = Int32;`",
+            "`using CustomInt = System.Int32;`",
+            "`type CustomInt = System<Int32>;`"
+        ],
+        "answer": "`using CustomInt = System.Int32;`"
+    },
+    {
+        "question": "What is an enumeration type?",
+        "options": [
+            "`an object of pass by reference type`",
+            "`a value type that cannot hold constants`",
+            "`set of named integral constants`",
+            "`an object of pass-by-value type`"
+        ],
+        "answer": "`set of named integral constants`"
+    },
+    {
+        "question": "What is the readonly keyword used for in-field declarations?",
+        "options": [
+            "`to declare a member variable that cannot be calculated at runtime`",
+            "`to declare a field whose value can be assigned only before the constructor exits`",
+            "`to declare a static variable that must be set at compile time`",
+            "`to declare a static variable that must be set at runtime`"
+        ],
+        "answer": "`to declare a field whose value can be assigned only before the constructor exits`"
+    },
+    {
+        "question": "Which statement is true of C# methods?",
+        "options": [
+            "`Methods store variables.`",
+            "`Methods are actions that an object can take`",
+            "`A method can be used only once per C# file.`",
+            "`A method determines the state of a given property.`"
+        ],
+        "answer": "`Methods are actions that an object can take`"
+    },
+    {
+        "question": "#### Q84 Which is a valid built-in C# Exception class?",
+        "options": [
+            "`ArgumentNullValue`",
+            "`InvalidFormatFoundException`",
+            "`IndexOutOfPocket`",
+            "`ArgumentNullException`"
+        ],
+        "answer": "`ArgumentNullException`"
+    },
+    {
+        "question": "What is the purpose of an interface in C#?",
+        "options": [
+            "Interfaces are used to store data.",
+            "Interfaces define a contract that classes must adhere to, specifying a set of methods and properties that implementing classes must provide.",
+            "Interfaces are used to create instances of classes.",
+            "Interfaces are used for code organization."
+        ],
+        "answer": "Interfaces define a contract that classes must adhere to, specifying a set of methods and properties that implementing classes must provide."
+    },
+    {
+        "question": "What is the primary purpose of the `finally` block in a C# try-catch-finally statement?",
+        "options": [
+            "The `finally` block is used to handle exceptions.",
+            "The `finally` block is used to define the main logic of the try-catch statement.",
+            "The `finally` block is optional and not required in try-catch statements.",
+            "The `finally` block is used to ensure that certain code is executed regardless of whether an exception occurs."
+        ],
+        "answer": "The `finally` block is used to ensure that certain code is executed regardless of whether an exception occurs."
+    },
+    {
+        "question": "Which data structure in C# allows you to store key-value pairs and is often used for quick data retrieval?",
+        "options": [
+            "ArrayList",
+            "List",
+            "Array",
+            "Dictionary"
+        ],
+        "answer": "Dictionary"
+    },
+    {
+        "question": "#### Q88 The execution of the program begins with?",
+        "options": [
+            "Main()",
+            "Get()",
+            "Class()",
+            "Display()"
+        ],
+        "answer": "Main()"
+    },
+    {
+        "question": "#### Q89 In C# 'using' is a?",
+        "options": [
+            "Class",
+            "Directive",
+            "Function",
+            "Keyword"
+        ],
+        "answer": "Directive",
+        "explanation": null,
+        "codeblock": null
+    }
+]

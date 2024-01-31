@@ -1,0 +1,107 @@
+[
+    {
+        "question": "R has how many atomic classes of objects?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "The most basic type of R object is a vector."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Empty vectors can be created with the vector() function",
+            "b) A sequence is represented as a vector but can contain objects of different classes",
+            "c) \u201craw\u201d objects  are commonly used directly in data analysis",
+            "d) The value NaN represents undefined value"
+        ],
+        "answer": "a",
+        "explanation": "A vector can only contain objects of the same class."
+    },
+    {
+        "question": "Numbers in R are generally treated as _______ precision real numbers.",
+        "options": [
+            "a) single",
+            "b) double",
+            "c) real",
+            "d) imaginary"
+        ],
+        "answer": "b",
+        "explanation": "This means that even if you see a number like \u201c1\u201d or \u201c2\u201d in R, which you might think of as integers, they are likely represented behind the scenes as numeric objects something like \u201c1.00\u201d or \u201c2.00\u201d."
+    },
+    {
+        "question": "If you explicitly want an integer, you need to specify the _____ suffix.",
+        "options": [
+            "a) D",
+            "b) R",
+            "c) L",
+            "d) K"
+        ],
+        "answer": "c",
+        "explanation": "Entering 1 in R gives you a numeric object; entering 1L explicitly gives you an integer object."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The value NaN represents undefined value",
+            "b) Number Inf represents infinity in R",
+            "c) NaN can also be thought of as a missing value",
+            "d) \u201craw\u201d objects  are commonly used directly in data analysis"
+        ],
+        "answer": "b",
+        "explanation": "This allows us to represent entities like 1 / 0."
+    },
+    {
+        "question": "Attributes of an object (if any) can be accessed using the ______ function.",
+        "options": [
+            "a) objects()",
+            "b) attrib()",
+            "c) attributes()",
+            "d) obj()"
+        ],
+        "answer": "c",
+        "explanation": "Not all R objects contain attributes, in which case the attributes() function returns NULL."
+    },
+    {
+        "question": "R objects can have attributes, which are like ________ for the object.",
+        "options": [
+            "a) metadata",
+            "b) features",
+            "c) expression",
+            "d) dimensions"
+        ],
+        "answer": "a",
+        "explanation": "These metadata can be very useful in that they help to describe the object."
+    },
+    {
+        "question": "Which of the following can be considered as object attribute?",
+        "options": [
+            "a) dimensions",
+            "b) class",
+            "c) length",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All objects in R have an Attribute list."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "You can also use the vector() function to initialize vectors."
+    },
+    {
+        "question": "The ________ function can be used to create vectors of objects by concatenating things together.",
+        "options": [
+            "a) cp()",
+            "b) c()",
+            "c) concat()",
+            "d) con()"
+        ],
+        "answer": "b",
+        "explanation": "The simplest such structure is the numeric vector, which is a single entity consisting of an ordered collection of numbers."
+    }
+]

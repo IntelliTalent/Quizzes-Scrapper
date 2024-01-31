@@ -1,0 +1,458 @@
+[
+    {
+        "question": "1) Which of the following is the correct name of React.js?",
+        "options": [
+            "React",
+            "React.js",
+            "ReactJS",
+            "All of the above"
+        ],
+        "answer": "Answer: D is the correct option. React.js is a free, open-source front-end JavaScript library used for building user interfaces or UI components. It is also known as React or ReactJS.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following are the advantages of React.js?",
+        "options": [
+            "React.js can increase the application's performance with Virtual DOM.",
+            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
+            "React.js can render both on client and server side.",
+            "All of the above"
+        ],
+        "answer": "Answer: D is the correct option as all of the above statements are the advantages of React.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following is not a disadvantage of React.js?",
+        "options": [
+            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
+            "The library of React.js is pretty large.",
+            "The JSX in React.js makes code easy to read and write.",
+            "The learning curve can be steep in React.js."
+        ],
+        "answer": "Answer: C is the correct answer. \"The JSX in React.js makes code easy to read and write\" is an advantage of React.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following command is used to install create-react-app?",
+        "options": [
+            "npm install -g create-react-app",
+            "npm install create-react-app",
+            "npm install -f create-react-app",
+            "install -g create-react-app"
+        ],
+        "answer": "Answer: A is the correct answer. The \"npm install -g create-react-app\" command is used to install the create-react-app.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "5) What of the following is used in React.js to increase performance?",
+        "options": [
+            "Original DOM",
+            "Virtual DOM",
+            "Both A and B.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct answer. Virtual DOM is used in React.js to increase performance.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "6) A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",
+        "options": [
+            "Constructor",
+            "Class",
+            "Object",
+            "DataObject"
+        ],
+        "answer": "Answer: B is the correct answer. A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following acts as the input of a class-based component?",
+        "options": [
+            "Class",
+            "Factory",
+            "Render",
+            "Props"
+        ],
+        "answer": "Answer: D \"props\" is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "8) Which of the following keyword is used to create a class inheritance?",
+        "options": [
+            "Create",
+            "Inherits",
+            "Extends",
+            "This"
+        ],
+        "answer": "Answer: C is the correct answer. The \"Extends\" keyword is used to create a class inheritance.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "9) What would be the output of the following example?",
+        "options": [
+            "Hello World 1",
+            "Hello World 2",
+            "Hello World 1 Hello World 2",
+            "Error"
+        ],
+        "answer": "Answer: D is the correct option. The two adjacent elements in JSX should be wrapped in an element so, this program will result an error.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "10) What is the default port where webpack-server runs?",
+        "options": [
+            "3000",
+            "8080",
+            "3030",
+            "6060"
+        ],
+        "answer": "Answer: B is the correct answer. The default port for webpack-server is 8080.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "11) How many numbers of elements a valid react component can return?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "5"
+        ],
+        "answer": "Answer: A is the correct answer. In react component, we can return only one element.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "12) What is the declarative way to render a dynamic list of components based on values in an array?",
+        "options": [
+            "Using the reduce array method",
+            "Using the <Each /> component",
+            "Using the Array.map() method",
+            "With a for/while loop"
+        ],
+        "answer": "Answer: C is the correct option. The Array.map() method is used to render a dynamic list of components based on values in an array.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "13) How many ways of defining your variables in ES6?",
+        "options": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "Answer: B is the correct option. In ES6, there are three ways of defining your variables: var, let, and const.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "14) What is a state in React?",
+        "options": [
+            "A permanent storage.",
+            "Internal storage of the component.",
+            "External storage of the component.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "15) What are the two ways to handle data in React?",
+        "options": [
+            "State & Props",
+            "Services & Components",
+            "State & Services",
+            "State & Component"
+        ],
+        "answer": "Answer: A \"State & Props\" is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "16) In which of the following directory React.js components are saved?",
+        "options": [
+            "Inside the js/components/",
+            "Inside the vendor/components/",
+            "Inside the external/components/",
+            "Inside the vendor/"
+        ],
+        "answer": "Answer: A is the correct option. The React.js components are saved in \"Inside the js/components/.\"",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following is a must API for every React.js component?",
+        "options": [
+            "SetinitialComponent",
+            "renderComponent",
+            "render",
+            "All of the above"
+        ],
+        "answer": "Answer: B is the correct option. The renderComponent is a must API for every React.js component.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following option is correct in the case of the Babel?",
+        "options": [
+            "Babel is a Compiler.",
+            "Babel is a Transpilar.",
+            "None of the above.",
+            "Both A and B are correct."
+        ],
+        "answer": "Answer: D is the correct option as both of the above statements are correct.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "19) Does React.js create a VIRTUAL DOM in the memory?",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "Can be true or false",
+            "Cannot say"
+        ],
+        "answer": "Answer: A is the correct option as React.js creates a VIRTUAL DOM in the memory.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "20) What is the use of \"webpack\" command in React.js?",
+        "options": [
+            "The \"webpack\" command is used to transpile all the JavaScript down into one file.",
+            "It runs React local development server.",
+            "It is a module bundler.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct answer. The \"webpack\" command is a module bundler.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "21) Which of the following is used to pass data to a component from outside in React.js?",
+        "options": [
+            "SetState",
+            "Render with arguments",
+            "Props",
+            "PropTypes"
+        ],
+        "answer": "Answer: C is the correct answer. Props are used to pass data to a component from outside in React.js.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "22) What does ES6 stand for?",
+        "options": [
+            "ECMAScript 6",
+            "ECMA 6",
+            "ECMAJavaScript 6",
+            "EJavaScript 6"
+        ],
+        "answer": "Answer: A is the correct option. ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript. ES6 is the 6th version of ECMAScript published in 2015. It is also known as ECMAScript 2015.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following function is used to change the state of the React.js component?",
+        "options": [
+            "this.setState",
+            "this.setChangeState",
+            "this.State{}",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option. The \"this.setState\" function is used to change the state of the React.js component.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following method refers to the parent class in React.js?",
+        "options": [
+            "inherits()",
+            "self()",
+            "super()",
+            "this()"
+        ],
+        "answer": "Answer: C is the correct answer. The super() method refers to the parent class. If you want to call the parent's constructor method and get access to the parent's properties and methods, you can achieve it by calling the super() method in the constructor.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "25) What will happen if you render an input element with disabled = {false}?",
+        "options": [
+            "It will be rendered as disabled",
+            "It will not be rendered at all",
+            "It will be rendered as enabled",
+            "You cannot set it false."
+        ],
+        "answer": "Answer: C is the correct answer. If you render an input element with disabled = {false}, it will be rendered as enabled.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following function is called to render HTML to the web page in React?",
+        "options": [
+            "render()",
+            "render()",
+            "ReactDOM_render()",
+            "render()"
+        ],
+        "answer": "Answer: A is the correct option. React renders HTML to the web page by using a function called ReactDOM.render().",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following lifecycle events React components have at the highest level?",
+        "options": [
+            "Destruction",
+            "Initialization",
+            "State/Property Updates",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "28) Why is the usage of setState?",
+        "options": [
+            "Invoke code after the setState operation is done.",
+            "Replace the state completely instead of the default merge action.",
+            "Access the previous state before the setState operation.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following best defines the \"key\" prop?",
+        "options": [
+            "\"Key\" prop is used to look pretty, and there is no benefit whatsoever.",
+            "\"Key\" prop is a way for React to identify a newly added item in a list and compare it during the \"diffing\" algorithm.",
+            "It is one of the attributes in HTML.",
+            "It is NOT commonly used in an array."
+        ],
+        "answer": "Answer: B is the correct answer. It is used to identify any new item in a list when re-rendering. It improves performance and efficiency also.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "30) Which of the following method is not a part of ReactDOM?",
+        "options": [
+            "ReactDOM.destroy()",
+            "ReactDOM.hydrate()",
+            "ReactDOM.createPortal()",
+            "ReactDOM.findDOMNode()"
+        ],
+        "answer": "Answer: A is the correct answer as ReactDOM.destroy() method is not a part of ReactDOM. ReactDOM provides the developers with an API containing the methods such as render(), findDOMNode(), unmountComponentAtNode(), hydrate(), and createPortal().",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "31) How can you set a default value for an uncontrolled form field?",
+        "options": [
+            "By using the value property",
+            "By using the defaultValue property",
+            "By using the default property",
+            "It is assigned automatically."
+        ],
+        "answer": "Answer: B is the correct option. We can set a default value for an uncontrolled form field by using the defaultValue property.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "32) We can update the state in React.js by calling to setState() method. These calls are:",
+        "options": [
+            "Synchronous in nature.",
+            "Asynchronous in nature.",
+            "Are asynchronous but can be made synchronous when required.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct answer. The call to setState() method in React.js is asynchronous, and multiple calls can be batched for better performance.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "33) Which of the following statement is true for controlled components in React.js?",
+        "options": [
+            "The source of truth is DOM.",
+            "The source of truth can be anything.",
+            "The source of truth is a component state.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option. For controlled components in React.js, the source of truth is a component state.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "34) What changes would appear in the component as soon as the state of the React component is changed?",
+        "options": [
+            "It will do nothing; you have to call render method to render the component again.",
+            "It will re-render the component.",
+            "It can be created again from scratch.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct answer. In React.js, as soon as the state is updated, the component re-renders itself.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "35) Which of the following statement is true for uncontrolled components in React.js?",
+        "options": [
+            "The source of truth is DOM.",
+            "The source of truth is a component state.",
+            "The source of truth can be anything.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct answer. For uncontrolled components in React.js, the source of truth is component DOM.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "36) In which of the following condition, the React.js Lifecycle method static getDerivedSateFromProps(props, state) is called?",
+        "options": [
+            "The component is created for the first time.",
+            "The state of the component is updated.",
+            "Both of the above.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option. In React.js, the static getDerivedSateFromProps(props, state) is called in both cases when a component is created and when a component is updated.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "37) What is the use of the create-react-app command in the React.js application?",
+        "options": [
+            "It is used to update a React app.",
+            "It is used to create a new React app.",
+            "It is used to install dependencies.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. The create-react-app command in the React.js application is used to create a new React app.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "38) What is true for the keys given to a list of elements in React?",
+        "options": [
+            "Unique in the DOM.",
+            "Unique among the siblings only.",
+            "Do not require to be unique.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option. Keys given to the list of elements in React should be unique among the siblings only.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

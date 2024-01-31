@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following function is a wrapper for different lattice plots to visualize the data?",
+        "options": [
+            "a) levelplot",
+            "b) featurePlot",
+            "c) plotsample",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "featurePlot is used for data visualization in caret."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) In every situation, the data generating mechanism can create predictors that only have a single unique value",
+            "b) Predictors might have only a handful of unique values that occur with very low frequencies",
+            "c) The function findLinearCombos uses the QR decomposition of a matrix to enumerate sets of linear combinations",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In some situations, the data generating mechanism can create predictors that only have a single unique value."
+    },
+    {
+        "question": "Which of the following function can be used to identify near zero-variance variables?",
+        "options": [
+            "a) zeroVar",
+            "b) nearVar",
+            "c) nearZeroVar",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The saveMetrics argument can be used to show the details and usually defaults to FALSE."
+    },
+    {
+        "question": "Which of the following function can be used to flag predictors for removal?",
+        "options": [
+            "a) searchCorrelation",
+            "b) findCausation",
+            "c) findCorrelation",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Some models thrive on correlated predictors."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) findLinearColumns will also return a vector of column positions can be removed to eliminate the linear dependencies",
+            "b) findLinearCombos will return a list that enumerates dependencies",
+            "c) the function findLinearRows can be used to generate a complete set of row variables from one factor",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For each linear combination, it will incrementally remove columns from the matrix and test to see if the dependencies have been resolved."
+    },
+    {
+        "question": "Which of the following can be used to impute data sets based only on information in the training set?",
+        "options": [
+            "a) postProcess",
+            "b) preProcess",
+            "c) process",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This can be done with K-nearest neighbors."
+    },
+    {
+        "question": "The function preProcess estimates the required parameters for each operation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "predict.preProcess is used to apply them to specific data sets."
+    },
+    {
+        "question": "Which of the following can also be used to find new variables that are linear combinations of the original set with independent components?",
+        "options": [
+            "a) ICA",
+            "b) SCA",
+            "c) PCA",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ICA stands for independent component analysis."
+    },
+    {
+        "question": "Which of the following function is used to generate the class distances?",
+        "options": [
+            "a) preprocess.classDist",
+            "b) predict.classDist",
+            "c) predict.classDistance",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By default, the distances are logged."
+    },
+    {
+        "question": "The preProcess class can be used for many operations on predictors.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Operations include centering and scaling."
+    }
+]

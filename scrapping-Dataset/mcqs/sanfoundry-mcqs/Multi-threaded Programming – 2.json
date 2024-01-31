@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Which of these keywords are used to implement synchronization?",
+        "options": [
+            "a) synchronize",
+            "b) syn",
+            "c) synch",
+            "d) synchronized"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which keyword is used for using the synchronization features defined by the Monitor class?",
+        "options": [
+            "a) lock",
+            "b) synchronized",
+            "c) monitor",
+            "d) locked"
+        ],
+        "answer": "a",
+        "explanation": "The C# keyword lock is really just shorthand for using the synchronization features defined by the Monitor class, which is defined in the System.Threading namespace."
+    },
+    {
+        "question": "What is synchronization in reference to a thread?",
+        "options": [
+            "a) It\u2019s a process of handling situations when two or more threads need access to a shared resource",
+            "b) It\u2019s a process by which many threads are able to access the same shared resource simultaneously",
+            "c) It\u2019s a process by which a method is able to access many different threads simultaneously",
+            "d) It\u2019s a method that allows too many threads to access any information they require"
+        ],
+        "answer": "a",
+        "explanation": "When two or more threads need to access the same shared resource, they need some way to ensure that the resource will be used by only one thread at a time, the process by which this is achieved is called synchronization."
+    },
+    {
+        "question": "Which method is called when a thread is blocked from running temporarily?",
+        "options": [
+            "a) Pulse()",
+            "b) PulseAll()",
+            "c) Wait()",
+            "d) Both Pulse() & Wait()"
+        ],
+        "answer": "c",
+        "explanation": "When a thread is temporarily blocked from running, it calls Wait( ). This causes the thread to go to sleep and the lock for that object to be released, allowing another thread to acquire the lock."
+    },
+    {
+        "question": "What kind of exception is being thrown if Wait(), Pulse() or PulseAll() is called from code that is not within synchronized code?",
+        "options": [
+            "a) System I/O Exception",
+            "b) DivideByZero Exception",
+            "c) SynchronizationLockException",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A SynchronizationLockException will be thrown if Wait(), Pulse(), or PulseAll() is called from code that is not within synchronized code, such as a lock block."
+    },
+    {
+        "question": "What is mutex?",
+        "options": [
+            "a) a mutually exclusive synchronization object",
+            "b) can be acquired by more than one thread at a time",
+            "c) helps in sharing of resource which can be used by one thread",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A mutex is a mutually exclusive synchronization object. This means it can be acquired by one and only one thread at a time. The mutex is designed for those situations in which a shared resource can be used by only one thread at a time."
+    },
+    {
+        "question": "What is Semaphore?",
+        "options": [
+            "a) Grant more than one thread access to a shared resource at the same time",
+            "b) Useful when a collection of resources is being synchronized",
+            "c) Make use of a counter to control access to a shared resource",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A semaphore is similar to a mutex except that it can grant more than one thread access to a shared resource at the same time. Thus, the semaphore is useful when a collection of resources is being synchronized. A semaphore controls access to a shared resource through the use of a counter. If the counter is greater than zero, then access is allowed. If it is zero, access is denied."
+    },
+    {
+        "question": "Which method is used to abort thread prior to it\u2019s normal execution?",
+        "options": [
+            "a) sleep()",
+            "b) terminate()",
+            "c) suspend()",
+            "d) Abort()"
+        ],
+        "answer": "d",
+        "explanation": "To terminate a thread prior to its normal conclusion, use Thread.Abort( ). Its simplest form is shown here:"
+    }
+]

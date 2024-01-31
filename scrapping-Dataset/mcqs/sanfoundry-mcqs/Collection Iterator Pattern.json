@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Which of the following are considered as Mid Level design patterns?",
+        "options": [
+            "a) Iterator Pattern",
+            "b) Collection Pattern",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are mid level design pattern."
+    },
+    {
+        "question": "Which of the following can be included as the collection?",
+        "options": [
+            "a) A Set",
+            "b) List",
+            "c) Array",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Collection includes a set, list, array, table and so forth."
+    },
+    {
+        "question": "What does collection iteration means?",
+        "options": [
+            "a) It is iteration over the collection",
+            "b) Traversal and access of each element in a collection",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Collection iteration is traversal and access of each element in a collection and is also known as iteration over collection."
+    },
+    {
+        "question": "Which among these are the iteration control facilities?",
+        "options": [
+            "a) Initialize",
+            "b) Information Hiding",
+            "c) Multiple iterations",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Iteration control facilities includes initialize, Access Control, Advance current element, Completion test."
+    },
+    {
+        "question": "Which of these are necessary requirements for Iteration mechanism?",
+        "options": [
+            "a) Initialize",
+            "b) Completion Test",
+            "c) Information Hiding",
+            "d) Access Current"
+        ],
+        "answer": "c",
+        "explanation": "Iteration mechanism necessary requirements includes information hiding and multiple simultaneous iteration."
+    },
+    {
+        "question": "Which of these prepare iteration mechanism for next traversal?",
+        "options": [
+            "a) initialize",
+            "b) Information Hiding",
+            "c) Advance current Test",
+            "d) Flexibility"
+        ],
+        "answer": "a",
+        "explanation": "Initialize prepares the iteration mechanism for next traversal."
+    },
+    {
+        "question": "Which of the possibilities for where an iteration mechanism resides?",
+        "options": [
+            "a) Programming Language",
+            "b) Collection",
+            "c) Iterator",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are three possibilities for iteration mechanism are programming language, Collection, Iterator."
+    },
+    {
+        "question": "Interface control mechanism can work in which of these ways?",
+        "options": [
+            "a) Internal",
+            "b) External",
+            "c) Peripheral",
+            "d) Internal & External"
+        ],
+        "answer": "d",
+        "explanation": "Interface control mechanism works internal as well a external."
+    },
+    {
+        "question": "An iteration mechanism which provides collection element as directed by the client?",
+        "options": [
+            "a) Internal",
+            "b) External",
+            "c) Collection",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An internal iteration mechanism provides with collection element directed by the client."
+    },
+    {
+        "question": "Which of the following is true about built-in internal iteration control mechanism?",
+        "options": [
+            "a) The client must process for each collection iteration and give it to the iteration mechanism",
+            "b) The iteration mechanism then traverses the collection applies the processing package",
+            "c) Lack of flexibility is the biggest drawback",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true with respect to the internal iteration control mechanism."
+    },
+    {
+        "question": "Which of the following is true about built-in external iteration control mechanism?",
+        "options": [
+            "a) The collection might provide with the following operations to control iterations- reset,get next,has More",
+            "b) Reset initializes the iteration",
+            "c) Get Next obtains the current value and the advance to the next element",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true with respect to the built-in external iteration control mechanism."
+    },
+    {
+        "question": "Placing the iteration mechanism in iterators separate from collection must satisfy which of the following?",
+        "options": [
+            "a) Multiple Simultaneous Iterations",
+            "b) Collection Interface Simplicity",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are the necessary condition to be satisfied."
+    },
+    {
+        "question": "Which of the following is not correct regarding Multiple simultaneous iterations?",
+        "options": [
+            "a) Each iterator can be responsible for managing one traversal of its associated collection independently of all other iterators",
+            "b) Clients can then use several iterators at once to traversal the iterations in various ways simultaneously",
+            "c) The iteration control interface is in iterator and not the collection",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Collection interface simplicity include iteration collection interface in iterator and not in collection."
+    },
+    {
+        "question": "Which of the following is correct about Collection interface simplicity?",
+        "options": [
+            "a) Each iterator can be responsible for managing one traversal of its associated collection independently of all other iterators",
+            "b) Clients can then use several iterators at once to traversal the iterations in various ways simultaneously",
+            "c) The iteration control interface is in iterator and not the collection",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Collection interface simplicity include iteration collection interface in iterator and not in collection rest others belongs to multiple simultaneous iterations."
+    },
+    {
+        "question": "An iteration mechanism is able to tolerate changes to its associated collection only when collection meets which of the following?",
+        "options": [
+            "a) Fault Tolerance",
+            "b) Iteration Termination",
+            "c) Complete Traversal",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned requirements meets collection for an iteration mechanism to tolerate change."
+    }
+]

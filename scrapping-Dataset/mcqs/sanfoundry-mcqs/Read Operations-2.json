@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following flag can be set by mongo shell?",
+        "options": [
+            "a) Timeout",
+            "b) noTimeout",
+            "c) Time",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By default, the server will automatically close the cursor after 10 minutes of inactivity or if client has exhausted the cursor."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Intervening read operations on a document may result in a cursor that returns a document more than once if that document has changed",
+            "b) The MongoDB server returns the query results in batches",
+            "c) Subsequent batch size is 50 megabytes",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For most queries, the first batch returns 101 documents or just enough documents to exceed 1 megabyte."
+    },
+    {
+        "question": "Which of the following will display complete list of available cursor flags?",
+        "options": [
+            "a) cursor.Option()",
+            "b) cursor.addOption()",
+            "c) cursor.addOptions()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You should either close the cursor manually or exhaust the cursor."
+    },
+    {
+        "question": "To describe the message structure, a ________ like struct is used.",
+        "options": [
+            "a) Pascal",
+            "b) C++",
+            "c) C",
+            "d) Java"
+        ],
+        "answer": "c",
+        "explanation": "The standard message header is typed as MsgHeader. Integer constants are in capitals (e.g. ZERO for the integer value of 0)."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The MongoDB Wire Protocol is a simple socket-based, request-response style protocol",
+            "b) For queries that include a sort operation without an index, the server must load all the documents in memory to perform the sort before returning any results",
+            "c) Clients communicate with the database server through a regular TCP/IP socket",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB can perform sort operations without an index, but if an index is not available, it will perform an in-memory sort on the result set. All the other options are correct, such as the MongoDB Wire Protocol is a socket-based protocol, clients communicate with MongoDB servers through a regular TCP/IP socket."
+    },
+    {
+        "question": "______________ specifies the number of documents to return in each batch of the response from the MongoDB instance.",
+        "options": [
+            "a) cursor.batchSize(size)",
+            "b) cursor.Size(size)",
+            "c) cursor.batch(size)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Specifying 1 or a negative number is analogous to using the limit() method."
+    },
+    {
+        "question": "The __________ method returns a document that includes a metrics field.",
+        "options": [
+            "a) db.serverStats()",
+            "b) db.serverStatus()",
+            "c) db.status()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The metrics field contains a cursor with number of timed out cursors since the last server restart."
+    },
+    {
+        "question": "____________ is a client or database-generated identifier that uniquely identifies this message.",
+        "options": [
+            "a) messageLength",
+            "b) responseTo",
+            "c) requestID",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For the case of client-generated messages, it will be returned in the responseTo field of the OP_REPLY message."
+    },
+    {
+        "question": "Which of the following operator is not very selective?",
+        "options": [
+            "a) $nine",
+            "b) $nin",
+            "c) $ain",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The inequality operators $nin and $ne are not very selective since they often match a large portion of the index."
+    },
+    {
+        "question": "An index cannot cover a query on a _______ collection when run against a mongos if the index does not contain the shard key.",
+        "options": [
+            "a) vertical",
+            "b) sharded",
+            "c) horizontal",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB can both match the query conditions and return the results using only the index."
+    }
+]

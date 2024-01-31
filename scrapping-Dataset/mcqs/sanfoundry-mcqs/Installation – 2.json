@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following provides low-level tracing/sniffing view into database activity?",
+        "options": [
+            "a) mongosniff",
+            "b) mongotop",
+            "c) mongooplog",
+            "d) mongofiles"
+        ],
+        "answer": "a",
+        "explanation": "mongosniff is a command-line tool providing a sniffing view into database activity by monitoring network traffic going to and from MongoDB."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB supports a \u201cstandalone\u201d or single-instance operation",
+            "b) Sharded clusters provide high performance replication with automated failover",
+            "c) Replica sets make it possible to partition large data sets over many machines transparently to the users",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB users combine replica sets and sharded clusters to provide high levels redundancy for large data sets transparently for applications."
+    },
+    {
+        "question": "Which of the following is simplest tool for installation of MongoDB?",
+        "options": [
+            "a) mongorestore",
+            "b) mongooplog",
+            "c) mongodump",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongooplog is a simple tool that polls operations from the replication oplog of a remote server."
+    },
+    {
+        "question": "Which of the following network analyzer fully supports MongoDB?",
+        "options": [
+            "a) Wireshark",
+            "b) Riakshark",
+            "c) Snort",
+            "d) Suricata"
+        ],
+        "answer": "a",
+        "explanation": "Wireshark is cross platform and open source network sniffer."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) BSON is difficult to code and manage",
+            "b) MongoDB stores data in JSON documents",
+            "c) JSON provides a rich data model that seamlessly maps to native programming language types",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "BSON is easy to code and manage."
+    },
+    {
+        "question": " ___________ manipulate files stored in your MongoDB instance in GridFS.",
+        "options": [
+            "a) mongorestore",
+            "b) mongofiles",
+            "c) mongosupport",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongofiles provides an interface between objects stored in your file system and GridFS."
+    },
+    {
+        "question": "__________ is a command-line utility to import content from a JSON, CSV, or TSV.",
+        "options": [
+            "a) mongorestore",
+            "b) mongofiles",
+            "c) mongosupport",
+            "d) mongoimport"
+        ],
+        "answer": "d",
+        "explanation": "Import content from a JSON, CSV, or TSV export is created by mongoexport."
+    },
+    {
+        "question": "Which of the following is used for creating a binary export of the contents of a Mongo database?",
+        "options": [
+            "a) mongodump",
+            "b) mongofiles",
+            "c) mongosupport",
+            "d) mongoimport"
+        ],
+        "answer": "a",
+        "explanation": "mongodump is a utility for creating a binary export of the contents of a database."
+    },
+    {
+        "question": "Which of the following tool can be used to reload a database dump?",
+        "options": [
+            "a) mongorestore",
+            "b) mongofiles",
+            "c) mongosupport",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The mongorestore program writes data from a binary database dump created by mongodump to a MongoDB instance."
+    },
+    {
+        "question": "_____________ is a native OS-X-application for MongoDB management.",
+        "options": [
+            "a) Opricot",
+            "b) MongoHub",
+            "c) UMongo",
+            "d) 3T MongoChe"
+        ],
+        "answer": "b",
+        "explanation": "Opricot is a browser-based MongoDB-Shell, implemented in PHP."
+    }
+]

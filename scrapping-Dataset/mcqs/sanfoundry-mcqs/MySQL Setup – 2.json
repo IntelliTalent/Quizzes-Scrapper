@@ -1,0 +1,88 @@
+[
+    {
+        "question": "MySQL client runs on the machine containing the databases and servers connect to the client over a network.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MySQL operates using a client/server architecture. It is the server that runs on the machine and not the client. The clients connect to the MySQL server to request information from the database(s)."
+    },
+    {
+        "question": "The number of attributes in the following SQL table is ______________",
+        "options": [],
+        "answer": "c",
+        "explanation": "The name of the table created is \u2019employee\u2019. It has two attributes, namely, \u2019emp_name\u2019 and \u2019emp_id\u2019. The attributes are the columns in a table. emp_name is of type string and emp_id is of type integer."
+    },
+    {
+        "question": "Which of the following options tells mysql to ask for entering the password?",
+        "options": [
+            "a) -e",
+            "b) -p",
+            "c) -u",
+            "d) -h"
+        ],
+        "answer": "b",
+        "explanation": "The command \u2018mysql -p\u2019 (alternative form: \u2013password) prompts for the password. \u2018-h\u2019 (alternative form: \u2013host) specifies the host where the MySQL server is running. \u2018-u\u2019 is for specifying the username."
+    },
+    {
+        "question": "What is the host name in the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The \u2018-h\u2019 option specifies the hostname of the server. The \u2018cobra.snake.net\u2019 is the complete host name. The \u2018-p\u2019 option prompts for the account\u2019s password and \u2018-u\u2019 specifies the user name."
+    },
+    {
+        "question": "What is \u2018tamp\u2019 in the following MySQL command?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u2018tamp\u2019 is the name of the user. The user will be prompted for password due to the \u2018-p\u2019 option. \u2018xyz.host.try\u2019 is the host name here. The entire command specifies the host-user pair and prompts for password to establish the connection."
+    },
+    {
+        "question": "The query \u2018SELECT NOW()\u2019 shows the current _____________",
+        "options": [
+            "a) table",
+            "b) time only",
+            "c) date only",
+            "d) date and time"
+        ],
+        "answer": "d",
+        "explanation": "SELECT NOW() is an SQL query. It shows both the current date and the current time. It is generally displayed in the format \u2018yyyy-mm-dd hh-mm-ss\u2019. For example, 2009-04-21 11-51-36."
+    },
+    {
+        "question": "Suppose you want to select a database named \u2018sampledb\u2019 as the default database. Which of the following commands do you use?",
+        "options": [
+            "a) SELECT DATABASE()",
+            "b) SELECT DATABASE sampledb",
+            "c) USE DATABASE sampledb",
+            "d) USE sampledb"
+        ],
+        "answer": "d",
+        "explanation": "\u2018USE sampledb\u2019 selects sampledb as the default database. Initially, \u2018SELECT DATABASE();\u2019 command displays \u2018NULL\u2019, since no database is selected by default. The other two are not valid commands."
+    },
+    {
+        "question": "What does \u2018abc\u2019 & \u2018xyz\u2019 specify in the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The \u2018CREATE TABLE\u2019 construct\u2019s syntax is \u2018CREATE TABLE tbl_name (column_specs)\u2019. \u2018tbl_name\u2019 indicates the table name. \u2018column_specs\u2019 provides the specifications of the table attributes."
+    },
+    {
+        "question": "To see the table structure, which of the following SQL commands is issued?",
+        "options": [
+            "a) DESCRIBE tbl_name",
+            "b) VIEW tbl_name",
+            "c) SELECT TABLE tbl_name",
+            "d) SELECT tbl_name"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018DESCRIBE\u2019 command is issued to see the structure of the table \u2018tbl_name\u2019. It shows the structure in the format: Field-Type-Null-Key-Default-Extra. The \u2018VIEW\u2019 and \u2018SELECT\u2019 commands are used to see the contents of the table."
+    },
+    {
+        "question": "SHOW DATABASES lists the databases in the server to which you are connected.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018SHOW DATABASES\u2019 command is used to display the list of the databases that are being managed by the server to which connection is established. This list would vary from server to server."
+    }
+]

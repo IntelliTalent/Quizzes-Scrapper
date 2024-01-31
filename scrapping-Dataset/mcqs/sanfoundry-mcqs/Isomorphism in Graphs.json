@@ -1,0 +1,113 @@
+[
+    {
+        "question": "A graph which has the same number of edges as its complement must have number of vertices congruent to ______ or _______ modulo 4(for integral values of number of edges).",
+        "options": [
+            "a) 6k, 6k-1",
+            "b) 4k, 4k+1",
+            "c) k, k+2",
+            "d) 2k+1, k",
+            "b) number of edge of a graph + number of edges of complementary graph = Number of edges in K"
+        ],
+        "answer": "c",
+        "explanation": "By using invariant of isomorphism and property of edges of graph and its complement, we have: a) number of edges of isomorphic graphs must be the same."
+    },
+    {
+        "question": "Every Isomorphic graph must have ________ representation.",
+        "options": [
+            "a) cyclic",
+            "b) adjacency list",
+            "c) tree",
+            "d) adjacency matrix"
+        ],
+        "answer": "d",
+        "explanation": "A graph can exist in different forms having the same number of vertices, edges and also the same edge connectivity, such graphs are called isomorphic graphs. Two graphs G1 and G2 are said to be isomorphic if \u2212> 1) their number of components (vertices and edges) are same and 2) their edge connectivity is retained. Isomorphic graphs must have adjacency matrix representation."
+    },
+    {
+        "question": "A cycle on n vertices is isomorphic to its complement. What is the value of n?",
+        "options": [
+            "a) 5",
+            "b) 32",
+            "c) 17",
+            "d) 8"
+        ],
+        "answer": "a",
+        "explanation": "A cycle with n vertices has n edges. Number of edges in cycle = n and number of edges in its complement = (n*(n\u22121)/2) \u2013 n. To be isomorphism, both graphs should have equal number of edges. This gives, (n*(n-1)/2) \u2013 n = n"
+    },
+    {
+        "question": "How many perfect matchings are there in a complete graph of 10 vertices?",
+        "options": [
+            "a) 60",
+            "b) 945",
+            "c) 756",
+            "d) 127"
+        ],
+        "answer": "b",
+        "explanation": "Perfect matching is a set of edges such that each vertex appears only once and all vertices appear at least once (exactly one appearance). So for n vertices perfect matching will have n/2 edges and there won\u2019t be any perfect matching if n is odd. For n=10, we can choose the first edge in"
+    },
+    {
+        "question": "A graph G has the degree of each vertex is \u2265 3 say,  deg(V) \u2265 3 \u2200 V \u2208 G such that 3|V| \u2264 2|E| and 3|R| \u2264 2|E|, then the graph is said to be ________ (R denotes region in the graph)",
+        "options": [
+            "a) Planner graph",
+            "b) Polyhedral graph",
+            "c) Homomorphic graph",
+            "d) Isomorphic graph"
+        ],
+        "answer": "b",
+        "explanation": "A simple connected planar graph is called a polyhedral graph if the degree of each vertex is(V) \u2265 3 such that deg(V) \u2265 3 \u2200 V \u2208 G and two conditions must satisfy i) 3|V| \u2264 2|E| and ii) 3|R| \u2264 2|E|."
+    },
+    {
+        "question": "A complete n-node graph Kn is planar if and only if _____________",
+        "options": [
+            "a) n \u2265 6",
+            "b) n",
+            "c) n \u2264 4",
+            "d) n + 3"
+        ],
+        "answer": "c",
+        "explanation": "Any graph with 4 or less vertices is planar, any graph with 8 or less edges is planar and a complete n-node graph K"
+    },
+    {
+        "question": "A graph is ______ if and only if it does not contain a subgraph homeomorphic to k",
+        "options": [
+            "a) bipartite graph",
+            "b) planar graph",
+            "c) line graph",
+            "d) euler subgraph"
+        ],
+        "answer": "b",
+        "explanation": "A graph is known as planar graph if and only if it does not contain a subgraph homeomorphic to k"
+    },
+    {
+        "question": "An isomorphism of graphs G and H is a bijection f the vertex sets of G and H. Such that any two vertices u and v of G are adjacent in G if and only if ____________",
+        "options": [
+            "a) f(u) and f(v) are contained in G but not contained in H",
+            "b) f(u) and f(v) are adjacent in H",
+            "c) f(u * v) = f(u) + f(v)",
+            "d) f(u) = f(u)"
+        ],
+        "answer": "b",
+        "explanation": "Two graphs G and H are said to be isomorphic to each other if there exist a one to one correspondence, say f between the vertex sets V(G) and V(H) and a  one to one correspondence g between the edge sets E(G) and E(H)  with the following conditions:-"
+    },
+    {
+        "question": "What is the grade of a  planar graph consisting of 8 vertices and 15 edges?",
+        "options": [
+            "a) 30",
+            "b) 15",
+            "c) 45",
+            "d) 106"
+        ],
+        "answer": "a",
+        "explanation": "If G is a planar graph with n vertices and m edges then r(G) = 2m i.e. the grade or rank of G is equal to the twofold of the number of edges in G. So, the rank of the graph is 2*15=30 having 8 vertices and 15 edges."
+    },
+    {
+        "question": "A _______ is a graph with no homomorphism to any proper subgraph.",
+        "options": [
+            "a) poset",
+            "b) core",
+            "c) walk",
+            "d) trail"
+        ],
+        "answer": "b",
+        "explanation": "A core can be defined as a graph that does not retract to any proper subgraph. Every graph G is homomorphically equivalent to a unique core called the core of G."
+    }
+]

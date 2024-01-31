@@ -1,0 +1,904 @@
+[
+    {
+        "question": "What is the difference between these two snippets?",
+        "options": [
+            "Only the second one will work; jQuery does not have a function called `.on`.",
+            "The second snippet will not function.",
+            "Nothing `.click(function)` is shorter way to write `.on('click', function)`.",
+            "The first snippet will execute for every button on the page, the second will only apply to the first button."
+        ],
+        "answer": "Nothing `.click(function)` is shorter way to write `.on('click', function)`."
+    },
+    {
+        "question": "What does the following line of code do?",
+        "options": [
+            "Loads a paragraph tag from a remote server using AJAX",
+            "Aliases jQuery to a variable p",
+            "Selects all paragraphs on the page",
+            "Creates a new paragraph tag and inserts it into the body tag"
+        ],
+        "answer": "Selects all paragraphs on the page"
+    },
+    {
+        "question": "Given the following HTML, how could we use one line to hide or show the button?",
+        "options": [
+            "`$('.btn-primary').toggle();`",
+            "`$('.btn-primary').showHide();`",
+            "`$('.btn-primary').not(':visible').show();`",
+            "`$('.btn-primary').css({ display: 'block'});`"
+        ],
+        "answer": "`$('.btn-primary').toggle();`"
+    },
+    {
+        "question": "Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the preferred way for dealing with this scenario?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "Given the snippet of HTML below, what is the difference between the two lines that follow it?",
+        "options": [
+            ".get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained.",
+            ".get() retrieves a jQuery object, and can't be chained, eq() retrieves a DOM element, and can be chained.",
+            ".get() retrieves a jQuery object, and is zero-indexed, eq() retrieves a DOM element, and is 1-indexed.",
+            ".get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed."
+        ],
+        "answer": ".get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained."
+    },
+    {
+        "question": "Suppose we want to have a ball created from an HTML element (id=ball) move down and to the right from its original location when clicked, and move back into its original place when finished. Given a starting point of this, which of these snippets would accomplish that goal?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Given the following CSS and HTML codes below, how could you apply the success class to the feedback div?",
+        "options": [
+            "`$('.feedback').hasClass('.success');`",
+            "`$.css('.feedback', '.success')`;",
+            "`$('.feedback').addClass('success');`",
+            "`$('.feedback').css('.success');`"
+        ],
+        "answer": "`$('.feedback').addClass('success');`"
+    },
+    {
+        "question": "The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the .message-area--list element in the most performant way?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is jQuery?",
+        "options": [
+            "jQuery is a bridge between Java and Javascript that makes native apps easier to write.",
+            "jQuery is a plugin for JavaScript that makes database queries easier to write.",
+            "jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, AJAX, and other things easier.",
+            "jQuery is a Chrome extension that allows users to create their own extensions with just a few lines of JavaScript."
+        ],
+        "answer": "jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, AJAX, and other things easier."
+    },
+    {
+        "question": "We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery selector like a normal plugin. It should update all the links in the referenced collection so they open in new windows or tabs. Below is the first cut. What is one problem with this plugin?",
+        "options": [
+            "this needs to be wrapped, like `$(this)`, in order to be chained in a plugin.",
+            "jQuery plugins can't be safely authored in strict mode.",
+            "In order to be used by other code, plugins need to be added to the global namespace, not wrapped in a function expression.",
+            "Our plugin should extend jQuery.fn, not jQuery itself."
+        ],
+        "answer": "Our plugin should extend jQuery.fn, not jQuery itself."
+    },
+    {
+        "question": "Generally speaking, when used on a web page, how should jQuery be installed, and why?",
+        "options": [
+            "Just before the closing body tag, because we want to avoid blocking other resources from loading, and we use the ready method to make sure our code fires after the DOM is ready",
+            "Using the highest version number possible because only jQuery 3 and up are compatible with Internet Explorer 7",
+            "In the head tag because we want jQuery available as soon as possible",
+            "From a CDN because we want to be able to use jQuery online or offline"
+        ],
+        "answer": "Just before the closing body tag, because we want to avoid blocking other resources from loading, and we use the ready method to make sure our code fires after the DOM is ready"
+    },
+    {
+        "question": "Given the following HTML, how could we make this button disappear from the page using jQuery?",
+        "options": [
+            "`$('.btn-primary').hide();`",
+            "`$('.btn-primary:visible').not();`",
+            "`$('.btn-primary').visibility(false);`",
+            "`$('.btn-primary').show(false);`"
+        ],
+        "answer": "`$('.btn-primary').hide();`"
+    },
+    {
+        "question": "What is the difference between `$('header').html()` and `$('header').text()`?",
+        "options": [
+            "`$('header').html()` returns the inner HTML of the header. `$('header').text()` returns only the text",
+            "`$('header').html()` returns only the HTML tags used, without the text. `$('header').text()` returns only the text",
+            "`$('header').html()` strips all HTML from the header. `$('header').text()` always returns an empty string.",
+            "`$('header').html()` returns all headers in an HTML document. `$('header').text()` the first line of a text file."
+        ],
+        "answer": "`$('header').html()` returns the inner HTML of the header. `$('header').text()` returns only the text"
+    },
+    {
+        "question": "When writing jQuery plugins, we often provide default options that may be overridden by the end user. What jQuery function is most useful for this purpose?",
+        "options": [
+            "\\$.extend",
+            "\\$.clone",
+            "\\$.fn.extend",
+            "\\$.merge"
+        ],
+        "answer": "\\$.extend"
+    },
+    {
+        "question": "There are times when you might want to programmatically trigger an event, instead of simply reacting to user input directly. Given this markup, Which choice will NOT cause a click event to the select box when the button is clicked?",
+        "options": [
+            "`$('button').on('click.myApp', (function() { $('input[type=select]').trigger('click'); });`",
+            "`$('button').on('click', (function() { $('input[type=select]').click()); });`",
+            "`$('button').trigger(function() { $('input[type=select]').click(); });`",
+            "`$('button').click(function() { $('input[type=select]').click(); });`"
+        ],
+        "answer": "`$('button').on('click.myApp', (function() { $('input[type=select]').trigger('click'); });`"
+    },
+    {
+        "question": "You have an absolutely positioned element inside a relatively positioned parent element, and you want to animate that element within its parent element. What jQuery function is most useful for finding the initial coordinates of the `.animate-me`?",
+        "options": [
+            "`$('.animate-me').offset();`",
+            "`$('.animate-me').each();`",
+            "`$('.animate-me').position();`",
+            "`$('.animate-me').offsetParent();`"
+        ],
+        "answer": "`$('.animate-me').offset();`"
+    },
+    {
+        "question": "You want to work with AJAX using a Promise-like interface instead of nested callback functions. What jQuery API should you use?",
+        "options": [
+            "`jQuery.sub`",
+            "`jQuery.ajaxTransport`",
+            "`jQuery.Deferred`",
+            "`jQuery.proxy`"
+        ],
+        "answer": "`jQuery.Deferred`"
+    },
+    {
+        "question": "What is tricky about jQuery's nth- filters (:nth-child, :nth-of-type, etc.) relative to other filters?",
+        "options": [
+            "Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript).",
+            "They don't return the jQuery object, and cannot be chained.",
+            "They can return the wrong items if the DOM was recently manipulated.",
+            "They are not part of CSS, so they don't get the performance benefits of passing through the `document.querySelectorAll`."
+        ],
+        "answer": "Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript)."
+    },
+    {
+        "question": "jQuery's AJAX functions return objects that implement the Promise API. As a result, you can chain promises and avoid nested callbacks. What does that look like?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "You want to have a ball that is created from an HTML element (id=ball) move down and to the right of its original location when clicked, and move back to its original place when finished. What snippet, added to the code below, would do this?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "The way `.wrap()` works is sometimes misunderstood. Given the DOM and jQuery snippets below, what does the modified DOM snippet look like?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How can you select the following blockquote AND the list in a single call to jQuery() without chaining?",
+        "options": [
+            "`$('.quotes + .menu-first')`",
+            "`$('.quotes .menu-first')`",
+            "`$('.quotes, .menu-first')`",
+            "`$('.quotes' + '.menu-first')`"
+        ],
+        "answer": "`$('.quotes, .menu-first')`"
+    },
+    {
+        "question": "Effects like show, hide, fadIn, and fadeOut can be called with no arguments, but can also take arguments for how long they should last. Which is NOT a duration argument supported by these functions?",
+        "options": [
+            "\"fast\"",
+            "\"extreme\"",
+            "2000",
+            "\"slow\""
+        ],
+        "answer": "\"extreme\""
+    },
+    {
+        "question": "Though jQuery offers visual effects, it is considered a best practice to use CSS to set up different states triggered by classes, where it makes sense. What's the easiest way to enable and disable a class bounce on an element with the ID dialog?",
+        "options": [
+            "`$('#dialog').classToggle('bounce')`",
+            "`$('#dialog.bounce').removeClass().addClass()`",
+            "`$('#dialog').addOrRemoveClass('bounce')`",
+            "`$('#dialog').toggleClass('bounce')`"
+        ],
+        "answer": "`$('#dialog').toggleClass('bounce')`"
+    },
+    {
+        "question": "What is the main difference between selectors and filters?",
+        "options": [
+            "Selectors are used to refine the content that filters have been applied to.",
+            "Selectors are used to find and select content in a page. Filters are used to refine the results of selectors.",
+            "Filters are used to remove content from the page. Selectors are used to add content to the page",
+            "There is no real difference. They are both used to build up lists of page content."
+        ],
+        "answer": "Selectors are used to find and select content in a page. Filters are used to refine the results of selectors."
+    },
+    {
+        "question": "You want to create a custom right-click menu. How might you start the code?",
+        "options": [
+            "`$('#canvas').on('click.right', function(){ console.log('Handled a right-click') });`",
+            "`$('#canvas').on('contextual', function(){ console.log('Handled a right-click') });`",
+            "`$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`",
+            "`$('#canvas').on('rightclick', function(){ console.log('Handled a right-click') });`"
+        ],
+        "answer": "`$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`"
+    },
+    {
+        "question": "What is the correct way to check how many paragraphs exist on a page using jQuery?",
+        "options": [
+            "`$('p').count()`",
+            "`$('p').length`",
+            "`$('*').find('p')`",
+            "`$('p').length()`"
+        ],
+        "answer": "`$('p').length`"
+    },
+    {
+        "question": "As with many areas of JavaScript, keeping track of the meaning of `this` is important and sometimes tricky. What does `this` mean at each of the two points in this custom plugin snippet?",
+        "options": [
+            "At Point 1, `this` means a jQuery object. At Point 2, it means a DOM element.",
+            "In this case, they mean the same thing: a jQuery object.",
+            "In this case, they mean the same thing: a DOM element.",
+            "At Point 1, `this` means a DOM element. At Point 2, it means a jQuery object."
+        ],
+        "answer": "At Point 1, `this` means a DOM element. At Point 2, it means a jQuery object."
+    },
+    {
+        "question": "How can you make the first list item bold and the next item oblique, in a single statement chain?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "Which CSS selectors can you NOT use in jQuery?",
+        "options": [
+            "You cannot use multiple class selectors such as `.class1.class2`.",
+            "You cannot use pseudo-classes such as `:not` or `:last-of-type`.",
+            "You cannot use IDs and classes together, such as `#element.class`.",
+            "None. All CSS selectors are compatible in jQuery."
+        ],
+        "answer": "None. All CSS selectors are compatible in jQuery."
+    },
+    {
+        "question": "Starting with some DOM elements in the nested structure below, you assign listeners for the same event to a child element and one of the parents using the JavaScript that follows. You want to ensure that when `.leaf` is clicked, only its event handler will be fired, instead of the click bubbling up and also firing the parent's click handler. What do you need to add to its handler function?",
+        "options": [
+            "`event.capture();`",
+            "`event.stopPropagation();`",
+            "`event.preventDefault();`",
+            "`event.stop();`"
+        ],
+        "answer": "`event.stopPropagation();`"
+    },
+    {
+        "question": "Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process?",
+        "options": [
+            "`$($target.get(0) + ':image')`",
+            "`$('img').is($target)`",
+            "`$target.filter('img')`",
+            "`$target.is('img')`"
+        ],
+        "answer": "`$target.is('img')`"
+    },
+    {
+        "question": "There are many ways to create elements that can be added to the page. Which answer is NOT one of those ways, assuming you have the following on the page?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "The `.addClass()` and `.removeClass()` methods can accept functions as arguments. What does this function do?",
+        "options": [
+            "It adds the first class found on the body element to the #menu element.",
+            "It adds all classes found on the #menu element to the body tag.",
+            "It replaces any classes on the #menu element with all classes from the body tag.",
+            "It adds all classes found on the body element to the #menu element."
+        ],
+        "answer": "It adds all classes found on the body element to the #menu element."
+    },
+    {
+        "question": "You're working on a site that uses an old version of jQuery, and you want to update to a newer version. What's the most efficient way to do so?",
+        "options": [
+            "Install the newer version of jQuery, go through each script one by one, and fix what looks broken.",
+            "Read the change notes for the newer version of jQuery, fix all scripts, install the newer version, and fix anything that remains broken.",
+            "Install the newer version of jQuery as well as its Migrate plugin, fix all warnings, and uninstall the Migrate plugin.",
+            "Install the newer version of jQuery at the same time, and use `jQuery.noConflict()` on pages that need the older version."
+        ],
+        "answer": "Install the newer version of jQuery as well as its Migrate plugin, fix all warnings, and uninstall the Migrate plugin."
+    },
+    {
+        "question": "Let's say you have a page with just one link on it. How can you change the anchor tag so it links to example.com?",
+        "options": [
+            "`$('a').attribute('href', 'http://www.example.com')`",
+            "`$('a').attr('href', 'http://www.example.com')`",
+            "`$('a').data('href', 'http://www.example.com')`",
+            "`$('a').href('http://www.example.com')`"
+        ],
+        "answer": "`$('a').attr('href', 'http://www.example.com')`"
+    },
+    {
+        "question": "What does `$()` mean in jQuery?",
+        "options": [
+            "It is an alias to the main core method of jQuery itself\u2014the same as writing jQuery().",
+            "It is a utility function that selects the first element from the document.",
+            "It is a shorter way to write `document.getElementById()`.",
+            "It is a utility function that selects the last element from the document."
+        ],
+        "answer": "It is an alias to the main core method of jQuery itself\u2014the same as writing jQuery()."
+    },
+    {
+        "question": "Along with DOM traversal and manipulation, jQuery offers several general-purpose helper functions that fill in some JavaScript gaps, especially before ES2015. Which is NOT a jQuery utility function?",
+        "options": [
+            "`jQuery.each`, a general purpose iterator for looping over arrays or objects",
+            "`jQuery.isNumeric`, which can check whether its argument is, or looks like, a number",
+            "`jQuery.extend`, which can merge objects and make complete deep copies of objects",
+            "`jQuery.isMobile`, which can tell whether the user is using a mobile browser"
+        ],
+        "answer": "`jQuery.isMobile`, which can tell whether the user is using a mobile browser"
+    },
+    {
+        "question": "Given this set of checkboxes, how can you select the ones that have the phrase \"sun\" as part of the value?",
+        "options": [
+            "`$('checkbox').val(/sun/);`",
+            "`$('input[value*=\"sun\"]');`",
+            "`$('input[value|=\"sun\"]');`",
+            "`$('input:checkbox').attr('value', '*sun*');`"
+        ],
+        "answer": "`$('input[value*=\"sun\"]');`"
+    },
+    {
+        "question": "How can you get an AJAX request to go through without triggering any of jQuery's AJAX events?",
+        "options": [
+            "Set the type option to \"none\".",
+            "Set the processData option to false.",
+            "Set a success callback that returns false.",
+            "Set the option \"global\" to false."
+        ],
+        "answer": "Set the option \"global\" to false."
+    },
+    {
+        "question": "How do you change the current value of a text field with the class `.form-item` to \"555-1212\"?",
+        "options": [
+            "`$.val('.form-item', '555-1212');`",
+            "`$('.form-item').val('555-1212');`",
+            "`$('.form-item').data('value', '555-1212');`",
+            "`$('.form-item').set('value', '555-1212');`"
+        ],
+        "answer": "`$('.form-item').val('555-1212');`"
+    },
+    {
+        "question": "How would you fire a callback when any AJAX request on a page has completed?",
+        "options": [
+            "`$('body').ajaxComplete(function() { console.count('An AJAX request completed'); });`",
+            "`$(document).on('ajax-complete', function() { console.count('An AJAX request completed'); });`",
+            "`$('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });`",
+            "`$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`"
+        ],
+        "answer": "`$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`"
+    },
+    {
+        "question": "Given this set of checkboxes, how can you select the one with the value \"blimp\"?",
+        "options": [
+            "`$('input[value=\"blimp\"]');`",
+            "`$('input[value!=\"blimp\"]');`",
+            "`$('checkbox').val('blimp');`",
+            "`$('input:checkbox').attr('value', 'blimp');`"
+        ],
+        "answer": "`$('input[value=\"blimp\"]');`"
+    },
+    {
+        "question": "Given this snippet of HTML and jQuery code, what does the jQuery do?",
+        "options": [
+            "It makes all the menu items bold.",
+            "It throws an exception on line 3.",
+            "It makes the first set of menu items, not the second, bold.",
+            "It makes the second set of menu items, not the first, bold."
+        ],
+        "answer": "It makes the first set of menu items, not the second, bold."
+    },
+    {
+        "question": "You want to take a block of type and animate it to a larger size with jQuery. The following HTML and JavaScript behaves strangely. What is the issue?",
+        "options": [
+            "jQuery does not support ems and will make the type 1 pixel larger instead of 1 em larger.",
+            "jQuery cannot override CSS in a style attribute, so the font size will not change.",
+            "The font size was set with a shorthand property, so jQuery will not animate the font size at all.",
+            "The font size was set with a shorthand property, so jQuery will start the animation from 0 instead of from 1 em."
+        ],
+        "answer": "The font size was set with a shorthand property, so jQuery will start the animation from 0 instead of from 1 em."
+    },
+    {
+        "question": "When using the `clone()` function to duplicate an element, what is one of the main concerns your code needs to watch out for?",
+        "options": [
+            "The `clone()` function may ignore data attributes on the original elements.",
+            "The `clone()` function may result in elements with duplicate ID attributes.",
+            "The `clone()` function may remove CSS classes from the cloned elements.",
+            "The `clone()` function may not respect the attribute order of the original elements."
+        ],
+        "answer": "The `clone()` function may result in elements with duplicate ID attributes."
+    },
+    {
+        "question": "When incorporating a plugin into a project, what are the important steps for basic installation and usage?",
+        "options": [
+            "The jQuery script tag must come first, followed by the plugin, followed by your custom scripts, all preferably at or near the bottom of the page.",
+            "Your custom scripts must appear first in the document `<head>`, followed by jQuery, followed by the plugin.",
+            "The jQuery script tag and the plugin script tag must appear in the document `<head>`, and your custom scripts can follow anywhere on the page.",
+            "The jQuery script tag must appear in the document `<head>`, but the plugin and your custom scripts can appear anywhere else in any order."
+        ],
+        "answer": "The jQuery script tag must come first, followed by the plugin, followed by your custom scripts, all preferably at or near the bottom of the page."
+    },
+    {
+        "question": "These two script tags show different ways of using jQuery's `ready()` method. What is true about both approaches?",
+        "options": [
+            "The code inside them can manipulate the DOM safely, knowing the browser has loaded it fully.",
+            "The code inside them can manipulate images on the page safely, knowing they have fully downloaded to the browser.",
+            "The code inside them will be run exactly once per user session.",
+            "The code inside them is not aware of the DOM."
+        ],
+        "answer": "The code inside them can manipulate the DOM safely, knowing the browser has loaded it fully."
+    },
+    {
+        "question": "Which describes how jQuery makes working with the DOM faster?",
+        "options": [
+            "jQuery optimizes the DOM in a background thread, making updates faster.",
+            "jQuery avoids using the DOM at all.",
+            "jQuery uses a virtual DOM that batches updates, making inserts and deletes faster.",
+            "jQuery code to perform DOM manipulation is shorter and easier to write, but does not make DOM operations faster."
+        ],
+        "answer": "jQuery code to perform DOM manipulation is shorter and easier to write, but does not make DOM operations faster."
+    },
+    {
+        "question": "There are some issues with this snippet of jQuery. First, it is manipulating CSS directly, rather than manipulating classes and leaving the CSS in stylesheets. What else in this code is best to avoid?",
+        "options": [
+            "The `.css()` method accepts only an object, not two separate arguments. This will trigger an exception that should be caught.",
+            "The `$('.item')` selection is being made several times. This should be cached in a variable for (however slightly) better performance and easier maintainability.",
+            "The call to `.parents()` is in an inefficient place.",
+            "All the calls to `$('.item')` should be chained together as a single executable line for better performance."
+        ],
+        "answer": "The call to `.parents()` is in an inefficient place."
+    },
+    {
+        "question": "Which choice is an example of statement chaining?",
+        "options": [
+            "`var $p = $('p'); console.log($p.length);`",
+            "`$('p').find('a').children('li');`",
+            "`$('p > a > li');`",
+            "`$('p'); $('a'); $('li');`"
+        ],
+        "answer": "`$('p').find('a').children('li');`"
+    },
+    {
+        "question": "How can you ensure that some code executes only when a class `active` appears on an element?",
+        "options": [
+            "`$('.element').attr('class', 'active')`",
+            "`$('.element').with('.active')`",
+            "`$('.element').hasClass('active')`",
+            "`$('.active').then()`"
+        ],
+        "answer": "`$('.element').hasClass('active')`"
+    },
+    {
+        "question": "jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?",
+        "options": [
+            "`$('#load-me').get('source.html#one');`",
+            "`$('#load-me').get('source.html #one');`",
+            "`$('#load-me').load('source.html #one');`",
+            "`$('#load-me').load('source.html', '#one');`"
+        ],
+        "answer": "`$('#load-me').load('source.html #one');`"
+    },
+    {
+        "question": "Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?",
+        "options": [
+            "`.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.",
+            "`.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.",
+            "`.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.",
+            "`.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`."
+        ],
+        "answer": "`.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`."
+    },
+    {
+        "question": "What does this line of code do?",
+        "options": [
+            "selects the first list item inside all unordered lists on the page",
+            "selects the first list item inside the first unordered list on the page",
+            "selects the first element inside any list items on the page",
+            "creates a predefined CSS selector that can be reused later"
+        ],
+        "answer": "selects the first list item inside all unordered lists on the page"
+    },
+    {
+        "question": "Below is a list of items that you want to be clickable and an event handler function. How can you assign the event handler to every item in the list in a way that is most performant, and also that ensures that the handler is called even if more items are added to the list programmatically?",
+        "options": [
+            "`$('.clickable-list').click(listResponder);`",
+            "`$('.clickable-list').on('click', 'li', listResponder);`",
+            "`$('.clickable-list').on('click, append', listResponder);`",
+            "`$('.clickable-list').each(function() { $(this).click(listResponder); });`"
+        ],
+        "answer": "`$('.clickable-list').on('click', 'li', listResponder);`"
+    },
+    {
+        "question": "What is the difference between $('p').find('a') and $('p').children('a')?",
+        "options": [
+            "`find() traverses only one level down, whereas children() selects anything inside the original element`",
+            "`$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`",
+            "`.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`",
+            "`children() traverses only one level down, whereas find() selects anything inside the original element`"
+        ],
+        "answer": "`children() traverses only one level down, whereas find() selects anything inside the original element`"
+    },
+    {
+        "question": "Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why might you use custom events instead of shared helper functions? For example",
+        "options": [
+            "`Custom events are at least an order of magnitude faster than helper functions`",
+            "`Custom events can be listened for and acted upon across one or more scripts without needing to keep helper functions in scope`",
+            "`Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`",
+            "`It is easier to write documentation for custom events than it is for helper functions`"
+        ],
+        "answer": "`Custom events can be listened for and acted upon across one or more scripts without needing to keep helper functions in scope`"
+    },
+    {
+        "question": "In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Given this checkbox, how can you determine whether a user has selected or cleared the checkbox?",
+        "options": [
+            "by checking the value of `$('#same-address').val()`",
+            "by checking the value of `$('#same-address').prop('checked')`",
+            "by checking the value of `$('#same-address').attr('checked')`",
+            "by checking the value of `$('#same-address').checked`"
+        ],
+        "answer": "by checking the value of `$('#same-address').prop('checked')`"
+    },
+    {
+        "question": "In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?",
+        "options": [
+            "`jQuery.version()`",
+            "`jQuery.jquery`",
+            "`jQuery.prototype.version`",
+            "`jQuery.fn.jquery`"
+        ],
+        "answer": "`jQuery.fn.jquery`"
+    },
+    {
+        "question": "Given this snippet of HTML, how can you get the value of the text field using jQuery?",
+        "options": [
+            "`$('input[type=text]').val()`",
+            "`$('.form-control').val()`",
+            "`all of these answers`",
+            "`$('#firstName').val()`"
+        ],
+        "answer": "`all of these answers`"
+    },
+    {
+        "question": "Which property of the jQuery event object references the DOM object that dispatched an event?",
+        "options": [
+            "target",
+            "self",
+            "source",
+            "object"
+        ],
+        "answer": "target"
+    },
+    {
+        "question": "You want to write a plugin that creates a new traversal function\u2014such as parent() and children()\u2014and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?",
+        "options": [
+            "`return this.append(additionalItems);`",
+            "`return additionalItems.appendTo(this);`",
+            "`return this.pushStack(additionalItems);`",
+            "`return this.add(additionalItems);`"
+        ],
+        "answer": "`return this.pushStack(additionalItems);`"
+    },
+    {
+        "question": "Given this snippet of HTML and jQuery code, what will the result look like?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?",
+        "options": [
+            "`$('blockquote'):second().attr('favorite', true);`",
+            "`$('blockquote:nth-child(2)').data('favorite', true);`",
+            "`$('blockquote').second().data('favorite', true);`",
+            "`$('blockquote:nth-child(2)').attr('favorite', true);`"
+        ],
+        "answer": "`$('blockquote:nth-child(2)').data('favorite', true);`"
+    },
+    {
+        "question": "jQuery can create event handlers that execute exactly once. How is this done?",
+        "options": [
+            "`$('button').click(function() { console.log('this will only happen once'); }, false);`",
+            "`$('button').on('click', function() { console.log('this will only happen once'); }).off('click');`",
+            "`$('button').once('click', function() { console.log('this will only happen once'); });`",
+            "`$('button').one('click', function() { console.log('this will only happen once'); });`"
+        ],
+        "answer": "`$('button').one('click', function() { console.log('this will only happen once'); });`"
+    },
+    {
+        "question": "You want to implement the behavior of an effect like `slideDown()` manually using `animate()`. What is one critical point you need to remember?",
+        "options": [
+            "`slideDown()` requires animating the background color; doing so with `animate()` requires the jQuery Color plugin.",
+            "`slideDown()` includes toggling visibility automatically. `animate()` does not automatically set any properties.",
+            "`slideDown()` requires the element to have a height set in pixels. `animate()` does not.",
+            "Effects created with `animate()` must be run over at least 100 milliseconds, where `slideDown()` can run as quickly as 50ms."
+        ],
+        "answer": "`slideDown()` includes toggling visibility automatically. `animate()` does not automatically set any properties."
+    },
+    {
+        "question": "What is the main difference between the `contents()` and `children()` functions?",
+        "options": [
+            "They both return the content of selected nodes, but `children()` also includes text and comment nodes.",
+            "The `contents()` function only includes text nodes of the selected elements.",
+            "The `children()` function only includes text nodes of the selected elements.",
+            "They both return the content of selected nodes, but `contents()` also includes text and comment nodes."
+        ],
+        "answer": "They both return the content of selected nodes, but `contents()` also includes text and comment nodes."
+    },
+    {
+        "question": "If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?",
+        "options": [
+            "jQuery 3 compressed",
+            "jQuery 3 slim",
+            "jQuery 2",
+            "None of these - jQuery requires AJAX"
+        ],
+        "answer": "jQuery 3 slim"
+    },
+    {
+        "question": "The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "You want to take an element and any event handlers that go with it out of the DOM to do some work\u2014without the changes affecting the rest of the page\u2014and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?",
+        "options": [
+            "`var $example = $('#example').remove();`",
+            "`var $example = $('#example').clone();`",
+            "`var $example = $('#example').detach();`",
+            "`var $example = $('#example').addBack().empty();`"
+        ],
+        "answer": "`var $example = $('#example').detach();`"
+    },
+    {
+        "question": "Review the HTML below. You want to select the first item in the list and fade it out, then select the subsequent items up to (but not including) the active item, and fade them out halfway. How can you set up a single chain to do this?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is a particular performance concern when dealing with event handlers, and how can you cope with it?",
+        "options": [
+            "Finding which element an event occurred on is expensive. Assign most events to document.body and use .is() to act on the element of interest.",
+            "Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.",
+            "Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.",
+            "DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible."
+        ],
+        "answer": "Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need."
+    },
+    {
+        "question": "What is the purpose of the jQuery.fx.off global property?",
+        "options": [
+            "It turns off animations that are used to provide motion effect, but appearance effects remain enabled.",
+            "It causes animation effects that are triggered via functions to instead be executed using CSS.",
+            "It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect.",
+            "It globally disables animations that are triggered by CSS class changes."
+        ],
+        "answer": "It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect."
+    },
+    {
+        "question": "When you use custom Jquery selection extensions, such as :animated, on a page with lots of DOM elements, you can run into performance issues. What is the best practice for managing those issues?",
+        "options": [
+            "Select `$(document.body)` first, then use .filter with the custom extension.",
+            "Use the custom extension with `.has()`.",
+            "Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.",
+            "Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension."
+        ],
+        "answer": "Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension."
+    },
+    {
+        "question": "What is the main difference between the ajaxStop and ajaxComplete global handlers?",
+        "options": [
+            "ajaxStop fires when all open requests have completed, while ajaxComplete fires when an individual request completes.",
+            "There is no difference. They are aliases of each other.",
+            "ajaxStop fires when an error has been encountered, while ajaxComplete fires when a successful request completes.",
+            "ajaxComplete fires when all open requests have completed, while ajaxStop fires when an individual request completes."
+        ],
+        "answer": "ajaxStop fires when all open requests have completed, while ajaxComplete fires when an individual request completes."
+    },
+    {
+        "question": "The :only-child selector selects **\\_**.",
+        "options": [
+            "all elements that are child elements.",
+            "elements that have no siblings.",
+            "elements that have only one child element.",
+            "only the child elements of a given element."
+        ],
+        "answer": "only the child elements of a given element."
+    },
+    {
+        "question": "Because querySelectorAll and querySelector are in the native DOM API of modern browsers, you don't need jQuery to do many kinds of DOM selections. But the jQuery selector engine does provide extensions that browsers do not support natively. Which extension is supported only by jQuery and _not_ by querySelector or querySelectorAll?",
+        "options": [
+            ":parent, which can select elements that have children",
+            ":visible, which can select elements that jQuery considers to be visible",
+            ":contains, which can select elements by the text they contain",
+            ":nth-of-type, which can select elements that are the nth element of their type within their parent"
+        ],
+        "answer": ":visible, which can select elements that jQuery considers to be visible"
+    },
+    {
+        "question": "jQuery is quite large, and developers often do not use all of its functionality on a project. Beyond using the slim build of jQuery 3, how can you use some of jQuery, but not all?",
+        "options": [
+            "None of these--the only viable options are the full build or slim build of jQuery.",
+            "Download the minified build from the JQuery CDN and strip out functions manually.",
+            "Download the source code from GitHub and build a custom version that excludes the unnecessary modules.",
+            "Download the developer build from code.jquery.com and gzip it."
+        ],
+        "answer": "Download the source code from GitHub and build a custom version that excludes the unnecessary modules."
+    },
+    {
+        "question": "jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?",
+        "options": [
+            "forced CSS-equivalent hardware acceleration of all jQuery animations",
+            "animation of color transitions (background or foreground) without using CSS",
+            "duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class",
+            "more easing options for timing animations"
+        ],
+        "answer": "forced CSS-equivalent hardware acceleration of all jQuery animations"
+    },
+    {
+        "question": "Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does?",
+        "options": [
+            "It changes the menu items in the first list to red, then hides the second list of menu items.",
+            "It changes all menu items in both lists to red, then hides all items with the active class.",
+            "It changes the menu items in the first list to red, then hides the item in the first list with the active class.",
+            "It changes the menu items in the first list to red, then returns the selection with no further changes."
+        ],
+        "answer": "It changes the menu items in the first list to red, then hides the item in the first list with the active class."
+    },
+    {
+        "question": "A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called \"processed\" to it?",
+        "options": [
+            ".parent('#main').addClass('processed');",
+            ".parents('#main').addClass('processed');",
+            ".find('#main').addClass('processed');",
+            ".up('#main').addClass('processed');"
+        ],
+        "answer": ".parents('#main').addClass('processed');"
+    },
+    {
+        "question": "When might you want to use custom queues for animations instead of relying on the built-in FX queue?",
+        "options": [
+            "when you want to have multiple sequences of animations on a single element that run with independent timings",
+            "when you want to time jQuery animations and CSS animations, since addClass has no duration setting",
+            "all of these answers",
+            "when you want to time custom animations of several different elements without lots of nested callbacks"
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "Which symbol is commonly used to represent the jQuery object?",
+        "options": [
+            "$",
+            "#",
+            "%",
+            "&"
+        ],
+        "answer": "$"
+    },
+    {
+        "question": "Along with standard DOM events like click, focus, or blur, you can register and listen for custom events with jQuery. If you have an external API at `http://example.com/api/v1` and you want to use custom events to ping that API from various places throughtout your codebase, what would that look like?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Given the HTML code between `<form>` and `</form>` below, what does the snippet between `<script>` and `</script>` do?",
+        "options": [
+            "When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert.",
+            "When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.",
+            "The function triggers the form to submit programmatically, then looks at the checkbox. If it is not selected, display an alert.",
+            "jQuery submits the form, and then asks for confirmation on the terms if the checkbox was not clicked."
+        ],
+        "answer": "When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert."
+    },
+    {
+        "question": "jQuery has an internal function used to prepare data that are submitted with AJAX requests, and it is available to you as well. Suppose you have a page with a simple button. Based on various conditions on the page, you build up an object that will alter the URL. If you want the presented URL, how can you get a complete representation of the data into the URL?",
+        "options": [
+            "`$(data).serializeArray();`",
+            "`$.param(data, false);`",
+            "`$.param(data, true);`",
+            "`$(data).serialize();`"
+        ],
+        "answer": "`$.param(data, false);`",
+        "explanation": null,
+        "codeblock": null
+    }
+]

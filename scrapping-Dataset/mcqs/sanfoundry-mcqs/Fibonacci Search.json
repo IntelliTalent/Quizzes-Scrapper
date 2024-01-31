@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which algorithmic technique does Fibonacci search use?",
+        "options": [
+            "a) Brute force",
+            "b) Divide and Conquer",
+            "c) Greedy Technique",
+            "d) Backtracking"
+        ],
+        "answer": "b",
+        "explanation": "With every iteration, we divide the given array into two sub arrays(not necessarily equal)."
+    },
+    {
+        "question": "Choose the recursive formula for the Fibonacci series.(n>=1)",
+        "options": [
+            "a) F(n) = F(n+1) + F(n+2)",
+            "b) F(n) = F(n) + F(n+1)",
+            "c) F(n) = F(n-1) + F(n-2)",
+            "d) F(n) = F(n-1) \u2013 F(n-2)"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Write a function for the Fibonacci search method.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Here instead of choosing middle of the array as a point of array division, we use Fibonacci numbers, the division index are strictly between two Fibonacci numbers."
+    },
+    {
+        "question": "What is the time complexity of Fibonacci Search?",
+        "options": [
+            "a) O(logn)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(nlogn)"
+        ],
+        "answer": "a",
+        "explanation": "Since it divides the array into two parts, although not equal, its time complexity is O(logn), it is better than binary search in case of large arrays."
+    },
+    {
+        "question": "Which of the following is not an advantage of Fibonacci Search?",
+        "options": [
+            "a) When the element being searched for has a non uniform access storage",
+            "b) Can be used in magnetic tapes",
+            "c) Can be used for large arrays which do not fit in the CPU cache or in the RAM",
+            "d) It can be applied efficiently on unsorted arrays"
+        ],
+        "answer": "d",
+        "explanation": "When the speed of access depends on the location previously accessed, Fibonacci search is better compared to binary search as it performs well on those locations which have lower dispersion. Fibonacci search won\u2019t work on unsorted arrays. The input should be a sorted array or array should be sorted before Fibonacci search."
+    },
+    {
+        "question": "What is the length of the step in jump search?",
+        "options": [
+            "a) n",
+            "b) n/2",
+            "c) sqrt(n)",
+            "d) 1"
+        ],
+        "answer": "c",
+        "explanation": "If the step size is 1, it becomes a linear search, if it is n, we reach the end of the list in just on step, if it is n/2, it becomes similar to binary search, therefore the most efficient step size is found to be sqrt(n)."
+    },
+    {
+        "question": "Select the code snippet for Jump Search.",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "After finding the correct block of k elements, a sequential search is performed in this block."
+    },
+    {
+        "question": "What is the time complexity of Jump Search?",
+        "options": [
+            "a) O(logn)",
+            "b) O(n)",
+            "c) O(sqrt(n))",
+            "d) O(nlogn)"
+        ],
+        "answer": "c",
+        "explanation": "Since the size of the step is sqrt(n), the complexity is also obviously O(sqrt(n))."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which package can be integrated with dplyr for large fast tables?",
+        "options": [
+            "a) Table",
+            "b) Data, dplyr",
+            "c) Data.table",
+            "d) Dplyr.table"
+        ],
+        "answer": "c",
+        "explanation": "Data.table package can be integrated with dplyr for large fast tables. dplyr package is used to speed up data frame management code. dplyr is a package for data manipulation, written and maintained regularly by Hadley Wickham."
+    },
+    {
+        "question": "In the base graphics system, which function is used to add elements to a plot?",
+        "options": [
+            "a) Boxplot()",
+            "b) Text()",
+            "c) Boxplot() or Text()",
+            "d) Treat()"
+        ],
+        "answer": "c",
+        "explanation": "In the base graphics system, boxplot or text function is used to add elements to a plot."
+    },
+    {
+        "question": "What are the different types of sorting algorithms available in R language?",
+        "options": [
+            "a) Bubble",
+            "b) Selection",
+            "c) Merge",
+            "d) All sorts"
+        ],
+        "answer": "d",
+        "explanation": "Bucket Sort, Selection Sort, Quick Sort, Bubble Sort, Merge Sort is the different sorts available in R language. Each and Every sorting algorithm is available in R."
+    },
+    {
+        "question": "What is the command used to store R objects in a file?",
+        "options": [
+            "a) save (x, file=\u201dx.Rdata\u201d)",
+            "b) save (x, file=x.Rdata)",
+            "c) save (x, file=\u201dx.Rdata\u201d);",
+            "d) save (x, file=\u201dx.data\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "The function save() can be used to save one or more R objects to a specified file (in .RData or .rda type file formats). The function can be read back from the file using the function load(). Note that if you save your data with save(), it cannot be restored under a different name."
+    },
+    {
+        "question": "___________ can be used for storing the data for long-term.",
+        "options": [
+            "a) HDLS",
+            "b) HDFS",
+            "c) HDLSV",
+            "d) HSSLV"
+        ],
+        "answer": "b",
+        "explanation": "The Hadoop Distributed File System (HDFS) is the primary data storage system used in Hadoop applications. The Hadoop Distributed File System ( HDFS ) is a distributed file system designed for a run on commodity hardware."
+    },
+    {
+        "question": "MapReduce jobs submitted from either Oozie, Pig or Hive can be used to encode, improve and sample the data sets from _________ into R.",
+        "options": [
+            "a) HDLS",
+            "b) HDFS",
+            "c) HDLSV",
+            "d) HSSLV"
+        ],
+        "answer": "b",
+        "explanation": "MapReduce jobs submitted from either Oozie, Pig or Hive can be used for encode, improve and sample the data sets from HDFS into R. This helps to leverage complex analysis tasks with the subset of data prepared in R."
+    },
+    {
+        "question": "What will be the output of log (-5.8) when executed on R console?",
+        "options": [
+            "a) NAN",
+            "b) NA",
+            "c) Error",
+            "d) 0.213"
+        ],
+        "answer": "a",
+        "explanation": "Executing the above on R console or terminal will display a warning sign that NaN (Not a Number)  will be produced in R console because it is not possible to take a log of a negative number(-)."
+    },
+    {
+        "question": "How is a Data object represented internally in R language?",
+        "options": [
+            "a) unclass (as.time (\u201c2018-12-28\u2033))",
+            "b) unclass (as.dat (\u201c2018-12-28\u2033))",
+            "c) unclass (as.D (2018-12-28))",
+            "d) unclass (as.Date (\u201c2018-12-28\u2033))"
+        ],
+        "answer": "d",
+        "explanation": "unclass returns (a copy of) its argument with its class information removed. Unclass with an object is to remove from a class or category."
+    },
+    {
+        "question": "Which package in R supports the exploratory analysis of genomic data?",
+        "options": [
+            "a) Adegenat",
+            "b) Adegenet",
+            "c) Adegnet",
+            "d) Adezenet"
+        ],
+        "answer": "b",
+        "explanation": "Adegenet package in R supports the exploratory analysis of genomic data. R has a large number of in-built functions and the user can create their own functions. In R, a function is an object so the R interpreter is able to pass control to the function."
+    },
+    {
+        "question": "__________ can contain heterogeneous inputs.",
+        "options": [
+            "a) Matrix",
+            "b) Data Frames",
+            "c) Matrix and Data Frames",
+            "d) Does not exists"
+        ],
+        "answer": "b",
+        "explanation": "Data frame can contain heterogeneous inputs while a matrix cannot. In the matrix, only similar data types can be stored whereas in a data frame there can be different data types like characters, integers or other data frames."
+    }
+]

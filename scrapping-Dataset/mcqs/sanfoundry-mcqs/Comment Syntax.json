@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which of these is not a comment specifying construct?",
+        "options": [
+            "a) #",
+            "b) /* */",
+            "c) \u2014",
+            "d) !#"
+        ],
+        "answer": "d",
+        "explanation": "The MySQL server understands three types of comments. The single line \u2018#\u2019 construct, the multiline /*\u2026*/ construct and the \u2014 comment construct. MySQL conforms to the comment standards of SQL."
+    },
+    {
+        "question": "The MySQL double dashed comment style is the same as the SQL standard.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL double-dash (\u2013) comment style is different from the comment style of standard SQL, which begins with just two dashes. It does not require the space before any following text."
+    },
+    {
+        "question": "What sets the association between one or more MyISAM tables and the named key cache?",
+        "options": [
+            "a) BEGIN",
+            "b) CACHE INDEX",
+            "c) ALTER DATABASE",
+            "d) ALTER EVENT"
+        ],
+        "answer": "b",
+        "explanation": "\u2018CACHE INDEX\u2019 sets up an association between one or more MyISAM tables and the named key cache which must already exist. The INDEX privilege is needed for each table named in the statement."
+    },
+    {
+        "question": "The statement that exits a labeled flow-control construct is _____________",
+        "options": [
+            "a) DESCRIBE",
+            "b) LEAVE",
+            "c) LOOP",
+            "d) RETURN"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018LEAVE\u2019 statement is used to exit a labeled flow-control construct. This statement must appear within the construct that has the given label. The syntax of the statement is \u2018LEAVE label\u2019."
+    },
+    {
+        "question": "Input handling can be customized with MySQL.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "With mysql, raw SQL statements can be entered. With MySQL programs input methods can be provided for the user that is more intuitive and easier to be used. So input handling is customized."
+    },
+    {
+        "question": "The option that executes all SQL statements in a SQL script irrespective of the number of errors is _____________",
+        "options": [
+            "a) \u2013force",
+            "b) \u2013run",
+            "c) \u2013ensure",
+            "d) \u2013violent"
+        ],
+        "answer": "a",
+        "explanation": "If SQL queries in a file are run using mysql in batch mode, mysql either quits after the first error. If the \u2013force option is specified all the queries are executed indiscriminately."
+    },
+    {
+        "question": "The option that is necessary to compile a C program having math functions is _____________",
+        "options": [
+            "a) -lm",
+            "b) -ln",
+            "c) -lp",
+            "d) -lq"
+        ],
+        "answer": "a",
+        "explanation": "To compile a program written in the C language, it is compiled by issuing the option \u2018-lm\u2019. The examples of some math functions found in \u2018math.h\u2019 are floor(), sqrt(), pow(), log()."
+    },
+    {
+        "question": "Which option is used for specifying the executable name while compiling with gcc?",
+        "options": [
+            "a) -e",
+            "b) -o",
+            "c) -a",
+            "d) -b"
+        ],
+        "answer": "b",
+        "explanation": "When a C program is compiled with gcc, the option -o is issued in order to specify the name of the executable that is created after compilation. The default name given is \u2018a.out\u2019."
+    },
+    {
+        "question": "The file that can be used to execute multiple compile statements is _________________",
+        "options": [
+            "a) makefile",
+            "b) dofile",
+            "c) putfile",
+            "d) pushfile"
+        ],
+        "answer": "a",
+        "explanation": "The Makefile is used to write multiple commands in there. The file is executed by prefixing the command \u2018make\u2019 with the command to run the file script containing the statements."
+    }
+]

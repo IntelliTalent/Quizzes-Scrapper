@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the use of Boolean identities?",
+        "options": [
+            "a) Minimizing the Boolean expression",
+            "b) Maximizing the Boolean expression",
+            "c) To evaluate a logical identity",
+            "d) Searching of an algebraic expression"
+        ],
+        "answer": "a",
+        "explanation": "Boolean identities are used for minimizing the Boolean expression and transforming into an equivalent expression."
+    },
+    {
+        "question": "_________ is used to implement the Boolean functions.",
+        "options": [
+            "a) Logical notations",
+            "b) Arithmetic logics",
+            "c) Logic gates",
+            "d) Expressions"
+        ],
+        "answer": "c",
+        "explanation": "To implement a Boolean function logic gates are used. Basic logic gates are AND, OR and NOT."
+    },
+    {
+        "question": "Inversion of single bit input to a single bit output using _________",
+        "options": [
+            "a) NOT gate",
+            "b) NOR gate",
+            "c) AND gate",
+            "d) NAND gate"
+        ],
+        "answer": "a",
+        "explanation": "A NOT gate is used to invert a single bit input (say A) to a single bit of output (~A)."
+    },
+    {
+        "question": "There are _________ numbers of Boolean functions of degree n.",
+        "options": [
+            "a) n",
+            "b) 2",
+            "c) n",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "There are 2n different n-tuples of 0\u2019s and 1\u2019s. A Boolean function is an assignment of 0\u2019s or 1\u2019s to each of these 2 n different n-tuples. Hence, there are 2"
+    },
+    {
+        "question": "A _________ is a Boolean variable.",
+        "options": [
+            "a) Literal",
+            "b) String",
+            "c) Keyword",
+            "d) Identifier"
+        ],
+        "answer": "a",
+        "explanation": "A literal is a Boolean variable or its complement. A maxterm is a sum of n literals and a minterm is a product of n literals."
+    },
+    {
+        "question": "Minimization of function F(A,B,C) = A*B*(B+C) is _________",
+        "options": [
+            "a) AC",
+            "b) B+C",
+            "c) B`",
+            "d) AB"
+        ],
+        "answer": "d",
+        "explanation": "AB(B+C)"
+    },
+    {
+        "question": "The set for which the Boolean function is functionally complete is __________",
+        "options": [
+            "a) {*, %, /}",
+            "b) {., +, -}",
+            "c) {^, +, -}",
+            "d) {%, +, *}"
+        ],
+        "answer": "b",
+        "explanation": "A Boolean function is represented by using three operators ., +, -. We can \ufb01nd a smaller set of functionally complete operators if one of the three operators of this set can be expressed in terms of the other two."
+    },
+    {
+        "question": "(X+Y`)(X+Z) can be represented by _____",
+        "options": [
+            "a) (X+Y`Z)",
+            "b) (Y+X`)",
+            "c) XY`",
+            "d) (X+Z`)"
+        ],
+        "answer": "a",
+        "explanation": "(X+Y`) (X+Z)"
+    },
+    {
+        "question": "__________ is a disjunctive normal form.",
+        "options": [
+            "a) product-of-sums",
+            "b) product-of-subtractions",
+            "c) sum-of-products",
+            "d) sum-of-subtractions"
+        ],
+        "answer": "c",
+        "explanation": "The sum of minterms that represents the function is called the sum-of-products expansion or the disjunctive normal form. A Boolean sum of minterms has the value 1 when exactly one of the minterms in the sum has the value 1. It has the value 0 for all other combinations of values of the variables."
+    },
+    {
+        "question": "a \u2295 b = ________",
+        "options": [
+            "a) (a+b)(a`+b`)",
+            "b) (a+b`)",
+            "c) b`",
+            "d) a` + b`"
+        ],
+        "answer": "a",
+        "explanation": "a \u2295 b"
+    }
+]

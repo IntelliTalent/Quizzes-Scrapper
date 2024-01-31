@@ -1,0 +1,69 @@
+[
+    {
+        "question": "What are strings in C#?",
+        "options": [
+            "a) a sequence of characters",
+            "b) array of characters",
+            "c) objects of built-in data type",
+            "d) a reference type"
+        ],
+        "answer": "c",
+        "explanation": " Generally, a string is defined as a sequence of characters but it is different in C#. In c++, the string is an array of characters. In case of C#, strings are objects of the built-in string data type. Thus, a string is a reference type."
+    },
+    {
+        "question": "Select the namespace in which string class is built?",
+        "options": [
+            "a) System.Text",
+            "b) System.Net",
+            "c) System.IO",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the interfaces defined by the string class?",
+        "options": [
+            "a) IComparable",
+            "b) IComparable<string>",
+            "c) ICloneable",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the constructor type used to build strings from character array.",
+        "options": [
+            "a) public String(value)",
+            "b) public String(char[ ] value, int startIndex, int length)",
+            "c) public String(char[ ])",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "public String(char[ ] value) \u2013 This form of constructor constructs a string that contains characters in value"
+    },
+    {
+        "question": "Select the operators used for checking the equality in strings:",
+        "options": [
+            "a) !=",
+            "b) >",
+            "c) <",
+            "d) >="
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What does the following C# code set specifies?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Compares the string referred to by strA with strB. Returns greater than zero if strA is greater than strB, less than zero if strA is less than strB, and zero if strA and strB are equal. The comparison is case and culture-sensitive."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": " Here \u2018+\u2019 operator works as concatenation for strings."
+    }
+]

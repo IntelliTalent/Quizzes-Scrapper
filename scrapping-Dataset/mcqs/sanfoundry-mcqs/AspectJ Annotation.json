@@ -1,0 +1,147 @@
+[
+    {
+        "question": "Which tag informs the spring container about the use of AspectJ annotation?",
+        "options": [
+            "a) aop:aspectj-autowire",
+            "b) aop:aspectj-name",
+            "c) aop:aspectj-autoproxy",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To enable AspectJ annotation support in the Spring IoC container, you only have to define an empty XML element aop:aspectj-autoproxy in your bean configuration file."
+    },
+    {
+        "question": "Which of the following is advice supported by Aspect Annotation?",
+        "options": [
+            "a) @Before",
+            "b) @After",
+            "c) @AfterReturning",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "AspectJ supports five types of advice annotations: @Before, @After, @AfterReturning, @AfterThrowing, and @Around."
+    },
+    {
+        "question": "An advice is an action which comes into play at pointcuts.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A pointcut is an expression to match a set of join points, while an advice is the action to take at a particular join point."
+    },
+    {
+        "question": "Which advice is executed once a joint point finishes?",
+        "options": [
+            "a) @Before",
+            "b) @After",
+            "c) @AfterReturning",
+            "d) @AfterThrowing"
+        ],
+        "answer": "b",
+        "explanation": "An after advice is executed after a join point finishes, whenever it returns a result or throws an exception abnormally."
+    },
+    {
+        "question": "Which advice is executed only when joint point returns or throws an exception?",
+        "options": [
+            "a) @Before",
+            "b) @After",
+            "c) @AfterReturning",
+            "d) @AfterThrowing"
+        ],
+        "answer": "c",
+        "explanation": "If you would like to perform logging only when a join point returns, you should replace the after advice with an after returning advice."
+    },
+    {
+        "question": "An advice can access the current join point information by declaring an argument of type org.aspectj.lang.AdvicePoint in the advice method signature.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "An advice can access the current join point information by declaring an argument of type org.aspectj.lang.JoinPoint in the advice method signature."
+    },
+    {
+        "question": "Which interface is implemented to specify precedence of aspects?",
+        "options": [
+            "a) Ordered",
+            "b) ApplicationAspect",
+            "c) AspectPointcut",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The precedence of aspects can be specified either by implementing the Ordered interface."
+    },
+    {
+        "question": "Alternative annotative way to specify precedence of aspects?",
+        "options": [
+            "a) @Order",
+            "b) @Aspect",
+            "c) @PointCut",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The precedence of aspects can be specified either by implementing the Ordered interface or @Order Annotation."
+    },
+    {
+        "question": "Method which returns the highest priority of aspect\u2019s join point?",
+        "options": [
+            "a) getHighestPriority",
+            "b) getOrder",
+            "c) getHighOrder",
+            "d) getPriority"
+        ],
+        "answer": "b",
+        "explanation": "The lower value returned by the getOrder() method represents higher priority."
+    },
+    {
+        "question": "What will be the output of the code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The throwing keyword in pointcut annotation doesn\u2019t matches with the method\u2019s parameter exception."
+    },
+    {
+        "question": "Which instantiation model is supported by AspectJ?",
+        "options": [
+            "a) perthis",
+            "b) pertarget",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring supports AspectJ perthis and pertarget instantiation models."
+    },
+    {
+        "question": "Which instantiation model is supported by AspectJ?",
+        "options": [
+            "a) perthis",
+            "b) pertarget",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "percflow, percflowbelow, and pertypewithin are not currently supported."
+    },
+    {
+        "question": "Which tag in XML is used to declare @Before advice\u2019s method?",
+        "options": [
+            "a) aop:before",
+            "b) aop:after",
+            "c) aop:afterthrow",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Before advice runs before a matched method execution. It is declared inside an aop:aspect using the aop:before element."
+    },
+    {
+        "question": "Which tag in XML is used to declare @Before advice\u2019s method?",
+        "options": [
+            "a) aop:before",
+            "b) aop:after-returning",
+            "c) aop:afterthrow",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:- After returning advice runs when a matched method execution completes normally. It is declared inside an aop:aspect in the same way as before advice."
+    }
+]

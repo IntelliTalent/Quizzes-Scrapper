@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ precision multiplies the monetary value by a power of 10.",
+        "options": [
+            "a) Exact",
+            "b) Accurate",
+            "c) Ambiguity",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " MongoDB stores numeric data as either IEEE 754 standard 64-bit floating point numbers or as 32-bit or 64-bit signed integers."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Applications that handle monetary data often require capturing fractional units of currency",
+            "b) Applications that handle time data often require capturing fractional units of currency",
+            "c)  Applications that handle temporal and spatial data often require capturing fractional units of currency",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Some fractional numeric quantities, such as one third and one tenth, have no exact representation in binary floating point numbers."
+    },
+    {
+        "question": "Which of the following precision uses two values for the field?",
+        "options": [
+            "a) Exact",
+            "b) Accurate",
+            "c) Ambiguity",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Arbitrary Precision which uses two fields for the value: one field to store the exact monetary value as a non-numeric and another field to store a floating point approximation of the value."
+    },
+    {
+        "question": "MongoDB stores times in _____ by default, and will convert any local time representations into this form.",
+        "options": [
+            "a) UTC",
+            "b) GMT",
+            "c) IST",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Applications that must operate or report on some unmodified local time value may store the time zone alongside the UTC timestamp, and compute the original local time in their application logic."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If you need to query the database for exact, mathematically valid matches, use Exact Precision",
+            "b) If you regularly need to perform server-side arithmetic on monetary data, the exact precision model may be appropriate",
+            "c) If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you need to be able to do server-side arithmetic, e.g., $inc, $mul, and aggregation framework arithmetic, use Exact Precision."
+    },
+    {
+        "question": "Which of the following is used to handle arbitrary or unforeseen number of precision?",
+        "options": [
+            "a) Exact",
+            "b) Accurate",
+            "c) Ambiguity",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If there is no need to perform server-side arithmetic on monetary data, modeling monetary data using the arbitrary precision model may be suitable."
+    },
+    {
+        "question": "Use of the approximation field for the query and sort operations requires that applications perform _______ side post-processing.",
+        "options": [
+            "a) client",
+            "b) server",
+            "c) application",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Client side processing is used to decode the non-numeric representation of the exact value and then filter out the returned documents based on the exact monetary value."
+    },
+    {
+        "question": "The ______ factor is a constant and known property of the currency.",
+        "options": [
+            "a) rank",
+            "b) scale",
+            "c) high",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Applications can determine the scale factor from the currency."
+    },
+    {
+        "question": "In one field, exact monetary value is encoded as a _________ data type.",
+        "options": [
+            "a) numeric",
+            "b) character",
+            "c) non numeric",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " In one field, exact monetary value is encoded as a non-numeric data type; e.g., BinData or a string."
+    }
+]

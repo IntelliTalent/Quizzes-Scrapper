@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is meant by integer partition?",
+        "options": [
+            "a) representing an integer as sum of positive and negative real numbers",
+            "b) representing an integer as sum of positive and negative integers",
+            "c) representing an integer as sum of positive integers",
+            "d) representing an integer as sum of positive real numbers"
+        ],
+        "answer": "c",
+        "explanation": "Integer partition is the way of representing an integer as sum of positive integers. Partitions differing only in their order are considered to be same."
+    },
+    {
+        "question": "How many partitions will be formed for the integer 3?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "We need to find the combinations of positive integers which give 3 as their sum. These will be {3}, {2,1}, {1,1,1}. Thus the correct answer is 3."
+    },
+    {
+        "question": "What is meant by number theory?",
+        "options": [
+            "a) study of integers",
+            "b) study of complex numbers",
+            "c) numerology",
+            "d) theory of origination of mathematics"
+        ],
+        "answer": "a",
+        "explanation": "Number theory is a branch of mathematics that deals with the study of integers. Partitioning of a number comes under the study of number theory."
+    },
+    {
+        "question": "Which of the following is true according to Ramanujan\u2019s congruence?",
+        "options": [
+            "a) No. of partitions are divisible by 5 for a number 3 more than a multiple of 5",
+            "b) No. of partitions are divisible by 5 for a number 4 more than a multiple of 5",
+            "c) No. of partitions are divisible by 5 for a number 2 more than a multiple of 5",
+            "d) No. of partitions are divisible by 5 for a number 1 more than a multiple of 5"
+        ],
+        "answer": "b",
+        "explanation": "Ramanujan\u2019s congruence are some relations found for the no. of partitions of an integer. According to it, the number of partitions of an integer is divisible by 5 if that integer is 4 more than a multiple of 5."
+    },
+    {
+        "question": "The no. of partitions of which of the following integer will be divisible by 5?",
+        "options": [
+            "a) 3",
+            "b) 5",
+            "c) 9",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "According to Ramanujan\u2019s congruence number of partitions of an integer is divisible by 5 if that integer is 4 more than a multiple of 5. So out of the given options 9 is the only integer which satisfies this condition."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The given code prints the partition of a number in decreasing order. This code uses the approach of dynamic programming."
+    },
+    {
+        "question": "While generating partitions of integer 3 we consider 2 1 and 1 2 to be different partitions.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Partitions differing in order are considered to be same. Thus 2 1 and 1 2 are considered to be same when we generate partitions of integer 3."
+    },
+    {
+        "question": "What is the approach implemented in the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code prints the partition of a number in decreasing order. This code uses the approach of dynamic programming. We can also use recursion for fulfilling the same purpose."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code prints the partition of a number in decreasing order. This code uses the approach of recursion. The same purpose can be fulfilled by using dynamic programming."
+    },
+    {
+        "question": "Which of the following correctly represents the code to print partitions of a number?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In the correct code we need to pass n as second argument in the function partitn() and need to check for the condition i>n. The code prints the partitions in decreasing order."
+    }
+]

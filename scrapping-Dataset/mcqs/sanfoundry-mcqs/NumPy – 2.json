@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following sets the size of the buffer used in ufuncs?",
+        "options": [
+            "a) bufsize(size)",
+            "b) setsize(size)",
+            "c) setbufsize(size)",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Adjusting the size of the buffer may therefore alter the speed at which ufunc calculations of various sorts are completed."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A universal function is a function that operates on ndarrays in an element-by-element fashion",
+            "b) In Numpy, universal functions are instances of the numpy.ufunction class",
+            "c) Many of the built-in functions are implemented in compiled C code",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "ufunc instances can also be produced using the frompyfunc factory function."
+    },
+    {
+        "question": "Which of the following attribute should be used while checking for type combination input and output?",
+        "options": [
+            "a) .types",
+            "b) .type",
+            "c) .class",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Universal functions in NumPy are flexible enough to have mixed type signatures."
+    },
+    {
+        "question": "Which of the following returns an array of ones with the same shape and type as a given array?",
+        "options": [
+            "a) all_like",
+            "b) ones_like",
+            "c) one_alike",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The optional output arguments of the function can be used to help you save memory for large calculations."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Each universal function takes array inputs and produces array outputs",
+            "b) Broadcasting is used throughout NumPy to decide how to handle disparately shaped arrays",
+            "c) The output of the ufunc is necessarily an ndarray, if all input arguments are ndarrays",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The output of the ufunc is not necessarily an ndarray, if all input arguments are not ndarrays."
+    },
+    {
+        "question": "Which of the following set the floating-point error callback function or log object?",
+        "options": [
+            "a) setter",
+            "b) settercall",
+            "c) setterstack",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "seterr sets how floating-point errors are handled."
+    },
+    {
+        "question": "Some ufuncs can take output arguments.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "All ufuncs can take output arguments. If necessary, output will be cast to the data-type of the provided output array."
+    },
+    {
+        "question": "___________ decompose the elements of x into mantissa and twos exponent.",
+        "options": [
+            "a) trunc",
+            "b) fmod",
+            "c) frexp",
+            "d) ldexp"
+        ],
+        "answer": "c",
+        "explanation": "fmod function return the element-wise remainder of division."
+    },
+    {
+        "question": "Which of the following function take only single value as input?",
+        "options": [
+            "a) iscomplex",
+            "b) minimum",
+            "c) fmin",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "iscomplex function returns a bool array, where true if input element is complex."
+    },
+    {
+        "question": "The array object returned by __array_prepare__ is passed to the ufunc for computation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If the class has an __array_wrap__ method, the returned ndarray result will be passed to that method just before passing control back to the caller."
+    }
+]

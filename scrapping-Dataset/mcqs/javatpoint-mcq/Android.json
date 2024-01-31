@@ -1,0 +1,722 @@
+[
+    {
+        "question": "1) Android is -",
+        "options": [
+            "an operating system",
+            "a web browser",
+            "a web server",
+            "None of the above"
+        ],
+        "answer": "an operating system",
+        "explanation": " Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Under which of the following Android is licensed?",
+        "options": [
+            "OSS",
+            "Sourceforge",
+            "Apache/MIT",
+            "None of the above"
+        ],
+        "answer": "Apache/MIT",
+        "explanation": " The Android platform was released under the Apache 2.0 license, and it is responsible for the copyright of the Android Open Source project. The Apache Foundation permits and grants licenses for software uses and distribution by the copyright under the Android Open Source Project.",
+        "codeblock": null
+    },
+    {
+        "question": "3) For which of the following Android is mainly developed?",
+        "options": [
+            "Servers",
+            "Desktops",
+            "Laptops",
+            "Mobile devices"
+        ],
+        "answer": "Mobile devices",
+        "explanation": " Android is a software package and a Linux-based operating system specially designed for touch-screen mobile devices like smartphones and tablets.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following is the first mobile phone released that ran the Android OS?",
+        "options": [
+            "HTC Hero",
+            "Google gPhone",
+            "T - Mobile G1",
+            "None of the above"
+        ],
+        "answer": "T - Mobile G1",
+        "explanation": " The first Android mobile was publicly released with Android 1.0 of the T-Mobile G1 (aka HTC Dream) in October 2008.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following virtual machine is used by the Android operating system?",
+        "options": [
+            "JVM",
+            "Dalvik virtual machine",
+            "Simple virtual machine",
+            "None of the above"
+        ],
+        "answer": "Dalvik virtual machine",
+        "explanation": " The Dalvik Virtual Machine (DVM) is an android virtual machine optimized for mobile devices. It optimizes the virtual machine for memory, battery life, and performance. Dalvik is a name of a town in Iceland. The Dalvik VM was written by Dan Bornstein.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Android is based on which of the following language?",
+        "options": [
+            "Java",
+            "C++",
+            "C",
+            "None of the above"
+        ],
+        "answer": "Java",
+        "explanation": " Java language is mainly used to write the android code even though other languages can be used.",
+        "codeblock": null
+    },
+    {
+        "question": "7) APK stands for -",
+        "options": [
+            "Android Phone Kit",
+            "Android Page Kit",
+            "Android Package Kit",
+            "None of the above"
+        ],
+        "answer": "Android Package Kit",
+        "explanation": " An APK is a short form of the Android Package Kit. An APK file is the file format used to install the applications on the android operating system.",
+        "codeblock": null
+    },
+    {
+        "question": "8) What does API stand for?",
+        "options": [
+            "Application Programming Interface",
+            "Android Programming Interface",
+            "Android Page Interface",
+            "Application Page Interface"
+        ],
+        "answer": "Application Programming Interface",
+        "explanation": " API stands for application program interface. It is a set of routines, protocols, and tools for building software and applications. It may be any type of system like a web-based system, operating system, or database system.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following converts Java byte code into Dalvik byte code?",
+        "options": [
+            "Dalvik converter",
+            "Dex compiler",
+            "Mobile interpretive compiler (MIC)",
+            "None of the above"
+        ],
+        "answer": "Dex compiler",
+        "explanation": " The Dex compiler converts the class files into a .dex file that runs on the Dalvik VM. Multiple class files are converted into one dex file.",
+        "codeblock": null
+    },
+    {
+        "question": "10) How can we stop the services in android?",
+        "options": [
+            "By using the stopSelf() and stopService() method",
+            "By using the finish() method",
+            "By using system.exit() method",
+            "None of the above"
+        ],
+        "answer": "By using the stopSelf() and stopService() method",
+        "explanation": " A service is started when a component (like activity) calls the startService() method; now, it runs in the background indefinitely. It is stopped by the stopService() method. The service can stop itself by calling the stopSelf() method.",
+        "codeblock": null
+    },
+    {
+        "question": "11) What is an activity in android?",
+        "options": [
+            "android class",
+            "android package",
+            "A single screen in an application with supporting java code",
+            "None of the above"
+        ],
+        "answer": "A single screen in an application with supporting java code",
+        "explanation": " An activity is a single screen in android. It is like a window or frame of Java. By the help of activity, you can place all your UI components or widgets in a single screen. Activity is like a frame or window in java that represents GUI. It represents one screen of android.",
+        "codeblock": null
+    },
+    {
+        "question": "12) How can we kill an activity in android?",
+        "options": [
+            "Using finish() method",
+            "Using finishActivity(int requestCode)",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "answer": "Both (a) and (b)",
+        "explanation": " The finish() method is used to close the activity. Whereas the finishActivity(int requestCode) also closes the activity with requestCode.",
+        "codeblock": null
+    },
+    {
+        "question": "13) ADB stands for -",
+        "options": [
+            "Android debug bridge",
+            "Android delete bridge",
+            "Android destroy bridge",
+            "None of the above"
+        ],
+        "answer": "Android debug bridge",
+        "explanation": " ADB stands for Android Debug Bridge. It is a command-line tool that is used to communicate with the emulator instance.",
+        "codeblock": null
+    },
+    {
+        "question": "14) On which of the following, developers can test the application, during developing the android applications?",
+        "options": [
+            "Third-party emulators",
+            "Emulator included in Android SDK",
+            "Physical android phone",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " We can use the Android emulator, physical android phone, or third-party emulator as a target device to execute and test our Android application.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following kernel is used in Android?",
+        "options": [
+            "MAC",
+            "Windows",
+            "Linux",
+            "Redhat"
+        ],
+        "answer": "Linux",
+        "explanation": " Android is a customized Linux 3.6 kernel. It is the heart of android architecture that exists at the root of android architecture. Linux kernel is responsible for device drivers, power management, memory management, device management, and resource access.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following is the first callback method that is invoked by the system during an activity life-cycle?",
+        "options": [
+            "onClick() method",
+            "onCreate() method",
+            "onStart() method",
+            "onRestart() method"
+        ],
+        "answer": "onCreate() method",
+        "explanation": " onCreate() method is called when activity is first created. The onCreate() and onDestroy() methods are called only once throughout the activity lifecycle.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following is not an activity lifecycle callback method?",
+        "options": [
+            "onClick() method",
+            "onCreate() method",
+            "onStart() method",
+            "onBackPressed() method"
+        ],
+        "answer": "onBackPressed() method",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "18) We require an AVD to create an emulator. What does AVD stand for?",
+        "options": [
+            "Android Virtual device",
+            "Android Virtual display",
+            "Active Virtual display",
+            "Active Virtual device"
+        ],
+        "answer": "Android Virtual device",
+        "explanation": " An Android Virtual Device (AVD) is an emulator configuration that represents a specific Android device. We can use the Android emulator as a target device to execute and test our Android application on our PC.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Does android support other languages than java?",
+        "options": [
+            "Yes",
+            "No",
+            "May be",
+            "Can't say"
+        ],
+        "answer": "Yes",
+        "explanation": " Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.",
+        "codeblock": null
+    },
+    {
+        "question": "20) What is the use of content provider in Android?",
+        "options": [
+            "For storing the data in the database",
+            "For sharing the data between applications",
+            "For sending the data from an application to another application",
+            "None of the above"
+        ],
+        "answer": "For sending the data from an application to another application",
+        "explanation": " A content provider is used to share information between Android applications.",
+        "codeblock": null
+    },
+    {
+        "question": "21) AAPT stands for -",
+        "options": [
+            "Android Activity Packaging Tool",
+            "Android Asset Packaging Tool",
+            "Android Action Packaging Tool",
+            "None of the above"
+        ],
+        "answer": "Android Asset Packaging Tool",
+        "explanation": " AAPT is an acronym for \"Android Asset Packaging Tool\". It handles the packaging process.",
+        "codeblock": null
+    },
+    {
+        "question": "22) NDK stands for -",
+        "options": [
+            "Native Development Kit",
+            "New Development kit",
+            "Native Design Kit",
+            "None of the above"
+        ],
+        "answer": "Native Development Kit",
+        "explanation": " NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using a native language such as C/C++ to boost performance.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following is contained in the src folder?",
+        "options": [
+            "XML",
+            "Java source code",
+            "Manifest",
+            "None of the above"
+        ],
+        "answer": "Java source code",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following method is used to handle what happens after clicking a button?",
+        "options": [
+            "onClick",
+            "onCreate",
+            "onSelect",
+            "None of the above"
+        ],
+        "answer": "onClick",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "25) Which of the following android component displays the part of an activity on screen?",
+        "options": [
+            "View",
+            "Manifest",
+            "Intent",
+            "Fragment"
+        ],
+        "answer": "Fragment",
+        "explanation": " Android Fragment is the part of activity; it is also known as sub-activity. There can be more than one fragment in an activity. Fragments represent multiple screens inside one activity.",
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following is the parent class of Activity?",
+        "options": [
+            "context",
+            "object",
+            "contextThemeWrapper",
+            "None of the above"
+        ],
+        "answer": "contextThemeWrapper",
+        "explanation": " The android Activity is the subclass of ContextThemeWrapper class. Android Activity Lifecycle is controlled by 7 methods of android.app.Activity class. An activity is a single screen in android. It is like a window or frame of Java.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following is the parent class of service?",
+        "options": [
+            "context",
+            "object",
+            "contextThemeWrapper",
+            "contextWrapper"
+        ],
+        "answer": "contextWrapper",
+        "explanation": " The android.app.Service is subclass of ContextWrapper class. Android service is a component used to perform operations on the background, such as playing music, handling network transactions, interacting content providers, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "28) OHA in android stands for -",
+        "options": [
+            "Open Health Academy",
+            "Open Handset Alliance",
+            "Open Handset Application",
+            "Open Handset Association"
+        ],
+        "answer": "Open Handset Alliance",
+        "explanation": " OHA stands for \"Open Handset Alliance\". It's a consortium of 84 companies such as google, samsung, AKM, synaptics, KDDI, Garmin, Teleca, eBay, Intel, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "29) In which of the following tab an error is shown?",
+        "options": [
+            "CPU",
+            "Memory",
+            "ADB Logs",
+            "Logcat"
+        ],
+        "answer": "Logcat",
+        "explanation": " Logcat is a command-line tool that dumps a log of system messages. It includes the messages that you have written from your app with the Log class and also includes the stack traces when the devices throw an error. Logcat helps to analyze the problems and also helps to display the log messages of our android device.",
+        "codeblock": null
+    },
+    {
+        "question": "30) In which year OHA (Open Handset Alliance) is announced?",
+        "options": [
+            "2005",
+            "2007",
+            "2006",
+            "None of the above"
+        ],
+        "answer": "2007",
+        "explanation": " OHA (Open Handset Alliance) was established on 5th November 2007, led by Google. It is committed to advance open standards, provide services and deploy handsets using the Android Platform.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the following is the name of the Android version 1.5?",
+        "options": [
+            "Eclair",
+            "Froyo",
+            "Cupcake",
+            "Donut"
+        ],
+        "answer": "Cupcake",
+        "explanation": " On April 27, 2009, the Android updated to 1.5 with the codename of the dessert item (Cupcake). It has a Linux kernel 2.6.27.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Which of the following is the name of the Android version 1.6?",
+        "options": [
+            "Eclair",
+            "Froyo",
+            "Cupcake",
+            "Donut"
+        ],
+        "answer": "Donut",
+        "explanation": " On September 15, 2009, Android 1.6 was released with the name Donut. It contains numerous new features such as voice and text entry search, bookmark history, contacts, web, \"speak\" a string of text, faster camera access, user can select multiple photos for deletion, support text-to-speech engine, WVGA screen resolutions.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Which of the following is the topmost layer of android architecture?",
+        "options": [
+            "System Libraries and Android Runtime",
+            "Linux Kernel",
+            "Applications",
+            "Applications Framework"
+        ],
+        "answer": "Applications",
+        "explanation": " On the top of the application framework, there are applications. All applications such as home, contact, settings, games, browsers are using an android framework that uses android runtime and libraries.",
+        "codeblock": null
+    },
+    {
+        "question": "34) Which of the layer is below the topmost layer of android architecture?",
+        "options": [
+            "System Libraries and Android Runtime",
+            "Linux Kernel",
+            "Applications",
+            "Applications Framework"
+        ],
+        "answer": "Applications Framework",
+        "explanation": " On the top of Native libraries and android runtime, there is an application framework. Android framework includes Android API's such as UI (User Interface), telephony, resources, locations, Content Providers (data), and package managers. It provides a lot of classes and interfaces for android application development.",
+        "codeblock": null
+    },
+    {
+        "question": "35) Which of the layer is the lowest layer of android architecture?",
+        "options": [
+            "System Libraries and Android Runtime",
+            "Linux Kernel",
+            "Applications",
+            "Applications Framework"
+        ],
+        "answer": "Linux Kernel",
+        "explanation": " It is the heart of android architecture that exists at the root of android architecture. Linux kernel is responsible for device drivers, power management, memory management, device management, and resource access.",
+        "codeblock": null
+    },
+    {
+        "question": "36) What is contained in manifest.xml?",
+        "options": [
+            "Source code",
+            "List of strings used in the app",
+            "Permission that the application requires",
+            "None of the above"
+        ],
+        "answer": "Permission that the application requires",
+        "explanation": " The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content providers, etc. It is responsible for protecting the application to access any protected parts by providing the permissions.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following is not a state in the service lifecycle?",
+        "options": [
+            "Destroyed",
+            "Start",
+            "Paused",
+            "Running"
+        ],
+        "answer": "Paused",
+        "explanation": " A service is a component that runs in the background. It is used to play music, handle network transaction, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "38) As an android programmer, which version of Android should we use as a minimum development target?",
+        "options": [
+            "Version 1.2 or version 1.3",
+            "Version 1.0 or version 1.1",
+            "Version 1.6 or version 2.0",
+            "Version 2.3 or version 3.0"
+        ],
+        "answer": "Version 1.6 or version 2.0",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which of the following is not a nickname of any android version?",
+        "options": [
+            "Donut",
+            "Muffin",
+            "Honeycomb",
+            "Cupcake"
+        ],
+        "answer": "Muffin",
+        "explanation": " Muffin is not a nickname of any android version.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the following is a dialog class in android?",
+        "options": [
+            "AlertDialog",
+            "DatePicker Dialog",
+            "ProgressDialog",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " The Dialog classes that are supported in android are -",
+        "codeblock": null
+    },
+    {
+        "question": "41) In which state the activity is, if it is not in focus, but still visible on the screen?",
+        "options": [
+            "Stopped state",
+            "Destroyed state",
+            "Paused state",
+            "Running state"
+        ],
+        "answer": "Paused state",
+        "explanation": " When an activity is not in focus that is not interacting with the user but still visible on the screen, then the activity is in paused state.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Which of the following is the built-in database of Android?",
+        "options": [
+            "SQLite",
+            "MySQL",
+            "Oracle",
+            "None of the above"
+        ],
+        "answer": "SQLite",
+        "explanation": " SQLite is an open-source relational database, i.e., used to perform database operations on android devices such as storing, manipulating, or retrieving persistent data from the database. It is embedded in android by default. So, there is no need to perform any database setup or administration task.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Which of the following android version is named Jelly Bean?",
+        "options": [
+            "3.1",
+            "2.1",
+            "1.1",
+            "4.1"
+        ],
+        "answer": "4.1",
+        "explanation": " On June 27, 2012, Google announced Android 4.1(Jelly Bean) in the Google I/O conference. It is based on Linux kernel 3.0.31.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following features are updated in Android 4.1(Jelly Bean)?",
+        "options": [
+            "User Interface",
+            "Lock screen improvement",
+            "New clock application",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " Android 4.1(Jelly Bean) updates to following features: smoother user interface, enhance accessibility, expandable notification, fixed bug on Nexus 7, one-finger gestures to expand/collapse notifications, lock screen improvement, multiple user accounts (tablets only), new clock application, Bluetooth low energy support, volume for incoming call, 4K resolution support, native emoji support, bug fixes for the Nexus 7 LTE.",
+        "codeblock": null
+    },
+    {
+        "question": "45) Which of the following is the API level of Android version 5.0?",
+        "options": [
+            "21",
+            "20",
+            "11",
+            "41"
+        ],
+        "answer": "21",
+        "explanation": " Android \"Lollipop\" (Android 5) was the 5th major version of Google's Android operating system. It is the twelfth version of Android. Its API level is 21.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Is it true that \"There can be only one running activity at a given time\"?",
+        "options": [
+            "True",
+            "False",
+            "May be",
+            "Can't say"
+        ],
+        "answer": "True",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "47) Which of the following android library provides access to the database?",
+        "options": [
+            "android.content",
+            "android.database",
+            "android.api",
+            "None of the above"
+        ],
+        "answer": "android.database",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "48) In Android studio, which of the following callback is called when an activity starts interacting with the user?",
+        "options": [
+            "onDestroy",
+            "onCreate",
+            "onResume",
+            "onStop"
+        ],
+        "answer": "onResume",
+        "explanation": " onResume is called when an activity will start interacting with the user.",
+        "codeblock": null
+    },
+    {
+        "question": "49) The sendStickybroadcast(intent) method in android is used to show that the intent is -",
+        "options": [
+            "Optional",
+            "Prioritize",
+            "Sticky",
+            "None of the above"
+        ],
+        "answer": "Sticky",
+        "explanation": " If we use the sendStickyBroadcast(Intent) method, the Intent is sticky. It means that the Intent that we are sending will stay around after the completion of the broadcast.",
+        "codeblock": null
+    },
+    {
+        "question": "50) Which of the following class in android displays information for a short period of time and disappears after some time?",
+        "options": [
+            "toast class",
+            "log class",
+            "maketest class",
+            "None of the above"
+        ],
+        "answer": "toast class",
+        "explanation": " An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user.",
+        "codeblock": null
+    },
+    {
+        "question": "51) Which of the following method in android is used to log debug messages?",
+        "options": [
+            "Log.r()",
+            "Log.R()",
+            "Log.d()",
+            "Log.D()"
+        ],
+        "answer": "Log.d()",
+        "explanation": " The Lod.d() method in android is used to log debug messages.",
+        "codeblock": null
+    },
+    {
+        "question": "52) Which of the following method is used by services to clean up any services?",
+        "options": [
+            "onStop() method",
+            "stopService() method",
+            "onDestroy() method",
+            "stopSelf() method"
+        ],
+        "answer": "onDestroy() method",
+        "explanation": " The onDestroy() method can be used by services to clean up any resources like receivers, threads, registered listeners, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "53) ANR in android stands for -",
+        "options": [
+            "Application Not Reacting",
+            "Application Not Responding",
+            "Application Not Rendering",
+            "None of the above"
+        ],
+        "answer": "Application Not Responding",
+        "explanation": " ANR stands for Application Not Responding. It is a dialog box that appears if the application is no longer responding.",
+        "codeblock": null
+    },
+    {
+        "question": "54) All layout classes are the subclasses of -",
+        "options": [
+            "android.view.View",
+            "android.view.ViewGroup",
+            "android.widget",
+            "None of the above"
+        ],
+        "answer": "android.view.ViewGroup",
+        "explanation": " In Android, all layout classes are the subclasses of android.view.ViewGroup.",
+        "codeblock": null
+    },
+    {
+        "question": "55) Which of the following class in android executes the task asynchronously with your service?",
+        "options": [
+            "SyncTask",
+            "AsyncTask",
+            "Both of the above",
+            "None of the above"
+        ],
+        "answer": "AsyncTask",
+        "explanation": " As the name implies, AsyncTask class executes a task asynchronously. AsyncTask is an abstract class provided by Android, which helps us to use the UI thread properly. This class allows us to perform long/background operations and show its result on the UI thread without having to manipulate threads.",
+        "codeblock": null
+    },
+    {
+        "question": "56) Which of the following layout in android arranges its children into rows and columns?",
+        "options": [
+            "RelativeLayout",
+            "TableLayout",
+            "FrameLayout",
+            "None of the above"
+        ],
+        "answer": "TableLayout",
+        "explanation": " TableLayout in android allows us to arrange the components into rows and columns. The containers in TableLayout do not display any borderline for their cells, columns, or rows.",
+        "codeblock": null
+    },
+    {
+        "question": "57) Which of the following layout in android aligns all children either vertically or horizontally?",
+        "options": [
+            "RelativeLayout",
+            "TableLayout",
+            "FrameLayout",
+            "LinearLayout"
+        ],
+        "answer": "LinearLayout",
+        "explanation": " LinearLayout in android aligns all children either vertically or horizontally. The direction of the LinearLayout can be specified using the android orientation attribute.",
+        "codeblock": null
+    },
+    {
+        "question": "58) What is the default value of the orientation attribute in LinearLayout?",
+        "options": [
+            "Horizontal",
+            "Vertical",
+            "There is no default value of orientation attribute in LinearLayout",
+            "None of the above"
+        ],
+        "answer": "Horizontal",
+        "explanation": " LinearLayout in android aligns all children either vertically or horizontally. The direction of the LinearLayout can be specified using the android orientation attribute. Its default value of the orientation attribute of LinearLayout is horizontal.",
+        "codeblock": null
+    },
+    {
+        "question": "59) What is the nine-patch images tool in android?",
+        "options": [
+            "It is an image extension tool.",
+            "It is used to change the bitmap images into nine sections",
+            "Both (a) and (b)",
+            "None of the above"
+        ],
+        "answer": "It is used to change the bitmap images into nine sections",
+        "explanation": " The nine-patch images tool in android is used to change the bitmap images into nine sections with four corners, four edges, and an axis.",
+        "codeblock": null
+    },
+    {
+        "question": "60) GCM in android stands for -",
+        "options": [
+            "Google Cloud Messaging",
+            "Google Count Messaging",
+            "Google Center Messaging",
+            "None of the above"
+        ],
+        "answer": "Google Cloud Messaging",
+        "explanation": " GCM stands for Google Cloud Messaging. It is provided by Google for sending push notifications to and from an Android application.",
+        "codeblock": null
+    }
+]

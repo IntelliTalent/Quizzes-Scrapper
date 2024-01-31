@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which among the following cannot be used in the case of stream ciphers?",
+        "options": [
+            "a) TRNGs",
+            "b) PRNGs",
+            "c) PRFs",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TRNGs are not practical for stream ciphers."
+    },
+    {
+        "question": "A stream cipher key is usually of size ___ or 128 bits.",
+        "options": [
+            "a) 56",
+            "b) 64",
+            "c) 54",
+            "d) 48"
+        ],
+        "answer": "c",
+        "explanation": "A stream cipher key is usually of size 54 or 128 bits."
+    },
+    {
+        "question": "Which among the following has the lowest bitrate ?",
+        "options": [
+            "a) PRF",
+            "b) TRNG",
+            "c) PRNG",
+            "d) All have the same bitrate"
+        ],
+        "answer": "b",
+        "explanation": "TRNGs are the slowest. The mechanism used to generated True Random numbers may not be able to generate bits at a rate sufficient to keep up with the application requiring the random bits."
+    },
+    {
+        "question": "RC4 was built on the sole purpose of generating random bits i.e. to act as a PRNG.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true. RC4 is a purpose built algorithm."
+    },
+    {
+        "question": "Maurer\u2019s Universal Statistical Test is \u2013",
+        "options": [
+            "a) a test to determine whether the number of runs of ones and zeros of various lengths is as expected",
+            "b) a test to detect if a sequence can be significantly compressed without loss of information",
+            "c) a test to determine whether the number of ones and zeros in a sequence is approx the same as in a truely random o/p",
+            "d) a test for the check of evenness in the 1s and 0s"
+        ],
+        "answer": "b",
+        "explanation": "Maurer\u2019s Universal Statistical Test is a test to detect if a sequence can be significantly compressed without loss of information."
+    },
+    {
+        "question": "Frequency Test is",
+        "options": [
+            "a) a test to determine whether the number of runs of ones and zeros of various lengths is as expected",
+            "b) a test to detect if a sequence can be significantly compressed without loss of information",
+            "c) a test for the check of evenness in the 1s and 0s",
+            "d) a test to determine whether the number of ones and zeros in a sequence is approx the same as in a truely random o/p"
+        ],
+        "answer": "d",
+        "explanation": "Frequency Test is a test to determine whether the number of ones and zeros in a sequence is approx the same as in a truely random o/p."
+    },
+    {
+        "question": "We should not be able to determine the seed from any previous knowledge of the bits sequence. This is the property of backward unpredictability.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true."
+    },
+    {
+        "question": "Forward Unpredictability is a property when the seed is unknown, and the next output bit is the sequence should be unpredictable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true."
+    }
+]

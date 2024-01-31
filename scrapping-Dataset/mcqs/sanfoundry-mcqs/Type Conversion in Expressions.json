@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What is the need for \u2018Conversion of data type\u2019 in C#?",
+        "options": [
+            "a) To store a value of one data type into a variable of another data type",
+            "b) To get desired data",
+            "c) To prevent situations of runtime error during change or conversion of data type",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "By Definition."
+    },
+    {
+        "question": "Types of \u2018Data Conversion\u2019 in C#?",
+        "options": [
+            "a) Implicit Conversion",
+            "b) Explicit Conversion",
+            "c) Implicit Conversion and Explicit Conversion",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By Definition."
+    },
+    {
+        "question": "\u2018Implicit Conversion\u2019 follows the order of conversion as per compatibility of data type as:",
+        "options": [
+            "a) float < char < int",
+            "b) char < int < float",
+            "c) int < char < float",
+            "d) float < int < char"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "For the following C# code select the relevant solution for conversion of data type.",
+        "options": [],
+        "answer": "b",
+        "explanation": "Since,conversion of data type is implicit type as \u2018int\u2019 is a subset of \u2018longtype\u2019 hence no need to explicitly convert data from one type to another.Compiler will automatically do conversion."
+    }
+]

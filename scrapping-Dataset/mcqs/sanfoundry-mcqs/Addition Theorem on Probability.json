@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Neha has 4 yellow t-shirts, 6 black t-shirts, and 2 blue t-shirts to choose from for her outfit today. She chooses a t-shirt randomly with each t-shirt equally likely to be chosen. Find the probability that a black or blue t-shirt is chosen for the outfit.",
+        "options": [
+            "a) \\(\\frac{8}{13}\\)",
+            "b) \\(\\frac{5}{6}\\)",
+            "c) \\(\\frac{1}{2}\\)",
+            "d) \\(\\frac{7}{12}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Define the events A and B as follows: A=Neha chooses a black t-shirt. B= Neha chooses a blue skirt. Neha cannot choose both a black t-shirt and a blue t-shirt, so the addition theorem of probability applies:"
+    },
+    {
+        "question": "If a fair 15-sided dice is rolled, then is the probability that the roll is an odd number or prime number or both?",
+        "options": [
+            "a) \\(\\frac{3}{20}\\)",
+            "b) \\(\\frac{4}{19}\\)",
+            "c) \\(\\frac{9}{20}\\)",
+            "d) \\(\\frac{17}{20}\\)"
+        ],
+        "answer": "c",
+        "explanation": "There are 7 even numbers on the 20-sided dice: 1, 3, 5, 7, 9, 13, 15. There are 6 prime numbers on the 20-sided dice: 2, 3, 5, 7, 11, 13. There are 4 numbers that are both odd and prime: 3, 5, 7, 13. By the rule of sum, the probability that an odd or prime number is rolled is \\((\\frac{7}{20}) + (\\frac{6}{20}) \u2013 (\\frac{4}{20}) = \\frac{9}{20}\\)."
+    },
+    {
+        "question": "There are a total of 50 distinct books on a shelf such as 20 math books, 16 physics books, and 14 chemistry books. Find is the probability of getting a book that is not a chemistry book or not a physics book.",
+        "options": [
+            "a) \\(\\frac{4}{17}\\)",
+            "b) \\(\\frac{43}{50}\\)",
+            "c) \\(\\frac{12}{31}\\)",
+            "d) 1"
+        ],
+        "answer": "d",
+        "explanation": "The probability of not getting chemistry book = 1 \u2013 (probability of chemistry book)"
+    },
+    {
+        "question": "A number is selected from the first 20 natural numbers. Find the probability that it would be divisible by 3 or 7?",
+        "options": [
+            "a) \\(\\frac{19}{46}\\)",
+            "b) \\(\\frac{24}{67}\\)",
+            "c) \\(\\frac{12}{37}\\)",
+            "d) \\(\\frac{7}{20}\\)"
+        ],
+        "answer": "d",
+        "explanation": "Let X be the event that the number selected would be divisible by 3 and Y be the event that the selected number would be divisible by 7. Then A u B denotes the event that the number would be divisible by 3 or 7. Now, X = {3, 9, 12, 15, 18} and Y = {7, 14} whereas S = {1, 2, 3, \u2026,20}. Since A n B = Null set, so that the two events A and B are mutually exclusive and as such we have,"
+    },
+    {
+        "question": "There are 24 red marbles in a bag 68 marbles, and 8 of those marbles are both red and white striped. 27 marbles are white striped and of those marbles, the same 8 marbles would be both red and white striped). Find the probability of drawing out a marble from the bag that is either red or white striped.",
+        "options": [
+            "a) \\(\\frac{12}{35}\\)",
+            "b) \\(\\frac{43}{68}\\)",
+            "c) \\(\\frac{26}{68}\\)",
+            "d) \\(\\frac{32}{55}\\)"
+        ],
+        "answer": "b",
+        "explanation": "The \u201cor\u201d indicates finding the probability of a union of events. Let R be the event that a red marble is drawn and W be the event that a striped marble is drawn. R U W is the event that a marble that is either a red and a white striped is drawn. By the rule of sum of probability,"
+    },
+    {
+        "question": "If spinner has 3 equal sectors colored yellow, blue and red, then the probability of landing on red or yellow after spinning this spinner is _______",
+        "options": [
+            "a) \\(\\frac{2}{3}\\)",
+            "b) \\(\\frac{4}{7}\\)",
+            "c) \\(\\frac{6}{17}\\)",
+            "d) \\(\\frac{23}{47}\\)"
+        ],
+        "answer": "a",
+        "explanation": "We can have, P(red)  = \\(\\frac{1}{3}\\), P(yellow) = \\(\\frac{1}{3}\\),  P(red or yellow)  =  P(red)  +  P(yellow) = \\(\\frac{1}{3} + \\frac{1}{3} = \\frac{2}{3}\\)."
+    },
+    {
+        "question": "In a secondary examination, 75% of the students have passed in History and 65% in Mathematics, while 50% passed in both History and Mathematics. If 35 candidates failed in both the subjects, what is the total number of candidates sit for that exam?",
+        "options": [
+            "a) 658",
+            "b) 398",
+            "c) 764",
+            "d) 350"
+        ],
+        "answer": "d",
+        "explanation": "50% passed in both the subjects, (75-50)% or 25% passed only in History and (65-50)% or 15% passed only in Mathematics, (50 + 25 + 15)% or 90% passed in both the subjects and 10% failed in both subjects. From the question, 10% of total candidates = 35. So, total candidates = 350."
+    },
+    {
+        "question": "In a Press Conference, there are 450 foreign journalists. 275 people can speak German, 250 people can speak English, 200 people can speak Chinese and 260 people can speak Japanese. Find the maximum number of foreigners who cannot speak at least one language.",
+        "options": [
+            "a) 401",
+            "b) 129",
+            "c) 324",
+            "d) 415"
+        ],
+        "answer": "d",
+        "explanation": "The total number of journalists = 350.People who speak German = 275 -> people who do not speak German = 75, people who speak English = 250-> people who do not speak English = 100,people who speak Chinese = 200 -> people who do not speak Chinese = 150, people who speak Japanese = 260 -> people who do not speak Japanese = 90. The total number of people who do not know at least one language will be maximum when the sets of people not knowing a particular language are mutually exclusive. Hence, the maximum number of people who do not know at least one language = 75 + 100 + 150 + 90 = 415."
+    },
+    {
+        "question": "There is a class of 40 students out of which 16 are girls. There are 27 students who are right-handed. How many minimum numbers of girls who are left-handed in this class?",
+        "options": [
+            "a) 17",
+            "b) 56",
+            "c) 23",
+            "d) 3"
+        ],
+        "answer": "d",
+        "explanation": "Number of girls in the class is 16. Number of left-handed pupils + Number of right-handed pupils = 40. So, Number of left-handed pupils + 27 = 40, Number of left-handed pupils = 13. Therefore, the minimum number of right-handed girls is 16 \u2013 13 = 3."
+    },
+    {
+        "question": "How many positive integers less than or equal to 100 are divisible by 2, 4 or 5?",
+        "options": [
+            "a) 12.3",
+            "b) 87.2",
+            "c) 45.3",
+            "d) 78.2"
+        ],
+        "answer": "d",
+        "explanation": "To count the number of integers = \\(\\frac{100}{2} + \\frac{100}{4} + \\frac{100}{5} \u2013 \\frac{100}{8} \u2013 \\frac{100}{20} + \\frac{100}{100}\\)"
+    }
+]

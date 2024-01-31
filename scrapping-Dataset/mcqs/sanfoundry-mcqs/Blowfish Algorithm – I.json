@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What is the maximum size of the key in blowfish algorithm?",
+        "options": [
+            "a) 256 bits",
+            "b) 512 bits",
+            "c) 56 bytes",
+            "d) 48 bytes"
+        ],
+        "answer": "c",
+        "explanation": "The maximum size of the key in blowfish algorithm is 56 bytes or 448 bits."
+    },
+    {
+        "question": "Blowfish encrypts blocks of plaintext which have size",
+        "options": [
+            "a) 256 bits",
+            "b) 64 bits",
+            "c) 72 bits",
+            "d) 128 bits"
+        ],
+        "answer": "c",
+        "explanation": "The size of the blocks of the plaintext is 64 bits each."
+    },
+    {
+        "question": "The blowfish algorithm can be implemented on 16 bit processors.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The statement is false as 32/64 bit processors are only capable of  encrypting/decrypting the blowfish algorithm."
+    },
+    {
+        "question": "What is the minimum size of the key in blowfish algorithm?",
+        "options": [
+            "a) 64 bits",
+            "b) 32 bits",
+            "c) 56 bits",
+            "d) 48 bits"
+        ],
+        "answer": "b",
+        "explanation": "The minimum size of the key in blowfish algorithm is 4 bytes or 32 bits."
+    },
+    {
+        "question": "The blowfish algorithm\u2019s key expansion converts a key of at most 448 bits into several subkey arrays totaling ___________ bytes.",
+        "options": [
+            "a) 4096",
+            "b) 4608",
+            "c) 4168",
+            "d) 4864"
+        ],
+        "answer": "c",
+        "explanation": "Key expansion converts a key of at most 448 bits into several sub key arrays totaling 4168 bytes i.e. eighteen 32-bit sub keys + four 8\u00d732-bit s boxes = 4168."
+    },
+    {
+        "question": "Blowfish algorithm uses the Feistel Structure.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the blowfish algorithm data encryption occurs via a 16-round Feistel network."
+    },
+    {
+        "question": "XOR and addition operations take place on bytes of size",
+        "options": [
+            "a) 8 bits",
+            "b) 16 bits",
+            "c) 32 bits",
+            "d) 64 bits"
+        ],
+        "answer": "c",
+        "explanation": "XOR and addition operations take place on bytes of size 32 bits."
+    },
+    {
+        "question": "How many S-boxes are present in the blowfish algorithm?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "There are 4 s-boxes in the blowfish algorithm."
+    },
+    {
+        "question": "How many entries are present in each of the S-boxes present in the blowfish algorithm?",
+        "options": [
+            "a) 256",
+            "b) 512",
+            "c) 1024",
+            "d) 64"
+        ],
+        "answer": "a",
+        "explanation": "There are 4 s-boxes with 256 entries each in the blowfish algorithm."
+    }
+]

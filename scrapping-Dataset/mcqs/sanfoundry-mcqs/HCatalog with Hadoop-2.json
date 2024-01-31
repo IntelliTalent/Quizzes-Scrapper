@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_________________ property allow users to override the expiry time specified.",
+        "options": [
+            "a) hcat.desired.partition.num.splits",
+            "b) hcatalog.hive.client.cache.expiry.time",
+            "c) hcatalog.hive.client.cache.disabled",
+            "d) hcat.append.limit"
+        ],
+        "answer": "b",
+        "explanation": "This property is an int, and specifies number of seconds."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The HCatLoader and HCatStorer interfaces are used with Pig scripts to read and write data in HCatalog-managed tables",
+            "b) HCatalog is not thread safe",
+            "c) HCatLoader is used with Pig scripts to read data from HCatalog-managed tables.",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "HCatLoader is accessed via a Pig load statement."
+    },
+    {
+        "question": "____________ is used with Pig scripts to write data to HCatalog-managed tables.",
+        "options": [
+            "a) HamaStorer",
+            "b) HCatStam",
+            "c) HCatStorer",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "HCatStorer is accessed via a Pig store statement."
+    },
+    {
+        "question": "Hive does not have a data type corresponding to the ____________ type in Pig.",
+        "options": [
+            "a) decimal",
+            "b) short",
+            "c) biginteger",
+            "d) datetime"
+        ],
+        "answer": "c",
+        "explanation": "Hive 0.12.0 and earlier releases support writing Pig primitive data types with HCatStorer."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The Hive metastore lets you create tables without specifying a database",
+            "b) Restrictions apply to the types of columns HCatLoader can read from HCatalog-managed tables",
+            "c) If the table is partitioned, you can indicate which partitions to scan by immediately following the load statement with a partition filter statement",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If you created tables using metastore, then the database name is \u2018default\u2019 and is not required when specifying the table for HCatLoader."
+    },
+    {
+        "question": "_______________ method is used to include a projection schema, to specify the output fields.",
+        "options": [
+            "a) OutputSchema",
+            "b) setOut",
+            "c) setOutputSchema",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If a schema is not specified, all the columns in the table will be returned."
+    },
+    {
+        "question": "The first call on the HCatOutputFormat must be ____________",
+        "options": [
+            "a) setOutputSchema",
+            "b) setOutput",
+            "c) setOut",
+            "d) OutputSchema"
+        ],
+        "answer": "b",
+        "explanation": "Any other call will throw an exception saying the output format is not initialized."
+    },
+    {
+        "question": "___________ is the type supported for storing values in HCatalog tables.",
+        "options": [
+            "a) HCatRecord",
+            "b) HCatColumns",
+            "c) HCatValues",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The types in an HCatalog table schema determine the types of objects returned for different fields in HCatRecord."
+    },
+    {
+        "question": "The output descriptor for the table to be written is created by calling ____________",
+        "options": [
+            "a) OutputJobInfo.describe",
+            "b) OutputJobInfo.create",
+            "c) OutputJobInfo.put",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The implementation of Map takes HCatRecord as an input and the implementation of Reduce produces it as an output."
+    },
+    {
+        "question": "Which of the following Hive commands is not supported by HCatalog?",
+        "options": [
+            "a) ALTER INDEX \u2026 REBUILD",
+            "b) CREATE VIEW",
+            "c) SHOW FUNCTIONS",
+            "d) DROP TABLE"
+        ],
+        "answer": "a",
+        "explanation": "Any command which is not supported throws an exception with the message \u201cOperation Not Supported\u201d."
+    }
+]

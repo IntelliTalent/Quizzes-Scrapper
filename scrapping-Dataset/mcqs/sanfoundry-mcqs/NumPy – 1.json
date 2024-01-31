@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following is contained in NumPy library?",
+        "options": [
+            "a) n-dimensional array object",
+            "b) tools for integrating C/C++ and Fortran code",
+            "c) fourier transform",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "NumPy is the fundamental package for scientific computing with Python."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) ipython is an enhanced interactive Python shell",
+            "b) matplotlib will enable you to plot graphics",
+            "c) rPy provides a lot of scientific routines that work on top of NumPy",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SciPy provides a lot of scientific routines that work on top of NumPy."
+    },
+    {
+        "question": "The ________ function returns its argument with a modified shape, whereas the ________ method modifies the array itself.",
+        "options": [
+            "a) reshape, resize",
+            "b) resize, reshape",
+            "c) reshape2, resize",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If a dimension is given as -1 in a reshaping operation, the other dimensions are automatically calculated."
+    },
+    {
+        "question": "To create sequences of numbers, NumPy provides a function __________ analogous to range that returns arrays instead of lists.",
+        "options": [
+            "a) arange",
+            "b) aspace",
+            "c) aline",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When arange is used with floating point arguments, it is generally not possible to predict the number of elements obtained."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) NumPy main object is the homogeneous multidimensional array",
+            "b) In Numpy, dimensions are called axes",
+            "c) Numpy array class is called ndarray",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The number of axes is called rank."
+    },
+    {
+        "question": "Which of the following function stacks 1D arrays as columns into a 2D array?",
+        "options": [
+            "a) row_stack",
+            "b) column_stack",
+            "c) com_stack",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "column_stack is equivalent to vstack only for 1D arrays."
+    },
+    {
+        "question": "Which of the following method creates a new array object that looks at the same data?",
+        "options": [
+            "a) view",
+            "b) copy",
+            "c) paste",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The copy method makes a complete copy of the array and its data."
+    },
+    {
+        "question": "Which of the following function can be used to combine different vectors so as to obtain the result for each n-uplet?",
+        "options": [
+            "a) iid_",
+            "b) ix_",
+            "c) ixd_",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Length of the 1D boolean array must coincide with the length of the dimension (or axis) you want to slice."
+    },
+    {
+        "question": "ndarray.dataitemSize is the buffer containing the actual elements of the array.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "ndarray.data is the buffer containing the actual elements of the array."
+    }
+]

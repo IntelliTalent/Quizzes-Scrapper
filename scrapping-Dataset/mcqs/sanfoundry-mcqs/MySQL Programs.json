@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What exports table definitions and contents?",
+        "options": [
+            "a) mysqldump",
+            "b) mysqladmin",
+            "c) mysqlimport",
+            "d) mysqlexport"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, some distributions include a set of some client programs. \u2018mysqldump\u2019 exports the table definitions and the contents. \u2018mysqladmin\u2019 performs adminisitrative tasks."
+    },
+    {
+        "question": "What loads data files into tables?",
+        "options": [
+            "a) mysqldump",
+            "b) mysqladmin",
+            "c) mysqlimport",
+            "d) mysqlexport"
+        ],
+        "answer": "c",
+        "explanation": "\u2018mysqlimport\u2019 loads the data files into the tables. In MySQL, some distributions include a set of some client programs. \u2018mysqldump\u2019 exports the table definitions and the contents."
+    },
+    {
+        "question": "What performs administrative operations?",
+        "options": [
+            "a) mysqldump",
+            "b) mysqladmin",
+            "c) mysqlimport",
+            "d) mysqlexport"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, some distributions include a set of some client programs. \u2018mysqladmin\u2019 performs the administrative operations. \u2018mysqlimport\u2019 loads the data files into the tables."
+    },
+    {
+        "question": "With MySQL programs, input handling can be customized.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "With mysql, raw SQL statements can be entered. With MySQL programs input methods can be provided for the user that are more intuitive and easier to be used. So input handling is customized."
+    },
+    {
+        "question": "Input can be validated in MySQL programs.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Input provided by the user can be validated. For instance, dates can be checked to make sure they conform to the format that MySQL expects, or certain fields can be filled in to check."
+    },
+    {
+        "question": "Which of these is used during MySQL setup?",
+        "options": [
+            "a) mysqld_multi",
+            "b) mysql.server",
+            "c) mysqld_safe",
+            "d) comp_err"
+        ],
+        "answer": "d",
+        "explanation": "The program \u2018comp_err\u2019 is used during the MySQL build or the MySQL installation process. This program compiles the error message files from the error source files. The others are not run during startup."
+    },
+    {
+        "question": "Which of these is not used to connect to the MySQL server?",
+        "options": [
+            "a) mysql",
+            "b) mysqladmin",
+            "c) mysqlcheck",
+            "d) mysql_upgrade"
+        ],
+        "answer": "d",
+        "explanation": "mysql_upgrade is used after a MySQL upgrade operation. It checks tables for incompatibilities and repairs them if necessary. It updates the grant tables with any changes that have been made in newer versions of MySQL."
+    },
+    {
+        "question": "Which program emulates the client load for a MySQL server?",
+        "options": [
+            "a) mysqlslap",
+            "b) mysqldump",
+            "c) mysqladmin",
+            "d) mysqlimport"
+        ],
+        "answer": "a",
+        "explanation": "mysqlslap is a client program designed to emulate client load for a MySQL server. It reports the timing of each stage. It works as if multiple clients are accessing the server."
+    },
+    {
+        "question": "Which program reads the statement from a binary log?",
+        "options": [
+            "a) mysql_config",
+            "b) mysqlbinlog",
+            "c) mysqldump",
+            "d) mysqlimport"
+        ],
+        "answer": "b",
+        "explanation": "\u2018mysqlbinlog\u2019 is a utility program for reading statements from a binary log. The log of executed statements contained in the binary log files can be used to help recover from a crash."
+    }
+]

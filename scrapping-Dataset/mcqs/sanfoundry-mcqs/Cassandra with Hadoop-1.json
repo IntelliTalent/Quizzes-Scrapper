@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A _________ grants initial permissions, and subsequently a user may or may not be given the permission to grant/revoke permissions.",
+        "options": [
+            "a) keyspace",
+            "b) superuser",
+            "c) sudouser",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Object permission management is based on internal authorization."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Cassandra accommodates expensive, consumer SSDs extremely well",
+            "b) Cassandra re-writes or re-reads existing data, and never overwrites the rows in place",
+            "c) Cassandra uses a storage structure similar to a Log-Structured Merge Tree",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A log-structured engine that avoids overwrites and uses sequential IO to update data is essential for writing to hard disks (HDD) and solid-state disks (SSD)."
+    },
+    {
+        "question": "__________ is one of many possible IAuthorizer implementations and the one that stores permissions in the system_auth.permissions table to support all authorization-related CQL statements.",
+        "options": [
+            "a) CassandraAuth",
+            "b) CassandraAuthorizer",
+            "c) CassAuthorizer",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Configuration consists mainly of changing the authorizer option in the cassandra.yaml to use the CassandraAuthorizer."
+    },
+    {
+        "question": "Cassandra creates a ___________ for each table, which allows you to symlink a table to a chosen physical drive or data volume.",
+        "options": [
+            "a) directory",
+            "b) subdirectory",
+            "c) domain",
+            "d) path"
+        ],
+        "answer": "b",
+        "explanation": "The new file name format includes the keyspace name to distinguish which keyspace and table the file contains when streaming or bulk loading data."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Cassandra provides fine-grained control of table storage on disk, writing tables to disk using separate table directories within each keyspace directory",
+            "b) The hinted handoff feature and Cassandra conformance and conformance to the ACID",
+            "c) Client utilities and application programming interfaces (APIs) for developing applications for data storage and retrieval are available",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The hinted handoff feature and Cassandra conformance and non-conformance to the ACID."
+    },
+    {
+        "question": "When ___________ contents exceed a configurable threshold, the memtable data, which includes indexes, is put in a queue to be flushed to disk.",
+        "options": [
+            "a) subtable",
+            "b) memtable",
+            "c) intable",
+            "d) memorytable"
+        ],
+        "answer": "b",
+        "explanation": "You can configure the length of the queue by changing memtable_flush_queue_size in the cassandra.yaml."
+    },
+    {
+        "question": "Data in the commit log is purged after its corresponding data in the memtable is flushed to an _________",
+        "options": [
+            "a) SSHables",
+            "b) SSTable",
+            "c) Memtables",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SSTables are immutable, not written to again after the memtable is flushed."
+    },
+    {
+        "question": "For each SSTable, Cassandra creates _________ index.",
+        "options": [
+            "a) memory",
+            "b) partition",
+            "c) in memory",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Partition index is list of partition keys and the start position of rows in the data file (on disk)."
+    },
+    {
+        "question": "Cassandra marks data to be deleted using _________",
+        "options": [
+            "a) tombstone",
+            "b) combstone",
+            "c) tenstone",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Cassandra also does not delete in place because the SSTable is immutable."
+    },
+    {
+        "question": "Tombstones exist for a configured time period defined by the _______ value set on the table.",
+        "options": [
+            "a) gc_grace_minutes",
+            "b) gc_grace_time",
+            "c) gc_grace_seconds",
+            "d) gc_grace_hours"
+        ],
+        "answer": "c",
+        "explanation": "During compaction, there is a temporary spike in disk space usage and disk I/O because the old and new SSTables co-exist."
+    }
+]

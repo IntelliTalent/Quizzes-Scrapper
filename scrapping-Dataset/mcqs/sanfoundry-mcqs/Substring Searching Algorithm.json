@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Which of the following is a sub string of \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) SANO",
+            "b) FOUND",
+            "c) SAND",
+            "d) FOND"
+        ],
+        "answer": "b",
+        "explanation": "A sub string is a subset of another string. So \u201cFOUND\u201d is the only possible sub string out of the given options."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code describes the naive method of finding a pattern in a string. So the output will be 3 as the given sub string begins at that index in the pattern."
+    },
+    {
+        "question": "What will be the worst case time complexity of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code describes the naive method of pattern searching. By observing the nested loop in the code we can say that the time complexity of the loop is O(m*n)."
+    },
+    {
+        "question": "What will be the auxiliary space complexity of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code describes the naive method of pattern searching. Its auxiliary space requirement is O(1)."
+    },
+    {
+        "question": "What is the worst case time complexity of KMP algorithm for pattern searching (m = length of text, n = length of pattern)?",
+        "options": [
+            "a) O(n)",
+            "b) O(n*m)",
+            "c) O(m)",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "KMP algorithm is an efficient pattern searching algorithm. It has a time complexity of O(m) where m is the length of text."
+    },
+    {
+        "question": "What will be the best case time complexity of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code describes the naive method of pattern searching. The best case of the code occurs when the first character of the pattern does not appear in the text at all. So in such a case, only one iteration is required thus time complexity will be O(m)."
+    },
+    {
+        "question": "What is the time complexity of Z algorithm for pattern searching (m = length of text, n = length of pattern)?",
+        "options": [
+            "a) O(n + m)",
+            "b) O(m)",
+            "c) O(n)",
+            "d) O(m * n)"
+        ],
+        "answer": "a",
+        "explanation": "Z algorithm is an efficient pattern searching algorithm as it searches the pattern in linear time. It has a time complexity of O(m + n) where m is the length of text and n is the length of the pattern."
+    },
+    {
+        "question": "What is the auxiliary space complexity of Z algorithm for pattern searching (m = length of text, n = length of pattern)?",
+        "options": [
+            "a) O(n + m)",
+            "b) O(m)",
+            "c) O(n)",
+            "d) O(m * n)"
+        ],
+        "answer": "b",
+        "explanation": "Z algorithm is an efficient pattern searching algorithm as it searches the pattern in linear time. It an auxiliary space of O(m) for maintaining Z array."
+    },
+    {
+        "question": "The naive pattern searching algorithm is an in place algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The auxiliary space complexity required by naive pattern searching algorithm is O(1). So it qualifies as an in place algorithm."
+    },
+    {
+        "question": "Rabin Karp algorithm and naive pattern searching algorithm have the same worst case time complexity.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The worst case time complexity of Rabin Karp algorithm is O(m*n) but it has a linear average case time complexity. So Rabin Karp and naive pattern searching algorithm have the same worst case time complexity."
+    }
+]

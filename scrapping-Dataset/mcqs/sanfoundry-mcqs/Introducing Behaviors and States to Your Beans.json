@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Which special type of advice is used to implement an interface?",
+        "options": [
+            "a) Introduction",
+            "b) Before",
+            "c) After",
+            "d) AfterSpecial"
+        ],
+        "answer": "a",
+        "explanation": "It allows your objects to implement an interface dynamically by providing an implementation class for that interface."
+    },
+    {
+        "question": "Introduction advice helps in implementing multiple inheritance",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You are able to introduce multiple interfaces with multiple implementation classes to your objects at the same time."
+    },
+    {
+        "question": "In introduction advice you have to modify class to introduce new methods",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "You can introduce methods to your existing classes even without source code available."
+    },
+    {
+        "question": "How does an Introduction advice do this in Spring?",
+        "options": [
+            "a) dynamic proxy",
+            "b) web proxy",
+            "c) implements org.springframework.net.bundle interface",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Introduction works by adding an interface to the dynamic proxy."
+    },
+    {
+        "question": "Annotation used to declare an introduction",
+        "options": [
+            "a) Before",
+            "b) After",
+            "c) @DeclareParents",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In this aspect, you can declare an introduction by annotating an arbitrary field with the @DeclareParents annotation."
+    },
+    {
+        "question": "Target Classes can be denoted by Introduction Annotation",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The value attribute of the @DeclareParents annotation type indicates which classes are the targets for this introduction."
+    },
+    {
+        "question": "Attribute used to specify implementation class",
+        "options": [
+            "a) no such attribute",
+            "b) defaultImpl",
+            "c) defaultInterface",
+            "d) defaultImplement"
+        ],
+        "answer": "b",
+        "explanation": "The interface to introduce is determined by the type of the annotated field. Finally, the implementation class used for this new interface is specified in the defaultImpl attribute."
+    },
+    {
+        "question": "How to keep track of the usage of your beans",
+        "options": [
+            "a) Calling Count",
+            "b) Last modified date",
+            "c) New Interface to your object",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can introduce a new interface to your objects with an implementation class that holds the state field."
+    },
+    {
+        "question": "How to introduce counter field to original bean class?",
+        "options": [
+            "a) Using Spring AOP",
+            "b) Implementing interface",
+            "c) AspectJ Pointcut",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Since there is no field for storing the counter value in the original classes, you need to introduce one with Spring AOP."
+    },
+    {
+        "question": "Tag used to declare aspects",
+        "options": [
+            "a) aop:config",
+            "b) aop:auto-proxy",
+            "c) aop:autowire",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In the bean configuration file, all the Spring AOP configurations must be defined inside the aop:config element."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "varImp is a wrapper around the evimp function in the _______ package.",
+        "options": [
+            "a) numpy",
+            "b) earth",
+            "c) plot",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The earth package is an implementation of Jerome Friedman\u2019s Multivariate Adaptive Regression Splines."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The trapezoidal rule is used to compute the area under the ROC curve",
+            "b) For regression, the relationship between each predictor and the outcome is evaluated",
+            "c) An argument, para, is used to pick the model fitting technique",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An argument, nonpara, is used to pick the model fitting technique."
+    },
+    {
+        "question": "Which of the following curve analysis is conducted on each predictor for classification?",
+        "options": [
+            "a) NOC",
+            "b) ROC",
+            "c) COC",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For two class problems, a series of cutoffs is applied to the predictor data to predict the class."
+    },
+    {
+        "question": "Which of the following function tracks the changes in model statistics?",
+        "options": [
+            "a) varImp",
+            "b) varImpTrack",
+            "c) findTrack",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "GCV change value can also be tracked."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The difference between the class centroids and the overall centroid is used to measure the variable influence",
+            "b) The Bagged Trees output contains variable usage statistics",
+            "c) Boosted Trees uses different approach as a single tree",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The larger the difference between the class centroid and the overall center of the data, the larger the separation between the classes."
+    },
+    {
+        "question": "Which of the following model model include a backwards elimination feature selection routine?",
+        "options": [
+            "a) MCV",
+            "b) MARS",
+            "c) MCRS",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MARS stands for Multivariate Adaptive Regression Splines."
+    },
+    {
+        "question": "The advantage of using a model-based approach is that is more closely tied to the model performance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Model-based approach is able to incorporate the correlation structure between the predictors into the importance calculation."
+    },
+    {
+        "question": "Which of the following model sums the importance over each boosting iteration?",
+        "options": [
+            "a) Boosted trees",
+            "b) Bagged trees",
+            "c) Partial least squares",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "gbm package can be used here."
+    },
+    {
+        "question": "Which of the following argument is used to set importance values?",
+        "options": [
+            "a) scale",
+            "b) set",
+            "c) value",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "All measures of importance are scaled to have a maximum value of 100."
+    },
+    {
+        "question": "For most classification models, each predictor will have a separate variable importance for each class.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The exceptions are classification trees, bagged trees and boosted trees."
+    }
+]

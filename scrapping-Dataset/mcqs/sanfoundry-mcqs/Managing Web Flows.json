@@ -1,0 +1,161 @@
+[
+    {
+        "question": "Spring supports web flows by:-",
+        "options": [
+            "a) Java",
+            "b) XML",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring supports defining a flow either by java or XML."
+    },
+    {
+        "question": "Spring manages UI as flows.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Web Flow allows you to model UI activities as flows."
+    },
+    {
+        "question": "Stated related to Spring Web flows.",
+        "options": [
+            "a) view",
+            "b) action",
+            "c) decision",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring Web Flow builds in several state types, including view state, action state, decision state, subflow state, and end state."
+    },
+    {
+        "question": "Once a state has completed its tasks, it fires an event.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": " An event contains a source and an event ID, and perhaps some attributes."
+    },
+    {
+        "question": "Required dependencies to manage web UI flows.",
+        "options": [
+            "a) spring web flow distribution.",
+            "b) org.springframework.webflow",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To manage your web UI flows with Spring Web Flow, you need the Spring Web Flow distribution (e.g.,v2.0.8) on your CLASSPATH."
+    },
+    {
+        "question": "Spring Web flow supports.",
+        "options": [
+            "a) Unified EL",
+            "b) Object-Graph Navigation Language (OGNL)",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring Web Flow supports using Unified EL (used in JSF 1.2 and JSP 2.1) and Object-Graph Navigation Language (OGNL), which is used in Tapestry, WebWork, and other frameworks, as its expression language."
+    },
+    {
+        "question": "Spring Web flow can enable both Unified EL and Object-Graph Navigation Language (OGNL).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Spring Web Flow is able to detect the libraries of JBoss EL (as the default Unified EL implementation) and OGNL from the classpath. You can enable either of them (but not both) by including the corresponding JAR file in your classpath."
+    },
+    {
+        "question": "To create URL path mappings from the ids of registered flow definitions.",
+        "options": [
+            "a) FlowHandlerMapping",
+            "b) FlowHandler",
+            "c) FlowHandlerMappingRequest",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The FlowHandlerMapping follows a convention to create URL path mappings from the ids of registered flow definitions."
+    },
+    {
+        "question": "XML Based flow definitions can be validated by:-",
+        "options": [
+            "a) Spring Web Flow XSD",
+            "b) Spring IDE",
+            "c) SpringSource Tool Suite",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring Web Flow offers an XML\u2013based flow definition language that can be validated by Spring Web Flow XSD and supported by Spring IDE or SpringSource Tool Suite (STS)."
+    },
+    {
+        "question": "Element to trigger an action for view module.",
+        "options": [
+            "a) on-render",
+            "b) on-action",
+            "c) on-trigger",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use the on-render element to trigger an action for a view state before its view renders."
+    },
+    {
+        "question": "Variable to trigger the flow execution.",
+        "options": [
+            "a) ${flowExecutionUrl}",
+            "b) ${exec.flow}",
+            "c) ${flowExecutionUrl.match}",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You have to start the URLs with the variable ${flowExecutionUrl} to trigger a flow execution. This variable will be evaluated by Spring Web Flow at runtime."
+    },
+    {
+        "question": "12.Servers which listen on port 8080.",
+        "options": [
+            "a) Apache Tomcat 6.0",
+            "b) Jetty",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "By default, Tomcat and Jetty (and the Maven Jetty plugin configured for this code) listen on port 8080."
+    },
+    {
+        "question": "Interface which is used to persist instances sessions.",
+        "options": [
+            "a) serializable",
+            "b) file.io",
+            "c) io.file.*",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Implement the Serializable interface, as its instances may need to be persisted in sessions."
+    },
+    {
+        "question": "Class which assist Spring Web flow in handling form.",
+        "options": [
+            "a) Form",
+            "b) FormAction",
+            "c) FormHandler",
+            "d) Form-Handler"
+        ],
+        "answer": "b",
+        "explanation": "Spring Web Flow provides a FormAction class to assist you in handling forms."
+    },
+    {
+        "question": "Property for action to instantiate form objects.",
+        "options": [
+            "a) formObjectClass",
+            "b) formClass",
+            "c) objectClass",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A form action can bind form fields to a form object\u2019s properties of the same name. But you first have to specify the form object class in the formObjectClass property for this action to instantiate form objects."
+    }
+]

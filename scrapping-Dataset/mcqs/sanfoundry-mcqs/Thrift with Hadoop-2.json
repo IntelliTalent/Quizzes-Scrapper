@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_______ transport is required when using a non-blocking server.",
+        "options": [
+            "a) TZlibTransport",
+            "b) TFramedTransport",
+            "c) TMemoryTransport",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "TFramedTransport sends data in frames, where each frame is preceded by length information."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) To create a Mahout service, one has to write Thrift files that describe it, generate the code in the destination language",
+            "b) Thrift is written in Java",
+            "c) Thrift is a lean and clean library",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The predefined serialization styles include: binary, HTTP-friendly and compact binary."
+    },
+    {
+        "question": "__________ uses memory for I/O in Thrift.",
+        "options": [
+            "a) TZlibTransport",
+            "b) TFramedTransport",
+            "c) TMemoryTransport",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Java implementation uses a simple ByteArrayOutputStream internally."
+    },
+    {
+        "question": "________ uses blocking socket I/O for transport.",
+        "options": [
+            "a) TNonblockingServer",
+            "b) TSimpleServer",
+            "c) TSocket",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "TFramedTransport must be used with this server."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) There are no XML configuration files in Thrift",
+            "b) Thrift gives cross-language serialization with lower overhead than alternatives such as SOAP due to use of binary format",
+            "c) No framework to code is a feature of Thrift",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are no build dependencies or non-standard software. No mix of incompatible software licenses."
+    },
+    {
+        "question": "Which of the following is a multi-threaded server using non-blocking I/O?",
+        "options": [
+            "a) TNonblockingServer",
+            "b) TSimpleServer",
+            "c) TSocket",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Java implementation uses NIO channels."
+    },
+    {
+        "question": "__________ is a single-threaded server using standard blocking I/O.",
+        "options": [
+            "a) TNonblockingServer",
+            "b) TSimpleServer",
+            "c) TSocket",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "TSimpleServer is useful for testing."
+    },
+    {
+        "question": "Which of the following performs compression using zlib?",
+        "options": [
+            "a) TZlibTransport",
+            "b) TFramedTransport",
+            "c) TMemoryTransport",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TZlibTransport is used in conjunction with another transport. Not available in the Java implementation."
+    },
+    {
+        "question": "________ is a multi-threaded server using standard blocking I/O.",
+        "options": [
+            "a) TNonblockingServer",
+            "b) TThreadPoolServer",
+            "c) TSimpleServer",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "TFramedTransport must be used with this server."
+    },
+    {
+        "question": "_____________ transport writes to a file.",
+        "options": [
+            "a) TNonblockingServer",
+            "b) TFileTransport",
+            "c) TFramedTransport",
+            "d) TMemoryTransport"
+        ],
+        "answer": "b",
+        "explanation": "TMemoryTransport uses memory for I/O."
+    }
+]

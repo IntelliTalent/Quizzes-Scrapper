@@ -1,0 +1,128 @@
+[
+    {
+        "question": "The core interface of Spring email support is:-",
+        "options": [
+            "a) MailSender",
+            "b) EMail",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring email support makes it easier to send email by providing an abstract and implementation-independent API for sending email. The core interface of Spring email support is MailSender."
+    },
+    {
+        "question": "The JavaMailSender interface is a subinterface of MailSender that includes specialized JavaMail features:-",
+        "options": [
+            "a) Multipurpose Internet Mail Extensions",
+            "b) Multipurpose Internet Mail",
+            "c) Multipurpose Internet Extensions",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The JavaMailSender interface is a subinterface of MailSender that includes specialized JavaMail features such as Multipurpose Internet Mail Extensions (MIME) message support. To send an email message with HTML content, inline images, or attachments, you have to send it as a MIME message."
+    },
+    {
+        "question": "Before you implement the ErroNotifier interface in this way, you may need a local email server that supports the Simple Mail Transfer Protocol (SMTP) for testing purposes.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Before you implement the interface in this way, you may need a local email server that supports the Simple Mail Transfer Protocol (SMTP) for testing purposes. We recommend installing Apache James Server (http://james.apache.org/server/index.html), which is very easy to install and configure."
+    },
+    {
+        "question": "You can implement the interface to send email notifications in case of errors.",
+        "options": [
+            "a) Notify",
+            "b) Error",
+            "c) ErrorNotifier",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can implement the ErrorNotifier interface to send email notifications in case of errors."
+    },
+    {
+        "question": "You send the email by making a call to:-",
+        "options": [
+            "a) Transport.send()",
+            "b) Transport.sendTo()",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You send the email by making a call to Transport.send()."
+    },
+    {
+        "question": "The default port used by JavaMailSenderImpl is the:-",
+        "options": [
+            "a) SMTP port 24",
+            "b) SMTP port 22",
+            "c) SSH port 22",
+            "d) SMTP port 25"
+        ],
+        "answer": "d",
+        "explanation": "The default port used by JavaMailSenderImpl is the standard SMTP port 25, so if your email server listens on this port for SMTP, you can simply omit this property."
+    },
+    {
+        "question": "If you have a JavaMail session configured in your Java EE application server, you can first look it up with the help of:-",
+        "options": [
+            "a) JndiObjectFactory",
+            "b) JndiObjectFactoryBean",
+            "c) JndiObject",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If you have a JavaMail session configured in your Java EE application server, you can first look it up with the help of JndiObjectFactoryBean."
+    },
+    {
+        "question": "MIME is supported by JavaMail through the:-",
+        "options": [
+            "a) javax.mail.internet.Mime",
+            "b) javax.mail.internet.Message",
+            "c) javax.mail.internet.MimeMessage",
+            "d) javax.mail.internet.Mail"
+        ],
+        "answer": "c",
+        "explanation": "To send email that contains HTML content, inline images, or attachments, you have to construct and send a MIME message instead. MIME is supported by JavaMail through the javax.mail.internet.MimeMessage class."
+    },
+    {
+        "question": "The JavaMailSenderImpl instance you injected does implement this interface.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The JavaMailSenderImpl instance you injected does implement this interface, so you needn\u2019t modify your bean configurations."
+    },
+    {
+        "question": "Quartz supports several types of triggers:-",
+        "options": [
+            "a) SimpleTrigger",
+            "b) CronTrigger",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Quartz supports two types of triggers: SimpleTrigger and CronTrigger."
+    },
+    {
+        "question": "SimpleTrigger allows you to set trigger properties:-",
+        "options": [
+            "a) start time",
+            "b) end time",
+            "c) repeat interval",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "SimpleTrigger allows you to set trigger properties such as start time, end time, repeat interval, and repeat count."
+    },
+    {
+        "question": "CronTrigger accepts a Unix cron expression for you to specify the times to run your job.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For example, you can replace the preceding SimpleTrigger with the following CronTrigger to run your job at 17:30 every day:"
+    }
+]

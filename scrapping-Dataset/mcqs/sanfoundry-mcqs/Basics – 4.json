@@ -1,0 +1,173 @@
+[
+    {
+        "question": "Is It possible to inspect the source code of R?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Can\u2019t say",
+            "d) Some times"
+        ],
+        "answer": "a",
+        "explanation": "Anybody is free to download and install these packages and even inspect the source code. The instructions for obtaining R largely depend on the user\u2019s hardware and operating system."
+    },
+    {
+        "question": "How to install for a package and all of the other packages on which for depends?",
+        "options": [
+            "a) install.packages (for, depends = TRUE)",
+            "b) R.install.packages (\u201cfor\u201d, depends = TRUE)",
+            "c) install.packages (\u201cfor\u201d, depends = TRUE)",
+            "d) install (\u201cfor\u201d, depends = FALSE)"
+        ],
+        "answer": "c",
+        "explanation": "To install a package named for, open up R and type install.packages(\u201cfor\u201d). To install foo and additionally install all of the other packages on which for depends, instead type install.packages (\u201cfor\u201d, depends = TRUE)."
+    },
+    {
+        "question": "__________ function is used to watch for all available packages in library.",
+        "options": [
+            "a) lib()",
+            "b) fun.lib()",
+            "c) libr()",
+            "d) library()"
+        ],
+        "answer": "d",
+        "explanation": "Type library() at the command prompt to see a list of all available packages in the library. For total information about the installation of R and add-on packages, see the R Installation and Administration manual."
+    },
+    {
+        "question": "The longer programs are called ____________",
+        "options": [
+            "a) Files",
+            "b) Structures",
+            "c) Scripts",
+            "d) Data"
+        ],
+        "answer": "c",
+        "explanation": "The longer programs called scripts, there is too much code to write all at once at the command prompt. Furthermore, for longer scripts, it is convenient to be able to only modify a certain piece of the script and run it again in R."
+    },
+    {
+        "question": "Scripts will run on ___________________",
+        "options": [
+            "a) Script Editors",
+            "b) Console",
+            "c) Terminal",
+            "d) GCC Compiler"
+        ],
+        "answer": "a",
+        "explanation": "script editors are designed to aid the communication and code writing process. They have all sorts of features including R syntax highlighting, automatic code completion, delimiter matching, and dynamic help on the R functions."
+    },
+    {
+        "question": "Which of the following is a \u201cRecommended\u201d package in R?",
+        "options": [
+            "a) Util",
+            "b) Lang",
+            "c) Stats",
+            "d) Spatial"
+        ],
+        "answer": "d",
+        "explanation": "\u201cRecommended\u201d packages also include boot, class, cluster, codetools, foreign, KernSmooth, lattice, mgcv, nlme, rpart, survival, MASS, nnet, Matrix. There are about ten thousand packages in R now."
+    },
+    {
+        "question": "Full Form of GUI is ___________________",
+        "options": [
+            "a) Guided User Interface",
+            "b) Graphical User Interface",
+            "c) Guided Used Interface",
+            "d) Graphical User Interval"
+        ],
+        "answer": "b",
+        "explanation": "GUI elements are usually accessed through a device. All programs running a GUI use a consistent set of graphical elements so that once the user learns a particular interface."
+    },
+    {
+        "question": "____________ provides a point-and-click interface to many basic statistic problems.",
+        "options": [
+            "a) Commander",
+            "b) GUI",
+            "c) Console",
+            "d) Terminal"
+        ],
+        "answer": "a",
+        "explanation": "R Commander provides a point-and-click interface to statistical problems. It is called the \u201cCommander\u201d because every time one makes a selection, the code corresponding to the task is listed in the output window."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "We know that 20/6 is a repeating decimal, We can change the number of digits displayed with options. This will make the number after the decimal point to extend for the required amount."
+    },
+    {
+        "question": "In which IDE we can interact with R?",
+        "options": [
+            "a) R studio",
+            "b) Console",
+            "c) GCC",
+            "d) Power shell"
+        ],
+        "answer": "a",
+        "explanation": "An IDE tailored to the needs of interactive data analysis and statistical programming called R studio. In R studio we can directly interact with R through the inbuilt functions and packages. We can also download new packages."
+    },
+    {
+        "question": "Which programming language is more based on the results?",
+        "options": [
+            "a) R",
+            "b) C",
+            "c) C++",
+            "d) Java"
+        ],
+        "answer": "a",
+        "explanation": "Compared to other programming languages, the R community tends to be more focussed on results instead of processes. Knowledge of software engineering best practice."
+    },
+    {
+        "question": "Why learning R becomes tough?",
+        "options": [
+            "a) Special files",
+            "b) Functions",
+            "c) Packages",
+            "d) Special Cases"
+        ],
+        "answer": "d",
+        "explanation": "You are confronted with over 20 years of evolution every time you use R. Learning R can be hard because there are many special cases in R to remember. R is the best user of memory."
+    },
+    {
+        "question": "R is mostly used in ______________",
+        "options": [
+            "a) Problem solving",
+            "b) Statistics",
+            "c) Probability",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Statistics for relatively advanced users. R has thousands of packages, designed, maintained, and widely used by statisticians. We can code ourselves if a command is not present."
+    },
+    {
+        "question": "Why is it needed for R studio to update regularly?",
+        "options": [
+            "a) Bugs",
+            "b) More Functions",
+            "c) Methods",
+            "d) For more packages"
+        ],
+        "answer": "a",
+        "explanation": "RStudio is very popular with a nice interface and well thought out, especially for more advanced usage. It can be a bit buggy, so make sure you update it regularly. Available on all platforms."
+    },
+    {
+        "question": "What is the meaning of \u201c<-\u201c?",
+        "options": [
+            "a) Functions",
+            "b) Loops",
+            "c) Addition",
+            "d) Assignment"
+        ],
+        "answer": "d",
+        "explanation": "The expression a <- 16 creates a variable called a and gives it the value 16 called assignment. The variable on the left is assigned to the value on the right. The left side should have only a single one."
+    },
+    {
+        "question": "In the expression x <- 4 in R, what is the class of  \u2018x\u2019 as determined by the `class()\u2019 function?",
+        "options": [
+            "a) Character",
+            "b) Numeric",
+            "c) Integer",
+            "d) Word"
+        ],
+        "answer": "b",
+        "explanation": "In R, when you assign the value 4 to a variable \u2018x\u2019, its class is \u201cnumeric\u201d. The class() function confirms this by showing that the variable \u2018x\u2019 belongs to the \u201cnumeric\u201d class."
+    }
+]

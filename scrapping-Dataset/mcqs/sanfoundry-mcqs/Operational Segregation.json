@@ -1,0 +1,112 @@
+[
+    {
+        "question": "MongoDB supports tagging a range of _______ key values to associate that range with a shard or group of shards.",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) shard",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Those shards receive all inserts within the tagged range."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Shard key range tags are distinct from replica set member tags",
+            "b) Balancer does not obey tagged range associations",
+            "c) Hash-based sharding only supports tag-aware sharding on an entire collection",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Tag sets let you customize write concern and read preferences for a replica set."
+    },
+    {
+        "question": "The _______ migrates chunks of documents in a sharded collection to the shards associated with a tag.",
+        "options": [
+            "a) balancer",
+            "b) compounder",
+            "c) fixer",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "During balancing rounds, if the balancer detects that any chunks violate configured tags, the balancer migrates those chunks to shards associated with those tags."
+    },
+    {
+        "question": "MongoDB stores tag sets in the replica set configuration object, which is the document returned by ____________",
+        "options": [
+            "a) rs.config()",
+            "b) rs.conf()",
+            "c) rs.confstats()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Custom read preferences and write concerns evaluate tags sets in different ways."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Read preferences consider the value of a tag when selecting a member to read from",
+            "b) Shard ranges are always exclusive of the lower value and inclusive of the upper boundary",
+            "c) Write concerns do not use the value of a tag to select a member except to consider whether or not the value is unique",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Shard ranges are always inclusive of the lower value and exclusive of the upper boundary."
+    },
+    {
+        "question": "By default, an application directs its ______ operations to the primary member in a replica set.",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) read and write",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Read preference describes how MongoDB clients route read operations to the members of a replica set."
+    },
+    {
+        "question": "Which of the following should not be used to provide extra capacity for reads?",
+        "options": [
+            "a) primary",
+            "b) primaryPreferred",
+            "c) secondary",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use primaryPreferred if you want an application to read from the primary under normal circumstances."
+    },
+    {
+        "question": "Read preference modes are also available to clients connecting to a sharded cluster through ______________",
+        "options": [
+            "a) MMS",
+            "b) mongos",
+            "c) mongod",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mongos instance obeys specified read preferences when connecting to the replica set that provides each shard in the cluster."
+    },
+    {
+        "question": "All read preference modes except _______ may return stale data.",
+        "options": [
+            "a) primary",
+            "b) primaryPreferred",
+            "c) secondary",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Ensure that your application can tolerate stale data if you choose to use a non-primary mode."
+    },
+    {
+        "question": "Which of the following preference does not affect the visibility of data?",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) read and write",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regardless of write concern, other clients can see the result of the write operations before the write operation is acknowledged to the issuing client."
+    }
+]

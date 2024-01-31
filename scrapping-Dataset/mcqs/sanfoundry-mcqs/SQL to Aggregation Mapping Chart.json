@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ references the root document, i.e. the top-level document, currently being processed in the aggregation pipeline stage.",
+        "options": [
+            "a) CURRENT",
+            "b) ROOT",
+            "c) PRUNE",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CURRENT is modifiable."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Variables can hold any BSON type data",
+            "b) Aggregation expressions can use both user-defined and system variables",
+            "c) To access the value of the variable, use a string with the variable name prefixed with double dollar signs ($$)",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If the variable references an object, to access a specific field in the object, use the dot notation; i.e. \u201c$$<variable>.<field>\u201d."
+    },
+    {
+        "question": "Which of the operator is similar to order by clause in RDBMS?",
+        "options": [
+            "a) $sort",
+            "b) $match",
+            "c) $sortby",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In the mongo shell, when you assign the cursor returned from the find() method to a variable using the var keyword, the cursor does not automatically iterate."
+    },
+    {
+        "question": "Which of the following provides similar functionality to join?",
+        "options": [
+            "a) $unwindelem",
+            "b) $unwind",
+            "c) $unwin",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$unwind operator allows for somewhat similar functionality like join, but with fields embedded within the document."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) CURRENT references the start of the field path being processed in the aggregation pipeline stage",
+            "b) All stages start with CURRENT the same as ROOT",
+            "c) DESCENDING is one of the allowed results of a $let expression",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "However, since $<field> is equivalent to $$CURRENT.<field>, rebinding CURRENT changes the meaning of $ accesses."
+    },
+    {
+        "question": "________ limits the number of documents in result set.",
+        "options": [
+            "a) $project",
+            "b) $geo",
+            "c) $limit",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$limit takes a positive integer that specifies the maximum number of documents to pass along."
+    },
+    {
+        "question": "_______ groups documents by some specified expression and outputs to the next stage a document for each distinct grouping.",
+        "options": [
+            "a) $setcon",
+            "b) $group",
+            "c) $match",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$group works similar to group by clause in SQL."
+    },
+    {
+        "question": "____________ works similar to HAVING clause in SQL.",
+        "options": [
+            "a) $setcon",
+            "b) $group",
+            "c) $match",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Place the $match as early in the aggregation pipeline as possible."
+    },
+    {
+        "question": "COUNT function is provided by _________ in MongoDB.",
+        "options": [
+            "a) $end",
+            "b) $sum",
+            "c) $max",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$sum ignores non-numeric values just like SQL."
+    }
+]

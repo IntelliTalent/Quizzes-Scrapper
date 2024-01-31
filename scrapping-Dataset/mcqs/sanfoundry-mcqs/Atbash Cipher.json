@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Which of the following cipher does not require a key for encrypting plain text?",
+        "options": [
+            "a) atbash cipher",
+            "b) affine cipher",
+            "c) playfair cipher",
+            "d) vigenere cipher"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options only atbash cipher does not require a key for encryption. Atbash cipher is an example of a substitution cipher."
+    },
+    {
+        "question": "Atbash cipher was originally used for encrypting _____________",
+        "options": [
+            "a) english alphabet",
+            "b) greek alphabet",
+            "c) hebrew alphabet",
+            "d) hindi alphabet"
+        ],
+        "answer": "c",
+        "explanation": "Atbash cipher was originally built to encrypt hebrew alphabet. But it can be used to encrypt any type of alphabets."
+    },
+    {
+        "question": "Which of the following cipher is a special case of affine cipher?",
+        "options": [
+            "a) Vigenere cipher",
+            "b) Autokey cipher",
+            "c) Atbash cipher",
+            "d) Hill cipher"
+        ],
+        "answer": "c",
+        "explanation": "Atbash cipher is a special case of affine cipher. We have to assume a=b=25 as the key in affine cipher to get the same encryption."
+    },
+    {
+        "question": "Choose the weakest cipher from the following?",
+        "options": [
+            "a) vigenere cipher",
+            "b) rail fence cipher",
+            "c) hill cipher",
+            "d) atbash cipher"
+        ],
+        "answer": "d",
+        "explanation": "Atbash cipher is the weakest cipher out of the given options. This is because it is a simple mono alphabetic substitution cipher with almost no security. It can be cracked without even knowing which technique has been used for encryption."
+    },
+    {
+        "question": "Which of the following is a mono alphabetic substitution cipher?",
+        "options": [
+            "a) vigenere cipher",
+            "b) one time pad cipher",
+            "c) play fair cipher",
+            "d) atbash cipher"
+        ],
+        "answer": "d",
+        "explanation": "Atbash cipher is the only mono alphabetic substitution cipher out of the given options. All the remaining options fall under the category of poly alphabetic cipher."
+    },
+    {
+        "question": "Atbash cipher is less secure than affine cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Affine cipher is more secure as compared to pigpen cipher. Atbash cipher is a special case of affine cipher and can be cracked without even knowing which technique has been used for encryption."
+    },
+    {
+        "question": "Atbash cipher is an example of?",
+        "options": [
+            "a) Mono alphabetic substitution cipher",
+            "b) Transposition cipher",
+            "c) Poly alphabetic substitution cipher",
+            "d) Geometric substitution cipher"
+        ],
+        "answer": "a",
+        "explanation": "Atbash cipher is an example of mono alphabetic substitution cipher. It replaces each alphabet of the plain text with a corresponding letter which we can see in the table below."
+    }
+]

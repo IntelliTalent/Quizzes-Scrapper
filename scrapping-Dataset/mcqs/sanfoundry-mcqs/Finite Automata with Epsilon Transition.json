@@ -1,0 +1,128 @@
+[
+    {
+        "question": "According to the given transitions, which among the following are the epsilon closures of q1 for the given NFA?",
+        "options": [
+            "a) q4",
+            "b) q2",
+            "c) q1",
+            "d) q1, q2, q3, q4"
+        ],
+        "answer": "d",
+        "explanation": "The set of states which can be reached from q using \u03b5-transitions, is called the \u03b5-closure over state q."
+    },
+    {
+        "question": "State true or false?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It is possible to construct an NFA with \u03b5-transitions, presence of no input symbols, and that is called NFA with \u03b5-moves."
+    },
+    {
+        "question": "State true or false?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "\u03b5 does not appears on Input tape, \u03b5 transition means a transition without scanning a symbol i.e. without moving the read head."
+    },
+    {
+        "question": "Statement 1: \u03b5- transition can be called as hidden non-determinism.",
+        "options": [
+            "a) Statement 1 and 2, both are correct",
+            "b) Statement 1 and 2, both are wrong",
+            "c) Statement 1 is correct while Statement 2 is wrong",
+            "d) Statement 1 is wrong while Statement 2 is correct"
+        ],
+        "answer": "c",
+        "explanation": "The transition with \u03b5 leads to a jump but without any shift in read head. Further, the method can be called one to introduce hidden non-determinism."
+    },
+    {
+        "question": "\u03b5- closure of q1 in the given transition graph:",
+        "options": [
+            "a) {q1}",
+            "b) {q0, q2}",
+            "c) {q1, q2}",
+            "d) {q0, q1, q2}"
+        ],
+        "answer": "c",
+        "explanation": "\u03b5-closure is defined as the set of states being reached through \u03b5-transitions from a starting state."
+    },
+    {
+        "question": "For NFA with \u03b5-moves, which among the following is correct?",
+        "options": [
+            "a) \u0394: Q X (\u2211 U {\u03b5}) -> P(Q)",
+            "b) \u0394: Q X (\u2211) -> P(Q)",
+            "c) \u0394: Q X (\u2211*) -> P(Q)",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Due to the presence of \u03b5 symbol, or rather an epsilon-move, the input alphabets unites with it to form a set including \u03b5."
+    },
+    {
+        "question": "Which among the following is false?",
+        "options": [
+            "a) Every element of S \u03f5 Q",
+            "b) For any q \u03f5 \u03b5(S), every element of \u03b4 (q, \u03b5) is in \u03b5(S)",
+            "c) No other element is in \u03b5(S)",
+            "d) None of the mentioned",
+            "a) Every element of S \u03f5 Q",
+            "b) For any q \u03f5 \u03b5(S), every element of \u03b4 (q, \u03b5) is in \u03b5(S)",
+            "c) No other element is in \u03b5(S)"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are the closure properties of \u03b5 and encircles all the elements if it satisfies the following options:"
+    },
+    {
+        "question": "The automaton which allows transformation to a new state without consuming any input symbols:",
+        "options": [
+            "a) NFA",
+            "b) DFA",
+            "c) NFA-l",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NFA-l or e-NFA is an extension of Non deterministic Finite Automata which are usually called NFA with epsilon moves or lambda transitions."
+    },
+    {
+        "question": "e-transitions are",
+        "options": [
+            "a) conditional",
+            "b) unconditional",
+            "c) input dependent",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "An epsilon move is a transition from one state to another that doesnt require any specific condition."
+    },
+    {
+        "question": "The __________ of a set of states, P, of an NFA is defined as the set of states reachable from any state in P following e-transitions.",
+        "options": [
+            "a) e-closure",
+            "b) e-pack",
+            "c) Q in the tuple",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The e-closure of a set of states, P, of an NFA is defined as the set of states reachable from any state in P following e-transitions."
+    },
+    {
+        "question": "The e-NFA  recognizable languages are not closed under :",
+        "options": [
+            "a) Union",
+            "b) Negation",
+            "c) Kleene Closure",
+            "d) None of the mentioned",
+            "a) Union",
+            "b) Intersection",
+            "c) Concatenation",
+            "d) Negation",
+            "e) Star",
+            "f) Kleene closure"
+        ],
+        "answer": "d",
+        "explanation": "The languages which are recognized by an epsilon Non deterministic automata are closed under the following operations:"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The preferred way to clear the _________ flag from a chunk is to attempt to split the chunk.",
+        "options": [
+            "a) boolean",
+            "b) jumbo",
+            "c) change",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the chunk is divisible, MongoDB removes the flag upon successful split of the chunk."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) In some instances, MongoDB cannot split the no-longer jumbo chunk, such as a chunk with a range of single shard key value",
+            "b) To ensure that mongos instances update their cluster information cache, run flushConfig in the admin database",
+            "c) In a sharded cluster, you cannot use tags to associate specific ranges of a shard key with a specific shard or subset of shards",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you clear the jumbo flag for a chunk that still exceeds the chunk size and/or the document number limit, MongoDB will re-label the chunk as jumbo when MongoDB tries to move the chunk."
+    },
+    {
+        "question": "_________ is used to remove tags from a particular shard.",
+        "options": [
+            "a) sh.removeTag()",
+            "b) sh.removeShard()",
+            "c) sh.removeShardTag()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You may remove tags from a particular shard using the sh.removeShardTag() method when connected to a mongos instance."
+    },
+    {
+        "question": "________ associates a shard with a tag or identifier.",
+        "options": [
+            "a) sh.collects()",
+            "b) sh.addShardTag",
+            "c) sh.results()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB uses these identifiers to direct chunks that fall within a tagged range to specific shards."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You cannot overlap defined ranges, or tag the same range more than once",
+            "b) The mongod provides a helper for removing a tag range",
+            "c) The output from sh.status() lists tags associated with a shard, if any, for each shard",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The mongod does not provide a helper for removing a tag range."
+    },
+    {
+        "question": "To assign a tag to a range of shard keys use the _________ method when connected to a mongos instance.",
+        "options": [
+            "a) sh.addTagRange()",
+            "b) sh.splitFind()",
+            "c) sh.Range()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You may delete tag assignment from a shard key range by removing the corresponding document from the tags collection of the config database."
+    },
+    {
+        "question": "Each document in the tags holds the ________ of the sharded collection and a minimum shard key value.",
+        "options": [
+            "a) tag",
+            "b) chunk",
+            "c) namespace",
+            "d) size"
+        ],
+        "answer": "c",
+        "explanation": "In most circumstances, you should leave chunk splitting to the automated processes within MongoDB."
+    },
+    {
+        "question": "Which of the following parameter represents minimum value of the shard key range to include in the tag?",
+        "options": [
+            "a) min",
+            "b) max",
+            "c) maximum",
+            "d) minimum"
+        ],
+        "answer": "d",
+        "explanation": "The minimum is an inclusive match."
+    },
+    {
+        "question": "Use ________ to ensure that the balancer migrates documents that exist within the specified range to a specific shard.",
+        "options": [
+            "a) sh.addShardTag()",
+            "b) sh.addTag()",
+            "c) sh.aShardTag()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Only issue sh.addTagRange() when connected to a mongos instance."
+    },
+    {
+        "question": "Which of the following parameter denotes name of the shard from which to remove a tag?",
+        "options": [
+            "a) shard",
+            "b) tag",
+            "c) chunk",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Shard is of string type."
+    }
+]

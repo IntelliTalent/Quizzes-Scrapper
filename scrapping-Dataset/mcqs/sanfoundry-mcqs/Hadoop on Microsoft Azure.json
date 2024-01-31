@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Microsoft and Hortonworks joined their forces to make Hadoop available on ___________ for on-premise deployments.",
+        "options": [
+            "a) Windows 7",
+            "b) Windows Server",
+            "c) Windows 8",
+            "d) Ubuntu"
+        ],
+        "answer": "b",
+        "explanation": "Win32 is supported as a development platform."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hadoop has been demonstrated on GNU/Linux clusters with 2000 nodes",
+            "b) GNU/Linux is supported as a development and production platform",
+            "c) Distributed operation has not been well tested on Win32, so it is not supported as a production platform",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Microsoft and Hortonworks joined their forces to make Hadoop available on Windows Azure to support big data in the cloud."
+    },
+    {
+        "question": "Hadoop ___________ is a utility to support running external map and reduce jobs.",
+        "options": [
+            "a) Orchestration",
+            "b) Streaming",
+            "c) Collection",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "These external jobs can be written in various programming languages such as Python or Ruby."
+    },
+    {
+        "question": "In Hadoop _____________ go to the Hadoop distribution directory for HDInsight.",
+        "options": [
+            "a) Shell",
+            "b) Command Line",
+            "c) Compaction",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In order to run Hadoop command line from Windows cmd prompt, you need to login to the HDInsight head node using Remote Desktop."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The other flavor of HDInsight interactive console is based on JavaScript",
+            "b) Microsoft and Hortonworks have re-implemented the key binaries as executables",
+            "c) The distribution consists of Hadoop 1.1.0, Pig-0.9.3, Hive 0.9.0, Mahout 0.5 and Sqoop 1.4.2",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "JavaScript commands are converted to Pig statements."
+    },
+    {
+        "question": "Microsoft Azure HDInsight comes with __________ types of interactive console.",
+        "options": [
+            "a) two",
+            "b) three",
+            "c) four",
+            "d) five"
+        ],
+        "answer": "a",
+        "explanation": "One is the standard Hadoop Hive console, the other one is unique in Hadoop world, it is based on JavaScript."
+    },
+    {
+        "question": "The key _________ command \u2013 which is traditionally a bash script \u2013 is also re-implemented as hadoop.cmd.",
+        "options": [
+            "a) start",
+            "b) hadoop",
+            "c) had",
+            "d) hadstrat"
+        ],
+        "answer": "b",
+        "explanation": "HDInsight is the framework for the Microsoft Azure cloud implementation of Hadoop."
+    },
+    {
+        "question": "Which of the following individual components are included on HDInsight clusters?",
+        "options": [
+            "a) Hive",
+            "b) Pig",
+            "c) Oozie",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "HDInsight provides several configurations for specific workloads, or you can customize clusters using Script Actions."
+    },
+    {
+        "question": "Microsoft .NET Library for Avro provides data serialization for the Microsoft ___________ environment.",
+        "options": [
+            "a) .NET",
+            "b) Hadoop",
+            "c) Ubuntu",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Microsoft .NET Library for Avro implements the Apache Avro compact binary data interchange format for serialization for the Microsoft .NET environment."
+    },
+    {
+        "question": "Which of the following benefit is not a feature of HDInsight?",
+        "options": [
+            "a) High availability",
+            "b) High reliability",
+            "c) High cost",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "HDInsight clusters are much easier to create than manually configuring Hadoop clusters."
+    }
+]

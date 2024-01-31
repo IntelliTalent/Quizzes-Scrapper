@@ -1,0 +1,112 @@
+[
+    {
+        "question": "BigDecimal is comprised of a ________ with an integer \u2018scale\u2019 field.",
+        "options": [
+            "a) BigInt",
+            "b) BigInteger",
+            "c) MediumInt",
+            "d) SmallInt"
+        ],
+        "answer": "b",
+        "explanation": "The BigDecimal/BigInteger can also return itself as a \u2018long\u2019 value."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) BooleanSerializer is used to parse string representations of boolean values into boolean scalar types",
+            "b) BlobRef is a wrapper that holds a BLOB either directly",
+            "c) BooleanParse is used to parse string representations of boolean values into boolean scalar types",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "BlobRef is used for reference to a file that holds the BLOB data."
+    },
+    {
+        "question": "ClobRef is a wrapper that holds a CLOB either directly or a reference to a file that holds the ______ data.",
+        "options": [
+            "a) CLOB",
+            "b) BLOB",
+            "c) MLOB",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Create a ClobRef based on parsed data from a line of text."
+    },
+    {
+        "question": "__________ encapsulates a set of delimiters used to encode a record.",
+        "options": [
+            "a) LargeObjectLoader",
+            "b) FieldMapProcessor",
+            "c) DelimiterSet",
+            "d) LobSerializer"
+        ],
+        "answer": "c",
+        "explanation": "Delimiter set is created with the specified delimiters."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Abstract base class that holds a reference to a Blob or a Clob",
+            "b) ACCESSORTYPE is the type used to access this data in a streaming fashion",
+            "c) CONTAINERTYPE is the type used to hold this data (e.g., BytesWritable)",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "DATATYPE is the type being held (e.g., a byte array)."
+    },
+    {
+        "question": "_________ supports null values for all types.",
+        "options": [
+            "a) SmallObjectLoader",
+            "b) FieldMapProcessor",
+            "c) DelimiterSet",
+            "d) JdbcWritableBridge"
+        ],
+        "answer": "d",
+        "explanation": "JdbcWritableBridge class contains a set of methods which can read db columns from a ResultSet into Java types."
+    },
+    {
+        "question": "Which of the following is a singleton instance class?",
+        "options": [
+            "a) LargeObjectLoader",
+            "b) FieldMapProcessor",
+            "c) DelimiterSet",
+            "d) LobSerializer"
+        ],
+        "answer": "a",
+        "explanation": "Lifetime is limited to the current TaskInputOutputContext\u2019s life."
+    },
+    {
+        "question": "Which of the following class is used for general processing of error?",
+        "options": [
+            "a) LargeObjectLoader",
+            "b) ProcessingException",
+            "c) DelimiterSet",
+            "d) LobSerializer"
+        ],
+        "answer": "b",
+        "explanation": "General error occurs during the processing of a SqoopRecord."
+    },
+    {
+        "question": "Records are terminated by a __________ character.",
+        "options": [
+            "a) RECORD_DELIMITER",
+            "b) FIELD_DELIMITER",
+            "c) FIELD_LIMITER",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Class RecordParser parses a record containing one or more fields."
+    },
+    {
+        "question": "10.The fields parsed by ____________ are backed by an internal buffer.",
+        "options": [
+            "a) LargeObjectLoader",
+            "b) ProcessingException",
+            "c) RecordParser",
+            "d) None of the Mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Multiple threads must use separate instances of RecordParser."
+    }
+]

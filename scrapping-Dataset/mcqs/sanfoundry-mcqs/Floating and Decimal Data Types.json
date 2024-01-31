@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Select a convenient declaration and initialization of a floating point number:",
+        "options": [
+            "a) float somevariable = 12.502D",
+            "b) float somevariable = (Double) 12.502D",
+            "c) float somevariable = (float) 12.502D",
+            "d) float somevariable = (Decimal)12.502D"
+        ],
+        "answer": "c",
+        "explanation": "We cannot implicitly convert a \u201cdouble\u201d number directly to any other data type. Here, its float we have to add the required data type to number as :"
+    }
+]

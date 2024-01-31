@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Engineering Design Resolution Activities are traditionally divided into which of these major phases?",
+        "options": [
+            "a) Architecture Design",
+            "b) Detailed Design",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Engineering design resolution activities are divided into two major phases mentioned here."
+    },
+    {
+        "question": "What is Architectural Design?",
+        "options": [
+            "a) It is the activity of specifying internal elements of all major program parts,  structure and relationships",
+            "b) It is the activity of specifying programs major parts,  their responsibilities,  properties and interfaces",
+            "c) It is the activity of specifying a program\u2019s external structure",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Architectural design is the activity of specifying a program\u2019s major parts,  responsibilities,  properties and their relationships."
+    },
+    {
+        "question": "What is Detailed Design?",
+        "options": [
+            "a) It is the activity of specifying internal elements of all major program parts,  structure and relationships",
+            "b) It is the activity of specifying programs major parts,  their responsibilities,  properties and interfaces",
+            "c) It is the activity of specifying a program\u2019s external structure",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Detailed Design is the activity of specifying the internal elements of all major parts,  structures,  relationships, etc."
+    },
+    {
+        "question": "What is a Black box?",
+        "options": [
+            "a) Units with internal form and exposed internal working behavior",
+            "b) Units with external form and hidden internal working behavior",
+            "c) Units with less functional behavior",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Black boxes are the units with external form and hidden internal working behavior."
+    },
+    {
+        "question": "Which of these are included in architectural design specifications?",
+        "options": [
+            "a) Decomposition",
+            "b) Responsibilities",
+            "c) Interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Architectural design specification follows DeSCRIPTOR which includes interface, decomposition,  responsibilities, etc."
+    },
+    {
+        "question": "Which of these are not included in architectural design specifications?",
+        "options": [
+            "a) Collaboration",
+            "b) Relationships",
+            "c) Implementation",
+            "d) Properties"
+        ],
+        "answer": "c",
+        "explanation": "Architectural design specification follows DeSCRIPTOR which includes Properties, Relationship, etc but not implementation."
+    },
+    {
+        "question": "Which of these are included in detailed design specifications?",
+        "options": [
+            "a) Packaging and Implementation",
+            "b) Interface",
+            "c) Algorithms and Data Structures",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Detailed design specification follows DeSCRIPTOR-PAID which includes interface,  packaging,  implementation, data structures and algorithms etc."
+    },
+    {
+        "question": "What rule is followed by decomposition?",
+        "options": [
+            "a) Each module must be placed in charge of certain data and activities",
+            "b) Units may have important states that affect their external observable behavior",
+            "c) Depending on the size,  major parts can be divided based on range of its scope",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Decomposition states that depending on the size,  major parts can be divided based on range of its scope."
+    },
+    {
+        "question": "What is rule followed by packaging and implementation?",
+        "options": [
+            "a) Program units and their internal elements typically resides in various containers",
+            "b) The allocation of units to containers may be specified,  along with the scope and visibility of program elements",
+            "c) Allocation of units are left on programmers to decide",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "packaging and implementation follows the above mentioned rules."
+    },
+    {
+        "question": "Which of the following statement is false?",
+        "options": [
+            "a) Interface is a boundary across which entities communicate",
+            "b) Interface specification is a description f the mechanism that an entity uses to communicate with its environment",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned statements are true and not false as interface is boundary across entities and its specification is a description as mentioned."
+    }
+]

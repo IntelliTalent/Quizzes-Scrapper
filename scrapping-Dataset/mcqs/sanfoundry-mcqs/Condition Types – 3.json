@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Find the error in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "In the following query, there will be no error in executing as 5000-00-000 AND 9999-999-000 is \u201cstring ranges\u201d."
+    },
+    {
+        "question": "What will be the output of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cIN\u201d operator is used to combine the expressions."
+    },
+    {
+        "question": "What will be the output of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cNOT IN\u201d worked opposite of \u201cIN\u201d operator."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject.",
+        "options": [],
+        "answer": "a",
+        "explanation": "Only those value whose subjects are c and c++."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject.",
+        "options": [],
+        "answer": "d",
+        "explanation": "Only those value whose subjects are not c and c++ therefore answer is {1, 2, 3, 4}."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject, subject_value.",
+        "options": [],
+        "answer": "a",
+        "explanation": "Only those value will be selected whose subjects are c and c++. In the sub query subject_value=3 which belongs to subject {c, c++} after that this subject belong to intern_id {5, 6)."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject, subject_value.",
+        "options": [],
+        "answer": "d",
+        "explanation": "Only those value will be selected whose subjects are c, c++, sql, oop. In the sub query subject_value=3 OR 2 which belongs to subject {c, c++, sql, oop} after that this subject belong to intern_id (1, 2, 3, 4, 5, 6)."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject.",
+        "options": [],
+        "answer": "d",
+        "explanation": "Only those value whose subjects are not {c, c++, oop} therefore answer is {1, 4}."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject.",
+        "options": [],
+        "answer": "d",
+        "explanation": "Only those value whose subjects are {c, c++, oop} therefore answer is {2, 4, 5, 6}."
+    },
+    {
+        "question": "Consider a database name \u201cSanfoundry\u201d whose attributes are intern_id (primary key), subject.",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "A push down automaton employs ________ data structure.",
+        "options": [
+            "a) Queue",
+            "b) Linked List",
+            "c) Hash Table",
+            "d) Stack"
+        ],
+        "answer": "d",
+        "explanation": "A push down automata uses a stack to carry out its operations. They are more capable than the finite automatons but less than the turing model."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The term pushdown refers to the fact that the elements are pushed down in the stack and as per the LIFO principle, the operation is always performed on the top element of the stack."
+    },
+    {
+        "question": "Which of the following allows stacked values to be sub-stacks rather than just finite symbols?",
+        "options": [
+            "a) Push Down Automaton",
+            "b) Turing Machine",
+            "c) Nested Stack Automaton",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In computational theory, a nested stack automaton is a finite automaton which makes use of stack containing data which can be additional stacks."
+    },
+    {
+        "question": "A non deterministic two way, nested stack automaton has n-tuple definition. State the value of n.",
+        "options": [
+            "a) 5",
+            "b) 8",
+            "c) 4",
+            "d) 10"
+        ],
+        "answer": "d",
+        "explanation": "The 10-tuple can be stated as: NSA=  <Q,\u03a3,\u0393,\u03b4,q0,Z0,F,[,],]>."
+    },
+    {
+        "question": "Push down automata accepts _________ languages.",
+        "options": [
+            "a) Type 3",
+            "b) Type 2",
+            "c) Type 1",
+            "d) Type 0"
+        ],
+        "answer": "b",
+        "explanation": "Push down automata is for Context free languages and they are termed as Type 2 languages according to Chomsky hierarchy."
+    },
+    {
+        "question": "The class of languages  not accepted by non deterministic, nonerasing stack automata is _______",
+        "options": [
+            "a) NSPACE(n2)",
+            "b) NL",
+            "c) CSL",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "NSPACE or non deterministic space is the computational resource describing the memory space for a non deterministic turing machine."
+    },
+    {
+        "question": "A push down automaton with only symbol allowed on the stack along with fixed symbol.",
+        "options": [
+            "a) Embedded PDA",
+            "b) Nested Stack automata",
+            "c) DPDA",
+            "d) Counter Automaton"
+        ],
+        "answer": "d",
+        "explanation": "This class of automata can recognize a set of context free languages like {anbn|n belongs to N}"
+    },
+    {
+        "question": "Which of the operations are eligible in PDA?",
+        "options": [
+            "a) Push",
+            "b) Delete",
+            "c) Insert",
+            "d) Add"
+        ],
+        "answer": "a",
+        "explanation": "Push and pop are the operations we perform to operate a stack. A stack follows the LIFO principle, which states its rule as: Last In First Out."
+    },
+    {
+        "question": "A string is accepted by a PDA when",
+        "options": [
+            "a) Stack is not empty",
+            "b) Acceptance state",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When we reach the acceptance state and find the stack to be empty, we say, the string has been accepted by the push down automata."
+    },
+    {
+        "question": "The following move of a PDA is on the basis of:",
+        "options": [
+            "a) Present state",
+            "b) Input Symbol",
+            "c) Present state and Input Symbol",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The next operation is performed by PDA considering three factors: present state,symbol on the top of the stack and the input symbol."
+    }
+]

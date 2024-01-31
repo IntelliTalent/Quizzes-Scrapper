@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Cryptographic hash functions execute faster in software than block ciphers.",
+        "options": [
+            "a) Statement is correct",
+            "b) Statement is incorrect",
+            "c) Depends on the hash function",
+            "d) Depends on the processor"
+        ],
+        "answer": "d",
+        "explanation": "The execution time varies from processor to processor for different cryptographic systems."
+    },
+    {
+        "question": "What is the value of ipad in the HMAC structure?",
+        "options": [
+            "a) 00111110",
+            "b) 00110010",
+            "c) 10110110",
+            "d) 01110110"
+        ],
+        "answer": "b",
+        "explanation": "ipad is 36 in hexadecimal."
+    },
+    {
+        "question": "What is the value of opad in the HMAC structure?",
+        "options": [
+            "a) 00111110",
+            "b) 00110010",
+            "c) 10110110",
+            "d) 01011100"
+        ],
+        "answer": "d",
+        "explanation": "opad is 5C in hexadecimal."
+    },
+    {
+        "question": "Data Authentication Algorithm (DAA) is based on",
+        "options": [
+            "a) DES",
+            "b) AES",
+            "c) MD-5",
+            "d) SHA-1"
+        ],
+        "answer": "a",
+        "explanation": "The DAA is an algorithm based on the DES cipher block chaining mode."
+    },
+    {
+        "question": "Which mode of operation is used in the DAA?",
+        "options": [
+            "a) output feedback mode",
+            "b) electronic code block mode",
+            "c) cipher block chaining mode",
+            "d) cipher feedback mode"
+        ],
+        "answer": "c",
+        "explanation": "The DAA is an algorithm based on the DES cipher block chaining mode."
+    },
+    {
+        "question": "Which cryptographic algorithm is used in CMAC?",
+        "options": [
+            "a) Triple DES and AES",
+            "b) DES",
+            "c) RC-4",
+            "d) AES"
+        ],
+        "answer": "a",
+        "explanation": "The CMAC algorithm uses triple DES and AES."
+    },
+    {
+        "question": "In CMAC, which scenario is a different key K2 is used instead of K1?",
+        "options": [
+            "a)  If the tag is larger than the key length",
+            "b) If the tag is shorter than the key length",
+            "c) In the last step of the algorithm",
+            "d) If the plaintext/message is not an integer multiple of the cipher clock length"
+        ],
+        "answer": "d",
+        "explanation": "If the plaintext/message is not an integer multiple of the cipher clock length, then K2 is used."
+    },
+    {
+        "question": "K2 is derived by left shifting L by 2 bits. What is L defined as?",
+        "options": [
+            "a) E(K , 0",
+            "b) E(K , 10*",
+            "c) E(K , 1",
+            "d) E(K , 10*1"
+        ],
+        "answer": "a",
+        "explanation": "L is defined as encrypting b-bits of 0s with the key K through the same algorithm."
+    }
+]

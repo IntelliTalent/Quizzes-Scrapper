@@ -1,0 +1,167 @@
+[
+    {
+        "question": "There are ________ tuples in finite state machine.",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) unlimited"
+        ],
+        "answer": "Answer:b",
+        "explanation": "States, input symbols, initial state, accepting state and transition function."
+    },
+    {
+        "question": "Transition function maps.",
+        "options": [
+            "a) \u03a3 * Q -> \u03a3",
+            "b) Q * Q -> \u03a3",
+            "c) \u03a3 * \u03a3 -> Q",
+            "d) Q * \u03a3 -> Q"
+        ],
+        "answer": "Answer:d",
+        "explanation": "Inputs are state and input string output is states."
+    },
+    {
+        "question": "Number of states require to accept string ends with 10.",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 1",
+            "d) can\u2019t be represented."
+        ],
+        "answer": "Answer:a",
+        "explanation": "This is minimal finite automata."
+    },
+    {
+        "question": "Extended transition function is .",
+        "options": [
+            "a) Q * \u03a3* -> Q",
+            "b) Q * \u03a3 -> Q",
+            "c) Q* * \u03a3* -> \u03a3",
+            "d) Q * \u03a3 -> \u03a3"
+        ],
+        "answer": "Answer:a",
+        "explanation": "This takes single state and string of input to produce a state."
+    },
+    {
+        "question": "\u03b4*(q,ya) is equivalent to .",
+        "options": [
+            "a) \u03b4((q,y),a)",
+            "b) \u03b4(\u03b4*(q,y),a)",
+            "c) \u03b4(q,ya)",
+            "d) independent from \u03b4 notation"
+        ],
+        "answer": "Answer:b",
+        "explanation": "First it parse y string after that it parse a."
+    },
+    {
+        "question": "String X is accepted by finite automata if .",
+        "options": [
+            "a) \u03b4*(q,x) E A",
+            "b) \u03b4(q,x) E A",
+            "c) \u03b4*(Q0,x) E A",
+            "d) \u03b4(Q0,x) E A"
+        ],
+        "answer": "Answer:c",
+        "explanation": "If automata starts with starting state and after finite moves if reaches to final step then it called accepted."
+    },
+    {
+        "question": "Languages of a automata is",
+        "options": [
+            "a) If it is accepted by automata",
+            "b) If it halts",
+            "c) If automata touch final state in its life time",
+            "d) All language are language of automata"
+        ],
+        "answer": "Answer:a",
+        "explanation": "If a string accepted by automata it is called language of automata."
+    },
+    {
+        "question": "Language of finite automata is.",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "Answer:d",
+        "explanation": "According to Chomsky classification."
+    },
+    {
+        "question": "Finite automata requires minimum _______ number of stacks.",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) 2",
+            "d) None of the mentioned"
+        ],
+        "answer": "Answer:b",
+        "explanation": "Finite automata doesn\u2019t require any stack operation."
+    },
+    {
+        "question": "Number of final state require to accept \u03a6 in minimal finite automata.",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) None of the mentioned"
+        ],
+        "answer": "Answer:d",
+        "explanation": "No final state requires."
+    },
+    {
+        "question": "Regular expression for all strings starts with ab and ends with bba is.",
+        "options": [
+            "a) aba*b*bba",
+            "b) ab(ab)*bba",
+            "c) ab(a+b)*bba",
+            "d) All of the mentioned"
+        ],
+        "answer": "Answer:c",
+        "explanation": "Starts with ab then any number of a or b and ends with bba."
+    },
+    {
+        "question": "How many DFA\u2019s exits with two states over input alphabet {0,1} ?",
+        "options": [
+            "a) 16",
+            "b) 26",
+            "c) 32",
+            "d) 64"
+        ],
+        "answer": "Answer:d",
+        "explanation": "Number of DFA\u2019s = 2"
+    },
+    {
+        "question": "The basic limitation of finite automata is that",
+        "options": [
+            "a) It can\u2019t remember arbitrary large amount of information.",
+            "b) It sometimes recognize grammar that are not regular.",
+            "c) It sometimes fails to recognize regular grammar.",
+            "d) All of the mentioned"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Explanation:Because there is no memory associated with automata."
+    },
+    {
+        "question": "Number of states require to simulate a computer with memory capable of storing \u20183\u2019 words each of length \u20188\u2019.",
+        "options": [
+            "a) 3 * 2",
+            "b) 2",
+            "c) 2",
+            "d) None of the mentioned"
+        ],
+        "answer": "Answer:b",
+        "explanation": "2"
+    },
+    {
+        "question": "FSM with output capability can be used to add two given integer in binary representation. This is",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) May be true",
+            "d) None of the mentioned"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Use them as a flip flop output."
+    }
+]

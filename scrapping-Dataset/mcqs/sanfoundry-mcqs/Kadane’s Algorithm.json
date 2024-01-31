@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Kadane\u2019s algorithm is used to find ____________",
+        "options": [
+            "a) Longest increasing subsequence",
+            "b) Longest palindrome subsequence",
+            "c) Maximum sub-array sum",
+            "d) Longest decreasing subsequence"
+        ],
+        "answer": "c",
+        "explanation": "Kadane\u2019s algorithm is used to find the maximum sub-array sum for a given array."
+    },
+    {
+        "question": "Kadane\u2019s algorithm uses which of the following techniques?",
+        "options": [
+            "a) Divide and conquer",
+            "b) Dynamic programming",
+            "c) Recursion",
+            "d) Greedy algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Kadane\u2019s algorithm uses dynamic programming."
+    },
+    {
+        "question": "For which of the following inputs would Kadane\u2019s algorithm produce the INCORRECT output?",
+        "options": [
+            "a) {0,1,2,3}",
+            "b) {-1,0,1}",
+            "c) {-1,-2,-3,0}",
+            "d) {-4,-3,-2,-1}"
+        ],
+        "answer": "d",
+        "explanation": "Kadane\u2019s algorithm works if the input array contains at least one non-negative element. Every element in the array {-4,-3,-2,-1} is negative. Hence Kadane\u2019s algorithm won\u2019t work."
+    },
+    {
+        "question": "For which of the following inputs would Kadane\u2019s algorithm produce a WRONG output?",
+        "options": [
+            "a) {1,0,-1}",
+            "b) {-1,-2,-3}",
+            "c) {1,2,3}",
+            "d) {0,0,0}"
+        ],
+        "answer": "b",
+        "explanation": "Kadane\u2019s algorithm doesn\u2019t work for all negative numbers. So, the answer is {-1,-2,-3}."
+    },
+    {
+        "question": "Complete the following code for Kadane\u2019s algorithm:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The maximum of sum and ans, is stored in ans. So, the answer is max_num(sum, ans)."
+    },
+    {
+        "question": "What is the time complexity of Kadane\u2019s algorithm?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(5)"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of Kadane\u2019s algorithm is O(n) because there is only one for loop which scans the entire array exactly once."
+    },
+    {
+        "question": "What is the space complexity of Kadane\u2019s algorithm?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Kadane\u2019s algorithm uses a constant space. So, the space complexity is O(1)."
+    },
+    {
+        "question": "What is the output of the following implementation of Kadane\u2019s algorithm?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Kadane\u2019s algorithm produces the maximum sub-array sum, which is equal to 9."
+    },
+    {
+        "question": "What is the output of the following implementation of Kadane\u2019s algorithm?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Kadane\u2019s algorithm produces a wrong output when all the elements are negative. The output produced is 0."
+    },
+    {
+        "question": "Consider the following implementation of Kadane\u2019s algorithm:",
+        "options": [],
+        "answer": "c",
+        "explanation": "Both change 1 and change 2 should be made to Kadane\u2019s algorithm so that it produces the right output even when all the array elements are negative."
+    }
+]

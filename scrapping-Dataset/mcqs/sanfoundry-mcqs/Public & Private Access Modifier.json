@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Which of these is used as a default specifier for a member of the class if no access specifier is used for it?",
+        "options": [
+            "a) private",
+            "b) public",
+            "c) public, within its own class",
+            "d) protected"
+        ],
+        "answer": "a",
+        "explanation": "By definition if a class has no access specifiers, it defaults to private accessibility."
+    },
+    {
+        "question": "Which of these is used to access members of class before the object of that class is created?",
+        "options": [
+            "a) public",
+            "b) private",
+            "c) static",
+            "d) protected"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these base classes are accessible to the derived class members?",
+        "options": [
+            "a) static",
+            "b) protected",
+            "c) private",
+            "d) Shared"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the process by which we can control parts of a program that can access the members of a class?",
+        "options": [
+            "a) Polymorphism",
+            "b) Abstraction",
+            "c) Encapsulation",
+            "d) Recursion"
+        ],
+        "answer": "c",
+        "explanation": "By definition."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "variable \u2018y\u2019 is not accessible due to its access level."
+    }
+]

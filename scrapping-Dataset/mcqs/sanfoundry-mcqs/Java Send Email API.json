@@ -1,0 +1,68 @@
+[
+    {
+        "question": "To send an email using your Java Application:-",
+        "options": [
+            "a) JavaMail API",
+            "b) Java Activation Framework (JAF)",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can download latest version of JavaMail (Version 1.2) from Java\u2019s standard website. You can download latest version of JAF (Version 1.1.1) from Java\u2019s standard website."
+    },
+    {
+        "question": "If you want to send an email to multiple recipients:-",
+        "options": [
+            "a) void addRecipients(Message.RecipientType type, Address[] addresses)",
+            "b) void addRecipients(Message.RecipientType type)",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you want to send an email to multiple recipients then the following methods would be used to specify multiple email IDs:"
+    },
+    {
+        "question": "void addRecipients(Message.RecipientType type, Address[] addresses)",
+        "options": [
+            "a) TO",
+            "b) CC",
+            "c) BCC",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "This would be set to TO, CC or BCC. Here CC represents Carbon Copy and BCC represents Black Carbon Copy. Example Message.RecipientType.TO."
+    },
+    {
+        "question": "void addRecipients(Message.RecipientType type, Address[] addresses)",
+        "options": [
+            "a) Internet",
+            "b) InternetAddress",
+            "c) BCC",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Addresses: This is the array of email ID. You would need to use the InternetAddress() method while specifying email IDs."
+    },
+    {
+        "question": "To set content whose second argument is \u201ctext/html\u201d to specify that the HTML content is included in the message.",
+        "options": [
+            "a) setContent",
+            "b) content",
+            "c) setMail",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "setContent() method to set content whose second argument is \u201ctext/html\u201d to specify that the HTML content is included in the message."
+    },
+    {
+        "question": "If it is required to provide user ID and Password to the email server for authentication purpose then you can set properties:",
+        "options": [
+            "a) props.setProperty(\u201cmail.user\u201d, \u201cmyuser\u201d)",
+            "b) props.setProperty(\u201cmail.password\u201d, \u201cmypwd\u201d)",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If it is required to provide user ID and Password to the email server for authentication purpose then you can set these properties as follows:"
+    }
+]

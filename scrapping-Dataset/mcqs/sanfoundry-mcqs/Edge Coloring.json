@@ -1,0 +1,152 @@
+[
+    {
+        "question": "In graph theory collection of dots and lines is called",
+        "options": [
+            "a) vertex",
+            "b) edge",
+            "c) graph",
+            "d) map"
+        ],
+        "answer": "c",
+        "explanation": "According to the graph theory a graph is the collection of dots and lines. Vertices are also called dots and lines are also called edges."
+    },
+    {
+        "question": "What is the condition for proper edge coloring of a graph?",
+        "options": [
+            "a) Two vertices having a common edge should not have same color",
+            "b) Two vertices having a common edge should always have same color",
+            "c) No two incident edges should have the same color",
+            "d) No two incident edges should have different color"
+        ],
+        "answer": "c",
+        "explanation": "The condition for proper edge coloring of graph is that no two incident edges should have the same color. If it uses k colors in the process then it is called k edge coloring of graph."
+    },
+    {
+        "question": "The number of colors used by a proper edge coloring graph is called?",
+        "options": [
+            "a) k edge coloring graph",
+            "b) x edge coloring graph",
+            "c) m edge coloring graph",
+            "d) n edge coloring graph"
+        ],
+        "answer": "a",
+        "explanation": "A proper edge coloring graph ensures that no two incident edges has the same color. If it uses k colors in the process then it is called k coloring of graph."
+    },
+    {
+        "question": "What is a chromatic index?",
+        "options": [
+            "a) The maximum number of colors required for proper edge coloring of graph",
+            "b) The maximum number of colors required for proper vertex coloring of graph",
+            "c) The minimum number of colors required for proper vertex coloring of graph",
+            "d) The minimum number of colors required for proper edge coloring of graph"
+        ],
+        "answer": "d",
+        "explanation": "The minimum number of colors required for proper edge coloring of graph is called chromatic index whereas the minimum number of colors required for proper vertex coloring of graph is called chromatic number of a graph."
+    },
+    {
+        "question": "What will be the chromatic index for an empty graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "a",
+        "explanation": "An empty graph is a graph without any edges. So the chromatic index for such a graph will be 0."
+    },
+    {
+        "question": "If chromatic number of a line graph is 4 then the chromatic index of the graph will be?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 4",
+            "d) information insufficient"
+        ],
+        "answer": "c",
+        "explanation": "The chromatic index of a graph is always equal to the chromatic number of its line graph. So the chromatic index of the graph will be 4."
+    },
+    {
+        "question": "Calculating the chromatic index of a graph is a ______________",
+        "options": [
+            "a) P problem",
+            "b) NP hard problem",
+            "c) NP complete problem",
+            "d) Cannot be identified as any of the given problem types"
+        ],
+        "answer": "c",
+        "explanation": "Chromatic index of an arbitrary graph cannot be determined by using any convenient method. So calculating the chromatic index of a graph is an NP complete problem."
+    },
+    {
+        "question": "Chromatic number of line graph is always equal to the chromatic index of the graph.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The chromatic index of a graph is always equal to the chromatic number of its line graph. So we can calculate the chromatic index of a graph by calculating the chromatic number of its line graph."
+    },
+    {
+        "question": "Bipartite graph belongs to class 1 graphs.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A bipartite graph has an edge chromatic number equal to \u0394. So bipartite graphs belongs to class 1 graphs."
+    },
+    {
+        "question": "What will be the chromatic index of the following graph?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will require 2 unique colors so that no two incident edges have the same color. So its chromatic index will be 2."
+    },
+    {
+        "question": "What will be the chromatic index of the following graph?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will require 3 unique colors so that no two incident edges have the same color. So its chromatic index will be 3."
+    },
+    {
+        "question": "What will be the chromatic index of the following graph?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The given graph will require 2 unique colors so that no two incident edges have the same color. So its chromatic index will be 2."
+    },
+    {
+        "question": "What will be the chromatic index for a complete graph having n vertices (consider n to be an odd number)?",
+        "options": [
+            "a) n",
+            "b) n + 1",
+            "c) n \u2013 1",
+            "d) 2n + 1"
+        ],
+        "answer": "a",
+        "explanation": "A complete graph is the one in which each vertex is directly connected with all other vertices with an edge. The chromatic index for an odd number of vertices will be n."
+    },
+    {
+        "question": "What will be the chromatic index for a complete graph having n vertices (consider n to be an even number)?",
+        "options": [
+            "a) n",
+            "b) n + 1",
+            "c) n \u2013 1",
+            "d) 2n + 1"
+        ],
+        "answer": "c",
+        "explanation": "A complete graph is the one in which each vertex is directly connected with all other vertices with an edge. The chromatic index for even number of vertices will be n-1."
+    }
+]

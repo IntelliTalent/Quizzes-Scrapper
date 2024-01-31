@@ -1,0 +1,112 @@
+[
+    {
+        "question": "If f(x) = (x",
+        "options": [
+            "a) O(x",
+            "b) O(x)",
+            "c) O(x",
+            "d) O(1)"
+        ],
+        "answer": "a",
+        "explanation": "0 < (x"
+    },
+    {
+        "question": "If f(x) = 3x",
+        "options": [
+            "a) O(x",
+            "b) O(x",
+            "c) O(x)",
+            "d) O(1)"
+        ],
+        "answer": "b",
+        "explanation": "0 < 3x"
+    },
+    {
+        "question": "The big-O notation for f(n) = (nlogn + n",
+        "options": [
+            "a) O(n",
+            "b) O(3",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "0 < n"
+    },
+    {
+        "question": "The big-theta notation for function f(n) = 2n",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) n",
+            "d) n"
+        ],
+        "answer": "c",
+        "explanation": "2n"
+    },
+    {
+        "question": "The big-theta notation for f(n) = nlog(n",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) logn",
+            "d) nlog(n"
+        ],
+        "answer": "a",
+        "explanation": "n"
+    },
+    {
+        "question": "If f",
+        "options": [
+            "a) O(g(x))",
+            "b) o(g(x))",
+            "c) O(g(x)) + o(g(x))",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "f"
+    },
+    {
+        "question": "The little-o notation for f(x) = xlogx is?",
+        "options": [
+            "a) x",
+            "b) x",
+            "c) x",
+            "d) xlogx"
+        ],
+        "answer": "c",
+        "explanation": "Find the limit for xlogx / x"
+    },
+    {
+        "question": "The big-O notation for f(n) = 2log(n!) + (n",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) nlogn",
+            "d) n"
+        ],
+        "answer": "d",
+        "explanation": "log(n!) < n"
+    },
+    {
+        "question": "The big-O notation for f(x) = 5logx is?",
+        "options": [
+            "a) 1",
+            "b) x",
+            "c) x",
+            "d) x"
+        ],
+        "answer": "b",
+        "explanation": "logx < x, it follows that 5logx < x."
+    },
+    {
+        "question": "The big-Omega notation for f(x) = 2x",
+        "options": [
+            "a) x",
+            "b) x",
+            "c) x",
+            "d) x"
+        ],
+        "answer": "d",
+        "explanation": "2x"
+    }
+]

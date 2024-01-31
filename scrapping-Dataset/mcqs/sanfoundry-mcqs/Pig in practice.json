@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which of the following scripts that generate more than three MapReduce jobs?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "For each MapReduce job, the loader produces a tuple with schema (j:map[], m:map[], r:map[])."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) LoadPredicatePushdown is same as LoadMetadata.setPartitionFilter",
+            "b) getOutputFormat() is called by Pig to get the InputFormat used by the loader",
+            "c) Pig works with data from many sources",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Data sources include structured and unstructured data, and store the results into the Hadoop Data File System."
+    },
+    {
+        "question": "Which of the following find the running time of each script (in seconds)?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The HadoopJobHistoryLoader in Piggybank loads Hadoop job history files and job xml files from file system."
+    },
+    {
+        "question": "Which of the following script determines the number of scripts run by user and queue on a cluster?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "EmbeddedPigStats contains a map of SimplePigStats or TezPigScriptStats, which captures the Pig job launched in the embedded script."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Pig can invoke code in language like Java Only",
+            "b) Pig enables data workers to write complex data transformations without knowing Java",
+            "c) Pig\u2019s simple SQL-like scripting language is called Pig Latin, and appeals to developers already familiar with scripting languages and SQL",
+            "d) Pig is complete, so you can do all required data manipulations in Apache Hadoop with Pig"
+        ],
+        "answer": "a",
+        "explanation": "Through the User Defined Functions(UDF) facility in Pig, Pig can invoke code in many languages like JRuby, Jython and Java."
+    },
+    {
+        "question": "Which of the following script is used to check scripts that have failed jobs?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Pig provides the ability to register a listener to receive event notifications during the execution of a script."
+    },
+    {
+        "question": "Which of the following code is used to find scripts that use only the default parallelism?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The first map in the schema contains job-related entries."
+    },
+    {
+        "question": "Pig Latin is _______ and fits very naturally in the pipeline paradigm while SQL is instead declarative.",
+        "options": [
+            "a) functional",
+            "b) procedural",
+            "c) declarative",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " In SQL users can specify that data from two tables must be joined, but not what join implementation to use."
+    },
+    {
+        "question": "In comparison to SQL, Pig uses ______________",
+        "options": [
+            "a) Lazy evaluation",
+            "b) ETL",
+            "c) Supports pipeline splits",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Pig Latin ability to include user code at any point in the pipeline is useful for pipeline development."
+    },
+    {
+        "question": "Which of the following is an entry in jobconf?",
+        "options": [
+            "a) pig.job",
+            "b) pig.input.dirs",
+            "c) pig.feature",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "pig.input.dirs contains comma-separated list of input directories for the job."
+    }
+]

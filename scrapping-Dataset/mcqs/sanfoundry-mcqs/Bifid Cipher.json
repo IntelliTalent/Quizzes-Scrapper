@@ -1,0 +1,105 @@
+[
+    {
+        "question": "What is the period in bifid cipher?",
+        "options": [
+            "a) length of blocks in which the plain text is divided before encryption",
+            "b) number of letters after which the key is repeated",
+            "c) number of blocks into which the plain text is divided before encryption",
+            "d) number of keys used for encryption"
+        ],
+        "answer": "a",
+        "explanation": "Polybius square is similar to substitution cipher. It is also known by the name of Polybius checkboard."
+    },
+    {
+        "question": "Which of the following cipher uses polybius square?",
+        "options": [
+            "a) bifid cipher",
+            "b) beaufort cipher",
+            "c) trithemius cipher",
+            "d) gronsfeld cipher"
+        ],
+        "answer": "a",
+        "explanation": "Bifid cipher uses polybius square for encrypting the plain text. Bifid cipher combines polybius square cipher with transposition."
+    },
+    {
+        "question": "Bifid cipher combines transposition with which of the following cipher?",
+        "options": [
+            "a) Polybius square cipher",
+            "b) Playfair cipher",
+            "c) gronsfeld cipher",
+            "d) trifid cipher"
+        ],
+        "answer": "a",
+        "explanation": "Bifid cipher combines polybius square cipher with transposition. It uses fractionation to obtain diffusion."
+    },
+    {
+        "question": "What will be the key square in bifid cipher for the key \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "For forming the key square from the given key we first add the letters of the key in the square by omitting the repeated letters and then we add the remaining letters of the English alphabet. Usually, I and J are combined together."
+    },
+    {
+        "question": "Trifid cipher encrypts the plain text by using bifid cipher twice.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Trifid cipher is a variation of bifid cipher. The only difference between them is that trifid cipher uses a 3\u00d73 key square instead of 5\u00d75 square."
+    },
+    {
+        "question": "Bifid square combines autokey square with transposition.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Bifid square combines polybius square with transposition. So the given statement is false."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cSANFOUNDRY\u201d if bifid cipher is used for encryption with key as \u201cKEY\u201d with period as 5?",
+        "options": [
+            "a) SBPISZTKZH",
+            "b) PLNSOWGKQM",
+            "c) SELFQEXBHM",
+            "d) YFSGWNFBW"
+        ],
+        "answer": "b",
+        "explanation": "For encrypting the plain text using bifid cipher we first form the polybius square with the help of given key. After this, the plain text is divided into blocks of length 5 and corresponding coordinates are noted. So the corresponding cipher text would be \u201cPLNSOWGKQM\u201d."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cALGORITHM\u201d if bifid cipher is used for encryption with key as \u201cKEY\u201d with a period as 5?",
+        "options": [
+            "a) SBPISZTKZH",
+            "b) PLNSOWGKQM",
+            "c) SELFQEXBHM",
+            "d) YFSGWNFBW"
+        ],
+        "answer": "d",
+        "explanation": "For encrypting the plain text using bifid cipher we first form the polybius square with the help of given key. After this, the plain text is divided into blocks of length 5 and corresponding coordinates are noted. So the corresponding cipher text would be \u201cYFSGWNFBW\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cXKS\u201d if the bifid cipher is used with key as \u201cKEY\u201d and period as 5?",
+        "options": [
+            "a) IND",
+            "b) USA",
+            "c) RSA",
+            "d) AUS"
+        ],
+        "answer": "b",
+        "explanation": "The decryption in bifid cipher begins identically to encryption. Then we find the corresponding coordinates and then we get the plain text. So the plain text is \u201cUSA\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to ciphered text \u201cBKC\u201d if the bifid cipher is used for encryption with key as \u201cKEY\u201d and period 5?",
+        "options": [
+            "a) MSD",
+            "b) SRT",
+            "c) KVK",
+            "d) VVS"
+        ],
+        "answer": "c",
+        "explanation": "The decryption in bifid cipher begins identically to encryption. Then we find the corresponding coordinates and then we get the plain text. So the plain text is \u201cKVK\u201d."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Quandl API for Python wraps the ________ REST API to return Pandas DataFrames with time series indexes.",
+        "options": [
+            "a) Quandl",
+            "b) PyDatastream",
+            "c) PyData",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "PyDatastream is a Python interface to the Thomson Dataworks Enterprise (DWE/Datastream) SOAP API to return indexed pandas dataFrames or panels with financial data."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Statsmodels provides powerful statistics, econometrics, analysis and modeling functionality that is out of panda\u2019s scope",
+            "b) Vintage leverages pandas objects as the underlying data container for computation",
+            "c) Bokeh is a Python interactive visualization library for small datasets",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Bokeh goal is to provide elegant, concise construction of novel graphics in the style of D3."
+    },
+    {
+        "question": "Which of the following library is used to retrieve and acquire statistical data and metadata disseminated in SDMX 2.1?",
+        "options": [
+            "a) pandaSDMX",
+            "b) freedapi",
+            "c) geopandas",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Geopandas extends pandas data objects to include geographic information which supports geometric operations."
+    },
+    {
+        "question": "Which of the following provides a standard API for doing computations with MongoDB?",
+        "options": [
+            "a) Blaze",
+            "b) Geopandas",
+            "c) FRED",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If your work entails maps and geographical coordinates, and you love pandas, you should take a close look at Geopandas."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) qgrid is an interactive grid for sorting and filtering DataFrames",
+            "b) Pandas DataFrames implement _repr_html_ methods which are utilized by IPython Notebook",
+            "c) Spyder is a cross-platform Qt-based open-source R IDE",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spyder is a cross-platform Qt-based open-source Python IDE."
+    },
+    {
+        "question": "Which of the following makes use of pandas and returns data in a series or dataFrame?",
+        "options": [
+            "a) pandaSDMX",
+            "b) freedapi",
+            "c) OutPy",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "freedapi module requires a FRED API key that you can obtain for free on the FRED website."
+    },
+    {
+        "question": "Spyder can introspect and display Pandas DataFrames.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Spyder show both \u201ccolumn wise min/max and global min/max coloring."
+    },
+    {
+        "question": "Which of the following is used for machine learning in python?",
+        "options": [
+            "a) scikit-learn",
+            "b) seaborn-learn",
+            "c) stats-learn",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "scikit-learn is built on NumPy, SciPy, and matplotlib."
+    },
+    {
+        "question": "The ________ project builds on top of pandas and matplotlib to provide easy plotting of data.",
+        "options": [
+            "a) yhat",
+            "b) Seaborn",
+            "c) Vincent",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Seaborn has great support for pandas data objects."
+    },
+    {
+        "question": "x-ray brings the labeled data power of pandas to the physical sciences.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It aims to provide a pandas-like and pandas-compatible toolkit for analytics on multi-dimensional arrays."
+    }
+]

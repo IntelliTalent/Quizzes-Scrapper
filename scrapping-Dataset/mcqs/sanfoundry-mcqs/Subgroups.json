@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A trivial subgroup consists of ___________",
+        "options": [
+            "a) Identity element",
+            "b) Coset",
+            "c) Inverse element",
+            "d) Ring"
+        ],
+        "answer": "a",
+        "explanation": "Let G be a group under a binary operation * and a subset H of G is called a subgroup of G if H forms a group under the operation *. The trivial subgroup of any group is the subgroup consisting of only the Identity element."
+    },
+    {
+        "question": "Minimum subgroup of a group is called _____________",
+        "options": [
+            "a) a commutative subgroup",
+            "b) a lattice",
+            "c) a trivial group",
+            "d) a monoid"
+        ],
+        "answer": "c",
+        "explanation": "The subgroups of any given group form a complete lattice under inclusion termed as a lattice of subgroups. If o is the Identity element of a group(G), then the trivial group(o) is the minimum subgroup of that group and G is the maximum subgroup."
+    },
+    {
+        "question": "Let K be a group with 8 elements. Let H be a subgroup of K and H<K. It is known that the size of H is at least 3. The size of H is __________",
+        "options": [
+            "a) 8",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "For any finite group G, the order (number of elements) of every subgroup L of G divides the order of G. G has 8 elements. Factors of 8 are 1, 2, 4 and 8. Since given the size of L is at least 3(1 and 2 eliminated) and not equal to G(8 eliminated), the only size left is 4. Size of L is 4."
+    },
+    {
+        "question": "__________ is not necessarily a property of a Group.",
+        "options": [
+            "a) Commutativity",
+            "b) Existence of inverse for every element",
+            "c) Existence of Identity",
+            "d) Associativity"
+        ],
+        "answer": "a",
+        "explanation": "Grupoid has closure property; semigroup has closure and associative; monoid has closure, associative and identity property; group has closure, associative, identity and inverse; the abelian group has group property and commutative."
+    },
+    {
+        "question": "A group of rational numbers is an example of __________",
+        "options": [
+            "a) a subgroup of a group of integers",
+            "b) a subgroup of a group of real numbers",
+            "c) a subgroup of a group of irrational numbers",
+            "d) a subgroup of a group of complex numbers"
+        ],
+        "answer": "b",
+        "explanation": "If we consider the abelian group as a group rational numbers under binary operation + then it is an example of a subgroup of a group of real numbers."
+    },
+    {
+        "question": "Intersection of subgroups is a ___________",
+        "options": [
+            "a) group",
+            "b) subgroup",
+            "c) semigroup",
+            "d) cyclic group"
+        ],
+        "answer": "b",
+        "explanation": "The subgroup property is intersection closed. An arbitrary (nonempty) intersection of subgroups with this property, also attains the similar property."
+    },
+    {
+        "question": "The group of matrices with determinant _________ is a subgroup of the group of invertible matrices under multiplication.",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 1",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "The group of real matrices with determinant 1 is a subgroup of the group of invertible real matrices, both equipped with matrix multiplication. It has to be shown that the product of two matrices with determinant 1 is another matrix with determinant 1, but this is immediate from the multiplicative property of the determinant. This group is usually denoted by(n, R)."
+    },
+    {
+        "question": "What is a circle group?",
+        "options": [
+            "a) a subgroup complex numbers having magnitude 1 of the group of nonzero complex elements",
+            "b) a subgroup rational numbers having magnitude 2 of the group of real elements",
+            "c) a subgroup irrational numbers having magnitude 2  of the group of nonzero complex elements",
+            "d) a subgroup complex numbers having magnitude 1 of the group of whole numbers"
+        ],
+        "answer": "a",
+        "explanation": "The set of complex numbers with magnitude 1 is a subgroup of the nonzero complex numbers associated with multiplication. It is called the circle group as its elements form the unit circle."
+    },
+    {
+        "question": "A normal subgroup is ____________",
+        "options": [
+            "a) a subgroup under multiplication by the elements of the group",
+            "b) an invariant under closure by the elements of that group",
+            "c) a monoid with same number of elements of the original group",
+            "d) an invariant equipped with conjugation by the elements of original group"
+        ],
+        "answer": "d",
+        "explanation": "A normal subgroup is a subgroup that is invariant under conjugation by any element of the original group that is, K is normal if and only if gKg"
+    },
+    {
+        "question": "Two groups are isomorphic if and only if __________ is existed between them.",
+        "options": [
+            "a) homomorphism",
+            "b) endomorphism",
+            "c) isomorphism",
+            "d) association"
+        ],
+        "answer": "c",
+        "explanation": "Two groups M and K are isomorphic (M ~= K) if and only if there exists an isomorphism between them. An isomorphism f:M -> K between two groups M and K is a mapping which satisfies two conditions: 1) f is a bijection and 2) for every x,y belongs to M, we have f(x*My) = f(x) * Kf(y)."
+    }
+]

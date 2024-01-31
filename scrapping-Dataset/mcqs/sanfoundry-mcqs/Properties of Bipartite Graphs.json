@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which type of graph has no odd cycle in it?",
+        "options": [
+            "a) Bipartite",
+            "b) Histogram",
+            "c) Cartesian",
+            "d) Pie"
+        ],
+        "answer": "a",
+        "explanation": "The graph is known as Bipartite if the graph does not contain any odd length cycle in it. Odd length cycle means a cycle with the odd number of vertices in it."
+    },
+    {
+        "question": "What type of graph has chromatic number less than or equal to 2?",
+        "options": [
+            "a) Histogram",
+            "b) Bipartite",
+            "c) Cartesian",
+            "d) Tree"
+        ],
+        "answer": "b",
+        "explanation": "A graph is known as bipartite graph if and only if it has the total chromatic number less than or equal to 2. The smallest number of graphs needed to color the graph is chromatic number."
+    },
+    {
+        "question": "Which of the following is the correct type of spectrum of the bipartite graph?",
+        "options": [
+            "a) Symmetric",
+            "b) Anti \u2013 Symmetric",
+            "c) Circular",
+            "d) Exponential"
+        ],
+        "answer": "a",
+        "explanation": "The spectrum of the bipartite graph is symmetric in nature. The spectrum is the property of graph that are related to polynomial, Eigen values, Eigen vectors of the matrix related to graph."
+    },
+    {
+        "question": "Which of the following is not a property of the bipartite graph?",
+        "options": [
+            "a) No Odd Cycle",
+            "b) Symmetric spectrum",
+            "c) Chromatic Number Is Less Than or Equal to 2",
+            "d) Asymmetric spectrum"
+        ],
+        "answer": "d",
+        "explanation": "A graph is known to be bipartite if it has odd length cycle number. It also has symmetric spectrum and the bipartite graph contains the total chromatic number less than or equal to 2."
+    },
+    {
+        "question": "Which one of the following is the chromatic number of bipartite graph?",
+        "options": [
+            "a) 1",
+            "b) 4",
+            "c) 3",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "A graph is known as bipartite graph if and only if it has the total chromatic number less than or equal to 2. The smallest number of graphs needed to color the graph is the chromatic number."
+    },
+    {
+        "question": "Which graph has a size of minimum vertex cover equal to maximum matching?",
+        "options": [
+            "a) Cartesian",
+            "b) Tree",
+            "c) Heap",
+            "d) Bipartite"
+        ],
+        "answer": "d",
+        "explanation": "The Konig\u2019s theorem given the equivalence relation between the minimum vertex cover and the maximum matching in graph theory. Bipartite graph has a size of minimum vertex cover equal to maximum matching."
+    },
+    {
+        "question": "Which theorem gives the relation between the minimum vertex cover and maximum matching?",
+        "options": [
+            "a) Konig\u2019s Theorem",
+            "b) Kirchhoff\u2019s Theorem",
+            "c) Kuratowski\u2019s Theorem",
+            "d) Kelmans Theorem"
+        ],
+        "answer": "a",
+        "explanation": "The Konig\u2019s theorem given the equivalence relation between the minimum vertex cover and the maximum matching in graph theory. Bipartite graph has a size of minimum vertex cover equal to maximum matching."
+    },
+    {
+        "question": "Which of the following is not a property of perfect graph?",
+        "options": [
+            "a) Compliment of Line Graph of Bipartite Graph",
+            "b) Compliment of Bipartite Graph",
+            "c) Line Graph of Bipartite Graph",
+            "d) Line Graph"
+        ],
+        "answer": "d",
+        "explanation": "TThe Compliment of Line Graph of Bipartite Graph, Compliment of Bipartite Graph, Line Graph of Bipartite Graph and every Bipartite Graph is known as a perfect graph in graph theory. Normal line graph is not a perfect graph whereas line perfect graph is a graph whose line graph is a perfect graph."
+    },
+    {
+        "question": "Which of the following graphs don\u2019t have chromatin number less than or equal to 2?",
+        "options": [
+            "a) Compliment of Line Graph of Bipartite Graph",
+            "b) Compliment of Bipartite Graph",
+            "c) Line Graph of Bipartite Graph",
+            "d) Wheel graph"
+        ],
+        "answer": "d",
+        "explanation": "The perfect bipartite graph has chromatic number 2. Also, the Compliment of Line Graph of Bipartite Graph, Compliment of Bipartite Graph, Line Graph of Bipartite Graph and every Bipartite Graph is known as perfect graph in graph theory. Wheel graph Wn has chromatin number 3 if n is odd and 4 if n is even."
+    },
+    {
+        "question": "Which of the following has maximum clique size 2?",
+        "options": [
+            "a) Perfect graph",
+            "b) Tree",
+            "c) Histogram",
+            "d) Cartesian"
+        ],
+        "answer": "a",
+        "explanation": "The perfect bipartite graph has clique size 2. Also, the clique size of Compliment of Line Graph of Bipartite Graph, Compliment of Bipartite Graph, Line Graph of Bipartite Graph and every Bipartite Graph is 2."
+    },
+    {
+        "question": "What is the chromatic number of compliment of line graph of bipartite graph?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The perfect bipartite graph has chromatic number 2. So the Compliment of Line Graph of Bipartite Graph, Compliment of Bipartite Graph, Line Graph of Bipartite Graph and every Bipartite Graph has chromatic number 2."
+    },
+    {
+        "question": "What is the clique size of the line graph of bipartite graph?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The perfect bipartite graph has clique size 2. So the clique size of Compliment of Line Graph of Bipartite Graph, Compliment of Bipartite Graph, Line Graph of Bipartite Graph and every Bipartite Graph is 2."
+    },
+    {
+        "question": "It is possible to have a negative chromatic number of bipartite graph.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A graph is known as bipartite graph if and only if it has the total chromatic number less than or equal to 2. The smallest number of graphs needed to color the graph is the chromatic number. But the chromatic number cannot be negative."
+    },
+    {
+        "question": "Every Perfect graph has forbidden graph characterization.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Berge theorem proves the forbidden graph characterization of every perfect graphs. Because of that reason every bipartite graph is perfect graph."
+    },
+    {
+        "question": "Which structure can be modelled by using Bipartite graph?",
+        "options": [
+            "a) Hypergraph",
+            "b) Perfect Graph",
+            "c) Hetero Graph",
+            "d) Directed Graph"
+        ],
+        "answer": "a",
+        "explanation": "A combinatorial structure such as Hypergraph can be made using the bipartite graphs. A hypergraph in graph theory is a type of graph in which edge can join any number of vertices."
+    }
+]

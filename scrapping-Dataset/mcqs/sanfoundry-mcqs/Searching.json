@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Which of the following searching algorithm is fastest?",
+        "options": [
+            "a) binary search",
+            "b) linear search",
+            "c) jump search",
+            "d) all are equally fast"
+        ],
+        "answer": "a",
+        "explanation": "Binary search has the least time complexity (equal to log n) out of the given searching algorithms. This makes binary search preferable in most cases."
+    },
+    {
+        "question": "Where is linear searching used?",
+        "options": [
+            "a) Used all the time",
+            "b) When the list has only a few elements",
+            "c) When performing a single search in an unordered list",
+            "d) When the list has only a few elements and When performing a single search in an unordered list"
+        ],
+        "answer": "d",
+        "explanation": "It is practical to implement linear search in the situations mentioned in When the list has only a few elements and When performing a single search in an unordered list, but for larger elements the complexity becomes larger and it makes sense to sort the list and employ binary search or hashing."
+    },
+    {
+        "question": "How can Jump Search be improved?",
+        "options": [
+            "a) Step size should be other than sqrt(n)",
+            "b) Cannot be improved",
+            "c) Begin from the kth item, where k is the step size",
+            "d) Start searching from the end"
+        ],
+        "answer": "c",
+        "explanation": "This gives a very slight improvement as you are skipping the first k elements."
+    },
+    {
+        "question": "Which of the following searching algorithm is used with exponential sort after finding the appropriate range?",
+        "options": [
+            "a) Jump search",
+            "b) Fibonacci Search",
+            "c) Linear search",
+            "d) Binary search"
+        ],
+        "answer": "d",
+        "explanation": "In exponential search, we first find a range where the required elements should be present in the array. Then we apply binary search in this range."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest when the input array is not sorted but has uniformly distributed values?",
+        "options": [
+            "a) linear search",
+            "b) jump search",
+            "c) interpolation search",
+            "d) binary search"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options linear search is the only searching algorithm which can be applied to arrays which are not sorted. It has a time complexity of O(n) in the worst case."
+    },
+    {
+        "question": "What is the time complexity of Z algorithm for pattern searching (m = length of text, n = length of pattern)?",
+        "options": [
+            "a) O(n)",
+            "b) O(m)",
+            "c) O(n + m)",
+            "d) O(m * n)"
+        ],
+        "answer": "c",
+        "explanation": "Z algorithm is an efficient pattern searching algorithm as it searches the pattern in linear time. It has a time complexity of O(m + n) where m is the length of text and n is the length of the pattern."
+    },
+    {
+        "question": "In which of the cases uniform binary search fails compared to binary search?",
+        "options": [
+            "a) Complexity of code",
+            "b) Many searches will be performed on several arrays of the same length",
+            "c) Many searches will be performed on the same array",
+            "d) A table lookup is generally faster than an addition and a shift"
+        ],
+        "answer": "a",
+        "explanation": "Uniform binary search code is more complex to implement than binary search as it involves mid points to be computed in hand before search."
+    },
+    {
+        "question": "Interpolation search is a variation of?",
+        "options": [
+            "a) Exponential search",
+            "b) Linear search",
+            "c) Binary search",
+            "d) Jump search"
+        ],
+        "answer": "c",
+        "explanation": "Interpolation search is a variation of binary search which gives the best result when the array has uniformly distributed values. Interpolation search goes to different positions depending on the value being searched whereas binary search always goes to the middle element."
+    },
+    {
+        "question": "Which of the following is not an application of binary search?",
+        "options": [
+            "a) To search in unordered list",
+            "b) Debugging",
+            "c) Union of intervals",
+            "d) To find the lower/upper bound in an ordered sequence"
+        ],
+        "answer": "a",
+        "explanation": "In Binary search, the elements in the list should be sorted. It is applicable only for ordered list. Hence Binary search in unordered list is not an application."
+    },
+    {
+        "question": "Which of the following step is taken after finding an element having value greater than the element being searched?",
+        "options": [
+            "a) binary search takes place in the forward direction",
+            "b) binary search takes place in a backward direction",
+            "c) linear search takes place in the forward direction",
+            "d) linear search takes place in the backward direction"
+        ],
+        "answer": "d",
+        "explanation": "First an element having value greater than the element being searched is found. After this linear search is performed in a backward direction."
+    },
+    {
+        "question": "Which of the following is not an advantage of Fibonacci Search?",
+        "options": [
+            "a) When the element being searched for has a non uniform access storage",
+            "b) It can be applied efficiently on unsorted arrays",
+            "c) Can be used for large arrays which do not fit in the CPU cache or in the RAM",
+            "d) Can be used in magnetic tapes"
+        ],
+        "answer": "b",
+        "explanation": "When the speed of access depends on the location previously accessed, Fibonacci search is better compared to binary search as it performs well on those locations which have lower dispersion. Fibonacci search won\u2019t work on unsorted arrays. The input should be a sorted array or array should be sorted before Fibonacci search."
+    },
+    {
+        "question": "In which of the following case jump search will be preferred over exponential search?",
+        "options": [
+            "a) when the given array is very small in size",
+            "b) when the given array is very large in size",
+            "c) jumping backwards takes significantly more time than jumping forward",
+            "d) jumping forward takes significantly more time than jumping backwards"
+        ],
+        "answer": "d",
+        "explanation": "Jump search only needs to jump backwards once, while an exponential search can jump backwards up to log n times. Thus jump search will be preferred if jumping backwards is expensive."
+    }
+]

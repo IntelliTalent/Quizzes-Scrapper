@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Payload format for REST services.",
+        "options": [
+            "a) RSS",
+            "b) Atom",
+            "c) JSON",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "JSON, in addition to RSS and Atom, has blossomed into a favorite payload format for REST services."
+    },
+    {
+        "question": "All REST service payloads rely on XML markup.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "JSON is different in the sense that its content is a special notation based on the JavaScript language."
+    },
+    {
+        "question": "Class that forms part of Spring to apply JSON content.",
+        "options": [
+            "a) MappingJacksonJsonView",
+            "b) MappingJsonView",
+            "c) MappingJacksonJson",
+            "d) JsonView"
+        ],
+        "answer": "a",
+        "explanation": "In addition to relying on Spring REST support, we will also use the MappingJacksonJsonView class that forms part of Spring to facilitate the publication of JSON content."
+    },
+    {
+        "question": "The MappingJacksonJsonView class depends on Jackson JSON processor library.",
+        "options": [
+            "a) org.codehaus.jackson",
+            "b) jackson-mapper-asl",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The MappingJacksonJsonView class depends on the presence of the Jackson JSON processor library which can be downloaded at http://wiki.fasterxml.com/JacksonDownload."
+    },
+    {
+        "question": "Information you wish to publishas a JSON Object can be located in a RDBMS or text file, accessed through JDBC or ORM.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This information can be located in a RDBMS or text file, accessed through JDBC or ORM, inclusively be part of a Spring bean or some other type of construct."
+    },
+    {
+        "question": "To access JSON in a Spring application, library used is:-",
+        "options": [
+            "a) JSON-LIB",
+            "b) SpringJSON-lib",
+            "c) JSON-lib",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Though it\u2019s technically possible to access JSON in a Spring application (i.e., on the server side), using a third-party Java library like JSON-LIB (http://json-lib.sourceforge.net/ )."
+    },
+    {
+        "question": "You are often better served accessing and manipulating REST services with XML payloads in Spring applications.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Java platform\u2019s native support for XML, in addition to the fact that XML is more intuitive and does not have the same processing limitations as browsers."
+    },
+    {
+        "question": "Class which is capable of performing a multitude of operations on REST services.",
+        "options": [
+            "a) RestTemplate",
+            "b) XPathTemplate",
+            "c) XMLTemplate",
+            "d) JavaTemplate"
+        ],
+        "answer": "a",
+        "explanation": "Spring RestTemplate class is capable of performing a multitude of operations on REST services in order for their payloads to be used inside Spring applications, processing elaborate XML responses requires using a set of approaches beyond those of this last class."
+    },
+    {
+        "question": "XML query language for selecting nodes from an XML document.",
+        "options": [
+            "a) XPathTemplate",
+            "b) XPath",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " XPath\u2014an XML query language for selecting nodes from an XML document\u2014 knowledge about Spring HttpConverterMessage, as well as supporting facilities like Spring XPathTemplate."
+    },
+    {
+        "question": "The Handler method assigns the returning XML payload to a String.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The handler method makes use of the getForObject method of the RestTemplate class and assigns the returning XML payload to a String, which is then added to the handler method Model object."
+    },
+    {
+        "question": "To extract and manipulate payloads in Spring REST in a format other than String.",
+        "options": [
+            "a) HttpConverter",
+            "b) HttpMessage",
+            "c) HttpConverterMessage",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All objects that are returned and inclusively passed to the methods belonging to the RestTemplate class are converted to and from HTTP messages using a class which implements the HttpConverterMessage interface."
+    },
+    {
+        "question": "To write your own converters relying on the MarshallingHttpMessageConverter interface that would allow the use of custom marshallers.",
+        "options": [
+            "a) messageConverters",
+            "b) messageConvert",
+            "c) converters",
+            "d) convertersMessage"
+        ],
+        "answer": "a",
+        "explanation": " Using custom converters requires registering them with the messageConverters bean property in a Spring application."
+    },
+    {
+        "question": "To override the default implementations registered with the RestTemplate class.",
+        "options": [
+            "a) messageConverters",
+            "b) messageConvert",
+            "c) converters",
+            "d) convertersMessage"
+        ],
+        "answer": "a",
+        "explanation": "It\u2019s also possible to override the default implementations registered with the RestTemplate class using the same messageConverters bean property."
+    },
+    {
+        "question": "To extract and manipulate the contents of a REST service payload.",
+        "options": [
+            "a) messageConverters",
+            "b) StreamSource class",
+            "c) converters",
+            "d) convertersMessage"
+        ],
+        "answer": "b",
+        "explanation": "It becomes easier to extract and manipulate the contents of a REST service payload since it can be done through the more flexible StreamSource class."
+    }
+]

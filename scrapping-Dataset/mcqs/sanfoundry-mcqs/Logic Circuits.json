@@ -1,0 +1,112 @@
+[
+    {
+        "question": "If there are \u2018M\u2019 switches in series numbered from 1, 2, \u2026, M. For circuit to be complete and bulb to glow which of the following is necessary?",
+        "options": [
+            "a) 1\u2227 2\u2227 3 \u2227 \u2026 \u2227M should be on",
+            "b) 1\u2227 2\u2227 3 \u2227 \u2026 \u2227M should be off",
+            "c) 1 v 2 v 3 v \u2026 v M should be on",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " All should be on in-order to complete the circuit."
+    },
+    {
+        "question": "If there are \u2018M\u2019 switches in parallel numbered from 1, 2, \u2026, M. For circuit to be complete and bulb to glow which of the following is necessary",
+        "options": [
+            "a) 1\u2227 2\u2227 3 \u2227 \u2026 \u2227M should be on",
+            "b) 1\u2227 2\u2227 3 \u2227 \u2026 \u2227M should be off",
+            "c) 1 v 2 v 3 v \u2026 v M should be on",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Anyone should be on in-order to complete the circuit."
+    },
+    {
+        "question": "In the circuit shown the lamp will be glowing if _________",
+        "options": [
+            "a) P: True, Q: False",
+            "b) P: True, Q: True",
+            "c) P: False, Q: False",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The circuit will be complete if P is true and Q is false."
+    },
+    {
+        "question": "In this circuit shown the lamp will be glowing if _________",
+        "options": [
+            "a) P: True, Q: True, R: False",
+            "b) P: True, Q: True, R: True",
+            "c) P: False, Q: False, R: True",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The circuit will be complete if R is true and Q is false or P is false."
+    },
+    {
+        "question": "Which statement should be true in order for lamp to glow?",
+        "options": [
+            "a) (R \u2227 (~(P \u2227 Q))",
+            "b) P\u2227R\u2227Q",
+            "c) P \u2227 (Q \u2227 ~R)",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The circuit will be complete if R is true and Q is false or P is false."
+    },
+    {
+        "question": "If it is given that switch R is closed and Q is closed then lamp will glow if _________",
+        "options": [
+            "a) P: Open, S: Closed",
+            "b) P: Open, S: Open",
+            "c) P: Closed, S: Closed",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The circuit will be complete if (~P) is true and S is true."
+    },
+    {
+        "question": "The circuit depend on which switch/switches state to be complete?",
+        "options": [
+            "a) P",
+            "b) Q",
+            "c) Both P and Q",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The circuit will be complete if (P) is true, Q v ~Q will always be true."
+    },
+    {
+        "question": "The ten switches A,B,C,D,E,F,G,H,N,M are placed in the given circuit (all are open at given time). If you close one switch you need to pay 1 unit cost. What is the cost you need to pay to glow this Lamp?",
+        "options": [
+            "a) 1 unit",
+            "b) 2 units",
+            "c) 3 units",
+            "d) 4 units"
+        ],
+        "answer": "a",
+        "explanation": "This can be achieved by turning one of switches N or M on."
+    },
+    {
+        "question": "If in a for it to be complete it is necessary for switch A to be closed and either of switch B or C to be closed, then which can be true?",
+        "options": [
+            "a) Switch A should  in parallel with B and C is series to them",
+            "b) Switch A should be in series with a parallel circuit of B and C",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Switch A is in series and since there is \u2018or\u2019 between B and C therefore they must be in parallel."
+    },
+    {
+        "question": "The given circuit can work if the switches P and Q be ___________",
+        "options": [
+            "a) P: True, Q: False",
+            "b) P: True, Q: True",
+            "c) P: False, Q: False",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If Q is false, then the circuit will be complete irrespective of the value of P. Also, if P is true and Q is also true, then also the circuit will be complete. Hence, all the choices are correct."
+    }
+]

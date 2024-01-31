@@ -1,0 +1,142 @@
+[
+    {
+        "question": "What is a Rabin and Karp Algorithm?",
+        "options": [
+            "a) String Matching Algorithm",
+            "b) Shortest Path Algorithm",
+            "c) Minimum spanning tree Algorithm",
+            "d) Approximation Algorithm"
+        ],
+        "answer": "a",
+        "explanation": "The string matching algorithm which was proposed by Rabin and Karp, generalizes to other algorithms and for two-dimensional pattern matching problems."
+    },
+    {
+        "question": "What is the pre-processing time of Rabin and Karp Algorithm?",
+        "options": [
+            "a) Theta(m",
+            "b) Theta(mlogn)",
+            "c) Theta(m)",
+            "d) Big-Oh(n)"
+        ],
+        "answer": "c",
+        "explanation": "The for loop in the pre-processing algorithm runs for m(length of the pattern) times. Hence the pre-processing time is Theta(m)."
+    },
+    {
+        "question": "Rabin Karp Algorithm makes use of elementary number theoretic notions.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Rabin Karp Algorithm makes use of elementary theoretic number notions such as the equivalence of two numbers modulo a third number."
+    },
+    {
+        "question": "What is the basic formula applied in Rabin Karp Algorithm to get the computation time as Theta(m)?",
+        "options": [
+            "a) Halving rule",
+            "b) Horner\u2019s rule",
+            "c) Summation lemma",
+            "d) Cancellation lemma"
+        ],
+        "answer": "b",
+        "explanation": "The pattern can be evaluated in time Theta(m) using Horner\u2019s rule:"
+    },
+    {
+        "question": "What is the worst case running time of Rabin Karp Algorithm?",
+        "options": [
+            "a) Theta(n)",
+            "b) Theta(n-m)",
+            "c) Theta((n-m+1)m)",
+            "d) Theta(nlogm)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case running time of Rabin Karp Algorithm is Theta(n-m+1)m). We write Theta(n-m+1) instead of Theta(n-m) because there are n-m+1 different values that the given text takes on."
+    },
+    {
+        "question": "Rabin- Karp algorithm can be used for discovering plagiarism in a sentence.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since Rabin-Karp algorithm is a pattern detecting algorithm in a text or string, it can be used for detecting plagiarism in a sentence."
+    },
+    {
+        "question": "If n is the length of text(T) and m is the length of the pattern(P) identify the correct pre-processing algorithm. (where q is a suitable modulus to reduce the complexity)",
+        "options": [
+            "a)"
+        ],
+        "answer": "d",
+        "explanation": "The pre-processing algorithm runs m (the length of pattern) times. This algorithm is used to compute p as the value of P[1\u2026.m] mod q and t0 as the value of T[1\u2026.m]mod q."
+    },
+    {
+        "question": "If n is the length of text(T) and m is the length of the pattern(P) identify the correct matching algorithm.",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The matching algorithm runs for n-m times. Rabin Karp algorithm explicitly verifies every valid shift. If the required pattern matches with the given text then the algorithm prints pattern found as result."
+    },
+    {
+        "question": "What happens when the modulo value(q) is taken large?",
+        "options": [
+            "a) Complexity increases",
+            "b) Spurious hits occur frequently",
+            "c) Cost of extra checking is low",
+            "d) Matching time increases"
+        ],
+        "answer": "c",
+        "explanation": "If the modulo value(q) is large enough then the spurious hits occur infrequently enough that the cost of extra checking is low."
+    },
+    {
+        "question": "Given a pattern of length-5 window, find the suitable modulo value.",
+        "options": [],
+        "answer": "a",
+        "explanation": "The modulus q is typically chosen as a prime number that is large enough to reduce the complexity when p is very large."
+    },
+    {
+        "question": "Given a pattern of length- 5 window, find the valid match in the given text.",
+        "options": [],
+        "answer": "c",
+        "explanation": "The pattern 2 1 9 3 6 occurs in the text starting from position 13 to 18. In the given pattern value is computed as 12 by having the modulus as 21. The same text string values are computed for each possible position of a 5 length window."
+    },
+    {
+        "question": "Given a pattern of length- 5 window, find the spurious hit in the given text string.",
+        "options": [],
+        "answer": "d",
+        "explanation": "The sub string in the range 13-17, 6 7 3 9 9 produces the same value 7 as the given pattern. But the pattern numbers don\u2019t match with sub string identified, hence it is a spurious hit."
+    },
+    {
+        "question": " If the expected number of valid shifts is small and modulus is larger than the length of pattern what is the matching time of Rabin Karp Algorithm?",
+        "options": [
+            "a) Theta(m)",
+            "b) Big-Oh(n+m)",
+            "c) Theta(n-m)",
+            "d) Big-Oh(n)"
+        ],
+        "answer": "b",
+        "explanation": "When the number of valid shifts(v) is Big-Oh(1) and q>=m then the matching time is given by  O(n)+O(m(v+n/q)) is simplified as O(n+m)."
+    },
+    {
+        "question": "What is the basic principle in Rabin Karp algorithm?",
+        "options": [
+            "a) Hashing",
+            "b) Sorting",
+            "c) Augmenting",
+            "d) Dynamic Programming"
+        ],
+        "answer": "a",
+        "explanation": "The basic principle employed in Rabin Karp algorithm is hashing. In the given text every substring is converted to a hash value and compared with the hash value of the pattern."
+    },
+    {
+        "question": "Who created the Rabin Karp Algorithm?",
+        "options": [
+            "a) Joseph Rabin and Michael Karp",
+            "b) Michael Rabin and Joseph Karp",
+            "c) Richard Karp and Michael Rabin",
+            "d) Michael Karp and Richard Rabin"
+        ],
+        "answer": "c",
+        "explanation": "Rabin Karp algorithm was invented by Richard Karp and Michael Rabin in the year 1987 for searching a pattern in the given string."
+    }
+]

@@ -1,0 +1,165 @@
+[
+    {
+        "question": "This encapsulates the context of a test\u2019s execution:-",
+        "options": [
+            "a) Test context",
+            "b) Test context manager",
+            "c) Test context listener",
+            "d) Test execution listener"
+        ],
+        "answer": "a",
+        "explanation": "This encapsulates the context of a test\u2019s execution, including the application context, test class, current test instance, current test method, and current test exception."
+    },
+    {
+        "question": "This manages a test context for a test and triggers test execution listeners:-",
+        "options": [
+            "a) Test context",
+            "b) Test context manager",
+            "c) Test context listener",
+            "d) Test execution listener"
+        ],
+        "answer": "b",
+        "explanation": "This manages a test context for a test and triggers test execution listeners at predefined test execution points, including when preparing a test instance, before executing a test method (before any framework-specific initialization methods), and after executing a test method (after any framework-specific cleanup methods)."
+    },
+    {
+        "question": "This defines a listener interface; by implementing this, you can listen to test execution events.",
+        "options": [
+            "a) Test context",
+            "b) Test context manager",
+            "c) Test context listener",
+            "d) Test execution listener"
+        ],
+        "answer": "d",
+        "explanation": "The TestContext framework provides several test execution listeners for common testing features, but you are free to create your own."
+    },
+    {
+        "question": "Spring provides convenient TestContext support classes for:-",
+        "options": [
+            "a) JUnit3",
+            "b) JUnit4",
+            "c) TestNG5",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring provides convenient TestContext support classes for JUnit 3, JUnit 4, and TestNG 5, with particular test execution listeners pre registered."
+    },
+    {
+        "question": "JUnit 4 allows you to annotate your test methods with:-",
+        "options": [
+            "a) @Test",
+            "b) @Autowire",
+            "c) @JTest",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JUnit 4 allows you to annotate your test methods with JUnit @Test annotation, so an arbitrary public method can be run as a test case."
+    },
+    {
+        "question": "Usually, a test and its target class are located in the same package, but the source files of tests are stored in a separate directory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "(e.g., test) from the source files of other classes (e.g., src)."
+    },
+    {
+        "question": "Method to perform cleanup tasks:-",
+        "options": [
+            "a) finalize",
+            "b) tearDown",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can override the tearDown() method to perform cleanup tasks, such as releasing permanent resources."
+    },
+    {
+        "question": "The static assert methods is declared in the:-",
+        "options": [
+            "a) org.junit.Assert",
+            "b) org.junit.*",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can override the tearDown() method to perform cleanup tasks, such as releasing permanent resources."
+    },
+    {
+        "question": "Attribute which specifies the exception type:-",
+        "options": [
+            "a) after",
+            "b) expected",
+            "c) before",
+            "d) test"
+        ],
+        "answer": "b",
+        "explanation": "JUnit 4 offers a powerful feature that allows you to expect an exception to be thrown in a test case. You can simply specify the exception type in the expected attribute of the @Test annotation."
+    },
+    {
+        "question": "Test data sets are provided by data providers, which are methods with the:-",
+        "options": [
+            "a) @DataProvider",
+            "b) @Autowire",
+            "c) @JTest",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In TestNG, test data sets are provided by data providers, which are methods with the @DataProvider annotation."
+    },
+    {
+        "question": "An object that simulates a dependent object:-",
+        "options": [
+            "a) stub",
+            "b) mock",
+            "c) test",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A stub is an object that simulates a dependent object with the minimum number of methods required for a test."
+    },
+    {
+        "question": "An Object which usually knows how its methods are expected to be called:-",
+        "options": [
+            "a) stub",
+            "b) mock",
+            "c) test",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In contrast to a stub, a mock object usually knows how its methods are expected to be called in a test."
+    },
+    {
+        "question": "Libraries that can help create mock objects:-",
+        "options": [
+            "a) EasyMock",
+            "b) jMock",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Java, there are several libraries that can help create mock objects, including EasyMock and jMock."
+    },
+    {
+        "question": "Test used to test several units in combination as a whole.",
+        "options": [
+            "a) Integration tests",
+            "b) JUnit4",
+            "c) TestNG5",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Integration tests, in contrast, are used to test several units in combination as a whole."
+    },
+    {
+        "question": "Spring supports web controller testing by providing Servlet API:-",
+        "options": [
+            "a) MockHttpServletRequest",
+            "b) MockHttpServletResponse",
+            "c) MockHttpSession",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring supports web controller testing by providing a set of mock objects for the Servlet API (including MockHttpServletRequest, MockHttpServletResponse, and MockHttpSession)."
+    }
+]

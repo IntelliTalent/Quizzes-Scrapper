@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following is used to compute the percent change over a given number of periods?",
+        "options": [
+            "a) pct_change",
+            "b) percent_change",
+            "c) per_change",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Series, DataFrame, and Panel all have a method pct_change."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Pandas represents timestamps in microsecond resolution",
+            "b) Pandas is 100% thread safe",
+            "c) For Series and DataFrame objects, var normalizes by N-1 to produce unbiased estimates",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Pandas represents timestamps in nanosecond resolution."
+    },
+    {
+        "question": "Which of the following object has a method cov to compute covariance between series?",
+        "options": [
+            "a) Series",
+            "b) DataFrame",
+            "c) Panel",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DataFrame has a method cov to compute pairwise covariances among the series in the DataFrame, also excluding NA/null values."
+    },
+    {
+        "question": "Which of the following specifies the required minimum number of observations for each column pair in order to have a valid result?",
+        "options": [
+            "a) min_periods",
+            "b) max_periods",
+            "c) minimum_periods",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DataFrame.cov also supports an optional min_periods."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) lxml is very fast",
+            "b) lxml requires Cython to install correctly",
+            "c) lxml does not make any guarantees about the results of it\u2019s parse",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are some versioning issues surrounding the libraries that are used to parse HTML tables in the top-level pandas io function read_html."
+    },
+    {
+        "question": "Which of the following is implemented on DataFrame to compute the correlation between like-labeled Series contained in different DataFrame objects?",
+        "options": [
+            "a) corrwith",
+            "b) corwith",
+            "c) corwit",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A score close to 1 means their tastes are very similar."
+    },
+    {
+        "question": "Which of the following method produces a data ranking with ties being assigned the mean of the ranks for the group?",
+        "options": [
+            "a) rank",
+            "b) dense_rank",
+            "c) partition_rank",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "rank is also a DataFrame method."
+    },
+    {
+        "question": "Which of the following can potentially change the dtype of a series?",
+        "options": [
+            "a) reindex_like",
+            "b) index_like",
+            "c) itime_like",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "reindex_like silently inserts NaNs and the dtype changes accordingly."
+    },
+    {
+        "question": "cov and corr supports the optional min_periods keyword.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Non-numeric columns will be automatically excluded from the correlation calculation."
+    }
+]

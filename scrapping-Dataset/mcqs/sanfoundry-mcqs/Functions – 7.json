@@ -1,0 +1,112 @@
+[
+    {
+        "question": "If two vectors with different lengths perform some operation, the elements of the shorter vector will be used again to complete the operation. This is referred to as _________________",
+        "options": [
+            "a) Element Recycling",
+            "b) Recycling",
+            "c) Cycling",
+            "d) Element Cycling"
+        ],
+        "answer": "a",
+        "explanation": "If two vectors with different lengths perform an operation, the elements of the shorter vector will be used again to complete the operation. This is referred to as element recycling."
+    },
+    {
+        "question": "If the function in a console is.matrix(X) returns true then X can be considered as a _______",
+        "options": [
+            "a) Matrix object",
+            "b) Matrix data object",
+            "c) Matrix vector",
+            "d) Vector"
+        ],
+        "answer": "b",
+        "explanation": "The function call is.matrix(X) returns TRUE then X can be termed as a matrix data object. R has a large number of in-built functions and also the user can create their own functions."
+    },
+    {
+        "question": "______________ measures the probability of the binary response variable in R language.",
+        "options": [
+            "a) Logical Regression",
+            "b) Multivariate Regression",
+            "c) Simpler Regression",
+            "d) Statistics"
+        ],
+        "answer": "a",
+        "explanation": "Logistic regression can be used for this and the function glm () in R language provides this functionality. Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables which determine an outcome."
+    },
+    {
+        "question": "______________ function will measure the probability of the binary response variable in R language.",
+        "options": [
+            "a) Glm()",
+            "b) Glmi()",
+            "c) Gelmi()",
+            "d) Jlm()"
+        ],
+        "answer": "a",
+        "explanation": "Glm () in R language provides this functionality. Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables that determine an outcome."
+    },
+    {
+        "question": "____________ function can be used to select the random sample of size \u2018n\u2019 from a huge dataset.",
+        "options": [
+            "a) Simple()",
+            "b) Sample()",
+            "c) While()",
+            "d) Signal()"
+        ],
+        "answer": "b",
+        "explanation": "Sample () function can be used to select a random sample of size \u2018n\u2019 from the huge dataset. R has a large number of in-built functions and also the user can create their own functions."
+    },
+    {
+        "question": "Which function is used to select variables and observations from a given dataset?",
+        "options": [
+            "a) Subset()",
+            "b) Sample()",
+            "c) While()",
+            "d) Signal()"
+        ],
+        "answer": "a",
+        "explanation": "Subset () function is used to select variables and observations from a given dataset. R has a large number of in-built functions and also the user can create their own functions."
+    },
+    {
+        "question": "____________ package in R language provides various options for re-randomization and permutations based on statistical tests.",
+        "options": [
+            "a) Coin",
+            "b) Vain",
+            "c) Join",
+            "d) Lain"
+        ],
+        "answer": "a",
+        "explanation": "Coin package in R language provides various options for re-randomization and permutations based on statistical tests. When test assumptions cannot be met then this package serves as a good alternative to classical methods."
+    },
+    {
+        "question": "A matrix of scatterplots can be produced using _________ function.",
+        "options": [
+            "a) Pears",
+            "b) Pairs",
+            "c) Tears",
+            "d) Cars"
+        ],
+        "answer": "b",
+        "explanation": "A matrix of scatterplots can be produced using pairs. Pairs function takes various parameters like formula, data, subset, labels, etc."
+    },
+    {
+        "question": "__________ function takes various parameters like formula, data, subset, labels, etc.",
+        "options": [
+            "a) Pears",
+            "b) Pairs",
+            "c) Tears",
+            "d) Cars"
+        ],
+        "answer": "b",
+        "explanation": "Pairs function takes various parameters like formula, data, subset, labels, etc. A matrix of scatterplots can be produced using pairs."
+    },
+    {
+        "question": "How will you check if an element is present in a vector?",
+        "options": [
+            "a) Match()",
+            "b) Dismatch()",
+            "c) Mismatch()",
+            "d) Search()"
+        ],
+        "answer": "a",
+        "explanation": "It can be done using the match () function- match () function returns the first appearance of a particular element. The other way is to use %in% which returns a Boolean value either true or false."
+    }
+]

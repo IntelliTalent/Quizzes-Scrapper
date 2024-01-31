@@ -1,0 +1,100 @@
+[
+    {
+        "question": "To check how MySQL would execute a SELECT query, which statement is used?",
+        "options": [
+            "a) TELL",
+            "b) SHOW",
+            "c) DISPLAY",
+            "d) EXPLAIN"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, by issuing an EXPLAIN statement MySQL displays some information about how it would execute a SELECT query without actually executing it. It is prefixed with the query."
+    },
+    {
+        "question": "To perform analysis of key values by the server, the statement used is __________",
+        "options": [
+            "a) ANALYZE KEYS",
+            "b) ANALYZE TABLE",
+            "c) PERFORM ANALYSIS",
+            "d) PERFORM TABLE ANALYSIS"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, for the MyISAM and InnoDB tables, the server can be told to perform an analysis of key values by issuing the ANALYZE TABLE statement. It helps in knowing about query optimization."
+    },
+    {
+        "question": "Which statement is used to verify optimizer operation?",
+        "options": [
+            "a) ANALYZE",
+            "b) VERIFY",
+            "c) EXPLAIN",
+            "d) SHOW"
+        ],
+        "answer": "c",
+        "explanation": "The EXPLAIN statement in MySQL can tell whether the indexes are being used or not. This information is helpful when different ways of writing a statement need to be tested."
+    },
+    {
+        "question": "Which statement is used to force the optimizer to use tables in a particular order?",
+        "options": [
+            "a) FORCE INDEX",
+            "b) USE INDEX",
+            "c) IGNORE INDEX",
+            "d) STRAIGHT_JOIN"
+        ],
+        "answer": "d",
+        "explanation": "STRAIGHT_JOIN is used to force the optimizer to use tables in a particular order. The MySQL optimizer by default considers itself free to determine the order in which to scan tables most quickly."
+    },
+    {
+        "question": "Which of these comparisons is slowest?",
+        "options": [
+            "a) INT/INT",
+            "b) INT/BIGINT",
+            "c) BIGINT/BIGINT",
+            "d) All are of same speed"
+        ],
+        "answer": "b",
+        "explanation": "On comparing indexed columns, identical data types will give better performance than dissimilar types. So an INT/INT or BIGINT/BIGINT comparison is faster than an INT/BIGINT comparison."
+    },
+    {
+        "question": "Which of the following WHERE clauses are faster?",
+        "options": [],
+        "answer": "b",
+        "explanation": "For the first variation, MySQL would retrieve the value of \u2018col\u2019 for each row, multiply by three, and then compare the result to nine. In this case, no index can be used and hence it is slower."
+    },
+    {
+        "question": "What are the results of the following SQL commands if col is an integer column?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The first query invokes a type conversion. The conversion operation involves some performance penalty for converting the integer and string to double to perform the comparison."
+    },
+    {
+        "question": "Which system variable tells the optimizer to skip certain plans based on estimates of the number of rows accessed for each table?",
+        "options": [
+            "a) optimizer_prune_level",
+            "b) optimizer_search_depth",
+            "c) optimizer_search",
+            "d) optimizer_prune"
+        ],
+        "answer": "a",
+        "explanation": "The optimizer_prune_level variable tells the optimizer to skip certain plans based on estimates of the number of rows accessed for each table. This option is kept on by default."
+    },
+    {
+        "question": "Which system variable tells how far into the rest of each incomplete plan the optimizer should look to evaluate whether it should be expanded further?",
+        "options": [
+            "a) optimizer_prune_level",
+            "b) optimizer_search_depth",
+            "c) optimizer_search",
+            "d) optimizer_prune"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the optimizer_search_depth system variable tells how far into the \u201cfuture\u201d of each incomplete plan the optimizer should look to evaluate whether it should be expanded further."
+    },
+    {
+        "question": "The optimizer_prune_level is set by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the optimizer_prune_level is on by default. This variable tells the optimizer to skip certain plans based on estimates of the number of rows accessed for each table."
+    }
+]

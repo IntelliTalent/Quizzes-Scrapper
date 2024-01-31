@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Predicting with trees evaluate _____________ within each group of data.",
+        "options": [
+            "a) equality",
+            "b) homogeneity",
+            "c) heterogeneity",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Predicting with trees is easy to interpret."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Training and testing data must be processed in different way",
+            "b) Test transformation would mostly be imperfect",
+            "c) The first goal is statistical and second is data compression in PCA",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Training and testing data must be processed in same way."
+    },
+    {
+        "question": "Which of the following method options is provided by train function for bagging?",
+        "options": [
+            "a) bagEarth",
+            "b) treebag",
+            "c) bagFDA",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Bagging can be done using bag function as well."
+    },
+    {
+        "question": "Which of the following is correct with respect to random forest?",
+        "options": [
+            "a) Random forest are difficult to interpret but often very accurate",
+            "b) Random forest are easy to interpret but often very accurate",
+            "c) Random forest are difficult to interpret but very less accurate",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Random forest is top performing algorithm in prediction."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Prediction with regression is easy to implement",
+            "b) Prediction with regression is easy to interpret",
+            "c) Prediction with regression performs well when linear model is correct",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Prediction with regression gives poor performance in non linear settings."
+    },
+    {
+        "question": "Which of the following library is used for boosting generalized additive models?",
+        "options": [
+            "a) gamBoost",
+            "b) gbm",
+            "c) ada",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Boosting can be used with any subset of classifier."
+    },
+    {
+        "question": "The principal components are equal to left singular values if you first scale the variables.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The principal components are equal to left singular values if you first scale the variables."
+    },
+    {
+        "question": "Which of the following is statistical boosting based on additive logistic regression?",
+        "options": [
+            "a) gamBoost",
+            "b) gbm",
+            "c) ada",
+            "d) mboost"
+        ],
+        "answer": "a",
+        "explanation": "mboost is used for model based boosting."
+    },
+    {
+        "question": "Which of the following is one of the largest boost subclass in boosting?",
+        "options": [
+            "a) variance boosting",
+            "b) gradient boosting",
+            "c) mean boosting",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "R has multiple boosting libraries."
+    },
+    {
+        "question": "PCA is most useful for non linear type models.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "PCA is most useful for linear type models."
+    }
+]

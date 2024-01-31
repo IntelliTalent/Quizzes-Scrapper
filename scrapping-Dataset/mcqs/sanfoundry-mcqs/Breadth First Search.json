@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Breadth First Search is equivalent to which of the traversal in the Binary Trees?",
+        "options": [
+            "a) Pre-order Traversal",
+            "b) Post-order Traversal",
+            "c) Level-order Traversal",
+            "d) In-order Traversal"
+        ],
+        "answer": "c",
+        "explanation": "The Breadth First Search Algorithm searches the nodes on the basis of level. It takes a node (level 0), explores it\u2019s neighbors (level 1) and so on."
+    },
+    {
+        "question": "Time Complexity of Breadth First Search is? (V \u2013 number of vertices, E \u2013 number of edges)",
+        "options": [
+            "a) O(V + E)",
+            "b) O(V)",
+            "c) O(E)",
+            "d) O(V*E)"
+        ],
+        "answer": "a",
+        "explanation": "The Breadth First Search explores every node once and every edge once (in worst case), so it\u2019s time complexity is O(V + E)."
+    },
+    {
+        "question": "The Data structure used in standard implementation of Breadth First Search is?",
+        "options": [
+            "a) Stack",
+            "b) Queue",
+            "c) Linked List",
+            "d) Tree"
+        ],
+        "answer": "b",
+        "explanation": "The Breadth First Search explores every node once and put that node in queue and then it takes out nodes from the queue and explores it\u2019s neighbors."
+    },
+    {
+        "question": "The Breadth First Search traversal of a graph will result into?",
+        "options": [
+            "a) Linked List",
+            "b) Tree",
+            "c) Graph with back edges",
+            "d) Arrays"
+        ],
+        "answer": "b",
+        "explanation": "The Breadth First Search will make a graph which don\u2019t have back edges (a tree) which is known as Breadth First Tree."
+    },
+    {
+        "question": "A person wants to visit some places. He starts from a vertex and then wants to visit every place connected to this vertex and so on. What algorithm he should use?",
+        "options": [
+            "a) Depth First Search",
+            "b) Breadth First Search",
+            "c) Trim\u2019s algorithm",
+            "d) Kruskal\u2019s algorithm"
+        ],
+        "answer": "b",
+        "explanation": "This is the definition of the Breadth First Search. Exploring a node, then it\u2019s neighbors and so on."
+    },
+    {
+        "question": "Which of the following is not an application of Breadth First Search?",
+        "options": [
+            "a) Finding shortest path between two nodes",
+            "b) Finding bipartiteness of a graph",
+            "c) GPS navigation system",
+            "d) Path Finding"
+        ],
+        "answer": "d",
+        "explanation": "Breadth First Search can be applied to Bipartite a graph, to find the shortest path between two nodes, in GPS Navigation. In Path finding, Depth First Search is used."
+    },
+    {
+        "question": "When the Breadth First Search of a graph is unique?",
+        "options": [
+            "a) When the graph is a Binary Tree",
+            "b) When the graph is a Linked List",
+            "c) When the graph is a n-ary Tree",
+            "d) When the graph is a Ternary Tree"
+        ],
+        "answer": "b",
+        "explanation": "When Every node will have one successor then the Breadth First Search is unique. In all other cases, when it will have more than one successor, it can choose any of them in arbitrary order."
+    },
+    {
+        "question": "Regarding implementation of Breadth First Search using queues, what is the maximum distance between two nodes present in the queue? (considering each edge length 1)",
+        "options": [
+            "a) Can be anything",
+            "b) 0",
+            "c) At most 1",
+            "d) Insufficient Information"
+        ],
+        "answer": "c",
+        "explanation": "In the queue, at a time, only those nodes will be there whose difference among levels is 1. Same as level order traversal of the tree."
+    },
+    {
+        "question": "In BFS, how many times a node is visited?",
+        "options": [
+            "a) Once",
+            "b) Twice",
+            "c) Equivalent to number of indegree of the node",
+            "d) Thrice"
+        ],
+        "answer": "c",
+        "explanation": "In Breadth First Search, we have to see whether the node is visited or not by it\u2019s ancestor. If it is visited, we won\u2019t let it enter it in the queue."
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A CFG is said to right linear if each production body has at most one variable, and that variable is at the right end. That is, all productions of a right linear grammar are of the form A->wB or A->w, where A and B are variables while w is some terminal."
+    },
+    {
+        "question": "What the does the given CFG defines?",
+        "options": [
+            "a) wwr",
+            "b) wSw",
+            "c) Equal number of a\u2019s and b\u2019s",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Using the derivation approach, we can conclude that the given grammar produces a language with a set of string which have equal number of a\u2019s and b\u2019s."
+    },
+    {
+        "question": "If L1 and L2 are context free languages, which of the following is context free?",
+        "options": [
+            "a) L1*",
+            "b) L2UL1",
+            "c) L1.L2",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The following is a theorem which states the closure property of context free languages which includes Kleene operation, Union operation and Dot operation."
+    },
+    {
+        "question": "For the given Regular expression, the minimum number of variables including starting variable required to derive its grammar is:",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "The grammar can be written as:"
+    },
+    {
+        "question": "For the given Regular expression, the minimum number of terminals required to derive its grammar is:",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "The grammar can be written as:"
+    },
+    {
+        "question": "A grammar G=(V, T, P, S) is __________ if every production taken one of the two forms:",
+        "options": [
+            "a) Ambiguous",
+            "b) Regular",
+            "c) Non Regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The following format of grammar is of Regular grammar and is a part of Context free grammar i.e. like a specific form whose finite automata can be generated."
+    },
+    {
+        "question": "Which among the following is a CFG for the given Language:",
+        "options": [
+            "a) S->e|0S1|1S0|SS",
+            "b) S->0B|1A|e  A->0S  B->1S",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We can build context free grammar through different approaches, recursively defining the variables and terminals inorder to fulfil the conditions."
+    },
+    {
+        "question": "Which of the following languages are most suitable for implement context free languages ?",
+        "options": [
+            "a) C",
+            "b) Perl",
+            "c) Assembly Language",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The advantage of using high level programming language like C and Pascal is that they allow us to write statements that look more like English."
+    },
+    {
+        "question": "Which among the following is the correct grammar for the given language?",
+        "options": [
+            "a) S-> 0|SS|1SS|SS1|S1S",
+            "b) S-> 1|0S|0SS|SS0|S0S",
+            "c) S-> 0|0S|1SS|SS1|S1S",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "L={0, 1, 00, 11, 001, 010,\u2026}"
+    },
+    {
+        "question": "L={0",
+        "options": [
+            "a) 0111100",
+            "b) 011100",
+            "c) 0001100",
+            "d) 0101010"
+        ],
+        "answer": "a",
+        "explanation": "It is just required to put the value in the variables in the question and check if it satisfies or not."
+    }
+]

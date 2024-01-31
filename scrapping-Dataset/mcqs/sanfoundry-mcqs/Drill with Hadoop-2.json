@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Drill is designed from the ground up to support high-performance analysis on the ____________ data.",
+        "options": [
+            "a) semi-structured",
+            "b) structured",
+            "c) unstructured",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Drill is an Apache open-source SQL query engine for Big Data exploration."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Drill provides plug-and-play integration with existing Apache Hive",
+            "b) Developers can use the sandbox environment to get a feel for the power and capabilities of Apache Drill by performing various types of queries",
+            "c) Drill is inspired by Google Dremel",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Apache Drill is an open source, low latency SQL query engine for Hadoop and NoSQL."
+    },
+    {
+        "question": "___________ includes Apache Drill as part of the Hadoop distribution.",
+        "options": [
+            "a) Impala",
+            "b) MapR",
+            "c) Oozie",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The MapR Sandbox with Apache Drill is a fully functional single-node cluster that can be used to get an overview on Apache Drill in a Hadoop environment."
+    },
+    {
+        "question": "MapR __________ Solution Earns Highest Score in Gigaom Research Data Warehouse Interoperability Report.",
+        "options": [
+            "a) SQL-on-Hadoop",
+            "b) Hive-on-Hadoop",
+            "c) Pig-on-Hadoop",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Drill is a pioneer in delivering self-service data exploration capabilities on data stored in multiple formats in files or NoSQL databases."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Hadoop is a prerequisite for Drill",
+            "b) Drill tackles rapidly evolving application driven schemas and nested data structures",
+            "c) Drill provides a single interface for structured and semi-structured data allowing you to readily query JSON files and HBase tables as easily as a relational table",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hadoop is not a prerequisite for Drill and users can start ramping up with Drill by running SQL queries directly on the local file system."
+    },
+    {
+        "question": "Drill integrates with  BI tools using a standard __________ connector.",
+        "options": [
+            "a) JDBC",
+            "b) ODBC",
+            "c) ODBC-JDBC",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Drill conforms to the stringent ANSI SQL standards ensuring compatibility with existing BI environments as well as Hive deployments."
+    },
+    {
+        "question": "Drill analyze semi-structured/nested data coming from _________ applications.",
+        "options": [
+            "a) RDBMS",
+            "b) NoSQL",
+            "c) NewSQL",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Modern big data applications such as social, mobile, web and IoT deal with a larger number of users and larger amount of data than the traditional transactional applications."
+    },
+    {
+        "question": "Apache _________ provides direct queries on self-describing and semi-structured data in files.",
+        "options": [
+            "a) Drill",
+            "b) Mahout",
+            "c) Oozie",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Users can explore live data on their own as it arrives versus spending weeks or months on data preparation, modeling, ETL and subsequent schema management."
+    },
+    {
+        "question": "Drill provides a __________ like internal data model to represent and process data.",
+        "options": [
+            "a) XML",
+            "b) JSON",
+            "c) TIFF",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The flexibility of JSON data model allows Drill to query, without flattening, both simple and complex/nested data types as well as constantly changing application-driven schemas commonly seen with Hadoop/NoSQL applications."
+    },
+    {
+        "question": "Drill also provides intuitive extensions to SQL to work with _______ data types.",
+        "options": [
+            "a) simple",
+            "b) nested",
+            "c) int",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Users can also plug-and-play with Hive environments to enable ad-hoc low latency queries on existing Hive tables and reuse Hive\u2019s metadata, hundreds of file formats and UDFs out of the box."
+    }
+]

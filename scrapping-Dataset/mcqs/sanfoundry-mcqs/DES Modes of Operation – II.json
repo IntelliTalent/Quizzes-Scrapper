@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Which mode of operation has the worst \u201cerror propagation\u201d among the following?",
+        "options": [
+            "a) OFB",
+            "b) CFB",
+            "c) CBC",
+            "d) ECB"
+        ],
+        "answer": "d",
+        "explanation": "The ECB or electronic code book mode of operation propagates the most errors. A single bit error is carried onto the next block and so on."
+    },
+    {
+        "question": "Which block mode limits the maximum throughput of the algorithm to the reciprocal of the time for one execution?",
+        "options": [
+            "a) OFB",
+            "b) CTR",
+            "c) CBC",
+            "d) ECB"
+        ],
+        "answer": "b",
+        "explanation": "The CTR mode of operation limits the maximum throughput of the algorithm to the reciprocal of the time for one execution."
+    },
+    {
+        "question": "Which mode requires the implementation of only the encryption algorithm?",
+        "options": [
+            "a) ECB",
+            "b) CBC",
+            "c) CTR",
+            "d) OFB"
+        ],
+        "answer": "c",
+        "explanation": "The CTR mode only requires the implementation of either the encryption or decryption phase. Both the phases are somewhat similar."
+    },
+    {
+        "question": "Which of the following modes of operation does not involve feedback?",
+        "options": [
+            "a) ECB",
+            "b) CBC",
+            "c) CTR",
+            "d) OFB"
+        ],
+        "answer": "a",
+        "explanation": "Electronic code book does not involve feedback."
+    },
+    {
+        "question": "Which of the following is a natural candidates for stream ciphers?",
+        "options": [
+            "a) OFB",
+            "b) CFB",
+            "c) CBC",
+            "d) ECB"
+        ],
+        "answer": "a",
+        "explanation": "OFB and CTR both produce outputs that are independent of both PT and CT. Thus they are ideal candidates for stream ciphers."
+    },
+    {
+        "question": "The XTS-AES mode is based on the concept of tweakable block cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The XTS-AES mode uses a tweak thus the name."
+    },
+    {
+        "question": "The purpose of a \u2018tweak\u2019 in XTS-AES mode is to",
+        "options": [
+            "a) secure the public key",
+            "b) provide security",
+            "c) provide variability",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The purpose of the \u2018tweak\u2019 in the XTS-AES mode is to provide variability in each round."
+    },
+    {
+        "question": "A tweak is used in XTS-AES mode to provide a different output for the same input PT and same key.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true for XTS-AES mode of operation."
+    },
+    {
+        "question": "XTS-AES mode of operation is a better version of",
+        "options": [
+            "a) OFB",
+            "b) CFB",
+            "c) CTR",
+            "d) ECB"
+        ],
+        "answer": "d",
+        "explanation": "XTS-AES mode overcomes the principle security weakness of ECB, which is that two encryptions of the same CT yeild the same PT."
+    },
+    {
+        "question": "What is the size of the XTS-AES key?",
+        "options": [
+            "a) 1024 bits",
+            "b) 64 bits",
+            "c) 512 bits",
+            "d) 128 bits"
+        ],
+        "answer": "c",
+        "explanation": "The key size can be either 256 bits or 512 bits. There are 2 keys of the same size K1 and K2."
+    },
+    {
+        "question": "Which of the following represent the tweak?",
+        "options": [
+            "a) j",
+            "b) i",
+            "c) alpha",
+            "d) alpha"
+        ],
+        "answer": "b",
+        "explanation": "\u2018i\u2019 represents the tweak value."
+    },
+    {
+        "question": "Which of the following is true for the tweak in XTS-AES mode?",
+        "options": [
+            "a) they are non-negative integers",
+            "b) they are of size 128 bits",
+            "c) they are assigned consecutively",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the statements are true in relation to the tweak \u2018i\u2019 from the XTS-AES mode of operation."
+    },
+    {
+        "question": "Which of the following is the correct encryption statement representation for the XTS-AES mode?",
+        "options": [
+            "a) E(K1,P) XOR T",
+            "b) E(K2,T) XOR P",
+            "c) E(K1,T XOR P) XOR P",
+            "d) E(K1,P XOR T) XOR T"
+        ],
+        "answer": "d",
+        "explanation": "The correct encryption representation would be : C = E(K1,P XOR T) XOR T."
+    },
+    {
+        "question": "The last two blocks of the XTS-AES mode are  \u2013",
+        "options": [
+            "a) padded as 10*",
+            "b) encrypted/ decrypted using ciphertext-stealing",
+            "c) padded as 10*1",
+            "d) padded and then swapped after encryption/ decryption"
+        ],
+        "answer": "b",
+        "explanation": "The correct term used to encrypt/ decrypt the last 2 blocks is \u2018cipher-text stealing\u2019 where C(m) and C(m-1) are interchanged with each other."
+    }
+]

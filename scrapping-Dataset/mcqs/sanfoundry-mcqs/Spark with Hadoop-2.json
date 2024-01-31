@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Users can easily run Spark on top of Amazon\u2019s __________",
+        "options": [
+            "a) Infosphere",
+            "b) EC2",
+            "c) EMR",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Users can easily run Spark (and Shark) on top of Amazon\u2019s EC2 either using the scripts that come with Spark."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Spark enables Apache Hive users to run their unmodified queries much faster",
+            "b) Spark interoperates only with Hadoop",
+            "c) Spark is a popular data warehouse solution running on top of Hadoop",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Shark can accelerate Hive queries by as much as 100x when the input data fits into memory, and up 10x when the input data is stored on disk."
+    },
+    {
+        "question": "Spark runs on top of ___________ a cluster manager system which provides efficient resource isolation across distributed applications.",
+        "options": [
+            "a) Mesjs",
+            "b) Mesos",
+            "c) Mesus",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Mesos enables fine grained sharing which allows a Spark job to dynamically take advantage of the idle resources in the cluster during its execution."
+    },
+    {
+        "question": "Which of the following can be used to launch Spark jobs inside MapReduce?",
+        "options": [
+            "a) SIM",
+            "b) SIMR",
+            "c) SIR",
+            "d) RIS"
+        ],
+        "answer": "b",
+        "explanation": "With SIMR, users can start experimenting with Spark and use its shell within a couple of minutes after downloading it."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Spark is intended to replace, the Hadoop stack",
+            "b) Spark was designed to read and write data from and to HDFS, as well as other storage systems",
+            "c) Hadoop users who have already deployed or are planning to deploy Hadoop Yarn can simply run Spark on YARN",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spark is intended to enhance, not replace, the Hadoop stack."
+    },
+    {
+        "question": "Which of the following language is not supported by Spark?",
+        "options": [
+            "a) Java",
+            "b) Pascal",
+            "c) Scala",
+            "d) Python"
+        ],
+        "answer": "b",
+        "explanation": "The Spark engine runs in a variety of environments, from cloud services to Hadoop or Mesos clusters."
+    },
+    {
+        "question": "Spark includes a collection over ________ operators for transforming data and familiar data frame APIs for manipulating semi-structured data.",
+        "options": [
+            "a) 50",
+            "b) 60",
+            "c) 70",
+            "d) 80"
+        ],
+        "answer": "d",
+        "explanation": "Spark provides easy-to-use APIs for operating on large datasets."
+    },
+    {
+        "question": "Spark is engineered from the bottom-up for performance, running ___________ faster than Hadoop by exploiting in memory computing and other optimizations.",
+        "options": [
+            "a) 100x",
+            "b) 150x",
+            "c) 200x",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spark is fast on disk too; it currently holds the world record in large scale on-disk sorting."
+    },
+    {
+        "question": "Spark powers a stack of high-level tools including Spark SQL, MLlib for _________",
+        "options": [
+            "a) regression models",
+            "b) statistics",
+            "c) machine learning",
+            "d) reproductive research"
+        ],
+        "answer": "c",
+        "explanation": "Spark is used at a wide range of organizations to process large datasets."
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which kind of proof is used to prove the regularity of a language?",
+        "options": [
+            "a) Proof by contradiction",
+            "b) Direct proof",
+            "c) Proof by induction",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "We use the method of proof by contradiction in pumping lemma to prove that a language is regular or not."
+    },
+    {
+        "question": "The language of balanced paranthesis is",
+        "options": [
+            "a) regular",
+            "b) non regular",
+            "c) may be regular",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Given n, there is a string of balanced parentheses that begins with more than p left parentheses, so that y will contain entirely of left parentheses. By repeating y, we can produce a string that does not contain the same number of left and right parentheses, and so they cannot be balanced."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The converse of the lemma is not true. There may exists some language which satisfy all the conditions of the lemma and still be non-regular."
+    },
+    {
+        "question": "Which of the following is/are an example of pigeon hole principle?",
+        "options": [
+            "a) Softball team",
+            "b) Sock picking",
+            "c) Hair counting",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are several applications of pigeonhole principle:"
+    },
+    {
+        "question": "Pigeonhole principle can be applied in the following computer science algorithms:",
+        "options": [
+            "a) hashing algorithm",
+            "b) lossless compression algorithm",
+            "c) hashing algorithm and lossless compression algorithm",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Collisions are inevitable in a hash table because the number of possible keys exceeds the number of indices in the array."
+    },
+    {
+        "question": "If n objects are distributed over m places, and n < m, then some of the places receive:",
+        "options": [
+            "a) at least 2 objects",
+            "b) at most 2 objects",
+            "c) no object",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This is one of the alternative formulations of the pigeon hole principle. As n < m, there will exist some place which will not receive any of the object."
+    },
+    {
+        "question": "Which of the following fields may have pigeonhole principle violated?",
+        "options": [
+            "a) Discrete mathematics",
+            "b) Computer Science",
+            "c) Quantum Mechanics",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Y Aharonov proved mathematically the violation of pigeon hole principle in Quantum mechanics and proposed inferometric experiments to test it."
+    },
+    {
+        "question": "Which of the following is not an application of Pumping Lemma?",
+        "options": [
+            "a) {0",
+            "b) {0",
+            "c) {0",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None of the mentioned are regular language and are an application to the technique Pumping Lemma. Each one of the mentioned can be proved non regular using the steps in Pumping lemma."
+    },
+    {
+        "question": "Which of the following can refer a language to be non regular?",
+        "options": [
+            "a) Pumping Lemma",
+            "b) Myphill Nerode",
+            "c) Pumping Lemma and Myphill Nerode",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "On the contrary, the typical way to prove that a language is to construct either a finite state machine or a regular expression for the language."
+    },
+    {
+        "question": "Which of the following is not an example of counting argument?",
+        "options": [
+            "a) Pigeonhole principle",
+            "b) Dirichlet\u2019s drawer principle",
+            "c) Dirichlet\u2019s box principle",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Pigeon hole principle or Dirichlet\u2019s drawer principle or Dirichlet\u2019s box principle is an example of counting argument whose field is called Combinatorics."
+    }
+]

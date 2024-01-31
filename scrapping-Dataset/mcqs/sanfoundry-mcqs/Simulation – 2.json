@@ -1,0 +1,97 @@
+[
+    {
+        "question": "_________ ensures reproducibility of the sequence of random numbers.",
+        "options": [
+            "a) sets.seed()",
+            "b) set.seed()",
+            "c) set.seedvalue()",
+            "d) set.value()"
+        ],
+        "answer": "b",
+        "explanation": "Setting the random number seed with set.seed() ensures reproducibility of the sequence of random numbers."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) When simulating any random numbers it is not essential to set the random number seed",
+            "b) It is not possible to generate random numbers from other probability distributions like the Poisson",
+            "c) You should always set the random number seed when conducting a simulation",
+            "d) Statistical procedure does not require random number generation"
+        ],
+        "answer": "c",
+        "explanation": "Otherwise, you will not be able to reconstruct the exact numbers that you produced in an analysis."
+    },
+    {
+        "question": "5 Normal random numbers can be generated with rnorm() by setting seed value to ______________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "set.seed(1) will give 5 normal random numbers."
+    },
+    {
+        "question": "_______ function is used to simulate binary random variables.",
+        "options": [
+            "a) dnorm",
+            "b) rbinom()",
+            "c) binom()",
+            "d) rpois"
+        ],
+        "answer": "b",
+        "explanation": "rbinom() is used to simulate a predictor variable x that is binary instead of having a Normal distribution."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Drawing samples from specific probability distributions can be done with \u201cs\u201d functions",
+            "b) The sample() function draws randomly from a specified set of (scalar) objects allowing you to sample from arbitrary distributions of numbers",
+            "c) The sampling() function draws randomly from a specified set of objects",
+            "d) You should always set the random number seed when conducting a simulation"
+        ],
+        "answer": "b",
+        "explanation": "The sample() function can be used to draw random samples from arbitrary vectors."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Setting the random number seed with set.seed() ensures reproducibility of the sequence of random numbers. rbinom() is used to simulate a predictor variable x that is binary instead of having a Normal distribution."
+    },
+    {
+        "question": "__________ distribution is commonly used to model data that come in the form of counts.",
+        "options": [
+            "a) Gaussian",
+            "b) Parametric",
+            "c) Poisson",
+            "d) Simulation"
+        ],
+        "answer": "c",
+        "explanation": "It is possible to generate random numbers from other probability distributions like the Poisson."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The above code represents count with mean of 1."
+    },
+    {
+        "question": "Which of the following code represents count with mean of 2?",
+        "options": [
+            "a) rpois(10, 2)",
+            "b) rpois(10, 20)",
+            "c) rpois(20, 2)",
+            "d) rpois(20, 20)"
+        ],
+        "answer": "a",
+        "explanation": "rpois(10, 20) give counts with a mean of 20."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The above code computes the outcome via the linear model."
+    }
+]

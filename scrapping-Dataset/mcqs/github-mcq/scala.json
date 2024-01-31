@@ -1,0 +1,611 @@
+[
+    {
+        "question": "Scala bytecode can run on top of Java VM. What is the fundamental difference between Java object.clone() and Scala object.copy()?",
+        "options": [
+            "One is a Java object, the other is a Scala object.",
+            "clone() will copy class structures but not the data, while copy() will also copy data into new objects.",
+            "There is no difference.",
+            "copy() allows you to change values during the copying process; clone() does not."
+        ],
+        "answer": "copy() allows you to change values during the copying process; clone() does not."
+    },
+    {
+        "question": "What value does this code return?",
+        "options": [
+            "a",
+            "2",
+            "b",
+            "1"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "What is one way to avoid low-level parallelization details?",
+        "options": [
+            "monads",
+            "literal functions",
+            "partially applied functions",
+            "parallel collections"
+        ],
+        "answer": "parallel collections"
+    },
+    {
+        "question": "What do you use in ScalaTest to see a detailed diagram of error messages when a test fails?",
+        "options": [
+            "ArgumentExceptions",
+            "AssertionException",
+            "DiagrammedAssertions",
+            "JUnit"
+        ],
+        "answer": "DiagrammedAssertions"
+    },
+    {
+        "question": "What data type would you use to store an immutable collection of objects that contain a fixed number of varying types?",
+        "options": [
+            "Array",
+            "ImmutableCollection",
+            "List",
+            "Tuple"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "After defining a function in the interpreter, Scala returns the following. What does the `()` indicate?",
+        "options": [
+            "The function has no side effects.",
+            "The function takes no parameters.",
+            "The function returns no value.",
+            "Returning unit types to the function is a closures."
+        ],
+        "answer": "The function returns no value."
+    },
+    {
+        "question": "What type of number is 1234.e5?",
+        "options": [
+            "hexadecimal",
+            "short",
+            "floating point",
+            "long"
+        ],
+        "answer": "floating point"
+    },
+    {
+        "question": "When you convert a map to a list using the `toList` method of the map, the result will be of which type?",
+        "options": [
+            "`List[(String, String)]`",
+            "`List[(Array, Array)]`",
+            "`List[(Collection, Collection)]`",
+            "`List`"
+        ],
+        "answer": "`List`"
+    },
+    {
+        "question": "What type of object does this code create?",
+        "options": [
+            "List",
+            "Map",
+            "Tuple",
+            "Array"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which is a subclass of all classes?",
+        "options": [
+            "AnyVal",
+            "AnyRef",
+            "Method",
+            "Null"
+        ],
+        "answer": "Null"
+    },
+    {
+        "question": "For the for-yield construct, is the scope separate between for-body and yield-body?",
+        "options": [
+            "Yes and no. It is different depending on the for construct and what it does.",
+            "Yes, because the for section does not expose its scope.",
+            "No, because for-yield shares the same scope, even though they are within separate curly braces.",
+            "Yes, because they are within different curly braces."
+        ],
+        "answer": "No, because for-yield shares the same scope, even though they are within separate curly braces."
+    },
+    {
+        "question": "What is one way to implement pattern matching on methods?",
+        "options": [
+            "using regex",
+            "using monads",
+            "using string matching",
+            "using case classes"
+        ],
+        "answer": "using case classes"
+    },
+    {
+        "question": "What is the value of z after executing this code?",
+        "options": [
+            "List(a,b,c)",
+            "List(List(a, b), c)",
+            "List(c,a,b)",
+            "List(c,List(a,b))"
+        ],
+        "answer": "List(List(a, b), c)"
+    },
+    {
+        "question": "What term is used to specify a precondition?",
+        "options": [
+            "assert",
+            "require",
+            "precondition",
+            "mustHave"
+        ],
+        "answer": "assert"
+    },
+    {
+        "question": "Which Scala type may throw an exception or a successfully computed value, and is commonly used to trap and propagate errors?",
+        "options": [
+            "`scala.util.ExceptionHandling`",
+            "`scala.Catch.Throw`",
+            "`scala.exception.TryFinally`",
+            "`scala.util.Try`"
+        ],
+        "answer": "`scala.util.Try`"
+    },
+    {
+        "question": "What is the data type of y after this code is executed?",
+        "options": [
+            "short",
+            "double",
+            "int",
+            "bigInt"
+        ],
+        "answer": "double"
+    },
+    {
+        "question": "When using pattern matching, which character matches on any object?",
+        "options": [
+            "`%`",
+            "`_`",
+            "`^`",
+            "`-`"
+        ],
+        "answer": "`_`"
+    },
+    {
+        "question": "You have created an array using val. Can you change the value of any element of the array\u2014and why or why not?",
+        "options": [
+            "Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable.",
+            "The 0th element is immutable and cannot be modified. All other elements can be modified.",
+            "Yes, val does not make arrays immutable.",
+            "No, val makes the array and values of the array immutable."
+        ],
+        "answer": "Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable."
+    },
+    {
+        "question": "What is the output of this function?",
+        "options": [
+            "1,2,3,4,5",
+            "0,1,2,3,4",
+            "1,2,3,4",
+            "2,3,4,5"
+        ],
+        "answer": "1,2,3,4"
+    },
+    {
+        "question": "What do you call objects with immutable state?",
+        "options": [
+            "singletons",
+            "stationary objects",
+            "functional objects",
+            "fixed objects"
+        ],
+        "answer": "functional objects"
+    },
+    {
+        "question": "You have written a Scala script. How would you access command-line arguments in the script?",
+        "options": [
+            "use array named args",
+            "use tuple named args",
+            "use numbered variables with a _ prefix for example _ 1, _ 2, _ 3",
+            "use numbered variables with a $ prefix - for example $1, $2, $3"
+        ],
+        "answer": "use array named args"
+    },
+    {
+        "question": "What does this code return? `val x = 3; if (x > 2) x = 4 else x = x*2`",
+        "options": [
+            "4",
+            "an error",
+            "6",
+            "3"
+        ],
+        "answer": "an error"
+    },
+    {
+        "question": "Which statement returns a success or a failure indicator when you execute this code?",
+        "options": [
+            "myFuture.onComplete",
+            "myFuture(status)",
+            "myFuture.Finished",
+            "complete(myFuture)"
+        ],
+        "answer": "myFuture.onComplete"
+    },
+    {
+        "question": "To denote a parameter that may be repeated, what should you place after type?",
+        "options": [
+            "`%`",
+            "`&`",
+            "`_`",
+            "`-`"
+        ],
+        "answer": "`-`"
+    },
+    {
+        "question": "What is called when a superclass has more than one subclass in Scala?",
+        "options": [
+            "polyinheritance",
+            "multilevel inheritance",
+            "multimode inheritance",
+            "hierarchical inheritance"
+        ],
+        "answer": "hierarchical inheritance"
+    },
+    {
+        "question": "One way to improve code reliability is to use `__` , which will evaluate a condition and return an error if the condition is violated.",
+        "options": [
+            "packages",
+            "polymorphisms",
+            "assertions",
+            "traits"
+        ],
+        "answer": "assertions"
+    },
+    {
+        "question": "Which statement about if-else-if-else statements is true?",
+        "options": [
+            "If the first else-if does not succeed, then no other else-ifs are tested.",
+            "If an else-if does not succeed, then none of the remaining else-if statements or elses will be tested.",
+            "All else-if statements are tested in all cases.",
+            "If an else-if succeeds, then none of the remaining else-if statements or elses will tested."
+        ],
+        "answer": "If an else-if succeeds, then none of the remaining else-if statements or elses will tested."
+    },
+    {
+        "question": "What do you call the process of changing the definition of an inherited method?",
+        "options": [
+            "recursive methods",
+            "currying methods",
+            "redefining methods",
+            "overriding methods"
+        ],
+        "answer": "overriding methods"
+    },
+    {
+        "question": "To denote a parameter that may be repeated, what should you place after the type?",
+        "options": [
+            "`_`",
+            "`*`",
+            "`%`",
+            "`&`"
+        ],
+        "answer": "`*`"
+    },
+    {
+        "question": "What is the code below equivalent to?",
+        "options": [
+            "`myClass.foreach(println ())`",
+            "`myClass.foreach(print NIL)`",
+            "`myClass.loop(println ())`",
+            "`myClass.foreach(x => println(x))`"
+        ],
+        "answer": "`myClass.foreach(x => println(x))`"
+    },
+    {
+        "question": "What is an advantage of an immutable object?",
+        "options": [
+            "Immutable objects use less memory than their mutable counterparts.",
+            "Immutable objects do not require error handling.",
+            "Immutable objects can be used in classes, mutable objects cannot.",
+            "Immutable objects are threadsafe."
+        ],
+        "answer": "Immutable objects are threadsafe."
+    },
+    {
+        "question": "You want to create an iteration loop that tests the condition at the end of the loop body. Which iteration would you use?",
+        "options": [
+            "do-while loop",
+            "while loop",
+            "for loop",
+            "do-until loop"
+        ],
+        "answer": "do-while loop"
+    },
+    {
+        "question": "What can you use to make querying a database more efficient, by avoiding the need to parse the SQL string every time a query is executed from Scala?",
+        "options": [
+            "database driver",
+            "connection",
+            "prepared statement",
+            "SQL view"
+        ],
+        "answer": "prepared statement"
+    },
+    {
+        "question": "Which is _not_ a member of the collections hierarchy?",
+        "options": [
+            "Set",
+            "Seq",
+            "Hash",
+            "Map"
+        ],
+        "answer": "Hash"
+    },
+    {
+        "question": "Which term makes the contents of packages available without prefixing?",
+        "options": [
+            "use",
+            "include",
+            "import",
+            "assertion"
+        ],
+        "answer": "import"
+    },
+    {
+        "question": "If you wanted to find the remainder after division, what operator would you use?",
+        "options": [
+            "%",
+            "DIV",
+            "//",
+            "/"
+        ],
+        "answer": "%"
+    },
+    {
+        "question": "What are defined inside a class definition?",
+        "options": [
+            "method",
+            "fields and methods",
+            "fields, methods, and packages",
+            "fields"
+        ],
+        "answer": "fields and methods"
+    },
+    {
+        "question": "What defines methods and fields that can then be reused by mixing into classes?",
+        "options": [
+            "singleton",
+            "assertion",
+            "trait",
+            "monad"
+        ],
+        "answer": "trait"
+    },
+    {
+        "question": "When do you need to explicitly state the return type in a function definition?",
+        "options": [
+            "when the function has no side effects",
+            "when the function returns a Unit type",
+            "when the function is recursive",
+            "when the function has side effects"
+        ],
+        "answer": "when the function is recursive"
+    },
+    {
+        "question": "Why would you make a field private?",
+        "options": [
+            "so only methods in the same file can access the field",
+            "so only methods in the same package can access the field",
+            "so only methods in the same class could access the field",
+            "so only methods defined in a Java class can access the field"
+        ],
+        "answer": "so only methods in the same class could access the field"
+    },
+    {
+        "question": "What's the difference between `.equals` and `==`?",
+        "options": [
+            "They do the exact same thing",
+            "`==` won't work on objects",
+            "`==` cannot be applied to `String`",
+            "`==` is a wrapper of `.equals()` and checks for nulls"
+        ],
+        "answer": "`==` is a wrapper of `.equals()` and checks for nulls"
+    },
+    {
+        "question": "What is denotes the intersection between two sets?",
+        "options": [
+            "||",
+            "&&",
+            "&",
+            "%"
+        ],
+        "answer": "&"
+    },
+    {
+        "question": "What do you call a function defined in a block?",
+        "options": [
+            "private function",
+            "block function",
+            "local function",
+            "method"
+        ],
+        "answer": "local function"
+    },
+    {
+        "question": "What do you call a Scala method that is parametrized by type as well as by value?",
+        "options": [
+            "multimode method",
+            "polymorphic method",
+            "closure",
+            "collection method"
+        ],
+        "answer": "polymorphic method"
+    },
+    {
+        "question": "What type of exception is thrown when a precondition is violated?",
+        "options": [
+            "IllegalArgumentException",
+            "NumberFormatException",
+            "NullPointerExcepetion",
+            "MalformedParameterException"
+        ],
+        "answer": "IllegalArgumentException"
+    },
+    {
+        "question": "In scala what is precondition?",
+        "options": [
+            "a constraint on where a method may be called from",
+            "a constraint on values passed to a methode constructor",
+            "a class of predifined error messages",
+            "a class of Boolean operators"
+        ],
+        "answer": "a class of predifined error messages"
+    },
+    {
+        "question": "What would you change in this code to make it execute in parallel?",
+        "options": [
+            "Change **list.map** to **list.par.map.**",
+            "Change **toList** to **toListPar**",
+            "Change **val** to **val.par**",
+            "Change **toList** to **toParallelList**"
+        ],
+        "answer": "Change **list.map** to **list.par.map.**"
+    },
+    {
+        "question": "What is a free variable?",
+        "options": [
+            "a variable defined outside a function",
+            "a variable referenced in a function that is not assigned a value by that function",
+            "a variable that has a global scope",
+            "a variable defined in a class and available to all methods in that class"
+        ],
+        "answer": "a variable defined outside a function"
+    },
+    {
+        "question": "What's the best way to execute code in the background in a separate thread?",
+        "options": [
+            "AltThread",
+            "AltFuture",
+            "AltProcess",
+            "Future"
+        ],
+        "answer": "Future"
+    },
+    {
+        "question": "What value does this code return?",
+        "options": [
+            "(1,2,4)",
+            "1",
+            "Nil",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which data type does Scala use instead of null for optional values?",
+        "options": [
+            "Nil",
+            "Option",
+            "Singleton",
+            "Collection"
+        ],
+        "answer": "Option"
+    },
+    {
+        "question": "What is equivalent to this code?",
+        "options": [
+            "\"Foo \" + a + \"?\""
+        ],
+        "answer": "\"Foo \" + a + \"?\""
+    },
+    {
+        "question": "Which expression is one way to iterate over a collection and generate a collection of each iteration's result?",
+        "options": [
+            "for-yield",
+            "for-collect",
+            "for-collect until",
+            "collectuntil"
+        ],
+        "answer": "for-yield"
+    },
+    {
+        "question": "Which statement accesses the third element of an array named foo?",
+        "options": [
+            "foo[2]",
+            "foo(3)",
+            "foo[3]",
+            "foo(2)"
+        ],
+        "answer": "foo[2]"
+    },
+    {
+        "question": "What data type would you use to store an immutable collection of objects when you don't know how many members will be in the collection?",
+        "options": [
+            "Tuple",
+            "List",
+            "Object",
+            "Array"
+        ],
+        "answer": "List"
+    },
+    {
+        "question": "From where do all classes in Scala inherit?",
+        "options": [
+            "AnyRef",
+            "AnyColl",
+            "AnyVal",
+            "AnyClass"
+        ],
+        "answer": "AnyRef"
+    },
+    {
+        "question": "In Scala, what is a precondition?",
+        "options": [
+            "A class of boolean operators",
+            "A class of predefined error messages",
+            "A constraint on values passed to a method or constructor",
+            "A constraint on where a method may be called from"
+        ],
+        "answer": "A constraint on values passed to a method or constructor"
+    },
+    {
+        "question": "Which code sample will print the integers 1 through 4, each on a separate line?",
+        "options": [
+            "for(i <- 0 to 4) println(i)",
+            "for(i <- 0 to 3) println(i+1)",
+            "for(i <- 1 to 8 if i < 5) println(i)",
+            "for(i <- 1 to 4) println(i)"
+        ],
+        "answer": "for(i <- 0 to 3) println(i+1)"
+    },
+    {
+        "question": "Which operator should you use to take the intersection of two sets?",
+        "options": [
+            "&",
+            "||",
+            "&&",
+            "%"
+        ],
+        "answer": "&"
+    },
+    {
+        "question": "Which data type does Scala use instead of null for optional values?",
+        "options": [
+            "Nil",
+            "Option",
+            "Singleton",
+            "Collection"
+        ],
+        "answer": "Option"
+    },
+    {
+        "question": "What is the difference between a Scala trait and an interface?",
+        "options": [
+            "A trait can have concrete implementations, while an interface cannot.",
+            "An interface can have concrete implementations, while a trait cannot.",
+            "Traits can be mixed together, while interfaces cannot.",
+            "Interfaces can be mixed together, while traits cannot."
+        ],
+        "answer": "A trait can have concrete implementations, while an interface cannot.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

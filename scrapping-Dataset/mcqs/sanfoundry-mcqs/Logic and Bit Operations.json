@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following bits is the negation of the bits \u201c010110\u201d?",
+        "options": [
+            "a) 111001",
+            "b) 001001",
+            "c) 101001",
+            "d) 111111"
+        ],
+        "answer": "c",
+        "explanation": "Flip each of the bit to get the negation of the required string."
+    },
+    {
+        "question": "Which of the following option is suitable, if A is \u201c10110110\u201d, B is\u201d11100000\u201d and C is\u201d10100000\u201d?",
+        "options": [
+            "a) C=A or B",
+            "b) C=~A",
+            "c) C=~B",
+            "d) C=A and B"
+        ],
+        "answer": "d",
+        "explanation": "Output of and is 1 when both other inputs are one."
+    },
+    {
+        "question": "How many bits string of length 4 are possible such that they contain 2 ones and 2 zeroes?",
+        "options": [
+            "a) 4",
+            "b) 2",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "The strings are {0011, 0110, 1001, 1100, 1010 and 0101}."
+    },
+    {
+        "question": "If a bit string contains {0, 1} only, having length 5 has no more than 2 ones in it. Then how many such bit strings are possible?",
+        "options": [
+            "a) 14",
+            "b) 12",
+            "c) 15",
+            "d) 16"
+        ],
+        "answer": "d",
+        "explanation": "The total strings are 1(having no one in it) +5(having 1 one in it) +10 (having 2 ones in it) = 16."
+    },
+    {
+        "question": "If A is \u201c001100\u201d and B is \u201c010101\u201d then what is the value of A (Ex-or) B?",
+        "options": [
+            "a) 000000",
+            "b) 111111",
+            "c) 001101",
+            "d) 011001"
+        ],
+        "answer": "d",
+        "explanation": "In Ex-or if both the inputs are same then output is 0 otherwise 1."
+    },
+    {
+        "question": "The Ex-nor of this string \u201c01010101\u201d with \u201c11111111\u201d is?",
+        "options": [
+            "a) 10101010",
+            "b) 00110100",
+            "c) 01010101",
+            "d) 10101001"
+        ],
+        "answer": "c",
+        "explanation": "In Ex-nor if both the inputs are same then output is 1 otherwise 0."
+    },
+    {
+        "question": "What is the one\u2019s complement of this string \u201c01010100\u201d?",
+        "options": [
+            "a) 10101010",
+            "b) 00110101",
+            "c) 10101011",
+            "d) 10101001"
+        ],
+        "answer": "c",
+        "explanation": "Negate every bit in one\u2019s complement."
+    },
+    {
+        "question": "What is the 2\u2019s complement of this string \u201c01010100\u201d?",
+        "options": [
+            "a) 10101010",
+            "b) 00110100",
+            "c) 10101100",
+            "d) 10101001"
+        ],
+        "answer": "c",
+        "explanation": "In two\u2019s complement negate every bit from left until the first one from right is encountered."
+    },
+    {
+        "question": "If in a bits string of {0,1}, of length 4, such that no two ones are together. Then the total number of such possible strings are?",
+        "options": [
+            "a) 1",
+            "b) 5",
+            "c) 7",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "Strings can be {1001, 1010, 0101, 1000, 0100, 0010, 0001}."
+    },
+    {
+        "question": "Let A: \u201c010101\u201d, B=?, If { A (Ex-or) B } is a resultant string of all ones then which of the following statement regarding B is correct?",
+        "options": [
+            "a) B is negation of A",
+            "b) B is 101010",
+            "c) {A (and) B} is a resultant  string having all zeroes",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In Ex-or both if both the inputs are the same then output is 0 otherwise 1."
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "question": "Which of the following methods can be used to find the largest and smallest element in an array?",
+        "options": [
+            "a) Recursion",
+            "b) Iteration",
+            "c) Both recursion and iteration",
+            "d) No method is suitable"
+        ],
+        "answer": "c",
+        "explanation": "Both recursion and iteration can be used to find the largest and smallest element in an array."
+    },
+    {
+        "question": "Consider the following iterative code snippet to find the largest element:",
+        "options": [],
+        "answer": "a",
+        "explanation": "The line \u201carr[i] > max_element\u201d should be inserted to complete the above code snippet."
+    },
+    {
+        "question": "Consider the following code snippet to find the smallest element in an array:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201carr[i] < min_element\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the values of the largest and the smallest elements in the array, which are 8 and 1 respectively."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Since the min_element variable is not initialised, some compilers will auto initialise as 0 which produces -1 as output whereas some compilers won\u2019t initialise automatically. In that case, the result will be a garbage value hence the output depends on the compiler."
+    },
+    {
+        "question": "What is the time complexity of the following iterative implementation used to find the largest and smallest element in an array?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above iterative implementation used to find the largest and the smallest element in an array is O(n)."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the largest element in an array.",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201cmax_of_two(arr[idx], recursive_max_element(arr, len, idx + 1))\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the values of the largest and the smallest element in the array, which are 10 and -1 respectively."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation used to find the largest and the smallest element in an array?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation used to find the largest and smallest element in an array is O(n)."
+    },
+    {
+        "question": "How many times is the function recursive_min_element() called when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function recursive_min_element() is called 10 times when the above code is executed."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the values of the largest and the smallest element in the array, which are 1 and 1."
+    }
+]

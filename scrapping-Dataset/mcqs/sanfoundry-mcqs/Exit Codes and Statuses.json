@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following code is used for the successful exit of task?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "0 is returned by MongoDB applications upon successful exit."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) 2 is returned by mongod if there is a mismatch between hostnames specified on the command line and in the local.sources collection",
+            "b) When an index covers a query, MongoDB can both match the query conditions and return the results using only the index keys",
+            "c) Both 2 and 4 are returned by mongod if there is a mismatch between hostnames specified on the command line and in the local.sources collection",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " mongod may also return this status if oplog collection in the local database is not readable."
+    },
+    {
+        "question": "Instance exits cleanly are represented by ___ exit code.",
+        "options": [
+            "a) 4",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Restart mongod with the \u2013upgrade option to upgrade the database to the version supported by this mongod instance."
+    },
+    {
+        "question": "Which of the following code is returned by mongod if a moveChunk operation fails to confirm a commit?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 7",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Exit codes 6 and 7 does not exist."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Exit code 10 is for abnormal exit",
+            "b) 4 is returned when the version of the database is different from the version supported by the mongod (or mongod.exe) instance",
+            "c) The server socket is on port 27017 by default",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Exit code 10 is not in use."
+    },
+    {
+        "question": "Which of the following code represents exit cleanly following a large clock skew (32768 milliseconds) event?",
+        "options": [
+            "a) 45",
+            "b) 20",
+            "c) 47",
+            "d) 100"
+        ],
+        "answer": "c",
+        "explanation": "100 is returned by mongod when the process throws an uncaught exception."
+    },
+    {
+        "question": "49 code is returned by mongod from _________ Service control Manager.",
+        "options": [
+            "a) Linux",
+            "b) Windows",
+            "c) Ubuntu",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Custom read preferences and write concerns evaluate tags sets in different ways."
+    },
+    {
+        "question": "Which of the following code is returned when a MongoDB application cannot open a file?",
+        "options": [
+            "a) 45",
+            "b) 20",
+            "c) 47",
+            "d) 100"
+        ],
+        "answer": "a",
+        "explanation": "45 is returned when a MongoDB application cannot open a file or cannot obtain a lock on a file."
+    },
+    {
+        "question": "Identify the message returned by MongoDB applications for Windows due to failures installing?",
+        "options": [
+            "a) Message: ERROR: wsastartup failed <reason>",
+            "b) Message: NT Service Error",
+            "c) Message: wsastartup failed",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "20 is returned by MongoDB applications for Windows due to failures installing, starting or removing the NT Service for the application"
+    },
+    {
+        "question": "Which of the following document represents uncaught exception?",
+        "options": [
+            "a) 45",
+            "b) 49",
+            "c) 47",
+            "d) 100"
+        ],
+        "answer": "d",
+        "explanation": "49 is returned by mongod.exe or mongos.exe on Windows when either receives a shutdown message from the Windows Service Control Manager."
+    }
+]

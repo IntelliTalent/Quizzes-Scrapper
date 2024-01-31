@@ -1,0 +1,152 @@
+[
+    {
+        "question": "The worst-case efficiency of solving a problem in polynomial time is?",
+        "options": [
+            "a) O(p(n))",
+            "b) O(p( n log n))",
+            "c) O(p(n",
+            "d) O(p(m log n))"
+        ],
+        "answer": "a",
+        "explanation": "The worst-case efficiency of solving an problem in polynomial time is O(p(n)) where p(n) is the polynomial time of input size."
+    },
+    {
+        "question": "Problems that can be solved in polynomial time are known as?",
+        "options": [
+            "a) intractable",
+            "b) tractable",
+            "c) decision",
+            "d) complete"
+        ],
+        "answer": "b",
+        "explanation": "Problems that can be solved in polynomial time are known as tractable. Problems that cannot be solved in polynomial time are intractable."
+    },
+    {
+        "question": "The sum and composition of two polynomials are always polynomials.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "One of the properties of polynomial functions states that the sum and composition of two polynomials are always polynomials."
+    },
+    {
+        "question": "_________ is the class of decision problems that can be solved by non-deterministic polynomial algorithms.",
+        "options": [
+            "a) NP",
+            "b) P",
+            "c) Hard",
+            "d) Complete"
+        ],
+        "answer": "a",
+        "explanation": "NP  problems are called as non-deterministic polynomial problems. They are a class of decision problems that can be solved using NP algorithms."
+    },
+    {
+        "question": "Problems that cannot be solved by any algorithm are called?",
+        "options": [
+            "a) tractable problems",
+            "b) intractable problems",
+            "c) undecidable problems",
+            "d) decidable problems"
+        ],
+        "answer": "c",
+        "explanation": "Problems cannot be solved by any algorithm are called undecidable problems. Problems that can be solved in polynomial time are called Tractable problems."
+    },
+    {
+        "question": "To which class does the Euler\u2019s circuit problem belong?",
+        "options": [
+            "a) P class",
+            "b) NP class",
+            "c) Partition class",
+            "d) Complete class"
+        ],
+        "answer": "a",
+        "explanation": "Euler\u2019s circuit problem can be solved in polynomial time. It can be solved in O(N"
+    },
+    {
+        "question": "Halting problem is an example for?",
+        "options": [
+            "a) decidable problem",
+            "b) undecidable problem",
+            "c) complete problem",
+            "d) trackable problem"
+        ],
+        "answer": "b",
+        "explanation": "Halting problem by Alan Turing cannot be solved by any algorithm. Hence, it is undecidable."
+    },
+    {
+        "question": "How many stages of procedure does a non-deterministic algorithm consist of?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "A non-deterministic algorithm is a two-stage procedure- guessing stage and verification stage."
+    },
+    {
+        "question": "A non-deterministic algorithm is said to be non-deterministic polynomial if the time-efficiency of its verification stage is polynomial.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "One of the properties of NP class problems states that A non-deterministic algorithm is said to be non-deterministic polynomial if the time-efficiency of its verification stage is polynomial."
+    },
+    {
+        "question": "How many conditions have to be met if an NP- complete problem is polynomially reducible?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "A function t that maps all yes instances of decision problems D1 and D2 and t should be computed in polynomial time are the two conditions."
+    },
+    {
+        "question": "To which of the following class does a CNF-satisfiability problem belong?",
+        "options": [
+            "a) NP class",
+            "b) P class",
+            "c) NP complete",
+            "d) NP hard"
+        ],
+        "answer": "c",
+        "explanation": "The CNF satisfiability problem belongs to NP complete class. It deals with Boolean expressions."
+    },
+    {
+        "question": "How many steps are required to prove that a decision problem is NP complete?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "First, the problem should be NP. Next, it should be proved that every problem in NP is reducible to the problem in question in polynomial time."
+    },
+    {
+        "question": "Which of the following problems is not NP complete?",
+        "options": [
+            "a) Hamiltonian circuit",
+            "b) Bin packing",
+            "c) Partition problem",
+            "d) Halting problem"
+        ],
+        "answer": "d",
+        "explanation": "Hamiltonian circuit, bin packing, partition problems are NP complete problems. Halting problem is an undecidable problem."
+    },
+    {
+        "question": "The choice of polynomial class has led to the development of an extensive theory called ________",
+        "options": [
+            "a) computational complexity",
+            "b) time complexity",
+            "c) problem complexity",
+            "d) decision complexity"
+        ],
+        "answer": "a",
+        "explanation": "An extensive theory called computational complexity seeks to classify problems according to their inherent difficulty."
+    }
+]

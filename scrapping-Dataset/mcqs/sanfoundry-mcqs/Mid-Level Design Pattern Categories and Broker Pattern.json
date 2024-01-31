@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following does not belong to mid-level design patterns?",
+        "options": [
+            "a) Broker",
+            "b) Iterator",
+            "c) Generator",
+            "d) Reactor"
+        ],
+        "answer": "b",
+        "explanation": "All the rest belongs to mid level design patterns whereas iterator is object oriented mid level design."
+    },
+    {
+        "question": "Which of the following pattern features a client that needs a service from a supplier,but there is some problem with the supplier providing the",
+        "options": [
+            "a) Broker",
+            "b) Iterator",
+            "c) Generator",
+            "d) Reactor"
+        ],
+        "answer": "a",
+        "explanation": "Broker pattern features a client that needs service from a supplier."
+    },
+    {
+        "question": "Which of the following pattern includes client that generally creates a instance that registers with a target to carry out tasks in response to target events on behalf of the client?",
+        "options": [
+            "a) Broker",
+            "b) Iterator",
+            "c) Generator",
+            "d) Reactor"
+        ],
+        "answer": "d",
+        "explanation": "Reactor pattern creates reactor instance that registers with the target."
+    },
+    {
+        "question": "Which of the following is true with respect to generator pattern?",
+        "options": [
+            "a) They have a broker that mediates interactions between a client and a supplier",
+            "b) They have a generator that creates instances of a product on behalf of a client",
+            "c) They have a reactor that registers with a target to respond to target events on behalf of a client",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Generator pattern have a generator that creates instances of a product on behalf of a client."
+    },
+    {
+        "question": "Which of the following is true for broker pattern?",
+        "options": [
+            "a) Broker patterns are the simplest mid-level design patterns",
+            "b) All broker patterns have instances of a Broker class that mediate the interaction between Client and Supplier class instances",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned statement are true."
+    },
+    {
+        "question": "Which of the following involves breaking of complex supplier into parts with a broker presenting a uniform interface to the client and deciding how to route client requests?",
+        "options": [
+            "a) Simplify the Supplier",
+            "b) Decompose the supplier",
+            "c) Facilitate Client/Server interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Decompose of supplier involved breaking of complex supplier."
+    },
+    {
+        "question": "Which of the following is false for broker pattern?",
+        "options": [
+            "a) Broker classes mediate communications between clients and suppliers, and in doing so they may slow this interaction, causing a performance penalty",
+            "b) A broker may sometimes be able to provide some services to clients more cheaply than if the clients interacted directly with the suppliers",
+            "c) Brokers always damage performance",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Brokers do not always damage performance."
+    },
+    {
+        "question": "Which of the following is considered when broker is compared to iterator pattern?",
+        "options": [
+            "a) An iterator provides access to the elements of a collection on behalf of a client",
+            "b) An iterator do not provides access to the elements of a collection on behalf of a client",
+            "c) Broker is not an iterator pattern",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An iterator provides access to the elements of a collection on behalf of a client."
+    },
+    {
+        "question": "Which among these are the consequences for the broker pattern?",
+        "options": [
+            "a) Broker patterns simplify or decompose suppliers, or ease communication between them",
+            "b) Broker patterns thus increase changeability, modifiability, and re usability",
+            "c) By interposing additional processing, they may degrade performance",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the consequences."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The order of documents returned by a query is not defined unless you specify a ______",
+        "options": [
+            "a) sortfind()",
+            "b) sortelse()",
+            "c) sort()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can modify the query to impose limits, skips, and sort orders."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Queries specify criteria, or conditions, that identify the documents that MongoDB returns to the clients",
+            "b) Write operations, or queries, retrieve data stored in the database",
+            "c) The selection limits the amount of data that MongoDB returns to the client over the network",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In MongoDB, queries select documents from a single collection."
+    },
+    {
+        "question": "In aggregation pipeline, the _______ pipeline stage provides access to MongoDB queries.",
+        "options": [
+            "a) $catch",
+            "b) $match",
+            "c) $batch",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Operations that modify existing documents (i.e. updates) use the same query syntax as queries to select documents to update."
+    },
+    {
+        "question": "Which of the following method returns one document?",
+        "options": [
+            "a) findOne()",
+            "b) findOne1()",
+            "c) selectOne()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB provides a db.collection.findOne() method as a special case of find() that returns a single document."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) sort() modifier sorts the results by age in ascending order",
+            "b) Queries in MongoDB return all fields in all matching documents by default",
+            "c) To scale the amount of data that MongoDB sends to applications, include a projection in the queries.",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "By projecting results with a subset of fields, applications reduce their network overhead and processing requirements."
+    },
+    {
+        "question": "Which of the following is the second argument to projection?",
+        "options": [
+            "a) findOne()",
+            "b) findOne1()",
+            "c) selectOne()",
+            "d) find()"
+        ],
+        "answer": "d",
+        "explanation": "Projections are the second argument to the find() method, which specifies a list of fields to return or list fields to exclude in the result documents."
+    },
+    {
+        "question": "Which of the following query selects documents in the records collection that match the condition { \u201cuser_id\u201d: { $lt: 42 } }?",
+        "options": [
+            "a) db.records.findOne( { \u201cuser_id\u201d: { $lt: 42 } }, { \u201chistory\u201d: 0 } )",
+            "b) db.records.find( { \u201cuser_id\u201d: { $lt: 42 } }, { \u201chistory\u201d: 0 } )",
+            "c) db.records.findOne( { \u201cuser_id\u201d: { $lt: 42 } }, { \u201chistory\u201d: 1 } )",
+            "d) db.records.select( { \u201cuser_id\u201d: { $lt: 42 } }, { \u201chistory\u201d: 0 } )"
+        ],
+        "answer": "b",
+        "explanation": "Query uses the projection { \u201chistory\u201d: 0 } to exclude the history field from the documents in the result set."
+    },
+    {
+        "question": "Which of the following functionality is used for aggregation framework?",
+        "options": [
+            "a) $match",
+            "b) $project",
+            "c) $projectmatch",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For related projection functionality in the aggregation framework pipeline, use the $project pipeline stage."
+    },
+    {
+        "question": "To suppress the _id field from the result set, specify _________ in the projection document.",
+        "options": [
+            "a) _id: 1",
+            "b) _id: 0",
+            "c) _id: it",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By default, the _id field is included in the results."
+    },
+    {
+        "question": "Which of the following is not a projection operator?",
+        "options": [
+            "a) $slice",
+            "b) $elemMatch",
+            "c) $",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For fields that contain arrays, MongoDB provides the following projection operators: $elemMatch, $slice, and $."
+    }
+]

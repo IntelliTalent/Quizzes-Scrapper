@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Which mechanism among the following helps in identifying a type during the execution of a program?",
+        "options": [
+            "a) Reflection",
+            "b) Runtime type ID",
+            "c) Both Reflection & Runtime type ID",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Runtime type ID is the mechanism that lets identify a type during the execution of a program. Using Runtime type ID we can construct and use objects at runtime."
+    },
+    {
+        "question": "Select the statement which are correct about RTTI(Runtime type identification)?",
+        "options": [
+            "a) It allows the type of an object to be determined during program execution",
+            "b) It tells what type of object is being referred to by a base class reference determined by RTTI",
+            "c) Helps in prevention of an invalid cast exception in advance",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Runtime type identification (RTTI) allows the type of an object to be determined during program execution. RTTI is useful for many reasons. For example, we can discover precisely what type of object is being referred to by a base-class reference. Another use of RTTI is to test in advance whether a cast will succeed, preventing an invalid cast exception."
+    },
+    {
+        "question": "Select the Keyword which supports the run time type identification?",
+        "options": [
+            "a) is, as",
+            "b) as, typeof",
+            "c) Both is, as & as, typeof",
+            "d) Only is, as"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What does the following C# code signify?",
+        "options": [],
+        "answer": "a",
+        "explanation": " The given expression determines the type of an object using the \u2018is\u2019 operator. Here, expr is an expression that describes an object whose type is being tested against type. If the type of expr is the same as, or compatible with, type, then the outcome of this operation is true. Otherwise, it is false."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "We have to include the line \u2018This won\u2019t display \u2014 a not derived from B\u2019 this is because \u2018a\u2019 is object of class \u2018A\u2019 which itself is derived from class \u2018B\u2019. So, \u2018a\u2019 is a B"
+    }
+]

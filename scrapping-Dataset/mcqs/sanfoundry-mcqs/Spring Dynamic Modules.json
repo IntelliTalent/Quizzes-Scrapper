@@ -1,0 +1,39 @@
+[
+    {
+        "question": "To create services and have those automatically installed in the registry.",
+        "options": [
+            "a) Spring Dynamic Modules",
+            "b) Spring DM Server",
+            "c) Spring Tooling",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use Spring Dynamic Modules configuration schema to export a service. The service will be made available to other beans as well as other OSGi components."
+    },
+    {
+        "question": "Element to export the bean as an OSGi service, classified by the interface we specify.",
+        "options": [
+            "a) osgix",
+            "b) osgi:service",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We\u2019ll use the osgi:service element to export the bean as an OSGi service, classified by the interface we specify."
+    },
+    {
+        "question": "These beans are proxies, some may load asynchronously or take a longer time to register.",
+        "options": [],
+        "answer": "a",
+        "explanation": "This implies that you may have timing issues to resolve in configuring your service. For this, Spring Dynamic Modules provides the depends-on attribute, which lets your bean wait for another bean."
+    },
+    {
+        "question": "An anonymous bean specified inside of the osgi:service element allows you to avoid cluttering the namespace.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can abbreviate the syntax by using an anonymous bean."
+    }
+]

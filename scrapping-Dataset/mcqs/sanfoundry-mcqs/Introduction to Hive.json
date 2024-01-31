@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following command sets the value of a particular configuration variable (key)?",
+        "options": [
+            "a) set -v",
+            "b) set <key>=<value>",
+            "c) set",
+            "d) reset"
+        ],
+        "answer": "b",
+        "explanation": " If you misspell the variable name, the CLI will not show an error."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hive Commands are non-SQL statement such as setting a property or adding a resource",
+            "b) Set -v prints a list of configuration variables that are overridden by the user or Hive",
+            "c) Set sets a list of variables that are overridden by the user or Hive",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Commands can be used in HiveQL scripts or directly in the CLI or Beeline."
+    },
+    {
+        "question": "Which of the following operator executes a shell command from the Hive shell?",
+        "options": [
+            "a) |",
+            "b) !",
+            "c) ^",
+            "d) +"
+        ],
+        "answer": "b",
+        "explanation": "Exclamation operator is for execution of command."
+    },
+    {
+        "question": "Which of the following will remove the resource(s) from the distributed cache?",
+        "options": [
+            "a) delete FILE[S] <filepath>*",
+            "b) delete JAR[S] <filepath>*",
+            "c) delete ARCHIVE[S] <filepath>*",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Delete command is used to remove existing resource."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) source FILE <filepath> executes a script file inside the CLI",
+            "b) bfs <bfs command> executes a dfs command from the Hive shell",
+            "c) hive is Query language similar to SQL",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "dfs <dfs command> executes a dfs command from the Hive shell."
+    },
+    {
+        "question": "_________ is a shell utility which can be used to run Hive queries in either interactive or batch mode.",
+        "options": [
+            "a) $HIVE/bin/hive",
+            "b) $HIVE_HOME/hive",
+            "c) $HIVE_HOME/bin/hive",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Various types of command line operations are available in the shell utility."
+    },
+    {
+        "question": "Which of the following is a command line option?",
+        "options": [
+            "a) -d,\u2013define <key=value>",
+            "b) -e,\u2013define <key=value>",
+            "c) -f,\u2013define <key=value>",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " Variable substitution to apply to hive commands. e.g. -d A=B or \u2013define A=B."
+    },
+    {
+        "question": "Which is the additional command line option is available in Hive 0.10.0?",
+        "options": [
+            "a) \u2013database <dbname>",
+            "b) \u2013db <dbname>",
+            "c) \u2013dbase <<dbname>",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Database is specified which is to be used."
+    },
+    {
+        "question": "The CLI when invoked without the -i option will attempt to load $HIVE_HOME/bin/.hiverc and $HOME/.hiverc as _______ files.",
+        "options": [
+            "a) processing",
+            "b) termination",
+            "c) initialization",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hiverc file is loaded as per options selected."
+    },
+    {
+        "question": "When $HIVE_HOME/bin/hive is run without either the -e or -f option, it enters _______ mode.",
+        "options": [
+            "a) Batch",
+            "b) Interactive shell",
+            "c) Multiple",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use \u201c;\u201d (semicolon) to terminate commands for multiple options available."
+    }
+]

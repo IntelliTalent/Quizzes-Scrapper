@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The expected value or _______ of a random variable is the center of its distribution.",
+        "options": [
+            "a) mode",
+            "b) median",
+            "c) mean",
+            "d) bayesian inference"
+        ],
+        "answer": "c",
+        "explanation": "A probability model connects the data to the population using assumptions."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Some cumulative distribution function F is non-decreasing and right-continuous",
+            "b) Every cumulative distribution function F is decreasing and right-continuous",
+            "c) Every cumulative distribution function F is increasing and left-continuous",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Every cumulative distribution function F is non-decreasing and right-continuous."
+    },
+    {
+        "question": "Which of the following of a random variable is a measure of spread?",
+        "options": [
+            "a) variance",
+            "b) standard deviation",
+            "c) empirical mean",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Densities with a higher variance are more spread out than densities with a lower variance."
+    },
+    {
+        "question": "The square root of the variance is called the ________ deviation.",
+        "options": [
+            "a) empirical",
+            "b) mean",
+            "c) continuous",
+            "d) standard"
+        ],
+        "answer": "d",
+        "explanation": "Standard Deviation (SD) is the measure of spread of the numbers in a set of data from its mean value."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A percentile is simply a quantile with expressed as a percent",
+            "b) There are two types of random variable",
+            "c) R cannot approximate quantiles for you for common distributions",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "R can approximate quantiles for you for common distributions."
+    },
+    {
+        "question": "Which of the following inequality is useful for interpreting variances?",
+        "options": [
+            "a) Chebyshev",
+            "b) Stautaory",
+            "c) Testory",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Chebyshev\u2019s inequality is also spelled as Tchebysheff\u2019s inequality."
+    },
+    {
+        "question": "For continuous random variables, the CDF is the derivative of the PDF.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For continuous random variables, the PDF is the derivative of the CDF."
+    },
+    {
+        "question": "Chebyshev\u2019s inequality states that the probability of a \u201cSix Sigma\u201d event is less than ___________",
+        "options": [
+            "a) 10%",
+            "b) 20%",
+            "c) 30%",
+            "d) 3%"
+        ],
+        "answer": "d",
+        "explanation": "If a bell curve is assumed, the probability of a \u201csix sigma\u201d event is on the order of one ten millionth of a percent."
+    },
+    {
+        "question": "Which of the following random variables are the default model for random samples?",
+        "options": [
+            "a) iid",
+            "b) id",
+            "c) pmd",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Random variables are said to be iid if they are independent and identically distributed."
+    },
+    {
+        "question": "Cumulative distribution functions are used to specify the distribution of multivariate random variables.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the case of a continuous distribution, it gives the area under the probability density function from minus infinity to x."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the interactive shell for MongoDB called?",
+        "options": [
+            "a) mongo",
+            "b) mongodb",
+            "c) dbmong",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Interactive shell lets developers view, insert, remove, and update data in their databases, as well as get replication information, set up sharding, shut down servers, execute JavaScript, and more."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Humon.io is a Web based GUI for MongoDB",
+            "b) Mongo3 is a java-based GUI",
+            "c) NoSQL Manager for MongoDB is an MS Windows GUI application for MongoDB management with Shell",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NoSQL Manager for MongoDB is similar to MMS."
+    },
+    {
+        "question": "Administrative information in MongoDB can also be accessed through _____________",
+        "options": [
+            "a) dashboard",
+            "b) web interface",
+            "c) psql shell",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Web interface is a simple webpage that serves information about the current server status. By default, this interface is 1000 ports above the database port (28017)."
+    },
+    {
+        "question": "Which of the following is web-based client software for MongoDB?",
+        "options": [
+            "a) BI Studio",
+            "b) Database Master",
+            "c) Fang of Mongo",
+            "d) Mongo3"
+        ],
+        "answer": "b",
+        "explanation": "Futon4Mongo is a clone of the CouchDB-Futon-Web-Interface for MongoDB."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoHub is a native OS-X-application for MongoDB management",
+            "b) Cassandra is most popular for its document stores management system",
+            "c) MongoDB is the fourth most popular type of database management system",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB is most popular for document stores."
+    },
+    {
+        "question": "___________ provides statistics on the per-collection level.",
+        "options": [
+            "a) mongosniff",
+            "b) mongotop",
+            "c) mongooplog",
+            "d) mongofiles"
+        ],
+        "answer": "b",
+        "explanation": "mongotop is a command-line tool providing a method to track the amount of time a MongoDB instance spends reading and writing data."
+    },
+    {
+        "question": "___________ is a command-line tool that displays a summary list of status statistics for a currently running MongoDB instance.",
+        "options": [
+            "a) mongostat",
+            "b) mongotop",
+            "c) mongooplog",
+            "d) mongofiles"
+        ],
+        "answer": "a",
+        "explanation": "It describes how many inserts, updates, removes, queries, and commands were performed, as well as what percentage of the time the database was locked and how much memory it is using."
+    },
+    {
+        "question": "mongostat tool is similar to the UNIX/Linux _________ utility.",
+        "options": [
+            "a) stats",
+            "b) vim",
+            "c) vmstat",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "vmstat is a computer system monitoring tool that collects and displays summary information about operating system memory, processes, interrupts, paging and block I/O."
+    },
+    {
+        "question": "Which of the following tool is similar to the UNIX/Linux top utility?",
+        "options": [
+            "a) mongosniff",
+            "b) mongotop",
+            "c) mongooplog",
+            "d) mongofiles"
+        ],
+        "answer": "b",
+        "explanation": "By default, mongotop returns values every second."
+    },
+    {
+        "question": "mongosniff requires the ___________ network library and is only available for Unix-like systems.",
+        "options": [
+            "a) Wirecap",
+            "b) Libpcap",
+            "c) Wcap",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A cross-platform alternative is an open source Wireshark packet analyzer which has full support for the MongoDB wire protocol."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following pattern is best for static trees that do not change?",
+        "options": [
+            "a) Child",
+            "b) Parent",
+            "c) Root",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The Nested Sets pattern provides a fast and efficient solution for finding subtrees but is inefficient for modifying the tree structure."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) $regex is used for regular expression pattern matches",
+            "b) $like is used for regular expression pattern matches",
+            "c) $reg is used for regular expression pattern matches",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If your application needs to perform queries on the content of a field that holds text you can perform exact matches on the text."
+    },
+    {
+        "question": "Which of the following operations are atomic on document level?",
+        "options": [
+            "a) update",
+            "b) remove",
+            "c) findAndModify",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In MongoDB, write operations, e.g. db.collection.update(), db.collection.findAndModify(), db.collection.remove(), are atomic on the level of a single document."
+    },
+    {
+        "question": "___________ bulk indexes may be more efficient for some kinds of content and workloads in real time.",
+        "options": [
+            "a) Synchronous",
+            "b) Asynchronous",
+            "c) Unique",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " MongoDB can support keyword searches using specific data models and multi-key indexes;"
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) An array with a large number of elements will incur greater indexing costs on insertion",
+            "b) An array with a large number of elements will incur smaller indexing costs on updates",
+            "c) An array with a small number of elements will incur greater indexing costs on insertion",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An array with a large number of elements, such as one with several hundred or thousands of keywords will incur greater indexing costs on insertion."
+    },
+    {
+        "question": "________ indexes can include any field whose value is a string or an array of string elements.",
+        "options": [
+            "a) text",
+            "b) string",
+            "c) char",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " MongoDB provides text indexes to support text search of string content in documents of a collection."
+    },
+    {
+        "question": "Which of the following is related to document that provide support for synonym or related queries in the application layer?",
+        "options": [
+            "a) Stemming",
+            "b) Synonyms",
+            "c) Ranking",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " MongoDB can support keyword searches using specific data models and multi-key indexes."
+    },
+    {
+        "question": "Which of the following is related to the parsing of document for root?",
+        "options": [
+            "a) Stemming",
+            "b) Synonyms",
+            "c) Ranking",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Keyword queries in MongoDB can not parse keywords for root or related words."
+    },
+    {
+        "question": "To add structures to your document to support keyword-based queries add the keywords as ______ in the array.",
+        "options": [
+            "a) number",
+            "b) strings",
+            "c) character",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can then create a multi-key index on the array and create queries that select values from the array."
+    }
+]

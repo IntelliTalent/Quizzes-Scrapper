@@ -1,0 +1,114 @@
+[
+    {
+        "question": "All the regular languages can have one or more of the following descriptions:",
+        "options": [
+            "i) DFA ii) NFA iii) e-NFA iv) Regular Expressions",
+            "a) i, ii, iv",
+            "b) i, ii, iii",
+            "c) i, iv",
+            "d) i, ii, iii, iv"
+        ],
+        "answer": "d",
+        "explanation": "The class of languages known as the regular language has atleast four different descriptions: i) DFA ii) NFA iii) e-NFA iv) Regular Expressions"
+    },
+    {
+        "question": "Which of the technique can be used to prove that a language is non regular?",
+        "options": [
+            "a) Ardens theorem",
+            "b) Pumping Lemma",
+            "c) Ogden\u2019s Lemma",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We use the powerful technique called Pumping Lemma, for showing certain languages not to be regular. We use Ardens theorem to find out a regular expression out of a finite automaton."
+    },
+    {
+        "question": "Which of the following language regular?",
+        "options": [
+            "a) {a",
+            "b) {a",
+            "c) {a",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Here, i has limits i.e. the language is finite, contains few elements and can be graphed using a deterministic finite automata. Thus, it is regular. Others can be proved non regular using Pumping lemma."
+    },
+    {
+        "question": "Which of the following are non regular?",
+        "options": [
+            "a) The set of strings in {a,b}* with an even number of b\u2019s",
+            "b) The set of strings in {a, b, c}* where there is no c anywhere to the left of a",
+            "c) The set of strings in {0, 1}* that encode, in binary, an integer w that is a multiple of 3. Interpret the empty strings e as the number 0",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the given languages are regular and finite and thus, can be represented using respective deterministic finite automata. We can also use mealy or moore machine to represent remainders for option c."
+    },
+    {
+        "question": "If L is DFA-regular, L\u2019 is",
+        "options": [
+            "a) Non regular",
+            "b) DFA-regular",
+            "c) Non-finite",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This is a simple example of a closure property: a property saying that the set of DFA-regular languages is closed under certain operations."
+    },
+    {
+        "question": "Which of the following options is incorrect?",
+        "options": [
+            "a) A language L is regular if and only if ~L has finite number of equivalent classes",
+            "b) Let L be a regular language. If ~L has k equivalent classes, then any DFA that recognizes L must have atmost k states",
+            "c) A language L is NFA-regular if and only if it is DFA-regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Let L be a regular language. If ~L has k equivalent classes, then any DFA that recognizes L must have atleast k states."
+    },
+    {
+        "question": "Myphill Nerode  does the following:",
+        "options": [
+            "a) Minimization of DFA",
+            "b) Tells us exactly when a language is regular",
+            "c) Minimization of DFA and tells us exactly when a language is regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In automata theory, the Myphill Nerode theorem provides a necessary and sufficient condition for a language to be regular. The Myphill Nerode theorem can be used to show a language L is regular by proving that the number of equivalence classes of R"
+    },
+    {
+        "question": "Which of the following are related to tree automaton?",
+        "options": [
+            "a) Myphill Nerode Theorem",
+            "b) State machine",
+            "c) Courcelle\u2019s Theorem",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The myphill nerode theorem can be generalized to trees and an application of tree automata prove an algorithmic meta theorem about graphs."
+    },
+    {
+        "question": "Given languages:",
+        "options": [
+            "i) {a",
+            "a) i, iii",
+            "b) i",
+            "c) iii",
+            "d) i, ii, iii"
+        ],
+        "answer": "d",
+        "explanation": "There is no regular expression that can parse HTML documents. Other options are also non-regular as they cannot be drawn into finite automaton."
+    },
+    {
+        "question": "Finite state machine are not able to recognize Palindromes because:",
+        "options": [
+            "a) Finite automata cannot deterministically find the midpoint",
+            "b) Finite automata cannot remember arbitarily large amount of data",
+            "c) Even if the mid point is known, it cannot find whether the second half matches the first",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is the disadvantage or lack of property of a DFA that it cannot remember an arbitrarily such large amount of data which makes it incapable of accepting such languages like palindrome, reversal, etc."
+    }
+]

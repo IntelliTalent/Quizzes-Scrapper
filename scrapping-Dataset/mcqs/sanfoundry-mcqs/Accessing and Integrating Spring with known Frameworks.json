@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Servlet listener which loads application context.",
+        "options": [
+            "a) Security:intercept-methods",
+            "b) global-method-security",
+            "c) ContextLoaderListener",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A web application can load Spring application context by registering the servlet listener ContextLoaderListener."
+    },
+    {
+        "question": "Method to retrieve Spring Applicationcontext.",
+        "options": [
+            "a) WebApplicationContextUtils.getRequiredWebApplicationContext()",
+            "b) WebApplicationContextUtils.getRequiredWeb()",
+            "c) WebApplicationUtils.getRequiredWebApplicationContext()",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "As Spring applicationcontext is stored in the servlet context, you can retrieve it through the WebApplicationContextUtils.getRequiredWebApplicationContext() method by passing in a servlet context."
+    },
+    {
+        "question": "Class used to have full access to the Spring context\u2019s life cycle machinery and dependency injection.",
+        "options": [
+            "a) DelegatingFilterProxy",
+            "b) WebApplicationContextUtils.getRequiredWeb()",
+            "c) WebApplicationUtils.getRequiredWebApplicationContext()",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you want to implement filter-like functionality but want to have full access to the Spring context\u2019s life cycle machinery and dependency injection, use the DelegatingFilterProxy class."
+    },
+    {
+        "question": "In order to leverage Spring application context machinery and configuration.",
+        "options": [
+            "a) HttpRequestHandlerJNDI",
+            "b) HttpRequestHandlerServlet",
+            "c) HttpRequestHandler",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Suppose we wanted to rewrite the servlet functionality to leverage Spring application context machinery and configuration. The HttpRequestHandlerServlet will handle this for us."
+    },
+    {
+        "question": "Interface implemented by object instantiated by HttpRequestHandlerServlet.",
+        "options": [
+            "a) HttpRequestHandlerJNDI",
+            "b) HttpRequestHandlerServlet",
+            "c) HttpRequestHandler",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the servlet example, the HttpRequestHandlerServlet delegated to another object that implemented an interface\u2014HttpRequestHandler\u2014that was considerably simpler than that of a raw servlet."
+    },
+    {
+        "question": "Attribute used to look up and delegate a particular root bean.",
+        "options": [
+            "a) filter",
+            "b) filter-name",
+            "c) filtername",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "the filter-name attribute is used to determine which bean in the root Spring application context to look up and delegate to."
+    },
+    {
+        "question": "ActionSupport class provides a method to access spring application context.",
+        "options": [
+            "a) getWebApplicationContext()",
+            "b) getWebApplication()",
+            "c) getApplicationContext()",
+            "d) contextEventListener()"
+        ],
+        "answer": "a",
+        "explanation": "Spring provides the ActionSupport class, a subclass of the Action base class that has a convenient getWebApplicationContext() method for you to access Spring application context."
+    },
+    {
+        "question": "Struts servlet used to handle web requests.",
+        "options": [
+            "a) ActionServlet",
+            "b) Action",
+            "c) ActionSupport",
+            "d) ActionStruts"
+        ],
+        "answer": "a",
+        "explanation": "In the web deployment descriptor (i.e., web.xml) of a Struts application, you have to register the Struts servlet ActionServlet to handle web requests."
+    },
+    {
+        "question": "Struts plugin used to integrate with spring.",
+        "options": [
+            "a) ContextLoaderListener",
+            "b) ContextLoaderPlugin",
+            "c) ContextLoaderListenerPlugin",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Another way is to register the Struts plug-in ContextLoaderPlugin in the Struts configuration file."
+    },
+    {
+        "question": "Integration of JSF with Spring Application Context.",
+        "options": [
+            "a) ContextLoaderListener",
+            "b) DelegatingVariableResolver",
+            "c) SpringBeanFacesELResolver",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Due to the similarity between Spring and JSF bean models, it\u2019s very easy to integrate them by registering the Spring-provided JSF variable resolver DelegatingVariableResolver (for JSF 1.1) or the SpringBeanFacesELResolver (for JSF 1.2 and greater)."
+    },
+    {
+        "question": "To handle web requests in JSF.",
+        "options": [
+            "a) FacesServlet",
+            "b) JavaFacesServlet",
+            "c) Faces-Servlet",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In the web deployment descriptor (i.e., web.xml) of a JSF application, you have to register the JSF servlet FacesServlet to handle web requests."
+    },
+    {
+        "question": "Component of JSF, for user\u2019s input in a form.",
+        "options": [
+            "a) h:form",
+            "b) h:commandButton",
+            "c) h:outputText",
+            "d) h:inputText"
+        ],
+        "answer": "a",
+        "explanation": "h:form component for users to fill form."
+    },
+    {
+        "question": "Tag used to provide result of web requests and is read only.",
+        "options": [
+            "a) h:form",
+            "b) h:commandButton",
+            "c) h:outputText",
+            "d) h:inputText"
+        ],
+        "answer": "c",
+        "explanation": "The distance result is defined using an h:outputText component because its value is read-only."
+    },
+    {
+        "question": "Tag which triggers server side requests.",
+        "options": [
+            "a) h:form",
+            "b) h:commandButton",
+            "c) h:outputText",
+            "d) h:inputText"
+        ],
+        "answer": "b",
+        "explanation": "You define an h:commandButton component whose action will be triggered on the server side when you click it."
+    },
+    {
+        "question": "Tag used to integrate Spring with DWR.",
+        "options": [
+            "a) dwr:integrate",
+            "b) dwr:remote",
+            "c) dwr:action",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can simply configure which beans to expose for remote invocation by embedding the"
+    }
+]

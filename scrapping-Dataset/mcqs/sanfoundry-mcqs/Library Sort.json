@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which of the following is a disadvantage of library sort when compared to insertion sort?",
+        "options": [
+            "a) library sort has greater time complexity",
+            "b) library sort has greater space complexity",
+            "c) library sort makes more comparisons",
+            "d) it has no significant disadvantage"
+        ],
+        "answer": "b",
+        "explanation": "Library sort has a disadvantage that it takes up O(n) auxiliary space whereas insertion sort takes constant auxiliary space."
+    },
+    {
+        "question": "Library sort is an online sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Library sort does not require the entire input data at the beginning itself in order to sort the array. It rather creates a partial solution in every step, so future elements are not required to be considered. Hence it is an online sorting algorithm like insertion sort."
+    },
+    {
+        "question": "Library sort is a modified version of which of the following sorting algorithm?",
+        "options": [
+            "a) Bubble sort",
+            "b) selection sort",
+            "c) insertion sort",
+            "d) quick sort"
+        ],
+        "answer": "c",
+        "explanation": "Library sort requires the use of Insertion sort and binary search in its code. So it is a modified version of insertion sort."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Selection sort",
+            "b) Quick sort",
+            "c) Library sort",
+            "d) Heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options library sort is the only algorithm which is stable. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following sorting algorithm requires the use of binary search in their implementation?",
+        "options": [
+            "a) radix sort",
+            "b) library sort",
+            "c) odd-even sort",
+            "d) bead sort"
+        ],
+        "answer": "b",
+        "explanation": "Library sort makes use of a binary search algorithm. It is used to find the correct index in the array where the element should be inserted. Then after the insertion of the element re-balancing of the array takes place."
+    },
+    {
+        "question": "Library sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In library sort, we need to compare elements in order to insert them at the correct index. So we can say that it uses comparisons in order to sort the array. Thus it qualifies as a comparison based sort."
+    },
+    {
+        "question": "What is the average case time complexity of library sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Library sort uses binary search in order to insert elements in the sorted segment of the array which reduces its time complexity. So the average time complexity of library sort is O(n log n)."
+    },
+    {
+        "question": "What is the best case time complexity of library sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "The best case time complexity of library sort is O(n). It occurs in the case when the input is already/almost sorted."
+    },
+    {
+        "question": "What is the worst case time complexity of library sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case time complexity of library sort is the same as that of insertion sort. The worst case time complexity is O(n"
+    },
+    {
+        "question": "Which of the following is an alternate name of library sort?",
+        "options": [
+            "a) gapped insertion sort",
+            "b) binary insertion sort",
+            "c) recursive insertion sort",
+            "d) binary gap sort"
+        ],
+        "answer": "a",
+        "explanation": "Library sort is also known as gapped insertion sort because it uses insertion sort with gaps in between successive elements. These gaps allow for fast insertion."
+    },
+    {
+        "question": "What is the advantage of library sort over insertion sort?",
+        "options": [
+            "a) Library sort has a better average time complexity",
+            "b) Library sort has a better space complexity",
+            "c) Library sort has better best case time complexity",
+            "d) Library has better worst case time complexity"
+        ],
+        "answer": "a",
+        "explanation": "Library sort has a better average time complexity as compared to insertion sort because it uses binary search for finding the index where the element has to be inserted in the sorted array. This makes the process faster."
+    },
+    {
+        "question": "What is the auxiliary space complexity of library sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(n log n)",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "The auxiliary space required by library sort is O(n). This space is taken up by the gaps present in between successive elements."
+    },
+    {
+        "question": "Which of the following is an adaptive sorting algorithm?",
+        "options": [
+            "a) library sort",
+            "b) merge sort",
+            "c) heap sort",
+            "d) selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Library sort is an adaptive algorithm. It is because the time complexity of the algorithm improves when the input array is almost sorted."
+    },
+    {
+        "question": "Which of the following sorting algorithm is not in place?",
+        "options": [
+            "a) library sort",
+            "b) quick sort sort",
+            "c) heap sort",
+            "d) gnome sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options library sort is the only algorithm which is not in place. It is because the auxiliary space required by library sort is O(n)."
+    },
+    {
+        "question": "Which of the following is not true about library sort?",
+        "options": [
+            "a) it uses binary search and insertion sort in its implementation",
+            "b) gaps are created between successive elements in order to ensure faster insertion",
+            "c) array needs to be re balanced after every insertion",
+            "d) it is an in place sorting algorithm"
+        ],
+        "answer": "d",
+        "explanation": "Library sort is not an in place sorting algorithm as it requires O(n) auxiliary space. The array needs to be re balanced after every insertion so as to ensure that gaps are present between every successive element."
+    }
+]

@@ -1,0 +1,151 @@
+[
+    {
+        "question": "To take an input file or a payload and reliably, and systematically, decompose it into events that an ESB can work with:-",
+        "options": [
+            "a) Splitter",
+            "b) Spring Batch",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You have a file with a million records in it. This file\u2019s too big to handle as one event; it\u2019s far more natural to react to each row as an event. Spring Batch works very well with these types of solutions. It allows you to take an input file or a payload and reliably, and systematically, decompose it into events that an ESB can work with."
+    },
+    {
+        "question": "Spring Integration does support reading files into the bus.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Batch does support providing custom, unique endpoints for data."
+    },
+    {
+        "question": "No processing system (such as an ESB) can deal with a million records at once efficiently.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Strive to decompose bigger events and messages into smaller ones."
+    },
+    {
+        "question": "Spring Batch reads the file, transforms the records into:-",
+        "options": [
+            "a) objects",
+            "b) outputs",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring Batch reads the file, transforms the records into objects, and writes the output to a JMS topic with a key correlating the original batch to the JMS message."
+    },
+    {
+        "question": "The BPM engine would thread together the different actors and work lists,",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The BPM engine would thread together the different actors and work lists, allow work to continue over the course of days instead of the small millisecond timeframes Spring Integration is more geared to."
+    },
+    {
+        "question": "You want to expose an interface to clients of your service, without betraying the fact that your service is implemented in terms of messaging middleware.",
+        "options": [
+            "a) Enterprise Integration Patterns",
+            "b) Gateway",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use a gateway\u2014a pattern from the classic book Enterprise Integration Patterns by Gregor Hohpe and Bobby Woolf (Addison-Wesley, 2004) that enjoys rich support in Spring Integration."
+    },
+    {
+        "question": "Serving to abstract away the functionality of other components in an abbreviated interface to provide courser functionality.",
+        "options": [
+            "a) facade",
+            "b) fa\u00e7ade",
+            "c) gateway",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You might use a fa\u00e7ade to build an interface oriented around vacation planning that in turn abstracts away the minutiae of using a car rental, hotel reservation, and airline reservation system."
+    },
+    {
+        "question": "The capability to hide messaging behind a POJO interface.",
+        "options": [
+            "a) Lingo",
+            "b) JCA",
+            "c) JMS",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Lingo, a project from Codehaus.org that is no longer under active development, had such a feature that was specific to JMS and the Java EE Connector Architecture (JCA \u2013it was originally used to talk about the Java Cryptography Architecture, but is more commonly used for The Java EE Connector Architecture now)."
+    },
+    {
+        "question": "The most fundamental support for gateways comes from the Spring Integration class:-",
+        "options": [
+            "a) SimpleMessagingGateway",
+            "b) SimpleMessaging",
+            "c) SimpleGateway",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The class provides the ability to specify a channel on which requests should be sent and a channel on which responses are expected."
+    },
+    {
+        "question": "The SimpleMessagingGateway needs a request and a response channel, and it coordinates the rest.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You\u2019re doing nothing but forwarding the request to a service-activator, which in turn adds the operands and sends them out on the reply channel."
+    },
+    {
+        "question": "The first thing that the client configuration does is import a shared application context (to save typing if nothing else) that declares a JMS connection factor.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The first thing that the client configuration does is import a shared application context (to save typing if nothing else) that declares a JMS connection factory that you reference in the client and service application contexts."
+    },
+    {
+        "question": "Messages sent on the requests channel are forwarded to the:-",
+        "options": [
+            "a) jms:outbound-gateway",
+            "b) jms:outbound",
+            "c) jms-gateway",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The jms:outbound-gateway is the component that does most of the work. It takes the message you created and sends it to the request JMS destination, setting up the reply headers and so on."
+    },
+    {
+        "question": "The gateway element simply exists to identify the component and the interface.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The gateway element simply exists to identify the component and the interface, to which the proxy is cast and made available to clients."
+    },
+    {
+        "question": "There is no coupling between the client facing interface exposed via the gateway component and the interface of the service that ultimately handles the messages.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "We use the interface for the service and the client to simplify the names needed to understand everything that\u2019s going on."
+    },
+    {
+        "question": "The service-activator is what handles actual processing and there\u2019s no mention of a response channel, for either the service-activator, or for the inbound JMS gateway.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The service-activator looks, and fails to find, a reply channel and so uses the reply channel created by the inbound JMS gateway component, which in turn has created the reply channel based on the header metadata in the inbound JMS message."
+    }
+]

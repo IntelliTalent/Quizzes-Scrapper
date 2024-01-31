@@ -1,0 +1,130 @@
+[
+    {
+        "question": "The registers \u2018a\u2019 and \u2018e\u2019 involve",
+        "options": [
+            "a) Permutation and substitution both",
+            "b) Only Permutation",
+            "c) Only substitution",
+            "d) Don\u2019t undergo any operations"
+        ],
+        "answer": "c",
+        "explanation": "The registers \u2018a\u2019 and \u2018e\u2019 undergo substitution and not permutation."
+    },
+    {
+        "question": "In SHA-512, W16 is dependent on",
+        "options": [
+            "a) W0,W3,W7,W13",
+            "b) W3,W7,W11,W15",
+            "c) W0,W1,W9,W14",
+            "d) W0,W1,W10,W13"
+        ],
+        "answer": "c",
+        "explanation": "W is defined by,"
+    },
+    {
+        "question": "In SHA-512, W16 is dependent on",
+        "options": [
+            "a) W63,W68,W72,W76",
+            "b) W66,W70,W71,W76",
+            "c) W63,W67,W71,W77",
+            "d) W63,W65,W71,W76"
+        ],
+        "answer": "d",
+        "explanation": "W is defined by,"
+    },
+    {
+        "question": "What is the number of operation required to come up with 2 messages having the same message digest in SHA-512?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The difficulty of coming up with 2 messages having the same message digest is on the order of 2"
+    },
+    {
+        "question": "The underlying structure of the SHA-3 algorithm is referred to as",
+        "options": [
+            "a) Texture construction",
+            "b) Layer construction",
+            "c) Sponge construction",
+            "d) Cement construction"
+        ],
+        "answer": "c",
+        "explanation": "The underlying structure of the SHA-3 algorithm is referred to as Sponge construction."
+    },
+    {
+        "question": "SHA-3 allows variable length input and output.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "SHA-3 does allow variable length input and output."
+    },
+    {
+        "question": "Multi-rate padding is denoted by",
+        "options": [
+            "a) 10*",
+            "b) 10*1",
+            "c) 10*1*",
+            "d) 0*1"
+        ],
+        "answer": "b",
+        "explanation": "Multi-rate padding appends a single bit 1 followed by the minimum number of 0s followed by a single bit 1 such that the length of the result is a multiple of the block length."
+    },
+    {
+        "question": "In SHA-3, if the desired output is l bits, then j blocks are produced, such that",
+        "options": [
+            "a) (j-1) x r < l <= (j) x r",
+            "b) (j) x r< l <= (j+1) x r",
+            "c) (j-1) x r < l <= (j+1) x r",
+            "d) (j+1) x r < l <= (j+2) x r"
+        ],
+        "answer": "a",
+        "explanation": "(j-1) x r < l <= j x r, is th correct option; \u2019l\u2019 should lie between (j-1) x r and j x r."
+    },
+    {
+        "question": "In the sponge construction, the value \u2018c\u2019 is known as",
+        "options": [
+            "a) constant",
+            "b) capacity",
+            "c) construct",
+            "d) closure"
+        ],
+        "answer": "b",
+        "explanation": "The value \u2018c\u2019 is referred to as capacity."
+    },
+    {
+        "question": "The larger the value of \u2018r\u2019, the lesser the rate at which message bits are processed by the sponge construction.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The larger the value of \u2018r\u2019, the greater the rate at which message bits are processed by the sponge construction. \u2018r\u2019 is referred to as bitrate."
+    },
+    {
+        "question": "We can trade security for speed by",
+        "options": [
+            "a) decreasing \u2018c\u2019 and increasing \u2018r\u2019",
+            "b) increasing \u2018c\u2019 and decreasing \u2018r\u2019",
+            "c) decreasing both \u2018c\u2019 and \u2018r\u2019",
+            "d) increasing both \u2018c\u2019 and \u2018r\u2019"
+        ],
+        "answer": "b",
+        "explanation": "We can trade security for speed by increasing capacity and decreasing bitrate."
+    },
+    {
+        "question": "The default values for Keccak f are",
+        "options": [
+            "a) c =1024 and r =576",
+            "b) c =786 and r =832",
+            "c) c =512 and r =1088",
+            "d) c =512 and r =832"
+        ],
+        "answer": "c",
+        "explanation": "The default value for the Keccak function always has c + r = 1600."
+    }
+]

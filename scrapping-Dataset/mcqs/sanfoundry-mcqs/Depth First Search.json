@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Depth First Search is equivalent to which of the traversal in the Binary Trees?",
+        "options": [
+            "a) Pre-order Traversal",
+            "b) Post-order Traversal",
+            "c) Level-order Traversal",
+            "d) In-order Traversal"
+        ],
+        "answer": "a",
+        "explanation": "In Depth First Search, we explore all the nodes aggressively to one path and then backtrack to the node. Hence, it is equivalent to the pre-order traversal of a Binary Tree."
+    },
+    {
+        "question": "Time Complexity of DFS is? (V \u2013 number of vertices, E \u2013 number of edges)",
+        "options": [
+            "a) O(V + E)",
+            "b) O(V)",
+            "c) O(E)",
+            "d) O(V*E)"
+        ],
+        "answer": "a",
+        "explanation": "The Depth First Search explores every node once and every edge once (in worst case), so it\u2019s time complexity is O(V + E)."
+    },
+    {
+        "question": "The Data structure used in standard implementation of Breadth First Search is?",
+        "options": [
+            "a) Stack",
+            "b) Queue",
+            "c) Linked List",
+            "d) Tree"
+        ],
+        "answer": "a",
+        "explanation": "The Depth First Search is implemented using recursion. So, stack can be used as data structure to implement depth first search."
+    },
+    {
+        "question": "The Depth First Search traversal of a graph will result into?",
+        "options": [
+            "a) Linked List",
+            "b) Tree",
+            "c) Graph with back edges",
+            "d) Array"
+        ],
+        "answer": "b",
+        "explanation": "The Depth First Search will make a graph which don\u2019t have back edges (a tree) which is known as Depth First Tree."
+    },
+    {
+        "question": "A person wants to visit some places. He starts from a vertex and then wants to visit every vertex till it finishes from one vertex, backtracks and then explore other vertex from same vertex. What algorithm he should use?",
+        "options": [
+            "a) Depth First Search",
+            "b) Breadth First Search",
+            "c) Trim\u2019s algorithm",
+            "d) Kruskal\u2019s Algorithm"
+        ],
+        "answer": "a",
+        "explanation": "This is the definition of the Depth First Search. Exploring a node, then aggressively finding nodes till it is not able to find any node."
+    },
+    {
+        "question": "Which of the following is not an application of Depth First Search?",
+        "options": [
+            "a) For generating topological sort of a graph",
+            "b) For generating Strongly Connected Components of a directed graph",
+            "c) Detecting cycles in the graph",
+            "d) Peer to Peer Networks"
+        ],
+        "answer": "d",
+        "explanation": "Depth First Search is used in the Generation of topological sorting, Strongly Connected Components of a directed graph and to detect cycles in the graph. Breadth First Search is used in peer to peer networks to find all neighbourhood nodes."
+    },
+    {
+        "question": "When the Depth First Search of a graph is unique?",
+        "options": [
+            "a) When the graph is a Binary Tree",
+            "b) When the graph is a Linked List",
+            "c) When the graph is a n-ary Tree",
+            "d) When the graph is a ternary Tree"
+        ],
+        "answer": "b",
+        "explanation": "When Every node will have one successor then the Depth First Search is unique. In all other cases, when it will have more than one successor, it can choose any of them in arbitrary order."
+    },
+    {
+        "question": "Regarding implementation of Depth First Search using stacks, what is the maximum distance between two nodes present in the stack? (considering each edge length 1)",
+        "options": [
+            "a) Can be anything",
+            "b) 0",
+            "c) At most 1",
+            "d) Insufficient Information"
+        ],
+        "answer": "a",
+        "explanation": "In the stack, at a time, there can be nodes which can differ in many levels. So, it can be the maximum distance between two nodes in the graph."
+    },
+    {
+        "question": "In Depth First Search, how many times a node is visited?",
+        "options": [
+            "a) Once",
+            "b) Twice",
+            "c) Equivalent to number of indegree of the node",
+            "d) Thrice"
+        ],
+        "answer": "c",
+        "explanation": "In Depth First Search, we have to see whether the node is visited or not by it\u2019s ancestor. If it is visited, we won\u2019t let it enter it in the stack."
+    }
+]

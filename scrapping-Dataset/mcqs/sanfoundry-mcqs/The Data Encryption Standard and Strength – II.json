@@ -1,0 +1,86 @@
+[
+    {
+        "question": "During decryption, we use the Inverse Initial Permutation (IP-1) before the IP.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "IP-1 is the first step and the last step is IP during decryption."
+    },
+    {
+        "question": "A preferable cryptographic algorithm should have a good avalanche effect.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Thus statement is true as a change in one bit of the plaintext or one bit of the key should produce a change in many bits of the ciphertext. This is referred to as the avalanche effect."
+    },
+    {
+        "question": "The number of tests required to break the DES algorithm are",
+        "options": [
+            "a) 2.8\u00d710",
+            "b) 4.2\u00d710",
+            "c) 1.84\u00d710",
+            "d) 7.2\u00d710"
+        ],
+        "answer": "d",
+        "explanation": "There are 2"
+    },
+    {
+        "question": "The number of tests required to break the Double DES algorithm are",
+        "options": [
+            "a) 2112",
+            "b) 2111",
+            "c) 2128",
+            "d) 2119"
+        ],
+        "answer": "b",
+        "explanation": "For Double DES key is 2112 bits, should require 2111 tests to break."
+    },
+    {
+        "question": "How many keys does the Triple DES algorithm use?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 2 or 3",
+            "d) 3 or 4"
+        ],
+        "answer": "c",
+        "explanation": "For Triple DES we can either have 2 or 3 keys."
+    },
+    {
+        "question": "In triple DES, the key size is ___ and meet in the middle attack takes ___ tests to break the key.",
+        "options": [
+            "a) 2192 ,2112",
+            "b) 2184,2111",
+            "c) 2168,2111",
+            "d) 2168,2112"
+        ],
+        "answer": "d",
+        "explanation": "The key size is 2168 and meet in the middle attack takes 2112 tests to break."
+    },
+    {
+        "question": "Using Differential Crypt-analysis, the minimum computations required to decipher the DES algorithm is",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "Differential Crypt-analysis requires only 2"
+    },
+    {
+        "question": "8.Using Linear Crypt-analysis, the minimum computations required to decipher the DES algorithm is",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "Linear Crypt-analysis requires only 2"
+    }
+]

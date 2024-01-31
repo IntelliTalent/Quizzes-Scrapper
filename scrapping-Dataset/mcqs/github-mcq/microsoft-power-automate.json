@@ -1,0 +1,471 @@
+[
+    {
+        "question": "How do you rename a template step?",
+        "options": [
+            "click the name and type over it",
+            "highlight the step and, in the menu bar, select Rename step.",
+            "at the top-right corner of the step card, click the small ellipsis and select Rename",
+            "from the flow's detail page, in the menu var, click Rename."
+        ],
+        "answer": "at the top-right corner of the step card, click the small ellipsis and select Rename"
+    },
+    {
+        "question": "If you create the flow directly in Microsoft Teams, who can use the flow?",
+        "options": [
+            "only members of the specific team channel in which you created the flow",
+            "only people with whom you specifically share the flow",
+            "anyone in your team",
+            "anyone in your organization"
+        ],
+        "answer": "only members of the specific team channel in which you created the flow"
+    },
+    {
+        "question": "You are using a scheeduled flow to copy information from one databse to another. What is an important caveat to keep in your mind?",
+        "options": [
+            "All field names in both DB must match exactly and there must be the same number of records in each DB",
+            "you must alays create a loop to verify your data has been successfully copied",
+            "Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source.",
+            "you can copy data only between DBs in the same environment."
+        ],
+        "answer": "All field names in both DB must match exactly and there must be the same number of records in each DB"
+    },
+    {
+        "question": "The flow pictured saves new email attachments in SharePoint, adds a row to Excel to document the file save, and sends a message to TEAMS. What is the proper placement of steps B, D, and E?",
+        "options": [
+            "B, D and E belong inside C in the order listed."
+        ],
+        "answer": "B, D and E belong inside C in the order listed."
+    },
+    {
+        "question": "Why would you use geofencing with Power Automate?",
+        "options": [
+            "to create areas within a business where flows do not process",
+            "to trigger automated flow when a device enters or exists a defined area",
+            "to create flows that process whenever an emplotee moves from one region to another",
+            "to create instant flows that sends a user's current location with the push of a button"
+        ],
+        "answer": "to trigger automated flow when a device enters or exists a defined area"
+    },
+    {
+        "question": "What is a necessary requirement to using a flow template?",
+        "options": [
+            "must have access to all connectors used in the flow",
+            "must have Power Automate installed on your mobile device",
+            "must have permission from template owner",
+            "must have access to OneDrive"
+        ],
+        "answer": "must have access to all connectors used in the flow"
+    },
+    {
+        "question": "What is the purpose of the flow?",
+        "options": [
+            "to add events. to an Outlook calender if they are deleted in Google Calender",
+            "to delete Outlook calender events when they are deleted in Google Calender",
+            "to send an email if there are discrepancies betweeb Outlook and Google calenders",
+            "to delete Google calender events when they are deleted in Outlook"
+        ],
+        "answer": "to delete Outlook calender events when they are deleted in Google Calender"
+    },
+    {
+        "question": "Which choice is an example of using an automated trigger?",
+        "options": [
+            "a flow that starts when a mobile button is pushed",
+            "a flow that starts when a new record is added to a SharePoint list",
+            "a flow that starts when users request approval for documents",
+            "a flow that starts at a specified time"
+        ],
+        "answer": "a flow that starts when a new record is added to a SharePoint list"
+    },
+    {
+        "question": "How do you make a flow available to a single team channel in Microsoft Teams?",
+        "options": [
+            "in the channel, click 'Add a tab' and select 'Flow', then share flow with matching user group",
+            "create a new channel called 'Shared Teams Flows' and post a link in the team chat",
+            "you cannot restrict users at the channel level",
+            "share the flow only with the users in the channel, then advise them to add the URL to their list of saved links in Teams."
+        ],
+        "answer": "in the channel, click 'Add a tab' and select 'Flow', then share flow with matching user group"
+    },
+    {
+        "question": "What is the difference between Delay and Delay until actions?",
+        "options": [
+            "Delay until postpones an action until a specific date and time",
+            "Delay until postpones an action until a field condition is reached in a loop (wrong)",
+            "Delay postpones an action by a specific number of minutes (can be day, week etc)",
+            "Delay postpones an action to give users time to input information (wrong)"
+        ],
+        "answer": "Delay until postpones an action until a specific date and time"
+    },
+    {
+        "question": "In the context of Power Automate, what is a solution?",
+        "options": [
+            "a flow thats created specifically to be shared with an entire organization",
+            "a flow that prcesses more than 7% of the time",
+            "a portable container for flows that enables you to move and share them between environments",
+            "a flow used to calculate numerical values"
+        ],
+        "answer": "a portable container for flows that enables you to move and share them between environments"
+    },
+    {
+        "question": "what expression allows you to get details about the current workflow instance at run time?",
+        "options": [
+            "workflow()",
+            "details()",
+            "workflowDetails()",
+            "runDetails()"
+        ],
+        "answer": "workflow()"
+    },
+    {
+        "question": "What are the prerequisites for creating solutions?",
+        "options": [
+            "Office 365 admins status - shared outside an organization",
+            "Common Data Service and an environment with version 9.1.0.267 or later",
+            "an enterprise license for Msft Office 365",
+            "certification in Msft Power Platform"
+        ],
+        "answer": "Common Data Service and an environment with version 9.1.0.267 or later"
+    },
+    {
+        "question": "you want to update multiple items in an excel spreadsheet with information from multiple email messages. How can you do this in a single flow?",
+        "options": [
+            "create auto flow that triggers when email received, add Update Excel action, then re-add it as many times as needed.",
+            "create instant flow that updates a single record, then select multiple emails in your inox and start the flow from the menu bar",
+            "Add and Apply to each loop after the Get email actio, then add another action to write the records to Excel",
+            "create scheduled flow that triggers when u submit a request, adda acondition that defines the info to extracted, add an Update Excel action and change the Advanced settings to repeat as needed."
+        ],
+        "answer": "Add and Apply to each loop after the Get email actio, then add another action to write the records to Excel"
+    },
+    {
+        "question": "What control would you use to build parallel branches of conditional logic based on a single value?",
+        "options": [
+            "Apply to each",
+            "Scope",
+            "Condition",
+            "Switch"
+        ],
+        "answer": "Apply to each"
+    },
+    {
+        "question": "How do you modify a flow notifying your manager that you are working remotely to show your actual location?",
+        "options": [
+            "Using the appropriate template, modify the trigger so that it references your actual location instead of your profile information",
+            "Using the appropriate template, modify the action that calls your Office 365 profile so that it references your actual location instead of your system information",
+            "Using the appropriate template, modify the action that emails your manager to include the Dynamic ContentManual > Full address in the email body",
+            "Using the appropriate template, modify the action that emails your manager to include your location in the email body by manually entering it"
+        ],
+        "answer": "Using the appropriate template, modify the action that emails your manager to include the Dynamic ContentManual > Full address in the email body"
+    },
+    {
+        "question": "How can you create an instant flow that requires user input?",
+        "options": [
+            "Start an instant flow with a manual trigger, then add conditions that include the needed input",
+            "Start an instant flow with a manual trigger. On the edit screen, click the manual trigger step and then click Add item",
+            "Search for a manual trigger with input items in the button connector list",
+            "Start the flow with the add input trigger, then add the manual button action after that"
+        ],
+        "answer": "Start an instant flow with a manual trigger. On the edit screen, click the manual trigger step and then click Add item"
+    },
+    {
+        "question": "By default, the Apply to each action runs sequentially. How can you change this to run in parallel?",
+        "options": [
+            "In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on the Concurrency control setting",
+            "In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on run parallel setting",
+            "In the top right corner of the card, click the small ellipsis and select Run Parallel",
+            "This cannot be changed"
+        ],
+        "answer": "In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on the Concurrency control setting"
+    },
+    {
+        "question": "How do you share a button flow from the mobile app?",
+        "options": [
+            "On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Share button. When prompted, enter their user information",
+            "On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Invite others. When prompted, enter their user information",
+            "Button flows need to be created by users individually, not shared - otherwise, notifications sent by them would look as if they were coming from you",
+            "From Power automate online, select the flow from your My flows list, and click the share icon to make them an owner so they can modify flow information"
+        ],
+        "answer": "On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Invite others. When prompted, enter their user information"
+    },
+    {
+        "question": "What can you use to process PDF forms and extract data for use in flows created with Power Automate?",
+        "options": [
+            "AI builder",
+            "Microsoft Forms connector",
+            "process PDF template for Power Automate",
+            "PDF connector"
+        ],
+        "answer": "AI builder"
+    },
+    {
+        "question": "Can flows that have been created outside of a solution be shared in a solution?",
+        "options": [
+            "Yes, but only system admins have the ability to move flows into solutions after they are created",
+            "Yes, flows can be easily imported into solutions",
+            "It is entirely dependent on the type of flow - for instance, instant flows cannot but most automated flows can.",
+            "No, to be shared as part of a solution, they need to be created within the solution"
+        ],
+        "answer": "Yes, flows can be easily imported into solutions"
+    },
+    {
+        "question": "You are using a scheduled flow to copy information from one database to another. what is an important caveat to keep in mind?",
+        "options": [
+            "Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source",
+            "you can copy data only between databases in the same environment",
+            "All field names in both database must match exactly and there must be the same number of records in each database",
+            "You must always create a loop to verify your data has been successfully copied"
+        ],
+        "answer": "All field names in both database must match exactly and there must be the same number of records in each database"
+    },
+    {
+        "question": "How do you share a template in Power Automate?",
+        "options": [
+            "In the menu bar of the detail page for any succesfully run flow, click Submit as template",
+            "Share tempaltes the same way you share flows: by selecting them in your My flows list and licking Share in the menu bar",
+            "Zip the template file and email it to templates@powerautomate.com",
+            "Export the template and post it to the Microsoft Power Automate site"
+        ],
+        "answer": "In the menu bar of the detail page for any succesfully run flow, click Submit as template"
+    },
+    {
+        "question": "Flows 1 and 2 both result in emails being sent. Is the difference between the flows Send email action steps significaton, and if so, why?",
+        "options": [
+            "Yes. Number 2 will send the email from microsoft@powerapps.com; number 1 will send the email from your Outlook email address",
+            "There is no significant difference between them",
+            "Yes. Number 1 will permit more user inputs to be added to the message",
+            "Yes. Number 2 will prompt the user to enter the email address to the recipient before it is sent"
+        ],
+        "answer": "Yes. Number 2 will send the email from microsoft@powerapps.com; number 1 will send the email from your Outlook email address"
+    },
+    {
+        "question": "You are automating this suggestion review process: When a new suggestion is added to an SharePoint list, a staffer emails every member of the review committee, asking them to approve the suggestion. The staffer updates SharePoint as replies are received. A suggestion is approved or rejected when at least four of the seven committee members have approved or rejected it. In addition to Start and Wait for an approval, which components will be needed for your flow?",
+        "options": [
+            "B,D",
+            "A,B,D,E",
+            "B,D,E",
+            "A,B,C,D"
+        ],
+        "answer": "A,B,C,D"
+    },
+    {
+        "question": "Whit whom can you share flows?",
+        "options": [
+            "people on the same Office 365 team as you",
+            "fellow SharePoint site collection memebers",
+            "anyone in your organization and beyond",
+            "people in your department"
+        ],
+        "answer": "anyone in your organization and beyond"
+    },
+    {
+        "question": "What control would you use to stop a flow?",
+        "options": [
+            "Do until",
+            "Terminate",
+            "Scope",
+            "Switch"
+        ],
+        "answer": "Terminate"
+    },
+    {
+        "question": "Can you create nested conditions? If yes, how?",
+        "options": [
+            "Yes. Add another set of conditions into the Yes/No results of an existing condition.",
+            "Yes. Add another set of conditions after the resulting actions.",
+            "No. You can have only one set of conditions per flow.",
+            "It depends on the action. For instance, you cannot have multiple conditions if you are updating SharePoint records."
+        ],
+        "answer": "Yes. Add another set of conditions into the Yes/No results of an existing condition."
+    },
+    {
+        "question": "What control would you use to build parallel branches of conditional logic based on a single value?",
+        "options": [
+            "Apply to each",
+            "Scope",
+            "Switch",
+            "Condition"
+        ],
+        "answer": "Switch"
+    },
+    {
+        "question": "In this flow, what is required for dynamic content to be available for use in the Email step?",
+        "options": [
+            "Recipient of email must have edit rights to the SharePoint library.",
+            "User must be owner of the SharePoint library.",
+            "The SharePoint site and library must be specified.",
+            "File must be in a folder inside the SharePoint library."
+        ],
+        "answer": "File must be in a folder inside the SharePoint library."
+    },
+    {
+        "question": "What is a business process flow?",
+        "options": [
+            "Business process flows are automatically generated from business process flow charts in Microsoft Visio.",
+            "Business process flows define a set of steps that guide people through a process to a desired outcome.",
+            "Accounting departments use business process flows to report on regular operations.",
+            "You can use business process flows to create routines that will automatically process business maintenance tasks, such as system backups."
+        ],
+        "answer": "Business process flows define a set of steps that guide people through a process to a desired outcome."
+    },
+    {
+        "question": "What rights do you give to other people with whom you share a flow directly from Power Automate?",
+        "options": [
+            "You give them the rights to use the flow only.",
+            "You give them the rights to use, edit, share, or delete the flow.",
+            "You give them the rights to use the flow, but you can extend the rights to edit or share for specific people.",
+            "You give them the rights to edit or share the flow."
+        ],
+        "answer": "You give them the rights to use the flow, but you can extend the rights to edit or share for specific people."
+    },
+    {
+        "question": "Who can use the Power Automate mobile app?",
+        "options": [
+            "Anyone who already has a Power Automate account can install and use the mobile app.",
+            "Anyone who purchases a Power Automate mobile license can install and use the mobile app.",
+            "The Power Automate app can be installed and used on mobile devices that are linked to Office 365 enterprise licenses.",
+            "Anyone can install and use the Power Automate app on an Android or iOS device."
+        ],
+        "answer": "Anyone can install and use the Power Automate app on an Android or iOS device."
+    },
+    {
+        "question": "You want a flow that sends an email if a new spreadsheet is added to a SharePoint library. What is the correct order for the steps shown?",
+        "options": [
+            "A, B, D, E, C",
+            "C, B, A, E, D",
+            "D, A, E, B, C",
+            "C, A, B, D, E"
+        ],
+        "answer": "C, B, A, E, D"
+    },
+    {
+        "question": "When building a flow from scratch, what is the first step to select?",
+        "options": [
+            "an action",
+            "the conditions",
+            "the trigger",
+            "the output"
+        ],
+        "answer": "the trigger"
+    },
+    {
+        "question": "For which kinds of tasks are button flows best used?",
+        "options": [
+            "mobile tasks with inputs from a group of users",
+            "complex tasks that utilize geofencing",
+            "replacing tasks formerly created in Outlook",
+            "simple, repetitive tasks on mobile device"
+        ],
+        "answer": "simple, repetitive tasks on mobile device"
+    },
+    {
+        "question": "What is a condition?",
+        "options": [
+            "the event that initiates the flow",
+            "an action that determines subsequent steps of the flow",
+            "a resulting output from the flow",
+            "the final, single result of the flow"
+        ],
+        "answer": "an action that determines subsequent steps of the flow"
+    },
+    {
+        "question": "How do you create a flow from within SharePoint?",
+        "options": [
+            "Highlight the individual record or file, then open Power Automate and work from there.",
+            "You can create flows only from SharePoint libraries.",
+            "You can create a flow from the SharePoint list or library settings page.",
+            "From within a list or library, on the menu bar, click Flow > Create a new flow."
+        ],
+        "answer": "From within a list or library, on the menu bar, click Flow > Create a new flow."
+    },
+    {
+        "question": "Which of the following are types of triggers?",
+        "options": [
+            "automation, manual, and button",
+            "instant, automated, and scheduled",
+            "calendar, manual, and email",
+            "approval notices and emails"
+        ],
+        "answer": "instant, automated, and scheduled"
+    },
+    {
+        "question": "Some business processes take months or years to complete. Which strategies are useful when automating a long-running business approval process? (Select all that apply.)",
+        "options": [
+            "C, D",
+            "A, C",
+            "A, B, C",
+            "B, D"
+        ],
+        "answer": "C, D"
+    },
+    {
+        "question": "The current date in a flow result is displayed as \"15 January, 2020\". What expression would you use to format the date as \"2020-01-15\"?",
+        "options": [
+            "formatDateTime(utcNow(), 'yyyy-MM-dd')",
+            "format{triggerDateTime(utcNow()}, 'MM-dd')",
+            "formatDateTime(triggerBody()?['Date'],'dd/MM/yyyy')",
+            "convertTimeZone(utcNow(),'UTC','E. Europe Standard Time','dd/MM/yyyy HH:mm')"
+        ],
+        "answer": "formatDateTime(utcNow(), 'yyyy-MM-dd')"
+    },
+    {
+        "question": "What is the easiest way to start a new flow?",
+        "options": [
+            "Download a preconfigured flow from the Power Automate online store.",
+            "Create one from scratch, even if a template exists. That is the only way to make sure it fits your needs exactly.",
+            "Add the app to Microsoft Teams.",
+            "Use one of the preconfigured templates, if one exists for the task you want to perform."
+        ],
+        "answer": "Create one from scratch, even if a template exists. That is the only way to make sure it fits your needs exactly."
+    },
+    {
+        "question": "When you open Power Automate, how do you find flows that are already available to you?",
+        "options": [
+            "You must search for flows individually. You must search for flows individually.",
+            "Scroll down the Power Automate Home page until you find your flows.",
+            "In the left navigation, click Solutions to see your flows that solve business problems.",
+            "In the left navigation, click My flows."
+        ],
+        "answer": "In the left navigation, click My flows."
+    },
+    {
+        "question": "What best describes a scheduled trigger?",
+        "options": [
+            "a trigger that initiates a flow by user interaction that begins to process immediately via a mobile button or request submission",
+            "a trigger that runs instantly when another flow finishes processing, if they are chained together",
+            "a trigger that initiates a flow without user interaction when some condition is met\u2014for example, when an email is received or a record changes",
+            "a trigger that initiates a flow without user interaction at a set time for one or more instance"
+        ],
+        "answer": "a trigger that initiates a flow without user interaction at a set time for one or more instance"
+    },
+    {
+        "question": "In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.)",
+        "options": [
+            "Add the value for Link to Item.",
+            "Add the value for Created By DisplayName.",
+            "Add the value for Identifier.",
+            "None of these is correct\u2014you need the value for File Added By."
+        ],
+        "answer": "Add the value for Created By DisplayName."
+    },
+    {
+        "question": "What best describes an automated trigger?",
+        "options": [
+            "a trigger that initiates a flow by user interaction that begins to process immediately via a mobile button or request submission",
+            "a trigger that runs instantly when another flow finishes processing, if they are chained together",
+            "a trigger that initiates a flow without user interaction when an event occurs\u2014for example, when an email is received or a record changes",
+            "a trigger that initiates a flow without user interaction at a set time for one or more instance"
+        ],
+        "answer": "a trigger that initiates a flow without user interaction when an event occurs\u2014for example, when an email is received or a record changes"
+    },
+    {
+        "question": "How do you add comments to an action?",
+        "options": [
+            "In the top-right corner of the step card, click the small ellipsis and select Add a comment.",
+            "Comments can be added only for an entire flow.",
+            "Select actions will have a comment input box.",
+            "In the top-right corner of the step card, click the small ellipsis and select Rename."
+        ],
+        "answer": "In the top-right corner of the step card, click the small ellipsis and select Add a comment.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

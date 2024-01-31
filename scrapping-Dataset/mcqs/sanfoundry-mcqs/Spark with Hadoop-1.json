@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Spark was initially started by ____________ at UC Berkeley AMPLab in 2009.",
+        "options": [
+            "a) Mahek Zaharia",
+            "b) Matei Zaharia",
+            "c) Doug Cutting",
+            "d) Stonebraker"
+        ],
+        "answer": "b",
+        "explanation": "Apache Spark is an open-source cluster computing framework originally developed in the AMPLab at UC Berkeley."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) RSS abstraction provides distributed task dispatching, scheduling, and basic I/O functionalities",
+            "b) For cluster manager, Spark supports standalone Hadoop YARN",
+            "c) Hive SQL is a component on top of Spark Core",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spark requires a cluster manager and a distributed storage system."
+    },
+    {
+        "question": "____________ is a component on top of Spark Core.",
+        "options": [
+            "a) Spark Streaming",
+            "b) Spark SQL",
+            "c) RDDs",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spark SQL introduces a new data abstraction called SchemaRDD, which provides support for structured and semi-structured data."
+    },
+    {
+        "question": "Spark SQL provides a domain-specific language to manipulate ___________ in Scala, Java, or Python.",
+        "options": [
+            "a) Spark Streaming",
+            "b) Spark SQL",
+            "c) RDDs",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spark SQL provides SQL language support, with command-line interfaces and ODBC/JDBC server."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) For distributed storage, Spark can interface with a wide variety, including Hadoop Distributed File System (HDFS)",
+            "b) Spark also supports a pseudo-distributed mode, usually used only for development or testing purposes",
+            "c) Spark has over 465 contributors in 2014",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spark is the most active project in the Apache Software Foundation and among Big Data open source projects."
+    },
+    {
+        "question": "______________ leverages Spark Core fast scheduling capability to perform streaming analytics.",
+        "options": [
+            "a) MLlib",
+            "b) Spark Streaming",
+            "c) GraphX",
+            "d) RDDs"
+        ],
+        "answer": "b",
+        "explanation": "Spark Streaming ingests data in mini-batches and performs RDD transformations on those mini-batches of data."
+    },
+    {
+        "question": "________ is a distributed graph processing framework on top of Spark.",
+        "options": [
+            "a) MLlib",
+            "b) Spark Streaming",
+            "c) GraphX",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "GraphX started initially as a research project at UC Berkeley AMPLab and Databricks, and was later donated to the Spark project."
+    },
+    {
+        "question": "GraphX provides an API for expressing graph computation that can model the __________ abstraction.",
+        "options": [
+            "a) GaAdt",
+            "b) Spark Core",
+            "c) Pregel",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "GraphX is used for machine learning."
+    },
+    {
+        "question": "Spark architecture is ___________ times as fast as Hadoop disk-based Apache Mahout and even scales better than Vowpal Wabbit.",
+        "options": [
+            "a) 10",
+            "b) 20",
+            "c) 50",
+            "d) 100"
+        ],
+        "answer": "a",
+        "explanation": "Spark architecture has proven scalability to over 8000 nodes in production."
+    }
+]

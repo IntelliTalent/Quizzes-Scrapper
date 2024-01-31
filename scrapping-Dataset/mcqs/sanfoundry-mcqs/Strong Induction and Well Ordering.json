@@ -1,0 +1,97 @@
+[
+    {
+        "question": "A polygon with 7 sides can be triangulated into ________",
+        "options": [
+            "a) 7",
+            "b) 14",
+            "c) 5",
+            "d) 10"
+        ],
+        "answer": "c",
+        "explanation": "A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2."
+    },
+    {
+        "question": "Every simple polynomial has an interior diagonal.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By using Strong Induction."
+    },
+    {
+        "question": "A polygon with 12 sides can be triangulated into _______",
+        "options": [
+            "a) 7",
+            "b) 10",
+            "c) 5",
+            "d) 12"
+        ],
+        "answer": "b",
+        "explanation": "A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2."
+    },
+    {
+        "question": "Let P(n) be the statement that postage of n cents can be formed using just 3-cents stamps and 5-cents stamps. Is the statements P(8) and P(10) are Correct?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "We can form 8 cent of postage with one 3-cent stamp and one 5-cent stamp. P(10) is true because we can form it using two 5-cent stamps."
+    },
+    {
+        "question": "Which amount of postage can be formed using just 4-cent and 11-cent stamps?",
+        "options": [
+            "a) 2",
+            "b) 5",
+            "c) 30",
+            "d) 10"
+        ],
+        "answer": "d",
+        "explanation": "We can form 30 cent of postage with two 4-cent stamp and two 11-cent stamp."
+    },
+    {
+        "question": "Which amount of postage can be formed using just 3-cent stamp and 10-cent stamps?",
+        "options": [
+            "a) 27",
+            "b) 20",
+            "c) 11",
+            "d) 5"
+        ],
+        "answer": "Answer:a",
+        "explanation": "We can form 27 cent of postage with nine 3-cent stamp and 20-cent postage can be formed by using two 10-cent stamps."
+    },
+    {
+        "question": "Suppose that P(n) is a propositional function. Determine for which positive integers n the statement P(n) must be true if: P(1) is true; for all positive integers n, if P(n) is true then P(n+2) is true.",
+        "options": [
+            "a) P(3)",
+            "b) P(2)",
+            "c) P(4)",
+            "d) P(6)"
+        ],
+        "answer": "a",
+        "explanation": "By induction we can prove that P(3)  is true but we can\u2019t conclude about P(2), p(6) and P(4)."
+    },
+    {
+        "question": "Suppose that P(n) is a propositional function. Determine for which positive integers n the statement P(n) must be true if: P(1) and P(2) is true; for all positive integers n, if P(n) and P(n+1) is true then P(n+2) is true.",
+        "options": [
+            "a) P(1)",
+            "b) P(2)",
+            "c) P(4)",
+            "d) P(n)"
+        ],
+        "answer": "d",
+        "explanation": "By induction, we can prove that P(n) is true."
+    },
+    {
+        "question": "A polygon with 25 sides can be triangulated into _______",
+        "options": [
+            "a) 23",
+            "b) 20",
+            "c) 22",
+            "d) 21"
+        ],
+        "answer": "a",
+        "explanation": "A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2."
+    }
+]

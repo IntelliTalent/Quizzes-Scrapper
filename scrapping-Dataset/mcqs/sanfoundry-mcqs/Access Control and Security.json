@@ -1,0 +1,103 @@
+[
+    {
+        "question": "MySQL uses security based on ACL which stands for ______________",
+        "options": [
+            "a) Access Control Language",
+            "b) Access Control Lists",
+            "c) Automatic Control Lists",
+            "d) Automatic Control Language"
+        ],
+        "answer": "b",
+        "explanation": "MySQL uses security based on Access Control Lists (ACLs) for all connections, queries and other operations that users can attempt to perform. There is support for SSL encrypted connections."
+    },
+    {
+        "question": "The mysql client writes a record of executed statements to a history file on Unix.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "On Unix the mysql client writes a record of the executed statements to a history file. By default this file is named as \u2018.mysql_history\u2019. It is created in the home directory."
+    },
+    {
+        "question": "A password applies globally to an account.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the MySQL privilege system, a password applies globally to an account. A password cannot be explicitly associated with a specific object such as a database, table, or routine."
+    },
+    {
+        "question": "The context in which the privilege \u2018CREATE TABLESPACE\u2019 applies is ______________",
+        "options": [
+            "a) Server administration",
+            "b) Tables",
+            "c) Stored routines",
+            "d) Views"
+        ],
+        "answer": "a",
+        "explanation": "The column name associated with the privilege \u2018CREATE TABLESPACE\u2019 is \u2018Create_tablespace_priv\u2019. The context in which this privilege is being used is the server administration."
+    },
+    {
+        "question": "The number of languages that have interfaces to bind to the C API of MySQL among these is ______________",
+        "options": [],
+        "answer": "d",
+        "explanation": "The client library provides the means through which the MySQL bindings for other languages can be built on top of the C API. This type of interface exists for Perl, PHP, Python and others."
+    },
+    {
+        "question": "The language that is the core for APIs and communication in MySQL is ______________",
+        "options": [
+            "a) C",
+            "b) C++",
+            "c) Python",
+            "d) Ruby"
+        ],
+        "answer": "a",
+        "explanation": "In order to provide application development, MySQL provides a client library written in the C programming language. It enables access to MySQL databases from a C program."
+    },
+    {
+        "question": "The most general purpose language is ______________",
+        "options": [
+            "a) C",
+            "b) Perl",
+            "c) Python",
+            "d) PHP"
+        ],
+        "answer": "a",
+        "explanation": "C is a general purpose language, so in principle, it can be used for anything. C tends to be used more often for standalone programs rather than for Web programming in practice."
+    },
+    {
+        "question": "The language in which image processing is least simple is ______________",
+        "options": [
+            "a) PHP",
+            "b) Perl",
+            "c) Python",
+            "d) C"
+        ],
+        "answer": "d",
+        "explanation": "It is not as easy to perform text processing and memory management in C than it is in languages like Perl and PHP. These capabilities tend to be heavily used in web applications."
+    },
+    {
+        "question": "The option necessary to compile a C program havin math functions is ______________",
+        "options": [
+            "a) -lm",
+            "b) -ln",
+            "c) -lp",
+            "d) -lq"
+        ],
+        "answer": "a",
+        "explanation": "To compile a program written in the C language, it is compiled by issuing the option \u2018-lm\u2019. The examples of some math functions found in \u2018math.h\u2019 are floor(), sqrt(), pow(), log()."
+    },
+    {
+        "question": "What is the option for specifying the executable name while compiling with gcc?",
+        "options": [
+            "a) -e",
+            "b) -o",
+            "c) -a",
+            "d) -b"
+        ],
+        "answer": "b",
+        "explanation": "When a C program is compiled with gcc, the option -o is issued in order to specify the name of the executable that is created after compilation. The default name given is \u2018a.out\u2019."
+    }
+]

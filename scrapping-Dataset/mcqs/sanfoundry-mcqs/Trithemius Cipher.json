@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Trithemius cipher is an example of ________________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Trithemius cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in trithemius cipher is done using _______________",
+        "options": [
+            "a) trithemius table",
+            "b) vigenere cycle",
+            "c) tabula recta",
+            "d) any table provided by the person performing the encryption"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text in trithemius cipher is done by making use of tabula recta. The same table is also used for encryption in vigenere cipher and running key cipher."
+    },
+    {
+        "question": "Which of the following is a modified version of Caesar cipher?",
+        "options": [
+            "a) vigenere cipher",
+            "b) autokey cipher",
+            "c) running key cipher",
+            "d) trithemius cipher"
+        ],
+        "answer": "d",
+        "explanation": "If in caesar cipher we consider a shift that increases by 1 by each letter starting at 0 then it is equivalent to trithemius cipher. So trithemius cipher is a special case of caesar cipher."
+    },
+    {
+        "question": "Which of the following is a difference between trithemius cipher and vigenere cipher?",
+        "options": [
+            "a) they use different tables for encryption",
+            "b) vigenere cipher is poly alphabetic whereas running key cipher is mono alphabetic",
+            "c) vigenere cipher uses a key whereas no key is required for using trithemius cipher",
+            "d) vigenere cipher is substitution cipher whereas trithemius cipher is transposition cipher"
+        ],
+        "answer": "c",
+        "explanation": "Trithemius cipher is a special case of vigenere cipher. The difference is that vigenere cipher uses a different key every time but a fixed key is used by trithemius cipher."
+    },
+    {
+        "question": "Which of the following cipher require the use of tabula recta?",
+        "options": [
+            "a) hill cipher",
+            "b) route cipher",
+            "c) rail fence cipher",
+            "d) trithemius cipher"
+        ],
+        "answer": "d",
+        "explanation": "Ciphers like running key cipher, vigenere cipher, trithemius cipher, etc. makes use of tabula recta. Whereas hill cipher, rail fence cipher and route cipher does not require tabula recta for encryption of plain text."
+    },
+    {
+        "question": "Trithemius cipher is harder to crack than vigenere cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Trithemius cipher is a special case of vigenere cipher with ABCDEFGHIJKLMNOPQRSTUVWXYZ as key. So trithemius cipher is easier to crack as the key being used remains same every time."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cACCFYX\u201d if trithemius cipher is used?",
+        "options": [
+            "a) ABACUS",
+            "b) ABROAD",
+            "c) ABRUPT",
+            "d) ABUSED"
+        ],
+        "answer": "a",
+        "explanation": "Running key cipher is a type of poly alphabetic substitution which uses tabula recta for making substitutions in the plain text. Using the table and key as ABCDEFGHIJKLMNOPQRSTUVWXYZ we find the plain text to be \u201cABACUS\u201d."
+    },
+    {
+        "question": "Trithemius cipher is harder to crack than caesar cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Trithemius cipher uses a more complex version of caesar cipher. So trithemius cipher is harder to crack as compared to caesar cipher."
+    },
+    {
+        "question": "Which of the following cipher is easiest to crack?",
+        "options": [
+            "a) vigenere cipher",
+            "b) running key cipher",
+            "c) trithemius cipher",
+            "d) all are equally secure"
+        ],
+        "answer": "c",
+        "explanation": "Trithemius cipher is a special case of vigenere cipher and running key cipher is a variation of vigenere cipher. If one figures out that the cipher being used is trithemius then it is very easy to crack, unlike running key and vigenere ciphers as these use a secret key for encryption."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cSANFOUNDRY\u201d if trithemius cipher is used for encryption?",
+        "options": [
+            "a) SBPISZTKZH",
+            "b) TCQJTAULAI",
+            "c) TBOGPVOESZ",
+            "d) SPBISZKTZH"
+        ],
+        "answer": "a",
+        "explanation": "Encryption in trithemius cipher takes place exactly as in vigenere cipher if we consider the key to be ABCDEFGHIJKLMNOPQRSTUVWXYZ. So by using the tabula recta we can find the encrypted text which is \u201cSBPISZTKZH\u201d."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cALGORITHM\u201d if trithemius cipher is used for encryption?",
+        "options": [
+            "a) BNJSWOAPV",
+            "b) BMHPSJUIN",
+            "c) AMIRVNZOU",
+            "d) MBPHJSNIU"
+        ],
+        "answer": "c",
+        "explanation": "Encryption in trithemius cipher takes place exactly as in vigenere cipher if we consider the key to be ABCDEFGHIJKLMNOPQRSTUVWXYZ. So by using the tabula recta we can find the encrypted text which is \u201cAMIRVNZOU\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cRVUVMF\u201d if trithemius cipher is used?",
+        "options": [
+            "a) RABBIT",
+            "b) RUSSIA",
+            "c) RANGER",
+            "d) FRIEND"
+        ],
+        "answer": "b",
+        "explanation": "Trithemius cipher is a type of poly alphabetic substitution which uses tabula recta for making substitutions in the plain text. Using the table and using the key as ABCDEFGHIJKLMNOPQRSTUVWXYZ we find the plain text to be \u201cRUSSIA\u201d."
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "question": "What is the other name for a shell sort algorithm?",
+        "options": [
+            "a) Diminishing increment sort",
+            "b) Diminishing decrement sort",
+            "c) Insertion sort",
+            "d) Selection sort"
+        ],
+        "answer": "a",
+        "explanation": "The other name for a shell sort algorithm is diminishing decrement sort as the distance between comparisons decreases as the algorithm runs until the last phase."
+    },
+    {
+        "question": "The worst case running time of shell sort, using Shell\u2019s increments is?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "d",
+        "explanation": "The lower bound of a shell sort algorithm is mathematically found to be O(N"
+    },
+    {
+        "question": "Who invented the shell sort algorithm?",
+        "options": [
+            "a) John Von Neumann",
+            "b) Donald Shell",
+            "c) Tony Hoare",
+            "d) Alan Shell"
+        ],
+        "answer": "b",
+        "explanation": "Shell sort algorithm is invented by Donald shell. Merge sort is invented by John Von Neumann. Quick sort is invented by Tony Hoare."
+    },
+    {
+        "question": "Shell sort algorithm is the first algorithm to break the quadratic time barrier.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Shell sort broke the quadratic time barrier as it works by comparing elements that are distant."
+    },
+    {
+        "question": "Shell sort algorithm is an example of?",
+        "options": [
+            "a) External sorting",
+            "b) Internal sorting",
+            "c) In-place sorting",
+            "d) Bottom-up sorting"
+        ],
+        "answer": "b",
+        "explanation": "Shell sort is an example of internal sorting because sorting of elements is done internally using an array."
+    },
+    {
+        "question": "Shell sort uses a sequence called a incrementing sequence to sort the elements.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Shell sort uses an increment sequence h1, h2, h3\u2026 and this sequence will work as long as h1=1."
+    },
+    {
+        "question": "Which of the following sorting algorithms is closely related to shell sort?",
+        "options": [
+            "a) Selection sort",
+            "b) Merge sort",
+            "c) Insertion sort",
+            "d) Bucket sort"
+        ],
+        "answer": "c",
+        "explanation": "Shell sort performs an insertion sort on hk independent arrays. It is mainly a variation of insertion sort."
+    },
+    {
+        "question": "Why is Shell sort called as a generalization of Insertion sort?",
+        "options": [
+            "a) Shell sort allows an exchange of far items whereas insertion sort moves elements by one position",
+            "b) Improved lower bound analysis",
+            "c) Insertion is more efficient than any other algorithms",
+            "d) Shell sort performs internal sorting"
+        ],
+        "answer": "a",
+        "explanation": "Shell sort is an extension of insertion sort because it swaps elements at far distances and at a faster rate."
+    },
+    {
+        "question": "Given an array of the following elements 81,94,11,96,12,35,17,95,28,58,41,75,15.",
+        "options": [
+            "a) 11,12,15,17,28,35,41,58,75,81,94,95,96",
+            "b) 28,12,11,35,41,58,17,94,75,81,96,95,15",
+            "c) 35,17,11,28,12,41,75,15,96,58,81,94,95",
+            "d) 12,11,15,17,81,94,85,96,28,35,41,58,75"
+        ],
+        "answer": "c",
+        "explanation": "The general strategy to hk sort is for each position, i, in hk,, hk+1,\u2026., N-1, place the element in the correct spot among i, i-hk,i-2hk, etc."
+    },
+    {
+        "question": "Which of the following statements is the basic for loop for a shell sort algorithm?",
+        "options": [
+            "a) for(increment=N/2;increment>0;increment/=2)",
+            "b) for(i=1;i<n;i++)",
+            "c) for(i=n/2;i>=0;i- -)",
+            "d) for(i=0;i< n;i++;numelements- -)"
+        ],
+        "answer": "a",
+        "explanation": "for(increment=N/2;increment>0;increment/=2) represents shell sort, for(i=1;i<n;i++) represents insertion sort, for(i=n/2;i>=0;I- -) represents heap sort,  for(i=0;i<n;i++;numelements- -) merge sort."
+    },
+    {
+        "question": "On how many increment sequences does the worst case analysis of shell sort depends?",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) four"
+        ],
+        "answer": "c",
+        "explanation": "The worst case analysis of shell sort depends on two increment sequences- using Shell\u2019s increments, Sedgewick\u2019s and Hibbard\u2019s increments."
+    },
+    {
+        "question": "What is the worst case running time of shell sort using Hibbard\u2019s increments?",
+        "options": [
+            "a) O(N)",
+            "b) O(N",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "d",
+        "explanation": "Mathematically, the lower bound analysis for shell sort using Hibbard\u2019s increments is O(N"
+    },
+    {
+        "question": "What is the general form of Shell\u2019s increments?",
+        "options": [
+            "a) 1,2,3,\u2026,n",
+            "b) 1,3,7,\u2026.,2k-1",
+            "c) 1,3,5,7,\u2026.,k-1",
+            "d) 1,5,10,15,\u2026, k-1"
+        ],
+        "answer": "b",
+        "explanation": "Shell\u2019s increments are of the form 1,3,7,\u2026.,2k-1. The key difference is that the consecutive elements have no common factors."
+    },
+    {
+        "question": "What is the worst case analysis of shell sort using Shell\u2019s increments?",
+        "options": [
+            "a) O(N)",
+            "b) O(N",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "b",
+        "explanation": "The worst case analysis is mathematically found to be O(N"
+    },
+    {
+        "question": "What is the worst case analysis of Shell sort using Sedgewick\u2019s increments?",
+        "options": [
+            "a) O(N",
+            "b) O(N",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "c",
+        "explanation": "The worst case analysis of Shell sort using Sedgewick\u2019s increments is mathematically calculated to be O(N"
+    }
+]

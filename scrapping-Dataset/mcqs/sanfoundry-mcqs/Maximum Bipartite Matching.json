@@ -1,0 +1,163 @@
+[
+    {
+        "question": "_____________ is a matching with the largest number of edges.",
+        "options": [
+            "a) Maximum bipartite matching",
+            "b) Non-bipartite matching",
+            "c) Stable marriage",
+            "d) Simplex"
+        ],
+        "answer": "a",
+        "explanation": "Maximum bipartite matching matches two elements with a property that no two edges share a vertex."
+    },
+    {
+        "question": "Maximum matching is also called as maximum cardinality matching.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Maximum matching is also called as maximum cardinality matching (i.e.) matching with the largest number of edges."
+    },
+    {
+        "question": "How many colours are used in a bipartite graph?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "A bipartite graph is said to be two-colourable so that every edge has its vertices coloured in different colours."
+    },
+    {
+        "question": "What is the simplest method to prove that a graph is bipartite?",
+        "options": [
+            "a) It has a cycle of an odd length",
+            "b) It does not have cycles",
+            "c) It does not have a cycle of an odd length",
+            "d) Both odd and even cycles are formed"
+        ],
+        "answer": "c",
+        "explanation": "It is not difficult to prove that a graph is bipartite if and only if it does not have a cycle of an odd length."
+    },
+    {
+        "question": "A matching that matches all the vertices of a graph is called?",
+        "options": [
+            "a) Perfect matching",
+            "b) Cardinality matching",
+            "c) Good matching",
+            "d) Simplex matching"
+        ],
+        "answer": "a",
+        "explanation": "A matching that matches all the vertices of a graph is called perfect matching."
+    },
+    {
+        "question": "What is the length of an augmenting path?",
+        "options": [
+            "a) Even",
+            "b) Odd",
+            "c) Depends on graph",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "The length of an augmenting path in a bipartite graph is always said to be always odd."
+    },
+    {
+        "question": "In a bipartite graph G=(V,U,E), the matching of a free vertex in V to a free vertex in U is called?",
+        "options": [
+            "a) Bipartite matching",
+            "b) Cardinality matching",
+            "c) Augmenting",
+            "d) Weight matching"
+        ],
+        "answer": "c",
+        "explanation": "A simple path from a free vertex in V to a free vertex in U whose edges alternate between edges not in M and edges in M is called a augmenting path."
+    },
+    {
+        "question": "A matching M is maximal if and only if there exists no augmenting path with respect to M.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "According to the theorem discovered by the French mathematician Claude Berge, it means that the current matching is maximal if there is no augmenting path."
+    },
+    {
+        "question": "Which one of the following is an application for matching?",
+        "options": [
+            "a) Proposal of marriage",
+            "b) Pairing boys and girls for a dance",
+            "c) Arranging elements in a set",
+            "d) Finding the shortest traversal path"
+        ],
+        "answer": "b",
+        "explanation": "Pairing boys and girls for a dance is a traditional example for matching. Proposal of marriage is an application of stable marriage problem."
+    },
+    {
+        "question": "Which is the correct technique for finding a maximum matching in a graph?",
+        "options": [
+            "a) DFS traversal",
+            "b) BFS traversal",
+            "c) Shortest path traversal",
+            "d) Heap order traversal"
+        ],
+        "answer": "b",
+        "explanation": "The correct technique for finding a maximum matching in a bipartite graph is by using a Breadth First Search(BFS)."
+    },
+    {
+        "question": "The problem of maximizing the sum of weights on edges connecting matched pairs of vertices is?",
+        "options": [
+            "a) Maximum- mass matching",
+            "b) Maximum bipartite matching",
+            "c) Maximum weight matching",
+            "d) Maximum node matching"
+        ],
+        "answer": "c",
+        "explanation": "The problem is called as maximum weight matching which is similar to a bipartite matching. It is also called as assignment problem."
+    },
+    {
+        "question": "What is the total number of iterations used in a maximum- matching algorithm?",
+        "options": [
+            "a) [n/2]",
+            "b) [n/3]",
+            "c) [n/2]+n",
+            "d) [n/2]+1"
+        ],
+        "answer": "d",
+        "explanation": "The total number of iterations cannot exceed [n/2]+1 where n=|V|+|U| denoting the number of vertices in the graph."
+    },
+    {
+        "question": "What is the efficiency of algorithm designed by Hopcroft and Karp?",
+        "options": [
+            "a) O(n+m)",
+            "b) O(n(n+m)",
+            "c) O(\u221an(n+m))",
+            "d) O(n+2)"
+        ],
+        "answer": "c",
+        "explanation": "The efficiency of algorithm designed by Hopcroft and Karp is mathematically found to be O(\u221an(n+m))."
+    },
+    {
+        "question": "Who was the first person to solve the maximum matching problem?",
+        "options": [
+            "a) Jack Edmonds",
+            "b) Hopcroft",
+            "c) Karp",
+            "d) Claude Berge"
+        ],
+        "answer": "a",
+        "explanation": "Jack Edmonds was the first person to solve the maximum matching problem in 1965."
+    },
+    {
+        "question": "From the given graph, how many vertices can be matched using maximum matching in bipartite graph algorithm?",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 3",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "One of the solutions of the matching problem is given by a-w,b-v,c-x,d-y,e-z. Hence the answer is 5."
+    }
+]

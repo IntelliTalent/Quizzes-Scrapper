@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The __________ of a replica set affects the outcome of failover situations.",
+        "options": [
+            "a) deployment",
+            "b) architecture",
+            "c) structure",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To support effective failover, ensure that one facility can elect a primary if needed."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Administrators must apply or discard rollback data manually",
+            "b) Network partitions could not prevent the set from being able to form a majority",
+            "c) Replica sets remove \u201crollback\u201d data when needed without intervention",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When a rollback does occur, it is often the result of a network partition."
+    },
+    {
+        "question": "A rollback reverts _______ operations on a former primary when the member rejoins the replica set after a failover.",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) view",
+            "d) secondary"
+        ],
+        "answer": "b",
+        "explanation": "The replica set recovers from the loss of a primary by holding an election."
+    },
+    {
+        "question": "A priority __ member is a secondary that cannot become primary.",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Priority 0 members cannot trigger elections."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Elections does not occur when the primary becomes unavailable and the replica set members autonomously select a new primary",
+            "b) A priority 1 member maintains a copy of the data set, accepts read operations, and votes in elections",
+            "c) In a two-member replica set, in one data center hosts the primary and a secondary.",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Configure a priority 0 member to prevent secondaries from becoming primary, which is particularly useful in multi-data center deployments."
+    },
+    {
+        "question": "A second data center hosts one priority 0 member that cannot become ___________",
+        "options": [
+            "a) primary",
+            "b) write",
+            "c) view",
+            "d) Secondary"
+        ],
+        "answer": "a",
+        "explanation": "A priority 0 member can function as a standby."
+    },
+    {
+        "question": "A ______ member maintains a copy of the primary\u2019s data set but is invisible to client applications.",
+        "options": [
+            "a) primary",
+            "b) delayed",
+            "c) hidden",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hidden members are good for workloads with different usage patterns from the other members in the replica set."
+    },
+    {
+        "question": "The db.________ method does not display hidden members.",
+        "options": [
+            "a) isPrima ry()",
+            "b) isMaster()",
+            "c) Master()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hidden members, however, may vote in elections."
+    },
+    {
+        "question": "In a sharded cluster _______ do not interact with hidden members.",
+        "options": [
+            "a) mongod",
+            "b) mongos",
+            "c) mongostore",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Clients will not distribute reads with the appropriate read preference to hidden members."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Chan\u2019s algorithm is used for computing _________",
+        "options": [
+            "a) Closest distance between two points",
+            "b) Convex hull",
+            "c) Area of a polygon",
+            "d) Shortest path between two points"
+        ],
+        "answer": "b",
+        "explanation": "Chan\u2019s algorithm is an output-sensitive algorithm used to compute the convex hull set of n points in a 2D or 3D space. Closest pair algorithm is used to compute the closest distance between two points."
+    },
+    {
+        "question": "What is the running time of Chan\u2019s algorithm?",
+        "options": [
+            "a) O(log n)",
+            "b) O(n log n)",
+            "c) O(n log h)",
+            "d) O(log h)"
+        ],
+        "answer": "c",
+        "explanation": "The running time of Chan\u2019s algorithm is calculated to be O(n log h) where h is the number of vertices of the convex hull."
+    },
+    {
+        "question": "Who formulated Chan\u2019s algorithm?",
+        "options": [
+            "a) Timothy",
+            "b) Kirkpatrick",
+            "c) Frank Nielsen",
+            "d) Seidel"
+        ],
+        "answer": "a",
+        "explanation": "Chan\u2019s algorithm was formulated by Timothy Chan. Kirkpatrick and Seidel formulated the Kirkpatrick-Seidel algorithm. Frank Nielsen developed a paradigm relating to Chan\u2019s algorithm."
+    },
+    {
+        "question": "The running time of Chan\u2019s algorithm is obtained from combining two algorithms.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The O(n log h) running time of Chan\u2019s algorithm is obtained by combining the running time of Graham\u2019s scan [O(n log n)] and Jarvis match [O(nh)]."
+    },
+    {
+        "question": "Which of the following is called the \u201cultimate planar convex hull algorithm\u201d?",
+        "options": [
+            "a) Chan\u2019s algorithm",
+            "b) Kirkpatrick-Seidel algorithm",
+            "c) Gift wrapping algorithm",
+            "d) Jarvis algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Kirkpatrick-Seidel algorithm is called as the ultimate planar convex hull algorithm. Its running time is the same as that of Chan\u2019s algorithm (i.e.) O(n log h)."
+    },
+    {
+        "question": "Which of the following algorithms is the simplest?",
+        "options": [
+            "a) Chan\u2019s algorithm",
+            "b) Kirkpatrick-Seidel algorithm",
+            "c) Gift wrapping algorithm",
+            "d) Jarvis algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Chan\u2019s algorithm is very practical for moderate sized problems whereas Kirkpatrick-Seidel algorithm is not. Although, they both have the same running time. Gift wrapping algorithm is a non-output sensitive algorithm and has a longer running time."
+    },
+    {
+        "question": "What is the running time of Hershberger algorithm?",
+        "options": [
+            "a) O(log n)",
+            "b) O(n log n)",
+            "c) O(n log h)",
+            "d) O(log h)"
+        ],
+        "answer": "b",
+        "explanation": "Hershberger\u2019s algorithm is an output sensitive algorithm whose running time was originally O(n log n). He used Chan\u2019s algorithm to speed up to O(n log h) where h is the number of edges."
+    },
+    {
+        "question": "Which of the following statements is not a part of Chan\u2019s algorithm?",
+        "options": [
+            "a) eliminate points not in the hull",
+            "b) recompute convex hull from scratch",
+            "c) merge previously calculated convex hull",
+            "d) reuse convex hull from the previous iteration"
+        ],
+        "answer": "b",
+        "explanation": "Chan\u2019s algorithm implies that the convex hulls of larger points can be arrived at by merging previously calculated convex hulls. It makes the algorithm simpler instead of recomputing every time from scratch."
+    },
+    {
+        "question": "Which of the following factors account more to the cost of Chan\u2019s algorithm?",
+        "options": [
+            "a) computing a single convex hull",
+            "b) locating points that constitute a hull",
+            "c) computing convex hull in groups",
+            "d) merging convex hulls"
+        ],
+        "answer": "c",
+        "explanation": "The majority of the cost of the algorithm lies in the pre-processing (i.e.) computing convex hull in groups. To reduce cost, we reuse convex hulls from previous iterations."
+    },
+    {
+        "question": "Chan\u2019s algorithm can be used to compute the lower envelope of a trapezoid.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "An extension of Chan\u2019s algorithm can be used for proving solutions to complex problems like computing the lower envelope L(S) where S is a set of \u2018n\u2019 line segments in a trapezoid."
+    }
+]

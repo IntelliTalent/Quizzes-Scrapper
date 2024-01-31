@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of the following is not a negative property of Context free languages?",
+        "options": [
+            "a) Intersection",
+            "b) Complement",
+            "c) Intersection and Complement",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Context free languages are not closed under complement and intersection. Thus, are called Negative properties."
+    },
+    {
+        "question": "The intersection of context free language and regular language is _________",
+        "options": [
+            "a) regular language",
+            "b) context free language",
+            "c) context sensitive language",
+            "d) non of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If a language L1 is regular and L2 is a context free language, then L1 intersection L2 will result into a context free language."
+    },
+    {
+        "question": "Which of the following is regular?",
+        "options": [
+            "a) a",
+            "b) (a+b)*-{a",
+            "c) a",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "As the language seems to be finite, a dfa can be constructed for the same, thus is regular."
+    },
+    {
+        "question": "Which of the following is not context free?",
+        "options": [
+            "a) {w: nA=nB=nC}",
+            "b) {a*b*c*}",
+            "c) {a",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "{a*b*c*} and (c) are regular languages while option (a) is not context free language."
+    },
+    {
+        "question": "Which of the following can be used to prove a language is not context free?",
+        "options": [
+            "a) Ardens theorem",
+            "b) Power Construction method",
+            "c) Regular Closure",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We can use the properties of regular closure to prove that a language is not a context free language. Example: Intersection of context free language and regular language is a context free language. Proof by contradiction helps here."
+    },
+    {
+        "question": "Which of the following are valid membership algorithms?",
+        "options": [
+            "a) CYK algorithm",
+            "b) Exhaustive search parser",
+            "c) CYK algorithm and Exhaustive search parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "CYK algorithm is a parsing algorithm for context free grammars, which employs bottom up parsing and dynamic programming."
+    },
+    {
+        "question": "Which of the following belong to the steps to prove emptiness?",
+        "options": [
+            "a) Remove useless variable",
+            "b) Check if a start variable S is useless",
+            "c) Remove useless variable and Check if a start variable S is useless",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The empty-language question can be stated as: For context free grammar G find if L(G) =f?"
+    },
+    {
+        "question": "Which of the following is true for CYK Algorithm?",
+        "options": [
+            "a) Triangular Table",
+            "b) Circular Chart",
+            "c) Linked List",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A triangular table is constructed to facilitate the solution of membership problem using bottom up parsing and dynamic programming."
+    },
+    {
+        "question": "Which of the following steps are wrong with respect to infiniteness problem?",
+        "options": [
+            "a) Remove useless variables",
+            "b) Remove unit and epsilon production",
+            "c) Create dependency graph for variables",
+            "d) If there is a loop in the dependency graph the language is finite else infinite"
+        ],
+        "answer": "d",
+        "explanation": "If we are able to detect a loop in the formed dependency graph, then the language in infinite."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "At first, we detect useless symbols and discard them. Inorder to find whether a symbol is useless, just make it the starting symbol and check for emptiness."
+    }
+]

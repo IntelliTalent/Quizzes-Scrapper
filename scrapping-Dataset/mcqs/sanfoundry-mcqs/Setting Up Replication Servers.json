@@ -1,0 +1,94 @@
+[
+    {
+        "question": "The slave stores the CHANGE MASTER parameters in the file _____________",
+        "options": [
+            "a) slave.info",
+            "b) slave.inf",
+            "c) master.info",
+            "d) master.inf"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018slave\u2019 stores the \u2018CHANGE MASTER\u2019 parameters in a file named \u2018master.info\u2019 in its data directory in order to record the initial replication status. It updates the file as replication proceeds."
+    },
+    {
+        "question": "Which statement on the master expires binary log files?",
+        "options": [
+            "a) SHOW SLAVE STATUS",
+            "b) PURGE MASTER",
+            "c) PURGE SLAVE",
+            "d) SHOW MASTER STATUS"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018PURGE MASTER\u2019 statement on the master expires binary log files. This can be used after issuing a \u2018SHOW SLAVE STATUS\u2019 statement on each of the slaves to determine which log files are no longer needed."
+    },
+    {
+        "question": "Which statement suspends the replication related activity of the slave server?",
+        "options": [
+            "a) RESUME SLAVE",
+            "b) START SLAVE",
+            "c) STOP SLAVE",
+            "d) GET SLAVE"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018STOP SLAVE\u2019 and \u2018START SLAVE\u2019 statements suspend and resume the replication-related activity of a slave server. These statements are useful for telling the slave to be quiescent."
+    },
+    {
+        "question": "MySQL Enterprise Backup records details of each backup in _____________",
+        "options": [
+            "a) history_backup",
+            "b) backup_history",
+            "c) backlog_history",
+            "d) history_backlog"
+        ],
+        "answer": "b",
+        "explanation": "The restored data includes the \u2018backup_history\u2019 table, where \u2018MySQL Enterprise Backup\u2019 records details of each backup. The table allows to perform future incremental backups using \u2018\u2013incremental-base=history:last_backup\u2019."
+    },
+    {
+        "question": "In which context is the privilege \u2018CREATE TABLESPACE\u2019 applied?",
+        "options": [
+            "a) Server administration",
+            "b) Tables",
+            "c) Stored routines",
+            "d) Views"
+        ],
+        "answer": "a",
+        "explanation": "The column name associated with the privilege \u2018CREATE TABLESPACE\u2019 is \u2018Create_tablespace_priv\u2019. The context in which this privilege is being used is the server administration."
+    },
+    {
+        "question": "How many of the following languages can interface to bind to the C API of MySQL?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The client library provides the means through which the MySQL bindings for other languages can be built on top of the C API. This type of interface exists for Perl, PHP, Python and others."
+    },
+    {
+        "question": "PHP scripts are located in the web client document tree.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The PHP scripts are different from DBI scripts since PHP scripts are located within the web server document tree while DBI scripts are located in a cgi-bin directory located outside of document tree."
+    },
+    {
+        "question": "In which directory are the DBI scripts located?",
+        "options": [
+            "a) cgi-inc",
+            "b) cgi-bin",
+            "c) cgi-usr",
+            "d) cgi-perl"
+        ],
+        "answer": "b",
+        "explanation": "DBI scripts are located in a cgi-bin directory located outside of document tree. The PHP scripts are different from DBI scripts since PHP scripts are located within the web server document tree."
+    },
+    {
+        "question": "Which is the stored program associated with a schedule?",
+        "options": [
+            "a) Trigger",
+            "b) Event",
+            "c) Stored function",
+            "d) Stored procedure"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL version 5.1.6 and above has an event scheduler. It enables us to perform time activated database operations. An event is a stored program that is associated with a schedule."
+    }
+]

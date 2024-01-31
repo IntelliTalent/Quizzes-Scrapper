@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which namespace is mostly preferred for the operation of networking in C#?",
+        "options": [
+            "a) System.Web",
+            "b) System.in",
+            "c) System.Net.Mail",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Networking support is contained in several namespaces defined by the .NET Framework. The primary namespace for networking is System.Net. It defines a large number of high-level, easy-to-use classes that support various types of operations common to the Internet. Several namespaces nested under System.Net are also provided. Example: System.Net.Mail."
+    },
+    {
+        "question": "Which of the following are the classes defined by the namespace System.Net?",
+        "options": [
+            "a) Cookie",
+            "b) CookieContainer",
+            "c) FileWebRequest",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following are the interfaces defined by the namespace System.Net?",
+        "options": [
+            "a) IAuthenticationModule",
+            "b) HttpWebRequest",
+            "c) WebProxy",
+            "d) HttpResponseHeader"
+        ],
+        "answer": "a",
+        "explanation": "WebProxy and HttpResponseHeader are namespaces and enumerations."
+    },
+    {
+        "question": "Which of the following are the classes that support the standard HTTP protocol?",
+        "options": [
+            "a) HttpWebRequest",
+            "b) HttpResponseHeader",
+            "c) HttpRequestHeader",
+            "d) HttpStatusCode"
+        ],
+        "answer": "a",
+        "explanation": "The derived classes that support the standard HTTP protocol are HttpWebRequest and HttpWebResponse."
+    },
+    {
+        "question": "Which of the following class/classes supports the task of uploading and downloading the file?",
+        "options": [
+            "a) WebRequest",
+            "b) WebResponse",
+            "c) WebClient",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If we only need to upload or download a file, then WebClient is often the best way to accomplish it."
+    },
+    {
+        "question": "How many ports of TCP/IP are reserved for specific protocols?",
+        "options": [
+            "a) 10",
+            "b) 1024",
+            "c) 2048",
+            "d) 512"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "How many bits are present in a single IP address?",
+        "options": [
+            "a) 8",
+            "b) 16",
+            "c) 32",
+            "d) 64"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is the full form of DNS?",
+        "options": [
+            "a) Data Network Service",
+            "b) Data Name Service",
+            "c) Domain Network Service",
+            "d) Domain Name Service"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following classes is used to encapsulate IP address and DNS?",
+        "options": [
+            "a) DatagramPacket",
+            "b) URL",
+            "c) InetAddress",
+            "d) ContentHandler"
+        ],
+        "answer": "c",
+        "explanation": "InetAddress class encapsulates both IP address and DNS. We can interact with this class by using the name of an IP host."
+    },
+    {
+        "question": "Which of the following are the protocols defined by .NET runtime?",
+        "options": [
+            "a) HTTP",
+            "b) HTTPS",
+            "c) File",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The .NET runtime defines HTTP, HTTPS, file, and FTP protocols. Thus, if we specify a URI that uses HTTP prefix, we will automatically receive the HTTP-compatible class that supports it. If we specify a URI that uses FTP prefix, we will automatically receive the FTP-compatible class that supports it."
+    }
+]

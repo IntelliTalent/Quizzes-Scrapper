@@ -1,0 +1,101 @@
+[
+    {
+        "question": "A sharded cluster can contain __________ query router to divide the client request load.",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) more than 1",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A client sends requests to one query router. Most sharded clusters have many query routers."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB distributes data, or shards, at the collection level",
+            "b) To shard a document, you need to select a shard key",
+            "c) MongoDB divides the shard key values into replica sets",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Sharding partitions a collection\u2019s data by the shard key."
+    },
+    {
+        "question": "________ servers store the cluster\u2019s metadata.",
+        "options": [
+            "a) Local",
+            "b) Config",
+            "c) Master",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This data contains a mapping of the cluster\u2019s data set to the shards."
+    },
+    {
+        "question": "The query router uses __________ to target operations to specific shards.",
+        "options": [
+            "a) metadata",
+            "b) cluster",
+            "c) replica",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For development and testing purposes only, each shard can be a single mongod instead of a replica set."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) For hash-based sharding, MongoDB divides the data set into ranges determined by the shard key values to provide hash based partitioning",
+            "b) Cloud-based providers may only allow users to provision smaller instances",
+            "c) For hash based partitioning, MongoDB computes a hash of a field\u2019s value, and then uses these hashes to create chunks",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For range-based sharding, MongoDB divides the data set into ranges determined by the shard key values to provide range based partitioning."
+    },
+    {
+        "question": "Production sharded clusters have exactly ______ config servers.",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": " Do not deploy production clusters without 3 config servers."
+    },
+    {
+        "question": "To divide the shard key values into chunks, MongoDB uses _____ based partitioning.",
+        "options": [
+            "a) range",
+            "b) b tree",
+            "c) document",
+            "d) isMaster"
+        ],
+        "answer": "a",
+        "explanation": "Hash based partitioning can also be used."
+    },
+    {
+        "question": "With hash based partitioning, two documents with _____ shard key values are unlikely to be part of the same chunk.",
+        "options": [
+            "a) close",
+            "b) open",
+            "c) partially close",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This ensures a more random distribution of a collection in the cluster."
+    },
+    {
+        "question": "_______ based partitioning, by contrast, ensures an even distribution of data at the expense of efficient range queries.",
+        "options": [
+            "a) Hash",
+            "b) Range",
+            "c) Table",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hashed key values results in random distribution of data across chunks and therefore shards."
+    }
+]

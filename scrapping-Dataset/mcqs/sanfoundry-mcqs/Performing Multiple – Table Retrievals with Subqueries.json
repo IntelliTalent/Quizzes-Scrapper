@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The facility that allows nesting one select statement into another is called __________",
+        "options": [
+            "a) nesting",
+            "b) binding",
+            "c) subquerying",
+            "d) encapsulating"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018subquerying\u2019 support provided by MySQL is a capability that allows writing one \u2018SELECT\u2019 statement within parentheses and nesting within another. This allows logically selecting content from tables."
+    },
+    {
+        "question": "Which subquery returns a single value?",
+        "options": [
+            "a) scalar",
+            "b) column",
+            "c) row",
+            "d) table"
+        ],
+        "answer": "a",
+        "explanation": "The subqueries in MySQL can return different types of information. A scalar query returns a single value. Column subquery return a single column and row subquery returns a single row."
+    },
+    {
+        "question": "Usage of aggregates in WHERE clause is allowed.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The usage of aggregates inside \u2018WHERE\u2019 clauses is not allowed. For example, the following statement will not work : \u2018SELECT * FROM my_table WHERE attribute_name = MAX(attribute_name)\u2019, because the MAX value is not known yet."
+    },
+    {
+        "question": "Which operators are used when a subquery returns multiple rows to be evaluated in comparison to the outer query?",
+        "options": [
+            "a) IN and NOT IN",
+            "b) EXISTS and NOT EXISTS",
+            "c) OUTER JOIN and INNER JOIN",
+            "d) LEFT JOIN and RIGHT JOIN"
+        ],
+        "answer": "a",
+        "explanation": "When there is a need to evaluate multiple rows in comparison to the outer query, the \u2018IN\u2019 and \u2018NOT IN\u2019 operators are used. They are used for testing whether a comparison value is present in a set of values."
+    },
+    {
+        "question": "The ALL subquery performs which operation?",
+        "options": [
+            "a) row",
+            "b) column",
+            "c) table",
+            "d) database"
+        ],
+        "answer": "b",
+        "explanation": "The operators \u2018ALL\u2019 and \u2018ANY\u2019 are used to perform operations on columns. They are used in conjunction with a comparison operator in order to test the result of a column subquery."
+    },
+    {
+        "question": "Which of these operators perform similar operations like ALL and ANY?",
+        "options": [
+            "a) SOME",
+            "b) MANY",
+            "c) SELECT",
+            "d) GROUP"
+        ],
+        "answer": "a",
+        "explanation": "The operators \u2018SOME\u2019, \u2018ALL\u2019 and \u2018ANY\u2019 perform operations on columns. They can filter column results. They are used in conjunction with a comparison operator in order to test the result of a column subquery."
+    },
+    {
+        "question": "Which operators test whether a subquery returns any rows?",
+        "options": [
+            "a) IN and NOT IN",
+            "b) EXISTS and NOT EXISTS",
+            "c) PRESENT",
+            "d) ABSENT"
+        ],
+        "answer": "b",
+        "explanation": "The operators \u2018EXISTS\u2019 and \u2018NOT EXISTS\u2019 operators only test whether a subquery returns any rows. If it returns a row, \u2018EXISTS\u2019 results into true and \u2018NOT EXISTS\u2019 results into false."
+    },
+    {
+        "question": "An uncorrelated subquery does not contain any reference to the values from the outer query.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL has two kinds of subqueries, namely, uncorrelated subquery and correlated subquery. An uncorrelated subquery does not contain any reference to the values from the outer query."
+    },
+    {
+        "question": "Which subquery cannot be executed by itself as a separate statement?",
+        "options": [
+            "a) Correlated",
+            "b) Uncorrelated",
+            "c) EXISTS",
+            "d) NOT EXISTS"
+        ],
+        "answer": "a",
+        "explanation": "An uncorrelated subquery contains references to the values from the outer query. So, it is dependent on it. Therefore, a correlated subquery cannot be executed by itself as a separate statement."
+    },
+    {
+        "question": "Which of these operators does not perform relative-value comparisons?",
+        "options": [
+            "a) =",
+            "b) ==",
+            "c) <=",
+            "d) >="
+        ],
+        "answer": "b",
+        "explanation": "The operators =, < >,  >,  >=,  <, and  <= perform relative value comparisons in MySQL. \u2018==\u2019 is not a valid comparison operator in MySQL. Such operators are useful in filtering information from a table."
+    }
+]

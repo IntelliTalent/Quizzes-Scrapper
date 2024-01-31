@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Which of the following is not a notion of Context free grammars?",
+        "options": [
+            "a) Recursive Inference",
+            "b) Derivations",
+            "c) Sentential forms",
+            "d) All of the mentioned",
+            "a) Recursive Inferences",
+            "b) Derivations",
+            "c) Sentential form",
+            "d) Parse trees"
+        ],
+        "answer": "d",
+        "explanation": "The following are the notions to express Context free grammars:"
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "We apply the productions of CFG to infer that certain strings are in the language of a certain variable."
+    },
+    {
+        "question": "Which of the following is/are the suitable approaches for inferencing?",
+        "options": [
+            "a) Recursive Inference",
+            "b) Derivations",
+            "c) Recursive Inference and Derivations",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Two inference approaches:"
+    },
+    {
+        "question": "If w belongs to L(G), for some CFG, then w has a parse tree, which defines the syntactic structure of w. w could be:",
+        "options": [
+            "a) program",
+            "b) SQL-query",
+            "c) XML document",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Parse trees are an alternative representation to derivations and recursive inferences. There can be several parse trees for the same string."
+    },
+    {
+        "question": "Is the following statement correct?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "Yes, they are equivalent. Both the terminologies represent the two approaches of recursive inferencing."
+    },
+    {
+        "question": "A->aA| a| b",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "A->aA=>aaA=>aab"
+    },
+    {
+        "question": "An expression is mentioned as follows. Figure out number of incorrect notations or symbols, such that a change in those could make the expression correct.",
+        "options": [
+            "a) 0 Errors",
+            "b) 1 Error",
+            "c) 2 Error",
+            "d) Invalid Expression"
+        ],
+        "answer": "a",
+        "explanation": "For the given expression, L(G)={w in T*|S\u2192*w}, If G(V, T, P, S) is a CFG, the language of G, denoted by L(G), is the set of terminal strings that have derivations from the start symbol."
+    },
+    {
+        "question": "The language accepted by Push down Automaton:",
+        "options": [
+            "a) Recursive Language",
+            "b) Context free language",
+            "c) Linearly Bounded language",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Push down automata accepts context free language."
+    },
+    {
+        "question": "Which among the following is the correct option for the given grammar?",
+        "options": [
+            "a) {0",
+            "b) {0",
+            "c) {0",
+            "d) More than one of the mentioned is correct"
+        ],
+        "answer": "a",
+        "explanation": "Using the recursive approach, we can conclude that option a is the correct answer, and its not possible for a grammar to have more than one language."
+    },
+    {
+        "question": "Which of the following the given language belongs to?",
+        "options": [
+            "a) Context free language",
+            "b) Regular language",
+            "c) Context free language & Regular language",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The given language is neither accepted by a finite automata or a push down automata. Thus, it is neither a context free language nor a regular language."
+    },
+    {
+        "question": "Choose the correct option:",
+        "options": [
+            "a) true",
+            "b) partially true",
+            "c) false",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "We apply the productions of a CFG to infer that certain strings are in a language of certain variable."
+    },
+    {
+        "question": "Choose the correct option:",
+        "options": [
+            "a) Statement 1 is true and Statement 2 is true",
+            "b) Statement 1 and Statement 2, both are false",
+            "c) Statement 1 is true and Statement 2 is false",
+            "d) Statement 2 is true and Statement 1 is true"
+        ],
+        "answer": "b",
+        "explanation": "Both statements are false. Recursive Inference, using productions from body to head. Derivations, using productions from head to body."
+    },
+    {
+        "question": "Which of the following statements are correct for a concept called inherent ambiguity in CFL?",
+        "options": [
+            "a) Every CFG for L is ambiguous",
+            "b) Every CFG for L is unambiguous",
+            "c) Every CFG is also regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A CFL L is said to be inherently ambiguous if every CFG for L is ambiguous."
+    },
+    {
+        "question": "Which of the theorem defines the existence of Parikhs theorem?",
+        "options": [
+            "a) Parikh\u2019s theorem",
+            "b) Jacobi theorem",
+            "c) AF+BG theorem",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Rohit Parikh in 1961 proved in his MIT research paper that some context free language can only have ambiguous grammars."
+    }
+]

@@ -1,0 +1,387 @@
+[
+    {
+        "question": "Which of the following is not correct about JUnit?",
+        "options": [
+            "a) Junit provides test runners for running test",
+            "b) Junit cannot be run automatically",
+            "c) Junit is the open-source framework",
+            "d) Junit provides an annotation to identify test methods"
+        ],
+        "answer": "b",
+        "explanation": "JUnit test can be run automatically and they check their own results and provide immediate feedback."
+    },
+    {
+        "question": "JUnit is used for what type of software testing for the Java language?",
+        "options": [
+            "a) Functional Testing",
+            "b) System Testing",
+            "c) Unit Testing",
+            "d) Integration Testing"
+        ],
+        "answer": "c",
+        "explanation": "Unit testing is the testing of an individual unit or group of related units. That is precisely what JUnit is used for."
+    },
+    {
+        "question": "Which annotation implies that a method is a JUnit test case?",
+        "options": [
+            "a) @org.junit.Test",
+            "b) @org.Test",
+            "c) @testcase",
+            "d) @junit"
+        ],
+        "answer": "a",
+        "explanation": "Annotate a method with @org.junit.Test to imply that it is a JUnit test case."
+    },
+    {
+        "question": "JUnit test files are written in files with which file extension?",
+        "options": [
+            "a) .unit",
+            "b) .java",
+            "c) .test",
+            "d) .junit"
+        ],
+        "answer": "b",
+        "explanation": "JUnit test files are regular java files with special methods which are referenced via annotations."
+    },
+    {
+        "question": "Which methods cannot be tested by the JUnit test class?",
+        "options": [
+            "a) protected methods",
+            "b) methods with void return type",
+            "c) private methods",
+            "d) public methods"
+        ],
+        "answer": "c",
+        "explanation": "When a method is declared as \u201cprivate\u201d, it can only be accessed within the same class. So there is no way to test a \u201cprivate\u201d method of a target class from any JUnit test class."
+    },
+    {
+        "question": "JUnit runners are available in which package?",
+        "options": [
+            "a) org.junit.files.runners",
+            "b) org.runners",
+            "c) junitfiles.runners",
+            "d) org.junit.runners"
+        ],
+        "answer": "d",
+        "explanation": "The default JUnit package is \u201corg,junit\u201d. Runners are found in \u201corg,junit.runner\u201d."
+    },
+    {
+        "question": "What is a Fa\u00e7ade in JUnit?",
+        "options": [
+            "a) Fa\u00e7ade is a design pattern that provides a unified interface to a set of interfaces in a subsystem",
+            "b) Fa\u00e7ade is a group of test cases",
+            "c) Fa\u00e7ade is a group of mock objects",
+            "d) Fa\u00e7ade is a collection of supercases"
+        ],
+        "answer": "a",
+        "explanation": "In Junit, Fa\u00e7ade defines a higher-level interface that makes the subsystem easier to use."
+    },
+    {
+        "question": "What does the fail() method do in JUnit?",
+        "options": [
+            "a) Outputs the message \u201cFail\u201d to the console",
+            "b) Pauses the test for 1 second",
+            "c) Throws an assertion error unconditionally",
+            "d) Calls the default constructor"
+        ],
+        "answer": "c",
+        "explanation": "The method throws an assertion error unconditionally. This might be helpful to show an incomplete test (maybe still being worked upon) or to ensure that an expected exception is thrown."
+    },
+    {
+        "question": "To run the file TestClass.class from the command line, we have to type what?",
+        "options": [
+            "a) org.junit.runner.JUnitCore TestObject",
+            "b) java org.junit.runner.JUnitCore TestClass",
+            "c) javac TestCase",
+            "d) org.junit.java TestCase"
+        ],
+        "answer": "b",
+        "explanation": "The test cases are executed using JUnitCore class which is referenced by \u201corg.junit.runner.JUnitCore\u201d."
+    },
+    {
+        "question": "JUnit Suites are independent of the capability of the ______ system.",
+        "options": [
+            "a) Build",
+            "b) Test",
+            "c) Method",
+            "d) Run"
+        ],
+        "answer": "a",
+        "explanation": "JUnit Suites are useful to organize tests in Java, independent of the capability of the build system, because it\u2019s common for someone or a group other than the developers to maintain builds."
+    },
+    {
+        "question": "Which of the following is an example of a web controller?",
+        "options": [
+            "a) Php",
+            "b) Java",
+            "c) JUnit",
+            "d) Apache Struts Framework"
+        ],
+        "answer": "d",
+        "explanation": "Apache Struts Framework is an open-source framework for building Servlet/JSP based web applications which is an example of a web controller."
+    },
+    {
+        "question": "Which of the following is not a mocking framework?",
+        "options": [
+            "a) Mockito",
+            "b) EasyMock",
+            "c) MockJava",
+            "d) PowerMock"
+        ],
+        "answer": "d",
+        "explanation": "EasyMock, jMock, Mockito, Unitils Mock, PowerMock and JMockit are various mocking framework."
+    },
+    {
+        "question": "Which of the following is correct about Test Suite in JUnit?",
+        "options": [
+            "a) @RunWith annotation is used to run the suite test",
+            "b) Test suite means bundle a few unit test cases and run them together",
+            "c) @Suite annotation is used to run the suite test",
+            "d) All of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Test suite allows us to aggregate a few unit test cases from multiple classes in one place and run them together. @RunWith and @Suite annotation are used to run the suite test."
+    },
+    {
+        "question": "The JUnit hasItem() function is a _____________",
+        "options": [
+            "a) Matcher",
+            "b) JUnitMatcher",
+            "c) Instance Function",
+            "d) Hamcrest Matcher"
+        ],
+        "answer": "b",
+        "explanation": "JUnit hasItem() is a useful matcher with for use with the assertThat method."
+    },
+    {
+        "question": "Which of the following is also known as Beta Testing?",
+        "options": [
+            "a) Unit testing",
+            "b) Functional testing",
+            "c) Box testing",
+            "d) Field testing"
+        ],
+        "answer": "d",
+        "explanation": "Beta testing is done at the customer\u2019s location leading to it being also called field testing."
+    },
+    {
+        "question": "JUnit test methods must compulsorily return what value?",
+        "options": [
+            "a) void",
+            "b) Object",
+            "c) String",
+            "d) int"
+        ],
+        "answer": "a",
+        "explanation": "If a JUnit test method is declared to return anything then file will compile successfully. But the execution will fail because JUnit requires all test methods to be declared to return void."
+    },
+    {
+        "question": "Which of the following is a free Java tool that calculates the percentage of code accessed by tests?",
+        "options": [
+            "a) Maven",
+            "b) XUnit",
+            "c) JUnit",
+            "d) Cobertura"
+        ],
+        "answer": "d",
+        "explanation": "Cobertura is used to identify which parts of the Java program are lacking test coverage."
+    },
+    {
+        "question": "Which package contains interfaces that define jMock\u2019s Domain Specific Embedded Language?",
+        "options": [
+            "a) org.jmock.integration.junit3",
+            "b) org.jmock.lib.junit3",
+            "c) org.jmock",
+            "d) org.jmock.syntax"
+        ],
+        "answer": "d",
+        "explanation": "org.jmock.syntax defines interfaces that define jMock\u2019s Domain Specific Embedded Language."
+    },
+    {
+        "question": "Class JUnitMatchers extends _______________",
+        "options": [
+            "a) java.lang.String",
+            "b) java.JUnit.util.*",
+            "c) java.util.Arrays",
+            "d) java.lang.Object"
+        ],
+        "answer": "d",
+        "explanation": "JUnitMatchers manipulates the default Java objects and thus, extends java.lang.Object."
+    },
+    {
+        "question": "Which of the following test has to be completed before integration testing?",
+        "options": [
+            "a) Unit testing",
+            "b) Load testing",
+            "c) Stress testing",
+            "d) Functional testing"
+        ],
+        "answer": "a",
+        "explanation": "Once the test for a class are up and running, the next step is to hook up the class with other methods and services."
+    },
+    {
+        "question": "\u201ccobertura-check.bat\u201d is run ________ the JUnit tests to show which classes do not have adequate test coverage.",
+        "options": [
+            "a) Before and after",
+            "b) Along with",
+            "c) After",
+            "d) Before"
+        ],
+        "answer": "c",
+        "explanation": "This is used to check test coverage and hence, can only be run after the JUnit tests."
+    },
+    {
+        "question": "Which of the following is the basic unit of development in Scrum?",
+        "options": [
+            "a) Slice",
+            "b) Sprint",
+            "c) Cobertura",
+            "d) Manifesto"
+        ],
+        "answer": "b",
+        "explanation": "In Scrum, each iteration is also known as a Sprint, which is the basic unit of development."
+    },
+    {
+        "question": "Which of the following translates ExpectationErrors into JUnit AssertionFailedErrors?",
+        "options": [
+            "a) VerifyingTestCase",
+            "b) MockObjectTestCase",
+            "c) JUnit3Mockery",
+            "d) JUnit3ErrorTranslator"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:JUnit3ErrorTranslator translate Expectation Errors into JUnit AssertionFailedErrors."
+    },
+    {
+        "question": "Which of the following is a JUnit Rule that manages JMock expectations and allowances?",
+        "options": [
+            "a) JunitRule",
+            "b) JunitRuleMockery",
+            "c) JunitMockery",
+            "d) JmockRuleMockery"
+        ],
+        "answer": "b",
+        "explanation": "JunitRuleMockery asserts that expectations have been met after each test has finished."
+    },
+    {
+        "question": "What are fixtures in JUnit?",
+        "options": [
+            "a) Fixed state of a set of objects used as a baseline for running tests",
+            "b) Date objects",
+            "c) Objects that specify when to run a test",
+            "d) Bundle of few test cases run together"
+        ],
+        "answer": "a",
+        "explanation": "Tests need to run against the backdrop of a set of predefined or known objects. This set of objects is called a test fixture."
+    },
+    {
+        "question": "What is the full form of JJ in \u201cJJ-path\u201d?",
+        "options": [
+            "a) Jump-to-Jump",
+            "b) Java-JUnit",
+            "c) Jump-in-JUnit",
+            "d) Just Jump"
+        ],
+        "answer": "a",
+        "explanation": "JJ-path or Jump-to-Jump-path is a well-defined linear region of a program\u2019s code."
+    },
+    {
+        "question": "Which of the following is a Java HTTP (Web) server and Java Servlet container?",
+        "options": [
+            "a) Ant",
+            "b) Maven",
+            "c) Zimbra",
+            "d) Jetty"
+        ],
+        "answer": "d",
+        "explanation": "Jetty is often used for machine to machine communications, usually within larger software frameworks."
+    },
+    {
+        "question": "To use JUnit in a project we need to add which JAR files on our test classpath?",
+        "options": [
+            "a) java-junit.jar",
+            "b) junit.jar and hamcrest-core.jar",
+            "c) hamcrest-core.jar",
+            "d) junit.jar"
+        ],
+        "answer": "b",
+        "explanation": "hamcrest-core.jar has Matchers that JUnit uses for unit testing."
+    },
+    {
+        "question": "What type of object is returned on completion of a test?",
+        "options": [
+            "a) org.junit.runner.Object",
+            "b) org.junit.runner.Outcome",
+            "c) org.junit.runner.Complete",
+            "d) org.junit.runner.Result"
+        ],
+        "answer": "d",
+        "explanation": "An org.junit.runner.Result object collects and summarizes information from running multiple tests."
+    },
+    {
+        "question": "Mocks are Trojan horses because they replace real ___________ from the inside, without the calling classes being aware of it.",
+        "options": [
+            "a) Objects",
+            "b) Variables",
+            "c) Classes",
+            "d) Methods"
+        ],
+        "answer": "a",
+        "explanation": "Mocks have access to internal information about the class, making them quite powerful."
+    },
+    {
+        "question": "Stubs usually provide high _____________ in the tested system.",
+        "options": [
+            "a) Mocking",
+            "b) Security",
+            "c) Confidence",
+            "d) Modularity"
+        ],
+        "answer": "c",
+        "explanation": "With stubs, the objects under test aren\u2019t getting modified."
+    },
+    {
+        "question": "In which of the following test, Monkey Testing is also included in Android Studio as part of the standard testing tools.",
+        "options": [
+            "a) Integration Testing",
+            "b) Functional Testing",
+            "c) Stress Testing",
+            "d) Unit Testing"
+        ],
+        "answer": "c",
+        "explanation": "Monkey testing is used to implement stress testing on the Android Studio."
+    },
+    {
+        "question": "For a Suite class, the @RunWith annotation has the value of which class?",
+        "options": [
+            "a) org.runners.Suite.class",
+            "b) org.junit.runners.Suite.class",
+            "c) org.junit.runners.result",
+            "d) org.junit.Suite.cases"
+        ],
+        "answer": "b",
+        "explanation": "It contains the definition for the Suite class and a the declaration is @RunWith(value=org.junit.runners.Suite.class)."
+    },
+    {
+        "question": "Which testing is used for testing systems for which the specification takes in the form of rules or cause-effect combinations?",
+        "options": [
+            "a) Load Testing",
+            "b) Decision Table Testing",
+            "c) Unit Testing",
+            "d) Functional Testing"
+        ],
+        "answer": "b",
+        "explanation": "In a decision table the inputs are listed down in the form of a column, while the outputs are in the same column but below the inputs."
+    },
+    {
+        "question": "Which of the following rules helps to set up custom JUnit rules?",
+        "options": [
+            "a) TestRule Interface",
+            "b) CreateRule Interface",
+            "c) RuleCreate Interface",
+            "d) RuleInitialize Interface"
+        ],
+        "answer": "a",
+        "explanation": "JUnit provides the TestRule Interface which helps define custom JUnit Rules."
+    }
+]

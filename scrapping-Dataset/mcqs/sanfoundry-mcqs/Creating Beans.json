@@ -1,0 +1,147 @@
+[
+    {
+        "question": "Beans can be created by which of the following properties?",
+        "options": [
+            "a) Scope",
+            "b) Property",
+            "c) Class",
+            "d) It\u2019s own constructor"
+        ],
+        "answer": "d",
+        "explanation": "Class\u2019s constructor can create bean."
+    },
+    {
+        "question": "Which attribute is used to specify class name of the bean?",
+        "options": [
+            "a) name",
+            "b) id",
+            "c) class",
+            "d) constructor-args"
+        ],
+        "answer": "c",
+        "explanation": "Class attribute is mandatory and denotes the class used to create bean."
+    },
+    {
+        "question": "Which of the following method can be used to used to instantiate a method?",
+        "options": [
+            "a) static factory method",
+            "b) default-init method",
+            "c) destroy method",
+            "d) lazy-init method"
+        ],
+        "answer": "a",
+        "explanation": "Class attribute is used to specify the name of the class that contains the static factory method."
+    },
+    {
+        "question": "Which attribute is used to specify static factory-method?",
+        "options": [
+            "a) factory-method",
+            "b) default-init method",
+            "c) destroy method",
+            "d) lazy-init method"
+        ],
+        "answer": "a",
+        "explanation": "factory-method attribute denotes the name of actual method of the class."
+    },
+    {
+        "question": "Purpose of Static Factory Method?",
+        "options": [
+            "a) Static method to create an object",
+            "b) Initialize bean",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Instantiate a bean using static method."
+    },
+    {
+        "question": "Exception thrown by factory method?",
+        "options": [
+            "a) IllegalArgumentException",
+            "b) IndexOutofBoundException",
+            "c) ClassPathNotFoundException",
+            "d) BeanCreationException"
+        ],
+        "answer": "d",
+        "explanation": "Spring generates the above mentioned exception, in case something\u2019s wrong."
+    },
+    {
+        "question": "What will be the output?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since factory-method doesn\u2019t exists in the ProductCreator class, so exception thrown."
+    },
+    {
+        "question": "A bean can have more than one name using multiple id attributes?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Beans are allowed to have more than one ids."
+    },
+    {
+        "question": "Bean\u2019s naming convention:-",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Beans follow naming conventions."
+    },
+    {
+        "question": "Beans can be created by which of the following properties?",
+        "options": [
+            "a) Static factory-method",
+            "b) Instance Factory-Method",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Instantiate a bean via static and instance Factory methods."
+    },
+    {
+        "question": "The bean instance is mentioned by the factory-method attribute, while the factory method is signified by the factory-bean attribute?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The bean instance is mentioned by factory-bean attr while factory method is for factory-method attr."
+    },
+    {
+        "question": "One factory class can also hold more than one factory method True/False?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A single instantiated bean can have more than one methods."
+    },
+    {
+        "question": "Snippet of Code:",
+        "options": [],
+        "answer": "c",
+        "explanation": "Factory-Bean is used instead of class."
+    },
+    {
+        "question": "Instance Factory method main purpose is to encapsulate the object-creation process in a method of another object instance.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The client who requests an object can simply make a call to this method without knowing about the creation detail."
+    },
+    {
+        "question": "Which Attribute is used to specify the bean declared?",
+        "options": [
+            "a) factory-bean",
+            "b) scope",
+            "c) getBean",
+            "d) declareBean"
+        ],
+        "answer": "a",
+        "explanation": "To declare a bean created by an instance factory method, you specify the bean hosting the factory method in the factory-bean attribute."
+    }
+]

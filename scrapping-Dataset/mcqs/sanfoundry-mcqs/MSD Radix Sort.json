@@ -1,0 +1,130 @@
+[
+    {
+        "question": "How many comparisons will be made to sort the array arr = {1, 5, 3, 8, 2} using MSD radix sort?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 9",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "As MSD radix sort is an example of non comparison sort so it is able to sort an array without making any comparison. So the answer should be 0."
+    },
+    {
+        "question": "What is the full form of MSD in MSD radix sort?",
+        "options": [
+            "a) most significant digit",
+            "b) many significant digit",
+            "c) more significant digit",
+            "d) must significant digit"
+        ],
+        "answer": "a",
+        "explanation": "MSD stands for Most Significant Digit. It is named so because in this algorithm the processing begins from the most significant digit."
+    },
+    {
+        "question": "Which of the following combines qualities of MSD radix sort and LSD radix sort?",
+        "options": [
+            "a) in-place MSD radix sort",
+            "b) stable MSD radix sot",
+            "c) 3 way radix quick sort",
+            "d) forward radix sort"
+        ],
+        "answer": "d",
+        "explanation": "Forward radix sort combines the qualities of MSD and LSD radix sort. The sorting is done by separating the strings into groups."
+    },
+    {
+        "question": "Which of the following is the most suitable definition of radix sort?",
+        "options": [
+            "a) It is a non comparison based integer sort",
+            "b) It is a comparison based integer sort",
+            "c) It is a non comparison based non integer sort",
+            "d) It is a comparison based non integer sort"
+        ],
+        "answer": "a",
+        "explanation": "Radix sort is a non-comparison based integer sort. It sorts the given data by grouping keys which share the same significant position value."
+    },
+    {
+        "question": "Which of the following is an alternate name of MSD radix sort?",
+        "options": [
+            "a) bottom up radix sort",
+            "b) top down radix sort",
+            "c) forward radix sort",
+            "d) backward radix sort"
+        ],
+        "answer": "b",
+        "explanation": "Top down radix sort is an alternate name of MSD radix sort. It is because in this algorithm the processing starts from the most significant digit and end at least significant digit."
+    },
+    {
+        "question": "MSD radix sort should be preferred over LSD radix sort when we have to maintain the original relative order.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MSD radix sort is not a stable sort whereas LSD radix sort is stable. So when we require to preserve the original order then in that case we should prefer LSD radix sort."
+    },
+    {
+        "question": "What is the average time complexity of MSD radix sort (w= bits required to store each key)?",
+        "options": [
+            "a) O(n + w)",
+            "b) O(n.w)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of radix sort is O(n.w). It performs better than quick sort when we have log n bits for every digit."
+    },
+    {
+        "question": "MSD radix sort is an in place sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MSD radix sort takes non constant time for sorting the input data. So it is not an in place sorting algorithm."
+    },
+    {
+        "question": "Which of the following statement is not a stable sorting algorithm?",
+        "options": [
+            "a) LSD radix sort",
+            "b) MSD radix sort",
+            "c) Counting sort",
+            "d) Pigeonhole sort"
+        ],
+        "answer": "b",
+        "explanation": "MSD radix sort is not a stable sort. It is because the elements with identical values do not appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following is not true about radix sort?",
+        "options": [
+            "a) Radix sort performs better than quick sort when we have log n bits for every digit",
+            "b) Radix sort has better cache performance than quick sort",
+            "c) Radix sort has higher values of constant factor in asymptotic notation",
+            "d) Radix sort takes more space than quick sort"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort has a better cache performance than radix sort. Radix sort also takes more space as compared to quick sort."
+    },
+    {
+        "question": "What is the advantage of radix sort over quick sort?",
+        "options": [
+            "a) radix sort performs better than quick sort when we have log n bits for every digit",
+            "b) radix sort has lesser space complexity",
+            "c) radix sort is not a comparison based sorting technique",
+            "d) radix sort has better cache performance than quick sort"
+        ],
+        "answer": "a",
+        "explanation": "Radix sort performs better than quick sort when we have log n bits for every digit. But radix sort takes more space as compared to quick sort."
+    },
+    {
+        "question": "What will be the order of elements of the array arr = {23, 67, 143, 654, 43} after first iteration of MSD sort is complete?",
+        "options": [
+            "a) 23, 43, 67, 143, 654",
+            "b) 23, 67, 43, 143, 654",
+            "c) 23, 67, 143, 654, 43",
+            "d) 23, 143, 43, 654, 67"
+        ],
+        "answer": "b",
+        "explanation": "In the first iteration the array is sorted according to the most significant digit I.e. hundreds place value. So the order of elements will be 23, 67, 43, 143, 654."
+    }
+]

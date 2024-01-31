@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The command to move the cursor to the beginning of line in MySQL input editor is?",
+        "options": [
+            "a) Ctrl-A",
+            "b) Ctrl-E",
+            "c) Ctrl-D",
+            "d) Esc-a"
+        ],
+        "answer": "a",
+        "explanation": "Control-A moves the cursor to the beginning of the line. Ctrl-E moves the cursor to the end of the line. Control-D deletes the character under the cursor whereas Esc-a is not valid."
+    },
+    {
+        "question": "What does Control-_ do in MySQL input editor?",
+        "options": [
+            "a) copies to clipboard",
+            "b) pastes from clipboard",
+            "c) undoes last change",
+            "d) deletes the current line"
+        ],
+        "answer": "c",
+        "explanation": "Control-_ undoes the last change that was made. This can be repeated. The mysql input editor has a variety of commands to facilitate editing while providing inputs to the command line itself."
+    },
+    {
+        "question": "On UNIX, statements entered in \u2018MySQL\u2019 are saved in which file?",
+        "options": [
+            "a) .mysql_queries",
+            "b) .queries",
+            "c) .mysql_history",
+            "d) .history"
+        ],
+        "answer": "c",
+        "explanation": "Statements entered in \u2018MySQL\u2019 are stored in the file named \u2018.mysql_history\u2019. This file is located in the home directory itself. The SQL statements can be directly pasted into this file."
+    },
+    {
+        "question": "MySQL can be used to execute script files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL is capable of reading input from a file in batch mode. This is also known as the non-interactive mode. A lot of typing and time can be saved when commands are stored in a file and executed from a file."
+    },
+    {
+        "question": "Suppose run_me.sh is a script file. Which command is used to make it executable?",
+        "options": [
+            "a) chmod +e run_me.sh",
+            "b) chmod +a run_me.sh",
+            "c) chmod +y run_me.sh",
+            "d) chmod +x run_me.sh"
+        ],
+        "answer": "d",
+        "explanation": "The command \u2018chmod +x file_name\u2019 makes a script file executable. mysql supports reading from a script file and executing queries from it. Before a script is run, it is necessary for it to be made executable."
+    },
+    {
+        "question": "Which option prints output in table-format when MySQL is run interactively?",
+        "options": [
+            "a) -t",
+            "b) -tf",
+            "c) -p",
+            "d) -pf"
+        ],
+        "answer": "a",
+        "explanation": "MySQL produces output in tab-delimited format when it is run in batch mode. Suppose a table-format output is desired, the -t option is used along with the mysql command. -tf is not a valid option."
+    },
+    {
+        "question": "The clause that enables mapping a short command to a long command is __________",
+        "options": [
+            "a) map",
+            "b) direct",
+            "c) label",
+            "d) alias"
+        ],
+        "answer": "d",
+        "explanation": "If the shell program permits an alias, a short command can be mapped to a long command. This reduces the time taken by typing long commands frequently. An alias is defined by the keyword \u2018alias\u2019 followed by the short and long commands."
+    },
+    {
+        "question": "The connection parameters for setting up MySQL can be stored in an option file to save typing the names every time a connection is established.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Every Time MySQL is invoked, connection parameters like hostname, username and password are required. To save typing these parameters all the time, they can be saved in an option file instead and executed when setting up the connection."
+    },
+    {
+        "question": "In UNIX, the name of the option file is __________",
+        "options": [
+            "a) .my.cnf",
+            "b) .my.ini",
+            "c) .my.opt",
+            "d) .my.opc"
+        ],
+        "answer": "a",
+        "explanation": "Under Unix, an option file is set up by creating a file named \u2018~/.my.cnf\u2019 in the home directory. \u2018C:\\my.ini\u2019 is the option file that is setup in Windows. An option file stores the connection parameters."
+    }
+]

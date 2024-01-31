@@ -1,0 +1,85 @@
+[
+    {
+        "question": "In blowfish, the keys are stored in the form of an array ranging from K1, K2 to Ki. What is the value of i?",
+        "options": [
+            "a) 12",
+            "b) 16",
+            "c) 8",
+            "d) 14"
+        ],
+        "answer": "d",
+        "explanation": "The keys are stored in an K-array"
+    },
+    {
+        "question": "To generate the sub-key P1 to P18 we use the hexadecimal equivalent digits of ____________",
+        "options": [
+            "a) 0.7864",
+            "b) 0.1415",
+            "c) 0.1542",
+            "d) 0.7535"
+        ],
+        "answer": "b",
+        "explanation": "To generate the sub-key P1 to P18 we use the hexadecimal equivalent digits of Pi-3 (only the decimal part)."
+    },
+    {
+        "question": "P17 gets XORed with",
+        "options": [
+            "a) K3",
+            "b) K12",
+            "c) K17",
+            "d) K6"
+        ],
+        "answer": "a",
+        "explanation": "XOR P1 with the key K1, XOR P2 with K2, and so on for all bits of the key (possibly up to P14). Repeatedly cycle through the key bits until the entire P-array has been XORed with key bits."
+    },
+    {
+        "question": "P15 gets XORed with",
+        "options": [
+            "a) K3",
+            "b) K14",
+            "c) K1",
+            "d) K6"
+        ],
+        "answer": "c",
+        "explanation": "XOR P1 with the key K1, XOR P2 with K2, and so on for all bits of the key (possibly up to P14). Repeatedly cycle through the key bits until the entire P-array has been XORed with key bits."
+    },
+    {
+        "question": "What is the number of iterations required in total to generate all the sub-keys in blowfish?",
+        "options": [
+            "a) 512",
+            "b) 521",
+            "c) 256",
+            "d) 128"
+        ],
+        "answer": "b",
+        "explanation": "In total, 521 iterations are required to generate all required subkeys(i.e. 9 rounds for P1-P18 and 512 rounds for S1-S4)."
+    },
+    {
+        "question": "A single blowfish s-box converts 8-bits to _________ bits.",
+        "options": [
+            "a) 32",
+            "b) 44",
+            "c) 56",
+            "d) 64"
+        ],
+        "answer": "a",
+        "explanation": "The blowfish round algorithm \u2013"
+    },
+    {
+        "question": "The 32bit output of s-box 1 is XORed with s-box 2.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The 32bit output of s-box 1 is added with s-box 2."
+    },
+    {
+        "question": "Which of the following statements are true with respect to the blowfish algorithm \u2013",
+        "options": [
+            "i) Provided key is large enough, brute-force key search is not practical, especially given the high key schedule cost"
+        ],
+        "answer": "d",
+        "explanation": "All of the above statements are true with respect to the blowfish algorithm."
+    }
+]

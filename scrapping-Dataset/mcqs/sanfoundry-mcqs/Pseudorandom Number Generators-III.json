@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which mode is recommend for the NIST SP 800-90 Random number generator?",
+        "options": [
+            "a) OFB",
+            "b) CBC",
+            "c) CFB",
+            "d) CTR"
+        ],
+        "answer": "d",
+        "explanation": "OFB is the recommended mode for the NIST SP 800-90 Random number generator."
+    },
+    {
+        "question": "ANSI X9.17 uses which cryptographic algorithm?",
+        "options": [
+            "a) DES",
+            "b) AES",
+            "c) RC5",
+            "d) 3DES"
+        ],
+        "answer": "d",
+        "explanation": "ANSI X9.17 uses the Triple DES (3DES) algorithm."
+    },
+    {
+        "question": "Pretty Good Privacy(PGP) uses which PRNG?",
+        "options": [
+            "a) ANSI X9.82",
+            "b) RFC 4086",
+            "c) NIST SP 800-90",
+            "d) ANSI X9.17"
+        ],
+        "answer": "d",
+        "explanation": "Pretty Good Privacy(PGP) uses ANSI X9.17 as its PRNG."
+    },
+    {
+        "question": "Which of the following statements are true?",
+        "options": [
+            "i) Stream Ciphers are fasters than Block Ciphers"
+        ],
+        "answer": " a",
+        "explanation": " Block ciphers use more code than stream ciphers."
+    },
+    {
+        "question": "Which of the following statements are true?",
+        "options": [
+            "i) RC4 is used in SSL/TLS"
+        ],
+        "answer": " c",
+        "explanation": "File transfer, e-mail  use block ciphers."
+    },
+    {
+        "question": "Which  of the following statements are true?",
+        "options": [
+            "i) PRNGs are slower than TRNGs"
+        ],
+        "answer": "c",
+        "explanation": " PRNGs are faster than TRNGs."
+    },
+    {
+        "question": "Deskewing is a method to modify bit stream to reduce bais that has been developed.",
+        "options": [
+            "a)  True",
+            "b)  False"
+        ],
+        "answer": "a",
+        "explanation": " The statement is true."
+    },
+    {
+        "question": "Intel digital random number generator uses which among the following methods to generate random bits?",
+        "options": [
+            "a)  pulse detectors of ionizing radiating events",
+            "b)  gas discharge tubes",
+            "c)  wind resistance",
+            "d)  thermal noise"
+        ],
+        "answer": "d",
+        "explanation": " Intel DRNGs use thermal noise for generation of the random bits."
+    },
+    {
+        "question": "Which of the following AES modes is used in the Intel DRNG?",
+        "options": [
+            "i) AES CFB"
+        ],
+        "answer": "a",
+        "explanation": "AES CTR and AES CBC are the 2 modes used in the INTEL DRNGs."
+    },
+    {
+        "question": "The number of transistors used in the INTEL DRNG",
+        "options": [
+            "a) 8",
+            "b) 2",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "2 transistors are used which toggle the randomly generated bit from the thermal source."
+    }
+]

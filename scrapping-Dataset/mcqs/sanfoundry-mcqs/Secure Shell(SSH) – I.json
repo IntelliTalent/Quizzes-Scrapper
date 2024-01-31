@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Which of the following is not a secure shell protocol?",
+        "options": [
+            "a) Transport Layer Protocol",
+            "b) Secure Layer Protocol",
+            "c) Connection Protocol",
+            "d) User Authentication Protocol"
+        ],
+        "answer": "b",
+        "explanation": "SSH is organised as three protocols \u2013 Transport Layer Protocol, User Authentication Protocol and Connection Protocol."
+    },
+    {
+        "question": "2.Which is the lowest level in the SSH protocol stack?",
+        "options": [
+            "a) SSH Transport Layer Protocol",
+            "b) TCP",
+            "c) IP",
+            "d) SSH User Authentication Protocol"
+        ],
+        "answer": "c",
+        "explanation": "The IP is the lowest level in SSH the protocol stack."
+    },
+    {
+        "question": "How many trust models does the RFC 4251 dictate?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": " The RFC 4251 dictates two alternative trust models : The local database model and the certification authority model."
+    },
+    {
+        "question": "Which is the correct order of the SSH Transport Layer Protocol Packet Exchanges?",
+        "options": [
+            "a) Algorithm Negotiation; End of key exchange; Service request; Identification string exchange",
+            "b) Identification string exchange; Algorithm Negotiation; End of key exchange; Service request",
+            "c) Identification string exchange; End of key exchange; Service request; Algorithm Negotiation",
+            "d) Algorithm Negotiation; Identification string exchange; End of key exchange; Service request"
+        ],
+        "answer": "b",
+        "explanation": "The correct order is: Identification string exchange; Algorithm Negotiation; End of key exchange; Service request."
+    },
+    {
+        "question": "The correct order of operations in the SSH Transport Layer Protocol Packet Formation is \u2013",
+        "options": [
+            "a) Compression; Encryption; Padding and Addition of seq bits",
+            "b) Compression; Padding and Addition of seq bits; Encryption",
+            "c) Encryption; Padding and Addition of seq bits; Compression",
+            "d) Padding and Addition of seq bits; Encryption; Compression"
+        ],
+        "answer": "b",
+        "explanation": "The correct order of operation is \u2013 Compression; Padding and Addition of seq bits; Encryption."
+    },
+    {
+        "question": "Which one of the following does not undergo the encryption procedure?",
+        "options": [
+            "a) pdl",
+            "b) pktl",
+            "c) seq#",
+            "d) padding"
+        ],
+        "answer": "c",
+        "explanation": "The seq# 32 bits does not undergo encryption."
+    },
+    {
+        "question": "What is the recommended cryptographic algorithm for the Secure Shell Transport Layer?",
+        "options": [
+            "a) twofish 128",
+            "b) aes 192",
+            "c) aes 128",
+            "d) blowfish"
+        ],
+        "answer": "c",
+        "explanation": "aes 128 is the reccomended cryptographic algorithm."
+    },
+    {
+        "question": "What is the recommended modes of operation for encryption and decryption in the Secure Shell Transport Layer?",
+        "options": [
+            "a) ECB",
+            "b) OFB",
+            "c) CBC",
+            "d) CFB"
+        ],
+        "answer": "c",
+        "explanation": "The cipher block chaining mode is the recommended mode of operation in the SSH Transport layer."
+    },
+    {
+        "question": "What is the recommended MAC algorithm for the SSH Transport Layer?",
+        "options": [
+            "a) HMAC \u2013 MD5",
+            "b) HMAC \u2013 MD5 \u2013 96",
+            "c) HMAC SHA1 \u2013 96",
+            "d) HMAC SHA1"
+        ],
+        "answer": "c",
+        "explanation": " The recommended MAC algorithm for the SSH Transport Layer is the HMAC SHA1 \u2013 96."
+    },
+    {
+        "question": "The session Identifier remains constant throughout the SSH connection.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The hash value H servers as a session identifier for this connection. Once computed, the session identifier is not changed, even if the key exchange is performed again for this connection to obtain fresh keys."
+    },
+    {
+        "question": "In the Key generation procedure, the Initialization Vector from the server to client is represented as:",
+        "options": [
+            "a) HASH(K||H||\u201dC\u201d||session_id)",
+            "b) HASH(K||H||\u201dB\u201d||session_id)",
+            "c) HASH(K||H||\u201dF\u201d||session_id)",
+            "d) HASH(K||H||\u201dD\u201d||session_id)"
+        ],
+        "answer": "b",
+        "explanation": "The Initialization Vector from the server to client is given by HASH(K||H||\u201dB\u201d||session_id)."
+    },
+    {
+        "question": "Which port forwarding technique intercepts application-level traffic and redirects it from an insecure TCP connections to secure SSH tunnels?",
+        "options": [
+            "a) Remote Forwarding",
+            "b) Local Forwarding",
+            "c) Stable Forwarding",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This is the function of local forwarding."
+    },
+    {
+        "question": "The protocol \u2018POP\u2019 stands for-",
+        "options": [
+            "a) Personal Office Protocol",
+            "b) Post Office Protocol",
+            "c) Privacy Overall Protocol",
+            "d) Privacy Over Protocol"
+        ],
+        "answer": "b",
+        "explanation": "\u2018POP\u2019 stands for Post Office Protocol."
+    },
+    {
+        "question": "15.In which port forwarding technique does the client act on the server\u2019s behalf?",
+        "options": [
+            "a) Remote Forwarding",
+            "b) Local Forwarding",
+            "c) Stable Forwarding",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In Remote forwarding, the client receives traffic with a given destination port number, places the teaffic on the correct port and sends it to the destination the user chooses."
+    }
+]

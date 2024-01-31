@@ -1,0 +1,89 @@
+[
+    {
+        "question": "Which of the following methods can be used to find the sum of digits of a number?",
+        "options": [
+            "a) Recursion",
+            "b) Iteration",
+            "c) Greedy algorithm",
+            "d) Both recursion and iteration"
+        ],
+        "answer": "d",
+        "explanation": "Both recursion and iteration can be used to find the sum of digits of a number."
+    },
+    {
+        "question": "What can be the maximum sum of digits for a 4 digit number?",
+        "options": [
+            "a) 1",
+            "b) 16",
+            "c) 36",
+            "d) 26"
+        ],
+        "answer": "c",
+        "explanation": "The sum of digits will be maximum when all the digits are 9. Thus, the sum will be maximum for the number 9999, which is 36."
+    },
+    {
+        "question": "What can be the minimum sum of digits for a 4 digit number?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 16",
+            "d) 36"
+        ],
+        "answer": "b",
+        "explanation": "The sum of digits will be minimum for the number 1000 and the sum is 1."
+    },
+    {
+        "question": "Consider the following iterative implementation to find the sum of digits of a number:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line \u201csm += n % 10\u201d adds the last digit(LSB) of the number to the current sum. Thus, the line \u201csm += n%10\u201d should be added to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The above code prints the sum of digits of the number 1234, which is 10."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the sum of digits of number:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201c(n % 10) + recursive_sum_of_digits(n / 10)\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation to find the sum of digits of a number n?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above recursive implementation to find the sum of digits of a number is O(len(n))."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The above code prints the sum of digits of the number 1234321, which is 16."
+    },
+    {
+        "question": "How many times is the function recursive_sum_of_digits() called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The function recursive_sum_of_digits() is called 8 times, when the following code is executed."
+    },
+    {
+        "question": "You have to find the sum of digits of a number given that the number is always greater than 0. Which of the following base cases can replace the base case for the below code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None of the above mentioned base cases can replace the base case if(n == 0) return 0."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the sum of digits of the number 10000, which is 1."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The code prints the count of numbers between 1 and 20 such that the sum of their digits is 3. There are only two such numbers: 3 and 12."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following project is used for calling R products from web?",
+        "options": [
+            "a) OpenCPU",
+            "b) OpenDisk",
+            "c) OpenMem",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "OpenCPU is complementary to OpenCPU."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Shiny is platform for creating interactive programs embedded in to web page",
+            "b) Shiny is invented by R folks",
+            "c) Time required to create data products using shiny is more",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Time to create data products is less using shiny."
+    },
+    {
+        "question": "Which of the following statement will install shiny?",
+        "options": [
+            "a) install.packages(\u201cshiny\u201d)",
+            "b) install.library(\u201cshiny\u201d)",
+            "c) install.lib(\u201cshiny\u201d)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Shiny applications are automatically \u201clive\u201d in the same way that spreadsheets are live."
+    },
+    {
+        "question": "Which of the following can be done by shiny?",
+        "options": [
+            "a) Tabbed main panels",
+            "b) Editable data tables",
+            "c) Dynamic UI",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "shiny allows users to upload files."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) shiny project is a directory containing at least three parts",
+            "b) shiny project is a file containing at least three parts",
+            "c) shiny project consist is a directory containing only one part",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "shiny project consist is a directory containing at least two parts."
+    },
+    {
+        "question": "Which of the following function can interrupt execution and can be called continuously?",
+        "options": [
+            "a) browser()",
+            "b) browse()",
+            "c) search()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Debugging shiny apps can be difficult."
+    },
+    {
+        "question": "runApp() will run the shiny and open the browser window.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The chart is rendered within the browser using Flash."
+    },
+    {
+        "question": "Which of the following function is for single checkbox widget?",
+        "options": [
+            "a) checkboxInput",
+            "b) dateInput",
+            "c) singleboxInput",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Shiny comes with a family of pre-built widgets, each created with a transparently named R function."
+    },
+    {
+        "question": "How many components are involved in shiny?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Shiny apps have two components:user-interface script and server script."
+    },
+    {
+        "question": "All of the styled elements are handled through server.R.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "All of the styled elements are handled through ui.R."
+    }
+]

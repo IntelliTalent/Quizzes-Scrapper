@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Gnome sort is also called __________",
+        "options": [
+            "a) Smart sort",
+            "b) Stupid sort",
+            "c) Bogo sort",
+            "d) Special sort"
+        ],
+        "answer": "b",
+        "explanation": "Gnome sort was originally named as stupid sort but later on it got renamed as gnome sort."
+    },
+    {
+        "question": "How many loops are required to implement gnome sorting algorithm?",
+        "options": [
+            "a) Single loop",
+            "b) 2 nested loops",
+            "c) 3 nested loops",
+            "d) It does not require any loop"
+        ],
+        "answer": "a",
+        "explanation": " In this sorting algorithm the variable representing the index number is not incremented in case the adjacent pair of elements are out of place. In such a case its value is decremented instead. Thus it is able to implement sorting using a single loop."
+    },
+    {
+        "question": "Which of the following pair of sorting algorithms are stable?",
+        "options": [
+            "a) gnome sort and quick sort",
+            "b) merge sort and selection sort",
+            "c) gnome sort and merge sort",
+            "d) heap sort and merge sort"
+        ],
+        "answer": "c",
+        "explanation": "Gnome sort and merge sort are stable sorting algorithms as the elements with identical values appear in the same order in the output array as they were in the input array when any of these sorting algorithms are implemented."
+    },
+    {
+        "question": "Auxiliary space used by gnome sort is _________",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": " Auxiliary space used by gnome sort is O(1) as it does not use any extra space for manipulating the input. Thus it also qualifies as an in place sorting algorithm."
+    },
+    {
+        "question": " The given array is arr = {1,2,4,3,5}.The number of iterations required to sort the array using gnome sort will be _________",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 7",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "6 iterations will be required as one pair of elements i.e. {4,3} is out of place which causes the loop to take one step backward."
+    },
+    {
+        "question": "What is the best case time complexity of gnome sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n log n)",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "When the input array is already sorted then in that case there will be no need to decrease the value of the index variable at any stage. So only O(n) time is required in this case as we keep on increasing its value after each iteration."
+    },
+    {
+        "question": "Select the appropriate code that performs gnome sort.",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "The first if statement increments the value of index if found to be 0 so that comparison can take place for this element. Second if statement checks whether the adjacent pair of elements are in order or not. If found out of order they are swapped under the else statement and index is decremented."
+    },
+    {
+        "question": "What is the worst case time complexity of gnome sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n log n)",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case occurs when the input array is reverse sorted as it will have the maximum number of decrements while sorting. This causes the algorithm to have a time complexity of O(n"
+    },
+    {
+        "question": "What is the average case time complexity of gnome sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n log n)",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "In gnome sort the loop has to take one step backwards every time any adjacent pair of elements is out of place which causes it to have time complexity of O(n"
+    }
+]

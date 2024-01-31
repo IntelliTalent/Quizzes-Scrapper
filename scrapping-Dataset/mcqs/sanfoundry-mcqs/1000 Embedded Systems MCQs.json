@@ -1,0 +1,453 @@
+[
+    {
+        "question": "Which memory storage is widely used in PCs and Embedded Systems?",
+        "options": [
+            "a) EEPROM",
+            "b) Flash memory",
+            "c) SRAM",
+            "d) DRAM"
+        ],
+        "answer": "d",
+        "explanation": "DRAM is used in PCs and Embedded systems because of its low cost. SRAM, flash memory and EEPROM are more costly than DRAM."
+    },
+    {
+        "question": "How is the protection and security for an embedded system made?",
+        "options": [
+            "a) Security chips",
+            "b) Memory disk security",
+            "c) IPR",
+            "d) OTP"
+        ],
+        "answer": "c",
+        "explanation": "Intellectual property right provides security and protection to embedded systems."
+    },
+    {
+        "question": "Which of the following task swapping method is a better choice in the embedded systems design?",
+        "options": [
+            "a) time slice",
+            "b) RMS",
+            "c) cooperative multitasking",
+            "d) pre-emptive"
+        ],
+        "answer": "d",
+        "explanation": "The pre-emptive method of task swapping is the first choice for embedded system design because of its better system response."
+    },
+    {
+        "question": "Which type of memory is suitable for low volume production of embedded systems?",
+        "options": [
+            "a) Non-volatile",
+            "b) RAM",
+            "c) Volatile",
+            "d) ROM"
+        ],
+        "answer": "a",
+        "explanation": "The devices which use non-volatile memory allow the software to be download and returned in the device. UV erasable EPROM is favorable but EEPROM is also gaining favor. Therefore,  this type of memory is used in low volume production."
+    },
+    {
+        "question": "Which activity is concerned with identifying the task at the final embedded systems?",
+        "options": [
+            "a) scheduling",
+            "b) task-level concurrency management",
+            "c) high-level transformation",
+            "d) compilation"
+        ],
+        "answer": "b",
+        "explanation": "There are many design activities associated with the platforms in the embedded system and one such is the task-level concurrency management which helps in identifying the task that needed to be present in the final embedded systems."
+    },
+    {
+        "question": "Which level simulates the algorithms that are used within the embedded systems?",
+        "options": [
+            "a) algorithmic level",
+            "b) switch level",
+            "c) gate level",
+            "d) circuit level"
+        ],
+        "answer": "a",
+        "explanation": "The algorithmic level simulates the algorithm which is used within in the embedded system."
+    },
+    {
+        "question": "How an embedded system communicate with the outside world?",
+        "options": [
+            "a) Memory",
+            "b) Output",
+            "c) Peripherals",
+            "d) Input"
+        ],
+        "answer": "c",
+        "explanation": "The system communicates with the outside world through peripherals."
+    },
+    {
+        "question": "Which of the following helps in reducing the energy consumption of the embedded system?",
+        "options": [
+            "a) emulator",
+            "b) debugger",
+            "c) simulator",
+            "d) compilers"
+        ],
+        "answer": "d",
+        "explanation": "The compilers can reduce the energy consumption of the embedded system and the compilers performing the energy optimizations are available."
+    },
+    {
+        "question": "What is the purpose of memory refresh register of Z80?",
+        "options": [
+            "a) To control on-chip SRAM",
+            "b) To control on-chip DRAM",
+            "c) To  clear cache",
+            "d) To control ROM"
+        ],
+        "answer": "b",
+        "explanation": "In addition to the general purpose registers, a stack pointer, program counter, and two index registers are included in Z80. It was also used in many embedded designs because of its high-quality performance and for its in-built refresh circuitry for DRAMs."
+    },
+    {
+        "question": "What does MESI stand for?",
+        "options": [
+            "a) modified exclusive system input",
+            "b) modifies embedded shared invalid",
+            "c) modified exclusive shared invalid",
+            "d) modified exclusive stale invalid"
+        ],
+        "answer": "c",
+        "explanation": "The MESI protocol supports a shared state which is a formal mechanism for controlling the cache coherency by using the bus snooping techniques. MESI refers to the states that cached data can access. In MESI protocol, multiple processors can cache shared data."
+    },
+    {
+        "question": "Which of the following is the pin efficient method of communicating between other devices?",
+        "options": [
+            "a) memory port",
+            "b) peripheral port",
+            "c) parallel port",
+            "d) serial port"
+        ],
+        "answer": "d",
+        "explanation": "The serial ports are considered to be the pin efficient method of communication between other devices within an embedded system."
+    },
+    {
+        "question": "Which of the following is a traditional method for emulating the processor?",
+        "options": [
+            "a) CPU simulator",
+            "b) SDS",
+            "c) ICE",
+            "d) Low-level language simulator"
+        ],
+        "answer": "c",
+        "explanation": "The SDS is one of the simulation tool used in the embedded systems. CPU simulator and the low-level simulator are the other kinds of the simulator used in the embedded system design."
+    },
+    {
+        "question": "Which of the following unit protects the memory?",
+        "options": [
+            "a) memory management unit",
+            "b) peripheral unit",
+            "c) execution unit",
+            "d) bus interface unit"
+        ],
+        "answer": "a",
+        "explanation": "The resources have to be protected in an embedded system and the most important resource to be protected is the memory which is protected by the memory management unit through different programming."
+    },
+    {
+        "question": "Identify the standard software components that can be reused in an embedded system design?",
+        "options": [
+            "a) memory",
+            "b) application software",
+            "c) application manager",
+            "d) operating system"
+        ],
+        "answer": "d",
+        "explanation": "There are certain software components that can be reused in an embedded system design. These are the operating systems, real-time databases and some other forms of middleware."
+    },
+    {
+        "question": "What does ICE stand for?",
+        "options": [
+            "a) in-circuit EPOM",
+            "b) in-code emulation",
+            "c) in-circuit emulation",
+            "d) in-code EPROM"
+        ],
+        "answer": "c",
+        "explanation": "The ICE or in-circuit emulation is one the traditional method used to emulate the processor in the embedded system so that the software can be downloaded and can be debugged in situ in the end application."
+    },
+    {
+        "question": "Who proposed the first power model?",
+        "options": [
+            "a) Tiwari",
+            "b) Russell and Jacome",
+            "c) Russell",
+            "d) Jacome"
+        ],
+        "answer": "a",
+        "explanation": "Tiwari proposed the first power model in the year 1974. The model includes the so-called bases and the inter-instruction instructions. Base costs of the instruction correspond to the energy consumed per instruction execution when an infinite sequence of that instruction is executed. Inter instruction costs model the additional energy consumed by the processor if instructions change."
+    },
+    {
+        "question": "Which of the following offers external chips for memory and peripheral interface circuits?",
+        "options": [
+            "a) Embedded system",
+            "b) Peripheral system",
+            "c) Microcontroller",
+            "d) Microprocessor"
+        ],
+        "answer": "d",
+        "explanation": " Microcontrollers are the CPUs which have integrated memory and peripherals whereas microprocessor offers external chips for memory."
+    },
+    {
+        "question": "What kind of socket does an external EPROM to plugged in for prototyping?",
+        "options": [
+            "a) Piggyback reset socket",
+            "b) Multi-socket",
+            "c) Piggyback",
+            "d) Single socket"
+        ],
+        "answer": "c",
+        "explanation": "Some controllers use a special package called piggyback socket on the top of the package to allow the EPROM for prototyping."
+    },
+    {
+        "question": "Which is the single device capable of providing prototyping support for a range of microcontroller?",
+        "options": [
+            "a) Umbrella device",
+            "b) OTP",
+            "c) RAM",
+            "d) ROM"
+        ],
+        "answer": "a",
+        "explanation": "Umbrella device is capable of providing prototyping support for a range of microcontrollers."
+    },
+    {
+        "question": "By which instruction does the switching of registers take place?",
+        "options": [
+            "a) Register instruction",
+            "b) EXX instruction",
+            "c) Instruction opcodes",
+            "d) AXX instruction"
+        ],
+        "answer": "c",
+        "explanation": "Only one set of registers can be used at one time and the switching of registers and data transfer is performed by the EXX instruction."
+    },
+    {
+        "question": "Which of the architecture is more complex?",
+        "options": [
+            "a) MC68040",
+            "b) MC68030",
+            "c) SPARC",
+            "d) 8086"
+        ],
+        "answer": "c",
+        "explanation": "SPARC have RISC architecture which has a simple instruction set but MC68020, MC68030, 8086 have CISC architecture which is more complex than CISC."
+    },
+    {
+        "question": "Which of the following statements are true for von Neumann architecture?",
+        "options": [
+            "a) separate bus between the program memory and data memory",
+            "b) external bus for program memory and data memory",
+            "c) external bus for data memory only",
+            "d) shared bus between the program memory and data memory"
+        ],
+        "answer": "d",
+        "explanation": "von Neumann architecture shares bus between program memory and data memory whereas Harvard architecture have a separate bus for program memory and data memory."
+    },
+    {
+        "question": "What is approximate data access time of SRAM?",
+        "options": [
+            "a) 2ns",
+            "b) 10ns",
+            "c) 60ns",
+            "d) 4ns"
+        ],
+        "answer": "d",
+        "explanation": "SRAM access data in approximately 4ns because of its flip-flop arrangement of transistors whereas the data access time in DRAM is approximately 60ns since it has a single capacitor for one-bit storage."
+    },
+    {
+        "question": "Which of the following is a plastic package used primarily for DRAM?",
+        "options": [
+            "a) Zig-zag",
+            "b) DIMM",
+            "c) SIMM",
+            "d) Dual-in-line"
+        ],
+        "answer": "a",
+        "explanation": "Zig-zag package of memory is a plastic package used for DRAM. The leads of this package are arranged in a zigzag manner."
+    },
+    {
+        "question": "Which of the following is the biggest challenge in the cache memory design?",
+        "options": [
+            "a) coherency",
+            "b) memory access",
+            "c) size",
+            "d) delay"
+        ],
+        "answer": "a",
+        "explanation": "The coherency is a major challenge in designing the cache memory. The cache has to be designed by solving the problem of data coherency while remaining hardware and software compatible."
+    },
+    {
+        "question": "Which ports are used in the multi-master system to avoid errors?",
+        "options": [
+            "a) bidirectional port",
+            "b) tridirectional port",
+            "c) multi directional port",
+            "d) unidirectional port"
+        ],
+        "answer": "a",
+        "explanation": "By using the bidirectional ports, each master can monitor the line and confirm its expected state and if it is not matched, a mismatch or collision had occurred which will discontinue the transmission by the master."
+    },
+    {
+        "question": "Which provides an input clock for the receiver part of the UART 8250?",
+        "options": [
+            "a) DDIS",
+            "b) MR",
+            "c) RD",
+            "d) RCLK"
+        ],
+        "answer": "d",
+        "explanation": "RCLK provides an input clock for the receiver part of the UART. RD is the read signal. MR is the master reset pin and DDIS is used to control bus arbitration logic."
+    },
+    {
+        "question": "What does PCM stand for?",
+        "options": [
+            "a) peculiar code modulation",
+            "b) pulse codec machine",
+            "c) pulse code modulation",
+            "d) peripheral code machine"
+        ],
+        "answer": "c",
+        "explanation": "The linear codec is also known as pulse code modulation which is commonly used in the telecommunications industry."
+    },
+    {
+        "question": "Which of the following is the common method for connecting the peripheral to the processor?",
+        "options": [
+            "a) software",
+            "b) exception",
+            "c) external interrupts",
+            "d) internal interrupts"
+        ],
+        "answer": "c",
+        "explanation": "The common method for connecting the peripheral to the processor is the external interrupts. The external interrupts are provided through the external pins which are connected to the peripherals."
+    },
+    {
+        "question": "What allows the data protection in the software interrupt mechanism?",
+        "options": [
+            "a) TRAP",
+            "b) SWI",
+            "c) Same mode",
+            "d) Different mode"
+        ],
+        "answer": "d",
+        "explanation": "The switching between user mode and supervisor mode provides protection for the processor, that is, the different modes in the software interrupt allows the memory and the associated code and data to be protected from each other."
+    },
+    {
+        "question": "In which of the exceptions does the external event causes the exception?",
+        "options": [
+            "a) precise",
+            "b) imprecise",
+            "c) asynchronous exception",
+            "d) synchronous exception"
+        ],
+        "answer": "c",
+        "explanation": "The asynchronous exception is the one in which an external event causes an exception and is independent of the instruction flow. On the other hand, the synchronous exceptions are synchronised, that is, it is caused by the instruction flow."
+    },
+    {
+        "question": "Which interrupts generate fast interrupt exception?",
+        "options": [
+            "a) software interrupt",
+            "b) hardware interrupt",
+            "c) internal interrupt",
+            "d) external interrupt"
+        ],
+        "answer": "d",
+        "explanation": "The external interrupts generates the fast interrupt routine exception in which the external interrupt is synchronised with the processor clock."
+    },
+    {
+        "question": "Which task swap method works in a regular periodic point?",
+        "options": [
+            "a) cooperative multitasking",
+            "b) schedule algorithm",
+            "c) pre-emption",
+            "d) time slice"
+        ],
+        "answer": "d",
+        "explanation": "The time slicing works by switching task in regular periodic points in time, that is, any task that needs to run next will have to wait until the current time slice is completed."
+    },
+    {
+        "question": "Which of the following is a part of RTOS kernel?",
+        "options": [
+            "a) register",
+            "b) ISR",
+            "c) memory",
+            "d) input"
+        ],
+        "answer": "b",
+        "explanation": "The ISR can send the message for the tasks and it is a part of RTOS kernel."
+    },
+    {
+        "question": "Which provides the TCP/IP communication over the ethernet and FDDI?",
+        "options": [
+            "a) pNA+ network manager",
+            "b) pSOS+",
+            "c) pSOS+ kernel",
+            "d) pSOS+m"
+        ],
+        "answer": "a",
+        "explanation": "A pNA+ network manager is a networking option which can provide the TCP/IP communication over a large variety of media such as the FDDI and the ethernet."
+    },
+    {
+        "question": "What limits the amount of virtual memory in Windows 3.1?",
+        "options": [
+            "a) static file",
+            "b) dynamic file",
+            "c) nature of swap file",
+            "d) size of the swap file"
+        ],
+        "answer": "d",
+        "explanation": "The swap file of Windows 3.1 have a size of 25 Mbytes and thus limits the amount of virtual memory that it can support."
+    },
+    {
+        "question": "Which one of the following offers CPUs as integrated memory or peripheral interfaces?",
+        "options": [
+            "a) Memory system",
+            "b) Embedded system",
+            "c) Microcontroller",
+            "d) Microprocessor"
+        ],
+        "answer": "c",
+        "explanation": "Microcontrollers are the CPUs which have integrated memory and peripherals but microprocessor possesses external chips for memory."
+    },
+    {
+        "question": "Which algorithm is based on Jackson\u2019s rule?",
+        "options": [
+            "a) EDF",
+            "b) LST",
+            "c) LL",
+            "d) EDD"
+        ],
+        "answer": "d",
+        "explanation": "The EDD or earliest due date is based on Jackson\u2019s rule. The Jackson\u2019s rule states that for a given a set of n independent tasks, any algorithm that executes the tasks in the order of nondecreasing deadlines is optimal with respect to reducing the maximum lateness. EDF is the earliest deadline first, LL is the least laxity and the LST is the least slack time first."
+    },
+    {
+        "question": "Which of the following does not have the ability to get hundred individual signal cables into the probe in the emulation technique?",
+        "options": [
+            "a) JTAG",
+            "b) ICE",
+            "c) BDM",
+            "d) OnCE"
+        ],
+        "answer": "b",
+        "explanation": "The in-circuit emulation does not have the ability to get a hundred individual signal cables into the probe. This problem comes under the physical limitation of the probe, that is as the density of the processor increases the available sockets which provide good electrical contacts is becoming harder which causes a restriction to the probe."
+    },
+    {
+        "question": "Which technique can solve the errors in the linear buffer?",
+        "options": [
+            "a) low and high water mark",
+            "b) pointer",
+            "c) high water mark",
+            "d) low water mark"
+        ],
+        "answer": "a",
+        "explanation": "The errors in the linear buffering include the loss of data especially during the regular sampling which can be avoided by the pointers that are checked against certain values and this result is used for fetching more data. These points are known as the low water mark and the high water mark."
+    },
+    {
+        "question": "Which buffering mechanism is common to the SPOX operating system?",
+        "options": [
+            "a) directional buffer",
+            "b) linear buffer",
+            "c) single buffer",
+            "d) buffer exchange"
+        ],
+        "answer": "d",
+        "explanation": "The buffer exchange can support the SPOX operating system which is used for the digital signal processors and it is easy to implement."
+    }
+]

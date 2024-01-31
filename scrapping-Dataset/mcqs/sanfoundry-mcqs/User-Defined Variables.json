@@ -1,0 +1,76 @@
+[
+    {
+        "question": "User defined variables are session specific.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The user defined variables are session specific. A user variable defined by one client cannot be seen or used by other clients. A user with access to the Performance Schema user_variables_by_thread table can see all user variables for all sessions is an exception."
+    },
+    {
+        "question": "Hexadecimal values assigned to user variables are treated as _____________",
+        "options": [
+            "a) strings",
+            "b) non binary strings",
+            "c) binary strings",
+            "d) integers"
+        ],
+        "answer": "c",
+        "explanation": "The hexadcimal or bit values assigned to user variables are treated as binary strings. In order to assign a hexadecimal or bit value as a number to a user variable, it is used in a numeric context."
+    },
+    {
+        "question": "What is the type of Audit_log_events system variable?",
+        "options": [
+            "a) string",
+            "b) integer",
+            "c) float",
+            "d) double"
+        ],
+        "answer": "b",
+        "explanation": "The system variable \u2018Audit_log_events\u2019 is of type integer. The variable scope if GLOBAL, that is, it can be viewed by issuing the statement \u2018SHOW GLOBAL STATUS\u2019, instead of \u2018SESSION\u2019."
+    },
+    {
+        "question": "Multiple statement execution is disabled by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018multiple-statement\u2019 execution is not enabled by default, so the server must be told that it is intended to be used. There are two ways to tell the server to enable the execution."
+    },
+    {
+        "question": "The option that enables multiple-statement execution is ____________",
+        "options": [
+            "a) CLIENT_MULTI_STATEMENTS",
+            "b) CLIENT_STATEMENTS_MULTI",
+            "c) MULTI_STATEMENTS_CLIENT",
+            "d) MULTI_CLIENTS_STATEMENTS"
+        ],
+        "answer": "a",
+        "explanation": "There are two ways to enable the multiple-statement execution. The first is to add the \u2018CLIENT_MULTI_STATEMENTS\u2019 option in the flags argument to \u2018mysql_real_connect()\u2019 at connect time."
+    },
+    {
+        "question": "What is preferred when stored procedures are not being used?",
+        "options": [],
+        "answer": "c",
+        "explanation": "If the program does not use stored procedures anyone is suitable. If the program uses stored procedures and invokes a \u2018CALL\u2019 statement that returns a result set, the first method is better."
+    },
+    {
+        "question": "The one that is more restrictive is __________",
+        "options": [],
+        "answer": "a",
+        "explanation": "The statement-issuing function other than \u2018mysql_real_query()\u2019 is \u2018mysql_query()\u2019. It is more restrictive in what it allows in the statement string although it is often easier to use."
+    },
+    {
+        "question": "What does mysql_query() return on failure?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) a non-zero"
+        ],
+        "answer": "d",
+        "explanation": "Both of the functions named \u2018mysql_query()\u2019 and \u2018mysql_real_query()\u2019 return zero for statements that succeed. They return non zero for failure. A statement is successfully executed if the server accepts it."
+    }
+]

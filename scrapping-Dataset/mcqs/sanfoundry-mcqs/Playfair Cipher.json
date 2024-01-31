@@ -1,0 +1,121 @@
+[
+    {
+        "question": "What is the alternative name of playfair cipher?",
+        "options": [
+            "a) Wadsworth\u2019s cipher",
+            "b) Wheatstone playfair cipher",
+            "c) Playfair rectangle",
+            "d) Wheatstone cipher"
+        ],
+        "answer": "b",
+        "explanation": "Playfair cipher is also known by the name of Wheatstone playfair cipher. It is because it was discovered by Charles Wheatstone but was promoted by Lord Playfair."
+    },
+    {
+        "question": "Playfair cipher is an example of __________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Playfair cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitution at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in Autokey cipher is done using __________",
+        "options": [
+            "a) a 5\u00d75 table",
+            "b) a 13\u00d72 table",
+            "c) vigenere table",
+            "d) a 6\u00d76 table"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text in playfair cipher is done using a 5\u00d75 table. In this table, all the alphabets of the keyword are arranged row wise by eliminating any duplicates then the remaining letters of the alphabet are placed. One of the alphabet has to be omitted in order to fit all the alphabets in the table."
+    },
+    {
+        "question": "Which of the following correctly defines poly graphic substitution cipher?",
+        "options": [
+            "a) a substitution based cipher which uses multiple substitutions at different positions",
+            "b) a substitution based cipher which uses fixed substitution over entire plain text",
+            "c) a substitution based cipher in which substitution is performed over a block of letters",
+            "d) a transposition based cipher which uses fixed substitution over entire plain text"
+        ],
+        "answer": "c",
+        "explanation": "Poly graphic cipher is a type of substitution cipher in which substitution is performed over a block of letters. Playfair cipher is an example of poly graphic cipher."
+    },
+    {
+        "question": "Which of the following was the first diagram substitution cipher?",
+        "options": [
+            "a) autokey cipher",
+            "b) hill cipher",
+            "c) one time pad cipher",
+            "d) playfair cipher"
+        ],
+        "answer": "d",
+        "explanation": "Poly graphic cipher is a type of substitution cipher in which substitution is performed over a block of letters. In diagram substitution, two adjacent letters are substituted simultaneously. Playfair cipher was the first diagram substitution cipher."
+    },
+    {
+        "question": "Which of the following is hardest to break using frequency analysis?",
+        "options": [
+            "a) Vigenere cipher",
+            "b) Autokey cipher",
+            "c) Playfair cipher",
+            "d) Rotor cipher"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options playfair cipher is the hardest cipher to break using frequency analysis. It is because it does not substitute letters of the word individually but it encrypts them in pairs of two."
+    },
+    {
+        "question": "Playfair cipher is harder to crack than keyword cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Keyword cipher is less secure than playfair cipher. It is due to the fact that keyword cipher is mono alphabetic and thus can be cracked using frequency analysis. But playfair cipher being a poly graphic substitution cipher is harder to break using this method."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cBPKYFS\u201d if playfair cipher is used with keyword as \u201cSECRET\u201d (assuming j is combined with i)?",
+        "options": [
+            "a) INDIAN",
+            "b) WORLD",
+            "c) DOLLAR",
+            "d) HELLO"
+        ],
+        "answer": "c",
+        "explanation": "To decrypt the message we follow the reverse procedure. The table is formed in the same manner. Applying this we get the plain text to be \u201cDOLLAR\u201d."
+    },
+    {
+        "question": "What is the rule for encryption in playfair cipher if the letters in a pair are identical?",
+        "options": [
+            "a) then that pair is neglected",
+            "b) a null is added in between the letters",
+            "c) one of the identical letter is replaced by some other letter",
+            "d) then both of the letters are replaced by the letter appearing just next in the row"
+        ],
+        "answer": "b",
+        "explanation": "In playfair cipher if the letters in a pair are identical then a null is added in between the letters. Any letter can be used as a null as long as that letter is not the one being repeated."
+    },
+    {
+        "question": "What is the rule for encryption in playfair cipher if the letters in a pair appear in same row?",
+        "options": [
+            "a) they are replaced by the letter appearing immediately below them respectively",
+            "b) they are replaced by the letter appearing immediately right to them respectively",
+            "c) they are replaced by the letter at the corner of the row",
+            "d) that pair is neglected"
+        ],
+        "answer": "b",
+        "explanation": "If the letters in a pair appear in same row then they are replaced by the letters appearing immediately right to them respectively. If the element to be replaced appears at the corner of the row then we wrap around to the left side of that row."
+    },
+    {
+        "question": "What will be the ciphered text if the string \u201cSANFOUNDRY\u201d is given as input to the code of playfair cipher with keyword as \u201cSECRET\u201d (assuming j is combined with i)?",
+        "options": [
+            "a) ZHQAPNPAFR",
+            "b) AHQAPNPAFR",
+            "c) HAQAPNPAFR",
+            "d) QHAAPNPAFR"
+        ],
+        "answer": "b",
+        "explanation": "For encrypting the plain text using playfair cipher we use a 5\u00d75 table that is constructed by using keyword. Then we apply rules for encryption in order to get the ciphered text. Table is given as under-"
+    }
+]

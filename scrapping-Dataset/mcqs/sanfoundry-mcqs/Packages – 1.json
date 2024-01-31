@@ -1,0 +1,101 @@
+[
+    {
+        "question": "______  let\u2019s you perform SQL queries on your R data frames.",
+        "options": [
+            "a) sqldf",
+            "b) plyr",
+            "c) forecast",
+            "d) daply"
+        ],
+        "answer": "b",
+        "explanation": "sqldf uses SQLite syntax. Plyr will split-apply-combine paradigm for R. Forecast is a generic function for forecasting from time series or time series models. The function invokes particular methods which depend on the class of the first argument."
+    },
+    {
+        "question": "______ splits a data frame and results an array (hence the da). Hopefully you\u2019re getting the idea here.",
+        "options": [
+            "a) apply",
+            "b) daply",
+            "c) stats",
+            "d) plyr"
+        ],
+        "answer": "b",
+        "explanation": "ddply splits a data frame and returns a data frame."
+    },
+    {
+        "question": "________ makes it incredibly easy to fit time series models like ARIMA, ARMA, AR, Exponential Smoothing, etc.",
+        "options": [
+            "a) sqldf",
+            "b) plyr",
+            "c) forecast",
+            "d) stats"
+        ],
+        "answer": "c",
+        "explanation": "Most important feature is the resulting forecast plot."
+    },
+    {
+        "question": "________ provides needed string operators in R.",
+        "options": [
+            "a) str",
+            "b) forecast",
+            "c) stringr",
+            "d) sqldf"
+        ],
+        "answer": "c",
+        "explanation": "stringr is remarkably easy to use."
+    },
+    {
+        "question": "Which of the following syntax is used to install forecast package?",
+        "options": [
+            "a) install.pack(\u201cforecast\u201d)",
+            "b) install.packages(\u201ccast\u201d)",
+            "c) install.packages(\u201cforecast\u201d)",
+            "d) install.pack(\u201cforecastcast\u201d)"
+        ],
+        "answer": "c",
+        "explanation": "forecast is used for time series analysis."
+    },
+    {
+        "question": "Which of the following is similar to Moment.js?",
+        "options": [
+            "a) stringr",
+            "b) lubridate",
+            "c) ploy",
+            "d) forecast"
+        ],
+        "answer": "b",
+        "explanation": "lubridate is one of those magical libraries that just seems to do exactly what you expect it to."
+    },
+    {
+        "question": "Which of the following is a library for statistical quality control?",
+        "options": [
+            "a) gcc",
+            "b) qcc",
+            "c) anc",
+            "d) pnc"
+        ],
+        "answer": "b",
+        "explanation": "qcc can help you monitor transaction volumes, visitors or logins on your website, database operations, and lots of other processes."
+    },
+    {
+        "question": "______ specializes in converting data from wide to long format.",
+        "options": [
+            "a) gcc",
+            "b) reshape",
+            "c) reshape2",
+            "d) gcc2"
+        ],
+        "answer": "c",
+        "explanation": "reshape2 is used in conjunction with ggplot2 and plyr."
+    },
+    {
+        "question": "_________ is used to convert wide data to long data.",
+        "options": [
+            "a) melt",
+            "b) dcast",
+            "c) cast",
+            "d) rcast"
+        ],
+        "answer": "a",
+        "explanation": "dcast is used to go from long to wide."
+    }
+]

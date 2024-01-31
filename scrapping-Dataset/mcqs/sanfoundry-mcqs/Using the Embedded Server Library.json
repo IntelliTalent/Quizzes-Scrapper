@@ -1,0 +1,86 @@
+[
+    {
+        "question": "The embedded server library containing the MySQL server linkable into applications is _______________",
+        "options": [
+            "a) libmysqla",
+            "b) libmysqlb",
+            "c) libmysqlc",
+            "d) libmysqld"
+        ],
+        "answer": "d",
+        "explanation": "MySQL includes an embedded server library, libmysqld, containing the MySQL server in a way that can be linked into applications. This enables the production of MySQL-based standalone applications."
+    },
+    {
+        "question": "When building from source, the embedded server library is enabled by _______________",
+        "options": [
+            "a) \u2013with-embedded-server",
+            "b) \u2013with-server-embedded",
+            "c) \u2013with-embedded-library",
+            "d) \u2013with-library-embedded"
+        ],
+        "answer": "a",
+        "explanation": "While building from the source, the embedded server library is enabled by using the option \u2018\u2013with-embedded-server\u2019 while running \u2018configure\u2019. This applies equally to MySQL 5.0 and 5.1."
+    },
+    {
+        "question": "An embedded application includes the server side only.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, an embedded application includes both a client side and a server side, in order that it can process one group of options for the client and another group for the server."
+    },
+    {
+        "question": "Converting a client/server application to embedded server is simpler.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Writing an application that uses the embedded server is different from writing one that operates in a client/server context. A program that is written as a client/server application can easily be converted to use the embedded server."
+    },
+    {
+        "question": "Which clause is used to display information that matches a given pattern?",
+        "options": [
+            "a) WHERE",
+            "b) IS",
+            "c) SAME",
+            "d) LIKE"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018LIKE\u2019 clause filters information that match a given pattern. \u2018WHERE\u2019 clause selects information that is specified by a condition. \u2018IS\u2019 is used to match the exact condition specified."
+    },
+    {
+        "question": "Which is the command to move the cursor to the beginning of line in mysql input editor?",
+        "options": [
+            "a) Ctrl-E",
+            "b) Ctrl-D",
+            "c) Esc-a",
+            "d) Ctrl-A"
+        ],
+        "answer": "d",
+        "explanation": "Control-A moves the cursor to the beginning of the line. Ctrl-E moves the cursor to the end of the line. Control-D deletes the character under the cursor whereas Esc-a is not valid."
+    },
+    {
+        "question": "The name of the option file in Unix is __________",
+        "options": [
+            "a) .my.cnf",
+            "b) .my.ini",
+            "c) .my.opt",
+            "d) .my.opc"
+        ],
+        "answer": "a",
+        "explanation": "In Unix an option file is set up by creating a file named \u2018~/.my.cnf\u2019 in the home directory. \u2018C:\\my.ini\u2019 is the option file that is setup in Windows. An option file stores the connection parameters."
+    },
+    {
+        "question": "System variable in MySQL server that enables to configure the SQL mode is __________",
+        "options": [
+            "a) sql_mode",
+            "b) sql_config",
+            "c) sql_server",
+            "d) sql_enable"
+        ],
+        "answer": "a",
+        "explanation": "The system variable \u2018sql_mode\u2019 is used by the MySQL server to configure the SQL mode. It has an impact on various aspects of the SQL statement executions. The other variables do not exist in the server."
+    }
+]

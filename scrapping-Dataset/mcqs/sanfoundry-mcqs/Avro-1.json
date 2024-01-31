@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Avro schemas are defined with _____",
+        "options": [
+            "a) JSON",
+            "b) XML",
+            "c) JAVA",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JSON implementation facilitates implementation in languages that already have JSON libraries."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Avro provides functionality similar to systems such as Thrift",
+            "b) When Avro is used in RPC, the client and server exchange data in the connection handshake",
+            "c) Apache Avro, Avro, Apache, and the Avro and Apache logos are trademarks of The Java Foundation",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Avro differs from these systems in the fundamental aspects like untagged data."
+    },
+    {
+        "question": "__________ facilitates construction of generic data-processing systems and languages.",
+        "options": [
+            "a) Untagged data",
+            "b) Dynamic typing",
+            "c) No manually-assigned field IDs",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Avro does not require that code be generated."
+    },
+    {
+        "question": "With ______ we can store data and read it easily with various programming languages.",
+        "options": [
+            "a) Thrift",
+            "b) Protocol Buffers",
+            "c) Avro",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Avro is optimized to minimize the disk space needed by our data and it is flexible."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Apache Avro\u2122 is a data serialization system",
+            "b) Avro provides simple integration with dynamic languages",
+            "c) Avro provides rich data structures",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " Code generation is not required to read or write data files nor to use or implement RPC protocols in Avro."
+    },
+    {
+        "question": "________ are a way of encoding structured data in an efficient yet extensible format.",
+        "options": [
+            "a) Thrift",
+            "b) Protocol Buffers",
+            "c) Avro",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats."
+    },
+    {
+        "question": "Thrift resolves possible conflicts through _________ of the field.",
+        "options": [
+            "a) Name",
+            "b) Static number",
+            "c) UID",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Avro resolves possible conflicts through the name of the field."
+    },
+    {
+        "question": "Avro is said to be the future _______ layer of Hadoop.",
+        "options": [
+            "a) RMC",
+            "b) RPC",
+            "c) RDC",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When Avro is used in RPC, the client and server exchange schemas in the connection handshake."
+    },
+    {
+        "question": "When using reflection to automatically build our schemas without code generation, we need to configure Avro using?",
+        "options": [
+            "a) AvroJob.Reflect(jConf);",
+            "b) AvroJob.setReflect(jConf);",
+            "c) Job.setReflect(jConf);",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For strongly typed languages like Java, it also provides a generation code layer, including RPC services code generation."
+    },
+    {
+        "question": "We can declare the schema of our data either in a ______ file.",
+        "options": [
+            "a) JSON",
+            "b) XML",
+            "c) SQL",
+            "d) R"
+        ],
+        "answer": "c",
+        "explanation": "Schema can be declared using an IDL or simply through Java beans by using reflection-based schema building."
+    }
+]

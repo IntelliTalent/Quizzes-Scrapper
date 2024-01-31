@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The linear system Cx = d is known as _________ if d! = 0.",
+        "options": [
+            "a) homogeneous",
+            "b) heterogeneous",
+            "c) nonhomogeneous",
+            "d) augmented system"
+        ],
+        "answer": "c",
+        "explanation": " A linear system Cx = d is known as a homogeneous system if d! = 0. The homogeneous linear system Ax = 0 is called its corresponding homogeneous linear system."
+    },
+    {
+        "question": "Every linear equation determines a _______ in n-dimensional space for n variables.",
+        "options": [
+            "a) shipshape",
+            "b) hyperplane",
+            "c) cone",
+            "d) pyramid"
+        ],
+        "answer": "b",
+        "explanation": "In an m-dimensional space, every linear equation produces a hyperplane for n variables. The solution set is the intersection of these hyperplanes and is planar which may have any dimension smaller than m."
+    },
+    {
+        "question": "Determine all possibilities for the number of solutions of the system of 7 equations in 5 unknowns and it has x",
+        "options": [
+            "a) unique or infinitely many",
+            "b) unique",
+            "c) finitely many",
+            "d) zero"
+        ],
+        "answer": "a",
+        "explanation": "Let i be the number of equations and j be the number of unknowns in the given system. Since i> j, the system has at least one solution x"
+    },
+    {
+        "question": "Determine all possibilities for the solution set of the homogeneous system that has y",
+        "options": [
+            "a) zero",
+            "b) infinitely many",
+            "c) finitely many",
+            "d) only one"
+        ],
+        "answer": "b",
+        "explanation": "Since m<n, the system is either inconsistent or has infinitely many solutions. Since y"
+    },
+    {
+        "question": "Determine all possibilities for the solution set of the homogeneous system of 5 equations in 3 unknowns and the rank of the system is 3.",
+        "options": [
+            "a) more than two",
+            "b) only one",
+            "c) zero",
+            "d) infinite"
+        ],
+        "answer": "c",
+        "explanation": "Since the rank of this homogeneous system(which is always consistent) and the number of unknowns are equal, the only possible solution is zero and it is a unique solution."
+    },
+    {
+        "question": "Determine all possibilities for the solution set of a homogeneous system that has y",
+        "options": [
+            "a) one",
+            "b) finitely many",
+            "c) infinitely many",
+            "d) either one or infinitely many"
+        ],
+        "answer": "c",
+        "explanation": "The possibilities for the solution set for any homogeneous system is either a unique solution or infinitely many solutions. Since the homogeneous system has the zero solution and y"
+    },
+    {
+        "question": "Determine all possibilities for the solution set of the system of 2 equations in 3 unknowns that has x",
+        "options": [
+            "a) one or finitely many",
+            "b) infinite",
+            "c) finite",
+            "d) zero"
+        ],
+        "answer": "b",
+        "explanation": "Since m"
+    },
+    {
+        "question": "Determine all possibilities for the solution set of a homogeneous system of 4 equations in 4 unknowns.",
+        "options": [
+            "a) only one",
+            "b) finitely many or zero",
+            "c) zero",
+            "d) one or infinitely many"
+        ],
+        "answer": "b",
+        "explanation": "Here the number of equations and the number of unknowns are equal and the system is homogeneous, so it may have the zero solution or infinitely many solutions."
+    },
+    {
+        "question": "Determine all possibilities for the solution set of a homogeneous system of 6 equations in 5 unknowns.",
+        "options": [
+            "a) only one",
+            "b) zero",
+            "c) one or infinitely many",
+            "d) finitely many"
+        ],
+        "answer": "c",
+        "explanation": "Since the system is homogeneous and there are more equations than the number of unknowns, so the possibilities are either a unique solution or infinitely many solutions. However, if the rank r of the system is 5, then it can be a unique solution as well as if r<5, then there are infinitely many solutions."
+    },
+    {
+        "question": "Determine all possibilities for the solution set of a homogeneous system of 5 equations in 4 unknowns and the rank of the system is 3.",
+        "options": [
+            "a) finite",
+            "b) zero or finitely many",
+            "c) only one",
+            "d) infinite"
+        ],
+        "answer": "d",
+        "explanation": "A homogeneous system is consistent. The rank is r = 3 and the number of variables is n = 4. Hence there is n \u2013 r = 1 free variable. Thus there are infinitely many solutions."
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "question": "________  is a typical online problem from the competitive analysis to determine the optimal solution.",
+        "options": [
+            "a) Page replacement algorithm",
+            "b) Segmentation",
+            "c) Paging",
+            "d) Segmentation with paging"
+        ],
+        "answer": "a",
+        "explanation": "Page replacement is a typical online problem from the competitive analysis. They determine which pages to page out or write to disk."
+    },
+    {
+        "question": "Which of the following is the simplest page replacement algorithm?",
+        "options": [
+            "a) FIFO",
+            "b) Optimal page replacement",
+            "c) LRU replacement",
+            "d) Counting based replacement"
+        ],
+        "answer": "a",
+        "explanation": "FIFO is the simplest page replacement algorithm since LRU and optimal replacement algorithms require past and future data patterns respectively."
+    },
+    {
+        "question": "__________ algorithm associates with each page the time when the page was brought into memory.",
+        "options": [
+            "a) Optimal page replacement",
+            "b) FIFO",
+            "c) LRU replacement algorithm",
+            "d) Counting based replacement"
+        ],
+        "answer": "b",
+        "explanation": "FIFO algorithm associates with each page the time when the page was brought into memory. The new page is inserted at the tail of the queue."
+    },
+    {
+        "question": "As the number of frames available increases, the number of page faults decreases.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "One of the rules of the page replacement algorithm is that, as the number of frames available increases, the number of page faults decreases."
+    },
+    {
+        "question": "Which of the following page replacement algorithms return the minimum number of page faults?",
+        "options": [
+            "a) LRU replacement algorithm",
+            "b) Optimal page replacement algorithm",
+            "c) FIFO",
+            "d) Counting based replacement"
+        ],
+        "answer": "b",
+        "explanation": "Though FIFO is the simplest of all algorithms, optimal page replacement algorithm returns the minimum number of page faults."
+    },
+    {
+        "question": "Which of the following is required to determine the number of page faults in FIFO?",
+        "options": [
+            "a) Page number",
+            "b) Page frame number",
+            "c) Memory capacity",
+            "d) Segment number"
+        ],
+        "answer": "b",
+        "explanation": "To determine the number of page faults in a page replacement algorithm using FIFO, we require page frame number."
+    },
+    {
+        "question": "In a FIFO algorithm, when a page is to be replaced, which of the following page is chosen?",
+        "options": [
+            "a) Oldest page",
+            "b) Newest page",
+            "c) Frequently occurred page in past",
+            "d) Frequently occurred page in future"
+        ],
+        "answer": "a",
+        "explanation": "In FIFO page replacement algorithm, when a page is to be replaced, the oldest page is chosen and replaced at the tail of the queue."
+    },
+    {
+        "question": "The cost required to execute a FIFO algorithm is expensive.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The cost of a FIFO algorithm is cheap and intuitive and it is used in poor practical applications."
+    },
+    {
+        "question": "FIFO algorithm is used by __________ operating system.",
+        "options": [
+            "a) Linux",
+            "b) Mac",
+            "c) Windows",
+            "d) VAX/VMS"
+        ],
+        "answer": "d",
+        "explanation": "Of the following given operating systems, VAX/VMS uses a FIFO algorithm."
+    },
+    {
+        "question": "What is the competitive analysis of the FIFO algorithm?",
+        "options": [
+            "a) k/k+1",
+            "b) k+1",
+            "c) k(k+1)",
+            "d) k/(k-h+1)"
+        ],
+        "answer": "d",
+        "explanation": "The competitive analysis of a FIFO algorithm is mathematically found to be k/(k-h+1) where k and h are some constants used in page replacement and always, h<=k."
+    },
+    {
+        "question": "Under which of the following scenarios is page replacement algorithm required?",
+        "options": [
+            "a) When total memory exceeds physical memory",
+            "b) To determine the number of frames for each process",
+            "c) When paging and segmentation are to be used",
+            "d) Execution of a process, not in memory"
+        ],
+        "answer": "a",
+        "explanation": "An appropriate page replacement algorithm is required when the total memory requirements exceed the physical memory."
+    },
+    {
+        "question": "Consider a reference string:",
+        "options": [
+            "a) 12",
+            "b) 16",
+            "c) 14",
+            "d) 15"
+        ],
+        "answer": "d",
+        "explanation": "For the given reference string of frame size 3, the number of page faults is calculated to be 15. It is explained in the diagram."
+    },
+    {
+        "question": "Consider a reference string:",
+        "options": [
+            "a) 12",
+            "b) 16",
+            "c) 10",
+            "d) 14"
+        ],
+        "answer": "c",
+        "explanation": "For the given reference string of frame size 4, the number of page faults is calculated to be 10. It is explained in the diagram."
+    },
+    {
+        "question": "_________ states that, on a page fault, the frame that has been in memory the longest is replaced.",
+        "options": [
+            "a) Belady\u2019s anomaly",
+            "b) Second chance algorithm",
+            "c) Partial second chance algorithm",
+            "d) LRU replacement algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Belady\u2019s anomaly states that, on a page fault, the frame that has been in memory the longest is replaced. It occurs in FIFO algorithm."
+    }
+]

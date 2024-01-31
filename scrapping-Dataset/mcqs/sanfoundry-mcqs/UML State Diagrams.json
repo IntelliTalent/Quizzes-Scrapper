@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following statement is true?",
+        "options": [
+            "a) A transition is a change from one state to another",
+            "b) Transitions may be spontaneous, but usually some event triggers them",
+            "c) An event is a noteworthy occurrence at a particular time; events have no duration",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned statements are true."
+    },
+    {
+        "question": "Every finite automaton specification must contain which of the following?",
+        "options": [
+            "a) Descriptions of the automaton\u2019s states in a way that allows them to be distinguished, such as by naming each one;",
+            "b) Descriptions of transitions indicating each transition source state, its target state, and the events that trigger it;",
+            "c) Designation of an initial state, the starting place for state transitions",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Every finite automaton specification contains \u2013 Descriptions of the automaton\u2019s states in a way that allows them to be distinguished, such as by naming each one;Descriptions of transitions indicating each transition source state, its target state, and the events that trigger it; and Designation of an initial state, the starting place for state transitions."
+    },
+    {
+        "question": "What does deterministic and non deterministic automation?",
+        "options": [
+            "a) A non-deterministic finite automaton is a finite automaton that has no spontaneous transitions and has a single transition that it must make in response to every event in each of its states",
+            "b) A deterministic finite automaton is one with multiple transitions",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A deterministic finite automation is a finite automaton that has no spontaneous transitions and has a single transition that it must make in response to every event in each of its states and A non-deterministic finite automaton is one with multiple transitions."
+    },
+    {
+        "question": "Which of the following determines the state diagram?",
+        "options": [
+            "a) The UML notation for specifying finite automata is the state diagram",
+            "b) In state diagrams, states are represented by rounded rectangles",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are true for the state diagram."
+    },
+    {
+        "question": "Which of the following represents the State Diagram?",
+        "options": [
+            "a) The finite automaton initial state is designated by a special initial pseudo-state depicted as a large black dot at the tail of an arrow pointing at the initial state",
+            "b) A finite automaton may execute forever or it may halt in a final state",
+            "c) Transitions are represented by solid arrows labeled with one or more transition strings that describe the circumstances under which the transition is triggered and the actions that may ensue",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true for state diagram."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) A state symbol without a nested state compartment represents a complex state",
+            "b) One with a nested state compartment represents a simple state",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A state symbol without a nested state compartment represents a simple state and One with a nested state compartment represents a complex state."
+    },
+    {
+        "question": "Which of the following are composite states?",
+        "options": [
+            "a) A sequential composite state",
+            "b) A concurrent composite state",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are two kinds of composite states -A sequential composite state and A concurrent composite state."
+    },
+    {
+        "question": "What is sequential and concurrent composite state means?",
+        "options": [
+            "a) A concurrent composite state contains a single state diagram composed of sub-states or inner states and the transitions between them",
+            "b) A sequential composite state contains two or more sequential state diagrams in regions separated by dashed lines called concurrent region boundary lines",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A sequential composite state contains a single state diagram composed of sub-states or inner states and the transitions between them and A concurrent composite state contains two or more sequential state diagrams in regions separated by dashed lines called concurrent region boundary lines."
+    },
+    {
+        "question": "Sequential composite states simplify state models in two ways?",
+        "options": [
+            "a) They organize states into hierarchies",
+            "b) They consolidate many transitions",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are the two ways to simplify sequential composite states."
+    }
+]

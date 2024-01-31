@@ -1,0 +1,161 @@
+[
+    {
+        "question": "Base class to access the managed application context through the inherited getApplicationContext() method.",
+        "options": [
+            "a) AbstractSingleSpringContextTests",
+            "b) AbstractSingleSpring",
+            "c) Test context listener",
+            "d) Test execution listener"
+        ],
+        "answer": "a",
+        "explanation": "With Spring JUnit 3 legacy support in releases prior to 2.5, your test class can extend the AbstractSingleSpringContextTests base class to access the managed application context through the inherited getApplicationContext() method."
+    },
+    {
+        "question": "The TestContext framework provides two test execution listeners related to context management:-",
+        "options": [
+            "a) DependencyInjectionTestExecutionListener",
+            "b) DirtiesContextTestExecutionListener",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "They will be registered with a test context manager by default if you don\u2019t specify your own explicitly."
+    },
+    {
+        "question": "Interface which can provide access to the managed application context through the protected field applicationContext:-",
+        "options": [
+            "a) ApplicationContextAware",
+            "b) ApplicationContext",
+            "c) ApplicationContextAwareContext",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "These classes integrate with a test context manager and implement the ApplicationContextAware interface, so they can provide access to the managed application context through the protected field applicationContext."
+    },
+    {
+        "question": "In JUnit 4, you can simply run your test with the test runner SpringJUnit4ClassRunner.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In JUnit 4, you can simply run your test with the test runner SpringJUnit4ClassRunner to have a test context manager integrated. However, in TestNG, you have to integrate with a test context manager manually."
+    },
+    {
+        "question": "Method to indicate that the application context is dirty.",
+        "options": [
+            "a) getDirty()",
+            "b) setDirty()",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can call the setDirty() method to indicate that the application context is dirty so that it will be reloaded automatically for the next test method."
+    },
+    {
+        "question": "In JUnit4, to explicitly specify a Spring-specific test runner for running your test.",
+        "options": [
+            "a) SpringJUnit4ClassRunner",
+            "b) SpringJUnit4Class",
+            "c) SpringJUnit4",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You have to explicitly specify a Spring-specific test runner for running your test\u2014SpringJUnit4ClassRunner."
+    },
+    {
+        "question": "Annotation for SpringJUnit4ClassRunner:-",
+        "options": [
+            "a) @Run",
+            "b) @RunWith",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For this option, you have to explicitly specify a Spring-specific test runner for running your test\u2014SpringJUnit4ClassRunner. You can specify this in the @RunWith annotation at the class level."
+    },
+    {
+        "question": "This class implements the ApplicationContextAware interface, so you can get access to the managed application context:-",
+        "options": [
+            "a) AbstractJUnit38SpringContext",
+            "b) AbstractJUnit38Spring",
+            "c) AbstractJUnit38SpringContextTests",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This class implements the ApplicationContextAware interface, so you can get access to the managed application context via the protected field applicationContext."
+    },
+    {
+        "question": "AbstractJUnit38SpringContext class also implements the ApplicationContextAware interface.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "AbstractTestNGSpringContextTests class also implements the ApplicationContextAware interface."
+    },
+    {
+        "question": "Spring JUnit 3 legacy support in releases prior to 2.5, your test class can extend the:-",
+        "options": [
+            "a) AbstractDependencyInjectionSpringContextTests",
+            "b) AbstractSingleSpringContextTests",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When using Spring JUnit 3 legacy support in releases prior to 2.5, your test class can extend the AbstractDependencyInjectionSpringContextTests base class, which is a subclass of AbstractSingleSpringContextTests, to have its test fixtures injected automatically."
+    },
+    {
+        "question": "AbstractDependencyInjectionSpringContextTests supports dependency injection.",
+        "options": [
+            "a) auto-wires beans by type via setter methods",
+            "b) auto-wires beans by name via protected fields",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When using Spring JUnit 3 legacy support in releases prior to 2.5, your test class can extend the AbstractDependencyInjectionSpringContextTests base class, which is a subclass of AbstractSingleSpringContextTests, to have its test fixtures injected automatically."
+    },
+    {
+        "question": "Test fixtures injected from the managed application context by annotating:-",
+        "options": [
+            "a) @Autowired",
+            "b) @Resource",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When using the TestContext framework to create tests, you can have their test fixtures injected from the managed application context by annotating a field or setter method with the @Autowired or @Resource annotations."
+    },
+    {
+        "question": "TestContext support class AbstractJUnit4SpringContextTests, you can also have test fixtures injected from the managed application context.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By extending the TestContext support class AbstractJUnit4SpringContextTests, you can also have test fixtures injected from the managed application context. In this case, you don\u2019t need to specify SpringJUnit4ClassRunner for your test, as it is inherited from the parent."
+    },
+    {
+        "question": "Starting from Spring 2.5, the TestContext framework provides a test execution listener related to transaction management:-",
+        "options": [
+            "a) TransactionalTestExecutionListener",
+            "b) TransactionalTestExecution",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It will be registered with a test context manager by default if you don\u2019t specify your own explicitly."
+    },
+    {
+        "question": "Annotation for TransactionalTestExecutionListener:-",
+        "options": [
+            "a) @Transactional",
+            "b) @RunWith",
+            "c) @Run",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TransactionalTestExecutionListener: This handles the @Transactional annotation at the class or method level and has the methods run within transactions automatically."
+    }
+]

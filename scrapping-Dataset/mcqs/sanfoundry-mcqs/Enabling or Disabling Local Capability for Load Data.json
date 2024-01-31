@@ -1,0 +1,98 @@
+[
+    {
+        "question": "The LOCAL capability for LOAD DATA does not need to be enabled explicitly.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018LOCAL\u2019 capability for the \u2018LOAD DATA\u2019 statement does not need to be enabled explicitly. It can be controlled at build time and at runtime. This can be achieved in two ways."
+    },
+    {
+        "question": "The LOCAL capability for client library is enabled by ______________",
+        "options": [
+            "a) \u2013enabled-local-file",
+            "b) \u2013enable-local-infile",
+            "c) \u2013enable-global-file",
+            "d) \u2013enable-local-file"
+        ],
+        "answer": "b",
+        "explanation": "At build time LOCAL capability for the client library can be enabled or disabled by default. The \u2018\u2013enable-local-infile\u2019 or \u2018\u2013disable-local-infile\u2019 option is used when running configure."
+    },
+    {
+        "question": "What is the most important configurable resource for MyISAM?",
+        "options": [
+            "a) key cache",
+            "b) memory cache",
+            "c) time cache",
+            "d) speed cache"
+        ],
+        "answer": "a",
+        "explanation": "For the index processing, \u2018MyISAM\u2019 manages its own key cache, which is the most important configurable resource for the MyISAM storage engine. It is used for index based retrievals and sorts."
+    },
+    {
+        "question": "How many options can be used to control LOCAL capability at runtime?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "At runtime, the server can be started with the \u2018\u2013local-infile\u2019 or \u2018\u2013skip-local-infile\u2019 options to enable or disable \u2018LOCAL\u2019 capability on the server side. It can be enabled at build time too."
+    },
+    {
+        "question": "A multiple-table delete cannot apply any join.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a multiple table \u2018DELETE\u2019 operation can be performed on the tables combined using any kind of \u2018JOIN\u2019 operation. The syntax also allows for deleting rows from multiple tables at once."
+    },
+    {
+        "question": "abc in the following MySQL statement is ___________",
+        "options": [],
+        "answer": "a",
+        "explanation": "Here, the operation that is being performed in the statement is the \u2018DELETE\u2019 operation. The table name is \u2018xyz\u2019 and column name is \u2018abc\u2019. The rows having abc value equal to 5 get deleted."
+    },
+    {
+        "question": "\u2018x\u2019 in the following MySQL statement is ____________",
+        "options": [],
+        "answer": "b",
+        "explanation": "The \u2018DELETE\u2019 operation is being performed in the statement. The table names are \u2018x\u2019 and \u2018y\u2019. The column name is \u2018col\u2019. The rows from left join of x and y get deleted according to the condition given."
+    },
+    {
+        "question": "The mode used to turn off the special meaning of backslash and treat it as an ordinary character is _____________",
+        "options": [
+            "a) NO_ESCAPES_SLASH",
+            "b) NO_ESCAPES_BACKSLASH",
+            "c) NO_BACKSLASH_ESCAPES",
+            "d) NO_BACKSLASH_ESCAPE"
+        ],
+        "answer": "c",
+        "explanation": "To turn off the special meaning of backslash in MySQL, and treat it as an ordinary character, the SQL mode named NO_BACKSLASH_ESCAPES is enabled. The escape sequence is treated as characters."
+    },
+    {
+        "question": "What is x\u2019ffff\u2019 in decimal?",
+        "options": [
+            "a) 65534",
+            "b) 66535",
+            "c) 65536",
+            "d) 65537"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, string values are specified using the standard SQL notation x\u2019val\u2019. Here, val is pairs of hexadecimal digits (\u20180\u2019 through \u2018 9 \u2019 and \u2018 a \u2019 through \u2018 f \u2019). x\u2019ffff\u2019 is 65536 in decimal."
+    },
+    {
+        "question": "What are X\u201961626364\u2032 and X\u201961626364\u2032?",
+        "options": [
+            "a) abcd and 1633837924",
+            "b) abcd and 4297383361",
+            "c) dcba and 1633837924",
+            "d) dcba and 4297383361"
+        ],
+        "answer": "a",
+        "explanation": "In the numeric contexts, each hexadecimal number constant is treated as a number. Without adding a zero to it, a hexadecimal literal is treated as a string. Hence it is displayed as abcd."
+    }
+]

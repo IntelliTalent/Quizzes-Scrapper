@@ -1,0 +1,112 @@
+[
+    {
+        "question": "K-map is used for _______",
+        "options": [
+            "a) logic minimization",
+            "b) expression maximization",
+            "c) summing of parity bits",
+            "d) logic gate creation"
+        ],
+        "answer": "a",
+        "explanation": "K-map(Maurice Karnaugh of Bell labs in 1953) is defined as a diagrammatic method for logic minimization and it is a pictorial view of truth table which shows the relationship between inputs and output. It is more efficient than Boolean algebra. K-map is a diagram made up of squares in which each square represents a minterm or maxterm of the logic function."
+    },
+    {
+        "question": "To display time in railway stations which digital circuit is used?",
+        "options": [
+            "a) seven segment decoder",
+            "b) eight segment encoder",
+            "c) 8:3 multiplexer",
+            "d) 9 bit segment driver"
+        ],
+        "answer": "a",
+        "explanation": "A seven segment decoder is a digital circuit which is used to construct a common type of digital display device i.e., a set of LED (or LCD) segments that display numbers from 0 through 9 at the command of a four-bit code. Moreover, the behavior of the display driver IC is represented by a truth table with seven outputs."
+    },
+    {
+        "question": "Simplify the expression using K-maps: F(A,B,C,D)=\u03a3 (1,3,5,6,7,11,13,14).",
+        "options": [
+            "a) AB+BC\u2019D+A\u2019B\u2019C",
+            "b) BCD\u2019+A\u2019C\u2019D+BD\u2019",
+            "c) A\u2019D+BCD+A\u2019BC+AB\u2019C\u2019",
+            "d) AC\u2019D\u2019+BC+A\u2019BD+C\u2019D\u2019"
+        ],
+        "answer": "c",
+        "explanation": "By solving the given expression we have minterms such as A\u2019D+BCD+A\u2019BC+AB\u2019C\u2019. So, we can get the required expression A\u2019D+BCD+A\u2019BC+AB\u2019C\u2019."
+    },
+    {
+        "question": "When designing a circuit to emulate a truth table, both Product-of-Sums (POS) expressions and Sum-of-Products (SOP) expressions can be derived from?",
+        "options": [
+            "a) k-map",
+            "b) NAND gate",
+            "c) NOR gate",
+            "d) X-NOR gate"
+        ],
+        "answer": "a",
+        "explanation": "A Karnaugh map can be used to build the appropriate POS expression for designing a circuit to form the truth table. Karnaugh maps are not limited to SOP expressions only for minimizing boolean functions."
+    },
+    {
+        "question": "Simplify the expression using K-maps: F(A,B,C) = \u03a3 (1,3,5,6,7).",
+        "options": [
+            "a) AC\u2019+B\u2019",
+            "b) AB+C",
+            "c) AB\u2019+B\u2019C\u2019",
+            "d) A\u2019BC+B\u2019C+AC"
+        ],
+        "answer": "b",
+        "explanation": "By solving the given expression, the minterms are: C and AB. Hence, we can get the required expression C+AB."
+    },
+    {
+        "question": "Simplify the expression using K-maps: F(A,B,C) = \u03c0(0,2,4,5,7).",
+        "options": [
+            "a) (x+y)(y+z)(x+z)(x\u2019+z\u2019)",
+            "b) (x+z\u2019)(y+z)(x+y)",
+            "c) (x+y\u2019+z)(x+z\u2019)",
+            "d) (y\u2019+z\u2019)(x\u2019+y)(z+y\u2019)"
+        ],
+        "answer": "a",
+        "explanation": "By solving the given expression, the maxterms are: (x+y), (x\u2019+y), (x+z) and (x\u2019+z\u2019). Hence, we can get required expression (x+y)(x\u2019+y)(x+z)(x\u2019+z\u2019)."
+    },
+    {
+        "question": "Addition of two or more bits produces how many bits to construct a logic gate?",
+        "options": [
+            "a) 108",
+            "b) 2",
+            "c) 32",
+            "d) 64"
+        ],
+        "answer": "b",
+        "explanation": "Addition of bits requires carry-in and carry-out bits. Addition of two terms (bits) a and b, and a carry-in bit Cin is required to compute a sum bit S and a carry-out bit Cout. Hence, two bits are produced in general."
+    },
+    {
+        "question": "Use Karnaugh map to find the simplified expression of the function: F = x\u2019yz + xy + xy\u2019z\u2019.",
+        "options": [
+            "a) xz\u2019+y\u2019z\u2019",
+            "b) xy\u2019z+xy",
+            "c) y\u2019z+x\u2019y+z",
+            "d) yz+xy+xy\u2019z"
+        ],
+        "answer": "d",
+        "explanation": "F = x\u2019yz + xyz + xy z\u2019 + xy\u2019z\u2019 is the canonical form for the function. Now, using k-map the minimal form must be: yz+xy+xy\u2019z."
+    },
+    {
+        "question": "Who has invented K-map?",
+        "options": [
+            "a) Maurice Karnaugh",
+            "b) Edward Veitch",
+            "c) George Boole",
+            "d) Adam Smith"
+        ],
+        "answer": "a",
+        "explanation": "The Karnaugh map (KM or K-map) is invented by Maurice Karnaugh in 1953 that is a method of simplifying Boolean expressions."
+    },
+    {
+        "question": "In Gray coding, the adjacent code values differ by _______",
+        "options": [
+            "a) single bit",
+            "b) 3 bits",
+            "c) 10 bits",
+            "d) 0 bit"
+        ],
+        "answer": "a",
+        "explanation": "In Gray coding, the adjacent code values differ only by a single bit. If the given code-word is 01, then the previous and the next code-words are to be 11 or 00 but cannot be 10 in any case. Each cell within a K-map has a definite place-value which is obtained by using this encoding technique. The rows and the columns of the table use Gray code-labeling which in turn represents the values of the corresponding input variables and each K-map cell can be addressed using a unique Gray Code-Word."
+    }
+]

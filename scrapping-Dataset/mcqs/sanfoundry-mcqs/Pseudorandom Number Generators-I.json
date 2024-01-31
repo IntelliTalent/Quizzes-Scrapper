@@ -1,0 +1,129 @@
+[
+    {
+        "question": "Using the Linear Congruential Method (LCM), for a=7, c=0 and m=32. The period is",
+        "options": [
+            "a) 13",
+            "b) 4",
+            "c) 11",
+            "d) 7"
+        ],
+        "answer": "b",
+        "explanation": "The sequence generated is {7,17,23,1,7..}. Thus the period is 4."
+    },
+    {
+        "question": "Using the Linear Congruential Method, for a=5, c=0 and m=32. The period is",
+        "options": [
+            "a) 8",
+            "b) 4",
+            "c) 9",
+            "d) 11"
+        ],
+        "answer": "a",
+        "explanation": "The sequence generated is {2,25,29,17,21,9,13,1,5,2\u2026}. Thus the period is 8."
+    },
+    {
+        "question": "The appropriate value for m (in LCM) is",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "Typically 2^(31) \u2013 1 is chosen as the value for m (a large prime number)."
+    },
+    {
+        "question": "A CSPRBG is defined as one that passes the __ test.",
+        "options": [
+            "a) Runs test",
+            "b) Maurer\u2019s Universal statistical test",
+            "c) Frequency Test",
+            "d) On-bit test"
+        ],
+        "answer": "d",
+        "explanation": "A CSPRBG is defined as one that passes the one-bit test."
+    },
+    {
+        "question": "Find the first 8 bits for Blum Blum Shub Bit Generator when seed = 101355 and n = 192649.",
+        "options": [
+            "a) 10101010",
+            "b) 11100010",
+            "c) 11001011",
+            "d) 11001110"
+        ],
+        "answer": "d",
+        "explanation": "The blum blum shub algorithm is as follows-"
+    },
+    {
+        "question": "Which of these modes is an appropriate mode for PRNG?",
+        "options": [
+            "a) ECB",
+            "b) CBC",
+            "c) CFB",
+            "d) CTR"
+        ],
+        "answer": "d",
+        "explanation": "CTR and OFB are suitable modes for PRNG."
+    },
+    {
+        "question": "Which mode is recommend for the X9.82 Random number generator?",
+        "options": [
+            "a) OFB",
+            "b) CBC",
+            "c) CFB",
+            "d) CTR"
+        ],
+        "answer": "a",
+        "explanation": "OFB is the recommended mode for the X9.82 Random number generator."
+    },
+    {
+        "question": "AES PRNG produces bits outputs of size",
+        "options": [
+            "a) 512 bits",
+            "b) 128 bits",
+            "c) 256 bits",
+            "d) 64 bits"
+        ],
+        "answer": "b",
+        "explanation": "AES PRNG produces bits outputs of size 128 bits."
+    },
+    {
+        "question": "Which mode is recommend for the ANSI standard X9.82 Random number generator?",
+        "options": [
+            "a) OFB",
+            "b) CTR",
+            "c) CFB",
+            "d) CFB"
+        ],
+        "answer": "b",
+        "explanation": "CTR is the recommended mode for the ANSI standard X9.82 Random number generator."
+    },
+    {
+        "question": "The CTR algorithm for PRNG is known as",
+        "options": [
+            "a) CTR_PRNG",
+            "b) X-SESS",
+            "c) CTR-SESS",
+            "d) CTR_DRBG"
+        ],
+        "answer": "d",
+        "explanation": "The CTR algorithm for PRNG is known as CTR_DRBG."
+    },
+    {
+        "question": "Which mode is recommend for the RFC 4086 Random number generator?",
+        "options": [
+            "a) CFB",
+            "b) CBC",
+            "c) OFB",
+            "d) CTR"
+        ],
+        "answer": "c",
+        "explanation": "OFB is the recommended mode for the RFC 4086 Random number generation."
+    },
+    {
+        "question": "while (len(temp) < requested_number_of_bits) do",
+        "options": [],
+        "answer": "c",
+        "explanation": "The algorithm above is the OFB mode representation."
+    }
+]

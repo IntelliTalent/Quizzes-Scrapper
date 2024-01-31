@@ -1,0 +1,167 @@
+[
+    {
+        "question": "________ function is usually used inside another function and throws a warning whenever a particular package is not found.",
+        "options": [
+            "a) Dplyr",
+            "b) Require",
+            "c) Coin",
+            "d) Sample"
+        ],
+        "answer": "b",
+        "explanation": "Require () function is usually used inside the other function and gives a warning whenever a particular package is not found. Library () function will give an error message if the desired package is not loaded."
+    },
+    {
+        "question": "___________ function gives an error message if the desired package cannot be loaded.",
+        "options": [
+            "a) Dplyr",
+            "b) Require",
+            "c) Library",
+            "d) Sample"
+        ],
+        "answer": "c",
+        "explanation": "Library () function gives an error message if the desired package cannot be loaded. Require () function is usually used inside a function and throws a warning whenever a particular package is not found."
+    },
+    {
+        "question": "A ________________ in R programming language can also contain numeric and alphabets along with special characters like dot and underline.",
+        "options": [
+            "a) Variable name",
+            "b) Number",
+            "c) Integer",
+            "d) Character"
+        ],
+        "answer": "a",
+        "explanation": "A variable name in R programming language can also contain numeric and alphabets along with special characters like a dot and underline. Variable names in R language can begin with an alphabet and also the dot symbol."
+    },
+    {
+        "question": "The current user defined objects like lists, vectors, etc. is referred to as __________ in the R language.",
+        "options": [
+            "a) Work names",
+            "b) Work space",
+            "c) Environment",
+            "d) Console"
+        ],
+        "answer": "a",
+        "explanation": "The current R working environment of the user which has user defined objects like lists, vectors, etc. is referred to as Workspace in R language. The workspace of R is flexible to all functions of statistics."
+    },
+    {
+        "question": "Which function helps you perform sorting in R language?",
+        "options": [
+            "a) Order",
+            "b) Inorder",
+            "c) Simple",
+            "d) Library"
+        ],
+        "answer": "a",
+        "explanation": "Order returns a permutation which rearranges its first argument into ascending and also descending order. The result of the order command is a vector where each value references to the values of the position of the object in the original data frame."
+    },
+    {
+        "question": "Which function is used to create a histogram for visualisation in R programming language?",
+        "options": [
+            "a) Library",
+            "b) Hist",
+            "c) Data",
+            "d) Refer"
+        ],
+        "answer": "b",
+        "explanation": "Hist function is used to create a histogram for visualisation in R programming language. The generic function hist computes a histogram of the given data values. This function takes a vector as the input and also uses some more parameters to plot histograms."
+    },
+    {
+        "question": "Write the syntax to set the path of the current working directory in R environment?",
+        "options": [
+            "a) Setwd(\u201cdipath\u201d)",
+            "b) Setwd(dir_path)",
+            "c) Setwd(\u201cdir_path\u201d)",
+            "d) Set(\u201cdir_path\u201d)"
+        ],
+        "answer": "c",
+        "explanation": "The current R working environment of a user which has user-defined objects like lists, vectors, etc. is referred to as Workspace in R language. The workspace of R is flexible to all functions of statistics."
+    },
+    {
+        "question": "What will be the output of runif()?",
+        "options": [
+            "a) Random number",
+            "b) Numbers",
+            "c) Character",
+            "d) Path generation"
+        ],
+        "answer": "a",
+        "explanation": "Random numbers from a normal distribution can be generated using runif() function. We can specify the range of the uniform distribution with the help of max and min argument. If not provided, the default range will be between 0 and 1."
+    },
+    {
+        "question": "________ function generates \u201cn\u201d normal random numbers based on the mean and standard deviation arguments passed to the function.",
+        "options": [
+            "a) rnorm",
+            "b) vnorm",
+            "c) knorm",
+            "d) lnorm"
+        ],
+        "answer": "a",
+        "explanation": "rnorm function generates \u201cn\u201d normal random numbers based on the mean and standard deviation arguments passed to the function. The workspace of R is flexible to all functions of statistics."
+    },
+    {
+        "question": "Write a function to extract the first name in the string \u201cMrs. Jake Luther\u201d?",
+        "options": [
+            "a) Substring",
+            "b) Substr",
+            "c) Substi",
+            "d) Return"
+        ],
+        "answer": "b",
+        "explanation": "The substr() function gives a part of a string. The substr() method will give parts of a string, beginning at the character of the specified position, and returns the specified number of characters."
+    },
+    {
+        "question": "_________ package provides basic functionalities in R environment like arithmetic calculations, input/output.",
+        "options": [
+            "a) R base",
+            "b) R boost",
+            "c) R serve",
+            "d) R comm"
+        ],
+        "answer": "a",
+        "explanation": "R Base package is the package that is loaded by default whenever the R programming environment is loaded .R base package provides basic functionalities in R environment like arithmetic calculations, input/output."
+    },
+    {
+        "question": "Which function basically finds the intersection between two different sets of data?",
+        "options": [
+            "a) Converge",
+            "b) Merge",
+            "c) Delegate",
+            "d) Swap"
+        ],
+        "answer": "b",
+        "explanation": "Merge () function is used to combine two data frames and it identifies common rows or columns between the 2 data frames. Merge () function basically finds the intersection between two different sets of data."
+    },
+    {
+        "question": "Which function calculates the count of each category of a categorical variable?",
+        "options": [
+            "a) Table",
+            "b) Intact",
+            "c) Tables",
+            "d) Retabs"
+        ],
+        "answer": "a",
+        "explanation": "The frequency distribution of a categorical variable can be checked using the table function in the R language. Table () function calculates the count of each category of a categorical variable."
+    },
+    {
+        "question": "The cumulative frequency distribution of a categorical variable can be checked using the ________ function in R language.",
+        "options": [
+            "a) Sum",
+            "b) Cumsum",
+            "c) Lumpsum",
+            "d) Resum"
+        ],
+        "answer": "b",
+        "explanation": "The cumulative frequency distribution of a categorical variable can be checked using the cumsum () function in the R language. The frequency distribution of a categorical variable can be checked using the table function in the R language."
+    },
+    {
+        "question": "A programmer builds a _________ to avoid repeating the same task or reduce complexity.",
+        "options": [
+            "a) Function",
+            "b) Package",
+            "c) Code",
+            "d) Console"
+        ],
+        "answer": "a",
+        "explanation": "A function, in a programming environment, is a set of instructions. A programmer builds a function to avoid repeating the same task or reduce complexity. A function should be written to carry out specified tasks and may or may not include arguments."
+    }
+]

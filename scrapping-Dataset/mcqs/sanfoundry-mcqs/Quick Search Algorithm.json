@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is the fastest algorithm in string matching field?",
+        "options": [
+            "a) Boyer-Moore\u2019s algorithm",
+            "b) String matching algorithm",
+            "c) Quick search algorithm",
+            "d) Linear search algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Quick search algorithm is the fastest algorithm in string matching field whereas Linear search algorithm searches for an element in an array of elements."
+    },
+    {
+        "question": "Which of the following algorithms formed the basis for the Quick search algorithm?",
+        "options": [
+            "a) Boyer-Moore\u2019s algorithm",
+            "b) Parallel string matching algorithm",
+            "c) Binary Search algorithm",
+            "d) Linear Search algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Quick search algorithm was originally formed to overcome the drawbacks of Boyer-Moore\u2019s algorithm and also for increased speed and efficiency."
+    },
+    {
+        "question": "What is the time complexity of the Quick search algorithm?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(m+n)",
+            "d) O(mn)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of the Quick search algorithm was found to be O(m+n) and is proved to be faster than Boyer-Moore\u2019s algorithm."
+    },
+    {
+        "question": "What character shift tables does quick search algorithm use?",
+        "options": [
+            "a) good-character shift tables",
+            "b) bad-character shift tables",
+            "c) next-character shift tables",
+            "d) both good and bad character shift tables"
+        ],
+        "answer": "b",
+        "explanation": "Quick search algorithm uses only bad character shift tables and it is one of the reasons for its increased speed than Boyer-Moore\u2019s algorithm."
+    },
+    {
+        "question": "What is the space complexity of quick search algorithm?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(m+n)",
+            "d) O(mn)"
+        ],
+        "answer": "a",
+        "explanation": "The space complexity of quick search algorithm is mathematically found to be O(n) where n represents the input size."
+    },
+    {
+        "question": "Quick search algorithm starts searching from the right most character to the left.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Quick search algorithm starts searching from the left most character to the right and it uses only bad character shift tables."
+    },
+    {
+        "question": "What character shift tables does Boyer-Moore\u2019s search algorithm use?",
+        "options": [
+            "a) good-character shift tables",
+            "b) bad-character shift tables",
+            "c) next-character shift tables",
+            "d) both good and bad character shift tables"
+        ],
+        "answer": "d",
+        "explanation": "Boyer-Moore\u2019s search algorithm uses both good and bad character shift tables whereas quick search algorithm uses only bad character shift tables."
+    },
+    {
+        "question": "What is the worst case running time in searching phase of Boyer-Moore\u2019s algorithm?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(m+n)",
+            "d) O(mn)"
+        ],
+        "answer": "d",
+        "explanation": "If the pattern occurs in the text, the worst case running time of Boyer-Moore\u2019s algorithm is found to be O(mn)."
+    },
+    {
+        "question": "The searching phase in quick search algorithm has good practical behaviour.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "During the searching phase, the comparison between pattern and text characters can be done in any order. It has a quadratic worst case behaviour and good practical behaviour."
+    },
+    {
+        "question": "Given input string = \u201cABCDABCATRYCARCABCSRT\u201d and pattern string = \u201cCAT\u201d. Find the first index of the pattern match using quick search algorithm.",
+        "options": [
+            "a) 2",
+            "b) 6",
+            "c) 11",
+            "d) 14"
+        ],
+        "answer": "b",
+        "explanation": "By using quick search algorithm, the given input text string is preprocessed and starts its search from the left most character and finds the first occurrence of the pattern at index=2."
+    }
+]

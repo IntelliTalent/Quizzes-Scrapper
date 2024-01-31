@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many strings of length less than 4 contains the language described by the regular expression (x+y)*y(a+ab)*?",
+        "options": [
+            "a) 7",
+            "b) 10",
+            "c) 12",
+            "d) 11"
+        ],
+        "answer": "c",
+        "explanation": "string of length 0 = Not possible (because y is always present)."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) (01)*0 = 0(10)*",
+            "b) (0+1)*0(0+1)*1(0+1) = (0+1)*01(0+1)*",
+            "c) (0+1)*01(0+1)*+1*0* = (0+1)*",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "A language is regular if and only if",
+        "options": [
+            "a) accepted by DFA",
+            "b) accepted by PDA",
+            "c) accepted by LBA",
+            "d) accepted by Turing machine"
+        ],
+        "answer": "a",
+        "explanation": "All of above machine can accept regular language but all string accepted by machine is regular only for DFA."
+    },
+    {
+        "question": "Regular grammar is",
+        "options": [
+            "a) context free grammar",
+            "b) non context free grammar",
+            "c) english grammar",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regular grammar is subset of context free grammar."
+    },
+    {
+        "question": "Let the class of language accepted by finite state machine be L1 and the class of languages represented by regular expressions be L2 then",
+        "options": [
+            "a) L1<L2",
+            "b) L1>=L2",
+            "c) L1 U L2 = .*",
+            "d) L1=L2"
+        ],
+        "answer": "d",
+        "explanation": "Finite state machine and regular expression have same power to express a language."
+    },
+    {
+        "question": "Which of the following is not a regular expression?",
+        "options": [
+            "a) [(a+b)*-(aa+bb)]*",
+            "b) [(0+1)-(0b+a1)*(a+b)]*",
+            "c) (01+11+10)*",
+            "d) (1+2+0)*(1+2)*"
+        ],
+        "answer": "b",
+        "explanation": "Except b all are regular expression*."
+    },
+    {
+        "question": "Regular expression are",
+        "options": [
+            "a) Type 0 language",
+            "b) Type 1 language",
+            "c) Type 2 language",
+            "d) Type 3 language"
+        ],
+        "answer": "d",
+        "explanation": "According to Chomsky hierarchy,"
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Every subset of a regular set is regular",
+            "b) Every finite subset of non-regular set is regular",
+            "c) The union of two non regular set is not regular",
+            "d) Infinite union of finite set is regular"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "L and ~L are recursive enumerable then L is",
+        "options": [
+            "a) Regular",
+            "b) Context free",
+            "c) Context sensitive",
+            "d) Recursive"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:If L is recursive enumerable and its complement too if and only if L is recursive."
+    },
+    {
+        "question": "Regular expressions are closed under",
+        "options": [
+            "a) Union",
+            "b) Intersection",
+            "c) Kleen star",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "According to definition of regular expression."
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "question": "What is the significance of indicator block in running key cipher?",
+        "options": [
+            "a) it helps in encryption",
+            "b) it strengthens the cipher",
+            "c) it gives information regarding the book/text from where the key is taken",
+            "d) it makes encryption easy"
+        ],
+        "answer": "c",
+        "explanation": "The purpose of having an indicator block in running key cipher is to give information to the receiver about the source of a key being used. It is usually included in the second last block of the message."
+    },
+    {
+        "question": "Running key cipher is an example of _______________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Running key cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in running key cipher is done using _______________",
+        "options": [
+            "a) running key table",
+            "b) vigenere cycle",
+            "c) tabula recta",
+            "d) any table provided by the person performing the encryption"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text in running key cipher is done by making use of tabula recta. The same table is also used for encryption in vigenere cipher."
+    },
+    {
+        "question": "Which of the following cipher uses a key book or a key text instead of a keyword?",
+        "options": [
+            "a) vigenere cipher",
+            "b) autokey cipher",
+            "c) running key cipher",
+            "d) affine cipher"
+        ],
+        "answer": "c",
+        "explanation": "Running key cipher is a poly alphabetic cipher. It uses a key book or key text instead of a keyword which is agreed by both parties before encryption takes place."
+    },
+    {
+        "question": "Which of the following is a difference between running key cipher and vigenere cipher?",
+        "options": [
+            "a) they use different tables for encryption",
+            "b) vigenere cipher is poly alphabetic whereas running key cipher is mono alphabetic",
+            "c) in vigenere cipher the key is repeated whereas in running key cipher key is not repeated",
+            "d) vigenere cipher was used in ancient time whereas running key cipher is used in modern world"
+        ],
+        "answer": "c",
+        "explanation": "In running key cipher key is not repeated unlike vigenere cipher. They both use the same table for encryption."
+    },
+    {
+        "question": "Tabula recta consists of _______________",
+        "options": [
+            "a) 26 rows and 26 columns",
+            "b) 26 rows and 1 column",
+            "c) 1 row and 26 columns",
+            "d) 27 rows and 27 columns"
+        ],
+        "answer": "a",
+        "explanation": "Encryption of plain text using running key cipher is done by making use of tabula recta. It consists of 26 rows and 26 columns which have alphabets written 26 times. These are shifted towards left after each row."
+    },
+    {
+        "question": "Running key cipher is harder to decipher than keyword cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Keyword cipher is less secure than running key cipher. It is due to the fact that keyword cipher is mono alphabetic and thus can be cracked using frequency analysis. But running key cipher being a poly alphabetic cipher is harder to crack."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cKEPWSN\u201d if running key cipher is used with keyword as \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) SECRET",
+            "b) QWERTY",
+            "c) INDIAN",
+            "d) FRIEND"
+        ],
+        "answer": "a",
+        "explanation": "Running key cipher is a type of poly alphabetic substitution which uses tabula recta for making substitutions in the plain text. Using the table we find the plain text to be \u201cSECRET\u201d."
+    },
+    {
+        "question": "Running key cipher is a transposition cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Running key cipher is a poly alphabetic substitution cipher. Encryption is done by using tabula recta."
+    },
+    {
+        "question": "Running key cipher is a variation of?",
+        "options": [
+            "a) vigenere cipher",
+            "b) autokey cipher",
+            "c) hill cipher",
+            "d) route cipher"
+        ],
+        "answer": "a",
+        "explanation": "Vigenere cipher is a variation of vigenere cipher. The only difference between them is that in vigenere cipher a random key is chosen whereas in running key cipher key is chosen from a book or a text."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cSANFOUNDRY\u201d if running key cipher is used for encryption with keyword as \u201cONCEUPONATIME\u201d?",
+        "options": [
+            "a) GNPJIJBQRR",
+            "b) GNPIJJBRRQ",
+            "c) GPNJJOBQRR",
+            "d) GJJNPOBQRI"
+        ],
+        "answer": "a",
+        "explanation": "Encryption in running key cipher takes place exactly as in vigenere cipher if we don\u2019t include the indicator block. So by using the tabula recta we can find the encrypted text which is \u201cGNPJIJBQRR\u201d."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cALGORITHM\u201d if running key cipher is used for encryption with keyword as \u201cDATASTRUCTURE\u201d?",
+        "options": [
+            "a) LDJOZOBBK",
+            "b) DLZOJBKBO",
+            "c) ZOLDJBKBO",
+            "d) OLZBJDKBO"
+        ],
+        "answer": "b",
+        "explanation": "Encryption in running key cipher takes place exactly as in vigenere cipher if we don\u2019t include the indicator block. So by using the tabula recta we can find the encrypted text which is \u201cDLZOJBKBO\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cIWRWHS\u201d if running key cipher is used with keyword as \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) SECRET",
+            "b) QWERTY",
+            "c) INDIAN",
+            "d) FRIEND"
+        ],
+        "answer": "b",
+        "explanation": "Running key cipher is a type of poly alphabetic substitution which uses tabula recta for making substitutions in the plain text. Using the table we find the plain text to be \u201cQWERTY\u201d."
+    }
+]

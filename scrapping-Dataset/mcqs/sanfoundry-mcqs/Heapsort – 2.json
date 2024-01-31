@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Heap sort is an implementation of ____________ using a descending priority queue.",
+        "options": [
+            "a) insertion sort",
+            "b) selection sort",
+            "c) bubble sort",
+            "d) merge sort"
+        ],
+        "answer": "b",
+        "explanation": "Heap sort is an implementation of selection sort using the input array as a heap representing a descending priority queue. Heap sort algorithm is divided into two phase. In first phase the max-heap is created and the second phase (selection phase) deletes the elements from the priority queue using siftdown operation."
+    },
+    {
+        "question": "Which one of the following is false?",
+        "options": [
+            "a) Heap sort is an in-place algorithm",
+            "b) Heap sort has O(nlogn) average case time complexity",
+            "c) Heap sort is stable sort",
+            "d) Heap sort is a comparison-based sorting algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Heap sort is a comparison based sorting algorithm and has time complexity O(nlogn) in the average case. Heap sort is an in-place algorithm as it needs O(1) of auxiliary space. Heap sort uses heap and operations on heap can change the relative order of items with the same key values. Therefore, Heap sort is not a stable sort."
+    },
+    {
+        "question": "The essential part of Heap sort is construction of max-heap. Consider the tree shown below, the node 24 violates the max-heap property. Once heapify procedure is applied to it, which position will it be in?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 8",
+            "d) 9"
+        ],
+        "answer": "d",
+        "explanation": " In max-heap element at each node is smaller than or equal to the element at its parent node. On applying the heapify procedure on item at position 2, it will be in position 9 as shown below."
+    },
+    {
+        "question": "The descending heap property is ___________",
+        "options": [
+            "a) A[Parent(i)] = A[i]",
+            "b) A[Parent(i)] <= A[i]",
+            "c) A[Parent(i)] >= A[i]",
+            "d) A[Parent(i)] > 2 * A[i]"
+        ],
+        "answer": "c",
+        "explanation": "The max-heap is also known as descending heap. Max-heap of size n is an almost complete binary tree of n nodes such that the element at each node is less than or equal to the element at its parent node."
+    },
+    {
+        "question": "What is its wort case time complexity of Heap sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "In Heap sort, the call to procedure build_Max-heap takes O(n) time and each of O(n) calls to the function max_Heapify takes O(logn) time. So the worst case complexity of Heap sort is O(nlogn)."
+    },
+    {
+        "question": "In average case Heap sort is as efficient as the Quick sort.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort is more efficient than Heap sort because experiments indicate that Heap sort requires twice as much time as Quick sort for randomly sorted input."
+    },
+    {
+        "question": "Choose the correct option to fill? X so that the code given below implements the Heap sort.",
+        "options": [],
+        "answer": "c",
+        "explanation": "Steps in heap sort are : (i) Build the max-heap, (ii) Swap the root element with the last element of the heap, (iii) Reduce the size of heap by 1 and heapify the root element, (iv) Repeat the steps form step number (v) until all the elements are sorted. Therefore the correct option is swap(arr[0], arr[i])."
+    },
+    {
+        "question": "Which one of the following is a variation of Heap sort?",
+        "options": [
+            "a) Comb sort",
+            "b) Smooth sort",
+            "c) Binary tree sort",
+            "d) Shell sort"
+        ],
+        "answer": "b",
+        "explanation": "Smooth sort is a variation of Heap sort. Smooth sort has O(nlogn) worst case time complexity like Heap sort. But Smooth sort takes O(n) time to sort the nearly sorted input array."
+    },
+    {
+        "question": "Introsort algorithm is combination of _____________",
+        "options": [
+            "a) Quick sort and Heap sort",
+            "b) Quick sort and Shell sort",
+            "c) Heap sort and Merge sort",
+            "d) Heap sort and insertion sort"
+        ],
+        "answer": "a",
+        "explanation": "Introsort is a hybrid sorting algorithm that combines Quick sort and Heap sort to retain advantages of both. It has worst case speed of Heap sort and average case speed of Quick sort."
+    },
+    {
+        "question": "How many elements can be sorted in O(logn) time using Heap sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(n/2)",
+            "c) O(logn/log(logn))",
+            "d) O(logn)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of Heap sort is O(klogk) for k input elements,"
+    }
+]

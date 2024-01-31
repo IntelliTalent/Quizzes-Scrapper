@@ -1,0 +1,101 @@
+[
+    {
+        "question": "In order to make a luggage security alarm, a single _____ is used.",
+        "options": [
+            "a) NOR gate",
+            "b) NAND gate",
+            "c) X-NOR gate",
+            "d) XOR gate"
+        ],
+        "answer": "b",
+        "explanation": "The NAND gate consists of two inputs and if both of them are high the output is low. A luggage security alarm circuit is a system which is based on the NAND gate. It is used to generate an alarm when any authorized person tries to steal the luggage."
+    },
+    {
+        "question": "In Boolean algebra, the data is a bit-representation of information consists of _________",
+        "options": [
+            "a) 0 and 1",
+            "b) 2 and 5",
+            "c) 1 and 15",
+            "d) 4 and 8"
+        ],
+        "answer": "a",
+        "explanation": "The data, in boolean algebra must be in a bit-representation form which can be in between two values 0 and 1."
+    },
+    {
+        "question": "Using which component a shift register is implemented?",
+        "options": [
+            "a) register",
+            "b) transistor",
+            "c) latch",
+            "d) flip-flop"
+        ],
+        "answer": "d",
+        "explanation": "A shift register, in digital circuitry, is a combination of two or more flip-flops to share the bits of information by using the same clock. A shift register can have both parallel and serial inputs and outputs."
+    },
+    {
+        "question": "How many NAND gates are required to make an XOR gate?",
+        "options": [
+            "a) 7",
+            "b) 12",
+            "c) 4",
+            "d) 8"
+        ],
+        "answer": "c",
+        "explanation": "An XOR gate is created by using four NAND gates. This construction gives a propagation delay three times to that of a single NAND gate."
+    },
+    {
+        "question": "In Multiplexer gate, for selecting the inputs, two bits named _____ and _____ are required generally.",
+        "options": [
+            "a) selector bit, data bit",
+            "b) parity bit. Generator bit",
+            "c) input bit, inverted bit",
+            "d) raising bit, sinking bit"
+        ],
+        "answer": "a",
+        "explanation": "In multiplexer gate for selecting the inputs say, for 3 input bits, one bit is required as selector bit and two other bits are required as data bits."
+    },
+    {
+        "question": "In which logic gate the output state is usually the complement of the input state?",
+        "options": [
+            "a) NOT gate",
+            "b) NOR gate",
+            "c) X-NOR gate",
+            "d) OR gate"
+        ],
+        "answer": "a",
+        "explanation": "NOT gate is the simplest digital logic circuit which is also called an inverter because it takes the input in 0 or 1 form and gives the output as the complement of the input."
+    },
+    {
+        "question": "In OR gate for 13 numbers of inputs what are the stages possible for it?",
+        "options": [
+            "a) 1239",
+            "b) 213",
+            "c) 13",
+            "d) 1387"
+        ],
+        "answer": "b",
+        "explanation": "OR gate works in a way such that if any of the input is binary low(or 0), the output of the gate is binary 1(or high). Here, the number of stage possible = 2"
+    },
+    {
+        "question": "Which of the following is built exclusively from NOR gate?",
+        "options": [
+            "a) Plant guard machine",
+            "b) Apollo Guidance Computer",
+            "c) Street market app",
+            "d) Dish washer"
+        ],
+        "answer": "b",
+        "explanation": "The first embedded system is the Apollo Guidance Computer which was built exclusively from NOR gates. A logically inverted OR gate is a NOR gate and it can have two or more inputs."
+    },
+    {
+        "question": "Which of the following gates is used to implement a logical conditional?",
+        "options": [
+            "a) OR gate",
+            "b) Magnetic logic gate",
+            "c) XOR gate",
+            "d) IMPLY gate"
+        ],
+        "answer": "d",
+        "explanation": "The IMPLY gate is a digital logic gate that is used to implements logical conditional. Two symbols are used to represent the IMPLY gates \u2192 the traditional symbol and the IEEE symbol. IMPLY gate can be made by two memristors."
+    }
+]

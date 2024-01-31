@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which of these return a result to the client?",
+        "options": [
+            "a) Stored functions",
+            "b) Stored procedures",
+            "c) Triggers",
+            "d) Events"
+        ],
+        "answer": "a",
+        "explanation": "Stored functions return a result from a calculation and can be used in expressions. Stored procedures do not return a result directly but can be used to perform general computations."
+    },
+    {
+        "question": "Which of these is defined to execute when the table is modified only?",
+        "options": [
+            "a) Stored functions",
+            "b) Stored procedures",
+            "c) Triggers",
+            "d) Events"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, triggers are associated with a table. They are defined to execute when the table is modified via INSERT, DELETE or UPDATE statements. MySQL supports objects to be stored on server side."
+    },
+    {
+        "question": "What executes on a time activated basis according to a schedule?",
+        "options": [
+            "a) Stored program",
+            "b) Events",
+            "c) Triggers",
+            "d) Stored procedures"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the events execute on a time activated basis according to a schedule. Triggers are defined to execute when the table is modified via INSERT, DELETE or UPDATE statements."
+    },
+    {
+        "question": "Stored programs improve database security.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Stored programs improve database security because controlled access can be enabled to sensitive data by appropriate selection of the privileges a program has when it executes."
+    },
+    {
+        "question": "Which character does the mysql client program recognize as a statement delimiter?",
+        "options": [
+            "a) :",
+            "b) .",
+            "c) ;",
+            "d) ,"
+        ],
+        "answer": "c",
+        "explanation": "By default, mysql itself recognizes the semicolon as a statement delimiter, so the delimiter must be redefined temporarily to cause mysql to pass the entire stored program definition to the server."
+    },
+    {
+        "question": "Which command is used to redefined the mysql delimiter?",
+        "options": [
+            "a) redefine_delim",
+            "b) delim_redefine",
+            "c) delimiter",
+            "d) redefine"
+        ],
+        "answer": "c",
+        "explanation": "To redefine the mysql delimiter, the delimiter command is used. A delimiter is a sequence of characters. It specifies the boundary between the separate regions in data streams."
+    },
+    {
+        "question": "Which of the following characters cannot be used as a delimiter?",
+        "options": [
+            "a) ,",
+            "b) .",
+            "c) ;",
+            "d) \\"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the character backslash character is reserved for specifying escape sequences. For example, the escape sequence \u2018\\t\u2019 specifies a tab space character. It cannot be used as a delimiter."
+    },
+    {
+        "question": "Stored routines refers to stored functions and procedures.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the stored routines is a limited term. It refers only to the stored functions and procedures. Both types of objects are defined using the similar syntax and are discussed together."
+    },
+    {
+        "question": "Stored programs refer to stored objects of how many of the following types?",
+        "options": [],
+        "answer": "d",
+        "explanation": "In MySQL, the \u201cstored programs\u201d refers collectively to the stored objects of all types, namely, the functions, procedures, triggers, and events. They improve database security."
+    },
+    {
+        "question": "Which of the following statements does not modify the table?",
+        "options": [
+            "a) INSERT",
+            "b) UPDATE",
+            "c) DELETE",
+            "d) SELECT"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the \u2018SELECT\u2019 statement is used to display the tables or their components according to some specified conditions and clauses. It does not modify the table unlike the others."
+    }
+]

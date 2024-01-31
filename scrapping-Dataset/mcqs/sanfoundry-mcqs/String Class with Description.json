@@ -1,0 +1,58 @@
+[
+    {
+        "question": "What is the String in C# meant for?",
+        "options": [
+            "a) Variable",
+            "b) Character Array",
+            "c) Object",
+            "d) Class"
+        ],
+        "answer": "c",
+        "explanation": "C# Supports a predefined reference type known as string. When we declare a string using string type we are declaring the object to be of type \u201cSystem.String\u201d."
+    },
+    {
+        "question": "What does the term \u2018immutable\u2019 means in term of string objects?",
+        "options": [
+            "a) We can modify characters included in the string",
+            "b) We cannot modify characters contained in the string",
+            "c) We cannot perform various operation of comparison, inserting, appending etc",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "String objects are \u2018immutable\u2019 means we cannot modify the characters contained in string. Also operation on string produce a modified version of string rather then modifying characters of string."
+    },
+    {
+        "question": "To perform comparison operation on strings supported operations are ____________",
+        "options": [
+            "a) Compare()",
+            "b) Equals()",
+            "c) Assignment \u2018==\u2019 operator",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "\u2018I\u2019 = index position[6], \u2018l\u2019 = index position[2]. So, I \u2013 l = 6-2 = 4*(index position of p = 18) = 72. Character with ASCII Value 72 = \u2018H\u2019."
+    },
+    {
+        "question": "Correct way to convert a string to uppercase using string class method()?",
+        "options": [
+            "a) Upper()",
+            "b) ToUpper()",
+            "c) Object.ToUpper()",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "string s1 = \u201cHello I Love Csharp \u201c;"
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Equal() checks if two string objects \u2018obj\u2019 and \u2018obj2\u2019 are equal or not and hence returns true or false. Similarly, \u201cCompareTo\u201d operator check two objects and since string obj2 = obj, it returns bool value \u20180\u2019. Hence, they are equal."
+    }
+]

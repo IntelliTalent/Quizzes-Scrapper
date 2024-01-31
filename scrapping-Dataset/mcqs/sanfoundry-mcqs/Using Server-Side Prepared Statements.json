@@ -1,0 +1,103 @@
+[
+    {
+        "question": "To how many of the following does the prepared-statement API apply to?",
+        "options": [],
+        "answer": "d",
+        "explanation": "All statements cannot be prepared. The prepared-statement API applies to the statements: CREATE TABLE, DELETE, DO, INSERT, REPLACE, SELECT, SET, UPDATE and most variations of SHOW."
+    },
+    {
+        "question": "The binary protocol does not support all statements.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The binary protocol is more difficult to use because more setup is necessary for transmitting and receiving data values. The binary protocol does not support all statements, for example, \u2018USE\u2019."
+    },
+    {
+        "question": "The binary protocol is more difficult to use.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The binary protocol is more difficult to use because more setup is necessary for transmitting and receiving data values. The binary protocol does not support all statements like \u2018USE\u2019."
+    },
+    {
+        "question": "The maximum collations a character set can have is ______________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) more than 1"
+        ],
+        "answer": "d",
+        "explanation": "The MySQL server allows simultaneous use of multiple character sets. A given character set is allowed to have one or more collations. It can be chosen according to the need of the database."
+    },
+    {
+        "question": "A synonym for CHARACTER SET is ______________",
+        "options": [
+            "a) CSET",
+            "b) CHSET",
+            "c) CHARSET",
+            "d) CHCSET"
+        ],
+        "answer": "c",
+        "explanation": "\u2018CHARACTER SET\u2019 can be abbreviated into \u2018CHARSET\u2019 and can be used in the same contexts and statements where \u2018CHARACTER SET\u2019 is used. \u2018charset\u2019 is the server-supported character set."
+    },
+    {
+        "question": "The statement used to select a default database is ______________",
+        "options": [
+            "a) USE",
+            "b) CREATE",
+            "c) DROP",
+            "d) SCHEMA"
+        ],
+        "answer": "a",
+        "explanation": "MySQL has the facility to use various statements specifically at the database level. For selecting a default database, the keyword or clause used is the \u2018USE\u2019 statement."
+    },
+    {
+        "question": "The statement that makes changes to the global attributes of the database is ______________",
+        "options": [
+            "a) CHANGE",
+            "b) ALTER",
+            "c) ALTERNATE",
+            "d) UPDATE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018ALTER TABLE\u2019 statement is used to make changes to global attributes of the database. This statement is followed by the name of the database, character set and collation."
+    },
+    {
+        "question": "The statement used to remove indexes on tables is ______________",
+        "options": [
+            "a) DROP INDEX",
+            "b) DELETE INDEX",
+            "c) REMOVE INDEX",
+            "d) FLUSH INDEX"
+        ],
+        "answer": "a",
+        "explanation": "MySQL provides statements to change the structure of tables. To add or remove the indexes on the existing database tables, the \u2018CREATE INDEX\u2019 and \u2018DROP INDEX\u2019 tables are used."
+    },
+    {
+        "question": "The statement used to change the table name is __________",
+        "options": [
+            "a) RENAME",
+            "b) CHANGE",
+            "c) CHANGENAME",
+            "d) CHANGENM"
+        ],
+        "answer": "a",
+        "explanation": "To change the name of a table, the keyword \u2018RENAME\u2019 can be used. It can be used with the \u2018ALTER TABLE\u2019 clause. It can also be used as a statement in itself like \u2018RENAME TABLE old_tbl new_tbl\u2019."
+    },
+    {
+        "question": "What is the general term for information about databases and the objects in MySQL?",
+        "options": [
+            "a) datum",
+            "b) info",
+            "c) record",
+            "d) metadata"
+        ],
+        "answer": "d",
+        "explanation": "There are various ways in which MySQL facilitates the methods to obtain information about databases and the objects in them. For example, \u2018SHOW\u2019 statements and \u2018INFORMATION_SCHEMA\u2019."
+    }
+]

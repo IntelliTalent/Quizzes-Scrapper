@@ -1,0 +1,201 @@
+[
+    {
+        "question": "What is CSS?",
+        "options": [
+            "a) CSS is a style sheet language",
+            "b) CSS is designed to separate the presentation and content, including layout, colors, and fonts",
+            "c) CSS is the language used to style the HTML documents",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "CSS is a style sheet language that stands for Cascading Style Sheet and is used to style HTML documents. CSS is mainly designed to separate the presentation and content, including layout, colors, and fonts."
+    },
+    {
+        "question": "Which of the following tag is used to embed css in html page?",
+        "options": [
+            "a) <css>",
+            "b) <!DOCTYPE html>",
+            "c) <script>",
+            "d) <style>"
+        ],
+        "answer": "d",
+        "explanation": "<style> </style> tag is used to embed CSS in HTML page, while <script> </script> is used to embed JS in HTML. <!DOCTYPE html> is HTML5 declaration."
+    },
+    {
+        "question": "Which of the following CSS selectors are used to specify a group of elements?",
+        "options": [
+            "a) tag",
+            "b) id",
+            "c) class",
+            "d) both class and tag"
+        ],
+        "answer": "c",
+        "explanation": "Class selectors are used to specify a group of elements. Id selector specifies a particular unique element."
+    },
+    {
+        "question": "Which of the following has introduced text, list, box, margin, border, color, and background properties?",
+        "options": [
+            "a) HTML",
+            "b) PHP",
+            "c) CSS",
+            "d) Ajax"
+        ],
+        "answer": "c",
+        "explanation": "CSS is a style sheet language that stands for Cascading Style Sheet. CSS has introduced text, list, box, margin, border, color, and background properties."
+    },
+    {
+        "question": "Which of the following CSS framework is used to create a responsive design?",
+        "options": [
+            "a) django",
+            "b) rails",
+            "c) larawell",
+            "d) bootstrap"
+        ],
+        "answer": "d",
+        "explanation": "Bootstrap is a free and open-source collection of tools for creating websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. It aims to ease the development of dynamic websites and web applications."
+    },
+    {
+        "question": "Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
+        "options": [
+            "a) tag",
+            "b) id",
+            "c) class",
+            "d) both class and tag"
+        ],
+        "answer": "b",
+        "explanation": "For binding a particular unique element, id selectors are used. While for a group of elements, class selector can be used."
+    },
+    {
+        "question": "Which of the following type of HTML tag is used to define an internal style sheet?",
+        "options": [
+            "a) <script>",
+            "b) <link>",
+            "c) <class>",
+            "d) <style>"
+        ],
+        "answer": "d",
+        "explanation": "<style> tag is used to define an internal style sheet in HTML document."
+    },
+    {
+        "question": "Which of the following CSS property is used to make the text bold?",
+        "options": [
+            "a) text-decoration: bold",
+            "b) font-weight: bold",
+            "c) font-style: bold",
+            "d) text-align: bold"
+        ],
+        "answer": "b",
+        "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser."
+    },
+    {
+        "question": "What will be the output of following CSS code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Output of the above code snippet won\u2019t happen as the declaration syntax is wrong. The correct declaration is : h1 { color: green; } which will yield an output. In CSS, we don\u2019t write the value in double quotes."
+    },
+    {
+        "question": "Which of the following CSS style property is used to specify an italic text?",
+        "options": [
+            "a) style",
+            "b) font",
+            "c) font-style",
+            "d) @font-face"
+        ],
+        "answer": "c",
+        "explanation": "font-style property is used to specify an italic text. font-style property has three values (normal, italic & oblique)."
+    },
+    {
+        "question": "What will be the output of following CSS code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "In this case, we should see the browser continue to parse the value of color as \u201cred text-decoration: underline\u201d before it sees a closing semicolon. The font-style property that follows would then be used. Because the color property has an illegal value, it should be ignored."
+    },
+    {
+        "question": "Which of the following are the CSS Extension Prefixes for Webkit?",
+        "options": [
+            "a) -chrome",
+            "b) -web",
+            "c) -o-",
+            "d) -webkit"
+        ],
+        "answer": "d",
+        "explanation": "Browser sometimes adds prefixes to non-standard CSS properties. CSS Extension prefix for Webkit is -webkit which is supported by almost all ios browsers. -o is used by opera where as -moz is used by firefox browser."
+    },
+    {
+        "question": "Which of the following is the correct syntax to link an external style sheet in the HTML file?",
+        "options": [
+            "a) <link rel=\u201dstylesheet\u201d href=\u201dstyle.css\u201d />",
+            "b) <link rel=\u201dstylesheet\u201d src=\u201dstyle.css\u201d />",
+            "c) <style rel=\u201dstylesheet\u201d src=\u201dstyle.css\u201d />",
+            "d) <style rel=\u201dstylesheet\u201d link=\u201dstyle.css\u201d />"
+        ],
+        "answer": "a",
+        "explanation": "HTML file must contain a reference to the external style sheet file. External style sheet files are defined within the <link> element and it should be inside the <head> section. href attribute specifies the URL of the linked resource."
+    },
+    {
+        "question": "Which of the following is the first CSS specification to become an official W3C Recommendation?",
+        "options": [
+            "a) CSS level 2",
+            "b) (X)HTML CSS",
+            "c) CSS level 1",
+            "d) CSS level 2.1"
+        ],
+        "answer": "c",
+        "explanation": "The first CSS specification to become an official W3C Recommendation is CSS level 1, published on December 17, 1996. H\u00e5kon Wium Lie and Bert Bos are credited as the original developers."
+    },
+    {
+        "question": "Which of the following function defines a linear gradient as a CSS image?",
+        "options": [
+            "a) gradient()",
+            "b) linear-gradient()",
+            "c) grayscale()",
+            "d) image()"
+        ],
+        "answer": "b",
+        "explanation": "linear-gradient() function defines a linear gradient as a CSS image. Creating a linear gradient function we should define minimum of two color stops. color stops will tell the browser which colors to use in the gradients for smooth transitions."
+    },
+    {
+        "question": "Which of the following CSS property can be used to set the image as a border instead of the border style?",
+        "options": [
+            "a) background-image-source",
+            "b) background-image",
+            "c) border-image-source",
+            "d) border-image"
+        ],
+        "answer": "c",
+        "explanation": "The border-image-source property specifies the path to the image to be used as a border (instead of the normal border around an element)."
+    },
+    {
+        "question": "Which of the following CSS property defines the different properties of all four sides of an element\u2019s border in a single declaration?",
+        "options": [
+            "a) border-collapse",
+            "b) border-width",
+            "c) padding",
+            "d) border"
+        ],
+        "answer": "b",
+        "explanation": "The border-width property sets the width of an element\u2019s four borders. This property can have from one to four values."
+    },
+    {
+        "question": "Which of the following is the correct way to apply CSS Styles?",
+        "options": [
+            "a) in an external CSS file",
+            "b) inside an HTML element",
+            "c) inside the <head> section of an HTML page",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "We can style the document using CSS in three different ways i.e embed, inline and external. An inline CSS means applying styles rules directly to the HTML element. In embed, we declare or write all the needed style in <style></style> tag in the head section of the HTML document. We can create an external style sheet and provide its link to the document."
+    },
+    {
+        "question": "Which of the following CSS property sets the font size of text?",
+        "options": [
+            "a) font-size",
+            "b) text-size",
+            "c) text",
+            "d) size"
+        ],
+        "answer": "a",
+        "explanation": "CSS Syntax:"
+    }
+]

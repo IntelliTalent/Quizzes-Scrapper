@@ -1,0 +1,83 @@
+[
+    {
+        "question": "In GCM, we define S as S = GHASH(A||0^v||C||0^u||[len(A)]||[len(C)]). What is v defined as?",
+        "options": [
+            "a) 64 ceil[len (A)/128] \u2013 len (A)",
+            "b) 64 ceil[len (C)/128] \u2013 len (C)",
+            "c) 128 ceil[len (A)/128] \u2013 len (A)",
+            "d) 128 ceil[len (C)/128] \u2013 len (C)"
+        ],
+        "answer": "c",
+        "explanation": "v = 128 ceil[len (A)/128] \u2013 len (A)."
+    },
+    {
+        "question": "When the length of the IV is not 96, then",
+        "options": [
+            "a) we append the rest of the bits with 1*0 to make it 128 bits",
+            "b) we append the rest of the bits with 0*1 to make it 128 bits",
+            "c) we append the rest of the bits with 1*0 to make it 256 bits",
+            "d) we append the rest of the bits with 0s to make it 128 bits"
+        ],
+        "answer": "d",
+        "explanation": "If the length of the IV is not 96 then we append the rest of the bits with 0s to make it 128 bits. This is the first step followed by appending 64 bits furthermore and then performing the GHASH function."
+    },
+    {
+        "question": "Which is not true for Key-Wrapping?",
+        "options": [
+            "a) Used for small Plain Texts",
+            "b) It has a relatively higher throughput than other modes",
+            "c) It has block size of 64 bits",
+            "d) It has n+1 cipher blocks, for n plaintext block"
+        ],
+        "answer": "b",
+        "explanation": "Key-Wrapping has a lower throughput than other modes."
+    },
+    {
+        "question": "What is the value of A (0)?",
+        "options": [
+            "a) F9*",
+            "b) A9*",
+            "c) A6*",
+            "d) F6*"
+        ],
+        "answer": "c",
+        "explanation": "The size of A(0) is 64 bits and it has A6* as the basic hex value."
+    },
+    {
+        "question": "The cipher block is one block longer than the plaintext to accommodate the IV.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The cipher blocks has n+1 cipher blocks, for n plaintext blocks."
+    },
+    {
+        "question": "The key Wrapping Algorithm provides confidentiality and data integrity.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true."
+    },
+    {
+        "question": "Which of the following is a valid disadvantage of the PRNG based on MAC function?",
+        "options": [
+            "a) It has a high throughput",
+            "b) It takes twice the execution time",
+            "c) It is hardware intensive and can only work on high end processors",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It takes twice the execution time, because HMAC involves two executions of the underlying hash function for each output block."
+    },
+    {
+        "question": "\u201cSpecify in the correct order (from top to bottom), which Pseudo Random Number Generation schemes are represented here?",
+        "options": [
+            "i)"
+        ],
+        "answer": " d",
+        "explanation": "The correct order is NIST SP 800-90 ; IEEE 802.11 ; TLS/WTLS."
+    }
+]

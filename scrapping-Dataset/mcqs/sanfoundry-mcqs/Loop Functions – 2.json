@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "You can use lapply() to evaluate a function multiple times each with a different argument."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) The sapply() function behaves similarly to lapply()",
+            "b) With multiple factors and many levels, creating an interaction can result in many levels that are empty",
+            "c) apply() can be thought of as a combination of split() and sapply() for vectors only",
+            "d) You can use tsplit() to evaluate a function single time each with a same argument"
+        ],
+        "answer": "c",
+        "explanation": "tapply() can be thought of as a combination of split() and sapply() for vectors only."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the above question, the first argument of runif() is n, and so the elements of the sequence 1:4 all got passed to the n argument of runif()."
+    },
+    {
+        "question": "Which of the following R code will print the following result?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Once the call to lapply() is finished, the function disappears and does not appear in the workspace."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) split() takes elements of the list and passes them as the first argument of the function you are applying",
+            "b) You can use tsplit() to evaluate a function single time each with a same argument",
+            "c) Sequence of operations is sometimes referred to as \u201cmap-reduce\u201d",
+            "d) apply() can be thought of as a combination of split() and sapply() for vectors only"
+        ],
+        "answer": "c",
+        "explanation": "The results of applying the function over the subsets are then collated and returned as an object."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "You can put an arbitrarily complicated function definition inside lapply()."
+    },
+    {
+        "question": "The _____ function takes a vector or other objects and splits it into groups determined by a factor or list of factors.",
+        "options": [
+            "a) apply()",
+            "b) lsplit()",
+            "c) split()",
+            "d) mapply()"
+        ],
+        "answer": "c",
+        "explanation": "The combination of split() and a function like lapply() or sapply() is a common paradigm in R."
+    },
+    {
+        "question": "Which of the following is valid body of split function?",
+        "options": [
+            "a) function (x, f)",
+            "b) function (x, drop = FALSE, \u2026)",
+            "c) function (x, f, drop = FALSE, \u2026)",
+            "d) function (drop = FALSE, \u2026)"
+        ],
+        "answer": "c",
+        "explanation": "x is a vector (or list) or data frame."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Whether you use an anonymous function or you define a function first depends on your context."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "sapply() collapsed the output into a numeric vector, which is often more useful than a list."
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Name the exception thrown by read() on failure.",
+        "options": [
+            "a) InterruptedException",
+            "b) SystemException",
+            "c) SystemInputException",
+            "d) I/O Exception"
+        ],
+        "answer": "d",
+        "explanation": "read() throws I/O exception on failure."
+    },
+    {
+        "question": "Which of these methods are used to read single character from the console?",
+        "options": [
+            "a) get()",
+            "b) getline()",
+            "c) read()",
+            "d) readLine()"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these method used to read strings from the console?",
+        "options": [
+            "a) get()",
+            "b) getline()",
+            "c) read()",
+            "d) readLine()"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following methods are used to write characters to a string?",
+        "options": [
+            "a) StreamWriter",
+            "b) StreamReader",
+            "c) StringWriter",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The stream class method writes characters to the string."
+    },
+    {
+        "question": "Which method in Console enables to read individual inputs directly from the keyboard in a non line buffered manner?",
+        "options": [
+            "a) Read()",
+            "b) ReadKey()",
+            "c) ReadLine()",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The .NET Framework includes a method in Console that enables you to read individual keystrokes directly from the keyboard, in a non-line-buffered manner. This method is called ReadKey(). When it is called, it waits until a key is pressed. When the key is pressed, ReadKey( ) returns the keystroke immediately."
+    },
+    {
+        "question": "What is the output returned by Console if ReadLine() stores I/O error?",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) False",
+            "d) I/O EXCEPTION ERROR"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output for following input from the console as a character?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Since only a single character is required to be entered on console when a string is entered, a run time exception is being generated as we had not used Read() which reads single character but used readLine() which reads string and is converted into the char using convert.tochar()."
+    },
+    {
+        "question": "Name the method/methods used to read byte streams from the file?",
+        "options": [
+            "a) ReadByte()",
+            "b) Read",
+            "c) Readkey()",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these classes are used by Byte streams for input and output operation?",
+        "options": [
+            "a) InputStream",
+            "b) InputOutputStream",
+            "c) Reader",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Byte stream uses InputStream and OutputStream classes for input and output operation."
+    },
+    {
+        "question": "Which of these method/methods are used to read block or array of bytes from the file?",
+        "options": [
+            "a) Read()",
+            "b) ReadByte()",
+            "c) ReadLine()",
+            "d) Readkey()"
+        ],
+        "answer": "a",
+        "explanation": "To read a block of bytes, use Read( ), which has this general form:"
+    }
+]

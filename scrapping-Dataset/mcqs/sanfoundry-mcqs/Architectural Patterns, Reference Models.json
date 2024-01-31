@@ -1,0 +1,167 @@
+[
+    {
+        "question": "What makes a good architecture?",
+        "options": [
+            "a) The architecture may not be the product of a single architect or a small group",
+            "b) The architect should have the technical requirements for the system and an articulated and prioritized list of qualitative properties",
+            "c) The architecture may not be well documented",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The architecture should be the product of a single architect or a small group, The architecture should be well documented."
+    },
+    {
+        "question": "What does a typical top level architecture consists of?",
+        "options": [
+            "a) Prop Loss Model(MOPD)",
+            "b) Reverb Model(MODR)",
+            "c) Control Process",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A typical top level architecture consists of all the mentioned components."
+    },
+    {
+        "question": "Which among the following are valid questions raised for the top level architectural model?",
+        "options": [
+            "a) What is the nature of components?",
+            "b) What is the significance of the links?",
+            "c) What is the significance of the layout?",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the valid questions."
+    },
+    {
+        "question": "Which of the following are correct statements?",
+        "options": [
+            "a) An architecture may or may not defines components",
+            "b) An architecture is not dependable on requirements",
+            "c) An architecture is foremost an abstraction of a system that suppresses details of the components that do not affect how they are used",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An architecture defines components, An architecture is dependable on requirements."
+    },
+    {
+        "question": "What does \u201cEvery software system has an architecture\u201d implies?",
+        "options": [
+            "a) System itself is a component",
+            "b) Architecture an exist independently of its description or specification",
+            "c) All the system to be stable should posses an architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All the system to be stable should posses an architecture, a system without architecture is unstable hence  every software system has an architecture."
+    },
+    {
+        "question": "What is architectural style?",
+        "options": [
+            "a) Architectural style is a description of component types",
+            "b) It is a pattern of run-time control",
+            "c) It is set of constraints on architecture",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "An architectural style is a description of component types and pattern of run-time control, It is set of constraints on architecture."
+    },
+    {
+        "question": "What is a Reference Model?",
+        "options": [
+            "a) It is a division of functionality together with data flow between the pieces",
+            "b) It is a description of component types",
+            "c) It is standard decomposition of a known problem into parts that cooperatively solve a problem",
+            "d) It is a division of functionality together with data flow between the pieces, It is standard decomposition of a known problem into parts that cooperatively solve a problem"
+        ],
+        "answer": "d",
+        "explanation": "A reference model is division of functionality together with data flow between the pieces and standard decomposition of a known problem into parts that cooperatively solve a problem."
+    },
+    {
+        "question": "What is Reference architecture?",
+        "options": [
+            "a) It is a reference model mapped onto software components",
+            "b) It provided data flow with comments",
+            "c) It provides data  flow with pieces",
+            "d) It is a reference model mapped onto software components & data flow with comments"
+        ],
+        "answer": "d",
+        "explanation": "Reference architecture is a reference model mapped onto software components and data flow with components."
+    },
+    {
+        "question": "Which of the following is incorrect for Reference model, architectural styles and reference architecture?",
+        "options": [
+            "a) They are not architectures",
+            "b) They are useful steps towards an architecture",
+            "c) They are set of early design decisions",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct."
+    },
+    {
+        "question": "Which of the following can be considered regarding client and server?",
+        "options": [
+            "a) Client and server is an architectural style",
+            "b) Client and server may be considered as an architectural style",
+            "c) Client and server is not an architectural style",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Client and server is an architectural style."
+    },
+    {
+        "question": "Which of the statements truly concludes client and server relation with architectural styles?",
+        "options": [
+            "a) They are component types and their coordination is described in terms of protocols that server uses to communicate with each of its clients",
+            "b) Multiple client cannot exist at an instance",
+            "c) Architecture are countless for client and server but their architectural styles are different",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Multiple client can exist at an instance and Architectural styles are countless for client and server but their architectures are different."
+    },
+    {
+        "question": "Which of the following is incorrect?",
+        "options": [
+            "a) A reference model divides the functionality",
+            "b) A reference architecture is the mapping of that functionality onto system decomposition",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct."
+    },
+    {
+        "question": "What truly describes the reference architecture decomposition?",
+        "options": [
+            "a) A reference architecture is the mapping of that functionality onto system decomposition may be one to one",
+            "b) A reference architecture is the mapping of that functionality onto system decomposition is many to one",
+            "c) A reference architecture is the mapping of that functionality onto system decomposition is many to many",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A reference architecture is the mapping of that functionality onto system decomposition may be one to one."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Architecture is low level design",
+            "b) Architecture is mid level design",
+            "c) Architecture is high level design",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Architecture is high level design."
+    },
+    {
+        "question": "What is Architecture?",
+        "options": [
+            "a) Architecture is components",
+            "b) Architecture is connectors",
+            "c) Architecture is constraints",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Architecture is components,connectors and constraints."
+    }
+]

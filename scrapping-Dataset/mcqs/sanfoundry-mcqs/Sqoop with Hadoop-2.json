@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_________  tool can list all the available database schemas.",
+        "options": [
+            "a) sqoop-list-tables",
+            "b) sqoop-list-databases",
+            "c) sqoop-list-schema",
+            "d) sqoop-list-columns"
+        ],
+        "answer": "b",
+        "explanation": "Sqoop also includes a primitive SQL execution shell (the sqoop-eval tool)."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The sqoop command-line program is a wrapper which runs the bin/hadoop script shipped with Hadoop",
+            "b) If $HADOOP_HOME is set, Sqoop will use the default installation location for Cloudera\u2019s Distribution for Hadoop",
+            "c) The active Hadoop configuration is loaded from $HADOOP_HOME/conf/, unless the $HADOOP_CONF_DIR environment variable is unset",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you have multiple installations of Hadoop present on your machine, you can select the Hadoop installation by setting the $HADOOP_HOME environment variable."
+    },
+    {
+        "question": "Data can be imported in maximum ______ file formats.",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can import data in one of two file formats: delimited text or SequenceFiles."
+    },
+    {
+        "question": "________ text is appropriate for most non-binary data types.",
+        "options": [
+            "a) Character",
+            "b) Binary",
+            "c) Delimited",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Delimited text is the default import format."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Avro data files are a compact, efficient binary format that provides interoperability with applications written in other programming languages",
+            "b) By default, data is compressed while importing",
+            "c) Delimited text also readily supports further manipulation by other tools, such as Hive",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can compress your data by using the deflate (gzip) algorithm with the -z or \u2013compress argument, or specify any Hadoop compression codec using the \u2013compression-codec argument."
+    },
+    {
+        "question": "If you set the inline LOB limit to ________ all large objects will be placed in external storage.",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "The size at which lobs spill into separate files is controlled by the \u2013inline-lob-limit argument, which takes a parameter specifying the largest lob size to keep inline, in bytes."
+    },
+    {
+        "question": "Sqoop can also import the data into Hive by generating and executing a ____________ statement to define the data\u2019s layout in Hive.",
+        "options": [
+            "a) SET TABLE",
+            "b) CREATE TABLE",
+            "c) INSERT TABLE",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Importing data into Hive is as simple as adding the \u2013hive-import option to your Sqoop command line."
+    },
+    {
+        "question": "The __________ tool imports a set of tables from an RDBMS to HDFS.",
+        "options": [
+            "a) export-all-tables",
+            "b) import-all-tables",
+            "c) import-tables",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Data from each table is stored in a separate directory in HDFS."
+    },
+    {
+        "question": "Which of the following argument is not supported by import-all-tables tool?",
+        "options": [
+            "a) \u2013class-name",
+            "b) \u2013package-name",
+            "c) \u2013database-name",
+            "d) \u2013table-name"
+        ],
+        "answer": "a",
+        "explanation": "You may, however, specify a package with \u2013package-name in which all generated classes will be placed."
+    }
+]

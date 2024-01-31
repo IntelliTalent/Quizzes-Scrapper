@@ -1,0 +1,112 @@
+[
+    {
+        "question": "To view a role\u2019s information, you must be explicitly granted the role or must have the _________ action on the role\u2019s database.",
+        "options": [
+            "a) viewUser",
+            "b) viewRole",
+            "c) grantRole",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The localhost exception allows you to enable authorization before creating the first user in the system."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) To provide user administrators, MongoDB has userAdmin and userAdminAnyDatabase roles",
+            "b) A user administrator can grant any privilege in the database and can create new ones",
+            "c) Specifically, a user with the userAdmin role can grant itself any privilege in the database",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A user assigned either the userAdmin role on the admin database or the userAdminAnyDatabase can grant itself any privilege in the system."
+    },
+    {
+        "question": "Grant the user the role using the ________ method.",
+        "options": [
+            "a) db.grantRole()",
+            "b) db.grantRolesToUser()",
+            "c) db.grantToUser()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the user requires additional privileges, grant to the user the role, or roles, with the required set of privileges."
+    },
+    {
+        "question": "Which of the following method is used to identify the privileges granted by the roles?",
+        "options": [
+            "a) rolesUser",
+            "b) rolesInfo",
+            "c) rolesView",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "db.getRole() wraps the rolesInfo command."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You must have the createUser action on a database to create a new user on that database",
+            "b) You must have the grantRole action on a role\u2019s database to grant the role to another user",
+            "c) If your MongoDB deployment has no users, you must connect to mongod using the localhost exception",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use \u2013noauth option when starting mongod to gain full access the system."
+    },
+    {
+        "question": "____________ removes a one or more roles from a user on the current database.",
+        "options": [
+            "a) db.revokeRolesUser()",
+            "b) db.revokeRoles()",
+            "c) db.revokeRolesFromUser()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To specify a role that exists in the same database where db.revokeRolesFromUser() runs, you can either specify the role with the name of the role."
+    },
+    {
+        "question": "You must have the __________ action on a database to revoke a role on that database.",
+        "options": [
+            "a) revokePrivelege",
+            "b) revokeUser",
+            "c) revokeRole",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "User can remove any role from any user from any database in the system."
+    },
+    {
+        "question": "You must have the _________ action on a database to modify the password of any user on that database.",
+        "options": [
+            "a) changePassword",
+            "b) changeAnyPassword",
+            "c) removePassword",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To change your own password, you must have the changeOwnPassword action on your database."
+    },
+    {
+        "question": "Which of the following can be used to generate unique strings for use in passwords?",
+        "options": [
+            "a) openssl",
+            "b) openssd",
+            "c) oppstringpwd",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use the openssl program to generate unique strings for use in passwords, as in the following command: openssl rand -base64 48"
+    },
+    {
+        "question": "The ________ field contains optional custom information about the user.",
+        "options": [
+            "a) customDataAll",
+            "b) OptmData",
+            "c) customData",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The system.users collection in the admin database stores user authentication and authorization information."
+    }
+]

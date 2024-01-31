@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following function is used for loading flat files?",
+        "options": [
+            "a) read.data",
+            "b) read.sheet",
+            "c) read.table",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This reads data in to the RAM."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) XLConnect package has more options for manipulating access files",
+            "b) XLConnect vignette package can also be used for manipulating excel files",
+            "c) write.xlsx write out an excel file with different argument",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "write.xlsx write out an excel file with similar argument."
+    },
+    {
+        "question": "Which of the following is an important parameter of read.table function?",
+        "options": [
+            "a) file",
+            "b) header",
+            "c) sep",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "More parameters are required for loading the data."
+    },
+    {
+        "question": "Which of the following will set the character that represents missing value?",
+        "options": [
+            "a) na.quote",
+            "b) na.strings",
+            "c) nrows",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "na.strings takes a character vector."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) data.table inherits from data.frame",
+            "b) data.table is written in Java",
+            "c) data.table is faster at subsetting and updating data",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "data.table is written in C."
+    },
+    {
+        "question": "Which of the following package is used for reading excel data?",
+        "options": [
+            "a) xlsx",
+            "b) xlsc",
+            "c) read.sheet",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "read.xlsx and read.xlsx functions are part of xlsx package."
+    },
+    {
+        "question": "Which of the following function programmatically extract parts of XML file?",
+        "options": [
+            "a) XmlSApply",
+            "b) XmlApply",
+            "c) XmlSApplyData",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "xmlSApply are simple wrappers for tapply and lappy functions."
+    },
+    {
+        "question": "Which of the following package is used for reading JSON data?",
+        "options": [
+            "a) jsonlite",
+            "b) json",
+            "c) jsondata",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The jsonlite package is a JSON generator optimized for the web."
+    },
+    {
+        "question": "Extracting XML is the basis for most web scraping.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "XML is particularly used in web applications."
+    }
+]

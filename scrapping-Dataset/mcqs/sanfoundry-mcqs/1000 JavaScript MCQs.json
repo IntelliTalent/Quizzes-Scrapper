@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What is JavaScript?",
+        "options": [
+            "a) JavaScript is a scripting language used to make the website interactive",
+            "b) JavaScript is an assembly language used to make the website interactive",
+            "c) JavaScript is a compiled language used to make the website interactive",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JavaScript is a scripting language used along with HTML and CSS to make the website interactive along. It is used both on the client-side and server-side."
+    },
+    {
+        "question": "Which of the following is correct about JavaScript?",
+        "options": [
+            "a) JavaScript is an Object-Based language",
+            "b) JavaScript is Assembly-language",
+            "c) JavaScript is an Object-Oriented language",
+            "d) JavaScript is a High-level language"
+        ],
+        "answer": "a",
+        "explanation": "Although JavaScript is not an OOP (Object-Oriented Programming) language like Java or PHP, it is object based language. The standard threesome of polymorphism, encapsulation, and inheritance are the criteria for object orientation, and JavaScript fails to meet them."
+    },
+    {
+        "question": "Among the given statements, which statement defines closures in JavaScript?",
+        "options": [
+            "a) JavaScript is a function that is enclosed with references to its inner function scope",
+            "b) JavaScript is a function that is enclosed with references to its lexical environment",
+            "c) JavaScript is a function that is enclosed with the object to its inner function scope",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A closure is a function that is enclosed with references to its lexical environment. A closure allows an inner function to access the scope of an outside function. Closures are formed every time a function is created in JavaScript, during function creation time."
+    },
+    {
+        "question": "What will be the output of the following JavaScript code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The + operator in javascript acts as a concatenation operator when used with string. The new string does not have any space between the two added strings."
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The *= operator in javascript is a shorthand expression for the multiplication of a particular number. It is a combination of two operators * and = ."
+    },
+    {
+        "question": "Arrays in JavaScript are defined by which of the following statements?",
+        "options": [
+            "a) It is an ordered list of values",
+            "b) It is an ordered list of objects",
+            "c) It is an ordered list of string",
+            "d) It is an ordered list of functions"
+        ],
+        "answer": "a",
+        "explanation": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and it is identified by an index. An array can include values of many sorts and the length of an array dynamically sized."
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The == in JS convert different types of operands to the same type before making the comparison. A strict comparison results in true value if the operands are of the same type and the contents match."
+    },
+    {
+        "question": "What will be the output of the following JavaScript code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "A === operator in JS is only true if the operands are of the same type and the contents match. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions."
+    },
+    {
+        "question": "Will the following JavaScript code work?",
+        "options": [],
+        "answer": "d",
+        "explanation": "For functions expressed as expressions, the function name is optional in Javascript. Sometimes function expressions are defined and used right away."
+    },
+    {
+        "question": "Which of the following is not javascript data types?",
+        "options": [
+            "a) Null type",
+            "b) Undefined type",
+            "c) Number type",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "JavaScript is a dynamic, loosely typed language. Variables in JavaScript aren\u2019t tied to any specific value type, and each variable can be assigned and reassigned to values of all the types."
+    },
+    {
+        "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+        "options": [
+            "a) A URL that uses the special javascript:code",
+            "b) A URL that uses the special javascript:protocol",
+            "c) A URL that uses the special javascript:encoding",
+            "d) A URL that uses the special javascript:stack"
+        ],
+        "answer": "b",
+        "explanation": "The Client-side JavaScript code is embedded within HTML documents in four ways :"
+    }
+]

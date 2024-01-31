@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is R interface to google charts?",
+        "options": [
+            "a) googleVis",
+            "b) googleChart",
+            "c) googleDataVis",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "googleVis allow users to create interactive charts based on data frames."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The plot command does open a graphics device in the modern way",
+            "b) Motion Chart is only displayed when hosted on a web server",
+            "c) gvisMotionChart is used to create motion chart",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The plot command does not open a graphics device in the traditional way."
+    },
+    {
+        "question": "Which of the following create a Google Gadget based on a Google Visualization Object?",
+        "options": [
+            "a) createGadget",
+            "b) createGoogleGadget",
+            "c) newGoogleGadget",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "createGoogleGadget returns a Google Gadget XML string."
+    },
+    {
+        "question": "Which of the following  reads a data.frame and creates text output referring to the Google Visualization API?",
+        "options": [
+            "a) gvisAnnotatedLine",
+            "b) gvisTimeLine",
+            "c) gvisAnnotatedTimeLine",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An annotated time line is an interactive time series line chart with optional annotations."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) gvisAnnotationChart returns list of class \u201cgvis\u201d and \u201clist\u201d",
+            "b) The gvisAreaChart function reads a data.frame and creates text output referring to the Google Visualization API",
+            "c) gvisAreaChart returns list of class \u201cgvis\u201d and \u201clist\u201d",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "This can be included into a web page, or as a stand-alone page."
+    },
+    {
+        "question": "Which of the following is used for creating interacting tables?",
+        "options": [
+            "a) gvisGeoChart",
+            "b) gvisTable",
+            "c) gvisLineChart",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "gvisLineChart is used for creating line charts."
+    },
+    {
+        "question": "gvisAnnotatedTimeLine returns list of class \u201cgvis\u201d and \u201clist\u201d.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The chart is rendered within the browser using flash."
+    },
+    {
+        "question": "The actual chart of gvisBarChart is rendered by the web browser using _________ or VML.",
+        "options": [
+            "a) JPEG",
+            "b) SVG",
+            "c) PDF",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "gvisBarChart reads data frame."
+    },
+    {
+        "question": "Which of the following is used for creating tree maps?",
+        "options": [
+            "a) gvisGeoChart",
+            "b) gvisTable",
+            "c) gvisTreeMap",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "gvisGeoChart is used for interactive maps."
+    },
+    {
+        "question": "gvisAnnotationChart charts are interactive time series line charts that support annotations.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Unlike the gvisAnnotatedTimeLine, which uses flash, annotation charts are SVG/VML and should be preferred whenever possible."
+    }
+]

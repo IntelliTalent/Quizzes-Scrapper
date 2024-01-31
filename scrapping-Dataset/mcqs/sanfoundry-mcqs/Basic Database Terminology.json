@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Which type of database management system is MySQL?",
+        "options": [
+            "a) Object-oriented",
+            "b) Hierarchical",
+            "c) Relational",
+            "d) Network"
+        ],
+        "answer": "c",
+        "explanation": "MySQL is a \u2018relational\u2019 DBMS. It is efficient at relating data in two different tables and joining information from them. Hierarchical and Network DBMS are based on parent-child relationships of records. Object-oriented DBMS use objects to represent models."
+    },
+    {
+        "question": "What is data in a MySQL database organized into?",
+        "options": [
+            "a) Objects",
+            "b) Tables",
+            "c) Networks",
+            "d) File systems"
+        ],
+        "answer": "b",
+        "explanation": "Since MySQL is an RDBMS, it\u2019s data is organised in tables for establishing relationships. A table is a collection of rows and columns, where each row is a record and columns describe the feature of records."
+    },
+    {
+        "question": "MySQL is freely available and is open source.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL is free and open source. It\u2019s source code is available for use and is freely downloadable. It includes the MySQL Server, the world\u2019s most popular open source database, and MySQL Cluster, a real-time, open source transactional database."
+    },
+    {
+        "question": "What represents an \u2018attribute\u2019 in a relational database?",
+        "options": [
+            "a) Table",
+            "b) Row",
+            "c) Column",
+            "d) Object"
+        ],
+        "answer": "c",
+        "explanation": "Each column in a table represents a feature (attribute) of a record. Table stores the information for an entity whereas a row represents a record. Object has no relevance in an RDBMS."
+    },
+    {
+        "question": "What represents a \u2018tuple\u2019 in a relational database?",
+        "options": [
+            "a) Table",
+            "b) Row",
+            "c) Column",
+            "d) Object"
+        ],
+        "answer": "b",
+        "explanation": "Each row in a table represents a record. A tuple is a collection of attribute values that makes a record unique. A tuple is a unique entity whereas attribute values can be duplicate in the table."
+    },
+    {
+        "question": "How is communication established with MySQL?",
+        "options": [
+            "a) SQL",
+            "b) Network calls",
+            "c) A programming language like C++",
+            "d) APIs"
+        ],
+        "answer": "a",
+        "explanation": "SQL is the standard language for RDBMS systems like MySQL. SQL queries facilitate quick information retrieval from tables and other elementary operations required to maintain an RDBMS system."
+    },
+    {
+        "question": "What does \u2018name\u2019 represent in the following SQL code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "\u2018name\u2019, \u2018roll_num\u2019, \u2018address\u2019 and \u2018phone\u2019 are the attributes in the table \u2018student\u2019. The CREATE TABLE construct in SQL creates a table, assigns a name to it and its attributes, and specifies the type of fields used in the table."
+    },
+    {
+        "question": "Which is the MySQL instance responsible for data processing?",
+        "options": [
+            "a) MySQL client",
+            "b) MySQL server",
+            "c) SQL",
+            "d) Server daemon program"
+        ],
+        "answer": "b",
+        "explanation": "MySQL uses client-server architecture. The MySQL server program runs on the machine where databases are stored. SQL is a query language used for querying the tables and information retrieval."
+    },
+    {
+        "question": "The MySQL server used in its client/server architecture is _______________",
+        "options": [
+            "a) mysqla",
+            "b) mysqlb",
+            "c) mysqlc",
+            "d) mysqld"
+        ],
+        "answer": "d",
+        "explanation": "mysqld is the MySQL server program. It serves the incoming client requests by accessing the database. The others are not valid MySQL programs. MySQL implements a client/server architecture wherein mysqld is the server program."
+    },
+    {
+        "question": "In MySQL databases, the structure representing the organizational views of the entire databases is ____________",
+        "options": [
+            "a) Schema",
+            "b) View",
+            "c) Instance",
+            "d) Table"
+        ],
+        "answer": "a",
+        "explanation": "The schema in a database gives a blueprint of the structure. A view is an object that can be generated with a query. A table is a collection of records. An instance is analogous to a class object."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many even 4 digit whole numbers are there?",
+        "options": [
+            "a) 1358",
+            "b) 7250",
+            "c) 4500",
+            "d) 3600"
+        ],
+        "answer": "c",
+        "explanation": "The thousands digit cannot be zero, so there are 9 choices. There are 10 possibilities for the hundreds digit and 10 possibilities for the tens digit. The units digit can be 0, 2, 4, 6 or 8, so there are 5 choices. By the basic counting principle, the number of even five digit whole numbers is 9 \u00d7 10 \u00d7 10 \u00d7 5 = 45,00."
+    },
+    {
+        "question": "In a multiple-choice question paper of 15 questions, the answers can be A, B, C or D. The number of different ways of answering the question paper are ________",
+        "options": [
+            "a) 65536 x 4",
+            "b) 194536 x 4",
+            "c) 23650 x 4",
+            "d) 11287435"
+        ],
+        "answer": "a",
+        "explanation": "There are 4"
+    },
+    {
+        "question": "How many words with seven letters are there that start with a vowel and end with an A? Note that they don\u2019t have to be real words and letters can be repeated.",
+        "options": [
+            "a) 45087902",
+            "b) 64387659",
+            "c) 12765800",
+            "d) 59406880"
+        ],
+        "answer": "d",
+        "explanation": "The first letter must be a vowel, so there are 5 choices. The second letter can be any one of 26, the third letter can be any one of 26, the fourth letter can be any one of 26 and fifth and sixth letters can be any of 26 choices. The last letter must be an A, so there is only 1 choice. By the basic counting principle, the number of \u2018words\u2019 is 5 \u00d7 26 \u00d7 26 \u00d7 26 \u00d7 26 \u00d7 26 \u00d7 1 = 59406880."
+    },
+    {
+        "question": "Neela has twelve different skirts, ten different tops, eight different pairs of shoes, three different necklaces and five different bracelets. In how many ways can Neela dress up?",
+        "options": [
+            "a) 50057",
+            "b) 14400",
+            "c) 34870",
+            "d) 56732"
+        ],
+        "answer": "b",
+        "explanation": "By the basic counting principle, the number of different ways = 12 \u00d7 10 \u00d7 8 \u00d7 3 \u00d7 5 = 14400. Note that shoes come in pairs. So she must choose one pair of shoes from ten pairs, not one shoe from twenty."
+    },
+    {
+        "question": "How many five-digit numbers can be made from the digits 1 to 7 if repetition is allowed?",
+        "options": [
+            "a) 16807",
+            "b) 54629",
+            "c) 23467",
+            "d) 32354"
+        ],
+        "answer": "a",
+        "explanation": "7"
+    },
+    {
+        "question": "For her English literature course, Ruchika has to choose one novel to study from a list of ten, one poem from a list of fifteen and one short story from a list of seven. How many different choices does Rachel have?",
+        "options": [
+            "a) 34900",
+            "b) 26500",
+            "c) 12000",
+            "d) 10500"
+        ],
+        "answer": "d",
+        "explanation": "By the Basic Counting Principle, the number of different choices is 10 \u00d7 15 \u00d7 7 = 10500."
+    },
+    {
+        "question": "There are two different Geography books, five different Natural Sciences books, three different History books and four different Mathematics books on a shelf. In how many different ways can they be arranged if all the books of the same subjects stand together?",
+        "options": [
+            "a) 353450",
+            "b) 638364",
+            "c) 829440",
+            "d) 768700"
+        ],
+        "answer": "c",
+        "explanation": "There are four groups of books which can be arranged in 4! different ways. Among those books, two are Geography books, five are Natural Sciences books, three are History books and four are Mathematics books. Therefore, there are 4! \u00d7 2! \u00d7 5! \u00d7 3! \u00d7 4! = 829440 ways to arrange the books."
+    },
+    {
+        "question": "The code for a safe is of the form PPPQQQQ where P is any number from 0 to 9 and Q represents the letters of the alphabet. How many codes are possible for each of the following cases? Note that the digits and letters of the alphabet can be repeated.",
+        "options": [
+            "a) 874261140",
+            "b) 537856330",
+            "c) 549872700",
+            "d) 456976000"
+        ],
+        "answer": "d",
+        "explanation": "10"
+    },
+    {
+        "question": "Amit must choose a seven-digit PIN number and each digit can be chosen from 0 to 9. How many different possible PIN numbers can Amit choose?",
+        "options": [
+            "a) 10000000",
+            "b) 9900000",
+            "c) 67285000",
+            "d) 39654900"
+        ],
+        "answer": "a",
+        "explanation": "By the basic counting principle, the total number of PIN numbers Amit can choose is 10 \u00d7 10 \u00d7 10 \u00d7 10 \u00d7 10 \u00d7 10 \u00d7 10 = 10,000000."
+    },
+    {
+        "question": "A head boy, two deputy head boys, a head girl and 3 deputy head girls must be chosen out of a student council consisting of 14 girls and 16 boys. In how many ways can they are chosen?",
+        "options": [
+            "a) 98072",
+            "b) 27384",
+            "c) 36428",
+            "d) 44389"
+        ],
+        "answer": "b",
+        "explanation": "There are 16 \u00d7 15 \u00d7 14 + 14 \u00d7 13 \u00d7 12 \u00d7 11 = 27384 ways to choose from a student council."
+    }
+]

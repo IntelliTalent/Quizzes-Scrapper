@@ -1,0 +1,602 @@
+[
+    {
+        "question": "1) Who developed the bootstrap?",
+        "options": [
+            "James Gosling",
+            "Mark Jukervich",
+            "Dennis Ritchie",
+            "Mark Otto and Jacob Thornton"
+        ],
+        "answer": "Mark Otto and Jacob Thornton",
+        "explanation": " Mark Otto and Jacob Thornton developed bootstrap at Twitter. It was released as an open-source product in August 2011 on GitHub.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Is Bootstrap3 mobile-first?",
+        "options": [
+            "True",
+            "False",
+            "Can't say",
+            "May be"
+        ],
+        "answer": "True",
+        "explanation": " Bootstrap 3 is the most stable version of Bootstrap, and it is still supported by the team for critical bugfixes and documentation changes. Bootstrap is more than efficient to create a responsive and mobile-first website.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following class in Bootstrap is used to provide a responsive fixed width container?",
+        "options": [
+            ".container-fixed",
+            ".container-fluid",
+            ".container",
+            "All of the above"
+        ],
+        "answer": ".container",
+        "explanation": " In Bootstrap, a container is used to set the content's margins dealing with the responsive behaviors of your layout. The .container class is used to create boxed content.",
+        "codeblock": null
+    },
+    {
+        "question": "4) How many columns are allowed in a bootstrap grid system?",
+        "options": [
+            "2",
+            "12",
+            "3",
+            "5"
+        ],
+        "answer": "12",
+        "explanation": " The Bootstrap Grid System allows up to 12 columns across the page. You can use all 12 columns individually, or you can groups the columns together to create wider columns.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following class in bootstrap is used to create a big box for calling extra attention?",
+        "options": [
+            ".box",
+            ".container",
+            ".container-fluid",
+            ".jumbotron"
+        ],
+        "answer": ".jumbotron",
+        "explanation": " A Bootstrap jumbotron specifies a big box for getting extra attention to some special content or information. It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it. The class .jumbotron within the <div> element is used to create a jumbotron.",
+        "codeblock": null
+    },
+    {
+        "question": "6) The correct syntax of creating a standard navigation bar is -",
+        "options": [
+            "<nav class=\"navigationbar navbar\">",
+            "<nav class=\"navbar navbar-default\">",
+            "<nav class=\"nav navbar\">",
+            "<nav class=\"navbar default\">"
+        ],
+        "answer": "<nav class=\"navbar navbar-default\">",
+        "explanation": " A navigation bar is like a navigation header that is placed at the top of the page. You can collapse or extend it according to the screen size. You can create a standard navigation bar at the top of the page with <nav class=\"navbar navbar-default\">.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following is the correct syntax of creating a standard navigation tab?",
+        "options": [
+            "<ul class=\"navigation nav-tabs\">",
+            "<ul class=\"nav tab\">",
+            "<ul class=\"nav nav-tabs\">",
+            "<ul class=\"navigation tabs\">"
+        ],
+        "answer": "<ul class=\"nav nav-tabs\">",
+        "explanation": " We can create a basic navigation tab with <ul class=\"nav nav-tabs\">.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which of the following class is used to create a black navigation bar?",
+        "options": [
+            ".navbar-default",
+            ".navbar-inverse",
+            ".navbar-black",
+            ".navbar-dark"
+        ],
+        "answer": ".navbar-inverse",
+        "explanation": " Inverted navigation bar provides an alternative black navbar. It can be used to style the default navigation bar by changing .navbar-default class into .navbar-inverse class.",
+        "codeblock": null
+    },
+    {
+        "question": "9) The plugin used to create a cycle through elements as a slideshow is -",
+        "options": [
+            "slideshow",
+            "scrollspy",
+            "carousel",
+            "None of the above"
+        ],
+        "answer": "carousel",
+        "explanation": " The Bootstrap carousel is a flexible, responsive way that is used to add a slider to your webpage. The carousel plugin is a component for cycling through an element, like a slideshow. If you want to add plugin functionality individually, then you have to use carousel.js file or all at once (using \"bootstrap.js\" or \"bootstrap.min.js\").",
+        "codeblock": null
+    },
+    {
+        "question": "10) Which of the following class in Bootstrap is used to create a dropdown menu?",
+        "options": [
+            ".dropdown",
+            ".select",
+            ".select-list",
+            "None of the above"
+        ],
+        "answer": ".dropdown",
+        "explanation": " Dropdown menus are toggleable, contextual menus, used for displaying links in a list format. It facilitates users to choose one value from a predefined list. We have to wrap dropdown menu within the class .dropdown to create Bootstrap Dropdown.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following class in Bootstrap is used to create a basic list group?",
+        "options": [
+            ".grouped-list",
+            ".select-list",
+            ".list-group",
+            ".list-grouped"
+        ],
+        "answer": ".list-group",
+        "explanation": " The class \".list-group\" within the <ul> element and the class \".list-group-item\" within the <li>element are used to create a basic list group. Bootstrap list group is used to create a group of list with list items.",
+        "codeblock": null
+    },
+    {
+        "question": "12) The class used to shape an image to a circle is -",
+        "options": [
+            ".img-rounded",
+            ".img-circle",
+            ".img-rounded",
+            "None of the above"
+        ],
+        "answer": ".img-circle",
+        "explanation": " The class .img-circle is used to shape the image into a circle (IE8 does not support rounded corners).",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the following class in Bootstrap is used to add a zebra-stripe to a table?",
+        "options": [
+            ".tab-striped",
+            ".zebra-strip",
+            ".table-stripped",
+            ".table-striped"
+        ],
+        "answer": ".table-striped",
+        "explanation": " We can create different types of Bootstrap tables by using different classes to style them. The .table-striped class is used to add zebra-stripes to a table.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which of the following class in Bootstrap is used to create a large button?",
+        "options": [
+            ".btn-xl",
+            ".btn-lrg",
+            ".btn-large",
+            ".btn-lg"
+        ],
+        "answer": ".btn-lg",
+        "explanation": " We can use the .btn-lg class in bootstrap to create a large button.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following plugin in Bootstrap is used to create a modal window?",
+        "options": [
+            "popup",
+            "alert",
+            "modal",
+            "window"
+        ],
+        "answer": "modal",
+        "explanation": " The bootstrap modal plugin is a dialog box/popup window that is displayed on top of the current page.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following class in Bootstrap is used to create basic pagination?",
+        "options": [
+            ".page",
+            ".pagin",
+            ".paginate",
+            ".pagination"
+        ],
+        "answer": ".pagination",
+        "explanation": " Pagination is used to sort the web pages of your website in an organized manner. It becomes very necessary if your website has a lot of web pages. We can add the .pagination class to get the pagination on our page.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following class in Bootstrap is used to create a badge?",
+        "options": [
+            ".tag",
+            ".badge",
+            ".page",
+            ".flag"
+        ],
+        "answer": ".badge",
+        "explanation": " Bootstrap Badges are numerical indicators used to show that how many items are associated with the specific link. Badges are used to highlight new or unread items. The class .badge within the  element is used to create badges.",
+        "codeblock": null
+    },
+    {
+        "question": "18) The class in Bootstrap used to provide rounded corners to the image is -",
+        "options": [
+            ".img-circle",
+            ".image-circle",
+            ".image-rounded",
+            ".img-rounded"
+        ],
+        "answer": ".img-rounded",
+        "explanation": " The class .img-rounded is used to add rounded corners to an image (IE8 does not support rounded corners). It adds border-radius: 6px to give the image rounded corners.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Which of the following class in Bootstrap is used to create a panel?",
+        "options": [
+            ".panel",
+            ".container",
+            ".box",
+            ".jumbotron"
+        ],
+        "answer": ".panel",
+        "explanation": " In Bootstrap, a panel is a bordered box with some padding around its element. The class .panel is used within the <div> element to create Bootstrap panels.",
+        "codeblock": null
+    },
+    {
+        "question": "20) Using which of the following, we can create a pager in Bootstrap?",
+        "options": [
+            ".carousel",
+            ".collapse",
+            ".pager",
+            "None of the above"
+        ],
+        "answer": ".pager",
+        "explanation": " Bootstrap pager is a form of pagination. The \".pager\" class is used within the <ul> element to create the previous / next buttons. It is used to create previous and next buttons (links).",
+        "codeblock": null
+    },
+    {
+        "question": "21) The class in Bootstrap which is used to specify the collapsible elements is -",
+        "options": [
+            ".collapse",
+            ".carousel",
+            ".pager",
+            "None of the above"
+        ],
+        "answer": ".collpase",
+        "explanation": " Bootstrap collapse is used when you want to hide and show a large amount of content. The \".collapse\" class is used to specify the collapsible element.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Which of the following class in Bootstrap is used to create a well?",
+        "options": [
+            ".wel",
+            ".well",
+            ".well-container",
+            ".container-well"
+        ],
+        "answer": ".well",
+        "explanation": " In Bootstrap, wells are used to add a rounded border around an element with a gray background color and some padding. It is like a container that displays the content. The class .well is used with <div> element to add well.",
+        "codeblock": null
+    },
+    {
+        "question": "23) The class used for creating the large size wells is -",
+        "options": [
+            ".well-large",
+            ".well-big",
+            ".well-lg",
+            ".well-sm"
+        ],
+        "answer": ".well-lg",
+        "explanation": " By default, the size of the wells is medium, but you can change the size of the well according to your need. The \".well-lg\" class is used for large wells.",
+        "codeblock": null
+    },
+    {
+        "question": "24) The class used for creating the small size wells is -",
+        "options": [
+            ".well-small",
+            ".well-short",
+            ".well-lg",
+            ".well-sm"
+        ],
+        "answer": ".well-sm",
+        "explanation": " By Default, wells size is medium, but you can change the size of the well according to your need. The .well-sm class is used for small wells.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Which of the following class in Bootstrap is used for creating the large size modals?",
+        "options": [
+            ".modal-large",
+            ".modal-sm",
+            ".modal-big",
+            ".modal-lg"
+        ],
+        "answer": ".modal-lg",
+        "explanation": " We can use the .modal-lg class for large modals. The size class is added to the <div> element with class .modal-dialog.",
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following class in Bootstrap is used for creating the small size modals?",
+        "options": [
+            ".modal-large",
+            ".modal-sm",
+            ".modal-big",
+            ".modal-lg"
+        ],
+        "answer": ".modal-sm",
+        "explanation": " We can use the .modal-sm class for creating the small modals. The size class is added to the <div> element with class .modal-dialog.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following class in Bootstrap is used to indicate the uppercased text?",
+        "options": [
+            ".text-capitalize",
+            ".text-upper",
+            ".uppercase",
+            ".text-uppercase"
+        ],
+        "answer": ".text-uppercase",
+        "explanation": " We can use the \".text-uppercase\" class to make the text appear in uppercase.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following plugin is used to create a tooltip?",
+        "options": [
+            "popover",
+            "tooltip",
+            "modal",
+            "None of the above"
+        ],
+        "answer": "tooltip",
+        "explanation": " Tooltips are a great way to display extra information about something when the user moves the mouse cursor over an element.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following is the correct syntax to insert search icon?",
+        "options": [
+            "<span class = \"glyph glyphicon-search\"> </span>",
+            "<span class = \"glyphicon glyph-search\"> </span>",
+            "<span class = \"glyphicon glyphicon-search\"> </span>",
+            "<span class = \"glyphicon-search\"> </span>"
+        ],
+        "answer": "<span class = \"glyphicon glyphicon-search\"> </span>",
+        "explanation": " Glyphicons are the icon fonts that are used in web projects. Bootstrap provides 260 Glyphicons from the Glyphicons Halflings set. The correct syntax of inserting the search icon using Bootstrap is: <span class = \"glyphicon glyphicon-search\"> </span>",
+        "codeblock": null
+    },
+    {
+        "question": "30) Which of the following class is used to add a heading to the panel?",
+        "options": [
+            ".panel-head",
+            ".panel-header",
+            ".panel-heading",
+            ".panel-content"
+        ],
+        "answer": ".panel-heading",
+        "explanation": " In Bootstrap, a panel is a bordered box with some padding around its element. The .panel-heading class is used to add a heading to the panel.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the following is correct method to add a success button?",
+        "options": [
+            "<button class = \"btn btn-success\"> success </button>",
+            "<button class = \"btn button-success\"> success </button>",
+            "<button class = \"button btn-success\"> success </button>",
+            "<button class = \"button btn-primary\"> success </button>"
+        ],
+        "answer": "<button class = \"btn btn-success\"> success </button>",
+        "explanation": " There are various styles to add a button in Bootstrap. The syntax for creating a success button in Bootstrap is: <button class = \"btn btn-success\"> success </button>.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Which of the following class in Bootstrap is used to create a label?",
+        "options": [
+            ".label",
+            ".badge",
+            ".flag",
+            ".popover"
+        ],
+        "answer": ".label",
+        "explanation": " Bootstrap labels are used to specify the additional information about something like offering counts, tips, or other makeup for pages. The class .label is used to display the labels.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Is it true that the Bootstrap grid system works across multiple devices?",
+        "options": [
+            "True",
+            "False",
+            "Can't say",
+            "May be"
+        ],
+        "answer": "True",
+        "explanation": " Bootstrap Grid System is responsive, and the columns are re-arranged automatically according to the screen size. The Bootstrap Grid System allows up to 12 columns across the page. You can use all 12 columns individually, or you can groups the columns together to create wider columns.",
+        "codeblock": null
+    },
+    {
+        "question": "34) Glyphicons in Bootstrap are used for -",
+        "options": [
+            "Using different icons on a webpage such as print, envelope, etc.",
+            "Removing different icons on the page",
+            "Selecting different icons on the page",
+            "None of the above"
+        ],
+        "answer": "Using different icons on a webpage such as print, envelope, etc.",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "35) What is the default layout of the Bootstrap form?",
+        "options": [
+            "Horizontal",
+            "Inline",
+            "Vertical",
+            "None of the above"
+        ],
+        "answer": "Vertical",
+        "explanation": " In Bootstrap, there are three types of form layouts that are - vertical, horizontal, and inline. The default layout of the Bootstrap form is vertical.",
+        "codeblock": null
+    },
+    {
+        "question": "36) Which of the following class indicates the capitalized text?",
+        "options": [
+            ".text-capitalize",
+            ".text-upper",
+            ".uppercase",
+            ".text-uppercase"
+        ],
+        "answer": ".text-capitalize",
+        "explanation": " We can use the \".text-capitalize\" class to make the text appear in uppercase.",
+        "codeblock": null
+    },
+    {
+        "question": "37) The class used to right align the navigation bar buttons is -",
+        "options": [
+            ".navbar-rgt",
+            ".navbar-btn",
+            ".navbar-right",
+            ".navbar-default"
+        ],
+        "answer": ".navbar-right",
+        "explanation": " The .navbar-right class is used to right-align the navigation bar buttons.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Which of the following class is used to create a thumbnail image?",
+        "options": [
+            ".img-circle",
+            ".img-nail",
+            ".img-thumb",
+            ".img-thumbnail"
+        ],
+        "answer": ".img-thumbnail",
+        "explanation": " The class .img-thumbnail is used to shape an image into a thumbnail. It adds a bit of padding and a gray border.",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which of the following class in Bootstrap is used to create a button as a link?",
+        "options": [
+            ".btn-anchor",
+            ".btn-link",
+            ".btn-hyperlink",
+            "None of the above"
+        ],
+        "answer": ".btn-link",
+        "explanation": " There are various styles of the button are available in Bootstrap. By using the .btn-link class, we can create a button as a link.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the following grid class in Bootstrap is used for desktops?",
+        "options": [
+            "xs",
+            "sm",
+            "lg",
+            "md"
+        ],
+        "answer": "md",
+        "explanation": " Basically, there are four classes in Bootstrap grid system that is xs, sm, md, and lg. From these classes, we can use the md class for the devices like desktops.",
+        "codeblock": null
+    },
+    {
+        "question": "41) The class \"xs\" in Bootstrap is used for -",
+        "options": [
+            "tablets",
+            "phones",
+            "desktop",
+            "All of the above"
+        ],
+        "answer": "phones",
+        "explanation": " Basically, there are four classes in Bootstrap grid system that is xs, sm, md, and lg. The xs class is used for small devices such as phones.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Which of the following class in Bootstrap is used to create an animated progress bar?",
+        "options": [
+            ".active",
+            ".progress-success",
+            ".progress-active",
+            "None of the above"
+        ],
+        "answer": ".active",
+        "explanation": " The progress bar shows how far a user is in a process. In Bootstrap, there are several types of progress bars. The class .active is used to create an animated progress bar.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Which of the following statement is correct about the Bootstrap wells?",
+        "options": [
+            "By default, the size of wells is medium.",
+            "Using .well-sm and .well-lg classes, we can change the size of wells.",
+            "The .well-sm class is for small wells, and the .well-lg class is for large wells. And both classes should be used in conjunction with .well class.",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " The class .well is used with  element to add well. By Default, wells size is medium, but you can change the size of the well according to your need. The .well-sm class is used for small wells, and the .well-lg class is used for large wells.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following is correct about the Bootstrap Grid system?",
+        "options": [
+            "The Bootstrap Grid system allows 12 columns across the page.",
+            "Bootstrap Grid system is responsive.",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "answer": "Both (a) and (b)",
+        "explanation": " The Bootstrap Grid System allows up to 12 columns across the page. You can use all 12 columns individually, or you can groups the columns together to create wider columns. Bootstrap Grid System is responsive, and the columns are re-arranged automatically according to the screen size.",
+        "codeblock": null
+    },
+    {
+        "question": "45) Which of the following statement is true about jumbotron in Bootstrap?",
+        "options": [
+            "The .jumbotron class is used to create a jumbotron.",
+            "It is generally used for getting extra attention. It enlarges the font-size of the text inside it.",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "answer": "Both (a) and (b)",
+        "explanation": " A Bootstrap jumbotron specifies a big box for getting extra attention to some special content or information. It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it. The class .jumbotron within the <div> element is used to create a jumbotron.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Which of the following statement is true about responsive images in Bootstrap?",
+        "options": [
+            "We can use the .img-responsive class to the <img> tag to create responsive images.",
+            "The responsive images adjust themselves automatically to fit according to the screen size.",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "answer": "Both (a) and (b)",
+        "explanation": " The responsive images can adjust themselves automatically to fit the size of the screen. You can create responsive images by adding an .img-responsive class to the <img> tag. The image will then scale nicely to the parent element. The .img-responsive class applies display: block; and max-width: 100%; and height: auto; to the image.",
+        "codeblock": null
+    },
+    {
+        "question": "47) Which of the following set of classes in the Bootstrap grid system used to define the screen size?",
+        "options": [
+            "small, xs, lg, extra-large",
+            "xs, medium, lg, sm",
+            "sm, mg, lg",
+            "xs, sm, md, lg"
+        ],
+        "answer": "xs, sm, md, lg",
+        "explanation": " Basically, there are four classes in Bootstrap Grid System that are listed below:",
+        "codeblock": null
+    },
+    {
+        "question": "48) Which of the following class in Bootstrap is used to style a table with borders surrounding every element?",
+        "options": [
+            ".table-striped",
+            ".table-bordered",
+            ".table-border",
+            ".table-condensed"
+        ],
+        "answer": ".table-bordered",
+        "explanation": " The .table-bordered class is used to add borders on all sides of the table and cells.",
+        "codeblock": null
+    },
+    {
+        "question": "49) Which of the following class in Bootstrap is used to style a table with a light gray background to rows when the user moves the cursor over them?",
+        "options": [
+            ".table-striped",
+            ".table-bordered",
+            ".table-border",
+            ".table-hover"
+        ],
+        "answer": ".table-hover",
+        "explanation": " The .table-hover class is used to enable a hover state on table rows.",
+        "codeblock": null
+    },
+    {
+        "question": "50) The scrollspy plugin in Bootstrap automatically updates the links in a navigation list based on scroll position -",
+        "options": [
+            "True",
+            "False",
+            "Can't say",
+            "May be"
+        ],
+        "answer": "True",
+        "explanation": " The Bootstrap Scrollspy plugin is used to automatically update links in a navigation list based on scroll position.",
+        "codeblock": null
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "question": "To perform consistency checks on a MyISAM table the statement is _____________",
+        "options": [
+            "a) CHECK TABLE",
+            "b) REPAIR TABLE",
+            "c) ANALYZE TABLE",
+            "d) OPTIMIZE TABLE"
+        ],
+        "answer": "a",
+        "explanation": "In order to perform consistency checks or table repairs on a MyISAM table a \u2018CHECK TABLE\u2019 or \u2018REPAIR TABLE\u2019 statement is issued. The \u2018mysqlcheck\u2019 program can also be invoked."
+    },
+    {
+        "question": "The statement that performs key distribution analysis and stores the distribution for the named tables is _____________",
+        "options": [
+            "a) CHECK TABLE",
+            "b) ANALYZE TABLE",
+            "c) CHECKSUM TABLE",
+            "d) OPTIMIZE TABLE"
+        ],
+        "answer": "b",
+        "explanation": "\u2018ANALYZE TABLE\u2019 performs a key distribution analysis and stores the distribution for the named table or tables. For the MyISAM tables, this statement is equivalent to using \u2018myisamchk \u2013analyze\u2019."
+    },
+    {
+        "question": "The column not returned by \u2018OPTIMIZE TABLE\u2019 is _____________",
+        "options": [
+            "a) Table",
+            "b) Msg_txt",
+            "c) Op",
+            "d) Msg_type"
+        ],
+        "answer": "b",
+        "explanation": "\u2018OPTIMIZE TABLE\u2019 table catches and throws any errors that occur while copying table statistics from the old file to the newly created file. It returns a result set of columns."
+    },
+    {
+        "question": "For which table does \u2018REPAIR TABLE\u2019 not work?",
+        "options": [
+            "a) MyISAM",
+            "b) ARCHIVE",
+            "c) CSV",
+            "d) InnoDB"
+        ],
+        "answer": "d",
+        "explanation": "\u2018REPAIR TABLE\u2019 works for MyISAM, ARCHIVE, and CSV tables. For MyISAM tables, it has the same effect as \u2018myisamchk \u2013recover\u2019 tbl_name by default. This statement does not work with views."
+    },
+    {
+        "question": "What is the Perl DBI?",
+        "options": [
+            "a) database inheritance",
+            "b) database integrity",
+            "c) database interface",
+            "d) database isolation"
+        ],
+        "answer": "c",
+        "explanation": "The Perl DBI is the Perl Database Interface. The work of the interface is to form a link between the application programming interface in C with all the other programming languages."
+    },
+    {
+        "question": "How is the output from PHP generated?",
+        "options": [
+            "a) statically generated",
+            "b) dynamically generated",
+            "c) not generated",
+            "d) no output"
+        ],
+        "answer": "b",
+        "explanation": "The interpreter switches between code mode back and text mode when it sees another special tag that signals the end of the code. This enables the mix of static text with dynamically generated results."
+    }
+]

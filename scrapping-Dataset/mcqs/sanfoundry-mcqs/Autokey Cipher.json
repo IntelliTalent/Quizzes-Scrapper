@@ -1,0 +1,119 @@
+[
+    {
+        "question": "What is the meaning of cipher in cryptography?",
+        "options": [
+            "a) an algorithm that performs encryption",
+            "b) an algorithm that generates a secret code",
+            "c) an algorithm that performs encryption or decryption",
+            "d) a secret code"
+        ],
+        "answer": "c",
+        "explanation": "Cipher is an algorithm for performing encryption or decryption. In cryptography, a set of defined steps are followed to generate ciphers. These are necessary to prevent a data breach."
+    },
+    {
+        "question": "Autokey cipher is an example of ___________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Autokey cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in Autokey cipher is done using ___________",
+        "options": [
+            "a) vigenere formula",
+            "b) vigenere cycle",
+            "c) vigenere table",
+            "d) vigenere addition"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text in Autokey cipher is done using the same table which is used for encryption in vigenere cipher. It is known as vigenere table."
+    },
+    {
+        "question": "Which of the following correctly defines poly alphabetic cipher?",
+        "options": [
+            "a) a substitution based cipher which uses multiple substitution at different positions",
+            "b) a substitution based cipher which uses fixed substitution over entire message",
+            "c) a transposition based cipher which uses multiple substitution at different positions",
+            "d) a transposition based cipher which uses fixed substitution over entire message"
+        ],
+        "answer": "a",
+        "explanation": "Poly alphabetic cipher is a type of substitution cipher. It uses multiple substitution at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Which of the following is not a type of poly alphabetic cipher?",
+        "options": [
+            "a) Autokey cipher",
+            "b) Hill cipher",
+            "c) One time pad cipher",
+            "d) Additive cipher"
+        ],
+        "answer": "d",
+        "explanation": "In poly alphabetic cipher each symbol of plain text is replaced by a different cipher text regardless of its occurrence. Out of the given options only additive cipher is not a poly alphabetic cipher."
+    },
+    {
+        "question": "Autokey cipher is harder to crack than keyword cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Keyword cipher is less secure than Autokey cipher. It is due to the fact that keyword cipher is mono alphabetic and thus can be cracked using frequency analysis. But Autokey cipher being a poly alphabetic cipher cannot be cracked using this method."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cZEYQC\u201d if autokey cipher is used with keyword as \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) INDIA",
+            "b) WORLD",
+            "c) HELLO",
+            "d) SECRET"
+        ],
+        "answer": "c",
+        "explanation": "Autokey cipher is a type of poly alphabetic substitution which uses vigenere table for making substitutions in the plain text after generating key using plain text. Using the table we find the plain text to be \u201cHELLO\u201d."
+    },
+    {
+        "question": "Autokey cipher is also known as?",
+        "options": [
+            "a) vigenere cipher",
+            "b) autoclave cipher",
+            "c) auto key cipher",
+            "d) auto cipher"
+        ],
+        "answer": "b",
+        "explanation": "Autoclave cipher is an alternative name given to autokey cipher. It is because the encrypted text is formed using a key that is generated from a message(plain text) itself."
+    },
+    {
+        "question": "In which of the following cipher the plain text and the ciphered text does not have same number of letters?",
+        "options": [
+            "a) affine cipher",
+            "b) autokey cipher",
+            "c) columnar cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "In transposition cipher and mono alphabetic cipher the number of letters remain same in ciphered and deciphered text. But in poly alphabetic cipher the number of letters are different. So here as autokey cipher is the only poly alphabetic cipher so it will be the answer."
+    },
+    {
+        "question": "What will be the ciphered text if the string \u201cSECRET\u201d is given as input to the code of autokey cipher with keyword as \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) KEPWSN",
+            "b) EKWPSN",
+            "c) EKWPSNFDED",
+            "d) KEPWSNFDED"
+        ],
+        "answer": "a",
+        "explanation": "For encrypting a plain text in autokey cipher we first add the keyword at the beginning of the plain text in order to obtain the key for encryption. Then we use the vigenere table for making respective substitutions."
+    },
+    {
+        "question": "Vigenere cipher is harder to crack than autokey cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Autokey cipher is harder to crack than vigenere cipher. It is because in autokey cipher the key is formed using the plain text itself whereas in vigenere cipher the key is independent of the plain text. This makes autokey cipher more secure."
+    }
+]

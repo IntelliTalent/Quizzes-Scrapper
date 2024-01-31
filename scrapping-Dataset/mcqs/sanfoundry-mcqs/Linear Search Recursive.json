@@ -1,0 +1,109 @@
+[
+    {
+        "question": "Is there any difference in the speed of execution between linear serach(recursive) vs linear search(lterative)?",
+        "options": [
+            "a) Both execute at same speed",
+            "b) Linear search(recursive) is faster",
+            "c) Linear search(Iterative) is faster",
+            "d) Cant be said"
+        ],
+        "answer": "c",
+        "explanation": "The Iterative algorithm is faster than the latter as recursive algorithm has overheads like calling function and registering stacks repeatedly."
+    },
+    {
+        "question": "Is the space consumed by the linear search(recursive) and linear search(iterative) same?",
+        "options": [
+            "a) No, recursive algorithm consumes more space",
+            "b) No, recursive algorithm consumes less space",
+            "c) Yes",
+            "d) Nothing can be said"
+        ],
+        "answer": "a",
+        "explanation": "The recursive algorithm consumes more space as it involves the usage the stack space(calls the function numerous times)."
+    },
+    {
+        "question": "What is the worst case runtime of linear search(recursive) algorithm?",
+        "options": [
+            "a) O(n)",
+            "b) O(logn)",
+            "c) O(n",
+            "d) O(nx)"
+        ],
+        "answer": "a",
+        "explanation": "In the worst case scenario, there might be a need of calling the stack n times. Therfore O(n)."
+    },
+    {
+        "question": "Linear search(recursive) algorithm used in _____________",
+        "options": [
+            "a) When the size of the dataset is low",
+            "b) When the size of the dataset is large",
+            "c) When the dataset is unordered",
+            "d) Never used"
+        ],
+        "answer": "a",
+        "explanation": "It is used when the size of the dataset is low as its runtime is O(n) which is more when compared to the binary search O(logn)."
+    },
+    {
+        "question": "The array is as follows: 1,2,3,6,8,10. At what time the element 6 is found? (By using linear search(recursive) algorithm)",
+        "options": [
+            "a) 4th call",
+            "b) 3rd call",
+            "c) 6th call",
+            "d) 5th call"
+        ],
+        "answer": "a",
+        "explanation": "Provided that the search starts from the first element, the function calls itself till the element is found. In this case, the element is found in 4th call."
+    },
+    {
+        "question": "The array is as follows: 1,2,3,6,8,10. Given that the number 17 is to be searched. At which call it tells that there\u2019s no such element? (By using linear search(recursive) algorithm)",
+        "options": [
+            "a) 7th call",
+            "b) 9th call",
+            "c) 17th call",
+            "d) The function calls itself infinite number of times"
+        ],
+        "answer": "a",
+        "explanation": "The function calls itself till the element is found. But at the 7th call it terminates as goes outside the array."
+    },
+    {
+        "question": "What is the best case runtime of linear search(recursive) algorithm on an ordered set of elements?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(logn)",
+            "d) O(nx)"
+        ],
+        "answer": "a",
+        "explanation": "The best case occurs when the given element to be found is at the first position. Therefore O(1) is the correct answer."
+    },
+    {
+        "question": "Which of the following code snippet performs linear search recursively?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Compare n with first element in arr[]. If element is found at first position, return it. Else recur for remaining array and n."
+    },
+    {
+        "question": "Can linear search recursive algorithm and binary search recursive algorithm be performed on an unordered list?",
+        "options": [
+            "a) Binary search can\u2019t be used",
+            "b) Linear search can\u2019t be used",
+            "c) Both cannot be used",
+            "d) Both can be used"
+        ],
+        "answer": "a",
+        "explanation": "As binary search requires comparison, it is required that the list be ordered. Whereas this doesn\u2019t matter for linear search."
+    },
+    {
+        "question": "What is the recurrence relation for the linear search recursive algorithm?",
+        "options": [
+            "a) T(n-2)+c",
+            "b) 2T(n-1)+c",
+            "c) T(n-1)+c",
+            "d) T(n+1)+c"
+        ],
+        "answer": "c",
+        "explanation": "After each call in the recursive algorithm, the size of n is reduced by 1. Therefore the optimal solution is T(n-1)+c."
+    }
+]

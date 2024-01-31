@@ -1,0 +1,100 @@
+[
+    {
+        "question": "Suppose the first fibonnaci number is 0 and the second is 1. What is the sixth fibonnaci number?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 7",
+            "d) 8"
+        ],
+        "answer": "a",
+        "explanation": "The sixth fibonnaci number is 5."
+    },
+    {
+        "question": "Which of the following is not a fibonnaci number?",
+        "options": [
+            "a) 8",
+            "b) 21",
+            "c) 55",
+            "d) 14"
+        ],
+        "answer": "d",
+        "explanation": "14 is not a fibonnaci number."
+    },
+    {
+        "question": "Which of the following option is wrong?",
+        "options": [
+            "a) Fibonacci number can be calculated by using Dynamic programming",
+            "b) Fibonacci number can be calculated by using Recursion method",
+            "c) Fibonacci number can be calculated by using Iteration method",
+            "d) No method is defined to calculate Fibonacci number"
+        ],
+        "answer": "d",
+        "explanation": "Fibonacci number can be calculated by using Dynamic Programming, Recursion method, Iteration Method."
+    },
+    {
+        "question": "Consider the following iterative implementation to find the nth fibonacci number?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The lines \u201ca = b\u201d and \u201cb = c\u201d should be added to complete the above code."
+    },
+    {
+        "question": "Which of the following recurrence relations can  be used to find the nth fibonacci number?",
+        "options": [
+            "a) F(n) = F(n) + F(n \u2013 1)",
+            "b) F(n) = F(n) + F(n + 1)",
+            "c) F(n) = F(n \u2013 1)",
+            "d) F(n) = F(n \u2013 1) + F(n \u2013 2)"
+        ],
+        "answer": "d",
+        "explanation": "The relation F(n) = F(n \u2013 1) + F(n \u2013 2) can be used to find the nth fibonacci number."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the nth fibonacci number:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line fibo(n \u2013 1) + fibo(n \u2013 2) should be inserted to complete the above code."
+    },
+    {
+        "question": "Consider the following recursive implementation to find the nth fibonnaci number:",
+        "options": [],
+        "answer": "d",
+        "explanation": "Both if(n == 1) and else if(n == 2) are the base cases."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation to find the nth fibonacci number?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above recursive implementation to find the nth fibonacci number is O(2"
+    },
+    {
+        "question": "What is the space complexity of the following recursive implementation to find the nth fibonacci number?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The space complexity of the above recursive implementation to find the nth fibonacci number is O(1)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Since negative numbers are not handled by the program, the function fibo() will be called infinite times and the program will produce a runtime error when the stack overflows."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the 5th fibonacci number, which is 3."
+    },
+    {
+        "question": "How many times will the function fibo() be called when the following code is executed?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The function fibo() will be called 9 times, when the above code is executed."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the 10th fibonacci number, which is 34."
+    }
+]

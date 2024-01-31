@@ -1,0 +1,74 @@
+[
+    {
+        "question": "Which of these methods of class String is used to compare two String objects for their equality?",
+        "options": [
+            "a) equals()",
+            "b) Equals()",
+            "c) isequal()",
+            "d) Isequal()"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these methods is used to compare two strings such that after comparison output returns different integer values as (0 for false, 1 for true)?",
+        "options": [
+            "a) Equals ()",
+            "b) == operator",
+            "c) Compare()",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The comparison is case sensitive in nature and hence different integer values are returned for different conditions as under:"
+    },
+    {
+        "question": "Which of these methods of class String is used to check whether a substring exists at the beginning of the particular string?",
+        "options": [
+            "a) StartsWith()",
+            "b) EndsWith()",
+            "c) Starts()",
+            "d) ends()"
+        ],
+        "answer": "a",
+        "explanation": "Method startswith() of string class is used to check whether a substring exists in the beginning of string or not."
+    },
+    {
+        "question": "Which of these methods returns the string such that some characters which are specified to be removed from the end of strings are removed from string by mentioning the number of characters to be removed?",
+        "options": [
+            "a) Trim()",
+            "b) Remove()",
+            "c) TrimEnd()",
+            "d) Split()"
+        ],
+        "answer": "a",
+        "explanation": "Removes a string of characters from the end of string by mentioning the number of characters to be removed from the string."
+    },
+    {
+        "question": "What is the value returned by function compareTo() if the invoking string is less than the string compared?",
+        "options": [
+            "a) zero",
+            "b) value less than zero",
+            "c) value greater than zero",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "compareTo() function returns zero when both the strings are equal, it returns a value less than zero if the invoking string is less than the other string being compared and value greater than zero when invoking string is greater than the string compared to."
+    },
+    {
+        "question": "Which of these data type values is returned by equals() method of String class?",
+        "options": [
+            "a) char",
+            "b) int",
+            "c) boolean",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "equals() method of string class returns boolean value true if both the strings are equal and false if they are unequal."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "StartsWith() method is case sensitive \u201ci\u201d and \u201cI\u201d are treated differently, hence false is stored in a."
+    }
+]

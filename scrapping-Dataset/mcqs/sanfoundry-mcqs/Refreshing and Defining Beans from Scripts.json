@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Attribute used by Spring to refresh beans",
+        "options": [
+            "a) refresh-check-interval",
+            "b) refresh-check-delay",
+            "c) refresh-delay",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring is able to refresh a scripted bean definition from its source once you have specified the checking interval in the refresh-check-delay attribute."
+    },
+    {
+        "question": "Spring IoC container refreshes the script periodically according to the interval period specified",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When a method is called on that bean, Spring will check the script source if the specified checking interval has elapsed. The Spring will refresh the bean definition from the script source if it has been changed."
+    },
+    {
+        "question": "Default value of refresh-check-delay attribute",
+        "options": [
+            "a) Zero",
+            "b) Negative",
+            "c) Positive",
+            "d) None of the mentioned above"
+        ],
+        "answer": "b",
+        "explanation": "By default, the refresh-check-delay attribute is negative, so the refresh checking feature is disabled. You can assign the milliseconds for refresh checking in this attribute to enable this feature."
+    },
+    {
+        "question": "XML Element to define an inline script",
+        "options": [
+            "a) lang:inlinescript",
+            "b) lang:inline_script",
+            "c) lang:inline@script",
+            "d) lang:inline-script"
+        ],
+        "answer": "d",
+        "explanation": "You can define an inline script source in the lang:inline-script element of a scripted bean to replace a reference to an external script source file by the script-source attribute."
+    },
+    {
+        "question": "Refresh checking feature is not applicable for an inline script",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring IoC container only loads the bean configuration once, at startup."
+    },
+    {
+        "question": "Dynamic-language-backed bean with some configurations",
+        "options": [
+            "a) Refreshable bean",
+            "b) Beanshell",
+            "c) Scripting Beans",
+            "d) Inline Script"
+        ],
+        "answer": "a",
+        "explanation": "A refreshable bean is a dynamic-language-backed bean that with a small amount of configuration, a dynamic-language-backed bean can monitor changes in its underlying source file resource, and then reload itself when the dynamic language source file is changed."
+    },
+    {
+        "question": "To quickly add a Spring Validator implementation to a Spring MVC Controller",
+        "options": [
+            "a) Use inline-script",
+            "b) lang:inline-script",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If we put to one side the issues surrounding whether it is good practice to define dynamic language source inside a Spring configuration file, the lang:inline-script/ element can be useful in some scenarios."
+    },
+    {
+        "question": "Spring can detect and refresh changes from the script source files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Using Refreshing Inline script."
+    },
+    {
+        "question": "Script\u2019s location is specified by attribute",
+        "options": [
+            "a) script-source",
+            "b) xml-source",
+            "c) script-annotation",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Specifying the script\u2019s location in the script-source attribute."
+    }
+]

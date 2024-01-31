@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The auditing facility can write audit events to the console, the _________ a JSON file, or a BSON file.",
+        "options": [
+            "a) oplog",
+            "b) syslog",
+            "c) evallog",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " MongoDB provides an option to send output to the host\u2019s syslog system."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) When a process writes to a resource, it takes an exclusive write lock to prevent other processes from writing to or reading from that resource",
+            "b) As clients insert new documents into the capped collection, the tailable cursor continues to retrieve documents",
+            "c) Write concern allows your application to detect insertion errors or unavailable mongod instances",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " MongoDB Enterprise includes an auditing capability for mongod and mongos instances."
+    },
+    {
+        "question": " _________ contains the local ip address and the port number of the running instance.",
+        "options": [
+            "a) ts",
+            "b) local",
+            "c) remote",
+            "d) users"
+        ],
+        "answer": "b",
+        "explanation": "Remote document contains the remote ip address and the port number of the incoming connection associated with the event."
+    },
+    {
+        "question": "Enabling _____________ degrades performance more than logging only the authorization failures.",
+        "options": [
+            "a) auditAuthorizationFailure",
+            "b) auditAuthorizationSuccess",
+            "c) auditAuthorizationlog",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "System Event Audit Message is available only in MongoDB Enterprise."
+    },
+    {
+        "question": "Use the ____________ option to enable auditing and specify where to output the audit events.",
+        "options": [
+            "a) \u2013auditLocation",
+            "b) \u2013auditOutput",
+            "c) \u2013auditDestination",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For sharded clusters, if you enable auditing on mongos instances, you must enable auditing on all mongod instances in the cluster, i.e. shards and config servers."
+    },
+    {
+        "question": "The audit file rotates at the same time as the ________ log file.",
+        "options": [
+            "a) Client",
+            "b) Server",
+            "c) Application",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Printing audit events to a file in JSON format degrades server performance more than printing to a file in BSON format."
+    },
+    {
+        "question": "To view the contents of the file, pass the file to the MongoDB utility ___________",
+        "options": [
+            "a) bsonlog",
+            "b) bsonout",
+            "c) bsondump",
+            "d) SelectIndexes"
+        ],
+        "answer": "c",
+        "explanation": "The following converts the audit log into a human-readable form and output to the terminal: bsondump data/db/auditLog.bson ."
+    },
+    {
+        "question": "The _____________ option accepts either full path name or relative path name.",
+        "options": [
+            "a) \u2013auditPathLog",
+            "b) \u2013logPath",
+            "c) \u2013auditPath",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To enable auditing and print audit events to a file in BSON binary format, specify file for the \u2013auditDestination setting, BSON for the \u2013auditFormat setting, and the output filename for the \u2013auditPath."
+    },
+    {
+        "question": "The _________ message limit can result in the truncation of the audit messages.",
+        "options": [
+            "a) oplog",
+            "b) syslog",
+            "c) evallog",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The auditing system will neither detect the truncation nor error upon its occurrence."
+    }
+]

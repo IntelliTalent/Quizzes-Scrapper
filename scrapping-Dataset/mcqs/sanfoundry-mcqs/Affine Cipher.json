@@ -1,0 +1,119 @@
+[
+    {
+        "question": "Which of the following cipher makes use of linear algebra for encrypting data?",
+        "options": [
+            "a) polybius square cipher",
+            "b) affine cipher",
+            "c) caesar cipher",
+            "d) rail fence cipher"
+        ],
+        "answer": "b",
+        "explanation": "Affine cipher is the only cipher out of the given options that make use of linear algebra for the purpose of encryption. It is a type of mono alphabetic cipher."
+    },
+    {
+        "question": "Which of the following cipher requires only one key for decoding the ciphered text?",
+        "options": [
+            "a) Affine cipher",
+            "b) RSA",
+            "c) DSA",
+            "d) PKCS"
+        ],
+        "answer": "a",
+        "explanation": "Asymmetric cipher makes use of 2 keys for the purpose of encryption. As affine cipher is the only symmetric cipher out of the given options so it requires only one key."
+    },
+    {
+        "question": "Choose the weakest cipher from the following?",
+        "options": [
+            "a) Vigenere cipher",
+            "b) Autokey cipher",
+            "c) Affine cipher",
+            "d) Hill cipher"
+        ],
+        "answer": "c",
+        "explanation": "Affine cipher is the weakest cipher out of the given options as it is a mono alphabetic cipher and other options are poly alphabetic ciphers. So it is quite vulnerable to frequency analysis."
+    },
+    {
+        "question": "What is the formula used for encryption of data using affine cipher(a,b are constants and x is the numerical equivalent of a letter to be encrypted)?",
+        "options": [
+            "a) ax+b",
+            "b) (ax+b)%26",
+            "c) ax",
+            "d) (ax"
+        ],
+        "answer": "b",
+        "explanation": "Affine cipher uses linear algebra for the purpose of encryption. It uses the formula (ax+b)%26 for this purpose."
+    },
+    {
+        "question": "What is the formula used for decoding the ciphered text using affine cipher(a,b are constants and x is the numerical equivalent of a letter to be encrypted)?",
+        "options": [
+            "a) a",
+            "b) (ax+b)%26",
+            "c) b",
+            "d) b"
+        ],
+        "answer": "a",
+        "explanation": "Affine cipher uses linear algebra for the purpose of encryption. It uses the formula  a"
+    },
+    {
+        "question": "Affine cipher is an example of?",
+        "options": [
+            "a) Mono alphabetic cipher",
+            "b) Poly alphabetic cipher",
+            "c) Transposition cipher",
+            "d) Asymmetric cipher"
+        ],
+        "answer": "a",
+        "explanation": "Affine cipher falls in the category of mono alphabetic substitution cipher. It uses linear algebra for encrypting the plain text."
+    },
+    {
+        "question": "Affine cipher is less secure than caesar cipher.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Affine cipher is more secure as compared to caesar cipher. But affine cipher is a very weak cipher as it can be easily broken using frequency analysis."
+    },
+    {
+        "question": "Affine cipher is not susceptible to frequency analysis.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Affine cipher is a very weak cipher as it can be easily broken using frequency analysis. It can be easily cracked even if 2 characters are known."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to plain text \u201csanfoundry\u201d if an affine cipher is used with key values as a=5, b=10?",
+        "options": [
+            "a) wkxjcgxzra",
+            "b) gkxteuxfzw",
+            "c) ukxhmyxdfg",
+            "d) rfsexbsumv"
+        ],
+        "answer": "a",
+        "explanation": "Affine cipher uses linear algebra for the purpose of encryption. It uses the formula  (ax+b)%26 for this purpose. So the ciphered text will be \u201cwkxjcgxzra\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to ciphered text \u201crmw \u201d if an affine cipher is used with key values as a=5, b=10?",
+        "options": [
+            "a) csk",
+            "b) kkr",
+            "c) srt",
+            "d) msd"
+        ],
+        "answer": "c",
+        "explanation": "Affine cipher uses linear algebra for the purpose of encryption It uses the formula a"
+    },
+    {
+        "question": "While choosing the value of a and m (m is the no. of alphabets) in affine cipher it must be ensured that?",
+        "options": [
+            "a) a and m are prime numbers",
+            "b) a and m are odd numbers",
+            "c) a and m are coprime",
+            "d) a and m are even numbers"
+        ],
+        "answer": "c",
+        "explanation": "While choosing the values of a and m it should be ensured that a and m are coprime. Otherwise decoding the ciphered text would be difficult."
+    }
+]

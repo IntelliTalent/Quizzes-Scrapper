@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Which of the following is an example of an unstable sorting algorithm?",
+        "options": [
+            "a) cycle sort",
+            "b) insertion sort",
+            "c) bubble sort",
+            "d) merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options only cycle sort is an unstable sorting algorithm. This implies that the relative position of equal valued elements in the input and sorted array does not remain the same when we use cycle sort."
+    },
+    {
+        "question": "What is the worst case time complexity of cycle sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n log n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The worst case performance of cycle sort is O(n"
+    },
+    {
+        "question": "What is the auxiliary space requirement of cycle sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Cycle sort requires an auxiliary space of O(1). So this makes it an in-place sorting algorithm."
+    },
+    {
+        "question": "What is the best case time complexity of cycle sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n)",
+            "c) O(n log n)",
+            "d) O(1)"
+        ],
+        "answer": "a",
+        "explanation": "Best case time complexity of cycle sort is O(n"
+    },
+    {
+        "question": "What is the average case time complexity of cycle sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n log n)",
+            "c) O(log n)",
+            "d) O(n)"
+        ],
+        "answer": "a",
+        "explanation": "The average case performance of cycle sort is O(n"
+    },
+    {
+        "question": "Cycle sort is an adaptive sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of cycle sort is O(n"
+    },
+    {
+        "question": "Which of the following sorting algorithm is in-place?",
+        "options": [
+            "a) Merge sort",
+            "b) Cycle sort",
+            "c) Counting sort",
+            "d) Radix sort"
+        ],
+        "answer": "b",
+        "explanation": "Cycle sort has an auxiliary space complexity of O(1). So it qualifies to be an in-place sort. All other given options are not in place sorting algorithm."
+    },
+    {
+        "question": "Which of the following is an advantage of cycle sort?",
+        "options": [
+            "a) it can sort large arrays efficiently",
+            "b) it has a low time complexity",
+            "c) it requires minimal write operations",
+            "d) it is an adaptive sorting algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Cycle sort is a slow sorting algorithm as compared to quick sort, merge sort etc. and is also not adaptive. But it offers an advantage that it performs minimal write operations which can be very useful in a situation where the write operation is expensive."
+    },
+    {
+        "question": "Cycle sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Cycle sort is a comparison based sorting algorithm. This is because it compares elements in order to sort them."
+    },
+    {
+        "question": "Which of the following sorting algorithm uses the method of insertion?",
+        "options": [
+            "a) cycle sort",
+            "b) bubble sort",
+            "c) quick sort",
+            "d) selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Cycle sort is the only algorithm from the given ones that uses the method of insertion. Other than this, insertion sort also uses the method of insertion for sorting."
+    },
+    {
+        "question": "How many write operations will be required to sort the array arr={2,4,3,5,1} using cycle sort?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Cycle sort requires a minimum number of write operations in order to sort a given array. So in this case, only 4 write operations will be required."
+    },
+    {
+        "question": "Which of the following algorithm is best suited for the case where swap operation is expensive?",
+        "options": [
+            "a) bubble sort",
+            "b) cycle sort",
+            "c) cocktail sort",
+            "d) merge sort"
+        ],
+        "answer": "b",
+        "explanation": "Cycle sort is a slow sorting algorithm but it requires a minimum number of write operations in order to sort a given array. So it is useful when the write/swap operation is expensive."
+    }
+]

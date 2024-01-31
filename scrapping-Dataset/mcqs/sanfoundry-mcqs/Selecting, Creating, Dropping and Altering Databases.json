@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which statement is used to select a default database?",
+        "options": [
+            "a) USE",
+            "b) CREATE",
+            "c) DROP",
+            "d) SCHEMA"
+        ],
+        "answer": "a",
+        "explanation": "MySQL has the facility to use various statements specifically at the database level. For selecting a default database, the keyword or clause used is the \u2018USE\u2019 statement."
+    },
+    {
+        "question": "Which keyword is the synonym for DATABASE?",
+        "options": [
+            "a) TABLE",
+            "b) OBJECT",
+            "c) DB",
+            "d) SCHEMA"
+        ],
+        "answer": "d",
+        "explanation": "In any statement where the word \u2018DATABASE\u2019 occurs, the keyword \u2018SCHEMA\u2019 can be used as a synonym in place of it. In the literal sense, SCHEMA refers to the structure of the database."
+    },
+    {
+        "question": "It is not required to have an access privilege for a database before selecting it with \u2018USE\u2019.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In order to select a database as the default database for the MySQL server using the \u2018USE\u2019 statement, some access privilege for the database needs to be granted or attained."
+    },
+    {
+        "question": "Which keyword is used to create a database?",
+        "options": [
+            "a) CREATE",
+            "b) SET",
+            "c) SETUP",
+            "d) LINK"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018CREATE DATABASE database_name;\u2019 is used to create a database with the name \u2018database_name\u2019. A database qualifier should be used to specify the full name of the database."
+    },
+    {
+        "question": "The file created by the server to store the database attributes is __________",
+        "options": [
+            "a) db.otp",
+            "b) dp.zip",
+            "c) db.opt",
+            "d) db.cls"
+        ],
+        "answer": "c",
+        "explanation": "Whenever a database is created in MySQL, the MySQL server creates a directory with the same name as the database. It creates the file db.opt to store the attributes."
+    },
+    {
+        "question": "To create a database only if it doesn\u2019t already exist, which clause is used?",
+        "options": [
+            "a) IF EXISTS",
+            "b) IF NOT EXISTS",
+            "c) CREATE EXISTS",
+            "d) EXISTS IF"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CREATE DATABASE\u2019 statement supports many optional values. To create a database named \u2018my_db\u2019 only if it doesn\u2019t already exist, we write \u2018CREATE DATABASE IF NOT EXISTS my_db\u2019."
+    },
+    {
+        "question": "If COLLATE is given without CHARACTER SET, the first part of the collation name gives the character set.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When a database is created, the \u2018CHARACTER SET\u2019 and \u2018COLLATE\u2019 values are specified. When \u2018CHARACTER SET\u2019 is given without \u2018COLLATE\u2019, the default collation is used."
+    },
+    {
+        "question": "MySQL stores the database character set and collation attributes in the file _________",
+        "options": [
+            "a) dp.opt",
+            "b) db.opt",
+            "c) db.sv",
+            "d) db.zip"
+        ],
+        "answer": "b",
+        "explanation": "The file named \u2018db.opt\u2019 is of a great significance to MySQL, espectially the MySQL server. It stores the database attributes along with the db charset and collation attributes."
+    },
+    {
+        "question": "Which statement is used to see the definition for an existing database?",
+        "options": [
+            "a) SHOW CREATE DATABASE",
+            "b) SHOW DATABASE",
+            "c) SHOW CREATE",
+            "d) SHOW CREATE DATABASE TABLE"
+        ],
+        "answer": "a",
+        "explanation": "The statement \u2018SHOW CREATE DATABASE\u2019 is invoked to see the definition of an existing database in the MySQL server. It is followed by the qualified name of the database."
+    },
+    {
+        "question": "Which statement makes changes to the database\u2019s global attributes?",
+        "options": [
+            "a) CHANGE",
+            "b) ALTER",
+            "c) ALTERNATE",
+            "d) UPDATE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018ALTER TABLE\u2019 statement is used to make changes to a database\u2019s global attributes. This statement is followed by the name of the database, character set and collation."
+    }
+]

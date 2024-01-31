@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Architectural styles is composed of which of the following?",
+        "options": [
+            "a) A set of component types that perform some function at run-time",
+            "b) A topological layout of these components indicating their run-time inter relationships",
+            "c) A set of semantic constraints",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true with respect to the architectural styles."
+    },
+    {
+        "question": "Which architectural style goal is to achieve Integrability?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Data Centered Architectures",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Data Centered Architectures-goal is to achieve Integrability."
+    },
+    {
+        "question": "Which architectural style goal is to achieve Modifiability with Scalability?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Virtual Machine Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Call and Return Architecture goal is to achieve Modifiability with Scalability."
+    },
+    {
+        "question": "Which architectural style goal is to achieve Portability?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Virtual Machine Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Virtual Machine Architecture goal is to achieve Portability."
+    },
+    {
+        "question": "Which architectural style goal is to achieve Modifiability with Reuse?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Virtual Machine Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": " a",
+        "explanation": "Data Flow Architecture goal is to achieve Modifiability with Reuse."
+    },
+    {
+        "question": "Data Centered architecture is subdivided into which of the following subtypes?",
+        "options": [
+            "a) Repository and Blackboard",
+            "b) Batch Sequential, Pipes and Filters",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Data Centered architecture is subdivided into Repository and Blackboard."
+    },
+    {
+        "question": "Which of the architectural style is further subdivided into Batch sequential and Pipes & filters?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Data Centered Architectures",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Data flow is further subdivided into Batch sequential and Pipes & filters."
+    },
+    {
+        "question": "Which of the following are types of Call and return architecture?",
+        "options": [
+            "a) Main program and subroutine Architecture",
+            "b) Remote Procedure Call system",
+            "c) Object Oriented or abstract data type system",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are subtypes of Call and return Architecture."
+    },
+    {
+        "question": "Which of the following type has the main goal to achieve performance?",
+        "options": [
+            "a) Main program and subroutine Architecture",
+            "b) Remote Procedure Call system",
+            "c) Object Oriented or abstract data type system",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Remote procedure call system has the main goal to achieve performance."
+    },
+    {
+        "question": "Which of the following type has the main goal to achieve Modifiability?",
+        "options": [
+            "a) Main program and subroutine Architecture",
+            "b) Remote Procedure Call system",
+            "c) Object Oriented or abstract data type system",
+            "d) Main program and subroutine Architecture, Object Oriented or abstract data type system"
+        ],
+        "answer": "d",
+        "explanation": "Main program and subroutine Architecture, Object Oriented or abstract data type system has the main goal to achieve Modifiability."
+    },
+    {
+        "question": "In which of the following style new clients can be added easily?",
+        "options": [
+            "a) Data Flow Architecture",
+            "b) Call and Return Architecture",
+            "c) Data Centered Architectures",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Data Centered Architectures new clients can be added easily."
+    },
+    {
+        "question": "What is correct about Data centered architecture?",
+        "options": [
+            "a) It is modifiable with respect to changing the functionality of any particular client as other clients will not be affected",
+            "b) It is non-modifiable with respect to changing the functionality of any particular client as other clients will be affected",
+            "c) Coupling among the client will lessen the effect of data center architecture",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is modifiable with respect to changing the functionality of any particular client as other clients will not be affected, Coupling among the client will lessen the effect of data center architecture are the correct architectures."
+    },
+    {
+        "question": "What is batch sequential style?",
+        "options": [
+            "a) In batch sequential components are independent programs",
+            "b) Assumptions is that each step runs to completion before the next step starts",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In batch sequential style- In batch sequential components are independent programs, Assumptions is that each step runs to completion before the next step starts."
+    },
+    {
+        "question": "What is pipes and filter style?",
+        "options": [
+            "a) They emphasize on incremental transformation of data by successive components",
+            "b) It is used in UNIX family of the system",
+            "c) They return no state information",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned is true for pipes & filter style."
+    },
+    {
+        "question": "What are the advantage of pipe & filters?",
+        "options": [
+            "a) They interact with the environment in limited ways",
+            "b) They simplify systems maintenance and enhance its reuse",
+            "c) Interactive applications are encouraged by the style",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The advantage are-They interact with the environment in limited ways and They simplify systems maintenance and enhance its reuse."
+    }
+]

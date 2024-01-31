@@ -1,0 +1,98 @@
+[
+    {
+        "question": "The statement that views status variables by aggregating the values over all connections is _____________",
+        "options": [
+            "a) SHOW SESSION STATUS",
+            "b) SHOW LOCAL STATUS",
+            "c) SHOW GLOBAL STATUS",
+            "d) SHOW STATUS"
+        ],
+        "answer": "c",
+        "explanation": "The MySQL server maintains various status variables that provide information about its operations. These variables and their values can be viewed by using the SHOW [GLOBAL | SESSION] STATUS statement."
+    },
+    {
+        "question": "Which keyword inserted in the SHOW STATUS statement shows the values for the current connection?",
+        "options": [
+            "a) GLOBAL",
+            "b) SESSION",
+            "c) LOCAL",
+            "d) DEFAULT"
+        ],
+        "answer": "b",
+        "explanation": "The optional \u2018GLOBAL\u2019 keyword in the statement SHOW [GLOBAL | SESSION] STATUS statement aggregates the values over all connections and \u2018SESSION\u2019 shows the values for the current connection."
+    },
+    {
+        "question": "What is the synonym for last_insert_id session variable?",
+        "options": [
+            "a) insert_id",
+            "b) identity",
+            "c) sql_auto_is_null",
+            "d) sql_big_selects"
+        ],
+        "answer": "b",
+        "explanation": "The session only system variable \u2018identity\u2019 is a synonym for the \u2018last_insert_id\u2019 session variable. Setting \u2018last_insert_id\u2019 specifies the value to be returned by the function \u2018LAST_INSERT_ID()\u2019."
+    },
+    {
+        "question": "The Audit_log_events system variable is of type _____________",
+        "options": [
+            "a) string",
+            "b) integer",
+            "c) float",
+            "d) double"
+        ],
+        "answer": "b",
+        "explanation": "The system variable \u2018Audit_log_events\u2019 is of type integer. The variable scope if GLOBAL, that is, it can be viewed by issuing the statement \u2018SHOW GLOBAL STATUS\u2019, instead of \u2018SESSION\u2019."
+    },
+    {
+        "question": "mysql_next_result() does not return a status.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The function \u2018mysql_next_result()\u2019 returns a status and initiates retrieval of the next set if more results are available. The status is zero if more results are available and -1 if not."
+    },
+    {
+        "question": "The option that executes all SQL statements in a SQL script irrespective of the number of errors is ____________",
+        "options": [
+            "a) \u2013ensure",
+            "b) \u2013force",
+            "c) \u2013violent",
+            "d) \u2013run"
+        ],
+        "answer": "b",
+        "explanation": "If SQL queries in a file are run using mysql in batch mode, mysql either quits after the first error. If the \u2013force option is specified all the queries are executed indiscriminately."
+    },
+    {
+        "question": "What is the number of attributes in the following SQL table?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The name of the table created is \u2019employee\u2019. It has two attributes, namely, \u2019emp_name\u2019 and \u2019emp_id\u2019. The attributes are the columns in a table. emp_name is of type string and emp_id is of type integer."
+    },
+    {
+        "question": "How many of the following do not return rows?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, it is important to note that \u2018SELECT\u2019 is not the only statement that returns some rows. Statements like \u2018SHOW\u2019, \u2018DESCRIBE\u2019, \u2018EXPLAIN\u2019 and \u2018CHECK TABLE\u2019 do so as well."
+    },
+    {
+        "question": "What does mysql_fetch_row() return?",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) pointer"
+        ],
+        "answer": "d",
+        "explanation": "\u2018mysql_fetch_row()\u2019 returns a MYSQL_ROW value, a pointer to an array of values. If the return value is assigned to a variable named row each value within the row is accessed as row[i]."
+    },
+    {
+        "question": "The columns containing a binary value that include null bytes will print properly using the %s printf() format specifier.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The columns containing binary value including null bytes do not print properly using the %s printf() format specifier. printf() expects a null terminated string. It prints the column value only up to the first null byte."
+    }
+]

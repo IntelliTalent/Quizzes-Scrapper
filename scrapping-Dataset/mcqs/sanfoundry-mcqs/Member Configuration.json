@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The ________ settings of replica set members affect the outcomes of elections for primary.",
+        "options": [
+            "a) priority",
+            "b) replication",
+            "c) Initiate",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use this setting to ensure that some members are more likely to become primary and that others can never become primary."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The value of the member\u2019s priority setting determines the member\u2019s priority in elections",
+            "b) The default value for the priority field is 3",
+            "c) The value of priority can be any floating point (i.e. decimal) number between 0 and 500",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The higher the number, the higher the priority."
+    },
+    {
+        "question": "To modify priorities, you update the members _________ in the replica configuration object.",
+        "options": [
+            "a) array",
+            "b) tag",
+            "c) mdimarray",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The array index begins with 0. Do not confuse this index value with the value of the replica set member\u2019s _id field in the array."
+    },
+    {
+        "question": "The _________ shell method can force the current primary to step down, which causes an election.",
+        "options": [
+            "a) rs.repliconfig()",
+            "b) rs.config()",
+            "c) rs.reconfig()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When the primary steps down, the mongod closes all client connections."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Before an election the primary opens all open client connections",
+            "b) To block a member from seeking election as primary, assign it a priority of 0",
+            "c) Hidden members, delayed members, and arbiters all have priority set to 0",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Reconfiguring priority can force the current primary to step down, leading to an election."
+    },
+    {
+        "question": "If the oplog is shorter than the slaveDelay window, the _______ member cannot successfully replicate operations.",
+        "options": [
+            "a) hidden",
+            "b) delayed",
+            "c) priority",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The length of the secondary slaveDelay must fit within the window of the oplog."
+    },
+    {
+        "question": "_________ members allow you to add additional members for read distribution beyond the maximum seven voting members.",
+        "options": [
+            "a) Voting",
+            "b) Non-voting",
+            "c) Priority",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To configure a member as non-voting, set its votes value to 0."
+    },
+    {
+        "question": "Remove the secondary from the replica set by calling  ___________ method.",
+        "options": [
+            "a) rs.removeRepli()",
+            "b) rs.remove()",
+            "c) rs.removeset()",
+            "d) isMaster"
+        ],
+        "answer": "b",
+        "explanation": "rs.remove() removes the member described by the hostname parameter from the current replica set."
+    },
+    {
+        "question": "______ returns basic help text for replica set functions.",
+        "options": [
+            "a) rs.printSlaveReplicationInfo()",
+            "b) rs.printReplication()",
+            "c) rs.help()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "rs.help() returns a basic help text for all of the replication related shell functions."
+    },
+    {
+        "question": "__________ prints a report of the status of the replica set from the perspective of the secondaries.",
+        "options": [
+            "a) rs.printSlaveReplicationInfo()",
+            "b) rs.printReplication()",
+            "c) rs.help()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "rs.printSlaveReplicationInfo() returns a formatted report of the status of a replica set from the perspective of the secondary member of the set."
+    }
+]

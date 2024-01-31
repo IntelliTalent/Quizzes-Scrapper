@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the the following graphic device information is odd man out in the below figure?",
+        "options": [
+            "a) quartz",
+            "b) window",
+            "c) unix",
+            "d) x11"
+        ],
+        "answer": "c",
+        "explanation": "unix keyword does not exist with regards to graphics device."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) On Mac, the screen device is launched with quartz",
+            "b) On Windows, the screen device is launched with wind",
+            "c) On Unix, the screen device is launched with x12",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "On Windows, the screen device is launched with window function."
+    },
+    {
+        "question": "Which of the following is an example of graphics device?",
+        "options": [
+            "a) PDF",
+            "b) SVG",
+            "c) JPEG",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "When the plot() function is invoked, R sends the data corresponding to the plot over, and the graphics device generates the plot."
+    },
+    {
+        "question": "Which of the following file format is graphic device only for windows?",
+        "options": [
+            "a) pdf",
+            "b) svg",
+            "c) win.metafile",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Exporting graphics to a Windows MetaFile can be achieved via the win.metafile."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) For quick visualizations and exploratory analysis, usually you want to use the screen device",
+            "b) Functions like xyplot in lattice will not default to sending a plot to the screen device",
+            "c) Not all graphics devices are available on all platforms",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "window function cannot be used on Mac."
+    },
+    {
+        "question": "Which of the following system most often don\u2019t have postscript viewer?",
+        "options": [
+            "a) Windows",
+            "b) Linux",
+            "c) Mac",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "postscript is older format but it resizes well."
+    },
+    {
+        "question": "There are mainly three types of file devices.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "There are mainly basic types of file devices-vector and bitmap."
+    },
+    {
+        "question": "Which of the following is a bitmap file type?",
+        "options": [
+            "a) tiff",
+            "b) svg",
+            "c) pdf",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "TIFF is a computer file format for storing raster graphics images."
+    },
+    {
+        "question": "Which of the following function displays currently active graphics device?",
+        "options": [
+            "a) dev.present",
+            "b) dev.cur",
+            "c) pre.cur",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can change the active graphics device with dev.set."
+    },
+    {
+        "question": "The most familiar place for a plot to be \u201csent\u201d is screen device.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "On Linux, the screen device is launched with x11 function."
+    }
+]

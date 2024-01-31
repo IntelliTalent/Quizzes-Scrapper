@@ -1,0 +1,85 @@
+[
+    {
+        "question": "Which Authentication Encryption approach is taken by the SSL/TLS protocol?",
+        "options": [
+            "a) Hashing followed by encryption (H\u2192E)",
+            "b) Encryption followed by authentication (E\u2192A)",
+            "c) Authentication followed by encryption (A\u2192E)",
+            "d) Independently encrypt and authenticate (E + A)"
+        ],
+        "answer": "c",
+        "explanation": "Authentication followed by encryption (A\u2192E) is the AE approach taken by the SSL/TLS protocol."
+    },
+    {
+        "question": "Which Authentication Encryption approach is taken by the IPSec protocol?",
+        "options": [
+            "a) Authentication followed by encryption (A\u2192E)",
+            "b) Hashing followed by encryption (H\u2192E)",
+            "c) Encryption followed by authentication (E\u2192A)",
+            "d) Independently encrypt and authenticate (E + A)"
+        ],
+        "answer": "c",
+        "explanation": "Encryption followed by authentication (E\u2192A) is the AE approach taken by the IPSec protocol."
+    },
+    {
+        "question": "Which Authentication Encryption approach is taken by the SSH protocol?",
+        "options": [
+            "a) Hashing followed by encryption (H\u2192E)",
+            "b) Encryption followed by authentication (E\u2192A)",
+            "c) Authentication followed by encryption (A\u2192E)",
+            "d) Independently encrypt and authenticate (E + A)"
+        ],
+        "answer": "d",
+        "explanation": "Independently encrypt and authenticate (E + A)is the AE approach taken by the SSH protocol."
+    },
+    {
+        "question": "Hashing followed by encryption (H\u2192E) is used by which algorithm?",
+        "options": [
+            "a) IPSec",
+            "b) SSH",
+            "c) WEP",
+            "d) SSL/TLS"
+        ],
+        "answer": "c",
+        "explanation": "WEP uses Hashing followed by encryption (H\u2192E) algorithm."
+    },
+    {
+        "question": "Which of the following terms is not an input to the CCM encryption?",
+        "options": [
+            "a) Nonce.",
+            "b) Associated data.",
+            "c) Plaintext message.",
+            "d) Tag."
+        ],
+        "answer": "d",
+        "explanation": "A tag is not involved with CCM."
+    },
+    {
+        "question": "How many passes through the plaintext does the CCM require to generate the MAC value?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "The CCM requires 2 passes through the plaintext to generate the MAC value."
+    },
+    {
+        "question": "What does the following figure represent?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The figure is the hash producing function of the Galois Counter MAC."
+    },
+    {
+        "question": "In GCM, we define S as S = GHASH(A||0",
+        "options": [
+            "a) 64 ceil[len(A)/128] \u2013 len(A)",
+            "b) 64 ceil[len(C)/128] \u2013 len(C)",
+            "c) 128 ceil[len(A)/128] \u2013 len(A)",
+            "d) 128 ceil[len(C)/128] \u2013 len(C)"
+        ],
+        "answer": "d",
+        "explanation": "u = 128 ceil[len(C)/128] \u2013 len(C)."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which language is best for the statistical environment?",
+        "options": [
+            "a) C",
+            "b) R",
+            "c) Java",
+            "d) Python"
+        ],
+        "answer": "b",
+        "explanation": "R is a popular programming language and environment for statistical computing, graphics and also predictive analysis. Dundas BI integrates with an existing R system at the data cube level via many transforms which you can use to perform data generation or data processing."
+    },
+    {
+        "question": "In order to use the R-related functionality in Dundas BI, you must have access to an existing _________",
+        "options": [
+            "a) Console",
+            "b) Terminal",
+            "c) Packages",
+            "d) R server"
+        ],
+        "answer": "d",
+        "explanation": "In order to use the R-related functionality in Dundas BI, we must have access to an existing R server. There are configuration settings in Dundas BI that allow administrators to specify the details for connecting to the external R server."
+    },
+    {
+        "question": "The open source _________ software is available for Unix, Linux, and Windows platforms.",
+        "options": [
+            "a) Rserve",
+            "b) BServe",
+            "c) CServe",
+            "d) Dserve"
+        ],
+        "answer": "a",
+        "explanation": "The open source Rserve (Binary R Server) software is available for Unix, Linux, and Windows platforms. However, due to limitations with the Windows version, it is not recommended for use outside of evaluation purposes."
+    },
+    {
+        "question": "Modification in Dundas BI is done ______________",
+        "options": [
+            "a) Directly",
+            "b) Indirectly",
+            "c) Need access to Server",
+            "d) Not known"
+        ],
+        "answer": "a",
+        "explanation": "We can view or modify configuration settings in Dundas BI through an administration screen, so there\u2019s no need to access the Dundas BI server directly."
+    },
+    {
+        "question": "R has many functions regarding ________________",
+        "options": [
+            "a) Statistics, Biotechnology",
+            "b) Probability, Microbiology",
+            "c) Distributions, Physics",
+            "d) Statistics, Probability, Distributions"
+        ],
+        "answer": "d",
+        "explanation": "R has many functions for all types of mathematical objects. For example, Statistics, Probability, Distributions like Multivariate, Continuous, Simple, Discrete etc."
+    },
+    {
+        "question": "___________ hosts many add-on packages that can be used to extend the functionality of R.",
+        "options": [
+            "a) CRAN",
+            "b) GNU",
+            "c) R studio",
+            "d) 450"
+        ],
+        "answer": "a",
+        "explanation": "The primary R system is available from the Comprehensive R Archive Network, also known as CRAN. CRAN also hosts many add-on packages that can be used to extend the functionality of R."
+    },
+    {
+        "question": "Which function is used to automatically vectorize?",
+        "options": [
+            "a) lapply()",
+            "b) kapply()",
+            "c) mapply()",
+            "d) happly()"
+        ],
+        "answer": "answer: c",
+        "explanation": "The mapply() function can be used to automatically \u201cvectorize\u201d a function. What this means is that it can be used to take a function that typically only takes single arguments and create a new function that can take vector arguments."
+    },
+    {
+        "question": "Which is simpler for statistical programming?",
+        "options": [
+            "a) C",
+            "b) Java",
+            "c) R",
+            "d) No language"
+        ],
+        "answer": "c",
+        "explanation": "R (www.r-project.org) is a commonly used free Statistics software. R allows you to carry out statistical analyses in an interactive mode, as well as allowing simple programming."
+    },
+    {
+        "question": "A _______________ is a variable that holds one value at a time.",
+        "options": [
+            "a) Scalar variable",
+            "b) Duplex",
+            "c) High",
+            "d) Vector"
+        ],
+        "answer": "a",
+        "explanation": "A scalar variable was a variable which holds one value at a time. It is a single component which assumes a range of number or string values. A scalar value is associated with every point in space."
+    }
+]

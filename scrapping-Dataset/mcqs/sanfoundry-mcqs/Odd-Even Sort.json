@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Odd-even sort is also known as ____________",
+        "options": [
+            "a) stupid sort",
+            "b) smart sort",
+            "c) brick sort",
+            "d) bogo sort"
+        ],
+        "answer": "c",
+        "explanation": "Odd-even sort is also known by the name of a brick sort. This algorithm was first proposed by Habermann in 1972 and was initially invented for parallel computation of local interconnection."
+    },
+    {
+        "question": "Odd-even sort is a variation of ___________",
+        "options": [
+            "a) Bubble sort",
+            "b) Selection sort",
+            "c) Insertion sort",
+            "d) Gnome sort"
+        ],
+        "answer": "a",
+        "explanation": "Odd-even sort is very similar to bubble sort. It works by applying bubble sort in two phases I.e odd phase and even phase. In odd phase bubble sort is applied on odd indexed elements and in even phase bubble sort is applied on even indexed elements."
+    },
+    {
+        "question": "Auxiliary space requirement of odd-even sort is ___________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(1)",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "In odd-even sort manipulation is done on the input array itself. So no extra space is required to perform sorting. Thus it requires constant auxiliary space."
+    },
+    {
+        "question": "Which of the following sorting algorithm is NOT stable?",
+        "options": [
+            "a) Quick sort",
+            "b) Brick sort",
+            "c) Bubble sort",
+            "d) Merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options quick sort is the only algorithm which is not stable. Brick sort like bubble sort is a stable sorting algorithm."
+    },
+    {
+        "question": "Which of the following sorting algorithm is in place?",
+        "options": [
+            "a) brick sort",
+            "b) merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Brick sort is an in place sorting technique as it only requires constant auxiliary space for manipulating the input array."
+    },
+    {
+        "question": "Odd-even sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Odd-even sort compares the value of different elements in the array for sorting. Thus, it is a comparison based sort."
+    },
+    {
+        "question": "Brick sort uses which of the following methods for sorting the input?",
+        "options": [
+            "a) selection",
+            "b) partitioning",
+            "c) merging",
+            "d) exchanging"
+        ],
+        "answer": "d",
+        "explanation": "Brick sort uses the method of exchanging as it swaps the elements which are out of order. This swapping is done in two phases i.e. odd phase and even phase."
+    },
+    {
+        "question": "What is the worst case time complexity of odd-even sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Worst case complexity is observed when the input array is reverse sorted. This is the same as the worst case complexity of bubble sort."
+    },
+    {
+        "question": "What is the best case time complexity of odd-even sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case complexity is observed when the input array is already sorted. This is the same as the best case complexity of bubble sort."
+    },
+    {
+        "question": "What is the average case time complexity of odd-even sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Odd-even sort takes O(n"
+    },
+    {
+        "question": "How many odd and even phases are required respectively to sort the given array using odd-even sort.arr={3,2,3,8,5,6,2,1}.",
+        "options": [
+            "a) 3,3",
+            "b) 4,4",
+            "c) 3,4",
+            "d) 4,3"
+        ],
+        "answer": "b",
+        "explanation": "Odd-even sort applies bubble sort in two phases until the array gets sorted. So here 8 phases will be required in totality to sort the array. Out of these 4 phases will be odd phase and the other 4 will be even phase."
+    },
+    {
+        "question": "Which of the following function correctly represents odd-even sort?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "We apply bubble sort in two phases i.e. odd and even phase until the array gets sorted. In odd phase bubble sort is applied to odd indexed elements and in even phase bubble sort is applied to even indexed elements."
+    }
+]

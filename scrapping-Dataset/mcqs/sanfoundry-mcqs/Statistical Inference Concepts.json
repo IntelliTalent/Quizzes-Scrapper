@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following testing is concerned with making decisions using data?",
+        "options": [
+            "a) Probability",
+            "b) Hypothesis",
+            "c) Causal",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The null hypothesis is assumed true and statistical evidence is required to reject it in favor of a research or alternative hypothesis."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Power of a one sided test is lower than the power of the associated two sided test",
+            "b) Power of a two sided test is greater than the power of the associated one sided test",
+            "c) Hypothesis testing is less commonly used",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Power of a one sided test is greater than the power of the associated two sided test."
+    },
+    {
+        "question": "Which of the following value is the most common measure of \u201cstatistical significance\u201d?",
+        "options": [
+            "a) P",
+            "b) A",
+            "c) L",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The P-value is the probability under the null hypothesis of obtaining evidence as extreme or more extreme than would be observed by chance alone."
+    },
+    {
+        "question": "What is the purpose of multiple testing in statistical inference?",
+        "options": [
+            "a) Minimize errors",
+            "b) Minimize false positives",
+            "c) Minimize false negatives",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A false positive is an error in some evaluation process in which a condition tested for is mistakenly found to have been detected."
+    },
+    {
+        "question": "Point out the wrong statement with respect to FDR.",
+        "options": [
+            "a) FDR is difficult to calculate",
+            "b) FDR is relatively less conservative",
+            "c) FDR allows for more false positives",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "FDR stands for false discovery rate."
+    },
+    {
+        "question": "Which of the following is the oldest multiple testing correction?",
+        "options": [
+            "a) Bonferroni correction",
+            "b) Bernoulli correction",
+            "c) Likelihood correction",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Bonferroni correction is easy to calculate."
+    },
+    {
+        "question": "Which of the following tool is used for constructing confidence intervals and calculating standard errors for difficult statistics?",
+        "options": [
+            "a) baggyer",
+            "b) bootstrap",
+            "c) jacknife",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The bootstrap procedure follows from the so called bootstrap principle."
+    },
+    {
+        "question": "Which of the following tool is used for estimating standard errors and the bias of estimators?",
+        "options": [
+            "a) knitr",
+            "b) jackknife",
+            "c) ggplot2",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "jackknife involves resampling data."
+    },
+    {
+        "question": "Power is the probability of rejecting the null hypothesis when it is true.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Power is the probability of rejecting the null hypothesis when it is false."
+    }
+]

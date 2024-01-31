@@ -1,0 +1,120 @@
+[
+    {
+        "question": "Which figure implements confidentiality and authentication?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "a",
+        "explanation": "Figure implements both confidentiality and authentication."
+    },
+    {
+        "question": "Which figure implements confidentiality, authentication and signature?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "d",
+        "explanation": "Figure implements confidentiality, authentication, and signature."
+    },
+    {
+        "question": "The above figure implements authentication and signature only?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The system does not implement confidentiality."
+    },
+    {
+        "question": "The above figure represents internal error control.",
+        "options": [],
+        "answer": "b",
+        "explanation": "The system is that of external error control."
+    },
+    {
+        "question": "Another name for Message authentication codes is",
+        "options": [
+            "a) cryptographic codebreak",
+            "b) cryptographic codesum",
+            "c) cryptographic checksum",
+            "d) cryptographic checkbreak"
+        ],
+        "answer": "c",
+        "explanation": "Cryptographic checksum is another name for MACs."
+    },
+    {
+        "question": "The following figure has authentication tied to the plaintext-",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The figure has authentication tied to the ciphertext."
+    },
+    {
+        "question": "For a 150-bit message and a 10-bit MAC, how many values are the MAC value dependent on?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "2"
+    },
+    {
+        "question": "Confidentiality can only be provided if we perform message encryption before the MAC generation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Confidentiality can be provided even if we perform message encryption after the MAC generation."
+    },
+    {
+        "question": "MACs are also called",
+        "options": [
+            "a) testword",
+            "b) checkword",
+            "c) testbits",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Another term for MACs are tags(or check sum)."
+    },
+    {
+        "question": "For a 100 bit key and a 32 bit tag, how many possible keys can be produced in the 3rd round?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "First round: 100 \u2013 32 = 68"
+    },
+    {
+        "question": "MAC is a",
+        "options": [
+            "a) one-to-one mapping",
+            "b) many-to-one mapping",
+            "c) onto mapping",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MACs are many to one mapping, which makes it tougher for the intruder for cryptanalysis."
+    },
+    {
+        "question": "For an n-bit tag and a k-bit key, the level of effort required for brute force attack on a MAC algorithm is",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) min(2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "The level of effort required for brute force attack on a MAC algorithm is min(2"
+    }
+]

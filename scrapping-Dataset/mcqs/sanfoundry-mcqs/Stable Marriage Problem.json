@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Stable marriage problem is an example of?",
+        "options": [
+            "a) Branch and bound algorithm",
+            "b) Backtracking algorithm",
+            "c) Greedy algorithm",
+            "d) Divide and conquer algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Stable marriage problem is an example for recursive algorithm because it recursively uses backtracking algorithm to find an optimal solution."
+    },
+    {
+        "question": "Which of the following algorithms does Stable marriage problem uses?",
+        "options": [
+            "a) Gale-Shapley algorithm",
+            "b) Dijkstra\u2019s algorithm",
+            "c) Ford-Fulkerson algorithm",
+            "d) Prim\u2019s algorithm"
+        ],
+        "answer": "a",
+        "explanation": "Stable marriage problem uses Gale-Shapley algorithm. Maximum flow problem uses Ford-Fulkerson algorithm. Prim\u2019s algorithm involves minimum spanning tree."
+    },
+    {
+        "question": "An optimal solution satisfying men\u2019s preferences is said to be?",
+        "options": [
+            "a) Man optimal",
+            "b) Woman optimal",
+            "c) Pair optimal",
+            "d) Best optimal"
+        ],
+        "answer": "a",
+        "explanation": "An optimal solution satisfying men\u2019s preferences are said to be man optimal. An optimal solution satisfying woman\u2019s preferences are said to be woman optimal."
+    },
+    {
+        "question": "When a free man proposes to an available woman, which of the following happens?",
+        "options": [
+            "a) She will think and decide",
+            "b) She will reject",
+            "c) She will replace her current mate",
+            "d) She will accept"
+        ],
+        "answer": "d",
+        "explanation": "When a man proposes to an available woman, she will accept his proposal irrespective of his position on his preference list."
+    },
+    {
+        "question": "If there are n couples who would prefer each other to their actual marriage partners, then the assignment is said to be unstable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If there are n couples such that a man and a woman are not married, and if they prefer each other to their actual partners, the assignment is unstable."
+    },
+    {
+        "question": "How many 2*2 matrices are used in this problem?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Two 2*2 matrices are used. One for men representing corresponding woman and ranking and the other for women."
+    },
+    {
+        "question": "What happens when a free man approaches a married woman?",
+        "options": [
+            "a) She simply rejects him",
+            "b) She simply replaces her mate with him",
+            "c) She goes through her preference list and accordingly, she replaces her current mate with him",
+            "d) She accepts his proposal"
+        ],
+        "answer": "c",
+        "explanation": "If the preference of the man is greater, she replaces her current mate with him, leaving her current mate free."
+    },
+    {
+        "question": "In case of stability, how many symmetric possibilities of trouble can occur?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 4",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "Possibilities- There might be a woman pw, preferred to w by m, who herself prefers m to be her husband and the same applies to man as well."
+    },
+    {
+        "question": "Consider the following ranking matrix. Assume that M1 and W2 are married. Now, M2 approaches W2. Which of the following happens?",
+        "options": [
+            "a) W2 replaces M1 with M2",
+            "b) W2 rejects M2",
+            "c) W2 accepts both M1 and M2",
+            "d) W2 rejects both M1 and M2"
+        ],
+        "answer": "a",
+        "explanation": "W2 is married to M1. But the preference of W2 has M2 before M1. Hence, W2 replaces M1 with M2."
+    },
+    {
+        "question": "Consider the following ranking matrix. Assume that M1 and W1 are married and M2 and W3 are married. Now, whom will M3 approach first?",
+        "options": [
+            "a) W1",
+            "b) W2",
+            "c) W3",
+            "d) All three"
+        ],
+        "answer": "c",
+        "explanation": "M3 will approach W3 first. Since W3 is married and since her preference list has her current mate before M3, she rejects his proposal."
+    },
+    {
+        "question": "Who formulated a straight forward backtracking scheme for stable marriage problem?",
+        "options": [
+            "a) McVitie and Wilson",
+            "b) Gale",
+            "c) Ford and Fulkerson",
+            "d) Dinitz"
+        ],
+        "answer": "a",
+        "explanation": "McVitie and Wilson formulated a much faster straight forward backtracking scheme for stable marriage problem. Ford and Fulkerson formulated Maximum flow problem."
+    },
+    {
+        "question": "Can stable marriage cannot be solved using branch and bound algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Stable marriage problem can be solved using branch and bound approach because branch and bound follows backtracking scheme with a limitation factor."
+    },
+    {
+        "question": "What is the prime task of the stable marriage problem?",
+        "options": [
+            "a) To provide man optimal solution",
+            "b) To provide woman optimal solution",
+            "c) To determine stability of marriage",
+            "d) To use backtracking approach"
+        ],
+        "answer": "c",
+        "explanation": "The prime task of stable marriage problem is to determine stability of marriage (i.e) finding a man and a woman who prefer each other to others."
+    },
+    {
+        "question": "Which of the following problems is related to stable marriage problem?",
+        "options": [
+            "a) Choice of school by students",
+            "b) N-queen problem",
+            "c) Arranging data in a database",
+            "d) Knapsack problem"
+        ],
+        "answer": "a",
+        "explanation": "Choice of school by students is the most related example in the given set of options since both school and students will have a preference list."
+    },
+    {
+        "question": "What is the efficiency of Gale-Shapley algorithm used in stable marriage problem?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "c",
+        "explanation": "The time efficiency of Gale-Shapley algorithm is mathematically found to be O(N"
+    }
+]

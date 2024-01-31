@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Hasse diagrams are first made by ______",
+        "options": [
+            "a) A.R. Hasse",
+            "b) Helmut Hasse",
+            "c) Dennis Hasse",
+            "d) T.P. Hasse"
+        ],
+        "answer": "b",
+        "explanation": "Hasse diagrams can be described as the transitive reduction as an abstract directed acyclic graph. This graph drawing techniques are constructed by Helmut Hasse(1948)."
+    },
+    {
+        "question": "If a partial order is drawn as a Hasse diagram in which no two edges cross, its covering graph is called ______",
+        "options": [
+            "a) upward planar",
+            "b) downward planar",
+            "c) lattice",
+            "d) biconnected components"
+        ],
+        "answer": "a",
+        "explanation": "In a Hasse diagram if no two edges cross each other in the drawing of partial order Hasse diagram, then its covering graph called the upward planar."
+    },
+    {
+        "question": "If the partial order of a set has at most one minimal element, then to test whether it has a non-crossing Hasse diagram its time complexity __________",
+        "options": [
+            "a) NP-complete",
+            "b) O(n",
+            "c) O(n+2)",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": " If the partial order has at most one minimal element, or it has at most one maximal element, then to test whether a partial order with multiple sources and sinks can be drawn as a crossing-free Hasse diagram or not it\u2019s time complexity is NP-complete."
+    },
+    {
+        "question": "Which of the following relation is a partial order as well as an equivalence relation?",
+        "options": [
+            "a) equal to(=)",
+            "b) less than(<)",
+            "c) greater than(>)",
+            "d) not equal to(!=)"
+        ],
+        "answer": "a",
+        "explanation": "The identity relation = on any set is a partial order in which every two distinct elements are incomparable and that depicts the relation of both a partial order and an equivalence relation. For non-linear orders, there are many advanced properties of posets."
+    },
+    {
+        "question": "The relation \u2264 is a partial order if it is ___________",
+        "options": [
+            "a) reflexive, antisymmetric and transitive",
+            "b) reflexive, symmetric",
+            "c) asymmetric, transitive",
+            "d) irreflexive and transitive"
+        ],
+        "answer": "a",
+        "explanation": "Let A is a set and \u2264 is a relation on A, then \u2264 is a partial order if it satisfies reflexive, antisymmetric, and transitive, i.e., for all x, y and z in P. That means, x \u2264 x (reflexivity);"
+    },
+    {
+        "question": "In which of the following relations every pair of elements is comparable?",
+        "options": [
+            "a) \u2264",
+            "b) !=",
+            "c) >=",
+            "d) =="
+        ],
+        "answer": "a",
+        "explanation": "In the \u2264(or less than and equal to) relation, every pair of elements is comparable."
+    },
+    {
+        "question": "In a poset (S, \u2aaf), if there is no element n\u2208S with m<n, then which of the following is true?",
+        "options": [
+            "a) an element n exists for which m=n",
+            "b) An element m is maximal in the poset",
+            "c) A set with the same subset of the poset",
+            "d) An element m is minimal in the poset"
+        ],
+        "answer": "b",
+        "explanation": "By the definition, an element m exists in a poset (S, \u2aaf) is maximal if and only if there is no n\u2208S with m\u227an."
+    },
+    {
+        "question": "In a poset P({v, x, y, z}, \u2286) which of the following is the greatest element?",
+        "options": [
+            "a) {v, x, y, z}",
+            "b) 1",
+            "c) \u2205",
+            "d) {vx, xy, yz}"
+        ],
+        "answer": "a",
+        "explanation": "We know that, in a Hasse diagram, the maximal element(s) are the top and the minimal elements are at the bottom of the diagram. In the given poset, {v, x, y, z} is the maximal or greatest element and \u2205 is the minimal or least element."
+    },
+    {
+        "question": "Suppose P",
+        "options": [
+            "a) D\u2229T=\u00d8",
+            "b) D\u222aT=P",
+            "c) xyz\u2208T",
+            "d) z\u2208T and zx\u2208D"
+        ],
+        "answer": "a",
+        "explanation": " Suppose P"
+    },
+    {
+        "question": "Let G be the graph defined as the Hasse diagram for the \u2286 relation on the set S{1, 2,\u2026, 18}. How many edges are there in G?",
+        "options": [
+            "a) 43722",
+            "b) 2359296",
+            "c) 6487535",
+            "d) 131963"
+        ],
+        "answer": "b",
+        "explanation": "Here the total number of elements in S is 18 and so number of vertices in Hasse diagram are 2"
+    }
+]

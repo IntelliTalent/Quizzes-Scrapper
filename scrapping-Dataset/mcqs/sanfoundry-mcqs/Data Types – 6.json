@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The four most frequently used types of data objects in R  are vectors, matrices, data frames and ________",
+        "options": [
+            "a) Function",
+            "b) Lists",
+            "c) Packages",
+            "d) Interfaces"
+        ],
+        "answer": "b",
+        "explanation": "The four most frequently used types of data objects in R are vectors, matrices, data frames and lists. A list is a generalisation of a vector and represents a collection of data objects."
+    },
+    {
+        "question": "A __________ is a set of elements appearing in rows and columns where the elements are of the same mode whether they are logical, numeric (integer or double), complex or character.",
+        "options": [
+            "a) Vector",
+            "b) Matrix",
+            "c) Lists",
+            "d) Data frames"
+        ],
+        "answer": "b",
+        "explanation": "A matrix is a set of elements appearing in rows and columns where the elements are of the same mode whether they are logical, numeric (integer or double), complex or character."
+    },
+    {
+        "question": "What is the simplest way of creating the vector?",
+        "options": [
+            "a) C function",
+            "b) Create",
+            "c) Destroy",
+            "d) Invalid"
+        ],
+        "answer": "a",
+        "explanation": "The simplest way to create a vector is through the concatenation function, c. This function binds elements together, whether they are of character form, numeric or logical."
+    },
+    {
+        "question": "Which function replicates elements of vectors?",
+        "options": [
+            "a) C",
+            "b) Rep",
+            "c) Crep",
+            "d) Grep"
+        ],
+        "answer": "b",
+        "explanation": "The rep function replicates elements of vectors. The seq function creates a regular sequence of values to form a vector. The four most frequently used types of data objects in R are vectors, matrices, data frames and lists."
+    },
+    {
+        "question": "The ________ function creates a regular sequence of values to form a vector.",
+        "options": [
+            "a) sequel",
+            "b) Rep",
+            "c) seq",
+            "d) Grep"
+        ],
+        "answer": "c",
+        "explanation": "The rep function replicates elements of vectors. The seq function creates a regular sequence of values to form a vector. The four most frequently used types of data objects in R are vectors, matrices, data frames and lists."
+    },
+    {
+        "question": "Computation with vectors is achieved using an element-by-element operation for avoiding _________",
+        "options": [
+            "a) Loops",
+            "b) Functions",
+            "c) Packages",
+            "d) Interfaces"
+        ],
+        "answer": "a",
+        "explanation": "Computation with vectors is achieved using an element-by-element operation. This is useful when writing code because it avoids \u2019for loops\u2019."
+    },
+    {
+        "question": "To bind a row onto an already existing matrix, the ______ function can be used.",
+        "options": [
+            "a) Rbind",
+            "b) Sbnd",
+            "c) Gbind",
+            "d) Sbind"
+        ],
+        "answer": "a",
+        "explanation": "To bind a row onto an already existing matrix, the rbind function can be used. The scan function is used to enter data at the terminal."
+    },
+    {
+        "question": "Which of the following is a 3-dimensional dataset?",
+        "options": [
+            "a) Eris",
+            "b) Iris",
+            "c) Toris",
+            "d) Iris"
+        ],
+        "answer": "b",
+        "explanation": "The iris dataset is a three dimensional dataset. One dimension is represented for each species: Setosa, Versicolor and Virginica."
+    },
+    {
+        "question": "Which dimension corresponds to the explanatory variables collected for each species?",
+        "options": [
+            "a) First",
+            "b) Second",
+            "c) Third",
+            "d) Fifth"
+        ],
+        "answer": "b",
+        "explanation": "The second dimension corresponds to the explanatory variables collected for each species. The third dimension corresponds to the species."
+    },
+    {
+        "question": "Using the ________ vector, we create a species factor and bind it to the columns of iris.df.",
+        "options": [
+            "a) snames",
+            "b) rnames",
+            "c) jnames",
+            "d) fnames"
+        ],
+        "answer": "a",
+        "explanation": "Using the Snames vector, we create a species factor and bind it to the columns of iris.df. The iris dataset is a three dimensional dataset."
+    }
+]

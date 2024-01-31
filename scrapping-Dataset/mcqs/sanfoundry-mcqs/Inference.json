@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which rule of inference is used in each of these arguments, \u201cIf it is Wednesday, then the Smartmart will be crowded. It is Wednesday. Thus, the Smartmart is crowded.\u201d",
+        "options": [
+            "a) Modus tollens",
+            "b) Modus ponens",
+            "c) Disjunctive syllogism",
+            "d) Simplification"
+        ],
+        "answer": "b",
+        "explanation": "(M \u2227 (M \u2192 N)) \u2192 N is Modus ponens."
+    },
+    {
+        "question": "Which rule of inference is used in each of these arguments, \u201cIf it hailstoday, the local office will be closed. The local office is not closed today. Thus, it did not hailed today.\u201d",
+        "options": [
+            "a) Modus tollens",
+            "b) Conjunction",
+            "c) Hypothetical syllogism",
+            "d) Simplification"
+        ],
+        "answer": "a",
+        "explanation": "(\u00acN \u2227 (M \u2192 N)) \u2192 \u00acM is Modus tollens."
+    },
+    {
+        "question": "Which rule of inference is used, \u201dBhavika will work in an enterprise this summer. Therefore, this summer Bhavika will work in an enterprise or he will go to beach.\u201d",
+        "options": [
+            "a) Simplification",
+            "b) Conjunction",
+            "c) Addition",
+            "d) Disjunctive syllogism"
+        ],
+        "answer": "c",
+        "explanation": "p \u2192 (p \u2228 q) argument is \u2018Addition\u2019."
+    },
+    {
+        "question": "What rule of inference is used here?",
+        "options": [
+            "a) Addition",
+            "b) Simplification",
+            "c) Resolution",
+            "d) Conjunction"
+        ],
+        "answer": "b",
+        "explanation": "(p \u2227 q) \u2192 p argument is Simplification."
+    },
+    {
+        "question": "What rule of inference is used in this argument?",
+        "options": [
+            "a) Modus tollens",
+            "b) Modus ponens",
+            "c) Disjunctive syllogism",
+            "d) Hypothetical syllogism"
+        ],
+        "answer": "d",
+        "explanation": "((p \u2192 q) \u2227 (q \u2192 r)) \u2192 (p \u2192 r) argument is \u2018Hypothetical syllogism\u2019."
+    },
+    {
+        "question": "What rules of inference are used in this argument?",
+        "options": [
+            "a) Universal instantiation",
+            "b) Universal generalization",
+            "c) Existential instantiation",
+            "d) Existential generalization"
+        ],
+        "answer": "a",
+        "explanation": "\u2200xP (x), \u2234 P (c)   Universal instantiation."
+    },
+    {
+        "question": "What rules of inference are used in this argument?",
+        "options": [
+            "a) Conjunction",
+            "b) Modus ponens",
+            "c) Disjunctive syllogism",
+            "d) Hypothetical syllogism"
+        ],
+        "answer": "c",
+        "explanation": "((p \u2228 q) \u2227 \u00acp) \u2192 q argument is Disjunctive syllogism."
+    },
+    {
+        "question": "The premises (p \u2227 q) \u2228 r and r \u2192 s imply which of the conclusion?",
+        "options": [
+            "a) p \u2228 r",
+            "b) p \u2228 s",
+            "c) p \u2228 q",
+            "d) q \u2228 r"
+        ],
+        "answer": "b",
+        "explanation": "The premises (p \u2227 q) \u2228 r has two clauses: p \u2228 r, and q \u2228 r. We can also replace r \u2192 s with the equivalent clause r \u2228 s. Using the two clauses p \u2228 r and r \u2228 s, we can conclude p \u2228 s."
+    },
+    {
+        "question": "What rules of inference are used in this argument?",
+        "options": [
+            "a) Conjunction",
+            "b) Modus ponens",
+            "c) Disjunctive syllogism",
+            "d) Simplification"
+        ],
+        "answer": "a",
+        "explanation": "((p) \u2227 (q)) \u2192 (p \u2227 q) argument is conjunction."
+    },
+    {
+        "question": "\u201cParul is out for a trip or it is not snowing\u201d and \u201cIt is snowing or Raju is playing chess\u201d imply that __________",
+        "options": [
+            "a) Parul is out for trip",
+            "b) Raju is playing chess",
+            "c) Parul is out for a trip and Raju is playing chess",
+            "d) Parul is out for a trip or Raju is playing chess"
+        ],
+        "answer": "d",
+        "explanation": "Let p be \u201cIt is snowing,\u201d q be \u201cParul is out for a trip,\u201d and r the proposition \u201cRaju is playing chess.\u201d The hypotheses as \u00acp \u2228 q and p \u2228 r, respectively. Using resolution, the proposition q \u2228 r is, \u201cParul is out for a trip or Raju is playing chess.\u201d"
+    }
+]

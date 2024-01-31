@@ -1,0 +1,116 @@
+[
+    {
+        "question": "Quick sort uses which of the following algorithm to implement sorting?",
+        "options": [
+            "a) backtracking",
+            "b) greedy algorithm",
+            "c) divide and conquer",
+            "d) dynamic programming"
+        ],
+        "answer": "c",
+        "explanation": "Quick sort uses the technique of divide and conquer in order to sort a given array. It divides the array into two parts about the pivot and then applies quick sort to both the parts."
+    },
+    {
+        "question": "What is the median of three techniques in quick sort?",
+        "options": [
+            "a) quick sort with random partitions",
+            "b) quick sort with random choice of pivot",
+            "c) choosing median element as pivot",
+            "d) choosing median of first, last and middle element as pivot"
+        ],
+        "answer": "d",
+        "explanation": "In the median of three technique the median of first, last and middle element is chosen as the pivot. It is done so as to avoid the worst case of quick sort in which the time complexity shoots to O(n"
+    },
+    {
+        "question": "What is the purpose of using a median of three quick sort over standard quick sort?",
+        "options": [
+            "a) so as to avoid worst case time complexity",
+            "b) so as to avoid worst case space complexity",
+            "c) to improve accuracy of output",
+            "d) to improve average case time complexity"
+        ],
+        "answer": "a",
+        "explanation": "Median of three quick sort helps in avoiding the worst case time complexity of O(n"
+    },
+    {
+        "question": "What is the auxiliary space complexity of a median of three quick sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "Auxiliary space complexity of median of three quick sort is O(log n) which is used for storing call stack formed due to recursion. Note that the algorithms with space complexity as O(log n) also qualifies as in place algorithms as the value of log n is close to 1."
+    },
+    {
+        "question": "What is the average time complexity of the median of three quick sort?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n log n"
+        ],
+        "answer": "a",
+        "explanation": "The average case time complexity of median of three quick sort is the same as that of a standard quick sort as randomized quick sort only helps in preventing the worst case. It is equal to O(n log n)."
+    },
+    {
+        "question": "Quick sort uses which of the following method to implement sorting?",
+        "options": [
+            "a) merging",
+            "b) partitioning",
+            "c) selection",
+            "d) exchanging"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort makes partitions of the input array about the pivot in order to implement sorting. Thus its method of sorting is called partitioning."
+    },
+    {
+        "question": "Median of three quick sort is an in place sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In-place algorithms require constant or very less auxiliary space. Median of three quick sort qualifies as an in-place sorting algorithm. It has a very low auxiliary space requirement of O(log n)."
+    },
+    {
+        "question": "Median of three quick sort is a stable sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Median of three quick sort like standard quick sort is also not a stable sorting algorithm. It is because the elements with the same values are not guaranteed to appear in the same relative order in the output sorted array."
+    },
+    {
+        "question": "What is the best case time complexity Median of three quick sort?",
+        "options": [
+            "a) O(log n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "Best case time complexity is given in the case when there is equal partitioning of the array about the pivot. It is given by the relation T(n) = 2T(n/2) + n which gives the result O(n log n)."
+    },
+    {
+        "question": "Which of the following function chooses a random index as the pivot?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In the median of three quick sort the median of first, last and middle element is chosen. Then the chosen element is taken as a pivot. This helps in avoiding the worst case of O(n"
+    },
+    {
+        "question": "What will be the pivot for the array arr={8,2,4,9} for making the first partition when a median of three quick sort is implemented?",
+        "options": [
+            "a) 8",
+            "b) 2",
+            "c) 4",
+            "d) 9"
+        ],
+        "answer": "a",
+        "explanation": "While making the first partition the first, last and middle elements will be 8, 9 and 2 respectively. Thus the median element will be 8."
+    }
+]

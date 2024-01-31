@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Which function is used to combine the elements into a vector?",
+        "options": [
+            "a) C()",
+            "b) D()",
+            "c) E()",
+            "d) F()"
+        ],
+        "answer": "a",
+        "explanation": "When you want to create a vector with more than one element, you should use c() function which means to combine the elements into a vector. We can Identify elements of a list using the [[]] convention."
+    },
+    {
+        "question": "A __________ is an R-object which can contain many different types of elements inside it.",
+        "options": [
+            "a) Vector",
+            "b) Lists",
+            "c) Matrix",
+            "d) Functions"
+        ],
+        "answer": "b",
+        "explanation": "A list is an R-object which can contain many different types of elements in it like vectors, functions and even another list inside it. We can Identify elements of a list using the [[]] convention."
+    },
+    {
+        "question": "A _________ is a two-dimensional rectangular data set.",
+        "options": [
+            "a) Vector",
+            "b) Lists",
+            "c) Matrix",
+            "d) Functions"
+        ],
+        "answer": "c",
+        "explanation": "A matrix is a two-dimensional rectangular data set. It can be created using the vector input to a matrix function. The labels are always character irrespective of whether it is numeric or character and also Boolean etc in the vector."
+    },
+    {
+        "question": "Which function takes a dim attribute which creates the required number of dimensions?",
+        "options": [
+            "a) Vector",
+            "b) Array",
+            "c) Matrix",
+            "d) Lists"
+        ],
+        "answer": "b",
+        "explanation": "The array function takes a dim attribute which creates the required number of dimensions. While matrices are confined to two dimensions, arrays could be of any number of dimensions."
+    },
+    {
+        "question": "Factors are the r-objects which are created using a _________",
+        "options": [
+            "a) Vector",
+            "b) Matrix",
+            "c) Lists",
+            "d) Array"
+        ],
+        "answer": "a",
+        "explanation": "Factors are the r-objects which are created using a vector. It stores the vector with also the distinct values of the elements in the vector as labels. They are useful in statistical modelling."
+    },
+    {
+        "question": "Factors are created using the _______ function.",
+        "options": [
+            "a) C()",
+            "b) Function()",
+            "c) Array()",
+            "d) Lists()"
+        ],
+        "answer": "b",
+        "explanation": "Factors are created using the factor() function. The labels are always character irrespective of whether it is numeric or character or also Boolean etc. in the vector. The nlevels functions will give the count of levels."
+    },
+    {
+        "question": "By what function we can create data frames?",
+        "options": [
+            "a) Data.frames()",
+            "b) Data.sets ()",
+            "c) Function ()",
+            "d) C ()"
+        ],
+        "answer": "a",
+        "explanation": "Data frames are tabular data objects. Unlike a matrix in each data frame every column will contain different modes of data. Data Frames are created using the data.frame() function. It is the list of vectors of same length."
+    },
+    {
+        "question": "vectors can be one of two types namely atomic vectors and _______",
+        "options": [
+            "a) Matrix",
+            "b) Vector",
+            "c) Lists",
+            "d) Array"
+        ],
+        "answer": "c",
+        "explanation": "A vector is the most common and basic data structure in R. Technically, vectors can be one of two types of atomic vectors and lists. Although vector most commonly refers to the atomic types."
+    },
+    {
+        "question": "Lists can be coerced with which function?",
+        "options": [
+            "a) As.lists",
+            "b) Has.lists",
+            "c) In.lists",
+            "d) Co.lists"
+        ],
+        "answer": "a",
+        "explanation": "Lists are sometimes called generic vectors because the elements of a list can be of any type of R object, even lists containing further lists. This property makes them fundamentally different from other atomic vectors. Create lists using list() and coerce other objects using as.list()."
+    },
+    {
+        "question": "A data frame is a special type of list where every element of the list has ______ length.",
+        "options": [
+            "a) Same",
+            "b) Different",
+            "c) May be different",
+            "d) May be same"
+        ],
+        "answer": "a",
+        "explanation": "A data frame is a very important data type in R. It\u2019s pretty much the de facto data structure for most tabular data and what we use for statistics. A data frame was a special type of list in which every element of the list has the same length."
+    },
+    {
+        "question": "Data frames can have additional attributes such as __________",
+        "options": [
+            "a) Rowname()",
+            "b) Rownames()",
+            "c) R.names()",
+            "d) D.names()"
+        ],
+        "answer": "b",
+        "explanation": "Data frames can have additional attributes such as rownames(), which can be useful for annotating data, like subject_id or sample_id. But most of the time they are not used. A data frame is an important data type in R."
+    },
+    {
+        "question": "Decimal values are referred as ________ data types in R.",
+        "options": [
+            "a) Numeric",
+            "b) Character",
+            "c) Integer",
+            "d) Lists"
+        ],
+        "answer": "a",
+        "explanation": "Decimal values are referred to as numeric data types in R. Data frames are the tabular data objects. Unlike a matrix in data frame every column can contain different modes of data."
+    },
+    {
+        "question": "Which is the basic data structure of R containing the same type of data?",
+        "options": [
+            "a) Functions",
+            "b) Array",
+            "c) Vector",
+            "d) Lists"
+        ],
+        "answer": "c",
+        "explanation": "Vector is a basic data structure in R that contains an element of similar type. These data types in R can be logical, integer, double, character, complex and also raw. In R using the function, typeof() one can check the data type of vector."
+    },
+    {
+        "question": "In R using the function, ________ one can check the data type of vector.",
+        "options": [
+            "a) Typeof()",
+            "b) Castof()",
+            "c) Function()",
+            "d) C()"
+        ],
+        "answer": "a",
+        "explanation": "In R using the function, typeof() one can check the data type of vector. Vector is a basic data structure in R which contains element of similar type. These data types in R can be logical, integer, double, character, complex and also raw."
+    },
+    {
+        "question": "__________are Data frames which contain lists of homogeneous data in a tabular format.",
+        "options": [
+            "a) Matrix",
+            "b) Vector",
+            "c) Lists",
+            "d) Array"
+        ],
+        "answer": "a",
+        "explanation": "Matrices in R are two-dimensional array-like structures with elements of the same data type, representing data in a tabular format. Vectors can be considered one-dimensional matrices, although the term \u2018vector\u2019 mostly refers to the atomic types. However, lists are not commonly used to represent data frames in R."
+    }
+]

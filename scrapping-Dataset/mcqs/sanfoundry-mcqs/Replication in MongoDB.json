@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A _______ set is a group of mongod instances that host the same data set.",
+        "options": [
+            "a) copy",
+            "b) sorted",
+            "c) radii",
+            "d) replica"
+        ],
+        "answer": "d",
+        "explanation": " One mongod, the primary, receives all write operations."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Replication provides redundancy and increases data availability",
+            "b) Replication allows you to recover from hardware failure and service interruptions",
+            "c) With multiple copies of data on different database servers, replication protects a database from the loss of a single server",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "With additional copies of the data, you can dedicate one to disaster recovery, reporting, or backup."
+    },
+    {
+        "question": "All other instances, secondaries, apply operations from the _________ so that they have the same data set.",
+        "options": [
+            "a) center",
+            "b) secondary",
+            "c) primary",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The primary accepts all write operations from clients."
+    },
+    {
+        "question": "A replica set can have only ________ primary.",
+        "options": [
+            "a) One",
+            "b) Two",
+            "c) Three",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The secondaries replicate the primary\u2019s oplog and apply the operations to their data sets such that the secondaries\u2019 data sets reflect the primary\u2019s data set."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) In all cases, you can use replication to increase read capacity",
+            "b) Clients have the ability to send read and write operations to different servers",
+            "c) You can also maintain copies in different data centers to increase the locality and availability of data for distributed applications",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In some cases, you can use replication to increase read capacity."
+    },
+    {
+        "question": "To support replication, the primary records all changes to its data sets in its _______",
+        "options": [
+            "a) oplog",
+            "b) adlog",
+            "c) log",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If the primary is unavailable, the replica set will elect a secondary to be primary."
+    },
+    {
+        "question": "You may add an extra mongod instance to a replica set as an __________",
+        "options": [
+            "a) arbiter",
+            "b) replicator",
+            "c) additor",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Arbiters do not maintain a data set."
+    },
+    {
+        "question": "An arbiter will always be an arbiter whereas a primary may step down and become a secondary and a _________ may become the primary during an election.",
+        "options": [
+            "a) center",
+            "b) secondary",
+            "c) primary",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " If your replica set has an even number of members, add an arbiter to obtain a majority of votes in an election for primary."
+    },
+    {
+        "question": "When a primary does not communicate with the other members of the set for more than ____ seconds, the replica set will attempt to select another member to become the new primary.",
+        "options": [
+            "a) 10",
+            "b) 20",
+            "c) 30",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The first secondary that receives a majority of the votes becomes primary."
+    },
+    {
+        "question": "When a replica set has one and only one primary, reads from that primary provide ______ consistency.",
+        "options": [
+            "a) strict",
+            "b) partial",
+            "c) weak",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Arbiters can be a good way to provide replica set quorum functionality with a cheaper resource cost than a fully functional replica set member with a data set."
+    }
+]

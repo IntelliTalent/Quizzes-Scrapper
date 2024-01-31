@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Ops Manager reads directly from the Backup Blockstore database and transfers files either through ___________",
+        "options": [
+            "a) TCP",
+            "b) HTTPS",
+            "c) MMS",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Ops Manager Backup lets you restore data from a scheduled snapshot or from a selected point between snapshots."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The amount of oplog to keep per backup is configurable and affects the time window available for checkpoint and point-in-time restores",
+            "b) To get a consistent snapshot of a sharded system, you must enable the balancer",
+            "c) Backups produced by copying the underlying data do support point in time recovery",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When you restore from a checkpoint or point in time, Ops Manager first creates a local restore of a snapshot from the blockstore and then applies stored oplogs until the specified point is reached."
+    },
+    {
+        "question": "Ops Manager maintains one _____ database for each backed-up replica set.",
+        "options": [
+            "a) mdump",
+            "b) head",
+            "c) tail",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The head database is consistent with the original primary up to the last oplog supplied by the agent."
+    },
+    {
+        "question": "The agent ships initial sync and oplog data over HTTPS back to ___________",
+        "options": [
+            "a) Opscore Manager",
+            "b) Ops Manager",
+            "c) mongod",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Backup performs the initial sync and the tailing of the oplog using standard MongoDB queries."
+    },
+    {
+        "question": "Backup can also create snapshots of _________ that are run as single-member replica sets.",
+        "options": [
+            "a) documents",
+            "b) standalones",
+            "c) backups",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A lightweight Backup Agent runs within your infrastructure and backs up data from the MongoDB processes you have specified."
+    },
+    {
+        "question": "Ops Manager _________ provides an interface for configuring MongoDB nodes and clusters and for upgrading your MongoDB deployment.",
+        "options": [
+            "a) Automation",
+            "b) Performance",
+            "c) Monitoring",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Ops Manager Monitoring provides real-time reporting, visualization, and alerting on key database and hardware indicators."
+    },
+    {
+        "question": "Which of the following document details the state and configuration of the replica set and statistics about its members?",
+        "options": [
+            "a) replSetGetStatus",
+            "b) db.serverStatus()",
+            "c) db.stats()",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The replSetGetStatus command (rs.status() from the shell) returns an overview of your replica set\u2019s status."
+    }
+]

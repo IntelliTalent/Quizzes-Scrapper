@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Why is Software architecture so important?",
+        "options": [
+            "a) Communication among stakeholders",
+            "b) Early Design decisions",
+            "c) Transferable abstraction of a system",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Reasons of the architecture to be important are all the mentioned above."
+    },
+    {
+        "question": "Why is software architecture called vehicle for stakeholder communication?",
+        "options": [
+            "a) Each stakeholder of a software system is concerned with different characteristics of the system affected by architecture",
+            "b) Architecture provides a common language in which different concerns can be expressed",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct."
+    },
+    {
+        "question": "Which lines depict that architecture defines constraints on an implementation?",
+        "options": [
+            "a) An implementation exhibits an architecture if it conforms to the structural decisions described by the architecture",
+            "b) The implementation need not be divided into prescribed components",
+            "c) An implementation exhibits an architecture if it conforms to the structural decisions described by the architecture and the implementation must be divided into prescribed components",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An implementation exhibits an architecture if it conforms to the structural decisions described by the architecture, the implementation must be divided into prescribed components."
+    },
+    {
+        "question": "Why does architecture dictates organizational structure?",
+        "options": [
+            "a) Architecture describes the structure of the system being developed which becomes engraved in the development project structure",
+            "b) An implementation exhibits an architecture if it conforms to the structural decisions described by the architecture",
+            "c) Architecture may not describe structure as whole",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Architecture describes the structure of the system being developed which becomes engraved in the development project structure."
+    },
+    {
+        "question": "Which of the following is right dependence relationship?",
+        "options": [
+            "a) Performance depends on how strongly components are coupled with other components in system",
+            "b) Re-usability depends on the volume and complexity of the inter-component communication and coordination",
+            "c) Modifiability depends on system\u2019s modularization",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Performance depends on the volume and complexity of the inter-component communication and coordination, re-usability depends on how strongly components are coupled with other components in system and modifiability depends on system\u2019s modularization."
+    },
+    {
+        "question": "Which of the following is correct for decisions made at life cycle level?",
+        "options": [
+            "a) Decisions at all level of like cycle from high level design to coding, implementation affect system quality",
+            "b) Decisions at all level of like cycle from high level design to coding, implementation may or may not affect system quality",
+            "c) Decisions at all level of like cycle from high level design to coding,implementation does not affect system quality",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Decisions at all level of like cycle from high level design to coding, implementation affect system quality."
+    },
+    {
+        "question": "Is it possible to make quality predictions about a system based solely on evaluation of its architecture?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) May be",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Yes it is possible to make quality predictions about a system based solely on evaluation of its architecture."
+    },
+    {
+        "question": "Every possible architecture partition possible changes into which of the following categories?",
+        "options": [
+            "a) Local",
+            "b) Non Local",
+            "c) Architectural",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " All of the mentioned are true."
+    },
+    {
+        "question": "Which change is accomplished by modifying a single component?",
+        "options": [
+            "a) A local change",
+            "b) Non Local Change",
+            "c) Architectural change",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A local change is accomplished by modifying a single component."
+    },
+    {
+        "question": "An architecture help in evolutionary prototyping in which of the following ways?",
+        "options": [
+            "a) Potential performance problem can be identified early in the product\u2019s life cycle",
+            "b) The system is executable early in the product\u2019s life cycle",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All the mentioned are the valid ways."
+    },
+    {
+        "question": "Which of the following are software structures?",
+        "options": [
+            "a) Module Structure",
+            "b) Conceptual or logical structure",
+            "c) Process structure",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the valid structures."
+    },
+    {
+        "question": "Which structure describes units as abstraction of system\u2019s functional requirements?",
+        "options": [
+            "a) Conceptual structure",
+            "b) Module structure",
+            "c) Physical structure",
+            "d) Calls structure"
+        ],
+        "answer": "a",
+        "explanation": "Conceptual structure-describes units as abstraction of system\u2019s functional requirements."
+    },
+    {
+        "question": "Which structure\u2019s view is orthogonal to the module and conceptual view?",
+        "options": [
+            "a) Module Structure",
+            "b) Process Structure",
+            "c) Uses Structure",
+            "d) Data flow"
+        ],
+        "answer": "b",
+        "explanation": "Process Structure-view is orthogonal to the module and conceptual view."
+    },
+    {
+        "question": "Which structure\u2019s view shows the mapping of software onto hardware?",
+        "options": [
+            "a) Module Structure",
+            "b) Process Structure",
+            "c) Physical Structure",
+            "d) Class Structure"
+        ],
+        "answer": "c",
+        "explanation": "Physical Structure- view shows the mapping of software onto hardware."
+    },
+    {
+        "question": "Which structure describes units are programs or module?",
+        "options": [
+            "a) Calls Structure",
+            "b) Uses Structure",
+            "c) Data Flow",
+            "d) Control Flow"
+        ],
+        "answer": "d",
+        "explanation": "Control Flow-structure describes units are programs or module."
+    }
+]

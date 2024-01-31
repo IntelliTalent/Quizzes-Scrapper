@@ -1,0 +1,100 @@
+[
+    {
+        "question": "The hub of a MySQL installation is ______________",
+        "options": [
+            "a) mysqla",
+            "b) mysqlb",
+            "c) mysqlc",
+            "d) mysqld"
+        ],
+        "answer": "d",
+        "explanation": "The server, mysqld, is the hub of a MySQL installation; it performs all manipulation of databases and tables. On Unix, several related scripts are available to assist in server startup."
+    },
+    {
+        "question": "How many of these are for use with only MyISAM tables?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u2018mysqlcheck\u2019 and \u2018mysqlisamchk\u2019 are the programs that perform table checking, analysis, optimization and repairs when tables become damaged. \u2018mysqlcheck\u2019 works with MyISAM tables."
+    },
+    {
+        "question": "The place where the server stores its databases and status files are the data directory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL data directory is the place where the server stores its databases and status files. It is crucial to understand that all the structures and contents of the data directory."
+    },
+    {
+        "question": "The tool for copying databases is ______________",
+        "options": [
+            "a) mysql",
+            "b) mysqlcheck",
+            "c) mysqlhotcopy",
+            "d) mysqlisamchk"
+        ],
+        "answer": "c",
+        "explanation": "\u2018mysqldump\u2019 and \u2018mysqlhotcopy\u2019 are the tools or programs that are used for performing the backing up of the databases and copying databases from one server to the other server(s)."
+    },
+    {
+        "question": "Which statement is used to check how MySQL would execute a SELECT query?",
+        "options": [
+            "a) TELL",
+            "b) SHOW",
+            "c) DISPLAY",
+            "d) EXPLAIN"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, by issuing an EXPLAIN statement MySQL displays some information about how it would execute a SELECT query without actually executing it. It is prefixed with the query."
+    },
+    {
+        "question": "What is used to perform an analysis of key values by the server?",
+        "options": [
+            "a) ANALYZE KEYS",
+            "b) ANALYZE TABLE",
+            "c) PERFORM ANALYSIS",
+            "d) PERFORM TABLE ANALYSIS"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, for the MyISAM and InnoDB tables, the server can be told to perform an analysis of key values by issuing the ANALYZE TABLE statement. It helps in knowing about query optimization."
+    },
+    {
+        "question": "The function used to convert an int to string is ______________",
+        "options": [
+            "a) INET_ATON()",
+            "b) INET_NTOA()",
+            "c) INET_ITOS()",
+            "d) INET_STOI()"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the function used to convert an integer to a string is INET_NTOA(). On the other hand, the function INET_ATON() converts a string to the corresponding integer value."
+    },
+    {
+        "question": "The function used to convert a string to an int is ______________",
+        "options": [
+            "a) INET_ATON()",
+            "b) INET_NTOA()",
+            "c) INET_ITOS()",
+            "d) INET_STOI()"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the function used to convert a string to an integer is INET_ATON(). On the other hand, the function INET_NTOA() converts a string to the corresponding integer value."
+    },
+    {
+        "question": "Which of the following is more efficient?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the \u2018LOAD DATA\u2019 in all forms is more efficient than the \u2018INSERT\u2019 because it loads rows in bulk. The server first parses then interprets only one statement instead of many."
+    },
+    {
+        "question": "Without LOCAL, LOAD DATA is _________________",
+        "options": [
+            "a) less efficient",
+            "b) more efficient",
+            "c) same speed",
+            "d) arbitrary"
+        ],
+        "answer": "b",
+        "explanation": "LOAD DATA is more efficient without LOCAL. Without LOCAL, the file must be located on the server. The FILE privilege must be given. The server can read the file directly from disk."
+    }
+]

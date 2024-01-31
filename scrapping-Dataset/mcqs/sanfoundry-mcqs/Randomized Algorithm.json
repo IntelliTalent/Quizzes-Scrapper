@@ -1,0 +1,105 @@
+[
+    {
+        "question": "A randomized algorithm uses random bits as input inorder to achieve a _____________ good performance over all possible choice of random bits.",
+        "options": [
+            "a) worst case",
+            "b) best case",
+            "c) average case",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A randomized algorithm is an algorithm that employs a degree of randomness as a part of its logic using random bits as inputs and in hope of producing average case good performace."
+    },
+    {
+        "question": "Which of the following options match the given statement:",
+        "options": [
+            "a) Las Vegas Algorithm",
+            "b) Monte Carlo Algorithm",
+            "c) Atlantic City Algorithm",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The other type of algorithms are probabalistic algorithms, which depending upon the random input, have a chance of producing incorrect results or fail to produce a result."
+    },
+    {
+        "question": "Which of the following are probalistic algorithms?",
+        "options": [
+            "a) Las Vegas Algorithm",
+            "b) Monte Carlo Algorithm",
+            "c) Atlantic City Algorithm",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Monte Carlo algorithms are very vast, but only probably correct. On thr other side, Las  Vegas algorithms are always correct, but probably fast."
+    },
+    {
+        "question": "Which of the following algorithms are probably correct as well as fast?",
+        "options": [
+            "a) Las Vegas Algorithm",
+            "b) Monte Carlo Algorithm",
+            "c) Atlantic City Algorithm",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The atlantic city algorithms which are bounded polynomial time algorithms are probably correct and probably fast. It is correct more than 75% of the times."
+    },
+    {
+        "question": "Prisonner\u2019s dilemma can be related to the following:",
+        "options": [
+            "a) cooperative behaviour",
+            "b) graph theory",
+            "c) all of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Prisonner\u2019s dilemma is a standard example of a game analysed in game theory where rational cooperative behaviour is judged on the basis of rewards and punishment."
+    },
+    {
+        "question": "Unix sort command uses _________ as its sorting technique.",
+        "options": [
+            "a) Quick Sort",
+            "b) Bucket Sort",
+            "c) Radix Sort",
+            "d) Merge Sort"
+        ],
+        "answer": "a",
+        "explanation": "Quicksort is the method of choice in many applications( Unix sort command) with O(nlogn) in worst case."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Complexity theories models randomized algorithms as probalistic turing machines. A probalistic turing machine is a non deterministic turing machine which randomly chooses between the available transitions at each point according to some probalistic distribution."
+    },
+    {
+        "question": "For the given algorithm, find the probability of finding after k iterations:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given is known as Monte Carlo Algorithm. If a is fount, the algorithm succeeds, else the algorith fails. The algorithm doesn not guarantee success but the run time is bounded."
+    },
+    {
+        "question": "Which of the following can be solved in computer science?",
+        "options": [
+            "a) P=BPP problem",
+            "b) NP=co-NP problem",
+            "c) Do one way problems exist?",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There exists a list of unsolved problems in computational theory which includes many problems including the ones given."
+    },
+    {
+        "question": "Which of the following can be referred to as applications of Randomized algorithm?",
+        "options": [
+            "a) Quicksort",
+            "b) Min Cut",
+            "c) Verifying Matrix Multiplication",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Freivalds algorithm is a probabalistic randomized algorithm we use to verify matrix multiplication. On the other hand, Randomness can be useful in quicksort. If the algorithm selects pivot element uniformaly at random, it has a probably high probabilty of finishing  the work in O(nlogn) time regardless of the input."
+    }
+]

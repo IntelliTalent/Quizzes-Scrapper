@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which Statement is used to insert the values in the table?",
+        "options": [
+            "a) INSERT INTO",
+            "b) Insert",
+            "c) INSERT",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Is it necessary to insert the value in each column of the table?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Depends on the server",
+            "d) Depends on the usage of the table"
+        ],
+        "answer": "b",
+        "explanation": "It is not necessary to insert the value in each column because there always a default value is inserted by the server \u201cNULL\u201d."
+    },
+    {
+        "question": "In the following SQL query, what does \u201cperson\u201d stands for?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "In the following SQL query, what  does \u201cperson_id\u201d stands for?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Primary key is also termed as a super key."
+    },
+    {
+        "question": "Which statement can be used for modifying the definition for an existing table?",
+        "options": [
+            "a) ALTER",
+            "b) Modified",
+            "c) SELECT",
+            "d) FROM"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which feature is used for the automatic increment of the column?",
+        "options": [
+            "a) AUTO_INCREMENT",
+            "b) AUTO",
+            "c) INCREMENT",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following is the correct syntax for modifying the definition of an existing table?",
+        "options": [
+            "a) ALTER TABLE person MODIFY person_id SMALLINT UNSIGNED AUTO_INCREMENT;",
+            "b) ALTER TABLE person  person_id SMALLINT UNSIGNED AUTO_INCREMENT;",
+            "c) ALTER TABLE person MODIFY person_id ;",
+            "d) ALTER TABLE person"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Will the following SQL command produce any error?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Person_id declared as a primary key therefore it never contain same value."
+    },
+    {
+        "question": "Will the following SQL command produce any error?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the default value of column?",
+        "options": [
+            "a) NULL",
+            "b) 0",
+            "c) -1",
+            "d) Undefined"
+        ],
+        "answer": "a",
+        "explanation": "When table is defined in Mysql then each column related to table will contain NULL Value as default."
+    }
+]

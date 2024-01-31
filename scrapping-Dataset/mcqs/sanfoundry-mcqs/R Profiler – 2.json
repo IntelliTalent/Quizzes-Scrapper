@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The profiler can be turned off by passing _________ to Rprof().",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) NULL"
+        ],
+        "answer": "d",
+        "explanation": "Rprof(NULL) is used to turn off the profiler."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Rprof() is used to turn off the profiler",
+            "b) At each line of the output, the profiler writes out the function call stack",
+            "c) The summaryprof() function tabulates the R profiler output",
+            "d) The Rprofiler() function starts the profiler in R"
+        ],
+        "answer": "b",
+        "explanation": "The Rprofiler() function starts the profiler in R."
+    },
+    {
+        "question": "How many methods exist for normalizing the data?",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) profiler"
+        ],
+        "answer": "b",
+        "explanation": "There are two methods for normalizing the data."
+    },
+    {
+        "question": "_______ divides the time spend in each function by the total run time",
+        "options": [
+            "a) \u201cby.sum\u201d",
+            "b) \u201cby.total\u201d",
+            "c) \u201cby.self\u201d",
+            "d) \u201cby.del\u201d"
+        ],
+        "answer": "b",
+        "explanation": "\u201cby.self\u201d does the same as \u201cby.total\u201d."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) \u201cby.total\u201d first subtracts out time spent in functions above the current function in the call stack",
+            "b) The summaryRprof() function calculates how much time is spend in which function",
+            "c) By default, the profiler samples the function call stack every 0.02 seconds",
+            "d) The Rprofiler() function starts the profiler in R"
+        ],
+        "answer": "c",
+        "explanation": "Output of by.self is more useful than by.total for interpreting the data."
+    },
+    {
+        "question": "Which of the following function actually fits the linear model?",
+        "options": [
+            "a) lm.time()",
+            "b) lm.date()",
+            "c) lm.fit()",
+            "d) lm.interval()"
+        ],
+        "answer": "c",
+        "explanation": "lm() function does a bit of pre-processing and checking before it actually fits the model."
+    },
+    {
+        "question": "The final bit of output that summaryRprof() provides is the ______ interval and the total runtime.",
+        "options": [
+            "a) response",
+            "b) sampling",
+            "c) processing",
+            "d) retrieve"
+        ],
+        "answer": "b",
+        "explanation": "You\u2019re going to be spending a lot of time in preprocessing and checking."
+    },
+    {
+        "question": "Which of the following statement gives sampling interval?",
+        "options": [
+            "a) $sampling.interval",
+            "b) $sampling.time",
+            "c) $sampling.date",
+            "d) $sampling.datetime"
+        ],
+        "answer": "b",
+        "explanation": "Sampling time is expressed in secs."
+    },
+    {
+        "question": "Which of the following code is not profiled?",
+        "options": [
+            "a) C",
+            "b) C++",
+            "c) Java",
+            "d) PHP"
+        ],
+        "answer": "a",
+        "explanation": "C or Fortran code is not profiled."
+    }
+]

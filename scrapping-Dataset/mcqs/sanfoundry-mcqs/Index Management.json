@@ -1,0 +1,112 @@
+[
+    {
+        "question": "To modify an existing index, you cannot just re-issue the _________ method with the updated specification of the index.",
+        "options": [
+            "a) dropIndex()",
+            "b) modIndex()",
+            "c) createIndex()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To modify the index, you must drop the index first."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To modify an existing index, you need to drop and recreate the index",
+            "b) Your client library may have a different or additional interface for this operation",
+            "c) To see the status of an indexing process, you can use the db.statusOp() method in the mongo shell",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To see the status of an indexing process, you can use the db.currentOp() method in the mongo shell."
+    },
+    {
+        "question": "If you need to rebuild indexes for a collection you can use the _________ method to rebuild all indexes on a collection in a single operation.",
+        "options": [
+            "a) db.collection.Index()",
+            "b) db.collection.reIndex()",
+            "c) db.collection.rebuildIndex()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This operation drops all indexes, including the _id index, and then rebuilds all indexes."
+    },
+    {
+        "question": "To terminate an ongoing index build, use the __________ method in the mongo shell.",
+        "options": [
+            "a) db.currentOp()",
+            "b) db.killOp()",
+            "c) db.removeOp()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For index builds, the effects of db.killOp() may not be immediate and may occur well after much of the index build operation has completed."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) After 4.0, you cannot terminate both background index builds and foreground index builds",
+            "b) Before MongoDB 2.1, you could only terminate background index builds",
+            "c) After 2.4, you can terminate both background index builds and foreground index builds",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You cannot terminate a replicated index build on secondary members of a replica set."
+    },
+    {
+        "question": "In the mongo shell, you can use the ______ method to return a list of the indexes on a collection.",
+        "options": [
+            "a) getallIndexes()",
+            "b) getretIndexes()",
+            "c) getIndexes()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When performing maintenance you may want to check which indexes exist on a collection."
+    },
+    {
+        "question": "__________ views partial execution statistics collected during plan selection.",
+        "options": [
+            "a) curs.explain()",
+            "b) cursor.explain()",
+            "c) cursr.explain()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Run db.collection.explain() or the cursor.explain() method in allPlansExecution mode."
+    },
+    {
+        "question": "The __________ operator constrains the results of a geospatial $near or $nearSphere query to the specified distance.",
+        "options": [
+            "a) $center",
+            "b) $maxDistance",
+            "c) $minDistance",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The measuring units for the maximum distance are determined by the coordinate system in use."
+    },
+    {
+        "question": "To force MongoDB to use a particular index for a db.collection.________ operation, specify the index with the hint() method.",
+        "options": [
+            "a) query()",
+            "b) find()",
+            "c) index()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Append the hint() method to the find() method."
+    },
+    {
+        "question": "Specify the ______ operator to the hint() method to prevent MongoDB from using any index.",
+        "options": [
+            "a) $unique",
+            "b) $natural",
+            "c) $spatial",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To view the execution statistics for a specific index, append to the db.collection.find() the hint() method followed by cursor.explain()."
+    }
+]

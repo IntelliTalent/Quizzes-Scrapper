@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following can be used to generate balanced cross\u2013validation groupings from a set of data?",
+        "options": [
+            "a) createFolds",
+            "b) createSample",
+            "c) createResample",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "createResample can be used to make simple bootstrap samples."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Simple random sampling of time series is probably the best way to resample times series data.",
+            "b) Three parameters are used for time series splitting",
+            "c) Horizon parameter is the number of consecutive values in test set sample",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Simple random sampling of time series is probably not the best way to resample times series data."
+    },
+    {
+        "question": "Which of the following function can be used to maximize the minimum dissimilarities?",
+        "options": [
+            "a) sumDiss",
+            "b) minDiss",
+            "c) avgDiss",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "sumDiss can be used to maximize the total dissimilarities."
+    },
+    {
+        "question": "Which of the following function can create the indices for time series type of splitting?",
+        "options": [
+            "a) newTimeSlices",
+            "b) createTimeSlices",
+            "c) binTimeSlices",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Rolling forecasting origin techniques are associated with time series type of splitting."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Asymptotics are used for inference usually",
+            "b) Caret includes several functions to pre-process the predictor data",
+            "c) The function dummyVars can be used to generate a complete set of dummy variables from one or more factors",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The function dummyVars takes a formula and a data set and outputs an object that can be used to create the dummy variables using the predict method."
+    },
+    {
+        "question": "Which of the following can be used to create sub\u2013samples using a maximum dissimilarity approach?",
+        "options": [
+            "a) minDissim",
+            "b) maxDissim",
+            "c) inmaxDissim",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Splitting is based on the predictors."
+    },
+    {
+        "question": "caret does not use the proxy package.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "caret uses the proxy package."
+    },
+    {
+        "question": "Which of the following function can be used to create balanced splits of the data?",
+        "options": [
+            "a) newDataPartition",
+            "b) createDataPartition",
+            "c) renameDataPartition",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the y argument to this function is a factor, the random sampling occurs within each class and should preserve the overall class distribution of the data."
+    },
+    {
+        "question": "Which of the following package tools are present in caret?",
+        "options": [
+            "a) pre-processing",
+            "b) feature selection",
+            "c) model tuning",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are many different modeling functions in R."
+    },
+    {
+        "question": "caret stands for classification and regression training.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The caret package is a set of functions that attempt to streamline the process for creating predictive models."
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "question": "A turing machine that is able to simulate other turing machines:",
+        "options": [
+            "a) Nested Turing machines",
+            "b) Universal Turing machine",
+            "c) Counter machine",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A more mathematically oriented  definition with the same universal nature was introduced by church and turing together called the Church-Turing thesis(formal theory of computation)."
+    },
+    {
+        "question": "Which of the problems are unsolvable?",
+        "options": [
+            "a) Halting problem",
+            "b) Boolean Satisfiability problem",
+            "c) Halting problem & Boolean Satisfiability problem",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Alan turing proved in 1936 that a general algorithm to solve the halting problem for all possible program-input pairs cannot exist."
+    },
+    {
+        "question": "Which of the following a turing machine does not consist of?",
+        "options": [
+            "a) input tape",
+            "b) head",
+            "c) state register",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A state register is one which stores the state of the turing machine, one of the finitely many. Among these is the special start state with which the state register is initialized."
+    },
+    {
+        "question": "The value of n if turing machine is defined using n-tuples:",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 8",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "If  d is not defined on the current state and the current tape symbol, then the machine ______",
+        "options": [
+            "a) does not halts",
+            "b) halts",
+            "c) goes into loop forever",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If we reach h"
+    },
+    {
+        "question": "Statement: Instantaneous descriptions can be designed for a Turing machine.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Inorder to describe formally what a Turing machine does, we need to develop a notation for configurations or Instantaneous descriptions(ID)."
+    },
+    {
+        "question": "Which of the following are the models equivalent to Turing machine?",
+        "options": [
+            "a) Multi tape turing machine",
+            "b) Multi track turing machine",
+            "c) Register machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Many machines that might be thought to have more computational capability than a simple UTM can be shown to have  no more power. They might compute faster or use less memory but cannot compute more powerfully i.e. more mathematical questions."
+    },
+    {
+        "question": "Which among the following is incorrect for o-machines?",
+        "options": [
+            "a) Oracle Turing machines",
+            "b) Can be used to study decision problems",
+            "c) Visualizes Turing machine with a black box which is able to decide cerain decion problems in one operation",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In automata theory, an o- machine or oracle machine is a abstract machine used to study decision problems. The problem the oracle solves can be of any complexity class. Even undecidable problems like halting problems can be used."
+    },
+    {
+        "question": "RASP stands for:",
+        "options": [
+            "a) Random access storage program",
+            "b) Random access stored program",
+            "c) Randomly accessed stored program",
+            "d) Random access storage programming"
+        ],
+        "answer": "b",
+        "explanation": "RASP or Random access stored program is an abstract machine that has instances like modern stored computers."
+    },
+    {
+        "question": "Which of the following is not true about RASP?",
+        "options": [
+            "a) Binary search can be performed more quickly using RASP than a turing machine",
+            "b) Stores its program in memory external to its state machines instructions",
+            "c) Has infinite number of distinguishable, unbounded registers",
+            "d) Binary search can be performed less quickly using RASP than a turing machine",
+            "e) More than two options are incorrect"
+        ],
+        "answer": "d",
+        "explanation": "In theoretical computer science, the random access stored program( RASP ) machine model is an abstract machine used for the purpose of algorithm development and algorithm complexity theory."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The Rasp is a random access machine model that, unlike the RAM has its program in its registers together with its input. The registers are unbounded(infinite in capacity); whether the number of registers is finite is model-specific."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "$dayOfMonth returns the day of the month for a date as a number between ________________",
+        "options": [
+            "a) 1 and 31",
+            "b) 1 and 30",
+            "c) 1 and 28",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The $dayOfMonth expression has the following syntax: { $dayOfMonth:"
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) $second returns the seconds for a date as a number between 0 and 60 (leap seconds)",
+            "b) $minute returns the minute for a date as a number between 0 and 59",
+            "c) $millis returns the milliseconds of a date as a number between 0 and 1000",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$millisecond returns the milliseconds of a date as a number between 0 and 999."
+    },
+    {
+        "question": "__________ returns the day of the year for a date as a number between 1 and 366.",
+        "options": [
+            "a) $dayofWeekend",
+            "b) $dayOfWeek",
+            "c) $dayOfYear",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The $dayOfYear expression has the following syntax:{ $dayOfYear:"
+    },
+    {
+        "question": "Which of the following returns year for particular date?",
+        "options": [
+            "a) $year",
+            "b) $yearday",
+            "c) $syearofmonth",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "$year returns the year for a date as a number (e.g. 2014)."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) $weekDay returns the week number for a date as a number between 0 and 53 (leap year)",
+            "b) $cond accepts either two expressions in an ordered list or three named parameters",
+            "c) $toLower only has a well-defined behavior for strings of ASCII characters",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$cond is a ternary operator that evaluates one expression, and depending on the result, returns the value of one of the other two expressions."
+    },
+    {
+        "question": "Which of the following returns the hour for a date as a number between 0 and 23?",
+        "options": [
+            "a) $minute",
+            "b) $hour",
+            "c) $seconds",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The argument in hour statement can be any expression as long as it resolves to a date."
+    },
+    {
+        "question": "__________ returns the date as a formatted string.",
+        "options": [
+            "a) $toString",
+            "b) $dateToString",
+            "c) $letString",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$dateToString converts a date object to a string according to a user-specified format."
+    },
+    {
+        "question": "_______ result encompasses instances of undefined values or missing fields.",
+        "options": [
+            "a) Number",
+            "b) String",
+            "c) Null",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Null value does not imply zero."
+    },
+    {
+        "question": "___________ returns either the non-null result of the first expression.",
+        "options": [
+            "a) $Null",
+            "b) $ifNull",
+            "c) $ElseNull",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:$ifNull returns the result of the second expression if the first expression results in a null result."
+    },
+    {
+        "question": "__________ take as input a single expression, evaluating the expression once for each input document, and maintain their state for the group of documents.",
+        "options": [
+            "a) Computer",
+            "b) Monitors",
+            "c) Accumulators",
+            "d) Performoner"
+        ],
+        "answer": "c",
+        "explanation": "Accumulators are available only for the $group stage."
+    }
+]

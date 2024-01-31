@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is a common hadoop maintenance issue?",
+        "options": [
+            "a) Lack of tools",
+            "b) Lack of configuration management",
+            "c) Lack of web interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Without a centralized configuration management framework, you end up with a number of issues that can cascade just as your usage picks up."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) RAID is turned off by default",
+            "b) Hadoop is designed to be a highly redundant distributed system",
+            "c) Hadoop has a networked configuration system",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hadoop deployment is sometimes difficult to implement."
+    },
+    {
+        "question": "___________ mode allows you to suppress alerts for a host, service, role, or even the entire cluster.",
+        "options": [
+            "a) Safe",
+            "b) Maintenance",
+            "c) Secure",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Maintenance mode can be useful when you need to take actions in your cluster and do not want to see the alerts that will be generated due to those actions."
+    },
+    {
+        "question": "Which of the following is a configuration management system?",
+        "options": [
+            "a) Alex",
+            "b) Puppet",
+            "c) Acem",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Administrators may use configuration management systems such as Puppet and Chef to manage processes."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If you set the HBase service into maintenance mode, then its roles (HBase Master and all Region Servers) are put into effective maintenance mode",
+            "b) If you set a host into maintenance mode, then any roles running on that host are put into effective maintenance mode",
+            "c) Putting a component into maintenance mode prevent events from being logged",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Maintenance mode only suppresses the alerts that those events would otherwise generate."
+    },
+    {
+        "question": "Which of the following is a common reason to restart hadoop process?",
+        "options": [
+            "a) Upgrade Hadoop",
+            "b) React to incidents",
+            "c) Remove worker nodes",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The most common reason administrators restart Hadoop processes is to enact configuration changes."
+    },
+    {
+        "question": "__________ Manager\u2019s Service feature monitors dozens of service health and performance metrics about the services and role instances running on your cluster.",
+        "options": [
+            "a) Microsoft",
+            "b) Cloudera",
+            "c) Amazon",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Manager\u2019s Service feature presents health and performance data in a variety of formats."
+    },
+    {
+        "question": "Which of the tab shows all the role instances that have been instantiated for this service?",
+        "options": [
+            "a) Service",
+            "b) Status",
+            "c) Instance",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Instances page displays the results of the configuration validation checks it performs for all the role instances for this service."
+    },
+    {
+        "question": "__________ is a standard Java API for monitoring and managing applications.",
+        "options": [
+            "a) JVX",
+            "b) JVM",
+            "c) JMX",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hadoop includes several managed beans (MBeans), which expose Hadoop metrics to JMX-aware applications."
+    },
+    {
+        "question": "NameNode is monitored and upgraded in a __________ transition.",
+        "options": [
+            "a) safemode",
+            "b) securemode",
+            "c) servicemode",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The HDFS service has some unique functions that may result in additional information on its Status and Instances pages."
+    }
+]

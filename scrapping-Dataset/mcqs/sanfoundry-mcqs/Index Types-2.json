@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Before version _______ capped collections did not have an _id field.",
+        "options": [
+            "a) 2.1",
+            "b) 2.4",
+            "c) 3.0",
+            "d) 2.2"
+        ],
+        "answer": "d",
+        "explanation": "In version 2.2 and newer, capped collections do have an _id field, except those in the local database."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You can create indexes on fields within embedded documents",
+            "b) Indexes on embedded fields are similar to indexes on embedded documents",
+            "c) Indexes on embedded fields allow you to use a \u201cdot notation,\u201d to introspect into embedded documents",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " Indexes on embedded fields differ from indexes on embedded documents, which include the full content up to the maximum index size of the embedded document in the index."
+    },
+    {
+        "question": "For a _____ multikey index, each indexed document can have at most one indexed field whose value is an array.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) compound"
+        ],
+        "answer": "d",
+        "explanation": "As such, you cannot create a compound multikey index if more than one to-be-indexed field of a document is an array."
+    },
+    {
+        "question": "Which of the following indexes cannot be multikey?",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) compound"
+        ],
+        "answer": "a",
+        "explanation": "You cannot specify a multikey index as the shard key index."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You may not create compound indexes that have hashed index fields",
+            "b) The order of the fields in a compound index is very important",
+            "c) You will receive a warning if you attempt to create a compound index that includes a hashed index",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You will receive an error if you attempt to create a compound index that includes a hashed index."
+    },
+    {
+        "question": "To calculate geometry over an Earth-like sphere, store your location data on a spherical surface and use _____ index.",
+        "options": [
+            "a) 2dsphere",
+            "b) 2d",
+            "c) geoHaystack",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " Secondary members replicate deletion operations from the primary."
+    },
+    {
+        "question": "______ indexes can be constructed over arrays that hold both scalar values (e.g. strings, numbers) and nested documents.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) Compound"
+        ],
+        "answer": "c",
+        "explanation": "Store your location data as GeoJSON objects with this coordinate-axis order: longitude, latitude."
+    },
+    {
+        "question": "The coordinate reference system for GeoJSON uses the _____ datum.",
+        "options": [
+            "a) WGS88",
+            "b) WGS84",
+            "c) JGS88",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Before storing your location data and writing queries, you must decide the type of surface to use to perform calculations."
+    },
+    {
+        "question": "Which of the following is used to calculate distances on a Euclidean plane?",
+        "options": [
+            "a) 2dsph",
+            "b) 2d",
+            "c) geoHaystack",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Store your location data as legacy coordinate pairs"
+    },
+    {
+        "question": "Queries on ________ objects always calculate on a sphere.",
+        "options": [
+            "a) GeoBSON",
+            "b) GeoJSON",
+            "c) geoJSONB",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Support for GeoJSON storage and queries is new in version 2.4."
+    }
+]

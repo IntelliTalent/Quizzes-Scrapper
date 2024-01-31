@@ -1,0 +1,143 @@
+[
+    {
+        "question": "Which mode is less prone to decryption : PRNG using CTR / PRNG using OFB?",
+        "options": [
+            "a) OFB",
+            "b) CTR",
+            "c) Both are equally prone",
+            "d) Both can\u2019t be decrypted"
+        ],
+        "answer": "b",
+        "explanation": "CTR mode is more prone than the OBF mode."
+    },
+    {
+        "question": "ANSI X9.17 uses a seed of size",
+        "options": [
+            "a) 56 bits",
+            "b) 64 bits",
+            "c) 32 bits",
+            "d) 128 bits"
+        ],
+        "answer": "b",
+        "explanation": "The seed in ANSI X9.17 is of 64 bits and the randomly generated keys are of size 56 bits."
+    },
+    {
+        "question": "How many 3DES blocks are present in the ANSI X9.17 PRNG?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "There are 3 3DES blocks in the ANSI X9.17 PRNG."
+    },
+    {
+        "question": "How many DES encryptions take place in the ANSI X9.17 PRNG?",
+        "options": [
+            "a) 3",
+            "b) 6",
+            "c) 9",
+            "d) 12"
+        ],
+        "answer": "d",
+        "explanation": "Since there are 3 block, 12 DES encryptions take place."
+    },
+    {
+        "question": "How many keys are used in the ANSI X9.17 PRNG?",
+        "options": [
+            "a) 3",
+            "b) 2",
+            "c) 4",
+            "d) 6"
+        ],
+        "answer": "a",
+        "explanation": "2 keys are used for the 3DES Encrypt Decrypt Encrypt method."
+    },
+    {
+        "question": "Which of the following PRNGs is used in most recent Intel Chips?",
+        "options": [
+            "a) ANSI X9.17 PRNG",
+            "b) NIST CTR_DRBG",
+            "c) ANSI standard X9.82",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "NIST CTR_DRBG is the PRNG used in most Intel Chips."
+    },
+    {
+        "question": "For the NIST CTR_DRBG , Seed length =",
+        "options": [
+            "a) Output Block Length",
+            "b) Reseed Interval",
+            "c) Reseed Interval + Output Block Length",
+            "d) Output Block Length + Key Length"
+        ],
+        "answer": "d",
+        "explanation": "Seed length = Output Block Length + Key Length"
+    },
+    {
+        "question": "The CTR mode uses a Key K and an Initial Vector V. The Intel Digital Random Number generator has these values initially as",
+        "options": [
+            "a) K = 0 ; V = 1",
+            "b) K = 0 ; V = 0",
+            "c) K = 1 ; V = 1",
+            "d) K = 1 ; V = 0"
+        ],
+        "answer": "b",
+        "explanation": "K = 0 ; V = 0 for Intel Digital Random Number generator. (Initial Values)"
+    },
+    {
+        "question": "What is the Seed length (seedlen) length for AES-192 ?",
+        "options": [
+            "a) 428",
+            "b) 384",
+            "c) 320",
+            "d) 512"
+        ],
+        "answer": "c",
+        "explanation": "Seed length = Output Block Length + Key Length = 128 + 192."
+    },
+    {
+        "question": "What is the Seed length (seedlen) length for 3DES?",
+        "options": [
+            "a) 284",
+            "b) 260",
+            "c) 232",
+            "d) 216"
+        ],
+        "answer": "c",
+        "explanation": "Seed length = Output Block Length + Key Length = 64 + 232."
+    },
+    {
+        "question": "The Generate function precedes the Update phase in CTR_DRBG.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Generate function comes after the Update Phase function."
+    },
+    {
+        "question": "With reference to stream ciphers, the output of the generator is called",
+        "options": [
+            "a) Byte Stream",
+            "b) Re-Seed Interval",
+            "c) Key Length",
+            "d) Keystream"
+        ],
+        "answer": "d",
+        "explanation": "The generator produces the Keystream."
+    },
+    {
+        "question": "Which of the following is not a valid design parameter to be considered in designing stream ciphers?",
+        "options": [
+            "a) Keystream should be truly as random as possible",
+            "b) Encryption sequence should have a large value",
+            "c) Output of the PRNG (the key) should be sufficiently large",
+            "d) All of the mentioned are valid points that should be considered while designing stream cipher blocks"
+        ],
+        "answer": "d",
+        "explanation": "a, b and c are all valid design parameters."
+    }
+]

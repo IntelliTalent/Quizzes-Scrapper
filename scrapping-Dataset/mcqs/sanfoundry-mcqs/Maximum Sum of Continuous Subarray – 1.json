@@ -1,0 +1,81 @@
+[
+    {
+        "question": "Given a one-dimensional array of integers, you have to find a sub-array with maximum sum. This is the maximum sub-array sum problem. Which of these methods can be used to solve the problem?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Two for loops (naive method)",
+            "c) Divide and conquer",
+            "d) Dynamic programming, na\u00efve method and Divide and conquer methods"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic programming, na\u00efve method and Divide and conquer methods can be used to solve the maximum sub array sum problem."
+    },
+    {
+        "question": "Find the maximum sub-array sum for the given elements.",
+        "options": [
+            "a) 3",
+            "b) 5",
+            "c) 8",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "The maximum sub-array sum is 5."
+    },
+    {
+        "question": "Find the maximum sub-array sum for the given elements.",
+        "options": [
+            "a) -3",
+            "b) 5",
+            "c) 3",
+            "d) -1"
+        ],
+        "answer": "d",
+        "explanation": "All the elements are negative. So, the maximum sub-array sum will be equal to the largest element. The largest element is -1 and therefore, the maximum sub-array sum is -1."
+    },
+    {
+        "question": "Consider the following naive method to find the maximum sub-array sum:",
+        "options": [],
+        "answer": "d",
+        "explanation": "If the tmp_max element is greater than the cur_max element, we make cur_max equal to tmp_max, i.e. cur_max = tmp_max."
+    },
+    {
+        "question": "What is the time complexity of the following naive method used to find the maximum sub-array sum in an array containing n elements?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The naive method uses two for loops. The outer loop runs from 0 to n,"
+    },
+    {
+        "question": "What is the space complexity of the following naive method used to find the maximum sub-array sum in an array containing n elements?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The naive method uses only a constant space. So, the space complexity is O(1)."
+    },
+    {
+        "question": "What is the output of the following naive method used to find the maximum sub-array sum?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The naive method prints the maximum sub-array sum, which is 7."
+    },
+    {
+        "question": "What is the time complexity of the divide and conquer algorithm used to find the maximum sub-array sum?",
+        "options": [
+            "a) O(n)",
+            "b) O(logn)",
+            "c) O(nlogn)",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of the divide and conquer algorithm used to find the maximum sub-array sum is O(nlogn)."
+    },
+    {
+        "question": "What is the space complexity of the divide and conquer algorithm used to find the maximum sub-array sum?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(n!)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The divide and conquer algorithm uses a constant space. So, the space complexity is O(1)."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which hdfs command is used to check for various inconsistencies?",
+        "options": [
+            "a) fsk",
+            "b) fsck",
+            "c) fetchdt",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "fsck is designed for reporting problems with various files, for example, missing blocks for a file or under-replicated blocks."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) All hadoop commands are invoked by the bin/hadoop script",
+            "b) Hadoop has an option parsing framework that employs only parsing generic options",
+            "c) Archive command creates a hadoop archive",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Running the hadoop script without any arguments prints the description for all commands."
+    },
+    {
+        "question": "HDFS supports the ____________ command to fetch Delegation Token and store it in a file on the local system.",
+        "options": [
+            "a) fetdt",
+            "b) fetchdt",
+            "c) fsk",
+            "d) rec"
+        ],
+        "answer": "b",
+        "explanation": "Delegation token can be later used to access secure server from a non secure client."
+    },
+    {
+        "question": "In ___________ mode, the NameNode will interactively prompt you at the command line about possible courses of action you can take to recover your data.",
+        "options": [
+            "a) full",
+            "b) partial",
+            "c) recovery",
+            "d) commit"
+        ],
+        "answer": "c",
+        "explanation": "Recovery mode can cause you to lose data, you should always backup your edit log and fsimage before using it."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) classNAME displays the class name needed to get the Hadoop jar",
+            "b) Balancer Runs a cluster balancing utility",
+            "c) An administrator can simply press Ctrl-C to stop the rebalancing process",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "classpath prints the class path needed to get the Hadoop jar and the required libraries."
+    },
+    {
+        "question": "_________ command is used to copy file or directories recursively.",
+        "options": [
+            "a) dtcp",
+            "b) distcp",
+            "c) dcp",
+            "d) distc"
+        ],
+        "answer": "b",
+        "explanation": "Usage of the distcp command: hadoop distcp <srcurl> <desturl>."
+    },
+    {
+        "question": "__________ mode is a Namenode state in which it does not accept changes to the name space.",
+        "options": [
+            "a) Recover",
+            "b) Safe",
+            "c) Rollback",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "dfsadmin runs a HDFS dfsadmin client."
+    },
+    {
+        "question": "__________ command is used to interact and view Job Queue information in HDFS.",
+        "options": [
+            "a) queue",
+            "b) priority",
+            "c) dist",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hadoop script can be used to invoke any class."
+    },
+    {
+        "question": "Which of the following command runs the HDFS secondary namenode?",
+        "options": [
+            "a) secondary namenode",
+            "b) secondarynamenode",
+            "c) secondary_namenode",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The secondary NameNode merges the fsimage and the edits log files periodically and keeps edits log size within a limit."
+    },
+    {
+        "question": "Which of the following is used for the MapReduce job Tracker node?",
+        "options": [
+            "a) mradmin",
+            "b) tasktracker",
+            "c) jobtracker",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "tasktracker runs a MapReduce task Tracker node."
+    }
+]

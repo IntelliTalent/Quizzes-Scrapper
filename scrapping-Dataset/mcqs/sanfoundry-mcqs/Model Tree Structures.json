@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The ________ References pattern stores each tree node in a document; in addition to the tree node, the document stores the id of the node\u2019s parent.",
+        "options": [
+            "a) Child",
+            "b) Parent",
+            "c) Root",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Data model that describes a tree-like structure in MongoDB documents by storing references to \u201cparent\u201d nodes in children nodes."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The query to retrieve the parent of a node is fast and straightforward",
+            "b) The query to retrieve the parent of a node is slow and straightforward",
+            "c) The query to retrieve the parent of a node is slow and complex",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can create an index on the field to enable fast search by the parent node."
+    },
+    {
+        "question": "The ________ Links pattern provides a simple solution to tree storage but requires multiple queries to retrieve subtrees.",
+        "options": [
+            "a) Child",
+            "b) Parent",
+            "c) Root",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can query by the parent field to find its immediate children nodes."
+    },
+    {
+        "question": "The _________ References pattern stores each tree node in array the id(s) of the node\u2019s children.",
+        "options": [
+            "a) Child",
+            "b) Parent",
+            "c) Root",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In addition to the tree node, document stores in an array the id(s) of the node\u2019s children."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You cannot query for a node in the children field to find its parent node only",
+            "b) You can query for a node in the children field to find its parent node as well as its siblings",
+            "c) You can query for a node in the children field to find its siblings only",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Child References pattern provides a suitable solution to tree storage as long as no operations on subtrees are necessary."
+    },
+    {
+        "question": "Which of the following pattern may provide a suitable solution for storing graphs?",
+        "options": [
+            "a) Child",
+            "b) Parent",
+            "c) Root",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Node may have multiple parents for Child Parents."
+    },
+    {
+        "question": "The Array of Ancestors pattern is slightly slower than the ________________ pattern.",
+        "options": [
+            "a) Materialized Paths",
+            "b) Array of Ancestors",
+            "c) Nested Sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Array of Ancestors pattern provides a fast and efficient solution to find the descendants and the ancestors of a node by creating an index on the elements of the ancestors field."
+    },
+    {
+        "question": "The ____________ pattern identifies each node in the tree as stops in a round-trip traversal of the tree.",
+        "options": [
+            "a) Materialized Paths",
+            "b) Array of Ancestors",
+            "c) Nested Sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Nested Sets pattern stores each tree node in a document; in addition to the tree node, document stores the id of node\u2019s parent, the node\u2019s initial stop in the left field, and its return stop in the right field."
+    },
+    {
+        "question": "____________ pattern requires additional steps of working with strings and regular expressions.",
+        "options": [
+            "a) Materialized Paths",
+            "b) Array of Ancestors",
+            "c) Nested Sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Materialized Paths pattern stores each tree node in a document; in addition to the tree node, document stores as a string the id(s) of the node\u2019s ancestors or path."
+    }
+]

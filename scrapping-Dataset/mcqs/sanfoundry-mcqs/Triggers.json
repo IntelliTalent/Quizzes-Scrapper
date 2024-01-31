@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Triggers enable to enforce data integrity constraints.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, a trigger can examine or change new data values to be inserted or used to update a row in a table. This enables the enforcement of the data integrity constraints."
+    },
+    {
+        "question": "Which statement is used to create a trigger?",
+        "options": [
+            "a) CREATE TRIGGER",
+            "b) CREATE TRIGGERS",
+            "c) PRODUCE TRIGGER",
+            "d) PRODUCE TRIGGERS"
+        ],
+        "answer": "a",
+        "explanation": "In order to create a trigger, the CREATE TRIGGER statement is used. The definition indicates the particular type of statement for which the trigger activates and whether it activates before or after the rows are modified."
+    },
+    {
+        "question": "For which of the following are triggers not supported?",
+        "options": [
+            "a) delete",
+            "b) update",
+            "c) insert",
+            "d) views"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the triggers are run only after the table modifications like insert, update and delete are run. Triggers are not supported for views. In order to create a trigger, the CREATE TRIGGER statement is used."
+    },
+    {
+        "question": "Which statement is used to remove a trigger?",
+        "options": [
+            "a) REMOVE",
+            "b) DELETE",
+            "c) DROP",
+            "d) CLEAR"
+        ],
+        "answer": "c",
+        "explanation": "In order to delete a trigger, the DROP TRIGGER statement is used. The DROP TRIGGER construct is used by writing the phrase \u2018DROP TRIGGER\u2019 followed by the scheme name specification."
+    },
+    {
+        "question": "Before MySQL 5.1.6 which privilege was required to create and drop triggers?",
+        "options": [
+            "a) PRIVILEGE",
+            "b) TRIGGER",
+            "c) SUPER",
+            "d) MACRO"
+        ],
+        "answer": "c",
+        "explanation": "The privilege to create and drop triggers is version specific in MySQL. Before MySQL 5.1.6, the SUPER privilege was needed. Access control is more correctly handled post this version."
+    },
+    {
+        "question": "The TRIGGER privilege is used for the table to be able to create and drop triggers for it.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, because a trigger is associated with a table, the TRIGGER privilege is a must for that table to be able to create and drop triggers for it. The SUPER privilege was used pre 5.1.6."
+    },
+    {
+        "question": "What is abc in the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In MySQL, the trigger creation construct is the \u2018CREATE TRIGGER\u2019 construct. It specifies the trigger name, the type of statement for which it is activated, and the table name and statement."
+    },
+    {
+        "question": "What is def in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The trigger creation construct in MySQL is the \u2018CREATE TRIGGER\u2019 construct. It specifies components like the trigger name, the type of statement for which it is activated, and the table name and statement."
+    },
+    {
+        "question": "What is ghi in the following MySQL statement?",
+        "options": [],
+        "answer": "c",
+        "explanation": "In MySQL, the trigger creation construct is the \u2018CREATE TRIGGER\u2019 construct. It specifies components like the trigger name, the type of statement for which it is activated, and the table name and statement."
+    },
+    {
+        "question": "What is def in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The \u2018DECLARE HANDLER\u2019 statement is used to declare a handler. When a condition whose value matches def, MySQL will execute ghi and either continue or exit the current code block."
+    }
+]

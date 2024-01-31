@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which among the following is not a UNIX command for regular expressions?",
+        "options": [
+            "a) ed",
+            "b) sed",
+            "c) vi",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Regular expressions are used by different commands in Unix like ed, sed, grep, awk, vi, etc. Sed stands for stream editor which is exclusively used for executing scripts."
+    },
+    {
+        "question": "What is the significance of $ used in regular expression in UNIX?",
+        "options": [
+            "a) Matches the beginning of the line",
+            "b) Matches the end of lines",
+            "c) Matches any single character",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Regular expression provides more flexibility while matching string patterns. Special characters like ^, $, *, . are very useful."
+    },
+    {
+        "question": "Generate the regular expression to match blank lines",
+        "options": [
+            "a) / */",
+            "b) /bl",
+            "c) /^?/",
+            "d) /^$/"
+        ],
+        "answer": "d",
+        "explanation": "There are few expressions which provide the utility of matching metacharacters including /^$/ for blank lines,  / */ for matching one or more spaces, /^.*$/ for matching an entire line whatever it is."
+    },
+    {
+        "question": "For the given syntax of sed, which among the following is not a correct option?",
+        "options": [
+            "a) / are used as delimiters",
+            "b) pattern refers to a regular expression",
+            "c) pattern refers to the string to be matched",
+            "d) action refers to the command"
+        ],
+        "answer": "c",
+        "explanation": "In the general syntax of sed, pattern is the regular expression and action refers to the command given (p: prints the line, d: deletes the line, etc)."
+    },
+    {
+        "question": "What does grep do in UNIX?",
+        "options": [
+            "a) It is an editor in UNIX",
+            "b) It searches for text patterns",
+            "c) It is an editor in UNIX and it searches for text patterns",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The grep is a standard UNIX utility program that searches through a set of files in search of a text pattern,specified through a regular expression."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Such a generated pattern could be a fixed word or describe something like more general."
+    },
+    {
+        "question": "Which of the following options support the given statement?",
+        "options": [
+            "a) This flexibility makes Regular expression invaluable",
+            "b) This flexibility makes the Regular expression unvaluable",
+            "c) This flexibility makes Regular expression invaluable and unvaluable",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regular expressions are very much invaluable tools; they can be used to find a particular segment of line in a file and instruct to take certain actions."
+    },
+    {
+        "question": "What does the following segment of code does?",
+        "options": [
+            "a) manually opens a file called heroes.txt",
+            "b) manages heroes.txt",
+            "c) search for \u201cman\u201d in the file \u201cheroes.txt\u201d",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "grep is a command which finds the pattern in a particular text segment.Here, it scans each line in heroes.txt and looks for an m followed by a and then followed by n."
+    },
+    {
+        "question": "What does \u201cX?\u201d do regular expression operator?",
+        "options": [
+            "a) Matches zero or more capital X\u2019s",
+            "b) Matches no or one occurence of the capital letter X",
+            "c) Matches one or more capital X\u2019s",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are many  other common regular expression operators like $, ^, etc. Which have their own respective purposes."
+    },
+    {
+        "question": "Which of the following does not support regular expressions?",
+        "options": [
+            "a) sed",
+            "b) awk",
+            "c) emacs",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are many UNIX tools including vi, Emacs, sed, awk and modern programming languages which support regular expressions."
+    }
+]

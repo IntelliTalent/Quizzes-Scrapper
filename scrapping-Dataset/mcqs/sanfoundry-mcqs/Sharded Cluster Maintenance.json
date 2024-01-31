@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Split empty chunks in your collection by manually performing the ______ command on chunks.",
+        "options": [
+            "a) distrbute",
+            "b) split",
+            "c) change",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The config database is internal: applications and administrators should not modify or depend upon its content in the course of normal operation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Pre-splitting the chunk ranges in an empty sharded collection allows clients to insert data into an already partitioned collection",
+            "b) MongoDB cannot create enough chunks or distribute data fast enough to support required throughput",
+            "c) Chunk migration does not require copying all the data in the chunk from one shard to another",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In most situations a sharded cluster will create and distribute chunks automatically without user intervention."
+    },
+    {
+        "question": "MongoDB provides the _________ command to combine contiguous chunk ranges into a single chunk.",
+        "options": [
+            "a) helpchunks",
+            "b) moveChunks",
+            "c) mergeChunks",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For a sharded collection, mergeChunks combines contiguous chunk ranges on a shard into a single chunk. Issue the mergeChunks command from a mongos instance."
+    },
+    {
+        "question": "Use ________ to determine the current chunk ranges across the cluster.",
+        "options": [
+            "a) sh.collects()",
+            "b) sh.status()",
+            "c) sh.results()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To access the config database, connect to a mongos instance in a sharded cluster, and use the following helper: use config"
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If a collection already has data, MongoDB automatically splits the collection\u2019s data when you enable sharding for the collection",
+            "b) Subsequent attempts to manually create splits can lead to unpredictable chunk ranges and sizes as well as inefficient or ineffective balancing behavior",
+            "c) MongoDB creates splits only after an insert operation",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The default behavior suppresses the detailed chunk information if the total number of chunks is greater than or equal to 20."
+    },
+    {
+        "question": "__________ splits the chunk that contains the shard key value specified by the query at the chunk\u2019s median point.",
+        "options": [
+            "a) sh.Find()",
+            "b) sh.splitFind()",
+            "c) sh.split()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "sh.splitFind() creates two roughly equal chunks."
+    },
+    {
+        "question": "_________ splits a chunk at the shard key value specified by the query.",
+        "options": [
+            "a) sh.Find()",
+            "b) sh.splitFind()",
+            "c) sh.split()",
+            "d) sh.splitAt"
+        ],
+        "answer": "d",
+        "explanation": "In most circumstances, you should leave chunk splitting to the automated processes within MongoDB."
+    },
+    {
+        "question": "sh.splitFind () Splits the chunk that contains the shard key value specified by the query at the chunk\u2019s ______ point.",
+        "options": [
+            "a) smean",
+            "b) stdev",
+            "c) median",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It may be beneficial to pre-split manually an empty collection using methods such as sh.splitFind()."
+    },
+    {
+        "question": "The mergeChunks command requires at least _______ empty input chunk.",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " MergeChunks merge two contiguous chunks on the same shard, where at least one of the contains no data."
+    },
+    {
+        "question": "The chunkSize and ________ options, passed at startup to the mongos, do not affect the chunk size after you have initialized the cluster.",
+        "options": [
+            "a) \u2013Size",
+            "b) \u2013chunkSize",
+            "c) \u2013chunk",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Modifying the chunk size has several limitations."
+    }
+]

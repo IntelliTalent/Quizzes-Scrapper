@@ -1,0 +1,674 @@
+[
+    {
+        "question": "1) What is the full form of SQL?",
+        "options": [
+            "Structured Query List",
+            "Structure Query Language",
+            "Sample Query Language",
+            "None of these."
+        ],
+        "answer": "Answer: B",
+        "explanation": " SQL is a programming language used for managing data in a relational database management system. It is pronounced as See-Qwell.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "2) Which of the following is not a valid SQL type?",
+        "options": [
+            "FLOAT",
+            "NUMERIC",
+            "DECIMAL",
+            "CHARACTER"
+        ],
+        "answer": "Answer: C",
+        "explanation": "",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "3) Which of the following is not a DDL command?",
+        "options": [
+            "TRUNCATE",
+            "ALTER",
+            "CREATE",
+            "UPDATE"
+        ],
+        "answer": "Answer: D",
+        "explanation": " DDL commands are used to define the structure of the database, table, schemas, etc. It enables us to perform the operations like CREATE, DROP, ALTER, RENAME, and TRUNCATE schema objects.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "4) Which of the following are TCL commands?",
+        "options": [
+            "COMMIT and ROLLBACK",
+            "UPDATE and TRUNCATE",
+            "SELECT and INSERT",
+            "GRANT and REVOKE"
+        ],
+        "answer": "Answer: A",
+        "explanation": " TCL stands for Transaction Control Commands used for managing the changes made by DML commands like INSERT, DELETE, and UPDATE. The TCL commands are automatically committed in the database; that's why we cannot use them directly while creating tables or dropping them.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "5) Which statement is used to delete all rows in a table without having the action logged?",
+        "options": [
+            "DELETE",
+            "REMOVE",
+            "DROP",
+            "TRUNCATE"
+        ],
+        "answer": "Answer: D",
+        "explanation": " TRUNCATE statement removes all rows in a table without logging the individual row deletions. It uses fewer system and transaction log resources, which makes its execution fast. This statement is similar to the DELETE statement without the WHERE clause.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "6) SQL Views are also known as",
+        "options": [
+            "Simple tables",
+            "Virtual tables",
+            "Complex tables",
+            "Actual Tables"
+        ],
+        "answer": "Answer: B",
+        "explanation": " A view is also known as a virtual table because it contains rows and columns similar to a real table. It shows the table interface but cannot be stored in a database.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "7) How many Primary keys can have in a table?",
+        "options": [
+            "Only 1",
+            "Only 2",
+            "Depends on no of Columns",
+            "Depends on DBA"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The primary key can consist of a single or combination of the field that uniquely identifies each record in a table. It cannot be null or empty. A table may have duplicate columns, but it can contain only one primary key.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "8) Which datatype can store unstructured data in a column?",
+        "options": [
+            "CHAR",
+            "RAW",
+            "NUMERIC",
+            "VARCHAR"
+        ],
+        "answer": "Answer: B",
+        "explanation": "",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "9) Which of the following is not Constraint in SQL?",
+        "options": [
+            "Primary Key",
+            "Not Null",
+            "Check",
+            "Union"
+        ],
+        "answer": "Answer: D",
+        "explanation": "",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "10) Which of the following is not a valid aggregate function?",
+        "options": [
+            "COUNT",
+            "COMPUTE",
+            "SUM",
+            "MAX"
+        ],
+        "answer": "Answer: B",
+        "explanation": " Aggregate function is used to perform calculations on multiple values and return the output in a single value. It is mostly used with the SELECT statement. COUNT, SUM, and MAX are all aggregate functions.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "11) Which data manipulation command is used to combines the records from one or more tables?",
+        "options": [
+            "SELECT",
+            "PROJECT",
+            "JOIN",
+            "PRODUCT"
+        ],
+        "answer": "Answer: C",
+        "explanation": " JOIN command is used with the SELECT statement to retrieve data from multiple tables. It must be needed whenever we want to fetch records from two or more tables.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "12) Which operator is used to compare a value to a specified list of values?",
+        "options": [
+            "ANY",
+            "BETWEEN",
+            "ALL",
+            "IN"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The IN operator easily tests the expression if it matches any value in a specified list of values. It reduces the use of multiple OR conditions.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "13) What operator tests column for absence of data",
+        "options": [
+            "NOT Operator",
+            "Exists Operator",
+            "IS NULL Operator",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The IS NULL operator is used to testing the empty values in the table's column. It returns true if column values are NULL.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "14) In which of the following cases a DML statement is not executed?",
+        "options": [
+            "When existing rows are modified.",
+            "When a table is deleted.",
+            "When some rows are deleted.",
+            "All of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The DML statement is used to access and manipulate the data in an existing table. Therefore, it cannot be used in table deletion.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "15) If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default",
+        "options": [
+            "DESC",
+            "ASC",
+            "There is no default value",
+            "None of the mentioned"
+        ],
+        "answer": "Answer: B",
+        "explanation": " If we have not specified any sorting with the ORDER BY clause, SQL always uses the ASC as a default sorting order. SQL treats Null as the lowest possible values while sorting.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "16) Which of the following statement is true?",
+        "options": [
+            "TRUNCATE free the table space while DELETE does not.",
+            "Both TRUNCATE and DELETE statements free the table's space.",
+            "Both TRUNCATE and DELETE statement does not free the table's space.",
+            "DELETE free the table space while TRUNCATE does not."
+        ],
+        "answer": "Answer: A",
+        "explanation": "",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "17) What is returned by INSTR ('JAVAT POINT', 'P')?",
+        "options": [
+            "6",
+            "7",
+            "POINT",
+            "JAVAT"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The INSTR function searches the string for substring and returns the numeric value of the specified character's first occurrence.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "18) A command that lets you change one or more field in a table is:",
+        "options": [
+            "INSERT",
+            "MODIFY",
+            "LOOK-UP",
+            "All of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The modify command is used to change one or more columns in the existing table. It is generally used with ALTER TABLE statement as follows.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "19) Which of the following is also called an INNER JOIN?",
+        "options": [
+            "SELF JOIN",
+            "EQUI JOIN",
+            "NON-EQUI JOIN",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The INNER JOIN returns data from the two or more tables that match the specified condition and hides other records. EQUI JOIN is similar to INNER JOIN that returns records for equality or matching column(s) values of the relative tables.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "20) Which of the following is true about the HAVING clause?",
+        "options": [
+            "Similar to the WHERE clause but is used for columns rather than groups.",
+            "Similar to WHERE clause but is used for rows rather than columns.",
+            "Similar to WHERE clause but is used for groups rather than rows.",
+            "Acts exactly like a WHERE clause."
+        ],
+        "answer": "Answer: C",
+        "explanation": " The HAVING clause is always used with the GROUP BY clause and returns the rows where the condition is TRUE.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "21) _______ clause creates temporary relation for the query on which it is defined.",
+        "options": [
+            "WITH",
+            "FROM",
+            "WHERE",
+            "SELECT"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The WITH clause in SQL allows us to provide a sub-query block, a name that can be referenced in several places within the main query. It is used for defining a temporary relation whose definition is available by the query in which the WITH clause is associated.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "22) The SQL statement:",
+        "options": [
+            "is illegal",
+            "garbage",
+            "726",
+            "70"
+        ],
+        "answer": "Answer: D",
+        "explanation": " Here, the ROUND() function statement will produce the rounded result of the given number 65.726 from the left of decimal point up to 1.",
+        "codeblock": "SELECT ROUND (65.726, -1) FROM DUAL;"
+    },
+    {
+        "question": "23) Which of the following is true about the SQL AS clause?",
+        "options": [
+            "The AS clause in SQL is used to change the column name in the output or assign a name to a derived column.",
+            "The SQL AS clause can only be used with the JOIN clause.",
+            "The AS clause in SQL is used to defines a search condition.",
+            "All of the mentioned"
+        ],
+        "answer": "Answer: A",
+        "explanation": " SQL AS clauses are defined for columns and tables to give an alias name. Basically, aliases are created to increase the readability of the query and column headings in the output.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "24) _________ command makes the updates performed by the transaction permanent in the database?",
+        "options": [
+            "ROLLBACK",
+            "COMMIT",
+            "TRUNCATE",
+            "DELETE"
+        ],
+        "answer": "Answer: B",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "25) How can you change \"Thomas\" into \"Michel\" in the \"LastName\" column in the Users table?",
+        "options": [
+            "UPDATE User SET LastName = 'Thomas' INTO LastName = 'Michel'",
+            "MODIFY Users SET LastName = 'Michel' WHERE LastName = 'Thomas'",
+            "MODIFY Users SET LastName = 'Thomas' INTO LastName = 'Michel'",
+            "UPDATE Users SET LastName = 'Michel' WHERE LastName = 'Thomas'"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The UPDATE statement is used for modifying the table data by using the SET and WHERE clause. The SET clause is used to change the values of the column specified in the WHERE clause. See the below syntax:",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "26) Which command is used to change the definition of a table in SQL?",
+        "options": [
+            "CREATE",
+            "UPDATE",
+            "ALTER",
+            "SELECT"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The ALTER statement is used to change our table's definition, such as table name, column name, column constraint, etc. It also allows us to add or delete an existing column in a table. This statement must be used with ADD, DROP, and MODIFY clauses according to the situation.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "27) Which type of JOIN is used to returns rows that do not have matching values?",
+        "options": [
+            "Natural JOIN",
+            "Outer JOIN",
+            "EQUI JOIN",
+            "All of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "28) A CASE SQL statement is ________?",
+        "options": [
+            "A way to establish a loop in SQL.",
+            "A way to establish an IF-THEN-ELSE in SQL",
+            "A way to establish a data definition in SQL",
+            "All of the above."
+        ],
+        "answer": "Answer: B",
+        "explanation": " A CASE statement is one of the control flow function that allows us to write an if-else or if-then-else logic in a SQL query. This expression validates various conditions and shows the output when the first condition is true, and stops traversing. If any condition is not true, it executes the else block. It shows a null value if the else block is not found.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "29) Which statement is true regarding routines and triggers?",
+        "options": [
+            "Both run automatically.",
+            "Both are stored in the database.",
+            "Both consist of procedural code.",
+            "Both have to be called to operate."
+        ],
+        "answer": "Answer: C",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "30) Which statement is true regarding procedures?",
+        "options": [
+            "They include procedural and SQL statements.",
+            "They work similarly to the functions.",
+            "It does not need unique names.",
+            "It cannot be created with SQL statements."
+        ],
+        "answer": "Answer: A",
+        "explanation": " A procedure is a prepared SQL code that can be saved in the system and reused whenever needed. It can return one or more values through parameters. So option A is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "31) Which of the following is the basic approaches for joining tables?",
+        "options": [
+            "Union JOIN",
+            "Natural JOIN",
+            "Subqueries",
+            "All of the above"
+        ],
+        "answer": "Answer: D",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "32) Why we need to create an index if the primary key is already present in a table?",
+        "options": [
+            "Index improves the speed of data retrieval operations on a table.",
+            "Indexes are special lookup tables that will be used by the database search engine.",
+            "Indexes are synonyms of a column in a table.",
+            "All of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " When we define a primary key in a table, the Database Engine enforces the data's uniqueness by creating a unique index for those columns. This indexing process improves data retrieval when the primary key is used in queries. Therefore, we need to create an index if a primary key is already present in a table.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "33) Group of operations that form a single logical unit of work is known as",
+        "options": [
+            "View",
+            "Network",
+            "Unit",
+            "Transaction"
+        ],
+        "answer": "Answer: D",
+        "explanation": " A transaction is a sequential group of statements such as select, insert, update or delete to perform as one single logical unit of work that can be committed or rolled back",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "34) Shared locks are applied while performing",
+        "options": [
+            "Read operations",
+            "Write operations",
+            "A & B both",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " A shared lock can only be applied while reading or changing in data is performed. It is also known as the READ lock. Therefore, option A is the right choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "35) Sequence can generate",
+        "options": [
+            "Numeric value",
+            "Alphanumeric value",
+            "A & B both",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " A sequence is an arrangement of integers that generates unique values (numeric or alphanumeric) in ascending order on specific demand.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "36) A sequence in SQL can generate a maximum number:",
+        "options": [
+            "39 digits",
+            "38 digits",
+            "40 digits",
+            "37 digits"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The number generated using a sequence can have a maximum of 38 digits.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "37) Which of the following is the correct order of a SQL statement?",
+        "options": [
+            "SELECT, GROUP BY, WHERE, HAVING",
+            "SELECT, WHERE, GROUP BY, HAVING",
+            "SELECT, HAVING, WHERE, GROUP BY",
+            "SELECT, WHERE, HAVING, GROUP BY"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In SQL statements, the WHERE clause always comes before GROUP BY, and the HAVING clause always comes after GROUP BY. Therefore, option B is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "38) What is the difference between a PRIMARY KEY and a UNIQUE KEY?",
+        "options": [
+            "Primary key can store null value, whereas a unique key cannot store null value.",
+            "We can have only one primary key in a table while we can have multiple unique keys",
+            "Primary key cannot be a date variable whereas unique key can be",
+            "None of these"
+        ],
+        "answer": "Answer: B",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "39) Which of the following are the synonyms for Column and ROW of a table?",
+        "options": [
+            "1 and 2",
+            "3 and 4",
+            "Only 1",
+            "Only 2"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In Database Management System (DBMS), we can say that each record is also called a tuple and rows. And each column is called fields and attributes.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "40) Which operator is used to compare the NULL values in SQL?",
+        "options": [
+            "Equal",
+            "IN",
+            "IS",
+            "None of Above"
+        ],
+        "answer": "Answer: C",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "41) Which of the following statement is correct regarding the difference between TRUNCATE, DELETE and DROP command?",
+        "options": [
+            "I and III",
+            "II and III",
+            "II and IV",
+            "II and IV"
+        ],
+        "answer": "Answer: A",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "42) Which of the following options are correct regarding these three keys (Primary Key, Super Key, and Candidate Key) in a database?",
+        "options": [
+            "I and II",
+            "II and III",
+            "I and III",
+            "II and IV"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Candidate key in SQL is a set of fields that identify each record in a table uniquely. It is a super key with no repeated fields that means the minimal super key is a candidate key. A table can contain multiple candidate keys, but it can have only a single primary key. Therefore option A is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "43) When the wildcard in a WHERE clause is useful?",
+        "options": [
+            "When an exact match is required in a SELECT statement.",
+            "When an exact match is not possible in a SELECT statement.",
+            "When an exact match is required in a CREATE statement.",
+            "When an exact match is not possible in a CREATE statement."
+        ],
+        "answer": "Answer: B",
+        "explanation": " The wildcard is a character used to search complex data from the database quickly. We can use it in conjunction with the LIKE or NOT LIKE comparison operators and the WHERE clause to find the result for a specified pattern. Hence, the wildcard is very useful when the exact match is not possible in the SELECT statement.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "44) ______ is NOT a type of constraint in SQL language?",
+        "options": [
+            "FOREIGN KEY",
+            "PRIMARY KEY",
+            "UNIQUE",
+            "ALTERNATE KEY"
+        ],
+        "answer": "Answer: D",
+        "explanation": " ALTERNATE KEY is a key associated with one or more columns to identify each row in a table uniquely. If a table with one or more candidate keys, then the keys other than the primary key is an alternate key. Since the alternate key is a part of the candidate key, it is not a constraint in SQL. Hence, option D is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "45) Find the cities name with the condition and temperature from table 'whether' where condition = sunny or cloudy but temperature >= 60.",
+        "options": [
+            "SELECT city, temperature, condition FROM weather WHERE condition = 'cloudy' AND condition = 'sunny' OR temperature >= 60",
+            "SELECT city, temperature, condition FROM weather WHERE condition = 'cloudy' OR condition = 'sunny' OR temperature >= 60",
+            "SELECT city, temperature, condition FROM weather WHERE condition = 'sunny' OR condition = 'cloudy' AND temperature >= 60",
+            "SELECT city, temperature, condition FROM weather WHERE condition = 'sunny' AND condition = 'cloudy' AND temperature >= 60"
+        ],
+        "answer": "Answer: C",
+        "explanation": " We know that the AND operator gives the output only when both the first conditions are true. In contrast, the OR operator gives the output when either the first condition OR the second condition is true. Hence the option C is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "46) Which of the following statement is correct to display all the cities with the condition, temperature, and humidity whose humidity is in the range of 60 to 75 from the 'whether' table?",
+        "options": [
+            "SELECT * FROM weather WHERE humidity IN (60 to 75)",
+            "SELECT * FROM weather WHERE humidity BETWEEN 60 AND 75",
+            "SELECT * FROM weather WHERE humidity NOT IN (60 AND 75)",
+            "SELECT * FROM weather WHERE humidity NOT BETWEEN 60 AND 75"
+        ],
+        "answer": "Answer: B",
+        "explanation": "",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "47) ________ is a program that performs some common action on database data and also stored in the database.",
+        "options": [
+            "Stored Procedure",
+            "Trigger",
+            "Stored Function",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " A stored procedure is a precompiled set of SQL commands that we can save in our database. It can be reused over and over again whenever we need to perform some common tasks.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "48) Which statement is used to get all data from the student table whose name starts with p?",
+        "options": [
+            "SELECT * FROM student WHERE name LIKE '%p%';",
+            "SELECT * FROM student WHERE name LIKE 'p%';",
+            "SELECT * FROM student WHERE name LIKE '_p%';",
+            "SELECT * FROM student WHERE name LIKE '%p';"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The '%' symbol indicates zero or more characters next to where it will be used. And the _ symbol is used to match exactly one character. Therefore option B is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "49) What is the advantage of the clustered index?",
+        "options": [
+            "It is fast to update the records.",
+            "It does not need extra work for SQL queries.",
+            "It minimizes the page transfer and maximizes the cache hits.",
+            "None of the above is correct."
+        ],
+        "answer": "Answer: C",
+        "explanation": " A clustered index is actually a table where the data is stored in rows. It stores data in only one way based on the key values. It helps us to store data and indexes simultaneously but takes a long time to update the records. They are scan and index seek that minimizes the page transfer and maximizes the cache hits. Hence option C is the correct choice.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "50) Evaluate the SQL statement:",
+        "options": [
+            "The statement gives an error at line 1.",
+            "The statement gives an error at line 6.",
+            "The statement produces the employee name, salary, department ID, and maximum salary earned in the employee department for all departments that pay less salary than the maximum salary paid in the company.",
+            "The statement produces the employee name, salary, department ID, and maximum salary earned in the employee department for all employees who earn less than the maximum salary in their department."
+        ],
+        "answer": "Answer: D",
+        "explanation": " Option D is the correct choice because it is the example of an inline view, which is the subquery in the FROM clause of the main query.",
+        "codeblock": "SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,\r\n(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b\r\nWHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;"
+    },
+    {
+        "question": "51) Which of the following are the DATETIME data types that can be used in column definitions?",
+        "options": [
+            "TIMESTAMP",
+            "INTERVAL MONTH TO DAY",
+            "INTERVAL YEAR TO MONTH",
+            "TIMESTAMP WITH DATABASE TIMEZONE"
+        ],
+        "answer": "Answer: A, C",
+        "explanation": "",
+        "codeblock": "SELECT ROUND (TRUNCATE (MOD (1600, 10), -1), 2) FROM dual;"
+    },
+    {
+        "question": "52) Which data dictionary table can be used to show the object privileges granted to the user on specific columns?",
+        "options": [
+            "USER_TAB_PRIVS_MADE",
+            "USER_COL_PRIVS_MADE",
+            "USER_TAB_PRIVS",
+            "USER_COL_PRIVS"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The USER_COL_PRIVS data dictionary table will display the object privileges granted to the user on specific columns. The USER_TAB_PRIVS data dictionary table will display the object privileges granted to the user on the tables. Options A and B are not data dictionary.",
+        "codeblock": "SELECT ROUND (TRUNCATE (MOD (1600, 10), -1), 2) FROM dual;"
+    },
+    {
+        "question": "53) Evaluate the SQL statement:",
+        "options": [
+            "0",
+            "1",
+            "00",
+            "An error statement"
+        ],
+        "answer": "Answer: A",
+        "explanation": " This statement will give the result 0. A function MOD(1600, 10) returns 0 by calculating the modulus of 1600 when 1600 is divided by 10 until no further whole number can be produced. TRUNCATE(x, y) function truncates x to the decimal precision of y. Finally, the ROUND(x, y) function rounds x to the decimal precision of y. Hence option A is the correct choice.",
+        "codeblock": "SELECT ROUND (TRUNCATE (MOD (1600, 10), -1), 2) FROM dual;"
+    },
+    {
+        "question": "54) What is the need for our query to execute successfully on an existing view?",
+        "options": [
+            "The specified table must contain data.",
+            "We must have a SELECT privilege on the view.",
+            "We should have a SELECT privilege only on the specified table.",
+            "The specified table must be in the same database or schema."
+        ],
+        "answer": "Answer: B",
+        "explanation": " It is required to have a SELECT privilege to query on the existing view. Hence option B is the right choice.",
+        "codeblock": null
+    },
+    {
+        "question": "55) Which of the following operator can be used with a multiple-row subquery?",
+        "options": [
+            "=",
+            "BETWEEN",
+            "NOT IN",
+            "<>"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The multiple-row subqueries produces multiple rows of results. We can only use the NOT IN operator in SQL can only be used with multiple-row subqueries. And all other operators must be used with single row subquery only. Therefore, BETWEEN, '=', and '<>' operators work with single row subquery. Hence option C is the correct choice.",
+        "codeblock": null
+    },
+    {
+        "question": "56) _______ is a constraint that can be defined only at the column level?",
+        "options": [
+            "UNIQUE",
+            "NOT NULL",
+            "CHECK",
+            "PRIMARY KEY"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The SQL NOT NULL constraint prevents inserting NULL values into the specified column. It enforces that a value must be defined for this column cannot accept a NULL value. Hence, we can say that the NOT NULL constraint can be defined only at the column level.",
+        "codeblock": null
+    }
+]

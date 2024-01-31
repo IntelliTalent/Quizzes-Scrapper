@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Which of the following methods can be used to solve the longest common subsequence problem?",
+        "options": [
+            "a) Recursion",
+            "b) Dynamic programming",
+            "c) Both recursion and dynamic programming",
+            "d) Greedy algorithm"
+        ],
+        "answer": "c",
+        "explanation": "Both recursion and dynamic programming can be used to solve the longest subsequence problem."
+    },
+    {
+        "question": "Consider the strings \u201cPQRSTPQRS\u201d and \u201cPRATPBRQRPS\u201d. What is the length of the longest common subsequence?",
+        "options": [
+            "a) 9",
+            "b) 8",
+            "c) 7",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "The longest common subsequence is \u201cPRTPQRS\u201d and its length is 7."
+    },
+    {
+        "question": "Which of the following problems can be solved using the longest subsequence problem?",
+        "options": [
+            "a) Longest increasing subsequence",
+            "b) Longest palindromic subsequence",
+            "c) Longest bitonic subsequence",
+            "d) Longest decreasing subsequence"
+        ],
+        "answer": "b",
+        "explanation": "To find the longest palindromic subsequence in a given string, reverse the given string and then find the longest common subsequence in the given string and the reversed string."
+    },
+    {
+        "question": "Longest common subsequence is an example of ____________",
+        "options": [
+            "a) Greedy algorithm",
+            "b) 2D dynamic programming",
+            "c) 1D dynamic programming",
+            "d) Divide and conquer"
+        ],
+        "answer": "b",
+        "explanation": "Longest common subsequence is an example of 2D dynamic programming."
+    },
+    {
+        "question": "What is the time complexity of the brute force algorithm used to find the longest common subsequence?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(2"
+        ],
+        "answer": "d",
+        "explanation": "The time complexity of the brute force algorithm used to find the longest common subsequence is O(2"
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the longest common subsequence problem:",
+        "options": [],
+        "answer": "b",
+        "explanation": "The line, arr[i][j] = 1 + arr[i \u2013 1][j \u2013 1] completes the above code."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the longest common subsequence problem where length of one string is \u201cm\u201d and the length of the other string is \u201cn\u201d?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above dynamic programming implementation of the longest common subsequence is O(mn)."
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the longest common subsequence problem where length of one string is \u201cm\u201d and the length of the other string is \u201cn\u201d?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The space complexity of the above dynamic programming implementation of the longest common subsequence is O(mn)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the length of the longest common subsequence, which is 4."
+    },
+    {
+        "question": "Which of the following is the longest common subsequence between the strings \u201chbcfgmnapq\u201d and \u201ccbhgrsfnmq\u201d ?",
+        "options": [
+            "a) hgmq",
+            "b) cfnq",
+            "c) bfmq",
+            "d) fgmna"
+        ],
+        "answer": "d",
+        "explanation": "The length of the longest common subsequence is 4. But \u2018fgmna\u2019 is not the longest common subsequence as its length is 5."
+    },
+    {
+        "question": "What is the value stored in arr[2][3] when the following code is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The value stored in arr[2][3] is 1."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the length of the longest common subsequence, which is 0."
+    }
+]

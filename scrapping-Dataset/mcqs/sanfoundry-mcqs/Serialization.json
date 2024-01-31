@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Apache _______ is a serialization framework that produces data in a compact binary format.",
+        "options": [
+            "a) Oozie",
+            "b) Impala",
+            "c) kafka",
+            "d) Avro"
+        ],
+        "answer": "d",
+        "explanation": "Apache Avro doesn\u2019t require proxy objects or code generation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Apache Avro is a framework that allows you to serialize data in a format that has a schema built in",
+            "b) The serialized data is in a compact binary format that doesn\u2019t require proxy objects or code generation",
+            "c) Including schemas with the Avro messages allows any application to deserialize the data",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Instead of using generated proxy libraries and strong typing, Avro relies heavily on the schemas that are sent along with the serialized data."
+    },
+    {
+        "question": "Avro schemas describe the format of the message and are defined using ______________",
+        "options": [
+            "a) JSON",
+            "b) XML",
+            "c) JS",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The JSON schema content is put into a file."
+    },
+    {
+        "question": "The ____________ is an iterator which reads through the file and returns objects using the next() method.",
+        "options": [
+            "a) DatReader",
+            "b) DatumReader",
+            "c) DatumRead",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "DatumReader reads the content through the DataFileReader implementation."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Java code is used to deserialize the contents of the file into objects",
+            "b) Avro allows you to use complex data structures within Hadoop MapReduce jobs",
+            "c) The m2e plugin automatically downloads the newly added JAR files and their dependencies",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A unit test is useful because you can make assertions to verify that the values of the deserialized object are the same as the original values."
+    },
+    {
+        "question": "The ____________ class extends and implements several Hadoop-supplied interfaces.",
+        "options": [
+            "a) AvroReducer",
+            "b) Mapper",
+            "c) AvroMapper",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "AvroMapper is used to provide the ability to collect or map data."
+    },
+    {
+        "question": "The ________ method in the ModelCountReducer class \u201creduces\u201d the values the mapper collects into a derived value.",
+        "options": [
+            "a) count",
+            "b) add",
+            "c) reduce",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In some cases, it can be a simple sum of the values."
+    },
+    {
+        "question": "Which of the following works well with Avro?",
+        "options": [
+            "a) Lucene",
+            "b) kafka",
+            "c) MapReduce",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can use Avro and MapReduce together to process many items serialized with Avro\u2019s small binary format."
+    },
+    {
+        "question": "__________ tools is used to generate proxy objects in Java to easily work with the objects.",
+        "options": [
+            "a) Lucene",
+            "b) kafka",
+            "c) MapReduce",
+            "d) Avro"
+        ],
+        "answer": "d",
+        "explanation": "Avro serialization includes the schema with it \u2014 in JSON format \u2014 which allows you to have different versions of objects."
+    }
+]

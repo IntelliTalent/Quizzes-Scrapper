@@ -1,0 +1,165 @@
+[
+    {
+        "question": "Scripting languages supported by Spring?",
+        "options": [
+            "a) JRuby",
+            "b) Groovy",
+            "c) BeanShell",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring supports the 3 above mentioned scripting languages."
+    },
+    {
+        "question": "Scripting language based on Ruby",
+        "options": [
+            "a) JRuby",
+            "b) Groovy",
+            "c) BeanShell",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JRuby is an open source Java-based implementation of the popular Ruby programming language."
+    },
+    {
+        "question": "Dynamic Language for java platform to cope up with other languages",
+        "options": [
+            "a) JRuby",
+            "b) Groovy",
+            "c) BeanShell",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Groovy is a dynamic language for the Java platform that integrates the features of other excellent programming languages."
+    },
+    {
+        "question": "Lightweight java scripting language executing java fragments",
+        "options": [
+            "a) JRuby",
+            "b) Groovy",
+            "c) BeanShell",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "BeanShell is a lightweight Java scripting language that can dynamically execute Java code fragments while supporting scripting features like those of other scripting languages."
+    },
+    {
+        "question": "In Ruby instance variable begins with",
+        "options": [
+            "a) #",
+            "b) *",
+            "c) @",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Ruby, an instance variable begins with the @ sign."
+    },
+    {
+        "question": "XML Element to declare a bean implemented by JRuby",
+        "options": [
+            "a) lang:jruby",
+            "b) aop:jruby",
+            "c) beanscript:jruby",
+            "d) script:jruby"
+        ],
+        "answer": "a",
+        "explanation": "In the bean configuration file, you can declare a bean implemented with JRuby by using the lang:jruby."
+    },
+    {
+        "question": "XML element to specify the property values for scripting bean",
+        "options": [
+            "a) lang:property",
+            "b) bean:property",
+            "c) script:property",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can specify the property values for a scripting bean in the lang:property elements."
+    },
+    {
+        "question": "XML Element to declare a bean implemented by Groovy",
+        "options": [
+            "a) lang:groovy",
+            "b) lang:jruby",
+            "c) beanscript:jruby",
+            "d) script:jruby"
+        ],
+        "answer": "a",
+        "explanation": "In the bean configuration file, you can declare a bean implemented with Groovy by using the lang:groovy."
+    },
+    {
+        "question": "Script\u2019s location is specified by attribute",
+        "options": [
+            "a) script-source",
+            "b) xml-source",
+            "c) script-annotation",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Specifying the script\u2019s location in the script-source attribute."
+    },
+    {
+        "question": "XML Element to declare a bean implemented by JRuby",
+        "options": [
+            "a) lang:bash",
+            "b) aop:bash",
+            "c) lang:bsh",
+            "d) script:bash"
+        ],
+        "answer": "c",
+        "explanation": "In the bean configuration file, you can declare a bean implemented with BeanShell by using the lang:bsh."
+    },
+    {
+        "question": "Interface used to create additional features in groovy based beans",
+        "options": [
+            "a) GroovyObjectCustomizer",
+            "b) GroovyBeanCustomizer",
+            "c) GroovyCustomizer",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The GroovyObjectCustomizer interface is a callback that allows you to hook additional creation logic into the process of creating a Groovy-backed bean."
+    },
+    {
+        "question": "Attribute which specifies all the interfaces",
+        "options": [
+            "a) script-interfaces",
+            "b) lang:bsh",
+            "c) lang:script",
+            "d) script:bsh"
+        ],
+        "answer": "a",
+        "explanation": "Spring creates a JDK dynamic proxy implementing all of the interfaces that are specified in the \u2018script-interfaces\u2019."
+    },
+    {
+        "question": "Class-based proxies are best way to advise scripted beans",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "There is just one (small) thing that you need to be aware of when advising scripted beans. You cannot use class-based proxies, you must use interface-based proxies."
+    },
+    {
+        "question": "Element which allows you to control the scope",
+        "options": [
+            "a) lang:jruby",
+            "b) lang:language",
+            "c) lang: bsh",
+            "d) lang:groovy"
+        ],
+        "answer": "b",
+        "explanation": "The scope attribute on the various lang:language/ elements allows you to control the scope of the underlying scripted bean, just as it does with a regular bean."
+    },
+    {
+        "question": "BeanShell Library dependencies",
+        "options": [
+            "a) bsh-2.0b4.jar",
+            "b) cglib-nodep-2.1_3.jar",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " All of these libraries are available in the Spring-with-dependencies distribution of Spring (in addition to also being freely available on the web)."
+    }
+]

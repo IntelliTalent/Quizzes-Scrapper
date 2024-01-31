@@ -1,0 +1,141 @@
+[
+    {
+        "question": "Gronsfeld cipher is an example of _____________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Gronsfeld cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Which of the following is true about encryption in gronsfeld cipher?",
+        "options": [
+            "a) It replaces letters with numbers",
+            "b) It shifts the letters of plain text on the basis of key value",
+            "c) It makes substitutions by using tabula recta",
+            "d) It makes substitutions on the basis of a mathematical formula"
+        ],
+        "answer": "b",
+        "explanation": "Encryption of plain text in gronsfeld cipher is done by shifting the letters of plain text on the basis of key value. So it is similar to caesar cipher."
+    },
+    {
+        "question": "Gronsfeld cipher is similar to?",
+        "options": [
+            "a) additive cipher",
+            "b) multiplicative cipher",
+            "c) caesar cipher",
+            "d) affine cipher"
+        ],
+        "answer": "c",
+        "explanation": "In gronsfeld cipher we shift the letters of the plain text on the basis of the key value. So it becomes a modified version of the caesar cipher."
+    },
+    {
+        "question": "Which of the following cipher uses a numeric key?",
+        "options": [
+            "a) gronsfeld cipher",
+            "b) vigenere cipher",
+            "c) trithemius cipher",
+            "d) running key cipher"
+        ],
+        "answer": "a",
+        "explanation": "Gronsfeld cipher is a variation of vigenere cipher. The difference is that vigenere cipher uses an alphabetical key whereas gronsfeld cipher uses numeric key."
+    },
+    {
+        "question": "Which of the following cipher does not require the use of tabula recta?",
+        "options": [
+            "a) running key cipher",
+            "b) vigenere cipher",
+            "c) gronsfeld cipher",
+            "d) trithemius cipher"
+        ],
+        "answer": "c",
+        "explanation": "Ciphers like running key cipher, vigenere cipher, trithemius cipher etc. makes use of tabula recta. Whereas gronsfeld cipher does not require tabula recta for encryption of plain text."
+    },
+    {
+        "question": "Gronsfeld cipher is a variation of ____________",
+        "options": [
+            "a) autokey cipher",
+            "b) vigenere cipher",
+            "c) hill cipher",
+            "d) route cipher"
+        ],
+        "answer": "b",
+        "explanation": "Gronsfeld cipher is a variation of vigenere cipher. The difference is that vigenere cipher uses an alphabetical key whereas the key of gronsfeld cipher consists of numbers."
+    },
+    {
+        "question": "Gronsfeld cipher is harder to crack than caesar cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In gronsfeld cipher we shift the letters of the plain text on the basis of the key value. So it becomes a more complex version of the caesar cipher and thus harder to crack."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cEETPEG\u201d if gronsfeld cipher is used with key \u201c4321\u201d?",
+        "options": [
+            "a) ABACUS",
+            "b) ABROAD",
+            "c) ABRUPT",
+            "d) ABUSED"
+        ],
+        "answer": "b",
+        "explanation": "Encryption in gronsfeld cipher takes place by shifting the letters of the plain text by a number given by the numeric key. So by applying the reverse of this method, we get the deciphered text to be \u201cABROAD\u201d."
+    },
+    {
+        "question": "Gronsfeld cipher is a substitution cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Gronsfeld cipher is a type of substitution cipher. It is a variation of vigenere cipher."
+    },
+    {
+        "question": "Which of the following is not a transposition cipher?",
+        "options": [
+            "a) rail fence cipher",
+            "b) gronsfeld cipher",
+            "c) hill cipher",
+            "d) route cipher"
+        ],
+        "answer": "b",
+        "explanation": "Rail fence, hill and route cipher are examples of transposition cipher. Gronsfeld cipher is a substitution cipher and so is the correct option."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cSANFOUNDRY\u201d if gronsfeld cipher is used for encryption with key as \u201c1234\u201d?",
+        "options": [
+            "a) TCQJPWQHSA",
+            "b) TCQJTAULAI",
+            "c) TCQJOUNDRY",
+            "d) UETNQYTLTC"
+        ],
+        "answer": "a",
+        "explanation": "Encryption in gronsfeld cipher takes place by shifting the letters of the plain text by a number given by the numeric key. So by applying this method, we get the ciphered text to be \u201cTCQJPWQHSA\u201d."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cALGORITHM\u201d if gronsfeld cipher is used for encryption with key \u201c4321\u201d?",
+        "options": [
+            "a) BNJSSKWLN",
+            "b) EOIPVLVIQ",
+            "c) BNJSRITHM",
+            "d) EOIPRITHM"
+        ],
+        "answer": "b",
+        "explanation": "Encryption in gronsfeld cipher takes place by shifting the letters of the plain text by a number given by the numeric key. So by applying this method, we get the ciphered text to be \u201cEOIPVLVIQ\u201d."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cSCEFJV\u201d if gronsfeld cipher is used with key \u201c1234\u201d?",
+        "options": [
+            "a) RABBIT",
+            "b) RUSSIA",
+            "c) RANGER",
+            "d) FRIEND"
+        ],
+        "answer": "a",
+        "explanation": "Encryption in gronsfeld cipher takes place by shifting the letters of the plain text by a number given by the numeric key. So by applying the reverse of this method, we get the deciphered text to be \u201cRABBIT\u201d."
+    }
+]

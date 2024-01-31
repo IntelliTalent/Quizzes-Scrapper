@@ -1,0 +1,108 @@
+[
+    {
+        "question": "How many step function do Round 1 and 2 each have in S-AES?",
+        "options": [
+            "a) 4 and 3",
+            "b) Both 4",
+            "c) 1 and 4",
+            "d) 3 and 4"
+        ],
+        "answer": "a",
+        "explanation": "Round 1 has four step functions whereas Round 2 has three step functions."
+    },
+    {
+        "question": "For a key 25D5 and PT input A479 what is the output we obtain after the \u201cadd round key\u201d function?",
+        "options": [
+            "a) F34D",
+            "b) 81AC",
+            "c) 79DF",
+            "d) 327D"
+        ],
+        "answer": "b",
+        "explanation": "Simply apply XOR to the state matrix PT with the key matrix to obatain the output which in this case is 81AC."
+    },
+    {
+        "question": "The output of the previous question, on passing through \u201cnibble substitution\u201d gets us the output",
+        "options": [
+            "a) 3267",
+            "b) 1344",
+            "c) 64C0",
+            "d) CA37"
+        ],
+        "answer": "c",
+        "explanation": "81AC after passing through the \u201cnibble substitution\u201d round produces an output 64C0. A corresponding substitution is referred to in this step."
+    },
+    {
+        "question": "The output of the previous question on passing through the \u201cshift row\u201d step function gives us the output",
+        "options": [
+            "a) C046",
+            "b) 0C64",
+            "c) 64C0",
+            "d) 640C"
+        ],
+        "answer": "b",
+        "explanation": "64C0 after passing through the \u201cshift row\u201d round produces an output 640C. A one nibble shift is performed in the second row in this step."
+    },
+    {
+        "question": "The output of the previous question on passing through the \u201cmix columns\u201d step function gives us the output",
+        "options": [
+            "a) 3252",
+            "b) 3743",
+            "c) 3425",
+            "d) 3473"
+        ],
+        "answer": "d",
+        "explanation": "64C0 after passing through the \u201cmix columns\u201d round produces an output 3473. This is obtained by multiplying this matrix with the matrix 1441."
+    },
+    {
+        "question": "On performing the mix column transformation on the matrix",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "The inverse transformation matrix times the forward transformation matrix equals the identity matrix.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "c",
+        "explanation": "The statement is true. The inverse transformation matrix times the forward transformation matrix does equal the identity matrix."
+    },
+    {
+        "question": "Which of the following are true",
+        "options": [
+            "i) In the AES key expansion algorithm, the function g() operates on w i+3",
+            "b) ii) only",
+            "c) i) only",
+            "d) All"
+        ],
+        "answer": "c",
+        "explanation": "Only the first option is true. There is a left circular rotation in AES key expansion. RC[j] = 2 \u00d7 RC [j \u2212 1] is the formula for the round constant."
+    },
+    {
+        "question": "How many round keys are generated in the AES algorithm?",
+        "options": [
+            "a) 11",
+            "b) 10",
+            "c) 8",
+            "d) 12"
+        ],
+        "answer": "a",
+        "explanation": "11 round keys are generated. One for each of the 10 rounds and one of the initial permutations (Round 0)."
+    },
+    {
+        "question": "Which function can be used in AES multiplication",
+        "options": [
+            "a) m(x)=x",
+            "b) m(x)=x",
+            "c) m(x)=x",
+            "d) m(x)=x"
+        ],
+        "answer": "b",
+        "explanation": "m(x)=x"
+    }
+]

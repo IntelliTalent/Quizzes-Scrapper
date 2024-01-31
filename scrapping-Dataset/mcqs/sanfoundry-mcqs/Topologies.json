@@ -1,0 +1,127 @@
+[
+    {
+        "question": " Which network topology does this represent?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The figure represents the mesh topology."
+    },
+    {
+        "question": "\u2018Jitter\u2019 refers to-",
+        "options": [
+            "a) errorless delivery",
+            "b) variation in the packet arrival time",
+            "c) timely delivery of message",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "\u2018Jitter\u2019 refers to variation in the packet arrival time."
+    },
+    {
+        "question": "2 Half duplex systems can make a Full-Duplex.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true."
+    },
+    {
+        "question": "Which topology requires the most amount of wiring?",
+        "options": [
+            "a) Mesh",
+            "b) Star",
+            "c) Bus",
+            "d) Ring"
+        ],
+        "answer": "a",
+        "explanation": "This is the disadvantage of mesh topology."
+    },
+    {
+        "question": "How many links are there for N nodes in the mesh topology?",
+        "options": [
+            "a) 1",
+            "b) N(N+1)/2",
+            "c) N",
+            "d) N(N-1)/2"
+        ],
+        "answer": "d",
+        "explanation": "There are N(N-1)/2 links for N nodes."
+    },
+    {
+        "question": "Which topology has a central hub?",
+        "options": [
+            "a) Mesh",
+            "b) Star",
+            "c) Bus",
+            "d) Ring"
+        ],
+        "answer": "b",
+        "explanation": "The star topology has a single hub."
+    },
+    {
+        "question": "Which topology has the toughest fault identification?",
+        "options": [
+            "a) Mesh",
+            "b) Star",
+            "c) Bus",
+            "d) Ring"
+        ],
+        "answer": "c",
+        "explanation": "In the bus topology, fault identification is tougher."
+    },
+    {
+        "question": "Ethernet LANs use which topology?",
+        "options": [
+            "a) Mesh",
+            "b) Star",
+            "c) Bus",
+            "d) Ring"
+        ],
+        "answer": "c",
+        "explanation": "Ethernet LANs use bus topology,"
+    },
+    {
+        "question": "Which topology uses the token passing algorithm?",
+        "options": [
+            "a) Mesh",
+            "b) Star",
+            "c) Bus",
+            "d) Ring"
+        ],
+        "answer": "d",
+        "explanation": "The ring topology uses the token passing algorithm. The token holder gets its turn at communication."
+    },
+    {
+        "question": "How many lines are required for the bus topology?",
+        "options": [
+            "a) N(N-1)/2",
+            "b) N",
+            "c) N+1",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "N drop lines and 1 bus line."
+    },
+    {
+        "question": "A list of protocols used is known as \u2013",
+        "options": [
+            "a) protocol access",
+            "b) protocol stack",
+            "c) permutation stack",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A list of the protocols used by a certain system, one protocol per layer, is called a protocol stack."
+    },
+    {
+        "question": "In order to prevent a fast sender from swamping a slow receiver with data, feedback is often used. This process is known as-",
+        "options": [
+            "a) flow control",
+            "b) multiplexing",
+            "c) congestion",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The process defined above is known as Flow Control."
+    }
+]

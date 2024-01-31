@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which is the correct technique for finding a maximum matching in a graph?",
+        "options": [
+            "a) BFS traversal",
+            "b) DFS traversal",
+            "c) Shortest path traversal",
+            "d) Heap order traversal"
+        ],
+        "answer": "a",
+        "explanation": "The correct technique for finding a maximum matching in a bipartite graph is by using a Breadth First Search(BFS)."
+    },
+    {
+        "question": "What is the running time of an unweighted shortest path algorithm whose augmenting path is the path with the least number of edges?",
+        "options": [
+            "a) O(|E||V|)",
+            "b) O(|E|)",
+            "c) O(|E| log |V|)",
+            "d) O(|E|"
+        ],
+        "answer": "d",
+        "explanation": "Each augmenting step takes O(|E|) using an unweighted shortest path algorithm yielding a O(|E|2|V|) bound on the running time."
+    },
+    {
+        "question": "Floyd Warshall Algorithm can be used for finding _____________",
+        "options": [
+            "a) Transitive closure",
+            "b) Minimum spanning tree",
+            "c) Topological sort",
+            "d) Single source shortest path"
+        ],
+        "answer": "a",
+        "explanation": "One of the ways to compute the transitive closure of a graph in Theta(N"
+    },
+    {
+        "question": "Bellmann ford algorithm provides solution for ____________ problems.",
+        "options": [
+            "a) Network flow",
+            "b) Single source shortest path",
+            "c) All pair shortest path",
+            "d) Sorting"
+        ],
+        "answer": "b",
+        "explanation": "Bellmann ford algorithm is used for finding solutions for single source shortest path problems. If the graph has no negative cycles that are reachable from the source then the algorithm produces the shortest paths and their weights."
+    },
+    {
+        "question": "What is the pseudo code to compute the shortest path in Dijkstra\u2019s algorithm?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": " If the known value of the adjacent vertex(w) is not set then check whether the  sum of  distance from source vertex(v) and cost to travel from source to adjacent vertex is less than the existing distance of the adjacent node. If so, perform decrease key operation."
+    },
+    {
+        "question": "Dijkstra\u2019s Algorithm is used to solve _____________ problems.",
+        "options": [
+            "a) Single source shortest path",
+            "b) All pair shortest path",
+            "c) Sorting",
+            "d) Network flow"
+        ],
+        "answer": "a",
+        "explanation": " Dijkstra\u2019s Algorithm is used for solving single source shortest path problems. In this algorithm, a single node is fixed as a source node and shortest paths from this node to all other nodes in graph is found."
+    },
+    {
+        "question": "What approach is being followed in Floyd Warshall Algorithm?",
+        "options": [
+            "a) Linear Programming",
+            "b) Backtracking",
+            "c) Greedy technique",
+            "d) Dynamic Programming"
+        ],
+        "answer": "d",
+        "explanation": "Floyd Warshall Algorithm follows dynamic programming approach because the all pair shortest paths are computed in bottom up manner."
+    },
+    {
+        "question": "Which of the following is not an application of Breadth First Search?",
+        "options": [
+            "a) Path Finding",
+            "b) Finding bipartiteness of a graph",
+            "c) GPS navigation system",
+            "d) Finding shortest path between two nodes"
+        ],
+        "answer": "a",
+        "explanation": "Breadth First Search can be applied to Bipartite a graph, to find the shortest path between two nodes, in GPS Navigation. In Path finding, Depth First Search is used."
+    },
+    {
+        "question": "Chan\u2019s algorithm is used for computing _________",
+        "options": [
+            "a) Shortest path between two points",
+            "b) Area of a polygon",
+            "c) Convex hull",
+            "d) Closest distance between two points"
+        ],
+        "answer": "c",
+        "explanation": "Chan\u2019s algorithm is an output-sensitive algorithm used to compute the convex hull set of n points in a 2D or 3D space. Closest pair algorithm is used to compute the closest distance between two points."
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which command is used to remove existing tables or database?",
+        "options": [
+            "a) DROP TABLE",
+            "b) DELETE",
+            "c) Either DROP TABLE or DELETE",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which command is used to display all the existing tables in a database?",
+        "options": [
+            "a) SHOW TABLES",
+            "b) SHOW TABLE",
+            "c) SHOW",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Is duplicate entry of primary key is allowed in SQL?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Depends",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Primary key are used to uniquely define attributed stored in the table."
+    },
+    {
+        "question": "Is duplicate entry of other attributes are allowed in SQL?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Depends",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Duplicate values are allowed but not for Primary Key attributes."
+    },
+    {
+        "question": "Which is the correct format to store date in the SQL?",
+        "options": [
+            "a) DEC-01-1991",
+            "b) 01-1991-11",
+            "c) 01-DEC-12",
+            "d) 1991-11-01"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following are the valid \u201cdatabase datatypes\u201d in Mysql?",
+        "options": [
+            "a) Numerical",
+            "b) Temporal",
+            "c) Text",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Find the error in the following SQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Primary can never have same value."
+    },
+    {
+        "question": "Find the error in the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Format for DATE datatype is YYYY-MM-DD."
+    },
+    {
+        "question": "Which Key is used to link two tables in Mysql?",
+        "options": [
+            "a) Primary Key",
+            "b) Foreign Key",
+            "c) Both Primary and Foreign Key",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Foreign Key is only the Key which can link two tables."
+    },
+    {
+        "question": "Which line of the following statements will produce error?",
+        "options": [
+            "a) SELECT * FROM person WHERE person_id=1;",
+            "b) SELECT pname FROM person;",
+            "c) SELECT pname, lname, person_id FROM person;",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    }
+]

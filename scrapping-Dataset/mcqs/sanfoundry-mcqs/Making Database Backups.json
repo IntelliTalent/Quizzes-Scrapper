@@ -1,0 +1,97 @@
+[
+    {
+        "question": "How is the binary log rotated?",
+        "options": [
+            "a) FLUSH LOGS",
+            "b) ROTATE LOGS",
+            "c) FLUSH BINLOG",
+            "d) ROTATE BINLOG"
+        ],
+        "answer": "a",
+        "explanation": "MySQL supports incremental backups. The server should be started with the \u2018\u2013log-bin\u2019 option to enable binary logging. The binary log files provide information to replicate changes to the database."
+    },
+    {
+        "question": "How is a delimited-text data file reloaded?",
+        "options": [
+            "a) mysqlexport",
+            "b) mysqlimport",
+            "c) mysqlexpand",
+            "d) mysqltransfer"
+        ],
+        "answer": "b",
+        "explanation": "In order to reload a delimited-text data file, use \u2018LOAD DATA INFILE\u2019 or \u2018mysqlimport\u2019. MySQL supports the incremental backups when the server is started with the \u2018\u2013log-bin\u2019 option."
+    },
+    {
+        "question": "Which program performs logical backups?",
+        "options": [
+            "a) mysqlimport",
+            "b) mysqldump",
+            "c) myslqpit",
+            "d) mysqllogic"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018mysqldump\u2019 performs logical backups. It produces a set of SQL statements that are executed to reproduce the original database object definitions. It dumps one or more MySQL databases for backup."
+    },
+    {
+        "question": "The option that suppresses output unless there are errors in the table is _____________",
+        "options": [
+            "a) \u2013silent",
+            "b) \u2013wild",
+            "c) \u2013suppress",
+            "d) \u2013noout"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the \u2018\u2013silent\u2019 option suppresses the output unless there are errors in the tables. The \u2018cron\u2019 jobs typically generate a mail message if a job produces any output at all."
+    },
+    {
+        "question": "What is the return value from operations returning a row count?",
+        "options": [
+            "a) $rc",
+            "b) $rv",
+            "c) $rows",
+            "d) $ary"
+        ],
+        "answer": "c",
+        "explanation": "The Perl Non-handle variable \u2018$ary\u2019 is an array or list representing a row of values returned by a query. \u2018$rc\u2019 returns code from operations that return true or false. \u2018$rv\u2019 returns value from operations that return an integer. \u2018$rows\u2019 returns value from operations that return a row count."
+    },
+    {
+        "question": "Functions are called and pointers to structures are used while using DBI API.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "While using the DBI API functions are called and pointers to structures are used. The functions are called \u201cmethods,\u201d pointers are called \u201creferences,\u201d pointer variables are called \u201chandles\u201d."
+    },
+    {
+        "question": "The mode of search in which the search string is parsed into words and the search looks for rows is ________________",
+        "options": [
+            "a) Boolean mode",
+            "b) Natural language",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a full text search capability is provided, which enables to look for words or phrases without using pattern-matching operations. There are three kinds of full text searches."
+    },
+    {
+        "question": "What is the hub of a MySQL installation?",
+        "options": [
+            "a) mysqla",
+            "b) mysqlb",
+            "c) mysqlc",
+            "d) mysqld"
+        ],
+        "answer": "d",
+        "explanation": "The server, mysqld is the hub of a MySQL installation; it performs all manipulation of databases and tables. On Unix, several related scripts are available to assist in server startup."
+    },
+    {
+        "question": "The place where the server stores its databases and status files are called the data directory.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL data directory is the place where the server stores its databases and status files. It is crucial to understand all the structures and contents of the data directory."
+    }
+]

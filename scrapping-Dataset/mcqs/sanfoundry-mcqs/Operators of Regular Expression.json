@@ -1,0 +1,105 @@
+[
+    {
+        "question": "A finite automaton accepts which type of language:",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "d",
+        "explanation": "Type 3 refers to Regular Languages which is accepted by a finite automaton."
+    },
+    {
+        "question": "Which among the following are incorrect regular identities?",
+        "options": [
+            "a) \u03b5R=R",
+            "b) \u03b5*=\u03b5",
+            "c) \u0424*=\u03b5",
+            "d) R\u0424=R"
+        ],
+        "answer": "d",
+        "explanation": "There are few identities over Regular Expressions which include: R\u0424=\u0424R=\u0424\u2260R"
+    },
+    {
+        "question": "Simplify the following regular expression:",
+        "options": [
+            "a) (1+011) *",
+            "b) (1*(011) *)",
+            "c) (1+(011) *) *",
+            "d) (1011) *"
+        ],
+        "answer": "a",
+        "explanation": "\u03b5+1*(011) *(1*(011) *) *"
+    },
+    {
+        "question": "P, O, R be regular expression over \u2211, P is not \u03b5, then",
+        "options": [
+            "a) Q*P",
+            "b) QP*",
+            "c) Q*P*",
+            "d) (P*O*) *"
+        ],
+        "answer": "b",
+        "explanation": "The given statement is the Arden\u2019s Theorem and it tends to have a unique solution as QP*."
+    },
+    {
+        "question": "Arden\u2019s theorem is true for:",
+        "options": [
+            "a) More than one initial states",
+            "b) Null transitions",
+            "c) Non-null transitions",
+            "d) None of the mentioned",
+            "a) No null transitions in the transition diagrams",
+            "b) True for only single initial state"
+        ],
+        "answer": "c",
+        "explanation": "Arden\u2019s theorem strictly assumes the following;"
+    },
+    {
+        "question": "In order to represent a regular expression, the first step to create the transition diagram is:",
+        "options": [
+            "a) Create the NFA using Null moves",
+            "b)  Null moves are not acceptable, thus should not be used",
+            "c) Predict the number of states to be used in order to construct the Regular expression",
+            "d) None of the mentioned",
+            "a) Construct the NFA using null moves.",
+            "b) Remove the null transitions and convert it into its equivalent DFA."
+        ],
+        "answer": "a",
+        "explanation": "Two steps are to be followed while converting a regular expression into a transition diagram:"
+    },
+    {
+        "question": "(0+\u03b5) (1+\u03b5) represents",
+        "options": [
+            "a) {0, 1, 01, \u03b5}",
+            "b) {0, 1, \u03b5}",
+            "c) {0, 1, 01 ,11, 00, 10, \u03b5}",
+            "d) {0, 1}"
+        ],
+        "answer": "a",
+        "explanation": "The regular expression is fragmented and the set of the strings eligible is formed. \u2018+\u2019 represents union while \u2018.\u2019 Represents concatenation."
+    },
+    {
+        "question": "The minimum number of states required to automate the following Regular Expression:",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Regular Expression denote precisely the ________ of Regular Language.",
+        "options": [
+            "a) Class",
+            "b) Power Set",
+            "c) Super Set",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regular Expression denote precisely the class of regular language. Given any regular expression, L(R) is a regular language. Given any regular language L, there is a regular expression R, such that L(R)=L."
+    }
+]

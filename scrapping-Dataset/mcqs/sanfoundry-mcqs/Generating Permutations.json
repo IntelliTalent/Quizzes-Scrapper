@@ -1,0 +1,96 @@
+[
+    {
+        "question": "The dictionary ordering of elements is known as?",
+        "options": [
+            "a) Lexicographical order",
+            "b) Colexicographical order",
+            "c) Well order",
+            "d) Sorting"
+        ],
+        "answer": "a",
+        "explanation": "Lexicographical order is also known as dictionary order. It is a generalized method of the way words are alphabetically ordered in a dictionary."
+    },
+    {
+        "question": "How many permutations will be formed from the array arr={1,2,3}?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "c",
+        "explanation": "No.of permutations for an array of size n will be given by the formula nPn. So for the given problem, we have 3P3=6 or 3!=6."
+    },
+    {
+        "question": "What will be the lexicographical order of permutations formed from the array arr={1,2,3}?",
+        "options": [
+            "a) {{2,1,3},{3,2,1},{3,1,2},{2,3,1},{1,2,3},{1,3,2}}",
+            "b) {{1,2,3},{1,3,2},{2,3,1},{2,1,3},{3,2,1},{3,1,2}}",
+            "c) {{1,2,3},{1,3,2},{2,1,3},{2,3,1},{3,1,2},{3,2,1}}",
+            "d) {{2,1,3},{3,1,2},{3,2,1},{2,3,1},{1,2,3},{1,3,2}}"
+        ],
+        "answer": "c",
+        "explanation": "The number of permutations for the problem will be 6 according to the formula 3P3. When ordered in lexicographical manner these will be {{1,2,3},{1,3,2},{2,1,3},{2,3,1},{3,1,2},{3,2,1}}."
+    },
+    {
+        "question": "What is the name given to the algorithm depicted in the pseudo code below?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given algorithm is called Heap\u2019s algorithm. It is used for generating permutations of a given list."
+    },
+    {
+        "question": "Heap\u2019s algorithm requires an auxiliary array to create permutations.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Heap\u2019s algorithm does not require any extra array for generating permutations. Thus it is able to keep its space requirement to a very low level. This makes it preferable algorithm for generating permutations."
+    },
+    {
+        "question": "What is the time complexity of Heap\u2019s algorithm?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n*n!)",
+            "d) O(n!)"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation for the heap\u2019s algorithm is given by the expression T(n)=n * T(n-1). It is calculated by using substitution method. It is found to be equal to O(n!)."
+    },
+    {
+        "question": "What will be the output for following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code prints the permutations of the an array. So there will be 2 permutations for an array of 2 elements. Note that the comma is printed even for the last permutation."
+    },
+    {
+        "question": "What will be the time complexity of the given code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The recurrence relation for the heap\u2019s algorithm is given by the expression T(n)=n * T(n-1). But as each permutations takes n time to be printed so the overall complexity will be O(n*n!)."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code prints the permutations of the an array. So there will be 2 permutations for an array of 2 elements. In this code the difference is that BA is printed before AB. Note that the comma is printed even for the last permutation."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The given code prints the permutations of the given array but it is not able to handle duplicates due to which it prints 2P2 permutations even in this case. So the output becomes AA,AA,."
+    },
+    {
+        "question": "What will be the output of the code that generates permutations and also has the ability to handle duplicates, for the input str[]=\u201dAA\u201d?",
+        "options": [
+            "a) AA",
+            "b) AA,AA",
+            "c) A,A",
+            "d) A"
+        ],
+        "answer": "a",
+        "explanation": "If a code is able to handle duplicates then the two A\u2019s are not considered to be different elements due to which only one permutation will be formed. So the output will be AA only."
+    }
+]

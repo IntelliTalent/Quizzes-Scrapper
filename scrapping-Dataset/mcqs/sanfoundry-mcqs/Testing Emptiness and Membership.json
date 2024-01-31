@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Language classes have the following property:",
+        "options": [
+            "a) Closure property",
+            "b) Decision property",
+            "c) Closure & Decision property",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A decision property of a language class is an algorithm that takes a formal description of a language(e.g., a DFA) and tells whether or not some property holds."
+    },
+    {
+        "question": "Which of the following are decision properties?",
+        "options": [
+            "a) Emptiness",
+            "b) Infiniteness",
+            "c) Membership",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Emptiness, Infiniteness and Membership are the decision properties of any language class. Example: Is the language L empty? Or Is w, a string belongs to the regular language L?"
+    },
+    {
+        "question": "Pick the odd one out of the given properties of a regular language:",
+        "options": [
+            "a) Kleene",
+            "b) Reversal",
+            "c) Homomorphism",
+            "d) Membership"
+        ],
+        "answer": "d",
+        "explanation": "Membership is a decision property of language class while others mentioned like Kleene, Reversal and Homomorphism are Closure properties of language class."
+    },
+    {
+        "question": "For an automata, which of the following are equivalent variants?",
+        "options": [
+            "a) DFA and NFA",
+            "b) NFA and epsilon NFA",
+            "c) DFA and epsilon NFA",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For a given automata, all the formats of representation be it deterministic finite automata or non deterministic finite automata or non deterministic finite automata with epsilon transitions, all are equivalent variants."
+    },
+    {
+        "question": "Which of the following are not meant to specify a regular language?",
+        "options": [
+            "a) Regular Expression",
+            "b) DFA",
+            "c) NDFA and epsilon-NFA",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It is possible to convert from one specification to another. We can express a regular language in all the given four variants."
+    },
+    {
+        "question": "Which of the following problems do not belong to decision properties?",
+        "options": [
+            "a) Given two languages, are there strings that are in both",
+            "b) Is the language a subset of another regular language",
+            "c) Is the language same as another regular language",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To give a solution to the mentioned problems, we require decision properties and for some, we need additional tools like minimized automaton and Pumping lemma."
+    },
+    {
+        "question": "Which of the following is a function of Closure properties?",
+        "options": [
+            "a) Helps construct representations",
+            "b) Helps show informally described languages not to be in class",
+            "c) Helps construct representations and shows informally described languages not to be in class",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Using closure properties we can give a solution to many problems like :"
+    },
+    {
+        "question": "Suppose there is a string w=abbab, and there exists a DFA which accepts w. How many stepts will be required to test its membership?",
+        "options": [
+            "a) 2",
+            "b) 1",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "If a string belongs to a language, the number of steps required to test that membership is equal to the length of string i.e. 5."
+    },
+    {
+        "question": "If a DFA has n states and the language contains any string of length n or more, the language is termed as:",
+        "options": [
+            "a) Infinite",
+            "b) Empty",
+            "c) Non regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The language is surely finite if it is limited to string of length n or less. This is because there are atleast n+1 states along the path while traversing w(string)."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "This occurs because there are atleast n+1 states along the path while  traversing the string w."
+    }
+]

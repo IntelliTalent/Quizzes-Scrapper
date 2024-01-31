@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The _________ process is responsible for redistributing the chunks of a sharded collection evenly among the shards for every sharded collection.",
+        "options": [
+            "a) Balancer",
+            "b) Sharder",
+            "c) Replicator",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, the balancer process is always enabled."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Splitting is the process MongoDB uses to distribute data of a sharded collection evenly across a sharded cluster",
+            "b) Any mongos instance in the cluster can start a balancing round",
+            "c) When a shard has too many of a sharded collection\u2019s chunks compared to other shards, MongoDB splits balances the chunks across the shards",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When a balancer process is active, the responsible mongos acquires a \u201clock\u201d by modifying a document in the lock collection in the Config Database."
+    },
+    {
+        "question": "Use _______ migration to distribute data during bulk inserts.",
+        "options": [
+            "a) automatic",
+            "b) manual",
+            "c) temporary",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Shard keys are immutable and cannot be changed after insertion."
+    },
+    {
+        "question": "The balancer process sends the _______ command to the source shard.",
+        "options": [
+            "a) moveChunkShard",
+            "b) migChunk",
+            "c) moveChunk",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The source starts the move with an internal moveChunk command."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) When fully synchronized, the destination shard connects to the config database and updates the cluster metadata with the new location for the chunk",
+            "b) The destination shard builds any indexes required by the source that do not exist on the destination",
+            "c) The destination shard begins requesting documents in the chunk and starts receiving copies of the data",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "After the destination shard completes the update of the metadata, and once there are no open cursors on the chunk, the source shard deletes its copy of the documents."
+    },
+    {
+        "question": "The source shard is responsible for incoming ______ operations for the chunk.",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) read-write",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "During the migration process, operations to the chunk route to the source shard."
+    },
+    {
+        "question": "________ can alter the behavior so that the delete phase of the current migration blocks the start of the next chunk migration.",
+        "options": [
+            "a) _waitForUpdate",
+            "b) _waitForDelete",
+            "c) _waitForInsert",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The _waitForDelete is generally for internal testing purposes."
+    },
+    {
+        "question": "The default value _________ becomes true for all chunk migrations.",
+        "options": [
+            "a) secThrottle",
+            "b) secondaryThrottle",
+            "c) primaryThrottle",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The new writeConcern field in the balancer configuration document allows you to specify a write concern semantics the _secondaryThrottle option."
+    },
+    {
+        "question": "You can set the _________ option on the balancer configuration to set different write concern semantics.",
+        "options": [
+            "a) writeConcern",
+            "b) updateConcern",
+            "c) readConcern",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, each document operation during chunk migration propagates to at least one secondary before the balancer proceeds with the next document"
+    },
+    {
+        "question": "With __________ enabled, the source shard archives the documents in the migrated chunks in a directory named after the collection namespace.",
+        "options": [
+            "a) sharding.archiveChunks",
+            "b) sharding.archiveMovedChunks",
+            "c) shard.archiveMovedChunks",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Starting in MongoDB 2.6, sharding.archiveMovedChunks is enabled by default."
+    }
+]

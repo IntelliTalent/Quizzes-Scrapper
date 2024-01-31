@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following code will drop the nth column?",
+        "options": [
+            "a) new <- old[-n,]",
+            "b) new <- old[,-n]",
+            "c) new <- old[,-c(i,j)]",
+            "d) new <- subset(old,logical)"
+        ],
+        "answer": "a",
+        "explanation": "new <- old[-n,] drops the nth row."
+    },
+    {
+        "question": "Which of the following code drop the ith and jth column?",
+        "options": [
+            "a) new <- old[-n,]",
+            "b) new <- old[,-n]",
+            "c) new <- old[,-c(i,j)]",
+            "d) new <- subset(old,logical)"
+        ],
+        "answer": "c",
+        "explanation": "new <- subset(old,logical) select those cases that meet the logical condition."
+    },
+    {
+        "question": "Which of the following statement find cases with no missing values?",
+        "options": [
+            "a) complete  <-  subset(data.df,complete.cases(data.df)",
+            "b) complete  <-  sub(data.df,complete.cases(data.df)",
+            "c) complete  <-  subset(data.df,completeall.cases(data.df)",
+            "d) new <- old[n1:n2,n3:n4]"
+        ],
+        "answer": "a",
+        "explanation": "new <- old[n1:n2,n3:n4] select the n1 through n2 rows of variables n3 through n4."
+    },
+    {
+        "question": "Which of the following statement is normal distribution?",
+        "options": [
+            "a) dnorm(x, mean=0, sd=1, log = FALSE)",
+            "b) pnorm(q, mean=0, sd=1, lower.tail = TRUE, log.p = FALSE)",
+            "c) qnorm(p, mean=0, sd=1, lower.tail = TRUE, log.p = FALSE)",
+            "d) rnorm(n, mean=0, sd=1)"
+        ],
+        "answer": "a",
+        "explanation": "d stands for density."
+    },
+    {
+        "question": "which of the following statement gives cumulative sum?",
+        "options": [
+            "a) cumsum(x,na=rm=TRUE)",
+            "b) cumprod(x)",
+            "c) cummax(x)",
+            "d) cummin(x)"
+        ],
+        "answer": "a",
+        "explanation": "cummax() function returns the cumulative maxima."
+    },
+    {
+        "question": "Which of the following is uniform distribution?",
+        "options": [
+            "a) dunif(x, min=0, max=1, log = FALSE)",
+            "b) punif(q, min=0, max=1, lower.tail = TRUE, log.p = FALSE)",
+            "c) qunif(p, min=0, max=1, lower.tail = TRUE, log.p = FALSE)",
+            "d) runif(n, min=0, max=1)"
+        ],
+        "answer": "a",
+        "explanation": "These functions provide information about the uniform distribution on the interval from min to max."
+    },
+    {
+        "question": "Which of the following truncates real x to integers?",
+        "options": [
+            "a) as.order(x)",
+            "b) as.integer(x)",
+            "c) as.numeric(x)",
+            "d) as.character(x)"
+        ],
+        "answer": "b",
+        "explanation": "as.integer for object of class truncates decimal part of image values and then converts to type integer."
+    },
+    {
+        "question": "Which of the following tests each element of x for membership in y?",
+        "options": [
+            "a) y%in%x",
+            "b) all(x)",
+            "c) any(x)",
+            "d) x%in%y"
+        ],
+        "answer": "d",
+        "explanation": "y%in%x tests each element of y for membership in x. x%in%y tests each element of x for membership in y."
+    },
+    {
+        "question": "Which of the following finds the maximum value in the vector x, exclude missing values?",
+        "options": [
+            "a) rm(x)",
+            "b) max(x, na.rm=TRUE)",
+            "c) all(x)",
+            "d) x%in%y"
+        ],
+        "answer": "b",
+        "explanation": "all(x%in%y)  returns true if x is a proper subset of y."
+    },
+    {
+        "question": "Which of the following produces the variance covariance matrix?",
+        "options": [
+            "a) sd(x, na.rm=TRUE)",
+            "b) mad(x, na.rm=TRUE)",
+            "c) fivenum(x, na.rm=TRUE)",
+            "d) var(x, na.rm=TRUE)"
+        ],
+        "answer": "d",
+        "explanation": "mad(x, na.rm=TRUE) gives median absolute deviation.var(y) instructs R to calculate the sample variance of Y. In other words it uses n-1 \u2018degrees of freedom\u2019, where n is the number of observations in Y.sd(y) instructs R to return the sample standard deviation of y, using n-1 degrees of freedom."
+    }
+]

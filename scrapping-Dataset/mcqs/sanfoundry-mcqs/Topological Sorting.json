@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Topological sort can be applied to which of the following graphs?",
+        "options": [
+            "a) Undirected Cyclic Graphs",
+            "b) Directed Cyclic Graphs",
+            "c) Undirected Acyclic Graphs",
+            "d) Directed Acyclic Graphs"
+        ],
+        "answer": "d",
+        "explanation": "Every Directed Acyclic Graph has one or more topological ordering whereas Cyclic and Undirected graphs can\u2019t be ordered topologically."
+    },
+    {
+        "question": "Most Efficient Time Complexity of Topological Sorting is? (V \u2013 number of vertices, E \u2013 number of edges)",
+        "options": [
+            "a) O(V + E)",
+            "b) O(V)",
+            "c) O(E)",
+            "d) O(V*E)"
+        ],
+        "answer": "a",
+        "explanation": "The topological sort algorithm has complexity same as Depth First Search. So, DFS has a complexity O(V+E)."
+    },
+    {
+        "question": "In most of the cases, topological sort starts from a node which has __________",
+        "options": [
+            "a) Maximum Degree",
+            "b) Minimum Degree",
+            "c) Any degree",
+            "d) Zero Degree"
+        ],
+        "answer": "d",
+        "explanation": "Topological sort starts with a node which has zero degree. If multiple such nodes exists then it can start with any node."
+    },
+    {
+        "question": "Which of the following is not an application of topological sorting?",
+        "options": [
+            "a) Finding prerequisite of a task",
+            "b) Finding Deadlock in an Operating System",
+            "c) Finding Cycle in a graph",
+            "d) Ordered Statistics"
+        ],
+        "answer": "d",
+        "explanation": "Topological sort tells what task should be done before a task can be started. It also detects cycle in the graph which is why it is used in the Operating System to find the deadlock. Ordered statistics is an application of Heap sort."
+    },
+    {
+        "question": "Topological sort of a Directed Acyclic graph is?",
+        "options": [
+            "a) Always unique",
+            "b) Always Not unique",
+            "c) Sometimes unique and sometimes not unique",
+            "d) Always unique if graph has even number of vertices"
+        ],
+        "answer": "c",
+        "explanation": "The topological sort of a graph can be unique if we assume the graph as a single linked list and we can have multiple topological sort order if we consider a graph as a complete binary tree."
+    },
+    {
+        "question": "Topological sort can be implemented by?",
+        "options": [
+            "a) Using Depth First Search",
+            "b) Using Breadth First Search",
+            "c) Using Depth and Breadth First Search",
+            "d) Using level ordered search"
+        ],
+        "answer": "c",
+        "explanation": "We can implement topological sort by both BFS and DFS. In BFS, we use queue as data structure and in DFS, we use Linked list (if recursive) or Stack (if not recursive) as data structure."
+    },
+    {
+        "question": "Topological sort is equivalent to which of the traversals in trees?",
+        "options": [
+            "a) Pre-order traversal",
+            "b) Post-order traversal",
+            "c) In-order traversal",
+            "d) Level-order traversal"
+        ],
+        "answer": "a",
+        "explanation": "In pre-order traversal of trees, we process the root first and then child from left to right."
+    },
+    {
+        "question": "A man wants to go different places in the world. He has listed them down all. But there are some places where he wants to visit before some other places. What application of graph can he use to determine that?",
+        "options": [
+            "a) Depth First Search",
+            "b) Breadth First Search",
+            "c) Topological Sorting",
+            "d) Dijkstra\u2019s Shortest path algorithm"
+        ],
+        "answer": "c",
+        "explanation": "As the definition of topological sorting suggests, it is the way to do tasks in prescribed order. So, if he does topological sorting, it will be easy for him to recognize what should be the order to visit different places."
+    },
+    {
+        "question": "When the topological sort of a graph is unique?",
+        "options": [
+            "a) When there exists a hamiltonian path in the graph",
+            "b) In the presence of multiple nodes with indegree 0",
+            "c) In the presence of single node with indegree 0",
+            "d) In the presence of single node with outdegree 0"
+        ],
+        "answer": "a",
+        "explanation": "A hamiltonian path exists in a Directed Acyclic Graph when all pairs of consecutive vertices are in sorted order and are connected by edges. In such a case, there exists a unique topological sorting order."
+    }
+]

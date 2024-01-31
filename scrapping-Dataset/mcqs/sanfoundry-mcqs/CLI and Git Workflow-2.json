@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of the following adds all new files to local repository?",
+        "options": [
+            "a) git add .",
+            "b) git add -u",
+            "c) git add -A",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You should do this before committing."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) You don\u2019t need GitHub to use Git",
+            "b) CLI can help you to organize files and folders",
+            "c) Navigation of directory is possible using CLI",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CLI stands for Command Line Interface."
+    },
+    {
+        "question": "Which of the following command updates tracking for files that are modified?",
+        "options": [
+            "a) git add .",
+            "b) git add -u",
+            "c) git add -A",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The git add command adds a change in the working directory to the staging area."
+    },
+    {
+        "question": "Which of the following command is used to give a message description?",
+        "options": [
+            "a) git command -m",
+            "b) git command -d",
+            "c) git command -message",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This only updates your local repository."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) You need GitHub to use Git",
+            "b) GitHub allows you to share repositories with others",
+            "c) GitHub allows you to access others repositories",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "GitHub can store a remote copy of your repository."
+    },
+    {
+        "question": "Which of the following command allows you to update the repository?",
+        "options": [
+            "a) push",
+            "b) pop",
+            "c) update",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The git branch command is your general-purpose branch administration tool."
+    },
+    {
+        "question": "Which of the following is the correct way of creating GitHub repository in to well labelled commits?",
+        "options": [
+            "a) Fork another user\u2019s repository",
+            "b) Pop another user\u2019s repository",
+            "c) Zip another user\u2019s repository",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A fork is a copy of a repository."
+    },
+    {
+        "question": "Which of the following command is used to squash the commits?",
+        "options": [
+            "a) rebase",
+            "b) squash",
+            "c) boot",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase."
+    },
+    {
+        "question": "Which of the following statement would create branch named as \u2018sanfoundry\u2019?",
+        "options": [
+            "a) git checkout -b sanfoundry",
+            "b) git checkout -c sanfoundry",
+            "c) git check -b sanfoundry",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A branch in Git is simply a lightweight movable pointer to one of these commits."
+    },
+    {
+        "question": "branch command is used to determine which branch you are currently in.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "-r flag should be used for copying the content."
+    }
+]

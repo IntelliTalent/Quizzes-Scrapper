@@ -1,0 +1,112 @@
+[
+    {
+        "question": "When creating a text index on multiple fields, you can specify the individual fields or you can use wildcard specifier ______",
+        "options": [
+            "a) ($*)",
+            "b) (**$**)",
+            "c) ($**)",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can create a text index on the field or fields whose value is a string or an array of string elements."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) In order to drop a text index, use the index name",
+            "b) The default language associated with the indexed data determines the rules to parse word roots and ignore stop words",
+            "c) To allow for text search on all fields with string content, use the wildcard specifier ($$$) to index all fields that contain string content",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the aggregation pipeline, text search is available via the use of the $text query operator in the $match stage."
+    },
+    {
+        "question": "The default language for the indexed data is ________",
+        "options": [
+            "a) chinese",
+            "b) english",
+            "c) spanish",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To specify a different language, use the default_language option when creating the text index."
+    },
+    {
+        "question": "If a collection contains documents or embedded documents that are in different languages, include a field named _______ in the documents.",
+        "options": [
+            "a) operator",
+            "b) lang",
+            "c) language",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB will use the specified language for that document or embedded document when building the text index."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) After 2.4, you can terminate both background index builds and foreground index builds",
+            "b) The specified language in the document overrides the default language for the text index",
+            "c) The text index, like other indexes, should not fall within the index name length limit",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To get the names of the indexes, use the db.collection.getIndexes() method."
+    },
+    {
+        "question": "To use a field with a name other than language, include the ________ option when creating the index.",
+        "options": [
+            "a) language_over",
+            "b) language_override",
+            "c) langoverride",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You cannot combine the $text query, which requires a special text index, with a query operator that requires a different type of special index."
+    },
+    {
+        "question": "The default name for the index consists of each indexed field name concatenated with _______",
+        "options": [
+            "a) _char",
+            "b) _textc",
+            "c) _text",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Whether the text index has the default name or you specified a name for the text index, to drop the text index, pass the index name to the db.collection.dropIndex() method."
+    },
+    {
+        "question": "To avoid creating an index with a name that exceeds the index name length limit, you can pass the _____ option to the db.collection.createIndex() method.",
+        "options": [
+            "a) name",
+            "b) lang",
+            "c) number",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The measuring units for the maximum distance are determined by the coordinate system in use."
+    },
+    {
+        "question": "The default weight is ____ for the indexed fields.",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "To adjust the weights for the indexed fields, include the weights option in the db.collection.createIndex() method."
+    },
+    {
+        "question": "For a ______ index, the weight of an indexed field denotes the significance of the field relative to the other indexed fields in terms of the score.",
+        "options": [
+            "a) unique",
+            "b) natural",
+            "c) text",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the compound text index includes keys preceding the text index key, to perform a $text search, the query predicate must include equality match conditions on the preceding keys."
+    }
+]

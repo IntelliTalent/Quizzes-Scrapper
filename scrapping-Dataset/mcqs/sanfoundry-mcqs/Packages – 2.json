@@ -1,0 +1,112 @@
+[
+    {
+        "question": "______  is used to view all packages installed.",
+        "options": [
+            "a) library()",
+            "b) search()",
+            "c) .libPaths()",
+            "d) stringr()"
+        ],
+        "answer": "a",
+        "explanation": "Both require() and library() can load (strictly speaking, attach) an R package."
+    },
+    {
+        "question": "______ is used to get library location in R.",
+        "options": [
+            "a) library()",
+            "b) search()",
+            "c) .libPaths()",
+            "d) stringr()"
+        ],
+        "answer": "c",
+        "explanation": "libPaths() can add new paths to set of library trees searched."
+    },
+    {
+        "question": "________ is used to view packages currently loaded.",
+        "options": [
+            "a) library()",
+            "b) search()",
+            "c) .libPaths()",
+            "d) stringr()"
+        ],
+        "answer": "b",
+        "explanation": "This search will allow you to search the contents of the R functions, package vignettes, and task views."
+    },
+    {
+        "question": "________ contains tools for Approximate Bayesian Computation (ABC).",
+        "options": [
+            "a) str",
+            "b) abc",
+            "c) zyz",
+            "d) yxq"
+        ],
+        "answer": "b",
+        "explanation": "The package implements several ABC algorithms for performing parameter estimation and model selection."
+    },
+    {
+        "question": "Which of the following package combine multi-dimensional arrays?",
+        "options": [
+            "a) stringr",
+            "b) comb",
+            "c) abind",
+            "d) anlyz"
+        ],
+        "answer": "c",
+        "explanation": "This is a generalization of cbind and rbind."
+    },
+    {
+        "question": "Which of the following contains functions for processing uniaxial minute-to-minute accelerometer data?",
+        "options": [
+            "a) accelerometry",
+            "b) abc",
+            "c) accrued",
+            "d) comb"
+        ],
+        "answer": "a",
+        "explanation": "This package contains a collection of functions that perform operations on time-series accelerometer data, such as identify non-wear time, flag minutes that are part of an activity about, and find the maximum 10-minute average count value."
+    },
+    {
+        "question": "__________ is used for selecting regression transformations.",
+        "options": [
+            "a) gac()",
+            "b) gpl()",
+            "c) avas()",
+            "d) ggc()"
+        ],
+        "answer": "c",
+        "explanation": "ace() and avas() both are used for selecting regression transformations."
+    },
+    {
+        "question": "Which of the following is an R package for the exploratory analysis of genetic and genomic data?",
+        "options": [
+            "a) adeg",
+            "b) adegenet",
+            "c) anc",
+            "d) abc"
+        ],
+        "answer": "b",
+        "explanation": "This package contains Classes and functions for genetic data analysis within the multivariate framework."
+    },
+    {
+        "question": "______ specializes in functions for analytical Customer Relationship Management.",
+        "options": [
+            "a) adagio",
+            "b) ada",
+            "c) aCRM",
+            "d) adeg"
+        ],
+        "answer": "c",
+        "explanation": "Convenience functions for data preparation and modeling are often used in aCRM."
+    },
+    {
+        "question": "10._________ searches for significant clusters in genetic data.",
+        "options": [
+            "a) BayesCount",
+            "b) BayesComm",
+            "c) bayesclust",
+            "d) Bayescolcount"
+        ],
+        "answer": "c",
+        "explanation": "Bayesclust is an R package for testing and searching for significant clusters. BayesCount is used for power calculations and Bayesian analysis of count distributions and FECRT data using MCMC."
+    }
+]

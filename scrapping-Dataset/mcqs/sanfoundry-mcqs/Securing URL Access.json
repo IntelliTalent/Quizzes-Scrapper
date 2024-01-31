@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Way to secure web app\u2019s URL.",
+        "options": [
+            "a) servlet filters",
+            "b) refresh-check-delay",
+            "c) http servlet filters",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring Security enables you to secure a web application\u2019s URL access in a declarative way through simple configuration. It handles security by applying servlet filters to HTTP requests."
+    },
+    {
+        "question": "Servlet filter registered in web deployment descriptor, which filters request in spring application context.",
+        "options": [
+            "a) DelegatingFilter",
+            "b) DelegatingFilterProxy",
+            "c) DelegatingProxy",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "As servlet filters must be registered in the web deployment descriptor to take effect, you have to register a DelegatingFilterProxy instance in the web deployment descriptor, which is a servlet filter that delegates request filtering to a filter in Spring\u2019s application context."
+    },
+    {
+        "question": "Servlet APIs to access security information of web application.",
+        "options": [
+            "a) HttpServletRequest.isUserInRole()",
+            "b) HttpServletRequest.getUserPrincipal()",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Servlet API integration: This allows you to access security information in your web application via standard Servlet APIs, such as HttpServletRequest.isUserInRole() and HttpServletRequest.getUserPrincipal()."
+    },
+    {
+        "question": "To load root application context at the start up.",
+        "options": [
+            "a) ContextListener",
+            "b) ContextLoader",
+            "c) ContextLoaderListener",
+            "d) ContextEventListener"
+        ],
+        "answer": "c",
+        "explanation": "In the web deployment descriptor (i.e., web.xml), you register ContextLoaderListener to load the root application context at startup."
+    },
+    {
+        "question": "To dispatch requests for web application.",
+        "options": [
+            "a) DispatcherServlet",
+            "b) ViewHandler",
+            "c) ViewResolver",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring MVC DispatcherServlet is used to dispatch requests."
+    },
+    {
+        "question": "The responsibility of DelegatingFilterProxy is simply to delegate HTTP request filtering to a Spring bean that implements the interface:-",
+        "options": [
+            "a) java.util.logging.Filter",
+            "b) java.util.logging.net",
+            "c) java.util.logging.FilterHttp",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The responsibility of DelegatingFilterProxy is simply to delegate HTTP request filtering to a Spring bean that implements the java.util.logging.Filter interface."
+    },
+    {
+        "question": "By default, DelegatingFilterProxy delegates to a bean whose name is the same as its filter-name property.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By default, it delegates to a bean whose name is the same as its filter-name property, but you can override the bean name in its targetBeanName init parameter."
+    },
+    {
+        "question": "Filter chain configured by Spring security, when web app security enabled.",
+        "options": [
+            "a) springSecurityFilterChain",
+            "b) delegatingFilterProxy",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " As Spring Security will automatically configure a filter chain with the name springSecurityFilterChain when you enable web application security, you can simply use this name for your DelegatingFilterProxy instance."
+    },
+    {
+        "question": "The http auto-config=\u201dfalse\u201d element automatically configures the basic security services that a typical web application needs.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The http auto-config=\u201dtrue\u201d element automatically configures the basic security services that a typical web application needs. You can fine-tune these services with the corresponding sub elements inside it."
+    },
+    {
+        "question": "Element used to restrict access to a particular URL.",
+        "options": [
+            "a) restrict-url",
+            "b) intercept-url",
+            "c) intercept-restrict",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Inside the http configuration element, you can restrict access to particular URLs with one or more intercept-url elements."
+    },
+    {
+        "question": "Element which configures authentication services.",
+        "options": [
+            "a) authentication-provider",
+            "b) authentication-manager",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can configure authentication services in the authentication-provider element, which is nested inside the authentication-manager element."
+    },
+    {
+        "question": "Element which defines user details.",
+        "options": [
+            "a) user-service",
+            "b) user-details",
+            "c) user-requirements",
+            "d) user-servicerequirements"
+        ],
+        "answer": "a",
+        "explanation": "Spring Security also supports defining user details in user-service directly for simple security requirements. You can specify a"
+    },
+    {
+        "question": "Which of the following way to provide authenticity of users is/are supported by Spring Security?",
+        "options": [
+            "a) Authenticating against a database",
+            "b) LDAP repository",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring Security supports several ways of authenticating users, including authenticating against a database or an LDAP repository."
+    },
+    {
+        "question": "The basic security services registered and configured by Spring Security.",
+        "options": [
+            "a) Form-based login service",
+            "b) Logout Service",
+            "c) HTTP Basic authentication.",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring Security will automatically register and configure several basic security services, including the above mentioned."
+    },
+    {
+        "question": "HTTP Basic authentication support is configured by:-",
+        "options": [
+            "a) logout",
+            "b) http-basic",
+            "c) http-basicauth",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The HTTP Basic authentication support can be configured via the http-basic element. When HTTP Basic authentication is required, a browser will typically display a login dialog or a specific login page for users to log in."
+    }
+]

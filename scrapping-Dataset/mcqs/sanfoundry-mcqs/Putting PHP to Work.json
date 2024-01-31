@@ -1,0 +1,108 @@
+[
+    {
+        "question": "In PHP, if $a represents an array with numeric indices, how is the first element accessed?",
+        "options": [
+            "a) $a[1]",
+            "b) $a[0]",
+            "c) $a.1",
+            "d) $a.0"
+        ],
+        "answer": "b",
+        "explanation": "If $a represents an array with numeric indices, its elements are accessed as $x[0], $x[1], and so on. In general terms, each element at the position i is accessed and used as $a[i \u2013 1]."
+    },
+    {
+        "question": "Arrays cannot have associative indices in PHP.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The PHP arrays can even have both numeric and associative elements. For example, $x[1] and $x[\u201clarge\u201d] can both be the elements of the same array. $x can be an object, whose elements are accessed by the arrow \u2018->\u2019 operated."
+    },
+    {
+        "question": "In PHP, which operator is used to access property of an object?",
+        "options": [
+            "a) .",
+            "b) *",
+            "c) ->",
+            "d) @"
+        ],
+        "answer": "c",
+        "explanation": "If $a represents an object, the properties it has can be accessed as $a->property-name. For instance, $a->white, $a->black, $a->blue, $a->red can be the properties of $a and accessed in this way."
+    },
+    {
+        "question": "PHP scripts are located in the web server document tree.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The PHP scripts are different from DBI scripts since PHP scripts are located within the web server document tree while DBI scripts are located in a cgi-bin directory located outside of document tree."
+    },
+    {
+        "question": "DBI scripts are located in the directory ______________",
+        "options": [
+            "a) cgi-inc",
+            "b) cgi-bin",
+            "c) cgi-usr",
+            "d) cgi-perl"
+        ],
+        "answer": "b",
+        "explanation": "DBI scripts are located in a cgi-bin directory located outside of document tree. The PHP scripts are different from DBI scripts since PHP scripts are located within the web server document tree."
+    },
+    {
+        "question": "A stored program associated with a schedule is ______________",
+        "options": [
+            "a) Trigger",
+            "b) Event",
+            "c) Stored function",
+            "d) Stored procedure"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL version 5.1.6 and above has an event scheduler. It enables to perform time activated database operations. An event is a stored program that is associated with a schedule."
+    },
+    {
+        "question": "The line used to turn on the event scheduler is ______________",
+        "options": [
+            "a) event_scheduler = ON",
+            "b) eventscheduler = ON",
+            "c) event_scheduler_ON",
+            "d) events_scheduler_ON"
+        ],
+        "answer": "a",
+        "explanation": "The line \u2018event_scheduler = ON\u2019 is put in the option file that the server reads. The event scheduler does not run by default. It must be turned on if events are to used in the database."
+    },
+    {
+        "question": "What is the creation of a stored program similar to?",
+        "options": [
+            "a) Trigger",
+            "b) Event",
+            "c) View",
+            "d) Table"
+        ],
+        "answer": "c",
+        "explanation": "When a stored program is created, an object is created that is to be executed later. This also the case when a view is defined: It sets up a SELECT statement intended for later invocation."
+    },
+    {
+        "question": "When the security context enables carefully written stored programs to be set up that provide controlled access to tables for users, it is called __________",
+        "options": [
+            "a) bad",
+            "b) good",
+            "c) illegal",
+            "d) fare"
+        ],
+        "answer": "b",
+        "explanation": "The security context is good if it enables carefully written stored programs to be set up that provide controlled access to tables for users who are not able to access them directly."
+    },
+    {
+        "question": "What is the maximum number of indexes on MyISAM table?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) more than 1"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, for a MyISAM table, there can be more than one indexes. The data rows of the MyISAM table are stored in a data file and the index values are stored in a separate index file."
+    }
+]

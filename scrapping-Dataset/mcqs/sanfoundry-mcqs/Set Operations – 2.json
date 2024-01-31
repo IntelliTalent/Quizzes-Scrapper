@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Let the set A is {1, 2, 3}  and B is {2, 3, 4}. Then the number of elements in A U B is?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 7"
+        ],
+        "answer": "a",
+        "explanation": "AUB is {1, 2, 3, 4}."
+    },
+    {
+        "question": "Let the set A is {1, 2, 3}  and B is { 2, 3, 4}. Then number of elements in A \u2229 B is?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "A \u2229 B is {2, 3}."
+    },
+    {
+        "question": "Let the set A is {1, 2, 3}  and B is {2, 3, 4}. Then the set  A \u2013 B is?",
+        "options": [
+            "a) {1, -4}",
+            "b) {1, 2, 3}",
+            "c) {1}",
+            "d) {2, 3}"
+        ],
+        "answer": "c",
+        "explanation": "In A \u2013 B the common elements get cancelled."
+    },
+    {
+        "question": "In which of the following sets A \u2013 B is equal to B \u2013 A?",
+        "options": [
+            "a) A = {1, 2, 3}, B = {2, 3, 4}",
+            "b) A = {1, 2, 3}, B = {1, 2, 3, 4}",
+            "c) A = {1, 2, 3}, B = {2, 3, 1}",
+            "d) A = {1, 2, 3, 4, 5, 6}, B = {2, 3, 4, 5, 1}"
+        ],
+        "answer": "c",
+        "explanation": "A- B= B-A = Empty set."
+    },
+    {
+        "question": "Let A be set of all prime numbers, B be the set of all even prime numbers, C be the set of all odd prime numbers, then which of the following is true?",
+        "options": [
+            "a) A \u2261 B U C",
+            "b) B is a singleton set.",
+            "c) A \u2261 C U {2}",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "2 is the only even prime number."
+    },
+    {
+        "question": "If A is {{\u03a6}, {\u03a6, {\u03a6}}}, then the power set of A has how many element?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "The set A has got 2 elements so n(P(A))=4."
+    },
+    {
+        "question": "Two sets A and B contains a and b elements respectively. If power set of A contains 16 more elements than that of  B, value of \u2018b\u2019 and \u2018a\u2019 are _______",
+        "options": [
+            "a) 4, 5",
+            "b) 6, 7",
+            "c) 2, 3",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "32-16=16, hence a=5, b=4."
+    },
+    {
+        "question": "Let A be {1, 2, 3, 4}, U be set of all natural numbers, then U-A\u2019(complement of A) is given by set.",
+        "options": [
+            "a) {1, 2, 3, 4, 5, 6, \u2026.}",
+            "b) {5, 6, 7, 8, 9, \u2026\u2026}",
+            "c) {1, 2, 3, 4}",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "U \u2013 A\u2019 \u2261 A."
+    },
+    {
+        "question": "Which sets are not empty?",
+        "options": [
+            "a) {x: x is a even prime greater than 3}",
+            "b) {x : x is a multiple of 2 and is odd}",
+            "c) {x: x is an even number and x+3 is even}",
+            "d) { x: x is a prime number less than 5 and is odd}"
+        ],
+        "answer": "d",
+        "explanation": "Because the set is {3}."
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Java provides a mechanism, where an object can be represented as a sequence of bytes:-",
+        "options": [
+            "a) Serialization",
+            "b) Compilation",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes that includes the object\u2019s data as well as information about the object\u2019s type and the types of data stored in the object."
+    },
+    {
+        "question": "After a serialized object has been written into a file, it can be read from the file and deserialized.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The type information and bytes that represent the object and its data can be used to recreate the object in memory."
+    },
+    {
+        "question": "Serialization is JVM independent.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "An object can be serialized on one platform and deserialized on an entirely different platform."
+    },
+    {
+        "question": "Classes which are high-level streams that contain the methods for serializing and deserializing an object.",
+        "options": [
+            "a) ObjectInputStream",
+            "b) ObjectOutputStream",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Classes ObjectInputStream and ObjectOutputStream are high-level streams that contain the methods for serializing and deserializing an object."
+    },
+    {
+        "question": "The ObjectOutputStream class contains methods for writing various data types.",
+        "options": [
+            "a) public final void writeObject(Object x)",
+            "b) public final void write(Object x)",
+            "c) public final void writeToObject(Object x)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The ObjectOutputStream class contains many write methods for writing various data types, but one method in particular stands out:"
+    },
+    {
+        "question": "The ObjectInputStream class contains methods for writing various data types.",
+        "options": [
+            "a) public final Object readObject()",
+            "b) public final Object read(Object x)",
+            "c) public final Object readFromObject(Object x)",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This method retrieves the next Object out of the stream and deserializes it. The return value is Object, so you will need to cast it to its appropriate data type."
+    },
+    {
+        "question": "For a class to be serialized successfully:",
+        "options": [
+            "a) The class must implement the java.io.Serializable interface.",
+            "b) Every field in the class must be volatile.",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The class must implement the java.io.Serializable interface."
+    },
+    {
+        "question": "When serializing an object to a file, the standard convention in Java is to give the file a:",
+        "options": [
+            "a) .war",
+            "b) .java",
+            "c) .ser",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When serializing an object to a file, the standard convention in Java is to give the file a .ser extension."
+    },
+    {
+        "question": "What will be the value of transient field after deserialization:-",
+        "options": [
+            "a) 0",
+            "b) NULL",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It depends on the data type of field, 0 if int and NULL if String or Object."
+    },
+    {
+        "question": "If the class implements java.io.Serializable, then it is serializable; otherwise, it\u2019s not.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The class must implement the java.io.Serializable interface."
+    }
+]

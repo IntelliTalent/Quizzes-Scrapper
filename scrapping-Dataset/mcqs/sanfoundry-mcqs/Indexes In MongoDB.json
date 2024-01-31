@@ -1,0 +1,112 @@
+[
+    {
+        "question": "MongoDB indexes use a _______ data structure.",
+        "options": [
+            "a) Hash",
+            "b) Map",
+            "c) B-tree",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB provides a number of different index types to support specific types of data and queries."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) If an appropriate index exists for a query, MongoDB cannot use the index to limit the number of documents it must inspect",
+            "b) Indexes support the efficient execution of queries in MongoDB",
+            "c) The index stores the location of a specific field or set of fields, ordered by the value of the field",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Without indexes, MongoDB must perform a collection scan."
+    },
+    {
+        "question": "MongoDB supports the creation of user-defined ascending/descending indexes on a ______ field of a document.",
+        "options": [
+            "a) Single",
+            "b) Non Unique",
+            "c) Compound",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If applications do not specify a value for _id the driver or the mongod will create an _id field with an ObjectId value."
+    },
+    {
+        "question": "The ______ index is unique and prevents clients from inserting two documents with the same value for the _id field.",
+        "options": [
+            "a) _id",
+            "b) $default",
+            "c) _def",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "All MongoDB collections have an index on the _id field that exists by default."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB can return sorted results by using the ordering in the index",
+            "b) MongoDB defines indexes at the collection level and supports indexes on any field or sub-field of the documents in a MongoDB collection",
+            "c) Fundamentally, indexes in MongoDB is different to indexes in other database systems",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Indexes are special data structures that store a small portion of the collection\u2019s data set in an easy to traverse form."
+    },
+    {
+        "question": "MongoDB also supports user-defined indexes on multiple fields called ____________",
+        "options": [
+            "a) compound",
+            "b) composite",
+            "c) candidate",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The order of fields listed in a compound index has significance."
+    },
+    {
+        "question": "MongoDB uses ______ indexes to index the content stored in arrays.",
+        "options": [
+            "a) singlekey",
+            "b) multikey",
+            "c) compkey",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If you index a field that holds an array value, MongoDB creates separate index entries for every element of the array."
+    },
+    {
+        "question": "___________ indexes use spherical geometry to return results.",
+        "options": [
+            "a) 3dsphere",
+            "b) 2dsphere",
+            "c) 1dsphere",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To support efficient queries of geospatial coordinate data, MongoDB provides two special indexes."
+    },
+    {
+        "question": "MongoDB provides a ________ index type that supports searching for string content in a collection.",
+        "options": [
+            "a) string",
+            "b) text",
+            "c) char",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "These text indexes do not store language-specific stop words (e.g. \u201cthe\u201d, \u201ca\u201d, \u201cor\u201d) and stem the words in a collection to only store root words."
+    },
+    {
+        "question": "_____ indexes uses planar geometry when returning results.",
+        "options": [
+            "a) 2d",
+            "b) 1d",
+            "c) 3d",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " MongoDB computes geohash values for the coordinate pairs within the specified location range and then indexes the geohash values."
+    }
+]

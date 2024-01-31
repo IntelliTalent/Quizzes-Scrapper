@@ -1,0 +1,174 @@
+[
+    {
+        "question": "What is the definition of graph according to graph theory?",
+        "options": [
+            "a) visual representation of data",
+            "b) collection of dots and lines",
+            "c) collection of edges",
+            "d) collection of vertices"
+        ],
+        "answer": "b",
+        "explanation": "According to the graph theory a graph is the collection of dots and lines. Vertices are also called dots and lines are also called edges."
+    },
+    {
+        "question": "What is the condition for proper coloring of a graph?",
+        "options": [
+            "a) two vertices having a common edge should not have same color",
+            "b) two vertices having a common edge should always have same color",
+            "c) all vertices should have a different color",
+            "d) all vertices should have same color"
+        ],
+        "answer": "a",
+        "explanation": "The condition for proper coloring of graph is that two vertices which share a common edge should not have the same color. If it uses k colors in the process then it is called k coloring of graph."
+    },
+    {
+        "question": "The number of colors used by a proper coloring graph is called?",
+        "options": [
+            "a) k coloring graph",
+            "b) x coloring graph",
+            "c) m coloring graph",
+            "d) n coloring graph"
+        ],
+        "answer": "a",
+        "explanation": "A proper graph ensures that two vertices which share a common edge should not have the same color. If it uses k colors in the process then it is called k coloring of graph."
+    },
+    {
+        "question": "What is a chromatic number?",
+        "options": [
+            "a) The maximum number of colors required for proper edge coloring of graph",
+            "b) The maximum number of colors required for proper vertex coloring of graph",
+            "c) The minimum number of colors required for proper vertex coloring of graph",
+            "d) The minimum number of colors required for proper edge coloring of graph"
+        ],
+        "answer": "c",
+        "explanation": "The minimum number of colors required for proper vertex coloring of graph is called chromatic number whereas the minimum number of colors required for proper edge coloring of graph is called chromatic index of a graph."
+    },
+    {
+        "question": "What will be the chromatic number for an empty graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "An empty graph is a graph without any edges. So the chromatic number for such a graph will be 1."
+    },
+    {
+        "question": "What will be the chromatic number for an bipartite graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "c",
+        "explanation": "A bipartite graph is graph such that no two vertices of the same set are adjacent to each other. So the chromatic number for such a graph will be 2."
+    },
+    {
+        "question": "Calculating the chromatic number of a graph is a",
+        "options": [
+            "a) P problem",
+            "b) NP hard problem",
+            "c) NP complete problem",
+            "d) cannot be identified as any of the given problem types"
+        ],
+        "answer": "c",
+        "explanation": "Chromatic number of an arbitrary graph cannot be determined by using any convenient method. So calculating the chromatic number of a graph is an NP complete problem."
+    },
+    {
+        "question": "What will be the chromatic number for a line graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "d",
+        "explanation": "A line graph of a simple graph is obtained by connecting two vertices with an edge. A line graph has a chromatic number of n."
+    },
+    {
+        "question": "What will be the chromatic number for a complete graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) n",
+            "d) n!"
+        ],
+        "answer": "c",
+        "explanation": "A complete graph is the one in which each vertex is directly connected with all other vertices with an edge. So in such a case each vertex should have a unique color. Thus the chromatic number will be n."
+    },
+    {
+        "question": "What will be the chromatic number for a tree having more than 1 vertex?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) Varies with the structure and number of vertices of the tree"
+        ],
+        "answer": "c",
+        "explanation": "The minimum number of colors required for proper vertex coloring of graph is called chromatic number. So every tree having more than 1 vertex is 2 chromatic."
+    },
+    {
+        "question": "A graph with chromatic number less than or equal to k is called?",
+        "options": [
+            "a) K chromatic",
+            "b) K colorable",
+            "c) K chromatic colorable",
+            "d) K colorable chromatic"
+        ],
+        "answer": "b",
+        "explanation": "Any graph that has a chromatic number less than or equal to k is called k colorable. Whereas a graph with chromatic number k is called k chromatic."
+    },
+    {
+        "question": "What will be the chromatic number of the following graph?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will only require 2 unique colors so that no two vertices connected by a common edge will have the same color. So its chromatic number will be 2."
+    },
+    {
+        "question": "What will be the chromatic number of the following graph?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will require 3 unique colors so that no two vertices connected by a common edge will have the same color. So its chromatic number will be 3."
+    },
+    {
+        "question": "What will be the chromatic number of the following graph?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will require 3 unique colors so that no two vertices connected by a common edge will have the same color. So its chromatic number will be 3."
+    },
+    {
+        "question": "The chromatic number of star graph with 3 vertices is greater than that of a complete graph with 3 vertices.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The chromatic number of a star graph is always 2 (for more than 1 vertex) whereas the chromatic number of complete graph with 3 vertices will be 3. So chromatic number of complete graph will be greater."
+    },
+    {
+        "question": "The chromatic number of star graph with 3 vertices is greater than that of a tree with same number of vertices.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The chromatic number of a star graph and a tree is always 2 (for more than 1 vertex). So both have the same chromatic number."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following members should be hidden?",
+        "options": [
+            "a) Delayed",
+            "b) Hidden",
+            "c) Primary",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use hidden members for dedicated tasks such as reporting and backups."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Clients will not distribute reads with the appropriate read preference to hidden members",
+            "b) Hidden members cannot vote in replica set elections",
+            "c) If you stop a voting hidden member, ensure that the set has an active majority or the primary will step down",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hidden members may vote in replica set elections"
+    },
+    {
+        "question": "__________ operations cannot guarantee that the data files do not change.",
+        "options": [
+            "a) db.lockl()",
+            "b) db.synclock()",
+            "c) db.fsyncUnlock()",
+            "d) secondary"
+        ],
+        "answer": "c",
+        "explanation": "As a result, do not use these methods to ensure consistency for the purposes of creating backups."
+    },
+    {
+        "question": "_______ may block reads, including those necessary to verify authentication.",
+        "options": [
+            "a) db.lockall()",
+            "b) db.fsyncLock()",
+            "c) db,lockreads()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Such reads are necessary to establish new connections to a mongod that enforces authorization checks."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) In MongoDB, clients cannot see the results of writes before they are made durable",
+            "b) Users may configure read preference on a per-connection basis to prefer that the read operations return results from the secondary members",
+            "c) Clients cannot read data which may be subsequently rolled back",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If clients configure the read preference to permit secondary reads, read operations can return data from secondary members that have not replicated more recent write operations."
+    },
+    {
+        "question": "________ unlocks a mongod instance to allow writes and reverses the operation of a db.fsyncLock() operation.",
+        "options": [
+            "a) db.fsyncUnlock()",
+            "b) db.fsynclock()",
+            "c) db.syncUnlock()",
+            "d) secondary"
+        ],
+        "answer": "a",
+        "explanation": "Typically you will use db.fsyncUnlock() following a database backup operation."
+    },
+    {
+        "question": "Delayed members apply operations from the _______ on a delay.",
+        "options": [
+            "a) oplog",
+            "b) log",
+            "c) mlog",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Always prevent applications from seeing and querying delayed members."
+    },
+    {
+        "question": "In sharded clusters, delayed members have limited utility when the __________ is enabled.",
+        "options": [
+            "a) Balancer",
+            "b) Collector",
+            "c) Emitter",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Delayed members replicate chunk migrations with a delay."
+    },
+    {
+        "question": "A delayed member has its priority equal to 0 and hidden equal to ___________",
+        "options": [
+            "a) 0",
+            "b) flase",
+            "c) true",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When you configure a delayed member, the delay applies both to replication and to the member\u2019s oplog."
+    }
+]

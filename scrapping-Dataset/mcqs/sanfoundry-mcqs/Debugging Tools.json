@@ -1,0 +1,90 @@
+[
+    {
+        "question": "__________ prints out the function call stack after an error occurs.",
+        "options": [
+            "a) trace()",
+            "b) traceback()",
+            "c) back()",
+            "d) traback()"
+        ],
+        "answer": "b",
+        "explanation": "traceback() does nothing if there\u2019s no error. trace() Interactive tracing and debugging of calls to a function or method."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) The primary task of debugging any R code is correctly diagnosing what the problem is",
+            "b) R provides only two tools to help you with debugging your code",
+            "c) print statement can be used for debugging purpose",
+            "d) The traceback() function must be called immediately after an error occurs"
+        ],
+        "answer": "b",
+        "explanation": "R provides a number of tools to help you with debugging your code."
+    },
+    {
+        "question": "Which of the following is primary tool for debugging?",
+        "options": [
+            "a) debug()",
+            "b) trace()",
+            "c) browser()",
+            "d) traceback()"
+        ],
+        "answer": "a",
+        "explanation": "Primary tools are mainly used for debugging R code."
+    },
+    {
+        "question": "________ allows you to insert debugging code into a function a specific places",
+        "options": [
+            "a) debug()",
+            "b) trace()",
+            "c) browser()",
+            "d) traceback()"
+        ],
+        "answer": "b",
+        "explanation": "The function call stack is the sequence of functions that was called before the error occurred."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The traceback() function must be called immediately after an error occurs",
+            "b) The debugger calls the browser at the very low level of the function body",
+            "c) Every time you call the mod() function it will launch the interactive debugger",
+            "d) R provides only two tools to help you with debugging your code"
+        ],
+        "answer": "a",
+        "explanation": "Once another function is called, you lose the traceback."
+    },
+    {
+        "question": "_______ allows you to modify the error behavior so that you can browse the function call stack",
+        "options": [
+            "a) debug()",
+            "b) trace()",
+            "c) recover()",
+            "d) traceback()"
+        ],
+        "answer": "c",
+        "explanation": "The recover() function can be used to modify the error behavior of R when an error occurs."
+    },
+    {
+        "question": "______ suspends the execution of a function wherever it is called and puts the function in debug mode.",
+        "options": [
+            "a) debug()",
+            "b) trace()",
+            "c) recover()",
+            "d) browser()"
+        ],
+        "answer": "d",
+        "explanation": "The debug() function initiates an interactive debugger (also known as the \u201cbrowser\u201d in R) for a function."
+    },
+    {
+        "question": "debug() flags a function for ______ mode in R mode.",
+        "options": [
+            "a) debug",
+            "b) run",
+            "c) compile",
+            "d) recover"
+        ],
+        "answer": "b",
+        "explanation": "debug() allows you to step through execution of a function one line at a time."
+    }
+]

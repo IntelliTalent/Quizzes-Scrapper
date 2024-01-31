@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Which of the following is an advantage of binary insertion sort over its standard version?",
+        "options": [
+            "a) it has better time complexity",
+            "b) it has better space complexity",
+            "c) it makes less number of comparisons",
+            "d) it has no significant advantage"
+        ],
+        "answer": "c",
+        "explanation": "Binary insertion sort makes less number of comparisons as compared to the standard version of insertion sort. Binary insertion sort makes log n comparisons in the worst case as compared to n comparisons made in the standard version."
+    },
+    {
+        "question": "Binary Insertion sort is an online sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Binary Insertion sort does not require the entire input data at the beginning itself in order to sort the array. It rather creates a partial solution in every step, so future elements are not required to be considered. Hence it is an online sorting algorithm."
+    },
+    {
+        "question": "How many comparisons will be made in the worst case when an array of size n will be sorted by using a binary insertion sort algorithm?",
+        "options": [
+            "a) n",
+            "b) 1",
+            "c) log n",
+            "d) n log n"
+        ],
+        "answer": "c",
+        "explanation": "Binary insertion sort makes log n comparisons in the worst case. Whereas the standard version makes n comparisons in the worst case."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Selection sort",
+            "b) Quick sort",
+            "c) Binary insertion sort",
+            "d) Heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options binary insertion sort is the only algorithm which is stable. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following sorting algorithm uses a binary search?",
+        "options": [
+            "a) radix sort",
+            "b) binary insertion sort",
+            "c) odd-even sort",
+            "d) bead sort"
+        ],
+        "answer": "b",
+        "explanation": "Binary insertion sort makes use of a binary search algorithm. It is used to find the correct index in the array where the element should be inserted."
+    },
+    {
+        "question": "Binary insertion sort is a comparison based sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In insertion sort, we need to compare elements in order to find the minimum element in each iteration. So we can say that it uses comparisons in order to sort the array. Thus it qualifies as a comparison based sort."
+    },
+    {
+        "question": "What is the average case time complexity of binary insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity does not change when we use binary insertion sort in place of standard insertion sort. So the average case time complexity is O(n"
+    },
+    {
+        "question": "What is the best case time complexity of binary insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "The best case time complexity of binary insertion sort is O(n). It occurs in the case when the input is already/almost sorted."
+    },
+    {
+        "question": "What is the worst case time complexity of binary insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity does not change when we use binary insertion sort in place of standard insertion sort. So the worst case time complexity is O(n"
+    },
+    {
+        "question": "Choose the correct statement regarding binary insertion sort?",
+        "options": [
+            "a) It has a better time complexity as compared to the standard version",
+            "b) It has a better space complexity as compared to the standard version",
+            "c) it takes less number of comparisons in the best case as compared to the standard version",
+            "d) it takes less number of comparisons in the worst case as compared to the standard version"
+        ],
+        "answer": "d",
+        "explanation": "Binary insertion sort has the advantage that it takes less number of comparisons in the worst case as compared to the standard version. In the best case, both standard insertion sort and binary insertion sort makes only 1 comparison."
+    },
+    {
+        "question": "What will be the base case in the function of binary search used in the code of binary insertion sort? (high and low are the rightmost and leftmost index of array respectively and item is the element whose correct position is to be determined by the binary search function)",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "The base case of binary search has to be made such that even when the element is not found in the array the function still returns the required index back to the function of insertion sort."
+    },
+    {
+        "question": "What is the auxiliary space complexity of binary insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(n log n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The auxiliary space required by a binary insertion sort is O(1). So it qualifies as an in place sorting algorithm."
+    },
+    {
+        "question": "Which of the following is an adaptive sorting algorithm?",
+        "options": [
+            "a) binary insertion sort",
+            "b) merge sort",
+            "c) heap sort",
+            "d) selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Binary insertion sort is an adaptive algorithm. It is because the time complexity of the algorithm improves when the input array is almost sorted."
+    },
+    {
+        "question": "Which of the following sorting algorithm is in place?",
+        "options": [
+            "a) binary insertion sort",
+            "b) merge sort",
+            "c) radix sort",
+            "d) counting sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options binary insertion sort is the only algorithm which is in place. It is because the auxiliary space required by recursive bubble sort is O(1)."
+    },
+    {
+        "question": "Choose the correct function for binary insertion sort?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The code of binary insertion sort is same as the standard insertion sort except that we are finding the index where the key has to be inserted by using binary search. This reduces the number of comparisons."
+    }
+]

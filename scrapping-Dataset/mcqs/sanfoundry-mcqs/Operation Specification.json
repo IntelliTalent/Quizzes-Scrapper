@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is operation specification and what does it include?",
+        "options": [
+            "a) Specification of an operation\u2019s responsibilities and interface can be collected in one place, in structured",
+            "b) It includes Class or Module, Signatures, Descriptions",
+            "c) It includes Behavior, Implementation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Specification of an operation\u2019s responsibilities and interface can be collected in one place is called operation specification, and It includes Class or Module, Signatures, Descriptions, Behavior, Implementation."
+    },
+    {
+        "question": "What is Signature?",
+        "options": [
+            "a) The operation\u2019s class (in object-oriented designs) or module (in non-object-oriented designs)",
+            "b) The operation name, the names and types of its parameters,and its return type",
+            "c) A sentence or two informally stating the operation\u2019s responsibilities",
+            "d) A detailed description of the algorithm and data structures used to implement this operation"
+        ],
+        "answer": "b",
+        "explanation": "A signature is operation name, the names and types of its parameters, and its return type."
+    },
+    {
+        "question": "What is procedural specification?",
+        "options": [
+            "a) A behavior description that does not use an algorithm",
+            "b) An algorithmic behavior description",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A behavior description that does not use an algorithm is called a declarative specification and algorithmic behavior description is called a procedural specification."
+    },
+    {
+        "question": "Declarative specifications are preferable for which of the following reasons?",
+        "options": [
+            "a) Declarative specifications are more abstract because they ignore implementation details, and consequently they are more concise than procedural specifications",
+            "b) Declarative specifications focus on an operation\u2019s interface, making it clearer how an operation interacts with its callers",
+            "c) Procedural specifications may bias programmers toward the implementation used in the specification",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Declarative specifications are preferable because of all of the mentioned reasons."
+    },
+    {
+        "question": "What is true with respect to operation contract?",
+        "options": [
+            "a) It is a binding agreement between two or more parties",
+            "b) They usually state each party\u2019s rights and obligations",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All the mentioned statements are true with respect to operation contract."
+    },
+    {
+        "question": "What is precondition?",
+        "options": [
+            "a) It is an assertion that must be true at the initiation of an operation",
+            "b) It is an assertion that must be true upon completion of an operation",
+            "c) It is a statement that must be true at a designated point in a program",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A precondition is an assertion that must be true at the initiation of an operation and A post condition is an assertion that must be true upon completion of an operation."
+    },
+    {
+        "question": "Which of the following is incorrect?",
+        "options": [
+            "a) The postconditions express the caller\u2019s obligations and the called operation\u2019s rights",
+            "b) The preconditions express the caller\u2019s rights and the called operation\u2019s obligations",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The preconditions express the caller\u2019s obligations and the called operation\u2019s rights and The postconditions express the caller\u2019s rights and the called operation\u2019s obligations."
+    },
+    {
+        "question": "What is Class Invariant?",
+        "options": [
+            "a) A class invariant is an assertion that must be true of any class instance between calls of its exported operations",
+            "b) Class invariants must be established by class constructors",
+            "c) Class invariants must be preserved by every exported operation in the class",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned depicts class invariant."
+    },
+    {
+        "question": "Which of the following are post condition heuristics?",
+        "options": [
+            "a) Specify restrictions on parameters",
+            "b) Specify conditions that must have been established",
+            "c) Specify empty preconditions as true or none",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are precondition heuristics."
+    },
+    {
+        "question": "Which of the following are class invariant heuristics?",
+        "options": [
+            "a) Specify restrictions on attributes",
+            "b) Specify restrictions on parameters",
+            "c) Specify relationships between the parameters and the results",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Class invariant heuristics-Specify restrictions on attributes and Specify relationships among attributes."
+    }
+]

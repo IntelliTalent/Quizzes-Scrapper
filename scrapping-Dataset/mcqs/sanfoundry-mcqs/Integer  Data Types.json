@@ -1,0 +1,42 @@
+[
+    {
+        "question": "How many Bytes are stored by \u2018Long\u2019 Data type in C# .net?",
+        "options": [
+            "a) 8",
+            "b) 4",
+            "c) 2",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": "\u2018Long\u2019 is the data type keyword used for storing data of unlimited length so by definition its size is always maximum i.e 8."
+    },
+    {
+        "question": "Choose \u201c.NET class\u201d name from which data type \u201cUInt\u201d is derived?",
+        "options": [
+            "a) System.Int16",
+            "b) System.UInt32",
+            "c) System.UInt64",
+            "d) System.UInt16",
+            "i) System.Int16 = short."
+        ],
+        "answer": "b",
+        "explanation": "By Definition class assigned to"
+    },
+    {
+        "question": "Correct Declaration of Values to variables \u2018a\u2019 and \u2018b\u2019?",
+        "options": [
+            "a) int a = 32, b = 40.6;",
+            "b) int a = 42; b = 40;",
+            "c) int a = 32; int b = 40;",
+            "d) int a = b = 42;"
+        ],
+        "answer": "c",
+        "explanation": "i) Although, declaration of \u2018b\u2019 and \u2018a\u2019 are correct but initialization of value to \u2018b\u2019 should be \u2018int\u2019 data type not float."
+    },
+    {
+        "question": "What will be the error in the following C# code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Explanation:\u2019k\u2019 should be declared as const int k = 10/5 * 100*10 i.e only constant values should be assigned to a constant."
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Beaufort cipher is an example of ____________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Beaufort cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in beaufort cipher is done using ____________",
+        "options": [
+            "a) trithemius table",
+            "b) vigenere cycle",
+            "c) tabula recta",
+            "d) four square table"
+        ],
+        "answer": "c",
+        "explanation": "Encryption of plain text in beaufort cipher is done by making use of tabula recta. The same table is also used for encryption in vigenere cipher and running key cipher."
+    },
+    {
+        "question": "Which of the following is reciprocal cipher?",
+        "options": [
+            "a) vigenere cipher",
+            "b) autokey cipher",
+            "c) running key cipher",
+            "d) beaufort cipher"
+        ],
+        "answer": "d",
+        "explanation": "A reciprocal cipher is a cipher in which if we try to encrypt the cipher text (using the same cipher) then we gets the plain text as a result. In other words, the process of decryption and encryption is exactly the same."
+    },
+    {
+        "question": "Which of the following is a difference between beaufort cipher and vigenere cipher?",
+        "options": [
+            "a) they use different tables for encryption",
+            "b) vigenere cipher is poly alphabetic whereas beaufort cipher is mono alphabetic",
+            "c) vigenere cipher uses a key whereas no key is required for using beaufort cipher",
+            "d) they use the same table for encryption, but in a different manner"
+        ],
+        "answer": "d",
+        "explanation": "Beaufort cipher is a variation of vigenere cipher. They use the same table i.e. tabula recta for encryption but the table is used in a different manner."
+    },
+    {
+        "question": "Beaufort cipher is a variant of ____________",
+        "options": [
+            "a) autokey cipher",
+            "b) vigenere cipher",
+            "c) hill cipher",
+            "d) route cipher"
+        ],
+        "answer": "b",
+        "explanation": "Beaufort cipher is a variant of vigenere cipher. The difference is that beaufort cipher uses tabula recta in a different manner for encryption."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cSEDGKG\u201d if beaufort cipher is used with key as \u201cKEY\u201d?",
+        "options": [
+            "a) PRISON",
+            "b) DEATHS",
+            "c) SAVEUS",
+            "d) ABUSED"
+        ],
+        "answer": "c",
+        "explanation": "The process of decryption and encryption are exactly the same in beaufort cipher. So the corresponding plain text would be \u201cSAVEUS\u201d."
+    },
+    {
+        "question": "Beaufort cipher and variant beaufort cipher are same ciphers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Beaufort cipher is different from variant beaufort cipher. Variant beaufort cipher is a variant of beaufort cipher."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cSANFOUNDRY\u201d if beaufort cipher is used for encryption with key as \u201cKEY\u201d?",
+        "options": [
+            "a) SBPISZTKZH",
+            "b) TCQJTAULAI",
+            "c) SELFQEXBHM",
+            "d) SPBISZKTZH"
+        ],
+        "answer": "c",
+        "explanation": "For encrypting plain text choose the first letter of plain text (i.e. S) in the first horizontal row. Then find the first letter of key (i.e. K) in the column obtained in the first step. Finally, choose the leftmost letter of the row (i.e. S) obtained in the previous step. So the corresponding cipher text is \u201cSELFQEXBHM\u201d."
+    },
+    {
+        "question": "What will be the ciphered text corresponding to \u201cALGORITHM\u201d if beaufort cipher is used for encryption with key as \u201cKEY\u201d?",
+        "options": [
+            "a) BNJSWOAPV",
+            "b) KTSWNQRXM",
+            "c) AMIRVNZOU",
+            "d) MBPHJSNIU"
+        ],
+        "answer": "b",
+        "explanation": "For encrypting plain text choose the first letter of plain text (i.e. A) in the first horizontal row. Then find the first letter of key (i.e. K) in the column obtained in the first step. Finally, choose the leftmost letter of the row (i.e. K) obtained in the previous step. So the corresponding cipher text is \u201cKTSWNQRXM\u201d."
+    }
+]

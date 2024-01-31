@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Suppose a relation R = {(3, 3), (5, 5), (5, 3), (5, 5), (6, 6)} on S = {3, 5, 6}. Here R is known as _________",
+        "options": [
+            "a) equivalence relation",
+            "b) reflexive relation",
+            "c) symmetric relation",
+            "d) transitive relation"
+        ],
+        "answer": "a",
+        "explanation": "Here, [3] = {3, 5}, [5] = {3, 5}, [5] = {5}. We can see that [3] = [5] and that S/R will be {[3], [6]} which is a partition of S. Thus, we can choose either {3, 6} or {5, 6} as a set of representatives of the equivalence classes."
+    },
+    {
+        "question": "Consider the congruence 45\u22613(mod 7). Find the set of equivalence class representatives.",
+        "options": [
+            "a) {\u2026, 0, 7, 14, 28, \u2026}",
+            "b) {\u2026, -3, 0, 6, 21, \u2026}",
+            "c) {\u2026, 0, 4, 8, 16, \u2026}",
+            "d) {\u2026, 3, 8, 15, 21, \u2026}"
+        ],
+        "answer": "a",
+        "explanation": "Note that a set of class representatives is the subset of a set which contains exactly one element from each equivalence class. Now, for integers n, a and b, we have congruence a\u2261b(mod n), then the set of equivalence classes are  {\u2026, -2n, -n, 0, n, 2n,\u2026}, {\u2026, 1-2n, 1-n, 1, 1+n, 1+2n,\u2026}. The required answer is {\u2026, 0, 7, 14, 28, \u2026}."
+    },
+    {
+        "question": "Which of the following relations is the reflexive relation over the set {1, 2, 3, 4}?",
+        "options": [
+            "a) {(0,0), (1,1), (2,2), (2,3)}",
+            "b) {(1,1), (1,2), (2,2), (3,3), (4,3), (4,4)}",
+            "c) {,(1,1), (1,2), (2,1), (2,3), (3,4)}",
+            "d) {(0,1), (1,1), (2,3), (2,2), (3,4), (3,1)"
+        ],
+        "answer": "b",
+        "explanation": "{(1,1), (1,2), (2,2), (3,3), (4,3), (4,4)} is a reflexive relation because it contains set = {(1,1), (2,2), (3,3), (4,4)}."
+    },
+    {
+        "question": "Determine the partitions of the set {3, 4, 5, 6, 7} from the following subsets.",
+        "options": [
+            "a) {3,5}, {3,6,7}, {4,5,6}",
+            "b) {3}, {4,6}, {5}, {7}",
+            "c) {3,4,6}, {7}",
+            "d) {5,6}, {5,7}"
+        ],
+        "answer": "b",
+        "explanation": "{3,5}, {3,6,7}, {4,5,6}. It is not a partition because these sets are not pairwise disjoint. The elements 3, 5 and 6 appear repeatedly these sets. {1}, {2,3,6}, {4}, {5} \u2013 this is a partition as they are pairwise disjoint. {3,4,6}, {7} \u2013 this is not a partition as element 5 is missing."
+    },
+    {
+        "question": "Determine the number of equivalence classes that can be described by the set {2, 4, 5}.",
+        "options": [
+            "a) 125",
+            "b) 5",
+            "c) 16",
+            "d) 72"
+        ],
+        "answer": "b",
+        "explanation": "Suppose B={2, 4, 5} and B\u00d7B = (2,2), (4,4), (5,5), (2,4), (4,2), (4,5), (5,4), (2,5), (5,2). A relation R on set B is said to be equivalence relation if R is reflexive, Symmetric, transitive. Hence, total number of equivalence relation=5 out of 2"
+    },
+    {
+        "question": "Determine the number of possible relations in an antisymmetric set with 19 elements.",
+        "options": [
+            "a) 23585",
+            "b) 2.02 * 10",
+            "c) 9.34 * 7",
+            "d) 35893"
+        ],
+        "answer": "b",
+        "explanation": "Number of antisymmetric relation is given:-|A|=n, |AxA|=n xn. Then, N=total number of diagonal will n and we know that N = 2"
+    },
+    {
+        "question": " For a, b \u2208 Z de\ufb01ne a | b to mean that a divides b is a relation which does not satisfy ___________",
+        "options": [
+            "a) irreflexive and symmetric relation",
+            "b) reflexive relation and symmetric relation",
+            "c) transitive relation",
+            "d) symmetric relation"
+        ],
+        "answer": "b",
+        "explanation": " Suppose, a=0, then we know that 0 does not divide 0, 0 \u2224 0 and it is not re\ufb02exive. Again, 2 | 4 but 4 does not 2 and so it is not a symmetric relation."
+    },
+    {
+        "question": "Which of the following is an equivalence relation on R, for a, b \u2208 Z?",
+        "options": [
+            "a) (a-b) \u2208 Z",
+            "b) (a",
+            "c) (ab+cd)/2 \u2208 Z",
+            "d) (2c"
+        ],
+        "answer": "b",
+        "explanation": "Let a \u2208 R, then a\u2212a = 0 and 0 \u2208 Z, so it is reflexive. To see that a-b \u2208 Z is symmetric, then a\u2212b \u2208 Z -&gt  say, a\u2212b = m, where m \u2208 Z \u21d2  b\u2212a = \u2212(a\u2212b)=\u2212m and \u2212m \u2208 Z. Thus, a-b is symmetric. To see that a-b is transitive, let a, b, c \u2208 R. Thus, a\u2212b \u2208 Z; b\u2212c \u2208 Z. Let a\u2212b = i and b\u2212c = j, for integers i,j \u2208 Z. Then a\u2212c ='(a\u2212b)+(b\u2212c)=i + j. So, a\u2212c \u2208 Z. Therefore a \u2013 c is transitive. Hence, (a-b) is an equivalence relation on the set R. Rest of the options are not equivalence relations."
+    },
+    {
+        "question": "Determine the set of all integers a such that a \u2261 3 (mod 7) such that \u221221 \u2264 x \u2264 21.",
+        "options": [
+            "a) {\u221221, \u221218, \u221211, \u22124, 3, 10, 16}",
+            "b) {\u221221, \u221218, \u221211, \u22124, 3, 10, 17, 24}",
+            "c) {\u221224, -19, -15, 5, 0, 6, 10}",
+            "d) {\u221223, \u221217, \u221211, 0, 2, 8, 16}"
+        ],
+        "answer": "b",
+        "explanation": " For an integer a we have x \u2261 3 (mod 7) if and only if a = 7m + 3. Thus, by calculating multiples of 7, add 3 and restrict the value of a, so that \u221221 \u2264 x \u2264 21. The set for a = {\u221221, \u221218, \u221211, \u22124, 3, 10, 17, 24}."
+    },
+    {
+        "question": "For a, b \u2208 R de\ufb01ne a = b to mean that |x| = |y|. If [x] is an equivalence relation in R. Find the equivalence relation for [17].",
+        "options": [
+            "a) {,\u2026,-11, -7, 0, 7, 11,\u2026}",
+            "b) {2, 4, 9, 11, 15,\u2026}",
+            "c) {-17, 17}",
+            "d) {5, 25, 125,\u2026}"
+        ],
+        "answer": "c",
+        "explanation": "We can find that [17] = {a \u2208 R|a = 17} = {a \u2208 R||a| = |17|} = {-17, 17} and [\u221217] = {a \u2208 R|a = \u221217} = {a \u2208 R||a| = |\u221217|}= {\u221217, 17}. Hence, the required equivalence relation is {-17, 17}."
+    }
+]

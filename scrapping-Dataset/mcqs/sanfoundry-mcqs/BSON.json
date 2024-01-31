@@ -1,0 +1,79 @@
+[
+    {
+        "question": "_________ is a binary serialization format used to store documents and make remote procedure calls in MongoDB.",
+        "options": [
+            "a) BSON",
+            "b) GridFS",
+            "c) JSON",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "BSON supports many data types as values in documents."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) ObjectIds are small, likely unique, fast to generate, and ordered",
+            "b) ObjectIds are large, likely unique, and ordered",
+            "c) ObjectIds values consists of 18-byte",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In MongoDB, documents stored in a collection require a unique _id field that acts as a primary key."
+    },
+    {
+        "question": "Which of the following data type is depreciated?",
+        "options": [
+            "a) Double",
+            "b) String",
+            "c) Object",
+            "d) Undefined"
+        ],
+        "answer": "d",
+        "explanation": " MongoDB treats some types as an equivalent for comparison purposes."
+    },
+    {
+        "question": "Each data type has a corresponding number that can be used with the _______ operator to query documents by BSON type.",
+        "options": [
+            "a) $type",
+            "b) $server",
+            "c) $agent",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "$type selects the documents where the value of the field is an instance of the specified numeric BSON type."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) BSON Date is a 32-bit integer that represents the number of milliseconds",
+            "b) The BSON timestamp type is for internal MongoDB use",
+            "c) If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This results in a representable date range of about 290 million years into the past and future."
+    },
+    {
+        "question": "There is _________ byte counter in BSON, starting with a random value.",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " ObjectId is a 12-byte BSON type"
+    },
+    {
+        "question": "In the mongo shell, you can access the creation time of the ObjectId, using the ______ method.",
+        "options": [
+            "a) getTime()",
+            "b) getTimestamp()",
+            "c) Timestamp()",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " MongoDB clients should add an _id field with a unique ObjectId."
+    }
+]

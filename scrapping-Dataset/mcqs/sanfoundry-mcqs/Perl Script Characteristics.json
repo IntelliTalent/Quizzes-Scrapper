@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Perl scripts are text files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Perl scripts are text files, which can be ceated using any text editor. All Perl scripts generally begin with a #! (shebang) line. A script is a file containing a sequence of commands."
+    },
+    {
+        "question": "The shebang line is ______________",
+        "options": [
+            "a) #!",
+            "b) !#",
+            "c) #$",
+            "d) $#"
+        ],
+        "answer": "a",
+        "explanation": "The Perl scripts are text files, which can be ceated using any text editor. All Perl scripts generally begin with a #! (shebang) line. A script is a file containing a sequence of commands."
+    },
+    {
+        "question": "The Perl DBI is ______________",
+        "options": [
+            "a) database inheritance",
+            "b) database integrity",
+            "c) database interface",
+            "d) database isolation"
+        ],
+        "answer": "c",
+        "explanation": "The Perl DBI is the Perl Database Interface. The work of the interface is to form a link between the application programming interface in C with all the other programming languages."
+    },
+    {
+        "question": "The default path to perl in Unix is ______________",
+        "options": [
+            "a) /usr/bin/perl",
+            "b) /usr/bin",
+            "c) /usr/perl",
+            "d) /usr/perl/bin"
+        ],
+        "answer": "a",
+        "explanation": "All Perl scripts generally begin with a #! (shebang) line. A script is a file containing a sequence of commands. The Perl scripts are text files, which can be ceated using any text editor."
+    },
+    {
+        "question": "Which of these is not optional?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Given above was a basic syntax of the SELECT statement. Everything in the syntax is optional except the \u2018select_list\u2019 option. All the others are free to be omitted, and will work fine."
+    },
+    {
+        "question": "Which is the join in which all the rows from the right table appear in the output irrespective of the content of the other table?",
+        "options": [
+            "a) CARTESIAN JOIN",
+            "b) CROSS JOIN",
+            "c) INNER JOIN",
+            "d) RIGHT JOIN"
+        ],
+        "answer": "d",
+        "explanation": "In a \u2018RIGHT JOIN\u2019, the output is produced for every row of the right table, even if it does not exist in the other table. This is the reason why it is called a \u2018RIGHT JOIN\u2019. \u2018RIGHT JOIN\u2019 and \u2018LEFT JOIN\u2019 are a kind of OUTER JOIN."
+    },
+    {
+        "question": "What is the facility that allows nesting one select statement into another?",
+        "options": [
+            "a) nesting",
+            "b) binding",
+            "c) subquerying",
+            "d) encapsulating"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018subquerying\u2019 support provided by MySQL is a capability that allows writing one \u2018SELECT\u2019 statement within parentheses and nesting within another. This allows logically selecting content from tables."
+    },
+    {
+        "question": "Which of these operators does not perform relative value comparisons?",
+        "options": [
+            "a) =",
+            "b) ==",
+            "c) <=",
+            "d) >="
+        ],
+        "answer": "b",
+        "explanation": "The operators =, <>, >, >=, <, and >= perform relative value comparisons in MySQL. \u2018==\u2019 is not a valid comparison operator in MySQL. Such operators are useful in filtering information from a table."
+    },
+    {
+        "question": "To combine multiple retrievals, which keyword is used to write several SELECT statements between them?",
+        "options": [
+            "a) COMBINE",
+            "b) CONCAT",
+            "c) JOIN",
+            "d) UNION"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018UNION\u2019 operator is used for combining the results of various \u2018SELECT\u2019 queries into one. For example, \u2018SELECT a FROM table1 UNION SELECT a FROM table2;\u2019 produces the results from tables table1 concatenated with that of table2."
+    },
+    {
+        "question": "Issuing \u2018SELECT\u2019 on a MERGE table is like _____________",
+        "options": [
+            "a) UNION",
+            "b) UNION ALL",
+            "c) UNION DISTINCT",
+            "d) JOIN"
+        ],
+        "answer": "b",
+        "explanation": "Performing a \u2018SELECT\u2019 operation on a \u2018MERGE\u2019 table is like performing \u2018UNION ALL\u2019. This means that duplicate row results are not removed. \u2018SELECT DISTINCT\u2019 is like \u2018UNION\u2019 or \u2018UNION DISTINCT\u2019."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "question": "If Matrix A is of order X*Y and Matrix B is of order M*N, then what is the order of the Matrix A*B given that Y=M?",
+        "options": [
+            "a) Y*N",
+            "b) X*M",
+            "c) X*N",
+            "d) Y*M"
+        ],
+        "answer": "c",
+        "explanation": "The Matrix A*B is of order X*N as it is given that Y=M i.e. number of columns in Matrix A is equal to total number of rows in matrix B. So the Matrix A*B must have X number of rows and N number of columns."
+    },
+    {
+        "question": "How many recursive calls are there in Recursive matrix multiplication through Simple Divide and Conquer Method?",
+        "options": [
+            "a) 2",
+            "b) 6",
+            "c) 9",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "For the multiplication two square matrix recursively using Simple Divide and Conquer Method, there are 8 recursive calls performed for high time complexity."
+    },
+    {
+        "question": "What is the time complexity of matrix multiplied recursively by Divide and Conquer Method?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n!)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of recursive multiplication of two square matrices by the Divide and Conquer method is found to be O(n"
+    },
+    {
+        "question": "What is the time complexity of matrix multiplied recursively by Strassen\u2019s Method?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n!)"
+        ],
+        "answer": "a",
+        "explanation": "The time complexity of recursive multiplication of two square matrices by Strassen\u2019s Method is found to be O(n"
+    },
+    {
+        "question": "How many recursive calls are there in Recursive matrix multiplication by Strassen\u2019s Method?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 8",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "For the multiplication two square matrix recursively using Strassen\u2019s Method, there are 7 recursive calls performed for high time complexity."
+    },
+    {
+        "question": "Matrix A is of order 3*4 and Matrix B is of order 4*5. How many elements will be there in a matrix A*B multiplied recursively.",
+        "options": [
+            "a) 12",
+            "b) 15",
+            "c) 16",
+            "d) 20"
+        ],
+        "answer": "b",
+        "explanation": "The resultant matrix will be of order 3*5 when multiplied recursively and therefore the matrix will have 3*5=15 elements."
+    },
+    {
+        "question": "If Matrix X is of order A*B and Matrix Y is of order C*D, and B=C then the order of the Matrix X*Y is A*D?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Given that B=C, so the two matrix can be recursively multiplied. Therefore, the order of the Matrix X*Y is A*D."
+    },
+    {
+        "question": "What is the time complexity of the fastest known matrix multiplication algorithm?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n!)"
+        ],
+        "answer": "b",
+        "explanation": "The Coppersmith-Winograd algorithm multiplies the matrices in O(n"
+    },
+    {
+        "question": "Is Coppersmith-Winograd algorithm better than Strassen\u2019s algorithm in terms of time complexity?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since The Coppersmith-Winograd algorithm multiplies the matrices in O(n"
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Quick sort uses which of the following algorithm to implement sorting?",
+        "options": [
+            "a) backtracking",
+            "b) greedy algorithm",
+            "c) divide and conquer",
+            "d) dynamic programming"
+        ],
+        "answer": "c",
+        "explanation": "Quick sort uses the technique of divide and conquer in order to sort a given array. It divides the array into two parts about the pivot and then apply a quick sort to both the parts."
+    },
+    {
+        "question": "What is a randomized quick sort?",
+        "options": [
+            "a) quick sort with random partitions",
+            "b) quick sort with random choice of pivot",
+            "c) quick sort with random output",
+            "d) quick sort with random input"
+        ],
+        "answer": "b",
+        "explanation": "Randomized quick sort chooses a random element as a pivot. It is done so as to avoid the worst case of quick sort in which the input array is already sorted."
+    },
+    {
+        "question": "What is the purpose of using randomized quick sort over standard quick sort?",
+        "options": [
+            "a) so as to avoid worst case time complexity",
+            "b) so as to avoid worst case space complexity",
+            "c) to improve accuracy of output",
+            "d) to improve average case time complexity"
+        ],
+        "answer": "a",
+        "explanation": "Randomized quick sort helps in avoiding the worst case time complexity of O(n2) which occurs in case when the input array is already sorted. However the average case and best case time complexities remain unaltered."
+    },
+    {
+        "question": "What is the auxiliary space complexity of randomized quick sort?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "Auxiliary space complexity of randomized quick sort is O(log n) which is used for storing call stack formed due to recursion. Note that the algorithms with space complexity as O(log n) also qualifies as in place algorithms as the value of log n is close to 1."
+    },
+    {
+        "question": "What is the average time complexity of randomized quick sort?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n log n"
+        ],
+        "answer": "a",
+        "explanation": "The average case time complexity of randomized quick sort is same as that of standard quick sort as randomized quick sort only helps in preventing the worst case. It is equal to O(n log n)."
+    },
+    {
+        "question": "Quick sort uses which of the following method to implement sorting?",
+        "options": [
+            "a) merging",
+            "b) partitioning",
+            "c) selection",
+            "d) exchanging"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort makes partitions of the input array about the pivot in order to implement sorting. Thus its method of sorting is called partitioning."
+    },
+    {
+        "question": "Randomized quick sort is an in place sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "In-place algorithms requires constant or very less auxiliary space. Quick sort qualifies as an in place sorting algorithm as it has a very low auxiliary space requirement of O(log n)."
+    },
+    {
+        "question": "Randomized quick sort is a stable sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Randomized quick sort like standard quick sort is also not a stable sorting algorithm. It is because the elements with the same values are not guaranteed to appear in the same relative order in the output sorted array."
+    },
+    {
+        "question": "What is the best case time complexity randomized quick sort?",
+        "options": [
+            "a) O(log n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "Best case time complexity is given in the case when there is equal partitioning of the array about the pivot. It is given by the relation T(n) = 2T(n/2) + n which gives the result O(n log n)."
+    },
+    {
+        "question": "Which of the following is incorrect about randomized quicksort?",
+        "options": [
+            "a) it has the same time complexity as standard quick sort",
+            "b) it has the same space complexity as standard quick sort",
+            "c) it is an in-place sorting algorithm",
+            "d) it cannot have a time complexity of O(n"
+        ],
+        "answer": "d",
+        "explanation": "Randomized quick sort prevents the worst case complexity of O(n"
+    },
+    {
+        "question": "Which of the following function chooses a random index as pivot.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "For generating unique random numbers every time we use srand(time(NULL)). Then after generating the random index we swap the value of element at the random index with the element at last index."
+    },
+    {
+        "question": "What is the worst case time complexity of randomized quicksort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "Randomized quicksort prevents the worst case complexity of O(n"
+    }
+]

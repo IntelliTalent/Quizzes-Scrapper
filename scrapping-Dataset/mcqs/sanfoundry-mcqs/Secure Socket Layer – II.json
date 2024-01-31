@@ -1,0 +1,158 @@
+[
+    {
+        "question": "Number of phases in the handshaking protocol?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "c",
+        "explanation": "There are 4 phases in the handshaking protocol. These are \u2013"
+    },
+    {
+        "question": "In the SSL record protocol operation pad_2 is \u2013",
+        "options": [
+            "a) is the byte 0x36 repeated 40 times for MD5",
+            "b) is the byte 0x5C repeated 48 times for MD5",
+            "c) is the byte 0x5C repeated 48 times for SHA-1",
+            "d) is the byte 0x36 repeated 48 times for MD5"
+        ],
+        "answer": "b",
+        "explanation": "pad_2 = is the byte 0x5C repeated 48 times for MD5."
+    },
+    {
+        "question": "3.In the SSL record protocol operation pad_1 is \u2013",
+        "options": [
+            "a) is the byte 0x36 repeated 40 times for MD5",
+            "b) is the byte 0x5C repeated 40 times for MD5",
+            "c) is the byte 0x5C repeated 48 times for SHA-1",
+            "d) is the byte 0x36 repeated 48 times for MD5"
+        ],
+        "answer": "d",
+        "explanation": "pad_1 = is the byte 0x36 repeated 48 times for MD5."
+    },
+    {
+        "question": "In the Handshake protocol action,  which is the last step of the Phase 2 : Server Authentication and Key Exchange?",
+        "options": [
+            "a) server_done",
+            "b) server_key_exchange",
+            "c) certificate_request",
+            "d) crtificate_verify"
+        ],
+        "answer": "a",
+        "explanation": "The last step of the Phase 2 is the server_done step."
+    },
+    {
+        "question": "Which is the key exchange algorithm used in CipherSuite parameter?",
+        "options": [
+            "a) RSA",
+            "b) Fixed Diffie-Hellman",
+            "c) Ephemeral Diffie-Hellman",
+            "d) Any of the mentioned",
+            "i) RSA",
+            "v) Fortezza."
+        ],
+        "answer": "d",
+        "explanation": "We can use either of the following for the CipherSuite key exchange-"
+    },
+    {
+        "question": "6.The certificate message is required for any agreed-on key exchange method except _______________",
+        "options": [
+            "a) Ephemeral Diffie-Hellman",
+            "b) Anonymous Diffie-Hellman",
+            "c) Fixed Diffie-Hellman",
+            "d) RSA"
+        ],
+        "answer": "b",
+        "explanation": "The certificate message is required for any agreed-on key exchange method except Anonymous Diffie-Hellman."
+    },
+    {
+        "question": "In the Phase 2 of the Handshake Protocol Action, the step server_key_exchange is not needed for which of the following cipher systems?",
+        "options": [
+            "a) Fortezza",
+            "b) Anonymous Diffie-Hellman",
+            "c) Fixed Diffie-Hellman",
+            "d) RSA"
+        ],
+        "answer": "c",
+        "explanation": "The Fixed Diffie-Helmann  does not require the server_key_exchange step in the handshake protocol."
+    },
+    {
+        "question": "The DSS signature uses which hash algorithm?",
+        "options": [
+            "a) MD5",
+            "b) SHA-2",
+            "c) SHA-1",
+            "d) Does not use hash algorithm"
+        ],
+        "answer": "c",
+        "explanation": "The DSS signature uses SHA-1."
+    },
+    {
+        "question": "The RSA signature uses which hash algorithm?",
+        "options": [
+            "a) MD5",
+            "b) SHA-1",
+            "c) MD5 and SHA-1",
+            "d) None of the mentioned."
+        ],
+        "answer": "c",
+        "explanation": "The MD5 and SHA-1 hash is concatenated together and the then encrypted with the server\u2019s private key."
+    },
+    {
+        "question": "What is the size of the RSA signature hash after the MD5 and SHA-1 processing?",
+        "options": [
+            "a) 42 bytes",
+            "b) 32 bytes",
+            "c) 36 bytes",
+            "d) 48 bytes"
+        ],
+        "answer": "c",
+        "explanation": "The size is 36 bytes after MD5 and SHA-1 processing."
+    },
+    {
+        "question": "The certificate_request massage includes two parameters, one of which is-",
+        "options": [
+            "a) certificate_extension",
+            "b) certificate_creation",
+            "c) certificate_exchange",
+            "d) certificate_type"
+        ],
+        "answer": "d",
+        "explanation": "The certificate_request massage includes two parameters : certificate_type and certificate_authorities."
+    },
+    {
+        "question": "The client_key_exchange message uses a pre master key of size \u2013",
+        "options": [
+            "a) 48 bytes",
+            "b) 56 bytes",
+            "c) 64 bytes",
+            "d) 32 bytes"
+        ],
+        "answer": "a",
+        "explanation": "The client_key_exchange message uses a pre master key of size 48 bytes."
+    },
+    {
+        "question": "The certificate_verify message involves the process defined by the pseudo-code (in terms of MD5) \u2013",
+        "options": [
+            "a) Yes. pad_1 and pad_2 should be interchanged",
+            "b) Yes. pad\u2019s should be present towards the end",
+            "c) Yes. master_key should not be used, the pre_master key should be used",
+            "d) No Error"
+        ],
+        "answer": "d",
+        "explanation": "The code is correct with no errors."
+    },
+    {
+        "question": "In the handshake protocol which is the message type first sent between client and server ?",
+        "options": [
+            "a) server_hello",
+            "b) client_hello",
+            "c) hello_request",
+            "d) certificate_request"
+        ],
+        "answer": "b",
+        "explanation": "Interaction between the client and server starts via the client_hello message."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "question": "How many comparisons will be made to sort the array arr={1,5,3,8,2} using pigeonhole sort?",
+        "options": [
+            "a) 5",
+            "b) 7",
+            "c) 9",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "As pigeonhole sort is an example of a non-comparison sort so it is able to sort an array without making any comparison. So 0 comparisons are required."
+    },
+    {
+        "question": "Which of the following is a non-comparison sort?",
+        "options": [
+            "a) heap sort",
+            "b) quick sort",
+            "c) merge sort",
+            "d) pigeonhole sort"
+        ],
+        "answer": "d",
+        "explanation": "Heap sort, merge sort and quick sort are examples of comparison sort as it needs to compare array elements in order to sort an array. Whereas pigeonhole sort is a non-comparison based sort."
+    },
+    {
+        "question": "In which of the following case pigeonhole sort is most efficient?",
+        "options": [
+            "a) when range of input is less than number of elements",
+            "b) when range of input is more than number of elements",
+            "c) when range of input is comparable to the number of elements",
+            "d) when the given array is almost sorted"
+        ],
+        "answer": "c",
+        "explanation": "Pigeonhole sort is a non-comparison based sort. It is most efficient in the case where the number of elements are comparable to the input range."
+    },
+    {
+        "question": "What is the space complexity of pigeonhole sort (k=range of input)?",
+        "options": [
+            "a) O(n*k)",
+            "b) O(n)",
+            "c) O(k)",
+            "d) O(n+k)"
+        ],
+        "answer": "d",
+        "explanation": "Pigeonhole sort algorithm requires two arrays. The first one is required to store the input elements so its size is n. The second one is the pigeonhole array and has a size equal to range k. Overall space complexity becomes O(n+k)."
+    },
+    {
+        "question": "The auxiliary array used in pigeonhole sorting is called ______________",
+        "options": [
+            "a) bucket",
+            "b) pigeon",
+            "c) hole",
+            "d) pigeonhole"
+        ],
+        "answer": "d",
+        "explanation": "The auxiliary array used in pigeonhole sorting is called pigeonhole. It is used to store every element in its corresponding hole."
+    },
+    {
+        "question": "Pigeonhole sort is a stable sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Pigeonhole sort is an example of a stable sorting algorithm. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Pigeonhole sort is an in place sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Pigeonhole sort requires space of O(n+k). So it does not qualify to be an in place sorting algorithm."
+    },
+    {
+        "question": "What is the average time complexity of pigeonhole sort (k=range of input)?",
+        "options": [
+            "a) O(n)",
+            "b) O(n+k)",
+            "c) O(n",
+            "d) O(n*k)"
+        ],
+        "answer": "b",
+        "explanation": "Time complexity of pigeonhole sort is O(n+k). It has two loops. One of the loops runs from 0 to range(k) and the other one runs from 0 to n so the time complexity becomes O(n+k)."
+    },
+    {
+        "question": "The complexity of which of the following sorting algorithms remains to be the same in its best, average and worst case?",
+        "options": [
+            "a) quick sort",
+            "b) insertion sort",
+            "c) pigeonhole sort",
+            "d) bubble sort"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of pigeonhole remains unvaried in all three cases. It is given by O(n+k). But it is efficient only when the number of elements is comparable to the input range."
+    },
+    {
+        "question": "Choose the correct statement from the following.",
+        "options": [
+            "a) pigeonhole sort is a comparison based sort",
+            "b) any comparison based sorting can be made stable",
+            "c) quick sort is not a comparison based sort",
+            "d) any comparison based sort requires at least O(n"
+        ],
+        "answer": "b",
+        "explanation": "Any comparison based sorting technique can be made stable by considering the position as criteria while making comparisons. Pigeonhole sort is a stable sort."
+    },
+    {
+        "question": "What is the advantage of pigeonhole sort over merge sort?",
+        "options": [
+            "a) pigeonhole sort has lesser time complexity when range is comparable to number of input elements",
+            "b) pigeonhole sort has lesser space complexity",
+            "c) counting sort is not a comparison based sorting technique",
+            "d) pigeonhole sort is adaptive"
+        ],
+        "answer": "a",
+        "explanation": "Pigeonhole sort is efficient in the cases where the range is comparable to a number of input elements as it performs sorting in linear time. Whereas merge sort takes O(n log n) in any case."
+    },
+    {
+        "question": "Which of the following function represents pigeonhole sort correctly?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In pigeonhole sort, we first find the maximum and minimum elements. Then we place the elements in their corresponding holes and then finally put them back into the original array. This sorts the given input."
+    },
+    {
+        "question": "Which of the following algorithm takes linear time for sorting?",
+        "options": [
+            "a) pigeonhole sort",
+            "b) heap sort",
+            "c) comb sort",
+            "d) cycle sort"
+        ],
+        "answer": "a",
+        "explanation": "Pigeonhole sort has a linear time complexity of O(n+k). Whereas all other given options have a non linear time complexity. But it should be noted that pigeonhole sort may not be efficient in every case."
+    }
+]

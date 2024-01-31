@@ -1,0 +1,95 @@
+[
+    {
+        "question": "For InnoDB tables in mysqldump an online backup that takes no locks on tables can be performed by ______________",
+        "options": [
+            "a) \u2013multiple-transaction",
+            "b) \u2013single-transaction",
+            "c) \u2013double-transaction",
+            "d) \u2013no-transaction"
+        ],
+        "answer": "b",
+        "explanation": "For InnoDB tables it is possible to perform an online backup that takes no locks on tables using the option \u2018\u2013single-transaction\u2019 to \u2018mysqldump\u2019. The \u2018mysqldump\u2019 can make backups."
+    },
+    {
+        "question": "To reload a delimited text data file use ______________",
+        "options": [
+            "a) mysqldump",
+            "b) mysqld",
+            "c) mysqlimport",
+            "d) mysqlnaive"
+        ],
+        "answer": "c",
+        "explanation": "A way to create text data files along with files containing \u2018CREATE TABLE\u2019 statements for the backed up tables is to use \u2018mysqldump\u2019 with \u2013tab. To reload a delimited text data file \u2018mysqlimport\u2019 is used."
+    },
+    {
+        "question": "Replication enables data from one MySQL database server to be copied to one or more MySQL database servers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Replication enables data from one MySQL database server (the master) to be copied to one or more MySQL database servers (the slaves). Replication is asynchronous by default."
+    },
+    {
+        "question": "SBR replication is ______________",
+        "options": [
+            "a) Statement based",
+            "b) Row based",
+            "c) Column based",
+            "d) Table based"
+        ],
+        "answer": "a",
+        "explanation": "There are two main kinds of replication format: Statement Based Replication (SBR) replicates entire SQL statements and Row Based Replication (RBR) replicates only the changed rows."
+    },
+    {
+        "question": "The library file that contains various portability macros and definitions is ______________",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018my_sys.h\u2019 header file contains a variety of portability macros and definitions required for structures and functions. These structures and functions are used by the client library."
+    },
+    {
+        "question": "The header that should be included first is ______________",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "a",
+        "explanation": "The file \u2018my_global.h\u2019 takes care of including several other header files that are likely to be generally useful, like \u2018stdio.h\u2019. It also includes Windows compatibility information."
+    },
+    {
+        "question": "Which of the following use \u2018NULL\u2019 to indicate failure?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Both of the client library routines named \u2018mysql_init()\u2019 and \u2018mysql_real_connect()\u2019 return a pointer to the connection handler in order to indicate success and NULL to indicate failure."
+    },
+    {
+        "question": "Which of the following does not return a value?",
+        "options": [],
+        "answer": "b",
+        "explanation": "It is not necessary that every Application Programming Interface call would return a value. For example, the client routine named \u2018mysql_close()\u2019 returns void, that is, it does not return a value."
+    },
+    {
+        "question": "What is the general statement-issuing routine?",
+        "options": [
+            "a) mysql_real_query()",
+            "b) mysql_query_real()",
+            "c) mysql_image_query()",
+            "d) mysql_query_image()"
+        ],
+        "answer": "a",
+        "explanation": "The general statement-issuing routine is mysql_real_query(). The statement is provided as a counted string (a string plus a length). The length of the statement string must be kept track of."
+    },
+    {
+        "question": "The most restrictive among the following is ______________",
+        "options": [],
+        "answer": "a",
+        "explanation": "The statement-issuing function other than \u2018mysql_real_query()\u2019 is \u2018mysql_query()\u2019. It is more restrictive in what it allows in the statement string although it is often easier to use."
+    }
+]

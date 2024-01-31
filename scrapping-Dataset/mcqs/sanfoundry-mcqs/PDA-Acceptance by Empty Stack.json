@@ -1,0 +1,112 @@
+[
+    {
+        "question": "If two sets, R and T has no elements in common i.e. R\u00c7T=\u00c6, then the sets are called",
+        "options": [
+            "a) Complement",
+            "b) Union",
+            "c) Disjoint",
+            "d) Connected"
+        ],
+        "answer": "c",
+        "explanation": "Two sets are called disjoint if they have no elements in common i.e.  R\u00c7T=\u00c6."
+    },
+    {
+        "question": "Which among the following is not a part of the Context free grammar tuple?",
+        "options": [
+            "a) End symbol",
+            "b) Start symbol",
+            "c) Variable",
+            "d) Production"
+        ],
+        "answer": "a",
+        "explanation": "The tuple definition of context free grammar is: (V, T, P, S) where V=set of variables, T=set of terminals, P=production, S= Starting Variable."
+    },
+    {
+        "question": "A context free grammar is a ___________",
+        "options": [
+            "a) English grammar",
+            "b) Regular grammar",
+            "c) Context sensitive grammar",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Context free grammar is the set which belongs to the set of context free grammar. Similarly, Regular grammar is a set which belongs to the the set of Context free grammar."
+    },
+    {
+        "question": "The closure property of context free grammar includes :",
+        "options": [
+            "a) Kleene",
+            "b) Concatenation",
+            "c) Union",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Context free grammars are closed under kleene operation, union and concatenation too."
+    },
+    {
+        "question": "Which of the following automata takes stack as auxiliary storage?",
+        "options": [
+            "a) Finite automata",
+            "b) Push down automata",
+            "c) Turing machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Pushdown Automaton uses stack as an auxiliary storage for its operations. Turing machines use Queue for the same."
+    },
+    {
+        "question": "Which of the following automata takes queue as an auxiliary storage?",
+        "options": [
+            "a) Finite automata",
+            "b) Push down automata",
+            "c) Turing machine",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Pushdown Automaton uses stack as an auxiliary storage for its operations. Turing machines use Queue for the same."
+    },
+    {
+        "question": "A context free grammar can be recognized by",
+        "options": [
+            "a) Push down automata",
+            "b) 2 way linearly bounded automata",
+            "c) Push down automata & 2 way linearly bounded automata",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A linearly bounded automata is a restricted non deterministic turing machine which is capable of accepting ant context free grammar."
+    },
+    {
+        "question": "A null production can be referred to as:",
+        "options": [
+            "a) String",
+            "b) Symbol",
+            "c) Word",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Null production is always taken as a string in computational theory."
+    },
+    {
+        "question": "The context free grammar which generates a Regular Language is termed as:",
+        "options": [
+            "a) Context Regular Grammar",
+            "b) Regular Grammar",
+            "c) Context Sensitive Grammar",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Regular grammar is a subset of Context free grammar. The CFGs which produces a language for which a finite automaton can be created is called Regular grammar."
+    },
+    {
+        "question": "NPDA stands for",
+        "options": [
+            "a) Non-Deterministic Push Down Automata",
+            "b) Null-Push Down Automata",
+            "c) Nested Push Down Automata",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "NPDA stands for non-deterministic push down automata whereas DPDA stands for deterministic push down automata."
+    }
+]

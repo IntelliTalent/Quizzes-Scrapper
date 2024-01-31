@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The _____ JavaScript engine allows multiple JavaScript operations to execute at the same time.",
+        "options": [
+            "a) V8",
+            "b) V12",
+            "c) V7",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "V8 JavaScript engine became the default engine in 2.4 version."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The read phase takes a exclusive lock",
+            "b) The map-reduce operation is composed of many tasks",
+            "c) Prior to version 3, JavaScript code executed in a single thread",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It includes reads from the input collection, executions of the map function, executions of the reduce function, writes to a temporary collection during processing, and writes to the output collection."
+    },
+    {
+        "question": "If the ______ field for mapReduce has the sharded value, MongoDB shards the output collection using the _id field as the shard key.",
+        "options": [
+            "a) input",
+            "b) $in",
+            "c) $out",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "During the post-processing, each shard will pull the results for its own chunks from the other shards, run the final reduce/finalize, and write locally to the output collection."
+    },
+    {
+        "question": "In MongoDB __________ mongos retrieves the results from each shard, performs a merge sort to order the results.",
+        "options": [
+            "a) 3.0",
+            "b) 2.0",
+            "c) 1.0",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This model requires only a small amount of memory, even for large data sets."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If the output collection does not exist, MongoDB creates and shards the collection on the _id field",
+            "b) Map-reduce supports operations on sharded collections, both as an input and as an output",
+            "c) mongos dispatches, in parallel, a map-reduce post-processing job to every shard that owns a chunk",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "When using sharded collection as the input for a map-reduce operation, mongos will automatically dispatch the map-reduce job to each shard in parallel."
+    },
+    {
+        "question": "Which of the following function follows the reduce method and modifies the output?",
+        "options": [
+            "a) finalize",
+            "b) final",
+            "c) max",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Finalize fucntion is optional for mapreduce operation."
+    },
+    {
+        "question": "__________ specifies global variables that are accessible in the map.",
+        "options": [
+            "a) jsMode",
+            "b) scope",
+            "c) finalize",
+            "d) Min"
+        ],
+        "answer": "b",
+        "explanation": "It can also access reduce functions."
+    },
+    {
+        "question": "MongoDB converts the JavaScript objects emitted by the map function to ________ objects.",
+        "options": [
+            "a) BSON",
+            "b) JSON",
+            "c) Javascript",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "These BSON objects are then converted back to JavaScript objects when calling the reduce function."
+    },
+    {
+        "question": "You can only use jsMode for result sets with fewer than 500,000 distinct key arguments to the mapper\u2019s _______ function.",
+        "options": [
+            "a) emit()",
+            "b) emitter()",
+            "c) emitted()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A single emit can only hold half of MongoDB\u2019s maximum BSON document size."
+    },
+    {
+        "question": "Which of the following mode defaults to false?",
+        "options": [
+            "a) jsMode",
+            "b) scope",
+            "c) finalize",
+            "d) min"
+        ],
+        "answer": "a",
+        "explanation": "Internally, the JavaScript objects emitted during map function remain as JavaScript objects."
+    }
+]

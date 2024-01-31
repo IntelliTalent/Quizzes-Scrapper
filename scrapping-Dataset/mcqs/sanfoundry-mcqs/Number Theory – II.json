@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Find the order of the group G = <Z12*, \u00d7>?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "It can be obtained using Euler Phi function, i.e. f(n)."
+    },
+    {
+        "question": "Find the order of the group G = <Z21*, \u00d7>?",
+        "options": [
+            "a) 12",
+            "b) 8",
+            "c) 13",
+            "d) 11"
+        ],
+        "answer": "a",
+        "explanation": "|G| = f(21) = f(3) \u00d7 f(7) = 2 \u00d7 6 =12"
+    },
+    {
+        "question": "Find the order of group G= <Z20*, x>",
+        "options": [
+            "a) 6",
+            "b) 9",
+            "c) 10",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "|G| = f(20) = f(4) \u00d7 f(5) = f(22) \u00d7 f(5) = (22-21)(51-50) = 8."
+    },
+    {
+        "question": "Find the order of group G= <Z7*, x>",
+        "options": [
+            "a) 6",
+            "b) 4",
+            "c) 3",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "|G| = f(7) = (71-70) = 6"
+    },
+    {
+        "question": "In the group G = <Zn*, \u00d7>, when the order of an element is the same as order of the group (i.e. f(n)), that element is called the Non \u2013 primitive root of the group.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Such a group is called the primitive root of the group."
+    }
+]

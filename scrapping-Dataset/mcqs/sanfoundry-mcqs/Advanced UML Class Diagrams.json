@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Detailed design is further classified into which of the following?",
+        "options": [
+            "a) Mid-Level Design",
+            "b) Low-Level Design",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Detailed design is further classified as mid level and low level design."
+    },
+    {
+        "question": "Mid-level design is the activity of specifying software at the level of medium-sized components such as?",
+        "options": [
+            "a) Compilation units or classes",
+            "b) Their Properties, Relationship",
+            "c) Interaction of units",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Mid-level design is the activity of specifying software at the level of medium-sized components such as Compilation units or classes,  their Properties, Relationship and Interaction of units."
+    },
+    {
+        "question": "Which of the following statement is correct?",
+        "options": [
+            "a) Low-level design is the activity of filling in small details at the lowest levels of abstraction",
+            "b) Low-level design uses DeSCRIPTOR specification",
+            "c) Mid-level design uses DeSCRIPTOR-PAID specification",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Low level design uses DeSCRIPTOR-PAID whereas Mid level design uses DeSCRIPTOR alone."
+    },
+    {
+        "question": "Which of the following is carried out for the detailed design process?",
+        "options": [
+            "a) Both SRS and SAD are taken as input for the detailed design stage",
+            "b) Design alternatives are evaluated first and then Design is finalized",
+            "c) Detailed design is the output for the process",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Design alternatives are evaluated first and then design is finalized."
+    },
+    {
+        "question": "A design document is a complete engineering design specification composed of?",
+        "options": [
+            "a) Software Architecture Document(SAD)",
+            "b) Detailed Design Document(DDD)",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A design document is a complete engineering design specification composed of Software Architecture Document(SAD) and Detailed Design Document(DDD)."
+    },
+    {
+        "question": "Which of the following statements are true?",
+        "options": [
+            "a) The SAD specifies a program\u2019s software architecture",
+            "b) DDD specifies a program\u2019s detailed design",
+            "c) There is no standard template for DDD",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There is no standard template for DDD."
+    },
+    {
+        "question": "Which of the following consists of the DDD template?",
+        "options": [
+            "a) Mid level Design and Low level Design",
+            "b) Mapping between models",
+            "c) Detailed Design Rationale",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The DDD template consists of which of the following Mid level Design and Low level Design, Mapping between models,  Detailed Design Rationale."
+    },
+    {
+        "question": "Which of these statements states Generalization connector?",
+        "options": [
+            "a) A generalization connector is more like a link line between objects than an association line between classes",
+            "b) The generalization connector always indicates that two particular classes participate in the generalization relation,  as a link line shows that two objects participate in a particular relation",
+            "c) Never place a name,  role names,  or multiplicities on a generalization connector",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements about generation connector are true."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) A concrete operation is an operation without a body, which cannot be called",
+            "b) An abstract operation has a body, which can be called",
+            "c) A concrete class is a class that cannot be instantiated",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the statements are incorrect,  An abstract operation is an operation without a body, which cannot be called whereas A concrete operation has a body, which can be called and An abstract class is a class that cannot be instantiated."
+    },
+    {
+        "question": "A provided interface can be shown in which of these ways?",
+        "options": [
+            "a) To attach the stick of an interface lollipop symbol to a class or component",
+            "b) To connect a stereotyped class symbol representing the interface to the providing class or component using a special realization connector",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Provided Interface can be matched for both of the ways."
+    },
+    {
+        "question": "A required interface can be shown in which of the following ways?",
+        "options": [
+            "a) To attach the stick of an interface socket symbol to a class or component",
+            "b) To connect the class or component requiring the interface to an interface ball with a dependency arrow",
+            "c) To connect the class or component to a stereotyped class symbol with a dependency arrow",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A required interface can be shown in all the three ways mentioned."
+    },
+    {
+        "question": "UML provides which of these levels of visibility that can be applied to attributes and operations?",
+        "options": [
+            "a) Public",
+            "b) Package",
+            "c) Protected and Private",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "UML provides which of these levels of visibility that can be applied to attributes and operations Public, Package, Protected and Private."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) An attribute is a class variable when each object stores its own value for the attribute",
+            "b) An attribute can also be an instance variable,  which means that there is only one value stored for the attribute that is shared by all class instances",
+            "c) An instance operation can be called using any object",
+            "d) A class operation is encapsulated in a class and can be called through the class"
+        ],
+        "answer": "d",
+        "explanation": "An attribute is an instance variable when each object stores its own value for the attribute whereas an attribute can also be a class variable,  which means that there is only one value stored for the attribute that is shared by all class instances and An instance operation can be called only by using instance."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) The aggregation association represents the part-whole relation between the instances of the associated classes",
+            "b) In a composition association,  each part can be related to only a single whole at one time",
+            "c) An association class represents a relation on the sets of instances of the classes it connects,  and it also holds data and behavior  the pertinent to the relation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true."
+    },
+    {
+        "question": "Which of the following are the heuristics for the class diagram?",
+        "options": [
+            "a) Never place a name,  role names,  or multiplicities on a generalization connector",
+            "b) Use the interface ball and socket symbols to abstract interface details and a stereotyped class symbol to show details",
+            "c) Don\u2019t italicize interface or operation names",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the statements for heuristics of class diagram."
+    }
+]

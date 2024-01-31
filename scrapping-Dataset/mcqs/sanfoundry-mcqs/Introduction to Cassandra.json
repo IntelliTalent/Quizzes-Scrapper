@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Apache Cassandra is a massively scalable open source _______ database.",
+        "options": [
+            "a) SQL",
+            "b) NoSQL",
+            "c) NewSQL",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Cassandra is perfect for managing large amounts of data across multiple data centers and the cloud."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers",
+            "b) Cassandra has a \u201cmasterless\u201d architecture, meaning all nodes are the same",
+            "c) Cassandra also provides customizable replication, storing redundant copies of data across nodes that participate in a Cassandra ring",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Cassandra provides automatic data distribution across all nodes that participate in a \u201cring\u201d or database cluster."
+    },
+    {
+        "question": "Cassandra uses a protocol called _______ to discover location and state information.",
+        "options": [
+            "a) gossip",
+            "b) intergos",
+            "c) goss",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Gossip is used for internode communication."
+    },
+    {
+        "question": "A __________ determines which data centers and racks nodes belong to it.",
+        "options": [
+            "a) Client requests",
+            "b) Snitch",
+            "c) Partitioner",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Client read or write requests can be sent to any node in the cluster because all nodes in Cassandra are peers."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Cassandra supplies linear scalability, meaning that capacity may be easily added simply by adding new nodes online",
+            "b) Cassandra 2.0 included major enhancements to CQL, security, and performance",
+            "c) CQL for Cassandra 2.0.6 adds several important features including batching of conditional updates, static columns, and increased control over slicing of clustering columns",
+            "d) None of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Cassandra is a highly scalable, eventually consistent, distributed, structured key-value store."
+    },
+    {
+        "question": "User accounts may be altered and dropped using the __________ Query Language.",
+        "options": [
+            "a) Hive",
+            "b) Cassandra",
+            "c) Sqoop",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Cassandra manages user accounts and access to the database cluster using passwords."
+    },
+    {
+        "question": "Client-to-node encryption protects data in flight from client machines to a database cluster using ___________",
+        "options": [
+            "a) SSL",
+            "b) SSH",
+            "c) SSN",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Client-to-node encryption establishes a secure channel between the client and the coordinator node."
+    },
+    {
+        "question": "Using ___________ file means you don\u2019t have to override the SSL_CERTFILE environmental variables every time.",
+        "options": [
+            "a) qlshrc",
+            "b) cqshrc",
+            "c) cqlshrc",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "cqlsh is used with SSL encryption."
+    },
+    {
+        "question": "Internal authentication stores usernames and bcrypt-hashed passwords in the ____________ table.",
+        "options": [
+            "a) system_auth.creds",
+            "b) system_auth.credentials",
+            "c) system.credentials",
+            "d) sys_auth.credentials"
+        ],
+        "answer": "b",
+        "explanation": "PasswordAuthenticator is an IAuthenticator implementation that you can use to configure Cassandra for internal authentication out-of-the-box."
+    }
+]

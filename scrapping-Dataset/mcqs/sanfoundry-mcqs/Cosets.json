@@ -1,0 +1,112 @@
+[
+    {
+        "question": "a * H is a set of _____ coset.",
+        "options": [
+            "a) right",
+            "b) left",
+            "c) sub",
+            "d) semi"
+        ],
+        "answer": "b",
+        "explanation": "Let (H, *) be the semigroup of the group (G, *). Let a belongs to G. (a * H) is the set of a left coset of H in G and (H * a) be the set of a right coset of H in G."
+    },
+    {
+        "question": "a * H = H * a relation holds if __________",
+        "options": [
+            "a) H is semigroup of an abelian group",
+            "b) H is monoid of a group",
+            "c) H is a cyclic group",
+            "d) H is subgroup of an abelian group"
+        ],
+        "answer": "d",
+        "explanation": "If h is the subgroup of an abelian group G, then the set of left cosets of H in G is to be set of right cosets i.e, a * H = H * a. Hence, subgroup is called the normal subgroup."
+    },
+    {
+        "question": "Lagrange\u2019s theorem specifies __________",
+        "options": [
+            "a) the order of semigroup is finite",
+            "b) the order of the subgroup divides the order of the finite group",
+            "c) the order of an abelian group is infinite",
+            "d) the order of the semigroup is added to the order of the group"
+        ],
+        "answer": "b",
+        "explanation": "Lagrange\u2019s theorem satisfies that the order of the subgroup divides the order of the finite group."
+    },
+    {
+        "question": "A function is defined by f(x)=2x and f(x + y) = f(x) + f(y) is called _____________",
+        "options": [
+            "a) isomorphic",
+            "b) homomorphic",
+            "c) cyclic group",
+            "d) heteromorphic"
+        ],
+        "answer": "a",
+        "explanation": "Let (G,*) and (G\u2019,+) are two groups. The mapping f:G->G\u2019 is said to be isomorphism if two conditions are satisfied 1) f is one-to-one function and onto function and 2) f satisfies homomorphism."
+    },
+    {
+        "question": "An isomorphism of a group onto itself is called ____________",
+        "options": [
+            "a) homomorphism",
+            "b) heteromorphism",
+            "c) epimorphism",
+            "d) automorphism"
+        ],
+        "answer": "d",
+        "explanation": "An automorphism is defined as an isomorphism of a group onto itself. Similarly, the homomorphism of a group onto itself is defined as the endomorphism of the group."
+    },
+    {
+        "question": "The elements of a vector space form a/an ____________ under vector addition.",
+        "options": [
+            "a) abelian group",
+            "b) commutative group",
+            "c) associative group",
+            "d) semigroup"
+        ],
+        "answer": "a",
+        "explanation": "An example of a coset is associated with the theory of vector spaces. The elements (vectors) form an abelian group under the vector addition in a vector space. Subspaces of a vector space are subgroups of this group."
+    },
+    {
+        "question": "A set of representatives of all the cosets is called _________",
+        "options": [
+            "a) transitive",
+            "b) reversal",
+            "c) equivalent",
+            "d) transversal"
+        ],
+        "answer": "d",
+        "explanation": "A coset representative is a representative in the equivalence class. In all cosets, a set of the representative is always transversal."
+    },
+    {
+        "question": "Which of the following statement is true?",
+        "options": [
+            "a) The set of all rational negative numbers forms a group under multiplication",
+            "b) The set of all matrices forms a group under multiplication",
+            "c) The set of all non-singular matrices forms a group under multiplication",
+            "d) The set of matrices forms a subgroup under multiplication"
+        ],
+        "answer": "c",
+        "explanation": "Since multiplication of two negative rational numbers gives a positive number. Hence, closure property is not satisfied. Singular matrices do not form a group under multiplication. Matrices have to be non-singular (determinant !=0) for the inverse to exist. Hence the set of all non-singular matrices forms a group under multiplication is a true option."
+    },
+    {
+        "question": "How many different non-isomorphic Abelian groups of order 8 are there?",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The number of Abelian groups of order P"
+    },
+    {
+        "question": "Consider the set B* of all strings over the alphabet set B = {0, 1} with the concatenation operator for strings ________",
+        "options": [
+            "a) does not form a group",
+            "b) does not have the right identity element",
+            "c) forms a non-commutative group",
+            "d) forms a group if the empty string is removed from"
+        ],
+        "answer": "a",
+        "explanation": "Identity element for concatenation is an empty string. Now, we cannot concatenate any string with a given string to get empty string there is no inverse for string concatenation. Only other 3 group properties such as closure, associative and existence of identity are satisfied."
+    }
+]

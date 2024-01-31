@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The transition a Push down automaton makes is additionally dependent upon the:",
+        "options": [
+            "a) stack",
+            "b) input tape",
+            "c) terminals",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A PDA is a finite machine which has an additional stack storage. Its transitions are based not only on input and the correct state but also on the stack."
+    },
+    {
+        "question": "A PDA machine configuration (p, w, y) can be correctly represented as:",
+        "options": [
+            "a) (current state, unprocessed input, stack content)",
+            "b) (unprocessed input, stack content, current state)",
+            "c) (current state, stack content, unprocessed input)",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A machine configuration is an element of K\u00d7\u03a3*\u00d7\u0393*."
+    },
+    {
+        "question": "|-* is the __________ closure of |-",
+        "options": [
+            "a) symmetric and reflexive",
+            "b) transitive and reflexive",
+            "c) symmetric and transitive",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A string w is accepted by a PDA if and only if (s,w, e) |-* (f, e, e)"
+    },
+    {
+        "question": "With reference of a DPDA, which among the following do we perform from the start state with an empty stack?",
+        "options": [
+            "a) process the whole string",
+            "b) end in final state",
+            "c) end with an empty stack",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The empty stack in the end is our requirement relative to finite state automatons."
+    },
+    {
+        "question": "A DPDA is a PDA in which:",
+        "options": [
+            "a) No state p has two outgoing transitions",
+            "b) More than one state can have two or more outgoing transitions",
+            "c) Atleast one state has more than one transitions",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A Deterministic Push Down Automata is a Push Down Automata in which no state p has two or more transitions."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false",
+            "a) Given a grammar G, construct the PDA and show the equivalence",
+            "b) Given a PDA, construct a grammar and show the equivalence"
+        ],
+        "answer": "a",
+        "explanation": "There exists two lemma\u2019s such that:"
+    },
+    {
+        "question": "If the PDA does not stop on an accepting state and the stack is not empty, the string is:",
+        "options": [
+            "a) rejected",
+            "b) goes into loop forever",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To accept a string, PDA needs to halt at an accepting state and with a stack empty, else it is called rejected. Given a PDA M, we can construct a PDA M\u2019 that accepts the same language as M, by both acceptance criteria."
+    },
+    {
+        "question": "A language accepted by Deterministic Push down automata is closed under which of the following?",
+        "options": [
+            "a) Complement",
+            "b) Union",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Deterministic Context free languages(one accepted by PDA by final state), are drastically different from the context free languages. For example they are closed under complementation and not union."
+    },
+    {
+        "question": "Which of the following is a simulator for non deterministic automata?",
+        "options": [
+            "a) JFLAP",
+            "b) Gedit",
+            "c) FAUTO",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "JFLAP is a software for experimenting with formal topics including NFA, NPDA, multi-tape turing machines and L-systems."
+    },
+    {
+        "question": "Finite-state acceptors for the nested words can be:",
+        "options": [
+            "a) nested word automata",
+            "b) push down automata",
+            "c) ndfa",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The linear encodings of languages accepted by finite nested word automata gives the class of \u2018visibly pushdown automata\u2019."
+    }
+]

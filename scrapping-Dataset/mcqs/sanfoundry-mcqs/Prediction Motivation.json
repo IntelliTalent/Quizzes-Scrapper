@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is the valid component of the predictor?",
+        "options": [
+            "a) data",
+            "b) question",
+            "c) algorithm",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A prediction is a statement about the future."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) In Sample Error is also called generalization error",
+            "b) Out of Sample Error is the error rate you get on the new dataset",
+            "c) In Sample Error is also called resubstitution error",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Out of Sample Error is also called generalization error."
+    },
+    {
+        "question": "Which of the following is correct order of working?",
+        "options": [
+            "a) questions->input data ->algorithms",
+            "b) questions->evaluation ->algorithms",
+            "c) evaluation->input data ->algorithms",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Evaluation is done in the last."
+    },
+    {
+        "question": "Which of the following shows correct relative order of importance?",
+        "options": [
+            "a) question->features->data->algorithms",
+            "b) question->data->features->algorithms",
+            "c) algorithms->data->features->question",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Garbage in should be equal to garbage out."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) In Sample Error is the error rate you get on the same dataset used to model a predictor",
+            "b) Data have two parts-signal and noise",
+            "c) The goal of predictor is to find signal",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Perfect in sample prediction can be built."
+    },
+    {
+        "question": "Which of the following is characteristic of best machine learning method?",
+        "options": [
+            "a) Fast",
+            "b) Accuracy",
+            "c) Scalable",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There is always a trade-off in prediction accuracy."
+    },
+    {
+        "question": "True positive means correctly rejected.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "True positive means correctly identified."
+    },
+    {
+        "question": "Which of the following trade-off occurs during prediction?",
+        "options": [
+            "a) Speed vs Accuracy",
+            "b) Simplicity vs Accuracy",
+            "c) Scalability vs Accuracy",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Interpretability also matters during prediction."
+    },
+    {
+        "question": "Which of the following expression is true?",
+        "options": [
+            "a) In sample error < out sample error",
+            "b) In sample error > out sample error",
+            "c) In sample error = out sample error",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Out of sample error is given more importance."
+    },
+    {
+        "question": "Backtesting is a key component of effective trading-system development.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Backtesting is the process of applying a trading strategy or analytical method to historical data to see how accurately the strategy or method would have predicted actual results."
+    }
+]

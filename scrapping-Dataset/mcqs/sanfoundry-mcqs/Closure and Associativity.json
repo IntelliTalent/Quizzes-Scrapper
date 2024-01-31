@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Let (A",
+        "options": [
+            "a) 65",
+            "b) 5",
+            "c) 32",
+            "d) 18"
+        ],
+        "answer": "b",
+        "explanation": "Given, (A"
+    },
+    {
+        "question": "A relation (34 \u00d7 78) \u00d7 57 = 57 \u00d7 (78 \u00d7 34) can have __________ property.",
+        "options": [
+            "a) distributive",
+            "b) associative",
+            "c) commutative",
+            "d) closure"
+        ],
+        "answer": "b",
+        "explanation": "For any three elements(numbers) a, b and c associative property describes a \u00d7 ( b \u00d7 c ) = ( a \u00d7 b ) \u00d7 c  [for multiplication]. Hence associative property is true for multiplication and it is true for multiplication also."
+    },
+    {
+        "question": "B",
+        "options": [
+            "a) groups",
+            "b) semigroups",
+            "c) subgroups",
+            "d) associative subgroup"
+        ],
+        "answer": "b",
+        "explanation": "Here, B"
+    },
+    {
+        "question": "If group G has 65 elements and it has two subgroups namely K and L with order 14 and 30. What can be order of K intersection L?",
+        "options": [
+            "a) 10",
+            "b) 42",
+            "c) 5",
+            "d) 35"
+        ],
+        "answer": "c",
+        "explanation": "As it is an intersection so the order must divide both K and L. Here 3, 6, 30 does not divide 14. But 5 must be the order of the group as it divides the order of intersection of K and L as well as the order of the group."
+    },
+    {
+        "question": "Consider the binary operations on X, a*b = a+b+4, for a, b \u2208 X. It satisfies the properties of _______",
+        "options": [
+            "a) abelian group",
+            "b) semigroup",
+            "c) multiplicative group",
+            "d) isomorphic group"
+        ],
+        "answer": "a",
+        "explanation": "Since * closed operation, a*b belongs to X. Hence, it is an abelian group."
+    },
+    {
+        "question": "Let G be a finite group with two sub groups M & N such that |M|=56 and |N|=123. Determine the value of |M\u22c2N|.",
+        "options": [
+            "a) 1",
+            "b) 56",
+            "c) 14",
+            "d) 78"
+        ],
+        "answer": "a",
+        "explanation": "We know that gcd(56, 123)=1. So, the value of |M\u22c2N|=1."
+    },
+    {
+        "question": "A group G, ({0}, +) under addition operation satisfies which of the following properties?",
+        "options": [
+            "a) identity, multiplicity and inverse",
+            "b) closure, associativity, inverse and identity",
+            "c) multiplicity, associativity and closure",
+            "d) inverse and closure"
+        ],
+        "answer": "b",
+        "explanation": "Closure for all a, b\u2208G, the result of the operation, a+b, is also in G. Since there is one element, hence a=b=0, and a+b=0+0=0\u2208G. Hence, closure property is satisfied. Associative for all a, b, c\u2208G, (a+b)+c=a+(b+c). For example, a=b=c=0. Hence (a+b)+c=a+(b+c)"
+    },
+    {
+        "question": "If (M, *) is a cyclic group of order 73, then number of generator of G is equal to ______",
+        "options": [
+            "a) 89",
+            "b) 23",
+            "c) 72",
+            "d) 17"
+        ],
+        "answer": "c",
+        "explanation": "We need to find the number of co-primes of 73 which are less than 73. As 73 itself is a prime, all the numbers less than that are co-prime to it and it makes a group of order 72 then it can be of {1, 3, 5, 7, 11\u2026.}."
+    },
+    {
+        "question": "The set of even natural numbers, {6, 8, 10, 12,..,} is closed under addition operation. Which of the following properties will it satisfy?",
+        "options": [
+            "a) closure property",
+            "b) associative property",
+            "c) symmetric property",
+            "d) identity property"
+        ],
+        "answer": "a",
+        "explanation": "The set of even natural numbers is closed by the addition as the sum of any two of them produces another even number. Hence, this closed set satisfies the closure property."
+    }
+]

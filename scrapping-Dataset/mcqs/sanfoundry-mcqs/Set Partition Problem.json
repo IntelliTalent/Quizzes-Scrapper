@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What is meant by the power set of a set?",
+        "options": [
+            "a) subset of all sets",
+            "b) set of all subsets",
+            "c) set of particular subsets",
+            "d) an empty set"
+        ],
+        "answer": "b",
+        "explanation": "Power set of a set is defined as the set of all subsets. Ex- if there is a set S={1,3} then power set of set S will be P={{},{1},{3}{1,3}}."
+    },
+    {
+        "question": "What is the set partition problem?",
+        "options": [
+            "a) finding a subset of a set that has sum of elements equal to a given number",
+            "b) checking for the presence of a subset that has sum of elements equal to a given number",
+            "c) checking whether the set can be divided into two subsets of with equal sum of elements and printing true or false based on the result",
+            "d) finding subsets with equal sum of elements"
+        ],
+        "answer": "c",
+        "explanation": "In set partition problem we check whether a set can be divided into 2 subsets such that the sum of elements in each subset is equal. If such subsets are present then we print true otherwise false."
+    },
+    {
+        "question": "Which of the following is true about the time complexity of the recursive solution of set partition problem?",
+        "options": [
+            "a) It has an exponential time complexity",
+            "b) It has a linear time complexity",
+            "c) It has a logarithmic time complexity",
+            "d) it has a time complexity of O(n2)"
+        ],
+        "answer": "a",
+        "explanation": "Set partition problem has both recursive as well as dynamic programming solution. The recursive solution has an exponential time complexity as it will require to check for all subsets in the worst case."
+    },
+    {
+        "question": "What is the worst case time complexity of dynamic programming solution of set partition problem(sum=sum of set elements)?",
+        "options": [
+            "a) O(n)",
+            "b) O(sum)",
+            "c) O(n",
+            "d) O(sum*n)"
+        ],
+        "answer": "d",
+        "explanation": "Set partition problem has both recursive as well as dynamic programming solution. The dynamic programming solution has a time complexity of O(n*sum) as it as a nested loop with limits from 1 to n and 1 to sum respectively."
+    },
+    {
+        "question": "Set partition problem is an example of NP complete problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Set partition problem takes exponential time when we implement a recursive solution. Set partition problem is known to be a part of NP complete problems."
+    },
+    {
+        "question": "Which of the following is not true about set partition problem?",
+        "options": [
+            "a) the recursive solution has a time complexity of O(2n)",
+            "b) there is no known solution that takes polynomial time",
+            "c) the recursive solution is slower than dynamic programming solution",
+            "d) the dynamic programming solution has a time complexity of O(n log n)"
+        ],
+        "answer": "d",
+        "explanation": "Recursive solution of set partition problem is slower than dynamic problem solution in terms of time complexity. Dynamic programming solution has a time complexity of O(n*sum)."
+    },
+    {
+        "question": "Which of the following should be the base case for the recursive solution of a set partition problem?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "In this case, we need to make sure that, the sum does not become 0 and there should be elements left in our array for recursion to happen. Also if the sum of elements of the set is an odd number then that set cannot be partitioned into two subsets with an equal sum so under such a condition false should be returned."
+    },
+    {
+        "question": "What will be the output for the given code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code represents the recursive approach of solving the set partition problem. The code checks whether a set can be divided into 2 subsets such that the sum of elements in each subset is equal. If such a partition is possible then we print true otherwise false. In this case true should be printed."
+    },
+    {
+        "question": "What will be the output for the given code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code represents the dynamic programming approach of solving set partition problem. The code checks whether a set can be divided into 2 subsets such that the sum of elements in each subset is equal. If such a partition is possible then we print true otherwise false. In this case, false should be printed."
+    },
+    {
+        "question": "What will be the auxiliary space complexity of dynamic programming solution of set partition problem(sum=sum of set elements)?",
+        "options": [
+            "a) O(n log n)",
+            "b) O(n",
+            "c) O(2",
+            "d) O(sum*n)"
+        ],
+        "answer": "d",
+        "explanation": "The auxiliary space complexity of set partition problem is required in order to store the partition table. It takes up a space of n*sum, so its auxiliary space requirement becomes O(n*sum)."
+    }
+]

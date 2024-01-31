@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What kind of expressions do we used for pattern matching?",
+        "options": [
+            "a) Regular Expression",
+            "b) Rational Expression",
+            "c) Regular & Rational Expression",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In automata theory, Regular Expression(sometimes also called the Rational Expression  ) is a sequence or set of characters that define a search pattern, mainly for the use in pattern matching with strings or string matching."
+    },
+    {
+        "question": "Which of the following do Regexps do not find their use in?",
+        "options": [
+            "a) search engines",
+            "b) word processors",
+            "c) sed",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Regexp processors are found in several search engines, seach and replace mechanisms, and text processing utilities."
+    },
+    {
+        "question": "Which of the following languages have built in regexps support?",
+        "options": [
+            "a) Perl",
+            "b) Java",
+            "c) Python",
+            "d) C++"
+        ],
+        "answer": "a",
+        "explanation": "Many languages come with built in support of regexps like Perl, Javascript, Ruby etc. While some provide support using standard libraries like .NET, Java, Python, C++, C and POSIX."
+    },
+    {
+        "question": "The following is/are an approach to process a regexp:",
+        "options": [
+            "a) Construction of NFA and subsequently, a DFA",
+            "b) Thompson\u2019s Contruction Algorithm",
+            "c) Thompson\u2019s Contruction Algorithm & Construction of NFA and subsequently, a DFA",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A regexp processor translates the syntax into internal representation which can be executed and matched with a string and that internal representation can have several approaches like the ones mentioned."
+    },
+    {
+        "question": "Are the given two patterns equivalent?",
+        "options": [
+            "a) yes",
+            "b) no"
+        ],
+        "answer": "a",
+        "explanation": "Paranthesis can be used to define the scope and precedence of operators. Thus, both the expression represents the same pattern."
+    },
+    {
+        "question": "Which of the following are not quantifiers?",
+        "options": [
+            "a) Kleene plus +",
+            "b) Kleene star *",
+            "c) Question mark ?",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A quantifier after a  token specifies how often the preceding element is allowed to occur. ?, *, +, {n}, {min, }, {min, max} are few quantifiers we use in regexps implementations."
+    },
+    {
+        "question": "Which of the following cannot be used to decide whether and how a given regexp matches a string:",
+        "options": [
+            "a) NFA to DFA",
+            "b) Lazy DFA algorithm",
+            "c) Backtracking",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are at least three algorithms which decides for us, whether and how a regexp matches a string which included the transformation of Non deterministic automaton to deterministic finite automaton, The lazy DFA algorithm where one simulates the NFA directly, building each DFA on demand and then discarding it at the next step and the process of backtracking whose running time is exponential."
+    },
+    {
+        "question": "What does the following segment of code output?",
+        "options": [],
+        "answer": "c",
+        "explanation": "() groups a series of pattern element to a single element."
+    },
+    {
+        "question": "Given segment of code:",
+        "options": [],
+        "answer": "c",
+        "explanation": "It matches the end of a string and not an internal line.The given segment of code outputs:"
+    },
+    {
+        "question": "Conversion of a regular expression into its corresponding NFA :",
+        "options": [
+            "a) Thompson\u2019s Construction Algorithm",
+            "b) Powerset Construction",
+            "c) Kleene\u2019s algorithm",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Thompson construction algorithm is an algorithm in automata theory used to convert a given regular expression into NFA. Similarly, Kleene algorithm is used to convert a finite automaton to a regular expression."
+    }
+]

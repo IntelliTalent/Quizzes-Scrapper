@@ -1,0 +1,161 @@
+[
+    {
+        "question": "To validate Java beans in a web application using annotations.",
+        "options": [
+            "a) XML",
+            "b) Java Based",
+            "c) JAR-303 standard",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can validate Java beans in a web application using annotations based on the JSR-303 standard."
+    },
+    {
+        "question": "JSR-303 or bean validation can access beans through annotations.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "JSR-303 or bean validation is a specification whose objective is to standardize the validation of Java beans through annotations."
+    },
+    {
+        "question": "For validating beans Spring supports.",
+        "options": [
+            "a) ad-hoc technique",
+            "b) jsr-303",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This requires you to extend one of the Spring framework\u2019s classes to create a validator class for a particular type of Java bean."
+    },
+    {
+        "question": "JSR-303 can\u2019t access java beans directly.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The objective of the JSR-303 standard is to use annotations directly in a Java bean class."
+    },
+    {
+        "question": "Annotation which indicates a field cannot be a null.",
+        "options": [
+            "a) @NotNULL",
+            "b) @NotNull",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The @NotNull annotation, which indicates a field cannot be null ."
+    },
+    {
+        "question": "Annotation used to indicate a field has to have a minimum of 2 characters.",
+        "options": [
+            "a) @NotNull",
+            "b) @Size",
+            "c) @MaxSize",
+            "d) @size"
+        ],
+        "answer": "b",
+        "explanation": "@Size annotation used to indicate a field has to have a minimum of 2 characters."
+    },
+    {
+        "question": "Annotation which receives a value in the form regexp=\u201d.+@.+\\\\.[a-z]+\u201d.",
+        "options": [
+            "a) @Pattern",
+            "b) @EmailRecognizer",
+            "c) @Email",
+            "d) @Null"
+        ],
+        "answer": "a",
+        "explanation": "@Pattern annotation receives a value in the form regexp=\u201d.+@.+\\\\.[a-z]+\u201d."
+    },
+    {
+        "question": "A field named validator is of type.",
+        "options": [
+            "a) javax.validation.Validator",
+            "b) javax.validation.ValidatorFactory",
+            "c) javax.validation.ValidatorFactor",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The first addition to the controller is a field named validator of the type javax.validation.Validator."
+    },
+    {
+        "question": "Validator field is not assigned to any bean, but rather a factory class of the type.",
+        "options": [
+            "a) javax.validation.Validator",
+            "b) javax.validation.ValidatorFactory",
+            "c) javax.validation.ValidatorFactor",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This is how JSR-303 validation works. The assignment process is done inside the controller\u2019s constructor."
+    },
+    {
+        "question": "To hold any errors detected from validating the instance of beans.",
+        "options": [
+            "a) javax.validation.Validator",
+            "b) javax.validation.ValidatorFactory",
+            "c) javax.validation.ValidatorFactor",
+            "d) javax.validation.ConstraintViolation"
+        ],
+        "answer": "d",
+        "explanation": "Set of the type javax.validation.ConstraintViolation to hold any errors detected from validating the instance of the Person object."
+    },
+    {
+        "question": "To use JSR-303 bean validation in a web application, dependencies to be added in maven.",
+        "options": [
+            "a) javax.validation",
+            "b) org.hibernate",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "you must add above mentioned dependencies to an implementation to your CLASSPATH."
+    },
+    {
+        "question": "Spring doesn\u2019t cope up with pdf and excel views.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Spring integrates the generation of Excel and PDF files into its MVC framework."
+    },
+    {
+        "question": "Spring MVC supports generating Excel files using which of the following libraries.",
+        "options": [
+            "a) Apache POI library",
+            "b) JExcelAPI library",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring MVC supports generating Excel files using either the Apache POI library (http://poi.apache.org/) or the JExcelAPI library (http://jexcelapi.sourceforge.net/)."
+    },
+    {
+        "question": "The view classes for Excel view is/are:-",
+        "options": [
+            "a) AbstractExcelView",
+            "b) AbstractJExcelView",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The corresponding view classes are AbstractExcelView and AbstractJExcelView."
+    },
+    {
+        "question": "Spring MVC supports generating PDF files using which of the following libraries.",
+        "options": [
+            "a) iText library",
+            "b) iJText library",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "PDF files are generated by the iText library (http://www.lowagie.com/iText/), and the corresponding view class is AbstractPdfView."
+    }
+]

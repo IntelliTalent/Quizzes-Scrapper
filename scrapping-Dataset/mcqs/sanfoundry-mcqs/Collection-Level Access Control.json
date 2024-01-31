@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Administrators can implement collection-level access control through user-defined __________",
+        "options": [
+            "a) roles",
+            "b) replica sets",
+            "c) shards",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By creating a role with privileges that are scoped to a specific collection in a particular database, administrators can provision users with roles that grant privileges on a collection level."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A rule consists of actions and the resources upon which the actions are permissible",
+            "b) Document-level access control allows developers to grant users privileges that are scoped to specific record",
+            "c) Each privilege action in a role can be scoped to a different record",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Collection-level access control allows administrators to grant users privileges that are scoped to specific collections."
+    },
+    {
+        "question": "User can grant any role in the database to any user from any database in the system through _________ action.",
+        "options": [
+            "a) grantRole",
+            "b) viewRole",
+            "c) killCursors",
+            "d) unlock"
+        ],
+        "answer": "a",
+        "explanation": " Apply this action to database resources."
+    },
+    {
+        "question": "User can remove any role from any user from any database in the system through _________",
+        "options": [
+            "a) grantRole",
+            "b) viewRole",
+            "c) killCursors",
+            "d) revokeRole"
+        ],
+        "answer": "d",
+        "explanation": "User can view information about any role in the given database through viewRole."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB uses the combination of the database name and the role name to uniquely define a role",
+            "b) A role consists of privileges that pair resources with not allowed operations",
+            "c) Roles grant users access to MongoDB resources",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Except for roles created in the admin database, a role can only include privileges that apply to its database and can only inherit from other roles in its database."
+    },
+    {
+        "question": "Which of the following allows the user to view the information of any user in the given database?",
+        "options": [
+            "a) createUser",
+            "b) viewUser",
+            "c) killCursors",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To provide user administrators, MongoDB has userAdmin and userAdminAnyDatabase roles."
+    },
+    {
+        "question": "_________ deletes from a shard the orphaned documents whose shard key values fall into a single continuous range.",
+        "options": [
+            "a) listallshards",
+            "b) cleanup",
+            "c) cleanupOrphaned",
+            "d) SelectIndexes"
+        ],
+        "answer": "c",
+        "explanation": "If two contiguous ranges do not belong to the shard, the cleanupOrphaned examines both ranges for orphaned documents."
+    },
+    {
+        "question": "Which of the following flushes user information from in-memory cache?",
+        "options": [
+            "a) grantCache",
+            "b) invalidateUserCache",
+            "c) validateUserCache",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "invalidateUserCache allows you to purge the cache at any given moment, regardless of the interval set in the userCacheInvalidationIntervalSecs parameter."
+    },
+    {
+        "question": "__________ displays the cached query plans for the specified query shape.",
+        "options": [
+            "a) CacheListPlans",
+            "b) displayCacheListPlans",
+            "c) planCacheListPlans",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The query optimizer only caches the plans for those query shapes that can have more than one viable plan."
+    }
+]

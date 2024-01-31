@@ -1,0 +1,392 @@
+[
+    {
+        "question": "What is Oracle?",
+        "options": [
+            "a) Oracle is a programming language",
+            "b) Oracle is a database",
+            "c) Oracle is a sripting language",
+            "d) Oracle is an operating system"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Which of the following is correct about Oracle?",
+        "options": [
+            "a) Oracle is a relational database management system",
+            "b) Oracle was built in 1977",
+            "c) OracleDB is another name for it",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Oracle is a relational database management system. OracleDB, or just Oracle, is another name for it. Oracle Corporation is the company that produces and sells it. Lawrence Ellison and other engineers built it in 1977."
+    },
+    {
+        "question": "Which of the following database was designed first for enterprise grid computing?",
+        "options": [
+            "a) Oracle database",
+            "b) SQL",
+            "c) MongoDB",
+            "d) Google database"
+        ],
+        "answer": "a",
+        "explanation": "Oracle was the first database to be created specifically for enterprise grid computing and data warehousing. The most versatile and cost-effective way to handle information and applications is through enterprise grid computing."
+    },
+    {
+        "question": "Which of the following is not a Oracle Database feature?",
+        "options": [
+            "a) Scalability",
+            "b) Availability",
+            "c) Analytics",
+            "d) None of the mentioned",
+            "i) Availability: Because of the Oracle Data Guard feature, it ensures that databases are always available.",
+            "v) Analytics: Oracle has the following solutions in the field of analytics:",
+            "a) OLAP (Oracle Analytic Processing)",
+            "b) Oracle Advanced Analytics"
+        ],
+        "answer": "d",
+        "explanation": "The features of Oracle Database features are:"
+    },
+    {
+        "question": "Which of the following is an advantage of Oracle database?",
+        "options": [
+            "a) Portability",
+            "b) Flashback Technology",
+            "c) Performance",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The following are the advantages of an Oracle database:"
+    },
+    {
+        "question": "Which of the following is a disadvantage of Oracle database?",
+        "options": [
+            "a) Difficult to manage",
+            "b) Cost",
+            "c) Complexity",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The disadvantages of the Oracle database are:"
+    },
+    {
+        "question": "What is Oracle database used for?",
+        "options": [
+            "a) Creating backup for data",
+            "b) Accessing database servers",
+            "c) Store and retrieve relevant data",
+            "d) Both a & c"
+        ],
+        "answer": "c",
+        "explanation": "An Oracle database is a collection of data that is viewed as if it were a single entity. A database\u2019s main goal is to store and retrieve relevant data. The key to tackling information management issues is a database server."
+    },
+    {
+        "question": "Which of the following components comprise an Oracle architecture?",
+        "options": [
+            "a) Tablespaces",
+            "b) Datafiles",
+            "c) Database related background processes",
+            "d) All of the Mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Oracle architecture consists of DB process, Table space, Datafiles."
+    },
+    {
+        "question": "Which of the following area of PGA stores binding variables and run-time buffers information?",
+        "options": [
+            "a) Stack space",
+            "b) SQL area",
+            "c) Session area",
+            "d) Private SQL area"
+        ],
+        "answer": "d",
+        "explanation": "PGA (Program Global Area) is a non-shared memory region that contains data and control information exclusively for use by an Oracle process.The PGA is created by Oracle Database when an Oracle process is started."
+    },
+    {
+        "question": "Which of the following is the smallest unit of storage in an Oracle database?",
+        "options": [
+            "a) Segment",
+            "b) Extent",
+            "c) Data File",
+            "d) Data Block"
+        ],
+        "answer": "d",
+        "explanation": "The logical units of database space allocation are data blocks."
+    },
+    {
+        "question": "Which of the following is another name of Oracle database\u2019s design?",
+        "options": [
+            "a) Database Instance",
+            "b) Database Schema",
+            "c) Database Abstraction",
+            "d) None of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Oracle database\u2019s design is done on the schema level."
+    },
+    {
+        "question": "Which of the following is used to logically group data together?",
+        "options": [
+            "a) Tablespace",
+            "b) Datafiles",
+            "c) Object",
+            "d) Database"
+        ],
+        "answer": "a",
+        "explanation": "Oracle database consists of one or more logical storage units called tablespaces."
+    },
+    {
+        "question": "Which of the following package procedure is UNRESTRICTED in Oracle?",
+        "options": [
+            "a) CLEAR_BLOCK",
+            "b) USER_EXIT",
+            "c) CALL_INPUT",
+            "d) EXECUTE_QUERY"
+        ],
+        "answer": "b",
+        "explanation": "A user exit is a C subroutine and called by Oracle Forms to do special-purpose processing.It can display messages on the Oracle Forms status line, get and set field values, do high-speed computations and table look-ups, and manipulate Oracle data."
+    },
+    {
+        "question": "Oracle server configuration is dedicated for",
+        "options": [
+            "a) One server process \u2013 One user process",
+            "b) Many server processes \u2013 Many user processes",
+            "c) Many server processes \u2013 One user process",
+            "d) One server process \u2013 Many user processes"
+        ],
+        "answer": "a",
+        "explanation": "Single-process Oracle is a database system in which all Oracle code is executed by one process. Different processes are not used to separate execution of the parts of Oracle and the client application program. Instead, all code of Oracle and the single user\u2019s database application is executed by a single process."
+    },
+    {
+        "question": "Which schema object instructs Oracle to connect to remotely access an object of a database?",
+        "options": [
+            "a) Database Link",
+            "b) Sequence",
+            "c) Data Link",
+            "d) Remote Link"
+        ],
+        "answer": "c",
+        "explanation": "A DATABASE LINK value references a resource outside the underlying data source through a URL."
+    },
+    {
+        "question": "When a transaction modifies the database, Oracle copies the original data before modifying it. What is the original copy of the modified data called?",
+        "options": [
+            "a) Redo Data",
+            "b) Undone Data",
+            "c) Undo Data",
+            "d) Archive Data"
+        ],
+        "answer": "c",
+        "explanation": "Before transaction happen the Oracle kept the files in Undo Data to overcome form any failure."
+    },
+    {
+        "question": "A new user on the database is created by executing the following command:",
+        "options": [],
+        "answer": "c",
+        "explanation": "GRANT command give access to user.GRANT CREATE SESSION, CREATE TABLE TO user01 get the access for that session to create tables."
+    },
+    {
+        "question": "Which of the following is referred to as the language used application programs to request data from the DBMS?",
+        "options": [
+            "a) DDL",
+            "b) Query language",
+            "c) DML",
+            "d) All of the Mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The effect of a DML statement is not permanent until you commit the transaction that includes it. A transaction is a sequence of SQL statements that Oracle Database treats as a unit."
+    },
+    {
+        "question": "Which of the following RDBMS supports full fledged client server application development?",
+        "options": [
+            "a) FoxPro 2.1",
+            "b) Ingress",
+            "c) Oracle 7.1",
+            "d) dBase V"
+        ],
+        "answer": "c",
+        "explanation": "Oracle 7.1 support the all server-client application development."
+    },
+    {
+        "question": "Which of the following is the subset of SQL commands used to manipulate Oracle Database structures, including tables?",
+        "options": [
+            "a) Data Manipulation Language(DML)",
+            "b) Data Definition Language(DDL)",
+            "c) DDL and DML",
+            "d) None of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Data Definition Language is used to manage table and index structure.CREATE, ALTER, RENAME, DROP and TRUNCATE statements are the names of few data definition elements."
+    },
+    {
+        "question": "Which of the following is not included in DML (Data Manipulation Language)?",
+        "options": [
+            "a) UPDATE",
+            "b) CREATE",
+            "c) INSERT",
+            "d) DELETE"
+        ],
+        "answer": "b",
+        "explanation": "The CREATE TABLE statement is used to create a table in a database.Tables are organized into rows and columns; and each table must have a name."
+    },
+    {
+        "question": "Which of the following keyword is used with Data Control Language (DCL) statements?",
+        "options": [
+            "a) INSERT",
+            "b) SELECT",
+            "c) GRANT",
+            "d) DELETE"
+        ],
+        "answer": "c",
+        "explanation": "GRANT is the keyword which is used with Data Control Language statements."
+    },
+    {
+        "question": "Which of the following command is used to obtain the structure of an Oracle table?",
+        "options": [
+            "a) DESC TABLE [TableName].",
+            "b) STRUCTURE [TableName].",
+            "c) DESCRIBE [TableName].",
+            "d) DESCRIBE STRUCTURE [TableName]."
+        ],
+        "answer": "c",
+        "explanation": "DESCRIBE command is used to get the structure of the Oracle Table."
+    },
+    {
+        "question": "Which of the following is not a type of SQL statement?",
+        "options": [
+            "a) Data Definition Language (DDL)",
+            "b) Data Control Language (DCL)",
+            "c) Data Communication Language (DCL)",
+            "d) Data Manipulation Language (DML)"
+        ],
+        "answer": "c",
+        "explanation": "Data Communication Language (DCL) is not a type of SQL statement."
+    },
+    {
+        "question": "command to use iscommand is used for removing a table and all its data from the database?",
+        "options": [
+            "a) Alter table command",
+            "b) Create command",
+            "c) Drop table command",
+            "d) All of the Mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The DROP INDEX statement is used to delete an index in a table."
+    },
+    {
+        "question": "Which of the following is/are the DDL statements?",
+        "options": [],
+        "answer": "d",
+        "explanation": "All the mentioned commands are the part of DDL statements."
+    },
+    {
+        "question": "The SQL statement",
+        "options": [
+            "a) 2345",
+            "b) 456789",
+            "c) 6789",
+            "d) 1234"
+        ],
+        "answer": "a",
+        "explanation": "INSTR function in SQL is used to find the starting location of a pattern in a string. The syntax for the INSTR function is as follows:INSTR(str,pattern):Find the starting location of pattern in string str and SUBSTR Function:- The Substring function in SQL is used to grab a portion of the stored data."
+    },
+    {
+        "question": "Which of the following command is used to SELECT only one copy of each set of duplicable rows in SQL?",
+        "options": [
+            "a) SELECT UNIQUE",
+            "b) SELECT DIFFERENT",
+            "c) SELECT DISTINCT",
+            "d) All of the Mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The keyword allows us to grab all information from a column (or columns) on a table. This, of course, necessarily means that there will be redundancies. What if we only want to select each distinct element? This is easy way to accomplish in SQL. All we need to do is that to add  after  The syntax is:SELECT DISTINCT column_name FROM table_name;."
+    },
+    {
+        "question": "Which of the following is record based logical model?",
+        "options": [
+            "a) E-R Model",
+            "b) Network Model",
+            "c) Object oriented model",
+            "d) None of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The network model is a database model conceived as a flexible way of representing objects and their relationships."
+    },
+    {
+        "question": "Which of the following is not a Key in SQL Server?",
+        "options": [
+            "a) Alternate",
+            "b) Secondary",
+            "c) Foreign",
+            "d) Primary"
+        ],
+        "answer": "b",
+        "explanation": "Except Secondary all are the types of key in SQL server."
+    },
+    {
+        "question": "Which of the following is not a component of a data warehouse?",
+        "options": [
+            "a) Data metadata",
+            "b) Data extraction/cleaning/preparation programs",
+            "c) Data warehouse data",
+            "d) None of the Mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Data warehouse is not deal with the Data metadata."
+    },
+    {
+        "question": "Which of the following is the oldest database model?",
+        "options": [
+            "a) Deductive",
+            "b) Physical",
+            "c) Network",
+            "d) Relational"
+        ],
+        "answer": "c",
+        "explanation": "Network Model is the oldest database model."
+    },
+    {
+        "question": "Which of the following object types below cannot be replicated?",
+        "options": [
+            "a) Sequence",
+            "b) Data",
+            "c) Trigger",
+            "d) View"
+        ],
+        "answer": "a",
+        "explanation": "Use the CREATE SEQUENCE statement to create a sequence, which is a database object from which multiple users may generate unique integers. You can use sequences to automatically generate primary key values."
+    },
+    {
+        "question": "What is the result of the following \u2018ORA\u2019NULL\u2019CLE\u2019?",
+        "options": [
+            "a) ORA CLE",
+            "b) Error",
+            "c) NULL",
+            "d) ORACLE"
+        ],
+        "answer": "d",
+        "explanation": "In Oracle NULL values represent missing unknown data."
+    },
+    {
+        "question": "The redo log buffer and Shared pool are elements of?",
+        "options": [
+            "a) SGA",
+            "b) PGA and Buffer cache",
+            "c) Buffer cache",
+            "d) PGA"
+        ],
+        "answer": "a",
+        "explanation": "SGA (System Global Area) contains Shared Pool, Database Buffer Cache, Java Pool, redo Log Buffer."
+    },
+    {
+        "question": "Which processes is an instance made of Oracle?",
+        "options": [
+            "a) Data processes",
+            "b) Oracle background processes",
+            "c) Memory processes",
+            "d) All of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Oracle creates a set of background processes for an instance to manage memory structure, asynchronously perform I/O to write data to disk, and do general maintenance tasks."
+    }
+]

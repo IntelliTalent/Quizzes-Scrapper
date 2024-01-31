@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Hill cipher requires prerequisite knowledge of?",
+        "options": [
+            "a) integration",
+            "b) differentiation",
+            "c) matrix algebra",
+            "d) differential equation"
+        ],
+        "answer": "c",
+        "explanation": "Hill cipher uses matrix multiplication in order to encrypt the given plain text. So it requires prerequisite knowledge of matrix algebra."
+    },
+    {
+        "question": "Hill cipher is an example of ____________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) substitution cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "b",
+        "explanation": "Hill cipher is a substitution cipher. It falls under the category of poly alphabetic cipher as it uses multiple substitutions at different positions in order to cipher the plain text."
+    },
+    {
+        "question": "Encryption in hill cipher is done using ______________",
+        "options": [
+            "a) matrix multiplication",
+            "b) a 5\u00d75 table",
+            "c) vigenere table",
+            "d) matrix inversion"
+        ],
+        "answer": "a",
+        "explanation": "Encryption of plain text in playfair cipher is done using matrix multiplication. Then modulo 26 of the resulting matrix is taken so as to get the ciphered text."
+    },
+    {
+        "question": "What is poly graphic substitution cipher?",
+        "options": [
+            "a) a substitution based cipher which uses multiple substitutions at different positions",
+            "b) a substitution based cipher which uses fixed substitution over entire plain text",
+            "c) a substitution based cipher in which substitution is performed over a block of letters",
+            "d) a transposition based cipher which uses fixed substitution over entire plain text"
+        ],
+        "answer": "c",
+        "explanation": "Poly graphic cipher is a type of substitution cipher in which substitution is performed over a block of letters. Hill cipher is an example of poly graphic cipher."
+    },
+    {
+        "question": "Which of the following was the first poly graphic cipher to be able to operate on more than 3 letters at once?",
+        "options": [
+            "a) autokey cipher",
+            "b) hill cipher",
+            "c) one time pad cipher",
+            "d) playfair cipher"
+        ],
+        "answer": "Answer:b",
+        "explanation": "Poly graphic cipher is a type of substitution cipher in which substitution is performed over a block of letters. Hill cipher was the first poly graphic cipher to be able to operate on more than 3 letters at once."
+    },
+    {
+        "question": "Which of the following is hardest to break using frequency analysis?",
+        "options": [
+            "a) Vigenere cipher",
+            "b) Hill cipher",
+            "c) Caesar cipher",
+            "d) Affine cipher"
+        ],
+        "answer": "b",
+        "explanation": "Out of the given options hill cipher is the hardest cipher to break using frequency analysis. Although it is quite vulnerable to other forms of attack."
+    },
+    {
+        "question": "Hill cipher is harder to crack than playfair cipher.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Both hill cipher and playfair cipher are less vulnerable to frequency analysis. But hill cipher is quite vulnerable to other forms of attack and thus less secure than playfair cipher."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cYGQ\u201c if hill cipher is used with keyword as \u201cGYBNQKURP\u201d?",
+        "options": [
+            "a) SECRET",
+            "b) WORLD",
+            "c) DOLLAR",
+            "d) HELLO"
+        ],
+        "answer": "a",
+        "explanation": "To decrypt the message we follow the reverse procedure. We first find the inverse of the keyword matrix then multiply it with cipher matrix."
+    },
+    {
+        "question": "What will be the size of a key matrix if the plain text is \u201cSECRET\u201d?",
+        "options": [
+            "a) 1\u00d76",
+            "b) 5\u00d71",
+            "c) 6\u00d71",
+            "d) 6\u00d76"
+        ],
+        "answer": "d",
+        "explanation": "Hill cipher uses a n x n matrix in order to cipher the plain text. In this case n=6 so a 6\u00d76 matrix will be used."
+    },
+    {
+        "question": "A key matrix used for encryption in hill cipher must be?",
+        "options": [
+            "a) invertible matrix",
+            "b) non invertible matrix",
+            "c) square matrix",
+            "d) rectangular matrix"
+        ],
+        "answer": "a",
+        "explanation": "A key matrix used for encryption in hill cipher must be invertible matrix. Otherwise it will be impossible to decipher the message."
+    },
+    {
+        "question": "What will be the ciphered text if the plain text \u201cSAN\u201d is encrypted using hill cipher with keyword as \u201cGYBNQKURP\u201d?",
+        "options": [
+            "a) RAJ",
+            "b) JAR",
+            "c) ARJ",
+            "d) AJR"
+        ],
+        "answer": "a",
+        "explanation": "We first convert the keyword and plain text into their corresponding matrix respectively. Then we multiply those matrix and take modulo 26 of the resulting matrix to get the ciphered text."
+    }
+]

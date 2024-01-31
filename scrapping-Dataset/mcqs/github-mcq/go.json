@@ -1,0 +1,746 @@
+[
+    {
+        "question": "What do you need for two functions to be the same type?",
+        "options": [
+            "They should share the same signatures, including parameter types and return types.",
+            "They should share the same parameter types but can return different types.",
+            "All functions should be the same type.",
+            "The functions should not be a first class type."
+        ],
+        "answer": "They should share the same signatures, including parameter types and return types."
+    },
+    {
+        "question": "What does the `len()` function return if passed a UTF-8 encoded string?",
+        "options": [
+            "the number of characters",
+            "the number of bytes",
+            "It does not accept string types.",
+            "the number of code points"
+        ],
+        "answer": "the number of bytes"
+    },
+    {
+        "question": "Which is _not_ a valid loop construct in Go?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "How will you add the number 3 to the right side?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "What is the value of `Read`?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "a random value"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Which is the _only_ valid import statement in Go?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "What would happen if you attempted to compile and run this Go program?",
+        "options": [
+            "It would not compile because `GlobalFlag` was never initialized.",
+            "It would compile and print `[]`.",
+            "It would compile and print nothing because `\"[\" +nil+\"]\"` is also `nil`.",
+            "It would compile but then panic because `GlobalFlag` was never initialized."
+        ],
+        "answer": "It would compile and print `[]`."
+    },
+    {
+        "question": "From where is the variable `myVar` accessible if it is declared outside of any functions in a file in package `myPackage` located inside module `myModule`?",
+        "options": [
+            "It can be accessed anywhere inside `myPackage`, not the rest of myModule.",
+            "It can be accessed by any application that imports `myModule`.",
+            "It can be accessed from anywhere in `myModule`.",
+            "It can be accessed by other packages in `myModule` as long as they import `myPackage`"
+        ],
+        "answer": "It can be accessed anywhere inside `myPackage`, not the rest of myModule."
+    },
+    {
+        "question": "How do you tell `go test` to print out the tests it is running?",
+        "options": [
+            "`go test`",
+            "`go test -x`",
+            "`go test --verbose`",
+            "`go test -v`"
+        ],
+        "answer": "`go test -v`"
+    },
+    {
+        "question": "This code printed `{0, 0}`. How can you fix it?",
+        "options": [
+            "use `json.Decoder`",
+            "Pass a pointer to `data`",
+            "Make `X` and `Y` exported (uppercase)",
+            "Use field tags"
+        ],
+        "answer": "Make `X` and `Y` exported (uppercase)"
+    },
+    {
+        "question": "What does a `sync.Mutex` block while it is locked?",
+        "options": [
+            "all goroutines",
+            "any other call to lock that `Mutex`",
+            "any reads or writes of the variable it is locking",
+            "any writes to the variable it is locking"
+        ],
+        "answer": "any reads or writes of the variable it is locking"
+    },
+    {
+        "question": "What is an idiomatic way to pause execution of the current scope until an arbitrary number of goroutines have returned?",
+        "options": [
+            "Pass an `int` and `Mutex` to each and count when they return.",
+            "Loop over a `select` statement.",
+            "Sleep for a safe amount of time.",
+            "`sync.WaitGroup`"
+        ],
+        "answer": "`sync.WaitGroup`"
+    },
+    {
+        "question": "What is a side effect of using `time.After` in a `select` statement?",
+        "options": [
+            "It blocks the other channels.",
+            "It is meant to be used in select statements without side effects.",
+            "It blocks the `select` statement until the time has passed.",
+            "The goroutine does not end until the time passes."
+        ],
+        "answer": "The goroutine does not end until the time passes."
+    },
+    {
+        "question": "What is the select statement used for?",
+        "options": [
+            "executing a function concurrently",
+            "executing a different case based on the type of a variable",
+            "executing a different case based on the value of a variable",
+            "executing a different case based on which channel returns first"
+        ],
+        "answer": "executing a different case based on which channel returns first"
+    },
+    {
+        "question": "According to the Go documentation standard, how should you document this function?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What restriction is there on the type of `var` to compile this `i := myVal.(int)?`",
+        "options": [
+            "`myVal` must be an integer type, such as `int`, `int64`, `int32`, etc.",
+            "`myVal` must be able to be asserted as an `int`.",
+            "`myVal` must be an interface.",
+            "`myVal` must be a numeric type, such as `float64` or `int64`."
+        ],
+        "answer": "`myVal` must be an interface."
+    },
+    {
+        "question": "What is a channel?",
+        "options": [
+            "a global variable",
+            "a medium for sending values between goroutines",
+            "a dynamic array of values",
+            "a lightweight thread for concurrent programming"
+        ],
+        "answer": "a medium for sending values between goroutines"
+    },
+    {
+        "question": "How can you make a file build only on Windows?",
+        "options": [
+            "Check runtime.GOOS.",
+            "Add a // +build windows comment anywhere in the file.",
+            "Add a \\_ prefix to the file name.",
+            "Add a // +build windows comment at the top of the file."
+        ],
+        "answer": "Add a // +build windows comment at the top of the file."
+    },
+    {
+        "question": "What is the correct way to pass this as a body of an HTTP POST request?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "What should the idiomatic name be for an interface with a single method and the signature `Save() error`?",
+        "options": [
+            "Saveable",
+            "SaveInterface",
+            "ISave",
+            "Saver"
+        ],
+        "answer": "Saver"
+    },
+    {
+        "question": "A `switch` statement **\\_** its own lexical block. Each `case` statement **\\_** an additional lexical block",
+        "options": [
+            "does not create; creates",
+            "does not create; does not create",
+            "creates; creates",
+            "creates; does not create"
+        ],
+        "answer": "creates; creates"
+    },
+    {
+        "question": "What is the default case sensitivity of the JSON `Unmarshal` function?",
+        "options": [
+            "The default behavior is case insensitive, but it can be overridden.",
+            "Fields are matched case sensitive.",
+            "Fields are matched case insensitive.",
+            "The default behavior is case sensitive, but it can be overridden."
+        ],
+        "answer": "The default behavior is case insensitive, but it can be overridden."
+    },
+    {
+        "question": "What is the difference between the `time` package\u2019s `Time.Sub()` and `Time.Add()` methods?",
+        "options": [
+            "Time.Add() is for performing addition while Time.Sub() is for nesting timestamps.",
+            "Time.Add() always returns a later time while time.Sub always returns an earlier time.",
+            "They are opposites. Time.Add(x) is the equivalent of Time.Sub(-x).",
+            "Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration."
+        ],
+        "answer": "Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration."
+    },
+    {
+        "question": "What is the risk of using multiple field tags in a single struct?",
+        "options": [
+            "Every field must have all tags to compile.",
+            "It tightly couples different layers of your application.",
+            "Any tags after the first are ignored.",
+            "Missing tags panic at runtime."
+        ],
+        "answer": "It tightly couples different layers of your application."
+    },
+    {
+        "question": "Where is the built-in recover method useful?",
+        "options": [
+            "in the main function",
+            "immediately after a line that might panic",
+            "inside a deferred function",
+            "at the beginning of a function that might panic"
+        ],
+        "answer": "inside a deferred function"
+    },
+    {
+        "question": "Which choice does _not_ send output to standard error?",
+        "options": [
+            "`println(message)`",
+            "`log.New(os.Stderr, \"\", 0).Println(message)`",
+            "`fmt.Errorf(\"%s\\n\", message)`",
+            "`fmt.Fprintln(os.Stderr, message)`"
+        ],
+        "answer": "`fmt.Errorf(\"%s\\n\", message)`"
+    },
+    {
+        "question": "How can you tell Go to import a package from a different location?",
+        "options": [
+            "Use a proxy.",
+            "Change the import path.",
+            "Use a replace directive in go.mod.",
+            "Use a replace directory."
+        ],
+        "answer": "Use a replace directive in go.mod."
+    },
+    {
+        "question": "If your current working directory is the top level of your project, which command will run all its test packages?",
+        "options": [
+            "`go test all`",
+            "`go run --all`",
+            "`go test .`",
+            "`go test ./...`"
+        ],
+        "answer": "`go test ./...`"
+    },
+    {
+        "question": "Which encodings can you put in a string?",
+        "options": [
+            "any, it accepts arbitary bytes",
+            "any Unicode format",
+            "UTF-8 or ASCII",
+            "UTF-8"
+        ],
+        "answer": "UTF-8"
+    },
+    {
+        "question": "How is the behavior of `t.Fatal` different inside a `t.Run`?",
+        "options": [
+            "There is no difference.",
+            "t.Fatal does not crash the test harness, preserving output messages.",
+            "t.Fatal stops execution of the subtest and continues with other test cases.",
+            "t.Fatal stops all tests and contains extra information about the failed subtest."
+        ],
+        "answer": "t.Fatal stops execution of the subtest and continues with other test cases."
+    },
+    {
+        "question": "What does `log.Fatal` do?",
+        "options": [
+            "It raises a panic.",
+            "It prints the log and then raises a panic.",
+            "It prints the log and then safely exits the program.",
+            "It exits the program."
+        ],
+        "answer": "It prints the log and then safely exits the program."
+    },
+    {
+        "question": "Which is a valid Go time format literal?",
+        "options": [
+            "\"2006-01-02\"",
+            "\"YYYY-mm-dd\"",
+            "\"y-mo-d\"",
+            "\"year-month-day\""
+        ],
+        "answer": "\"2006-01-02\""
+    },
+    {
+        "question": "How should you log an error (err)",
+        "options": [
+            "`log.Error(err)`",
+            "`log.Printf(\"error: %v\", err)`",
+            "`log.Printf(log.ERROR, err)`",
+            "`log.Print(\"error: %v\", err)`"
+        ],
+        "answer": "`log.Printf(\"error: %v\", err)`"
+    },
+    {
+        "question": "Which file names will the `go test` command recognize as test files?",
+        "options": [
+            "any that starts with `test`",
+            "any files that include the word `test`",
+            "only files in the root directory that end in `_test.go`",
+            "any that ends in `_test.go`"
+        ],
+        "answer": "any that ends in `_test.go`"
+    },
+    {
+        "question": "What will be the output of this code?",
+        "options": [
+            "0",
+            "It will deadlock",
+            "It will not compile",
+            "2.718"
+        ],
+        "answer": "It will deadlock"
+    },
+    {
+        "question": "What will be the output of this program?",
+        "options": [
+            "It will deadlock",
+            "It will panic",
+            "0",
+            "NaN"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "What will be printed in this code?",
+        "options": [
+            "0",
+            "0.000000",
+            "The code will panic",
+            "NaN"
+        ],
+        "answer": "0.000000"
+    },
+    {
+        "question": "What is the common way to have several executables in your project?",
+        "options": [
+            "Have a cmd directory and a directory per executable inside it.",
+            "Comment out main.",
+            "Use build tags.",
+            "Have a pkg directory and a directory per executable inside it."
+        ],
+        "answer": "Have a cmd directory and a directory per executable inside it."
+    },
+    {
+        "question": "How can you compile main.go to an executable that will run on OSX arm64 ?",
+        "options": [
+            "Set GOOS to **arm64** and GOARCH to **darwin**.",
+            "Set GOOS to **osx** and GOARCH to **arm64**.",
+            "Set GOOS to **arm64** and GOARCH to **osx**.",
+            "Set GOOS to **darwin** and GOARCH to **arm64**."
+        ],
+        "answer": "Set GOOS to **darwin** and GOARCH to **arm64**."
+    },
+    {
+        "question": "What is the correct syntax to start a goroutine that will `print Hello Gopher!`?",
+        "options": [
+            "`go(fmt.Println(\"Hello Gopher!\"))`",
+            "`go func() { fmt.Println(\"Hello Gopher!\") }`",
+            "`go fmt.Println(\"Hello Gopher!\")`",
+            "`Go fmt.Println(\"Hello Gopher!\")`"
+        ],
+        "answer": "`go fmt.Println(\"Hello Gopher!\")`"
+    },
+    {
+        "question": "If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?",
+        "options": [
+            "in pseudo-random order that cannot be predicted",
+            "in reverse order of how they were added, last in first out",
+            "sorted by key in ascending order",
+            "in the order they were added, first in first out"
+        ],
+        "answer": "in pseudo-random order that cannot be predicted"
+    },
+    {
+        "question": "What is an idiomatic way to customize the representation of a custom struct in a formatted string?",
+        "options": [
+            "There is no customizing the string representation of a type.",
+            "Build it in pieces each time by calling individual fields.",
+            "Implement a method `String()` string",
+            "Create a wrapper function that accepts your type and outputs a string."
+        ],
+        "answer": "Implement a method `String()` string"
+    },
+    {
+        "question": "How can you avoid a goroutine leak in this code?",
+        "options": [
+            "Use a sync.WaitGroup.",
+            "Make ch a buffered channel.",
+            "Add a default case to the select.",
+            "Use runtime.SetFinalizer."
+        ],
+        "answer": "Make ch a buffered channel."
+    },
+    {
+        "question": "#### 44. What will this code print?",
+        "options": [
+            "-126",
+            "0",
+            "NaN",
+            "130"
+        ],
+        "answer": "-126"
+    },
+    {
+        "question": "#### 45. Given the definition of worker below, what is the right syntax to start a goroutine that will call worker and send the result to a channel named ch?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "In this code, which names are exported?",
+        "options": [
+            "FilePermission",
+            "none of these answers",
+            "FilePermission and userID",
+            "userID"
+        ],
+        "answer": "FilePermission"
+    },
+    {
+        "question": "Which of the following is correct about structures in Go?",
+        "options": [
+            "Structure is another user defined data type available in Go programming, which allows you to combine data items of different kinds.",
+            "Structures are used to represent a record",
+            "To define a structure, you must use type and struct statements.",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What does the built-in `generate` command of the Go compiler do?",
+        "options": [
+            "It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.",
+            "It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.",
+            "It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.",
+            "It has subcommands `mocks` and `tests` to generate relevant `.go` source files."
+        ],
+        "answer": "It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies."
+    },
+    {
+        "question": "Using the time package, how can you get the time 90 minutes from now?",
+        "options": [
+            "`time.Now().Add(90)`",
+            "`time.Now() + (90 * time.Minute)`",
+            "`time.Now() + 90`",
+            "`time.Now().Add(90 * time.Minute)`"
+        ],
+        "answer": "`time.Now().Add(90 * time.Minute)`"
+    },
+    {
+        "question": "A program uses a channel to print five integers inside a goroutine while feeding the channel with integers from the main routine, but it doesn't work as is. What do you need to change to make it work?",
+        "options": [
+            "Add a `close(ch)` immediately after `wg.Wait()`.",
+            "Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.",
+            "Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.",
+            "Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`."
+        ],
+        "answer": "Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`."
+    },
+    {
+        "question": "After importing `encoding/json`, how will you access the `Marshal` function?",
+        "options": [
+            "`encoding.json.Marshal`",
+            "`encoding/json.Marshal`",
+            "`Marshal`",
+            "`json.Marshal`"
+        ],
+        "answer": "`json.Marshal`"
+    },
+    {
+        "question": "What are the two missing segments of code that would complete the use of `context.Context` to implement a three-second timeout for this HTTP client making a GET request?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "If you have a struct named Client defined in the same .go file as the statement, how do you export a variable with a default value so the variable is accessible by other packages?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "How would you implement a working `Append()` method for `Clients`?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "How would you recover from a `panic()` thrown by a called function without allowing your program to fail assuming your answer will run in the same scope where your function call will experience the panic?",
+        "options": [
+            "Wrap the function call in an anonymous function with a return type of `panic`, remembering to invoke the anonymous function by suffixing it with `()` then introspecting the returned `panic` instance to handle the error.",
+            "Use `try{ ... }` to wrap the code calling the function and then handle the error within the `catch{ ... }`.",
+            "Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.",
+            "Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function."
+        ],
+        "answer": "Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function."
+    },
+    {
+        "question": "What will this code print?",
+        "options": [
+            "0",
+            "nil",
+            "a random value",
+            "1"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "When creating a formatted string, which verb should you use to call the String () string method of a custom type?",
+        "options": [
+            "%s",
+            "%b",
+            "%v",
+            "%string"
+        ],
+        "answer": "%s"
+    },
+    {
+        "question": "Which is not a valid value for layout when calling time. Now ( ) . Format ( layout)?",
+        "options": [
+            "time.REC3339",
+            "\"1970-01-01\"",
+            "\"Jan 2nd 2006\"",
+            "time.Kitchen"
+        ],
+        "answer": "\"1970-01-01\""
+    },
+    {
+        "question": "How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.",
+        "options": [
+            "var_JSONConverter = nil. (\\*Namespace)",
+            "var_JSONConverter = (\\*Namespace) (nil)",
+            "type Namespace struct {",
+            "type Namespace struct {"
+        ],
+        "answer": "var_JSONConverter = (\\*Namespace) (nil)"
+    },
+    {
+        "question": "Which statement about typing and interfaces is false?",
+        "options": [
+            "A method signature is the combination of a method name and the type(s) of its declared parameter(s) and return value(s).",
+            "A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or",
+            "An interface declares a list of methods and their signatures that a type must implement to be compatible with values typed for that interface.",
+            "Variable, parameters, and return values must be \"typed\" as one of 1) a built-in type, 2) a type alias, 3) a derived type, 4) a composite type, or"
+        ],
+        "answer": "A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or"
+    },
+    {
+        "question": "How would you complete this program to generate the specified output, assuming the SQL table",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "Fill in the blanks",
+        "options": [
+            "be stored in a `/test/`subdirectory of that package",
+            "end in `_test.go`",
+            "begin with `test_`",
+            "be stored in `/test/` root subdirectory for the project"
+        ],
+        "answer": "end in `_test.go`"
+    },
+    {
+        "question": "Which type is a rune an alias for?",
+        "options": [
+            "char",
+            "byte",
+            "int32",
+            "string"
+        ],
+        "answer": "int32"
+    },
+    {
+        "question": "When can you use the := syntax to assign to multiple variables? For example:",
+        "options": [
+            "if it at least has not been declared in that lexical block",
+            "at all times, as it will overwrite existing variables",
+            "if no variables of those names is accessible",
+            "if none of the variables exist in that lexical block"
+        ],
+        "answer": "if it at least has not been declared in that lexical block"
+    },
+    {
+        "question": "How can You view the profiler output in cpu.pprof in the browser?",
+        "options": [
+            "go pprof -to SVG cpu.prof",
+            "go tool pprof -http=:8080 cpu.pprof (true)",
+            "go tool pprof cpu.pprof",
+            "go tool trace cpu.pprof"
+        ],
+        "answer": "go tool pprof -http=:8080 cpu.pprof (true)"
+    },
+    {
+        "question": "When does a variable of type interface{} evaluate to nil?",
+        "options": [
+            "It has been assingned a dynamic type whose value is nil. (true)",
+            "It has been explicitly set to nil.",
+            "It has not been assigned a dynamic type.",
+            "It can not evaluate to nil."
+        ],
+        "answer": "It has been assingned a dynamic type whose value is nil. (true)"
+    },
+    {
+        "question": "What value does a string variable hold if it has been allocated but not assigned?",
+        "options": [
+            "nil",
+            "undefined",
+            "null",
+            "\"\""
+        ],
+        "answer": "\"\""
+    },
+    {
+        "question": "Which built-in function is used to stop a program from continuing?",
+        "options": [
+            "panic",
+            "There is no such function.",
+            "raiseException",
+            "exit"
+        ],
+        "answer": "panic"
+    },
+    {
+        "question": "What will the output be?",
+        "options": [
+            "1 3 4",
+            "1 2 3",
+            "1 2 4",
+            "It will not compile.",
+            "\\+",
+            "and",
+            "&&",
+            "||",
+            "A function with no return type.",
+            "A function with no parameters.",
+            "A function without a name.",
+            "A function declared inside another function.",
+            "`func`",
+            "`lambda`",
+            "`func()`",
+            "`anonymous`"
+        ],
+        "answer": "`func()`"
+    },
+    {
+        "question": "What is the main advantage of using anonymous functions in Go?",
+        "options": [
+            "They always have better performance than named functions.",
+            "They can have multiple return values.",
+            "They can be defined inline where they are used.",
+            "They have a shorter syntax than named functions."
+        ],
+        "answer": "They can be defined inline where they are used."
+    },
+    {
+        "question": "What is the syntax for calling an anonymous function immediately after its declaration in Go?",
+        "options": [
+            "`functionName(){}`",
+            "`call functionName(){}`",
+            "`func(){}()`",
+            "`execute func(){}`"
+        ],
+        "answer": "`func(){}()`"
+    },
+    {
+        "question": "Which types can Go developers define methods for?",
+        "options": [
+            "`all named types not built-in to Go, such as type Example int but not int, type Example struct{...} but not struct, etc.`",
+            "`only types named struct, map, and slice, such as type Example struct{\u2026}`",
+            "`only types named struct, such as type Example struct{...}`",
+            "`all types`"
+        ],
+        "answer": "`all named types not built-in to Go, such as type Example int but not int, type Example struct{...} but not struct, etc.`",
+        "explanation": null,
+        "codeblock": null
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Serialization of string columns uses a ________ to form unique column values.",
+        "options": [
+            "a) Footer",
+            "b) STRIPES",
+            "c) Dictionary",
+            "d) Index"
+        ],
+        "answer": "c",
+        "explanation": "The dictionary is sorted to speed up predicate filtering and improve compression ratios."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The Avro file dump utility analyzes ORC files",
+            "b) Streams are compressed using a codec, which is specified as a table property for all streams in that table",
+            "c) The ODC file dump utility analyzes ORC files",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The codec can be Snappy, Zlib, or none."
+    },
+    {
+        "question": "_______ is a lossless data compression library that favors speed over compression ratio.",
+        "options": [
+            "a) LOZ",
+            "b) LZO",
+            "c) OLZ",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "lzo and lzop need to be installed on every node in the Hadoop cluster."
+    },
+    {
+        "question": "Which of the following will prefix the query string with parameters?",
+        "options": [
+            "a) SET hive.exec.compress.output=false",
+            "b) SET hive.compress.output=false",
+            "c) SET hive.exec.compress.output=true",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use lzop command utility or your custom Java to generate .lzo.index for the .lzo files."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) TIMESTAMP is Only available starting with Hive 0.10.0",
+            "b) DECIMAL introduced in Hive 0.11.0 with a precision of 38 digits",
+            "c) Hive 0.13.0 introduced user definable precision and scale",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TIMESTAMP is available starting with Hive 0.8.0"
+    },
+    {
+        "question": "Integral literals are assumed to be _________ by default.",
+        "options": [
+            "a) SMALL INT",
+            "b) INT",
+            "c) BIG INT",
+            "d) TINY INT"
+        ],
+        "answer": "b",
+        "explanation": "Integral literals are assumed to be INT by default, unless the number exceeds the range of INT in which case it is interpreted as a BIGINT, or if one of the following postfixes is present on the number."
+    },
+    {
+        "question": "Hive uses _____ style escaping within the strings.",
+        "options": [
+            "a) C",
+            "b) Java",
+            "c) Python",
+            "d) Scala"
+        ],
+        "answer": "a",
+        "explanation": "String literals can be expressed with either single quotes (\u2018) or double quotes (\u201c)."
+    },
+    {
+        "question": "Which of the following statement will create a column with varchar datatype?",
+        "options": [
+            "a) CREATE TABLE foo (bar CHAR(10))",
+            "b) CREATE TABLE foo (bar VARCHAR(10))",
+            "c) CREATE TABLE foo (bar CHARVARYING(10))",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Varchar datatype was introduced in Hive 0.12.0"
+    },
+    {
+        "question": "_________ will overwrite any existing data in the table or partition.",
+        "options": [
+            "a) INSERT WRITE",
+            "b) INSERT OVERWRITE",
+            "c) INSERT INTO",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "INSERT INTO will append to the table or partition, keeping the existing data intact."
+    },
+    {
+        "question": "Hive does not support literals for ______ types.",
+        "options": [
+            "a) Scalar",
+            "b) Complex",
+            "c) INT",
+            "d) CHAR"
+        ],
+        "answer": "b",
+        "explanation": "It is not possible to use them in INSERT INTO\u2026VALUES clauses."
+    }
+]

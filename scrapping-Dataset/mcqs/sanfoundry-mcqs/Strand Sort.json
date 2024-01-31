@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Which one of the following sorting algorithm requires recursion?",
+        "options": [
+            "a) pigeonhole sort",
+            "b) strand sort",
+            "c) insertion sort",
+            "d) counting sort"
+        ],
+        "answer": "b",
+        "explanation": "Strand sort requires the use of recursion for implementing its algorithm. On the other hand, the sorting algorithms given in the remaining options use iterative methods."
+    },
+    {
+        "question": "Strand sort is most efficient for data stored in?",
+        "options": [
+            "a) linked list",
+            "b) arrays",
+            "c) trees",
+            "d) graphs"
+        ],
+        "answer": "a",
+        "explanation": "Strand sort is most efficient when data is stored in a linked list as it involves many insertions and deletions which is performed quite efficiently with the help of a linked list. Using an array would increase time complexity significantly."
+    },
+    {
+        "question": "In which of the following case strand sort is most efficient?",
+        "options": [
+            "a) when input array is already sorted",
+            "b) when input array is reverse sorted",
+            "c) when input array is large",
+            "d) when input array is has randomly spread elements"
+        ],
+        "answer": "a",
+        "explanation": "The best case of strand sort occurs when the input array is already sorted. In this case, it has linear time complexity."
+    },
+    {
+        "question": "What is the auxiliary space complexity of strand sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "The auxiliary space complexity of strand sort is O(n). It is because a sub-list of size n has to be maintained."
+    },
+    {
+        "question": "Which of the following sorting algorithm is not in place?",
+        "options": [
+            "a) quick sort",
+            "b) strand sort",
+            "c) cycle sort",
+            "d) heap sort"
+        ],
+        "answer": "b",
+        "explanation": "Strand sort has an auxiliary space complexity of O(n). So it is not an in place sorting algorithm."
+    },
+    {
+        "question": "Strand sort is a comparison based sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Pigeonhole sort is an example of a comparison based sorting algorithm. This is because it compares the value of elements present in a list in order to sort them."
+    },
+    {
+        "question": "Strand sort is a stable sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Strand sort is an example of a stable sorting algorithm. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "What is the average time complexity of strand sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "Average case time complexity of strand sort is O(n2). So it is not as efficient as quick sort or merge sort."
+    },
+    {
+        "question": "What is the best case time complexity of strand sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "Best case time complexity of strand sort is O(n). It occurs in the case where the input array is already sorted."
+    },
+    {
+        "question": "What is the worst case time complexity of strand sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "Worst case time complexity of strand sort is O(n"
+    },
+    {
+        "question": "Strand sort algorithm used which of the following method for sorting a list?",
+        "options": [
+            "a) merging",
+            "b) selection",
+            "c) insertion",
+            "d) partitioning"
+        ],
+        "answer": "b",
+        "explanation": "Strand sort uses the method of selection for sorting any given list. This is because it selects the strands of elements from the input list which are sorted."
+    },
+    {
+        "question": "Which of the following is an adaptive sorting algorithm?",
+        "options": [
+            "a) heap sort",
+            "b) strand sort",
+            "c) selection sort",
+            "d) merge sort"
+        ],
+        "answer": "b",
+        "explanation": "Strand sort is an adaptive sorting algorithm. This is because it gives a better performance when the input list is almost sorted."
+    }
+]

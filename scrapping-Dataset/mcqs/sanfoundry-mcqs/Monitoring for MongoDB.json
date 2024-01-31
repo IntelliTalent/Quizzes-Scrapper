@@ -1,0 +1,90 @@
+[
+    {
+        "question": "___________ captures and returns the counts of database operations by type.",
+        "options": [
+            "a) mongostat",
+            "b) mongod",
+            "c) mms",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use mongostat to understand the distribution of operation types and to inform capacity planning."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Database commands cannot return statistics regarding the current database state with greater fidelity",
+            "b) Monitoring is a critical component of all database administration",
+            "c) The MongoDB distribution does not include utilities that quickly return statistics about instances\u2019 performance and activity",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This is useful for diagnosing issues and assessing normal operation."
+    },
+    {
+        "question": "_________ tracks and reports the current read and write activity of a MongoDB instance, and reports these statistics on a per collection basis.",
+        "options": [
+            "a) mongostat",
+            "b) mongod",
+            "c) mongotop",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use mongotop to check if your database activity and use match your expectations."
+    },
+    {
+        "question": "_______ method is useful tool for identifying the database instance\u2019s in-progress operations.",
+        "options": [
+            "a) db.current",
+            "b) db.currentOp",
+            "c) db.Op",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB includes a number of commands that report on the state of the database."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MMS offers point in time recovery of MongoDB replica sets",
+            "b) MongoDB provides a web interface that exposes diagnostic and monitoring information in a simple web page",
+            "c) db.Status() outputs an account of the state of a MongoDB instance",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The web interface is accessible at localhost:<port>, where the <port> number is 1000 more than the mongod port."
+    },
+    {
+        "question": "___________ returns a general overview of the status of the database, detailing disk usage, memory use, connection, journaling, and index access.",
+        "options": [
+            "a) dbStats",
+            "b) db.serverStatus()",
+            "c) db.stats()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This command is rarely run directly."
+    },
+    {
+        "question": "The ________ reflect the amount of storage used, the quantity of data contained in the database, and object, collection, and index counters.",
+        "options": [
+            "a) dbStats",
+            "b) db.serverStatus()",
+            "c) db.statserver()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The dbStats command, or db.stats() from the shell, returns a document that addresses storage use and data volumes."
+    },
+    {
+        "question": "________ provides statistics that resemble dbStats on the collection level.",
+        "options": [
+            "a) dbStats",
+            "b) db.serverStatus()",
+            "c) db.statserver()",
+            "d) collstats"
+        ],
+        "answer": "d",
+        "explanation": "It also includes count of the objects in the collection, the size of the collection, the amount of disk space used by the collection, and information about its indexes."
+    }
+]

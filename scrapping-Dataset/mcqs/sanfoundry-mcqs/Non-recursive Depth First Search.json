@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Which of the following data structure is used to implement DFS?",
+        "options": [
+            "a) linked list",
+            "b) tree",
+            "c) stack",
+            "d) queue"
+        ],
+        "answer": "c",
+        "explanation": "Stack is used in the standard implementation of depth first search. It is used to store the elements which are to be explored."
+    },
+    {
+        "question": "Which of the following traversal in a binary tree is similar to depth first traversal?",
+        "options": [
+            "a) level order",
+            "b) post order",
+            "c) pre order",
+            "d) in order"
+        ],
+        "answer": "c",
+        "explanation": "In DFS we keep on exploring as far as possible along each branch before backtracking. It terminates when all nodes are visited. So it is similar to pre order traversal in binary tree."
+    },
+    {
+        "question": "What will be the result of depth first traversal in the following tree?",
+        "options": [
+            "a) 4 2 5 1 3",
+            "b) 1 2 4 5 3",
+            "c) 4 5 2 3 1",
+            "d) 1 2 3 4 5"
+        ],
+        "answer": "b",
+        "explanation": "Depth first search is similar to pre order traversal in a tree. So here we will get the same result as for the pre order traversal (root,left right)."
+    },
+    {
+        "question": "Which of the following is a possible result of depth first traversal of the given graph(consider 1 to be source element)?",
+        "options": [
+            "a) 1 2 3 4 5",
+            "b) 1 2 3 1 4 5",
+            "c) 1 4 5 3 2",
+            "d) 1 4 5 1 2 3"
+        ],
+        "answer": "a",
+        "explanation": "As 1 is the source element so it will be considered first. Then we start exploring the vertices which are connected to 1. So there will be two possible results-1 2 3 4 5 and 1 4 5 2 3."
+    },
+    {
+        "question": "Which of the following represent the correct pseudo code for non recursive DFS algorithm?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In the iterative approach we first push the source node into the stack. If the node has not been visited then it is printed and marked as visited. Then the unvisited adjacent nodes are added to the stack. Then the same procedure is repeated for each node of the stack."
+    },
+    {
+        "question": "What will be the time complexity of the iterative depth first traversal code(V=no. of vertices E=no.of edges)?",
+        "options": [
+            "a) O(V+E)",
+            "b) O(V)",
+            "c) O(E)",
+            "d) O(V*E)"
+        ],
+        "answer": "a",
+        "explanation": "As the time required to traverse a full graph is V+E so its worst case time complexity becomes O(V+E). The time complexity of iterative and recursive DFS are same."
+    },
+    {
+        "question": "Which of the following functions correctly represent iterative DFS?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "In the correct version we first push the source node into the stack. If the node has not been visited then it is printed and marked as visited. Then the unvisited adjacent nodes are added to the stack. Then the same procedure is repeated for each node of the stack."
+    },
+    {
+        "question": "What is the space complexity of standard DFS(V: no. of vertices E: no. of edges)?",
+        "options": [
+            "a) O(V+E)",
+            "b) O(V)",
+            "c) O(E)",
+            "d) O(V*E)"
+        ],
+        "answer": "b",
+        "explanation": "In the worst case the space complexity of DFS will be O(V) in the case when all the vertices are stored in stack. This space complexity is excluding the space required to store the graph."
+    },
+    {
+        "question": "Which of the following data structure is used to implement BFS?",
+        "options": [
+            "a) linked list",
+            "b) tree",
+            "c) stack",
+            "d) queue"
+        ],
+        "answer": "d",
+        "explanation": "Queue is used in the standard implementation of breadth first search. It is used to store the vertices according to the code algorithm."
+    },
+    {
+        "question": "Choose the incorrect statement about DFS and BFS from the following?",
+        "options": [
+            "a) BFS is equivalent to level order traversal in trees",
+            "b) DFS is equivalent to post order traversal in trees",
+            "c) DFS and BFS code has the same time complexity",
+            "d) BFS is implemented using queue"
+        ],
+        "answer": "b",
+        "explanation": "DFS is equivalent to pre order traversal in trees, not post order traversal. It is so because in DFS we keep on exploring as far as possible along each branch before backtracking. So it should be equivalent to pre order traversal."
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Which of the following is called Bar-Hillel lemma?",
+        "options": [
+            "a) Pumping lemma for regular language",
+            "b) Pumping lemma for context free languages",
+            "c) Pumping lemma for context sensitive languages",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In automata theory, the pumping lemma for context free languages, also kmown as the  Bar-Hillel lemma, represents a property of all context free languages."
+    },
+    {
+        "question": "Which of the expressions correctly is an requirement of the pumping lemma for the context free languages?",
+        "options": [
+            "a) uv",
+            "b) uv",
+            "c) uv",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Let L be a CFL. Then there is an integer n so that for any u that belong to language L satisfying |t| >=n, there are strings u, v, w, x, y and z satisfying"
+    },
+    {
+        "question": "3.Let L be a CFL. Then there is an integer n so that for any u that belong to language L satisfying",
+        "options": [
+            "a) 2p",
+            "b) 2p",
+            "c) 2p+1",
+            "d) p"
+        ],
+        "answer": "c",
+        "explanation": "This inequation has been derived from derivation tree for t which must have height at least p+2(It has more than 2"
+    },
+    {
+        "question": "Which of the following gives a positive result to the pumping lemma restrictions and requirements?",
+        "options": [
+            "a) {a",
+            "b) {0",
+            "c) {ss|s\u2208{a,b}*}",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A positive result to the pumping lemma shows that the language is a CFL and ist contradiction or negative result shows that the given language is not a Context Free language."
+    },
+    {
+        "question": "Using pumping lemma, which of the following cannot be proved as \u2018not a CFL\u2019?",
+        "options": [
+            "a) {a",
+            "b) {ss|s\u2208{a,b}*}",
+            "c) The set legal C programs",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are few rules in C that are context dependent. For example, declaration of a variable before it can be used."
+    },
+    {
+        "question": "Which of the following cannot be filled in the blank below?",
+        "options": [
+            "a) L1\u2229L2",
+            "b) L1\u2032",
+            "c) L1*",
+            "d) None of the mentioned",
+            "a) Union",
+            "b) Concatenation",
+            "c) Kleene"
+        ],
+        "answer": "c",
+        "explanation": "A set of context free language is closed under the following operations:"
+    },
+    {
+        "question": "The pumping lemma is often used to prove that a language is:",
+        "options": [
+            "a) Context free",
+            "b) Not context free",
+            "c) Regular",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The pumping lemma is often used to prove that a given language L is non-context-free, by showing that arbitrarily long strings s are in L that cannot be \u201cpumped\u201d without producing strings outside L."
+    },
+    {
+        "question": "What is the pumping length of string of length x?",
+        "options": [
+            "a) x+1",
+            "b) x",
+            "c) x-1",
+            "d) x2"
+        ],
+        "answer": "a",
+        "explanation": "There exists a property of all strings in the language that are of length p, where p is the constant-called the pumping length .For a finite language L, p is equal to the maximum string length  in L plus 1."
+    },
+    {
+        "question": "Which of the following does not obey pumping lemma for context free languages ?",
+        "options": [
+            "a) Finite languages",
+            "b) Context free languages",
+            "c) Unrestricted languages",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Finite languages (which are regular hence context free ) obey pumping lemma where as unrestricted languages like recursive languages do not obey pumping lemma for context free languages."
+    }
+]

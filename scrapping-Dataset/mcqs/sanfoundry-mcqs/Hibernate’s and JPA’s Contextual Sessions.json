@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Spring HibernateTemplate can simplify your DAO implementation by managing sessions and transactions for you.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "However, using HibernateTemplate means your DAO has to depend on Spring API."
+    },
+    {
+        "question": "An alternative to Spring HibernateTemplate is:-",
+        "options": [
+            "a) HibernateContext",
+            "b) Hibernate contextual sessions",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "An alternative to Spring HibernateTemplate is to use Hibernate contextual sessions."
+    },
+    {
+        "question": "Sessionfactory can manage contextual sessions for you and allows you to retrieve them by the:-",
+        "options": [
+            "a) getSession() method",
+            "b) getCurrent() method",
+            "c) getCurrentSession() method",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Hibernate 3, a sessionfactory can manage contextual sessions for you and allows you to retrieve them by the getCurrentSession() method on org.hibernate.SessionFactory."
+    },
+    {
+        "question": "DAO methods require access to the session factory, which can be injected:-",
+        "options": [
+            "a) a setter method",
+            "b) constructor argument",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To use the contextual session approach, your DAO methods require access to the session factory, which can be injected via a setter method or a constructor argument."
+    },
+    {
+        "question": "DAO methods must be made transactional.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This is required because Spring wraps the SessionFactory with a proxy that expects that Spring transaction management is in play when methods on a session are made."
+    },
+    {
+        "question": "Annotation to find a transaction and then fail, complaining that no Hibernate session been bound to the thread.",
+        "options": [
+            "a) @Transaction",
+            "b) @Transactional",
+            "c) @Transactions",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This ensures that the persistence operations within a DAO method will be executed in the same transaction and hence by the same session."
+    },
+    {
+        "question": "In the bean configuration file for Hibernate (i.e., beans-hibernate.xml), you have to declare a HibernateTransactionManager instance for this application and enable declarative transaction via:-",
+        "options": [
+            "a) tx:annotation",
+            "b) tx:annotationdriven",
+            "c) tx:annotation-driven",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the bean configuration file for Hibernate (i.e., beans-hibernate.xml), you have to declare a HibernateTransactionManager instance for this application and enable declarative transaction management via tx:annotation-driven."
+    },
+    {
+        "question": "HibernateTemplate will translate the native Hibernate exceptions into exceptions in Spring DataAccessException hierarchy.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This allows consistent exception handling for different data access strategies in Spring."
+    },
+    {
+        "question": "Annotation for Hibernate exceptions to be translated into Spring DataAccessException for consistent exception handling:-",
+        "options": [
+            "a) @Translation",
+            "b) @Repo",
+            "c) @Repository",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you want the Hibernate exceptions to be translated into Spring DataAccessException for consistent exception handling, you have to apply the @Repository annotation to your DAO class that requires exception translation."
+    },
+    {
+        "question": "Instance to translate the native Hibernate exceptions into data access exceptions in Spring DataAccessException hierarchy.",
+        "options": [
+            "a) PersistenceExceptionPostProcessor",
+            "b) PersistenceExceptionTranslation",
+            "c) PersistenceException",
+            "d) PersistenceExceptionTranslationPostProcessor"
+        ],
+        "answer": "d",
+        "explanation": "This bean post processor will only translate exceptions for beans annotated with @Repository."
+    },
+    {
+        "question": "You can assign a component name in this annotation and have the session factory autowired by the Spring IoC container with @Autowired.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In Spring, @Repository is a stereotype annotation. By annotating it, a component class can be auto-detected through component scanning."
+    },
+    {
+        "question": "Spring provides to simplify your DAO implementation by managing entitymanagers and transactions for you:-",
+        "options": [
+            "a) HibernateTemplate",
+            "b) JpaTemplate",
+            "c) SpringTemplate",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Using Spring JpaTemplate means your DAO is dependent on Spring API."
+    },
+    {
+        "question": "Annotation used for entity manager injection in EJB components.",
+        "options": [
+            "a) @PersistenceContext",
+            "b) @Persistence",
+            "c) @PersistenceCon",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring can also interpret this annotation by means of a bean post processor."
+    },
+    {
+        "question": "To use the context injection approach, you can declare an entity manager field in your DAO and annotate it with the @PersistenceContext annotation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring will inject an entity manager into this field for you to persist your objects."
+    },
+    {
+        "question": "JpaTemplate will translate the native JPA exceptions into exceptions in Spring DataAccessException hierarchy.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If you want JPA exceptions to be translated into Spring DataAccessException, you have to apply the @Repository annotation to your DAO class."
+    }
+]

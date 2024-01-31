@@ -1,0 +1,108 @@
+[
+    {
+        "question": "How many components are present in generalized linear models?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Generalized linear models involve three components."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Additive response models don\u2019t make much sense if the response is discrete, or strictly positive",
+            "b) Transformations are often easy to interpret in linear model",
+            "c) Regression models are used to predict one variable from one or more other variables",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Transformations are often hard to interpret in linear model."
+    },
+    {
+        "question": "Which of the following component is involved in generalized linear models?",
+        "options": [
+            "a) An exponential family model for the response",
+            "b) A systematic component via a linear predictor",
+            "c) A link function that connects the means of the response to the linear predictor",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "GLM is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution."
+    },
+    {
+        "question": "Collection of exchangeable binary outcomes for the same covariate data are called _______ outcomes.",
+        "options": [
+            "a) random",
+            "b) direct",
+            "c) binomial",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The multivariate regression model for binary outcomes gives odds ratios, not risk ratios."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Asymptotics are used for inference usually",
+            "b) Adding squared terms makes it continuously differentiable at the knot points",
+            "c) Adding squared terms makes it twice continuously differentiable at the knot points",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Adding cubic terms makes it twice continuously differentiable at the knot points."
+    },
+    {
+        "question": "Which of the following is example use of Poisson distribution?",
+        "options": [
+            "a) Analyzing contingency table data",
+            "b) Modeling web traffic hits",
+            "c) Incidence rates",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The Poisson distribution is a useful model for counts and rates."
+    },
+    {
+        "question": "Principal components or factor analytic models on covariates are often useful for reducing complex covariate spaces.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The space of models explodes quickly as you add interactions and polynomial terms."
+    },
+    {
+        "question": "How many outcomes are possible with bernoulli trial?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Bernoulli trial is a random experiment with exactly two possible outcomes."
+    },
+    {
+        "question": "Which of the following analysis is a statistical process for estimating the relationships among variables?",
+        "options": [
+            "a) Causal",
+            "b) Regression",
+            "c) Multivariate",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Regression models provide the scientist with a powerful tool, allowing predictions about past, present, or future events to be made with information about past or present events."
+    },
+    {
+        "question": "Linear models are the most useful applied statistical technique.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Linear model do have limitations."
+    }
+]

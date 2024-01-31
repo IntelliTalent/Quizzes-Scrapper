@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The chromatic number of a graph is the property of ____________",
+        "options": [
+            "a) graph coloring",
+            "b) graph ordering",
+            "c) group ordering",
+            "d) group coloring"
+        ],
+        "answer": "b",
+        "explanation": "A graph coloring is an assignment of labels to the vertices of a graph such that no two adjacent vertices share the same labels is called the colors of the graph. Now, the chromatic number of any graph is the minimal number of colors for which such an assignment is possible."
+    },
+    {
+        "question": "If a graph G is k-colorable and k<n, for any integer n then it is ___________",
+        "options": [
+            "a) n-colorable",
+            "b) n",
+            "c) (k+n)-colorable",
+            "d) (k"
+        ],
+        "answer": "a",
+        "explanation": "The chromatic number of a graph is the minimal number of colors for which a graph coloring is possible. A graph G is termed as k-colorable if there exists a graph coloring on G with k colors. If a graph is k-colorable, then it is n-colorable for any n>k."
+    },
+    {
+        "question": "If Cn is the nth cyclic graph, where n>3 and n is odd. Determine the value of X(C",
+        "options": [
+            "a) 32572",
+            "b) 16631",
+            "c) 3",
+            "d) 310"
+        ],
+        "answer": "c",
+        "explanation": "Here n is odd and X(C"
+    },
+    {
+        "question": "Determine the density of a planar graph with 34 edges and 13 nodes.",
+        "options": [
+            "a) 22/21",
+            "b) 12/23",
+            "c) 328",
+            "d) 576"
+        ],
+        "answer": "a",
+        "explanation": "The density of a planar graph or network is described as the ratio of the number of edges(E) to the number of possible edges in a network with(N) nodes. So,  D = E \u2212 N + 1/ 2 N \u2212 5. Hence, the required answer is: D=(34-13+1)/(2*13-5) = 22/21. A completely sparse planar graph has density 0 and a completely dense planar graph has degree 1."
+    },
+    {
+        "question": "If the number of vertices of a chromatic polynomial P",
+        "options": [
+            "a) 344",
+            "b) 73",
+            "c) 265",
+            "d) 56"
+        ],
+        "answer": "d",
+        "explanation": "The chromatic polynomial PG of a graph G is a polynomial in which every natural number k returns the number P"
+    },
+    {
+        "question": "For a connected planar simple graph G=(V, E) with e=|E|=16 and v=|V|=9, then find the number of regions that are created when drawing a planar representation of the graph?",
+        "options": [
+            "a) 321",
+            "b) 9",
+            "c) 1024",
+            "d) 596"
+        ],
+        "answer": "b",
+        "explanation": "Note that K"
+    },
+    {
+        "question": "Suppose G be a connected planar graph of order n\u22655 and size m. If the length of the smallest cycle in G is 5, then which of the following is true?",
+        "options": [
+            "a) (m+n)",
+            "b) m\u22645/3(n\u22122)",
+            "c) (m",
+            "d) n>=(6/5)(n+1)"
+        ],
+        "answer": "b",
+        "explanation": "Because G is connected and planar, Euler\u2019s theorem is bound to be involved. Let f denote the number of faces so that n\u2212m+f=2. Because the length of the smallest cycle in G is 5, every face has at least 5 edges adjacent to it. This means 2m\u22655f because every edge is adjacent to two faces. Plugging this in yields 2=n\u2212m+f\u2264n\u2212m+2/5m=n\u22123/5m, and hence m\u22645/3(n\u22122)."
+    },
+    {
+        "question": "What is the number of edges of the greatest planar subgraph of K",
+        "options": [
+            "a) 18",
+            "b) 6",
+            "c) 128",
+            "d) 702"
+        ],
+        "answer": "b",
+        "explanation": "The plane graph with an edge at most 6+2(m\u22123) is the greatest planar graph. So, in this case the number of edges is 6."
+    },
+    {
+        "question": "A non-planar graph can have ____________",
+        "options": [
+            "a) complete graph",
+            "b) subgraph",
+            "c) line graph",
+            "d) bar graph"
+        ],
+        "answer": "b",
+        "explanation": "A non-planar graph can have removed edges and vertices so that it contains subgraphs. However, non-planar graphs cannot be drawn in a plane and so no edge of the graph can cross it."
+    }
+]

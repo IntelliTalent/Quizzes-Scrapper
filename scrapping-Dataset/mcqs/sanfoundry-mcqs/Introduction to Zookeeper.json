@@ -1,0 +1,112 @@
+[
+    {
+        "question": "ZooKeeper itself is intended to be replicated over a sets of hosts called ____________",
+        "options": [
+            "a) chunks",
+            "b) ensemble",
+            "c) subdomains",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "As long as a majority of the servers are available, the ZooKeeper service will be available."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) ZooKeeper can achieve high throughput and high latency numbers",
+            "b) The fault tolerant ordering means that sophisticated synchronization primitives can be implemented at the client",
+            "c) The ZooKeeper implementation puts a premium on high performance, highly available, strictly ordered access",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The performance aspects of ZooKeeper means it can be used in large, distributed systems."
+    },
+    {
+        "question": "Which of the guarantee is provided by Zookeeper?",
+        "options": [
+            "a) Interactivity",
+            "b) Flexibility",
+            "c) Scalability",
+            "d) Reliability"
+        ],
+        "answer": "d",
+        "explanation": "Once an update has been applied, it will persist from that time forward until a client overwrites the update."
+    },
+    {
+        "question": "ZooKeeper is especially fast in ___________ workloads.",
+        "options": [
+            "a) write",
+            "b) read-dominant",
+            "c) read-write",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "ZooKeeper applications run on thousands of machines, and it performs best where reads are more common than writes, at ratios of around 10:1."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Distributed applications use SQL to store important configuration information",
+            "b) The service maintains a record of all transactions, which can be used for higher-level abstractions, like synchronization primitives",
+            "c) ZooKeeper maintains a standard hierarchical name space, similar to files and directories",
+            "d) ZooKeeper provides superior reliability through redundant services"
+        ],
+        "answer": "d",
+        "explanation": "Distributed applications use Zookeeper to store and mediate updates to important configuration information."
+    },
+    {
+        "question": "When a _______ is triggered the client receives a packet saying that the znode has changed.",
+        "options": [
+            "a) event",
+            "b) watch",
+            "c) row",
+            "d) value"
+        ],
+        "answer": "b",
+        "explanation": "ZooKeeper supports the concept of watches. Clients can set a watch on a znodes."
+    },
+    {
+        "question": "The underlying client-server protocol has changed in version _______ of ZooKeeper.",
+        "options": [
+            "a) 2.0.0",
+            "b) 3.0.0",
+            "c) 4.0.0",
+            "d) 6.0.0"
+        ],
+        "answer": "b",
+        "explanation": "Old pre-3.0.0 clients are not guaranteed to operate against upgraded 3.0.0 servers and vice-versa."
+    },
+    {
+        "question": "The java package structure has changed from com.yahoo.zookeeper* to ___________",
+        "options": [
+            "a) apache.zookeeper",
+            "b) org.apache.zookeeper",
+            "c) org.apache.zookeeper.package",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A number of constants used in the client ZooKeeper API were re-specified using enums (rather than ints)."
+    },
+    {
+        "question": "A number of constants used in the client ZooKeeper API were renamed in order to reduce ________ collision.",
+        "options": [
+            "a) value",
+            "b) namespace",
+            "c) counter",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "ZOOKEEPER-18 removed KeeperStateChanged, use KeeperStateDisconnected instead."
+    },
+    {
+        "question": "ZooKeeper allows distributed processes to coordinate with each other through registers, known as ___________",
+        "options": [
+            "a) znodes",
+            "b) hnodes",
+            "c) vnodes",
+            "d) rnodes"
+        ],
+        "answer": "a",
+        "explanation": "Every znode is identified by a path, with path elements separated by a slash."
+    }
+]

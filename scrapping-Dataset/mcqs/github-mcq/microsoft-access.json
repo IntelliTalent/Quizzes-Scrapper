@@ -1,0 +1,501 @@
+[
+    {
+        "question": "Which form view mode allows you to preview live data while you work on the design of the form?",
+        "options": [
+            "**Preview** view",
+            "**Layout** view",
+            "**Design** view",
+            "**Form** view"
+        ],
+        "answer": "**Layout** view"
+    },
+    {
+        "question": "How can you add multiple button controls to a form at once?",
+        "options": [
+            "Double-click the button control to lock it on, then left-click in the form to add each button",
+            "Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form",
+            "Select the Multiple Object check box in the Design tab before selecting the button control",
+            "Left-click the button control to select it, then add multiples to the form by right-clicking in the position you'd like to add them"
+        ],
+        "answer": "Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form"
+    },
+    {
+        "question": "What is the Access string operator that joins or concatenates text strings together?",
+        "options": [
+            "`&`",
+            "`!`",
+            "`#`",
+            "`-`"
+        ],
+        "answer": "`&`"
+    },
+    {
+        "question": "The relationship field in this table has been created with what feature?",
+        "options": [
+            "lookup",
+            "reference integrity",
+            "pick list",
+            "validation rule"
+        ],
+        "answer": "lookup"
+    },
+    {
+        "question": "On a report, you want to display a header for each change in month name. How should you set up the Group and Sort options so that they are in the proper chronological order?",
+        "options": [
+            "Sort on month number, then sort on month name",
+            "Sort on month number, then group on month name",
+            "Group on month number, then sort by month name",
+            "Group on month number, then sort on month number"
+        ],
+        "answer": "Group on month number, then sort on month number"
+    },
+    {
+        "question": "What kind of query will display data with both column headers and row headers?",
+        "options": [
+            "crosstab",
+            "select",
+            "simple",
+            "spreadsheet"
+        ],
+        "answer": "crosstab"
+    },
+    {
+        "question": "What currency format displays a thousands separator, but not a currency symbol, such as $ or \u20ac?",
+        "options": [
+            "Scientific",
+            "Standard",
+            "General Number",
+            "Fixed"
+        ],
+        "answer": "Standard"
+    },
+    {
+        "question": "In Access Option > Current Database, what does turning off the Allow Full Menus option do?",
+        "options": [
+            "removes the ribbon interface",
+            "removes all ribbon tabs except Home and Print Preview",
+            "disable the right-click menu when working with objects",
+            "removes the **Design** view contextual tabs, which forces most design changes to be made in **Layout** view"
+        ],
+        "answer": "removes the **Design** view contextual tabs, which forces most design changes to be made in **Layout** view"
+    },
+    {
+        "question": "You want to create a form to view a customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?",
+        "options": [
+            "Use a form to display the customer details with a subform linked to their order information",
+            "Create a split form that displays the customer information at the top and the order history in the table below",
+            "Create a navigation form that includes a form for the customer details and a separate form for the order history",
+            "Create a continous form that uses a query to gather all of the customer details and order history in a single record source"
+        ],
+        "answer": "Create a split form that displays the customer information at the top and the order history in the table below"
+    },
+    {
+        "question": "You want a form to appear automatically, whenever the database starts. How would you do this?",
+        "options": [
+            "In the **Access Options** dialog box, click **Current Database**, then select the form you want to open in the **Display Form** property",
+            "Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**",
+            "Right-click the form you want to open automatically and select **Startup Form**",
+            "On the **Database Tools** tab, click **Database Options**, then set the form you want to open as the **Initial View** object"
+        ],
+        "answer": "Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**"
+    },
+    {
+        "question": "In Design view, which area of a form is the primary location for text boxes, buttons, and other control objects?",
+        "options": [
+            "**Page Layout**",
+            "**View** section",
+            "Form body",
+            "**Detail** section"
+        ],
+        "answer": "**Detail** section"
+    },
+    {
+        "question": "What tool builds a report containing detailed information about the object in the database?",
+        "options": [
+            "Object dependencies",
+            "Table analyzer",
+            "Access database manager",
+            "Database documenter"
+        ],
+        "answer": "Database documenter"
+    },
+    {
+        "question": "You want to validate a proposed modification to a record's value before the table is saved to the database. What data macro can you add to the table to do this?",
+        "options": [
+            "After Insert",
+            "Before Change",
+            "After Update",
+            "Before Delete"
+        ],
+        "answer": "Before Change"
+    },
+    {
+        "question": "When you add a group to a report, what automatically gets added to the structure?",
+        "options": [
+            "a group header",
+            "nothing",
+            "a group header and footer",
+            "a group footer"
+        ],
+        "answer": "a group header"
+    },
+    {
+        "question": "A table contains a field with the lookup properties set as shown. What will be the value of the field when the end user clicks Normal from the combo box when entering a record into the table?",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "Normal"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What program flow function evaluates a condition and returns either a truepart or a falsepart?",
+        "options": [
+            "`Switch()`",
+            "`IsError()`",
+            "`IIf()`",
+            "`Choose()`"
+        ],
+        "answer": "`IIf()`"
+    },
+    {
+        "question": "The display for numerical data defaults to a **\\_alignment, and text data defaults to **\\_aligntment",
+        "options": [
+            "left; right",
+            "right; left",
+            "left; left",
+            "right; right"
+        ],
+        "answer": "right; left"
+    },
+    {
+        "question": "Which data type is a modern replacement for the OLE Object data type?",
+        "options": [
+            "Attachment",
+            "Replication ID",
+            "BLOB",
+            "Hyperlink"
+        ],
+        "answer": "Attachment"
+    },
+    {
+        "question": "How can you ensure that each value saved in a particular field is unique from all other values in the field?",
+        "options": [
+            "Set the Indexed property to No",
+            "Set the Required property to Yes (Unique Values)",
+            "Set the Validation Rule property to No Duplicates",
+            "Set the Indexed property to Yes (No Duplicates)"
+        ],
+        "answer": "Set the Indexed property to Yes (No Duplicates)"
+    },
+    {
+        "question": "Which Access database tool will help you split a single, large, unnormalized data table into multiple related tables that follow the best practices of good database design?",
+        "options": [
+            "Database Documenter",
+            "Compact and Repair Database",
+            "Database Splitter Wizard",
+            "Table Analyzer Wizard"
+        ],
+        "answer": "Table Analyzer Wizard"
+    },
+    {
+        "question": "When backing up an Access database, what is added to the file name automatically?",
+        "options": [
+            "`A serialized backup number, such as \"_Backup_2\"`",
+            "`The current date, such as \"_2019-08-21\"`",
+            "`The characters \"_bu\"`",
+            "`The word \"_Archive\"`"
+        ],
+        "answer": "`The current date, such as \"_2019-08-21\"`"
+    },
+    {
+        "question": "Which table field property, if supplied, will display instead of the field name as a column header when viewing the datasheet of as a label when the field is added toa form or report?",
+        "options": [
+            "Popup Text",
+            "Description",
+            "Caption",
+            "Tool Tip"
+        ],
+        "answer": "Caption"
+    },
+    {
+        "question": "Which form control property creates a small pop-up flag that contains text when a user hovers the mouse cursor over the object?",
+        "options": [
+            "ControlTip Text",
+            "Status Text",
+            "Tool Text",
+            "Help Text"
+        ],
+        "answer": "ControlTip Text"
+    },
+    {
+        "question": "The expression values <=, <>, and > are found in what expression category?",
+        "options": [
+            "comparison operators",
+            "logical operators",
+            "string operators",
+            "arithmetic operators"
+        ],
+        "answer": "comparison operators"
+    },
+    {
+        "question": "Which section of a report appears at the top of every page in the printed report?",
+        "options": [
+            "page header",
+            "group header",
+            "detail header",
+            "report header"
+        ],
+        "answer": "page header"
+    },
+    {
+        "question": "When would you use a left join query?",
+        "options": [
+            "When you want to retrieve every record from the left table, plus any matching information from the right table where it exists",
+            "When you want to retrieve all of the records from the right table that have matching records in the left table",
+            "When you want to retrieve just the records from the left table that have matching records in the right table",
+            "When you want to retrieve just the records from the left table that do not have any matching records in the right table"
+        ],
+        "answer": "When you want to retrieve every record from the left table, plus any matching information from the right table where it exists"
+    },
+    {
+        "question": "How can you run a submacro saved in a macro?",
+        "options": [
+            "Use an If container in the macro.",
+            "Call the submacro with the [MacroName]![SubMacroName] syntax.",
+            "Use a RunMacro or OnError macro action.",
+            "Expand the macro in the **Navigation Pane** and double-click the submacro name."
+        ],
+        "answer": "Use a RunMacro or OnError macro action."
+    },
+    {
+        "question": "Which combo box property defines what values appears when the user clicks the drop-down arrow?",
+        "options": [
+            "Control Source",
+            "Row Source",
+            "Value List",
+            "Data Source"
+        ],
+        "answer": "Row Source"
+    },
+    {
+        "question": "What does the expression Now() evaluate to?",
+        "options": [
+            "the current system date",
+            "the current system date, time, and time zone",
+            "the current system date and time",
+            "the current system time"
+        ],
+        "answer": "the current system date and time"
+    },
+    {
+        "question": "Certain words have special meaning to Access, and you should avoid using them as table or field names. What are these words called?",
+        "options": [
+            "discouraged terms",
+            "reserved words",
+            "retired objects",
+            "system names"
+        ],
+        "answer": "reserved words"
+    },
+    {
+        "question": "What is the operator for \"not equal to\"",
+        "options": [
+            "< >"
+        ],
+        "answer": "< >"
+    },
+    {
+        "question": "You need to email a report to a coworker that maintains all formatting and page layout attributes. Which file format should you choose from the **Print Preview** ribbon?",
+        "options": [
+            "Excel",
+            "HTML",
+            "Word",
+            "PDF"
+        ],
+        "answer": "PDF"
+    },
+    {
+        "question": "Which section can a form _not_ contain?",
+        "options": [
+            "Group Header & Footer",
+            "Form Header & Footer",
+            "Detail",
+            "Page Header & Footer"
+        ],
+        "answer": "Group Header & Footer"
+    },
+    {
+        "question": "The **Run** button and the **View Datasheet** button do exactly the same thing for which query type?",
+        "options": [
+            "select",
+            "append",
+            "make table",
+            "delete"
+        ],
+        "answer": "select"
+    },
+    {
+        "question": "You have a database file that generates an error from a custom macro immediately after opening. How can you open the database and bypass the startup options to prevent the macro from running so that you can fix the error?",
+        "options": [
+            "In the **Open File** dialog box, click the down arrow on the **Open** button and select **Disable Macros**.",
+            "Hold the Shift key while double-clicking the **database** icon.",
+            "Right-click the database icon and select **Run as Administrator**.",
+            "From the **File** menu, select **Open as Read-Only**."
+        ],
+        "answer": "Hold the Shift key while double-clicking the **database** icon."
+    },
+    {
+        "question": "You want to ensure that a query recordset is read-only and cannot modify the underlying data tables it references. How can you do that?",
+        "options": [
+            "Set the Recordset Type property to Snapshot.",
+            "Set the Output All Fields property to No.",
+            "Set the Link Master Fields property to No.",
+            "Set the Recordset Type property to Dynaset (Inconsistent Updates)."
+        ],
+        "answer": "Set the Recordset Type property to Snapshot."
+    },
+    {
+        "question": "Which form control object contains a number of option buttons, check boxes, or toggle buttons, and allows the user to make only a single selection?",
+        "options": [
+            "option group",
+            "switch control",
+            "bound selection",
+            "object selector"
+        ],
+        "answer": "option group"
+    },
+    {
+        "question": "Which query criteria will return records for \"Debra\" and \"Donna\" but not \"Daniel\"?",
+        "options": [
+            "`Like \"*n*\"`",
+            "`Like \"*[ro]*\"`",
+            "`Like \"De* or Do*\"`",
+            "`Like \"D*\"`"
+        ],
+        "answer": "`Like \"*[ro]*\"`"
+    },
+    {
+        "question": "When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?",
+        "options": [
+            "The calculation cannot use custom Visual Basic functions.",
+            "The calculation can include built-in functions.",
+            "The calculation can use fields from a related table.",
+            "The calculation can include fields from the same table."
+        ],
+        "answer": "The calculation cannot use custom Visual Basic functions."
+    },
+    {
+        "question": "You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?",
+        "options": [
+            "Skip",
+            "Next",
+            "Fail",
+            "Macro Name"
+        ],
+        "answer": "Next"
+    },
+    {
+        "question": "You have several label objects in a form. You customized the font and size of one, and want to format the others to match. What is the best way to do this?",
+        "options": [
+            "Select the unformatted labels, click the Format Painter tool, then click the formatted label.",
+            "Select the formatted label, click the Format Painter tool, then drag a box around the unformatted labels.",
+            "Select all of the labels and then click the Format Painter tool.",
+            "Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels."
+        ],
+        "answer": "Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels."
+    },
+    {
+        "question": "#### Q41.When adding a picture to a form, which Picture Size Mode property will keep the image at 100% of its original size, even if the bounding box is smaller?",
+        "options": [
+            "Clip",
+            "Locked",
+            "Stretch",
+            "Zoom"
+        ],
+        "answer": "Clip"
+    },
+    {
+        "question": "Which single-line query criteria would _not_ be equivalent to the multilinied one pictured?",
+        "options": [
+            "`Or (\"Houston\",\"Boston\",\"Chicago\")`",
+            "`In (\"Houston\",\"Boston\",\"Chicago\")`",
+            "`\"Houston\" Or \"Boston\" Or \"Chicago\"`",
+            "`\"houston\" Or \"boston\" Or \"chicago\"`"
+        ],
+        "answer": "`Or (\"Houston\",\"Boston\",\"Chicago\")`"
+    },
+    {
+        "question": "When designing a form, you add a horizontal line object that is the full width of the Detail section. Yet when you view the form, the line goes only part way across the screen. How can you make the line extend to the edges of the screen?",
+        "options": [
+            "From the **Anchoring** menu, select **Stretch Across Top**.",
+            "From the **Align** menu, select **Full Justify**.",
+            "From the **Anchoring** menu, select **Top Right**.",
+            "From the **Size/Space** menu, select **To Fit**."
+        ],
+        "answer": "From the **Anchoring** menu, select **Stretch Across Top**."
+    },
+    {
+        "question": "A Decimal data type field with a Precision of 5 and a Scale of 3 can store how many digits on the left side of the decimal point?",
+        "options": [
+            "three",
+            "eight",
+            "two",
+            "five"
+        ],
+        "answer": "two"
+    },
+    {
+        "question": "A databse has a form with the AllowEdits property set to No. You open the form using an OpenForm macro step with the Data Mode property set to Edit. Given this, which statement is true?",
+        "options": [
+            "You cannot edit existing records but can add new records.",
+            "You cannot edit or add records.",
+            "You can edit existing records but cannot add new records.",
+            "You can edit existing records and new records."
+        ],
+        "answer": "You cannot edit existing records but can add new records."
+    },
+    {
+        "question": "What rule type must you choose to conditionally format a value in a report based on another value in the same record?",
+        "options": [
+            "Field Value Is...",
+            "Evaluation Is...",
+            "Expression Is...",
+            "Compare to..."
+        ],
+        "answer": "Field Value Is..."
+    },
+    {
+        "question": "What can not be used as the record source for a report?",
+        "options": [
+            "embedded query",
+            "linked table",
+            "embedded table",
+            "linked query"
+        ],
+        "answer": "embedded table"
+    },
+    {
+        "question": "You're building a database to track the books that library members check out. How can you ensure that every record in the checkout table is associated with a valid library member?",
+        "options": [
+            "Create a data macro to validate the foreign key values in the chekcout table.",
+            "Create a combo box on a checkout form that displays only valid library members.",
+            "Create a one-to-many relationship between the checkout table and the member table.",
+            "Enforce referential integrity between the checkout table and the member table."
+        ],
+        "answer": "Enforce referential integrity between the checkout table and the member table."
+    },
+    {
+        "question": "When designing a report, clicking the Build button (..) in the Record Source property will do what?",
+        "options": [
+            "create a linked table reference in the Navigation Pane",
+            "create an expression in the report object",
+            "create an embedded query in the report object",
+            "create a data macro in the report object"
+        ],
+        "answer": "create an embedded query in the report object",
+        "explanation": null,
+        "codeblock": null
+    }
+]

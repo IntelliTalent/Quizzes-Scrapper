@@ -1,0 +1,99 @@
+[
+    {
+        "question": "On which port will the server generally listen to for SMTP?",
+        "options": [
+            "a) port 35",
+            "b) port 63",
+            "c) port 25",
+            "d) port 65"
+        ],
+        "answer": "c",
+        "explanation": "The server would have to listen on port 25 for the simple mail transfer protocol."
+    },
+    {
+        "question": "In the alert protocol the first byte takes the value 1 or 2 which corresponds to ________ and _________ respectively.",
+        "options": [
+            "a) Select, Alarm",
+            "b) Alert, Alarm",
+            "c) Warning, Alarm",
+            "d) Warning, Fatal"
+        ],
+        "answer": "d",
+        "explanation": "The first byte takes the value warning(1) or fatal(2) to convey the severity of the message."
+    },
+    {
+        "question": "In terms of Web Security Threats, \u201cImpersonation of another user\u201d is a Passive Attack.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Passive attacks include eavesdropping on network traffic between browser and server and gaining access to information on a website that is supposed to be restricted. Active attacks include impersonating another user, altering messages in transit between client and server, altering information on a website."
+    },
+    {
+        "question": "In the SSL record protocol operation pad_1 is :",
+        "options": [
+            "a) is the byte 0x36 repeated 40 times for MD5",
+            "b) is the byte 0x5C repeated 40 times for MD5",
+            "c) is the byte 0x5C repeated 48 times for SHA-1",
+            "d) is the byte 0x36 repeated 48 times for MD5"
+        ],
+        "answer": "d",
+        "explanation": "pad_1 = is the byte 0x36 repeated 48 times for MD5."
+    },
+    {
+        "question": "In the Phase 2 of the Handshake Protocol Action, the step server_key_exchange is not needed for which of the following cipher systems?",
+        "options": [
+            "a) Fortezza",
+            "b) Anonymous Diffie-Hellman",
+            "c) Fixed Diffie-Hellman",
+            "d) RSA"
+        ],
+        "answer": "c",
+        "explanation": "The Fixed Diffie-Helmann  does not require the server_key_exchange step in the handshake protocol."
+    },
+    {
+        "question": "An HTTP connection uses port __________ whereas HTTPS uses port __________ and invokes SSL.",
+        "options": [
+            "a) 40; 80",
+            "b) 60; 620",
+            "c) 80; 443",
+            "d) 620; 80"
+        ],
+        "answer": "c",
+        "explanation": "HTTP uses 80 ports, whereas HTTPS uses 443 ports."
+    },
+    {
+        "question": "SSID stands for",
+        "options": [
+            "a) Secure Service Identifier",
+            "b) Secure Set Independent Device",
+            "c) Secure Set Identifier",
+            "d) Service Set Independent Device"
+        ],
+        "answer": "c",
+        "explanation": "SSID stands for Secure Set Identifier."
+    },
+    {
+        "question": "\u201cWhen an attacker is able to eavesdrop on network traffic and identify the MAC address of a computer with network previleges.\u201d Which type of Wireless network threat would you classify this under?",
+        "options": [
+            "a) Identity Theft",
+            "b) Man in the middle attack",
+            "c) Network Injection",
+            "d) Accidental Association"
+        ],
+        "answer": "a",
+        "explanation": "This threat falls under Identity Theft."
+    },
+    {
+        "question": "Loopback address is given by:",
+        "options": [
+            "a) 0.0.0.0",
+            "b) 127.x.x.x",
+            "c) 255.255.255.255",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Loopback address is given by 127.x.x.x."
+    }
+]

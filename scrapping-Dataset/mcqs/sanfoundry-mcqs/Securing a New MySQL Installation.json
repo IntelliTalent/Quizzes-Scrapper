@@ -1,0 +1,105 @@
+[
+    {
+        "question": "The superuser account of the grant tables in the mysql database is called ______________",
+        "options": [
+            "a) super",
+            "b) prime",
+            "c) root",
+            "d) leaf"
+        ],
+        "answer": "c",
+        "explanation": "The root accounts are superuser accounts intended for administrative purposes. The root accounts have the privileges and to delete all the databases and shutting down the server."
+    },
+    {
+        "question": "Which script initializes the data directory during installation?",
+        "options": [
+            "a) mysql_install_db",
+            "b) mysql_install_dbm",
+            "c) mysql_init_db",
+            "d) mysql_init_dbm"
+        ],
+        "answer": "a",
+        "explanation": "The data directory is initialized during the installation by \u2018mysql_install_db\u2019. If MySQL is installed on Linux from RPM packages then \u2018mysql_install_db\u2019 is run automatically."
+    },
+    {
+        "question": "Anonymous accounts have user name ______________",
+        "options": [
+            "a) root",
+            "b) blank",
+            "c) super",
+            "d) prime"
+        ],
+        "answer": "b",
+        "explanation": "Anonymous accounts have user name left blank. The main benefit of removing the anonymous user accounts is it significantly simplifies the task of setting up non-anonymous accounts."
+    },
+    {
+        "question": "For REVOKE statements, the server automatically rereads the grant tables.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For the \u2018REVOKE\u2019 and \u2018DROP USER\u2019 statements, the server automatically re-reads the grant tables and no FLUSH PRIVILEGES statements are needed. Hence the grant tables are re-read."
+    },
+    {
+        "question": "What does the default case sensitivity of database and table names depend on?",
+        "options": [
+            "a) SQL server",
+            "b) Server SQL mode",
+            "c) Operating system of machine",
+            "d) Does not depend on anything"
+        ],
+        "answer": "c",
+        "explanation": "The default case sensitivity imposes a dependency on the operating system of the machine on which the MySQL server is running. Windows does not treat database and table names as case sensitive unlike Unix."
+    },
+    {
+        "question": "The case sensitive among these is ______________",
+        "options": [
+            "a) Stored function name",
+            "b) Stored procedure name",
+            "c) Trigger name",
+            "d) Event name"
+        ],
+        "answer": "c",
+        "explanation": "The stored functions and stored procedure names in MySQL are not case sensitive. Event names are also not case sensitive. Unlike the standard SQL, the trigger names in MySQL is case sensitive."
+    },
+    {
+        "question": "The variable used to set table alias names as non case sensitive is ______________",
+        "options": [
+            "a) lower_case_table_names",
+            "b) lower_case_all",
+            "c) lower_case_alias",
+            "d) lower_case_aliases"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, by default the alias names are case sensitive. An alias can hence be specified in any letter case, upper, lower or mixed. If the variable \u2018lower_case_table_names\u2019 is non zero, the alias names of tables are not case sensitive."
+    },
+    {
+        "question": "The clause that can be used to sort string values according to a specific collation is ______________",
+        "options": [
+            "a) SORT",
+            "b) GROUP",
+            "c) FILTER",
+            "d) COLLATE"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018COLLATE\u2019 operator can be used to sort the string values according to a specific collation. For example, \u2018SELECT col FROM tbl ORDER BY col COLLATE latin1_swedish_ci\u2019 sorts by Swedish collation."
+    },
+    {
+        "question": "The statement used to find out which character sets are available is ______________",
+        "options": [
+            "a) SHOW CHARACTER SET",
+            "b) SHOW COLLATION",
+            "c) SHOW CHARACTER SETS",
+            "d) SHOW COLLATIONS"
+        ],
+        "answer": "a",
+        "explanation": "It is simple to determine the character sets and collations that are available in MySQL. \u2018SHOW CHARACTER SET\u2019 shows the character sets while \u2018SHOW COLLATION\u2019 shows the collations."
+    },
+    {
+        "question": "The collations this statement lists are ______________",
+        "options": [],
+        "answer": "a",
+        "explanation": "The character set \u2018utf8\u2019 is used for the Unicode character set 8. The \u2018LIKE\u2019 keyword does the job of narrowing the search space to refer to only those names that begin with \u2018utf8\u2019."
+    }
+]

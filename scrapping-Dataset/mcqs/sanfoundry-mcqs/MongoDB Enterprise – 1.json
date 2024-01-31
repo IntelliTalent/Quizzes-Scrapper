@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is a metapackage for enterprise?",
+        "options": [
+            "a) mongodb-enterprise",
+            "b) mongodb-enterprise-server",
+            "c) mongodb-enterprise-mongos",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "mongodb-enterprise is a metapackage that will automatically install the four component packages."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB provides packages of the officially supported MongoDB Enterprise builds in it\u2019s own repository",
+            "b) mongodb-enterprise-tool package contains the mongo shell",
+            "c) mongodb-enterprise-shell package contains the mongo tools",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This repository provides the MongoDB Enterprise distribution in many packages."
+    },
+    {
+        "question": "______ package contains the mongod daemon and associated configuration and init scripts.",
+        "options": [
+            "a) mongodb-enterprise",
+            "b) mongodb-enterprise-server",
+            "c) mongodb-enterprise-mongos",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "mongodb-enterprise-mongos package contains the mongos daemon."
+    },
+    {
+        "question": "Which of the following is not a part of mongodb-enterprise-tools?",
+        "options": [
+            "a) mongodump",
+            "b) mongotop",
+            "c) mongodown",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "mongodb-enterprise-tools package contains the following MongoDB tools: mongoimport bsondump, mongodump, mongoexport, mongofiles, mongoimport, mongooplog, mongoperf, mongorestore, mongostat, and mongotop."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) As of version 2.0.0, there are no control scripts for mongos",
+            "b) The mongodb-enterprise package includes various control scripts, including the init script /etc/rc.d/init.d/mongod",
+            "c) You must configure SELinux to allow MongoDB to start on Red Hat Linux-based systems",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "As of version 3.0.0, there are no control scripts for mongos.The mongos process is used only in sharding."
+    },
+    {
+        "question": "MongoDB only provides Enterprise packages for Ubuntu ________ LTS.",
+        "options": [
+            "a) 13.04",
+            "b) 12.10",
+            "c) 12.04",
+            "d) 13.10"
+        ],
+        "answer": "c",
+        "explanation": "The package structure and names have changed as of version 2.6."
+    },
+    {
+        "question": "Which of the following is the Ubuntu package management tool?",
+        "options": [
+            "a) wapt",
+            "b) dpkg",
+            "c) capt",
+            "d) wat"
+        ],
+        "answer": "b",
+        "explanation": "The Ubuntu package management tools (i.e. dpkg and apt) ensure package consistency and authenticity by requiring that distributors sign packages with GPG keys."
+    },
+    {
+        "question": "Command to install the latest stable version of MongoDB Enterprise in Ubuntu is ______________",
+        "options": [
+            "a) sudo apt-get install mongodb",
+            "b) sudo apt-get install mongodb-enterprise",
+            "c) sudo apt-get install mongodb-ent",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To install a specific release of MongoDB Enterprise, specify each component package individually and append the version number to the package name."
+    },
+    {
+        "question": "mongod process is stopped by issuing which of the following command?",
+        "options": [
+            "a) sudo service mongod start",
+            "b) sudo service mongod stop",
+            "c) sudo service mongod restart",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To stop MongoDB, press Control+C in the terminal where the mongod instance is running."
+    },
+    {
+        "question": "____________ package contains the mongo shell.",
+        "options": [
+            "a) mongodb-enterprise",
+            "b) mongodb-enterprise-server",
+            "c) mongodb-enterprise-shell",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "mongodb-enterprise-mongos package contains the mongos daemon."
+    }
+]

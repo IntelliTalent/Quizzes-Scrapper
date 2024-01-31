@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Suppose A->xBz and B->y, then the simplified grammar would be:",
+        "options": [
+            "a) A->xyz",
+            "b) A->xBz|xyz",
+            "c) A->xBz|B|y",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For the first step, substitute B in first production as it only produces terminal and remove B production as it has already been utilized."
+    },
+    {
+        "question": "Given Grammar: S->A, A->aA, A->e, B->bA",
+        "options": [
+            "a) S->A",
+            "b) A->aA",
+            "c) A->e",
+            "d) B->bA"
+        ],
+        "answer": "d",
+        "explanation": "Some derivations are not reachable from the starting variable. As B is not reachable from the starting variable, it is a useless symbol and thus, can be eliminated."
+    },
+    {
+        "question": "Given:",
+        "options": [
+            "a) A is a non terminal",
+            "b) A is a terminal",
+            "c) w \u00ce L",
+            "d) w \u00cb L"
+        ],
+        "answer": "c",
+        "explanation": "Whatever operation we perform in intermediate stages, if the string produced belongs to the language, A is termed as useful and if not, not a useful variable."
+    },
+    {
+        "question": "Given:",
+        "options": [
+            "a) 1",
+            "b) 3/4",
+            "c) 2/3",
+            "d) 0"
+        ],
+        "answer": "a",
+        "explanation": "A, B, C, D are the useless symbols in the given grammar as they never tend to lead to a terminal. The productions S-> A, A->aA, B->C, C->D are also termed as useless production as they will never produce a string to the grammar."
+    },
+    {
+        "question": "Given grammar G:",
+        "options": [
+            "a) {C}",
+            "b) {A,B}",
+            "c) {A,B,S}",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "First step: Make a set of variables that directly end up with a terminal"
+    },
+    {
+        "question": "Given grammar:",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use a dependency graph to find which variable is reachable and which is not."
+    },
+    {
+        "question": "Inorder to simplify a context free grammar, we can skip the following operation:",
+        "options": [
+            "a) Removal of null production",
+            "b) Removal of useless symbols",
+            "c) Removal of unit productions",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Inorder to simplify the grammar all of the process including the removal of null productions, unit productions and useless symbols is necessary."
+    },
+    {
+        "question": " Given a Grammar G:",
+        "options": [
+            "a) S->aA|aB, A->a, B->bb",
+            "b) S->aA|aB, A->B, B->bb",
+            "c) S->aA|aB, A->a, B->A",
+            "d) None of the emntioned"
+        ],
+        "answer": "a",
+        "explanation": "Step 1: Substitute A->B"
+    },
+    {
+        "question": "Simplify the given grammar:",
+        "options": [],
+        "answer": "a",
+        "explanation": "Using the substitution rules, we can simply eradicate what is useless and thus produce the simplified result i.e. A-> a| aaA| ababbAc| abbc."
+    },
+    {
+        "question": "In context to the process of removing useless symbols, which of the following is correct?",
+        "options": [
+            "a) We remove the Nullable variables",
+            "b) We eliminate the unit productions",
+            "c) We eliminate products which yield no terminals",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the  process of removal of useless symbols, we want to remove productions that can never take part in any derivation."
+    }
+]

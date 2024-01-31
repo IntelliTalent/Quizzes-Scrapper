@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the base case for the inequality 7",
+        "options": [
+            "a) 652 > 189",
+            "b) 42 < 132",
+            "c) 343 > 27",
+            "d) 42 <= 431"
+        ],
+        "answer": "c",
+        "explanation": "By the principle of mathematical induction, we have 7"
+    },
+    {
+        "question": "In the principle of mathematical induction, which of the following steps is mandatory?",
+        "options": [
+            "a) induction hypothesis",
+            "b) inductive reference",
+            "c) induction set assumption",
+            "d) minimal set representation"
+        ],
+        "answer": "a",
+        "explanation": "The hypothesis of Step is a must for mathematical induction that is the statement is true for n = k, where n and k are any natural numbers, which is also called induction assumption or induction hypothesis."
+    },
+    {
+        "question": "For m = 1, 2, \u2026, 4m+2 is a multiple of ________",
+        "options": [
+            "a) 3",
+            "b) 5",
+            "c) 6",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "For n = 1, 4 * 1 + 2 = 6, which is a multiple of 2. Assume that 4m+2 is true for m=k and so 4k+2 is true based on the assumption. Now, to prove that 4k+2 is also a multiple of 2 \u21d2 4(k+1)+2 \u21d2 2 * 4k \u2013 4k + 6 \u21d2 2*4k+4 \u2013 4k+2 \u21d2 2(4k+2) \u2013 2(2k+1). Here, the first term 2(4k+2) is true as per assumption and the second term 2(4k+2) is must to be a multiple of 2. Hence, 4(k+1)+2 is a multiple of 2. So, by induction hypothesis, (4m+2) is a multiple of 2, for m = 1,2,3,\u2026"
+    },
+    {
+        "question": "For any integer m>=3, the series 2+4+6+\u2026+(4m) can be equivalent to ________",
+        "options": [
+            "a) m",
+            "b) m+1",
+            "c) m",
+            "d) 3m"
+        ],
+        "answer": "a",
+        "explanation": "The required answer is m"
+    },
+    {
+        "question": "For every natural number k, which of the following is true?",
+        "options": [
+            "a) (mn)",
+            "b) m*k = n + 1",
+            "c) (m+n)",
+            "d) m"
+        ],
+        "answer": "a",
+        "explanation": "In the first step, for k = 1, (mn)"
+    },
+    {
+        "question": "By induction hypothesis, the series 1",
+        "options": [
+            "a) \\(\\frac{p^2+2}{7}\\)",
+            "b) \\(\\frac{p*(p + 1)*(2p + 1)}{6}\\)",
+            "c) \\(\\frac{p*(p+1)}{4}\\)",
+            "d) p+p"
+        ],
+        "answer": "b",
+        "explanation": "By principle of mathematical induction, we now assume that p (b) is true 1"
+    },
+    {
+        "question": "For any positive integer m ______ is divisible by 4.",
+        "options": [
+            "a) 5m",
+            "b) 3m + 1",
+            "c) m",
+            "d) m"
+        ],
+        "answer": "d",
+        "explanation": "The required answer is, m"
+    },
+    {
+        "question": "According to principle of mathematical induction, if P(k+1) = m",
+        "options": [
+            "a) P(k) = 3m",
+            "b) P(k) = m",
+            "c) P(k) = m",
+            "d) P(k) = m"
+        ],
+        "answer": "b",
+        "explanation": "By the principle of mathematical induction, if a statement is true for any number m = k, then for its successor m = k + 1, the statement also satisfies, provided the statement is true for m = 1. So, the required answer is p(k) = m"
+    },
+    {
+        "question": "Which of the following is the base case for 4",
+        "options": [
+            "a) 64 > 9",
+            "b) 16 > 2",
+            "c) 27 < 91",
+            "d) 54 > 8"
+        ],
+        "answer": "a",
+        "explanation": "Statement By principle of mathematical induction, for n=2 the base case of the inequation 4"
+    },
+    {
+        "question": "What is the induction hypothesis assumption for the inequality m ! > 2",
+        "options": [
+            "a) for m=k, k+1!>2",
+            "b) for m=k, k!>2",
+            "c) for m=k, k!>3",
+            "d) for m=k, k!>2"
+        ],
+        "answer": "b",
+        "explanation": "By the induction hypothesis, assume that p (k) = k! > 2"
+    }
+]

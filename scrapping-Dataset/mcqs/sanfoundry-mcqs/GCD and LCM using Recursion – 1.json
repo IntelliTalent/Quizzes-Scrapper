@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which of the following is not another name for GCD(Greatest Common Divisor)?",
+        "options": [
+            "a) LCM",
+            "b) GCM",
+            "c) GCF",
+            "d) HCF"
+        ],
+        "answer": "a",
+        "explanation": ": LCM (Least Common Multiple) and GCD are not same. GCM (Greatest Common Measure), GCF (Greatest Common Factor), HCF (Highest Common Factor) are other names for GCD."
+    },
+    {
+        "question": "What is the GCD of 8 and 12?",
+        "options": [
+            "a) 8",
+            "b) 12",
+            "c) 2",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "GCD is largest positive integer that divides each of the integer. So the GCD of 8 and 12 is 4."
+    },
+    {
+        "question": "If GCD of two number is 8 and LCM is 144, then what is the second number if first number is 72?",
+        "options": [
+            "a) 24",
+            "b) 2",
+            "c) 3",
+            "d) 16"
+        ],
+        "answer": "d",
+        "explanation": "As A * B = GCD (A, B) * LCM (A, B). So B = (144 * 8)/72 = 16."
+    },
+    {
+        "question": "Which of the following is also known as GCD?",
+        "options": [
+            "a) Highest Common Divisor",
+            "b) Highest Common Multiple",
+            "c) Highest Common Measure",
+            "d) Lowest Common Multiple"
+        ],
+        "answer": "a",
+        "explanation": "GCM (Greatest Common Measure), GCF (Greatest Common Factor), HCF (Highest Common Factor) and HCF (Highest Common Divisor) are also known as GCD."
+    },
+    {
+        "question": "Which of the following is coprime number?",
+        "options": [
+            "a) 54 and 24",
+            "b) 4 and 8",
+            "c) 6 and 12",
+            "d) 9 and 28"
+        ],
+        "answer": "d",
+        "explanation": "Coprime numbers have GCD 1. So 9 and 28 are coprime numbers. While 54 and 24 have GCD 6, 4 and 8 have GCD 4, 6 and 12 have GCD 6."
+    },
+    {
+        "question": "In terms of Venn Diagram, which of the following expression gives GCD (Given A \ua4f5 B \u2260 \u00d8)?",
+        "options": [
+            "a) Multiplication of A U B terms",
+            "b) Multiplication of A \ua4f5 B terms",
+            "c) Multiplication of A*B terms",
+            "d) Multiplication of A-B terms"
+        ],
+        "answer": "b",
+        "explanation": "In terms of Venn Diagram, the GCD is given by the intersection of two sets. So A \ua4f5 B gives the GCD. While A U B gives the LCM."
+    },
+    {
+        "question": "What is the GCD according to the given Venn Diagram?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "In terms of Venn Diagram, the GCD is given by the intersection of two sets. So A \ua4f5 B gives the GCD. While A U B gives the LCM. So here A \ua4f5 B is 5."
+    },
+    {
+        "question": "What is the GCD of a and b?",
+        "options": [
+            "a) a + b",
+            "b) gcd (a-b, b) if a>b",
+            "c) gcd (a+b, a-b)",
+            "d) a \u2013 b"
+        ],
+        "answer": "b",
+        "explanation": "As per Euclid\u2019s Algorithm, gcd (a, b) = gcd (a-b, b) if a > b or gcd (a, b) = gcd (a, b-a) if b > a."
+    },
+    {
+        "question": "What is the GCD of 48, 18, 0?",
+        "options": [
+            "a) 24",
+            "b) 2",
+            "c) 3",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "GCD is largest positive integer that divides each of the integer. So the GCD of 48, 18, 0 is 6."
+    },
+    {
+        "question": "Is 9 and 28 coprime number?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Coprime numbers have GCD 1. So 9 and 28 are coprime numbers."
+    },
+    {
+        "question": "If gcd (a, b) is defined by the expression, d=a*p + b*q where d, p, q are positive integers and a, b is both not zero, then what is the expression called?",
+        "options": [
+            "a) Bezout\u2019s Identity",
+            "b) Multiplicative Identity",
+            "c) Sum of Product",
+            "d) Product of Sum"
+        ],
+        "answer": "a",
+        "explanation": "If gcd (a, b) is defined by the expression, d=a*p + b*q where d, p, q are positive integers and a, b is both not zero, then the expression is called Bezout\u2019s Identity and p, q can be calculated by extended form of Euclidean algorithm."
+    },
+    {
+        "question": "Is gcd an associative function.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The gcd function is an associative function as gcd (a, gcd (b, c)) = gcd (gcd (a, b), c)."
+    },
+    {
+        "question": "Which is the correct term of the given relation, gcd (a, b) * lcm (a, b) =?",
+        "options": [
+            "a) |a*b|",
+            "b) a + b",
+            "c) a \u2013 b",
+            "d) a / b"
+        ],
+        "answer": "a",
+        "explanation": "The gcd is closely related to lcm as gcd (a, b) * lcm (a, b) = |a*b|."
+    },
+    {
+        "question": "Who gave the expression for the probability and expected value of gcd?",
+        "options": [
+            "a) James E. Nymann",
+            "b) Riemann",
+            "c) Thomae",
+            "d) Euler"
+        ],
+        "answer": "a",
+        "explanation": "In the year 1972, James E. Nymann showed some result to show the probability and expected value of gcd."
+    },
+    {
+        "question": "What is the computational complexity of Binary GCD algorithm where a and b are integers?",
+        "options": [
+            "a) O (log a + log b)",
+            "b) O (log (a + b))",
+            "c) O (log ab)",
+            "d) O (log a-b)"
+        ],
+        "answer": "a",
+        "explanation": "From the Binary GCD algorithm, it is found that the computational complexity is O (log a + log b)"
+    }
+]

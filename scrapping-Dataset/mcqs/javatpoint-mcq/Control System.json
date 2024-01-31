@@ -1,0 +1,614 @@
+[
+    {
+        "question": "1) A major part of the automatic control theory applies to the:",
+        "options": [
+            "Casual systems",
+            "Linear Time invariant systems",
+            "Time variant systems",
+            "Non-linear systems"
+        ],
+        "answer": "Linear Time invariant systems",
+        "explanation": " A linear time invariant (LTI) system provides the same output for the same input irrespective of when input is given. LTI systems are also used to predict the system's long term behavior.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Traffic light system is the example of:",
+        "options": [
+            "Open-loop system",
+            "Closed-loop system",
+            "Both (a) and (b)",
+            "None of these"
+        ],
+        "answer": "Open-loop system",
+        "explanation": " The traffic lamp will glow according to the set timing and sequence and is time-dependent. The sequence and time are controlled by relays that work on the pre-programmed time. It does not depend upon the rush of the road.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Laplace transform of a step function shown below is:",
+        "options": [
+            "1",
+            "1/s^2",
+            "0",
+            "1/s"
+        ],
+        "answer": "1/s",
+        "explanation": " The abrupt change in input of a step function takes place at t=0, and the step's size is1 unit.",
+        "codeblock": null
+    },
+    {
+        "question": "4) The negative feedback closed-loop system was subjected to 15V. The system has a forward gain of 2 and a feedback gain of 0.5. Determine the output voltage and the error voltage.",
+        "options": [
+            "15V, 10V",
+            "6V, 5V",
+            "15V, 7.5V",
+            "5V, 10V"
+        ],
+        "answer": "15V, 7.5V",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "5) The Static system can be defined as:",
+        "options": [
+            "Output of a system depends on the present as well as past input.",
+            "Output of a system depends only on the received inputs.",
+            "Output of the system depends on future inputs.",
+            "Output of the system depends only on the present input."
+        ],
+        "answer": "Output of the system depends only on the present input",
+        "explanation": " Static systems do not have any feedback system. Hence, the output depends only on the present input.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Find the function f(t) for the following function F(s):",
+        "options": [
+            "0.25e-t+0.05e-5t",
+            "-0.2-0.25e-t+0.05e-5t",
+            "-0.2+0.25e-t+0.05e-5t",
+            "0.25e-5t+0.05e-t"
+        ],
+        "answer": "-0.2-0.25e-t+0.05e-5t",
+        "explanation": " The given function can be written as:",
+        "codeblock": null
+    },
+    {
+        "question": "7) The force equation of the given system is:",
+        "options": [
+            "G1G2G3/ (1 + H2G2G3 + G2G1H1)",
+            "G1 G2G3/ (1 + G1G2G3H2H1)",
+            "G1G2G3 / (1 + G1G2G3H1 + G1G2G3H2)",
+            "G1G2G3 / (1 + G1G2G3H1)"
+        ],
+        "answer": "Answer:",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "8) Determine the transfer function of the given system:",
+        "options": [
+            "G1G2G3/ (1 + H2G2G3 + G2G1H1)",
+            "G1 G2G3/ (1 + G1G2G3H2H1)",
+            "G1G2G3 / (1 + G1G2G3H1 + G1G2G3H2)",
+            "G1G2G3 / (1 + G1G2G3H1)"
+        ],
+        "answer": "",
+        "explanation": " We will first shift the H1 block after G3",
+        "codeblock": null
+    },
+    {
+        "question": "9) Loop gain is equal to:",
+        "options": [
+            "Product of all branch gains in a loop",
+            "Product of all branch gains while traversing the forward path",
+            "Summation of all branch gains in a loop",
+            "Sum of all branch gains while traversing the forward path"
+        ],
+        "answer": "Product of all branch gains while traversing the forward path",
+        "explanation": " According to Mason's Gain formula, the transfer function can be calculated as:",
+        "codeblock": null
+    },
+    {
+        "question": "10) Find the overall transfer function of the given signal flow graph.",
+        "options": [
+            "G1G2G3/ (1 + G1H1 + G3H2 + G3G1H1H2)",
+            "G1G3/ (1 + G1H1 + G3H2 + G3G1)",
+            "(G1G2G3 + G1H1)/ (1 + G1H1 + G3H2 + G3G1H1H2)",
+            "(G1G2G3 + G1H1 + G3H2) / (1 + G1H1 + G3H2 + G3G1H1H2)"
+        ],
+        "answer": "G1G2G3/ (1 + G1H1 + G3H2 + G3G1H1H2)",
+        "explanation": " Here, we will calculate the transfer function using mason's gain formula:",
+        "codeblock": null
+    },
+    {
+        "question": "11) The block diagram representation of a closed-loop system. Write the time response equation for the given system with a unit step input, assuming zero initial conditions.",
+        "options": [
+            "1-e-t\u20445",
+            "1-et\u204410",
+            "1-e-t\u204410",
+            "1+e-t\u204410"
+        ],
+        "answer": "1-e-t\u204410",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "12) If the characteristic equation of the closed loop system is s^2 + 2s + 2 = 0, then the system is:",
+        "options": [
+            "Over damped",
+            "Critically damped",
+            "Undamped",
+            "Underdamped"
+        ],
+        "answer": "Underdamped",
+        "explanation": " The given equation is: s^2 + 2s + 2 = 0",
+        "codeblock": null
+    },
+    {
+        "question": "13) The transfer function of a system is given as 81/ (s^2 + 16s + 81). Find the undamped natural frequency, damping ratio, and peak time for a unit step input.",
+        "options": [
+            "9, 0.889, 0.762",
+            "9, 0.559, 0.762",
+            "9, 0.889, 0.187",
+            "9, 0.667, 0.187"
+        ],
+        "answer": "9, 0.889, 0.762",
+        "explanation": " The standard transfer function can be written as:",
+        "codeblock": null
+    },
+    {
+        "question": "14) The closed loop transfer function for a second order system is: T(s) = 4/ (s^2 + 4s + 4). Calculate the settling time for a 2 percent and 5 percent band.",
+        "options": [
+            "5, 2.0",
+            "0, 10.0",
+            "0, 1.5",
+            "0, 2.0"
+        ],
+        "answer": "2.0, 1.5",
+        "explanation": " The standard transfer function can be written as:",
+        "codeblock": null
+    },
+    {
+        "question": "15) Consider a system with transfer function G(s) = (s + 4)/ (ks^2 + s + 4). The value of damping ratio will be 0.5 when the value of k is:",
+        "options": [
+            "\u00bd",
+            "\u00bc",
+            "8",
+            "4"
+        ],
+        "answer": "\u00bc",
+        "explanation": " The given transfer function is:",
+        "codeblock": null
+    },
+    {
+        "question": "16) The step error coefficient of a system G(s) = 1/ (s+2)(s+3) with unity feedback is:",
+        "options": [
+            "0",
+            "Infinite",
+            "1",
+            "1/6"
+        ],
+        "answer": "1/6",
+        "explanation": " The step error can be calculated as:",
+        "codeblock": null
+    },
+    {
+        "question": "17) The transfer function of a control system is given by G(s) = 25/ (s^2 + 6s + 25). The first maximum value of the response occurs at t, which is given by:",
+        "options": [
+            "\u03c0\u20442",
+            "\u03c0\u20448",
+            "\u03c0\u20444",
+            "\u03c0"
+        ],
+        "answer": "\u03c0\u20444",
+        "explanation": " The given transfer function is: G(s) = 25/ (s^2 + 6s + 25)",
+        "codeblock": null
+    },
+    {
+        "question": "18) The impulse response of an RL circuit is:",
+        "options": [
+            "Parabolic function",
+            "Step function",
+            "Rising exponential function",
+            "Decaying exponential function"
+        ],
+        "answer": "Decaying exponential function",
+        "explanation": " The RL circuit comprises of the resistor and inductor connected in series.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Calculate the poles and zeroes for the given transfer function G(s) = 5 (s + 2)/ (s^2 + 3s + 2)",
+        "options": [
+            "-2, (-1, -2)",
+            "2, (-1, 2)",
+            "2, (1, 2)",
+            "-2, (1, -2)"
+        ],
+        "answer": "-2, (-1, -2)",
+        "explanation": " The zeroes can be calculated by equating the numerator to zero:",
+        "codeblock": null
+    },
+    {
+        "question": "20) The number of roots in the left half of the s-plane of the given equation s^3 + 3s^2 + 4s + 1 = 0 is:",
+        "options": [
+            "One",
+            "Three",
+            "Two",
+            "Zero"
+        ],
+        "answer": "Three",
+        "explanation": " The given characteristic equation is: s^3 + 3s^2 + 4s + 1 = 0.",
+        "codeblock": null
+    },
+    {
+        "question": "21) A system with the polynomial s^4 + 5s^3 + 3s^2 + 6s + 5 = 0 is:",
+        "options": [
+            "Unstable",
+            "Marginally stable",
+            "In equilibrium",
+            "Stable"
+        ],
+        "answer": "Unstable",
+        "explanation": " The given characteristic equation is: s^4 + 5s^3 + 3s^2 + 6s + 5 = 0. We first need to find the roots by creating the Routh's array table.",
+        "codeblock": null
+    },
+    {
+        "question": "22) If s^3 + Ks^2 + 5s + 10 = 0, the root of the feedback system's characteristic equation is said to be critically stable. Then, the value of K will be:",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2",
+        "explanation": " For the above equation, we need to find the roots by creating the Routh's array table. The given equation is: s^3 + Ks^2 + 5s + 10",
+        "codeblock": null
+    },
+    {
+        "question": "23) If s^3 + 3s^2 + 4s + A = 0, the roots of the characteristic equation lie in the left half of the s-plane. The value of the A is said to be:",
+        "options": [
+            "0 < A < 12",
+            "5< A < 12",
+            "A > 12",
+            "A < 12"
+        ],
+        "answer": "0 < A < 12",
+        "explanation": " For the above equation, we need to find the roots by creating the Routh's array table. The given equation is: s^3 + 3s^2 + 4s + A = 0",
+        "codeblock": null
+    },
+    {
+        "question": "24) For the given closed-loop system, the ranges of the values of K for stability is:",
+        "options": [
+            "K > -19.5",
+            "k > 8",
+            "-19.5 < k < 8",
+            "K > 0"
+        ],
+        "answer": "-19.5 < k < 8",
+        "explanation": " The two blocks in the above diagram are in cascade. So, the equivalent block will be the product of these two blocks.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Find the number of asymptotes for the given open-loop transfer function of a unity feedback system:",
+        "options": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ],
+        "answer": "0",
+        "explanation": " The number of asymptotes in a given system is equal to the number of branches approaching infinity. So, the formula to calculate the number of asymptotes is P -Z. Here, P and Z represent the poles and zeroes.",
+        "codeblock": null
+    },
+    {
+        "question": "26) An open loop transfer function is given by G(s) = K (s + 1) / (s + 4)(s^2 + 3s + 2). It has:",
+        "options": [
+            "One zero at infinity",
+            "Three zeroes at infinity",
+            "Two zeroes at infinity",
+            "None of the above"
+        ],
+        "answer": "Two zeroes at infinity",
+        "explanation": " The formula to calculate a number of zeroes at infinity is P - Z. Here, P and Z are the number of poles and zeroes in a given transfer function.",
+        "codeblock": null
+    },
+    {
+        "question": "27) The centroid in the root locus is a point where",
+        "options": [
+            "The branches of the root locus intersect with the imaginary axis.",
+            "The branches of the root locus tend to infinity.",
+            "The asymptotes cross the real axis.",
+            "The branches of the root locus terminate on the real axis."
+        ],
+        "answer": "The asymptotes cross the real axis.",
+        "explanation": " Centroid is defined as a common point where all the asymptotes intersect on the real axis. The value of centroid is always real. But, it can be located either on the positive or negative real axis.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Calculate the centroid for the given system:",
+        "options": [
+            "- 1.47",
+            "-2",
+            "-2.66",
+            "-3"
+        ],
+        "answer": "-3",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "29) The characteristic equation of the feedback control system is given as: s^3 + 4s^2 + (K + 5)s + K = 0",
+        "options": [
+            "(-1.5, 0)",
+            "(-2, 0)",
+            "(-1, 0)",
+            "(2, 0)"
+        ],
+        "answer": "(-2, 0)",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "30) In a bode-plot of a unity feedback control system, the value of phase of G(jw) at the gain cross over frequency is -115 degrees. The phase margin of the system is:",
+        "options": [
+            "115 degrees",
+            "-57.5 degrees",
+            "-65 degrees",
+            "65 degrees"
+        ],
+        "answer": "65 degrees",
+        "explanation": " The phase margin can be calculated as 180 +",
+        "codeblock": null
+    },
+    {
+        "question": "31) The gain margin of a second-order system is:",
+        "options": [
+            "Zero",
+            "Infinite",
+            "One",
+            "Two"
+        ],
+        "answer": "Infinite",
+        "explanation": " The gain margin indicates the additional gain provided to the system without affecting its stability.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Determine the phase cross-over frequency of the given open-loop transfer function:",
+        "options": [
+            "606 Radians / second",
+            "- 1. 707 Radians / second",
+            "707 Radians / second",
+            "- 0. 707 Radians / second"
+        ],
+        "answer": "0. 707 Radians / second",
+        "explanation": " The given open-loop transfer function is: G(s) = 1 / s(s + 1) (2s + 1)",
+        "codeblock": null
+    },
+    {
+        "question": "33) Determine the gain margin of the given open-loop feedback control system: G(s)H(s) = 1 / [(s + 1) ^3]",
+        "options": [
+            "2",
+            "4",
+            "8",
+            "32"
+        ],
+        "answer": "8",
+        "explanation": " The given open-loop feedback control system is: G(s)H(s) = 1 / [(s + 1) ^3]",
+        "codeblock": null
+    },
+    {
+        "question": "34) The phase margin of the given system G(s) = 1 / [(s + 1) ^3] is:",
+        "options": [
+            "\u03a0",
+            "-\u03a0",
+            "0",
+            "\u03a0/2"
+        ],
+        "answer": "\u03a0",
+        "explanation": " The phase margin can be calculated as: 180 + \u2205",
+        "codeblock": null
+    },
+    {
+        "question": "35) The corner frequency in the Bode plot is:",
+        "options": [
+            "The frequency at which bode plot slope is 0 dB /decade.",
+            "The frequency at which bode plot slope is -10 dB /decade.",
+            "The frequency at which the two asymptotes intersect.",
+            "The frequency at which the two asymptotes meet."
+        ],
+        "answer": "The frequency at which the two asymptotes meet.",
+        "explanation": " The frequency at which the two asymptotes in the Bode plot meet is termed as corner frequency.",
+        "codeblock": null
+    },
+    {
+        "question": "36) Which of the following statements are correct?",
+        "options": [
+            "1 and 2",
+            "1 and 3",
+            "1, 3, and 4",
+            "2 and 3"
+        ],
+        "answer": "1 and 3",
+        "explanation": " The Bode plot is defined as the frequency response plot of the sinusoidal transfer function of a system. The two graphs of the Bode plot are the plot of magnitude and phase angle. Thus, it is in the frequency domain.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Determine the type and order of the given Nyquist plot:",
+        "options": [
+            "1, 2",
+            "0, 1",
+            "2, 1",
+            "0, 2"
+        ],
+        "answer": "0, 2",
+        "explanation": " The given plot is of the type 1/ (ST1 + 1)(ST2 + 1)",
+        "codeblock": null
+    },
+    {
+        "question": "38) Calculate the damping ratio of the system whose phase margin is 45 degrees.",
+        "options": [
+            "1",
+            "42",
+            "5",
+            "0"
+        ],
+        "answer": "0.42",
+        "explanation": " The formula to calculate the damping ratio using the phase margin is:",
+        "codeblock": null
+    },
+    {
+        "question": "39) The GM of a unity feedback system with the transfer function 1/ (s + 5)^3 is:",
+        "options": [
+            "10 dB",
+            "30 dB",
+            "60 dB",
+            "40 dB"
+        ],
+        "answer": "60 dB",
+        "explanation": " The Phase margin can be calculated as:",
+        "codeblock": null
+    },
+    {
+        "question": "40) The most powerful controller is:",
+        "options": [
+            "PD controller",
+            "PI Controller",
+            "PID Controller",
+            "None of the above"
+        ],
+        "answer": "PID Controller",
+        "explanation": " The PID is the combination of proportional, integral, and derivate control modes. Such a combination makes it the most powerful controller.",
+        "codeblock": null
+    },
+    {
+        "question": "41) What will be the controller output for PD controller at t = 2s, if the error begins to change from 0 at the rate of 1.2% /s? The given parameters are Po = 50%, Kp = 4, and KD = 0.4.",
+        "options": [
+            "61.52%",
+            "61.92%",
+            "51.52%",
+            "51.92%"
+        ],
+        "answer": "61. 52%",
+        "explanation": " The error the rate of 1.2% per second c neb calculated as:",
+        "codeblock": null
+    },
+    {
+        "question": "42) The controller required to handle fast process load changes is:",
+        "options": [
+            "PD controller",
+            "PI Controller",
+            "PID Controller",
+            "None of the above"
+        ],
+        "answer": "PD controller",
+        "explanation": " The Proportional Derivative controller is preferred to handle fast process load changes.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Consider the following statements:",
+        "options": [
+            "1 and 2",
+            "1, 2, and 3",
+            "1, 2, and 4",
+            "3 and 4"
+        ],
+        "answer": "",
+        "explanation": " Lag compensator does not suppress steady state performance. Instead, it improves steady state performance.",
+        "codeblock": null
+    },
+    {
+        "question": "44) The transfer function of a compensating network is in the form of (1 +aTs) / (1 + Ts). Find the value of 'a' if the given network is the phase-lag network.",
+        "options": [
+            "Between 0 and 1.",
+            "0",
+            "1",
+            "Greater than 1"
+        ],
+        "answer": "Between 0 and 1",
+        "explanation": " The given transfer function is:",
+        "codeblock": null
+    },
+    {
+        "question": "45) Consider the following statements:",
+        "options": [
+            "1 and 2",
+            "2 and 4",
+            "1, 2, and 3",
+            "1 and 4"
+        ],
+        "answer": "",
+        "explanation": " Phase lead is responsible for improving the damping and reducing the system's steady-state error.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Find the phase shift provided by the lead compensator for a given transfer function G(s) = (1 + 6s)/ (1 + 2s)",
+        "options": [
+            "15 degrees",
+            "30 degrees",
+            "45 degrees",
+            "60 degrees"
+        ],
+        "answer": "30 degrees",
+        "explanation": " The phase shift provided by the lead compensator can be calculated using the formula:",
+        "codeblock": null
+    },
+    {
+        "question": "47) The following set of differential equations describes a linear second-order single input continuous-time system.",
+        "options": [
+            "Uncontrollable and unstable",
+            "Controllable but unstable",
+            "Controllable and stable",
+            "Uncontrollable and stable"
+        ],
+        "answer": "Controllable but unstable",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "48) The sum of the Eigenvalues in the given matrix is:",
+        "options": [
+            "The sum of all non-zero components in the matrix",
+            "Sum of the elements of any row",
+            "Sum of the elements of any column",
+            "Sum of the principal diagonal elements"
+        ],
+        "answer": "Sum of the principal diagonal elements",
+        "explanation": " The sum of Eigenvalue of a given matrix is generally called the trace of that matrix. The trace of a matrix is the sum of the diagonal elements of a matrix.",
+        "codeblock": null
+    },
+    {
+        "question": "49) Consider a LTI system described by the given differential equation:",
+        "options": [
+            "2, 1",
+            "2, -1",
+            "-2, 1",
+            "-2, -1"
+        ],
+        "answer": "",
+        "explanation": " Let x1(t) = a(t) and x2(t) = \u1e8b1",
+        "codeblock": null
+    },
+    {
+        "question": "50) The signal flow graph shown in the figure has:",
+        "options": [
+            "forward path = 2, loops = 4, and non-touching loops = 0",
+            "forward path = 3, loops = 4, and non-touching loops = 0",
+            "forward path = 3, loops = 3, and non-touching loops = 0",
+            "forward path = 2, loops = 4, and non-touching loops = 2"
+        ],
+        "answer": "forward path = 3, loops = 3, and non-touching loops = 0",
+        "explanation": " Forward path is the path from the input to the output node in the given signal flow graph. Here, there are three forward paths.",
+        "codeblock": null
+    },
+    {
+        "question": "51) Arrange the following set of statements in order.",
+        "options": [
+            "1, 2, 3, 4, 5",
+            "2, 1, 5, 3, 4",
+            "1, 3, 2, 5, 4",
+            "2, 1, 4, 3, 5"
+        ],
+        "answer": "2, 1, 5, 3, 4",
+        "explanation": " The correct order to find the transfer function of the free body diagram is given below:",
+        "codeblock": null
+    }
+]

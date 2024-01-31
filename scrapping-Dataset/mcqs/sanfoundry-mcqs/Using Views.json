@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which of these is also known as a virtual table?",
+        "options": [
+            "a) SCHEMA",
+            "b) DATABASE",
+            "c) JOIN",
+            "d) VIEW"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, a \u2018View\u2019 is also called a virtual table. It does not contain any data but only appears as a table. It is an alternative way to show or describe a table similar to the original table."
+    },
+    {
+        "question": "A View can be used to select a subset of the table columns.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, a \u2018View\u2019 is used to present a table in the database. It is a virtual table. It is also used to present a subset of the columns that are present in the original table of the database."
+    },
+    {
+        "question": "What is xyz in the following MySQL statement?",
+        "options": [],
+        "answer": "c",
+        "explanation": "A \u2018View\u2019 is created in MySQL by writing the clause \u2018CREATE VIEW\u2019 followed by the view name. Then follows the list of column names of the table that are to be presented as the view."
+    },
+    {
+        "question": "What is abc in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Column names for a view can be explicitly provided in the \u2018CREATE VIEW\u2019 clause itself. It presents the table view with the aliased column names instead of the original column names."
+    },
+    {
+        "question": "A view can refer to multiple tables via __________",
+        "options": [
+            "a) UNION",
+            "b) JOIN",
+            "c) GROUP",
+            "d) SELECT"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a \u2018View\u2019 can refer to multiple tables. This makes it a lot simpler to execute the queries involving joins. When a selection is made from the view, the join is executed producing the results."
+    },
+    {
+        "question": "Views are not updatable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, some \u2018Views\u2019 are updatable. The operators \u2018INSERT\u2019, \u2018DELETE\u2019 and \u2018UPDATE\u2019 can be used. They can be operated on the \u2018Views\u2019 to make changes to it. A table can be created and set as a view."
+    },
+    {
+        "question": "A view can be deleted using the command __________",
+        "options": [
+            "a) REMOVE",
+            "b) DELETE",
+            "c) CLEAR",
+            "d) DROP"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, \u2018Views\u2019 act as virtual tables. Many operations can be performed on views like the operations on tables. A view can be created, displayed and dropped. They can also be used to perform calculations."
+    },
+    {
+        "question": "What cannot be done on a view?",
+        "options": [
+            "a) display",
+            "b) filter",
+            "c) index",
+            "d) drop"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, \u2018Views\u2019 act as virtual tables. It is not possible to create indexes on a view. However, they can be used for the views that are processed using the merge algorithm."
+    },
+    {
+        "question": "What can be used to check for views that have been invalidated by DROP or ALTER operations?",
+        "options": [
+            "a) CREATE TABLE",
+            "b) VERIFY TABLE",
+            "c) DETAILS TABLE",
+            "d) CHECK TABLE"
+        ],
+        "answer": "d",
+        "explanation": "A \u2018View\u2019 is created in MySQL by writing the clause \u2018CREATE VIEW\u2019 followed by the view name. Once a view is dropped or altered after being created, it can be checked by the \u2018CHECK TABLE\u2019 clause."
+    },
+    {
+        "question": "Which of the following does not support a materialized view?",
+        "options": [
+            "a) MySQL",
+            "b) Oracle",
+            "c) PostgreSQL",
+            "d) SybaseSQL"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, \u2018Views\u2019 are treated a little differently than Oracle, PostgreSQL and SybaseSQL since they support materialized views and MySQL does not use the materialized view."
+    }
+]

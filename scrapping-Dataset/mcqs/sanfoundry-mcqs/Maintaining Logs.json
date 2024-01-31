@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The log that contains a record of server startups and shutdowns and the messages about exceptional conditions is ______________",
+        "options": [
+            "a) error log",
+            "b) general query",
+            "c) slow query log",
+            "d) binary log"
+        ],
+        "answer": "a",
+        "explanation": "The error log contains a record of server startups and shutdowns and the messages about problems or exceptional conditions. If the server fails to start this log provides the help."
+    },
+    {
+        "question": "The log that identifies statements that may be in need of being rewritten for better performance is ______________",
+        "options": [
+            "a) error log",
+            "b) general query",
+            "c) slow query log",
+            "d) binary log"
+        ],
+        "answer": "c",
+        "explanation": "The purpose of the slow-query log is to help the identification of statements that may be in need of being rewritten for better performance. This helps in query optimizations."
+    },
+    {
+        "question": "The default value in seconds in the system variable \u2018long_query_time\u2019 is ______________",
+        "options": [
+            "a) 5",
+            "b) 10",
+            "c) 20",
+            "d) 60"
+        ],
+        "answer": "b",
+        "explanation": "The server maintains a \u2018long_query_time\u2019 system variable that defines slow queries (10 seconds by default). If a query takes more than these seconds of real time it is considered slow."
+    },
+    {
+        "question": "The logging option to enable binary log index file is ______________",
+        "options": [
+            "a) \u2013log-bin-index",
+            "b) \u2013bin-log-index",
+            "c) \u2013index-log-bin",
+            "d) \u2013index-bin-log"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018\u2013log-bin-index\u2019 is the logging option that enables the binary log index file. \u2018\u2013log-error\u2019 enables the error log file. Similarly, \u2013log enables the general log file."
+    },
+    {
+        "question": "Usage of aggregates in WHERE clause is not allowed.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The usage of aggregates inside \u2018WHERE\u2019 clauses is not allowed. For example, the following statement will not work: \u2018SELECT * FROM my_table WHERE attribute_name = MAX(attribute_name)\u2019, because the MAX value is not known yet."
+    },
+    {
+        "question": "The operators that are used when a subquery returns multiple rows to be evaluated in comparison to the outer query are _____________",
+        "options": [
+            "a) IN and NOT IN",
+            "b) EXISTS and NOT EXISTS",
+            "c) OUTER JOIN and INNER JOIN",
+            "d) LEFT JOIN and RIGHT JOIN"
+        ],
+        "answer": "a",
+        "explanation": "When there is a need to evaluate multiple rows in comparison to the outer query, the \u2018IN\u2019 and \u2018NOT IN\u2019 operators are used. They are used for testing whether a comparison value is present in a set of values."
+    },
+    {
+        "question": "The ALL subquery performs operations on _____________",
+        "options": [
+            "a) row",
+            "b) column",
+            "c) table",
+            "d) database"
+        ],
+        "answer": "b",
+        "explanation": "The operators \u2018ALL\u2019 and \u2018ANY\u2019 are used to perform operations on columns. They are used in conjunction with a comparison operator in order to test the result of a column subquery."
+    },
+    {
+        "question": "What is the kind of delete when deletion of an employee from the table also deletes that employee from another table?",
+        "options": [
+            "a) transparent",
+            "b) concrete",
+            "c) elaborate",
+            "d) cascaded"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, a cascaded delete and update are possible where records can be deleted from multiple tables. These tables are related with the help of foreign keys. Foreign keys make table updates flexible."
+    },
+    {
+        "question": "The storage engine in MySQL that provides foreign key support is ___________",
+        "options": [
+            "a) TRANSACTION",
+            "b) InnoDB",
+            "c) MyISAM",
+            "d) MEMORY"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there are a list of storage engines to choose from. Each storage engine provides its own set of facilities. The foreign key facilities are provided by the InnoDB storage engine."
+    },
+    {
+        "question": "What is the property of InnoDB that enforces foreign key relationships stay intact?",
+        "options": [
+            "a) atomicity",
+            "b) durability",
+            "c) consistency",
+            "d) referential integrity"
+        ],
+        "answer": "d",
+        "explanation": "The storage engine responsible for providing foreign key support is InnoDB. It enforces that the rules guarantee the foreign key relationship stays intact with no mismatching of data."
+    }
+]

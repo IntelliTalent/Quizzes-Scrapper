@@ -1,0 +1,123 @@
+[
+    {
+        "question": "A ________ node acts as the Slave and is responsible for executing a Task assigned to it by the JobTracker.",
+        "options": [
+            "a) MapReduce",
+            "b) Mapper",
+            "c) TaskTracker",
+            "d) JobTracker"
+        ],
+        "answer": "c",
+        "explanation": "TaskTracker receives the information necessary for the execution of a Task from JobTracker, Executes the Task, and Sends the Results back to JobTracker."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MapReduce tries to place the data and the compute as close as possible",
+            "b) Map Task in MapReduce is performed using the Mapper() function",
+            "c) Reduce Task in MapReduce is performed using the Map() function",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This feature of MapReduce is \u201cData Locality\u201d."
+    },
+    {
+        "question": "___________ part of the MapReduce is responsible for processing one or more chunks of data and producing the output results.",
+        "options": [
+            "a) Maptask",
+            "b) Mapper",
+            "c) Task execution",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Map Task in MapReduce is performed using the Map() function."
+    },
+    {
+        "question": "_________ function is responsible for consolidating the results produced by each of the Map() functions/tasks.",
+        "options": [
+            "a) Reduce",
+            "b) Map",
+            "c) Reducer",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Reduce function collates the work and resolves the results."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A MapReduce job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner",
+            "b) The MapReduce framework operates exclusively on <key, value> pairs",
+            "c) Applications typically implement the Mapper and Reducer interfaces to provide the map and reduce methods",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The MapReduce framework takes care of scheduling tasks, monitoring them and re-executes the failed tasks."
+    },
+    {
+        "question": "Although the Hadoop framework is implemented in Java, MapReduce applications need not be written in ____________",
+        "options": [
+            "a) Java",
+            "b) C",
+            "c) C#",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hadoop Pipes is a SWIG- compatible C++ API to implement MapReduce applications (non JNITM based)."
+    },
+    {
+        "question": "________ is a utility which allows users to create and run jobs with any executables as the mapper and/or the reducer.",
+        "options": [
+            "a) Hadoop Strdata",
+            "b) Hadoop Streaming",
+            "c) Hadoop Stream",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hadoop streaming is one of the most important utilities in the Apache Hadoop distribution."
+    },
+    {
+        "question": "__________ maps input key/value pairs to a set of intermediate key/value pairs.",
+        "options": [
+            "a) Mapper",
+            "b) Reducer",
+            "c) Both Mapper and Reducer",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Maps are the individual tasks that transform input records into intermediate records."
+    },
+    {
+        "question": "The number of maps is usually driven by the total size of ____________",
+        "options": [
+            "a) inputs",
+            "b) outputs",
+            "c) tasks",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Total size of inputs means the total number of blocks of the input files."
+    },
+    {
+        "question": "_________ is the default Partitioner for partitioning key space.",
+        "options": [
+            "a) HashPar",
+            "b) Partitioner",
+            "c) HashPartitioner",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " The default partitioner in Hadoop is the HashPartitioner which has a method called getPartition to partition."
+    },
+    {
+        "question": "Running a ___________ program involves running mapping tasks on many or all of the nodes in our cluster.",
+        "options": [
+            "a) MapReduce",
+            "b) Map",
+            "c) Reducer",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In some applications, component tasks need to create and/or write to side-files, which differ from the actual job-output files."
+    }
+]

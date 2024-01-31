@@ -1,0 +1,80 @@
+[
+    {
+        "question": "Which of the following is the full form of RDBMS?",
+        "options": [
+            "a) Relational Data Management System",
+            "b) Relational Database Management System",
+            "c) Relative Database Management System",
+            "d) Regional Data Management System"
+        ],
+        "answer": "a",
+        "explanation": "A relational database management system (RDBMS) is a set of applications and features that allow IT professionals and others to develop, edit, administer, and interact with relational databases."
+    },
+    {
+        "question": "What is an RDBMS?",
+        "options": [
+            "a) Database that stores data elements that are not linked",
+            "b) Database that accesses data elements that are not linked",
+            "c) Database that stores and allows access to data elements that are linked",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A relational database is a form of database that stores and allows access to data elements that are linked. The relational model, a simple and obvious means of representing data in tables, is the foundation of relational databases."
+    },
+    {
+        "question": "Does RDBMS have ACID properties?",
+        "options": [
+            "a) Follows ACID properties",
+            "b) Doesn\u2019t follow ACID properties",
+            "c) Depends on the data stored in the database",
+            "d) Can\u2019t say",
+            "i) All of the elements that make up a full database transaction are defined by atomicity."
+        ],
+        "answer": "c",
+        "explanation": "Relational database transactions are defined by four key properties: atomicity, consistency, isolation, and durability (also known as ACID)."
+    },
+    {
+        "question": "What is a relation in RDBMS?",
+        "options": [
+            "a) Key",
+            "b) Table",
+            "c) Row",
+            "d) Data Types"
+        ],
+        "answer": "b",
+        "explanation": "In a relational database, each table, also known as a relation, includes one or more data types in the form of columns or attributes. Each row, also known as a record or tuple, includes a single instance of data \u2014 or key \u2014 for each of the columns categories."
+    },
+    {
+        "question": "Which of the following systems use RDMS?",
+        "options": [
+            "a) Oracle",
+            "b) Microsoft SQLServer",
+            "c) IBM",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Manufacturing, human resources, and banking are all industries that use relational database management systems. IBM, Oracle, MySQL, Microsoft SQLServer, and PostgreSQL are some examples of RDBMS-based systems."
+    },
+    {
+        "question": "Dynamic hashing allows us to?",
+        "options": [
+            "a) Accommodate the growth of the database",
+            "b) Accommodate the shrinkage of the database",
+            "c) Allows modification of hash function",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic hashing allows us to accommodate the growth of the database and the shrinkage of the database by allowing us to change the hash function dynamically."
+    },
+    {
+        "question": "Which of the following constraints RDBS doesn\u2019t check before creating the tables?",
+        "options": [
+            "a) Not null",
+            "b) Primary keys",
+            "c) Data Structure",
+            "d) Data integrity"
+        ],
+        "answer": "c",
+        "explanation": "Before creating the tables, the RDBMS will check the following constraints:"
+    }
+]

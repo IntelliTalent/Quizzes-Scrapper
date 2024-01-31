@@ -1,0 +1,89 @@
+[
+    {
+        "question": "Multiple statement execution is enabled by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018multiple-statement\u2019 execution is not enabled by default, so the server must be told that it is intended to be used. There are two ways to tell the server to enable the execution."
+    },
+    {
+        "question": "Which option enables multiple-statement execution?",
+        "options": [
+            "a) CLIENT_MULTI_STATEMENTS",
+            "b) CLIENT_STATEMENTS_MULTI",
+            "c) MULTI_STATEMENTS_CLIENT",
+            "d) MULTI_CLIENTS_STATEMENTS"
+        ],
+        "answer": "a",
+        "explanation": "There are two ways to enable the multiple-statement execution. The first is to add the \u2018CLIENT_MULTI_STATEMENTS\u2019 option in the flags argument to \u2018mysql_real_connect()\u2019 at connect time."
+    },
+    {
+        "question": "Which of these is preferred when stored procedures are not being used?",
+        "options": [],
+        "answer": "c",
+        "explanation": "If the program does not use stored procedures anyone is suitable. If the program uses stored procedures and invokes a \u2018CALL\u2019 statement that returns a result set, the first method is better."
+    },
+    {
+        "question": "Which option executes all SQL statements in a SQL script irrespective of the number of errors?",
+        "options": [
+            "a) \u2013ensure",
+            "b) \u2013force",
+            "c) \u2013violent",
+            "d) \u2013run"
+        ],
+        "answer": "b",
+        "explanation": "If SQL queries in a file are run using mysql in batch mode, mysql either quits after the first error. If the \u2013force option is specified all the queries are executed indiscriminately."
+    },
+    {
+        "question": "The number of attributes in the following SQL table is ______________",
+        "options": [],
+        "answer": "b",
+        "explanation": "The name of the table created is \u2019employee\u2019. It has two attributes, namely, \u2019emp_name\u2019 and \u2019emp_id\u2019. The attributes are the columns in a table. emp_name is of type string and emp_id is of type integer."
+    },
+    {
+        "question": "To see the table structure which command is issued?",
+        "options": [
+            "a) VIEW tbl_name;",
+            "b) SELECT TABLE tbl_name;",
+            "c) SELECT tbl_name;",
+            "d) DESCRIBE tbl_name;"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018DESCRIBE\u2019 command is issued to see the structure of the table \u2018tbl_name\u2019. It shows the structure in the format: Field-Type-Null-Key-Default-Extra. The \u2018VIEW\u2019 and \u2018SELECT\u2019 commands are used to see the contents of the table."
+    },
+    {
+        "question": "Which character is illegal in naming an unquoted identifier in SQL?",
+        "options": [
+            "a) .",
+            "b) _",
+            "c) $",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "An identifier is used to refer to a database or its elements. These elements can be entire tables or attributes. The names of these identifiers follow some set of rules, so they have a set of legal characters."
+    },
+    {
+        "question": "Which statement is valid if \u2018`sampledb`\u2019 is a database and \u2018`tbl`\u2019 is a table in it?",
+        "options": [
+            "a) SELECT * FROM `sampledb.member`",
+            "b) SELECT * FROM `sampledb`.`member`",
+            "c) SELECT * FROM `member`.`sampledb`",
+            "d) SELECT * FROM `member.sampledb`"
+        ],
+        "answer": "b",
+        "explanation": "When quotes is being used to refer to a qualified name, the individual identifiers are quoted within the name separately. So, the database name `sampledb` and table name `tbl` are quoted separately."
+    },
+    {
+        "question": "The default case sensitivity of the database and table names depends on ___________",
+        "options": [
+            "a) Server SQL mode",
+            "b) Operating system of machine",
+            "c) Does not depend on anything",
+            "d) SQL server"
+        ],
+        "answer": "b",
+        "explanation": "The default case sensitivity imposes a dependency on the operating system of the machine on which the MySQL server is running. Windows does not treat database and table names as case sensitive unlike Unix."
+    }
+]

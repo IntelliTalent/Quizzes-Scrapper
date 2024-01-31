@@ -1,0 +1,110 @@
+[
+    {
+        "question": "To derive a string using the production rules of a given grammar, we use:",
+        "options": [
+            "a) Scanning",
+            "b) Parsing",
+            "c) Derivation",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Parsing is required to check the acceptability of a string. Further, comes the syntactical phase which is taken care by other phases of compiler."
+    },
+    {
+        "question": "Which of the following parser reaches the root symbol of the tree at last?",
+        "options": [
+            "a) Top down parser",
+            "b) Bottom up parser",
+            "c) TOP down and Bottom up parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Bottom up parser starts from the bottom with the string and comes up to the start symbolusing a parse tree or a derivation tree."
+    },
+    {
+        "question": "Left corner parsing methof uses which of the following?",
+        "options": [
+            "a) Top down parser",
+            "b) Bottom up parser",
+            "c) TOP down and Bottom up parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It is a hybrid method which works bottom up along the left edges of each subtree, and top down on the rest of the parse tree."
+    },
+    {
+        "question": "Which of the following parser performs top down parsing?",
+        "options": [
+            "a) LALR parser",
+            "b) LL parser",
+            "c) Recursive Accent parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Bottom up parsing is done by shift reduce parsers like LALR parsers, Operator precedence parsers, simple precedence parsers, etc."
+    },
+    {
+        "question": "Which of the following is true for shift reduce parsers?",
+        "options": [
+            "a) Scans and parses the input in one forward pass over the text, without any backup",
+            "b) A shift command advances in the input stream by one symbol",
+            "c) LALR parser",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The mentioned are the correct and proper functions of a shift reduce parsers. The parsing methods are most commonly used for parsing programming languages, etc."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "It is exactly the opposite case where LALR parsers uses mutually recursive functions instead of tables. It is a simplified version of canonical left to right parser."
+    },
+    {
+        "question": "LALR in LALR parser stands for:",
+        "options": [
+            "a) Left aligned left right parser",
+            "b) Look ahead left to right parser",
+            "c) Language Argument left to right parser",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "LALR stands for Look ahead left to right parsers. It has more language recognition power than LR(0) parser."
+    },
+    {
+        "question": "Which of the following can be a LALR parser generator?",
+        "options": [
+            "a) YACC",
+            "b) GNU Bison",
+            "c) YACC and GNU Bison",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "YACC is a computer code for UNIX operating system which generates a LALR parser. On the other hand GNU Bison or Bison can generate LALR and GLR parsers."
+    },
+    {
+        "question": "Which of the following parsers do not relate to Bottom up parsing?",
+        "options": [
+            "a) LL parser",
+            "b) Recursive descent parser",
+            "c) Earley parsers",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the following mentioned are top down parsers and begin their operation from the starting symbol."
+    },
+    {
+        "question": "Which of the following is true for a predictive parser?",
+        "options": [
+            "a) Recursive Descent parser",
+            "b) no backtracking",
+            "c) Recursive Descent parser and no backtracking",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Predictive parsing is possible only for the class of LL-grammars, which are the CFG for which there exists some positive integer k that allows a recursive descent parser to decide which production to use by examining only the next k tokens of input."
+    }
+]

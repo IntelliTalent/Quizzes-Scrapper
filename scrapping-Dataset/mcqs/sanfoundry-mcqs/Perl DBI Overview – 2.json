@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The generic handle whose meaning depends on context is ______________",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "d",
+        "explanation": "The variable named \u2018$fh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "The non handle array representing a row of values is ______________",
+        "options": [
+            "a) $rc",
+            "b) $rv",
+            "c) $rows",
+            "d) $ary"
+        ],
+        "answer": "d",
+        "explanation": "The Perl Non-handle variable \u2018$ary\u2019 is an array or list representing a row of values returned by a query. \u2018$rc\u2019 returns code from operations that return true or false. \u2018$rv\u2019 returns value from operations that return an integer. \u2018$rows\u2019 returns value from operations that return a row count."
+    },
+    {
+        "question": "The return value from operations returning a row count is ______________",
+        "options": [
+            "a) $rc",
+            "b) $rv",
+            "c) $rows",
+            "d) $ary"
+        ],
+        "answer": "c",
+        "explanation": "The Perl Non-handle variable \u2018$ary\u2019 is an array or list representing a row of values returned by a query. \u2018$rc\u2019 returns code from operations that return true or false. \u2018$rv\u2019 returns value from operations that return an integer. \u2018$rows\u2019 returns value from operations that return a row count."
+    },
+    {
+        "question": "While using DBI API functions are called and pointers to structures are used.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "While using the DBI API functions are called and pointers to structures are used. The functions are called \u201cmethods,\u201d pointers are called \u201creferences,\u201d pointer variables are called \u201chandles\u201d."
+    },
+    {
+        "question": "Which mode of search is the search string parsed into words and the search looks for rows?",
+        "options": [
+            "a) Boolean mode",
+            "b) Natural language",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a full text search capability is provided, which enables to look for words or phrases without using pattern-matching operations. There are three kinds of full text searches."
+    },
+    {
+        "question": "The indicator of presence/absence of a word in search is used in the mode ______________",
+        "options": [
+            "a) Natural language",
+            "b) Boolean mode",
+            "c) Query expansion",
+            "d) Cross mode"
+        ],
+        "answer": "b",
+        "explanation": "A full text search capability is provided in MySQL. It facilitates to look for words or phrases without using pattern-matching operations. Boolean search is one of the three modes."
+    },
+    {
+        "question": "The numbers that are prefixed with \u20180x\u2019 are in base __________",
+        "options": [
+            "a) 8",
+            "b) 16",
+            "c) 32",
+            "d) 64"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there are many numeric datatypes. They include integers and floating points. For example, 34, 12.3, -1.3E11. The numbers that are prefixed with \u20180x\u2019 are in hexadecimal."
+    },
+    {
+        "question": "Hexadecimal numbers can be used in scientific notation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The scientific notation for real numbers is possible in MySQL. Approximate values are represented as floating point numbers in scientific notation. It consists of a mantissa and exponent."
+    },
+    {
+        "question": "What is the escape sequence for carriage return?",
+        "options": [
+            "a) \u2018\\c\u2019",
+            "b) \u2018\\r\u2019",
+            "c) \u2018\\b\u2019",
+            "d) \u2018\\z\u2019"
+        ],
+        "answer": "b",
+        "explanation": "MySQL provides the facility to use a wide range of escape sequences. They are special characters. They begin with the backslash character. For example, \u2018\\r\u2019 specifies carriage return."
+    },
+    {
+        "question": "What is the datatype for single precision floating point number?",
+        "options": [
+            "a) FLOAT",
+            "b) DOUBLE",
+            "c) INT",
+            "d) BIGINT"
+        ],
+        "answer": "a",
+        "explanation": "There are various numeric datatypes in MySQL. Some of them are TINYINT, SMALLINT, BIGINT, FLOAT, DOUBLE and BIT. \u2018FLOAT\u2019 is for single precision floating point numbers unlike DOUBLE."
+    }
+]

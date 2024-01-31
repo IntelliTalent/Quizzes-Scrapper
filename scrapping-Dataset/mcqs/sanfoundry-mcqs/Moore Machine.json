@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Moore Machine is an application of:",
+        "options": [
+            "a) Finite automata without input",
+            "b) Finite automata with output",
+            "c) Non Finite automata with output",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Finite automaton with output is categorized din two parts: Moore M/C and Mealy M/C."
+    },
+    {
+        "question": "In Moore machine, output is produced over the change of:",
+        "options": [
+            "a) transitions",
+            "b) states",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Moore machine produces an output over the change of transition states while mealy machine does it so for transitions itself."
+    },
+    {
+        "question": "For a give Moore Machine, Given Input=\u2019101010\u2019, thus the output would be of length:",
+        "options": [
+            "a) |Input|+1",
+            "b) |Input|",
+            "c) |Input-1|",
+            "d) Cannot be predicted"
+        ],
+        "answer": "a",
+        "explanation": "Initial state, from which the operations begin is also initialized with a value."
+    },
+    {
+        "question": "Statement 1: Null string is accepted in Moore Machine.",
+        "options": [
+            "a) Statement 1 is true and Statement 2 is true",
+            "b) Statement 1 is true while Statement 2 is false",
+            "c) Statement 1 is false while Statement 2 is true",
+            "d) Statement 1 and Statement 2, both are false"
+        ],
+        "answer": "a",
+        "explanation": "Even \u03b5, when passed as an input to Moore machine produces an output."
+    },
+    {
+        "question": "The total number of states and transitions required to form a moore machine that will produce residue mod 3.",
+        "options": [
+            "a) 3 and 6",
+            "b) 3 and 5",
+            "c) 2 and 4",
+            "d) 2 and 5"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Complete the given table according to the given Moore machine.",
+        "options": [],
+        "answer": "a",
+        "explanation": "The table can be filled accordingly seeing the graph."
+    },
+    {
+        "question": "What is the output for the given language?",
+        "options": [
+            "a) 0010001",
+            "b) 0101010",
+            "c) 0111010",
+            "d) 0010000"
+        ],
+        "answer": "a",
+        "explanation": "The outputs are as per the input, produced."
+    },
+    {
+        "question": "The output alphabet can be represented as:",
+        "options": [
+            "a) \u03b4",
+            "b) \u2206",
+            "c) \u2211",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Source-The tuple definition of Moore and mealy machine comprises one new member i.e. output alphabet as these are finite machines with output."
+    },
+    {
+        "question": "The O/P of Moore machine can be represented in the following format:",
+        "options": [
+            "a) Op(t)=\u03b4(Op(t))",
+            "b) Op(t)=\u03b4(Op(t)i(t))",
+            "c) Op(t): \u2211",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Op(t)=\u03b4(Op(t)) is the defined definition of how the output is received on giving a specific input to Moore machine."
+    },
+    {
+        "question": "Which of the following is a correct statement?",
+        "options": [
+            "a) Moore machine has no accepting states",
+            "b) Mealy machine has accepting states",
+            "c) We can convert Mealy to Moore but not vice versa",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Statement a and b is correct while c is false. Finite machines with output have no accepting states and can be converted within each other."
+    }
+]

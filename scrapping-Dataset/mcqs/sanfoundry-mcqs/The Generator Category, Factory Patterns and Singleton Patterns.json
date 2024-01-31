@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Most object-oriented languages and systems provide which of these ways to create new objects?",
+        "options": [
+            "a) Instantiating a class using one of its constructors",
+            "b) Cloning an existing object",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All the mentioned are the two ways to create new objects."
+    },
+    {
+        "question": "Which of the following truly describes the structure of Generator pattern?",
+        "options": [
+            "a) A generator pattern has a Client that needs an instance of a Product class",
+            "b) A Generator that creates or obtains access to such an instance on behalf of the Client",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are part of generator pattern structure."
+    },
+    {
+        "question": "Which of the following is true about factory method?",
+        "options": [
+            "a) A factory method is a non-constructor operation that creates and returns class instances",
+            "b) Factory methods are widely used in mid-level design patterns and in object-oriented programming in general",
+            "c) Factory methods create new instances using constructors or cloning, so they do not rely on any special technique for class instantiation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are true with respect to factory methods."
+    },
+    {
+        "question": "When a generator assumes responsibility for product object creation in a factory method,which of the following capabilities become available?",
+        "options": [
+            "a) Access to product constructors can be restricted",
+            "b) Private data can be provided to new product objects",
+            "c) Product objects can be configured after creation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are true for product object creation."
+    },
+    {
+        "question": "Which are the several reasons for using generator patterns?",
+        "options": [
+            "a) Product Creation Control",
+            "b) Product Configuration Control",
+            "c) Client and Product Decoupling",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The several reasons are all mentioned."
+    },
+    {
+        "question": "The Factory patterns decouple clients from products by taking advantage of interfaces in two ways?",
+        "options": [
+            "a) The generator class with the factory methods cannot be changed, disallowing  variability in factory method implementations",
+            "b) Instances of a variety of classes that implement the product interface can be returned by a factory method, allowing great flexibility in results",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Generator class with the factory method can be changed."
+    },
+    {
+        "question": "What are the types of factory pattern?",
+        "options": [
+            "a) Factory Method",
+            "b) Abstract Method",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are two types of factory pattern- Factory,Abstract."
+    },
+    {
+        "question": "Which class that can have only one instance?",
+        "options": [
+            "a) Adaptor Class",
+            "b) Proxy Class",
+            "c) Singleton Class",
+            "d) Factory class"
+        ],
+        "answer": "c",
+        "explanation": "Singleton Class is the class that can have only one instance."
+    },
+    {
+        "question": "What are the drawbacks for singleton class?",
+        "options": [
+            "a) Many languages do not allow classes to be values assignable to variables.",
+            "b) Singleton classes can be subclassed, and the singleton factory method can return a sub-class instance",
+            "c) Classes can easily replace only single instances",
+            "d) All of the internship"
+        ],
+        "answer": "d",
+        "explanation": "All are the drawbacks for the singleton class."
+    },
+    {
+        "question": "Which of the following are true for the singleton class?",
+        "options": [
+            "a) Singleton classes should be used whenever it is important that only a single instance of a class exist and that that single instance be widely accessible",
+            "b) The Singleton pattern can also be used, with slight modifications, when a limited number of instances greater than one are desired",
+            "c) Access restrictions are usually easy to add by restricting the visibility of either the class or the factory method",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are true for the singleton class."
+    }
+]

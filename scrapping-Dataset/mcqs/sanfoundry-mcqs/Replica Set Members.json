@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many types of members exist in replica set?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "There are two members in replica set-primary and secondary."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Replication provides scalability and increases data redundancy",
+            "b) A replica set in MongoDB is a group of mongod processes that provide redundancy and high availability",
+            "c) You can also maintain an arbiter as part of a replica set",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Data redundancy is reduced by replicating the copies of data."
+    },
+    {
+        "question": "Which of the member receives all write operations?",
+        "options": [
+            "a) center",
+            "b) secondary",
+            "c) primary",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The primary accepts all write operations from clients."
+    },
+    {
+        "question": "_________ replicate operations from the primary to maintain an identical data set.",
+        "options": [
+            "a) center",
+            "b) secondary",
+            "c) primary",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Secondaries may have additional configurations for special usage profiles."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The minimum requirements for a replica set are: A primary, a secondary, and an arbiter",
+            "b) The primary is the only member in the replica set that receives write operations",
+            "c) Most deployments, however, will keep three members that store data: A primary and two secondary members",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Secondary members replicate this oplog and apply the operations to their data sets."
+    },
+    {
+        "question": "_________ play a role in the elections that select a primary if the current primary is unavailable.",
+        "options": [
+            "a) Arbiters",
+            "b) Replicators",
+            "c) Loggers",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Arbiters do not keep a copy of the data."
+    },
+    {
+        "question": "A replica set can have up to ______ members but only 7 voting members.",
+        "options": [
+            "a) 10",
+            "b) 30",
+            "c) 50",
+            "d) 70"
+        ],
+        "answer": "d",
+        "explanation": " In previous versions, replica sets can have up to 12 members."
+    },
+    {
+        "question": "Which of the following may be non-voting or priority 0?",
+        "options": [
+            "a) center",
+            "b) secondary",
+            "c) primary",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "All members of the replica set can accept read operations."
+    },
+    {
+        "question": "If the current primary becomes unavailable, the replica set holds an ______ to choose which of the secondaries becomes the new primary.",
+        "options": [
+            "a) election",
+            "b) replication",
+            "c) clasification",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A secondary can become a primary."
+    },
+    {
+        "question": "By default, an application directs its ____ operations to the primary member.",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) read write",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A replica set can have one or more secondaries."
+    }
+]

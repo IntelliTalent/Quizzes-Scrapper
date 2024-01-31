@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The maximum value that can be specified to the size of VARCHAR is _____________",
+        "options": [
+            "a) 0",
+            "b) 127",
+            "c) 1023",
+            "d) 65535"
+        ],
+        "answer": "d",
+        "explanation": "The values in \u2018VARCHAR\u2019 columns are variable length strings. The length can be a value from 0 to 65,535. The effective maximum length of a VARCHAR is subject to the maximum row size."
+    },
+    {
+        "question": "The storage in bytes required for VARCHAR(4) type \u2018abcd\u2019 is _____________",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 5",
+            "d) 8"
+        ],
+        "answer": "c",
+        "explanation": "\u2018VARCHAR\u2019 values are not padded when they are stored. The trailing spaces are retained when values are stored and retrieved in conformance with standard SQL. The given size is 5 bytes."
+    },
+    {
+        "question": "Which mode does not remove trailing spaces when CHAR values are retrieved?",
+        "options": [
+            "a) PAD_CHAR_TO_FULL_LENGTH",
+            "b) TO_FULL_LENGTH_CHAR_PAD",
+            "c) CHAR_PAD_TO_FULL_LENGTH",
+            "d) PAD_CHAR_TO_LENGTH"
+        ],
+        "answer": "a",
+        "explanation": "When the CHAR values are stored, they are right-padded with spaces to the specified length. When CHAR values are retrieved, trailing spaces are removed unless the SQL mode \u2018PAD_CHAR_TO_FULL_LENGTH\u2019 is enabled."
+    },
+    {
+        "question": "What is the minimum value stored by signed TINYINT?",
+        "options": [
+            "a) -256",
+            "b) -128",
+            "c) 0",
+            "d) 128"
+        ],
+        "answer": "b",
+        "explanation": "MySQL supports the SQL standard integer types INTEGER, or INT, and SMALLINT. As an extension to this standard, MySQL also supports the integer types TINYINT, MEDIUMINT and BIGINT."
+    },
+    {
+        "question": "For InnoDB tables in mysqldump an online backup that takes no locks on tables can be performed by which option?",
+        "options": [
+            "a) \u2013multiple-transaction",
+            "b) \u2013single-transaction",
+            "c) \u2013double-transaction",
+            "d) \u2013no-transaction"
+        ],
+        "answer": "b",
+        "explanation": "For InnoDB tables it is possible to perform an online backup that takes no locks on tables using the option \u2018\u2013single-transaction\u2019 to \u2018mysqldump\u2019. The \u2018mysqldump\u2019 can make backups."
+    },
+    {
+        "question": "Replication does not enable data from one MySQL database server to be copied to one or more MySQL database servers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Replication enables data from one MySQL database server (the master) to be copied to one or more MySQL database servers (the slaves). Replication is asynchronous by default."
+    },
+    {
+        "question": "What is SBR replication?",
+        "options": [
+            "a) Statement based",
+            "b) Row based",
+            "c) Column based",
+            "d) Table based"
+        ],
+        "answer": "a",
+        "explanation": "There are two main kinds of replication format: Statement Based Replication (SBR) replicates entire SQL statements and Row Based Replication (RBR) replicates only the changed rows."
+    },
+    {
+        "question": "Which is the library file that contains various portability macros and definitions?",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018my_sys.h\u2019 header file contains a variety of portability macros and definitions required for structures and functions. These structures and functions are used by the client library."
+    },
+    {
+        "question": "Which is the header that should be included first?",
+        "options": [
+            "a) my_global.h",
+            "b) my_sys.h",
+            "c) mysql.h",
+            "d) my_local.h"
+        ],
+        "answer": "a",
+        "explanation": "The file \u2018my_global.h\u2019 takes care of including several other header files that are likely to be generally useful, like \u2018stdio.h\u2019. It also includes Windows compatibility information."
+    }
+]

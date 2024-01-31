@@ -1,0 +1,101 @@
+[
+    {
+        "question": "$sum is an accumulator operator available only in the _______ stage.",
+        "options": [
+            "a) $group",
+            "b) $sets",
+            "c) $accumulator",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "$sum calculates and returns the sum of all the numeric values."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) $avg is an accumulator operator available only in the $group stage",
+            "b) $sum accumulator can be used to compute the total amount and count for each group of documents",
+            "c) $avg ignores numeric values",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "$avg returns the average value of the numeric values that result from applying a specified expression to each document in a group of documents that share the same group by key."
+    },
+    {
+        "question": "Which of the following ignores non numeric values?",
+        "options": [
+            "a) $order",
+            "b) $sum",
+            "c) $asc",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$sum returns a sum for each group. Ignores non-numeric values."
+    },
+    {
+        "question": "When using $first in a $group stage, the $group stage should follow a _______ stage to have the input documents in a defined order.",
+        "options": [
+            "a) $order",
+            "b) $sort",
+            "c) $asc",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$sort takes a document that specifies the field(s) to sort by and the respective sort order."
+    },
+    {
+        "question": "Which of the following returns the value that results from applying an expression to the last document?",
+        "options": [
+            "a) $end",
+            "b) $last",
+            "c) $max",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$last has the following syntax: { $last: <expression> }."
+    },
+    {
+        "question": "__________ returns the highest value from the group of values in documents.",
+        "options": [
+            "a) $end",
+            "b) $last",
+            "c) $max",
+            "d) $maximum"
+        ],
+        "answer": "c",
+        "explanation": "$max returns the highest value that results from applying an expression to each document in a group of documents that share the same group by key."
+    },
+    {
+        "question": "Which of the following is syntax for calculating minimum value?",
+        "options": [
+            "a) { $minimum: <int> }",
+            "b) { $min: <expression>}",
+            "c) { $minimum: <expression> }",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "$min returns the lowest value that results from applying an expression to each document in a group of documents that share the same group by key."
+    },
+    {
+        "question": "If all documents for the $min operation have null value for the field or are missing the field, the $min operator returns ____ for the minimum value.",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) null",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If some, but not all, documents for the $min operation have either a null value for the field or are missing the field, the $min operator only considers the non-null and the non-missing values for the field."
+    },
+    {
+        "question": "$addToSet returns an array of all _______ values that results from applying an expression to each document.",
+        "options": [
+            "a) unique",
+            "b) non unique",
+            "c) distinct",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Order of the elements in the output array is unspecified."
+    }
+]

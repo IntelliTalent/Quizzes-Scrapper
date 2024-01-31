@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following language is MongoDB written in?",
+        "options": [
+            "a) Javascript",
+            "b) C",
+            "c) C++",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB (from humongous) is a cross-platform document-oriented database."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB is classified as a NoSQL database",
+            "b) MongoDB favours XML format more than JSON",
+            "c) MongoDB is column oriented database store",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB supports JSON format compared to XML."
+    },
+    {
+        "question": "Which of the following format is supported by MongoDB?",
+        "options": [
+            "a) SQL",
+            "b) XML",
+            "c) BSON",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas."
+    },
+    {
+        "question": "MongoDB Queries can return specific fields of documents which also include user-defined __________ functions.",
+        "options": [
+            "a) Javascript",
+            "b) C",
+            "c) C++",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB supports search by field, range queries, regular expression searches."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Secondary indices are not available in MongoDB",
+            "b) MongoDB supports search by field, range queries, regular expression searches",
+            "c) MongoDB can store the business subject in the minimal number of documents",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Any field in a MongoDB document can be indexed."
+    },
+    {
+        "question": "Initial release of MongoDB was in the year?",
+        "options": [
+            "a) 2000",
+            "b) 2005",
+            "c) 2009",
+            "d) 2011"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB is developed by the software company 10gen in October 2007 as a component of a planned platform as a service product."
+    },
+    {
+        "question": "MongoDB is a _________ database that provides high performance, high availability, and easy scalability.",
+        "options": [
+            "a) graph",
+            "b) key value",
+            "c) document",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Documents (objects) map nicely to programming language data types."
+    },
+    {
+        "question": "Dynamic schema in MongoDB makes ____________ easier for applications.",
+        "options": [
+            "a) inheritance",
+            "b) polymorphism",
+            "c) encapsulation",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Relational databases require that schemas be defined before you can add data."
+    },
+    {
+        "question": "With ________ MongoDB supports a complete backup solution and full deployment monitoring.",
+        "options": [
+            "a) MMS",
+            "b) AMS",
+            "c) CMS",
+            "d) DMS"
+        ],
+        "answer": "a",
+        "explanation": "MMS stands for MongoDB Management Service and is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions."
+    }
+]

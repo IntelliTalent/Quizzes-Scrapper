@@ -1,0 +1,94 @@
+[
+    {
+        "question": "Consider the original array 17 8 12 4 26.  How many comparisons are needed to construct the BST on the original array?",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 7",
+            "d) 10"
+        ],
+        "answer": "d",
+        "explanation": "Original array is 17 8 12 4 26. The BST built on this array is shown in the figure below."
+    },
+    {
+        "question": "In binary tree sort, we first construct the BST and then we perform _______ traversal to get the sorted order.",
+        "options": [
+            "a) inorder",
+            "b) postorder",
+            "c) preorder",
+            "d) level order"
+        ],
+        "answer": "a",
+        "explanation": "In binary tree sort is a sort algorithm where a binary search tree is built from the elements to be sorted, and then we perform inorder traversal on the BST to get the elements in sorted order."
+    },
+    {
+        "question": "What is the worst case time complexity of the binary tree sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(nlogn)",
+            "c) O(n",
+            "d) O(logn)"
+        ],
+        "answer": "c",
+        "explanation": "For the binary tree sort the worst case when the BST constructed is unbalanced. BST gets unbalanced when the elements are already sorted. So, in the worst case, O(n"
+    },
+    {
+        "question": "The insert() procedure, given below, builds the BST on the input elements, which is the first step of the binary tree sort. Choose the correct to fill the condition.",
+        "options": [],
+        "answer": "b",
+        "explanation": "In binary tree sort, the BST is built on the input elements and the tree is traversed in in-order to get the sorted order. While building the BST, we travel down the tree until a leaf is reached. While traveling dawn the tree, we travel on left subtree if the new element is less than the node or to the right if the element is greater or equal to the node. So, correct option is newElement < node->value."
+    },
+    {
+        "question": "What is the best case time complexity of the binary tree sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(nlogn)",
+            "c) O(n",
+            "d) O(logn)"
+        ],
+        "answer": "b",
+        "explanation": "The best case occurs when the BST is balanced. So, when tree is balanced we require O(nlogn) time to build the tree and O(n) time to traverse the tree. So, the best case time complexity of the binary tree sort is O(nlogn)."
+    },
+    {
+        "question": "Binary tree sort is an in-place sorting algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In binary tree sort it is required to reserve one tree node for each array element. Its implementation requires two pointer variables for each node. So, it requires extra memory. The worst case space complexity of binary tree sort is \u0398(n). Therefore, binary tree sort is not an in-place sorting algorithm."
+    },
+    {
+        "question": "Which of the following is false?",
+        "options": [
+            "a) Binary tree sort and quick sort have same running time",
+            "b) Binary tree sort used BST as work area",
+            "c) As the number of elements to sort gets larger, binary tree sort gets more and more efficient",
+            "d) Both quick sort and binary tree are in place sorting algorithms"
+        ],
+        "answer": "d",
+        "explanation": "Binary tree sort and quick sort have same running time i.e O(nlogn)"
+    },
+    {
+        "question": "Which of the following sorting algorithms can be considered as improvement to the binary tree sort?",
+        "options": [
+            "a) Heap sort",
+            "b) Quick sort",
+            "c) Selection sort",
+            "d) Insertion sort"
+        ],
+        "answer": "a",
+        "explanation": "Heap sort is basically improvement to the binary tree sort. Heap sort builds a heap on the input element by adjusting the position of the elements within the original array, rather than creating nodes as in binary tree sort."
+    },
+    {
+        "question": "Consider the following statements related to the binary tree sort.",
+        "options": [
+            "a) Statement I is true but Statement II is false",
+            "b) Both Statement I and Statement II are false",
+            "c) Both Statement I and Statement II are true",
+            "d) Statement II is true but Statement I is false"
+        ],
+        "answer": "c",
+        "explanation": "Binary tree sort is dynamic sorting, that is it gets more efficient as more the elements are added. So, we can add elements gradually as they become available. Binary tree sort requires extra memory space, its worst case space complexity is \u0398(n)."
+    }
+]

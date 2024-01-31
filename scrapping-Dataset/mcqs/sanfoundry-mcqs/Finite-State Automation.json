@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many states are there in combinatorial FSM?",
+        "options": [
+            "a) 86",
+            "b) 2",
+            "c) 1",
+            "d) 132"
+        ],
+        "answer": "c",
+        "explanation": " As an FSM\u2019s memory is limited by the number of states, it cannot perform the computational tasks that a Turing machine can do. A \u201cCombinatorial FSM\u201d is defined as a finite state machine with only one state and it allows actions based upon transition into a state."
+    },
+    {
+        "question": "Which of the following algorithms transforms any NFA into its identical DFA?",
+        "options": [
+            "a) Minimal set construction",
+            "b) Dynamic programming",
+            "c) Powerset construction",
+            "d) Huffman coding"
+        ],
+        "answer": "b",
+        "explanation": "The powerset construction algorithm is a powerful algorithm that can transform any non-deterministic automaton into a more complex deterministic automaton with identical functionality."
+    },
+    {
+        "question": "Which of the following is not a member of the set of a deterministic finite state machine?",
+        "options": [
+            "a) state-transition function",
+            "b) initial state",
+            "c) input symbols",
+            "d) stack"
+        ],
+        "answer": "b",
+        "explanation": "A deterministic finite state machine or acceptor deterministic finite state machine is a quintuple (\u03a3, G, s1, \u03b4, F), where: \u03a3 is the input alphabet (a finite, non-empty set of symbols), G is a finite, non-empty set of states, s1 is an initial state, an element of S, \u03b4 is the state-transition function: \u03b4: G \u00d7 \u03a3 \u2192 G."
+    },
+    {
+        "question": "In system engineering which of the following methods bridges the gap between the two ends of system development?",
+        "options": [
+            "a) ASM method",
+            "b) VSM method",
+            "c) Factor method",
+            "d) FSM method"
+        ],
+        "answer": "a",
+        "explanation": "An abstract state machine (ASM) has its operations on states that are arbitrary data structures as well as it can bridge the gap between the two ends of the system development. This method builds upon three basic concepts such as ASM, ground model and refinement."
+    },
+    {
+        "question": "Optimisation of an FSM machine can be done by ________",
+        "options": [
+            "a) Naive-bias algorithm",
+            "b) Huffman encoding scheme",
+            "c) Pirate-plot algorithm",
+            "d) Hopcroft minimization algorithm"
+        ],
+        "answer": "b",
+        "explanation": "The job of fastest known algorithm, hopcroft minimization algorithm is to optimize and FSM system that means finding a machine with the minimum number of states which can have the same function to perform. Acyclic FSAs can be minimized in linear time."
+    },
+    {
+        "question": "A deterministic automaton system can have ______ transition for a given state of an input symbol.",
+        "options": [
+            "a) exactly one",
+            "b) more than one",
+            "c) no transition",
+            "d) 2n transition"
+        ],
+        "answer": "a",
+        "explanation": "In a deterministic automaton, for each possible input every state has exactly one transition. In a non-deterministic automaton, an input can have one, more than one, or no transition for a given state. In the study of computation, a transition system is used and it can be made of states and transitions between states, which may be labeled with labels chosen from a set."
+    },
+    {
+        "question": "Which of the following techniques refer to the equivalence of DFA and N-DFA automata?",
+        "options": [
+            "a) subset construction",
+            "b) superset construction",
+            "c) powerset construction",
+            "d) finite field construction"
+        ],
+        "answer": "b",
+        "explanation": "For every N-DFA there is a corresponding DFA for every N-DFA, and the basic technique is described as subset construction because each state in the DFA corresponds to some subset of states of the NDFA."
+    },
+    {
+        "question": "Equivalence of automata states that ____________",
+        "options": [
+            "a) two automata accept the same set of input strings",
+            "b) two automata have same set of states",
+            "c) two automata does not contain initial input symbols",
+            "d) two automata share equal transition function"
+        ],
+        "answer": "a",
+        "explanation": "The formal definition is if two automata J and K are equivalent then if there is a path from the start state of J to a final state of J and there is a path from the start state of k to a final state of K as well as if there is a path from the start state of K to a final state of K, where there is a path from the start state of J to a final state of J. Two automata J and K are said to be equivalent if both automata accept exactly the same set of input strings."
+    },
+    {
+        "question": "In the operating system, newly started processes can have a start in the _________",
+        "options": [
+            "a) Blocked state",
+            "b) Running sate",
+            "c) Ready state",
+            "d) Exit state"
+        ],
+        "answer": "c",
+        "explanation": "In the behaviour of the processes, newly started processes start their execution in a Ready state and have to wait until the OS scheduler assigns a CPU to them. At that moment, the process starts running and it stays in this state until either the scheduler decides to take back the CPU (as a \u201ctime slice\u201d has expired)."
+    },
+    {
+        "question": "In lexical analysis of a compiler______ is used.",
+        "options": [
+            "a) DFA",
+            "b) NDFA",
+            "c) NFA",
+            "d) Turing machine"
+        ],
+        "answer": "a",
+        "explanation": "A Deterministic Finite automaton system is used in the lexical analysis of the compiler."
+    }
+]

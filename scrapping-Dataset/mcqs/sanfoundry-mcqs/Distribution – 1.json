@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The _______ and ________ of a discrete random variable is easy to compute at the console.",
+        "options": [
+            "a) Mean, Variance",
+            "b) Variance, Packages",
+            "c) Packages, Functions",
+            "d) Median, Mode"
+        ],
+        "answer": "a",
+        "explanation": "The mean and variance of a discrete random variable are easy to compute at the console. To calculate the mean \u00b5, we need to multiply the corresponding values of x and f and add them."
+    },
+    {
+        "question": "Which of the following simple the square root of \u03c3 square?",
+        "options": [
+            "a) Variance",
+            "b) Standard deviation",
+            "c) Mean",
+            "d) Median"
+        ],
+        "answer": "b",
+        "explanation": "Standard deviation is the measure of dispersion of a set of data from its mean. The standard deviation \u03c3 is simply the square root of \u03c3 square."
+    },
+    {
+        "question": "The abbreviation of Cumulative Distributive Function is ________",
+        "options": [
+            "a) CDFN",
+            "b) CMDF",
+            "c) CMD",
+            "d) CDF"
+        ],
+        "answer": "d",
+        "explanation": "A cumulative distributive function P(x) is the probability of getting some value less than a certain value x. If p(x) will be the density function for a probability distribution, then that will be the cumulative distributive function P(x) is calculated as the integral of p(x) over the interval \u2212\u221e to x."
+    },
+    {
+        "question": "Which function is used to simulate discrete uniform random variables?",
+        "options": [
+            "a) Sample",
+            "b) Simple",
+            "c) Function",
+            "d) Variance"
+        ],
+        "answer": "a",
+        "explanation": "One can choose an integer at random with the sample function. The general syntax of the simulation of the discrete uniform random variable is a sample (x, size, replace = TRUE)."
+    },
+    {
+        "question": "The binomial distribution is based on _______ trial.",
+        "options": [
+            "a) Einstein",
+            "b) Bernoulli",
+            "c) Bohr",
+            "d) Kepler"
+        ],
+        "answer": "b",
+        "explanation": "The binomial distribution is the distribution based on the Bernoulli trial, which is a random experiment in which there are only two possible outcomes: success (S) and failure (F)."
+    },
+    {
+        "question": "The corresponding R function for the PMF is __________",
+        "options": [
+            "a) Trinom",
+            "b) Dbinorm",
+            "c) Dbinom",
+            "d) Fnorm"
+        ],
+        "answer": "c",
+        "explanation": "dnorm is the height of the density of a normal curve while dbinom returns the probability of an outcome of a binomial distribution."
+    },
+    {
+        "question": "The corresponding R function for the CDF is __________",
+        "options": [
+            "a) Dbinom",
+            "b) Pbinom",
+            "c) Cbinorm",
+            "d) Hbinorm"
+        ],
+        "answer": "b",
+        "explanation": "The function pbinom is very useful for summing consecutive binomial probabilities. The pbinom function returns the probability that the value of a variable that follows the binomial distribution."
+    },
+    {
+        "question": "Random variables defined via the _______ package.",
+        "options": [
+            "a) Distri",
+            "b) Diestr",
+            "c) Distr",
+            "d) Diftr"
+        ],
+        "answer": "c",
+        "explanation": "Random variables defined via the distr package may be plotted, which will return graphs of the PMF, CDF, and quantile function."
+    },
+    {
+        "question": "MGF means _____________",
+        "options": [
+            "a) Moment Generating Formulas",
+            "b) Movement Generating Formulas",
+            "c) Moment Generating Functions",
+            "d) Moment Graphic Functions"
+        ],
+        "answer": "c",
+        "explanation": "The moment generating function, if it exists in a neighbourhood of zero, determines a probability distribution uniquely."
+    },
+    {
+        "question": "The empirical cumulative distribution function can be called as __________",
+        "options": [
+            "a) EMCDF",
+            "b) EDFC",
+            "c) ECDF",
+            "d) EGDF"
+        ],
+        "answer": "c",
+        "explanation": "The empirical cumulative distribution function is the probability distribution that places into the probability mass. ECDF refers to the empirical cumulative distribution function."
+    }
+]

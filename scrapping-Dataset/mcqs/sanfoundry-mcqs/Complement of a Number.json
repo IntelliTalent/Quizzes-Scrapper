@@ -1,0 +1,108 @@
+[
+    {
+        "question": "One\u2019s complement in binary is defined as _________",
+        "options": [
+            "a) Flipping each binary bit",
+            "b) Adding one to the binary number",
+            "c) Flipping only bits having zero in it",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "While taking 1\u2019s complement we replace 1 with zero and vice versa."
+    },
+    {
+        "question": "What is the one\u2019s complement of the number 1010110?",
+        "options": [
+            "a) 1111111",
+            "b) 0101001",
+            "c) 1100110",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "While taking 1\u2019s complement we replace 1 with zero and vice versa."
+    },
+    {
+        "question": "One\u2019s complement of a number x is y, then one\u2019s complement of y is?",
+        "options": [
+            "a) y",
+            "b) x",
+            "c) x + y",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Complement of Complement of number gives the same number."
+    },
+    {
+        "question": "Nine\u2019s complement of a number is formed by _________",
+        "options": [
+            "a) replacing each digit by 9 minus that digit",
+            "b) replacing each digit by 1plus that digit",
+            "c) replacing each digit by 8 minus that digit",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Nine\u2019s complement of a number is formed by replacing each digit by 9 minus that digit."
+    },
+    {
+        "question": "Radix complement can be obtained fromdiminished radix\u2019s complement by _________",
+        "options": [
+            "a) Adding one to diminished radox\u2019s complement",
+            "b) Subtracting one to diminished radox\u2019s complement",
+            "c) Both are same things",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Radix complement = diminished radix complement +1."
+    },
+    {
+        "question": "In binary signed representation if most significant bit is one then that number is positive.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In signed representation, if the most significant bit is one then that number is negative, for positive numbers msb = 0."
+    },
+    {
+        "question": "In signed representation 5 is represented in binary as 0101.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Here msb is the signed bit which is zero, 101 evaluates to 5 hence it is +5."
+    },
+    {
+        "question": "The two\u2019s complement of 101110100 is represented as?",
+        "options": [
+            "a) 010001100",
+            "b) 101110101",
+            "c) 010001100",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "2\u2019s complement = 1\u2019s complement +1, 1\u2019s complement = 010001011."
+    },
+    {
+        "question": "9\u2019s complement of 23456 is?",
+        "options": [
+            "a) 87654",
+            "b) 76543",
+            "c) 12345",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Nine\u2019s complement of a number is formed by replacing each digit by 9 minus that digit."
+    },
+    {
+        "question": "Decimal equivalent of one\u2019s complement of 11111001 is?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 4",
+            "d) 10"
+        ],
+        "answer": "b",
+        "explanation": "One\u2019s complement of that number is 00000110 which is 6 in decimal."
+    }
+]

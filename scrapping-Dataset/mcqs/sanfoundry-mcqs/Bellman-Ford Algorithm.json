@@ -1,0 +1,160 @@
+[
+    {
+        "question": "The Bellmann Ford algorithm returns _______ value.",
+        "options": [
+            "a) Boolean",
+            "b) Integer",
+            "c) String",
+            "d) Double"
+        ],
+        "answer": "a",
+        "explanation": "The Bellmann Ford algorithm returns Boolean value whether there is a negative weight cycle that is reachable from the source."
+    },
+    {
+        "question": "Bellmann ford algorithm provides solution for ____________ problems.",
+        "options": [
+            "a) All pair shortest path",
+            "b) Sorting",
+            "c) Network flow",
+            "d) Single source shortest path"
+        ],
+        "answer": "d",
+        "explanation": "Bellmann ford algorithm is used for finding solutions for single source shortest path problems. If the graph has no negative cycles that are reachable from the source then the algorithm produces the shortest paths and their weights."
+    },
+    {
+        "question": "Bellmann Ford algorithm is used to indicate whether the graph has negative weight cycles or not.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Bellmann Ford algorithm returns true if the graph does not have any negative weight cycles and returns false when the graph has negative weight cycles."
+    },
+    {
+        "question": "How many solution/solutions are available for a graph having negative weight cycle?",
+        "options": [
+            "a) One solution",
+            "b) Two solutions",
+            "c) No solution",
+            "d) Infinite solutions"
+        ],
+        "answer": "c",
+        "explanation": "If the graph has any negative weight cycle then the algorithm indicates that no solution exists for that graph."
+    },
+    {
+        "question": "What is the running time of Bellmann Ford Algorithm?",
+        "options": [
+            "a) O(V)",
+            "b) O(V",
+            "c) O(ElogV)",
+            "d) O(VE)"
+        ],
+        "answer": "d",
+        "explanation": "Bellmann Ford algorithm runs in time O(VE), since the initialization takes O(V) for each of V-1 passes and the for loop in the algorithm takes O(E) time. Hence the total time taken by the algorithm is O(VE)."
+    },
+    {
+        "question": "How many times the for loop in the Bellmann Ford Algorithm gets executed?",
+        "options": [
+            "a) V times",
+            "b) V-1",
+            "c) E",
+            "d) E-1"
+        ],
+        "answer": " b",
+        "explanation": "The for loop in the Bellmann Ford Algorithm gets executed for V-1 times. After making V-1 passes, the algorithm checks for a negative weight cycle and returns appropriate boolean value."
+    },
+    {
+        "question": "Dijikstra\u2019s Algorithm is more efficient than Bellmann Ford Algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The running time of Bellmann Ford Algorithm is O(VE) whereas Dijikstra\u2019s Algorithm has running time of only O(V"
+    },
+    {
+        "question": " Identify the correct Bellmann Ford Algorithm.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "After initialization, the algorithm makes v-1 passes over the edges of the graph. Each pass is one iteration of the for loop and consists of relaxing each edge of the graph once. Then it checks for the negative weight cycle and returns an appropriate Boolean value."
+    },
+    {
+        "question": "What is the basic principle behind Bellmann Ford Algorithm?",
+        "options": [
+            "a) Interpolation",
+            "b) Extrapolation",
+            "c) Regression",
+            "d) Relaxation"
+        ],
+        "answer": "d",
+        "explanation": "Relaxation methods which are also called as iterative methods in which an approximation to the correct distance is replaced progressively by more accurate values till an optimum solution is found."
+    },
+    {
+        "question": "Bellmann Ford Algorithm can be applied for _____________",
+        "options": [
+            "a) Undirected and weighted graphs",
+            "b) Undirected and unweighted graphs",
+            "c) Directed and weighted graphs",
+            "d) All directed graphs"
+        ],
+        "answer": "c",
+        "explanation": "Bellmann Ford Algorithm can be applied for all directed and weighted graphs. The weight function in the graph may either be positive or negative."
+    },
+    {
+        "question": "Bellmann Ford algorithm was first proposed by ________",
+        "options": [
+            "a) Richard Bellmann",
+            "b) Alfonso Shimbe",
+            "c) Lester Ford Jr",
+            "d) Edward F. Moore"
+        ],
+        "answer": " b",
+        "explanation": " Alfonso Shimbe proposed Bellmann Ford algorithm in the year 1955. Later it was published by Richard Bellmann in 1957 and Lester Ford Jr in the year 1956. Hence it is called Bellmann Ford Algorithm."
+    },
+    {
+        "question": "Consider the following graph. What is the minimum cost to travel from node A to node C?",
+        "options": [
+            "a) 5",
+            "b) 2",
+            "c) 1",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "The minimum cost to travel from node A to node C is 2."
+    },
+    {
+        "question": "In the given graph, identify the path that has minimum cost to travel from node a to node f.",
+        "options": [
+            "a) a-b-c-f",
+            "b) a-d-e-f",
+            "c) a-d-b-c-f",
+            "d) a-d-b-c-e-f"
+        ],
+        "answer": "d",
+        "explanation": "The minimum cost taken by the path a-d-b-c-e-f is 4."
+    },
+    {
+        "question": "Bellmann Ford Algorithm is an example for ____________",
+        "options": [
+            "a) Dynamic Programming",
+            "b) Greedy Algorithms",
+            "c) Linear Programming",
+            "d) Branch and Bound"
+        ],
+        "answer": "a",
+        "explanation": "In Bellmann Ford Algorithm the shortest paths are calculated in bottom up manner which is similar to other dynamic programming problems."
+    },
+    {
+        "question": "A graph is said to have a negative weight cycle when?",
+        "options": [
+            "a) The graph has 1 negative weighted edge",
+            "b) The graph has a cycle",
+            "c) The total weight of the graph is negative",
+            "d) The graph has 1 or more negative weighted edges"
+        ],
+        "answer": "c",
+        "explanation": "When the total weight of the graph sums up to a negative number then the graph is said to have a negative weight cycle. Bellmann Ford Algorithm provides no solution for such graphs."
+    }
+]

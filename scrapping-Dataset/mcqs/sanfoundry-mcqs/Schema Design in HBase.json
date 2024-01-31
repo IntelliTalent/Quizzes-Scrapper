@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The minimum number of row versions to keep is configured per column family via _____________",
+        "options": [
+            "a) HBaseDecriptor",
+            "b) HTabDescriptor",
+            "c) HColumnDescriptor",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The minimum number of row versions parameter is used together with the time-to-live parameter and can be combined with the number of row versions parameter."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The default for max versions is 1",
+            "b) It is recommended setting the number of max versions to an exceedingly high level",
+            "c) HBase does overwrite row values",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The number of max versions may need to be increased or decreased depending on application needs."
+    },
+    {
+        "question": "HBase supports a ____________ interface via Put and Result.",
+        "options": [
+            "a) \u201cbytes-in/bytes-out\u201d",
+            "b) \u201cbytes-in\u201d",
+            "c) \u201cbytes-out\u201d",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Input could be strings, numbers, complex objects, or even images as long as they can rendered as bytes."
+    },
+    {
+        "question": "One supported data type that deserves special mention are ____________",
+        "options": [
+            "a) money",
+            "b) counters",
+            "c) smallint",
+            "d) tinyint"
+        ],
+        "answer": "b",
+        "explanation": "Synchronization on counters are done on the RegionServer, not in the client."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Where time-ranges are very wide (e.g., year-long report) and where the data is voluminous, summary tables are a common approach",
+            "b) Coprocessors act like RDBMS triggers",
+            "c) HBase does not currently support \u2018constraints\u2019 in traditional (SQL) database parlance",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The advised usage for Constraints is in enforcing business rules for attributes in the table."
+    },
+    {
+        "question": "The _________ suffers from the monotonically increasing rowkey problem.",
+        "options": [
+            "a) rowkey",
+            "b) columnkey",
+            "c) counterkey",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Attention must be paid to the number of buckets because this will require the same number of scans to return results."
+    },
+    {
+        "question": "Which command is used to disable all the tables matching the given regex?",
+        "options": [
+            "a) remove all",
+            "b) drop all",
+            "c) disable_all",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The syntax for disable_all command is as follows : hbase> disable_all \u2018r.*\u2019"
+    },
+    {
+        "question": "__________ command disables drops and recreates a table.",
+        "options": [
+            "a) drop",
+            "b) truncate",
+            "c) delete",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The syntax of truncate is as follows: hbase> truncate \u2018table name\u2019."
+    },
+    {
+        "question": "Correct and valid syntax for count command is ____________",
+        "options": [
+            "a) count \u2018<row number>\u2019",
+            "b) count \u2018<table name>\u2019",
+            "c) count \u2018<column name>\u2019",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can count the number of rows of a table using the count command."
+    }
+]

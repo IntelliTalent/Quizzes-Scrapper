@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Which of the following sorting algorithms is the fastest?",
+        "options": [
+            "a) Merge sort",
+            "b) Quick sort",
+            "c) Insertion sort",
+            "d) Shell sort"
+        ],
+        "answer": "b",
+        "explanation": "Quick sort is the fastest known sorting algorithm because of its highly optimized inner loop."
+    },
+    {
+        "question": "Quick sort follows Divide-and-Conquer strategy.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In quick sort, the array is divided into sub-arrays and then it is sorted (divide-and-conquer strategy)."
+    },
+    {
+        "question": "What is the worst case time complexity of a quick sort algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case performance of a quick sort algorithm is mathematically found to be O(N"
+    },
+    {
+        "question": "Which of the following methods is the most effective for picking the pivot element?",
+        "options": [
+            "a) first element",
+            "b) last element",
+            "c) median-of-three partitioning",
+            "d) random element"
+        ],
+        "answer": "c",
+        "explanation": "Median-of-three partitioning is the best method for choosing an appropriate pivot element. Picking a first, last or random element as a pivot is not much effective."
+    },
+    {
+        "question": "Find the pivot element from the given input using median-of-three partitioning method.",
+        "options": [
+            "a) 8",
+            "b) 7",
+            "c) 9",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "Left element=8, right element=0,"
+    },
+    {
+        "question": "Which is the safest method to choose a pivot element?",
+        "options": [
+            "a) choosing a random element as pivot",
+            "b) choosing the first element as pivot",
+            "c) choosing the last element as pivot",
+            "d) median-of-three partitioning method"
+        ],
+        "answer": "a",
+        "explanation": "This is the safest method to choose the pivot element since it is very unlikely that a random pivot would consistently provide a poor partition."
+    },
+    {
+        "question": "What is the average running time of a quick sort algorithm?",
+        "options": [
+            "a) O(N",
+            "b) O(N)",
+            "c) O(N log N)",
+            "d) O(log N)"
+        ],
+        "answer": "c",
+        "explanation": "The best case and average case analysis of a quick sort algorithm are mathematically found to be O(N log N)."
+    },
+    {
+        "question": "Which of the following sorting algorithms is used along with quick sort to sort the sub arrays?",
+        "options": [
+            "a) Merge sort",
+            "b) Shell sort",
+            "c) Insertion sort",
+            "d) Bubble sort"
+        ],
+        "answer": "c",
+        "explanation": "Insertion sort is used along with quick sort to sort the sub arrays."
+    },
+    {
+        "question": "Quick sort uses join operation rather than merge operation.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Quick sort uses join operation since join is a faster operation than merge."
+    },
+    {
+        "question": "How many sub arrays does the quick sort algorithm divide the entire array into?",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) four"
+        ],
+        "answer": "b",
+        "explanation": "The entire array is divided into two partitions, 1st sub array containing elements less than the pivot element and 2nd sub array containing elements greater than the pivot element."
+    },
+    {
+        "question": "Which is the worst method of choosing a pivot element?",
+        "options": [
+            "a) first element as pivot",
+            "b) last element as pivot",
+            "c) median-of-three partitioning",
+            "d) random element as pivot"
+        ],
+        "answer": "a",
+        "explanation": "Choosing the first element as pivot is the worst method because if the input is pre-sorted or in reverse order, then the pivot provides a poor partition."
+    },
+    {
+        "question": "Which among the following is the best cut-off range to perform insertion sort within a quick sort?",
+        "options": [
+            "a) N=0-5",
+            "b) N=5-20",
+            "c) N=20-30",
+            "d) N>30"
+        ],
+        "answer": "b",
+        "explanation": "A good cut-off range is anywhere between N=5 and N=20 to avoid nasty degenerate cases."
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "question": "What is the role of processing code in the research pipeline?",
+        "options": [
+            "a) Transforms the analytical results into figures and tables",
+            "b) Transforms the analytic data into measured data",
+            "c) Transforms the measured data into analytic data",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Data science workflow is a non-linear, iterative process."
+    },
+    {
+        "question": "Which of the following is a goal of literate statistical programming?",
+        "options": [
+            "a) Combine explanatory text and data analysis code in a single document",
+            "b) Ensure that data analysis documents are always exported in JPEG format",
+            "c) Require those data analysis summaries are always written in R",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Literate Statistical Practice is a programming methodology."
+    },
+    {
+        "question": "What does it mean to weave a literate statistical program?",
+        "options": [
+            "a) Convert a program from S to python",
+            "b) Convert the program into a human readable document",
+            "c) Convert a program to decompress it",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Literate Statistical Programming can be done with knitr."
+    },
+    {
+        "question": "Which of the following is required to implement a literate programming system?",
+        "options": [
+            "a) A programming language like Perl",
+            "b) A programming language like Java",
+            "c) A programming language like R",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "R is a language and environment for statistical computing and graphics."
+    },
+    {
+        "question": "What is one way in which the knitr system differs from Sweave?",
+        "options": [
+            "a) knitr allows for the use of markdown instead of LaTeX",
+            "b) knitr is written in python instead of R",
+            "c) knitr lacks features like caching of code chunks",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr is an engine for dynamic report generation with R."
+    },
+    {
+        "question": "Which of the following is useful way to put text, code, data, output all in one document?",
+        "options": [
+            "a) Literate statistical programming",
+            "b) Object oriented programming",
+            "c) Descriptive programming",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Object-oriented programming is a programming language model organized around objects rather than \u201cactions\u201d and data rather than logic."
+    },
+    {
+        "question": "Which of the following tool can be used for integrating text and code in one document?",
+        "options": [
+            "a) knitr",
+            "b) ggplot2",
+            "c) NumPy",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr is a way to write LaTeX, HTML, and Markdown with R code interlaced."
+    },
+    {
+        "question": "Which of the following should be set on chunk by chunk basis to store results of computation?",
+        "options": [
+            "a) cache=TRUE",
+            "b) cache=FALSE",
+            "c) caching=TRUE",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "After the first run. The results are loaded from cache."
+    },
+    {
+        "question": "Dependencies are checked explicitly in caching caveats.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Dependencies are not checked explicitly in caching caveats."
+    }
+]

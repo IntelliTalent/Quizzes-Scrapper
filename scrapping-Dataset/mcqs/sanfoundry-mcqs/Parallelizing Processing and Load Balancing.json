@@ -1,0 +1,163 @@
+[
+    {
+        "question": "To quickly grid-enable a method on a bean using GridGain.",
+        "options": [
+            "a) @Gridify",
+            "b) @Grid",
+            "c) @GridGain",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use GridGain @Gridify annotation along with some Spring AOP configuration to let GridGain know that it can parallelize the execution of the method across the grid."
+    },
+    {
+        "question": "GridGain provides:-",
+        "options": [
+            "a) load balancing",
+            "b) fault tolerance",
+            "c) routing",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "GridGain provides load balancing as well as fault tolerance and routing out of the box, which you get for free by adding this annotation."
+    },
+    {
+        "question": "To build a parallelized solution for a problem that\u2019s intrinsically better-suited to parallelization or that, for want of resources, needs to be chunked.",
+        "options": [
+            "a) map",
+            "b) reduce",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use map/reduce to approach the problem concurrently."
+    },
+    {
+        "question": "GridGain works with a GridTask",
+        "options": [
+            "a) Grid",
+            "b) GridGain",
+            "c) GridJob",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Underneath the hood, GridGain works with a GridTask"
+    },
+    {
+        "question": "When you call the method on the service with the @Gridify annotation pointing to this GridTask implementation, it stops execution of method and loads an instance of this implementation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The parameters, as passed to the method with the annotation, are passed to: split(int i, final GridifyArgument gridifyArgument), which is used to dole out GridJob instances."
+    },
+    {
+        "question": "When using GridGain stem mostly from the fact that what you develop on one node can\u2019t always automatically work on another node with no additional configuration.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The parameters, as passed to the method with the annotation, are passed to: split(int i, final GridifyArgument gridifyArgument), which is used to dole out GridJob instances."
+    },
+    {
+        "question": "GridGain lets you start up nodes using the startup script in the:-",
+        "options": [
+            "a) etc",
+            "b) opt",
+            "c) bin",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "GridGain lets you start up nodes using the startup script in the bin directory of the distribution."
+    },
+    {
+        "question": "To hoist a grid node into existence.",
+        "options": [
+            "a) GridLoader",
+            "b) GridLoad",
+            "c) Grid",
+            "d) GridGain"
+        ],
+        "answer": "a",
+        "explanation": "The GridLoader\u2019s job is to hoist a grid node into existence."
+    },
+    {
+        "question": "When you use the script that comes with the distribution is the class:-",
+        "options": [
+            "a) GridCommandLine",
+            "b) GridCommandLineLoader",
+            "c) GridCommand",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The one that gets started when you use the script that comes with the distribution is the class GridCommandLineLoader."
+    },
+    {
+        "question": "A GridLoader instance is responsible for many things such as:-",
+        "options": [
+            "a) GridFactory.start",
+            "b) GridFactory.stop",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A GridLoader instance is responsible for many things, not the least of which is correctly calling GridFactory.start and GridFactory.stop."
+    },
+    {
+        "question": "GridFactory.start can take as its first parameter a:-",
+        "options": [
+            "a) GridConfiguration object",
+            "b) Spring application context",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This GridConfiguration object is what tells GridGain what is unique about a given node and the grid\u2019s topology. By default, it uses $GRIDGAIN HOME/config/default-spring.xml, which, in turn, does things such as load a Grid object and configure user parameters about a specific node."
+    },
+    {
+        "question": "The file which enables you to tell GridGain about which GridTask",
+        "options": [
+            "a) gridgain.xml",
+            "b) gridgain.html",
+            "c) grid.xml",
+            "d) gridify.xml"
+        ],
+        "answer": "a",
+        "explanation": "gridgain.xml file, which is optional, enables you to tell GridGain about which GridTask"
+    },
+    {
+        "question": "Instances of the ApplicationContext can be injected into the various GridGain class instances (GridTask",
+        "options": [
+            "a) @Grid",
+            "b) @GridGain",
+            "c) @Gridify",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Instances of the ApplicationContext can be injected into the various GridGain class instances (GridTask"
+    },
+    {
+        "question": "This is the default implementation. It is used when you run gridgain.sh or gridgain.bat.",
+        "options": [
+            "a) org.gridgain.grid.loaders.cmdline.GridCommandLineLoader",
+            "b) org.gridgain.grid.loaders.servlet.GridServletLoader",
+            "c) org.gridgain.grid.loaders.jboss.GridJbossLoader",
+            "d) org.gridgain.grid.loaders.weblogic.GridWeblogicStartup"
+        ],
+        "answer": "a",
+        "explanation": "org.gridgain.grid.loaders.cmdline.GridCommandLineLoader This is the default implementation. It is used when you run gridgain.sh or gridgain.bat."
+    },
+    {
+        "question": "This is likely the second most useful implementation. It provides a servlet that bootstraps the GridGain instance inside any web container as a servlet.",
+        "options": [
+            "a) org.gridgain.grid.loaders.cmdline.GridCommandLineLoader",
+            "b) org.gridgain.grid.loaders.servlet.GridServletLoader",
+            "c) org.gridgain.grid.loaders.jboss.GridJbossLoader",
+            "d) org.gridgain.grid.loaders.weblogic.GridWeblogicStartup"
+        ],
+        "answer": "b",
+        "explanation": "org.gridgain.grid.loaders.servlet.GridServletLoader This is likely the second most useful implementation. It provides a servlet that bootstraps the GridGain instance inside any web container as a servlet."
+    }
+]

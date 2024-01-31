@@ -1,0 +1,602 @@
+[
+    {
+        "question": "1) GUI stands for -",
+        "options": [
+            "Graphics uniform interaction",
+            "Graphical user interaction",
+            "Graphical user interface",
+            "None of the above"
+        ],
+        "answer": "Graphical user interface",
+        "explanation": " GUI is an acronym of Graphical User Interface. It refers to an interface that allows one to interact with electronic devices like computers and tablets through graphic elements.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Graphics can be -",
+        "options": [
+            "Simulation",
+            "Drawing",
+            "Movies, photographs",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " Computer Graphics is the creation of pictures with the help of a computer. The end product of the computer graphics is a picture; it may be a business graph, drawing, and engineering. In computer graphics, two or three-dimensional pictures can be created that are used for research.",
+        "codeblock": null
+    },
+    {
+        "question": "3) CAD stands for -",
+        "options": [
+            "Computer art design",
+            "Computer-aided design",
+            "Car art design",
+            "None of the above"
+        ],
+        "answer": "Computer-aided design",
+        "explanation": " CAD is software used by engineers, architects, artists, drafters to make a technical illustration in two-dimensional (2D) and three-dimensional (3D). It is a combination of hardware and software that makes engineers designs everything.",
+        "codeblock": null
+    },
+    {
+        "question": "4) The components of Interactive computer graphics are -",
+        "options": [
+            "A monitor",
+            "Display controller",
+            "Frame buffer",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " Interactive computer graphics consists of three components that are:",
+        "codeblock": null
+    },
+    {
+        "question": "5) A user can make any change in the image using -",
+        "options": [
+            "Interactive computer graphics",
+            "Non-Interactive computer graphics",
+            "Both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "Interactive computer graphics",
+        "explanation": " In interactive Computer Graphics, the user has some control over the picture, i.e., the user can make any change in the produced image. One example of it is the ping-pong game.",
+        "codeblock": null
+    },
+    {
+        "question": "6) What is a pixel mask?",
+        "options": [
+            "a string containing only 0's",
+            "a string containing only 1's",
+            "a string containing two 0's",
+            "a string containing both 1's and 0's"
+        ],
+        "answer": "string containing both 1's and 0's",
+        "explanation": " The pixel mask is a string that contains the digits 1's and 0's to represent the positions to plot along the line path.",
+        "codeblock": null
+    },
+    {
+        "question": "7) The higher number of pixels gives us a ____ image -",
+        "options": [
+            "Better",
+            "Worst",
+            "Smaller",
+            "None of the above"
+        ],
+        "answer": "Better",
+        "explanation": " More number of pixels makes a better resolution of an image.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which one of the following is the primarily used output device?",
+        "options": [
+            "Video monitor",
+            "Scanner",
+            "Speaker",
+            "Printer"
+        ],
+        "answer": "Video monitor",
+        "explanation": " The video monitor is a widely used output device.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which one of the following terms is used for the area of the computer captured by an application?",
+        "options": [
+            "Display",
+            "Window",
+            "Viewport",
+            "None of the above"
+        ],
+        "answer": "Viewport",
+        "explanation": " The display method of the part selected or the design in which the selected element is viewed is called a viewport. An area on the display device to which a window is mapped is known as a viewport.",
+        "codeblock": null
+    },
+    {
+        "question": "10) Aspect Ratio can be defined as -",
+        "options": [
+            "The ratio of the vertical points to horizontal points",
+            "of pixels",
+            "Both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "Ratio of the vertical points to horizontal points",
+        "explanation": " Aspect ratio is the ratio of the vertical points to horizontal points essential to produce equivalent length lines in both directions on the screen.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following is not the pattern of line?",
+        "options": [
+            "Dotted line",
+            "Dashed line",
+            "Dark line",
+            "All of the above"
+        ],
+        "answer": "Dark line",
+        "explanation": " Dark line is not the pattern of the line.",
+        "codeblock": null
+    },
+    {
+        "question": "12) DDA stands for -",
+        "options": [
+            "Direct differential analyzer",
+            "Data differential analyzer",
+            "Direct difference analyzer",
+            "Digital differential analyzer"
+        ],
+        "answer": "Digital differential analyzer",
+        "explanation": " DDA is an acronym of Digital Differential Analyzer. It is an incremental method of scan conversion of lines.",
+        "codeblock": null
+    },
+    {
+        "question": "13) From the given list of options, which one is the accurate and efficient line-generating algorithm?",
+        "options": [
+            "Midpoint algorithm",
+            "DDA algorithm",
+            "Bresenham's Line algorithm",
+            "None of the above"
+        ],
+        "answer": "Bresenham's Line algorithm",
+        "explanation": " Bresenham's line algorithm is an efficient method because it involves only integer addition, subtractions, and multiplication operations. These operations can be performed very rapidly, so lines can be generated quickly.",
+        "codeblock": null
+    },
+    {
+        "question": "14) The process of positioning an object along a straight line path from one coordinate point to another is called -",
+        "options": [
+            "Translation",
+            "Reflection",
+            "Shearing",
+            "Transformation"
+        ],
+        "answer": "Translation",
+        "explanation": " A translation is used to an object by repositioning it along a straight line path from one co-ordinate point to another.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following equation is used in 2D translation to move a point(x,y) to the new point (x',y')?",
+        "options": [
+            "x' = x + ty and y' = y + tx",
+            "x' = x - tx and y' = y - ty",
+            "x' = x + tx and y' = y + ty",
+            "x' = x + tx and y' = y - ty"
+        ],
+        "answer": "x' = x + tx and y' = y + ty",
+        "explanation": " We translate a 2-D point by adding translation distance, tx, and ty, to the original coordinates position (x,y) to move the points to a new position (x', y').",
+        "codeblock": null
+    },
+    {
+        "question": "16) The process of repositioning an object along a circular path is called -",
+        "options": [
+            "Translation",
+            "Rotation",
+            "Scaling",
+            "None of the above"
+        ],
+        "answer": "Rotation",
+        "explanation": " Rotation is a process of changing the angle of the object. Rotation can be clockwise or anticlockwise.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following is must be specified to generate a rotation?",
+        "options": [
+            "Rotational distance",
+            "Rotation angle",
+            "Co-ordinates",
+            "None of the above"
+        ],
+        "answer": "Rotation angle",
+        "explanation": " For rotation, we have to specify the angle of rotation and rotation point. The rotation point is also known as pivot point.",
+        "codeblock": null
+    },
+    {
+        "question": "18) A positive value of the rotation angle -",
+        "options": [
+            "rotates an object in the clockwise direction",
+            "rotates an object in the counter-clockwise direction",
+            "Both of the above",
+            "None of the above"
+        ],
+        "answer": "rotates an object in the counter-clockwise direction.",
+        "explanation": " The positive value of the pivot point (rotation angle) rotates an object in a counter-clockwise (anti-clockwise) direction.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Which of the following transformation is used for altering the object's size?",
+        "options": [
+            "Translation",
+            "Scaling",
+            "Rotation",
+            "None of the above"
+        ],
+        "answer": "Scaling",
+        "explanation": " Scaling is used to alter or change the size of objects. The change is done using scaling factors.",
+        "codeblock": null
+    },
+    {
+        "question": "20) What happens if the values of scaling factors sx and sy less than 1 (i.e., sx<1 and sy<1)?",
+        "options": [
+            "No change in the object's size",
+            "Reduce the object's size",
+            "Increase the object's size",
+            "None of the above"
+        ],
+        "answer": "Reduce the object's size",
+        "explanation": " If scaling factors are less than one, the size of the object will be reduced.",
+        "codeblock": null
+    },
+    {
+        "question": "21) In which of the following case, the uniform scaling will be produced?",
+        "options": [
+            "Values of scaling factors sx and sy are unequal.",
+            "Values of scaling factors sx and sy are equal.",
+            "Both of the above",
+            "None of the above"
+        ],
+        "answer": "Values of scaling factors sx and sy are equal.",
+        "explanation": " If the values of scaling factors sx and sy are equal, it is called Uniform Scaling.",
+        "codeblock": null
+    },
+    {
+        "question": "22) The Cohen-Sutherland algorithm divides the two-dimensional space in how many regions?",
+        "options": [
+            "4",
+            "8",
+            "9",
+            "23"
+        ],
+        "answer": "9",
+        "explanation": " If the line is neither a visible case nor an invisible case, then it will be considered to be the clipped case. The Cohen-Sutherland algorithm will divide the 2D space into nine regions. All nine regions are assigned codes. Each code is of 4 bits. If both endpoints of the line have end bits zero, then the line is considered to be visible.",
+        "codeblock": null
+    },
+    {
+        "question": "23) The 4-bit code of the bottom-region among the nine regions divided using the Cohen-Sutherland algorithm?",
+        "options": [
+            "0000",
+            "0010",
+            "0110",
+            "0101"
+        ],
+        "answer": "0110",
+        "explanation": " The 4-bit code of the bottom-right region amongst the nine regions divided by the Cohen-Sutherland algorithm is 0110.",
+        "codeblock": null
+    },
+    {
+        "question": "24) According to the Cohen-Sutherland algorithm, where the line lies, if the 4-bit code of both ends is 0000, and also the logical OR gives 0000?",
+        "options": [
+            "Half outside half inside",
+            "Completely inside",
+            "Completely outside",
+            "None of the above"
+        ],
+        "answer": "Completely inside",
+        "explanation": " The line will be completely visible if both end codes are 0000, and the result of their logical OR also 0000.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Which one of the following is the most commonly used and basic input device?",
+        "options": [
+            "Mouse",
+            "Printer",
+            "Scanner",
+            "Keyboard"
+        ],
+        "answer": "Keyboard",
+        "explanation": " The most commonly used input device is a keyboard. The data is entered by pressing the set of keys. All keys are labeled. A keyboard with 101 keys is called a QWERTY keyboard.",
+        "codeblock": null
+    },
+    {
+        "question": "26) Which of the following device is used for the 3D positioning of an object?",
+        "options": [
+            "Trackball",
+            "Mouse",
+            "Spaceball",
+            "All of the above"
+        ],
+        "answer": "Spaceball",
+        "explanation": " Spaceball is used for the three-dimensional positioning of the object.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which is not the input device?",
+        "options": [
+            "Impact printers",
+            "Trackball",
+            "Mouse",
+            "Keyboard"
+        ],
+        "answer": "Impact printers",
+        "explanation": " The printers that print the characters by striking against the ribbon and onto the papers are known as Impact Printers.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following is an example of the impact device?",
+        "options": [
+            "Laser printer",
+            "Inkjet printer",
+            "Line printer",
+            "None of the above"
+        ],
+        "answer": "Line printer",
+        "explanation": " Line printers are the impact printers that print one line at a time. It is a high-speed impact printer as it can print 500 to 3000 lines per minute. Drum printer and chain printer are examples of line printers.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following allows us to select the screen positions with the touch of a finger?",
+        "options": [
+            "Mouse",
+            "Trackball",
+            "Touch panel",
+            "None of the above"
+        ],
+        "answer": "Touch panel",
+        "explanation": " Touch Panels is a type of display screen that has a touch-sensitive transparent panel covering the screen. A touch screen registers input when a finger or other object comes in contact with the screen.",
+        "codeblock": null
+    },
+    {
+        "question": "30) Which is a common device for painting or selecting the object's co-ordinate positions?",
+        "options": [
+            "Digitizer",
+            "Touch panel",
+            "Image scanner",
+            "Keyboard"
+        ],
+        "answer": "Digitizer",
+        "explanation": " The digitizer is an operator input device, which contains a large, smooth board & an electronic tracking device, which can be changed over the surface to follow existing lines. The electronic tracking device contains a switch for the user to record the desire x & y coordinate positions. The coordinates can be entered into the computer memory or stored or an off-line storage medium such as magnetic tape.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Grayscale is used for -",
+        "options": [
+            "Random scan display",
+            "Monitors with color capability",
+            "Monitors with no color capability",
+            "All of the above"
+        ],
+        "answer": "Monitors with no color capability",
+        "explanation": " Grayscale images are monochrome images; means they have only one color. Grayscale images do not contain any information about color. Each pixel determines available different grey levels.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Clipping in computer graphics is primarily used for -",
+        "options": [
+            "zooming",
+            "copying",
+            "removing objects and lines",
+            "All of the above"
+        ],
+        "answer": "removing objects and lines",
+        "explanation": " When we have to display a large portion of the picture, then not only scaling & translation is necessary, the visible part of the picture is also identified. For deciding the visible and invisible portion, a particular process called clipping is used. Clipping determines each element into the visible and invisible portions. The visible portion is selected. An invisible portion is discarded.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Random scan systems are used for -",
+        "options": [
+            "Color drawing application",
+            "Pixel drawing application",
+            "Line drawing application",
+            "None of the above"
+        ],
+        "answer": "Line drawing application",
+        "explanation": " Random Scan System uses an electron beam that operates like a pencil to create a line image on the CRT screen. The picture is constructed out of a sequence of straight-line segments.",
+        "codeblock": null
+    },
+    {
+        "question": "34) How many phosphor color dots at each pixel position in a shadow mask CRT?",
+        "options": [
+            "1",
+            "7",
+            "2",
+            "3"
+        ],
+        "answer": "3",
+        "explanation": " A shadow mask CRT has 3 phosphor color dots at each pixel position.",
+        "codeblock": null
+    },
+    {
+        "question": "35) Shadow mask method is used in -",
+        "options": [
+            "Raster scan system",
+            "Random scan system",
+            "Both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "Raster scan system",
+        "explanation": " Shadow Mask Method is commonly used in Raster-Scan System because they produce a much wider range of colors than the beam-penetration method.",
+        "codeblock": null
+    },
+    {
+        "question": "36) In which of the following CRT methods, there is an occurrence of convergence problem?",
+        "options": [
+            "Shadow mask method",
+            "Beam penetration",
+            "Both of the above",
+            "None of the above"
+        ],
+        "answer": "Shadow mask method",
+        "explanation": " The convergence problem occurs in the shadow mask method of the color CRT monitors. It is one of the limitations of the shadow mask method.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following uses the Beam penetration method?",
+        "options": [
+            "Raster scan system",
+            "Random scan system",
+            "Both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "Random scan system",
+        "explanation": " The Beam-Penetration method has been used with random-scan monitors.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Plasma panel is a type of -",
+        "options": [
+            "Emissive display",
+            "Non-Emissive display",
+            "Printer",
+            "None of the above"
+        ],
+        "answer": "Emissive display",
+        "explanation": " None",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which of the following algorithm is used to fill the interior of a polygon?",
+        "options": [
+            "Boundary fill algorithm",
+            "Scan line polygon fill algorithm",
+            "Flood fill algorithm",
+            "All of the above"
+        ],
+        "answer": "Flood fill algorithm",
+        "explanation": " When the boundary is of many colors and the interior is to be filled with one color, the flood fill algorithm is used.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the algorithm is used to color a pixel if it is not colored and leaves it if it is already filled?",
+        "options": [
+            "Boundary fill algorithm",
+            "Scan line polygon fill algorithm",
+            "Flood fill algorithm",
+            "All of the above"
+        ],
+        "answer": "Boundary fill algorithm",
+        "explanation": " The Boundary fill algorithm checks whether the boundary pixels or adjacent pixels are colored or not. It leaves it, if the adjacent pixel is already filled or colored; otherwise, fill it.",
+        "codeblock": null
+    },
+    {
+        "question": "41) A spline can be defined as -",
+        "options": [
+            "Curved strip",
+            "A smooth curve is drawn using a pencil.",
+            "A flexible strip used to generate a smooth curve through a designated set of points.",
+            "None of the above"
+        ],
+        "answer": "A flexible strip used to generate a smooth curve through a designated set of points",
+        "explanation": " The name spline is a flexible strip used to generate a smooth curve through a designated set of points. In computer Graphics, the name spline curves define any combined curve creates with polynomial portions fulfilling specified continuity methods at the edge of the pieces.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Which of the following are the 2d color models?",
+        "options": [
+            "RGB and CMK",
+            "RGB and CMG",
+            "RGB and CMYK",
+            "All of the above"
+        ],
+        "answer": "RGB and CMYK",
+        "explanation": " There are many color models. Some of them are RGB, CMYK, YIQ, HSV, and HLS, etc. RGB stands for Red, Green, and Blue. This color space is widely used in computer graphics. RGB are the main colors from which many colors can be made. CMYK stands for Cyan, Magenta, Yellow and Black. CMYK color model is used in electrostatic and ink-jet plotters, which deposits the pigmentation on paper.",
+        "codeblock": null
+    },
+    {
+        "question": "43) RGB color model is used for -",
+        "options": [
+            "Painting",
+            "Sketching",
+            "Printing",
+            "Computer display"
+        ],
+        "answer": "Computer display",
+        "explanation": " The main objective of the RGB color model is for the sensing, defining, and display of pictures in electronic systems, such as televisions and computers, though it has also been utilizing in conventional photography.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following color will generate with the intersection of three primary RGB colors?",
+        "options": [
+            "Green",
+            "Dark red",
+            "Dark blue",
+            "White"
+        ],
+        "answer": "White",
+        "explanation": " RGB stands for Red, Green, and Blue. RGB are the main colors from which many colors can be made. The Intersection of three colors (red, green, and blue) in the RGB model will produce the white color.",
+        "codeblock": null
+    },
+    {
+        "question": "45) The intersection of primary colors in the CMYK color model will generate the -",
+        "options": [
+            "Green",
+            "White color",
+            "Black color",
+            "Dark red"
+        ],
+        "answer": "Black color",
+        "explanation": " A color model described with the primary colors cyan, magenta, and yellow (CMY) is useful for defining color output to hard-copy devices. The intersection of primary colors in the CMYK color model will produce the black color.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Select the set of colors produced in the beam-penetration method of the color CRT -",
+        "options": [
+            "Red, Green, Blue",
+            "Cyan, Magenta, Blue",
+            "Red, Green, Orange, Yellow",
+            "Green, Black, Orange"
+        ],
+        "answer": "Red, Green, Orange, Yellow",
+        "explanation": " Beam penetration method in color CRT produces four colors only, red, green, orange and yellow. A beam of slow electrons excites the outer red layer only; hence, the screen only shows red color. A beam of high-speed electrons excites the inner green layer. Thus the screen shows a green color.",
+        "codeblock": null
+    },
+    {
+        "question": "47) The phase of determining the appropriate pixels for representing images or graphics object is called as -",
+        "options": [
+            "Translation",
+            "Transformation",
+            "Rasterization",
+            "Scaling"
+        ],
+        "answer": "Rasterization",
+        "explanation": " The phase of determining the appropriate pixels for representing images or graphics objects is called rasterization.",
+        "codeblock": null
+    },
+    {
+        "question": "48) The process of displaying 3D into a 2D display unit is called as -",
+        "options": [
+            "Resolution",
+            "Projection",
+            "Rasterization",
+            "Transformation"
+        ],
+        "answer": "Projection",
+        "explanation": " The process of displaying 3D into a 2D display unit is called a projection. The projection changes 3D objects into a 2D projection plane.",
+        "codeblock": null
+    },
+    {
+        "question": "49) The video device with reduced volume, power consumption and weight is -",
+        "options": [
+            "CRT",
+            "Flat-panel display",
+            "Portable display",
+            "None of the above"
+        ],
+        "answer": "Flat panel display",
+        "explanation": " The Flat-Panel display refers to a class of video devices with reduced volume, weight and power requirement compared to CRT.",
+        "codeblock": null
+    },
+    {
+        "question": "50) Plasma panel is also called as -",
+        "options": [
+            "Non-emissive display",
+            "Liquid crystal display",
+            "Gas discharge display",
+            "None of the above"
+        ],
+        "answer": "Gas discharge display",
+        "explanation": " Plasma-Panels are also called as Gas-Discharge Display. It consists of an array of small lights.",
+        "codeblock": null
+    }
+]

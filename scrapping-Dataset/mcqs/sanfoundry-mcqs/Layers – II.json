@@ -1,0 +1,123 @@
+[
+    {
+        "question": "1.",
+        "options": [
+            "a) 10001101",
+            "b) 01001110",
+            "c) 10110001",
+            "d) 10001101"
+        ],
+        "answer": "c",
+        "explanation": "High \u2013 1, Low \u2013 0."
+    },
+    {
+        "question": "2.",
+        "options": [
+            "a) 01001",
+            "b) 10110",
+            "c) 10010",
+            "d) 01101"
+        ],
+        "answer": "a",
+        "explanation": "First half low \u2013 0, First Half High \u2013 1."
+    },
+    {
+        "question": "3.",
+        "options": [
+            "a) 001101",
+            "b) 101100",
+            "c) 110010",
+            "d) 010011"
+        ],
+        "answer": "d",
+        "explanation": "-ve to +ve transition \u2013 1 bit, +ve to \u2013ve \u2013 0 bit."
+    },
+    {
+        "question": "4.",
+        "options": [
+            "a) 101101",
+            "b) 101100",
+            "c) 010010",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Pseudoternary Has alternating high and low levels as 0 and neutral level as logic 1."
+    },
+    {
+        "question": "Five channels, each with a 100-kHz bandwidth, are to be multiplexed together. What is the minimum bandwidth of the link if there is a need for a guard band of 10 kHz between the channels to prevent interference?",
+        "options": [
+            "a) 4600 kHz",
+            "b) 500 kHz",
+            "c) 540 kHz",
+            "d) 580 kHz"
+        ],
+        "answer": "c",
+        "explanation": "For five channels, we need at least four guard bands. This means that the required bandwidth is at least 5 \u00d7 100 + 4 \u00d7 10 = 540 kHz."
+    },
+    {
+        "question": "Find the checksum byte for the fallowing data words: 10110011, 10101011, 01011010, 11010101",
+        "options": [
+            "a) 10001101",
+            "b) 01110010",
+            "c) 10110101",
+            "d) 01110010"
+        ],
+        "answer": "a",
+        "explanation": "Do binary addition to compute the result."
+    },
+    {
+        "question": "Generate the CRC codeword for the data word 1101011011 using generator 10011. Also write both in the polynomial form.",
+        "options": [
+            "a) 11010110110011",
+            "b) 11010110110110",
+            "c) 11010110111100",
+            "d) 11010110111110"
+        ],
+        "answer": "d",
+        "explanation": "Solve using polynomial division and then appending the remainder to the divisor."
+    },
+    {
+        "question": "What is the hamming distance between these 2 codes: 10010010 and 11011001?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 6",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "Hamming distance is number of dissimilar bits between 2 streams."
+    },
+    {
+        "question": "What is the hamming code for the data: 1001101?",
+        "options": [
+            "a) 10011100101",
+            "b) 11010000101",
+            "c) 10001100101",
+            "d) 11111001011"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:Find the 1st 2nd 4th and 8th bits using the hamming algorithm and thus proceed to get the hamming code."
+    },
+    {
+        "question": "10010100101 is the code received. Find the error bit.",
+        "options": [
+            "a) 7",
+            "b) 5",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Error occurs in bit 7 and can be found via hamming code."
+    },
+    {
+        "question": "The channel capacity is 100Mbps, the frame length is 10000 bits and the arrival rate is 5000 frames/sec. Calculate the mean time delay.",
+        "options": [
+            "a) 400 \u00b5sec",
+            "b) 20 msec",
+            "c) 2000 \u00b5sec",
+            "d) 200 \u00b5sec"
+        ],
+        "answer": "d",
+        "explanation": "T = 200 \u00b5sec from T=  1/(\u03bcC-\u03bb)."
+    }
+]

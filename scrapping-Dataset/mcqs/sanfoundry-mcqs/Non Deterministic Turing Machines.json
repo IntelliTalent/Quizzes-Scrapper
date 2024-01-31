@@ -1,0 +1,119 @@
+[
+    {
+        "question": "X is a simple mathematical model of a computer. X has unrestricted and unlimited memory. X is a FA with R/W head. X can have an infinite tape divided into cells, each cell holding one symbol.",
+        "options": [
+            "a) Push Down Automata",
+            "b) Non deterministic Finite Automata",
+            "c) Turing machines",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Turing machine is known as universal computer. It is denoted by M=(Q,\u03a3,\u0490 ,\u03b4 ,q0, B,F)"
+    },
+    {
+        "question": "Which of the following is/are not an application of turing machine?",
+        "options": [
+            "a) Language Recognization",
+            "b) Computers of functions on non negative numbers",
+            "c) Generating devices",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A turing machine can have many applications like : Enumerator (A turing machine with an output printer), function computer, etc."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The following mentioned is the difference between 2-way FA and TM. Another instance is that TM has a read/write tape head while FA doesn\u2019t."
+    },
+    {
+        "question": "Which of the following cannot be a possibility of a TM while it processes an input?",
+        "options": [
+            "a) Enters accepting state",
+            "b) Enters non-accepting state",
+            "c) Enters infinite loop and never halts",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The following mentioned are the only possibilities of operating a string through a turing machine."
+    },
+    {
+        "question": "Pick the odd one out.",
+        "options": [
+            "a) Subroutines",
+            "b) Multiple tracks",
+            "c) Shifting over",
+            "d) Recursion"
+        ],
+        "answer": "d",
+        "explanation": "Except Recursion, all the other options are techniques of Turing Machine construction which further includes, Checking off symbols and Storage in finite control."
+    },
+    {
+        "question": "Which among the following is not true for 2-way infinte TM?",
+        "options": [
+            "a) tape in both directions",
+            "b) Leftmost square not distinguished",
+            "c) Any computation that can be performed by 2-way infinite tape can also be performed by standard TM.",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct statements for a two way infinite tape turing machine. Theorems say the power of such a machine is in no way superior than a standard turing machine."
+    },
+    {
+        "question": "Can a turing machine act like a transducer?",
+        "options": [
+            "a) yes",
+            "b) no"
+        ],
+        "answer": "a",
+        "explanation": "A turing machine can be used as a transducer. The most obvious way to do this is to treat the entire non blank portion of the initial tape as input, and to treat the entire blank portion of the tape when the machine halts as output."
+    },
+    {
+        "question": "Which of the following does not exists?",
+        "options": [
+            "a) Mutitape TM",
+            "b) Multihead TM",
+            "c) Multidimentional TM",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If the tape contains k-dimentional array of cells infinte in all 2"
+    },
+    {
+        "question": "Enumerator is a turing machine with __________",
+        "options": [
+            "a) an output printer",
+            "b) 5 input tapes",
+            "c) a stack",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Here, the turing machine can use the printer as an output device to print strings."
+    },
+    {
+        "question": "For the following language, an enumerator will print:",
+        "options": [
+            "a) a",
+            "b) {ab, a",
+            "c) {e, ab, a",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "An enumerator is a turing machine with an output printer. It can use an printer as an output device to print output strings. As n also holds the value , epsilon will also be a part of the output set."
+    },
+    {
+        "question": "Complete the following statement:",
+        "options": [
+            "a) an enumerator enumerates it",
+            "b) it is finite",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If an Enumerator E enumerates a language L, there is a turing machine M that recognizes language L. Also, If a turing machine M recognizes a language L, there is an enumerator  for L."
+    }
+]

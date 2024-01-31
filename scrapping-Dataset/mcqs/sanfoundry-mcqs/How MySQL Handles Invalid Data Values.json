@@ -1,0 +1,108 @@
+[
+    {
+        "question": "By default, MySQL clips out of range numeric values to the nearest fit value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For the numeric or TIME columns, the values that are outside the legal range are clipped to the nearest endpoint of the range. The resulting value is stored. This is the method to handle defaults for numerics."
+    },
+    {
+        "question": "For which type are illegal values converted to the appropriate \u2018zero\u2019 value?",
+        "options": [
+            "a) Numeric",
+            "b) String",
+            "c) ENUM",
+            "d) TIME"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, there are different ways to handle the illegal values for different datatypes for default. For date or time columns, illegal values are converted to the appropriate \u201czero\u201d value for the type."
+    },
+    {
+        "question": "What is the command to see the warning messages?",
+        "options": [
+            "a) DISPLAY WARNINGS",
+            "b) DISP WARNINGS",
+            "c) DISP WARNING",
+            "d) SHOW WARNINGS"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the default value conversions are reported as warnings for INSERT, REPLACE and UPDATE statements. The SHOW WARNINGS command is used after executing one of those statements to see the warning messages."
+    },
+    {
+        "question": "The SQL mode to check for divide by zero error is ________________",
+        "options": [
+            "a) STRICT_ALL_TABLES",
+            "b) ERROR_FOR_DIVISION_BY_ZERO",
+            "c) ERROR_DIVIDE_BY_ZERO",
+            "d) ERROR_WHEN_DIVIDE_BY_ZERO"
+        ],
+        "answer": "b",
+        "explanation": "To enable the check for divide by zero errors int all the storage engines, the SQL mode named \u2018ERROR_FOR_DIVISION_BY_ZERO\u2019 can be enabled. This is done by using SET sql_mode = \u2018mode_name\u2019."
+    },
+    {
+        "question": "Which mode is used to turn on strict mode and all of the additional restrictions?",
+        "options": [
+            "a) STRICT_ALL_TABLES",
+            "b) ERROR_FOR_DIVISION_BY_ZERO",
+            "c) TRADITIONAL",
+            "d) ERROR_WHEN_DIVIDE_BY_ZERO"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018TRADITIONAL\u2019 mode is used to enable the strict mode and all of the additional restrictions. It is done by the command SET sql_mod = \u2018TRADITIONAL\u2019; The other SQL modes have other functions."
+    },
+    {
+        "question": "Which mode is a shorthand for \u2018both strict modes plus a bunch of other restrictions\u2019?",
+        "options": [
+            "a) STRICT_ALL_TABLES",
+            "b) STRICT_TRANS_TABLES",
+            "c) TRADITIONAL",
+            "d) ERROR_WHEN_DIVIDE_BY_ZERO"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, the \u2018TRADITIONAL\u2019 mode is used to enable the strict mode. It also enables all of the additional restrictions by the command \u2018SET sql_mod = \u2018TRADITIONAL\u201d The other SQL modes have other functions."
+    },
+    {
+        "question": "Which mode prevents MySQL to perform full checking of date parts?",
+        "options": [
+            "a) ALLOW_DATES_INVALID",
+            "b) ALLOW_INVALID_DATES",
+            "c) PREVENT_DATE_CHECK",
+            "d) STOP_DATES_CHECK"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, it is also possible to selectively weaken the strict mode at some places. If the ALLOW_INVALID_DATES SQL mode is enabled, MySQL doesn\u2019t perform full checking of the date parts."
+    },
+    {
+        "question": "Which keyword suppresses errors?",
+        "options": [
+            "a) SUPPRESS",
+            "b) STOP",
+            "c) PREVENT",
+            "d) IGNORE"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, to suppress errors, IGNORE keyword is used with INSERT or UPDATE statements. With the IGNORE clause, statements that would result in an error due to invalid values result only in a warning."
+    },
+    {
+        "question": "Which mode prevents entry of the \u2018zero\u2019 date value in strict mode?",
+        "options": [
+            "a) SUPPRESS",
+            "b) NO_ZERO_DATE",
+            "c) PREVENT",
+            "d) NO_ZERO_IN_DATE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018NO_ZERO_DATE\u2019 prevents the entry of the \u2018zero\u2019 date value in strict mode. In MySQL, to suppress errors, the IGNORE keyword is used with INSERT or UPDATE statements."
+    },
+    {
+        "question": "STRICT_ALL_TABLES turns on stricter checking of data values.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The SQL mode \u2018STRICT_ALL_TABLES\u2019 turns on the stricter checking of inserted or the updated data values. This can also be done with the \u2018STRICT_TRANS_TABLES\u2019 mode for transactionals."
+    }
+]

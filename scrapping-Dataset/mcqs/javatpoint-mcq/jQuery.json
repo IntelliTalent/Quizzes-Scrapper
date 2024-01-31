@@ -1,0 +1,602 @@
+[
+    {
+        "question": "1) Who developed jQuery, and in which year it was first released?",
+        "options": [
+            "John Richard in 2001",
+            "Mark Bensman in 2004",
+            "John Resig in 2006",
+            "None of the above"
+        ],
+        "answer": "John Resig in 2006",
+        "explanation": " jQuery was first released in January 2006 by John Resig at BarCamp NYC. It is currently headed by Timmy Wilson and maintained by a team of developers.",
+        "codeblock": null
+    },
+    {
+        "question": "2) jQuery is a -",
+        "options": [
+            "JavaScript method",
+            "JavaScript library",
+            "JSON library",
+            "PHP method"
+        ],
+        "answer": "JavaScript library",
+        "explanation": " jQuery is a fast, small, cross-platform and feature-rich JavaScript library. It is designed to simplify the client-side scripting of HTML. It is a small, light-weight and fast JavaScript library.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following sign is used as a shortcut for jQuery?",
+        "options": [
+            "the % sign",
+            "the & sign",
+            "the $ sign",
+            "the @ sign"
+        ],
+        "answer": "the $ sign",
+        "explanation": " Every jQuery selector start with this dollar sign $(). This sign is known as the factory function. It uses the three basic building blocks while selecting an element in a given document.",
+        "codeblock": null
+    },
+    {
+        "question": "4) $(this) in jQuery is used when -",
+        "options": [
+            "an HTML element references the entire document",
+            "an HTML element references its own action",
+            "an HTML element references the action of its parent element",
+            "All of the above"
+        ],
+        "answer": "an HTML element references its own action",
+        "explanation": " $(this) and this refers to the same element. But they are used in a different way. When 'this' is wrapped in $(), it becomes the jQuery object, and it is used when an HTML element refers to its own action.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following jQuery method is used to hide the selected elements?",
+        "options": [
+            "The hidden() method",
+            "The hide() method",
+            "The visible(false) method",
+            "The display(none) method"
+        ],
+        "answer": "The hide() method",
+        "explanation": " The jQuery hide() method is used to hide the selected elements.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Which jQuery method is used to set one or more style properties to the selected element?",
+        "options": [
+            "The html() method",
+            "The style() method",
+            "The css() method",
+            "All of the above"
+        ],
+        "answer": "The css() method",
+        "explanation": " The jQuery css() method is used to get (return) or set style properties or values for selected elements. It facilitates you to get or set one or more style properties.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following jQuery method can be used to deal with the name conflicts?",
+        "options": [
+            "The conflict() method",
+            "The nameConflict() method",
+            "The noConflict() method",
+            "None of the above"
+        ],
+        "answer": "The noConflict() method",
+        "explanation": " Many JavaScript libraries also use the $ sign as the shortcut, along with the jQuery on the same page. But if two different frameworks use the same alias, a conflict could occur, and one of the frameworks might stop working. The noConflict() method is implemented in jQuery to deal with such situations. It is used to avoid the conflict of using $ variable with other libraries. This method releases the hold on the $ (dollar) identifier so that other libraries can use it.",
+        "codeblock": null
+    },
+    {
+        "question": "8) The correct syntax to set the background color of all h1 elements to yellow in jQuery -",
+        "options": [
+            "$(\"h1\").style(\"background-color\",\"yellow\");",
+            "$(\"h1\").html(\"background-color\",\"yellow\");",
+            "$(\"h1\").css(\"background-color\",\"yellow\");",
+            "$(\"h1\").layout(\"background-color\",\"yellow\");"
+        ],
+        "answer": "$(\"h1\").css(\"background-color\",\"yellow\");",
+        "explanation": " In jQuery, using the css() method, we can set the style of an HTML element. The correct syntax for setting the background color to yellow of an h1 element is - $(\"h1\").css(\"background-color\",\"yellow\");",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following jQuery method is used to attach a handler to an event?",
+        "options": [
+            "unbind() method",
+            "attach() method",
+            "bind() method",
+            "None of the above"
+        ],
+        "answer": "bind() method",
+        "explanation": " The jQuery bind() event is used to attach one or more event handlers for selected elements from a set of elements. It specifies a function to run when the event occurs.",
+        "codeblock": null
+    },
+    {
+        "question": "10) The jQuery method used to perform an asynchronous HTTP request -",
+        "options": [
+            "jQuery ajaxSetup() method",
+            "jQuery ajaxSync() method",
+            "jQuery ajax() method",
+            "None of the above"
+        ],
+        "answer": "jQuery ajax() method",
+        "explanation": " AJAX is an acronym for Asynchronous JavaScript and XML. The ajax() method in jQuery performs an AJAX request. It sends an asynchronous HTTP request to the server.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following jQuery method is used to stop jQuery for few milliseconds?",
+        "options": [
+            "stop() method",
+            "delay() method",
+            "slowdown() method",
+            "pause() method"
+        ],
+        "answer": "delay() method",
+        "explanation": " The jQuery delay() method is used to delay the execution of functions in the queue. It is the best method to make a delay between the queued jQuery effects. The jQuery delay() method sets a timer to delay the execution of the next item in the queue.",
+        "codeblock": null
+    },
+    {
+        "question": "12) What does the syntax $(\"p.para\") will select?",
+        "options": [
+            "The first paragraph element with class = \"para\"",
+            "The first paragraph element with id = \"para\"",
+            "The first paragraph element with name = \"para\"",
+            "All paragraph elements with class = \"para\""
+        ],
+        "answer": "All paragraph elements with class = \"para\"",
+        "explanation": " In jQuery, the correct syntax for selecting all paragraph elements with class = \"para\" is - $(\"p.para\").",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the jQuery function prevents the code from running before the loading of the document finishes?",
+        "options": [
+            "$(document).load()",
+            "$(document).unload()",
+            "$(document).ready()",
+            "$(document).trim()"
+        ],
+        "answer": "$(document).ready()",
+        "explanation": " The ready() function in jQuery executes the code only when the DOM (Document object model) is fully loaded. The code inserted between $(document).ready() is executed only when a page is ready for JavaScript code to execute.",
+        "codeblock": null
+    },
+    {
+        "question": "14) The jQuery used to find all next sibling elements after the current element is -",
+        "options": [
+            "find() method",
+            "nextAll() method",
+            "siblings() method",
+            "None of the above"
+        ],
+        "answer": "nextAll() method",
+        "explanation": " The nextAll() method is used to return all next siblings of the specified selector. This method traverses forwards along with the next siblings of DOM elements. Whereas the siblings() method returns all next and previous siblings of the specified selector.",
+        "codeblock": null
+    },
+    {
+        "question": "15) The correct syntax for selecting the first paragraph element with id p1 is -",
+        "options": [
+            "$(\"p.p1:first\")",
+            "$(\"p#p1:first\")",
+            "$(\"p1#p:first\")",
+            "None of the above"
+        ],
+        "answer": "$(\"p#p1:first\")",
+        "explanation": " In jQuery, the correct syntax for selecting the first paragraph element with id = \"p1\" is - $(\"p#p1:first\").",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following jQuery method is used to check whether or not the selected elements have the specified class name?",
+        "options": [
+            "hasClass() method",
+            "addClass() method",
+            "find() method",
+            "toggleClass() method"
+        ],
+        "answer": "hasClass() method",
+        "explanation": " The jQuery hasClass() method is used to check whether selected elements have a specified class name or not. It returns TRUE if the specified class is present in any of the selected elements; otherwise, it returns FALSE.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Which of the following jQuery method is used to set the value of an element?",
+        "options": [
+            "val() method",
+            "setValue() method",
+            "content() method",
+            "None of the above"
+        ],
+        "answer": "val() method",
+        "explanation": " There are two usages of the jQuery val() method. It can be used to set the value of every matched element. It can also be used to get the current value of the first element in the set of matched elements.",
+        "codeblock": null
+    },
+    {
+        "question": "18) The jQuery method used to set the width property of an element is -",
+        "options": [
+            "setWidth( val ) method",
+            "width( val ) method",
+            "setCSSWidth( val ) method",
+            "None of the above"
+        ],
+        "answer": "width( val ) method",
+        "explanation": " jQuery width() method is used to return or set the width of the matched element. When this method is used to return the width, it returns the width of the first matched element. When this method is used to set the width, it sets the width for every matched element.",
+        "codeblock": null
+    },
+    {
+        "question": "19) The jQuery method used to get all ancestors of the matched set of elements is -",
+        "options": [
+            "parents() method",
+            "parent() method",
+            "offsetParent() method",
+            "None of the above"
+        ],
+        "answer": "parents() method",
+        "explanation": " The parents() method in jQuery is used to get all ancestor elements of the given selector. This method traverses upwards from the parent element, all the level up in the DOM tree and returns all ancestors of the selected element.",
+        "codeblock": null
+    },
+    {
+        "question": "20) The jQuery method used to remove the set of matched elements is -",
+        "options": [
+            "delete() method",
+            "empty() method",
+            "remove() method",
+            "None of the above"
+        ],
+        "answer": "remove() method",
+        "explanation": " The jQuery remove() method is used to remove the selected elements out of the DOM. It removes the selected element itself, as well as everything inside it (including all texts and child nodes). This method also removes the data and the events of the selected elements.",
+        "codeblock": null
+    },
+    {
+        "question": "21) The jQuery method used for parsing the JSON text is -",
+        "options": [
+            "parseJSON() method",
+            "parseHTML() method",
+            "noConflict() method",
+            "each() method"
+        ],
+        "answer": "jQuery.parseJSON() method",
+        "explanation": " The jQuery parseJSON() method takes a JSON string and returns a JavaScript object. The specified JSON string must follow the strict JSON format. Passing an incorrect string will cause a JS exception.",
+        "codeblock": null
+    },
+    {
+        "question": "22) What does the syntax $(\"div#myDiv .para\") will select?",
+        "options": [
+            "It will select all elements with class = \"para\" within the div element with id = \"myDiv\"",
+            "It will select all elements with id = \"myDiv\" within the div element with class = \"para\"",
+            "All div elements with class = \"para\" or with id = \"myDiv\"",
+            "None of the above"
+        ],
+        "answer": "It will select all elements with class = \"para\" within the div element with id = \"myDiv\"",
+        "explanation": " The jQuery syntax $(\"div#myDiv .para\") will select all elements with class = \"para\" within the div element with id = \"myDiv\".",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following jQuery method is used to reduce the set of matched elements to a single element?",
+        "options": [
+            "isEqual() method",
+            "val() method",
+            "eq() method",
+            "delegate() method"
+        ],
+        "answer": "eq() method",
+        "explanation": " The eq() method in jQuery returns an element with the given index. This method reduces the set of elements to the one with a specific index. The index can either be positive or negative.",
+        "codeblock": null
+    },
+    {
+        "question": "24) The toggle() method in jQuery is used to -",
+        "options": [
+            "toggle between the hide() and show() methods",
+            "toggle between the fadeIn() and fadeOut() methods",
+            "toggle between the slideUp() and slideDown() methods",
+            "None of the above"
+        ],
+        "answer": "toggles between the hide() and show() methods",
+        "explanation": " The jQuery toggle() is a special type of method which is used to toggle between the hide() and show() method. It shows the hidden elements and hides the shown element.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Which of the following method is used to toggle between the fadeIn() method and fadeOut() method?",
+        "options": [
+            "toggle() method",
+            "fadeToggle() method",
+            "slideToggle() method",
+            "animate() method"
+        ],
+        "answer": "fadeToggle() method",
+        "explanation": " jQuery fadeToggle() method is used to toggle between the fadeIn() and fadeOut() methods. If the elements are faded in, it will make them faded out, and if they are faded out, it will make them faded in.",
+        "codeblock": null
+    },
+    {
+        "question": "26) The :even and :odd filters in jQuery are used to -",
+        "options": [
+            "determine if the number is odd or even",
+            "determine if the index position of an element is odd or even",
+            "both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "determine if the index position of an element is odd or even",
+        "explanation": " The :even selector in jQuery is used to select the elements with even index numbers (such as 2, 4, 6, etc.). The index starts at 0. The :odd selector in jQuery is used to select the elements with an odd index number (such as 1, 3, 5, etc.).",
+        "codeblock": null
+    },
+    {
+        "question": "27) If the names of variables are the same, then which of the following type of variable takes precedence?",
+        "options": [
+            "local variable",
+            "global variable",
+            "both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "local variable",
+        "explanation": " In the function's body, the precedence of the local variable is more than the global variable with the same name. If the name of the function's local variable is the same as the name of the global variable, then the local variable hides the global variable.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following is the correct code in jQuery to make all div elements 150px high?",
+        "options": [
+            "$(\"div\").height(150);",
+            "$(\"div\").height = \"150\" ;",
+            "$(\"div\").height = 150 ;",
+            "None of the above"
+        ],
+        "answer": "$(\"div\").height(150);",
+        "explanation": " The jQuery height() method is used to set the height of every matched element or return the current computed height for the first element. When it is used to set the height, then it will set the height of every matched element, and when it is used to return the height, the height() method will return the height of the first matched element.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following is the basic requirement to start with jQuery?",
+        "options": [
+            "To use jQuery, first, we have to buy the jQuery library from its official website.",
+            "To use jQuery, we don't require anything as it is already built in the browser we are using.",
+            "To use jQuery, we have to refer to its hosted library, or we can download the latest jQuery version from its official website.",
+            "All of the above"
+        ],
+        "answer": "To use jQuery, we have to refer to its hosted library, or we can download the latest jQuery version from its official website.",
+        "explanation": " To start with jQuery, we need to refer to its library, or we can download the latest version of jQuery from jQuery.com.",
+        "codeblock": null
+    },
+    {
+        "question": "30) CDN stands for -",
+        "options": [
+            "Content development network",
+            "Content delivery network / Content distribution network",
+            "Communication development network",
+            "None of the above"
+        ],
+        "answer": "Content delivery network / Content distribution network",
+        "explanation": " CDN stands for Content Delivery Network or Content Distribution Network. It is a large distributed system of servers deployed in multiple data centers across the internet. It provides the files from servers at a higher bandwidth that leads to faster loading time.",
+        "codeblock": null
+    },
+    {
+        "question": "31) The jQuery method used to find all previous sibling elements of the current element is -",
+        "options": [
+            "nextAll() method",
+            "prevAll() method",
+            "siblings() method",
+            "None of the above"
+        ],
+        "answer": "prevAll() method",
+        "explanation": " The prevAll() method is jQuery's inbuilt function that returns all previous siblings of the selected element. This method traverses backward along with the previous siblings of DOM elements. Whereas the siblings() method returns all next and previous siblings of the specified selector.",
+        "codeblock": null
+    },
+    {
+        "question": "32) The jQuery method used to return the direct parent element of the selected element is -",
+        "options": [
+            "parents() method",
+            "parent() method",
+            "offsetParent() method",
+            "None of the above"
+        ],
+        "answer": "parent() method",
+        "explanation": " The parent() method in jQuery finds the direct parent of the given selector. It is an inbuilt function in jQuery. This method only traverses a single level up in the DOM tree and returns the direct parent of the selected element.",
+        "codeblock": null
+    },
+    {
+        "question": "33) The jQuery method used to load data using HTTP get is -",
+        "options": [
+            "get(URL, data, callback, dataType) method",
+            "post(URL, data, callback, dataType) method",
+            "ajax() method",
+            "ajaxSend() method"
+        ],
+        "answer": "get(URL, data, callback, dataType) method",
+        "explanation": " The get() method is an inbuilt function in jQuery. It loads data from the server using the HTTP GET request. It is used for making a simple GET request. It returns XMLHttpRequest object.",
+        "codeblock": null
+    },
+    {
+        "question": "34) Can we use multiple document.ready() function on the same page?",
+        "options": [
+            "Yes",
+            "No",
+            "Can't say",
+            "Not possible"
+        ],
+        "answer": "Yes",
+        "explanation": " We can use any number of document.ready() function on the same page. For example:",
+        "codeblock": null
+    },
+    {
+        "question": "35) The code $(\"p\").css(\"background-color\",\"yellow\") is equivalent to -",
+        "options": [
+            "jQuery(\"p\").css(\"background-color\",\"yellow\")",
+            "document(\"p\").css(\"background-color\",\"yellow\")",
+            "jq(\"p\").css(\"background-color\",\"yellow\")",
+            "None of the above"
+        ],
+        "answer": "jQuery(\"p\").css(\"background-color\",\"yellow\")",
+        "explanation": " Instead of using the $ (dollar sign), we can use jQuery as a function name. For example:",
+        "codeblock": null
+    },
+    {
+        "question": "36) Which of the following jQuery method is used to add/remove one or more classes from the selected elements?",
+        "options": [
+            "toggleClass() method",
+            "fadeToggle() method",
+            "toggle() method",
+            "slideToggle() method"
+        ],
+        "answer": "toggleClass() method",
+        "explanation": " The jQuery toggleCLass() method is used to add or remove one or more classes from the selected elements. This method toggles between adding and removing one or more class name. It checks each element for the specified class names. If the class name is already set, it removes, and if the class name is missing, it adds.",
+        "codeblock": null
+    },
+    {
+        "question": "37) What does the syntax $(\"p\") will select?",
+        "options": [
+            "All paragraph elements",
+            "Only first paragraph element",
+            "Only last paragraph element",
+            "None of the above"
+        ],
+        "answer": "All paragraph elements",
+        "explanation": " In jQuery, the syntax $(\"p\") will select all paragraph elements.",
+        "codeblock": null
+    },
+    {
+        "question": "38) What does the syntax $(\"p span\") will select?",
+        "options": [
+            "All span elements inside the paragraph element",
+            "Only first span element inside the paragraph element",
+            "Only last span element inside the paragraph element",
+            "None of the above"
+        ],
+        "answer": "All span elements inside the paragraph element",
+        "explanation": " In jQuery, the syntax $(\"p span\") will select all span elements inside a paragraph element.",
+        "codeblock": null
+    },
+    {
+        "question": "39) The selector $(\":disabled\") will select -",
+        "options": [
+            "The elements with the text \":disabled\"",
+            "The elements that do not include the text \":disabled\"",
+            "The hidden elements",
+            "All disabled input elements"
+        ],
+        "answer": "All disabled input elements",
+        "explanation": " The :disabled selector is used to select all disabled form elements. It is a pseudo-class selector that can also be used to style the disabled UI elements. This selector can only be used for the HTML elements that support the disabled attribute.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the following selector in jQuery is used to select the elements with lesser index value than the value of its index parameter?",
+        "options": [
+            "jQuery :lt() selector",
+            "jQuery :gt() selector",
+            "jQuery :lang() selector",
+            "jQuery :nth-child selector"
+        ],
+        "answer": "jQuery :lt() selector",
+        "explanation": " The :lt() selector selects the elements that have lesser index value than the value specified in the index parameter of the :lt() selector. The index starts at 0.",
+        "codeblock": null
+    },
+    {
+        "question": "41) Which of the following method in jQuery is used to make copies of the set of matched elements?",
+        "options": [
+            "jQuery detach() method",
+            "jQuery delegate() method",
+            "jQuery clone() method",
+            "jQuery serialize() method"
+        ],
+        "answer": "jQuery clone() method",
+        "explanation": " The jQuery clone() method is used to make copies of the set of matched elements. It also makes copies of their child nodes, texts and attributes. The clone() method is a convenient way to duplicate elements on a page.",
+        "codeblock": null
+    },
+    {
+        "question": "42) The jQuery method which is used to remove the tabs, space and the line breaks from the beginning and end of the specified string is -",
+        "options": [
+            "jQuery empty() method",
+            "jQuery trim() method",
+            "jQuery remove() method",
+            "jQuery serialize() method"
+        ],
+        "answer": "jQuery trim() method",
+        "explanation": " The trim() method in jQuery is used to remove the space, tabs, and all line breaks from the starting and end of the specified string. This method does not remove these characters if these whitespace characters are in the middle of the string.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Which of the following jQuery method returns the direct children of the selected element?",
+        "options": [
+            "jQuery ancestors() method",
+            "jQuery next() method",
+            "jQuery children() method",
+            "None of the above"
+        ],
+        "answer": "jQuery children() method",
+        "explanation": " The children() method in jQuery returns the direct children of the given selector. It is an inbuilt method in jQuery.",
+        "codeblock": null
+    },
+    {
+        "question": "44) Which of the following jQuery method returns all siblings of the selected element?",
+        "options": [
+            "jQuery ancestors() method",
+            "jQuery siblings() method",
+            "jQuery parents() method",
+            "None of the above"
+        ],
+        "answer": "jQuery siblings() method",
+        "explanation": " As its name implies, the siblings() method returns all siblings of the selected element. It is an inbuilt method in jQuery.",
+        "codeblock": null
+    },
+    {
+        "question": "45) The jQuery selector used to select the elements containing the specified string is -",
+        "options": [
+            "jQuery :contains selector",
+            "jQuery :lang() selector",
+            "jQuery :nth-child selector",
+            "None of the above"
+        ],
+        "answer": "jQuery :contains selector",
+        "explanation": " The :contains() selector in jQuery selects the elements that contain the specified string. The matching string can be directly appeared in the selected element or in the descendants of that element.",
+        "codeblock": null
+    },
+    {
+        "question": "46) The jQuery selector used to select the elements with the specified language code is -",
+        "options": [
+            "jQuery :contains selector",
+            "jQuery :lang() selector",
+            "jQuery :nth-child selector",
+            "None of the above"
+        ],
+        "answer": "jQuery :lang() selector",
+        "explanation": " The :lang() selector is used to select the elements with the specified language code. It selects the elements whose language value is equal to the supplied language code. We can use the lang attribute in HTML to determine the language value of the elements.",
+        "codeblock": null
+    },
+    {
+        "question": "47) Which of the following jQuery method is used to replace all selected elements with new HTML elements?",
+        "options": [
+            "jQuery replaceWith() method",
+            "jQuery replaceAll() method",
+            "jQuery load() method",
+            "jQuery delegate() method"
+        ],
+        "answer": "jQuery replaceAll() method",
+        "explanation": " The replaceAll() method in jQuery replaces all selected elements with new HTML elements. This method replaces the elements and their contents with other HTML elements. It returns the selected elements with new content.",
+        "codeblock": null
+    },
+    {
+        "question": "48) The jQuery method used to trigger a specified event handler for the selected element is -",
+        "options": [
+            "jQuery trigger() method",
+            "jQuery toggle() method",
+            "jQuery eq() method",
+            "jQuery next() method"
+        ],
+        "answer": "jQuery trigger() method",
+        "explanation": " The trigger() method is used to trigger the specified event handler for every matched element. This method can also be used to trigger the default behavior for the selected elements.",
+        "codeblock": null
+    },
+    {
+        "question": "49) Which of the following method is used to remove the specified attribute from the selected element?",
+        "options": [
+            "jQuery remove() method",
+            "jQuery empty() method",
+            "jQuery removeAttr() method",
+            "jQuery error() method"
+        ],
+        "answer": "jQuery removeAttr() method",
+        "explanation": " The removeAttr() method is used to remove attributes from the element. This method is used to remove the specified attribute from the selected element.",
+        "codeblock": null
+    },
+    {
+        "question": "50) Which of the following jQuery method is used to merge the content of two or more objects into the first object?",
+        "options": [
+            "jQuery extend() method",
+            "jQuery eq() method",
+            "jQuery data() method",
+            "jQuery param() method"
+        ],
+        "answer": "jQuery extend() method",
+        "explanation": " The jQuery extend() method together merges the content of two or more objects into the first object. This method returns the merged object.",
+        "codeblock": null
+    }
+]

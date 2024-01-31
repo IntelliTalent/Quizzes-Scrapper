@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The AUTO_INCREMENT column attribute is best used with which type?",
+        "options": [
+            "a) FLOAT",
+            "b) INT",
+            "c) CHARACTER",
+            "d) DOUBLE"
+        ],
+        "answer": "b",
+        "explanation": "The AUTO_INCREMENT is a column attribute and it is best used with the integer datatypes. It automatically assigns monotonically increasing values to the AUTO_INCREMENT columns."
+    },
+    {
+        "question": "Which datatype is best suited to store currency values?",
+        "options": [
+            "a) INT",
+            "b) FLOAT",
+            "c) DOUBLE",
+            "d) DECIMAL"
+        ],
+        "answer": "d",
+        "explanation": "Currency is a numeric information. For monetary calculations, FLOAT and DOUBLE are subject to rounding error and may not be suitable. A DECIMAL(M, 2) type is best suited for it."
+    },
+    {
+        "question": "MySQL provides a date type that has an optional time part.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, there is no data type provided which has an optional time part. The \u2018DATE\u2019 type values never have a time part. The \u2018DATETIME\u2019 type values must have a time part in them."
+    },
+    {
+        "question": "If a column is expected to store values up to 2 million, the best datatype for it is _____________",
+        "options": [
+            "a) SMALLINT",
+            "b) TINYINT",
+            "c) MEDIUMINT",
+            "d) BIGINT"
+        ],
+        "answer": "d",
+        "explanation": "The different numeric types used in MySQL are used to store different range of values. To store values of the order of a million, the MEDIUMINT or BIGINT datatype is sufficient."
+    },
+    {
+        "question": "Which of these types store the longest length of strings?",
+        "options": [
+            "a) CHAR",
+            "b) VARCHAR",
+            "c) TINYTEXT",
+            "d) TEXT"
+        ],
+        "answer": "d",
+        "explanation": "in MySQL, the different string datatypes are used to store different lenghts of the string. Here, the length would refer to the number of characters in the string. TEXT stores longer strings."
+    },
+    {
+        "question": "AUTO_INCREMENT columns must be NOT NULL.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018AUTO_INCREMENT\u2019 columns must be NOT NULL. If the NOT NULL is omitted, MySQL adds it automatically. AUTO_INCREMENT column values begin with 1 and increase monotonically after it."
+    },
+    {
+        "question": "Which of these values is not valid as an AUTO_INCREMENT value?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the \u2018AUTO_INCREMENT\u2019 values are a sequence of unique values assigned to the columns such that they increase monotonically. They begin with the value 1 and increment by a unit."
+    },
+    {
+        "question": "If an integer column is used for the values in range 1 to 99999, the best suitable datatype is ____________",
+        "options": [
+            "a) MEDIUMINT SIGNED",
+            "b) MEDIUMINT UNSIGNED",
+            "c) SMALLINT SIGNED",
+            "d) SMALLINT UNSIGNED"
+        ],
+        "answer": "b",
+        "explanation": "Since the range starts from the positive value 1, it is best to keep the datatype as UNSIGNED. The maximum value is of the order of 10^5, so a MEDIUMINT datatype is well suited."
+    },
+    {
+        "question": "INT2 maps to MySQL type _____________",
+        "options": [
+            "a) TINYINT",
+            "b) SMALLINT",
+            "c) MEDIUMINT",
+            "d) BIGINT"
+        ],
+        "answer": "b",
+        "explanation": "In order to facilitate the use of code written for SQL implementations from other vendors, MySQL maps the data types from the other vendor types to the appropriate MySQL type."
+    },
+    {
+        "question": "INT3 maps to MySQL type _____________",
+        "options": [
+            "a) TINYINT",
+            "b) SMALLINT",
+            "c) MEDIUMINT",
+            "d) BIGINT"
+        ],
+        "answer": "c",
+        "explanation": "In order to facilitate the use of the code written for SQL implementations (reusability of code) from other vendors, MySQL maps the data types from the other vendor types to the appropriate MySQL type."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Regular sets are closed under union,concatenation and kleene closure.",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) Depends on regular set",
+            "d) Can\u2019t say"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Regular sets are closed under these three operation."
+    },
+    {
+        "question": "Complement of a DFA can be obtained by",
+        "options": [
+            "a) making starting state as final state",
+            "b) no trival method",
+            "c) making final states non-final and non-final to final",
+            "d) make final as a starting state"
+        ],
+        "answer": "Answer:c",
+        "explanation": "String accepted in previous DFA will not be accepted and non accepting string will be accepted ."
+    },
+    {
+        "question": "Complement of regular sets are _________",
+        "options": [
+            "a) Regular",
+            "b) CFG",
+            "c) CSG",
+            "d) RE"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Regular sets are closed under complement operation."
+    },
+    {
+        "question": "If L1 and L2 are regular sets then intersection of these two will be",
+        "options": [
+            "a) Regular",
+            "b) Non Regular",
+            "c) Recursive",
+            "d) Non Recursive"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Regular expression are also colsed under intersection."
+    },
+    {
+        "question": "If L1 is regular L2 is unknown but L1-L2 is regular ,then L2 must be",
+        "options": [
+            "a) Empty set",
+            "b) CFG",
+            "c) Decidable",
+            "d) Regular"
+        ],
+        "answer": "Answer:d",
+        "explanation": "Regular is closed under difference."
+    },
+    {
+        "question": "Reverse of a DFA can be formed by",
+        "options": [
+            "a) using PDA",
+            "b) making final state as non-final",
+            "c) making final as starting state and starting state as final state",
+            "d) None of the mentioned"
+        ],
+        "answer": "Answer:c",
+        "explanation": "By making final state as starting state string starting from end will be accepted."
+    },
+    {
+        "question": "Reverse of (0+1)* will be",
+        "options": [
+            "a) Phi",
+            "b) Null",
+            "c) (0+1)*",
+            "d) (0+1)"
+        ],
+        "answer": "Answer:c",
+        "explanation": "There is only one state which is start and final state of DFA so interchanging starting start and final state doesn\u2019t change DFA."
+    },
+    {
+        "question": "A ___________ is a substitution such that h(a) contains a string for each a.",
+        "options": [
+            "a) Closure",
+            "b) Interchange",
+            "c) Homomorphism",
+            "d) Inverse Homomorphism"
+        ],
+        "answer": "Answer:c",
+        "explanation": "This operation replace using a function ."
+    },
+    {
+        "question": "Homomorphism of a regular set is _______",
+        "options": [
+            "a) Universal set",
+            "b) Null set",
+            "c) Regular set",
+            "d) Non regular set"
+        ],
+        "answer": "Answer:c",
+        "explanation": "Regular set are closed under homomorphism."
+    },
+    {
+        "question": "(a ^ 5b ^ 5)* is example of ________",
+        "options": [
+            "a) Type 0 language",
+            "b) Type 1 language",
+            "c) Type 2 language",
+            "d) Type 3 language"
+        ],
+        "answer": "Answer:d",
+        "explanation": "It is a regular expression."
+    },
+    {
+        "question": "Which of the following is type 3 language ?",
+        "options": [
+            "a) Strings of 0\u2019s whose length is perfect square",
+            "b) Palindromes string",
+            "c) Strings of 0\u2019s having length prime number",
+            "d) String of odd number of 0\u2019s"
+        ],
+        "answer": "Answer:d",
+        "explanation": "Only d is regular language."
+    },
+    {
+        "question": "a ^ nb ^ n where (n+m) is even .",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "Answer:d",
+        "explanation": "It is a regular expression."
+    },
+    {
+        "question": "Complement of a ^ nb ^ m where n >= 4 and m <= 3 is example of",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "Answer:d",
+        "explanation": "It is a regular expression."
+    },
+    {
+        "question": "a ^ nb ^ m where n >= 1, m >= 1, nm >= 3 is example of",
+        "options": [
+            "a) Type 0",
+            "b) Type 1",
+            "c) Type 2",
+            "d) Type 3"
+        ],
+        "answer": "Answer:d",
+        "explanation": "It is a regular expression."
+    },
+    {
+        "question": "Complement of (a + b)* will be",
+        "options": [
+            "a) phi",
+            "b) null",
+            "c) a",
+            "d) b"
+        ],
+        "answer": "Answer:a",
+        "explanation": "Given expression accept all string so complement will accept nothing."
+    }
+]

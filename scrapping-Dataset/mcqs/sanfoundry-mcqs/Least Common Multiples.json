@@ -1,0 +1,99 @@
+[
+    {
+        "question": "A Least Common Multiple of a, b is defined as __________",
+        "options": [
+            "a) It is the smallest integer divisible by both a and b",
+            "b) It is the greatest integer divisible by both a and b",
+            "c) It is the sum of the number a and b",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Definition of LCM(a, b)-smallest multiple of a and b."
+    },
+    {
+        "question": "The LCM of two number 1, b(integer) are _________",
+        "options": [
+            "a) b + 2",
+            "b) 1",
+            "c) b",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Since b is the smallest integer divisible by 1 and b."
+    },
+    {
+        "question": "If a, b are integers such that a > b then lcm(a, b) lies in _________",
+        "options": [
+            "a) a>lcm(a, b)>b",
+            "b) a>b>lcm(a, b)",
+            "c) lcm(a, b)>=a>b",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "LCM of number is either equal to the biggest number or greater than all."
+    },
+    {
+        "question": "LCM of 6, 10 is?",
+        "options": [
+            "a) 60",
+            "b) 30",
+            "c) 10",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "Since 30 is the smallest integer divisible by 6 and 10."
+    },
+    {
+        "question": "The product of two numbers are 12 and their Greatest common divisor is 2 then LCM is?",
+        "options": [
+            "a) 12",
+            "b) 2",
+            "c) 6",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The lcm of two number a and b is given by"
+    },
+    {
+        "question": "If a number is 2",
+        "options": [
+            "a)  2",
+            "b)  2",
+            "c)  2",
+            "d)  2"
+        ],
+        "answer": "a",
+        "explanation": "Lcm is the product of sets having highest exponent value among a and b."
+    },
+    {
+        "question": "State whether the given statement is True or False.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "LCM function can be reursively defined."
+    },
+    {
+        "question": "LCM(a, b) is equals to _________",
+        "options": [
+            "a) ab/(GCD(a, b))",
+            "b) (a+b)/(GCD(a, b))",
+            "c) (GCD(a, b))/ab",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ab = lcm(a, b)*gcd(a, b), which implies"
+    },
+    {
+        "question": "The lcm of two prime numbers a and b is _________",
+        "options": [
+            "a)",
+            "b) ab",
+            "c) a + b",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "LCM(a, b) = ab/(GCD(a, b)), Since (GCD(a, b)) = 1 therfore LCM(a, b) = ab."
+    }
+]

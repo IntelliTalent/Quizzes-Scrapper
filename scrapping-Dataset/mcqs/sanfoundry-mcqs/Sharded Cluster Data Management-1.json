@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_______ runs a database command against the admin database of a mongos instance.",
+        "options": [
+            "a) sh._checkFullName()",
+            "b) sh._adminCommand()",
+            "c) sh.getBalancerLockDetails()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "sh._adminCommand() runs a database command against the admin database, like db.runCommand(), but can confirm that it is issued against a mongos."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The unique constraint on indexes ensures that only one document can have a value for a field in a collection",
+            "b) MongoDB support creating new unique indexes in sharded collections",
+            "c) If you use a compound shard key, you cannot enforce uniqueness on the combination of component keys in the shard key",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For sharded collections these unique indexes cannot enforce uniqueness because insert and indexing operations are local to each shard."
+    },
+    {
+        "question": "________ tests to see if the mongo shell is connected to a mongos instance.",
+        "options": [
+            "a) sh._checkMongos()",
+            "b) sh.addShard()",
+            "c) sh._lastMigration()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The sh._checkMongos() method throws an error message if the mongo shell is not connected to a mongos instance."
+    },
+    {
+        "question": "_______ reports on the active balancer lock, if it exists.",
+        "options": [
+            "a) sh._checkFullName()",
+            "b) sh._adminCommand()",
+            "c) sh.getBalancerLockDetails()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "sh._checkFullName() tests a namespace to determine if its well formed."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The best way to ensure a field has unique values is to generate universally unique identifiers (UUID,) such as MongoDB\u2019s \u2018ObjectId values",
+            "b) Most deployments will not need to shard the files collection",
+            "c) The files collection is typically small, and only contains metadata",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None of the required keys for GridFS lend themselves to an even distribution in a sharded situation."
+    },
+    {
+        "question": "_________ reports on the last chunk migration.",
+        "options": [
+            "a) sh._checkMongos()",
+            "b) sh.addShard()",
+            "c) sh._lastMigration()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The sh._lastMigration() method returns a document with details about the last migration performed on the database or collection."
+    },
+    {
+        "question": "_________ disable balancing on a single collection in a sharded database.",
+        "options": [
+            "a) sh.removeTagRange()",
+            "b) sh._checkMongos()",
+            "c) sh.disableBalancing()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "sh.disableBalancing() does not affect balancing of other collections in a sharded cluster."
+    },
+    {
+        "question": "_______ activates the sharded collection balancer process if previously disabled using sh.disableBalancing().",
+        "options": [
+            "a) sh.getBalancerHost()",
+            "b) sh.enableBalancing()",
+            "c) sh.enableSharding()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "sh.enableSharding() enables sharding on a specific database."
+    },
+    {
+        "question": "________ returns a boolean to report if the balancer is currently enabled.",
+        "options": [
+            "a) sh.getBalancerHost()",
+            "b) sh.enableBalancing()",
+            "c) sh.getBalancerState()",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "sh.getBalancerState() returns true when the balancer is enabled and false if the balancer is disabled."
+    }
+]

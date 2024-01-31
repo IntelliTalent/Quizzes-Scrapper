@@ -1,0 +1,574 @@
+[
+    {
+        "question": "What is Microprocessor?",
+        "options": [
+            "a) A multipurpose PLD that accepts binary data as input",
+            "b) A multipurpose PLD that accepts an integer as input",
+            "c) A multipurpose PLD that accepts whole numbers as input",
+            "d) A multipurpose PLD that accepts prime numbers as input"
+        ],
+        "answer": "a",
+        "explanation": "A microprocessor is a multipurpose PLD that accepts binary data as input and processes data according to the instructions, and outputs the result. Binary instructions are read from memory."
+    },
+    {
+        "question": "Which of the following is correct about 8086 microprocessor?",
+        "options": [
+            "a) Intel\u2019s first x86 processor",
+            "b) Motrola\u2019s first x86 processor",
+            "c) STMICROELECTRONICS\u2019s first x86 processor",
+            "d) NanoXplore x86 processor"
+        ],
+        "answer": "a",
+        "explanation": "The Intel 8086 is Intel\u2019s first x86 processor. They launched the most powerful processor in terms of advanced architecture i.e. 8086 processor in 1978. It has larger memory addressing capability and a powerful instruction set."
+    },
+    {
+        "question": "Which of the following is a type of microprocessor?",
+        "options": [
+            "a) CISC",
+            "b) RISC",
+            "c) EPIC",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "They are of three types:"
+    },
+    {
+        "question": "The microprocessor of a computer can operate on any information if it is present in ______________ only.",
+        "options": [
+            "a) Program Counter",
+            "b) Flag",
+            "c) Main Memory",
+            "d) Secondary Memory"
+        ],
+        "answer": "c",
+        "explanation": "If the information isn\u2019t in the computer\u2019s main store, the microprocessor can\u2019t do anything with it. The primary storage area in a computer, also known as main storage or memory, is where data is stored for easy access by the computer\u2019s processor. Random-access memory (RAM) and memory are frequently used interchangeably to refer to primary or main storage."
+    },
+    {
+        "question": "Which of the following technology was used by Intel to design its first 8-bit microprocessor?",
+        "options": [
+            "a) NMOS",
+            "b) HMOS",
+            "c) PMOS",
+            "d) TTL"
+        ],
+        "answer": "c",
+        "explanation": "PMOS technology was used for designing the processor because this technology was slow but simple."
+    },
+    {
+        "question": "Which of the following addressing method does the instruction, MOV AX,[BX] represent?",
+        "options": [
+            "a) register indirect addressing mode",
+            "b) direct addressing mode",
+            "c) register addressing mode",
+            "d) register relative addressing mode"
+        ],
+        "answer": "a",
+        "explanation": "In register indirect addressing mode the address of the operand is stored in the register. Since the instruction specifies that the register used to refer to the address is accessed indirectly, it represents the register indirect addressing mode."
+    },
+    {
+        "question": "What is the word length of an 8-bit microprocessor?",
+        "options": [
+            "a) 8-bits \u2013 64 bits",
+            "b) 4-bits \u2013 32 bits",
+            "c) 8-bits \u2013 16 bits",
+            "d) 8-bits \u2013 32 bits"
+        ],
+        "answer": "a",
+        "explanation": "At a time, an 8-bit CPU can process 8 bits of data. Depending on the type of microcomputer, the word length might range from 4 to 64 bits."
+    },
+    {
+        "question": "In 8-bit microprocessor, how many opcodes are present?",
+        "options": [
+            "a) 246",
+            "b) 278",
+            "c) 250",
+            "d) 256"
+        ],
+        "answer": "a",
+        "explanation": "In an 8-bit microprocessor, maximum 2"
+    },
+    {
+        "question": "Which of the following is not true about the address bus?",
+        "options": [
+            "a) It consists of control PIN 21 to 28",
+            "b) It is a bidirectional bus",
+            "c) It is 16 bits in length",
+            "d) Lower address bus lines (AD"
+        ],
+        "answer": "b",
+        "explanation": "Data bus in the microprocessor is bidirectional but the address bus is unidirectional. AD"
+    },
+    {
+        "question": "Which of the following is true about microprocessors?",
+        "options": [
+            "a) It has an internal memory",
+            "b) It has interfacing circuits",
+            "c) It contains ALU, CU, and registers",
+            "d) It uses Harvard architecture"
+        ],
+        "answer": "c",
+        "explanation": "Microprocessors don\u2019t have memory and interfacing circuits. They follow Princeton architecture and they contain ALU, CU, and registers inside them."
+    },
+    {
+        "question": "Which of the following is the correct sequence of operations in a microprocessor?",
+        "options": [
+            "a) Opcode fetch, memory read, memory write, I/O read, I/O write",
+            "b) Opcode fetch, memory write, memory read, I/O read, I/O write",
+            "c) I/O read, opcode fetch, memory read, memory write, I/O write",
+            "d) I/O read, opcode fetch, memory write, memory read, I/O write"
+        ],
+        "answer": "a",
+        "explanation": "Initially, the opcode is fetched from memory, then memory read and write operations are performed followed by I/O read and I/O write operations."
+    },
+    {
+        "question": "The ________ directive instructs the assembler to begin memory allocation for a segment/block/code from the stated address.",
+        "options": [
+            "a) GROUP",
+            "b) OFFSET",
+            "c) ORG",
+            "d) LABEL"
+        ],
+        "answer": "c",
+        "explanation": "When an ORG is written, the assembler starts the location counter to keep track of the module\u2019s allotted address as specified in the directive."
+    },
+    {
+        "question": "Which of the following is not a microprocessor?",
+        "options": [
+            "a) Z8000",
+            "b) Motorola 6809",
+            "c) Zilog Z8",
+            "d) PIC1x"
+        ],
+        "answer": "d",
+        "explanation": "Z8000, Motorola 6809, and Zilog Z8 are microprocessors but PIC1x is an 8-bit microcontroller."
+    },
+    {
+        "question": "Which of the following is not a property of TRAP interrupt in microprocessor?",
+        "options": [
+            "a) It is a non-maskable interrupt",
+            "b) It is of highest priority",
+            "c) It uses edge-triggered signal",
+            "d) It is a vectored interrupt"
+        ],
+        "answer": "c",
+        "explanation": "TRAP interrupt in 8085 microprocessor uses both level and edge-triggered clock because it is of highest priority among all the interrupts."
+    },
+    {
+        "question": "Which of the following is a property of RST 7.5 interrupt?",
+        "options": [
+            "a) It is a non-maskable interrupt",
+            "b) It has 3",
+            "c) It uses level-triggered signal",
+            "d) Its vectored address is 003C H"
+        ],
+        "answer": "d",
+        "explanation": "RST 7.5 is a maskable interrupt with 2nd highest priority after RST-4.5. It uses only the edge-triggered signal. It is a vectored interrupt and its vectored address is 003C H."
+    },
+    {
+        "question": "Which of the following flag is used to mask INTR interrupt?",
+        "options": [
+            "a) zero flag",
+            "b) auxiliary carry flag flag",
+            "c) interrupt flag",
+            "d) sign flag"
+        ],
+        "answer": "c",
+        "explanation": "If the interrupt flag, IF=1, is set, the microprocessor will serve any interrupt. The processor ignores the service if the interrupt flag, IF=0, is set to 0."
+    },
+    {
+        "question": "Which of the following is a special-purpose register of microprocessor?",
+        "options": [
+            "a) Program counter",
+            "b) Instruction register",
+            "c) Accumulator",
+            "d) Temporary register"
+        ],
+        "answer": "a",
+        "explanation": "Instruction register, accumulator, and temporary register are general-purpose registers but program counter is a special-purpose register because it holds the address of the next instruction."
+    },
+    {
+        "question": "Which of the following circuit is used as a special signal to demultiplex the address bus and data bus?",
+        "options": [
+            "a) Priority Encoder",
+            "b) Decoder",
+            "c) Address Latch Enable",
+            "d) Demultiplexer"
+        ],
+        "answer": "c",
+        "explanation": "Address Latch Enable is a positive pulse and it is generated whenever the microprocessor starts an operation to latch the lower order address lines (AD"
+    },
+    {
+        "question": "How many flip-flops are there in a flag register of 8085 microprocessor?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 7",
+            "d) 10"
+        ],
+        "answer": "b",
+        "explanation": "There are five flags or flip-flops in a flag register in 8085 microprocessor that shows the status after ALU operation. They are mainly affected by the content of the accumulator."
+    },
+    {
+        "question": "Which of the following flag condition is used for BCD arithmetic operations in microprocessor?",
+        "options": [
+            "a) Sign flag",
+            "b) Auxiliary carry flag",
+            "c) Parity flag",
+            "d) Zero flag"
+        ],
+        "answer": "b",
+        "explanation": "Among all the five flag conditions in microprocessor, the auxiliary carry flag is used internally for BCD arithmetic operations. Based on the auxiliary flag, the instruction set doesn\u2019t contain the conditional jump operation."
+    },
+    {
+        "question": "Whenever a non-maskable interrupt occurs in 8085 microprocessor, which of the following data line contains the data?",
+        "options": [
+            "a) 2C H",
+            "b) 3C H",
+            "c) 36 H",
+            "d) 24 H"
+        ],
+        "answer": "d",
+        "explanation": "TRAP interrupt is a non-maskable interrupt with the highest priority. When it occurs, its vectored address 0024 H is placed on the program counter. 24 H is the lower address bus which also acts as the data bus."
+    },
+    {
+        "question": "What does a microprocessor understand after decoding opcode?",
+        "options": [
+            "a) Perform ALU operation",
+            "b) Go to memory",
+            "c) Length of the instruction and number of operations",
+            "d) Go to the output device"
+        ],
+        "answer": "c",
+        "explanation": "After decoding the opcode of the instruction, a microprocessor understands the length of the instruction and the total number of operations to be performed."
+    },
+    {
+        "question": "How many address lines are present in 8086 microprocessor?",
+        "options": [
+            "a) 16",
+            "b) 20",
+            "c) 32",
+            "d) 40"
+        ],
+        "answer": "b",
+        "explanation": "8086 microprocessor is a 16-bit microprocessor that uses 20 address lines and 16 data lines. AD"
+    },
+    {
+        "question": "Which of the following is not a status flag in microprocessor?",
+        "options": [
+            "a) Overflow flag",
+            "b) Direction flag",
+            "c) Interrupt flag",
+            "d) Index flag"
+        ],
+        "answer": "d",
+        "explanation": "Overflow flag represents whether the result is out of scope or not. Direction flag is used in string operations and interrupt flag is used to enable the interrupts."
+    },
+    {
+        "question": "Which of the following is not a condition flag?",
+        "options": [
+            "a) Trap flag",
+            "b) Auxiliary carry flag",
+            "c) Parity flag",
+            "d) Zero flag"
+        ],
+        "answer": "a",
+        "explanation": "Trap, direction, and interrupt are the control flags. Carry, parity, auxiliary carry, zero, sign and overflow flags are the condition flags."
+    },
+    {
+        "question": "Which of the following register is not used in opcode fetch operations?",
+        "options": [
+            "a) Program counter",
+            "b) Memory address register",
+            "c) Memory data register",
+            "d) Flag register"
+        ],
+        "answer": "d",
+        "explanation": "Flag register is not used in opcode fetch operations. It is used to represent the status of ALU operation which is performed after decoding of the opcode."
+    },
+    {
+        "question": "A memory connected to a microprocessor has 20 address lines and 16 data lines. What will be the memory capacity?",
+        "options": [
+            "a) 8 KB",
+            "b) 2 MB",
+            "c) 16 MB",
+            "d) 64 KB"
+        ],
+        "answer": "b",
+        "explanation": "Total number of locations of the memory possible for 20 address lines is 2"
+    },
+    {
+        "question": "What is the word length of the Pentium-II microprocessor?",
+        "options": [
+            "a) 8-bit",
+            "b) 32-bit",
+            "c) 64-bit",
+            "d) 16-bit"
+        ],
+        "answer": "c",
+        "explanation": "The Pentium-II microprocessor is a 64-bit microprocessor. It was introduced in 1997 and designed with 7.5 million transistors. Its word length is 64-bit."
+    },
+    {
+        "question": "Which of the following is not true about 8085 microprocessor?",
+        "options": [
+            "a) It is an 8-bit microprocessor",
+            "b) It is a 40 pin DIP chip",
+            "c) It is manufactured using PMOS technology",
+            "d) It has 16 address lines"
+        ],
+        "answer": "c",
+        "explanation": "8085 microprocessor is manufactured using NMOS technology. PMOS technology is used in a 4004 microprocessors. NMOS technology is faster than PMOS technology."
+    },
+    {
+        "question": "Which of the following is a non-vectored input?",
+        "options": [
+            "a) TRAP",
+            "b) RST-7.5",
+            "c) RST-6.5",
+            "d) INTR"
+        ],
+        "answer": "d",
+        "explanation": "TRAP, RST-7.5, and RST-6.5 are vectored inputs but INTR is a non-vectored input. It has the least priority and its address is provided by the user using an external device."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Every instruction has two parts i.e. opcode and operands",
+            "b) MOV B, C is a two-byte instruction",
+            "c) MVI A, 90H is a three-byte instruction",
+            "d) Maximum number of T-states possible for the execution of an instruction is 16"
+        ],
+        "answer": "a",
+        "explanation": "MOV B, C is a one-byte instruction. MVI A, 90H is a two-byte instruction and the maximum number of T-states possible for the execution of an instruction in 8085 microprocessor is 18."
+    },
+    {
+        "question": "Which of the following addressing mode is used by 8085 microprocessor for array and list operations?",
+        "options": [
+            "a) Base-Register",
+            "b) Direst",
+            "c) Indexed",
+            "d) Immediate"
+        ],
+        "answer": "c",
+        "explanation": "Indexed addressing mode is used for array and list operations. It uses a constant value and index register to execute the instruction."
+    },
+    {
+        "question": "What is stored in the H & L general-purpose register?",
+        "options": [
+            "a) Opcode",
+            "b) Address of memory",
+            "c) Address of next instruction",
+            "d) Temporary data"
+        ],
+        "answer": "b",
+        "explanation": "H and L are 8-bit general-purpose registers. They are used to store the address of memory. Together they can store a 16-bit address."
+    },
+    {
+        "question": "If a 90 GB memory has to be connected to a microprocessor, minimum how many address lines are required?",
+        "options": [
+            "a) 36",
+            "b) 39",
+            "c) 32",
+            "d) 37"
+        ],
+        "answer": "d",
+        "explanation": "90 GB is greater than 64 GB and less than 128 GB. For 64 GB (2"
+    },
+    {
+        "question": "Which of the following is a software interrupt?",
+        "options": [
+            "a) TRAP",
+            "b) INTR",
+            "c) RST-6.5",
+            "d) RST-5"
+        ],
+        "answer": "d",
+        "explanation": "TRAP, INTR, and RST-6.5 are the hardware interrupts but RST-5 is a software interrupt present. All software interrupts are vectored interrupts."
+    },
+    {
+        "question": "What is the vectored address of RST-5?",
+        "options": [
+            "a) 0010 H",
+            "b) 0032 H",
+            "c) 0028 H",
+            "d) 0030 H"
+        ],
+        "answer": "c",
+        "explanation": "Vectored address of RST-n is calculated by the formula n \u00d7 8. So, vectored address of RST-5 is (40)"
+    },
+    {
+        "question": "Which of the following is true about stack pointer?",
+        "options": [
+            "a) Stack pointer contains the address of the top of the stack memory",
+            "b) Stack pointer is an 8-bit register",
+            "c) Stack pointer stores data permanently",
+            "d) Stack pointer is initialized after stack operation"
+        ],
+        "answer": "a",
+        "explanation": "Stack pointer is initialized before stack operation, it is a 16-bit register that stores data temporarily. It follows a LIFO operation. So, it contains the address of the top of the stack memory."
+    },
+    {
+        "question": "How many address lines are required to connect a 4 KB RAM to a microprocessor?",
+        "options": [
+            "a) 10",
+            "b) 16",
+            "c) 12",
+            "d) 20"
+        ],
+        "answer": "c",
+        "explanation": "4 KB RAM is equal to 4096 \u00d7 8 bits. Total number locations are (4096 \u00d7 8)/8 = 4096 and 4096 = 2"
+    },
+    {
+        "question": "Which of the following is true about MOV A, B instruction?",
+        "options": [
+            "a) It means move the content of register A to register B",
+            "b) It uses immediate addressing mode",
+            "c) It doesn\u2019t affect the flag register",
+            "d) It is a 2-byte instruction"
+        ],
+        "answer": "c",
+        "explanation": "MOV A, B means moving the content of register B to register A. It is a 1-byte instruction and it uses register addressing mode. No flags are affected because operations of this instruction are not performed in the ALU."
+    },
+    {
+        "question": "Which of the following is false about LDA instruction?",
+        "options": [
+            "a) It is a 3-byte instruction",
+            "b) It uses indirect addressing mode",
+            "c) It has 13 T-states",
+            "d) It doesn\u2019t affect any flags"
+        ],
+        "answer": "b",
+        "explanation": "LDA is a direct addressing mode instruction which stands for Load Accumulator Direct. It is a 3-byte instruction and it has 13 T-states. No flags are affected by this instruction."
+    },
+    {
+        "question": "Which is of the following is true about STA instruction?",
+        "options": [
+            "a) It uses immediate addressing mode",
+            "b) It is a 3-byte instruction",
+            "c) It required three machine cycles",
+            "d) Accumulator is loaded with the content of memory"
+        ],
+        "answer": "b",
+        "explanation": "STA is a direct addressing mode instruction which stands for Store Accumulator Direct. It is a 3-byte instruction and it requires four machine cycles. In STA instruction memory is loaded with the content of the accumulator."
+    },
+    {
+        "question": "DAA instruction is used to perform which type of addition?",
+        "options": [
+            "a) BCD addition",
+            "b) Excess-3 addition",
+            "c) Binary addition",
+            "d) Octal addition"
+        ],
+        "answer": "a",
+        "explanation": "DAA instruction is used to perform BCD addition. DAA instruction changes the binary values of the contents of the accumulator to BCD."
+    },
+    {
+        "question": "What does a loader do in a microprocessor?",
+        "options": [
+            "a) Converts hexadecimal code to binary",
+            "b) Converts decimal to binary",
+            "c) Increments the content of the program counter by 1",
+            "d) Decodes an opcode"
+        ],
+        "answer": "a",
+        "explanation": "Microprocessor understands only 0s & 1s. So, a loader first converts hexadecimal code to binary form and then loads it to the memory."
+    },
+    {
+        "question": "Suppose registers \u2018A\u2019 and \u2018B\u2019 contain 50H and 40H respectively. After instruction MOV A, B, what will be the contents of registers A and B?",
+        "options": [
+            "a) 40H, 40H",
+            "b) 50H, 40H",
+            "c) 50H, 50H",
+            "d) 60H, 40H"
+        ],
+        "answer": "a",
+        "explanation": "Initially, register A contains 50H & B contains 40H. Instruction MOV A, B means move the content of B to A. So, after this operation, both registers A & B will contain 40H."
+    },
+    {
+        "question": "For how many times per instruction, the content of the program counter is placed on the address bus?",
+        "options": [
+            "a) One time",
+            "b) Two times",
+            "c) Depends on the memory capacity of the processor",
+            "d) Depends on the length of the instruction"
+        ],
+        "answer": "d",
+        "explanation": "After decoding an opcode the microprocessor understands the length of the instruction. So, the content of the program counter is placed on the address bus as many times as the length of the instruction."
+    },
+    {
+        "question": "Conditional instructions are independent of which of the following flag?",
+        "options": [
+            "a) Z",
+            "b) AC",
+            "c) CY",
+            "d) P"
+        ],
+        "answer": "b",
+        "explanation": "Conditional instructions are the branching instructions. In this group, the program control is transferred from one location to another conditionally. They depend on the status of flags affected for previous ALU operations accept the AC flag."
+    },
+    {
+        "question": "Which of the following is not correct about HLT instruction?",
+        "options": [
+            "a) It is a machine control instruction",
+            "b) It is used to start the execution of the program",
+            "c) PC is disconnected from the address bus",
+            "d) A reset interrupt is required to come out of halt state"
+        ],
+        "answer": "b",
+        "explanation": "HLT is a machine control statement. Internally, the PC is disconnected from the address bus so, the next fetch is not possible. It is used mainly to stop the execution of the program."
+    },
+    {
+        "question": "When data required for instruction is present inside the register of a microprocessor then which of the following addressing mode is used?",
+        "options": [
+            "a) Indexed",
+            "b) Register",
+            "c) Relative",
+            "d) Direct"
+        ],
+        "answer": "b",
+        "explanation": "Register addressing mode is used when data is present inside the register of the microprocessor. For example, MOV B, C. Here, B and C are the registers of the microprocessor."
+    },
+    {
+        "question": "Which of the following interfacing IC is a DMA controller?",
+        "options": [
+            "a) 8257/37",
+            "b) 8155",
+            "c) 8253/54",
+            "d) 8279"
+        ],
+        "answer": "a",
+        "explanation": "8155 is a multipurpose programmable I/O device. 8253/54 is a programmable counter. 8279 is a keyboard/display controller and 8257/37 is a DMA controller."
+    },
+    {
+        "question": "Which of the following is a 2-word instruction set?",
+        "options": [
+            "a) LDA 2500H",
+            "b) MOV A, B",
+            "c) IN 01H",
+            "d) JMP 2085H"
+        ],
+        "answer": "c",
+        "explanation": "LDA 2500H and JMP 2085H are 3-word instructions. MOV A, B is a 1-word instruction. IN 01H is a 2-word instruction, the first byte specifies the opcode and the second byte specifies the operand."
+    },
+    {
+        "question": "Which of the following is a register-indirect addressing mode instruction set?",
+        "options": [
+            "a) LDA 2700H",
+            "b) ADI 36H",
+            "c) DAA",
+            "d) LDAX B"
+        ],
+        "answer": "d",
+        "explanation": "LDA 2700H is a direct addressing mode instruction. ADI 36H is an immediate addressing mode instruction. DAA is an implicit addressing mode and LDAX B is a register-indirect addressing mode instruction."
+    },
+    {
+        "question": "Which is of the following is true about SPHL instruction?",
+        "options": [
+            "a) It uses indexed addressing mode",
+            "b) It is a 3-byte instruction",
+            "c) It requires three T-states",
+            "d) Contents of HL pair is moved to SP"
+        ],
+        "answer": "d",
+        "explanation": "SPHL is a 1-byte instruction. It uses register addressing mode. It required 6 T-states and it means moving the contents of the HL pair to SP."
+    }
+]

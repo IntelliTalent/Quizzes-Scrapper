@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Classless Addressing overcomes the problem of \u2013",
+        "options": [
+            "a) address completion",
+            "b) address depletion",
+            "c) address extraction",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Classless Addressing overcomes the problem of address depletion."
+    },
+    {
+        "question": "Which of the following is true for classless addressing?",
+        "options": [
+            "a) The addresses are contiguous",
+            "b) The number of addresses is a power of 2 (16 = 24), and the first address is divisible by 16",
+            "c) The first address, when converted to a decimal number, is 3,440,387,360, which when divided by 16 results in 215,024,210",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the statements are true."
+    },
+    {
+        "question": "The value \u2018n\u2019 in classless addressing is referred to as \u2013",
+        "options": [
+            "a) prefix length",
+            "b) suffix length",
+            "c) intermediate length",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "\u2018n\u2019 is referred to as prefix length."
+    },
+    {
+        "question": "Which of the following values can \u2018n\u2019 not take?",
+        "options": [
+            "a) 16",
+            "b) 8",
+            "c) 20",
+            "d) 24"
+        ],
+        "answer": "c",
+        "explanation": "\u2018n\u2019 can only have values 8, 16, or 24."
+    },
+    {
+        "question": "The slash notation in classless addressing is referred to as \u2013",
+        "options": [
+            "a) NIFT",
+            "b) PITF",
+            "c) CIDR",
+            "d) TRS"
+        ],
+        "answer": "c",
+        "explanation": "It is referred to as CIDR."
+    },
+    {
+        "question": "CIDR stands for \u2013",
+        "options": [
+            "a) Class In Domain Range",
+            "b) Classless Inter Domain Routing",
+            "c) Classless In Domain Range",
+            "d) None of the mentioned."
+        ],
+        "answer": "b",
+        "explanation": "CIDR stands for Classless Inter Domain Routing."
+    },
+    {
+        "question": "A classless address is given as 167.199.170.82/27. Find the number of addresses.",
+        "options": [
+            "a) 128",
+            "b) 64",
+            "c) 32",
+            "d) 16"
+        ],
+        "answer": "c",
+        "explanation": "n =27"
+    },
+    {
+        "question": "A classless address is given as 167.199.170.82/27. Find the first address.",
+        "options": [
+            "a) 167.199.170.32",
+            "b) 167.199.170.82",
+            "c) 167.199.170.64",
+            "d) 167.199.170.78"
+        ],
+        "answer": "c",
+        "explanation": "First address = (any address) AND (network mask)."
+    },
+    {
+        "question": "A classless address is given as 167.199.170.82/27. Find the last address.",
+        "options": [
+            "a) 167.199.170.95",
+            "b) 167.199.170.256",
+            "c) 167.199.170.128",
+            "d) 167.199.170.88"
+        ],
+        "answer": "a",
+        "explanation": "Last address = (any address) OR [NOT (network mask)]."
+    },
+    {
+        "question": "No. of address in the block= N= NOT(mask)+1.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The statement is true."
+    },
+    {
+        "question": "ICANN stands for Internet Corporation for Assigned Names and Addresses.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The address block allocation is managed by a global authority called the ICANN."
+    },
+    {
+        "question": "An ISP has requested a block of 1000 addresses. How many blocks are granted to it?",
+        "options": [
+            "a) 512",
+            "b) 1000",
+            "c) 1024",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The number of blocks allotted can only be in the powers of 2."
+    },
+    {
+        "question": "An ISP has requested a block of 1000 addresses. What is its prefix length?",
+        "options": [
+            "a) 28",
+            "b) 22",
+            "c) 26",
+            "d) 24"
+        ],
+        "answer": "b",
+        "explanation": "n =32- log_2 (1024) = 22."
+    },
+    {
+        "question": "An ISP has requested a block of 1000 addresses. Can 18.14.12.0 be its first address?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Can\u2019t Say",
+            "d) Insufficient Data"
+        ],
+        "answer": "a",
+        "explanation": "18.14.12.0 is divisible by 1024 hence it can be taken as first address."
+    },
+    {
+        "question": "If the first address is First address = 18.14.12.0/22. What is the last address?",
+        "options": [
+            "a) 18.14.15.128/22",
+            "b) 18.14.15.64/22",
+            "c) 18.14.15.32/22",
+            "d) 18.14.15.255/22"
+        ],
+        "answer": "d",
+        "explanation": "Last address = (any address) OR [NOT (network mask)]."
+    }
+]

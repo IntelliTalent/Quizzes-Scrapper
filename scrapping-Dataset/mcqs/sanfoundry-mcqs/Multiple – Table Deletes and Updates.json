@@ -1,0 +1,88 @@
+[
+    {
+        "question": "To perform a delete on a single-table, how is the name of a column qualified?",
+        "options": [
+            "a) qualification not necessary",
+            "b) column name",
+            "c) table name",
+            "d) database name"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, performing the operations \u2018UPDATE\u2019 and \u2018DELETE\u2019 on a single-table does not require qualifying the column name of the table in the database with the table name of the database."
+    },
+    {
+        "question": "What is xyz in the following SQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The operation being performed in the statement is the \u2018DELETE\u2019. The table name is \u2018xyz\u2019 and column name is \u2018abc\u2019. When this statement is executed, rows having abc value equal to 5 get deleted."
+    },
+    {
+        "question": "A multiple-table delete can apply any join.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, a multiple table \u2018DELETE\u2019 operation can be performed on the tables combined using any kind of \u2018JOIN\u2019 operation. The syntax also allows for deleting rows from multiple tables at once."
+    },
+    {
+        "question": "What is abc in the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Here, the operation that is being performed in the statement is the \u2018DELETE\u2019 operation. The table name is \u2018xyz\u2019 and column name is \u2018abc\u2019. The rows having abc value equal to 5 get deleted."
+    },
+    {
+        "question": "What is x in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The \u2018DELETE\u2019 operation is being performed in the statement. The table names are \u2018x\u2019 and \u2018y\u2019. The column name is \u2018col\u2019. The rows from left join of x and y get deleted according to the condition given."
+    },
+    {
+        "question": "Qualifying the name of column with the table name is not necessary in single-table updates.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "When it comes to single table \u2018UPDATE\u2019 and \u2018DELETE\u2019 operations, the qualification of a column name with the table name is not necessary. So the table name qualifier can be omitted."
+    },
+    {
+        "question": "What is the value of val2 in the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The second assignment here (val2 = val1) sets the value of val2 to the updated val1, that is, previous val1 incremented by two. \u2018t\u2019 is the name of the table here. \u2018val1\u2019 and \u2018val2\u2019 are columns."
+    },
+    {
+        "question": "UPDATE statement is a DML statement. What does DML stand for?",
+        "options": [
+            "a) Data Manipulation Language",
+            "b) Data Manipulation Level",
+            "c) Data Markup Language",
+            "d) Data Markup Level"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018UPDATE\u2019 statement in MySQL is a \u2018Data Manipulation Language\u2019 statement. It performs edits on real tables present or loaded directly from the stored database. It is used in similar lines with \u2018DELETE\u2019."
+    },
+    {
+        "question": "Which keyword in the UPDATE statement is used to assign values to columns?",
+        "options": [
+            "a) ASSIGN",
+            "b) SET",
+            "c) MARK",
+            "d) GET"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018UPDATE\u2019 statement in MySQL has its own syntax. The \u2018SET\u2019 keyword is followed by an assignment list which indicates the set of columns whose value needs to be updated with a specified value."
+    },
+    {
+        "question": "Which keyword is used to delete all the rows from the table?",
+        "options": [
+            "a) TRUNCATE",
+            "b) REMOVE",
+            "c) DELETE ALL",
+            "d) CLEAR"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018TRUNCATE\u2019 keyword in MySQL is used to delete all the rows from the table and also free the space containing the table. Its syntax is: TRUNCATE TABLE my_table. This deletes all rows from my_table."
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "question": "Which of the following is not a type of traditional cipher?",
+        "options": [
+            "a) Substitution cipher",
+            "b) Transposition  cipher",
+            "c) Mono alphabetic cipher",
+            "d) PKCS cipher"
+        ],
+        "answer": "d",
+        "explanation": "There are two types of the traditional cipher. One is transposition cipher and the other is substitution cipher. Whereas PKCS is a modern asymmetric cipher."
+    },
+    {
+        "question": "Which of the following cipher uses two keys to encrypt data?",
+        "options": [
+            "a) substitution cipher",
+            "b) transposition cipher",
+            "c) symmetric cipher",
+            "d) asymmetric cipher"
+        ],
+        "answer": "d",
+        "explanation": "Asymmetric cipher makes use of 2 keys for the purpose of encryption. One is known as public key whereas other is called private key."
+    },
+    {
+        "question": "Asymmetric encryption is also known as?",
+        "options": [
+            "a) Private key cryptography",
+            "b) Public key cryptography",
+            "c) Public private key cryptography",
+            "d) Traditional cryptography"
+        ],
+        "answer": "b",
+        "explanation": "Asymmetric encryption is also known as public key cryptography. Asymmetric cipher makes use of 2 keys for the purpose of encryption."
+    },
+    {
+        "question": "Which of the following is an example of asymmetric encryption technique?",
+        "options": [
+            "a) one-time pad",
+            "b) one-time password",
+            "c) DSA",
+            "d) blowfish"
+        ],
+        "answer": "c",
+        "explanation": "Asymmetric cipher makes use of 2 keys for the purpose of encryption. DSA is an example of asymmetric encryption technique."
+    },
+    {
+        "question": "Columnar cipher falls under the category of?",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "c",
+        "explanation": "Columnar cipher is a transposition cipher. It falls under the category of transposition cipher as it encrypts the plain text by rearranging its letters."
+    },
+    {
+        "question": "Which of the following cipher is formed by applying columnar transposition cipher twice?",
+        "options": [
+            "a) Rail Fence cipher",
+            "b) Route cipher",
+            "c) Double transposition cipher",
+            "d) One time pad"
+        ],
+        "answer": "c",
+        "explanation": "Double transposition cipher is formed by applying columnar transposition cipher twice. For the purpose of encryption, we may use the same key twice or we can use two different keys."
+    },
+    {
+        "question": "In which of the following cipher the plain text and the ciphered text does not have the same set of letters?",
+        "options": [
+            "a) route cipher",
+            "b) columnar transposition cipher",
+            "c) myszkowski cipher",
+            "d) additive cipher"
+        ],
+        "answer": "d",
+        "explanation": "In transposition cipher, the letters remain the same in ciphered and plain text. Their position is only changed whereas in substitution cipher the letters become different in encrypted text. As additive cipher is the only non transposition cipher out of the given options so it will be the correct option."
+    },
+    {
+        "question": "Columnar transposition cipher is harder to crack as compared to double transposition cipher?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Double transposition cipher is formed by applying columnar transposition cipher twice. So it is harder to crack than a simple columnar transposition cipher."
+    },
+    {
+        "question": "How many columns do we need to have in the table, that is used for encryption in columnar transposition cipher when a given keyword is \u201cSECRET\u201d and plain text is \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 7"
+        ],
+        "answer": "c",
+        "explanation": "The number of columns in the table used for the purpose encryption in columnar transposition cipher will always be equal to the number of letters in the keyword. So in this case it will be equal to 6."
+    },
+    {
+        "question": "What will be the encrypted text corresponding to plain text \u201cCLASSIFIED\u201d using columnar transposition cipher with a keyword as \u201cGAMES\u201d?",
+        "options": [
+            "a) LFDSIASECI",
+            "b) SECIAISDFL",
+            "c) CILFAISESD",
+            "d) LFSECIAISD"
+        ],
+        "answer": "d",
+        "explanation": "For encrypting using columnar cipher we have to arrange the letters of the plain text in a table which has the same number of columns as the letters of the keyword. Then the letters of the keyword are arranged in alphabetical order and we read along each column."
+    },
+    {
+        "question": "How many rows will the letters of the plain text occupy in the table, that is used for encryption in columnar transposition cipher when a given keyword is \u201cSECRET\u201d and plain text is \u201cSANFOUNDRY\u201d?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The number of columns in the table used for the purpose encryption in columnar transposition cipher will always be equal to the number of letters in the keyword.So when we will write the letters of the plain text row wise then there will be 2 rows of plain text in this case. The table is shown below :-"
+    },
+    {
+        "question": "Which of the following statement is not true regarding columnar transposition cipher?",
+        "options": [
+            "a) it is a weak cipher",
+            "b) probability of error is high while deciphering",
+            "c) it cannot be combined with other ciphers",
+            "d) it is a traditional symmetric cipher"
+        ],
+        "answer": "c",
+        "explanation": "Although columnar transposition cipher is a weak cipher in itself. But it can be combined with other substitution ciphers so as to improve its security. The probability of error remains high while decoding columnar cipher as it is a lengthy process."
+    }
+]

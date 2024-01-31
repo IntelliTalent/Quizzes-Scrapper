@@ -1,0 +1,68 @@
+[
+    {
+        "question": "The program that copies the databases from one server to another is ____________",
+        "options": [
+            "a) mysqldbcopy",
+            "b) mysqlcopydb",
+            "c) mysqlflushdb",
+            "d) mysqldbflush"
+        ],
+        "answer": "a",
+        "explanation": "The utility program \u2018mysqldbcopy\u2019 is capable of copying databases from one server to another server. It can also prepare copies to make transfers on the same servers. This can be done simply by running the program."
+    },
+    {
+        "question": "Which privileges are required on the source server to use mysqldbcopy?",
+        "options": [
+            "a) CREATE",
+            "b) INSERT",
+            "c) UPDATE",
+            "d) SELECT"
+        ],
+        "answer": "d",
+        "explanation": "To use the utility program \u2018mysqldbcopy\u2019, the user must have SELECT privileges for the database(s) on the source server and have CREATE, INSERT, UPDATE on the destination server."
+    },
+    {
+        "question": "Which option is used in mysqldump to make all tables in the destination databases to use a different storage engine?",
+        "options": [
+            "a) \u2013next-storage-engine",
+            "b) \u2013new-storage-engine",
+            "c) \u2013clear-storage-engine",
+            "d) \u2013get-storage-engine"
+        ],
+        "answer": "b",
+        "explanation": "While using the program \u2018mysqldump\u2019 in MySQL to copy databases from server to server, all tables in the destination databases can be directed to use a different storage engine with the \u2013new-storage-engine option."
+    },
+    {
+        "question": "The function that returns reference to hash of row values is ____________",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "d",
+        "explanation": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "The best datatype for a column that is expected to store values up to 2 million is _________",
+        "options": [
+            "a) SMALLINT",
+            "b) TINYINT",
+            "c) MEDIUMINT",
+            "d) BIGINT"
+        ],
+        "answer": "d",
+        "explanation": "The different numeric types used in MySQL are used to store different range of values. To store values of the order of a million, the MEDIUMINT or BIGINT datatype is sufficient."
+    },
+    {
+        "question": "The security context when a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access is __________",
+        "options": [
+            "a) bad",
+            "b) good",
+            "c) fare",
+            "d) illegal"
+        ],
+        "answer": "a",
+        "explanation": "The security context is bad if a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access to that data as its definer."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The ________ collection stores a document for each change to the metadata of a sharded collection.",
+        "options": [
+            "a) version",
+            "b) changelog",
+            "c) settings",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The config database is internal: applications and administrators should not modify or depend upon its content in the course of normal operation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The local database supports sharded cluster operation",
+            "b) The config database is a dependable API, and users should not write data to the config database in the course of normal operation or maintenance",
+            "c) Modification of the config database on a functioning system may lead to instability or inconsistent data sets",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you must modify the config database, use mongodump to create a full backup of the config database."
+    },
+    {
+        "question": "The _________ collection stores a document for each sharded collection in the cluster.",
+        "options": [
+            "a) help",
+            "b) shards",
+            "c) collections",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Shard keys are immutable and cannot be changed after insertion."
+    },
+    {
+        "question": "You can return a list of the collections, with the following helper ______________",
+        "options": [
+            "a) show collects",
+            "b) show collection",
+            "c) show collections",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To access the config database, connect to a mongos instance in a sharded cluster, and use the following helper: use config."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Database servers store the metadata for a sharded cluster",
+            "b) Always back up the config database before doing any maintenance on the config server",
+            "c) The mongos instances cache metadata and use it to route read and write operations to shards",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " The metadata reflects state and organization of the sharded data sets and system."
+    },
+    {
+        "question": "________ is a string that holds the address of the client, a mongos instance that initiates this change.",
+        "options": [
+            "a) config.changelog.serverAddr",
+            "b) config.changelog.clientAddr",
+            "c) config.changelog.time",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "config.changelog.time is ISODate timestamp that reflects when the change occurred."
+    },
+    {
+        "question": "The _______ collection keeps track of the active components in the sharded cluster.",
+        "options": [
+            "a) deploys",
+            "b) lockpings",
+            "c) locks",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The locks collection stores a distributed lock."
+    },
+    {
+        "question": "If the collection is empty then MongoDB will create the index as part of the ________",
+        "options": [
+            "a) shardCollectionkey()",
+            "b) shardCollection()",
+            "c) keyCollection()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB provides no method to deactivate sharding for a collection after calling shardCollection."
+    },
+    {
+        "question": "Changing the _______ option will change the port that mongod listens for incoming connections on.",
+        "options": [
+            "a) \u2013shardsrvkey",
+            "b) \u2013shardsrv",
+            "c) \u2013shard",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The single-shard cluster is now a non-sharded replica set that will accept read and write operations on the data set."
+    },
+    {
+        "question": "The _____________ collection holds documents for each tagged shard key range in the cluster.",
+        "options": [
+            "a) tags",
+            "b) databases",
+            "c) version",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The version collection holds the current metadata version number."
+    }
+]

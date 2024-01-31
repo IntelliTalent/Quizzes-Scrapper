@@ -1,0 +1,90 @@
+[
+    {
+        "question": "________ indexes expire documents after the specified number of seconds has passed since the indexed field value.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Multikey",
+            "d) TTL"
+        ],
+        "answer": "d",
+        "explanation": "The expiration threshold is the indexed field value plus the specified number of seconds."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) If you build a TTL index in the foreground, MongoDB does not remove expired documents as soon as the index finishes building",
+            "b) The TTL index does guarantee that expired data will be deleted immediately upon expiration",
+            "c) Duration of the removal operation depends on the workload of your mongod instance",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There may be a delay between the time a document expires and the time that MongoDB removes the document from the database."
+    },
+    {
+        "question": "When the TTL thread is active, you will see _______ operations in the output of db.currentOp().",
+        "options": [
+            "a) delete",
+            "b) update",
+            "c) insert",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A background thread in mongod reads the values in the index and removes expired documents from the collection."
+    },
+    {
+        "question": "The background task that removes expired documents runs every ________ seconds.",
+        "options": [
+            "a) 15",
+            "b) 45",
+            "c) 60",
+            "d) 120"
+        ],
+        "answer": "c",
+        "explanation": "As a result, documents may remain in a collection during the period between the expiration of the document and the running of the background task."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The unique constraint applies to separate documents in the collection",
+            "b) Unique index prevents separate documents from having the same value for the indexed key",
+            "c) Index does prevent a document from having multiple elements or embedded documents in an indexed array from having the same value",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the case of a single document with repeating values, the repeated value is inserted into the index only once."
+    },
+    {
+        "question": "On replica sets, the TTL background thread only deletes documents on _____________",
+        "options": [
+            "a) primary",
+            "b) secondary",
+            "c) upadte",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " Secondary members replicate deletion operations from the primary."
+    },
+    {
+        "question": "You may not specify a unique constraint on a ______ index.",
+        "options": [
+            "a) Hashed",
+            "b) Unique",
+            "c) Sparse",
+            "d) Compound"
+        ],
+        "answer": "a",
+        "explanation": "Because of the unique constraint, MongoDB will only permit one document that lacks the indexed field."
+    },
+    {
+        "question": "Which of the following indexes are always sparse?",
+        "options": [
+            "a) 2dsphere",
+            "b) 2d",
+            "c) geoHaystack",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "2dsphere (version 2), 2d, geoHaystack, and text indexes are always sparse."
+    }
+]

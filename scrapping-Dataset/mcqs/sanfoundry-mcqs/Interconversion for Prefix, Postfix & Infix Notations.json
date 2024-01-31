@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Evaluation of expression a/b+c*d-e in postfix notation.",
+        "options": [
+            "a) ab+cd/*-e",
+            "b) ab/cd*+e-",
+            "c) abc/+d*-e",
+            "d) abcd/+*-e"
+        ],
+        "answer": "b",
+        "explanation": "The expression=a/b+c*d-e"
+    },
+    {
+        "question": "Evaluation of 4*5+3/2-9 in  prefix notation.",
+        "options": [
+            "a) *45-/32+9",
+            "b) *+453/-29",
+            "c) -+*45/329",
+            "d) *+/45932"
+        ],
+        "answer": "c",
+        "explanation": "The expression=4*5+3/2-9"
+    },
+    {
+        "question": "What is the output of the following if funct1(7)?",
+        "options": [],
+        "answer": "d",
+        "explanation": "This is a factorial function of an integer using recursive approach. By running the function on integer 7 we get 5040."
+    },
+    {
+        "question": "Infix to prefix conversion can be done using __________",
+        "options": [
+            "a) two queues",
+            "b) two stacks",
+            "c) one stack and two queues",
+            "d) one stack"
+        ],
+        "answer": "b",
+        "explanation": "In the infix expression, the operator appears between the operands and in infix notation if the operator appears before the operands in the expression. For the conversion between them two stacks are used efficiently. The idea is to use one stack for operators and other to store operands."
+    },
+    {
+        "question": "Conversion from prefix to postfix expression can be done _______________",
+        "options": [
+            "a) using bubble sort",
+            "b) using radix sort",
+            "c) using two queues",
+            "d) in a direct manner"
+        ],
+        "answer": "d",
+        "explanation": "In a postfix expression, the operators appear after the operands. Conversion from prefix to postfix is done directly which is better than converting the prefix expression in infix and then infix to postfix expression. It gives better efficiency."
+    },
+    {
+        "question": "What is the postfix expression of 9+3*5/(10-4)?",
+        "options": [
+            "a) 9 3 + * 5 / 10 4 \u2013",
+            "b) 9 3 5 + * / 10 4 \u2013",
+            "c) 9 3 + 5 * / 10 4 \u2013",
+            "d) 9 3 5 * / + 10 \u2013 4"
+        ],
+        "answer": "c",
+        "explanation": "The expression, 9+3*5/(10-4)"
+    },
+    {
+        "question": "What is the postfix expression of (A+B)-C*(D/E))+F?",
+        "options": [
+            "a) A B + C D E / * \u2013 F +",
+            "b) A B C  D E + / * F \u2013 +",
+            "c) A B C + * D E /  F + \u2013",
+            "d) A B + C \u2013 * D E / F +"
+        ],
+        "answer": "a",
+        "explanation": "The expression is (A+B)-C*(D/E))+F"
+    },
+    {
+        "question": "Convert the following expression into prefix notation.",
+        "options": [],
+        "answer": "c",
+        "explanation": "Convert it first in postfix notation, we can have"
+    },
+    {
+        "question": "What is the postfix expression of the given expression, (2*4-(5+7/3^4)-8)10?",
+        "options": [
+            "a) 2 4 5 * 7 3 4 ^ / + 8 \u2013 \u2013 10",
+            "b) 2 4 * ^ 5 7 3 4 / + 8 10 \u2013 \u2013",
+            "c) 2 4 * 5 7 ^ 3 4 / + \u2013 8 10 \u2013",
+            "d) 2 4 * 5 7 3 4 ^ / + \u2013 8 \u2013 10"
+        ],
+        "answer": "d",
+        "explanation": "By solving we can have,"
+    },
+    {
+        "question": "Prefix expression can be evaluated _________",
+        "options": [
+            "a) from right to left",
+            "b) from left to right",
+            "c) from the exact middle",
+            "d) from second right element"
+        ],
+        "answer": "b",
+        "explanation": "Expressions are usually evaluated from left to right manner. Prefix expressions follow the normal rule i.e from left to right. Postfix expressions can be evaluated from right to left."
+    }
+]

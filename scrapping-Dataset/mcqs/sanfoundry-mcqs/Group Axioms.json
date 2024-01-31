@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ are called group postulates.",
+        "options": [
+            "a) Group lemmas",
+            "b) Group theories",
+            "c) Group axioms",
+            "d) Group"
+        ],
+        "answer": "c",
+        "explanation": "The group axioms are also called the group postulates. A group with an identity (that is, a monoid) in which every element has an inverse is termed as semi group."
+    },
+    {
+        "question": "A subgroup has the properties of ________",
+        "options": [
+            "a) Closure, associative",
+            "b) Commutative, associative, closure",
+            "c) Inverse, identity, associative",
+            "d) Closure, associative, Identity, Inverse"
+        ],
+        "answer": "d",
+        "explanation": "A subgroup S is a subset of a group G (denoted by S <= G) if it holds the four properties simultaneously \u2013 Closure, Associative, Identity and Inverse element."
+    },
+    {
+        "question": "If a * b = a such that a \u2217 (b \u2217 c) = a \u2217 b = a and (a * b) * c = a * b = a then ________",
+        "options": [
+            "a) * is associative",
+            "b) * is commutative",
+            "c) * is closure",
+            "d) * is abelian"
+        ],
+        "answer": "a",
+        "explanation": " \u2018\u2217\u2019 can be de\ufb01ned by the formula a\u2217b = a for any a and b in S. Hence, (a \u2217 b)\u2217c = a\u2217c = a and a \u2217(b \u2217 c)= a \u2217 b = a. Therefore, \u201d\u2217\u201d is associative. Hence (S, \u2217) is a semigroup. On the contrary, * is not associative since, for example, (b\u2022c)\u2022c = a\u2022c = c but b\u2022(c\u2022c) = b\u2022a = b Thus (S,\u2022) is not a semigroup."
+    },
+    {
+        "question": "The set of odd and even positive integers closed under multiplication is ________",
+        "options": [
+            "a) a free semigroup of (M, \u00d7)",
+            "b) a subsemigroup of (M, \u00d7)",
+            "c) a semigroup of (M, \u00d7)",
+            "d) a subgroup of (M, \u00d7)"
+        ],
+        "answer": "b",
+        "explanation": "Let C and D be the set of even and odd positive integers. Then, (C, \u00d7) and (D, \u00d7) are subsemigroups of (M, \u00d7) since A and B are closed under multiplication. On the other hand, (A, +) is a subsemigroup of (N, +) since A is closed under addition, but (B, +) is not a subsemigroup of (N, +) since B is not closed under addition."
+    },
+    {
+        "question": "If F is a free semigroup on a set S, then the concatenation of two even words is ________",
+        "options": [
+            "a) a semigroup of F",
+            "b) a subgroup of F",
+            "c) monoid of F",
+            "d) cyclic group of F"
+        ],
+        "answer": "b",
+        "explanation": "Let F be the free semigroup on the set S = {m,n}. Let, E consist of all even words, i.e, words with even length and the concatenation of two such words is also even. Thus E is a subsemigroup of F."
+    },
+    {
+        "question": "The set of rational numbers form an abelian group under _________",
+        "options": [
+            "a) Association",
+            "b) Closure",
+            "c) Multiplication",
+            "d) Addition"
+        ],
+        "answer": "c",
+        "explanation": "The set of nonzero rational numbers form an abelian group under multiplication. The number 1 is the identity element and q/p is the multiplicative inverse of the rational number p/q."
+    },
+    {
+        "question": "Condition of semigroup homomorphism should be ____________",
+        "options": [
+            "a) f(x * x) = f(x * y)",
+            "b) f(x) = f(y)",
+            "c) f(x) * f(y) = f(y)",
+            "d) f(x * y) = f(x) * f(y)"
+        ],
+        "answer": "d",
+        "explanation": "Consider two semigroups (S,\u2217) and (S\u2019,\u2217\u2019). A function f: S -> S\u2019 is called a semigroup homomorphism if f(a\u2217b) = f(a)\u2217f(b). Suppose f is also one-to-one and onto. Then f is called an isomorphism between S and S\u2019 and S and S\u2019 are said to be isomorphic semigroups."
+    },
+    {
+        "question": "A function f:(M,\u2217)\u2192(N,\u00d7) is a homomorphism if ______",
+        "options": [
+            "a) f(a, b) = a*b",
+            "b) f(a, b) = a/b",
+            "c) f(a, b) = f(a)+f(b)",
+            "d) f(a, b) = f(a)*f(a)"
+        ],
+        "answer": "b",
+        "explanation": "The function f is a homomorphism since f(x\u2217y)= f(ac, bd)= (ac)/(bd) = (a/b)(c/d) = f(x)f(y)."
+    },
+    {
+        "question": "A function defined by f(x)=2*x such that f(x+y)=2x+y under the group of real numbers, then ________",
+        "options": [
+            "a) Isomorphism exists",
+            "b) Homomorphism exists",
+            "c) Heteromorphic exists",
+            "d) Association exists"
+        ],
+        "answer": "b",
+        "explanation": "Let T be the group of real numbers under addition, and let T\u2019 be the group of positive real numbers under multiplication. The mapping f: T -> T\u2019 de\ufb01ned by f(a)=2*a is a homomorphism because f(a+b)=2a+b = 2a*2b = f(a)*f(b). Again f is also one-to-one and onto T and T\u2019 are isomorphic."
+    },
+    {
+        "question": "If x * y = x + y + xy then (G, *) is _____________",
+        "options": [
+            "a) Monoid",
+            "b) Abelian group",
+            "c) Commutative semigroup",
+            "d) Cyclic group"
+        ],
+        "answer": "c",
+        "explanation": "Let x and y belongs to a group G.Here closure and associativity axiom holds simultaneously. Let e be an element in G such that x * e = x then x+e+xe=a => e(1+x)=0 => e = 0/(1+x) = 0. So, identity axiom does not exist but commutative property holds. Thus, (G,*) is a commutative semigroup."
+    }
+]

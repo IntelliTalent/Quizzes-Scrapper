@@ -1,0 +1,98 @@
+[
+    {
+        "question": "You are given a boolean expression which consists of operators &, | and \u2227 (AND, OR and XOR) and symbols T or F (true or false). You have to find the number of ways in which the symbols can be parenthesized so that the expression evaluates to true. This is the boolean parenthesization problem. Which of the following methods can be used to solve the problem?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Recursion",
+            "c) Brute force",
+            "d) Dynamic programming, Recursion and Brute force"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic programming, Recursion and Brute force can be used to solve the Boolean parenthesization problem."
+    },
+    {
+        "question": "Consider the expression T & F | T. What is the number of ways in which the expression can be parenthesized so that the output is T (true)?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The expression can be parenthesized as T & (F | T) and (T & F) | T so that the output is T."
+    },
+    {
+        "question": "Consider the expression T & F \u2227 T.  What is the number of ways in which the expression can be parenthesized so that the output is T (true)?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The expression can be parenthesized as (T & F) \u2227 T  or  T & (F \u2227 T), so that the output is T."
+    },
+    {
+        "question": "Consider the expression T | F \u2227 T. In how many ways can the expression be parenthesized so that the output is F (false)?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "The expression can be parenthesized as (T | F) \u2227 T, so that the output is F (false)."
+    },
+    {
+        "question": "Which of the following gives the total number of ways of parenthesizing an expression with n + 1 terms?",
+        "options": [
+            "a) n factorial",
+            "b) n square",
+            "c) n cube",
+            "d) nth catalan number"
+        ],
+        "answer": "d",
+        "explanation": "The nth Catalan number gives the total number of ways of parenthesizing an expression with n + 1 terms."
+    },
+    {
+        "question": "What is the maximum number of ways in which a boolean expression with n + 1 terms can be parenthesized, such that the output is true?",
+        "options": [
+            "a) nth catalan number",
+            "b) n factorial",
+            "c) n cube",
+            "d) n square"
+        ],
+        "answer": "a",
+        "explanation": "The number of ways will be maximum when all the possible parenthesizations result in a true value. The number of possible parenthesizations is given by the nth catalan number."
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the boolean parenthesization problem:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The following lines should be added:"
+    },
+    {
+        "question": "Which of the following lines should be added to complete the \u201cif(op[k] == \u2018&\u2019)\u201d part of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The following lines should be added:"
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the boolean parenthesization problem?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above dynamic programming implementation is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the boolean parenthesization problem?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation is O(n"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The output of the above program is 4."
+    }
+]

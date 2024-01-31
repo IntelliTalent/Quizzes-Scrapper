@@ -1,0 +1,159 @@
+[
+    {
+        "question": "Interface for Dispatcher Servlet to auto detect view resolver beans.",
+        "options": [
+            "a) localeResolver",
+            "b) tiles",
+            "c) ViewResolver",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring MVC comes with several ViewResolver implementations for you to resolve views using different strategies."
+    },
+    {
+        "question": "ViewResolver which maps each view name tol an application\u2019s directory.",
+        "options": [
+            "a) InternalViewResolver",
+            "b) InternalResourceViewResolver",
+            "c) InternalResolver",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The view resolver InternalResourceViewResolver maps each view name to an application\u2019s directory by means of a prefix and a suffix declaration."
+    },
+    {
+        "question": "InternalResourceViewResolver resolves view names into view objects of type.",
+        "options": [
+            "a) JstlView",
+            "b) Jst Library",
+            "c) View",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, InternalResourceViewResolver resolves view names into view objects of type JstlView if the JSTL library (i.e., jstl.jar) is present in the classpath."
+    },
+    {
+        "question": "By default, XmlViewResolver loads view beans from /WEB-INF/views.xml which is final.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "This location can be overridden through the location property."
+    },
+    {
+        "question": "View beans from a resource bundle is loaded by.",
+        "options": [
+            "a) ResourceBundleViewResolver",
+            "b) ResourceBundleView",
+            "c) ResourceViewResolver",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ResourceBundleViewResolver loads view beans from a resource bundle in the classpath root."
+    },
+    {
+        "question": "Views that can\u2019t be resolved by InternalResourceViewResolver.",
+        "options": [
+            "a) redirect",
+            "b) redirect:prefix",
+            "c) redirect:suffix",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Now the resource bundle views.properties should only contain the views that can\u2019t be resolved by InternalResourceViewResolver (e.g., the redirect views)."
+    },
+    {
+        "question": "Properties used to determine the correct content and type for a certain web requests.",
+        "options": [
+            "a) The URL extension provided in a request",
+            "b) The HTTP Accept header",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When a request is received for a web application, it contains a series of properties that allow the processing framework, in this case Spring MVC, to determine the correct content and type to return to the requesting party."
+    },
+    {
+        "question": "Inspection of header is done by which of the following.",
+        "options": [
+            "a) InternalViewResolver",
+            "b) ContentNegotiatingViewResolver",
+            "c) ContentNegotiating",
+            "d) InternalResolver"
+        ],
+        "answer": "b",
+        "explanation": "Inspecting HTTP Accept headers in a controller can be a messy process. So Spring MVC supports the inspection of headers through the ContentNegotiatingViewResolver."
+    },
+    {
+        "question": "ContentNegotiatingViewResolver resolver configuration sets up the resolver to have the highest priority among all resolvers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It\u2019s necessary to make the content negotiating resolver work."
+    },
+    {
+        "question": "The ContentNegotiatingViewResolver resolver first determines the media type for a request based on which of the following criteria?",
+        "options": [
+            "a) It checks a request path extension",
+            "b) If a request path has an extension but no match can be found in the default mediaTypes section of the ContentNegotiatingViewResolver bean",
+            "c) If no extension is present in a request path, the HTTP Accept header of the request is used",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It checks a request path extension (e.g., .html, .xml, or .pdf) against the default"
+    },
+    {
+        "question": "In a Spring MVC application, you can register one or more exception resolver beans in the web application context to resolve uncaught exceptions.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "These beans have to implement the HandlerExceptionResolver interface for DispatcherServlet to auto-detect them."
+    },
+    {
+        "question": "To configure the exception mappings in the web application context.",
+        "options": [
+            "a) SimpleMappingExceptionResolver",
+            "b) ExceptionResolver",
+            "c) ExceptionViewResolver",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring MVC comes with the exception resolver SimpleMappingExceptionResolver for you to configure the exception mappings in the web application context."
+    },
+    {
+        "question": "Annotation which allows a controller\u2019s field to be assigned using Spring Expression Language(SpEL)",
+        "options": [
+            "a) @Value",
+            "b) @After",
+            "c) @Default",
+            "d) @None"
+        ],
+        "answer": "a",
+        "explanation": "You can use the @Value annotation along with SpEL to query beans present in an application\u2019s context and extract values to help you initialize controller fields."
+    },
+    {
+        "question": "SpEL statements are recognizable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "They use a notation in the form \u201c#{ SpEL statement }\u201d."
+    },
+    {
+        "question": "Tag, used to define a location in which to place errors in case a form.",
+        "options": [
+            "a) form",
+            "b) form:GET",
+            "c) form:POST",
+            "d) form:errors"
+        ],
+        "answer": "d",
+        "explanation": "You can find the form:errors tag, used to define a location in which to place errors in case a form does not meet the rules set forth by a controller."
+    }
+]

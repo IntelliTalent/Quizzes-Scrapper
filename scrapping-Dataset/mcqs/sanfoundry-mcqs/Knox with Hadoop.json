@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A fully secure Hadoop cluster needs ___________",
+        "options": [
+            "a) SSH",
+            "b) SSL",
+            "c) Kerberos",
+            "d) REST"
+        ],
+        "answer": "c",
+        "explanation": "Kerberos requires a client side library and complex client side configuration."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Knox is a stateless reverse proxy framework",
+            "b) Knox also intercepts REST/HTTP calls and provides authentication",
+            "c) Knox scales linearly by adding more Knox nodes as the load increases",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Knox can be deployed as a cluster of Knox instances that route requests to Hadoop\u2019s REST APIs."
+    },
+    {
+        "question": "A __________ can route requests to multiple Knox instances.",
+        "options": [
+            "a) collector",
+            "b) load balancer",
+            "c) comparator",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Knox is a stateless reverse proxy framework."
+    },
+    {
+        "question": "Knox provides perimeter _________ for Hadoop clusters.",
+        "options": [
+            "a) reliability",
+            "b) security",
+            "c) flexibility",
+            "d) fault tolerant"
+        ],
+        "answer": "b",
+        "explanation": "Kerberos requires a client side library and complex client side configuration."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Knox eliminates the need for client software or client configuration and thus simplifies the access model",
+            "b) Simplified access entend Hadoop\u2019s REST/HTTP services by encapsulating Kerberos within the cluster",
+            "c) Knox intercepts web vulnerability removal and other security services through a series of extensible interceptor pipelines",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Knox aggregates REST/HTTP calls to various components within the Hadoop ecosystem."
+    },
+    {
+        "question": "Knox integrates with prevalent identity management and _______ systems.",
+        "options": [
+            "a) SSL",
+            "b) SSO",
+            "c) SSH",
+            "d) Kerberos"
+        ],
+        "answer": "b",
+        "explanation": "Knox allows identities from those enterprise systems to be used for seamless, secure access to Hadoop clusters."
+    },
+    {
+        "question": "The easiest way to have an HDP cluster is to download the _____________",
+        "options": [
+            "a) Hadoop",
+            "b) Sandbox",
+            "c) Dashboard",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The Apache Knox Gateway is a system that provides a single point of authentication and access for Apache\u2122 Hadoop\u00ae services."
+    },
+    {
+        "question": "Apache Knox Eliminates _______ edge node risks.",
+        "options": [
+            "a) SSL",
+            "b) SSO",
+            "c) SSH",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Knox hides Network Topology."
+    },
+    {
+        "question": "Apache Knox accesses Hadoop Cluster over _________",
+        "options": [
+            "a) HTTP",
+            "b) TCP",
+            "c) ICMP",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Knox supports LDAP/AD Authentication, Service Authorization and Audit."
+    },
+    {
+        "question": "Apache Knox provides __________ REST API Access Point.",
+        "options": [
+            "a) Single",
+            "b) Double",
+            "c) Multiple",
+            "d) Zero"
+        ],
+        "answer": "a",
+        "explanation": "The Apache Knox Gateway is a system that provides a single point of authentication and access for Apache."
+    }
+]

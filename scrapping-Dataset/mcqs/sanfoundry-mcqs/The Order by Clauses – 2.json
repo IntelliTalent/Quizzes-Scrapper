@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Keyword \u201cASC\u201d and \u201cDESC\u201d cannot be used without which clause in Mysql?",
+        "options": [
+            "a) ORDER BY",
+            "b) GROUP BY",
+            "c) SELECT",
+            "d) HAVING"
+        ],
+        "answer": "a",
+        "explanation": "\u201cASC\u201d or \u201cDESC\u201d are used to sort the result set in ascending or descending order therefore they cannot be used without \u201cORDER BY\u201d clause."
+    },
+    {
+        "question": "What is the significance of \u201cORDER BY emp_id DESC\u201d in the following MySQL command?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Keyword \u201cDESC\u201d will sort the data in descending order."
+    },
+    {
+        "question": "What is the significance of \u201cORDER BY emp_id ASC\u201d in the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Keyword \u201cASC\u201d will sort the data in ascending order."
+    },
+    {
+        "question": "If emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL command?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cDESC\u201d clause sort the emp_id in the descending order."
+    },
+    {
+        "question": "If emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cASC\u201d clause sort the emp_id in the ascending order."
+    },
+    {
+        "question": "Find odd one out?",
+        "options": [
+            "a) GROUP BY",
+            "b) DESC",
+            "c) ASC",
+            "d) ORDER BY"
+        ],
+        "answer": "a",
+        "explanation": "\u201cORDER BY\u201d, \u201cDESC\u201d, \u201cASC\u201d are related to sorting whereas \u201cGROUP BY\u201d is not related to sorting."
+    },
+    {
+        "question": "Is there any error in the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cORDER BY\u201d clause can be used with expression such as fed_id, which is a social security no like 111, 111, 111, therefore, we sort it taking only three digits from right."
+    },
+    {
+        "question": "Is there any error in the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cORDER BY\u201d clause can be used with an expression such as fed_id which is a social security no like 111, 111, 111, therefore, we sort it taking only three digits from left."
+    },
+    {
+        "question": "Is there any error in the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cORDER BY\u201d clause can be used with Place holders.  Here \u201c2\u201d represent column \u201ctitle\u201d and \u201c5\u201d represent \u201cfed_id\u201d. Therefore it looks like \u201cORDER BY title, fed_id\u201d."
+    }
+]

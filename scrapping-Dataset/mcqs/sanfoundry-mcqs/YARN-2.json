@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Yarn commands are invoked by the ________ script.",
+        "options": [
+            "a) hive",
+            "b) bin",
+            "c) hadoop",
+            "d) home"
+        ],
+        "answer": "b",
+        "explanation": "Running the yarn script without any arguments prints the description for all commands."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Each queue has strict ACLs which controls which users can submit applications to individual queues",
+            "b) Hierarchy of queues is supported to ensure resources are shared among the sub-queues of an organization",
+            "c) Queues are allocated a fraction of the capacity of the grid in the sense that a certain capacity of resources will be at their disposal",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All applications submitted to a queue will have access to the capacity allocated to the queue."
+    },
+    {
+        "question": "The queue definitions and properties such as ________ ACLs can be changed, at runtime.",
+        "options": [
+            "a) tolerant",
+            "b) capacity",
+            "c) speed",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Administrators can add additional queues at runtime, but queues cannot be deleted at runtime."
+    },
+    {
+        "question": "The CapacityScheduler has a predefined queue called _________",
+        "options": [
+            "a) domain",
+            "b) root",
+            "c) rear",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "All queues in the system are children of the root queue."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The multiple of the queue capacity which can be configured to allow a single user to acquire more resources",
+            "b) Changing queue properties and adding new queues is very simple",
+            "c) Queues cannot be deleted, only addition of new queues is supported",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You need to edit conf/capacity-scheduler.xml and run yarn rmadmin -refreshQueues for changing queue properties."
+    },
+    {
+        "question": "The updated queue configuration should be a valid one i.e. queue-capacity at each level should be equal to _________",
+        "options": [
+            "a) 50%",
+            "b) 75%",
+            "c) 100%",
+            "d) 0%"
+        ],
+        "answer": "c",
+        "explanation": "Queues cannot be deleted, only the addition of new queues is supported."
+    },
+    {
+        "question": "Users can bundle their Yarn code in a _________ file and execute it using jar command.",
+        "options": [
+            "a) java",
+            "b) jar",
+            "c) C code",
+            "d) xml"
+        ],
+        "answer": "b",
+        "explanation": "Usage: yarn jar <jar> [mainClass] args\u2026"
+    },
+    {
+        "question": "Which of the following command is used to dump the log container?",
+        "options": [
+            "a) logs",
+            "b) log",
+            "c) dump",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Usage: yarn logs -applicationId <application ID> <options>."
+    },
+    {
+        "question": "__________ will clear the RMStateStore and is useful if past applications are no longer needed.",
+        "options": [
+            "a) -format-state",
+            "b) -form-state-store",
+            "c) -format-state-store",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "-format-state-store formats the RMStateStore."
+    },
+    {
+        "question": "Which of the following command runs ResourceManager admin client?",
+        "options": [
+            "a) proxyserver",
+            "b) run",
+            "c) admin",
+            "d) rmadmin"
+        ],
+        "answer": "d",
+        "explanation": "proxyserver command starts the web proxy server."
+    }
+]

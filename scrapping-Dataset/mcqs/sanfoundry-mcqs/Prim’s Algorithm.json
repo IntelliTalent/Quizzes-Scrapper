@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Prim\u2019s algorithm initialises with a vertex",
+            "b) Prim\u2019s algorithm initialises with a edge",
+            "c) Prim\u2019s algorithm initialises with a vertex which has smallest edge",
+            "d) Prim\u2019s algorithm initialises with a forest"
+        ],
+        "answer": "a",
+        "explanation": "Steps in Prim\u2019s algorithm: (I) Select any vertex of given graph and add it to MST (II) Add the edge of minimum weight from a vertex not in MST to the vertex in MST; (III) It MST is complete the stop, otherwise go to step (II)."
+    },
+    {
+        "question": "Consider the given graph.",
+        "options": [
+            "a) 23",
+            "b) 28",
+            "c) 27",
+            "d) 11"
+        ],
+        "answer": "c",
+        "explanation": "In Prim\u2019s algorithm, we select a vertex and add it to the MST. Then we add the minimum edge from the vertex in MST to vertex not in MST. From, figure shown below weight of MST = 27."
+    },
+    {
+        "question": "Worst case is the worst case time complexity of Prim\u2019s algorithm if adjacency matrix is used?",
+        "options": [
+            "a) O(log V)",
+            "b) O(V",
+            "c) O(E",
+            "d) O(V log E)"
+        ],
+        "answer": "b",
+        "explanation": "Use of adjacency matrix provides the simple implementation of the Prim\u2019s algorithm. In Prim\u2019s algorithm, we need to search for the edge with a minimum for that vertex. So, worst case time complexity will be O(V"
+    },
+    {
+        "question": "Prim\u2019s algorithm is a ______",
+        "options": [
+            "a) Divide and conquer algorithm",
+            "b) Greedy algorithm",
+            "c) Dynamic Programming",
+            "d) Approximation algorithm"
+        ],
+        "answer": "b",
+        "explanation": "Prim\u2019s algorithm uses a greedy algorithm approach to find the MST of the connected weighted graph. In greedy method, we attempt to find an optimal solution in stages."
+    },
+    {
+        "question": "Prim\u2019s algorithm resembles  Dijkstra\u2019s algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In Prim\u2019s algorithm, the MST is constructed starting from a single vertex and adding in new edges to the MST that link the partial tree to a new vertex outside of the MST. And Dijkstra\u2019s algorithm also rely on the similar approach of finding the next closest vertex. So, Prim\u2019s algorithm resembles Dijkstra\u2019s algorithm."
+    },
+    {
+        "question": "Kruskal\u2019s algorithm is best suited for the sparse graphs than the prim\u2019s algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Prim\u2019s algorithm and Kruskal\u2019s algorithm perform equally in case of the sparse graphs. But Kruskal\u2019s algorithm is simpler and easy to work with. So, it is best suited for sparse graphs."
+    },
+    {
+        "question": "Consider the graph shown below.",
+        "options": [
+            "a) (4-3)(5-3)(2-3)(1-2)",
+            "b) (4-3)(3-5)(5-1)(1-2)",
+            "c) (4-3)(3-5)(5-2)(1-5)",
+            "d) (4-3)(3-2)(2-1)(1-5)"
+        ],
+        "answer": "d",
+        "explanation": "The MST for the given graph using Prim\u2019s algorithm starting from vertex 4 is,"
+    },
+    {
+        "question": "Prim\u2019s algorithm is also known as __________",
+        "options": [
+            "a) Dijkstra\u2013Scholten algorithm",
+            "b) Bor\u016fvka\u2019s algorithm",
+            "c) Floyd\u2013Warshall algorithm",
+            "d) DJP Algorithm"
+        ],
+        "answer": "d",
+        "explanation": "The Prim\u2019s algorithm was developed by  Vojt\u011bch Jarn\u00edk and it was latter discovered by the duo Prim and Dijkstra. Therefore, Prim\u2019s algorithm is also known as DJP Algorithm."
+    },
+    {
+        "question": "Prim\u2019s algorithm can be efficiently implemented using _____ for graphs with greater density.",
+        "options": [
+            "a) d-ary heap",
+            "b) linear search",
+            "c) fibonacci heap",
+            "d) binary search"
+        ],
+        "answer": "a",
+        "explanation": "In Prim\u2019s algorithm, we add the minimum weight edge for the chosen vertex which requires searching on the array of weights. This searching can be efficiently implemented using binary heap for dense graphs. And for graphs with greater density, Prim\u2019s algorithm can be made to run in linear time using d-ary heap(generalization of binary heap)."
+    },
+    {
+        "question": "Which of the following is false about Prim\u2019s algorithm?",
+        "options": [
+            "a) It is a greedy algorithm",
+            "b) It constructs MST by selecting edges in increasing order of their weights",
+            "c) It never accepts cycles in the MST",
+            "d) It can be implemented using the Fibonacci heap"
+        ],
+        "answer": "b",
+        "explanation": "Prim\u2019s algorithm can be implemented using Fibonacci heap and it never accepts cycles. And Prim\u2019s algorithm follows greedy approach. Prim\u2019s algorithms span from one vertex to another."
+    }
+]

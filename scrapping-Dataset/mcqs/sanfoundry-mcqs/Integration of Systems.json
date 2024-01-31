@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Integration of Spring which has each application produce files of shared data for others to consume.",
+        "options": [
+            "a) File transfer",
+            "b) Shared Database",
+            "c) Remote Procedure Invocation",
+            "d) Messaging"
+        ],
+        "answer": "a",
+        "explanation": "File transfer: Have each application produce files of shared data for others to consume and consume files that others have produced."
+    },
+    {
+        "question": "Integration of Spring which has the applications store the data they want to share in a common database.",
+        "options": [
+            "a) File transfer",
+            "b) Shared Database",
+            "c) Remote Procedure Invocation",
+            "d) Messaging"
+        ],
+        "answer": "b",
+        "explanation": "This usually takes the form of a database to which different applications have access."
+    },
+    {
+        "question": "Integration of Spring which has each application expose some of its procedures so that they can be invoked remotely and have applications invoke them to initiate behavior and exchange data.",
+        "options": [
+            "a) File transfer",
+            "b) Shared Database",
+            "c) Remote Procedure Invocation",
+            "d) Messaging"
+        ],
+        "answer": "c",
+        "explanation": "There is specific support for optimizing RPC (remote procedure calls such as SOAP, RMI, and HTTP Invoker) exchanges using Spring Integration."
+    },
+    {
+        "question": "Integration of Spring which has each application connect to a common messaging system and exchange data and invoke behavior using messages.",
+        "options": [
+            "a) File transfer",
+            "b) Shared Database",
+            "c) Remote Procedure Invocation",
+            "d) Messaging"
+        ],
+        "answer": "d",
+        "explanation": "This style, most enabled by JMS in the JEE world, also describes other asynchronous or multicast publish/subscribe architectures."
+    },
+    {
+        "question": "Using an ESB lets you hide the origin of the message from the code that\u2019s handling it.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You\u2019ll use this solution as an easy way to see how a Spring Integration solution can be built."
+    },
+    {
+        "question": "As with a standard MDP, a configuration for the ConnectionFactory exists.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "There\u2019s also a lot of other schem as required for using the configuration elements available in Spring Integration."
+    },
+    {
+        "question": "The configuration starts with the inboundHelloJMSMessageChannel channel, which tells Spring Integration what to name the point-to-point connection from the message queue to the:-",
+        "options": [
+            "a) service-activator",
+            "b) service",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You typically define a new channel for every point-to-point connection."
+    },
+    {
+        "question": "An adapter is a component that knows how to speak to a specific type of subsystem and translate messages on that subsystem into something that can be used in the Spring Integration bus only.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Adapters also do the same in reverse, taking messages on the Spring Integration bus and translating them into something a specific subsystem will understand."
+    },
+    {
+        "question": "A service-activator, however, only helps you invoke your application\u2019s business logic on receipt of a message.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "What you do in the business logic, connecting to another system or not, is up to you."
+    },
+    {
+        "question": "The next component, a service-activator, listens for messages coming into that channel and invokes the bean referenced by the:-",
+        "options": [
+            "a) ref",
+            "b) after",
+            "c) before",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The next component, a service-activator, listens for messages coming into that channel and invokes the bean referenced by the ref attribute, which in this case is the bean defined previously: inboundHelloWorldJMSPingServiceActivator."
+    },
+    {
+        "question": "Headers Found in Spring Integration Messages:-",
+        "options": [
+            "a) ID",
+            "b) TIMESTAMP",
+            "c) CORRELATION_ID",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Constant ID This is a unique value assigned to the message by the Spring Integration engine."
+    },
+    {
+        "question": "Some header values are specific to the type of the source message payload.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Some header values are specific to the type of the source message payload; for example, payloads sourced from a file on the file system are different from those coming in from a JMS queue, which is different from messages coming from an email system."
+    },
+    {
+        "question": "Component-specific headers are the constants defined for files on:-",
+        "options": [
+            "a) org.springframework.integration.file.FileHeaders: FILENAME",
+            "b) org.springframework.integration.file.FileHeaders: PREFIX",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "An example of component-specific headers are the constants defined for files on org.springframework.integration.file.FileHeaders: FILENAME and PREFIX."
+    },
+    {
+        "question": "Annotation to get access to header metadata:-",
+        "options": [
+            "a) @Ref",
+            "b) @service",
+            "c) @Header",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Another way to get access to header metadata is to simply have it passed as parameters to your component\u2019s method. You simply annotate the parameter with the @Header annotation, and Spring Integration will take care of the rest."
+    },
+    {
+        "question": "The code for the service-activator has changed to reflect the fact that you\u2019re expecting a message containing a message of type:-",
+        "options": [
+            "a) Message<java.io.File>",
+            "b) Message<java.io>",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The code for the service-activator has changed to reflect the fact that you\u2019re expecting a message containing a message of type Message<java.io.File>"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "____________ are operations that process data records and return computed results.",
+        "options": [
+            "a) ReplicaAgg",
+            "b) SumCalculation",
+            "c) Aggregations",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB provides a rich set of aggregation operations that examine and perform calculations on the data sets."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Map-reduce cannot have a finalize stage to make final modifications to the result",
+            "b) Map-reduce is less efficient and more complex than the aggregation pipeline",
+            "c) Specifically, a user with the userAdmin role can grant itself any privilege in the database",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In general, map-reduce operations have two phases: a map stage that processes each document and emits one or more objects for each input document, and reduce phase that combines the output of the map operation."
+    },
+    {
+        "question": "Running data aggregation on the ________ instance simplifies application code and limits resource requirements.",
+        "options": [
+            "a) document",
+            "b) mongod",
+            "c) mongos",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Like queries, aggregation operations in MongoDB use collections of documents as an input and return results in the form of one or more documents."
+    },
+    {
+        "question": "Documents enter a multi-stage __________ that transforms the documents into an aggregated result.",
+        "options": [
+            "a) pipeline",
+            "b) pipelineView",
+            "c) pipelineUser",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB 2.2 introduced a new aggregation framework, modeled on the concept of data processing pipelines."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) MongoDB also provides map-reduce operations to perform aggregation",
+            "b) The pipeline provides efficient data aggregation using native operations within MongoDB",
+            "c) Map-reduce can specify a query condition to select the input documents as well as sort and limit the results",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Aggregation is the preferred method for data aggregation in MongoDB."
+    },
+    {
+        "question": "The most basic pipeline stages provide __________ that operate like queries.",
+        "options": [
+            "a) methods",
+            "b) filters",
+            "c) stored procedure",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Other pipeline operations provide tools for grouping and sorting documents by specific field."
+    },
+    {
+        "question": "Pipeline stages can use __________ for tasks such as calculating the average or concatenating a string.",
+        "options": [
+            "a) replicas",
+            "b) operators",
+            "c) roles",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "User can remove any role from any user from any database in the system."
+    },
+    {
+        "question": "Map-reduce uses custom __________ functions to perform the map and reduce operations.",
+        "options": [
+            "a) Java",
+            "b) Javascript",
+            "c) JSON",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " JavaScript provide great flexibility compared to the aggregation pipeline."
+    },
+    {
+        "question": "Which of the following operation can be optionally used for map reduce?",
+        "options": [
+            "a) finally",
+            "b) final",
+            "c) static",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Certain mongo shell functions and properties are inaccessible in map-reduce operations."
+    },
+    {
+        "question": "The aggregation pipeline can use ___________ to improve its performance during some of its stages.",
+        "options": [
+            "a) indexes",
+            "b) OptmData",
+            "c) functions",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Both the aggregation pipeline and map-reduce can operate on a sharded collection."
+    }
+]

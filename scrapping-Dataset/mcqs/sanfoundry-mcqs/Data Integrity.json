@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The HDFS client software implements __________ checking on the contents of HDFS files.",
+        "options": [
+            "a) metastore",
+            "b) parity",
+            "c) checksum",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When a client creates an HDFS file, it computes a checksum of each block of the file and stores these checksums in a separate hidden file in the same HDFS namespace."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The HDFS architecture is compatible with data rebalancing schemes",
+            "b) Datablocks support storing a copy of data at a particular instant of time",
+            "c) HDFS currently support snapshots",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A scheme might automatically move data from one DataNode to another if the free space on a DataNode falls below a certain threshold."
+    },
+    {
+        "question": "The ___________ machine is a single point of failure for an HDFS cluster.",
+        "options": [
+            "a) DataNode",
+            "b) NameNode",
+            "c) ActionNode",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the NameNode machine fails, manual intervention is necessary. Currently, automatic restart and failover of the NameNode software to another machine is not supported."
+    },
+    {
+        "question": "The ____________ and the EditLog are central data structures of HDFS.",
+        "options": [
+            "a) DsImage",
+            "b) FsImage",
+            "c) FsImages",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A corruption of these files can cause the HDFS instance to be non-functional."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) HDFS is designed to support small files only",
+            "b) Any update to either the FsImage or EditLog causes each of the FsImages and EditLogs to get updated synchronously",
+            "c) NameNode can be configured to support maintaining multiple copies of the FsImage and EditLog",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HDFS is designed to support very large files."
+    },
+    {
+        "question": "__________ support storing a copy of data at a particular instant of time.",
+        "options": [
+            "a) Data Image",
+            "b) Datanots",
+            "c) Snapshots",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "One usage of the snapshot feature may be to roll back a corrupted HDFS instance to a previously known good point in time."
+    },
+    {
+        "question": "HDFS, by default, replicates each data block _____ times on different nodes and on at least ____ racks.",
+        "options": [
+            "a) 3, 2",
+            "b) 1, 2",
+            "c) 2, 3",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HDFS has a simple yet robust architecture that was explicitly designed for data reliability in the face of faults and failures in disks, nodes and networks."
+    },
+    {
+        "question": "_________ stores its metadata on multiple disks that typically include a non-local file server.",
+        "options": [
+            "a) DataNode",
+            "b) NameNode",
+            "c) ActionNode",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HDFS tolerates failures of storage servers (called DataNodes) and its disks."
+    },
+    {
+        "question": "The HDFS file system is temporarily unavailable whenever the HDFS ________ is down.",
+        "options": [
+            "a) DataNode",
+            "b) NameNode",
+            "c) ActionNode",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When the HDFS NameNode is restarted it recovers its metadata."
+    }
+]

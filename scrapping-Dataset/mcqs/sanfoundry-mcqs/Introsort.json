@@ -1,0 +1,174 @@
+[
+    {
+        "question": "Which of the following sorting algorithm is used by C++ internally?",
+        "options": [
+            "a) quicksort",
+            "b) introsort",
+            "c) merge sort",
+            "d) heap sort"
+        ],
+        "answer": "b",
+        "explanation": "Introsort is the in built sorting algorithm used by C++. It is an example of a hybrid sorting algorithm which means it uses more than one sorting algorithm as a routine."
+    },
+    {
+        "question": "Which of the following sorting algorithm is not a constituent of introsort?",
+        "options": [
+            "a) selection sort",
+            "b) quicksort",
+            "c) insertion sort",
+            "d) heap sort"
+        ],
+        "answer": "a",
+        "explanation": "Introsort is a hybrid sorting algorithm which means it uses more than one sorting algorithm as a routine. It may use quick sort or heap sort or insertion sort depending on the given situation."
+    },
+    {
+        "question": "Introsort begins sorting the given array by using which of the following sorting algorithm?",
+        "options": [
+            "a) selection sort",
+            "b) quick sort",
+            "c) insertion sort",
+            "d) heap sort"
+        ],
+        "answer": "b",
+        "explanation": "Introsort begins sorting any given array by using quick sort. Then it may switch to heap sort or insertion sort or may stick to quick sort depending upon the size of the partition."
+    },
+    {
+        "question": "Which of the following sorting algorithm is NOT stable?",
+        "options": [
+            "a) Introsort",
+            "b) Brick sort",
+            "c) Bubble sort",
+            "d) Merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options introsort is the only algorithm which is not stable. As it may use quick sort in some case to perform sorting which is itself not stable. Thus stability of introsort is not guaranteed."
+    },
+    {
+        "question": "Which of the following sorting algorithm is in-place?",
+        "options": [
+            "a) intro sort",
+            "b) merge sort",
+            "c) counting sort",
+            "d) radix sort"
+        ],
+        "answer": "a",
+        "explanation": "Introsort may use quick sort or heap sort or insertion sort internally in order to sort the given input. All of the three algorithms are in place, thus making introsort to be an in-place sorting algorithm."
+    },
+    {
+        "question": "What is the best case time complexity of introsort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Introsort is mainly governed by heap sort and quick sort. As the best case of both heap sort and quick sort is O(n log n) so the best case of introsort also becomes O(n log n)."
+    },
+    {
+        "question": "What is the worst case time complexity of introsort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case time complexity of quicksort is avoided when we implement introsort. Introsort switches to heap sort when there is a possibility of crossing the maximum depth limit."
+    },
+    {
+        "question": "What is the average time complexity of introsort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Average time complexity of introsort remains to be O(n log n) as for most of the cases quick sort and heap sort are used which have O(n log n) time complexity for an average case."
+    },
+    {
+        "question": "What is the auxiliary space requirement of introsort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "d",
+        "explanation": "Introsort is a hybrid of quick sort, heap sort and insertion sort. So like quick sort it may use O(log n) auxiliary space in the stack to store call statements."
+    },
+    {
+        "question": "Why is heap sort preferred over merge sort for introsort implementation?",
+        "options": [
+            "a) Because heap sort is faster",
+            "b) Because heap sort requires less space",
+            "c) Because heap sort is easy to implement",
+            "d) Because heap sort is easy to understand"
+        ],
+        "answer": "b",
+        "explanation": "Both heap sort and merge sort have the same time complexity. But heap sort is an in-place sorting algorithm whereas merge sort requires O(n) auxiliary space which makes heap sort a more preferable option."
+    },
+    {
+        "question": "Why is insertion sort preferred over other sorting algorithms (like selection sort, bubble sort etc.) for introsort implementation?",
+        "options": [
+            "a) Because insertion sort is faster and adaptive",
+            "b) Because insertion sort requires less space",
+            "c) Because insertion sort is easy to implement",
+            "d) Because insertion sort is easy to understand"
+        ],
+        "answer": "a",
+        "explanation": "When small arrays need to be sorted then insertion sort proves to be the best choice. Also it is adaptive so it performs better than others when the given array is fully/partially sorted."
+    },
+    {
+        "question": "What is the cut-off for switching from quick sort to insertion sort in the implementation of introsort?",
+        "options": [
+            "a) 4",
+            "b) 8",
+            "c) 16",
+            "d) 32"
+        ],
+        "answer": "c",
+        "explanation": "When small arrays needs to be sorted then insertion sort proves to be the best choice. So when the size of the partition is less than 16 introsort switches to insertion sort. This particular value has been deduced experimentally."
+    },
+    {
+        "question": "What is the cut-off for switching from quick sort to heap sort in the implementation of introsort?",
+        "options": [
+            "a) 16",
+            "b) n",
+            "c) n log(n)",
+            "d) 2 log (n)"
+        ],
+        "answer": "d",
+        "explanation": "Quicksort has a worst case time complexity of O(n"
+    },
+    {
+        "question": "Which of the following sorting algorithm will be preferred when the size of partition is between 16 and 2 log(n) while implementing introsort?",
+        "options": [
+            "a) quick sort",
+            "b) insertion sort",
+            "c) heap sort",
+            "d) merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Quicksort proves to be the best sorting algorithm for mid sized arrays as it has low space and time complexity. Thus quick sort is preferred when size of partition is between 16 and 2 log(n)."
+    },
+    {
+        "question": "What will be the output of the given C++ code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given program sorts the input in descending order. It is due to the third parameter i.e. greater() which is passed to the function sort()."
+    },
+    {
+        "question": "What will be the output of the given C++ code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given program sorts the input in ascending order. Function sort() uses two parameters in the form of address of the first and last element of the array to sort the array."
+    },
+    {
+        "question": "What will be the output of the given C++ code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "As the first parameter to function sort() is arr+2 so the sorting begins from the third element i.e. 4. Also as there is a third argument greater () to the function sort() so the sorting will be done in descending order."
+    }
+]

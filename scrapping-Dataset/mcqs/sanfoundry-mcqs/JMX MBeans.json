@@ -1,0 +1,143 @@
+[
+    {
+        "question": "There are two main options for scheduling tasks on the Java platform:-",
+        "options": [
+            "a) JDK Timer",
+            "b) Quartz Scheduler",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "JDK Timer offers simple task scheduling features that you can use conveniently because the features are bundled with JDK. Compared with JDK Timer, Quartz offers more powerful job scheduling features."
+    },
+    {
+        "question": "Spring supports JMX by allowing you to export any beans in its IoC container as model MBeans.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This can be done simply by declaring an MBeanExporter instance."
+    },
+    {
+        "question": "Connectors to expose your MBeans for remote access over a specific protocol by using a factory bean.",
+        "options": [
+            "a) MBeanExporter",
+            "b) JSR-160",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In addition, Spring enables you to declare JSR-160 (Java Management Extensions Remote API) connectors to expose your MBeans for remote access over a specific protocol by using a factory bean. Spring provides factory beans for both servers and clients."
+    },
+    {
+        "question": "Spring can also detect and export your MBeans automatically from beans declared in the IoC container and annotated with JMX-specific annotations defined by Spring.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MBeanExporter class exports beans, delegating to an instance of MBeanInfoAssembler to do the heavy lifting."
+    },
+    {
+        "question": "Method, all files in the source directory will be replicated to the destination directory.",
+        "options": [
+            "a) replicate",
+            "b) copy",
+            "c) rep",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each time you call the replicate() method, all files in the source directory will be replicated to the destination directory. To avoid unexpected problems caused by concurrent replication, you declare this method as synchronized."
+    },
+    {
+        "question": "To register an MBean, you need an instance of the interface :-",
+        "options": [],
+        "answer": "a",
+        "explanation": "To register an MBean, you need an instance of the interface javax.management.MBeanServer."
+    },
+    {
+        "question": "7.The static method to locate a platform MBean server.",
+        "options": [],
+        "answer": "b",
+        "explanation": "It will create an MBean server if none exists and then register this server instance for future use."
+    },
+    {
+        "question": "8.From the preceding code, you can see that for each MBean attribute and MBean operation, you need to create a:-",
+        "options": [],
+        "answer": "d",
+        "explanation": "From the preceding code, you can see that for each MBean attribute and MBean operation, you need to create a ModelMBeanAttributeInfo object and a ModelMBeanOperationInfo object for describing it."
+    },
+    {
+        "question": "VM argument to enable local monitoring of this application.",
+        "options": [
+            "a) -Dcom.sun.management.jmxremote",
+            "b) -Dcom.sun.management",
+            "c) -Dcom.sun.management.jmx",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You have to add the VM argument -Dcom.sun.management.jmxremote to enable local monitoring of this application. You should also include all other options for your command, such as the classpath, as necessary."
+    },
+    {
+        "question": "However, in an environment with no MBean server available, you have to create one explicitly using:-",
+        "options": [
+            "a) MBeanServerFactoryBean",
+            "b) MBeanServerFactory",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To make your application portable to different runtime environments, you should enable the locateExistingServerIfPossible property so that this factory bean will create an MBean server only if none is available."
+    },
+    {
+        "question": "Spring allows you to create a JMX connector server through:-",
+        "options": [
+            "a) ConnectorServerFactoryBean",
+            "b) ConnectorServer",
+            "c) ConnectorServerFactory",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "By default, ConnectorServerFactoryBean creates and starts a JMX connector server bound to the service URL service:jmx:jmxmp://localhost:9875, which exposes the JMX connector through the JMX Messaging Protocol (JMXMP)."
+    },
+    {
+        "question": "? should be replaced by:-",
+        "options": [],
+        "answer": "a",
+        "explanation": "To expose your JMX connector through a specific protocol, you just provide the service URL for it."
+    },
+    {
+        "question": "If no RMI registry has been created externally, you should create one by using:-",
+        "options": [
+            "a) RmiRegistryFactory",
+            "b) RmiRegistryFactoryBean",
+            "c) RmiRegistry",
+            "d) RmiRegister"
+        ],
+        "answer": "b",
+        "explanation": "If no RMI registry has been created externally, you should create one by using RmiRegistryFactoryBean. The default port for this registry is 1099, but you can specify another one in its port property."
+    },
+    {
+        "question": "The simplest MBean assembler in Spring is, which allows you to specify the names of the methods to export.",
+        "options": [
+            "a) MethodNameBasedMBeanInfoAssembler",
+            "b) MethodNameBasedMBeanInfo",
+            "c) MethodNameBasedMBean",
+            "d) MethodNameBasedInfoAssembler"
+        ],
+        "answer": "a",
+        "explanation": "The simplest MBean assembler in Spring is MethodNameBasedMBeanInfoAssembler, which allows you to specify the names of the methods to export."
+    },
+    {
+        "question": "Spring allows your beans to publish JMX notifications through:-",
+        "options": [
+            "a) NotificationPublisher",
+            "b) Notification",
+            "c) Notify",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring allows your beans to publish JMX notifications through the NotificationPublisher interface. You can also register standard JMX notification listeners in the IoC container to listen to JMX notifications."
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "A __________ is an ordered collection of objects.",
+        "options": [
+            "a) Relation",
+            "b) Function",
+            "c) Set",
+            "d) Proposition"
+        ],
+        "answer": "c",
+        "explanation": "By the definition of set."
+    },
+    {
+        "question": "The set O of odd positive integers less than 10 can be expressed by _____________",
+        "options": [
+            "a) {1, 2, 3}",
+            "b) {1, 3, 5, 7, 9}",
+            "c) {1, 2, 5, 9}",
+            "d) {1, 5, 7, 9, 11}"
+        ],
+        "answer": "b",
+        "explanation": "Odd numbers less than 10 is {1, 3, 5, 7, 9}."
+    },
+    {
+        "question": "Power set of empty set has exactly _________ subset.",
+        "options": [
+            "a) One",
+            "b) Two",
+            "c) Zero",
+            "d) Three"
+        ],
+        "answer": "a",
+        "explanation": "Power set of null set has exactly one subset which is empty set."
+    },
+    {
+        "question": "What is the Cartesian product of A = {1, 2} and B = {a, b}?",
+        "options": [
+            "a) {(1, a), (1, b), (2, a), (b, b)}",
+            "b) {(1, 1), (2, 2), (a, a), (b, b)}",
+            "c) {(1, a), (2, a), (1, b), (2, b)}",
+            "d) {(1, 1), (a, a), (2, a), (1, b)}"
+        ],
+        "answer": "c",
+        "explanation": "A subset R of the Cartesian product A x B is a relation from the set A to the set B."
+    },
+    {
+        "question": "The Cartesian Product B x A is equal to the Cartesian product A x B.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Let A = {1, 2} and B = {a, b}. The Cartesian product A x B = {(1, a), (1, b), (2, a), (2, b)} and the Cartesian product B x A = {(a, 1), (a, 2), (b, 1), (b, 2)}. This is not equal to A x B."
+    },
+    {
+        "question": "What is the cardinality of the set of odd positive integers less than 10?",
+        "options": [
+            "a) 10",
+            "b) 5",
+            "c) 3",
+            "d) 20"
+        ],
+        "answer": "b",
+        "explanation": "Set S of odd positive an odd integer less than 10 is {1, 3, 5, 7, 9}. Then, Cardinality of set S = |S| which is 5."
+    },
+    {
+        "question": "Which of the following two sets are equal?",
+        "options": [
+            "a) A = {1, 2} and B = {1}",
+            "b) A = {1, 2} and B = {1, 2, 3}",
+            "c) A = {1, 2, 3} and B = {2, 1, 3}",
+            "d) A = {1, 2, 4} and B = {1, 2, 3}"
+        ],
+        "answer": "c",
+        "explanation": "Two set are equal if and only if they have the same elements."
+    },
+    {
+        "question": "The set of positive integers is _____________",
+        "options": [
+            "a) Infinite",
+            "b) Finite",
+            "c) Subset",
+            "d) Empty"
+        ],
+        "answer": "a",
+        "explanation": "The set of positive integers is not finite."
+    },
+    {
+        "question": "What is the Cardinality of the Power set of the set {0, 1, 2}?",
+        "options": [
+            "a) 8",
+            "b) 6",
+            "c) 7",
+            "d) 9"
+        ],
+        "answer": "a",
+        "explanation": "Power set P ({0, 1, 2}) is the set of all subsets of {0, 1, 2}. Hence, P({0, 1, 2}) = {null, {0}, {1}, {2}, {0, 1}, {0,2}, {1, 2}, {0, 1, 2}}."
+    },
+    {
+        "question": "The members of the set S = {x | x is the square of an integer and x < 100} is ________________",
+        "options": [
+            "a) {0, 2, 4, 5, 9, 58, 49, 56, 99, 12}",
+            "b) {0, 1, 4, 9, 16, 25, 36, 49, 64, 81}",
+            "c) {1, 4, 9, 16, 25, 36, 64, 81, 85, 99}",
+            "d) {0, 1, 4, 9, 16, 25, 36, 49, 64, 121}"
+        ],
+        "answer": "b",
+        "explanation": "The set S consists of the square of an integer less than 10."
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Who invented C++?",
+        "options": [
+            "a) Dennis Ritchie",
+            "b) Ken Thompson",
+            "c) Brian Kernighan",
+            "d) Bjarne Stroustrup"
+        ],
+        "answer": "d",
+        "explanation": "Bjarne Stroustrup is the original creator of C++ in 1979 at AT&T Bell Labs."
+    },
+    {
+        "question": "What is C++?",
+        "options": [
+            "a) C++ is an object oriented programming language",
+            "b) C++ is a procedural programming language",
+            "c) C++ supports both procedural and object oriented programming language",
+            "d) C++ is a functional programming language"
+        ],
+        "answer": "c",
+        "explanation": "C++ supports both procedural(step by step instruction) and object oriented programming (using the concept of classes and objects)."
+    },
+    {
+        "question": "Which of the following is the correct syntax of including a user defined header files in C++?",
+        "options": [
+            "a) #include [userdefined]",
+            "b) #include \u201cuserdefined\u201d",
+            "c) #include <userdefined.h>",
+            "d) #include <userdefined>"
+        ],
+        "answer": "b",
+        "explanation": "C++ uses double quotes to include a user-defined header file. The correct syntax of including user-defined is #include \u201cuserdefinedname\u201d."
+    },
+    {
+        "question": "Which of the following is used for comments in C++?",
+        "options": [
+            "a) /* comment */",
+            "b) // comment */",
+            "c) // comment",
+            "d) both // comment or /* comment */"
+        ],
+        "answer": "d",
+        "explanation": "Both the ways are used for commenting in C++ programming. // is used for single line comments and /* \u2026 */ is used for multiple line comments."
+    },
+    {
+        "question": "Which of the following user-defined header file extension used in c++?",
+        "options": [
+            "a) hg",
+            "b) cpp",
+            "c) h",
+            "d) hf"
+        ],
+        "answer": "c",
+        "explanation": ".h extensions are used for user defined header files. To include a user defined header file one should use #include\u201dname.h\u201d i.e. enclosed within double quotes."
+    },
+    {
+        "question": "Which of the following is a correct identifier in C++?",
+        "options": [
+            "a) VAR_1234",
+            "b) $var_name",
+            "c) 7VARNAME",
+            "d) 7var_name",
+            "i) may contain lowercase/uppercase letters, digits or underscore(_) only"
+        ],
+        "answer": "a",
+        "explanation": "The rules for writing an identifier is as follows:"
+    },
+    {
+        "question": "Which of the following is not a type of Constructor in C++?",
+        "options": [
+            "a) Default constructor",
+            "b) Parameterized constructor",
+            "c) Copy constructor",
+            "d) Friend constructor"
+        ],
+        "answer": "d",
+        "explanation": "Friend function is not a constructor whereas others are a type of constructor used for object initialization."
+    },
+    {
+        "question": "Which of the following approach is used by C++?",
+        "options": [
+            "a) Left-right",
+            "b) Right-left",
+            "c) Bottom-up",
+            "d) Top-down"
+        ],
+        "answer": "c",
+        "explanation": "C++ is an object-oriented language and OOL uses a bottom-up approach to solve/view a problem."
+    },
+    {
+        "question": "What is virtual inheritance in C++?",
+        "options": [
+            "a) C++ technique to enhance multiple inheritance",
+            "b) C++ technique to ensure that a private member of the base class can be accessed somehow",
+            "c) C++ technique to avoid multiple inheritances of classes",
+            "d) C++ technique to avoid multiple copies of the base class into children/derived class"
+        ],
+        "answer": "d",
+        "explanation": "Virtual inheritance is a C++ technique with which it ensures that a derived class contains only one copy of the base class\u2019s variables. Refer Wikipedia for more info."
+    },
+    {
+        "question": "What happens if the following C++ statement is compiled and executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The above statement is syntactically and semantically correct as C++ allows the programmer to delete a NULL pointer, therefore, the program is compiled and executed successfully."
+    },
+    {
+        "question": "What will be the output of the following C++ code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "There is no operation defined for the addition of character array in C++ hence the compiler throws an error as it does not understood what to do about this expression."
+    },
+    {
+        "question": "What is the difference between delete and delete[] in C++?",
+        "options": [
+            "a) delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case",
+            "b) delete is used to delete normal objects whereas delete[] is used to pointer objects",
+            "c) delete is a keyword whereas delete[] is an identifier",
+            "d) delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects"
+        ],
+        "answer": "d",
+        "explanation": "delete is used to delete a single object initiated using new keyword whereas delete[] is used to delete a group of objects initiated with the new operator."
+    },
+    {
+        "question": "What happens if the following program is executed in C and C++?",
+        "options": [],
+        "answer": "c",
+        "explanation": "new is a keyword in C++, therefore, we cannot declare a variable with name new but as there is no such keyword new in C, therefore, the program is compiled and executed successfully in C."
+    },
+    {
+        "question": "What happens if the following program is executed in C and C++?",
+        "options": [],
+        "answer": "d",
+        "explanation": "As the func(void) needs no argument during its call, hence when we are calling func(2) with 2 as passed as a parameter then this statement gives the error in both C++ and C compiler."
+    },
+    {
+        "question": "Which of the following is correct about this pointer in C++?",
+        "options": [
+            "a) this pointer is passed as a hidden argument in all static variables of a class",
+            "b) this pointer is passed as a hidden argument in all the functions of a class",
+            "c) this pointer is passed as a hidden argument in all non-static functions of a class",
+            "d) this pointer is passed as a hidden argument in all static functions of a class"
+        ],
+        "answer": "c",
+        "explanation": "As static functions are a type of global function for a class so all the object shares the common instance of that static function whereas all the objects have there own instance for non-static functions and hence they are passed as a hidden argument in all the non-static members but not in static members."
+    },
+    {
+        "question": "What will be the output of the following C++ code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In this program, We formed a algorithm to remove spaces in the string."
+    }
+]

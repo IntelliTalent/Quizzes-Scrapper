@@ -1,0 +1,165 @@
+[
+    {
+        "question": "View Technologies to render Spring Web MVC view.",
+        "options": [
+            "a) JSP",
+            "b) Tiles",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "By default, Spring Web Flow relies on Spring MVC view technologies (e.g., JSP and Tiles) to render its views."
+    },
+    {
+        "question": "Submodules of Spring\tWeb Flow to simplify use of JSF and javascript in Spring.",
+        "options": [
+            "a) Spring Faces",
+            "b) Spring Javascript",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring Web Flow provides two submodules, Spring Faces and Spring JavaScript, to simplify using JSF and JavaScript in Spring."
+    },
+    {
+        "question": "Spring Faces provides a set of client-side validation components for standard JSF input components.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "These components are provided as Facelets tags, so you have to use Facelets as your JSF view technology to use them."
+    },
+    {
+        "question": "To use JSF Validation components provided by spring faces.",
+        "options": [
+            "a) Faces",
+            "b) Spring Javascript",
+            "c) Facelets",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To use the JSF validation components provided by Spring Faces, you have to use Facelets to create your JSF views."
+    },
+    {
+        "question": "Attribute used to handle web flow requests.",
+        "options": [
+            "a) servlet-mapping",
+            "b) servlet-attr",
+            "c) servlet-flow",
+            "d) servlet-requests"
+        ],
+        "answer": "a",
+        "explanation": "If you are going to use the legacy JSF request handling at the same time, you will have to specify that."
+    },
+    {
+        "question": "JSF view handler to enable Facelets and a SpringBeanFacesELResolver to access Spring beans.",
+        "options": [
+            "a) FaceletViewHandler",
+            "b) FaceletView",
+            "c) FaceletHandler",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You have to configure FaceletViewHandler as the JSF view handler to enable Facelets and a SpringBeanFacesELResolver to be able to access Spring beans through JSF expression language."
+    },
+    {
+        "question": "To resolve Facelets views we configure:-",
+        "options": [
+            "a) ViewFacelets",
+            "b) ViewResolver",
+            "c) View-resolver",
+            "d) View_Resolver"
+        ],
+        "answer": "b",
+        "explanation": "We configure a ViewResolver to resolve Facelets views by conventions we dictate."
+    },
+    {
+        "question": "File extension of a view state\u2019s name which is by default loaded by facelet page.",
+        "options": [
+            "a) .xml",
+            "b) .hbm.xml",
+            "c) .xhtml",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The JSF flow builder services internally use a JSF view factory, which will, by default, load a Facelets page using a view state\u2019s name and .xhtml as the file extension."
+    },
+    {
+        "question": "Navigation in traditional JSF applications is handled by:-",
+        "options": [
+            "a) linking directly linking to a resource",
+            "b) commandLink",
+            "c) invoking an action",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Navigation in traditional JSF applications is handled by linking directly linking to a resource or by invoking an action (for example, on a commandLink)."
+    },
+    {
+        "question": "For cross field validation or some sort of barrier to ensure state before you start a flow, we use.",
+        "options": [
+            "a) FacesContext",
+            "b) FaceletContext",
+            "c) FacesResolver",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are many reasons to want to use the FacesContext from the action."
+    },
+    {
+        "question": "To use Spring Faces Components, we register which of the following?",
+        "options": [
+            "a) Servlet API",
+            "b) ResourceServlet",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Before you can use the Spring Faces components, you have to register ResourceServlet, which is provided by Spring JavaScript for accessing static resources in JAR files, in the web deployment descriptor."
+    },
+    {
+        "question": "Resources retrieved by Spring Faces Component.",
+        "options": [
+            "a) JavaScript",
+            "b) CSS",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring Faces components will retrieve static JavaScript and CSS resources from Spring JavaScript through this servlet."
+    },
+    {
+        "question": "Component which additionally provides a pop-up date picker control for its enclosed input field.",
+        "options": [
+            "a) clientDateValidator",
+            "b) clientValidator",
+            "c) dateValidator",
+            "d) validator"
+        ],
+        "answer": "a",
+        "explanation": "The validation components enable client-side validation for the inputText components. You will see that the clientDateValidator component additionally provides a pop-up date picker control for its enclosed input field."
+    },
+    {
+        "question": "Component which encloses command button.",
+        "options": [
+            "a) validateAll",
+            "b) validateAllClick",
+            "c) validateAllInClick",
+            "d) validateAllOnClick"
+        ],
+        "answer": "c",
+        "explanation": "When a command button enclosed by a validateAllInClick component is clicked, it will trigger all validators in the same page to validate their fields."
+    },
+    {
+        "question": "Libraries provided by RichFaces an integration support for Spring web flow.",
+        "options": [
+            "a) RichFaces",
+            "b) Slf-4j",
+            "c) Log-4j",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "RichFaces actually provides two libraries that each serve very different purposes. One, called Ajax4JSF, provides the ability to augment existing components and page elements with Ajax functionality. The other, RichFaces, provides an advanced component set with Ajax functionality baked into the core."
+    }
+]

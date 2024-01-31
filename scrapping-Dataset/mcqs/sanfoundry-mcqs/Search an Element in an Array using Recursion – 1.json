@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Which of the following techniques can be used to search an element in an unsorted array?",
+        "options": [
+            "a) Iterative linear search",
+            "b) Recursive binary search",
+            "c) Iterative binary search",
+            "d) Normal binary search"
+        ],
+        "answer": "a",
+        "explanation": "Iterative linear search can be used to search an element in an unsorted array."
+    },
+    {
+        "question": "Consider the array {1,1,1,1,1}. Select the wrong option?",
+        "options": [
+            "a) Iterative linear search can be used to search for the elements in the given array",
+            "b) Recursive linear search can be used to search for the elements in the given array",
+            "c) Recursive binary search can be used to search for the elements in the given array",
+            "d) No method is defined to search for an element in the given array"
+        ],
+        "answer": "d",
+        "explanation": "Iterative linear search, Recursive linear search and Recursive binary search can be applied to search for an element in the above given array."
+    },
+    {
+        "question": "What does the following code do?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The code finds the index of the first occurrence of the number that is searched."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the index of the first occurrence of 3, which is 1."
+    },
+    {
+        "question": "What is the time complexity of the following code used to search an element in an array?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above code used to search an element in an array is O(n)."
+    },
+    {
+        "question": "Consider the following recursive implementation of linear search:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The recursive call \u201crecursive_search_num(arr, num, idx+1, len)\u201d should be added to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the index of 5, which is 5."
+    },
+    {
+        "question": "How many times is the function recursive_search_num() called when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function recursive_search_num() is called 6 times when the above code is executed."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation of linear search?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation of linear search is O(n)."
+    }
+]

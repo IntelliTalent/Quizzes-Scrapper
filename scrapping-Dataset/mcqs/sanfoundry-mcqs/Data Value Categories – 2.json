@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The NUL (\u2018\\0\u2019) is same as the SQL NULL value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MySQL recognizes many escape sequences like other programming languages. An escape sequence begin with a backslash character. The \u2018\\0\u2019 is different from NULL. It is a zero valued byte."
+    },
+    {
+        "question": "The escape sequence for carriage return is ___________",
+        "options": [
+            "a) \u2018\\c\u2019",
+            "b) \u2018\\r\u2019",
+            "c) \u2018\\b\u2019",
+            "d) \u2018\\z\u2019"
+        ],
+        "answer": "b",
+        "explanation": "MySQL provides the facility to use a wide range of escape sequences. They are special characters. They begin with the backslash character. For example, \u2018\\r\u2019 specifies carriage return."
+    },
+    {
+        "question": "Which mode is used to turn off the special meaning of backslash and treat it as an ordinary character?",
+        "options": [
+            "a) NO_ESCAPES_SLASH",
+            "b) NO_ESCAPES_BACKSLASH",
+            "c) NO_BACKSLASH_ESCAPES",
+            "d) NO_BACKSLASH_ESCAPE"
+        ],
+        "answer": "c",
+        "explanation": "To turn off the special meaning of backslash in MySQL, and treat it as an ordinary character, the SQL mode named NO_BACKSLASH_ESCAPES is enabled. The escape sequence is treated as characters."
+    },
+    {
+        "question": "x\u2019ffff\u2019 in decimal is ___________",
+        "options": [
+            "a) 65534",
+            "b) 66535",
+            "c) 65536",
+            "d) 65537"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, string values are specified using the standard SQL notation x\u2019val\u2019. Here, val is pairs of hexadecimal digits (\u20180\u2019 through \u2018 9 \u2019 and \u2018 a \u2019 through \u2018 f \u2019). x\u2019ffff\u2019 is 65536 in decimal."
+    },
+    {
+        "question": "X\u201961626364\u2032 and X\u201961626364\u2032 are respectively __________",
+        "options": [
+            "a) abcd and 1633837924",
+            "b) abcd and 4297383361",
+            "c) dcba and 1633837924",
+            "d) dcba and 4297383361"
+        ],
+        "answer": "a",
+        "explanation": "In the numeric contexts, each hexadecimal number constant is treated as a number. Without adding a zero to it, a hexadecimal literal is treated as a string. Hence it is displayed as abcd."
+    },
+    {
+        "question": "The number of legal hexadecimal values among 0x0a, 0x0A, 0X0a and 0X0A is ___________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the hexadecimal values are case sensitive. The leading 0x is what makes it case sensitive. Not the lowercase \u2018x\u2019 notation is used here. Numbers prefixed with \u20180X\u2019 are illegal."
+    },
+    {
+        "question": "A binary string is not associated with a character set.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the string values are classified into two general categories. They are the binary strings and non binary strings. A binary string is only a sequence of bytes interpreted without a character set."
+    },
+    {
+        "question": "What is used to produce a new string from an old string in the desired character set?",
+        "options": [
+            "a) Introducers",
+            "b) CONVERT()",
+            "c) CONVERTER()",
+            "d) CONVERTS()"
+        ],
+        "answer": "b",
+        "explanation": "The introducers and CONVERT() clause are not the same in MySQL. An introducer modifies the way a string is interpreted and does not modify the string. CONVERT() produces a new string from the old one."
+    },
+    {
+        "question": "To measure the length of a string in bytes, the operator used is __________",
+        "options": [
+            "a) CHAR_LENGTH()",
+            "b) LENGTH()",
+            "c) LEN()",
+            "d) SIZE()"
+        ],
+        "answer": "b",
+        "explanation": "The LENGTH() operator is used to measure the length of a MySQL string in terms of bytes. To measure the length of the string in terms of number of characters, CHAR_LENGTH() is used."
+    },
+    {
+        "question": "Which character set variable indicates the character set used for storing identifiers?",
+        "options": [
+            "a) character_set_system",
+            "b) character_set_server",
+            "c) collation_server",
+            "d) character_set_database"
+        ],
+        "answer": "a",
+        "explanation": "The server is responsible for maintaining various system variables involved in the character set support. The system variable \u2018character_set_system\u2019 indicates the character set used for storing identifiers."
+    }
+]

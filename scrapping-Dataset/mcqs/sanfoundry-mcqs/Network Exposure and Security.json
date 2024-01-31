@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The enabled setting for mongod and mongos instances disables the __________ status page.",
+        "options": [
+            "a) home",
+            "b) primary",
+            "c) secondary",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The mongod and mongos instances run with the http interface disabled by default."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The status interface is write-only by default",
+            "b) Default port for the status page is 28117",
+            "c) Authentication does not control or affect access to this interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you enable this interface, you should only allow trusted clients to access this port."
+    },
+    {
+        "question": "The net.http.RESTInterfaceEnabled setting for mongod enables a fully interactive administrative __________ interface, which is disabled by default.",
+        "options": [
+            "a) Restful",
+            "b) Rest",
+            "c) WebService",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The REST interface does not support any authentication and you should always restrict access to this interface to only allow trusted clients to connect to this port."
+    },
+    {
+        "question": "The ________ setting for mongod and mongos instances limits the network interfaces on which MongoDB programs will listen for incoming connections.",
+        "options": [
+            "a) bindIpmongo",
+            "b) bind",
+            "c) bindIp",
+            "d) revokeip"
+        ],
+        "answer": "c",
+        "explanation": "You can also specify a number of interfaces by passing bindIp a comma separated list of IP addresses."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Changing the port does not meaningfully reduce risk or limit exposure",
+            "b) You can use the mongod \u2013bind_ip and mongos \u2013bind_ip option on the command line at run time to limit the network accessibility of a MongoDB program",
+            "c) The net.http.RESTInterfaceEnabled configuration makes the http status interface, which is read-only by default, fully interactive",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If your system has more than one network interface, bind MongoDB programs to the private or internal network interface."
+    },
+    {
+        "question": "The ________ setting for mongod and mongos instances changes the main port on which the mongod or mongos instance listens for connections.",
+        "options": [
+            "a) portp",
+            "b) port",
+            "c) portIP",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Setting port also indirectly sets the port for the HTTP status interface, which is always available on the port numbered 1000 greater than the primary mongod port."
+    },
+    {
+        "question": "On Linux systems, the ________ interface provides access to the underlying netfilter firewall.",
+        "options": [
+            "a) ssip",
+            "b) iptables",
+            "c) dns",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Firewalls allow administrators to filter and control access to a system by providing granular control over what network communications."
+    },
+    {
+        "question": "On Windows systems _________ command line interface provides access to the underlying Windows Firewall.",
+        "options": [
+            "a) netsh",
+            "b) netstat",
+            "c) netln",
+            "d) SelectIndexes"
+        ],
+        "answer": "a",
+        "explanation": "To minimize overall exposure, ensure that only traffic from trusted sources can reach mongod and mongos instances and that the mongod and mongos instances can only connect to trusted outputs."
+    },
+    {
+        "question": "MongoDB users who use VPNs use ________ rather than IPSEC VPNs for performance issues.",
+        "options": [
+            "a) TTS",
+            "b) SSL",
+            "c) LTS",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Virtual private networks, or VPNs, make it possible to link two networks over an encrypted and limited-access trusted network."
+    },
+    {
+        "question": "By default, the policy in ___________ Firewall allows all outbound connections and blocks all incoming connections.",
+        "options": [
+            "a) Windows",
+            "b) Linux",
+            "c) Mac",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Given the default ports of all MongoDB processes, you must configure networking rules that permit only required communication between your application and the appropriate mongod.exe and mongos.exe instances."
+    }
+]

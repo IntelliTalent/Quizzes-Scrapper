@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Which of the following is not a type of graph in computer science?",
+        "options": [
+            "a) undirected graph",
+            "b) bar graph",
+            "c) directed graph",
+            "d) weighted graph"
+        ],
+        "answer": "b",
+        "explanation": "According to the graph theory a graph is the collection of dots and lines. A bar graph is not a type of graph in computer science."
+    },
+    {
+        "question": "What is vertex coloring of a graph?",
+        "options": [
+            "a) A condition where any two vertices having a common edge should not have same color",
+            "b) A condition where any two vertices having a common edge should always have same color",
+            "c) A condition where all vertices should have a different color",
+            "d) A condition where all vertices should have same color"
+        ],
+        "answer": "a",
+        "explanation": "The condition for vertex coloring of a graph is that two vertices which share a common edge should not have the same color. If it uses k colors in the process then it is called k coloring of graph."
+    },
+    {
+        "question": "How many edges will a tree consisting of N nodes have?",
+        "options": [
+            "a) Log(N)",
+            "b) N",
+            "c) N \u2013 1",
+            "d) N + 1"
+        ],
+        "answer": "c",
+        "explanation": "In order to have a fully connected tree it must have N-1 edges. So the correct answer will be N-1."
+    },
+    {
+        "question": "Minimum number of unique colors required for vertex coloring of a graph is called?",
+        "options": [
+            "a) vertex matching",
+            "b) chromatic index",
+            "c) chromatic number",
+            "d) color number"
+        ],
+        "answer": "c",
+        "explanation": "The minimum number of colors required for proper vertex coloring of graph is called chromatic number whereas the minimum number of colors required for proper edge coloring of graph is called chromatic index of a graph."
+    },
+    {
+        "question": "How many unique colors will be required for proper vertex coloring of an empty graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "b",
+        "explanation": "An empty graph is a graph without any edges. So the number of unique colors required for proper coloring of the graph will be 1."
+    },
+    {
+        "question": "How many unique colors will be required for proper vertex coloring of a bipartite graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "c",
+        "explanation": "A bipartite graph is a graph such that no two vertices of the same set are adjacent to each other. So the number of unique colors required for proper coloring of the graph will be 2."
+    },
+    {
+        "question": "Which of the following is an NP complete problem?",
+        "options": [
+            "a) Hamiltonian cycle",
+            "b) Travelling salesman problem",
+            "c) Calculating chromatic number of graph",
+            "d) Finding maximum element in an array"
+        ],
+        "answer": "c",
+        "explanation": "Calculating the chromatic number of a graph is an NP complete problem as a chromatic number of an arbitrary graph cannot be determined by using any convenient method."
+    },
+    {
+        "question": "How many unique colors will be required for proper vertex coloring of a line graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) n"
+        ],
+        "answer": "d",
+        "explanation": "A line graph of a simple graph is obtained by connecting two vertices with an edge. So the number of unique colors required for proper coloring of the graph will be n."
+    },
+    {
+        "question": "How many unique colors will be required for proper vertex coloring of a complete graph having n vertices?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) n",
+            "d) n!"
+        ],
+        "answer": "c",
+        "explanation": "A complete graph is the one in which each vertex is directly connected with all other vertices with an edge. So the number of unique colors required for proper coloring of the graph will be n."
+    },
+    {
+        "question": "Minimum number of colors required for proper edge coloring of a graph is called?",
+        "options": [
+            "a) Chromatic color",
+            "b) Chromatic index",
+            "c) Edge matching",
+            "d) Color number"
+        ],
+        "answer": "b",
+        "explanation": "The minimum number of colors required for proper edge coloring of graph is called chromatic index. It is also known as edge chromatic number."
+    },
+    {
+        "question": "What will be the chromatic number of the following graph?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will only require 2 unique colors so that no two vertices connected by a common edge will have the same color. All nodes will have the same color except the central node."
+    },
+    {
+        "question": "How many unique colors will be required for vertex coloring of the following graph?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "c",
+        "explanation": "The given graph will require 4 unique colors so that no two vertices connected by a common edge will have the same color. So its chromatic number will be 4."
+    },
+    {
+        "question": "How many unique colors will be required for vertex coloring of the following graph?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "The given graph will require 3 unique colors because two diagonal vertex are connected to each other directly. So its chromatic number will be 3."
+    },
+    {
+        "question": "Vertex coloring and chromatic number are one and the same.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Vertex coloring of a graph is an assignment of colors to the vertices of a graph such that no two adjacent vertices have the same color. Whereas chromatic number refers to the minimum number of unique colors required for vertex coloring of the graph."
+    }
+]

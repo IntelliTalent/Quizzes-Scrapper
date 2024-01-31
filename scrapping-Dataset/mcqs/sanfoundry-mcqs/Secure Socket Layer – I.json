@@ -1,0 +1,140 @@
+[
+    {
+        "question": "In the above figure, which of the above shaded block is transparent to end users and applications?",
+        "options": [
+            "a) IP/IPSec",
+            "b) SSL",
+            "c) Kerberos",
+            "d) S/MIME"
+        ],
+        "answer": "a",
+        "explanation": "IP/IPSec is the Network layer which is transparent to end users and applications."
+    },
+    {
+        "question": "In terms of Web Security Threats, \u201cImpersonation of another user\u201d is a Passive Attack.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Passive attacks include eavesdropping on network traffic between browser and server and gaining access to information on a website that is supposed to be restricted. Active attacks include impersonating another user, altering messages in transit between client and server, altering information on a website."
+    },
+    {
+        "question": "Which one of the following is not a higher \u2013layer SSL protocol?",
+        "options": [
+            "a) Alert Protocol",
+            "b) Handshake Protocol",
+            "c) Alarm Protocol",
+            "d) Change Cipher Spec Protocol"
+        ],
+        "answer": "c",
+        "explanation": "Three higher \u2013layer protocols are defined as part of SSL: The Handshake Protocol, The Change Cipher Spec Protocol and The Alert Protocol."
+    },
+    {
+        "question": "In the SSL Protocol, each upper layer message if fragmented into a maximum of __________ bytes.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "In the fragmentation process we obtain blocks of 2^14 bytes which is compressed \tin the next step."
+    },
+    {
+        "question": "The difference between HMAC algorithm and SSLv3 is that pad1 and pad2 are ________ in SSLv3 whereas ________ in HMAC.",
+        "options": [
+            "a) NANDed, XORed",
+            "b) Concatenated, XORed",
+            "c) XORed, NANDed",
+            "d) XORed, Concatenated"
+        ],
+        "answer": "b",
+        "explanation": "The pads are concatenated in SSLv3 and XORed in HMAC algorithm."
+    },
+    {
+        "question": "The full form of SSL is",
+        "options": [
+            "a) Serial Session Layer",
+            "b) Secure Socket Layer",
+            "c) Session Secure Layer",
+            "d) Series Socket Layer"
+        ],
+        "answer": "b",
+        "explanation": "SSL stands for Secure Sockets Layer."
+    },
+    {
+        "question": "After the encryption stage in SSL, the maximum length of each fragment is",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "Encryption may not increase the content length by more than 1024 bytes, so the \ttotal length may not exceed 2"
+    },
+    {
+        "question": "Consider the following example \u2013",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "48 + 20 = 68 bytes. 72 is the next multiple of 8 (Block Length). 72 \u2013 68 = 4. But we need to compensate 1 byte for length of the padding. Therefore, we require only 3 Bytes padding."
+    },
+    {
+        "question": "Which protocol is used to convey SSL related alerts to the peer entity?",
+        "options": [
+            "a) Alert Protocol",
+            "b) Handshake Protocol",
+            "c) Upper-Layer Protocol",
+            "d) Change Cipher Spec Protocol"
+        ],
+        "answer": "a",
+        "explanation": "The Alert protocol is used to convey SSL related alerts to the peer entity."
+    },
+    {
+        "question": "Which protocol consists of only 1 bit?",
+        "options": [
+            "a) Alert Protocol",
+            "b) Handshake Protocol",
+            "c) Upper-Layer Protocol",
+            "d) Change Cipher Spec Protocol"
+        ],
+        "answer": "d",
+        "explanation": "The change cipher spec protocol is bit long."
+    },
+    {
+        "question": "Which protocol is used for the purpose of copying the pending state into the current state?",
+        "options": [
+            "a) Alert Protocol",
+            "b) Handshake Protocol",
+            "c) Upper-Layer Protocol",
+            "d) Change Cipher Spec Protocol"
+        ],
+        "answer": "d",
+        "explanation": "The Change Cipher Spec Protocol is used for this action."
+    },
+    {
+        "question": "Which of the following are possible sizes of MACs?",
+        "options": [
+            "i) 12 Bytes"
+        ],
+        "answer": "c",
+        "explanation": "MACs can be 0, 16 or 20 Bytes."
+    },
+    {
+        "question": "In the alert protocol the first byte takes the value 1 or 2 which corresponds to _________ and _________ respectively.",
+        "options": [
+            "a) Select, Alarm",
+            "b) Alert, Alarm",
+            "c) Warning, Alarm",
+            "d) Warning, Fatal"
+        ],
+        "answer": "d",
+        "explanation": "The first byte takes the value warning(1) or fatal(2) to convey the severity of the message."
+    }
+]

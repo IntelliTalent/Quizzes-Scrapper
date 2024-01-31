@@ -1,0 +1,112 @@
+[
+    {
+        "question": "______  Uses Grieg-Smith method on 2 dimensional spatial data.",
+        "options": [
+            "a) G.S.",
+            "b) g.data",
+            "c) G1DBN",
+            "d) G2db"
+        ],
+        "answer": "a",
+        "explanation": "The function returns a GriegSmith object which is a matrix with block sizes, sum of squares for each block size as well as mean sums of squares. G1DBN is a package performing Dynamic Bayesian Network Inference."
+    },
+    {
+        "question": "______ finds K best paths in a given graph.",
+        "options": [
+            "a) kBestShortestPaths",
+            "b) kcirt",
+            "c) ktrees",
+            "d) kmap"
+        ],
+        "answer": "a",
+        "explanation": "This package provides some routines to conduct the K-adaptive partitioning (kaps) and recursive partitioning (lrtree) for survival data."
+    },
+    {
+        "question": "________ is a package for parsing, applying, and manipulating data cleaning rules",
+        "options": [
+            "a) edr",
+            "b) editrules",
+            "c) edrGraphicalTools",
+            "d) edrtools"
+        ],
+        "answer": "b",
+        "explanation": "editrules is a package for parsing, applying, and manipulating data cleaning rules. edrGraphicalTools provides tools for dimension reduction methods."
+    },
+    {
+        "question": "________ performs class prediction based on microarray data and clinical parameters",
+        "options": [
+            "a) M3",
+            "b) M2",
+            "c) MAclinical",
+            "d) M5"
+        ],
+        "answer": "b",
+        "explanation": "M3 is used for reading M3 files."
+    },
+    {
+        "question": "Which of the following package provide namespace management functions not yet present in base R?",
+        "options": [
+            "a) stringr",
+            "b) namespace",
+            "c) nbpMatching",
+            "d) messagewarning"
+        ],
+        "answer": "b",
+        "explanation": "The package namespace is one of the most confusing parts of building a package. nbpMatching contains functions for non-bipartite optimal matching."
+    },
+    {
+        "question": "Which of the following is used to analyze paleontological time-series?",
+        "options": [
+            "a) accelerometry",
+            "b) parfossil",
+            "c) paleoTS",
+            "d) nbpMatching"
+        ],
+        "answer": "c",
+        "explanation": "This package contains parfossil parallelized functions for palaeoecological and palaeogeographical analysis."
+    },
+    {
+        "question": "__________ is used for the analysis of air pollution data.",
+        "options": [
+            "a) air",
+            "b) openair",
+            "c) opena",
+            "d) openara"
+        ],
+        "answer": "b",
+        "explanation": "Data are typically hourly time series and both monitoring data and dispersion model output can be analysed."
+    },
+    {
+        "question": "Which of the following package contains functions for reading and displaying satellite data for oceanographic applications with R?",
+        "options": [
+            "a) saves",
+            "b) satin",
+            "c) saws",
+            "d) termstrc"
+        ],
+        "answer": "b",
+        "explanation": "Saves is used for faster loading of variables."
+    },
+    {
+        "question": "______ is used for Visualisation, verification and calibration of ternary probabilistic forecasts.",
+        "options": [
+            "a) toss",
+            "b) termstrc",
+            "c) ternvis",
+            "d) satin"
+        ],
+        "answer": "c",
+        "explanation": "TESS is used for faster simulation of reconstructed phylogenetic trees under time-dependent birth-death processes."
+    },
+    {
+        "question": "_________ uniforms and customizes plots of packages ggplot2, graphics and lattice.",
+        "options": [
+            "a) uniCox",
+            "b) uniPlot",
+            "c) unknownR",
+            "d) unigraph"
+        ],
+        "answer": "b",
+        "explanation": "uniPlot() allows to change parameters of the packages graphics, lattice and ggplot2 and to make these changes persistent over one R session."
+    }
+]

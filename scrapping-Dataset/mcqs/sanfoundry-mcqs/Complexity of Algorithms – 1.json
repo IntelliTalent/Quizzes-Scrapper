@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following case does not exist in complexity theory?",
+        "options": [
+            "a) Best case",
+            "b) Worst case",
+            "c) Average case",
+            "d) Null case"
+        ],
+        "answer": "d",
+        "explanation": "Null case does not exist in complexity Theory."
+    },
+    {
+        "question": "The complexity of linear search algorithm is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "The worst case complexity of linear search is O(n)."
+    },
+    {
+        "question": "The complexity of Binary search algorithm is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "The compexity of binary search is O(logn)."
+    },
+    {
+        "question": "The complexity of merge sort algorithm is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "d",
+        "explanation": "The worst case complexity for merge sort is O(nlogn)."
+    },
+    {
+        "question": "The complexity of Bubble sort algorithm is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case complexity for Bubble sort is O(n"
+    },
+    {
+        "question": "The Worst case occur in linear search algorithm when _________",
+        "options": [
+            "a) Item is somewhere in the middle of the array",
+            "b) Item is not in the array at all",
+            "c) Item is the last element in the array",
+            "d) Item is the last element in the array or is not there at all"
+        ],
+        "answer": "d",
+        "explanation": "The Worst case occur in linear search algorithm when Item is the last element in the array or is not there at all."
+    },
+    {
+        "question": "The worst case complexity for insertion sort is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "In worst case nth comparison are required to insert the nth element into correct position."
+    },
+    {
+        "question": "The complexity of Fibonacci series is _________",
+        "options": [
+            "a) O(2",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Fibonacci is f(n) = f(n-1) + f(n-2), f(0) = 0, f(1) = 1. Let g(n) = 2"
+    },
+    {
+        "question": "The worst case occurs in quick sort when _________",
+        "options": [
+            "a) Pivot is the median of the array",
+            "b) Pivot is the smallest element",
+            "c) Pivot is the middle element",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This happens when the pivot is the smallest (or the largest) element. Then one of the partitions is empty, and we repeat recursively the procedure for N-1 elements."
+    },
+    {
+        "question": "The worst case complexity of quick sort is _________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case complexity of quick sort is O(n"
+    }
+]

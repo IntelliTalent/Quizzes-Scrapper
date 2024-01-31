@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which of the following clauses is used to display information that match a given pattern?",
+        "options": [
+            "a) LIKE",
+            "b) WHERE",
+            "c) IS",
+            "d) SAME"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018LIKE\u2019 clause filters information that match a given pattern. \u2018WHERE\u2019 clause selects information that is specified by a condition. \u2018IS\u2019 is used to match the exact condition specified."
+    },
+    {
+        "question": "What column names are displayed when this SQL command is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The wildcard \u2018%\u2019 is used to indicate that any number of characters can replace it. All column names that end in \u2018name\u2019 are displayed. Additional information of columns like type and size are listed."
+    },
+    {
+        "question": "The special database that always exists after setting up MySQL in a computer is __________",
+        "options": [
+            "a) sampdb",
+            "b) mysql",
+            "c) information_schema",
+            "d) readme_db"
+        ],
+        "answer": "c",
+        "explanation": "After installation of MySQL, \u2018information_schema\u2019 is the special database that always exists. \u2018mysql\u2019 can be seen depending on access rights. It holds the grant tables. \u2018sampdb\u2019 and \u2018readme_db\u2019 do not exist by default."
+    },
+    {
+        "question": "In the following SQL code, InnoDB is __________",
+        "options": [],
+        "answer": "d",
+        "explanation": "\u2018InnoDB\u2019 is the name of the \u2018storage engine\u2019 for the above table. The \u2018ENGINE\u2019 clause is used to specify the name of the storage engine that MySQL should use to handle the table being created. MySQL has several storage engines with its own properties."
+    },
+    {
+        "question": "Identify the table name in the following SQL statement.",
+        "options": [],
+        "answer": "a",
+        "explanation": "The \u2018INSERT INTO\u2019 clause here inserts a row in the table named \u2018student\u2019. The table has three fields. The first field or attribute value in the row/tuple is \u2018Kyle\u2019. The second attribute value is \u2018M\u2019 and the last attribute is set to NULL."
+    },
+    {
+        "question": "What is \u2018xyz\u2019 in the following SQL statement?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The SELECT clause is used to retrieve information from some specified tables. It follows a specified format for information retrieval. Here, \u2018abc\u2019 can be a column name. It must be present in the table \u2018xyz\u2019."
+    },
+    {
+        "question": "Which operator is used to perform integer divisions in MySQL?",
+        "options": [
+            "a) /",
+            "b) \\",
+            "c) DIV",
+            "d) //"
+        ],
+        "answer": "c",
+        "explanation": "The operator \u2018DIV\u2019 is used to perform integer divisions in MySQL. \u2018//\u2019 is used in languages like Python to do the same. The operator \u2018/\u2019 performs floating point divisions and \u2018\\\u2019 is facilitates escape sequences."
+    },
+    {
+        "question": "The NULL value also means ___________",
+        "options": [
+            "a) value equal to zero",
+            "b) unknown value",
+            "c) negative values",
+            "d) a large value"
+        ],
+        "answer": "b",
+        "explanation": "The NULL value in MySQL is a special value. It represents \u2018no value\u2019 or an \u2018unknown value\u2019. A NULL value can\u2019t be compared like normal known values since it gives undesirable results."
+    },
+    {
+        "question": "What does comparing a known value with NULL result into?",
+        "options": [
+            "a) zero",
+            "b) a positive value",
+            "c) a negative value",
+            "d) null"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, NULL is not comparable to other known values. It will result in a NULL when compared to any value. The following statement would result in four NULLs: \u2018SELECT NULL = 0, NULL < 0, NULL <> 0, NULL > 0\u2019."
+    },
+    {
+        "question": "Which clause is used to sort query elements?",
+        "options": [
+            "a) GROUP",
+            "b) GROUP BY",
+            "c) ORDER",
+            "d) ORDER BY"
+        ],
+        "answer": "d",
+        "explanation": "An \u2018ORDER BY\u2019 clause specifies the sort order. The data is sorted in ascending order by default. To sort in descending order, the keyword DESC is appended to the \u2018ORDER BY\u2019 clause. \u2018GROUP BY\u2019 is used to group the query results according to the criteria."
+    }
+]

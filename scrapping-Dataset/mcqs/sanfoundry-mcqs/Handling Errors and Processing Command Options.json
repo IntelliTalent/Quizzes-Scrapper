@@ -1,0 +1,87 @@
+[
+    {
+        "question": "How many of the following use NULL to indicate failure?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Both of the client library routines named \u2018mysql_init()\u2019 and \u2018mysql_real_connect()\u2019 return a pointer to the connection handler in order to indicate success and NULL to indicate failure."
+    },
+    {
+        "question": "How many of the following does not return a value?",
+        "options": [],
+        "answer": "b",
+        "explanation": "It is not necessary that every Application Programming Interface call would return a value. For example, the client routine named \u2018mysql_close()\u2019 returns void, that is, it does not return a value."
+    },
+    {
+        "question": "Which of the following returns a MySQL-specific numeric code?",
+        "options": [
+            "a) mysql_error()",
+            "b) mysql_errno()",
+            "c) mysql_sqlstate()",
+            "d) mysql_close()"
+        ],
+        "answer": "b",
+        "explanation": "The API call named \u2018mysql_errorno()\u2019 returns a MySQL-specific numeric error code. \u2018mysql_error()\u2019 returns a string containing an error message. \u2018mysql_close()\u2019 does not return any value at all."
+    },
+    {
+        "question": "Which of the following returns an SQLSTATE code?",
+        "options": [
+            "a) mysql_error()",
+            "b) mysql_errno()",
+            "c) mysql_sqlstate()",
+            "d) mysql_close()"
+        ],
+        "answer": "c",
+        "explanation": "The MySQL API call named \u2018mysql_sqlstate()\u2019 returns an SQLSTATE code. This SQLSTATE value is more \u2018vendor neutral\u2019 because it is based on the \u2018ANSI SQL\u2019 and \u2018ODBC\u2019 standards."
+    },
+    {
+        "question": "The argument to the function mysql_error() is _______________",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) pointer"
+        ],
+        "answer": "d",
+        "explanation": "The argument to the API functions \u2018mysql_error()\u2019, \u2018mysql_errno()\u2019 and \u2018mysql_sqlstate()\u2019 is a pointer to the connection handler. These should be called after an error occurs."
+    },
+    {
+        "question": "What does mysql_real_connect() return if it fails?",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) NULL"
+        ],
+        "answer": "d",
+        "explanation": "The function \u2018mysql_real_connect()\u2019 must complete successfully before any other API functions that require a valid MYSQL connection handler structure can be executed. It returns NULL on failure."
+    },
+    {
+        "question": "The function load_defaults() reads the option files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The function named \u2018load_defaults()\u2019 reads the option files. It takes four arguments. It does not pick up values from the environment settings. All connection parameters can be brought to the argument vector."
+    },
+    {
+        "question": "The \u2013protocol value \u2018TCP\u2019 runs on which operating systems?",
+        "options": [
+            "a) unix only",
+            "b) windows only",
+            "c) all",
+            "d) none"
+        ],
+        "answer": "c",
+        "explanation": "The connection protocol used by the option \u2018\u2013protocol = TCP\u2019 indicates TCP/IP connection to the local or the remote server. Each \u2013protocol value has the set of the permissible OS."
+    },
+    {
+        "question": "All API calls return a value.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, not all the API calls return a value. The client routine named \u2018mysql_close()\u2019 is one that does not. The API calls that return a value are \u2018mysql_sqlstate()\u2019, \u2018mysql_error()\u2019 etc."
+    }
+]

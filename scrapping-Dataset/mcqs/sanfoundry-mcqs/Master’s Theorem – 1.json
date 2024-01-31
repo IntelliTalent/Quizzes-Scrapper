@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Master\u2019s theorem is used for?",
+        "options": [
+            "a) solving recurrences",
+            "b) solving iterative relations",
+            "c) analysing loops",
+            "d) calculating the time complexity of any code"
+        ],
+        "answer": "a",
+        "explanation": "Master\u2019s theorem is a direct method for solving recurrences. We can solve any recurrence that falls under any one of the three cases of master\u2019s theorem."
+    },
+    {
+        "question": "How many cases are there under Master\u2019s theorem?",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "There are primarily 3 cases under master\u2019s theorem. We can solve any recurrence that falls under any one of these three cases."
+    },
+    {
+        "question": "What is the result of the recurrences which fall under first case of Master\u2019s theorem (let the recurrence be given by T(n)=aT(n/b)+f(n) and f(n)=n",
+        "options": [
+            "a) T(n) = O(n^log",
+            "b) T(n) = O(n",
+            "c) T(n) = O(f(n))",
+            "d) T(n) = O(n"
+        ],
+        "answer": "a",
+        "explanation": "In first case of master\u2019s theorem the necessary condition is that c < log"
+    },
+    {
+        "question": "What is the result of the recurrences which fall under second case of Master\u2019s theorem (let the recurrence be given by T(n)=aT(n/b)+f(n) and f(n)=n",
+        "options": [
+            "a) T(n) = O(nlog",
+            "b) T(n) = O(n",
+            "c) T(n) = O(f(n))",
+            "d) T(n) = O(n"
+        ],
+        "answer": "b",
+        "explanation": "In second case of master\u2019s theorem the necessary condition is that c = log"
+    },
+    {
+        "question": "What is the result of the recurrences which fall under third case of Master\u2019s theorem (let the recurrence be given by T(n)=aT(n/b)+f(n) and f(n)=n",
+        "options": [
+            "a) T(n) = O(nlog",
+            "b) T(n) = O(n",
+            "c) T(n) = O(f(n))",
+            "d) T(n) = O(n"
+        ],
+        "answer": "c",
+        "explanation": "In third case of master\u2019s theorem the necessary condition is that c > log"
+    },
+    {
+        "question": "We can solve any recurrence by using Master\u2019s theorem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "No we cannot solve all the recurrences by only using master\u2019s theorem. We can solve only those which fall under the three cases prescribed in the theorem."
+    },
+    {
+        "question": "Under what case of Master\u2019s theorem will the recurrence relation of merge sort fall?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) It cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "b",
+        "explanation": "The recurrence relation of merge sort is given by T(n) = 2T(n/2) + O(n). So we can observe that c = Log"
+    },
+    {
+        "question": "Under what case of Master\u2019s theorem will the recurrence relation of stooge sort fall?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) It cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "a",
+        "explanation": " The recurrence relation of stooge sort is given as T(n) = 3T(2/3n) + O(1). It is found too be equal to O(n"
+    },
+    {
+        "question": "Which case of master\u2019s theorem can be extended further?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) No case can be extended"
+        ],
+        "answer": "b",
+        "explanation": "The second case of master\u2019s theorem can be extended for a case where f(n) = n"
+    },
+    {
+        "question": "What is the result of the recurrences which fall under the extended second case of Master\u2019s theorem (let the recurrence be given by T(n)=aT(n/b)+f(n) and f(n)=n",
+        "options": [
+            "a) T(n) = O(nlog",
+            "b) T(n) = O(n",
+            "c) T(n)= O(n",
+            "d) T(n) = O(n"
+        ],
+        "answer": "c",
+        "explanation": "In the extended second case of master\u2019s theorem the necessary condition is that c = log"
+    },
+    {
+        "question": "Under what case of Master\u2019s theorem will the recurrence relation of binary search fall?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) It cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "b",
+        "explanation": "The recurrence relation of binary search is given by T(n) = T(n/2) + O(1). So we can observe that c = Log"
+    }
+]

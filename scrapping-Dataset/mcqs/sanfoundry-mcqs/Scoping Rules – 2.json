@@ -1,0 +1,92 @@
+[
+    {
+        "question": "________ functions can be \u201cbuilt which contain all of the necessary data for evaluating the function.",
+        "options": [
+            "a) Objective",
+            "b) reflective",
+            "c) Nested",
+            "d) Symmetry"
+        ],
+        "answer": "a",
+        "explanation": "However, an objective function that needs to be minimized might depend on a host of other things besides its parameters."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Dynamic scoping turns out to be particularly useful for simplifying statistical computations",
+            "b) Lexical scoping turns out to be particularly useful for simplifying statistical computations",
+            "c) The scoping rules of a language determine how values are assigned to free variables",
+            "d) An environment is a collection of (symbol, value) pairs, i.e. x is a symbol and 3.14 might be its value"
+        ],
+        "answer": "a",
+        "explanation": "Free variables are not formal arguments and are not local variables (assigned inside the function body)."
+    },
+    {
+        "question": "Which of the following language supports lexical scoping?",
+        "options": [
+            "a) Perl",
+            "b) Python",
+            "c) Common Lisp",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Lexical scoping in R has consequences beyond how free variables are looked up."
+    },
+    {
+        "question": "_________ require you to pass a function whose argument is a vector of parameters.",
+        "options": [
+            "a) optimize()",
+            "b) optimise()",
+            "c) opt()",
+            "d) opm()"
+        ],
+        "answer": "c",
+        "explanation": "Optimization routines in R like optim(), nlm(), and optimize() require you to pass a function."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) An environment is a collection of (symbol, value) pairs, i.e. x is a symbol and 3.14 might be its value",
+            "b) If the value of a symbol is not found in the environment in which a function was defined, then the search is continued in the child environment",
+            "c) After the top-level environment, the search continues down the search list until we hit the parent environment",
+            "d) Dynamic scoping turns out to be particularly useful for simplifying statistical computations"
+        ],
+        "answer": "a",
+        "explanation": "Every environment has a parent environment and it is possible for an environment to have multiple \u201cchildren\u201d."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "nLL is one of the optimization functions in R."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "optimize() function can be used rather than optim()."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Sigma is estimated by holding mu fixed at 1."
+    },
+    {
+        "question": "The _________ function is used to plot negative likelihood.",
+        "options": [
+            "a) plot()",
+            "b) graph()",
+            "c) graph.plot()",
+            "d) plot.graph()"
+        ],
+        "answer": "a",
+        "explanation": "For simple scatter plots, plot.default will be used."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Here, y is defined in the global environment, which also happens to be where the function g() is defined."
+    }
+]

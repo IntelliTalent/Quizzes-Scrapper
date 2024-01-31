@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ storage is a solution to decouple growing storage capacity from compute capacity.",
+        "options": [
+            "a) DataNode",
+            "b) Archival",
+            "c) Policy",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Nodes with higher density and less expensive storage with low compute power are becoming available."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) When there is enough space, block replicas are stored according to the storage type list",
+            "b) One_SSD is used for storing all replicas in SSD",
+            "c) Hot policy is useful only for single replica blocks",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The first phase of Heterogeneous Storage changed datanode storage model from a single storage."
+    },
+    {
+        "question": "___________ is added for supporting writing single replica files in memory.",
+        "options": [
+            "a) ROM_DISK",
+            "b) ARCHIVE",
+            "c) RAM_DISK",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "DISK is the default storage type."
+    },
+    {
+        "question": "Which of the following has high storage density?",
+        "options": [
+            "a) ROM_DISK",
+            "b) ARCHIVE",
+            "c) RAM_DISK",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Little compute power is added for supporting archival storage."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A Storage policy consists of the Policy ID",
+            "b) The storage policy can be specified using the \u201cdfsadmin -setStoragePolicy\u201d command",
+            "c) dfs.storage.policy.enabled is used for enabling/disabling the storage policy feature",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The effective storage policy can be retrieved by the \u201cdfsadmin -getStoragePolicy\u201d command."
+    },
+    {
+        "question": "Which of the following storage policy is used for both storage and compute?",
+        "options": [
+            "a) Hot",
+            "b) Cold",
+            "c) Warm",
+            "d) All_SSD"
+        ],
+        "answer": "a",
+        "explanation": "When a block is hot, all replicas are stored in DISK."
+    },
+    {
+        "question": "When a block is warm, some of its replicas are stored in DISK and the remaining replicas are stored in _________",
+        "options": [
+            "a) ROM_DISK",
+            "b) ARCHIVE",
+            "c) RAM_DISK",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Warm storage policy is partially hot and partially cold."
+    },
+    {
+        "question": "____________ is used for storing one of the replicas in SSD.",
+        "options": [
+            "a) Hot",
+            "b) Lazy_Persist",
+            "c) One_SSD",
+            "d) All_SSD"
+        ],
+        "answer": "c",
+        "explanation": "The remaining replicas are stored in DISK."
+    },
+    {
+        "question": "___________ is used for writing blocks with single replica in memory.",
+        "options": [
+            "a) Hot",
+            "b) Lazy_Persist",
+            "c) One_SSD",
+            "d) All_SSD"
+        ],
+        "answer": "b",
+        "explanation": "The replica is first written in RAM_DISK and then it is lazily persisted in DISK."
+    }
+]

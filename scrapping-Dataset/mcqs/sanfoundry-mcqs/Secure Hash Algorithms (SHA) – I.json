@@ -1,0 +1,116 @@
+[
+    {
+        "question": "SHA-1 produces a hash value of",
+        "options": [
+            "a) 256 bits",
+            "b) 160 bits",
+            "c) 180 bits",
+            "d) 128 bits"
+        ],
+        "answer": "b",
+        "explanation": "SHA-1 produces a hash value of 160 bits."
+    },
+    {
+        "question": "What is the number of round computation steps in the SHA-256 algorithm?",
+        "options": [
+            "a) 80",
+            "b) 76",
+            "c) 64",
+            "d) 70"
+        ],
+        "answer": "c",
+        "explanation": "The number of round computation steps in the SHA-256 algorithm is 64."
+    },
+    {
+        "question": "In SHA-512, the message is divided into blocks of size ___ bits for the hash computation.",
+        "options": [
+            "a) 1024",
+            "b) 512",
+            "c) 256",
+            "d) 1248"
+        ],
+        "answer": "a",
+        "explanation": "The message is divided into blocks of size 1024 bits, and the output produced is a 512-bit message digest."
+    },
+    {
+        "question": "What is the maximum length of the message (in bits) that can be taken by SHA-512?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The maximum length of the message is 2"
+    },
+    {
+        "question": "The message in SHA-512 is padded so that it\u2019s length is",
+        "options": [
+            "a) 832 mod 1024",
+            "b) 768 mod 1024",
+            "c) 960 mod 1024",
+            "d) 896 mod 1024"
+        ],
+        "answer": "d",
+        "explanation": "Padding is done so that the length is 896 mod 1024."
+    },
+    {
+        "question": "In SHA-512, the registers \u2018a\u2019 to \u2018h\u2019 are obtained by taking the first 64 bits of the fractional parts of the cube roots of the first 8 prime numbers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The registers \u2018a\u2019 to \u2018h\u2019 are obtained by taking the first 64 bits of the fractional parts of the square roots of the first 8 prime numbers."
+    },
+    {
+        "question": "What is the size of W (in bits) in the SHA-512 processing of a single 1024- bit block?",
+        "options": [
+            "a) 64",
+            "b) 128",
+            "c) 512",
+            "d) 256"
+        ],
+        "answer": "a",
+        "explanation": "The 1024 bit message blocks are compressed to form 64 bit values(W)."
+    },
+    {
+        "question": "In the SHA-512 processing of a single 1024- bit block, the round constants are obtained",
+        "options": [
+            "a) by taking the first 64 bits of the fractional parts of the cube roots of the first 80 prime numbers",
+            "b) by taking the first 64 bits of the fractional parts of the cube roots of the first 64 prime numbers",
+            "c) by taking the first 64 bits of the fractional parts of the square roots of the first 80 prime numbers",
+            "d) by taking the first 64 bits of the non-fractional parts of the first 80 prime numbers"
+        ],
+        "answer": "a",
+        "explanation": "The round constants (K) is obtained by taking the first 64 bits of the fractional parts of the cube roots of the first 80 prime numbers."
+    },
+    {
+        "question": "The output of the N 1024-bit blocks from the Nth stage is",
+        "options": [
+            "a) 512 bits",
+            "b) 1024 bits",
+            "c) N x 1024bits",
+            "d) N x 512 bits"
+        ],
+        "answer": "a",
+        "explanation": "The message digest output is 512-bits."
+    },
+    {
+        "question": "What does the figure represent?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The figure represents the elementary SHA operation for single round."
+    },
+    {
+        "question": "Among the registers \u2018a\u2019 to \u2018h\u2019 how many involve permutation in each round?",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "(b, c, d, f, g, and h) undergo permutations."
+    }
+]

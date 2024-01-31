@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following steps are followed for the Overview of SAAM?",
+        "options": [
+            "a) Develop Scenarios",
+            "b) Describe Candidate Architecture",
+            "c) Classify Scenarios",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true and are followed for the overview of SAAM."
+    },
+    {
+        "question": "Which of the following relates to Scenarios?",
+        "options": [
+            "a) Scenarios illustrate the kinds of activities that the system must support",
+            "b) Scenarios illustrate the kinds of changes that it is anticipated will be made to the system",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Scenarios illustrate the kinds of activities that the system must support and the kinds of changes that it is anticipated will be made to the system."
+    },
+    {
+        "question": "What are the procedure followed for description of candidate architecture?",
+        "options": [
+            "a) Description should be done in architectural notation that is well understood by the parties involved in the analysis",
+            "b) Description can be done in any notations that are well understood by the parties involved",
+            "c) Description may or may not be described in notations that are used for analysis",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Description should be done in architectural notation that is well understood by the parties involved in the analysis."
+    },
+    {
+        "question": "What are the classifications of Scenarios?",
+        "options": [
+            "a) Direct Scenario",
+            "b) Indirect Scenario",
+            "c) Forward Scenario",
+            "d) Direct & Indirect Scenario"
+        ],
+        "answer": "d",
+        "explanation": "Scenarios are classified into- Direct and Indirect scenarios."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) A direct scenario cannot be assessed indirect manner by the system",
+            "b) Another scenario except the direct scenario requires modification before it is executed",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "What is done while performing scenario evaluation?",
+        "options": [
+            "a) For indirect scenario, the changes to the architecture that are necessary for it to support the scenario must be listed",
+            "b) Cost of performing the change must be estimated",
+            "c) There should be summary table that lists all scenarios (direct and indirect)",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Every direct scenario will require changing only a single component",
+            "b) Every indirect scenario will not require changing only a single component",
+            "c) Every indirect scenario will require changing only a single component",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Every indirect scenario will require changing only a single component."
+    },
+    {
+        "question": "Why is scenario interaction important?",
+        "options": [
+            "a) It exposes the allocation of functionality to the product\u2019s design",
+            "b) It follows a communication path which leads to systems stability",
+            "c) It achieves main goal of modifiability",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Scenarios interaction is important as it exposes the allocation of functionality to the product\u2019s design."
+    },
+    {
+        "question": "The amount of scenario interaction is related to which of the following metrics?",
+        "options": [
+            "a) Structural Complexity",
+            "b) Coupling",
+            "c) Cohesion",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The amount of scenario interaction is related to all of the mentioned metrics."
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) The purpose of assigning weights is to resolve the situation is which first architecture scores better in the other half",
+            "b) The purpose of assigning weights is to resolve the situation is which second architecture score well on one half of the scenario",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The purpose of assigning weights is to resolve the situation is which first architecture score well on one half of the scenario and the purpose of assigning weights is to resolve the situation is which second architecture scores better in the other half."
+    }
+]

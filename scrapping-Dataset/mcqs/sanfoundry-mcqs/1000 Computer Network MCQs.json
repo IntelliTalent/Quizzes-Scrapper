@@ -1,0 +1,376 @@
+[
+    {
+        "question": "What is a computer network?",
+        "options": [
+            "a) A device used to display information on a computer screen",
+            "b) A collection of interconnected computers and devices that can communicate and share resources",
+            "c) A type of software used to create documents and presentations",
+            "d) The physical casing that protects a computer\u2019s internal components"
+        ],
+        "answer": "b",
+        "explanation": "A computer network refers to a collection of computers and devices linked together to share information, resources, and services. This interconnection enables communication, data sharing, and collaboration among the devices within the network."
+    },
+    {
+        "question": "What is internet?",
+        "options": [
+            "a) A network of interconnected local area networks",
+            "b) A collection of unrelated computers",
+            "c) Interconnection of wide area networks",
+            "d) A single network"
+        ],
+        "answer": "c",
+        "explanation": "The internet is a global network formed by connecting wide area networks (WANs), enabling worldwide communication and data sharing."
+    },
+    {
+        "question": "Which of the following is an example of Bluetooth?",
+        "options": [
+            "a) wide area network",
+            "b) virtual private network",
+            "c) local area network",
+            "d) personal area network"
+        ],
+        "answer": "d",
+        "explanation": "Bluetooth is a wireless technology used to create a wireless personal area network for data transfer up to a distance of 10 meters. It operates on 2.45 GHz frequency band for transmission."
+    },
+    {
+        "question": "Which of the following computer networks is built on the top of another network?",
+        "options": [
+            "a) overlay network",
+            "b) prime network",
+            "c) prior network",
+            "d) chief network"
+        ],
+        "answer": "a",
+        "explanation": "An overlay network is a computer network that is built on top of another network. Some examples of an overlay network are Virtual Private Networks (VPN) and Peer-to-Peer Networks (P2P)."
+    },
+    {
+        "question": "What is the full form of OSI?",
+        "options": [
+            "a) optical service implementation",
+            "b) open service Internet",
+            "c) open system interconnection",
+            "d) operating system interface"
+        ],
+        "answer": "c",
+        "explanation": "OSI is the abbreviation for Open System Interconnection. OSI model provides a structured plan on how applications communicate over a network, which also helps us to have a structured plan for troubleshooting. It is recognized by the ISO as the generalized model for computer network i.e. it can be modified to design any kind of computer network."
+    },
+    {
+        "question": "When a collection of various computers appears as a single coherent system to its clients, what is this called?",
+        "options": [
+            "a) mail system",
+            "b) networking system",
+            "c) computer network",
+            "d) distributed system"
+        ],
+        "answer": "d",
+        "explanation": "A Computer network is defined as a collection of interconnected computers which uses a single technology for connection."
+    },
+    {
+        "question": "How many layers are there in the ISO OSI reference model?",
+        "options": [
+            "a) 7",
+            "b) 5",
+            "c) 4",
+            "d) 6"
+        ],
+        "answer": "a",
+        "explanation": "The seven layers in ISO OSI reference model is Application, Presentation, Session, Transport, Network, Data link and Physical layer. OSI stands for Open System Interconnect and it is a generalized model."
+    },
+    {
+        "question": "What are nodes in a computer network?",
+        "options": [
+            "a) the computer that routes the data",
+            "b) the computer that terminates the data",
+            "c) the computer that originates the data",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In a computer network, a node can be anything that is capable of sending data or receiving data or even routing the data to its destination. Routers, Computers and Smartphones are some examples of network nodes."
+    },
+    {
+        "question": "Which one of the following is not a function of network layer?",
+        "options": [
+            "a) congestion control",
+            "b) error control",
+            "c) routing",
+            "d) inter-networking"
+        ],
+        "answer": "b",
+        "explanation": "In the OSI model, network layer is the third layer and it provides data routing paths for network communications. Error control is a function of the data link layer and the transport layer."
+    },
+    {
+        "question": "How is a single channel shared by multiple signals in a computer network?",
+        "options": [
+            "a) multiplexing",
+            "b) phase modulation",
+            "c) analog modulation",
+            "d) digital modulation"
+        ],
+        "answer": "a",
+        "explanation": "In communication and computer networks, the main goal is to share a scarce resource. This is done by multiplexing, where multiple analog or digital signals are combined into one signal over a shared medium. The multiple kinds of signals are designated by the transport layer which is the layer present on a higher level than the physical layer."
+    },
+    {
+        "question": "Which of the following devices forwards packets between networks by processing the routing information included in the packet?",
+        "options": [
+            "a) firewall",
+            "b) bridge",
+            "c) hub",
+            "d) router"
+        ],
+        "answer": "d",
+        "explanation": "A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. They make use of routing protocols like RIP to find the cheapest path to the destination."
+    },
+    {
+        "question": "What is the term for an endpoint of an inter-process communication flow across a computer network?",
+        "options": [
+            "a) port",
+            "b) machine",
+            "c) socket",
+            "d) pipe"
+        ],
+        "answer": "c",
+        "explanation": "Socket is one end point in a two way communication link in the network. TCP layer can identify the application that data is destined to be sent by using the port number that is bound to socket."
+    },
+    {
+        "question": "How do two devices become part of a network?",
+        "options": [
+            "a) PIDs of the processes running of different devices are same",
+            "b) a process in one device is able to exchange information with a process in another device",
+            "c) a process is active and another is inactive",
+            "d) a process is running on both devices"
+        ],
+        "answer": "b",
+        "explanation": "A computer network, or data network, is a digital telecommunications network which allows nodes to share resources. In computer networks, computing devices exchange data with each other using connections between nodes. The nodes have certain processes which enable them to share a specific type of data using a distinct protocol."
+    },
+    {
+        "question": "Which layer does the data link layer take packets from and encapsulate them into frames for transmission?",
+        "options": [
+            "a) transport layer",
+            "b) application layer",
+            "c) network layer",
+            "d) physical layer"
+        ],
+        "answer": "c",
+        "explanation": "In computer networks, the data from application layer is sent to transport layer and is converted to segments. These segments are then transferred to the network layer and these are called packets. These packets are then sent to data link layer where they are encapsulated into frames. These frames are then transferred to physical layer where the frames are converted to bits. Error control and flow control data is inserted in the frames at the data link layer."
+    },
+    {
+        "question": "Which of this is not a network edge device?",
+        "options": [
+            "a) Switch",
+            "b) PC",
+            "c) Smartphones",
+            "d) Servers"
+        ],
+        "answer": "a",
+        "explanation": "Network edge devices refer to host systems, which can host applications like web browser. A switch can\u2019t operate as a host, but as a central device which can be used to manage network communication."
+    },
+    {
+        "question": "Which type of network shares the communication channel among all the machines?",
+        "options": [
+            "a) anycast network",
+            "b) multicast network",
+            "c) unicast network",
+            "d) broadcast network"
+        ],
+        "answer": "d",
+        "explanation": "In a broadcast network, information is sent to all stations in a network whereas in a multicast network the data or information is sent to a group of stations in the network. In unicast network, information is sent to only one specific station. The broadcast address of the network is the last assigned address of the network."
+    },
+    {
+        "question": "Which topology requires a multipoint connection?",
+        "options": [
+            "a) Ring",
+            "b) Bus",
+            "c) Star",
+            "d) Mesh"
+        ],
+        "answer": "b",
+        "explanation": "In bus topology, there is a single cable to which all the network nodes are connected. So whenever a node tries to send a message or data to other nodes, this data passes through all other nodes in the network through the cable. It is really simple to install but it\u2019s not secure enough to be used in most of the computer network applications."
+    },
+    {
+        "question": "Which of the following maintains the Domain Name System?",
+        "options": [
+            "a) a single server",
+            "b) a single computer",
+            "c) distributed database system",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A domain name system is maintained by a distributed database system. It is a collection of multiple, logically interrelated databases distributed over a computer network."
+    },
+    {
+        "question": "When discussing IDS/IPS, what is a signature?",
+        "options": [
+            "a) It refers to \u201cnormal,\u201d baseline network behavior",
+            "b) It is used to authorize the users on a network",
+            "c) An electronic signature used to authenticate the identity of a user on the network",
+            "d) Attack-definition file"
+        ],
+        "answer": "d",
+        "explanation": "IDSes work in a manner similar to modern antivirus technology. They are constantly updated with attack-definition files (signatures) that describe each type of known malicious activity. Nemean is a popular signature generation method for conventional computer networks."
+    },
+    {
+        "question": "Which of the following are Gigabit Ethernets?",
+        "options": [
+            "a) 1000 BASE-LX",
+            "b) 1000 BASE-CX",
+            "c) 1000 BASE-SX",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In computer networking, Gigabit Ethernet (GbE or 1 GigE) is a term describing various technologies for transmitting Ethernet frames at a rate of a gigabit per second (1,000,000,000 bits per second), as defined by the IEEE 802.3-2008 standard. It came into use beginning in 1999, gradually supplanting Fast Ethernet in wired local networks, as a result of being considerably faster."
+    },
+    {
+        "question": "Which of the following networks extends a private network across public networks?",
+        "options": [
+            "a) virtual private network",
+            "b) local area network",
+            "c) storage area network",
+            "d) enterprise private network"
+        ],
+        "answer": "a",
+        "explanation": "A virtual private network extends a private network across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.VPN provides enhanced security and online anonymity to users on the internet. It is also used to unblock websites which are unavailable in certain regions."
+    },
+    {
+        "question": "Which layer is responsible for process to process delivery in a general network model?",
+        "options": [
+            "a) session layer",
+            "b) data link layer",
+            "c) transport layer",
+            "d) network layer"
+        ],
+        "answer": "c",
+        "explanation": "The role of Transport layer (Layer 4) is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery."
+    },
+    {
+        "question": "What does each packet contain in a virtual circuit network?",
+        "options": [
+            "a) only source address",
+            "b) only destination address",
+            "c) full source and destination address",
+            "d) a short VC number"
+        ],
+        "answer": "d",
+        "explanation": "A short VC number also called as VCID (virtual circuit identifier) is a type of identifier which is used to distinguish between several virtual circuits in a connection oriented circuit switched network. Each virtual circuit is used to transfer data over a larger packet switched network."
+    },
+    {
+        "question": "What is the term for the data communication system within a building or campus?",
+        "options": [
+            "a) MAN",
+            "b) LAN",
+            "c) PAN",
+            "d) WAN"
+        ],
+        "answer": "b",
+        "explanation": "LAN is an abbreviation for Local Area Network. This network interconnects computers in a small area such as schools, offices, residence etc. It is the most versatile kind of data communication system where most of the computer network concepts can be visibly used."
+    },
+    {
+        "question": "What was the name of the first network?",
+        "options": [
+            "a) ASAPNET",
+            "b) ARPANET",
+            "c) CNNET",
+            "d) NSFNET"
+        ],
+        "answer": "b",
+        "explanation": "ARPANET stands for Advanced Research Projects Agency Networks. It was the first network to be implemented which used the TCP/IP protocol in the year 1969."
+    },
+    {
+        "question": "Which of the following is the network layer protocol for the internet?",
+        "options": [
+            "a) hypertext transfer protocol",
+            "b) file transfer protocol",
+            "c) ethernet",
+            "d) internet protocol"
+        ],
+        "answer": "d",
+        "explanation": "There are several protocols used in Network layer. Some of them are IP, ICMP, CLNP, ARP, IPX, HRSP etc. Hypertext transfer protocol is for application layer and ethernet protocol is for data link layer."
+    },
+    {
+        "question": "Which network topology requires a central controller or hub?",
+        "options": [
+            "a) Ring",
+            "b) Bus",
+            "c) Star",
+            "d) Mesh"
+        ],
+        "answer": "c",
+        "explanation": "In star topology, no computer is connected to another computer directly but all the computers are connected to a central hub. Every message sent from a source computer goes through the hub and the hub then forwards the message only to the intended destination computer."
+    },
+    {
+        "question": "If a link transmits 4000 frames per second, and each slot has 8 bits, what is the transmission rate of the circuit using Time Division Multiplexing (TDM)?",
+        "options": [
+            "a) 500kbps",
+            "b) 32kbps",
+            "c) 32bps",
+            "d) 500bps"
+        ],
+        "answer": "b",
+        "explanation": "Transmission rate= frame rate * number of bits in a slot."
+    },
+    {
+        "question": "Which of the following allows LAN users to share computer programs and data?",
+        "options": [
+            "a) File server",
+            "b) Network",
+            "c) Communication server",
+            "d) Print server"
+        ],
+        "answer": "a",
+        "explanation": "A file server allows LAN users to share computer programs and data. It uses the File Transfer Protocol to provide this feature on ports 20 and 21. The file server works as a medium for the transfer."
+    },
+    {
+        "question": "What type of transmission is involved in communication between a computer and a keyboard?",
+        "options": [
+            "a) Half-duplex",
+            "b) Full-duplex",
+            "c) Simplex",
+            "d) Automatic"
+        ],
+        "answer": "c",
+        "explanation": "In simplex transmission, data flows in single direction which in this case refers to the data flowing from the keyboard to the computer. Another example would be of the mouse where the data flows from the mouse to the computer only."
+    },
+    {
+        "question": "Which layer provides the services to user?",
+        "options": [
+            "a) physical layer",
+            "b) presentation layer",
+            "c) session layer",
+            "d) application layer"
+        ],
+        "answer": "d",
+        "explanation": "In networking, a user mainly interacts with application layer to create and send information to other computer or network. Application layer provides the interface between applications and the network. It is the top-most layer in both the TCP/IP and the OSI model."
+    },
+    {
+        "question": "Which connection is necessary for a computer to join the internet?",
+        "options": [
+            "a) internet society",
+            "b) internet service provider",
+            "c) different computer",
+            "d) internet architecture board"
+        ],
+        "answer": "b",
+        "explanation": "The ISPs (Internet Service Providers) are the main agents through which every computer is connected to the internet. They are licensed to allot public IP addresses to its customers in order to connect them to the internet."
+    },
+    {
+        "question": "Which of the following allows you to connect and login to a remote computer?",
+        "options": [
+            "a) SMTP",
+            "b) HTTP",
+            "c) FTP",
+            "d) Telnet"
+        ],
+        "answer": "a",
+        "explanation": "Telnet provides access to the command-line interface on a remote computer. One can login to the computer from the command-line interface."
+    },
+    {
+        "question": "Which of the following is used in an attempt to render a computer resource unavailable to its intended users?",
+        "options": [
+            "a) botnet process",
+            "b) worms attack",
+            "c) virus attack",
+            "d) denial-of-service attack"
+        ],
+        "answer": "d",
+        "explanation": "In a Denial of Service attack, the attacker won\u2019t let the victims access the network by using a certain method that ensures that an essential network resource is unavailable to the victim. The methods that the attacker can use are vulnerability attack, bandwidth flooding and connection flooding."
+    }
+]

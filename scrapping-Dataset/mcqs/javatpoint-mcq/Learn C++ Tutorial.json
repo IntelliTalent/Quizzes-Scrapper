@@ -1,0 +1,794 @@
+[
+    {
+        "question": "1) #include<userdefined.h>",
+        "options": [
+            "#include<userdefined>",
+            "#include \"userdefined.h\"",
+            "<include> \"userdefined.h\"",
+            "Both A and B"
+        ],
+        "answer": "Answer: D",
+        "explanation": " To include the herder files in the C++ program user can use any of the following given syntax.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following is the correct syntax to print the message in C++ language?",
+        "options": [
+            "cout <<\"Hello world!\";",
+            "Cout << Hello world! ;",
+            "Out <<\"Hello world!;",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " To print the message in the C++ language user can use the following syntax:",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following is the correct identifier?",
+        "options": [
+            "$var_name",
+            "VAR_123",
+            "varname@",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " There are some certain rules that must be followed by the users while writing the identifiers.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following is the address operator?",
+        "options": [
+            "@",
+            "#",
+            "&",
+            "%"
+        ],
+        "answer": "Answer: C",
+        "explanation": " To print the address of any variable, a user can use the \"&\" operator. To understand it more clearly, consider the following example:",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "All of the above"
+        ],
+        "answer": "Answer: D",
+        "explanation": " There is nothing that forces a user to use the OOP concept in C++. In contrast, it is necessary for a programming language that it must support all three features as encapsulation, inheritance, and polymorphism completely to become a pure Object-Oriented Language.",
+        "codeblock": null
+    },
+    {
+        "question": "6) The programming language that has the ability to create new data types is called___.",
+        "options": [
+            "Overloaded",
+            "Encapsulated",
+            "Reprehensible",
+            "Extensible"
+        ],
+        "answer": "Answer: D",
+        "explanation": " A language that can generate the new data types is known as the extensible languages as they can handle the new data types.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following is the original creator of the C++ language?",
+        "options": [
+            "Dennis Ritchie",
+            "Ken Thompson",
+            "Bjarne Stroustrup",
+            "Brian Kernighan"
+        ],
+        "answer": "Answer: C",
+        "explanation": " Bjarne Stroustrup creates C++ language during 1997 at AT&T Bell Labs.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which of the following is the correct syntax to read the single character to console in the C++ language?",
+        "options": [
+            "Read ch()",
+            "Getline vh()",
+            "get(ch)",
+            "Scanf(ch)"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"cin.get()\" is one of the several functions provided in C++ language that is used to read the single or multiple characters to console.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following statements is correct about the formal parameters in C++?",
+        "options": [
+            "Parameters with which functions are called",
+            "Parameters which are used in the definition of the function",
+            "Variables other than passed parameters in a function",
+            "Variables that are never used in the function"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Parameters that are used in the body of the function are known as formal parameters. These parameters represent the parameters passed to the function and are only used inside the function's body.",
+        "codeblock": null
+    },
+    {
+        "question": "10) The C++ language is ______ object-oriented language.",
+        "options": [
+            "Pure Object oriented",
+            "Not Object oriented",
+            "Semi Object-oriented or Partial Object-oriented",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "All of the above"
+        ],
+        "answer": "Answer: D",
+        "explanation": " There is nothing that forces a user to use the OOP concept in C++. In contrast, it is necessary for a programming language that it must support all three features of Encapsulation, Inheritance, and Polymorphism completely to become a Pure Object-Oriented Language.",
+        "codeblock": null
+    },
+    {
+        "question": "12) Which of the following comment syntax is correct to create a single-line comment in the C++ program?",
+        "options": [
+            "//Comment",
+            "/Comment/",
+            "Comment//",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " To create a single line comment (or one-line comment) in C++ program one can use the \"// write comment\" syntax. We can understand it more easily with the help of following given Program:",
+        "codeblock": null
+    },
+    {
+        "question": "13) C++ is a ___ type of language.",
+        "options": [
+            "High-level Language",
+            "Low-level language",
+            "Middle-level language",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " C++ contains the features of both types of high and Low-level programming languages, and it is also not wrong if we call it the combination of both high and low-level languages.",
+        "codeblock": null
+    },
+    {
+        "question": "14) For inserting a new line in C++ program, which one of the following statements can be used?",
+        "options": [
+            "\\n",
+            "\\r",
+            "\\a",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which one of the following represents the tab?",
+        "options": [
+            "\\n",
+            "\\t",
+            "\\r",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"\\t\" is a type of space sequence representing the tab, which means a set of blank space adds to the line. To understand it more clearly, consider the following example:",
+        "codeblock": null
+    },
+    {
+        "question": "1) Which of the following refers to characteristics of an array?",
+        "options": [
+            "An array is a set of similar data items",
+            "An array is a set of distinct data items",
+            "An array can hold different types of datatypes",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Basically, an array is a set of similar data items that are stored in the contiguous memory blocks. You can access any data item randomly using the index address of the element s.",
+        "codeblock": null
+    },
+    {
+        "question": "2) If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?",
+        "options": [
+            "3",
+            "5",
+            "4",
+            "88"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The array uses the contiguous block of memory for storing the data elements. Hence the data items pushed into an array are stored at the continuous address space. The index number of the array begins with zero so, the first data item pushed into the array will be stored at zero and so on. Hence index number of the last (fifth) element will be 4.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following is the correct syntax for declaring the array?",
+        "options": [
+            "init array []",
+            "int array [5];",
+            "Array[5];",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " To declare an array in C++, we first need to specify its data type according to requirements such as int or char, afterward that the array's name and the size of the array. So the correct answer will be B.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following is the correct syntax for printing the address of the first element?",
+        "options": [
+            "array[0];",
+            "array[1];",
+            "array[2];",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " To print or access the first data item of the array, the correct syntax is \"array[0];\" because the array's index begins with zero instead of one. So the correct answer will be A.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following gives the 4th element of the array?",
+        "options": [
+            "Array[0];",
+            "Array[0];",
+            "Array[3];",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The index of the array begins with zero instead of 1. To print the 4th element of the array, the index number will be n-1 or (3);",
+        "codeblock": null
+    },
+    {
+        "question": "6) What is the output of the given program?",
+        "options": [
+            "-15",
+            "-30",
+            "Compiler error",
+            "Garbage value"
+        ],
+        "answer": "Answer: B",
+        "explanation": " It will print the negative value of the specified values because the \"-\" sign we used while specifying the array elements. So the correct answer will be the \"-30\".",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which type of memory is used by an Array in C++ programming language?",
+        "options": [
+            "Contiguous",
+            "None-contiguous",
+            "Both A and B",
+            "Not mentioned"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the C and C++ programming language, the memory used by an array is usually contiguous, which means when an array is declared or initialized in the program a block of memory is selected form the memory space immediately. The major drawback of an array is that users have to guess the size of the array before actually using it, in which a significant amount of memory will be occupied even when it is not used. This later creates the problem of lack of memory.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which of the following is the correct definition of sorting?",
+        "options": [
+            "Sorting is a type of process in which the data or information is ordered into a specific order. Example increasing orders, decreasing.",
+            "Sorting information or data only in increasing order",
+            "Sorting is a type of process in which data elements are modified or manipulated",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Sorting is a type of technique or process in which the locations of data elements hold by the array are reordered or manipulated. So the correct answer will be A.",
+        "codeblock": null
+    },
+    {
+        "question": "9) How many types of the array are there in the C++ programming language?",
+        "options": [
+            "In the C++ programming language, there are three types of arrays",
+            "In the C++ programming language, there are four types of arrays",
+            "In the C++ programming language, there are two types of arrays",
+            "Both A and B"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the C++ programming language, there are mainly two types of arrays that are Single Dimension arrays and Multi-Dimension arrays. In Single-Dimension arrays, the same types of values are hold in the form of a List, while on the other hand, in Multi-Dimension arrays; values are stored in the form of a matrix.",
+        "codeblock": null
+    },
+    {
+        "question": "10) In C++, for what purpose the \"rank()\" is used?",
+        "options": [
+            "It returns the size of each dimension",
+            "It returns the maximum number of elements that can be stored in the array",
+            "It returns the dimension of the specified array",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In C++, one can use the rank function where he wants to know about the dimensions( e.g., single-dimension, multi-dimension) of a specific array by just passing it to the \"rank()\" function.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which one of the following is the correct definition of the \"is_array();\" function in C++?",
+        "options": [
+            "It checks that the specified variable is of the array or not",
+            "It checks that the specified array of single dimension or not",
+            "It checks that the array specified of multi-dimension or not",
+            "Both B and C"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In C++, the \"is_array();\" is used for checking that the specified element or data item belongs to the array type or not.",
+        "codeblock": null
+    },
+    {
+        "question": "12) Observer the given C++ program carefully and choose the correct output from the given options:",
+        "options": [
+            "110",
+            "001",
+            "010",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The correct output will be \"010\" Because in both cases, A and C variables passed to the \"is_array()\" function are different, so the function returns zero in both cases while in the case of B, they are the same. Hence it returns one as the output.",
+        "codeblock": null
+    },
+    {
+        "question": "13) Read the given C++ program carefully and choose the correct output from the given options:",
+        "options": [
+            "121",
+            "321",
+            "123",
+            "010"
+        ],
+        "answer": "Answer: C",
+        "explanation": " As we can see in the above program, here, the \"rank()\" function is used. The \"rank()\" function is used to know about the dimensions of the passed array. In case A the array passed to the \"rank()\" function is single-dimensional, In case B, the passed array is 2-dimensional, and in case C, the array passed is three-dimensional. So the output return by the \"rank()\" function is 123.",
+        "codeblock": null
+    },
+    {
+        "question": "14) What did we call an array of the one-dimensional array?",
+        "options": [
+            "Single Dimensional array",
+            "Multi-Dimensional array",
+            "2D Array (or 2-Dimensional array)",
+            "Both A and B"
+        ],
+        "answer": "Answer: C",
+        "explanation": " An array of one-dimensional array is known as the 2-dimensional array or 2D Array-like . We can understand it more clearly with the help of the following example:",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which types of arrays are always considered as linear arrays?",
+        "options": [
+            "Single-dimensional",
+            "Multi-dimensional",
+            "Both A and B",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Single-dimensional arrays are always considered as linear arrays.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following can be considered as the object of an array?",
+        "options": [
+            "Index of an array",
+            "Elements of the Array",
+            "Functions of the Array",
+            "All of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The elements in the array are known as the objects of the array.",
+        "codeblock": null
+    },
+    {
+        "question": "17) How many types of elements can an array store?",
+        "options": [
+            "Same types of elements",
+            "Char and int type",
+            "Only char types",
+            "All of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " An array can hold several elements except that all the data elements are of the same type.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Elements of a one-dimensional array are numbered as 0,1,2,3,4,5, and so on; these numbers are known as ____",
+        "options": [
+            "Subscript of Array",
+            "Members of Array",
+            "Index values",
+            "Both A and C"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The elements of one-dimensional array are indexed as 0,1,2,3,... and these numbers are also known as the index values or subscripts of the array.",
+        "codeblock": null
+    },
+    {
+        "question": "1) Which of the following statement is true about the new and malloc?",
+        "options": [
+            "Only I",
+            "Both I and II",
+            "I, II, III",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " All statements mentioned in the above question are completely true about the \"malloc\" and the \"new.\" The \"malloc\" is a kind of function available in the C++ language, while the \"new\" is a type of operator that invokes the Constructor.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following statement is true about the new and malloc?",
+        "options": [
+            "Only II",
+            "Both II and III",
+            "Only I",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In object initialization of a class using the \"new\" keyword also involves a constructor call, while doing so with the \"malloc\" does not require any involvement of the constructor call. This is the main reason why the \"new\" is added explicitly in the C++ language. However, the \"malloc\" function is used to assign the memory to any specific pointer, so it assigns an equal amount of memory to the class size. At the same time, the \"new\" keyword involves the initialization, hence invokes the Constructor of that particular class.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following statement is correct about Virtual Inheritance?",
+        "options": [
+            "It is a technique to ensure that a private member of a base class can be accessed",
+            "It is a technique to optimize the multiple inheritances",
+            "It is a technique to avoid the multiple inheritances of the classes",
+            "It is a C++ technique to avoid multiple copies of the base class into the derived or child classes"
+        ],
+        "answer": "Answer: D",
+        "explanation": "",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which one of the following statements correctly refers to the Delete and Delete[] in C++ programming language?",
+        "options": [
+            "Delete is syntactically correct although, if the Delete[] is used, it will obtain an error.",
+            "The \"Delete\" is used for deleting the standard objects, while on the other hand, the \"Delete[]\" is used to delete the pointer objects",
+            "The \"Delete\" is a type of keyword, whereas the \"Delete[]\" is a type of identifier",
+            "The \"Delete\" is used for deleting a single standard object, whereas the \"Delete[]\" is used for deleting an array of the multiple objects"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"Delete\" is used with the single general object, while on the other hand, the \"Delete[]\" is used with the array of the multiple objects initiated with the new operator.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Consider the following given program and choose the most appropriate output from the given options:",
+        "options": [
+            "Segmentation failure.",
+            "Error.",
+            "The Constructor will be invoked five times, and after that destructor will be invoked only once.",
+            "The Constructor will be invoked five times, and after that destructor will also be invoked five times."
+        ],
+        "answer": "Answer: D",
+        "explanation": " As mentioned in the above-given program, five-pointer variables are initiated using the \"new\" keyword so that the Constructor will be invoked five times. In addition, the destructor \"Delete[]\" is used( that is used for deleting the group of the several objects) for terminating variables. Hence all of the variables will be terminated completely, and while terminating the variables, the destructor will be invoked five times.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Consider the following given program and choose the most appropriate output from the given options:",
+        "options": [
+            "Constructing base, Constructing Derived, Destructing Base, Destructing Derived",
+            "Constructing base, Constructing Derived, Destructing Base",
+            "Constructing base, Constructing Derived, Destructing Derived, Destructing Base",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In the above-given program, the derived class's object is storing in the base class pointer; while the object is destroyed, the program has never invoked the destructor of the Derived class. Therefore, it shows that the object is not destroyed at all; hence, in this case, the program may also behave undesirably.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following can be considered as the correct syntax for declaring an array of pointers of integers that has a size of 10 in C++?",
+        "options": [
+            "int arr = new int[10];",
+            "int *arr = new int*[10]",
+            "int **arr = new int*[10];",
+            "int *arr = new int[10];"
+        ],
+        "answer": "Answer: C",
+        "explanation": " To declare an array of integers' pointer, here we need to use the double-pointer array where every element is set of the pointer to the integers. Therefore the correct option is C.",
+        "codeblock": null
+    },
+    {
+        "question": "8) Which of the following can be considered as the members that can be inherited but not accessible in any class?",
+        "options": [
+            "Public",
+            "Protected",
+            "Private",
+            "Both A and C"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"Private\" member of a class can be inherited by the child class. Still, the child class cannot access them (Or we can say that they are not accessible from the child class).",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following can be used to create an abstract class in the C++ programming language?",
+        "options": [
+            "By using the pure virtual function in the class",
+            "By declaring a virtual function in the base class",
+            "By declaring the virtual keyword afterward, the class Declaration",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " A class must contain at least one declaration of the pure virtual function in itself to be called an abstract class. Therefore to make an abstract class, one has to declare at least one pure virtual function in that class.",
+        "codeblock": null
+    },
+    {
+        "question": "10) Which of the following statements is correct about the class?",
+        "options": [
+            "An object is an instance of its class",
+            "A class is an instance of its object",
+            "An object is the instance of the data type of that class",
+            "Both A and C"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Generally, an object is an instance of a class, e.g., an object represents the class.",
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following statements is correct about the friend function in C++ programming language?",
+        "options": [
+            "A friend function is able to access private members of a class",
+            "A friend function can access the private members of a class",
+            "A friend function is able to access the public members of a class",
+            "All of the above"
+        ],
+        "answer": "Answer: D",
+        "explanation": " A friend function can access any member of a class without caring about the type of member it contains, such as public, private, and protected.",
+        "codeblock": null
+    },
+    {
+        "question": "12) Which of the following statement is not true about C++?",
+        "options": [
+            "Members of a class are public by default",
+            "A class cannot have the private members",
+            "A structure can have the member functions",
+            "All of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In C, structures are not allowed to have member functions; while on the other hand, C++ allows the structure to have the member functions. Members of the class are generally private by default, and those of the structures are public. So it is a completely false statement that classes can not private members.",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the following given statement is completely true?",
+        "options": [
+            "Only II",
+            "Only I",
+            "Both I & II",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In a procedure programming language such as C, we do not have the concept of Polymorphism, so all function calls are resolved at the compile-time while, on the other hand, In an Object-Oriented language, through the concept of Polymorphism, all function calls cannot be resolved at the compile-time.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which one of the following cannot be used with the virtual keyword?",
+        "options": [
+            "Constructor",
+            "Destructor",
+            "Member function",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In C++, we cannot use the virtual keyword with the Constructor because constructors are generally defined to initialize the object of a specific class; hence no other class requires the other class's object.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Which of the following is used for implementing the late binding?",
+        "options": [
+            "Operator Functions",
+            "Constant Functions",
+            "Virtual Functions",
+            "Both A and B"
+        ],
+        "answer": "Answer: C",
+        "explanation": " A virtual function can be used for implementing the concept of late binding. For example - Binding the actual functions to their corresponding calls.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following statements supports that reusable code should be one of the desirable features of any language?",
+        "options": [
+            "It helps in reducing the maintenance cost",
+            "It helps in reducing the testing time",
+            "It helps in reducing both the maintenance time and testing time",
+            "It helps in reducing the compile time"
+        ],
+        "answer": "Answer: C",
+        "explanation": " While reusing the existing code, we are not required to test/check that code, again and again, because it was already tested while it was written for the very first time. So the reusing the code defiantly helps in reducing the maintenance and testing time.",
+        "codeblock": null
+    },
+    {
+        "question": "50) Which of the following statement is correct about the C++ programming language?",
+        "options": [
+            "In C++, both the Static and Dynamic type checking are allowed",
+            "In C++, member function are allowed to be of the type canst",
+            "In C++, Dynamic checking is allowed",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In C++, both types of static and dynamic checking are allowed.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following is not a kind of inheritance?",
+        "options": [
+            "Distributed",
+            "Multiple",
+            "Multi-level",
+            "Hierarchal"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Among the above options, Distributed is only, which is not a type of inheritance, while Multiple, Multi-level, and the Hierarchal are the types of inheritance.",
+        "codeblock": null
+    },
+    {
+        "question": "19) What will happen if \"In a C++ program a class has no name\"?",
+        "options": [
+            "It is not even allowed in C++",
+            "It will not have the Constructor",
+            "It will not have the destructor",
+            "Both B and C"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the C++ program, if we use a class without assigning a name. As a result, it will not be going to have a destructor, but it will have the object. To understand it in more detail, consider the following program:",
+        "codeblock": null
+    },
+    {
+        "question": "20) Which type of approach is used by the C++ language?",
+        "options": [
+            "Right to left",
+            "Left to right",
+            "Top to bottom",
+            "Bottom-up"
+        ],
+        "answer": "Answer: D",
+        "explanation": " Generally, C++ uses the Bottom-up approach while other programming languages like C use the top-down approach.",
+        "codeblock": null
+    },
+    {
+        "question": "21) Which of the following concept refers to adding new components to the program at the run time?",
+        "options": [
+            "Dynamic Loading",
+            "Dynamic binding",
+            "Data hiding",
+            "Both A & B"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The dynamic loading is referred to as the concept of adding a new component to the program as it runs.",
+        "codeblock": null
+    },
+    {
+        "question": "22) How can one implement the compile-time Polymorphism in the C++ programming language?",
+        "options": [
+            "By using the Template",
+            "By using the concepts of inheritance",
+            "By using both the virtual functions and inheritance",
+            "By using only the virtual functions"
+        ],
+        "answer": "Answer: A",
+        "explanation": " One can easily implement the Compile-time Polymorphism using the Template.",
+        "codeblock": null
+    },
+    {
+        "question": "23) How can one implement the run-time Polymorphism in the C++ programming language?",
+        "options": [
+            "By using the Template",
+            "By using the concepts of inheritance",
+            "By using both the virtual functions and inheritance",
+            "By using only the virtual functions"
+        ],
+        "answer": "Answer: In C++, one can implement the run-time Polymorphism by using the virtual functions and inheritance where the object decides which function to call.",
+        "explanation": " C",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following offers a programmer the facility of using a specific class object into other classes?",
+        "options": [
+            "Polymorphism",
+            "Abstraction",
+            "Inheritance",
+            "Composition"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The composition is referred to as the concept of using objects of a specific class into several other classes.",
+        "codeblock": null
+    },
+    {
+        "question": "25) Which one of the following cannot be a friend in C++ languages?",
+        "options": [
+            "A Class",
+            "A Function",
+            "An Object",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In general, an object of any class cannot be a friend of the same and any other class as well. However, there are some functions, operator, and classes which can be made a friend.",
+        "codeblock": null
+    },
+    {
+        "question": "26) How are the references different from the pointer?",
+        "options": [
+            "A reference cannot be modified once it initialized",
+            "There is no need of an extra operator for dereferencing of a reference",
+            "A reference cannot be NULL",
+            "All of the above"
+        ],
+        "answer": "Answer: D",
+        "explanation": " These are some basic reasons why the references are far different from the pointers.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Among the following given options, which can be considered as a member of a class?",
+        "options": [
+            "Class variable",
+            "Member variable",
+            "Class functions",
+            "Both A and B"
+        ],
+        "answer": "Answer: B",
+        "explanation": " Generally, the functions of any class are also considered as the member function of that class.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following refers to the wrapping of data and its functionality into a single individual entity?",
+        "options": [
+            "Modularity",
+            "Abstraction",
+            "Encapsulation",
+            "None of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In C++, the property of wrapping the data and its functionality into a single entity is known as Encapsulation ( e.g., Classes).",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following refers to using the existing code instead of rewriting it?",
+        "options": [
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction",
+            "Both A and B"
+        ],
+        "answer": "Answer: A",
+        "explanation": " With the help of the inheritance concept, one can use existing code instead of rewriting. We can do this by inheriting the properties of pre-written code in other parts of the code blocks. Therefore the user is not required to write the same code repeatedly.",
+        "codeblock": null
+    },
+    {
+        "question": "30) Among the following, which shows the Multiple inheritances?",
+        "options": [
+            "X,Y->Z",
+            "X->Y->Z",
+            "X->Y;X->Z",
+            "None of the above"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In multiple inheritances, a single class can inherit properties form more than one base class.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the following statements is true about the C++ programming language?",
+        "options": [
+            "C++ is an object-oriented programming language",
+            "C++ is a procedural programming language",
+            "C++ is a functional programming language",
+            "C++ is both procedural and object-oriented language"
+        ],
+        "answer": "Answer: D",
+        "explanation": " C++ is a type of programming language which supports both the procedural ( or step by step instructions) and object-oriented through the concept of classes.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Among the following, which statement is correct about the Modularity?",
+        "options": [
+            "Modularity means hiding the parts of the program",
+            "Modularity refers to dividing a program into subsequent small modules or independent parts",
+            "It refers to overloading the program's part",
+            "Modularity refers to wrapping the data and its functionality into a single entity"
+        ],
+        "answer": "Answer: B",
+        "explanation": " Modularity refers to dividing a program into small independent code blocks or modules so that they can be easily called anywhere in the entire program where it is required. The concept of Modularity is very efficient and helpful for developers because it makes the program well structured and easy to understand. Hence the correct option is D.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Read the following program carefully and find out which concept from the given options is not used or missing in the following program?",
+        "options": [
+            "Polymorphism",
+            "Encapsulation",
+            "Inheritance",
+            "Abstraction"
+        ],
+        "answer": "Answer: A",
+        "explanation": " As we can see in the above-given program, the variables X and Y both are private members, which means they both are hidden from the outside world of the class, so here the concept of abstraction is used.",
+        "codeblock": null
+    }
+]

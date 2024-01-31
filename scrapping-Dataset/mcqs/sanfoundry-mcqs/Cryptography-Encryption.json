@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many bytes of the secret key is generated using Diffie-Hellman encryption/decryption scheme?",
+        "options": [
+            "a) 256",
+            "b) 871",
+            "c) 1024",
+            "d) 962"
+        ],
+        "answer": "a",
+        "explanation": "Diffie-Hellman encryption/decryption scheme generates 256 bytes shared a secret key. This secret key then is used by AES key to encrypt this data."
+    },
+    {
+        "question": "In which of the following systems, encryption slower than decryption?",
+        "options": [
+            "a) elliptic curve cryptography",
+            "b) parabolic curve cryptography",
+            "c) symmetric cryptography",
+            "d) antisymmetric cryptography"
+        ],
+        "answer": "b",
+        "explanation": "It is known that performing encryption using the public key takes more time than performing decryption using the private key in elliptic curve cryptography (ECC) and the key consists of 60 bytes."
+    },
+    {
+        "question": "If there are 2",
+        "options": [
+            "a) 761",
+            "b) 2",
+            "c) 186",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "If there are 2"
+    },
+    {
+        "question": "TEA cipher uses which of the following structure?",
+        "options": [
+            "a) standard cipher structure",
+            "b) pseudo random structure",
+            "c) feistel structure",
+            "d) block structure"
+        ],
+        "answer": "c",
+        "explanation": "The Feistel structure system TEA operates on two 32-bit unsigned integer numbers. It uses a 128-bit key that can be used to build a simple key schedule by mixing all of the key elements."
+    },
+    {
+        "question": "Let A\u2019s public key is n=6, 736, 180, 7817, 961, 456, 267 and e = 5 and B sends the ciphertext. c = 456, 871, 122, 391, 882, 538 to A. Determine B\u2019s message in numeric format?",
+        "options": [
+            "a) 235813",
+            "b) 57971.89",
+            "c) 770190.04",
+            "d) 687651.9"
+        ],
+        "answer": "c",
+        "explanation": "It is known that to get original message m after decrypting we can have the formula  m=c1/e. In this case: (456,871,122,391,882,538)"
+    },
+    {
+        "question": "In encryption, which of the following is the best text encoding technique?",
+        "options": [
+            "a) ASCII encoding",
+            "b) Hex-encoding",
+            "c) Unicode technique",
+            "d) Base64 encoding"
+        ],
+        "answer": "c",
+        "explanation": "Base64 and hex encoding scheme encode characters(or only bytes). First, we need to encode the characters as bytes and after that encode the bytes. In terms of compactness and simplicity, the best technique is Unicode scheme."
+    },
+    {
+        "question": "_______ are used as the base of the Public Key Infrastructure.",
+        "options": [
+            "a) SSL certificates",
+            "b) TLS certificates",
+            "c) X.509 certificates",
+            "d) HAS certificates"
+        ],
+        "answer": "c",
+        "explanation": "The X.509 certificates may be used as a base of the Public Key Infrastructure. PKIX is a tree structure where a Certificate Authority can be used to give trust to end entity certificates. X.509 certificates cannot directly use symmetric cryptography."
+    },
+    {
+        "question": "The default key size of RC2 Feistel cipher is _______",
+        "options": [
+            "a) 64GB",
+            "b) 64 bits",
+            "c) 64 bytes",
+            "d) 64KB"
+        ],
+        "answer": "c",
+        "explanation": "RC2 is a 64-bit source-heavy Feistel cipher system with a default key size of 64 bits. It is a complex cipher which uses secret indices and performs bitwise rotations, logical operations(AND, NOT, and OR) and modular addition."
+    },
+    {
+        "question": "How many combinations of keys can be constructed from a 72 ciphertext stream cipher?",
+        "options": [
+            "a) 4271",
+            "b) 7345",
+            "c) 3291",
+            "d) 2556"
+        ],
+        "answer": "d",
+        "explanation": "For stream cipher, if there are n ciphertexts then there are n*(n\u22121)/2 combination of keys to be made."
+    },
+    {
+        "question": "What is the block size of RC6 Feistel block cipher?",
+        "options": [
+            "a) 5013 bits",
+            "b) 128 bits",
+            "c) 596 bits",
+            "d) 1768 bits"
+        ],
+        "answer": "b",
+        "explanation": "The RC6 Feistel block cipher is a 20-round cipher scheme which includes a fixed block size of 128 bits and it supports 128, 192, and 256-bit keys for encryption of messages."
+    }
+]

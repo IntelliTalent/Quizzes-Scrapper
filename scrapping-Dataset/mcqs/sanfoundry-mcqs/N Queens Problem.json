@@ -1,0 +1,130 @@
+[
+    {
+        "question": "In how many directions do queens attack each other?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "Queens attack each other in three directions- vertical, horizontal and diagonal."
+    },
+    {
+        "question": "Placing n-queens so that no two queens attack each other is called?",
+        "options": [
+            "a) n-queen\u2019s problem",
+            "b) 8-queen\u2019s problem",
+            "c) Hamiltonian circuit problem",
+            "d) subset sum problem"
+        ],
+        "answer": "a",
+        "explanation": "Placing n queens so that no two queens attack each other is n-queens problem. If n=8, it is called as 8-queens problem."
+    },
+    {
+        "question": "Where is the n-queens problem implemented?",
+        "options": [
+            "a) carom",
+            "b) chess",
+            "c) ludo",
+            "d) cards"
+        ],
+        "answer": "b",
+        "explanation": "N-queens problem occurs in chess. It is the problem of placing n- queens in a n*n chess board."
+    },
+    {
+        "question": "Not more than 2 queens can occur in an n-queens problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Unlike a real chess game, n-queens occur in a n-queen problem since it is the problem of dealing with n-queens."
+    },
+    {
+        "question": "In n-queen problem, how many values of n does not provide an optimal solution?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "N-queen problem does not provide an optimal solution of only three values of n (i.e.) n=2,3."
+    },
+    {
+        "question": "Which of the following methods can be used to solve n-queen\u2019s problem?",
+        "options": [
+            "a) greedy algorithm",
+            "b) divide and conquer",
+            "c) iterative improvement",
+            "d) backtracking"
+        ],
+        "answer": "d",
+        "explanation": "Of the following given approaches, n-queens problem can be solved using backtracking. It can also be solved using branch and bound."
+    },
+    {
+        "question": "Of the following given options, which one of the following is a correct option that provides an optimal solution for 4-queens problem?",
+        "options": [
+            "a) (3,1,4,2)",
+            "b) (2,3,1,4)",
+            "c) (4,3,2,1)",
+            "d) (4,2,3,1)"
+        ],
+        "answer": "a",
+        "explanation": "Of the following given options for optimal solutions of 4-queens problem, (3, 1, 4, 2) is the right option."
+    },
+    {
+        "question": "How many possible solutions exist for an 8-queen problem?",
+        "options": [
+            "a) 100",
+            "b) 98",
+            "c) 92",
+            "d) 88"
+        ],
+        "answer": "c",
+        "explanation": "For an 8-queen problem, there are 92 possible combinations of optimal solutions."
+    },
+    {
+        "question": "How many possible solutions occur for a 10-queen problem?",
+        "options": [
+            "a) 850",
+            "b) 742",
+            "c) 842",
+            "d) 724"
+        ],
+        "answer": "d",
+        "explanation": "For a 10-queen problem, 724 possible combinations of optimal solutions are available."
+    },
+    {
+        "question": "If n=1, an imaginary solution for the problem exists.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "For n=1, the n-queen problem has a trivial and real solution and it is represented by"
+    },
+    {
+        "question": "What is the domination number for 8-queen\u2019s problem?",
+        "options": [
+            "a) 8",
+            "b) 7",
+            "c) 6",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "The minimum number of queens needed to occupy every square in n-queens problem is called domination number. While n=8, the domination number is 5."
+    },
+    {
+        "question": " Of the following given options, which one of the following does not provides an optimal solution for 8-queens problem?",
+        "options": [
+            "a) (5,3,8,4,7,1,6,2)",
+            "b) (1,6,3,8,3,2,4,7)",
+            "c) (4,1,5,8,6,3,7,2)",
+            "d) (6,2,7,1,4,8,5,3)"
+        ],
+        "answer": "b",
+        "explanation": "The following given options for optimal solutions of 8-queens problem, (1,6,3,8,3,2,4,7) does not provide an optimal solution."
+    }
+]

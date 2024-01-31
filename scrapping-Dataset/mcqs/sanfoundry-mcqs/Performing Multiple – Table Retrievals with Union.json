@@ -1,0 +1,100 @@
+[
+    {
+        "question": "To combine multiple retrievals, we write several SELECT statements and put the keyword between them. What is the keyword?",
+        "options": [
+            "a) COMBINE",
+            "b) CONCAT",
+            "c) JOIN",
+            "d) UNION"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018UNION\u2019 operator is used for combining the results of various \u2018SELECT\u2019 queries into one. For example, \u2018SELECT a FROM table1 UNION SELECT a FROM table2;\u2019 produces the results from tables table1 concatenated with that of table2."
+    },
+    {
+        "question": "What is \u2018xyz\u2019 in the following SQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The \u2018SELECT\u2019 queries can be combined together using the \u2018UNION\u2019 operator to produce the concatenated results from two or more tables. The data type of the columns is not taken into account."
+    },
+    {
+        "question": "The following SQL statement is invalid.",
+        "options": [],
+        "answer": "b",
+        "explanation": "Even if the columns \u2018xyz\u2019 and \u2018def\u2019 have different data types, the results from these columns are placed into the column \u2018xyz\u2019. The data types can be determined from the values in the columns."
+    },
+    {
+        "question": "Which keyword used with UNION does not retain duplicate rows?",
+        "options": [
+            "a) ALL",
+            "b) NARROW",
+            "c) STRICT",
+            "d) DISTINCT"
+        ],
+        "answer": "d",
+        "explanation": "The keyword \u2018DISTINCT\u2019 used along with \u2018UNION\u2019 is synonymous with just the \u2018UNION\u2019 statement. It produces only the distinct rows from the combination of the two tables in the SELECT query."
+    },
+    {
+        "question": "Which keyword used with UNION retains duplicate rows?",
+        "options": [
+            "a) ALL",
+            "b) NARROW",
+            "c) STRICT",
+            "d) DISTINCT"
+        ],
+        "answer": "a",
+        "explanation": "The keyword \u2018ALL\u2019 used along with \u2018UNION\u2019 is not synonymous with just the \u2018UNION\u2019 statement. It produces the duplicate rows, if they exist, from the combination of the two tables in the SELECT query."
+    },
+    {
+        "question": "The UNION ALL has a higher precedence than UNION DISTINCT.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "When there is a mixture of \u2018UNION\u2019 or \u2018UNION DISTINCT\u2019 statements with the \u2018UNION ALL\u2019 statements, any distinct union operation takes precedence over any \u2018UNION ALL\u2019 operations to its left."
+    },
+    {
+        "question": "Which clause is used to sort a UNION result as a whole?",
+        "options": [
+            "a) LIMIT",
+            "b) ORDER BY",
+            "c) GROUP BY",
+            "d) SORT"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018ORDER BY\u2019 clause is used along with the \u2018UNION\u2019 statement to sort a \u2018UNION\u2019 result as a whole. It is placed after the last \u2018SELECT\u2019 statement which is kept in parentheses."
+    },
+    {
+        "question": "Suppose it is desired that UNION operation should return not more than 3 rows. Which keyword is used for this?",
+        "options": [
+            "a) LIMIT",
+            "b) RESTRICT",
+            "c) COUNT",
+            "d) SORT"
+        ],
+        "answer": "a",
+        "explanation": "When there is a need to put a limit to the number of rows returned by the \u2018UNION\u2019 operation, the statement \u2018LIMIT\u2019 is appended to the \u2018SELECT\u2019 queries which are joined by the \u2018UNION\u2019 operations."
+    },
+    {
+        "question": "Which table is used to run a UNION-type query on MyISAM tables?",
+        "options": [
+            "a) TRADITIONAL",
+            "b) MERGE",
+            "c) SERVELET",
+            "d) UNITE"
+        ],
+        "answer": "b",
+        "explanation": "When there is a need to run a \u2018UNION type\u2019 operation on a MyISAM table that has the same structures, a \u2018MERGE\u2019 table is set up for it. After this, the queries are performed on this table."
+    },
+    {
+        "question": "SELECT on a MERGE table is like _____________",
+        "options": [
+            "a) UNION ALL",
+            "b) UNION",
+            "c) UNION DISTINCT",
+            "d) JOIN"
+        ],
+        "answer": "a",
+        "explanation": "Performing a \u2018SELECT\u2019 operation on a \u2018MERGE\u2019 table is like performing \u2018UNION ALL\u2019. This means that duplicate row results are not removed. \u2018SELECT DISTINCT\u2019 is like \u2018UNION\u2019 or \u2018UNION DISTINCT\u2019."
+    }
+]

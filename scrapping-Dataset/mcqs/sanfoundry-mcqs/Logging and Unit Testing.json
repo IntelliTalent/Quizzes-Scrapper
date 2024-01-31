@@ -1,0 +1,148 @@
+[
+    {
+        "question": "To perform its logging operations.",
+        "options": [
+            "a) Log4J",
+            "b) LogingJ",
+            "c) JLog",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Grails relies on Java Log4J to perform its logging operations."
+    },
+    {
+        "question": "Log4J configuration parameters are specified inside:-",
+        "options": [
+            "a) Config.groovy",
+            "b) Conf.groovy",
+            "c) Log.groovy",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Log4J configuration parameters are specified inside the Config.groovy file."
+    },
+    {
+        "question": "Grails application logging can be configured using:-",
+        "options": [
+            "a) creating custom appenders",
+            "b) logging levels",
+            "c) console output",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Given Log4J\u2019s logging versatility, a Grails application logging can be configured in various ways. This includes creating custom appenders, logging levels, console output, logging by artifacts and custom logging layouts."
+    },
+    {
+        "question": "Any logging operation occurring at any of the cited packages will be logged.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The notation follows the convention logging level \u2018package name\u2019. This implies that any logging operation occurring at any of the cited packages will be logged so long as it occurs within the specified logging level or a more severe level."
+    },
+    {
+        "question": "In Log4J parlance, each package is known as:-",
+        "options": [
+            "a) parlance",
+            "b) logger",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In Log4J parlance, each package is known as a logger."
+    },
+    {
+        "question": "By default, all logging message are sent to the stacktrace.groovy file.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By default, all logging message are sent to the stacktrace.log file located under an application\u2019s root directory."
+    },
+    {
+        "question": "To offer versatile logging functionality:-",
+        "options": [
+            "a) loggers",
+            "b) appenders",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Log4J relies on appenders and loggers to offer versatile logging functionality."
+    },
+    {
+        "question": "A location where logging information is sent.",
+        "options": [
+            "a) appender",
+            "b) logger",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An appender is a location where logging information is sent (e.g., a file or standard output)."
+    },
+    {
+        "question": "A location where logging information is generated.",
+        "options": [
+            "a) appender",
+            "b) logger",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A logger is a location where logging information is generated (e.g., a class or package)."
+    },
+    {
+        "question": "The default Log4J logger can be customized in a Grails application.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The default Log4J logger can be customized in a Grails application using the following statement within the log4j { } section of an application\u2019s Config.groovy file:"
+    },
+    {
+        "question": "An appender that logs to a JDBC connection.",
+        "options": [
+            "a) jdbc",
+            "b) console",
+            "c) file",
+            "d) rollingFile"
+        ],
+        "answer": "a",
+        "explanation": "There are four types of appenders available by default:"
+    },
+    {
+        "question": "Command for running tests in Grails.",
+        "options": [
+            "a) grails test-app",
+            "b) grails test",
+            "c) grails test-app domain class",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Running tests in Grails is as simple as executing the grails test-app command from an application\u2019s root directory."
+    },
+    {
+        "question": "Unit tests are designed to validate the logic contained in a single domain class.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Because of this fact, besides automating the execution of such tests, Grails provides no type of bootstrapping properties for performing these type of tests."
+    },
+    {
+        "question": "Method creates a mock object from a domain class.",
+        "options": [
+            "a) mockForConstraintsTests",
+            "b) mockForConstraints",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "This method creates a mock object from a domain class that is used to access a class\u2019s dynamic methods (e.g., validate) needed to perform unit tests."
+    }
+]

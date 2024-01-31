@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is the base layer for all of the sparse indexed data structures?",
+        "options": [
+            "a) SArray",
+            "b) SparseArray",
+            "c) PyArray",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SparseArray is a 1-dimensional ndarray-like object storing only values distinct from the fill_value."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) All of the standard pandas data structures have a to_sparse method",
+            "b) Any sparse object can be converted back to the standard dense form by calling to_dense",
+            "c) The sparse objects exist for memory efficiency reasons",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The to_sparse method takes a kind argument and a fill_value."
+    },
+    {
+        "question": "Which of the following is not an indexed object?",
+        "options": [
+            "a) SparseSeries",
+            "b) SparseDataFrame",
+            "c) SparsePanel",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "SparseArray can be converted back to a regular ndarray by calling to_dense."
+    },
+    {
+        "question": "Which of the following list-like data structure is used for managing a dynamic collection of SparseArrays?",
+        "options": [
+            "a) SparseList",
+            "b) GeoList",
+            "c) SparseSeries",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To create one, simply call the SparseList constructor with a fill_value."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) to_array. append can accept scalar values or any 2-dimensional sequence",
+            "b) Two kinds of SparseIndex are implemented",
+            "c) The integer format keeps an arrays of all of the locations where the data are not equal to the fill value",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "to_array. append can accept scalar values or any 1-dimensional sequence."
+    },
+    {
+        "question": "Which of the following method is used for transforming a SparseSeries indexed by a MultiIndex to a scipy.sparse.coo_matrix?",
+        "options": [
+            "a) SparseSeries.to_coo()",
+            "b) Series.to_coo()",
+            "c) SparseSeries.to_cooser()",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Experimental api to transform between sparse pandas and scipy.sparse structures."
+    },
+    {
+        "question": "The integer format tracks only the locations and sizes of blocks of data.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The block format tracks only the locations and sizes of blocks of data."
+    },
+    {
+        "question": "Which of the following is used for testing for membership in the list of column names?",
+        "options": [
+            "a) in",
+            "b) out",
+            "c) elseif",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For DataFrames, likewise, in applies to the column axis."
+    },
+    {
+        "question": "Which of the following indexing capabilities is used as a concise means of selecting data from a pandas object?",
+        "options": [
+            "a) In",
+            "b) ix",
+            "c) ipy",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "ix and reindex are 100% equivalent."
+    },
+    {
+        "question": "Pandas follow the NumPy convention of raising an error when you try to convert something to a bool.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This happens in an if or when using the boolean operations, and, or, or not."
+    }
+]

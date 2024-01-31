@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which among the following can also be included with \u201cSELECT\u201d clause while writing query in Mysql?",
+        "options": [
+            "a) Literals",
+            "b) Expressions",
+            "c) User defined functions",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " \u201cSELECT clause\u201d can also include Literals like \u2018ACTIVE\u2019, Expressions like emp_id*314, Built_in functions like UPPER ()."
+    },
+    {
+        "question": "Is there any error in executing the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": " \u201cSELECT clause\u201d includes the following:  Literals like \u2018ACTIVE\u2019, Expressions like emp_id*314, Built_in functions like UPPER ()."
+    },
+    {
+        "question": "Is there any error in executing the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": " Clause \u201cFROM\u201d is not necessary when we used \u201cBuilt in\u201d function with \u201cSELECT\u201d clause."
+    },
+    {
+        "question": "What is the need of \u201ccolumn Aliases\u201d in \u201cSELECT\u201d clause?",
+        "options": [
+            "a) To assign a new label to the column in result set",
+            "b) To overwrite the existing column name in result set",
+            "c) To modify the column name while using literals, Expression, built_in functions with \u201cSELECT clause",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " \u201cColumn Aliases\u201d are used to assign a new label to the columns in the result set without actually changing the column name."
+    },
+    {
+        "question": "What will be the result of the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Status, emp_pi, last_name are \u201ccolumn aliases\u201d."
+    },
+    {
+        "question": " What will be the result of the following MySQL command?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Status, emp_pi, last_name are \u201ccolumn aliases\u201d and Keyword \u201cAS\u201d is optional."
+    },
+    {
+        "question": "Which Keyword is used to remove duplicate rows in the result set?",
+        "options": [
+            "a) DISTINCTS",
+            "b) MODIFY",
+            "c) DISTINCT",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "If in Table \u201caccount\u201d, a column \u201ccust_id\u201d consists of {1,2,2,3,3,5,6,7,8,8} then what will be the output on executing the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "DISTINICT keyword will remove the duplicate entries in the result set."
+    },
+    {
+        "question": "If in Table \u201cemployee\u201d, a column \u201cemp_id\u201d consists of {1,2,2,3,3,5,6,7,8,8} then what will be the output on executing the following MySQL statement?",
+        "options": [],
+        "answer": "b",
+        "explanation": "DISTINICT keyword will remove the duplicate entries in the result set."
+    },
+    {
+        "question": "Which among the following is an optional Keyword?",
+        "options": [
+            "a) DISTINICTS",
+            "b) ALL",
+            "c) AS",
+            "d) Both AS and ALL"
+        ],
+        "answer": "d",
+        "explanation": "\u201cAS\u201d and \u201cALL\u201d are optional."
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Element used to secure methods.",
+        "options": [
+            "a) security:intercept-methods",
+            "b) global-method-security",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "First, you can embed a security:intercept-methods element in a bean definition to secure its methods. Alternatively, you can configure a global global-method-security element to secure multiple methods."
+    },
+    {
+        "question": "@Secured annotation is used to secure methods implemented by beans.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can also annotate methods declared in a bean interface or an implementation class with the @Secured annotation and then enable security for them in global-method-security."
+    },
+    {
+        "question": "Element used to specify access attributes for bean\u2019s methods.",
+        "options": [
+            "a) security:protect",
+            "b) security:intercept",
+            "c) security:intercept-security",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In a bean\u2019s security:intercept-methods, you can specify multiple security:protect elements to specify access attributes for this bean\u2019s methods."
+    },
+    {
+        "question": "Attribute used to specify custom access decision manager.",
+        "options": [
+            "a) access-decision-manager-ref",
+            "b) access-decision-ref",
+            "c) access-decision",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you would like to use a custom access decision manager, you can specify it in the access-decision-manager-ref."
+    },
+    {
+        "question": "JSP technology is also used to handle security of JSP views.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Security provides a JSPtag library for you to handle security in JSP views."
+    },
+    {
+        "question": "Tag which displays user\u2019s Authentication object.",
+        "options": [
+            "a) security:tag",
+            "b) security_Tag",
+            "c) security:authentication",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The security:authentication tag exposes the current user\u2019s Authentication object for you to render its properties."
+    },
+    {
+        "question": "Tag which renders the granted authorities one by one.",
+        "options": [
+            "a) c:for",
+            "b) c:forEach",
+            "c) c:doWhile",
+            "d) c:while"
+        ],
+        "answer": "b",
+        "explanation": "You can store the authorities property, which contains the authorities granted to the user, in the JSP variable authorities, and render them one by one with a c:forEach tag."
+    },
+    {
+        "question": "Tag used to render view contents conditionally.",
+        "options": [
+            "a) security:authorize",
+            "b) security:authority",
+            "c) security:authenticate",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you would like to render view contents conditionally according to a user\u2019s authorities, you can use the security:authorize tag."
+    },
+    {
+        "question": "Attribute used to render enclosed content.",
+        "options": [
+            "a) ifGranted",
+            "b) if_Granted",
+            "c) ifAllGranted",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you want the enclosing content to be rendered only when the user has been granted certain authorities at the same time, you have to specify them in the ifAllGranted attribute."
+    },
+    {
+        "question": "Module that allows each domain to have it\u2019s own access.",
+        "options": [
+            "a) access share list",
+            "b) access common list",
+            "c) access control list",
+            "d) access list"
+        ],
+        "answer": "c",
+        "explanation": "Spring Security provides a module named ACL that allows each domain object to have its own access control list (ACL)."
+    },
+    {
+        "question": "ACL(Access control list) consists of:-",
+        "options": [
+            "a) object identity",
+            "b) access control entities",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An ACL contains a domain object\u2019s object identity to associate with the object, and also holds multiple access control entries (ACEs)."
+    },
+    {
+        "question": "ACEs(Access control entries) core consists of:-",
+        "options": [
+            "a) Permissions",
+            "b) Security Identity",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Multiple access control entries (ACEs), each of which contains the above mentioned two core parts."
+    },
+    {
+        "question": "Which of the following is/are part of BasePermission class:-",
+        "options": [
+            "a) CREATE",
+            "b) READ/WRITE",
+            "c) DELETE",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The BasePermission class predefines five basic permissions as constant values for you to use: READ (bit 0 or integer 1), WRITE (bit 1 or integer 2), CREATE (bit 2 or integer 4), DELETE (bit 3 or integer 8), and ADMINISTRATION (bit 4 or integer 16)."
+    },
+    {
+        "question": "SID(Security Identity) associates with permission using.",
+        "options": [
+            "a) principal(PrincipalSid)",
+            "b) authority (GrantedAuthoritySid)",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Each ACE contains permissions for a particular SID. An SID can be a principal (PrincipalSid) or an authority (GrantedAuthoritySid) to associate with permissions."
+    },
+    {
+        "question": "Interfaces that defines operation of an ACL service.",
+        "options": [
+            "a) AclService",
+            "b) MutableAclService",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Spring Security, there are two interfaces that define operations of an ACL service: AclService and MutableAclService. AclService defines operations for you to read ACLs."
+    }
+]

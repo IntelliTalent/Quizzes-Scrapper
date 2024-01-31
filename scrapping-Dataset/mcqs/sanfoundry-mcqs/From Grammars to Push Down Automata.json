@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The production of the form A->B , where A and B are non terminals is called",
+        "options": [
+            "a) Null production",
+            "b) Unit production",
+            "c) Greibach Normal Form",
+            "d) Chomsky Normal Form"
+        ],
+        "answer": "b",
+        "explanation": "A->\u03b5 is termed as Null production while A->B is termed as Unit production."
+    },
+    {
+        "question": "Halting states are of two types. They are:",
+        "options": [
+            "a) Accept and Reject",
+            "b) Reject and Allow",
+            "c) Start and Reject",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Halting states are the new tuple members introduced in turing machine and is of two types: Accept Halting State and Reject Halting State."
+    },
+    {
+        "question": "A push down automata can be represented as:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "A pushdown automata can be defined as: (Q, \u2211, G, q0, z0, A, d)",
+        "options": [
+            "a) an element of G",
+            "b) initial stack symbol",
+            "c) top stack alphabet",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "z0 is the initial stack symbol, is an element of G. Other symbols like d represents the transition function of the machine."
+    },
+    {
+        "question": "Which of the following correctly recognize the symbol \u2018|-\u2018 in context to PDA?",
+        "options": [
+            "a) Moves",
+            "b) transition function",
+            "c) or/not symbol",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Using this notation, we can define moves and further acceptance of a string by the machine."
+    },
+    {
+        "question": "Which of the following can be accepted by a DPDA?",
+        "options": [
+            "a) The set of even length palindrome over {a,b}",
+            "b) The set of odd length palindrome over {a,b}",
+            "c) {xx",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Theorem: The language pal of palindromes over the alphabet {0,1} cannot be accepted by any finite automaton , and it is therefore not regular."
+    },
+    {
+        "question": "For a counter automaton, with the symbols A and Z0, the string on the stack is always in the form of __________",
+        "options": [
+            "a) A",
+            "b) A",
+            "c) Z0A",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:The possible change in the stack contents is a change in the number of A\u2019s on the stack."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The PDA works as follows. Instead of saving excess 0\u2019s or 1\u2019s on the stack, we save *\u2019s and use two different states to indicate which symbol there is currently a surplus of. The state q0 is the initial state and the only accepting state."
+    },
+    {
+        "question": "Let \u2211={0,1}* and the grammar G be:",
+        "options": [
+            "a) Language of all and only Balanced strings",
+            "b) It contains equal number of 0\u2019s and 1\u2019s",
+            "c) Ambiguous Grammar",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A string is said to be balanced if it consist of equal number of 0\u2019s and 1\u2019s."
+    }
+]

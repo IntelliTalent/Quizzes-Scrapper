@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Consider the following iterative implementation used to find the length of a linked list:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The condition \u201ctemp != 0\u201d should be checked to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the length of the linked list, which is 5."
+    },
+    {
+        "question": "What is the time complexity of the following iterative implementation used to find the length of a linked list?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above iterative implementation used to find the length of a linked list is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the length of the linked list, which is 0."
+    },
+    {
+        "question": "Which of the following can be the base case for the recursive implementation used to find the length of linked list?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201cif(current_node == 0) return 0\u201d can be used as a base case in the recursive implementation used to find the length of a linked list. Note: The line \u201cif(current_node->next == 0) return 1\u201d cannot be used because it won\u2019t work when the length of the linked list is zero."
+    },
+    {
+        "question": "Which of the following lines should be inserted to complete the following recursive implementation used to find the length of a linked list?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201c1 + recursive_get_len(current_node->next)\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the length of the linked list, which is 7."
+    },
+    {
+        "question": "What is the time complexity of the following code used to find the length of a linked list?",
+        "options": [],
+        "answer": "b",
+        "explanation": "To find the length of the linked list, the program iterates over the linked list once. So, the time complexity of the above code is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the length of the linked list, which is 6."
+    },
+    {
+        "question": "How many times is the function recursive_get_len() called when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The function is called \u201clen + 1\u201d times. Since the length of the linked list in the above code is 6, the function is called 6 + 1 = 7 times."
+    }
+]

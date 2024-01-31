@@ -1,0 +1,1898 @@
+[
+    {
+        "question": "1) Which type of JavaScript language is ___",
+        "options": [
+            "Object-Oriented",
+            "Object-Based",
+            "Assembly-language",
+            "High-level"
+        ],
+        "answer": "Answer: B",
+        "explanation": " JavaScript is not a pure OOP's (object oriented programming) based languages such as PHP, java or many other languages, although it is an object-based language. It is not OOP's based language, because it doesn't have three basic properties of object-oriented programming languages, such as polymorphism, encapsulation, and inheritance.",
+        "codeblock": "varx=5,y=1\r\nvar obj ={ x:10}\r\nwith(obj)\r\n{\r\n      alert(y)\r\n}"
+    },
+    {
+        "question": "2) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "1",
+            "Error",
+            "10",
+            "5"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The output of the above snippet code will be one because, first of all, the interpreter will search \"obj\" for the property (y). But it fails to find \"obj\" for property \"y,\" so it chooses a value from outside the object, which is available within the given code.",
+        "codeblock": "varx=5,y=1\r\nvar obj ={ x:10}\r\nwith(obj)\r\n{\r\n      alert(y)\r\n}"
+    },
+    {
+        "question": "3) Which one of the following also known as Conditional Expression:",
+        "options": [
+            "Alternative to if-else",
+            "Switch statement",
+            "If-then-else statement",
+            "immediate if"
+        ],
+        "answer": "Answer: D",
+        "explanation": " A conditional expression can only evaluate two things, which either true or false, that are purely based on the evaluation of the condition",
+        "codeblock": "for(var number=10;number>=1;number--)\r\n{\r\ndocument.writeln(number);\r\n}"
+    },
+    {
+        "question": "4) Among the following given JavaScript snipped codes, which is more efficient:",
+        "options": [
+            "Code 1",
+            "Code 2",
+            "Both Code 1 and Code 2",
+            "Cannot Compare"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Code 1 will be more efficient. In fact, the second code may encounter a runtime error because the value of \"number\" is never going to be equal to or less than one.",
+        "codeblock": "for(var number=10;number>=1;number--)\r\n{\r\ndocument.writeln(number);\r\n}"
+    },
+    {
+        "question": "5) In JavaScript, what is a block of statement?",
+        "options": [
+            "Conditional block",
+            "block that combines a number of statements into a single compound statement",
+            "both conditional block and a single statement",
+            "block that contains a single statement"
+        ],
+        "answer": "Answer: B",
+        "explanation": " A block of statement can be understand as the set of the zero or more statements. In general, a block of statement has common definition \"which combines one or a number of statements into a single statement for ease.",
+        "codeblock": "switch(expression)\r\n{\r\n    statements\r\n}"
+    },
+    {
+        "question": "6) When interpreter encounters an empty statements, what it will do:",
+        "options": [
+            "Shows a warning",
+            "Prompts to complete the statement",
+            "Throws an error",
+            "Ignores the statements"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, when the interpreter encounters a empty statements it normally ignores or not response to that empty statement. The empty statements also sometimes very useful like we use the empty statements for creating loop for nothing.",
+        "codeblock": "switch(expression)\r\n{\r\n    statements\r\n}"
+    },
+    {
+        "question": "7) The \"function\" and \" var\" are known as:",
+        "options": [
+            "Keywords",
+            "Data types",
+            "Declaration statements",
+            "Prototypes"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"function\" and \"var\" both are the Declaration statements. These both are used for defining, and declaring variable, function in anywhere in the program.",
+        "codeblock": "switch(expression)\r\n{\r\n    statements\r\n}"
+    },
+    {
+        "question": "8) In the following given syntax of the switch statement, the Expression is compared with the labels using which one of the following operators?",
+        "options": [
+            "===",
+            "equals",
+            "==",
+            "equals"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The strict comparison operator returns true only if the operand are of the same type and content matches. When the switch statement is executed, the value of the expression is calculated and compared to the case labels, and looks for a case whose expressions produce the same value after evaluations (where the comparison is determined by the === operator).",
+        "codeblock": "switch(expression)\r\n{\r\n    statements\r\n}"
+    },
+    {
+        "question": "9) What will happen, if the following JavaScript code is executed?",
+        "options": [
+            "An error is displayed",
+            "An exception is thrown",
+            "The values of count variable are logged or stored in a particular location or storage",
+            "The value of count from 0 to 9 is displayed in the console"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The function \"console.log ()\" used in the above function is one of the pre-defined functions of JavaScript. It takes values as arguments passed to it, and displays that value in arguments inside the console when the code is executed.",
+        "codeblock": "var count =0;\r\nwhile (count <10)\r\n{\r\n     console.log(count);\r\n     count++;\r\n}"
+    },
+    {
+        "question": "10) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "9",
+            "0",
+            "8",
+            "Undefined"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"if-else\" is one of the conditional statements available in JavaScript like several other languages. Here the comparison performed in the \"if\" statement evaluates to false, so the instructions written in the else part gets executed. If the comparison performed in the \"if\" statement evaluates to true, then the instruction written in the if statement will be executed.",
+        "codeblock": "Int x=8;\r\nif(x>9)\r\n{\r\ndocument.write(9);\r\n}\r\nelse\r\n{\r\ndocument.write(x);\r\n}"
+    },
+    {
+        "question": "11) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "10",
+            "9",
+            "8",
+            "0"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The code of the given program uses a switch statement, in which the value of the expression is compared with the available case labels. If the value matches with any case label, the code written corresponding to that case is executed otherwise the instruction written to the default is executed. Another important point is that switch statements are also used as an alternative to \"if-else\" statements to reduce the complexity and size of the code.",
+        "codeblock": "var grade='C';\r\nvar result;\r\nswitch(grade)\r\n{\r\ncase'A':\r\n{\r\n        result+=\"10\";\r\nbreak;\r\n}\r\ncase'B':\r\n{\r\n        result+=\" 9\";\r\nbreak;\r\n}\r\ncase'C':\r\n{\r\n        result+=\" 8\";\r\nbreak;\r\n}\r\ndefault:\r\n    result+=\" 0\";\r\n}\r\ndocument.write(result);"
+    },
+    {
+        "question": "12) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "10",
+            "6",
+            "33",
+            "0"
+        ],
+        "answer": "Answer: B",
+        "explanation": " If we look at the given code carefully, we can see that here the \"break\" statement is not used after any of the case labels. Which means all the cases following \"A\" get executes if the following program is executed.",
+        "codeblock": "var grade='D';\r\nvar result;\r\nswitch(grade)\r\n{\r\ncase'A':\r\n        result+=\"10\";\r\ncase'B':\r\n        result+=\" 9\";\r\ncase'C':\r\n        result+=\" 8\";\r\ncase 'D'\r\nresult+=\" 6\";\r\ndefault:\r\n        result+=\" 0\";\r\n}\r\ndocument.write(result);"
+    },
+    {
+        "question": "13) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "3",
+            "0",
+            "Error",
+            "2"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"if-and if\" statement is used to examine more than one condition. This is an extension of the \"if-else\" statement and is also known as the \"if-else ladder\". We can extend the \"if-else\" statement to check several conditions.",
+        "codeblock": "var x=3;\r\nvar y=2;\r\nvar z=0;\r\nIf(x==y)\r\ndocument.write(x);\r\nelseif(x==y)\r\ndocument.write(x);\r\nelse\r\ndocument.write(z);"
+    },
+    {
+        "question": "14) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "10",
+            "17",
+            "18",
+            "0"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The switch case statement contains several cases in which the Default case also one of them. The default case only is get executed, when no other case matches with the expression's value.",
+        "codeblock": "var grade='Z';\r\nvar result;\r\nswitch(grade)\r\n{\r\ncase'A':\r\n        result+=\"10\";\r\ncase'B':\r\n        result+=\" 9\";\r\ncase'C':\r\n        result+=\" 8\";\r\ndefault:\r\n        result+=\" 0\";\r\n}\r\ndocument.write(result);"
+    },
+    {
+        "question": "15) Which of the following variables takes precedence over the others if the names are the same?",
+        "options": [
+            "Global variable",
+            "The local element",
+            "The two of the above",
+            "None of the above"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In JavaScript, the local variable takes precedence over the global variable if the name of both local and global variables is the same.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "16) Which one of the following is the correct way for calling the JavaScript code?",
+        "options": [
+            "Preprocessor",
+            "Triggering Event",
+            "RMI",
+            "Function/Method"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The JavaScript code can be called simply by making the function call to the element on which the JavaScript code execution has to be run. There are several other ways to call JavaScript code such as submit, onclick, and onload, etc.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "17) Which of the following type of a variable is volatile?",
+        "options": [
+            "Mutable variable",
+            "Dynamic variable",
+            "Volatile variable",
+            "Immutable variable"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The variables whose value can be modified that kind of variable are known as Mutable variable. In the JavaScript, only arrays and objects are mutable but not the primitive values.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "18) Which of the following option is used as hexadecimal literal beginning?",
+        "options": [
+            "00",
+            "0x",
+            "0X",
+            "Both 0x and 0X"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In general, the X and x both can be used to denote the hexadecimal values, so any integer literal that begins with either 0X or 0x denotes a hexadecimal number.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "19) When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.",
+        "options": [
+            "Prints an exception error",
+            "Prints an overflow error",
+            "Displays \"Infinity\"",
+            "Prints the value as such"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the case, where the result of any arithmetic expression is beyond the largest represent-able number,JavaScript prints the infinity. Similarly, if the result of any numerical operation is beyond the largest negative number, JavaScript prints negative infinity.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "20) In the JavaScript, which one of the following is not considered as an error:",
+        "options": [
+            "Syntax error",
+            "Missing of semicolons",
+            "Division by zero",
+            "Missing of Bracket"
+        ],
+        "answer": "Answer: C",
+        "explanation": " Yes, you heard right that division of any integer by zero is not an error in the JavaScript. It just prints the infinity as a result. However, there is an exception in JavaScript, dividing zero with zero will not have any defined number/value so, the result of this specific operation is a special value \"Not a Number\" (or NaN) and printed as NaN.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "21) Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal?",
+        "options": [
+            "toExponential()",
+            "toFixed()",
+            "toPrecision()",
+            "toLocaleString()"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"tofixed()\" method formats the given number with a specific number of digits to the right of the decimal.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "22) Which of the following number object function returns the value of the number?",
+        "options": [
+            "toString()",
+            "valueOf()",
+            "toLocaleString()",
+            "toPrecision()"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The method \" valueOf()\" returns the value of the parameter that was passed in it.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "23) Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?",
+        "options": [
+            "slice()",
+            "split()",
+            "substr()",
+            "search()"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The method \" Subtr()\" in the javascript is used to return the characters in the string starting at the specified position via the specified number of the characters.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "24) In JavaScript the x===y statement implies that:",
+        "options": [
+            "Both x and y are equal in value, type and reference address as well.",
+            "Both are x and y are equal in value only.",
+            "Both are equal in the value and data type.",
+            "Both are not same at all."
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"===\" statement are called strict comparison which only gets true only if the type and content of both the operand are strictly same.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "25) Choose the correct snippet from the following to check if the variable \"a\" is not equal the \"NULL\":",
+        "options": [
+            "if(a!==null)",
+            "if (a!)",
+            "if(a!null)",
+            "if(a!=null)"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"==\" is only true if the type and the content of both operands are the same. The \"==\" is also one of the common abstracts used for comparing two operands to check whether they are equal or not but it will notcheck the data type of the variables. So, the \"! ==\" operator is known as \"non-equal\", which is used in our case, to compare 0 to NULL. It obtains the output either as true or false that totally depends on the given conditions.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "26) Suppose we have a text \"human\" that we want to convert into string without using the \"new\" operator. Which is the correct way from the following to do so:",
+        "options": [
+            "toString()",
+            "String(human)",
+            "String newvariable=\"human\"",
+            "Both human.toString() and String(human)"
+        ],
+        "answer": "Answer: D",
+        "explanation": " There are three common ways to convert the text into strings:value.toString(),\"\" + value and String(value). We can convert a text to string without using \"new\" operator that are: human.tostring() and the another one is String(human).",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "27) See the given code of JavaScript and choose the correct output from the following:",
+        "options": [
+            "compilation error",
+            "false",
+            "runtime error",
+            "true"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"==\" operatorconverts the both operand to the same type in case they both are of different datatype and perform comparison. A strict comparison will give true as output only when the content and the data type of both operands are same.",
+        "codeblock": "functioncomparing()\r\n{\r\nintx=9;\r\nchary=9;\r\nif(x==y)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "28) What will be the output of the following JavaScript code?",
+        "options": [
+            "True",
+            "false",
+            "runtime error",
+            "compilation error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"===\" is known as a strict comparison operator which will result as true when the data-type, content of operand are the same. For example, In JavaScript, two strings can be considered as strict equal when the length, sequence, and same characters, are the same when compared to each other.",
+        "codeblock": "functioncomparison()\r\n{\r\nint number=10;\r\nif(number===\"10\")\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "29) Find out the correct output of the following given piece of code from the given options:",
+        "options": [
+            "logical error",
+            "false",
+            "runtime error",
+            "true"
+        ],
+        "answer": "Answer: D",
+        "explanation": " We can convert a non-string \"integer \" into a string by using the \".tostring()\" method. The \"===\" (or we can say strict comparison) results in true only when, the content and the data-type of the operands are the same. So that's why the output of the above-given code will be obtained as true.",
+        "codeblock": "functionfun()\r\n{\r\nint y=10;\r\nchar z=10;\r\nif(y.tostring()===z)\r\nreturntrue;\r\nelse\r\nreturnfalse;\r\n}"
+    },
+    {
+        "question": "30) See the given code of JavaScript and choose the correct output from the following:",
+        "options": [
+            "4090",
+            "90",
+            "4050",
+            "Exception"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In JavaScript, the alert method does the typecasting and converts the value of the variable \"valueinit\" to a string after that it concatenates both of the strings and displayed them on the screen. So, here the correct output would be 4050.",
+        "codeblock": "var string1 = \"40\";\r\nvarvalueinit=50;\r\nalert( string1 +intvalue);"
+    },
+    {
+        "question": "31) In JavaScript, what will be used for calling the function definition expression:",
+        "options": [
+            "Function prototype",
+            "Function literal",
+            "Function calling",
+            "Function declaration"
+        ],
+        "answer": "Answer: B",
+        "explanation": " A function definition expression is a kind of \"function literal' just like as the object initializer is a kind of \"object literal\". The function definition expression (or we can say a function literal) consists of the keyword Function, followed by the set of identifiers(or parameters names) that are separated by commas inside the parenthesis, and a small block of JavaScript code(which we normally called function body/definition) enclosed in the curly braces.",
+        "codeblock": "var text =\"testing: 1, 2, 3\";// Sample text\r\nvar pattern =/\\d+/g// Matches all instances of one or more digits"
+    },
+    {
+        "question": "32) Which of the following one is the property of the primary expression:",
+        "options": [
+            "Contains only keywords",
+            "basic expressions containing all necessary functions",
+            "contains variable references alone",
+            "stand-alone expressions"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, the primary expressions also called simplest expressions are those standalone expressions, which do not include any of the simpler expressions. The variable, constant or literal values and certain language keywords are the basic examples of the primary expressions.",
+        "codeblock": "var text =\"testing: 1, 2, 3\";// Sample text\r\nvar pattern =/\\d+/g// Matches all instances of one or more digits"
+    },
+    {
+        "question": "33) Consider the following snippet of JavaScript code:",
+        "options": [
+            "test(text)",
+            "equals(pattern)",
+            "test(pattern)",
+            "text==pattern"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The given pattern is applied on the string \"text\" enclosed in the parenthesis.",
+        "codeblock": "var text =\"testing: 1, 2, 3\";// Sample text\r\nvar pattern =/\\d+/g// Matches all instances of one or more digits"
+    },
+    {
+        "question": "34) Which one of the following is used for the calling a function or a method in the JavaScript:",
+        "options": [
+            "Property Access Expression",
+            "Functional expression",
+            "Invocation expression",
+            "Primary expression"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The invocation expression is one of the JavaScript's syntax which is used for making a function call or calling a method. It always starts with the function expression which identifies the certain function to be called or executed.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "35) The \"new Point(3,2)\", is a kind of _______ expression",
+        "options": [
+            "Object Creation Expression",
+            "Primary Expression",
+            "Invocation Expression",
+            "Constructor Calling Expression"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The object creation expression creates a new object and also invokes a method called constructor in order to initialize the properties of that object. The object creation expressions are just like the invocation expressions except that they prefixed with a keyword commonly known as New.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "36) Which one of the following operator is used to check weather a specific property exists or not:",
+        "options": [
+            "Exists",
+            "exist",
+            "within",
+            "in"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, the \"in\" operator is used to check if a specific property exists. The \"in\" operator is commonly used in looping statements to traverse array and objects as well.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "37) Which one of the following is an ternary operator:",
+        "options": [
+            "?",
+            ":",
+            "-",
+            "+"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In JavaScript, only one ternary operator is supported, known as the conditional operator, which combines three different expressions into one expression. However, the conditional operator can also be used in place of the \"if else\" statements as well.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "38) \"An expression that can legally appear on the left side of an assignment expression.\" is a well known explanation for variables, properties of objects, and elements of arrays. They are called_____.",
+        "options": [
+            "Properties",
+            "Prototypes",
+            "Definition",
+            "Lvalue"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The term \"lvalue\" is one of the historical terms which states that \"an Expression that can appear legally on the left-side of the Assignment Expression\". The properties of objects, elements, and variables are lvalues in JavaScript.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "39) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "False",
+            "True",
+            "Runtime error",
+            "Compilation error"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In the following JavaScript code, the \"?\" is being used which is also known as ternary operator\". Here it is used to choose one option as a choice among the given two options. However, it is often used to write shorter and simple code because it can be used in the place of \"if else\" statements.",
+        "codeblock": "function display1(option)\r\n{\r\n\treturn(option ?  \"true\" :  \"false\");\r\n}\r\n\tbool ans=true;\r\nconsole.log(display1(ans));"
+    },
+    {
+        "question": "40) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "Error",
+            "Undefined",
+            "12",
+            "20"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the above given JavaScript code, the \"in\" operator is used which checks (or performs search) for the specific property. If the certain property is found it returns true otherwise it returns false.",
+        "codeblock": "var  obj=\r\n{\r\n\tlength:20,\r\n\theight:35,\r\n}\r\nif('breadth' in obj === false) \r\n{\r\n\tobj.breadth = 12;\r\n}\r\n \r\nconsole.log(obj.breadth);"
+    },
+    {
+        "question": "41) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "123.56",
+            "Taller",
+            "190",
+            "Little shorter"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In the above given code, the ternary operator is used that works on the 3 operands. The statement in the following code, initialize the type variable with value \"little shorter\" that is returned through the function.",
+        "codeblock": "functionheight()\r\n{\t\r\nvar  height=123.56;\r\nvar type =(height>=190)?\"Taller\":\"Little short\";\r\nreturn type;\r\n}"
+    },
+    {
+        "question": "42) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "Good",
+            "Evening",
+            "GooodEvening",
+            "undefined"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The alert method is commonly used for Displaying the value(or message) passed as argument in the \"dialogbox\" in the web-browser. Here, the alert method concatenates both given strings and prints as a single string in the form of output.",
+        "codeblock": "string  X= \"Good\";\r\nstring  Y=\"Evening\";\r\nalert(X+Y);"
+    },
+    {
+        "question": "43) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "Error",
+            "clean:Italy",
+            "clean:India",
+            "undefined"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the following given code, the \"?\" ternary operator is used for comparing the values and place is determined (or initialized) according to the true condition that whether it returns true (1) or false (0).",
+        "codeblock": "functionoutputfun(object)\r\n{\r\n\tvar place=object ?object.place: \"Italy\";\r\n\treturn \"clean:\"+ place;\r\n}\r\nconsole.log(outputfun({place:India}));"
+    },
+    {
+        "question": "44) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "7",
+            "-7.25",
+            "25",
+            "-7"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the following code, the method \"abs ()\" is used which returns absolute numbers as output hence the correct option is c. In JavaScript, the \"abs ()\" method is one of the methods stored in the library called Math's.",
+        "codeblock": "<p id=\"demo\"></p>\r\n<script>\r\nfunctionourFunction()\r\n{\r\ndocument.getElementById(\"demo\").innerHTML=Math.abs(-7.25);\r\n}\r\n</script>"
+    },
+    {
+        "question": "45) Which one of the following is correct output for the following given JavaScript code:",
+        "options": [
+            "972",
+            "81",
+            "9",
+            "Error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Here the code above uses the \"cbrt ()\" method, which returns the cube root of the number passed in parentheses as an argument. The \"cbrt()\" method is one of the several methods that are found in the library called math's available in the JavaScript.",
+        "codeblock": "<p id=\"demo\"></p>\r\n<script>\r\nfunction Function1()\r\n{\r\ndocument.getElementById(\"demo\").innerHTML=Math.cbrt(792);\r\n}\r\n</script>"
+    },
+    {
+        "question": "46) Which one of the following is correct output for the following given JavaScript code",
+        "options": [
+            "01",
+            "4",
+            "00",
+            "047"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The method \"acos()\" used in the above code returns the arccosine of any number passed in it as an argument. The returned value lies in between 0 and PI radians if the passed value exceeds the limit from -1 to 1, the \"acos()\" methods returns the NaN(also known as Not a Number).",
+        "codeblock": "<p id=\"demo\"></p>\r\n<script>\r\nfunctionmyFunction()\r\n{\r\ndocument.getElementById(\"demo\").innerHTML=Math.acos(0.5);\r\n}\r\n</script>"
+    },
+    {
+        "question": "47) What we will get if we compare the \"one\" with \"8\" using the less than operator (\"one\"<8)?",
+        "options": [
+            "False",
+            "True",
+            "NaN",
+            "Undefined"
+        ],
+        "answer": "Answer: A",
+        "explanation": null,
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "48) Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not:",
+        "options": [
+            "=",
+            "===",
+            "==",
+            "&&"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"==\" called the equality operators, it returns true if both the value are equal otherwise it returns false.",
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "49) Which one of the following operator returns false if both values are equal?",
+        "options": [
+            "!",
+            "!==",
+            "!=",
+            "All of the above"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"!=\" operators returns false if both the given values are equal.",
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "50) In a case, where the value of the operator is NULL , the typeof returned by the unary operator is___.",
+        "options": [
+            "undefined",
+            "string",
+            "boolean",
+            "object"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In all cases, where the operator's value is NULL, then unary operator always returns the typeof object.",
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "51) Check whether the following given statements for the Strictly equal operator are true or false:",
+        "options": [
+            "False True",
+            "False False",
+            "True False",
+            "True True"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The first statement does not follow the properties of strictly equal (===)operator, but second statement follows.",
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "52) Which one of the following is correct output for the following javascriptcode:",
+        "options": [
+            "Letsfindout 40",
+            "40",
+            "Letsfindout40",
+            "Exception"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In JavaScript, the alert method does the typecasting and converts the value of the variable \"valueinit\" to a string after that it concatenates both of the strings and displayed them on the screen.",
+        "codeblock": "var string1 = \"Letsfindout\";\r\n    var intvalue = 40;\r\n    alert( string1 + intvalue );"
+    },
+    {
+        "question": "53) Which one of the following is not a keyword:",
+        "options": [
+            "if",
+            "with",
+            "debugger",
+            "use strict"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"use strict\" is a type of directive which was introduced in ECMAScript5 and as we all know that directives are not the statements because they do not include any language keywords.",
+        "codeblock": "functiondisplayArray(x)\r\n{\r\nvarlen=x.length,i=0;\r\nif(len==0)\r\nconsole.log(\"Empty Array\");\r\nelse\r\n{\r\ndo\r\n{\r\n             console.log(x[i]);\r\n} while (++i"
+    },
+    {
+        "question": "54) Which one of the following symbol is used for creating comments in the javascript:",
+        "options": [
+            "\\\\",
+            "//",
+            "\\* *\\",
+            "\\* */"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The single line comments always starts by the \"//\" and any text written in between the \"// \"and the end of the line is considered as comment and ignored by the JavaScript.",
+        "codeblock": "functiondisplayArray(x)\r\n{\r\nvarlen=x.length,i=0;\r\nif(len==0)\r\nconsole.log(\"Empty Array\");\r\nelse\r\n{\r\ndo\r\n{\r\n             console.log(x[i]);\r\n} while (++i"
+    },
+    {
+        "question": "55) Which of the following is the correct output for the following JavaScript code:",
+        "options": [
+            "Prints the numbers in the array in the reverse order",
+            "Prints the numbers in the array in specific order",
+            "Prints \"Empty Array\"",
+            "Prints 0 to the length of the array"
+        ],
+        "answer": "Answer: B",
+        "explanation": " As we all know, the \"do-while\" statement creates a loop that runs at least once even if the given condition is not satisfied. This is because it runs for the first time before checking the condition, and then executes until the condition becomes false. Therefore, it traverses the array and prints the element of the array on the screen in a specific order.",
+        "codeblock": "functiondisplayArray(x)\r\n{\r\nvarlen=x.length,i=0;\r\nif(len==0)\r\nconsole.log(\"Empty Array\");\r\nelse\r\n{\r\ndo\r\n{\r\n             console.log(x[i]);\r\n} while (++i"
+    },
+    {
+        "question": "56) Which one of the given code will be equivalent for the following JavaScript code:",
+        "options": [
+            "Updation, Incrementation, Initialization",
+            "Initialization, Testing, Incrementation",
+            "Testing, Updation, Testing",
+            "Initialization, Testing, Updation"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The variable in the code A working same ( e.g. traversing the array from the 0 index value) just like it working in the above code. In addition, we can also use the \"For-in\" loop statement for performing the same task more efficiently.",
+        "codeblock": "for(var p in o)\r\n   console.log(o[p]);"
+    },
+    {
+        "question": "57) What are the three important manipulations for a loop on a loop variable?",
+        "options": [
+            "Updation, Incrementation, Initialization",
+            "Initialization, Testing, Incrementation",
+            "Testing, Updation, Testing",
+            "Initialization, Testing, Updation"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In the \"For\" loop statement, the Initialization, Testing, and Updating(and in the same order) are the most significant manipulations. First of all, the Initialization of the variable is done, then the condition gets tested, and after executing the code written in between curly braces, variable's value gets incremented.",
+        "codeblock": "function fun(o)\r\n{\r\nfor(;o.next; o =o.next);\r\nreturn o;\r\n}"
+    },
+    {
+        "question": "58) If the following piece of JavaScript code is executed, will it work if not, what kind of possible error can occur?",
+        "options": [
+            "Yes, it will work fine",
+            "No, this will not iterate at all",
+            "No, it will throw an exception as only numeric's can be used in a for loop",
+            "No, it will produce a runtime error with the message \"Cannot use Linked List\""
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the above-given code, the For loop statement is used for traversing the linked list data structure, which returns the last element of the list. So it is definitely going to work without throwing any exception.",
+        "codeblock": "function fun(o)\r\n{\r\nfor(;o.next; o =o.next);\r\nreturn o;\r\n}"
+    },
+    {
+        "question": "59) What is the role of the \"continue\" keyword in the following piece of JavaScript code?",
+        "options": [
+            "The continue keyword restarts the loop",
+            "The continue keyword skips the next iteration",
+            "The \"continue\" keyword breaks out of the loop",
+            "It is used for skipping the rest of the statements in that particular iteration"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The continue keyword does not get exit from the loop just like break keyword does. It skips the upcoming statements in that iteration form where it gets encountered, and instead of exiting the loop, it moves to the next iteration.",
+        "codeblock": "while (x !=0)\r\n{\r\nif(x ==1)\r\ncontinue;\r\nelse\r\n       x++;\r\n}"
+    },
+    {
+        "question": "60) Which one of the following is not considered as \"statement\" in the JavaScript?",
+        "options": [
+            "use strict",
+            "debugger",
+            "if",
+            "with"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In JavaScript, the \"use strict\" is not a keyword because it not includes any language keywords. However, it is a directive that is introduced in the ECMAscript5 version of the javascript. The \"use strict\" can be used only in the beginning of the script or in the beginning of the function where no actual keywords are mentioned yet.",
+        "codeblock": "functionfun(int length)\r\n{\r\n\tint a=5;\r\n\tfor(inti=0;i"
+    },
+    {
+        "question": "61) What if we define a \"for\" loop and it removes one of the properties that has not yet been enumerated?",
+        "options": [
+            "The removed property will be stored in a cache",
+            "The loop will not run at all",
+            "That property will be enumerated",
+            "That specific property will not be enumerated"
+        ],
+        "answer": "Answer: D",
+        "explanation": " If the body of the \"for\" loop removes any of the property that has been not enumerated yet, normally that property not gets enumerated. If the object of the \"for\" loop statement creates a new property on the object, that property is usually not enumerated.",
+        "codeblock": "functionfun(int length)\r\n{\r\n\tint a=5;\r\n\tfor(inti=0;i"
+    },
+    {
+        "question": "62) Which of the following is the correct response by the interpreter in a jump statement when an exception is thrown?",
+        "options": [
+            "The interpreter will jump to the one of the nearest enclosing exception handler",
+            "The interpreter will throw another exception",
+            "The interpreter will stop working",
+            "The interpreter throws an error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the jumping statement, when an exception is thrown, the interpreter jumps to the closest enclosing exception handler, which may possibly exist in the same function.",
+        "codeblock": "functionfun(int length)\r\n{\r\n\tint a=5;\r\n\tfor(inti=0;i"
+    },
+    {
+        "question": "63) Which one of the following is the possibly correct output for the given JavaScript code?",
+        "options": [
+            "5",
+            "555",
+            "55",
+            "error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In the \"for\" loop statement, first of all, the variable's initialization takes place and checks the condition of the given expression. After that, the statements written in the body of the \"for\" loop statement are executed. The value of the variable gets incremented after each iteration until the condition gets false.",
+        "codeblock": "functionfun(int length)\r\n{\r\n\tint a=5;\r\n\tfor(inti=0;i"
+    },
+    {
+        "question": "64) Which one of the following is the correct output for the given JavaScript code?",
+        "options": [
+            "136",
+            "123",
+            "013",
+            "01"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the \"while\" loop statement, the condition is first checked before executing the statements written in the loop's body. Generally, the value of the counter variable incremented at the end of the body of the \"while\" loop, whereas the statements are executed first.",
+        "codeblock": "var a=0;\r\nvar b =0;\r\nwhile (a <3)\r\n{\r\n\ta++;\r\n\tb += a;\r\n\tconsole.log(b);\r\n}"
+    },
+    {
+        "question": "65) Which of the following options would be the correct output for the given JavaScript code?",
+        "options": [
+            "5555",
+            "5321",
+            "531",
+            "531-1-3"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The value of variable x will decrease 2 times when the loop body executes and the body will execute 4 times until the variable's value of j is 0.",
+        "codeblock": "var size=5;\r\nvar x=5;\r\nvar size=4;\r\nfor(var j=size;j>=0;j--)\r\n{\r\n\tconsole.log(x);\r\n\tx=x-2;\r\n}"
+    },
+    {
+        "question": "66) Which of the following options would be the correct output for the given JavaScript code?",
+        "options": [
+            "10",
+            "error",
+            "4",
+            "5"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The variable's value will increase until it gets equal to 10, then the control will exit the loop's definition. There are no other statements to be executed in the definition of the loop,only the value of the variable \"x\" will be incremented, and the output will be 10.",
+        "codeblock": "var x=0;\r\nfor(x;x<10;x++);\r\nconsole.log(x);"
+    },
+    {
+        "question": "67) Consider the following piece of JavaScript code:",
+        "options": [
+            "It is kind of keyword which is used to debug the entire program at once",
+            "It will do nothing, although it is a breakpoint",
+            "It will debug the error in that statement",
+            "All above mentioned"
+        ],
+        "answer": "Answer: B",
+        "explanation": " A program can contain a number of mistakes like syntax errors, logical errors, etc, and for many of them, there are no alert messages and also no indications to find the mistakes. So, to find the location of the error and to correct that, developer setups the breaking points at the doubted code using the debugger window.",
+        "codeblock": "<script>\r\n\r\nfunction fun(0){\r\n\tif(0===undefined)\r\n\t\tdebugger;\r\n\t\r\n}\r\n\r\n</script>"
+    },
+    {
+        "question": "68) Which one of the following is the correct output for the given JavaScript code?",
+        "options": [
+            "12",
+            "error",
+            "true",
+            "false"
+        ],
+        "answer": "Answer: D",
+        "explanation": " Object.preventExtensions () only prevents adding new properties that have ever been added to an object. This change is not reversible, meaning that once an object becomes non-extensible, it cannot be changed to an extensible.",
+        "codeblock": "const obj ={prop:12};\r\nObject.preventExtensions(obj);\r\nconsole.log(Object.isExtensible(obj));"
+    },
+    {
+        "question": "69) Which one of the following is the correct output for the given JavaScript code?",
+        "options": [
+            "Runtime error",
+            "20",
+            "15",
+            "Compilation error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The object.freeze () method is used to \"freeze\" the properties of an object and also avoids adding new properties to it. This avoids manipulation/change in all existing values, properties, and attributes",
+        "codeblock": "const obj1 ={ property1:'15'};\r\nconst obj2 =Object.freeze(obj1);\r\nobj2.property1='20';\r\nconsole.log(obj2.property1);"
+    },
+    {
+        "question": "70) Which one of the following is the correct output for the given JavaScript code?",
+        "options": [
+            "False",
+            "true",
+            "20",
+            "error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In JavaScript, the \"Object.is() method is one of the built-in methods. This method is used to know whether two values are the same or not. There is also a specific pre-defined method that compares the values and it returns a Boolean value as the result, which indicates whether two arguments are the same or not.",
+        "codeblock": "const object1 ={\r\n  property1:20\r\n};\r\nconsole.log(Object.is(object1));"
+    },
+    {
+        "question": "71) What will be the output of the following JavaScript code?",
+        "options": [
+            "true 21",
+            "true false",
+            "false false",
+            "true true"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, \"Object.getOwnPropertDescriptor()\" provides the ability to query information about a property in detail. It returns a property's descriptor for that property, which directly presents on an object and not present in the object's prototype of the certain object.",
+        "codeblock": "const obj1 =\r\n{\r\n    property1:21\r\n}\r\nconst descriptor1 =Object.getOwnPropertyDescriptor(obj1,'property1');\r\nconsole.log(descriptor1.configurable);\r\nconsole.log(descriptor1.enumerable);"
+    },
+    {
+        "question": "72) Which one of the following is the correct output for the given JavaScript code?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "Error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The method \"Object.getOwnPropertySymbols()\" used in the above program, returns a whole array of symbol properties, that are directly found on an object. In general, it returns an empty array, unless we have already set symbol properties on the object.",
+        "codeblock": "const object1 ={};\r\na = Symbol('a');\r\nb =Symbol.for('b');\r\nobject1[a]='harry';\r\nobject1[b]='derry';\r\nconstobjectSymbols=Object.getOwnPropertySymbols(object1);\r\nconsole.log(objectSymbols.length);"
+    },
+    {
+        "question": "73) What is the basic purpose of the \"toLocateString()\" method?",
+        "options": [
+            "It returns a localised object representation",
+            "It returns a localized string representation of the object",
+            "It return a local time in the string format",
+            "It return a parsed string"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"ToLocatestring ()\" method is one of the pre-defined methods of JavaScript, which returns the localized string representation of the object. For example the \"date.toLocaleSting is also one of the predefined functions of the javascript that is used for converting time and date into a string.",
+        "codeblock": "<script>\r\n\r\no = {x:1, y:{z:[false,null,\"\"]}}; \r\ns = JSON.stringify(o); \r\np = JSON.parse(s);\r\n</script>"
+    },
+    {
+        "question": "74) What kind of work is being performed in the following given part of JavaScript's code?",
+        "options": [
+            "Object Encapsulation",
+            "Object Encoding",
+            "Object Abstraction",
+            "Object Serialization"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In the above give piece of code, the task of Object Serialization is being performed. In this task, the object's state converted into a string, that also can be restored if needed. Another method used in the above-given code is \"JSON.parse()\", which parses a JSON string, object described by the string or constructing javascript value.",
+        "codeblock": "<script>\r\n\r\no = {x:1, y:{z:[false,null,\"\"]}}; \r\ns = JSON.stringify(o); \r\np = JSON.parse(s);\r\n</script>"
+    },
+    {
+        "question": "75) A set of unordered properties that, has a name and value is called______",
+        "options": [
+            "String",
+            "Array",
+            "Serialized Object",
+            "Object"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The Objects in the JavaScript are considered as a set of unordered related data(or properties), reference types, in the form of \"key: value\" pairs. Hence each of the property contains a name and value.",
+        "codeblock": "<script>\r\n\r\nvar article = {\r\n              \"main title\": \"How to learn JavaScript\", \r\n              'sub-title': \"The Definitive Guide\", \r\n              \"for\": \"all audiences\", \r\n              author: { \r\nfirstname: \"Scott\", \r\n                         surname: \"McCall\" \r\n                      }\r\n           }\r\n</script>"
+    },
+    {
+        "question": "76) A collection of elements of the same data type which may either in order or not, is called _____.",
+        "options": [
+            "String",
+            "Array",
+            "Serialized Object",
+            "Object"
+        ],
+        "answer": "Answer: B",
+        "explanation": " An array is a collection of different elements that are of the same data-type. It can place elements in ascending order, in descending order or random order. We can interpret it as a container that contains data items of the same data-type.",
+        "codeblock": "<script>\r\n\r\nvar article = {\r\n              \"main title\": \"How to learn JavaScript\", \r\n              'sub-title': \"The Definitive Guide\", \r\n              \"for\": \"all audiences\", \r\n              author: { \r\nfirstname: \"Scott\", \r\n                         surname: \"McCall\" \r\n                      }\r\n           }\r\n</script>"
+    },
+    {
+        "question": "77) Every object contains three object attributes that are _______.",
+        "options": [
+            "Prototype, class, object's extensible flag",
+            "Prototype, class, objects' parameters",
+            "Class, parameters, object's extensible flag",
+            "Native object, Classes and Interfaces and Object's extensible flag"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In general, each object contains three object associated attributes:",
+        "codeblock": "<script>\r\n\r\nvar article = {\r\n              \"main title\": \"How to learn JavaScript\", \r\n              'sub-title': \"The Definitive Guide\", \r\n              \"for\": \"all audiences\", \r\n              author: { \r\nfirstname: \"Scott\", \r\n                         surname: \"McCall\" \r\n                      }\r\n           }\r\n</script>"
+    },
+    {
+        "question": "78) What will be the output of the following JavaScript code?",
+        "options": [
+            "Properties",
+            "property names",
+            "property values",
+            "objects"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In the above-given code, a nested object (an object inside in the other object) is used, and \"firstname\",\"lastname\" are the properties. The value of that individual property is itself an object.",
+        "codeblock": "<script>\r\n\r\nvar article = {\r\n              \"main title\": \"How to learn JavaScript\", \r\n              'sub-title': \"The Definitive Guide\", \r\n              \"for\": \"all audiences\", \r\n              author: { \r\nfirstname: \"Scott\", \r\n                         surname: \"McCall\" \r\n                      }\r\n           }\r\n</script>"
+    },
+    {
+        "question": "79) The linkage of a set of prototype objects is known as______",
+        "options": [
+            "prototype stack",
+            "prototype",
+            "prototype class",
+            "prototype chain"
+        ],
+        "answer": "Answer: D",
+        "explanation": " Suppose, A Time.prototype inherits some properties from the Object.prototype,So a Time Object created by using new Time() holds properties from both the object Time.prototype and Object.prototype. Hence this connected series of prototype object is known as prototype's chain.",
+        "codeblock": "article[datatype]=assignment_value;"
+    },
+    {
+        "question": "80) In the following line of code, what we will call the \"datatype\" written in brackets?",
+        "options": [
+            "An String",
+            "A integer",
+            "An object",
+            "Floating point"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the above-given line of code, the value within the square brackets is used for accessing the property of that object. While using square brackets, the expression always evaluates to the string, or in the form of a value that is converted into a string.",
+        "codeblock": "article[datatype]=assignment_value;"
+    },
+    {
+        "question": "81) To know about an object, whether the object is a prototype (or a part of a prototype chain) of another object, the user can use_______",
+        "options": [
+            "==operator",
+            "equals() method",
+            "=== operator",
+            "isPrototypeOf() method"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The prototype is a kind of global property that is available with nearly all objects. In order to know about an object, whether the object is a prototype (or a part of a prototype chain) of another object, the user can use the \"isPrototypeOf()\" method. For example, if the user wants to find out about z whether it is a prototype of \"s\" or not, user can write z.isPrototypeOf(s).",
+        "codeblock": "functionx(){};"
+    },
+    {
+        "question": "82) In the following given line of code, the prototype representing the_____",
+        "options": [
+            "Function x",
+            "Prototype of a function",
+            "A custom constructor",
+            "Not valid"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In general, every object instance has a unique property which indicates the constructor function that created it. A \"custom\" constructor is a kind of constructor that not needed any argument (or we can say constructor without argument) and it is created by the compiler automatically at the time of object creation if it is not created by user.",
+        "codeblock": "functionx(){};"
+    },
+    {
+        "question": "83) What will be the output obtained by \"shift ()\" in the given code of JavaScript?",
+        "options": [
+            "Exception is thrown",
+            "[4,5]",
+            "[3,4,5]",
+            "5"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, the \"unshift()\",\" shift()\" methods work like just as push() and pop() but with a slight change, unlike the push and pop the unshift(), unshift() both insert and remove a data item from the beginning instead of from the end of the array. The \"unshift()\" is used for inserting the data element/item in the beginning of the array while the \"shift()\" method shifts the data item to the beginning of the array from the higher index, empty the last index of the array and returns the updated length of the array.",
+        "codeblock": "var a =[];\r\na.unshift(5);\r\na.unshift(22);\r\na.shift();\r\na.unshift(3,[4,5]);\r\na.shift();\r\na.shift();\r\na.shift();"
+    },
+    {
+        "question": "84) Which one of the following options is the correct output for the given code of java script?",
+        "options": [
+            "70",
+            "75",
+            "482",
+            "error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"forEach()\" method used in the above given code is one of the built-in method of JavaScript. This method traverses the whole array just like we use the \"for\" loop to traverse the array. The term traverse is referred to \"going or accessing each element of the array at least one time\".",
+        "codeblock": "var sum=0;\r\n \r\nvararr=[101,150,201,30];\r\n \r\narr.forEach(functionmyFunction(element)\r\n{\r\n\tsum=sum+element;\r\n});\r\ndocument.writeln(sum);"
+    },
+    {
+        "question": "85) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "One",
+            "two",
+            "three",
+            "error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"shift()\" method used in the given code is one of the predefined method in JavaScript. This method is used to remove the data elements from the beginning and return it along with the new length of array. We can say that the \"shift()\" method works like the \"pop\" method except it removes the data element from the starting of array unlike the \"pop\" which removes from the end of the array.",
+        "codeblock": "var values=[\"Three\",\"two\",\"one\"];\r\nvarans=values.shift();\r\ndocument.writeln(ans);"
+    },
+    {
+        "question": "86) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "1, 2, 3,4",
+            "4, 3, 2, 1",
+            "3",
+            "1"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"reverse()\" method used in the above given code is one of the predefined methods of the JavaScript, which is used to shift the data elements of an array in a reverse order.",
+        "codeblock": "vararr=[4,3,2,1];\r\nvar rev=arr.reverse();\r\ndocument.writeln(rev);"
+    },
+    {
+        "question": "87) Which one of the following options is the correct output for the given code of javascript?",
+        "options": [
+            "Error",
+            "5, 6, 7",
+            "4, 5, 6,",
+            "4, 5, 6, 7"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"slice()\" method used in the above program a built-in function of the JavaScript and it is used to delete/remove the data items from the array. In general, it requires two arguments,in which first one for starting point and another one for the ending point. For example, consider the following given code:",
+        "codeblock": "var values=[4,5,6,7]\r\nvarans=values.slice(1);\r\ndocument.writeln(ans);"
+    },
+    {
+        "question": "88) Which one of the following method or operator is used for identification of the array?",
+        "options": [
+            "Typeof",
+            "==",
+            "===",
+            "isarrayType()"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, the \"typeof\" operator is used for knowing the data type of the specified operand that can be a data structure or literal like an object, method, and variable.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "89) For which purpose the array \"map()\" methods is used ?",
+        "options": [
+            "It used for mapping the elements of another array into itself.",
+            "It passes each data-item of the array and returns the necessary mapped elements.",
+            "It passes the data-items of an array into another array.",
+            "It passes every element of the array on which it is invoked to the function you specify, and returns an array containing the values returned by that function."
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"map()\" method is one of the built-in methods of the JavaScript that is used for mapping the data-items of the array, which can be used later for some other purpose. It passes every element of the array on which it is invoked to the function we specify, and returns an array containing the values returned by that function.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "90) Both the \"rduucedRight()\" and \"reduce()\" methods follow which one of the following common operation?",
+        "options": [
+            "inject and fold",
+            "filter and fold",
+            "finger and fold",
+            "fold"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In JavaScript, the reduce() method reduces the size of the array to a single value. This method executes a provided specific method on each data-item or element of the array in the left to right manner. It stored the value returned by the function in an accumulator. However, it does not execute the provided function on the array's elements, which has no value.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "91) Which one of the following given task is performed by the \"pop()\" method of the array?",
+        "options": [
+            "Itupdates the element of the array",
+            "it increments the total length of the array by 1",
+            "It prints the first element and made no impact on the length of the array",
+            "updates the element removes one element of an array on each time the \"pop()\" function called"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"pop()\" method is used for removing the last element of the array, or we can say, it removes/deletes the element from the tail-side of an array. Hence every time the \"pop()\" method is called, the value of the array's length gets decremented by one.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "92) What will happen if we use the \"join()\" method along with the \"reverse()\" method?",
+        "options": [
+            "It will reverse and concatenates the elements of the array",
+            "It will reverse the element and store the elements in the same array",
+            "It will just reverse the element of the array",
+            "It will store the elements of the specified array in the normal order"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"array.join()\" method is one of the predefined methods of the JavaScript. It is used for joining the data-items of an array and converts them into a string. The \"Reverse()\" method, which is used along with it, reverses the specified array, and it stores the array into the memory once it gets reversed.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "93) What will be the output of the following given code of JavaScript?",
+        "options": [
+            "true true",
+            "false true",
+            "true false",
+            "false true"
+        ],
+        "answer": "Answer: C",
+        "explanation": " As we can see in the given code, the \"x1\" array is defined but with the null values by which we can easily access the index 0,1,2 of it. We can access the largest index of the array in which any value or even null value is defined. In the \"x2\" array, we cannot access the index 0 because the \"x2\" array is declared, but it is not defined till now.",
+        "codeblock": "var x1 =[,,,];\r\nvar x2 =newArray(10);\r\n0in x1 \r\n0in x2"
+    },
+    {
+        "question": "94) What will happen if we execute the following piece of code?",
+        "options": [
+            "The output will be 4 3 1",
+            "The output will be 4 3 undefined 1",
+            "It will result in an error",
+            "It does not run at all"
+        ],
+        "answer": "Answer: B",
+        "explanation": " In JavaScript, if user defines an array and does not define value of any element, there will be no error. But if user tries to print the element of the array whose value is not defined, it will print the \"undefined\" as the value of that element.",
+        "codeblock": "<script>\r\n\r\nvar arr=[4,3,,1];  \r\n  for(i=0;i<4;i++){\r\ndocument.writeln(arr[i]);\r\n}\r\n</script>"
+    },
+    {
+        "question": "95) What output we may get if we execute the following JavaScript code:",
+        "options": [
+            "0124",
+            "01234",
+            "It will throw a error",
+            "No output"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In the above-given code, the \"continue\" keyword mentioned which is commonly used in loops for skipping the specific iteration of a loop and jumping to the next iteration of the loop without exiting the loop's body. As you can see in the above code when the value of variable \"i\" gets equal to the 3, the \"continue\" keyword executed and control skips current iteration and jump to the next iteration.",
+        "codeblock": "<script>\r\nfunction myFunction() {\r\n\r\n  var i;\r\n  for (i = 0; i< 5; i++) {\r\n    if (i === 3) {\r\n      continue;\r\n    }\r\ndocument.write(i);\r\n  }\r\n\r\n}\r\nmyFunction();\r\n</script>"
+    },
+    {
+        "question": "96) What will be the output of the following JavaScript code?",
+        "options": [
+            "1, 2, 3",
+            "Error",
+            "It will concatenate both the stings and print as 1, 2, 3, 4, 5, 6, 7, 8, 9 ,10",
+            "It will print nothing"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In JavaScript, the \"concat()\" is a predefined method which is used to join the values of two arrays. Both the arrays can contain string or the integers.",
+        "codeblock": "<script>\r\nvar string1=[1,2,3];\r\n\r\nvar string2=[4,5,6,7,8,9,10];\r\nvar result=string1.concat(string2);\r\ndocument.writeln(result);\r\n</script>"
+    },
+    {
+        "question": "97) What is the primary role of the \"return ()\" statement in a function body?",
+        "options": [
+            "It returns the value and continues executing rest of the statements",
+            "It returns the value and stops the program execution",
+            "Stops executing the function and returns the value",
+            "It returns the value and stops executing the function"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In general, the \"return\" statement is the last statement in the body of function if the function is return-type. Whenever the return statement gets encountered in the definition of the function, the execution of the function will stop, and it returns the stored value to the statement where the function call has been made.",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "98) If a function which does not return a value is known as _____",
+        "options": [
+            "Static function",
+            "Procedures",
+            "Method",
+            "Dynamic function"
+        ],
+        "answer": "Answer: B",
+        "explanation": " Functions that do not return any value are known as void functions and are sometimes called processes.",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "99) The execution of a function stops when the program control encounters the _________ statement in the body of the function.",
+        "options": [
+            "return statement",
+            "continue statement",
+            "break statement",
+            "goto statement"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Whenever a \"return\" statement is encountered by the program control inside the function's definition, it stops the execution of that function. Statements such as \"break\" and \"continue\" are commonly used in the definition of a loop to jump out of the loop (or to skip the rest statements inside the definition of the loop)",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "100) In which events/scenarios, A function name gets optional in JavaScript?",
+        "options": [
+            "When a function is defined as a looping statement",
+            "When the function is called",
+            "When a function is defined as expressions",
+            "When the function is predefined"
+        ],
+        "answer": "Answer: C",
+        "explanation": " A function name becomes optional when it is defined as an \"Expression\". For Example",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "101) In JavaScript, the definition of a function starts with____",
+        "options": [
+            "With the Return type, Function keyword, Identifier and Parentheses",
+            "With the Identifier and Parentheses",
+            "With the Return type and Identifier",
+            "With the Identifier and Return type"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The definition of any function always begins with a \"keyword\" function, followed by an identifier which is the name of the function as well as with a pair of parentheses that cover the list of identifiers. If the list of identifiers includes more than one identifier, they are separated by commas.",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "102) What happens if the return statement has no related expression?",
+        "options": [
+            "It will return a undefined value",
+            "It will throw a exception",
+            "It will return the 0 as the value",
+            "It will throw a error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Suppose a function that does not have a return statement in its definition returns a default value. Although the return statement is mentioned in the definition, but not associated with the expression, then it will return the value known as \"undefined.\"",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "103) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "Prints the contents of each property of o",
+            "Prints the address of elements",
+            "Prints only one property",
+            "Returns undefined"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The output of the above JavaScript code will be undefined.",
+        "codeblock": "<script>\r\nfunctionprintprops(o)\r\n{\r\nfor(var ain o)\r\nconsole.log(a+\": \"+ o[a]+\"\\n\");\r\n}\r\n</script>"
+    },
+    {
+        "question": "104) Which one of the following code is equivalent to call a function \"x\" of the class \"a\" which have two arguments g and h?",
+        "options": [
+            "a,x(g,h);",
+            "x(g) &&a.x(g);",
+            "x(a,g);",
+            "(g,h);"
+        ],
+        "answer": "Answer: A",
+        "explanation": " If a function has more than one argument, it is separated by commas. The above code is an invoked expression: in which a function a.x and two arguments \"g\" and \"h\" are separated by commas.",
+        "codeblock": "a.x(g,h);"
+    },
+    {
+        "question": "105) Which one of the following code is equivalent to the following given code?",
+        "options": [
+            "x (g) &&a.x (h);",
+            "a [ \"x\" ] ( g , h );",
+            "a (x )[ \"g\" , \"h\" ];",
+            "x( g&&h );"
+        ],
+        "answer": "Answer: B",
+        "explanation": " We can use the alternate code to perform the same task of accessing the properties of the object <a.x(g,h) is a[\"x\"](g,h).a[\"x\"] > and the parenthesis will access the function \"x\" mentioned in it.",
+        "codeblock": "a.x(g,h);"
+    },
+    {
+        "question": "106) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "2",
+            "3",
+            "0",
+            "Error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " In JavaScript, document.write () is a predefined method which is used for printing output to the console. Here another function in the document.write () method is passed as an argument that returns the multiplication of variables a and b.",
+        "codeblock": "functionfun()\r\n{\r\nvar a=1;\r\nvar b=2;\r\nreturn a*b;\r\n}\r\ndocument.write(fun());"
+    },
+    {
+        "question": "107) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "7",
+            "11",
+            "3",
+            "9"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"apply()\" used in the above given code is a pre-defined method in which an array is passed as an argument and another argument passed a NULL. Here this method searches for the largest integer in the whole array.",
+        "codeblock": "vararr=[1, 3, 5, 8 ,11];\r\nvar value =Math.max.apply(null,arr);\r\ndocument.writeln(value);"
+    },
+    {
+        "question": "108) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "James",
+            "compilation error",
+            "runtime error",
+            "undefined"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"bind()\" function mentioned in the above-given code, is used for creating a new function which contains its own set of keywords by default.",
+        "codeblock": "var person =\r\n{\r\n      name: \"James\",\r\ngetName:function()\r\n{\r\nnreturnthis.name;\r\n}\r\n}\r\nvarunboundName=person.getName;\r\nvarboundName=unboundName.bind(person);\r\ndocument.writeln(boundName());"
+    },
+    {
+        "question": "109) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "James Deo",
+            "compilation error",
+            "runtime error",
+            "undefined"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"call()\" method mentioned in the above given piece of code, is used of calling a function in which the \"this\" is passed as an argument. It returns the output given by the calling function.",
+        "codeblock": "function code(id,name)\r\n{\r\n\t\tthis.id= id;\r\n\t\tthis.name= name;\r\n}\r\nfunctionpcode(id,name)\r\n{\r\n\t\tcode.call(this,id,name);\r\n}\r\ndocument.writeln(newpcode(004,\"James Deo\").id);"
+    },
+    {
+        "question": "110) Which one of the following options is the correct output for the given code of JavaScript?",
+        "options": [
+            "8",
+            "3",
+            "6",
+            "Error"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The \"pow()\" method used in the above code is one of the built-in methods which are available in the math's library of the JavaScript . This methodaccepts two arguments in which the power of the first argument is calculated with respect to the other argument.",
+        "codeblock": "var pow=newFunction(\"num1\",\"num2\",\"return Math.pow(num1,num2)\");\r\ndocument.writeln(pow(2,3));"
+    },
+    {
+        "question": "111) Which one of the following keywords is used for defining the function in the JavaScript?",
+        "options": [
+            "Void",
+            "init",
+            "main",
+            "function"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, a function is defined by using the \"function\" keyword along which function is named, followed by the () parenthesis. A function name can contain the dollar's signs, underscores, letters and even the digits.",
+        "codeblock": "functionconcatenate()\r\n{\r\nreturnString.prototype.concat('', arguments);\r\n}"
+    },
+    {
+        "question": "112) In JavaScript, do the functions always return a value?",
+        "options": [
+            "Yes, functions always returns a value",
+            "No, it is not necessary",
+            "A number of functions return values by default",
+            "some functions do not return any value"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In JavaScript, a number of functions that contain a return statement usually return a value. The functions which does not have the return statement in their definition does not return any value but few of them also return value by default even if they do not contain a return statement.",
+        "codeblock": "functionconcatenate()\r\n{\r\nreturnString.prototype.concat('', arguments);\r\n}"
+    },
+    {
+        "question": "113) Which one of the following codes is correct for concatenating the strings passed into the function?",
+        "options": [
+            "10",
+            "12",
+            "8",
+            "9"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"concat()\" method is a predefined method of the JavaScript which is used for joining the two or more arrays. The significant advantage of using this method is instead of making changes in the existing array it returns a newly created array. The \".apply\" method is also predefined method just like the\" concat()\", and it takes arrays of arguments and consider the every element of that array as an individual argument.",
+        "codeblock": "functionconcatenate()\r\n{\r\nreturnString.prototype.concat('', arguments);\r\n}"
+    },
+    {
+        "question": "114) Which of the following values will be returned by the last statement in the given code?",
+        "options": [
+            "10",
+            "12",
+            "8",
+            "9"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The code given in the following question creates at least 10 closures, stores them as an array.Closures are all specified within the same function invocation, so they share access to the variable i.At the time of \"constfun()\" method returns 10 as the value of the variable i, all closures shares this value. So, all functions in a given array of functions return the exact same value.",
+        "codeblock": "functionconstfun()\r\n{\r\nvar fun =[];\r\nfor(vari=0;i<10;i++)\r\n        fun[i]=function(){returni;};\r\nreturn fun;\r\n}\r\nvar fun =constfun();\r\nfun[5]()"
+    },
+    {
+        "question": "115) What will be the correct output of the following JavaScript code?",
+        "options": [
+            "1.01",
+            "1.10",
+            "1.05",
+            "1.11"
+        ],
+        "answer": "Answer: B",
+        "explanation": " The \"atan2()\" method used in the given code returns the arctangent of the quotient of its arguments, as the numeric values between -PI and PI radians. The returned digit represents the counterclockwise angle in radians (instead of degrees) between the positive X-axis and the point (x,y).",
+        "codeblock": "<p id=\"demo\"></p>\r\n<script>\r\nfunctionFunct()\r\n{\r\ndocument.getElementById(\"demo\").innerHTML=Math.atan2(8,4);\r\n}\r\n</script>"
+    },
+    {
+        "question": "116) What will be the correct output of the following JavaScript code?",
+        "options": [
+            "0.80",
+            "0.78",
+            "0.50",
+            "0.88"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The \"asinh()\" method used in the given code is a predefined method available in the math's library of the JavaScript which returns the hyperbolic arcsine of a number.",
+        "codeblock": "<p id=\"demo\"></p>\r\n<script>\r\nfunctionmyFunc()\r\n{\r\ndocument.getElementById(\"demo\").innerHTML=Math.asinh(1);\r\n}\r\n</script>"
+    },
+    {
+        "question": "117) What will happen if we execute the following code of JavaScript?",
+        "options": [
+            "Memory leak",
+            "Error",
+            "Exception will be thrown",
+            "Yes, perfectly"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The function name is optional for functions defined as expressions. Function expressions are sometimes defined and implemented immediately.",
+        "codeblock": "vartensquared=(function(x){return x*x;}(10));"
+    },
+    {
+        "question": "118) What output will come if we run the following part of the JavaScript code?",
+        "options": [
+            "Exception",
+            "123abc",
+            "123",
+            "NaN"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"parseIn()\" is a pre-defined method of the JavaScript that parses a string, and as a result, it returns an integer. It also returns the first digit as 0 if the string does not contain an integer in the first place.",
+        "codeblock": "var string2Num=parseInt(\"123abc\");"
+    },
+    {
+        "question": "119) Which one of the given options can be considered as a code equivalent to the following code?",
+        "options": [
+            "var o= new Object;",
+            "var o;",
+            "var o = Object();",
+            "Object o=new Object();"
+        ],
+        "answer": "Answer: C",
+        "explanation": " In JavaScript, as the only particular case of the \"new\" operator, the grammar is simplified by JavaScript by allowing the parentheses to be removed when there are no arguments passed in the function calling. So, user can neglect the empty pair of parentheses in every case of constructor invocation, in which there are no arguments.",
+        "codeblock": "var o =newObject();"
+    },
+    {
+        "question": "120) If the following lines of code differ, what is the difference?",
+        "options": [
+            "The first line results in a realBoolean value whereas the second line merely checks for the existence of the objects",
+            "Both the lines of code A and B will result in a Boolean value \"False\"",
+            "Both the lines of code A and B will check just for the existence of the object alone",
+            "Both the lines of code A and B will result in a Boolean value \"True\""
+        ],
+        "answer": "Answer: A",
+        "explanation": " Code A will return output in the form of a \"real\" boolean value because we first do what is written inside the parentheses, but then negate it again immediately. Therefore, it is saying something that is not true, makes it true.",
+        "codeblock": "!!(obj1 && obj2);"
+    },
+    {
+        "question": "121) In the following code, what value should the variable \"a\" contain?",
+        "options": [
+            "Null",
+            "0",
+            "2",
+            "Undefined"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"counter()\" method used in the above code made increment in the value of the variable by one each time it is called, and the\" reset()\" function resets the value of that variable to zero. Therefore if we look carefully, we can see that on variable \"y\" the \"counter()\" method was called two times, and the \"reset()\" method was not called even for one time, so the value of the variable y will be 2.",
+        "codeblock": "var x =counter(), y = counter();\r\nx.count()\r\ny.count()\r\nx.reset()\r\nx.count()\r\ny.count()"
+    },
+    {
+        "question": "122) Which one of the given options can be considered as the correct output of the following code?",
+        "options": [
+            "12",
+            "13",
+            "15",
+            "Error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"addition()\" function was defined in the first line of code using the \"new\" property. In the second line of code, the addition function is called along with two passed arguments as 10, 5 inside the \"document.write()\" method, which prints the sum of two passed arguments returned by the \"addition()\" method.",
+        "codeblock": "var addition=newFunction(\"number1\",\"number2\",\"return number1+number2\");\r\ndocument.writeln(addition(10,5));"
+    },
+    {
+        "question": "123) Which one of the following is not a example of closures?",
+        "options": [
+            "Graphics",
+            "Variables",
+            "Functions",
+            "Objects"
+        ],
+        "answer": "Answer: A",
+        "explanation": " A closure is created each time a function is created in JavaScript. In general, we can say that all the closures are function or vice versa, and function has a scope chain associated with them.",
+        "codeblock": "var scope =\"global scope\";\r\nfunctioncheckingscope()\r\n{\r\nvar scope =\"local scope\";\r\nfunctionf()\r\n{\r\nreturn scope;\r\n}\r\nreturn f;\r\n}"
+    },
+    {
+        "question": "124) What output will be returned by the function in the following code?",
+        "options": [
+            "It will returns the value in scope",
+            "It will returns value null",
+            "It will returns an exception",
+            "It will show an error message"
+        ],
+        "answer": "Answer: A",
+        "explanation": " Each block of code, function, or script as a whole always has an object, associated with them, called a Lexical environment. Therefore, the JavaScript code given in the above question will return the value in scope.",
+        "codeblock": "var scope =\"global scope\";\r\nfunctioncheckingscope()\r\n{\r\nvar scope =\"local scope\";\r\nfunctionf()\r\n{\r\nreturn scope;\r\n}\r\nreturn f;\r\n}"
+    },
+    {
+        "question": "125) What is the primary rule of the Lexical Scoping?",
+        "options": [
+            "Functions are always declared in the scope",
+            "Variables are declared inside the function",
+            "Functions are always declared outside the scope",
+            "Functions gets executes using scope chain"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The fundamental rule of lexical scoping is that: In the JavaScript, A function gets executed using the scope chain which was in effect, when they are defined.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "126) What is required in order to implement the Lexical Scoping?",
+        "options": [
+            "To reference the current scope chain",
+            "Dereference the current scope chain",
+            "Get the object",
+            "Return the value"
+        ],
+        "answer": "Answer: A",
+        "explanation": " It is necessary to include not only that function's code in the internal state of the function's object, but also to provide references to the current scope chain.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "127) Which one of the following utilize the CPU cycles in a massive manner?",
+        "options": [
+            "GUI (Graphic User Interface)",
+            "Statically generated graphics",
+            "Generic scoping",
+            "Dynamically generated graphics"
+        ],
+        "answer": "Answer: D",
+        "explanation": " The term \"Dynamic generated graphic\" refers to simulate movement, motion, or generating a specific environment using the computer. It can also be thought of as multiple plots associated with time. Hence the graphics generated in the dynamic manner from the real time data utilize the huge part of the CPU cycles.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "128) In JavaScript, what kind of scoping is used?",
+        "options": [
+            "Literal scoping",
+            "Sequential scoping",
+            "Segmental scoping",
+            "Lexical scoping"
+        ],
+        "answer": "Answer: D",
+        "explanation": " In JavaScript, the lexical scoping is used just like many other modern languages.This means a function gets executed using the scope chain which was in effect, when they are defined instead of variable scope which was in effect when they are invoked/called.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "129) What are the closures?",
+        "options": [
+            "Both Function objects and Scope where function's variables are resolved",
+            "Scope where function's variables are resolved",
+            "Function objects",
+            "Function return value"
+        ],
+        "answer": "Answer: C",
+        "explanation": " A closure can be referred as the set of a function's object and a scope (a group of variable bindings) in which the variables of that functions are resolved is known as the closure.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "130) Which one of the following can be considered as the opposite approach of the Lexical Scoping?",
+        "options": [
+            "Dynamic scoping",
+            "Literal scoping",
+            "Static scoping",
+            "Generic scoping"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The dynamic scoping can be considered as the opposite approach to the lexical scoping. In the dynamic scoping, it does not matter that how the code is written but what matters is how's the code executes. At the time of execution of every new function, a new scope associated with it gets pushed onto the stack and this scope normally stored along with the function call stack.At that point, when a variable is referenced in a function's definition, the scope is immediately checked in every call stack to know if it returns a value.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "131) Which one of the following algorithmic languages is not the lexical scoping standardized in?",
+        "options": [
+            "Html",
+            "Ada",
+            "Pascal",
+            "Modula2"
+        ],
+        "answer": "Answer: A",
+        "explanation": " The Lexical scoping is Standardized in all following given algorithmic languages except the HTML.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "132) What will be the output of the following JavaScript code?",
+        "options": [
+            "False",
+            "1",
+            "0",
+            "True"
+        ],
+        "answer": "Answer: D",
+        "explanation": " A \"constructor \" is a function property of any class that is typically used for object of that class . In the above given code, both 1,2 statements are creating the instance of the class.",
+        "codeblock": "var o =newF();  // statement 1\r\no.constructor=== F // statement 2"
+    },
+    {
+        "question": "133) Which one of the given options can be considered as the correct output for the following JavaScript code?",
+        "options": [
+            "Undefined",
+            "18,1",
+            "7,1",
+            "Error"
+        ],
+        "answer": "Answer: C",
+        "explanation": " The \"object.assign()\" method mentioned in the above code, is used for copying the values and properties of one object to another. Here the objects are assigned and will be copied by the reference.",
+        "codeblock": "const obj1 =\r\n{\r\n\ta:10,\r\n\tb:15,\r\n\tc:18\r\n};\r\nconst obj2 =Object.assign({c:7, d:1}, obj1);\r\nconsole.log(obj2.c, obj2.d);"
+    },
+    {
+        "question": "134) Which of the following POSIX signals generate events?",
+        "options": [
+            "SIGINT",
+            "SIGDOWN",
+            "SIGFLOAT",
+            "SIGSHORT"
+        ],
+        "answer": "Answer: A: \"SIGINT\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "135) Which HTML element is used to put the JavaScript code?",
+        "options": [
+            "<javascript>",
+            "<js>",
+            "<scripting>",
+            "<script>"
+        ],
+        "answer": "Answer: D: \"<script>\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "136) Which of the following statement is not correct in the case of JavaScript?",
+        "options": [
+            "JavaScript is a light-weighted and interpreted language.",
+            "JavaScript is a high-level programming language.",
+            "JavaScript is a case-sensitive language.",
+            "JavaScript provides reasonable control to the users over the web browsers."
+        ],
+        "answer": "Answer: B: JavaScript is a high-level programming language.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "137) Why is JavaScript called a structured programming language?",
+        "options": [
+            "Because all popular web browsers support JavaScript as they provide built-in execution environments",
+            "Because it is an object-oriented programming language that uses prototypes rather than using classes for inheritance",
+            "Because it follows the syntax and structure of the C programming language, which is a structured programming language",
+            "Because it ignores spaces, tabs, and newlines that appear in JavaScript programs"
+        ],
+        "answer": "Answer: C: \"Because it follows the syntax and structure of the C programming language which is a structured programming language,\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "138) Which of the following is the correct syntax to print a page using JavaScript?",
+        "options": [
+            "print();",
+            "print();",
+            "print();",
+            "print();"
+        ],
+        "answer": "Answer: B: \"window.print(); \" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "139) Which of the following is not a JavaScript Data Types?",
+        "options": [
+            "Boolean",
+            "Undefined",
+            "Number",
+            "Float"
+        ],
+        "answer": "Answer: D: \"Float\" is the correct answer. JavaScript supports only the following Data types:\nNumber, String, Boolean, Object, and Undefined",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "140) Which of the following is the correct JavaScript syntax to access the element using HTML code?",
+        "options": [
+            "getElement (\"availablecourse\").innerHTML = \"See the list of availablecourse\";",
+            "getElementById (\"availablecourse\").innerHTML = \"See the list of availablecourse\";",
+            "getId (\"availablecourse\") = \"See the list of availablecourse\";",
+            "getElementById (\"availablecourse\").innerHTML = See the list of availablecourse;"
+        ],
+        "answer": "Answer: document.getElementById (\"availablecourse\").innerHTML = \"See the list of availablecourse\"; is the correct answer. To access the content written under that id, we have to use the.innerHTML to specify that and finally replace the content with whatever is written inside the quotes.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "141) Which of the following function of the Array object is used to add one or more elements to the front of an array and returns the new length of the array?",
+        "options": [
+            "splice()",
+            "unshift()",
+            "sort()",
+            "toString()"
+        ],
+        "answer": "Answer: B: \"unshift()\" is the correct answer. It is used to add one or more elements to the front of an array and returns the new length of the array.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "142) Which of the following syntax is correct to refer to an external script called \"LFC.js\"?",
+        "options": [
+            "<script source=\"LFC.js\">",
+            "<script ref=\"LFC.js\">",
+            "<script src=\"LFC.js\">",
+            "<script type=\"LFC.js\">"
+        ],
+        "answer": "Answer: C: <script src=\"LFC.js\"> is the correct answer. The \"src\" is used to refer to any JavaScript file.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "143) Which of the following syntax can be used to write \"Hello World\" in an alert box?",
+        "options": [
+            "alertBox(\"Hello World\");",
+            "msgBox(\"Hello World\");",
+            "alert(\"Hello World\");",
+            "msg(\"Hello World\");"
+        ],
+        "answer": "Answer: C: \"alert(\"Hello World\");\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "144) Which of the following is not a JavaScript framework or library?",
+        "options": [
+            "Polymer",
+            "Meteor",
+            "jQuery",
+            "Cassandra"
+        ],
+        "answer": "Answer: D: \"Cassandra\" is the correct answer. It is not a JavaScript framework or library. It is a distributed database from Apache.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "145) Why does the name of JavaScript and Java are similar?",
+        "options": [
+            "JavaScript is a stripped-down version of Java.",
+            "The syntax of JavaScript is loosely based on the syntax of Java.",
+            "JavaScript and Java both are originated on the island of Java.",
+            "None of the above"
+        ],
+        "answer": "Answer: B: \"The syntax of JavaScript is loosely based on the syntax of Java\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "146) Which of the following is the correct statement of WHILE loop start?",
+        "options": [
+            "while (i <= 10)",
+            "while (i <= 10; i++)",
+            "while i = 1 to 10",
+            "None of These"
+        ],
+        "answer": "Answer: A: \"while (i <= 10)\" is the correct answer.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "147) What was the original name of JavaScript when it discovered?",
+        "options": [
+            "LiveScript",
+            "EScript",
+            "JScript",
+            "Mocha"
+        ],
+        "answer": "Answer: D: \"Mocha\" is the correct answer. When JavaScript was discovered, it was initially called Mocha, then renamed to LiveScript, and finally to JavaScript when Netscape and Sun did a license agreement. It was named JavaScript because, at that time, it was made as a scripting language complementary to Java.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "148) Which of the following is the correct way to write a comment in JavaScript code?",
+        "options": [
+            "//This is a comment",
+            "/*This is a comment*/",
+            "$This is a comment$",
+            "**This is a comment**"
+        ],
+        "answer": "Answer: A: //This is a comment is the correct option.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "149) What would be the output of the following Javascript code?",
+        "options": [
+            "Fee 10000",
+            "10000",
+            "Fee10000",
+            "Exception"
+        ],
+        "answer": "Answer: C: Fee10000 is the correct answer. After concatenation, both the strings are shown as a concatenated string.",
+        "explanation": null,
+        "codeblock": "var string1 = \"Fee\";\r\nvar intvalue = 10000;\r\nalert( string1 + intvalue );"
+    },
+    {
+        "question": "150) Which of the following JavaScript operator is used to assign a value to a variable based on some condition?",
+        "options": [
+            "Assignment operator",
+            "Bitwise Operator",
+            "Conditional operator",
+            "Logical Operator"
+        ],
+        "answer": "Answer: C: Conditional operator is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "151) Which of the following variables are used in JavaScript programs?",
+        "options": [
+            "Varying randomly",
+            "Causing high-school algebra flashbacks",
+            "Storing numbers, dates, or other values",
+            "None of the above"
+        ],
+        "answer": "Answer: C: \"Storing numbers, dates, or other values\" is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "152) What are the three crucial manipulations done in a \"for loop\" on a loop variable in JavaScript?",
+        "options": [
+            "The initialization, the Increment, and update",
+            "The initialization, the test, and the update",
+            "The initialization, the test, and Increment",
+            "All of the above"
+        ],
+        "answer": "Answer: B: \"The initialization, the test, and the update\" is the correct answer. In a \"for loop\", these three are very crucial manipulations.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "153) Which of the following is the correct syntax to create a cookie using JavaScript?",
+        "options": [
+            "cookie = 'key1 = value1; key2 = value2; expires = date';",
+            "cookie = 'key1 = value1; key2 = value2; expires = date';",
+            "cookie = 'key1 = value1; key2 = value2; expires = date';",
+            "cookie = 'key1 = value1; key2 = value2; expires = date';"
+        ],
+        "answer": "Answer: A: document.cookie = 'key1 = value1; key2 = value2; expires = date'; is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "154) What are the different alternatives of == and != in JavaScript?",
+        "options": [
+            "It uses bitwise checking",
+            "It uses === and !== instead",
+            "It uses equals() and notequals() instead",
+            "It uses equalto()"
+        ],
+        "answer": "Answer: B: It uses === and !== instead is the correct answer. In JavaScript, the == and != operator are not used because of the type conversion they perform.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "155) What are the different types of Pop up boxes available in JavaScript?",
+        "options": [
+            "Alert",
+            "Prompt",
+            "Confirm",
+            "All of the above"
+        ],
+        "answer": "Answer: D: \"All of the above\" is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "156) Which of the following is a server-side JavaScript object?",
+        "options": [
+            "Date",
+            "FileUpload",
+            "File",
+            "Function"
+        ],
+        "answer": "Answer: C: File is the correct answer.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "157) What are the different types of errors in JavaScript?",
+        "options": [
+            "Load time errors",
+            "Run time errors",
+            "Logical Errors",
+            "All of the above"
+        ],
+        "answer": "Answer: B: Run time errors",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "158) Which of the following built-in method is used to remove the last element from an array and return that element?",
+        "options": [
+            "last()",
+            "pop()",
+            "get()",
+            "None of the above."
+        ],
+        "answer": "Answer: B: The pop() method is the correct answer. It is used to remove the last element from an array and return that element.",
+        "explanation": null,
+        "codeblock": null
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What will be the correct statement in the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the correct statement in the following C# code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the correct statement about structures as to why they are defined as value types but not reference types?",
+        "options": [
+            "a) Since space required for structure variables is allocated on stack which is a form of memory that is automatically available when a variable to be used is in scope",
+            "b) Structures generally are used to represent user defined data types that consists of small amount of data in them. Hence using stack for declaration of such variables is not a problem",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the wrong statement about structures in C#.NET?",
+        "options": [
+            "a) Structures can be declared within a procedure",
+            "b) Structures can implement an interface but they cannot inherit from another structure",
+            "c) Structure members cannot be declared as protected",
+            "d) A structure cannot be empty"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "The correct way to define a variable of type struct abc in the following C# code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is the correct way to settle down values into the structure variable \u2018e\u2019 defined in the following C# code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "When does a structure variable get destroyed?",
+        "options": [
+            "a) When no reference refers to it, it will get garbage collected",
+            "b) Depends on whether it is created using new or without new operator",
+            "c) As variable goes out of the scope",
+            "d) Depends on either we free its memory using free() or delete()"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Calculate the number of bytes a structure variable s occupies in the memory if it is defined as follows.",
+        "options": [],
+        "answer": "d",
+        "explanation": "None."
+    }
+]

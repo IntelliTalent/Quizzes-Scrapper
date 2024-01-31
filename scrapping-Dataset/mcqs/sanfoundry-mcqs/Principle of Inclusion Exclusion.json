@@ -1,0 +1,101 @@
+[
+    {
+        "question": "There are 70 patients admitted in a hospital in which 29 are diagnosed with typhoid, 32 with malaria, and 14 with both typhoid and malaria. Find the number of patients diagnosed with typhoid or malaria or both.",
+        "options": [
+            "a) 39",
+            "b) 17",
+            "c) 47",
+            "d) 53"
+        ],
+        "answer": "c",
+        "explanation": "By using the inclusion-exclusion principle: |T \u222a M| = |T| + |M| \u2013 |T \u2229 M| = (29 + 32) \u2013 (14) = 47. Thus 47 patients are diagnosed with either typhoid or malaria."
+    },
+    {
+        "question": "At a software company, skilled workers have been hired for a project. Out of 75 candidates, 48 of them were software engineer; 35 of them were hardware engineer; 42 of them were network engineer; 18 of them had skills in all three jobs and all of them had skills in at least one of these jobs. How many candidates were hired who were skilled in exactly 2 jobs?",
+        "options": [
+            "a) 69",
+            "b) 14",
+            "c) 32",
+            "d) 8"
+        ],
+        "answer": "b",
+        "explanation": "Since 18 are skilled in all 3. Subtract 18 from all three to get a total with single skilled and double skilled workers including the duplicates. Software engineers = 48 \u2013 18 = 30, Hardware engineers = 35 \u2013 18 = 17, Network engineers = 42 \u2013 18 = 24 making a total of 71 and this is a total set of single and double skilled workers including duplicates. Out of 75 candidates, 18 were skilled in three areas. So, 75 \u2013 18 = 57 (actual no of workers skilled with single and both skills) Now the difference between the number without duplicates (57) and with duplicates (71), 71 \u2013 57 = 14. So, 14 are skilled in exactly two jobs."
+    },
+    {
+        "question": "The numbers between 1 and 520, including both, are divisible by 2 or 6 is _______",
+        "options": [
+            "a) 349",
+            "b) 54",
+            "c) 213",
+            "d) 303"
+        ],
+        "answer": "d",
+        "explanation": "We add the number of numbers that are divisible by 2 and 6 and subtract the numbers which are divisible by 12. Hence, the required probability is"
+    },
+    {
+        "question": "In a renowned software development company of 240 computer programmers 102 employees are proficient in Java, 86 in C#, 126 in Python, 41 in C# and Java, 37 in Java and Python, 23 in C# and Python, and just 10 programmers are proficient in all three languages. How many computer programmers are there those are not proficient in any of these three languages?",
+        "options": [
+            "a) 138",
+            "b) 17",
+            "c) 65",
+            "d) 49"
+        ],
+        "answer": "b",
+        "explanation": "Let U denote the set of all employed computer programmers and let J, C and P denote the set of programmers proficient in Java, C# and Python, respectively. So,  |U| = 240, |J| = 102, |C| = 86, |P| = 126, |J \u2229 C| = 41, |J \u2229 P| = 37, |C \u2229 P| = 23 and |J \u2229 C \u2229 P| = 10. The number of computer programmers that are not proficient in any of these three languages is said to be same as the cardinality of the complement of the set J \u222a C \u222a P. First, we have to calculate |J \u222a C \u222a P| = 102 + 86 + 126 \u2013 41 \u2013 37 \u2013 23 + 10 = 223. Now calculate |(J \u222a C \u222a P)\u2019 | = |U| \u2013 |J \u222a C \u222a P| = 240 \u2013 223 = 17. 17 programmers are not proficient in any of the three languages."
+    },
+    {
+        "question": "In class, students want to join sports. 15 people will join football, 24 people will join basketball, and 7 people will join both. How many people are there in the class?",
+        "options": [
+            "a) 19",
+            "b) 82",
+            "c) 64",
+            "d) 30"
+        ],
+        "answer": "d",
+        "explanation": "There are 15 people who wish to join football, but 9 of those people also join basketball. By using the principle of inclusion and exclusion, we have: 15 people joining football + 24 people joining basketball \u2013 9 people who will join both = 30 people total."
+    },
+    {
+        "question": "There are 9 letters having different colors (red, orange, yellow, green, blue, indigo, violet) and 4 boxes each of different shapes (tetrahedron, cube, polyhedron, dodecahedron). How many ways are there to place these 9 letters into the 4 boxes such that each box contains at least 1 letter?",
+        "options": [
+            "a) 260100",
+            "b) 878760",
+            "c) 437102",
+            "d) 256850"
+        ],
+        "answer": "a",
+        "explanation": "Let N be the total number of ways we can distribute the letters. Each letter can be placed into any one of the 4 boxes, so |N| = 4"
+    },
+    {
+        "question": "A card is drawn randomly from a standard deck of cards. Determine the probability that the card drawn is a queen or a heart.",
+        "options": [
+            "a) \\(\\frac{1}{4}\\)",
+            "b) \\(\\frac{13}{56}\\)",
+            "c) \\(\\frac{4}{13}\\)",
+            "d) \\(\\frac{5}{52}\\)"
+        ],
+        "answer": "c",
+        "explanation": "Let M be the event that the card is a queen, and let N be the event that the card is a heart. Then Since there are 13 different ranks of cards in the deck, P(M) = \\(\\frac{1}{13}\\) and since there are 4 suits in the deck, P(N) = \\(\\frac{1}{4}\\). There is only one card that is both a queen and a heart, so P(M \u22c2 N) = \\(\\frac{1}{52}\\). Therefore, P(M U N) = \\(\\frac{1}{4} + \\frac{1}{13} \u2013 \\frac{1}{52} = \\frac{16}{52} = \\frac{4}{13}\\)."
+    },
+    {
+        "question": "An integer from 300 through 780, inclusive is to be chosen at random. Find the probability that the number is chosen will have 1 as at least one digit.",
+        "options": [
+            "a) \\(\\frac{171}{900}\\)",
+            "b) \\(\\frac{43}{860}\\)",
+            "c) \\(\\frac{231}{546}\\)",
+            "d) \\(\\frac{31}{701}\\)"
+        ],
+        "answer": "a",
+        "explanation": "The number of numbers that don\u2019t have one anywhere 9"
+    },
+    {
+        "question": "From 1, 2, 3, \u2026, 320 one number is selected at random. Find the probability that it is either a multiple of 7 or a multiple of 3.",
+        "options": [
+            "a) 72%",
+            "b) 42.5%",
+            "c) 12.8%",
+            "d) 63.8%"
+        ],
+        "answer": "b",
+        "explanation": "Number of multiples of 7=45 and number of multiples of 3=10"
+    }
+]

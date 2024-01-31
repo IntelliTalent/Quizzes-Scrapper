@@ -1,0 +1,602 @@
+[
+    {
+        "question": "1) Which methodology is used to performed Maintenance testing?",
+        "options": [
+            "Breadth test and depth test",
+            "Confirmation testing",
+            "Retesting",
+            "Sanity testing"
+        ],
+        "answer": "Breadth test and depth test",
+        "explanation": " The maintenance testing is performed during the development, migration, and modification cycle. It is done on the previously deployed software where its needs to be improved, altered or migrated to other hardware.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Which of the following is not part of the Test document?",
+        "options": [
+            "Test Case",
+            "Requirements Traceability Matrix [RTM]",
+            "Test strategy",
+            "Project Initiation Note [PIN]"
+        ],
+        "answer": "Project Initiation Note [PIN]",
+        "explanation": " The test documentation is the document which is created during or before the testing of a software application. The entire test execution process depends on the complication of the test document.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which term is used to define testing?",
+        "options": [
+            "Evaluating deliverable to find errors",
+            "Finding broken code",
+            "A stage of all projects",
+            "None of the above"
+        ],
+        "answer": "Evaluating deliverable to find errors",
+        "explanation": " Software testing is a process of classifying the correctness of software by seeing its all attributes and assessing the execution of software components to find the software bugs or errors.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following is not a valid phase of SDLC (Software Development Life Cycle)?",
+        "options": [
+            "Testing Phase",
+            "Requirement Phase",
+            "Deployment phase",
+            "Testing closure"
+        ],
+        "answer": "Testing Closure",
+        "explanation": " SDLC defines various phases of software development and the order of execution of phases. Software development life cycle is a process that creates a structure for the development of software.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following testing is also known as white-box testing?",
+        "options": [
+            "Structural testing",
+            "Error guessing technique",
+            "Design based testing",
+            "None of the above"
+        ],
+        "answer": "Structural Testing",
+        "explanation": " Structural testing is also known as a White box or Clear box, or Glass box testing. In structural testing, we can understand what is happening inside the application or the software.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Which of the following testing is related to the boundary value analysis?",
+        "options": [
+            "White box and black box testing",
+            "White-box testing",
+            "Black box testing",
+            "None of the above"
+        ],
+        "answer": "Black Box testing",
+        "explanation": " Boundary value analysis is one of the widely used case design techniques for black-box testing. It is used to test boundary values because the input values near the boundary have higher chances of error. Boundary values are those that contain the upper and lower limit of a variable.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Functional testing is a ------?",
+        "options": [
+            "Test design technique",
+            "Test level",
+            "SDLC Model",
+            "Test type"
+        ],
+        "answer": "Test Type",
+        "explanation": " It is a type of software testing, which is used to verify the functionality of the software application, whether the function is working according to the requirement specification. It is performed as black-box testing, which verifies the functionality of the application.",
+        "codeblock": null
+    },
+    {
+        "question": "8) What are the different levels of Testing?",
+        "options": [
+            "Integration testing",
+            "Unit testing",
+            "System testing",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " Integration, Unit and System testing are various testing levels where the Unit testing is used to test each unit or an individual component of the software application.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following is not a part of STLC (Software Testing Life Cycle)?",
+        "options": [
+            "Testing Planning",
+            "Requirement Gathering",
+            "Test Design",
+            "Testing closure"
+        ],
+        "answer": "Requirement Gathering",
+        "explanation": " The software testing procedure is also known as Software Testing Life Cycle (STLC), which contains various phases of the testing process. And all activities are done to improve the quality of the software product.",
+        "codeblock": null
+    },
+    {
+        "question": "10) Sanity testing is a ------?",
+        "options": [
+            "Test type",
+            "Test Execution Level",
+            "Test Level",
+            "Test design technique"
+        ],
+        "answer": "Test Execution level",
+        "explanation": " As soon as the bug fixes are done, we will perform the Sanity testing. It is narrow, deep. Sanity testing's primary objective is to ensure that all the defects have been fixed and no further issues come into existence due to these changes.",
+        "codeblock": null
+    },
+    {
+        "question": "11) White box testing techniques are?",
+        "options": [
+            "Statement coverage testing",
+            "Decision coverage testing",
+            "Data flow testing",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " In software testing, the statement coverage, decision coverage, data flow is part of the white-box testing technique.",
+        "codeblock": null
+    },
+    {
+        "question": "12) In which environment we can performed the Alpha testing?",
+        "options": [
+            "User's end",
+            "Developer's end",
+            "User's and developer's end",
+            "None of the above"
+        ],
+        "answer": "Developer's end",
+        "explanation": " Alpha testing is conducted in the organization and tested by a representative group of end-users at the developer's end, where the developers observe the users and write down the problems. Alpha testing is simulated or real operational testing at an in-house site.",
+        "codeblock": null
+    },
+    {
+        "question": "13) Which of the below is not a part of the Test Plan?",
+        "options": [
+            "Schedule",
+            "Risk",
+            "Incident reports",
+            "Entry and exit criteria"
+        ],
+        "answer": "Incident Reports",
+        "explanation": " The test plan is a base of every software's testing. It is a detailed document, which describes software testing areas and activities. It outlines the test strategy, objectives, test schedule, required resources (human resources, software, and hardware), test estimation and test deliverables.",
+        "codeblock": null
+    },
+    {
+        "question": "14) What is the key objective of Integration testing?",
+        "options": [
+            "Design Errors",
+            "Interface Errors",
+            "Procedure Errors",
+            "None of the mentioned"
+        ],
+        "answer": "Interface Error",
+        "explanation": " Whenever there is a clear relationship between modules, we go for the integration testing. And the main purpose of the integration testing level is to expose the faults at the time of interaction between integrated components or units.",
+        "codeblock": null
+    },
+    {
+        "question": "15) Exploratory testing is a -----?",
+        "options": [
+            "Experience-based Test Design Technique",
+            "White Box Test Design Technique",
+            "Black Box Test Design Technique",
+            "Grey Box Test Design Technique"
+        ],
+        "answer": "Experience-based Test Design Technique",
+        "explanation": " Whenever the requirement does not exist, we do one round of exploratory testing. In this testing, we will be exploring the application in all possible ways, understanding the application's flow, preparing a test document and then testing the application.",
+        "codeblock": null
+    },
+    {
+        "question": "16) What is the best time to perform Regression testing?",
+        "options": [
+            "After the software has been modified",
+            "As frequently as possible",
+            "When the environment has been modified",
+            "Both option a & c"
+        ],
+        "answer": "Both option a & c",
+        "explanation": " Regression testing is used to authenticate a code change in the software that does not impact the product's existing functionality. Regression testing can be performed on a new build when there is a significant change in the original functionality. It ensures that the code still works when the changes are occurring.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Does the customer get a 100% bug-free product?",
+        "options": [
+            "Product is old",
+            "Developers are super",
+            "The testing team is not good",
+            "All of the above"
+        ],
+        "answer": "The testing team is not good",
+        "explanation": " Sometimes, the fundamentals of software testing define that no product has zero bugs.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Cyclomatic complexity is?",
+        "options": [
+            "White-box testing",
+            "Black box testing",
+            "Grey box testing",
+            "All of the above"
+        ],
+        "answer": "White box testing",
+        "explanation": " Cyclomatic complexity is a software metric, which is used to measure the complexity of a program. It gives the minimum number of paths that can generate all possible paths through the module.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Which of the following is not part of the Test type?",
+        "options": [
+            "Function testing",
+            "System testing",
+            "Statement testing",
+            "Database testing"
+        ],
+        "answer": "Statement testing",
+        "explanation": " Testing is a group of techniques to determine the application's correctness under the predefined script, but testing cannot find all the defects in the application. Testing includes an examination of code and the execution of code in various environments, conditions, and all the examining aspects of the code.",
+        "codeblock": null
+    },
+    {
+        "question": "20) Which Test Document is used to define the Exit Criteria of Testing?",
+        "options": [
+            "Defect Report",
+            "Test Summary Report",
+            "Test Case",
+            "Test Plan"
+        ],
+        "answer": "Test Plan",
+        "explanation": " The Exit criteria of the functional testing should be followed because the percentage (%) of exit criteria are decided by the meeting with both development and test manager because their collaboration can achieve the percentage. And When all the test cases are executing, most of the test cases must be passed.",
+        "codeblock": null
+    },
+    {
+        "question": "21) Impact analysis helps us to decide which of the following testing?",
+        "options": [
+            "Exit Criteria",
+            "How much regression testing should be done?",
+            "Different Tools to perform Regression Testing",
+            "How many more test cases need to write?"
+        ],
+        "answer": "how much regression testing should be done",
+        "explanation": " In regression testing, once we understand the new requirements, we will perform one round of impact analysis to avoid the major risk. The impact analysis is done by the customer based on their business knowledge, the developer based on their coding knowledge. Most importantly, it is done by the test engineer because they have product knowledge.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Which testing technique is used for usability testing?",
+        "options": [
+            "White-box testing",
+            "Grey box testing",
+            "Black Box testing",
+            "Combination of all"
+        ],
+        "answer": "Black box testing",
+        "explanation": " Usability testing is used to checks the defect in the end-user interaction of software or the product. It makes sure that the developed software is easy while using the system without facing any problem and makes end-user life easier.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which is not the right approach of Incremental testing approach?",
+        "options": [
+            "Big bang approach",
+            "Top-down approach",
+            "Functional incrimination",
+            "Bottom-up approach"
+        ],
+        "answer": "Big bang approach",
+        "explanation": " The Incremental testing approach is used whenever there is a solid relationship between the dependent modules. In this, modules are added in ascending order one by one or according to need. Generally, two or more than two modules are added and tested to control the correctness of functions.",
+        "codeblock": null
+    },
+    {
+        "question": "24) In which environment we can performed the Beta testing?",
+        "options": [
+            "User's and developer's end",
+            "Developer's end",
+            "User's end",
+            "None of the above"
+        ],
+        "answer": "User's end",
+        "explanation": " Beta testing is an integral part of external user acceptance testing, where real users perform this testing. It is implemented after the alpha testing. Beta testing is the last phase of the testing carried out at the client's or user's end.",
+        "codeblock": null
+    },
+    {
+        "question": "25) What is error guessing in software testing?",
+        "options": [
+            "Test control management techniques",
+            "Test verification techniques",
+            "Test execution techniques",
+            "Test case design/ data management techniques"
+        ],
+        "answer": "Test case design/ data management techniques",
+        "explanation": " When there is no specific method for identifying the error, we go for the Error guessing technique. It is totally based on the experience of the test analyst, where the tester uses the experience to guess the problematic areas of the software.",
+        "codeblock": null
+    },
+    {
+        "question": "26) After which phase, we can proceed to the white box testing?",
+        "options": [
+            "After the coding phase",
+            "After designing phase",
+            "After SRS creation",
+            "After the installation phase"
+        ],
+        "answer": "After the coding phase",
+        "explanation": " Generally, the white box testing was performed after the programming phase because this type of testing required the programming skills to design test cases. The Developers perform the white box testing to test every line of the program's code and then send the application or the software to the testing team for further process.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following is not another name of white box testing?",
+        "options": [
+            "Structural testing",
+            "Behavioral testing",
+            "Glass box testing",
+            "None of the mentioned"
+        ],
+        "answer": "Behavioral Testing",
+        "explanation": " White box testing is known as glass box testing, structural testing, clear box testing, open box testing and transparent box testing.",
+        "codeblock": null
+    },
+    {
+        "question": "28) The test levels are performed in which of the following order?",
+        "options": [
+            "Unit, Integration, System, Acceptance",
+            "It is based on the nature of the project",
+            "Unit, Integration, Acceptance, System",
+            "Unit, System, Integration, Acceptance"
+        ],
+        "answer": "It is based on the nature of the project",
+        "explanation": " The Test levels can always be restructured or combined based on n the nature of a project or system planning.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Define the term failure?",
+        "options": [
+            "A human action that produces an incorrect result.",
+            "Its departure from specified behavior",
+            "Found in the software; the result of an error.",
+            "It is procedure or data definition in a computer database."
+        ],
+        "answer": "Its departure from specified behavior",
+        "explanation": " In software testing, a software bug can also be issue, error, fault, or failure where lots of defect leads to failure of the software.",
+        "codeblock": null
+    },
+    {
+        "question": "30) \"V\" model is?",
+        "options": [
+            "Test type",
+            "Test Level",
+            "Test design technique",
+            "Software development testing (SDLC) model"
+        ],
+        "answer": "Software development testing (SDLC) model",
+        "explanation": " Whenever we have a large and complex application, we go for the V model. In the V model, firstly, all the activities go in the downward direction, and at one point in time, it starts moving in the upward direction, and to re-use the test document for the testing process and forms a V shape.",
+        "codeblock": null
+    },
+    {
+        "question": "31) Which of the below testing is executed without documentation and planning is known as?",
+        "options": [
+            "Regression Testing",
+            "Adhoc Testing",
+            "Unit Testing",
+            "None of the above"
+        ],
+        "answer": "Adhoc testing",
+        "explanation": " Whenever we have to randomly check the application without following any sequence or procedure, we do one round of Adhoc testing. Since the user doesn't know how to use the application, they may use it randomly and find some issues. Adhoc testing is also known as negative testing because we test the application against the client's requirements.",
+        "codeblock": null
+    },
+    {
+        "question": "32) Which of the below testing is related to Non-functional testing?",
+        "options": [
+            "Unit Testing",
+            "Black-box Testing",
+            "Performance Testing",
+            "None of the above"
+        ],
+        "answer": "Performance testing",
+        "explanation": " Non-functional testing is testing where the tester will test the non-functional parameters, for example, performance, reliability, load test, and accountability of the software or application. And Performance testing is testing where we check the behavior of an application by applying some load.",
+        "codeblock": null
+    },
+    {
+        "question": "33) Which of the below testing is related to black-box testing?",
+        "options": [
+            "Boundary value analysis",
+            "Code path analysis",
+            "Basic path testing",
+            "None of the above"
+        ],
+        "answer": "Boundary value analysis",
+        "explanation": " The Black box testing is testing where we examine the software's functionality without looking into its internal structure or coding. And the boundary value analysis is used to test boundary values as the input values near the boundary have higher chances of error. And it is one of the widely used case design techniques for black-box testing.",
+        "codeblock": null
+    },
+    {
+        "question": "34) Which of the following testing is also called Acceptance testing?",
+        "options": [
+            "Beta testing",
+            "White-box testing",
+            "Grey box testing",
+            "Alpha testing"
+        ],
+        "answer": "Beta testing",
+        "explanation": " The user acceptance testing is done once the application is bug-free because no customer accepts the application blindly before using it. Hence, they perform one round of testing for their satisfaction. And Beta testing is one essential part of Acceptance Testing, which is performed before releasing the software.",
+        "codeblock": null
+    },
+    {
+        "question": "35) -------- testing is used to check the code?",
+        "options": [
+            "Grey box testing",
+            "Black box testing",
+            "White-box testing",
+            "Red box testing"
+        ],
+        "answer": "White-Box testing",
+        "explanation": " The white box testing is testing where the developer will test every line of the program's code. To perform the white box testing, his/her aware of programming skills to design test cases.",
+        "codeblock": null
+    },
+    {
+        "question": "36) The Regression test case is not a --------?",
+        "options": [
+            "Tests that focus on the software components, which have been modified.",
+            "Low-level components are combined into clusters, which perform a specific software sub-function.",
+            "Additional tests that emphasize software functions, which are likely to be affected by the change.",
+            "A representative sample of tests, which will exercise all software functions."
+        ],
+        "answer": "Low-level components are combined into clusters that perform a specific software sub-function.",
+        "explanation": " The Regression testing is used to authenticate a code change in the software, which does not impact the product's existing functionality. And it also ensures that the product works fine with new functionality, bug fixes, or any change in the existing feature.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Generally, which testing is used when shrink-wrapped software products are being established and part of an integration testing?",
+        "options": [
+            "Integration Testing",
+            "Validation testing",
+            "Regression Testing",
+            "Smoke testing"
+        ],
+        "answer": "Smoke testing",
+        "explanation": " The smoke testing is used to test the basic and critical feature of an application before doing one round of deep, rigorous testing or checking all possible positive and negative values. In this testing, we do not require to design test cases.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Which of the following statement is used to discover errors in the test case?",
+        "options": [
+            "Incorrect logical operators or precedence",
+            "Non-existent loop termination",
+            "Comparison of different data types",
+            "All of the above"
+        ],
+        "answer": "Non-existent loop termination",
+        "explanation": " The test case is specifying as a group of conditions under which a tester controls whether a software application is working as per the customer's requirements or not. And the test case provides us complete information about testing strategy, testing process, preconditions, and expected output.",
+        "codeblock": null
+    },
+    {
+        "question": "39) The Decision table testing is a ----------?",
+        "options": [
+            "White box Test Design Technique",
+            "Black Box Test Design Technique",
+            "Experience-based Test Design Technique",
+            "Grey Box Test Design Technique"
+        ],
+        "answer": "Black-box test design technique",
+        "explanation": " The Decision table technique is one of the most important used case design techniques for black-box testing. It is a systematic approach where several input combinations and their respective system behavior are captured in a tabular form. The Decision table technique is suitable for the functions, which have a logical relationship between two and more than two inputs.",
+        "codeblock": null
+    },
+    {
+        "question": "40) When we have to stop the testing?",
+        "options": [
+            "The faults have been fixed",
+            "All the tests run",
+            "The time completed",
+            "The risk is resolved"
+        ],
+        "answer": "The risk is resolved.",
+        "explanation": " Once the application's functionality is stable, the risk is resolved, when the time is less, we test the necessary features, and when the essential feature itself is not working correctly, we can stop the testing.",
+        "codeblock": null
+    },
+    {
+        "question": "41) ---------- are those software mistakes that occurred during the coding phase?",
+        "options": [
+            "Defects",
+            "Failures",
+            "Errors",
+            "Bugs"
+        ],
+        "answer": "Bugs",
+        "explanation": " The Bug is the informal name of defects, which means that software or application is not working as per the requirement. The bug occurred when developers made any mistake or error while developing the product. And the bug had various names in different companies such as error, issues, problem, fault, mistake, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "42) Which of the following is not a valid software testing technique?",
+        "options": [
+            "Inspections",
+            "Data flow analysis",
+            "Error guessing",
+            "Walkthrough"
+        ],
+        "answer": "Error guessing",
+        "explanation": " Error guessing is a technique in which there is no specific method for identifying the error. It completely depends on the tester and type of experience in the previous testing involvements because it does not follow any method and guidelines. The error guessing technique deals with all possible errors that cannot be identified as informal testing.",
+        "codeblock": null
+    },
+    {
+        "question": "43) Define the term verification in V and V model?",
+        "options": [
+            "Checking that we are building the system right",
+            "Making sure that it is what the user wants",
+            "Performed by an independent test team",
+            "Checking that we are building the right system"
+        ],
+        "answer": "Checking that we are building the system right",
+        "explanation": " The entire V model executes in two-phase; the complete review process is done in the verification phase. We can say that the verification is used to check that we are building the system right.",
+        "codeblock": null
+    },
+    {
+        "question": "44) What is the full form of SRS?",
+        "options": [
+            "Software respond system",
+            "Software requirements specification",
+            "System responds software",
+            "System requirements specification"
+        ],
+        "answer": "Software requirements specification",
+        "explanation": " SRS [Software Requirement Specifications] is a document where all the details are converted to the detail document, which can be understood by the developers and the test engineers.",
+        "codeblock": null
+    },
+    {
+        "question": "45) What is the main task of test planning?",
+        "options": [
+            "Measuring and analyzing results",
+            "Evaluating exit criteria and reporting",
+            "Determining the test approach",
+            "Preparing the test specification"
+        ],
+        "answer": "Determining the test approach.",
+        "explanation": " It is a detailed document, which describes software testing areas and activities. The test approach is used to define the application's flow while performing testing and for future reference.",
+        "codeblock": null
+    },
+    {
+        "question": "46) Which of the below statement is true about the Equivalence Partitioning technique?",
+        "options": [
+            "A black box testing technique appropriate to all levels of testing.",
+            "A white box testing technique appropriate for component testing.",
+            "The black box testing technique is used only by developers.",
+            "A black box testing technique that can only be used during system testing."
+        ],
+        "answer": "A black box testing technique appropriate to all levels of testing.",
+        "explanation": " The equivalence partitions are derived from the requirements and specifications of the software. It is a software testing technique in which input data is divided into partitions of valid and invalid values, and all partitions must exhibit the same behavior.",
+        "codeblock": null
+    },
+    {
+        "question": "47) ITG stands for------?",
+        "options": [
+            "Integration Testing Group",
+            "Instantaneous Test Group",
+            "Independent Test Group",
+            "Individual Testing Group"
+        ],
+        "answer": "Independent Test Group.",
+        "explanation": " The ITG (Independent Test Group) is where the third party solves any problem to create objectivity.",
+        "codeblock": null
+    },
+    {
+        "question": "48) Which of the following testing is refers to as a fault-based testing technique?",
+        "options": [
+            "Stress testing",
+            "Mutation testing",
+            "Beta testing",
+            "Unit testing"
+        ],
+        "answer": "Mutation testing",
+        "explanation": " Mutation testing is a fault-based testing technique where we insert errors purposely into a program (under test) to verify whether the existing test case can detect the error or not. In this testing, the program's mutant is created by making some modifications to the original program.",
+        "codeblock": null
+    },
+    {
+        "question": "49) ------ are the problems that threaten the success of a project but which has not yet happened.",
+        "options": [
+            "Risk",
+            "Bug",
+            "Failure",
+            "Error"
+        ],
+        "answer": "Risk",
+        "explanation": " Risk is the challenge that we need to face to test the application in the current release, and if the assumptions fail, then the risks are involved, such as the effect for an application, release date becomes postponed.",
+        "codeblock": null
+    },
+    {
+        "question": "50) What is component testing?",
+        "options": [
+            "White-box testing",
+            "Grey box testing",
+            "Black box testing",
+            "Both a & c"
+        ],
+        "answer": "White box testing",
+        "explanation": " The component testing is based on an application's inner workings and revolves around internal structure testing. And the developer performs the white box/ component testing because the developer has the internal knowledge of the application.",
+        "codeblock": null
+    }
+]

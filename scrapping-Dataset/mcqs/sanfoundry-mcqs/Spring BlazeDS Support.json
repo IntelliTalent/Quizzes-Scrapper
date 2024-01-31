@@ -1,0 +1,159 @@
+[
+    {
+        "question": "The endpoint URL attribute defines where service is mounted.",
+        "options": [
+            "a) endpoint URL",
+            "b) endpoint",
+            "c) endpoint service",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The endpoint URL attribute defines where we should expect this service to be mounted."
+    },
+    {
+        "question": "To keep our code as ready-to-deploy as possible.",
+        "options": [
+            "a) parameterize the URL of the service in the client",
+            "b) add an entry to your /etc/hosts file on Unix derivatives or, on Windows, to your C:\\WINDOWS\\system32\\drivers\\etc\\hosts",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To keep our code as ready-to-deploy as possible, you should parameterize the URL of the service in the client. Alternatively, if you know the domain name for your application, you might add an entry to your /etc/hosts file on Unix derivatives or, on Windows, to your C:\\WINDOWS\\system32\\drivers\\etc\\hosts file mapping 127.0.0.1 to your target domain."
+    },
+    {
+        "question": "Spring BlazeDS creates existing Spring beans as AMF endpoints.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring BlazeDS lets you expose existing Spring beans as AMF endpoints."
+    },
+    {
+        "question": "The service, which will simply fetch all the items that are for auction and return the description.",
+        "options": [
+            "a) SpringBlaze DS",
+            "b) SpringFlex",
+            "c) EventSpring",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Use Spring BlazeDS to set up a simple service and demonstrate its invocation from the client\u2014a simple auction application that we\u2019ll build on in subsequent recipes."
+    },
+    {
+        "question": "To keep the code simpler.",
+        "options": [
+            "a) Hibernate",
+            "b) Backing datastore",
+            "c) ConcurrentSkipListSet",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We\u2019re not using Hibernate or any backing datastore to keep the code simpler. Instead, the service uses a ConcurrentSkipListSet instance variable."
+    },
+    {
+        "question": "Method which takes parameters required to describe a bid and creates it.",
+        "options": [
+            "a) bid",
+            "b) acceptBid",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The bid method takes parameters required to describe a bid and creates it."
+    },
+    {
+        "question": "To notify other viewers of any new items posted.",
+        "options": [
+            "a) javax.jms.Topic",
+            "b) jms",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We want to notify other viewers of any new items posted, we use JMS and a javax.jms.Topic."
+    },
+    {
+        "question": "Method, which is called after the component\u2019s been configured by Spring",
+        "options": [
+            "a) setupItems",
+            "b) setUp",
+            "c) setupFakeItems",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We spend some time constructing seed data in the setupFakeItems method, which is called after the component\u2019s been configured by Spring."
+    },
+    {
+        "question": "To configure the standard Spring bean.",
+        "options": [
+            "a) context:component-scan",
+            "b) context:scan",
+            "c) context:component",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are two parts to the configuration: the standard services configuration, and the Spring BlazeDS configuration. We\u2019ve already gone a long way to configuring the standard Spring beans with the addition of the context:component-scan element."
+    },
+    {
+        "question": "In Spring context XML for the message broker, we have.",
+        "options": [
+            "a) flex",
+            "b) flex:message-broker",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Recall that in our Spring context XML for the message broker, we had a flex:message-broker element, in which we had a flex:message-service element."
+    },
+    {
+        "question": "flex:message-service element had an attribute.",
+        "options": [
+            "a) default-channels",
+            "b) default-channel",
+            "c) default",
+            "d) default-types"
+        ],
+        "answer": "a",
+        "explanation": "The flex:message-service element had an attribute, default-channels."
+    },
+    {
+        "question": "To use a different channel they\u2019d like to use when communicating with the server.",
+        "options": [
+            "a) flex:remoting-destination",
+            "b) flex:remote",
+            "c) flex:destination",
+            "d) flex:default-channels"
+        ],
+        "answer": "a",
+        "explanation": "If, however, you\u2019d like to use a different channel, then you may override it on the flex:remoting-destination element."
+    },
+    {
+        "question": "In ActionScript, \u201cdynamic\u201d means that you can arbitrarily add or reference fields only.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In ActionScript, \u201cdynamic\u201d means that you can arbitrarily add or reference fields and methods on an object without type information."
+    },
+    {
+        "question": "ActionScript treats a class just like you could in the standard JavaScript.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the browser, this behavior is called expando properties and these are useful for us because Flash doesn\u2019t have any built-in way of knowing (and surfacing to tools like your IDE\u2019s auto-completion) the type information of the returned object."
+    },
+    {
+        "question": "Spring BlazeDS works with Spring Integration to let you bind any arbitrary endpoint.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring BlazeDS works with Spring Integration to let you bind any arbitrary endpoint (be it an e-mail server, a Twitter user\u2019s update feed, an FTP server, a file system, or anything for which you want to write an adapter) to the Spring BlazeDS messaging facilities."
+    }
+]

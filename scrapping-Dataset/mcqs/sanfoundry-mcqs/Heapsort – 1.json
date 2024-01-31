@@ -1,0 +1,130 @@
+[
+    {
+        "question": "On which algorithm is heap sort based on?",
+        "options": [
+            "a) Fibonacci heap",
+            "b) Binary tree",
+            "c) Priority queue",
+            "d) FIFO"
+        ],
+        "answer": "c",
+        "explanation": "Heap sort is based on the algorithm of priority queue and it gives the best sorting time."
+    },
+    {
+        "question": "In what time can a binary heap be built?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "a",
+        "explanation": "The basic strategy is to build a binary heap of N elements which takes O(N) time."
+    },
+    {
+        "question": "Heap sort is faster than Shell sort.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Heap sort is slower than Shell sort because Shell sort uses Sedgewick\u2019s increment sequence."
+    },
+    {
+        "question": "Consider the following heap after buildheap phase. What will be its corresponding array?",
+        "options": [
+            "a) 26,53,41,97,58,59,31",
+            "b) 26,31,41,53,58,59,97",
+            "c) 26,41,53,97,31,58,59",
+            "d) 97,53,59,26,41,58,31"
+        ],
+        "answer": "d",
+        "explanation": "Constructing a max heap using the elements 97,53,59,26,41,58,31 will cause the heap to look like that."
+    },
+    {
+        "question": "In what position does the array for heap sort contains data?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) anywhere in the array"
+        ],
+        "answer": "a",
+        "explanation": "The array for heap sort contains data at position 0 whereas for a binary heap, array begins at 1. This is the reason for its complexity."
+    },
+    {
+        "question": "What is the typical running time of a heap sort algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "b",
+        "explanation": "The total running time of a heap sort algorithm is mathematically found to be O(N log N)."
+    },
+    {
+        "question": "How many arrays are required to perform deletion operation in a heap?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "To perform deletion operation in a heap, we require 2 arrays and that occupies extra memory space and hence increase in running time."
+    },
+    {
+        "question": "What is the time taken to perform a delete min operation?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "c",
+        "explanation": "The time taken to perform a deletion of a minimum element is mathematically found to be O( log N)."
+    },
+    {
+        "question": "Heap sort is an extremely stable algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Heap sort uses fewer comparisons than other sorting algorithms and hence it is an extremely stable algorithm."
+    },
+    {
+        "question": "What is the average number of comparisons used in a heap sort algorithm?",
+        "options": [
+            "a) N log N-O(N)",
+            "b) O(N log N)-O(N)",
+            "c) O(N log N)-1",
+            "d) 2N log N + O(N)"
+        ],
+        "answer": "d",
+        "explanation": "The average number of comparisons in a heapsort algorithm is mathematically found to be 2N log N + O(N)."
+    },
+    {
+        "question": "What is the time taken to copy elements to and from two arrays created for deletion?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(log N)",
+            "d) O(N"
+        ],
+        "answer": "a",
+        "explanation": "The time taken to copy elements to and from the main array and extra array is found to be O(N)."
+    },
+    {
+        "question": "What is the average number of comparisons used to heap sort a random permutation of N distinct items?",
+        "options": [
+            "a) 2N log N-O(N)",
+            "b) 2N log N-O(N log N)",
+            "c) 2N log N-O(N log log N)",
+            "d) 2N log N-O(log N)"
+        ],
+        "answer": "c",
+        "explanation": "According to a theorem, the average number of comparisons used to heap sort a random permutation of N distinct items is found to be 2N log N-O(N log log N)."
+    }
+]

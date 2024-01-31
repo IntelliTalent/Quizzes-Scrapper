@@ -1,0 +1,89 @@
+[
+    {
+        "question": "What will be the Correct R code for the following output?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Data frames are used to store tabular data in R."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) is.nan() is used to test objects if they are NA",
+            "b) is.nan() is used to test for NaN",
+            "c) NA values have a class",
+            "d) NA values have a class, so there are integer NA, character NA, etc"
+        ],
+        "answer": "a",
+        "explanation": "A NaN value is also NA but the converse is not true."
+    },
+    {
+        "question": "Data frames can be converted to a matrix by calling data _______",
+        "options": [
+            "a) as.matr()",
+            "b) as.mat()",
+            "c) as.matrix()",
+            "d) as.max()"
+        ],
+        "answer": "c",
+        "explanation": "as.matrix() function should be used to coerce a data frame to a matrix."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Data frames are represented as a special type of list where every element of the list has to have the same length."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Using factors with labels is better than using integers because factors are self-describing",
+            "b) Factors are used to represent categorical data and can be unordered or ordered",
+            "c) Factors are important in statistical modeling and are treated specially by modelling functions like lm() and glm()",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Having a variable that has values \u201cMale\u201d and \u201cFemale\u201d is better than a variable that has values 1 and 2."
+    },
+    {
+        "question": "Which of the following is invalid assignment?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "Lists can also have names, which is often very useful."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "R objects can have names, which is very useful for writing readable code and self-describing objects."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Matrices can have both column and row names."
+    },
+    {
+        "question": "Which of the following statement changes column name to h and f?",
+        "options": [
+            "a) colnames(m) <- c(\u201ch\u201d, \u201cf\u201d)",
+            "b) columnnames(m) <- c(\u201ch\u201d, \u201cf\u201d)",
+            "c) rownames(m) <- c(\u201ch\u201d, \u201cf\u201d)",
+            "d) rownames(m) <- c(\u201cf\u201d, \u201cf\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "Column names and row names can be set separately using the colnames() and rownames() functions."
+    },
+    {
+        "question": "Which of the following is used for reading tabular data?",
+        "options": [
+            "a) read.csv",
+            "b) dget",
+            "c) readLines",
+            "d) writeline"
+        ],
+        "answer": "a",
+        "explanation": "read.table can also be used for reading dataset in structured form."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "According to the rice\u2019s theorem, If P is a non trivial property, Lp is :",
+        "options": [
+            "a) infinite",
+            "b) decidable",
+            "c) undecidable",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Rice\u2019s theorem states that \u2018Any non trivial property about the language recognized by a turing machine is undecidable\u2019."
+    },
+    {
+        "question": "Fill in the blank with reference to Rice\u2019s theorem.",
+        "options": [
+            "a) partial functions",
+            "b) piecewise functions",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A property of partial functions is called trivial if it holds for all partial computable functions or for none, and an effective decision method is called general if it decides correctly for every algorithm."
+    },
+    {
+        "question": "Which of the following is incorrect according to rice theorem?",
+        "options": [
+            "a) there exists a TM that recognizes the language in S",
+            "b) there exists a TM that recognizes the language not in S",
+            "c) it is undecidable to determine whether the language recognized by an arbitrary turing machine lies in S",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "According to rice theorem, it is undecidable to determine whether the language recognized by an arbitrary turing machine lies in S."
+    },
+    {
+        "question": "Which of the following set of computable functions are decidable?",
+        "options": [
+            "a) The class of computable functions that are constant, and its complement",
+            "b) The class of indices for computable functions that are total",
+            "c) The class of indices for recursively enumerable sets that are cofinite",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "According to Rice\u2019s theorem, if there exists atleast one computable function in a particular class C of computable functions and another computable function not in C then the problem deciding whether a particular program computes a function in C is undecidable."
+    },
+    {
+        "question": "Which of the following statements are undecidable?",
+        "options": [
+            "a)  does M halt on an empty input tape",
+            "b) does M halt for anly inputs at all?",
+            "c) is L(M) regular? Context free? Turing decidable?",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the following mentioned are immediate results of Rice\u2019s theorem and thus, undecidable."
+    },
+    {
+        "question": "Post Correspondence problem is",
+        "options": [
+            "a) decidable decision problem",
+            "b) undecidable decision problem",
+            "c) not a decision problem",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Post Correspondence problem is an undecidable decision problem that was introduced by Emil Post in 1946. Being simpler than halting problem, it can be used in proofs of undecidability."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The MPCP is : Given lists A and B of K strings, say A = w1, w2, \u2026wk and B= x1, x2,\u2026..xk does there exists a sequence of integers i1,i2,\u2026ir such that w1wi1wi2\u2026..wir = x1xi1xi2\u2026xir?"
+    },
+    {
+        "question": "PCP stands for?",
+        "options": [
+            "a) Post Correspondence Problem",
+            "b) Post Corresponding Problem",
+            "c) Pre Correspondence problem",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "PCP or Post Correspondence problem is an undecidable decision problem."
+    },
+    {
+        "question": "Can a Modified PCP problem be reduced to PCP?",
+        "options": [
+            "a) yes",
+            "b) no"
+        ],
+        "answer": "a",
+        "explanation": "Yes, it can be. There exists a theorem and as well as its proof which supports the assertion."
+    },
+    {
+        "question": "Consider three decision problem A, B, C. A is decidable and B is not. Which of the following is a correct option?",
+        "options": [
+            "a) C is undecidable if C is reducible to B",
+            "b) C is undecidable if B is reducible to C",
+            "c) C is decidable if A is reducible to C",
+            "d) C is decidable if C is reducible to B\u2019s complement."
+        ],
+        "answer": "b",
+        "explanation": "As B is undecidable and it can be reduced to C, C is also an undecidable problem."
+    }
+]

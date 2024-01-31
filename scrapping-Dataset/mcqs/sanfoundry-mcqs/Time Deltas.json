@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which of the following operations are supported on Time Frames?",
+        "options": [
+            "a) idxmax",
+            "b) ixmax",
+            "c) ixmin",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Operands can also appear in a reversed order."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Timedeltas are differences in times, expressed in difference units",
+            "b) You can construct a Timedelta scalar through various argument",
+            "c) DateOffsets cannot be used in construction",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Timedeltas can be both positive and negative."
+    },
+    {
+        "question": "Numeric reduction operation for timedelta64[ns] will return _________ objects.",
+        "options": [
+            "a) Timeseries",
+            "b) Timeplus",
+            "c) Timedelta",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NaT are skipped during evaluation."
+    },
+    {
+        "question": "Which of the following scalars can be converted to other \u2018frequencies\u2019 by as typing to a specific timedelta type?",
+        "options": [
+            "a) Timedelta Series",
+            "b) TimedeltaIndex",
+            "c) Timedelta",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "These operations yield Series and propagate NaT -> nan."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) min, max, idxmin, idxmax operations are supported on Series",
+            "b) You cannot pass a timedelta to get a particular value",
+            "c) Division by the numpy scalar is true division",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Dividing or multiplying a timedelta64[ns] Series by an integer or integer Series yields another timedelta64[ns] dtypes Series."
+    },
+    {
+        "question": "Which of the following is used to generate an index with time delta?",
+        "options": [
+            "a) TimeIndex",
+            "b) TimedeltaIndex",
+            "c) LeadIndex",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Using TimedeltaIndex you can pass string-like, Timedelta, timedelta, or np.timedelta64 objects."
+    },
+    {
+        "question": "Using _________ on categorical data will produce similar output to a Series or DataFrame of type string.",
+        "options": [
+            "a) .desc()",
+            "b) .describe()",
+            "c) .rank()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Categorical data has a categories and a ordered property."
+    },
+    {
+        "question": "Which of the following method can be used to rename categorical data?",
+        "options": [
+            "a) Categorical.rename_categories()",
+            "b) Categorical.rename()",
+            "c) Categorical.mv_categories()",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Renaming categories is done by assigning new values to the Series.cat.categories property."
+    },
+    {
+        "question": "All values of categorical data are either in categories or np.nan.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Categoricals are pandas data type."
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The format: A->aB refers to which of the following?",
+        "options": [
+            "a) Chomsky Normal Form",
+            "b) Greibach Normal Form",
+            "c) Backus Naur Form",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A context free grammar is in Greibach Normal Form if the right hand sides of all the production rules start with a terminal, optionally followed by some variables."
+    },
+    {
+        "question": "Which of the following does not have left recursions?",
+        "options": [
+            "a) Chomsky Normal Form",
+            "b) Greibach Normal Form",
+            "c) Backus Naur Form",
+            "d) All  of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The normal form is of the format:"
+    },
+    {
+        "question": "Every grammar in Chomsky Normal Form is:",
+        "options": [
+            "a) regular",
+            "b) context sensitive",
+            "c) context free",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Conversely, every context frr grammar can be converted into Chomsky Normal form and to other forms."
+    },
+    {
+        "question": "Which of the production rule can be accepted by Chomsky grammar?",
+        "options": [
+            "a) A->BC",
+            "b) A->a",
+            "c) S->e",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "in CNF, the production rules are of the form:"
+    },
+    {
+        "question": "Given grammar G:",
+        "options": [
+            "a) 2,4",
+            "b) 1,3",
+            "c) 1, 2, 3, 4",
+            "d) 2, 3, 4"
+        ],
+        "answer": "a",
+        "explanation": "The correct format: A->BC, A->a, X->e."
+    },
+    {
+        "question": "With reference to the process of conversion of a context free grammar to CNF, the number of variables to be introduced for the terminals are:",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "According to the number of terminals present in the grammar, we need the corresponding that number of terminal variables while conversion."
+    },
+    {
+        "question": "In which of the following, does the CNF conversion find its use?",
+        "options": [
+            "a) CYK Algorithm",
+            "b) Bottom up parsing",
+            "c) Preprocessing step in some algorithms",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Besides the theoretical significance of CNF, it conversion scheme is helpful in algorithms as a preprocessing step, CYK algorithms and the bottom up parsing of context free grammars."
+    },
+    {
+        "question": "Let G be a grammar. When the production in G satisfy certain restrictions, then G is said to be in ___________",
+        "options": [
+            "a) restricted form",
+            "b) parsed form",
+            "c) normal form",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When the production in G satisfy certain restrictions, then G is said to be in \u2018normal form\u2019."
+    },
+    {
+        "question": "Let G be a grammar: S->AB|e, A->a, B->b",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "e is allowed in CNF only if the starting variable does not occur on the right hand side of the derivation."
+    }
+]

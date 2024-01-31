@@ -1,0 +1,112 @@
+[
+    {
+        "question": "{x: x is an integer neither positive nor negative} is ________",
+        "options": [
+            "a) Empty set",
+            "b) Non-empty set",
+            "c) Finite set",
+            "d) Non- empty and Finite set"
+        ],
+        "answer": "d",
+        "explanation": "Set = {0} non-empty and finite set."
+    },
+    {
+        "question": "{x: x is a real number between 1 and 2} is an ________",
+        "options": [
+            "a) Infinite set",
+            "b) Finite set",
+            "c) Empty set",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is an infinite set as there are infinitely many real number between any two different real numbers."
+    },
+    {
+        "question": "Write set {1, 5, 15, 25,\u2026} in set-builder form.",
+        "options": [
+            "a) {x: either x=1 or x=5n, where n is a real number}",
+            "b) {x: either x=1 or x=5n, where n is a integer}",
+            "c) {x: either x=1 or x=5n, where n is an odd natural number}",
+            "d) {x: x=5n, where n is a natural number}"
+        ],
+        "answer": "c",
+        "explanation": "Set should include 1 or an odd multiple of 5."
+    },
+    {
+        "question": "Express {x: x= n/ (n+1), n is a natural number less than 7} in roster form.",
+        "options": [
+            "a) {",
+            "b) {",
+            "c) {",
+            "d) Infinite set"
+        ],
+        "answer": "c",
+        "explanation": "n/(n+1) = 1/(1+1) ="
+    },
+    {
+        "question": "Number of power set of {a, b}, where a and b are distinct elements.",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "Power set of {a, b} = {\u2205, {a, b}, {a}, {b}}."
+    },
+    {
+        "question": "Which of the following is subset of set {1, 2, 3, 4}?",
+        "options": [
+            "a) {1, 2}",
+            "b) {1, 2, 3}",
+            "c) {1}",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are total 16 subsets."
+    },
+    {
+        "question": "A = {\u2205,{\u2205},2,{2,\u2205},3}, which of the following is true?",
+        "options": [
+            "a) {{\u2205,{\u2205}} \u2208 A",
+            "b) {2} \u2208 A",
+            "c) \u2205 \u2282 A",
+            "d) 3 \u2282 A"
+        ],
+        "answer": "c",
+        "explanation": "Empty set is a subset of every set."
+    },
+    {
+        "question": "Subset of the set A= { } is?",
+        "options": [
+            "a) A",
+            "b) {}",
+            "c) \u2205",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Every set is subset of itself and Empty set is subset of each set."
+    },
+    {
+        "question": "{x: x \u2208 N and x is prime} then it is ________",
+        "options": [
+            "a) Infinite set",
+            "b) Finite set",
+            "c) Empty set",
+            "d) Not a set"
+        ],
+        "answer": "a",
+        "explanation": "There is no extreme prime, number of primes is infinite."
+    },
+    {
+        "question": "Convert set {x: x is a positive prime number which divides 72} in roster form.",
+        "options": [
+            "a) {2, 3, 5}",
+            "b) {2, 3, 6}",
+            "c) {2, 3}",
+            "d) {\u2205}"
+        ],
+        "answer": "c",
+        "explanation": "2 and 3 are the  divisors of 72 which are prime."
+    }
+]

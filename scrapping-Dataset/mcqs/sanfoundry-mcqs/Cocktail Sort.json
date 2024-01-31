@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Cocktail sort is also known as ________________",
+        "options": [
+            "a) bidirectional sort",
+            "b) bubble sort",
+            "c) brick sort",
+            "d) ripple sort"
+        ],
+        "answer": "d",
+        "explanation": "Cocktail sort is also known by the name of ripple sort. It is also known by other names like \u2013 bidirectional bubble sort, cocktail shaker sort, shuttle sort, shuffle sort etc."
+    },
+    {
+        "question": "Cocktail sort is a variation of _____________",
+        "options": [
+            "a) Bubble sort",
+            "b) Selection sort",
+            "c) Insertion sort",
+            "d) Gnome sort"
+        ],
+        "answer": "a",
+        "explanation": "Cocktail sort is very similar to bubble sort. It works by traversing an array in both directions alternatively. It compares the adjacent elements in each iteration and swaps the ones which are out of order."
+    },
+    {
+        "question": "Auxiliary space requirement of cocktail sort is _____________",
+        "options": [
+            "a) O(n)",
+            "b) O(log n)",
+            "c) O(1)",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "In cocktail sort manipulation is done on the input array itself. So no extra space is required to perform sorting. Thus it requires constant auxiliary space."
+    },
+    {
+        "question": "Which of the following sorting algorithm is NOT stable?",
+        "options": [
+            "a) Quick sort",
+            "b) Cocktail sort",
+            "c) Bubble sort",
+            "d) Merge sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options quick sort is the only algorithm which is not stable. Cocktail sort like bubble sort is a stable sorting algorithm."
+    },
+    {
+        "question": "Which of the following sorting algorithm is in place?",
+        "options": [
+            "a) cocktail sort",
+            "b) merge sort",
+            "c) counting sort",
+            "d) radix sort"
+        ],
+        "answer": "a",
+        "explanation": "Cocktail sort is an in place sorting technique as it only requires constant auxiliary space for manipulating the input array. Rest all other options are not in place."
+    },
+    {
+        "question": "Cocktail sort uses which of the following methods for sorting the input?",
+        "options": [
+            "a) selection",
+            "b) partitioning",
+            "c) merging",
+            "d) exchanging"
+        ],
+        "answer": "d",
+        "explanation": "Cocktail sort uses a method of exchanging as it swaps the elements which are out of order. This swapping is done in two phases i.e. forward phase and backward phase."
+    },
+    {
+        "question": "What is the worst case time complexity of cocktail sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Worst case complexity is observed when the input array is reverse sorted. This is the same as the worst case complexity of bubble sort."
+    },
+    {
+        "question": "What is the best case time complexity of cocktail sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case complexity is observed when the input array is already sorted. This is the same as the best case complexity of bubble sort."
+    },
+    {
+        "question": "What is the average case time complexity of odd-even sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Cocktail sort takes O(n"
+    },
+    {
+        "question": "How many iterations are required to sort the array arr={2,3,4,5,1} using bubble sort and cocktail sort respectively?",
+        "options": [
+            "a) 4,2",
+            "b) 5,3",
+            "c) 5,2",
+            "d) 4,3"
+        ],
+        "answer": "a",
+        "explanation": "Cocktail sort applies bubble sort in two phases until the array gets sorted. So here bubble sort will take 4 iterations to sort the given array whereas cocktail sort takes only 2 iterations. This shows cocktail sort has a comparatively better performance."
+    },
+    {
+        "question": "The following function represents which sorting?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given function represents bidirectional bubble sort also known as cocktail sort. In this sort, we apply bubble sort in two phases i.e. forward and backward phase until the array gets sorted."
+    },
+    {
+        "question": "Bubble sort performs better as compared to cocktail sort.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Both bubble sort and cocktail sort has the same time complexities. But cocktail sort has a comparatively better performance."
+    }
+]

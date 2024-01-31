@@ -1,0 +1,96 @@
+[
+    {
+        "question": "Which of the following is not an alternative name of permutation sort?",
+        "options": [
+            "a) stupid sort",
+            "b) bogo sort",
+            "c) donkey sort",
+            "d) monkey sort"
+        ],
+        "answer": "c",
+        "explanation": "Permutation sort is also known by names like stupid sort, monkey sort, bogo sort, slow sort and shotgun sort. These names are particularly chosen due to its inefficient algorithm."
+    },
+    {
+        "question": "Permutation sort works by __________",
+        "options": [
+            "a) generating random permutations of its input",
+            "b) partitioning the array",
+            "c) dividing the value of input elements",
+            "d) generating permutations according to the value of first element of array"
+        ],
+        "answer": "a",
+        "explanation": "Permutation sort algorithm successively generates permutations of its input. This process is repeated until the sorted version of the array is found."
+    },
+    {
+        "question": "What is the auxiliary space requirement of permutation sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Permutation sort algorithm does not require any extra space for sorting the input array. Thus its auxiliary space requirement is O(1)."
+    },
+    {
+        "question": "What is the best case time complexity of permutation sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n)",
+            "c) O(n log n)",
+            "d) O(1)"
+        ],
+        "answer": "b",
+        "explanation": "Best case time complexity of permutation sort occurs when the input array is already sorted. So in such a case we only need to check whether all the elements are sorted which can be done in O(n) time."
+    },
+    {
+        "question": "What is the worst case time complexity of permutation sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n*n!)",
+            "c) O(infinity)",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "There is no upper bound to the worst case of this algorithm. It can go on to take a very large amount of time if the array has many elements. So the worst case of this algorithm can be taken as O(infinity)."
+    },
+    {
+        "question": "Which of the following is an in-place sorting algorithm?",
+        "options": [
+            "a) Merge sort",
+            "b) Permutation sort",
+            "c) Radix sort",
+            "d) Counting sort"
+        ],
+        "answer": "b",
+        "explanation": "Out of the given algorithms only permutation sort is an in-place sorting algorithm. It is because the permutation sort algorithm does not require any extra space for sorting the input array."
+    },
+    {
+        "question": "Sleep sort should be preferred over permutation sort as it has better time complexity.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "If we sort an array using sleep sort then there is no guarantee that the output we get is correctly sorted. So even though sleep sort is better than bogosort in time complexity but it cannot be preferred due to its inaccuracy."
+    },
+    {
+        "question": "What is the average case time complexity of permutation sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n*n!)",
+            "c) O(infinity)",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "For calculating the average we first need to calculate the number of possible permutations an array of size n can have. This will be equal to n!. As each permutation also needs to be checked whether it is sorted or not so this takes another n time. Thus overall time complexity becomes O(n*n!)."
+    },
+    {
+        "question": "Which of the following code correctly implements the permutation sort algorithm?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "To implement permutation sort algorithm we need to shuffle the input array until we get the sorted array. So we first check whether the array is sorted using function isSorted(). If it is not, then we shuffle it using function shuffle(). This process is repeated until we get a sorted array."
+    }
+]

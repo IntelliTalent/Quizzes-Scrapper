@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which of the following conversion is not feasible?",
+        "options": [
+            "a) Regular expression to automaton conversion",
+            "b) Automaton to Regular Expression Conversion",
+            "c) NFA to DFA",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Each of the four formats of representation of the regular language be it, DFA, NFA, Regular Expression or e-NFA can be converted to the rest three forms."
+    },
+    {
+        "question": "The computation of e-closure of n-states takes ______ time.",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(2",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We must search from each of the n states along all arcs labelled e. If there are n states, there can be no more than n"
+    },
+    {
+        "question": "For a _________ state DFA, the time taken for DFA-NFA conversion is O(n).",
+        "options": [
+            "a) n",
+            "b) n",
+            "c) n",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The conversion DFA to NFA is simple, and takes O(n) time on an n-state DFA."
+    },
+    {
+        "question": "With reference to Automaton to Regular Expression Conversion, for each of the n rounds, where n is the number of states of DFA, we can _________ the size of the regular expression constructed.",
+        "options": [
+            "a) double",
+            "b) triple",
+            "c) quadruple",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We can quadruple the size of the regular expression per round. Thus, we can simply write n"
+    },
+    {
+        "question": "Conversion of regular expression to e-NFA takes ___________ time.",
+        "options": [
+            "a) linear",
+            "b) exponential",
+            "c) logarithmic",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It is possible to parse the expression efficiently, using a technique that takes only O(n) time on a expression of length n"
+    },
+    {
+        "question": "Which of the following cannot be converted in an ordinary NFA?",
+        "options": [
+            "a) DFA",
+            "b) Regular Expression",
+            "c) e-NFA",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Each of the following can expressed in terms of ordinary NFA with different time complexities."
+    },
+    {
+        "question": "NFA to DFA conversion is done via",
+        "options": [
+            "a) Subset Construction method",
+            "b) Warshalls Algorithm",
+            "c) Ardens theorem",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Powerset or subset construction method is a standard method for converting a non deterministic finite automata into DFA which recognizes the same formal language."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "There exists subsequent steps like formation of epsilon-NFA and NFA before the formation of corresponding DFA."
+    },
+    {
+        "question": "Is the following statement correct?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "Thompson\u2019s Construction is used to find out a Finite Automaton from a Regular Expression. We will reduce the regular expression into smallest regular expressions and convert them to NFA and finally to DFA."
+    }
+]

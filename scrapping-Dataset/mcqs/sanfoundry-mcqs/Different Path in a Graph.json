@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which algorithm efficiently calculates the single source shortest paths in a Directed Acyclic Graph?",
+        "options": [
+            "a) topological sort",
+            "b) hash table",
+            "c) binary search",
+            "d) radix sort"
+        ],
+        "answer": "a",
+        "explanation": "For Directed Acyclic graph, single source shortest distances can be calculated in O(V+E) time. For that purpose Topological Sorting can be used. Topological Sorting of any graph represents a linear ordering of the graph."
+    },
+    {
+        "question": "The _______ of a graph G consists of all vertices and edges of G.",
+        "options": [
+            "a) edge graph",
+            "b) line graph",
+            "c) path complement graph",
+            "d) eulerian circuit"
+        ],
+        "answer": "d",
+        "explanation": "we know that he Eulerian circuit in a graph G is a circuit that includes all vertices and edges of G. A graph that can have Eulerian circuit, also can have a Eulerian graph."
+    },
+    {
+        "question": "A ______ in a graph G is a circuit which consists of every vertex (except first/last vertex) of G exactly once.",
+        "options": [
+            "a) Euler path",
+            "b) Hamiltonian path",
+            "c) Planar graph",
+            "d) Path complement graph"
+        ],
+        "answer": "b",
+        "explanation": "The Eulerian path in a graph say, G is a walk from one vertex to another, that can pass through all vertices of G as well as traverses exactly once every edge of G. Therefore, an Eulerian path can not be a circuit. A Hamiltonian path is a walk that contains every vertex of the graph exactly once. Hence, a Hamiltonian path is not a circuit."
+    },
+    {
+        "question": "A walk has Closed property if ____________",
+        "options": [
+            "a) v",
+            "b) v",
+            "c) v < 0",
+            "d) v"
+        ],
+        "answer": "a",
+        "explanation": "A walk in a graph is said to be closed if the starting vertex is the same as the ending vertex, that is v"
+    },
+    {
+        "question": "A trail in a graph can be described as ______________",
+        "options": [
+            "a) a walk without repeated edges",
+            "b) a cycle with repeated edges",
+            "c) a walk with repeated edges",
+            "d) a line graph with one or more vertices"
+        ],
+        "answer": "a",
+        "explanation": "Suppose in a graph G a trail could be defined as a walk with no repeated edges. Suppose a walk can be defined as efgh. There are no repeated edges so this walk is a trail."
+    },
+    {
+        "question": "Let a graph can be denoted as ncfkedn a kind of ____________",
+        "options": [
+            "a) cycle graph",
+            "b) line graph",
+            "c) hamiltonian graph",
+            "d) path graph"
+        ],
+        "answer": "a",
+        "explanation": "In the graph ncfkedn, no edges are repeated in the walk, which makes it a trail and then start and end vertex n is same making it a cycle graph."
+    },
+    {
+        "question": "Determine the edge count of a path complement graph with 14 vertices.",
+        "options": [
+            "a) 502",
+            "b) 345",
+            "c) 78",
+            "d) 69"
+        ],
+        "answer": "c",
+        "explanation": "Let, an n-path complement graph P"
+    },
+    {
+        "question": "The sum of an n-node graph and its complement graph produces a graph called _______",
+        "options": [
+            "a) complete graph",
+            "b) bipartite graph",
+            "c) star graph",
+            "d) path-complement graph"
+        ],
+        "answer": "a",
+        "explanation": "Suppose, the complement G\u2019 of a graph G is known as edge-complement graph which consists of with the same vertex set but whose edge set contains the edges not present in G. The graph sum G+G\u2019 on an n-node graph G is called the complete graph say, K"
+    },
+    {
+        "question": "In a directed weighted graph, if the weight of every edge is decreased by 10 units, does any change occur to the shortest path in the modified graph?",
+        "options": [
+            "a) 209",
+            "b) 65",
+            "c) 57",
+            "d) 43"
+        ],
+        "answer": "c",
+        "explanation": "The shortest path will change in the modified graph. Suppose that the shortest path is of weight 21 and has 7 edges and there is another path with 4 edges and total weight 17. Now, the weight of the first shortest path is increased by 7*10 and becomes 21 + 70 and the weight of the second path is increased by 4*10 and becomes 17 + 40. So the shortest path changes to the other path with weight as 57."
+    },
+    {
+        "question": "Let G(V, E) be a directed graph where every edge has weight as either 1, 2 or 5, what is the algorithm used for the shortest path from a given source vertex to a given destination vertex to get the time complexity of O(V+E)?",
+        "options": [
+            "a) BFS",
+            "b) DFS",
+            "c) Binary search",
+            "d) Radix sort"
+        ],
+        "answer": "a",
+        "explanation": "In BFS due to the least number of edges between two vertices and so if all the edges in a graph are of same weight, then to find the shortest path BFS can be used for efficiency. So we have to split all edges of weight 5 into two edges of weight 2 each and one edge of weight 1. In the worst case, all edges are of weight 1. To split all edges, O(E) operations can be done and so the time complexity becomes which is equal to O(V+E)."
+    }
+]

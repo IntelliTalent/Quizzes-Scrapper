@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The architecture of a replica set affects the set\u2019s _________ and capability.",
+        "options": [
+            "a) scalability",
+            "b) capacity",
+            "c) performance",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Replica sets provide redundancy and fault tolerance."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Even number of members ensures that the replica set is always able to elect a primary",
+            "b) Arbiters do not store a copy of the data and require fewer resources",
+            "c) You may run an arbiter on an application server or other shared process",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you have an even number of members, add an arbiter to get an odd number."
+    },
+    {
+        "question": "The standard replica set deployment for production system is a ___-member replica set.",
+        "options": [
+            "a) two",
+            "b) three",
+            "c) four",
+            "d) five"
+        ],
+        "answer": "b",
+        "explanation": " Avoid complexity when possible, but let your application requirements dictate the architecture."
+    },
+    {
+        "question": "_________ for a replica set is the number of members that can become unavailable and still leave enough members in the set to elect a primary.",
+        "options": [
+            "a) Fault tolerance",
+            "b) Reliability",
+            "c) Security",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In other words, it is the difference between the number of members in the set and the majority needed to elect a primary."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Removing a member to the replica set does not always increase the fault tolerance",
+            "b) The secondary is the only member in the replica set that receives write operations",
+            "c) Fault tolerance is an effect of replica set size, but the relationship is not direct",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Additional members can provide support for dedicated functions, such as backups or reporting."
+    },
+    {
+        "question": "Without a primary, a replica set cannot accept ________ operations.",
+        "options": [
+            "a) read",
+            "b) write",
+            "c) read write",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Arbiters do not keep a copy of the data."
+    },
+    {
+        "question": "_________ member is used to support dedicated functions, such as backup or reporting.",
+        "options": [
+            "a) Hidden",
+            "b) Primary",
+            "c) ViewState",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Delayed members can also support dedicated functions."
+    },
+    {
+        "question": "To protect your data if your main data center fails, keep at least _______ member in an alternate data center.",
+        "options": [
+            "a) one",
+            "b) two",
+            "c) three",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Always add new members before the current demand saturates the capacity of the set."
+    },
+    {
+        "question": "What should be the priority of member to prevent them from becoming primary?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Always ensure that the main facility is able to elect a primary."
+    },
+    {
+        "question": "_________ sets also allow the routing of read operations to specific machines.",
+        "options": [
+            "a) Field",
+            "b) Read",
+            "c) Tag",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use replica set tag sets to ensure that operations replicate to specific data centers."
+    }
+]

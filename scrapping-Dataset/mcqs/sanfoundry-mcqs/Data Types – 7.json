@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Accessing elements is achieved through a process called ________",
+        "options": [
+            "a) Indexing",
+            "b) Outdexing",
+            "c) Highlighting",
+            "d) Scrapping"
+        ],
+        "answer": "a",
+        "explanation": "Accessing elements is achieved through a process called indexing. Indexing may be done by a vector of positive integers and negative integers to indicate inclusion."
+    },
+    {
+        "question": "Which are indexed by either row or column using a specific name or number?",
+        "options": [
+            "a) Datasets",
+            "b) Data frames",
+            "c) Data",
+            "d) Functions"
+        ],
+        "answer": "b",
+        "explanation": "Data frames can be indexed by either row or column using a specific name (that corresponds to either the row or column) or a number."
+    },
+    {
+        "question": "What should we use to access elements with a value greater than five?",
+        "options": [
+            "a) Subsetting commands",
+            "b) Use functions",
+            "c) Packages",
+            "d) Interfaces"
+        ],
+        "answer": "a",
+        "explanation": "To access elements with a value greater than five we can use some subsetting commands and logical operators to produce the desired result."
+    },
+    {
+        "question": "Lists can be created using the _______ function.",
+        "options": [
+            "a) Matrix.li",
+            "b) Matrix.lists",
+            "c) Lists.matric",
+            "d) List"
+        ],
+        "answer": "d",
+        "explanation": "Lists can be created using the list function. Like data frames, they can incorporate a mixture of modes into the one list and each component can be of a different length or size."
+    },
+    {
+        "question": "First component of the list can be accessed by _____________",
+        "options": [
+            "a) Name of the component",
+            "b) List name",
+            "c) Function",
+            "d) Package"
+        ],
+        "answer": "a",
+        "explanation": "There are a number of ways of accessing the first component of a list. We can either access it through the name of that component (if names are assigned) or by using a number corresponding to the position of the component."
+    },
+    {
+        "question": "How can we access the first component of the list?",
+        "options": [
+            "a) Number of the position",
+            "b) Function",
+            "c) Package",
+            "d) Tools"
+        ],
+        "answer": "a",
+        "explanation": "There are a number of ways of accessing the first component of a list. We can either access it through the name of that component (if names are assigned) or by using a number corresponding to the position the component."
+    },
+    {
+        "question": "The first component can be accessed using __________ operator.",
+        "options": [
+            "a) Intraction",
+            "b) Extraction",
+            "c) AND",
+            "d) OR"
+        ],
+        "answer": "b",
+        "explanation": "There are a number of ways of accessing the first component of a list. We can either access it through the name of that component (if names are assigned) or by using a number corresponding to the position the component corresponds to. The former approach can be performed using subsetting ([[]]) or alternatively, by the extraction operator ($)."
+    },
+    {
+        "question": "To extract a sublist, we use _________ brackets.",
+        "options": [
+            "a) Flower",
+            "b) Square",
+            "c) Double",
+            "d) Single"
+        ],
+        "answer": "d",
+        "explanation": "To extract a sublist, we use single brackets. There are a number of ways of accessing the first component of a list."
+    },
+    {
+        "question": "The length of a list is ______ to the number of components in that list.",
+        "options": [
+            "a) Double",
+            "b) Equal",
+            "c) Triple",
+            "d) One fourth"
+        ],
+        "answer": "b",
+        "explanation": "The length of a list is equal to the number of components in that list. Lists can be created using the list function. Like data frames, they can incorporate a mixture of modes into the one list and each component can be of a different length or size."
+    },
+    {
+        "question": "Which function can be used to determine the names assigned to a list?",
+        "options": [
+            "a) Names",
+            "b) Name",
+            "c) Nam",
+            "d) Nem"
+        ],
+        "answer": "a",
+        "explanation": "To determine the names assigned to a list, the names function can be used. Lists can be created using the list function. Like data frames, they can incorporate a mixture of modes into the one list and each component can be of a different length or size."
+    },
+    {
+        "question": "Joining two lists can be achieved either using the _________ function.",
+        "options": [
+            "a) Concat",
+            "b) Join",
+            "c) Reduce",
+            "d) Delete"
+        ],
+        "answer": "a",
+        "explanation": "Joining two lists can be achieved either using the concatenation function or the append function."
+    },
+    {
+        "question": "Which function gives the list as output?",
+        "options": [
+            "a) Spline",
+            "b) Matrix",
+            "c) Vector",
+            "d) Alphabet"
+        ],
+        "answer": "a",
+        "explanation": "There are also many functions within R that produce a list as output. Examples of these functions include spline(), density() and locator().Joining two lists can be achieved either using the concatenation function or the append function."
+    },
+    {
+        "question": "Density function gives output as ________",
+        "options": [
+            "a) Matrix",
+            "b) Lists",
+            "c) Vector",
+            "d) Number"
+        ],
+        "answer": "b",
+        "explanation": "There are also many functions within R that produce a list as output. Examples of these functions include spline(), density() and locator()."
+    },
+    {
+        "question": "Locator function gives output as ___________",
+        "options": [
+            "a) Matrix",
+            "b) Lists",
+            "c) Vector",
+            "d) Number"
+        ],
+        "answer": "b",
+        "explanation": "To extract a sublist, we use single brackets. There are a number of ways of accessing the first component of a list. There are also many functions within R that produce a list as output. Examples of these functions include spline(), density() and locator()."
+    },
+    {
+        "question": "The _________ function returns a list of densities (y) corresponding to bin values (x).",
+        "options": [
+            "a) Spline",
+            "b) Density",
+            "c) Lists",
+            "d) Locator"
+        ],
+        "answer": "a",
+        "explanation": "The spline function returns a list of densities (y) corresponding to bin values (x). These can be passed to the plot routine to produce a line graph of the density."
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "question": "Which of the following areas do closest pair problem arise?",
+        "options": [
+            "a) computational geometry",
+            "b) graph colouring problems",
+            "c) numerical problems",
+            "d) string matching"
+        ],
+        "answer": "a",
+        "explanation": "Closest pair problem arises in two most important areas- computational geometry and operational research."
+    },
+    {
+        "question": "Which approach is based on computing the distance between each pair of distinct points and finding a pair with the smallest distance?",
+        "options": [
+            "a) Brute force",
+            "b) Exhaustive search",
+            "c) Divide and conquer",
+            "d) Branch and bound"
+        ],
+        "answer": "a",
+        "explanation": "Brute force is a straight forward approach that solves closest pair problem using that algorithm."
+    },
+    {
+        "question": "What is the runtime efficiency of using brute force technique for the closest pair problem?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "c",
+        "explanation": "The efficiency of closest pair algorithm by brute force technique is mathematically found to be O(N"
+    },
+    {
+        "question": "The most important condition for which closest pair is calculated for the points (p",
+        "options": [
+            "a) i>j",
+            "b) i!=j",
+            "c) i=j",
+            "d) i<j"
+        ],
+        "answer": "d",
+        "explanation": "To avoid computing the distance between the same pair of points twice, we consider only the pair of points (p"
+    },
+    {
+        "question": "What is the basic operation of closest pair algorithm using brute force technique?",
+        "options": [
+            "a) Euclidean distance",
+            "b) Radius",
+            "c) Area",
+            "d) Manhattan distance"
+        ],
+        "answer": "a",
+        "explanation": "The basic operation of closest pair algorithm is Euclidean distance and its formula is given by d=\u221a(x"
+    },
+    {
+        "question": "Which of the following is similar to Euclidean distance?",
+        "options": [
+            "a) Manhattan distance",
+            "b) Pythagoras metric",
+            "c) Chebyshev distance",
+            "d) Heuristic distance"
+        ],
+        "answer": "b",
+        "explanation": "In older times, Euclidean distance metric is also called a Pythagoras metric which is the length of the line segment connecting two points."
+    },
+    {
+        "question": "Which of the following strategies does the following diagram depict?",
+        "options": [
+            "a) Divide and conquer strategy",
+            "b) Brute force",
+            "c) Exhaustive search",
+            "d) Backtracking"
+        ],
+        "answer": "b",
+        "explanation": "Brute force is a straight forward approach to solve critical problems. Here, we use brute force technique to find the closest distance between p1 and p2."
+    },
+    {
+        "question": "Manhattan distance is an alternative way to define a distance between two points.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Manhattan distance is an alternative way to calculate distance. It is the distance between two points measured along axes at right angles."
+    },
+    {
+        "question": "What is the optimal time required for solving the closest pair problem using divide and conquer approach?",
+        "options": [
+            "a) O(N)",
+            "b) O(log N)",
+            "c) O(N log N)",
+            "d) O(N"
+        ],
+        "answer": "c",
+        "explanation": "The optimal time for solving using a divide and conquer approach is mathematically found to be O(N log N)."
+    },
+    {
+        "question": "In divide and conquer, the time is taken for merging the subproblems is?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "b",
+        "explanation": "The time taken for merging the smaller subproblems in a divide and conquer approach is mathematically found to be O(N log N)."
+    },
+    {
+        "question": "The optimal time obtained through divide and conquer approach using merge sort is the best case efficiency.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The optimal time obtained through divide and conquer approach is the best class efficiency and it is given by \u2126(N log N)."
+    },
+    {
+        "question": "Which of the following strategies does the following diagram depict?",
+        "options": [
+            "a) Brute force",
+            "b) Divide and conquer",
+            "c) Exhaustive search",
+            "d) Branch and bound"
+        ],
+        "answer": "b",
+        "explanation": "The above diagram depicts the implementation of divide and conquer. The problem is divided into sub problems and are separated by a line."
+    },
+    {
+        "question": "Which of the points are closer to each other?",
+        "options": [
+            "a) p1 and p11",
+            "b) p3 and p8",
+            "c) p2 and p3",
+            "d) p9 and p10"
+        ],
+        "answer": "c",
+        "explanation": "From symmetry, we determine that the closest pair is p2 and p3. But the exact calculations have to be done using Euclid\u2019s algorithm."
+    }
+]

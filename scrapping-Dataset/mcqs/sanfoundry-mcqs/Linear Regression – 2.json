@@ -1,0 +1,74 @@
+[
+    {
+        "question": "In practice, Line of best fit or regression line is found when _____________",
+        "options": [
+            "a) Sum of residuals (\u2211(Y \u2013 h(X))) is minimum",
+            "b) Sum of the absolute value of residuals (\u2211|Y-h(X)|) is maximum",
+            "c) Sum of the square of residuals ( \u2211 (Y-h(X))2) is minimum",
+            "d) Sum of the square of residuals ( \u2211 (Y-h(X))2) is maximum"
+        ],
+        "answer": "c",
+        "explanation": "Here we penalize higher error value much more as compared to the smaller one, such that there is a significant difference between making big errors and small errors, which makes it easy to differentiate and select the best fit line."
+    },
+    {
+        "question": "If Linear regression model perfectly first i.e., train error is zero, then _____________________",
+        "options": [
+            "a) Test error is also always zero",
+            "b) Test error is non zero",
+            "c) Couldn\u2019t comment on Test error",
+            "d) Test error is equal to Train error"
+        ],
+        "answer": "c",
+        "explanation": "Test Error depends on the test data. If the Test data is an exact representation of train data then test error is always zero. But this may not be the case."
+    },
+    {
+        "question": "Which of the following metrics can be used for evaluating regression models?",
+        "options": [],
+        "answer": "d",
+        "explanation": "These (R Squared, Adjusted R Squared, F Statistics, RMSE / MSE / MAE) are some metrics which you can use to evaluate your regression model."
+    },
+    {
+        "question": "How many coefficients do you need to estimate in a simple linear regression model (One independent variable)?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "In simple linear regression, there is one independent variable so 2 coefficients (Y=a+bx+error)."
+    },
+    {
+        "question": "Function used for linear regression in R is __________",
+        "options": [
+            "a) lm(formula, data)",
+            "b) lr(formula, data)",
+            "c) lrm(formula, data)",
+            "d) regression.linear(formula, data)"
+        ],
+        "answer": "a",
+        "explanation": "lm(formula, data) refers to a linear model in which formula is the object of the class \u201cformula\u201d, representing the relation between variables. Now this formula is on applied on the data to create a relationship model."
+    },
+    {
+        "question": "In syntax of linear model lm(formula,data,..), data refers to ______",
+        "options": [
+            "a) Matrix",
+            "b) Vector",
+            "c) Array",
+            "d) List"
+        ],
+        "answer": "b",
+        "explanation": "Formula is just a symbol to show the relationship and is applied on data which is a vector. In General, data.frame are used for data."
+    },
+    {
+        "question": "In the mathematical Equation of Linear Regression Y\u2004=\u2004\u03b21 + \u03b22X + \u03f5, (\u03b21, \u03b22) refers to __________",
+        "options": [
+            "a) (X-intercept, Slope)",
+            "b) (Slope, X-Intercept)",
+            "c) (Y-Intercept, Slope)",
+            "d) (slope, Y-Intercept)"
+        ],
+        "answer": "c",
+        "explanation": "Y-intercept is \u03b21 and X-intercept is \u2013 (\u03b21 / \u03b22). Intercepts are defined for axis and formed when the coordinates are on the axis."
+    }
+]

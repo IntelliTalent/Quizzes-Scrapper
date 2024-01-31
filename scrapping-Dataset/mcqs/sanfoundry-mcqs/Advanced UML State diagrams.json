@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following states about concurrent region?",
+        "options": [
+            "a) It is Concurrent composite states contain two or more concurrent state diagrams separated by dashed lines",
+            "b) The concurrent state diagrams specify finite automata that execute in parallel",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Concurrent region is a concurrent composite states contain two or more concurrent state diagrams separated by dashed lines and specifies finite automata that execute in parallel."
+    },
+    {
+        "question": "Which of the following are the ways to make transitions into and two ways to make transitions from concurrent composite states?",
+        "options": [
+            "a) A transition is made to the composite state boundary",
+            "b) A transition into a concurrent composite state is to make a transition directly to one of its sub-states",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are two ways to make transitions into and two ways to make transitions from concurrent composite states, a transition is made to the composite state boundary and the second way to make a transition into a concurrent composite state is to make a transition directly to one of its sub-state."
+    },
+    {
+        "question": "Which of the following are the ways to leave concurrent composite states?",
+        "options": [
+            "a) Transitioning from the composite state and transitioning from individual sub-states",
+            "b) A transition from a sub-state to an external state causes the immediate exit from each concurrent automaton\u2019s current state",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There are two ways to leave concurrent composite states \u2013 transitioning from the composite state and transitioning from individual sub-states and a transition from a sub-state to an external state causes the immediate exit from each concurrent automaton\u2019s current state."
+    },
+    {
+        "question": "What is a Synch state?",
+        "options": [
+            "a) It is a counter that keeps track of transitions",
+            "b) They are represented in state diagrams by Synch state symbols, which are small circles containing either a positive integer or an asterisk, indicating the counter\u2019s upper bound",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A synch state is a counter that keeps track of transitions and they are represented in state diagrams by synch state symbols, which are small circles containing either a positive integer or an asterisk, indicating the counter\u2019s upper bound."
+    },
+    {
+        "question": "Which of the following is false about Concurrent composite states?",
+        "options": [
+            "a) Concurrent composite states simplify state diagrams by greatly reducing the number of states and transitions",
+            "b) Any set of concurrent state diagrams can be converted into an equivalent sequential state diagram, but the number of states in the sequential state diagram may be as much as the product of the number of states in each of the concurrent state diagrams",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Concurrent composite states simplify state diagrams by greatly reducing the number of states and transitions and Any set of concurrent state diagrams can be converted into an equivalent sequential state diagram, but the number of states in the sequential state diagram may be as much as the product of the number of states in each of the concurrent state diagrams."
+    },
+    {
+        "question": "What is the Transition junction point?",
+        "options": [
+            "a) The transitions from different sources can converge to a point and transitions leaving the point symbol may disperse to different targets",
+            "b) They are several transition arrows connected using point symbols",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The transitions from different sources can converge on a transition junction point symbol and transitions leaving the transition junction, point symbol may disperse to different targets and Several transition arrows connected using transition junction point symbols are compound transitions."
+    },
+    {
+        "question": "Which of the following represents history state?",
+        "options": [
+            "a) A history state is a pseudo-state that serves as a marker indicating that the sub-state last active when the composite state was exited should be re-entered",
+            "b) The history state indicator is a circled H",
+            "c) A history state may have a single unlabeled transition arrow emanating from it to one of its peer states",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " The history state indicator is a circled capital H and rest all are true."
+    },
+    {
+        "question": "Which of the following are the heuristics for the State diagram?",
+        "options": [
+            "a) Avoid concurrent composite states, especially those with synch states",
+            "b) Designate an initial state in every concurrent region of a concurrent composite state",
+            "c) Check that transitions to several concurrent sub-states go through a fork",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the heuristics followed by a state diagram."
+    },
+    {
+        "question": "What does \u201cDesignate an initial state in every concurrent region of a concurrent composite state\u201d mean?",
+        "options": [
+            "a) If there are no transitions to a concurrent composite state\u2019s boundary, then concurrent regions do not need to have initial states",
+            "b) A transition to the composite state\u2019s boundary could be added later, though, so initial states for each region should always be specified",
+            "c) It is legal to transition directly to more than one sub-state of a concurrent composite state without going through a fork",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If there are no transitions to a concurrent composite state\u2019s boundary, then concurrent regions do not need to have initial states and a transition to the composite state\u2019s boundary could be added later, though, so initial states for each region should always be specified."
+    },
+    {
+        "question": "Why there is a need to \u201cCheck that transitions to several concurrent sub-states go through a fork\u201d?",
+        "options": [
+            "a) State diagrams must specify deterministic finite automata, so there can be no doubt which transition to follow under every possible circumstance",
+            "b) It is illegal to transition directly to more than one sub-state of a concurrent composite state without going through a fork",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Check that transitions to several concurrent sub-states go through a fork because it is illegal to transition directly to more than one sub-state of a concurrent composite state without going through a fork."
+    }
+]

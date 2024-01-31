@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of the following statements is the negation of the statements \u201c4 is odd or -9 is positive\u201d?",
+        "options": [
+            "a) 4 is even or -9 is not negative",
+            "b) 4 is odd or -9 is not negative",
+            "c) 4 is even and -9 is negative",
+            "d) 4 is odd and -9 is not negative"
+        ],
+        "answer": "c",
+        "explanation": "Using  De Morgan\u2019s Law  ~(A V B) \u2194 ~A \u2227 ~B."
+    },
+    {
+        "question": "Which of the following represents: ~A (negation of A) if A stands for \u201cI like badminton but hate maths\u201d?",
+        "options": [
+            "a) I hate badminton and maths",
+            "b) I do not like badminton or maths",
+            "c) I dislike badminton but love maths",
+            "d) I hate badminton or like maths"
+        ],
+        "answer": "d",
+        "explanation": "De Morgan\u2019s Law ~ (A \u2227 B) \u2194 ~A V ~B."
+    },
+    {
+        "question": "The compound statement A v ~(A \u2227 B).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Applying De-Morgan\u2019s law we get A v ~ A \u039e Tautology."
+    },
+    {
+        "question": "Which of the following is De-Morgan\u2019s law?",
+        "options": [
+            "a) P \u2227 (Q v R) \u039e (P \u2227 Q) v (P \u2227 R)",
+            "b) ~(P \u2227 R) \u039e ~P v ~R, ~(P v R) \u039e ~P \u2227 ~R",
+            "c) P v ~P \u039e True, P \u2227 ~P \u039e False",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Definition of De\u2013Morgan\u2019s Law."
+    },
+    {
+        "question": "What is the dual of (A \u2227 B) v (C \u2227 D)?",
+        "options": [
+            "a) (A V B) v (C v D)",
+            "b) (A V B) ^ (C v D)",
+            "c) (A V B) v (C \u2227 D)",
+            "d) (A \u2227 B) v (C v D)"
+        ],
+        "answer": "b",
+        "explanation": "In dual \u2227 is replaced by v and vice \u2013 versa."
+    },
+    {
+        "question": "~ A v ~ B is logically equivalent to?",
+        "options": [
+            "a) ~ A \u2192 ~ B",
+            "b) ~ A \u2227 ~ B",
+            "c) A \u2192 ~B",
+            "d) B V A"
+        ],
+        "answer": "c",
+        "explanation": "By identity A \u2192 B \u039e ~A V B."
+    },
+    {
+        "question": "Negation of statement (A \u2227 B) \u2192 (B \u2227 C) is _____________",
+        "options": [
+            "a) (A \u2227 B) \u2192(~B \u2227 ~C)",
+            "b) ~(A \u2227 B) v ( B v C)",
+            "c) ~(A \u2192B) \u2192(~B \u2227 C)",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "~(A \u2192B) \u039e  A \u2227 ~B using this we can easily fetch the answer."
+    },
+    {
+        "question": "Which of the following satisfies commutative law?",
+        "options": [
+            "a) \u2227",
+            "b) v",
+            "c) \u2194",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of them satisfies commutative law."
+    },
+    {
+        "question": "If the truth value of A v B is true, then truth value of ~A \u2227 B can be ___________",
+        "options": [
+            "a) True if A is false",
+            "b) False if A is false",
+            "c) False if B is true and A is false",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If A is false then both the condition are obeyed."
+    },
+    {
+        "question": "If P is always against the testimony of Q, then the compound statement P\u2192(P v ~Q) is a __________",
+        "options": [
+            "a) Tautology",
+            "b) Contradiction",
+            "c) Contingency",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Since either hypothesis is false or both (hypothesis as well as conclusion) are true."
+    }
+]

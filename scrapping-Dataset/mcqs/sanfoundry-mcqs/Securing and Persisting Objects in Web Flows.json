@@ -1,0 +1,151 @@
+[
+    {
+        "question": "Element which secures web flows.",
+        "options": [
+            "a) secured",
+            "b) security",
+            "c) sec",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " With Spring Security configured properly, you can simply secure a flow, a state, or a transition by embedding the secured element with required access attributes specified."
+    },
+    {
+        "question": "To secure web flows with Spring Security.",
+        "options": [
+            "a) DelegatingFilter",
+            "b) DelegatingFilterProxy",
+            "c) DelegatingProxy",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To secure web flows with Spring Security, you first have to configure a DelegatingFilterProxy filter in the web deployment descriptor (i.e., web.xml)."
+    },
+    {
+        "question": "Group id to add spring security using Maven.",
+        "options": [],
+        "answer": "b",
+        "explanation": "org.springframework.secur is used to secure web flows with Spring Security."
+    },
+    {
+        "question": "auto-config provides only default form-based login service.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "HTTP auto-config, which provides a default form-based login service, an anonymous login service, and so on."
+    },
+    {
+        "question": "To enable Spring security for web flows.",
+        "options": [
+            "a) SecurityFlowExecutionListener",
+            "b) SecurityFlowExecution",
+            "c) FlowSecurity",
+            "d) SecurityFlowListener"
+        ],
+        "answer": "a",
+        "explanation": "You have to register the flow execution listener SecurityFlowExecutionListener in the flow executor to enable Spring Security for web flow."
+    },
+    {
+        "question": "Which of the following class should replace \u2018?\u2019.",
+        "options": [],
+        "answer": "c",
+        "explanation": "You have to register the flow execution listener SecurityFlowExecutionListener in the flow executor to enable Spring Security for web flow."
+    },
+    {
+        "question": "Which attribute is used to access security element of web flow.",
+        "options": [
+            "a) attribute",
+            "b) attributes-security",
+            "c) attributes",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can specify multiple access attributes required for accessing this web flow in the attributes attribute, separated by commas."
+    },
+    {
+        "question": "Spring web flow supports integration with.",
+        "options": [
+            "a) JSF",
+            "b) Hibernate",
+            "c) JPA",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring Web Flow 2.0 comes with support for JPA and Hibernate."
+    },
+    {
+        "question": "To integrate JPA with Spring Web flows.",
+        "options": [
+            "a) JpaFlowExecutionListener",
+            "b) HibernateFlowExecutionListener",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To have Spring Web Flow manage the persistence contexts for your web flows, you have to register a flow execution listener (e.g., JpaFlowExecutionListener for JPA."
+    },
+    {
+        "question": "To integrate Hibernate with Spring Web flows.",
+        "options": [
+            "a) JpaFlowExecutionListener",
+            "b) HibernateFlowExecutionListener",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To have Spring Web Flow manage the persistence contexts for your web flows, you have to register a flow execution listener (e.g., HibernateFlowExecutionListener for Hibernate."
+    },
+    {
+        "question": "HibernateFlowExecutionListener and JpaFlowExecutionListener both belongs to which of the package.",
+        "options": [
+            "a) org.springframework.web.persistence package",
+            "b) org.springframework.persistence package",
+            "c) org.springframework.webflow package package",
+            "d) org.springframework.webflow.persistence package"
+        ],
+        "answer": "d",
+        "explanation": "JpaFlowExecutionListener for JPA and HibernateFlowExecutionListener for Hibernate, both of which belong to the org.springframework.webflow.persistence package) in the flow executor."
+    },
+    {
+        "question": "JpaFlowExecutionListener and Hibernate Listener binds to flow scope.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": ". When a new flow starts, this listener creates a new persistence context (e.g., a JPA entity manager or a Hibernate session) and binds it to the flow scope."
+    },
+    {
+        "question": "Libraries used to integrate Hibernate with JPA.",
+        "options": [
+            "a) Hibernate 3",
+            "b) Hibernate 3 Entity Manager",
+            "c) JPA API",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To use Hibernate as the JPA engine, you have to add Hibernate 3, the Hibernate 3 EntityManager, the JPA API, and ehcache."
+    },
+    {
+        "question": "To configure JPA vendor-specific information.",
+        "options": [
+            "a) JPA vendor adaptor",
+            "b) Data source",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "you can configure a JPA entity manage factory by providing a data source and a JPA vendor adaptor, where you can configure JPA vendor-specific information."
+    },
+    {
+        "question": "You have to register a flow execution listener in the flow executor.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "To have Spring Web Flow manage the persistence contexts for your web flows, you have to register a flow execution listener in the flow executor."
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Method used to process bean before initialization callback",
+        "options": [
+            "a) scope",
+            "b) postProcessAfterInitialization()",
+            "c) postProcessBeforeInitialization()",
+            "d) it\u2019s own constructor"
+        ],
+        "answer": "c",
+        "explanation": "You can process every bean before initialization callback method by implementing the postProcessBeforeInitialization() and methods."
+    },
+    {
+        "question": "Method used to process bean after initialization callback",
+        "options": [
+            "a) scope",
+            "b) getBean",
+            "c) postProcessAfterInitialization()",
+            "d) it\u2019s own constructor"
+        ],
+        "answer": "c",
+        "explanation": "You can process every bean after initialization callback method by implementing the postProcessAfterInitialization() and methods."
+    },
+    {
+        "question": "Which method is used to gracefully shutdown all the bean processes after closing the spring container?",
+        "options": [
+            "a) shutdownHook",
+            "b) destroy method",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "ShutdownHook method gracefully shuts down each bean process before closing the container."
+    },
+    {
+        "question": "Which method is used to register BeanPostProcessor?",
+        "options": [
+            "a) addBeanPostProcessors",
+            "b) registerBeanPostProcessors",
+            "c) addBeanProcessors",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When using a bean factory as your IoC container, bean post processors can only be registered programmatically, or more accurately, via the addBeanPostProcessor() method."
+    },
+    {
+        "question": "In application context, BeanPost Processors are registered using addBeanPostProcessors method",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Using an application context, the registration will be as simple as declaring an instance of the processor in the bean configuration file."
+    },
+    {
+        "question": "Which Interface for bean Post Processor is used to distinguish between checked beans",
+        "options": [
+            "a) StorageConfig",
+            "b) Marker",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "First of all, for the bean post processor to distinguish which beans should be checked, you create a marker interface, StorageConfig, for your target beans to implement."
+    },
+    {
+        "question": "Which method of bean post processors is used to check path existence",
+        "options": [
+            "a) getPath",
+            "b) setPath",
+            "c) value",
+            "d) auto-wiring"
+        ],
+        "answer": "a",
+        "explanation": "Moreover, for your bean post processor to check for path existence, it must be able to access the path property. This can be done by adding the getPath() method to this interface."
+    },
+    {
+        "question": "It\u2019s possible to replace the original bean instance with a brand-new instance in your bean post processor",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Both the postProcessBeforeInitialization() and postProcessAfterInitialization() methods must return an instance for the bean being processed."
+    },
+    {
+        "question": "PathCheckingBeanPostProcessor will not work properly in case of:-",
+        "options": [
+            "a) XML Configuration",
+            "b) Java based Configuration",
+            "c) JSR Annotation",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This is because your bean post processor has a lower priority than CommonAnnotationBeanPostProcessor by default. As a result, the initialization method will be called before your path checking."
+    },
+    {
+        "question": "Which bean factory post processor externalizes part of the bean configurations into a properties file",
+        "options": [
+            "a) PropertyPlaceholderConfigurer",
+            "b) PropertyPlaceholderRegister",
+            "c) PropertyGetPath",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring comes with a bean factory post processor called PropertyPlaceholderConfigurer for you to externalize part of the bean configurations into a properties file."
+    },
+    {
+        "question": "Which interface defines methods for resolving text messages",
+        "options": [
+            "a) MessageSource",
+            "b) ApplicationListener",
+            "c) ApplicationContextListener",
+            "d) TextEvent"
+        ],
+        "answer": "a",
+        "explanation": "MessageSource is an interface that defines several methods for resolving messages."
+    },
+    {
+        "question": "Which interface is used to listen to certain events",
+        "options": [
+            "a) ApplicationListener",
+            "b) ContextListener",
+            "c) EventListener",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For a bean to listen to certain events, it must implement the ApplicationListener interface and handle the events in the onApplicationEvent() method."
+    },
+    {
+        "question": "Which method is used to publish your own custom event",
+        "options": [
+            "a) contextPublish",
+            "b) publishEvent",
+            "c) applicationEventPublish",
+            "d) addEvent"
+        ],
+        "answer": "b",
+        "explanation": "Any bean can publish an event by calling an application event publisher\u2019s publishEvent() method."
+    },
+    {
+        "question": "Which of the following is a well known recognized event",
+        "options": [
+            "a) ContextCloasedEvemt",
+            "b) ContextRefreshedEvent",
+            "c) RequestHandledEvent",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The application context itself will also publish container events such as ContextClosedEvent, ContextRefreshedEvent, and RequestHandledEvent."
+    },
+    {
+        "question": "Which event is provoked when web request comes into action",
+        "options": [
+            "a) ContextClosedEvent",
+            "b) ContextStoppedEvent",
+            "c) SessionEvent",
+            "d) RequestHandledEvent"
+        ],
+        "answer": "d",
+        "explanation": "Web request events are handled by RequestHandledEvent."
+    }
+]

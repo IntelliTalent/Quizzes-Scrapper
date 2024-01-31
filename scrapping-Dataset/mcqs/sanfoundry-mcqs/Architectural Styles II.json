@@ -1,0 +1,167 @@
+[
+    {
+        "question": "What is layered styles?",
+        "options": [
+            "a) The components are designed to layers to control inter component interaction",
+            "b) The components are designed to layers to control the data flow into specific direction",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned statements are true for the layered styles."
+    },
+    {
+        "question": "Which of the following styles main goal is to achieve modifiability?",
+        "options": [
+            "a) Independent component architecture",
+            "b) Layered Styles",
+            "c) Heterogeneous styles",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Independent component architecture main goal is to achieve modifiability."
+    },
+    {
+        "question": "Which of the following style main goal is to achieve portability, modifiability with the ease of parameterization?",
+        "options": [
+            "a) Independent component architecture",
+            "b) Layered Styles",
+            "c) Heterogeneous styles",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Layered Styles main goal is to achieve portability, modifiability with the ease of parameterization."
+    },
+    {
+        "question": "What is layered bridging?",
+        "options": [
+            "a) The functions in one layer may talk to the functions to its immediate neighbors than all other layers",
+            "b) The functions in one layer may talk to the functions in layers other than its immediate neighbors",
+            "c) The functions in one layer may or may not talk to the functions in layers other than its immediate neighbors",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The functions in one layer may talk to the functions in layers other than its immediate neighbors."
+    },
+    {
+        "question": "Which of the following architecture consists of independent processes or objects that communicate through messages?",
+        "options": [
+            "a) Independent Component architecture",
+            "b) Heterogeneous Architectures",
+            "c) Layered Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Independent Component architecture-consists of independent processes or objects that communicate through messages."
+    },
+    {
+        "question": "For which of the architecture Locality,Hierarchical and Simultaneous style are the sub style?",
+        "options": [
+            "a) Independent Component architecture",
+            "b) Heterogeneous Architectures",
+            "c) Layered Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "For Heterogeneous architecture Locality,Hierarchical and Simultaneous style are the sub style."
+    },
+    {
+        "question": "Which of the heterogeneous style means that drawing of its running structures will reveal patterns of different styles in different areas?",
+        "options": [
+            "a) Locality",
+            "b) Hierarchical",
+            "c) Simultaneous",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Locality heterogeneous style means that drawing of its running structures will reveal patterns of different styles in different areas."
+    },
+    {
+        "question": "For which of the architecture Event style is the sub style?",
+        "options": [
+            "a) Independent Component architecture",
+            "b) Heterogeneous Architectures",
+            "c) Layered Architecture",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For Independent Component architecture, Event style is the sub style."
+    },
+    {
+        "question": "Which of the heterogeneous style means that any of several styles may well be apt description of the system?",
+        "options": [
+            "a) Locality",
+            "b) Hierarchical",
+            "c) Simultaneous",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Simultaneous heterogeneous style means that any of several styles may well description of the system."
+    },
+    {
+        "question": "Which of the heterogeneous style means that component of one style,when decomposed is structural according to the rules of different style?",
+        "options": [
+            "a) Locality",
+            "b) Hierarchical",
+            "c) Simultaneous",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hierarchical heterogeneous style means that component of one style,when decomposed is structural according to the rules of different style."
+    },
+    {
+        "question": "What does existence of styles means?",
+        "options": [
+            "a) Cognitive aids",
+            "b) Communication Cues",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Existence of styles means Cognitive aids and Communication Cues."
+    },
+    {
+        "question": "Which of the following does architecture consists of?",
+        "options": [
+            "a) Architecture consists of some structures that do not necessarily resemble each other",
+            "b) Architecture consists of many structures that do necessarily resemble each other",
+            "c) Architecture consists of many structures that do not necessarily resemble each other",
+            "d) Architecture consists of some structures that do necessarily resemble each other"
+        ],
+        "answer": "c",
+        "explanation": "Architecture consists of many structures that do not necessarily resemble each other."
+    },
+    {
+        "question": "What are the disadvantages of pipe & filters?",
+        "options": [
+            "a) Interactive applications are difficult to create",
+            "b) Performance is poor due several reasons",
+            "c) No way for a filter to cooperatively interact to solve a problem",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are disadvantages of pipes and filter."
+    },
+    {
+        "question": "What are Virtual Machine Styles?",
+        "options": [
+            "a) They are software styles that stimulates some functionality that is not native to the hardware or software on which it is implemented",
+            "b) They are software styles that stimulates some functionality that is native to the hardware or software on which it is implemented",
+            "c) They emphasize on incremental transformation of data by successive components",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "They are software styles that stimulates some functionality that is not native to the hardware or software on which it is implemented."
+    },
+    {
+        "question": "In which of the architecture style main program and subroutine systems are decomposed into parts that live on computers connected via a network?",
+        "options": [
+            "a) Main program and subroutine Architecture",
+            "b) Remote Procedure Call system",
+            "c) Object Oriented or abstract data type system",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In Remote Procedure Call System-the architecture style main program and subroutine systems are decomposed into parts that live on computers connected via a network."
+    }
+]

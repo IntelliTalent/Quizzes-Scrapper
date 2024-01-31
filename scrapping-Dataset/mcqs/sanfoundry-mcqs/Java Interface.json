@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In order to read any file in HDFS, instance of __________ is required.",
+        "options": [
+            "a) filesystem",
+            "b) datastream",
+            "c) outstream",
+            "d) inputstream"
+        ],
+        "answer": "a",
+        "explanation": "InputDataStream is used to read data from file."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The framework groups Reducer inputs by keys",
+            "b) The shuffle and sort phases occur simultaneously i.e. while outputs are being fetched they are merged",
+            "c) Since JobConf.setOutputKeyComparatorClass(Class) can be used to control how intermediate keys are grouped, these can be used in conjunction to simulate secondary sort on values",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If equivalence rules for keys while grouping the intermediates are different from those for grouping keys before reduction, then one may specify a Comparator."
+    },
+    {
+        "question": "______________ is method to copy byte from input stream to any other stream in Hadoop.",
+        "options": [
+            "a) IOUtils",
+            "b) Utils",
+            "c) IUtils",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "IOUtils class is static method in Java interface."
+    },
+    {
+        "question": "_____________ is used to read data from bytes buffers.",
+        "options": [
+            "a) write()",
+            "b) read()",
+            "c) readwrite()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "readfully method can also be used instead of read method."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The framework calls reduce method for each <key, (list of values)> pair in the grouped inputs",
+            "b) The output of the Reducer is re-sorted",
+            "c) reduce method reduces values for a given key",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The output of the Reducer is not re-sorted."
+    },
+    {
+        "question": "Interface  ____________ reduces a set of intermediate values which share a key to a smaller set of values.",
+        "options": [
+            "a) Mapper",
+            "b) Reducer",
+            "c) Writable",
+            "d) Readable"
+        ],
+        "answer": "b",
+        "explanation": "Reducer implementations can access the JobConf for the job."
+    },
+    {
+        "question": "Reducer is input the grouped output of a ____________",
+        "options": [
+            "a) Mapper",
+            "b) Reducer",
+            "c) Writable",
+            "d) Readable"
+        ],
+        "answer": "a",
+        "explanation": "In the phase the framework, for each Reducer, fetches the relevant partition of the output of all the Mappers, via HTTP."
+    },
+    {
+        "question": "The output of the reduce task is typically written to the FileSystem via ____________",
+        "options": [
+            "a) OutputCollector",
+            "b) InputCollector",
+            "c) OutputCollect",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In reduce phase the reduce(Object, Iterator, OutputCollector, Reporter) method is called for each"
+    },
+    {
+        "question": "Applications can use the _________ provided to report progress or just indicate that they are alive.",
+        "options": [
+            "a) Collector",
+            "b) Reporter",
+            "c) Dashboard",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In scenarios where the application takes a significant amount of time to process individual key/value pairs, this is crucial since the framework might assume that the task has timed-out and kill that task."
+    },
+    {
+        "question": "Which of the following parameter is to collect keys and combined values?",
+        "options": [
+            "a) key",
+            "b) values",
+            "c) reporter",
+            "d) output"
+        ],
+        "answer": "d",
+        "explanation": "The reporter parameter is for a facility to report progress."
+    }
+]

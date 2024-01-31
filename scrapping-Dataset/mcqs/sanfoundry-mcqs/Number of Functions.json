@@ -1,0 +1,106 @@
+[
+    {
+        "question": "An injection is a function which is?",
+        "options": [
+            "a) many-one",
+            "b) one-one",
+            "c) onto",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "One-One functions are also known as injection."
+    },
+    {
+        "question": "A mapping f : X \u2192 Y is one one if __________",
+        "options": [
+            "a) f(x",
+            "b) If f(x",
+            "c) f(x",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In one one function every element in A should have unique image in B,thus if two image are equal this means there preimages are same."
+    },
+    {
+        "question": "A function is defined by mapping f : A \u2192 B such that A contains m elements and B contains n elements and m \u2264 n then number of one one functions are _________",
+        "options": [
+            "a)",
+            "b)",
+            "c) 0",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "From n elements in B we need to select m elements and then arrange them in all ways, thus  answer="
+    },
+    {
+        "question": " A function is defined by mapping f : A -> B such that A contains m elements and B contains n elements and m>n then number of one one functions are ________",
+        "options": [
+            "a)",
+            "b)",
+            "c) 0",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Since for function to be defined every element should have a image, since m > n atleast one element need to have same image, thus we can\u2019t form any unique images and hence the number of one one function are zero."
+    },
+    {
+        "question": "For an onto function range is equivalent to codomain.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Since in onto function every image should have preimage thus all the elements in codomain should have preimages."
+    },
+    {
+        "question": "Onto function are known as injection.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Onto functions are known as surjection."
+    },
+    {
+        "question": "Set A has 3 elements and set B has 4 elements then number of injections defined from A to B are?",
+        "options": [
+            "a) 12",
+            "b) 24",
+            "c) 36",
+            "d) 48"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:Injections will be"
+    },
+    {
+        "question": "A function is defined by mapping f : A \u2192 B such that A contains m elements and B contains n elements and 1\u2264n\u2264m then number of onto functions are ________",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The number of onto function is equal tpo the coffecient of x"
+    },
+    {
+        "question": "A function is defined by mapping f:A\u2192B such that A contains m elements and B contains n elements and m > n then number of bijections are ________",
+        "options": [
+            "a)",
+            "b)",
+            "c) 0",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Since we can\u2019t define any one one function in such case so number of bujections will be zero."
+    },
+    {
+        "question": "A bijection is a function which is many-one and onto.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A bijection is a function which is one-one(injection) and onto(surjection)."
+    }
+]

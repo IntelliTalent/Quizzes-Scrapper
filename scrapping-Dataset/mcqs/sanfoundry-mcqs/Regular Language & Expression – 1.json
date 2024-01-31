@@ -1,0 +1,113 @@
+[
+    {
+        "question": "A regular language over an alphabet a is one that can be obtained from",
+        "options": [
+            "a) union",
+            "b) concatenation",
+            "c) kleene",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Regular expression {0,1} is equivalent to",
+        "options": [
+            "a) 0 U 1",
+            "b) 0 / 1",
+            "c) 0 + 1",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All are equivalent to union operation."
+    },
+    {
+        "question": "Precedence of regular expression in decreasing order is",
+        "options": [
+            "a) * , . , +",
+            "b) . , * , +",
+            "c) . , + , *",
+            "d) + , a , *"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Regular expression \u03a6* is equivalent to",
+        "options": [
+            "a) \u03f5",
+            "b) \u03a6",
+            "c) 0",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "a? is equivalent to",
+        "options": [
+            "a) a",
+            "b) a+\u03a6",
+            "c) a+\u03f5",
+            "d) wrong expression"
+        ],
+        "answer": "c",
+        "explanation": "Zero or one time repetition of previous character ."
+    },
+    {
+        "question": "\u03f5L is equivalent to",
+        "options": [
+            "a) \u03f5",
+            "b) \u03a6",
+            "c) L",
+            "d) \u03a6\u03f5"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "(a+b)* is equivalent to",
+        "options": [
+            "a) b*a*",
+            "b) (a*b*)*",
+            "c) a*b*",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "\u03a6L is equivalent to",
+        "options": [
+            "a) L\u03a6 & \u03a6",
+            "b) \u03a6 & L",
+            "c) L & L",
+            "d) \u03f5 & L"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following pair of regular expression are not equivalent?",
+        "options": [
+            "a) 1(01)* and (10)*1",
+            "b) x(xx)* and (xx)*x",
+            "c) (ab)* and a*b*",
+            "d) x+ and x*x+"
+        ],
+        "answer": "c",
+        "explanation": "(ab)*=(a*b*)*."
+    },
+    {
+        "question": "Consider following regular expression",
+        "options": [
+            "i) (a/b)*    ii) (a*/b*)*   iii) ((\u03f5/a)b*)*",
+            "a) i,ii are equal and ii,iii are not",
+            "b) i,ii are equal and i,iii are not",
+            "c) ii,iii are equal and i,ii are not",
+            "d) all are equal"
+        ],
+        "answer": "d",
+        "explanation": "All are equivalent to (a+b)*."
+    }
+]

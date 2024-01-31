@@ -1,0 +1,102 @@
+[
+    {
+        "question": "For which of these storage engines are configuration options always built?",
+        "options": [
+            "a) Falcon",
+            "b) FEDERATED",
+            "c) InnoDB",
+            "d) MyISAM"
+        ],
+        "answer": "d",
+        "explanation": "The configuration options for the storage engine \u2018MyISAM\u2019 are always built. The runtime options for MyISAM are also always enabled. For the others, runtime options are explicitly enabled."
+    },
+    {
+        "question": "The storage engine for which the runtime options are always enabled is ______________",
+        "options": [
+            "a) Falcon",
+            "b) FEDERATED",
+            "c) InnoDB",
+            "d) MEMORY"
+        ],
+        "answer": "d",
+        "explanation": "The configuration options for the storage engine \u2018MEMORY\u2019 are always built. The runtime options for \u2018MEMORY\u2019 are also always enabled. For the others, runtime options are explicitly enabled byt specifications."
+    },
+    {
+        "question": "The most important configurable resource for MyISAM is ______________",
+        "options": [
+            "a) key cache",
+            "b) memory cache",
+            "c) time cache",
+            "d) speed cache"
+        ],
+        "answer": "a",
+        "explanation": "For the index processing, \u2018MyISAM\u2019 manages its own key cache, which is the most important configurable resource for the MyISAM storage engine. It is used for index based retrievals and sorts."
+    },
+    {
+        "question": "Which system variable enables mysqld to keep more tables open simultaneously?",
+        "options": [
+            "a) table_cache",
+            "b) max_connect",
+            "c) delayed_queue_size",
+            "d) max_allowed_packet"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018table_cache\u2019 stores the size of the table cache. Increasing the value enables \u2018mysqld\u2019 to keep more tables open simultaneously by reducing the number of files open and close operations."
+    },
+    {
+        "question": "xyz in the following MySQL statement is __________",
+        "options": [],
+        "answer": "c",
+        "explanation": "A \u2018View\u2019 is created in MySQL by writing the clause \u2018CREATE VIEW\u2019 followed by the view name. Then follows the list of column names of the table that are to be presented as the view."
+    },
+    {
+        "question": "abc in the following MySQL statement is ____________",
+        "options": [],
+        "answer": "b",
+        "explanation": "Column names for a view can be explicitly provided in the \u2018CREATE VIEW\u2019 clause itself. It presents the table view with the aliased column names instead of the original column names."
+    },
+    {
+        "question": "How can a view refer to multiple tables?",
+        "options": [
+            "a) UNION",
+            "b) JOIN",
+            "c) GROUP",
+            "d) SELECT"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, a \u2018View\u2019 can refer to multiple tables. This makes it a lot simpler to execute the queries involving joins. When a selection is made from the view, the join is executed producing the results."
+    },
+    {
+        "question": "What is the mantissa in -1.58E5?",
+        "options": [
+            "a) -1.58",
+            "b) 1.58",
+            "c) E",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the scientific notation for real numbers is possible. Some values are represented as floating point numbers in scientific notation consisting of a mantissa and exponent."
+    },
+    {
+        "question": "What is the precision of BIGINT?",
+        "options": [
+            "a) 32",
+            "b) 64",
+            "c) 128",
+            "d) 16"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, for the expressions containing only exact values that are all integers, the evaluation uses BIGINT (64 \u2013 bit) precision. MySQL evaluates expressions using exact/approximate math."
+    },
+    {
+        "question": "How many digits is the DECIMAL used for expressions containing only exact values with fractional part?",
+        "options": [
+            "a) 32",
+            "b) 64",
+            "c) 65",
+            "d) 16"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, for the expressions containing only exact values and where one or more values have a fractional part, the DECIMAL arithmetic is used with digits of precision equal to 65."
+    }
+]

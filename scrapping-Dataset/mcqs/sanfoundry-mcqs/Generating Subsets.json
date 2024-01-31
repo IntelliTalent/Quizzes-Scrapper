@@ -1,0 +1,84 @@
+[
+    {
+        "question": "What is meant by the power set of a set?",
+        "options": [
+            "a) subset of all sets",
+            "b) set of all subsets",
+            "c) set of particular subsets",
+            "d) empty set"
+        ],
+        "answer": "b",
+        "explanation": "Power set of a set is defined as the set of all subsets. Ex- S={1,2} then P={{},{1},{2}{1,2}}."
+    },
+    {
+        "question": "Number of elements in the power set of set S={1,2,3} will be?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "d",
+        "explanation": "Power set of a set is defined as the set of all subsets. Number of elements in the power set of a set having n elements is given as 2"
+    },
+    {
+        "question": "Number of elements in the power set of set S={1,2,2} will be?",
+        "options": [
+            "a) 2",
+            "b) 4",
+            "c) 6",
+            "d) 8"
+        ],
+        "answer": "c",
+        "explanation": "For finding the number of elements in the power set of the given set we need to remove duplicates. So we will be left with 6 unique elements which will be P={{},{1},{2},{1,2},{2,2},{1,2,2}}."
+    },
+    {
+        "question": "Choose the correct statement for the following code segment?",
+        "options": [],
+        "answer": "c",
+        "explanation": "As the value of 1 << i is 2"
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code prints the elements of power set of the given set strset[]. It uses binary counter of appropriate length in order to print corresponding subsets of the given set."
+    },
+    {
+        "question": "What will be the time complexity of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the given code we have a nested for loop. In this loop the outer loop runs 2"
+    },
+    {
+        "question": "What will be the auxiliary space requirement of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code prints the elements of power set of the given set strset[]. As this code does not require any extra space for generating the output so its auxiliary space requirement will be O(1)."
+    },
+    {
+        "question": "Which of the following code prints the power set of a given set?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "In the correct version we are taking two cases for each element. In the first case the element is included in the subset and in the second case it is not included. So in this manner, we find all the subsets of the given set."
+    },
+    {
+        "question": "The number of elements in the power set increases when there are duplicates present in the set.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In case when duplicates are present in the set then the number of elements in the power set decreases. It is because we remove subsets with identical elements."
+    },
+    {
+        "question": "What of the following code prints the power set of a given set?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In the correct version of the code we are fixing a prefix and generate all corresponding subsets. Then after all subsets with a prefix are generated, we replace last character with one of the remaining character."
+    }
+]

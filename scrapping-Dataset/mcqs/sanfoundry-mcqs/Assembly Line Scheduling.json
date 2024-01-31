@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Which of the following methods can be used to solve the assembly line scheduling problem?",
+        "options": [
+            "a) Recursion",
+            "b) Brute force",
+            "c) Dynamic programming",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the above mentioned methods can be used to solve the assembly line scheduling problem."
+    },
+    {
+        "question": "What is the time complexity of the brute force algorithm used to solve the assembly line scheduling problem?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(2"
+        ],
+        "answer": "d",
+        "explanation": "In the brute force algorithm, all the possible ways are calculated which are of the order of 2"
+    },
+    {
+        "question": "In the dynamic programming implementation of the assembly line scheduling problem, how many lookup tables are required?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "In the dynamic programming implementation of the assembly line scheduling problem, 2 lookup tables are required one for storing the minimum time and the other for storing the assembly line number."
+    },
+    {
+        "question": "Consider the following assembly line problem:",
+        "options": [],
+        "answer": "b",
+        "explanation": "For the optimal solution, the starting assembly line is line 2."
+    },
+    {
+        "question": "Consider the following assembly line problem:",
+        "options": [],
+        "answer": "b",
+        "explanation": "For the optimal solution, the exit assembly line is line 2."
+    },
+    {
+        "question": "Consider the following assembly line problem:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The minimum time required is 43."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [],
+        "answer": "a",
+        "explanation": "The line t2[i] = get_min(t2[i-1]+spent[1][i], t1[i-1]+reach[0][i-1]+spent[1][i]) should be added to complete the above code."
+    },
+    {
+        "question": "What is the time complexity of the above dynamic programming implementation of the assembly line scheduling problem?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity of the above dynamic programming implementation of the assembly line scheduling problem is O(n)."
+    },
+    {
+        "question": "What is the space complexity of the above dynamic programming implementation of the assembly line scheduling problem?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The space complexity of the above dynamic programming implementation of the assembly line scheduling problem is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the optimal time required to build the car chassis, which is 34."
+    },
+    {
+        "question": "What is the value stored in t1[2] when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The value stored in t1[2] when the above code is executed is 20."
+    },
+    {
+        "question": "What is the value stored in t2[3] when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The value stored in t2[3] when the above code is executed is 25."
+    },
+    {
+        "question": "What is the output of the  following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the optimal time required to build the car chassis, which is 88."
+    }
+]

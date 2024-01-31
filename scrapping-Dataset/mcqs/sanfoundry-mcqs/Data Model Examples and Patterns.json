@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which of the following relationship uses references to describe documents between connected data?",
+        "options": [
+            "a) One-to-One Relationships with Embedded Documents",
+            "b) One-to-Many Relationships with Embedded Documents",
+            "c) One-to-Many Relationships with Document References",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "One-to-Many Relationships with document references presents a data model that uses references to describe one-to-many relationships between documents."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) One-to-One Relationships with embedded documents presents a data model that uses embedded documents to describe one-to-one relationships between connected data",
+            "b) One-to-One Relationships with document references presents a data model that uses embedded documents to describe one-to-one relationships between connected data",
+            "c) One-to-Many Relationships with embedded documents presents a data model that uses embedded documents to describe one-to-one relationships between connected data",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "One-to-Many Relationships with embedded documents presents a data model that uses embedded documents to describe one-to-many relationships between connected data."
+    },
+    {
+        "question": "If the address data is frequently retrieved with the name information, how will you modify the following schema representing one to one relationship with referencing?",
+        "options": [],
+        "answer": "a",
+        "explanation": "With the embedded data model, your application can retrieve the complete patron information with one query."
+    },
+    {
+        "question": "Which of the following is used to avoid the repetition of data in MongoDB schema?",
+        "options": [
+            "a) DeReferences",
+            "b) References",
+            "c) Cursor",
+            "d) Collectors"
+        ],
+        "answer": "b",
+        "explanation": "When using references, the growth of the relationships determine where to store the reference."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Decisions that affect how you model data can affect application performance and database capacity",
+            "b) Collections do enforce document structure",
+            "c) Data in MongoDB has a flexible schema",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Collections do not enforce document structure."
+    },
+    {
+        "question": "What would be the more optimal schema to embed the address data entities in the patron data for following schema representing one to many relationships?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In this one-to-many relationship between patron and address data, the patron has multiple address entities."
+    },
+    {
+        "question": "How will avoid mutable, growing arrays in the following schema?",
+        "options": [],
+        "answer": "c",
+        "explanation": "To avoid mutable, growing arrays, store the publisher reference inside the book document."
+    },
+    {
+        "question": "__________ define what records to select for read, update, and delete operations.",
+        "options": [
+            "a) Query optimizer",
+            "b) Query selector",
+            "c) Update definitions",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Update definitions, which define what fields to modify during an update."
+    },
+    {
+        "question": "The ___________ JavaScript shell and the MongoDB language drivers translate between BSON and the language-specific document representation.",
+        "options": [
+            "a) mongod",
+            "b) mongo",
+            "c) json",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB stores documents on disk in the BSON serialization format. BSON is a binary representation of JSON documents, though it contains more data types than JSON."
+    },
+    {
+        "question": "Which of the following statement is incorrect about documents in MongoDB?",
+        "options": [
+            "a) The field names cannot start with the dollar sign ($) character",
+            "b) The field names cannot contain the dot (.) character",
+            "c) The field names cannot contain the null character",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "BSON documents may have more than one field with the same name."
+    }
+]

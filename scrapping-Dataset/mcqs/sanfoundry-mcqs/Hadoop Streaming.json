@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Streaming supports streaming command options as well as _________ command options.",
+        "options": [
+            "a) generic",
+            "b) tool",
+            "c) library",
+            "d) task"
+        ],
+        "answer": "a",
+        "explanation": "Place the generic options before the streaming options, otherwise the command will fail."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) You can specify any executable as the mapper and/or the reducer",
+            "b) You cannot supply a Java class as the mapper and/or the reducer",
+            "c) The class you supply for the output format should return key/value pairs of Text class",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you do not specify an input format class, the TextInputFormat is used as the default."
+    },
+    {
+        "question": "Which of the following Hadoop streaming command option parameter is required?",
+        "options": [
+            "a) output directoryname",
+            "b) mapper executable",
+            "c) input directoryname",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Required parameters are used for Input and Output location for the mapper."
+    },
+    {
+        "question": "To set an environment variable in a streaming command use ____________",
+        "options": [
+            "a) -cmden EXAMPLE_DIR=/home/example/dictionaries/",
+            "b) -cmdev EXAMPLE_DIR=/home/example/dictionaries/",
+            "c) -cmdenv EXAMPLE_DIR=/home/example/dictionaries/",
+            "d) -cmenv EXAMPLE_DIR=/home/example/dictionaries/"
+        ],
+        "answer": "c",
+        "explanation": "Environment Variable is set using cmdenv command."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Hadoop has a library package called Aggregate",
+            "b) Aggregate allows you to define a mapper plugin class that is expected to generate \u201caggregatable items\u201d for each input key/value pair of the mappers",
+            "c) To use Aggregate, simply specify \u201c-mapper aggregate\u201d",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To use Aggregate, simply specify \u201c-reducer aggregate\u201d:"
+    },
+    {
+        "question": "The ________ option allows you to copy jars locally to the current working directory of tasks and automatically unjar the files.",
+        "options": [
+            "a) archives",
+            "b) files",
+            "c) task",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Archives options is also a generic option."
+    },
+    {
+        "question": "______________ class allows the Map/Reduce framework to partition the map outputs based on certain key fields, not the whole keys.",
+        "options": [
+            "a) KeyFieldPartitioner",
+            "b) KeyFieldBasedPartitioner",
+            "c) KeyFieldBased",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The primary key is used for partitioning, and the combination of the primary and secondary keys is used for sorting."
+    },
+    {
+        "question": "Which of the following class provides a subset of features provided by the Unix/GNU Sort?",
+        "options": [
+            "a) KeyFieldBased",
+            "b) KeyFieldComparator",
+            "c) KeyFieldBasedComparator",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hadoop has a library class, KeyFieldBasedComparator, that is useful for many applications."
+    },
+    {
+        "question": "Which of the following class is provided by the Aggregate package?",
+        "options": [
+            "a) Map",
+            "b) Reducer",
+            "c) Reduce",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Aggregate provides a special reducer class and a special combiner class, and a list of simple aggregators that perform aggregations such as \u201csum\u201d, \u201cmax\u201d, \u201cmin\u201d and so on over a sequence of values."
+    },
+    {
+        "question": "Hadoop has a library class, org.apache.hadoop.mapred.lib.FieldSelectionMapReduce, that effectively allows you to process text data like the unix ______ utility.",
+        "options": [
+            "a) Copy",
+            "b) Cut",
+            "c) Paste",
+            "d) Move"
+        ],
+        "answer": "b",
+        "explanation": "The map function defined in the class treats each input key/value pair as a list of fields."
+    }
+]

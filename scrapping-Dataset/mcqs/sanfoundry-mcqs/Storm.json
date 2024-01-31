@@ -1,0 +1,112 @@
+[
+    {
+        "question": "____________ is a distributed real-time computation system for processing large volumes of high-velocity data.",
+        "options": [
+            "a) Kafka",
+            "b) Storm",
+            "c) Lucene",
+            "d) BigTop"
+        ],
+        "answer": "b",
+        "explanation": "Storm on YARN is powerful for scenarios requiring real-time analytics, machine learning and continuous monitoring of operations."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A Storm topology consumes streams of data and processes those streams in arbitrarily complex ways",
+            "b) Apache Storm is a free and open source distributed real-time computation system",
+            "c) Storm integrates with the queueing and database technologies you already use",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Storm has many use cases: real-time analytics, online machine learning, continuous computation, distributed RPC, ETL, and more."
+    },
+    {
+        "question": "Storm integrates with __________ via Apache Slider.",
+        "options": [
+            "a) Scheduler",
+            "b) YARN",
+            "c) Compaction",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Impala is open source (Apache License), so you can self-support in perpetuity if you wish."
+    },
+    {
+        "question": "For Apache __________ users, Storm utilizes the same ODBC interface.",
+        "options": [
+            "a) cTakes",
+            "b) Hive",
+            "c) Pig",
+            "d) Oozie"
+        ],
+        "answer": "b",
+        "explanation": "You don\u2019t have to worry about re-inventing the implementation wheel."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Storm is difficult and can be used with only Java",
+            "b) Storm is fast: a benchmark clocked it at over a million tuples processed per second per node",
+            "c) Storm is scalable, fault-tolerant, guarantees your data will be processed",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Storm is simple, can be used with any programming language."
+    },
+    {
+        "question": "Storm is benchmarked as processing one million _______ byte messages per second per node.",
+        "options": [
+            "a) 10",
+            "b) 50",
+            "c) 100",
+            "d) 200"
+        ],
+        "answer": "c",
+        "explanation": "Storm is a distributed real-time computation system."
+    },
+    {
+        "question": "Apache Storm added the open source, stream data processing to _________ Data Platform.",
+        "options": [
+            "a) Cloudera",
+            "b) Hortonworks",
+            "c) Local Cloudera",
+            "d) MapR"
+        ],
+        "answer": "b",
+        "explanation": "The Storm community is working to improve capabilities related to three important themes: business continuity, operations, and developer productivity."
+    },
+    {
+        "question": "How many types of nodes are present in Storm cluster?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "A storm cluster has three sets of nodes."
+    },
+    {
+        "question": "__________  node distributes code across the cluster.",
+        "options": [
+            "a) Zookeeper",
+            "b) Nimbus",
+            "c) Supervisor",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Nimbus node is master node, similar to the Hadoop JobTracker."
+    },
+    {
+        "question": "____________ communicates with Nimbus through Zookeeper, starts and stops workers according to signals from Nimbus.",
+        "options": [
+            "a) Zookeeper",
+            "b) Nimbus",
+            "c) Supervisor",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "ZooKeeper nodes coordinate the Storm cluster."
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "question": "___________ is a method of constructing a smallest polygon out of n given points.",
+        "options": [
+            "a) closest pair problem",
+            "b) quick hull problem",
+            "c) path compression",
+            "d) union-by-rank"
+        ],
+        "answer": "b",
+        "explanation": "Quick hull is a method of constructing a smallest convex polygon out of n given points in a plane."
+    },
+    {
+        "question": "What is the other name for quick hull problem?",
+        "options": [
+            "a) convex hull",
+            "b) concave hull",
+            "c) closest pair",
+            "d) path compression"
+        ],
+        "answer": "a",
+        "explanation": "The other name for quick hull problem is convex hull problem whereas the closest pair problem is the problem of finding the closest distance between two points."
+    },
+    {
+        "question": "How many approaches can be applied to solve quick hull problem?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Most commonly, two approaches are adopted to solve quick hull problem- brute force approach and divide and conquer approach."
+    },
+    {
+        "question": "What is the average case complexity of a quick hull algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "b",
+        "explanation": "The average case complexity of quickhull algorithm using divide and conquer approach is mathematically found to be O(N log N)."
+    },
+    {
+        "question": "What is the worst case complexity of quick hull?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "c",
+        "explanation": "The worst case complexity of quickhull algorithm using divide and conquer approach is mathematically found to be O(N"
+    },
+    {
+        "question": "What does the following diagram depict?",
+        "options": [
+            "a) closest pair",
+            "b) convex hull",
+            "c) concave hull",
+            "d) path compression"
+        ],
+        "answer": "b",
+        "explanation": "The above diagram is a depiction of convex hull, also known as quick hull, since it encloses n points into a convex polygon."
+    },
+    {
+        "question": "Which of the following statement is not related to quickhull algorithm?",
+        "options": [
+            "a) finding points with minimum and maximum coordinates",
+            "b) dividing the subset of points by a line",
+            "c) eliminating points within a formed triangle",
+            "d) finding the shortest distance between two points"
+        ],
+        "answer": "d",
+        "explanation": "Finding the shortest distance between two points belongs to closest pair algorithm while the rest is quickhull."
+    },
+    {
+        "question": "The quick hull algorithm runs faster if the input uses non- extreme points.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "It is proved that the quick hull algorithm runs faster if the input uses non-extreme points and also, if it uses less memory."
+    },
+    {
+        "question": "To which type of problems does quick hull belong to?",
+        "options": [
+            "a) numerical problems",
+            "b) computational geometry",
+            "c) graph problems",
+            "d) string problems"
+        ],
+        "answer": "b",
+        "explanation": "Quick hull problem and closest pair algorithms are some of the examples of computational problems."
+    },
+    {
+        "question": "Which of the following algorithms is similar to a quickhull algorithm?",
+        "options": [
+            "a) merge sort",
+            "b) shell sort",
+            "c) selection sort",
+            "d) quick sort"
+        ],
+        "answer": "d",
+        "explanation": "Quickhull algorithm is similar to a quick sort algorithm with respect to the run time average case and worst case efficiencies."
+    },
+    {
+        "question": "Who formulated quick hull algorithm?",
+        "options": [
+            "a) Eddy",
+            "b) Andrew",
+            "c) Chan",
+            "d) Graham"
+        ],
+        "answer": "a",
+        "explanation": "Eddy formulated quick hull algorithm. Graham invented graham scan. Andrew formulated Andrew\u2019s algorithm and Chan invented Chan\u2019s algorithm."
+    },
+    {
+        "question": "The time is taken to find the \u2018n\u2019 points that lie in a convex quadrilateral is?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(log N)"
+        ],
+        "answer": "a",
+        "explanation": "The time taken to find the \u2018n\u2019 points that lie in a convex quadrilateral is mathematically found to be O(N)."
+    }
+]

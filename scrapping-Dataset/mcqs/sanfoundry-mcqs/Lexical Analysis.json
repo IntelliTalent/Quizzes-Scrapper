@@ -1,0 +1,179 @@
+[
+    {
+        "question": "Lexemes can be referred to as:",
+        "options": [
+            "a) elements of lexicography",
+            "b) sequence of alphanumeric characters in a token",
+            "c) lexical errors",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " A lexeme is a string of characters that form a syntactic unit. It is reasonable to say that is the sequence of alphanumeric characters in a token."
+    },
+    {
+        "question": "If the lexical analyser finds a lexeme with the same name as that of a reserved word,it _________",
+        "options": [
+            "a) overwrites the word",
+            "b) overwrites the functionality",
+            "c) generates an error",
+            "d) something else"
+        ],
+        "answer": "c",
+        "explanation": "Reserved words are known as keywords and they are specific and reserved with its functionality to a language. Thus, getting an input with the same name by the analyzer will generate an error."
+    },
+    {
+        "question": "The methodology to show an error when the analyzer faces a keyword over an user\u2019s input is based on:",
+        "options": [
+            "a) rule priority",
+            "b) longest match rule",
+            "c) keyword-out rule",
+            "d) none of mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The lexical analyzer follows the rule priority where its prioritizes keywords over an input it gets with the same name as that of the keyword and thus generates an error."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A lexical analyzer reads the source code letter by letter and when it encounters a space or an operator or any special character, it decides that the word is completed."
+    },
+    {
+        "question": "5.Which among the following statement is correct?",
+        "options": [
+            "a) Statement 1 is assertion, Statement 2 is the reason",
+            "b) Statement 1 is assertion, Statement 2 is the solution",
+            "c) There is no such Statement 2",
+            "d) This is not a function of Lexical Analyzer"
+        ],
+        "answer": "b",
+        "explanation": "The Longest Match rule states that the lexeme scanned should be determined on the basis of longest match among all the token available."
+    },
+    {
+        "question": "The output of the lexical and syntax analyzer can stated as:",
+        "options": [
+            "a) parse stream, parse tree",
+            "b) token tree, parse tree",
+            "c) token stream, parse tree",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The lexical analyzer outputs the stream of token which is taken up by syntax analyzer one by one against the production rule and parse tree is generated."
+    },
+    {
+        "question": "Which among the following is not a tool to construct lexical analyzer from a regular expression?",
+        "options": [
+            "a) lex",
+            "b) flex",
+            "c) jflex",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Lexical analysis is done using few tools such as lex, flex and jflex. Jflex is a computer program that generates lexical analyzers (also known as lexers or scanners) and works apparently like lex and flex. Lex is commonly used with yacc parser generator."
+    },
+    {
+        "question": "A program that performs lexical analysis is termed as:",
+        "options": [
+            "a) scanner",
+            "b) lexer",
+            "c) tokenizer",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A program which performs lexical analysis is called lexer, scanner or lexer. Nowadays, lexer is combined with a parser which allows syntactic analysis."
+    },
+    {
+        "question": "Lexers and parsers are not found in which of the following?",
+        "options": [
+            "a) compiler front end processing",
+            "b) prettyprinters",
+            "c) linters",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Lexers and parsers are most commonly used in compilers, but it has more application elsewhere like in prettyprinters or linters(application of stylistic formatting conventions to textfiles, source code, etc.)."
+    },
+    {
+        "question": "Which phase of compiler includes Lexical Analysis?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) Its primary function, not in any phase"
+        ],
+        "answer": "a",
+        "explanation": "The first phase of compilation process is called lexical analysis. It fragments the source code into token which is the smallest programming unit of a program."
+    },
+    {
+        "question": "Which of the following characters are ignored while lexical analysis?",
+        "options": [
+            "a) .",
+            "b) =",
+            "c) #",
+            "d) WhiteSpace"
+        ],
+        "answer": "d",
+        "explanation": "The lexical analyzer ignores all the whitespaces and fragments the program into tokens."
+    },
+    {
+        "question": "____________ is used for grouping up of characters into token.",
+        "options": [
+            "a) Lexical Analyzer",
+            "b) oolex",
+            "c) jflex",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "oolex, flex, lex, jflex, all are lexical analyzer tools which perform the following function."
+    },
+    {
+        "question": "The action of parsing the source code into proper syntactic classes is known as:",
+        "options": [
+            "a) Parsing",
+            "b) Interpretation analysis",
+            "c) Lexicography",
+            "d) Lexical Analysis"
+        ],
+        "answer": "d",
+        "explanation": "Lexical analysis or scanning is the process of parsing the source code into proper syntactic classes. It gets things ready for the parser with lexemes to built the parse tree."
+    },
+    {
+        "question": "Which of the following is the task of lexical analysis?",
+        "options": [
+            "a) To build the uniform symbol table",
+            "b) To initialize the variables",
+            "c) To organize the variables in a lexical order",
+            "d) None of the mentioned",
+            "a) Building a uniform symbol table",
+            "b) Parsing the source code into tokens",
+            "c) Building a literal and identifier table"
+        ],
+        "answer": "a",
+        "explanation": "Lexical analysis involves the following task:"
+    },
+    {
+        "question": "The scanner outputs:",
+        "options": [
+            "a) Stream of tokens",
+            "b) Image file",
+            "c) Intermediate code",
+            "d) Machine code"
+        ],
+        "answer": "a",
+        "explanation": "A scanner or a lexical analyzer takes a source code as input and outputs a stream of token after fragmenting the code."
+    },
+    {
+        "question": "The phase of compilation which involves type checking is:",
+        "options": [
+            "a) Parsing",
+            "b) Scanning",
+            "c) Syntax directed translation",
+            "d) Semantic Analyzer"
+        ],
+        "answer": "c",
+        "explanation": "Type checking is a process which is performed during Syntax directed translation."
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "question": "Who developed Visual Basic?",
+        "options": [
+            "a) Symantec",
+            "b) Ashton-Tate",
+            "c) Microsoft",
+            "d) Sybase"
+        ],
+        "answer": "c",
+        "explanation": "Visual Basic is a programming language and environment developed by Microsoft. Visual Basic first version was published in 1991."
+    },
+    {
+        "question": "Which of the following statement is used to define a class in visual basic?",
+        "options": [
+            "a) Event class statement",
+            "b) Class statement",
+            "c) Form class statement",
+            "d) Event statement"
+        ],
+        "answer": "b",
+        "explanation": "The class statement is used to define a class in visual basic. The class statement begins with"
+    },
+    {
+        "question": "Which of the following extension is used to represent the project file in Visual Basic?",
+        "options": [
+            "a) .vbp",
+            "b) .vb",
+            "c) .cls",
+            "d) .vvb"
+        ],
+        "answer": "a",
+        "explanation": "The .vbp file extension is used to represent the program file in Visual Basic. .cls is used to save the Class module."
+    },
+    {
+        "question": "If you keep a variable undeclared, it is automatically taken as to which of the following data type in Visual Basic?",
+        "options": [
+            "a) Char",
+            "b) Int",
+            "c) Object",
+            "d) String"
+        ],
+        "answer": "c",
+        "explanation": "Visual basic can create variables \u201con the fly\u201d. This means that if your code contains undeclared variables, Visual basic creates the variable for you and assigns object data type to it. An undeclared variable is a variable, which does not appear in the declaration statement i.e. the Dim statement."
+    },
+    {
+        "question": "Which of the following applications can be developed using Visual Basic tool?",
+        "options": [
+            "a) Graphical User Interface",
+            "b) Real-time",
+            "c) Character User Interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Visual Basic tool provides an easy way to develop graphical user interface (GUI) applications."
+    },
+    {
+        "question": "In Visual Basic, which of the following is used for coding single-alternative and dual-alternative selection structures?",
+        "options": [
+            "a) Switch-Case block",
+            "b) If\u2026Then\u2026Else statement",
+            "c) function overloading",
+            "d) Recursion"
+        ],
+        "answer": "b",
+        "explanation": "In Visual Basic If\u2026Then\u2026Else statement is used for coding single-alternative and dual-alternative selection structures. The If\u2026Then\u2026Else statement statements provide for a statement block where the condition may be true and another if the condition is false."
+    },
+    {
+        "question": "What will be the output of the following Visual Basic code, If the intnumber variable is 110?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Since the intnumber is 110, i.e. it is greater than 100, thus else part of the code will be executed, i.e., the if part of the code will not be executed. Thus intnumber=intnumber*3 will be executed, thus 110*3=330 will be stored in intnumber."
+    },
+    {
+        "question": "In the Visual Basic application, which of the following are listed in a properties window?",
+        "options": [
+            "a) Items",
+            "b) Values",
+            "c) Attributes",
+            "d) Objects"
+        ],
+        "answer": "c",
+        "explanation": "Attributes also known as properties are listed in a Properties Window. Attributes are keyword-like tags in which you can specify additional information about entities defined in Visual Basic application. Attributes are saved as assembly\u2019s metadata."
+    },
+    {
+        "question": "What will be the output of the following Visual Basic expression?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The above expression calculates for a loan of Rs. 9000 for 3 years at 5% interest. Rate is 0.05, Nper is 3 and PV is 9000. The annual payment rounded off to nearest is, -3304.88."
+    },
+    {
+        "question": "Which of the following is commonly used to perform an immediate action when clicked in Visual Studio?",
+        "options": [
+            "a) Button control",
+            "b) Close",
+            "c) End",
+            "d) Exit"
+        ],
+        "answer": "a",
+        "explanation": "Every application should give the user a way to exit the program. Most Windows Application accomplishes this task using the Exit option. In visual basic a button is used for sending an application. It is commonly used to perform immediate action when clicked."
+    },
+    {
+        "question": "In the following Visual Basic code, what will be in msg, if str contains \u201cvisual basic\u201d?",
+        "options": [],
+        "answer": "b",
+        "explanation": "str contains \u201cvisual basic\u201d. When we do str.toUpper, the string in str is changed to \u201cVISUAL BASIC\u201d. Thus, the comparison satisfies, and the if statement is executed, since the comparison returns a true value. Thus msg will contain \u201cVB.Net\u201d."
+    },
+    {
+        "question": "Which of the following displays the list of projects contained in the Visual Basic current solution?",
+        "options": [
+            "a) List Window",
+            "b) Project Window",
+            "c) Catalogue Window",
+            "d) Solution Explorer Window"
+        ],
+        "answer": "d",
+        "explanation": "The Solution Explorer Window provides you with an organized view of your projects and their files as well as ready access to the commands that pertain to them. A toolbar associated with this window offers commonly used commands for the item you highlight in this list."
+    },
+    {
+        "question": "Which of the following method is used to sort an array in visual basic?",
+        "options": [
+            "a) Array.Sort()",
+            "b) Array.sortAscending()",
+            "c) Array.arrayArrange()",
+            "d) Array.arrange()"
+        ],
+        "answer": "a",
+        "explanation": "You can use the Array.Sort method to sort a one-dimensional array\u2019s values in ascending order. To sort the values in descending order, you first use the Array.Sort method to sort the values in ascending order, and then use the Array.Reverse method to reverse the values. The syntax is as follows, where the arrayName is the name of the array:"
+    },
+    {
+        "question": "Which of the following is the caption part for the following Visual Basic command?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The syntax of the MessageBox.Show is-"
+    }
+]

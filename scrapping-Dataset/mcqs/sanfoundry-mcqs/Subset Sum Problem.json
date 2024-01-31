@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Under what condition any set A will be a subset of B?",
+        "options": [
+            "a) if all elements of set B are also present in set A",
+            "b) if all elements of set A are also present in set B",
+            "c) if A contains more elements than B",
+            "d) if B contains more elements than A"
+        ],
+        "answer": "b",
+        "explanation": "Any set A will be called a subset of set B if all elements of set A are also present in set B. So in such a case set A will be a part of set B."
+    },
+    {
+        "question": "What is a subset sum problem?",
+        "options": [
+            "a) finding a subset of a set that has sum of elements equal to a given number",
+            "b) checking for the presence of a subset that has sum of elements equal to a given number and printing true or false based on the result",
+            "c) finding the sum of elements present in a set",
+            "d) finding the sum of all the subsets of a set"
+        ],
+        "answer": "b",
+        "explanation": "In subset sum problem check for the presence of a subset that has sum of elements equal to a given number. If such a subset is present then we print true otherwise false."
+    },
+    {
+        "question": "Which of the following is true about the time complexity of the recursive solution of the subset sum problem?",
+        "options": [
+            "a) It has an exponential time complexity",
+            "b) It has a linear time complexity",
+            "c) It has a logarithmic time complexity",
+            "d) it has a time complexity of O(n2)"
+        ],
+        "answer": "a",
+        "explanation": "Subset sum problem has both recursive as well as dynamic programming solution. The recursive solution has an exponential time complexity as it will require to check for all subsets in worst case."
+    },
+    {
+        "question": "What is the worst case time complexity of dynamic programming solution of the subset sum problem(sum=given subset sum)?",
+        "options": [
+            "a) O(n)",
+            "b) O(sum)",
+            "c) O(n",
+            "d) O(sum*n)"
+        ],
+        "answer": "d",
+        "explanation": "Subset sum problem has both recursive as well as dynamic programming solution. The dynamic programming solution has a time complexity of O(n*sum) as it as a nested loop with limits from 1 to n and 1 to sum respectively."
+    },
+    {
+        "question": "Subset sum problem is an example of NP-complete problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Subset sum problem takes exponential time when we implement a recursive solution. Subset sum problem is known to be a part of NP complete problems."
+    },
+    {
+        "question": "Recursive solution of subset sum problem is faster than dynamic problem solution in terms of time complexity.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "The recursive solution to subset sum problem takes exponential time complexity whereas the dynamic programming solution takes polynomial time complexity. So dynamic programming solution is faster in terms of time complexity."
+    },
+    {
+        "question": "Which of the following is not true about subset sum problem?",
+        "options": [
+            "a) the recursive solution has a time complexity of O(2n)",
+            "b) there is no known solution that takes polynomial time",
+            "c) the recursive solution is slower than dynamic programming solution",
+            "d) the dynamic programming solution has a time complexity of O(n log n)"
+        ],
+        "answer": "d",
+        "explanation": "Recursive solution of subset sum problem is slower than dynamic problem solution in terms of time complexity. Dynamic programming solution has a time complexity of O(n*sum)."
+    },
+    {
+        "question": "Which of the following should be the base case for the recursive solution of subset sum problem?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The base case condition defines the point at which the program should stop recursion. In this case we need to make sure that, the sum does not become 0 and there should be elements left in our array for recursion to happen."
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code represents the recursive approach of solving the subset sum problem. The output for the code will be true if any subset is found to have sum equal to the desired sum, otherwise false will be printed."
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code represents the dynamic programming approach of solving the subset sum problem. The output for the code will be true if any subset is found to have sum equal to the desired sum, otherwise false will be printed."
+    },
+    {
+        "question": "What will be the worst case time complexity for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code represents the recursive approach solution of the subset sum problem. It has an exponential time complexity as it will require to check for all subsets in the worst case. It is equal to O(2"
+    }
+]

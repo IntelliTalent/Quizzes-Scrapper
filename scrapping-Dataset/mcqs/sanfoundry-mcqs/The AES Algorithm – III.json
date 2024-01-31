@@ -1,0 +1,116 @@
+[
+    {
+        "question": "How many computation rounds does the simplified AES consists of?",
+        "options": [
+            "a) 5",
+            "b) 2",
+            "c) 8",
+            "d) 10"
+        ],
+        "answer": "b",
+        "explanation": "The simplified AES has only 2 rounds of computation."
+    },
+    {
+        "question": "For the case of Mixed Columns and Inverse Mixed Columns, is it true that b(x) = a",
+        "options": [
+            "a) True",
+            "b) False. The expression for a(x) is wrong.",
+            "c) False. The expression for b(x) is wrong.",
+            "d) False. Both a(x) and b(x) are faulty."
+        ],
+        "answer": "a",
+        "explanation": "The statment is true and can be checked as it is similar to the matrix forms of mixed columns and inverse mixed columns."
+    },
+    {
+        "question": "For an inputs key of size 128 bits constituting of all zeros, what is w(7) ?",
+        "options": [
+            "a) {62 63 63 63}",
+            "b) {62 62 62 62}",
+            "c) {00 00 00 00}",
+            "d) {63 63 63 62}"
+        ],
+        "answer": "a",
+        "explanation": "Applying the key algorithm we get,"
+    },
+    {
+        "question": "On comparing AES with DES, which of the following functions from DES does not have an equivalent AES function?",
+        "options": [
+            "a) f function",
+            "b) permutation p",
+            "c) swapping of halves",
+            "d) xor of subkey with function f"
+        ],
+        "answer": "c",
+        "explanation": "There is no equivalent to swapping of halves in the AES algorithm."
+    },
+    {
+        "question": "On perform the Mix Columns transformation for the sequence of bytes \u201c77 89 AB CD\u201d we get output",
+        "options": [
+            "a) {01 55 EE 4A}",
+            "b) {0A 44 EF 4A}",
+            "c) {08 55 FF 3A}",
+            "d) {09 44 DD 4A}"
+        ],
+        "answer": "c",
+        "explanation": "Perform the mix columns transformation to obtain the output {08 55 FF 3A}."
+    },
+    {
+        "question": "Is the following matrix the inverse matrix of the matrix used in the mix columns step?",
+        "options": [],
+        "answer": "a",
+        "explanation": "On multiplying this matrix with the mix columns matrix we get the identity matrix, this proves that it is an inverse matrix."
+    },
+    {
+        "question": "For the cipher text 0000 0111 0011 1000 and Key 0110 1111 0110 1011, apply the Simplified AES to obtain the plaintext. The plain text is",
+        "options": [
+            "a) 0110 1001 0111 0001",
+            "b) 0110 1111 0110 1011",
+            "c) 0010 1001 0110 1011",
+            "d) 1111 0101 0111 1111"
+        ],
+        "answer": "b",
+        "explanation": "On applying the simplified AES we would obtain 0110 1111 0110 1011 as the plain text."
+    },
+    {
+        "question": "What is the block size in the Simplified AES algorithm?",
+        "options": [
+            "a) 8 bits",
+            "b) 40 bits",
+            "c) 16 bits",
+            "d) 36 bits"
+        ],
+        "answer": "b",
+        "explanation": "The block size for the AES algorithm is 16 bits."
+    },
+    {
+        "question": "What is the key size in the S-AES algorithm?",
+        "options": [
+            "a) 16 bits",
+            "b) 32 bits",
+            "c) 24 bits",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The key size in the S-AES algorithm is 16 bits."
+    },
+    {
+        "question": "S-AES and S-DES were both developed by the same person as an educational cryptography system to teach students",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is a faulty S-AES step function?",
+        "options": [
+            "a) Add round key",
+            "b) Byte substitution",
+            "c) Shift rows",
+            "d) Mix Columns"
+        ],
+        "answer": "b",
+        "explanation": "The correct version in S-AES would be nibble substitution as 4 bits are taken at a time."
+    }
+]

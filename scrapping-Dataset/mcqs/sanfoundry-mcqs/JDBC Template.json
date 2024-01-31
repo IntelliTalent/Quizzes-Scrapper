@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Class which declares a number of overloaded update() template methods to control the overall update process.",
+        "options": [
+            "a) org.springframework.jdbc.core.JdbcTemplate",
+            "b) org.springframework.jdbc.core.*",
+            "c) org.springframework.jdbc.*",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The org.springframework.jdbc.core.JdbcTemplate class declares a number of overloaded update() template methods to control the overall update process."
+    },
+    {
+        "question": "You implement this interface to override the statement creation task.",
+        "options": [
+            "a) PreparedStatement",
+            "b) PreparedStatementCreator",
+            "c) PreparedCreator",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The first callback interface to introduce is PreparedStatementCreator. You implement this interface to override the statement creation task and the parameter binding task of the overall update process."
+    },
+    {
+        "question": "When implementing the PreparedStatementCreator interface, you will get the database connection as the createPreparedStatement() method\u2019s argument.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "All you have to do in this method is to create a PreparedStatement object on this connection and bind your parameters to this object."
+    },
+    {
+        "question": "It is better to implement the PreparedStatementCreator interface and other callback interfaces as inner classes if they are used within one method only.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This is because you can get access to the local variables and method arguments directly from the inner class, instead of passing them as constructor arguments."
+    },
+    {
+        "question": "PreparedStatementSetter, as its name indicates, create a PreparedStatement object on this connection the parameter as well as binding task of the overall update process.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The second callback interface, PreparedStatementSetter, as its name indicates, performs only the parameter binding task of the overall update process."
+    },
+    {
+        "question": "The JdbcTemplate class offers template method for batch update operations.",
+        "options": [
+            "a) batchUpdate()",
+            "b) update()",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It requires a SQL statement and a BatchPreparedStatementSetter object as arguments. In this method, the statement is compiled (prepared) only once and executed multiple times."
+    },
+    {
+        "question": "The JdbcTemplate class declares a number of overloaded query() template methods to control the overall query process.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "c",
+        "explanation": "You can override the statement creation (task 2) and the parameter binding by implementing the PreparedStatementCreator and PreparedStatementSetter interfaces, just as you did for the update operations."
+    },
+    {
+        "question": "The primary interface that allows you to process the current row of the result set.",
+        "options": [
+            "a) PreparedStatementSetter",
+            "b) PreparedStatementCreator",
+            "c) RowCallbackHandler",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "RowCallbackHandler is the is the primary interface that allows you to process the current row of the result set."
+    },
+    {
+        "question": "RowCallbackHandler purpose is to map a single row of the result set to a customized object.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "RowCallbackHandler is the is the primary interface that allows you to process the current row of the result set."
+    },
+    {
+        "question": "Method of RowMapper interface in which, you have to construct the object that represents a row and return it as the method\u2019s return value.",
+        "options": [
+            "a) mapRow()",
+            "b) query()",
+            "c) update()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "From the viewpoint of reuse, it\u2019s better to implement the RowMapper"
+    },
+    {
+        "question": "RowMapper",
+        "options": [
+            "a) BeanPropertyRowMapper",
+            "b) BeanPropertyRow",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Note that the specified class must be a top-level class and must have a default or no-argument constructor. It first instantiates this class and then maps each column value to a property by matching their names."
+    },
+    {
+        "question": "Method which provides list of maps.",
+        "options": [
+            "a) queryForList()",
+            "b) update",
+            "c) query()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Without the help of RowMapper"
+    },
+    {
+        "question": "Spring JDBC framework offers a convenient class, to simplify your DAO implementation.",
+        "options": [
+            "a) org.springframework.jdbc.core.support",
+            "b) org.springframework.jdbc.core.support.JdbcDaoSupport",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring JDBC framework offers a convenient class, org.springframework.jdbc.core.support.JdbcDaoSupport, to simplify your DAO implementation. This class declares a jdbcTemplate property, which can be injected from the IoC container or created automatically from a data source."
+    },
+    {
+        "question": "The org.springframework.jdbc.core.support.JdbcDaoSupport class has a setDataSource() method and a setJdbcTemplate() method.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Your DAO class can extend this class to have these methods inherited."
+    },
+    {
+        "question": "Method to retrieve the JDBC template.",
+        "options": [
+            "a) setJdbcTemplate()",
+            "b) getTemplate()",
+            "c) getJdbc()",
+            "d) getJdbcTemplate()"
+        ],
+        "answer": "d",
+        "explanation": "In your DAO methods, you can simply call the getJdbcTemplate() method to retrieve the JDBC template. You also have to delete the dataSource and jdbcTemplate properties, as well as their setter methods, from your DAO class, because they have already been inherited. Again, for simplicity\u2019s sake, only the change to the insert() method is shown."
+    }
+]

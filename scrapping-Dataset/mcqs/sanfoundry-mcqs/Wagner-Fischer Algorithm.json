@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Wagner\u2013Fischer is a ____________ algorithm.",
+        "options": [
+            "a) Brute force",
+            "b) Greedy",
+            "c) Dynamic programming",
+            "d) Recursive"
+        ],
+        "answer": "c",
+        "explanation": "Wagner\u2013Fischer belongs to the dynamic programming type of algorithms."
+    },
+    {
+        "question": "Wagner\u2013Fischer algorithm is used to find ____________",
+        "options": [
+            "a) Longest common subsequence",
+            "b) Longest increasing subsequence",
+            "c) Edit distance between two strings",
+            "d) Longest decreasing subsequence"
+        ],
+        "answer": "c",
+        "explanation": "Wagner\u2013Fischer algorithm is used to find the edit distance between two strings."
+    },
+    {
+        "question": "What is the edit distance between the strings \u201cabcd\u201d and \u201cacbd\u201d when the allowed operations are insertion, deletion and substitution?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The string \u201cabcd\u201d can be changed to \u201cacbd\u201d by substituting \u201cb\u201d with \u201cc\u201d and \u201cc\u201d with \u201cb\u201d. Thus, the edit distance is 2."
+    },
+    {
+        "question": "For which of the following pairs of strings is the edit distance maximum?",
+        "options": [
+            "a) sunday & monday",
+            "b) monday & tuesday",
+            "c) tuesday & wednesday",
+            "d) wednesday & thursday"
+        ],
+        "answer": "d",
+        "explanation": "The edit distances are 2, 4, 4 and 5 respectively. Hence, the maximum edit distance is between the strings wednesday and thursday."
+    },
+    {
+        "question": "Consider the following implementation of the Wagner\u2013Fischer algorithm:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line min = arr[i-1][j-1] completes the above code."
+    },
+    {
+        "question": "What is the time complexity of the Wagner\u2013Fischer algorithm where \u201cm\u201d and \u201cn\u201d are the lengths of the two strings?",
+        "options": [
+            "a) O(1)",
+            "b) O(n+m)",
+            "c) O(mn)",
+            "d) O(nlogm)"
+        ],
+        "answer": "c",
+        "explanation": "The time complexity of the Wagner\u2013Fischer algorithm is O(mn)."
+    },
+    {
+        "question": "What is the space complexity of the above implementation of Wagner\u2013Fischer algorithm where \u201cm\u201d and \u201cn\u201d are the lengths of the two strings?",
+        "options": [
+            "a) O(1)",
+            "b) O(n+m)",
+            "c) O(mn)",
+            "d) O(nlogm)"
+        ],
+        "answer": "c",
+        "explanation": "The space complexity of the above Wagner\u2013Fischer algorithm is O(mn)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the edit distance between the strings \u201csomestring\u201d and \u201canotherthing\u201d, which is 6."
+    },
+    {
+        "question": "What is the value stored in arr[3][3] when the below code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The value stored in arr[3][3] is 3."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the edit distance between the strings \u201cabcd\u201d and \u201cdcba\u201d, which is 4."
+    }
+]

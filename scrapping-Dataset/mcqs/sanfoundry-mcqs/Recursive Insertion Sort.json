@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Which of the following is an advantage of recursive insertion sort over its iterative version?",
+        "options": [
+            "a) it has better time complexity",
+            "b) it has better space complexity",
+            "c) it is easy to implement",
+            "d) it has no significant advantage"
+        ],
+        "answer": "d",
+        "explanation": "Recursive insertion sort has no significant advantage over iterative insertion sort. It is just a different way to implement the same."
+    },
+    {
+        "question": "Insertion sort is an online sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Insertion sort does not require the entire input data in the beginning itself in order to sort the array. It rather creates a partial solution in every step, so future elements are not required to be considered. Hence it is an online sorting algorithm."
+    },
+    {
+        "question": "What will be the recurrence relation of the code of recursive insertion sort?",
+        "options": [
+            "a) T(n) = 2T(n/2) + n",
+            "b) T(n) = 2T(n/2) + c",
+            "c) T(n) = T(n-1) + n",
+            "d) T(n) = T(n-1) + c"
+        ],
+        "answer": "c",
+        "explanation": "The recurrence relation of the code of recursive insertion sort is T(n) = T(n-1) + n. It can be solved by the method of substitution and is found to be equal to n"
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Selection sort",
+            "b) Quick sort",
+            "c) Insertion sort",
+            "d) Heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Out of the given options insertion sort is the only algorithm which is stable. It is because the elements with identical values appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "Which of the following is a variant of insertion sort?",
+        "options": [
+            "a) selection sort",
+            "b) shell sort",
+            "c) odd-even sort",
+            "d) stupid sort"
+        ],
+        "answer": "b",
+        "explanation": "Shell sort is a variation of insertion sort. It has a better running time in practical applications."
+    },
+    {
+        "question": "Recursive insertion sort is a comparison based sort.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In insertion sort, we need to compare elements in order to find the minimum element in each iteration. So we can say that it uses comparisons in order to sort the array. Thus it qualifies as a comparison based sort."
+    },
+    {
+        "question": "What is the average case time complexity of recursive insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The overall recurrence relation of recursive insertion sort is given by T(n) = T(n-1) + n. It is found to be equal to O(n"
+    },
+    {
+        "question": "What is the best case time complexity of recursive insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "The best case time complexity of recursive insertion sort is O(n). It occurs in the case when the input is already/almost sorted."
+    },
+    {
+        "question": "What is the worst case time complexity of recursive insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "The overall recurrence relation of recursive insertion sort is given by T(n) = T(n-1) + n. It is found to be equal to O(n"
+    },
+    {
+        "question": "How many swaps will be required in the worst case to sort an array having n elements using binary insertion sort?",
+        "options": [
+            "a) n",
+            "b) 1",
+            "c) n * log n",
+            "d) log n"
+        ],
+        "answer": "d",
+        "explanation": "In a normal insertion sort at most n comparisons are required to sort the array. But if we also implement the concept of a binary sort in insertion sort then we can sort by having log n comparisons only."
+    },
+    {
+        "question": "What will be the base case for the code of recursive insertion sort ?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "The most appropriate condition for the base case of recursive insertion sort is when n is less than or equal 1 then return. It is because we know that an array with only 1 element is always sorted."
+    },
+    {
+        "question": "What is the auxiliary space complexity of recursive insertion sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(n log n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The auxiliary space required by recursive insertion sort is O(1). So it qualifies as an in place sorting algorithm."
+    },
+    {
+        "question": "Which of the following is an adaptive sorting algorithm?",
+        "options": [
+            "a) recursive insertion sort",
+            "b) merge sort",
+            "c) heap sort",
+            "d) selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Insertion sort is an adaptive algorithm. It is because the time complexity of the algorithm improves when the input array is almost sorted."
+    },
+    {
+        "question": "Which of the following sorting algorithm is in place?",
+        "options": [
+            "a) recursive insertion sort",
+            "b) merge sort",
+            "c) radix sort",
+            "d) counting sort"
+        ],
+        "answer": "a",
+        "explanation": "Out of the given options recursive insertion sort is the only algorithm which is in place. It is because the auxiliary space required by recursive bubble sort is O(1)."
+    },
+    {
+        "question": "15.Choose the correct function for recursive insertion sort?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The base case of recursive bubble sort should be when n equal or less than 1 then return. Also we need to insert the element being chosen as key at its correct position in the sorted array to its left. All this needs to be done in a recursive code."
+    }
+]

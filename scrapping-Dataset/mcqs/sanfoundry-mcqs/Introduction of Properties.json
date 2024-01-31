@@ -1,0 +1,91 @@
+[
+    {
+        "question": "Choose the wrong statement about the properties used in C#.NET?",
+        "options": [
+            "a) Each property consists of accessor as get and set",
+            "b) A property cannot be either read or write only",
+            "c) Properties can be used to store and retrieve values to and from the data members of a class",
+            "d) Properties are like actual methods which work like data members"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the statements which makes use of essential properties rather than making data member public in C#.NET?",
+        "options": [
+            "a) Properties have their own access levels like private, public, protected etc. which allows it to have better control about managing read and write properties",
+            "b) Properties give us control about what values may be assigned to a member variable of a class they represent",
+            "c) Properties consist of set accessor inside which we can validate the value before assigning it to the data variable",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Where the properties can be declared?",
+        "options": [
+            "a) Class",
+            "b) Struct",
+            "c) Interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the modifiers which can be used with the properties?",
+        "options": [
+            "a) Private",
+            "b) Public",
+            "c) Protected Internal",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the correct statements about write-only properties in C#.NET?",
+        "options": [
+            "a) Properties which can only be set",
+            "b) Properties once set and hence values cannot be read back in nature",
+            "c) Useful for usage in classes which store sensitive information like password of a user",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Consider a class maths and we had a property called as sum.b which is the reference to a maths object and we want the statement Console.WriteLine(b.sum)to fail. Which among the following is the correct solution to ensure this functionality?",
+        "options": [
+            "a) Declares sum property with only get accessor",
+            "b) Declares sum property with only set accessor",
+            "c) Declares sum property with both set and get accessor",
+            "d) Declares sum property with both set, get and normal accessor"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Consider a class maths and we had a property called as sum.b is a reference to a maths object and we want the code below to work. Which is the correct solution to ensure this functionality?",
+        "options": [],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "If math class had add property with get and set accessors, then which of the following statements will work correctly?",
+        "options": [
+            "a)  math.add = 20;",
+            "b)"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "If the math class had add property with get accessors then which of the following statements will work correctly?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    }
+]

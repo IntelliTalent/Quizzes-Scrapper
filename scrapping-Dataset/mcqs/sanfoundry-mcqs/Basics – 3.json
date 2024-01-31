@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A single element of a character vector is referred as ________",
+        "options": [
+            "a) Character string",
+            "b) String",
+            "c) Data strings",
+            "d) Raw data"
+        ],
+        "answer": "a",
+        "explanation": "Single element of a character vector is often referred to as a character string. Dates are represented by the Date class and can be coerced from a character string using the as.Date() function. This is a common way to end up with a Date object in R."
+    },
+    {
+        "question": "R files has an extension ______",
+        "options": [
+            "a) .R",
+            "b) .S",
+            "c) .Rp",
+            "d) .c"
+        ],
+        "answer": "a",
+        "explanation": "All R files have an extension .R.  R provides a mechanism for recalling and re-executing previous commands. All S programmed files will have an extension .S. But R has many functions than S."
+    },
+    {
+        "question": "If the code is stored in the external file, which of the following function is used to call them to a working directory?",
+        "options": [
+            "a) exec()",
+            "b) source()",
+            "c) execute()",
+            "d) sourcefile()"
+        ],
+        "answer": "b",
+        "explanation": "source is available in the file menu. Today R runs on almost any standard computing platform and operating system. Its open source nature. The copyright for the primary source code for R is held by the R Foundation and is published under the GNU General Public License version."
+    },
+    {
+        "question": "Advanced programmers can write ______ code to manipulate R objects.",
+        "options": [
+            "a) Python",
+            "b) Java",
+            "c) C",
+            "d) Java Script"
+        ],
+        "answer": "c",
+        "explanation": "C, C++ and Fortran can be linked. There are a number of people had used something like C/C++ programming languages to manipulate the R objects."
+    },
+    {
+        "question": "In ________ Insightful purchased the S language from Lucent for $2 million.",
+        "options": [
+            "a) 2002",
+            "b) 2003",
+            "c) 2004",
+            "d) 2005"
+        ],
+        "answer": "c",
+        "explanation": "TIBCO is the current owner of the S language. In 2008, Insightful was acquired by TIBCO for $25 million. As of this writing, TIBCO is the current owner of the S language and is its exclusive developer."
+    },
+    {
+        "question": "Functionality of R is divided into a number of __________",
+        "options": [
+            "a) Functions",
+            "b) Domains",
+            "c) Packages",
+            "d) Files"
+        ],
+        "answer": "a",
+        "explanation": "CRAN hosts many add-on packages that can extend the functionality of R. Connections allow R functions to talk to all different external objects without having to write custom code for each object."
+    },
+    {
+        "question": "Dataframes can be converted into a matrix by calling the following function data ______",
+        "options": [
+            "a) matr()",
+            "b) matrix()",
+            "c) matrixf()",
+            "d) matrixfunc()"
+        ],
+        "answer": "b",
+        "explanation": "as.matrix function should be used to coerce a data frame to a matrix. It might seem that the as.matrix() function should be used to coerce a data frame to a matrix."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "It is not possible to coerce, so you will get a Warning. Logical creates a logical vector of the specified length. Each element of the vector is equal to FALSE. as.logical attempts to coerce its argument to be of a logical type."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Mode of the given command is a character. There are a complementary function writeLines() that takes a character vector and writes each element of the vector one line at a time to a text file."
+    },
+    {
+        "question": "Which of the following is not an object of R?",
+        "options": [
+            "a) calls",
+            "b) expressions",
+            "c) strings",
+            "d) names"
+        ],
+        "answer": "c",
+        "explanation": "Calls, expressions and names are the three types of objects that constitute the R language. There is really only one rule about vectors in R, which is that A vector can only contain objects of the same class. R objects can have names, which is very useful for writing readable code and self-describing objects."
+    }
+]

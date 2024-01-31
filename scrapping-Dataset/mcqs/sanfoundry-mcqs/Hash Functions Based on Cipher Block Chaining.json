@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the effectiveness of an n-bit hash value?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "When an n-bit hash value is used its effectiveness is 2^-n, that is, the probability that a data error will result in an unchanged hash value is 2"
+    },
+    {
+        "question": "What is the effectiveness of a 128 bit hash value?",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "In most normal text files, the high order bit of each octet is always zero. So if a 128 bit hash value is used, instead of an effectiveness of 2"
+    },
+    {
+        "question": "We define collision as: A collision occurs if we have x=y and H(x) = H(y).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "A collision occurs if we have x not equal to y and H(x) = H(y)."
+    },
+    {
+        "question": "Consider the following properties",
+        "options": [],
+        "answer": "a",
+        "explanation": "If the sixth property is also satisfied it is referred to as a strong hash function."
+    },
+    {
+        "question": "The second pre-image resistant property is",
+        "options": [
+            "a) It is computationally infeasible to find any pair (x, y) such that H(x) = H(y)",
+            "b) For any given block x, it is computationally infeasible to find y not equal to x, with H(y) = H(x)",
+            "c) For any given hash value h it is computationally infeasible to find y such that H(y) = h",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The second pre-image property is defined by: For any given block x, it is computationally infeasible to find y not equal to x, with H(y) = H(x)."
+    },
+    {
+        "question": "A function that is second pre-image resistant is also collision resistant.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:The statement is false. A function that is collision resistant is also second image resistant."
+    },
+    {
+        "question": "For an m-bit value, the adversary would have to try ____________ values to generates a given hash value h.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) (2"
+        ],
+        "answer": "b",
+        "explanation": "The adversary would have to try 2"
+    },
+    {
+        "question": "For an m bit hash value, if we pick data blocks at random we can expect to find two data blocks with the same hash value within ____ attempts.",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) (2"
+        ],
+        "answer": "c",
+        "explanation": "This is known as the birthday paradox. If we choose random variables from a uniform distribution in the range 0 through N-1, then the probability that a repeated element is encountered exceeds 0.5 after root (N) choices have been made."
+    },
+    {
+        "question": "Which attack requires the least effort/computations?",
+        "options": [
+            "a) Pre-image",
+            "b) Second Pre-image",
+            "c) Collision",
+            "d) All required the same effort"
+        ],
+        "answer": "c",
+        "explanation": "Due to the birthday paradox it requires 2"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following is true for Adapter pattern?",
+        "options": [
+            "a) An adapter or wrapper is a component that provides a new interface for an existing component",
+            "b) An Adapter or Wrapper pattern is a broker pattern that provides a new interface for existing software so that it can be reused",
+            "c) Adaptation for reuse is an old technique that has been used since the beginning of software development",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "The Adapter patterns provide object-oriented adapters in which of theses varieties?",
+        "options": [
+            "a) One uses inheritance",
+            "b) one uses delegation",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Adapter patterns includes all the mentioned varieties."
+    },
+    {
+        "question": "A class (the adapter class) may be given a new interface by an adapter class in which of the two ways?",
+        "options": [
+            "a) The adapter may subclass the adapter. The adapter can inherit adapter operations with appropriate semantics and pragmatics, override those with inappropriate semantics or pragmatics, and add operations needed for the new interface. This is the Class Adapter pattern",
+            "b) The adapter may hold a reference to the adapter and delegate must work to the adapter object. This approach is the Object Adapter pattern",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are the two ways."
+    },
+    {
+        "question": "A class (the adapter class) may be given a new interface by an adapter class in which of these ways?",
+        "options": [
+            "a) Class Adapter pattern",
+            "b) Object Adapter pattern",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A class (the adapter class) may be given a new interface by an adapter class into two ways- Class Adapter pattern and Object Adapter pattern."
+    },
+    {
+        "question": "Which of these states about Object Adapter pattern?",
+        "options": [
+            "a) The adapter can inherit adapter operations with appropriate semantics and pragmatics, override those with inappropriate semantics or pragmatics, and add operations needed for the new interface",
+            "b) The adapter may hold a reference to the adapter and delegate must work to the adapter object",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The adapter may hold a reference to the adapter and delegate must work to the adapter object is for object adapter pattern."
+    },
+    {
+        "question": "Which of the following is not followed by proxy pattern?",
+        "options": [
+            "a) virtual proxies",
+            "b) remote proxies",
+            "c) access proxies",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All are followed by proxy pattern."
+    },
+    {
+        "question": "What are stand-ins for objects not yet created are called?",
+        "options": [
+            "a) virtual proxies",
+            "b) remote proxies",
+            "c) access proxies",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Stand-ins for objects not yet created are called virtual proxies."
+    },
+    {
+        "question": "Which of the following is incorrect with respect to the proxy pattern?",
+        "options": [
+            "a) The Proxy pattern should be used whenever the services directly provided by some object need to be managed or mediated in some way without changing the object\u2019s interface",
+            "b) Virtual proxies can be used to delay the creation or loading of large and time-consuming objects to preserve space and ensure rapid responses to requests",
+            "c) Remote proxies can hide the fact that an object is not locally present,handling the communication necessary to access the remote real object",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct for proxy pattern."
+    },
+    {
+        "question": "Which of the following is consequence for proxy pattern?",
+        "options": [
+            "a) The Proxy pattern makes it possible to defer expensive operations until they are necessary (virtual proxies)",
+            "b) Provides an elegant way to treat remote objects as if they were local (remote proxies)",
+            "c) Provides a mechanism for implementing supplier access restrictions (protection or access proxies)",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct consequence for proxy pattern."
+    }
+]

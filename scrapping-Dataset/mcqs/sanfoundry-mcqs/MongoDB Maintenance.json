@@ -1,0 +1,112 @@
+[
+    {
+        "question": "________ contains a counter of the total number of clients with active operations in progress or queued.",
+        "options": [
+            "a) globalLock.active",
+            "b) localLock.activeClients",
+            "c) globalLock.activeClients",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The activeClients data structure provides more granular information about the number of connected clients and the operation types (e.g. read or write) performed by these clients."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) In MongoDB 3.0, cursor.explain() returns the indexOnly field to indicate whether the index covered a query",
+            "b) When an index covers a query, MongoDB can both match the query conditions and return the results using only the index keys",
+            "c) For read-heavy applications, deploy sharding and add one or more shards to a sharded cluster to distribute load among mongod instances",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB does not need to examine documents from the collection to return the results."
+    },
+    {
+        "question": "The ___________ collection stores custom roles that administrators create and assign to users to provide access to specific resources.",
+        "options": [
+            "a) admin.system.role",
+            "b) admin.system.roles",
+            "c) admin.system.roleasign",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "System collections include these collections stored in the admin database"
+    },
+    {
+        "question": "The _________ field provides the amount of resident memory in use.",
+        "options": [
+            "a) mem.resident",
+            "b) memory.resident",
+            "c) mem.resident",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If this exceeds the amount of system memory and there is a significant amount of data on disk that isn\u2019t in RAM, you may have exceeded the capacity of your system."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB distributions are currently available for Mac OS X, Linux, Windows Server 2012, Windows Server 2008 R2 64bit, Windows 7 (64 bit), Windows Vista, and Solaris",
+            "b) The MongoDB distribution for Solaris include support for the WiredTiger storage engine",
+            "c) mongod will not start if dbPath contains data files created by a storage engine",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " The MongoDB distribution for Solaris does not include support for the WiredTiger storage engine."
+    },
+    {
+        "question": "When the TTL thread is active, you will see _______ operations in the output of db.currentOp().",
+        "options": [
+            "a) read",
+            "b) update",
+            "c) delete",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When you build a TTL index in the background, the TTL thread can begin deleting documents while the index is building."
+    },
+    {
+        "question": "MongoDB stores tag sets in the replica set configuration object, which is the document returned by _____",
+        "options": [
+            "a) rs.config()",
+            "b) rs.conf()",
+            "c) rs.confstats()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Custom read preferences and write concerns evaluate tags sets in different ways."
+    },
+    {
+        "question": "Which of the following represents Shared lock?",
+        "options": [
+            "a) R",
+            "b) w",
+            "c) r",
+            "d) W"
+        ],
+        "answer": "a",
+        "explanation": "W represents Exclusive (X) lock."
+    },
+    {
+        "question": "On Linux, use the ______ command to check if disk I/O is a bottleneck for your database.",
+        "options": [
+            "a) stat",
+            "b) iostats",
+            "c) iostat",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Specify the number of seconds when running iostat to avoid displaying stats covering the time since server boot."
+    },
+    {
+        "question": "Which of the following document configures the threshold which determines whether a query is \u201cslow\u201d for the purpose of the logging system?",
+        "options": [
+            "a) systemLog.verbosity",
+            "b) operationProfiling.mode",
+            "c) operationProfiling.slowOpThresholdMs",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "systemLog.verbosity controls the amount of logging output that mongod write to the log."
+    }
+]

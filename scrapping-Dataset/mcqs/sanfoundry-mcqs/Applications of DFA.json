@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Given Language: {x | it is divisible by 3}",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The DFA for the given language can be constructed as follows:"
+    },
+    {
+        "question": "A binary string is divisible by 4 if and only if it ends with:",
+        "options": [
+            "a) 100",
+            "b) 1000",
+            "c) 1100",
+            "d) 0011"
+        ],
+        "answer": "a",
+        "explanation": "If the string is divisible by four, it surely ends with the substring \u2018100\u2019 while a binary string divisible by 2 would surely end with the substring \u201810\u2019."
+    },
+    {
+        "question": "Let L be a language whose FA consist of 5 acceptance states and 11 non final states. It further consists of a dumping state. Predict the number of acceptance states in L",
+        "options": [
+            "a) 16",
+            "b) 11",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "a",
+        "explanation": "If L leads to FA1, then for L"
+    },
+    {
+        "question": "If L1 and L2 are regular languages, which among the following is an exception?",
+        "options": [
+            "a) L1 U L2",
+            "b) L1 \u2013 L2",
+            "c) L1 \u2229 L2",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It the closure property of Regular language which lays down the following statement:"
+    },
+    {
+        "question": "Predict the analogous operation for the given language:",
+        "options": [
+            "a) A1-A2",
+            "b) A2-A1",
+            "c) A1.A2",
+            "d) A1+A2"
+        ],
+        "answer": "a",
+        "explanation": "When set operation \u2018-\u2018 is performed between two sets, it points to those values of prior set which belongs to it but not to the latter set analogous to basic subtraction operation."
+    },
+    {
+        "question": "Statement 1: NFA computes the string along parallel paths.",
+        "options": [
+            "a) Statement 1 is true while 2 is not",
+            "b) Statement 1 is false while is not",
+            "c) Statement 1 and 2, both are true",
+            "d) Statement 1 and 2, both are false"
+        ],
+        "answer": "c",
+        "explanation": "While the machine runs on some input string, if it has the choice to split, it goes in all possible way and each one is different copy of the machine. The machine takes subsequent choice to split further giving rise to more copies of the machine getting each copy run parallel. If any one copy of the machine accepts the strings, then NFA accepts, otherwise it rejects."
+    },
+    {
+        "question": "Which of the following options is correct for the given statement?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If K is the number of states in NFA, the DFA simulating the same language would have states equal to or less than 2"
+    },
+    {
+        "question": "Let N (Q, \u2211, \u03b4, q0, A) be the NFA recognizing a language L. Then for a DFA (Q\u2019, \u2211, \u03b4\u2019, q0\u2019, A\u2019), which among the following is true?",
+        "options": [
+            "a) Q\u2019 = P(Q)",
+            "b) \u0394\u2019 = \u03b4\u2019 (R, a) = {q \u03f5 Q | q \u03f5 \u03b4 (r, a), for some r \u03f5 R}",
+            "c) Q\u2019 = {q0}",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the optioned mentioned are the instruction formats of how to convert a NFA to a DFA."
+    },
+    {
+        "question": "There exists an initial state, 17 transition states, 7 final states and one dumping state, Predict the maximum number of states in its equivalent DFA?",
+        "options": [
+            "a) 226",
+            "b) 224",
+            "c) 225",
+            "d) 223"
+        ],
+        "answer": "a",
+        "explanation": "The maximum number of states an equivalent DFA can comprise for its respective NFA with k states will be 2"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "RTF refers to ______________",
+        "options": [
+            "a) Rich Text Format",
+            "b) Right Text Format",
+            "c) Rich Text Function",
+            "d) Right Text Function"
+        ],
+        "answer": "a",
+        "explanation": "RTF (Rich Text Format) is a format developed by Microsoft that is understood by many word processors. MS-Word is one such program. Many others such as \u2018OpenOffice\u2019 understand it too."
+    },
+    {
+        "question": "The function returning an array of row values is ______________",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "a",
+        "explanation": "The function \u2018fetchrow_array()\u2019 returns an array of row values. \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "The function returning reference to hash of row values is ______________",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "d",
+        "explanation": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "fetchrow_hashref() returns reference to hash of row values keyed by ______________",
+        "options": [
+            "a) row name",
+            "b) column name",
+            "c) table name",
+            "d) database name"
+        ],
+        "answer": "b",
+        "explanation": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values, keyed by the column name. The function \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values."
+    },
+    {
+        "question": "The function returning reference to array of row values is ______________",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "b",
+        "explanation": "\u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "What is the maximum non zero value for FLOAT?",
+        "options": [
+            "a) 3.402823466E+38",
+            "b) 3.402823466E+37",
+            "c) 3.402823466E+39",
+            "d) 3.402823466E+35"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, each datatype has its own range. Data types give an idea of the kind of values and the ranges that a variable is allowed to store. The maximum non zero value for FLOAT is 3.402823466E+38."
+    },
+    {
+        "question": "What is the maximum non zero values for DOUBLE?",
+        "options": [
+            "a) \u00b11.7976931348623157E+307",
+            "b) \u00b11.7976931348623157E+308",
+            "c) \u00b11.7976931348623157E+306",
+            "d) \u00b11.7976931348623157E+305"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, all the datatypes have their own ranges. Data types give an idea of the kind of values and the ranges that a variable is allowed to store. The maximum non zero value for DOUBLE is \u00b11.7976931348623157E+308."
+    },
+    {
+        "question": "Illegal values converted to the appropriate \u2018zero\u2019 value for ______________",
+        "options": [
+            "a) Numeric",
+            "b) String",
+            "c) ENUM",
+            "d) TIME"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, there are different ways to handle the illegal values for different datatypes for default. For date or time columns, illegal values are converted to the appropriate \u201czero\u201d value for the type."
+    },
+    {
+        "question": "The column attribute provides unique numbers for identification is ______________",
+        "options": [
+            "a) AUTO_INCREMENT",
+            "b) UNSIGNED",
+            "c) IDENTIFY",
+            "d) DESCRIBE"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the mechanism for providing unique numbers is through the AUTO_INCREMENT column attribute. It enables the generation of sequential numbers automatically. This facilitates identification."
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "question": "With the _______ storage engine, MongoDB uses memory-mapped files to store data.",
+        "options": [
+            "a) MMAPv2",
+            "b) MMAPv1",
+            "c) WiredTiger",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": " Given a data set of sufficient size, the mongod process will allocate all available memory on the system for its use."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Spikes in the number of available connections can also be the result of application or driver errors",
+            "b) For read-heavy applications, increase the size of your replica set and distribute read operations to secondary members",
+            "c) For read-heavy applications, deploy sharding and add one or more shards to a sharded cluster to distribute load among mongod instances",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Extremely high numbers of connections, particularly without corresponding workload is often indicative of a driver or other configuration error."
+    },
+    {
+        "question": "The memory usage statuses metrics of the _________ output can provide insight into MongoDB\u2019s memory use.",
+        "options": [
+            "a) globalstats",
+            "b) serverStatus",
+            "c) locks.deadlockCount",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The serverStatus command returns a document that provides an overview of the database process\u2019s state."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A single page fault completes slowly and is problematic",
+            "b) Increasing the amount of RAM accessible to MongoDB may help reduce the frequency of page faults",
+            "c) Page faults also can occur while accessing large data sets or scanning an entire collection",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "However, in aggregate, large volumes of page faults typically indicate that MongoDB is reading too much data from disk."
+    },
+    {
+        "question": "You can inspect __________ to check the amount of mapped memory that mongod is using.",
+        "options": [
+            "a) mem.mapped",
+            "b) memory.resident",
+            "c) mem.resident",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If this value is greater than the amount of system memory, some operations will require a page faults to read data from disk."
+    },
+    {
+        "question": "Which of the operator is used to access the query field of documents within system.profile?",
+        "options": [
+            "a) $select",
+            "b) $retrieve",
+            "c) $query",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can view the output of the profiler in the system.profile collection of your database by issuing the show profile command."
+    },
+    {
+        "question": "____________ returns information on the query plan for aggregate function.",
+        "options": [
+            "a) Reporter",
+            "b) db.collection.explain()",
+            "c) db.collection.explainplan()",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB runs the query optimizer to choose the winning plan for the operation under evaluation."
+    },
+    {
+        "question": "By default, db.collection.explain() runs in ___________ verbosity mode.",
+        "options": [
+            "a) VerbosityMode",
+            "b) queryPlanner",
+            "c) executeStats",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "db.collection.explain() returns the queryPlanner information for the evaluated method."
+    }
+]

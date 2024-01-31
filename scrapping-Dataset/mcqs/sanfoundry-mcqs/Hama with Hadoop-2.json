@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Hama is a general ________________ computing engine on top of Hadoop.",
+        "options": [
+            "a) BSP",
+            "b) ASP",
+            "c) MPP",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hama provides high-Performance computing engine for performing massive scientific and iterative algorithms on existing open source or enterprise Hadoop cluster."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Apache Hama is a distributed computing framework based on Bulk Synchronous Parallel computing techniques for massive scientific computations",
+            "b) Hama is a Top Level Project under the Apache Software Foundation",
+            "c) BSP stands for Bulk Synchronous Parallel",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Hama is open source project for many OS."
+    },
+    {
+        "question": "Hama was inspired by Google\u2019s _________ large-scale graph computing framework.",
+        "options": [
+            "a) Pragmatic",
+            "b) Pregel",
+            "c) Preghad",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hama is a distributed computing model similar to MR (MapReduce)."
+    },
+    {
+        "question": "Hama requires JRE _______ or higher and ssh to be set up between nodes in the cluster.",
+        "options": [
+            "a) 1.6",
+            "b) 1.7",
+            "c) 1.8",
+            "d) 2.0"
+        ],
+        "answer": "a",
+        "explanation": "Apache Hama releases are available under the Apache License, Version 2.0."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The major difference between Hadoop and Hama is map/reduce tasks can\u2019t communicate with each other",
+            "b) Hama follows master/slave pattern",
+            "c) A JobTracker maps to a BSPMaster, TaskTracker maps to a GroomServer and Map/Reduce task maps to a BSPTask",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "BSPTask can communicate to each other."
+    },
+    {
+        "question": "Hama consist of mainly ________ components for large scale processing of graphs.",
+        "options": [
+            "a) two",
+            "b) three",
+            "c) four",
+            "d) five"
+        ],
+        "answer": "b",
+        "explanation": "Hama consists of three major components: BSPMaster, GroomServers and Zookeeper."
+    },
+    {
+        "question": "________ is responsible for maintaining groom server status.",
+        "options": [
+            "a) GroomServers",
+            "b) BSPMaster",
+            "c) Zookeeper",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A BSP Master and multiple grooms are started by the script."
+    },
+    {
+        "question": "A __________ server and a data node should be run on one physical node.",
+        "options": [
+            "a) groom",
+            "b) web",
+            "c) client",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each groom is designed to run with HDFS or other distributed storage."
+    },
+    {
+        "question": "A ________ is used to manage the efficient barrier synchronization of the BSPPeers.",
+        "options": [
+            "a) GroomServers",
+            "b) BSPMaster",
+            "c) Zookeeper",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A Groom Server is a process that performs bsp tasks assigned by BSPMaster."
+    },
+    {
+        "question": "Groom servers starts up with a ________ instance and an RPC proxy to contact the bsp master.",
+        "options": [
+            "a) RPC",
+            "b) BSPPeer",
+            "c) LPC",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each groom periodically sends a heartbeat message that encloses its groom server status, including maximum task capacity, unused memory, and so on."
+    }
+]

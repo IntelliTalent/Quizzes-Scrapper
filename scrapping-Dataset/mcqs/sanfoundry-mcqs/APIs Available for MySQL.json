@@ -1,0 +1,98 @@
+[
+    {
+        "question": "How many of these languages have interfaces to bind to the C API of MySQL?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The client library provides the means through which the MySQL bindings for other languages can be built on top of the C API. This type of interface exists for Perl, PHP, Python and others."
+    },
+    {
+        "question": "Which language is the core for APIs and communication in MySQL?",
+        "options": [
+            "a) C",
+            "b) C++",
+            "c) Python",
+            "d) Ruby"
+        ],
+        "answer": "a",
+        "explanation": "In order to provide application development, MySQL provides a client library written in the C programming language. It enables the access of MySQL databases from a C program."
+    },
+    {
+        "question": "For how many of the following do interfaces exist for implementing direct native client-server protocol?",
+        "options": [],
+        "answer": "d",
+        "explanation": "There are interfaces for languages like Java, PHP and Python that implement the native client-server protocol directly instead of using the C library to handle communications."
+    },
+    {
+        "question": "Each language binding defines its own interface for accessing MySQL.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Each language binding defines its own interface that dictates all the rules for accessing MySQL. Popular and useful programming languages like C++, Java, Python, PHP and others."
+    },
+    {
+        "question": "The primary programming interface to MySQL is _____________",
+        "options": [
+            "a) C API",
+            "b) C++ API",
+            "c) Java API",
+            "d) Python API"
+        ],
+        "answer": "a",
+        "explanation": "The primary programming interface to MySQL is the C API. It is used to implement some of the standard clients in the MySQL distribution including mysql, mysqladmin and mysqldump."
+    },
+    {
+        "question": "The DBI API for Perl is _____________",
+        "options": [
+            "a) database interface",
+            "b) database id",
+            "c) database identity",
+            "d) database integrity"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, DBI is implemented as a Perl module. It interfaces with other modules at the DBD (Database Driver) level. Each of it provides access to a specific database engine."
+    },
+    {
+        "question": "For which language is the engine specific interface PDO defined?",
+        "options": [
+            "a) Python",
+            "b) Perl",
+            "c) PHP",
+            "d) C"
+        ],
+        "answer": "c",
+        "explanation": "Like DBI, PHP includes support for accessing several database engines in addition to MySQL. It has engine specific interfaces, and interfaces that are more engine independent."
+    },
+    {
+        "question": "For which language is the PEAR module used?",
+        "options": [
+            "a) Python",
+            "b) Perl",
+            "c) PHP",
+            "d) C"
+        ],
+        "answer": "c",
+        "explanation": "The PEAR database module is specified for the language PHP. PHP is a server side scripting language and it provides an appropriate method of embedding programs in the web pages."
+    },
+    {
+        "question": "The JDBI interface is available for _____________",
+        "options": [
+            "a) C",
+            "b) C++",
+            "c) Python",
+            "d) Java"
+        ],
+        "answer": "d",
+        "explanation": "The JDBI interface is available for the programming language Java. Java is one of the most widely popular languages in the world. It is a powerful object oriented programming language."
+    },
+    {
+        "question": "The MySQL APIs are libraries to connect applications to database servers.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL Connectors and APIs are some drivers and libraries. They are used to connect the applications in different programming languages to the database servers of MySQL."
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The cardinality of the set A = {1, 2, 3, 4, 6} is?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) Integer",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "5, it is a number of elements in the sets."
+    },
+    {
+        "question": "For two equal sets there ___________",
+        "options": [
+            "a) Cardinality is same",
+            "b) Cardinality is different",
+            "c) May be same or different",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Two equal sets should have the same number of elements."
+    },
+    {
+        "question": "If A is a subset of B then _______",
+        "options": [
+            "a) The cardinality of A is greater than B",
+            "b) The cardinality of B is greater than A",
+            "c) Can\u2019t say",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "B contains all the elements of A, as well as other elements."
+    },
+    {
+        "question": "If there is a bijection between two sets A and B then _______",
+        "options": [
+            "a) Cardinality of A is greater than B",
+            "b) Cardinality of B is greater than A",
+            "c) Cardinality of B is equal to A",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If there is bijection then two sets A and B will be equinumerous and thus will have same cardinality."
+    },
+    {
+        "question": "Let a set E ={0,2,4,6,8\u2026.} of non-negative even numbers and O = {1, 3, 5, 7, 9,\u2026..} of non-negative odd numbers then?",
+        "options": [
+            "a) Cardinality of set E is greater than that of O",
+            "b) Cardinality of set O is greater than that of E",
+            "c) Cardinality of set  E is equal to that of O",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "There is bijection then two sets E and O and they will be equinumerous and thus will have same cardinality."
+    },
+    {
+        "question": "Cardinality of the set of even prime number under 10 is 4.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Since 2 is only even prime thus cardinality should be 1."
+    },
+    {
+        "question": "If for sets A and B there exists an injective function but not bijective function from A to B then?",
+        "options": [
+            "a) Cardinality of A is  strictly greater than B",
+            "b) Cardinality of B is  strictly greater than A",
+            "c) Cardinality of B is equal to A",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If there doesnot exist a bijective function from A to B that means there are some elements in B whose preimage is not in A, thus cardinality of B is strictly greater than A."
+    },
+    {
+        "question": "If cardinality of (A U B) = cardinality of A+ cardinality of B. This means ____________",
+        "options": [
+            "a) A is a subset of B",
+            "b) B is a subset of A",
+            "c) A and B are disjoint",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Thus if the cardinality of (A U B) = cardinality of A+ cardinality of B, it means they don\u2019t have any element in common, n(A\u2229B) = 0."
+    },
+    {
+        "question": "If A is a subset of B and B is a subset of C, then cardinality of A U B U C is equal to ____________",
+        "options": [
+            "a) Cardinality of C",
+            "b) Cardinality of B",
+            "c) Cardinality of A",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A U B U C = C, since a, b are subsets to C."
+    }
+]

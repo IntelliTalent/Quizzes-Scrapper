@@ -1,0 +1,734 @@
+[
+    {
+        "question": "What is this code an example of?",
+        "options": [
+            "A syntax issue",
+            "Typecasting",
+            "Assignment",
+            "Initialization"
+        ],
+        "answer": "A syntax issue"
+    },
+    {
+        "question": "What is the error in this code?",
+        "options": [
+            "The `guard` is missing the `else`",
+            "Nothing is wrong",
+            "The `guard` is missing a `then`",
+            "The comparison is wrong"
+        ],
+        "answer": "The `guard` is missing the `else`"
+    },
+    {
+        "question": "What is the raw/underlying type of this enum?",
+        "options": [
+            "There is none",
+            "`String`",
+            "`Any`",
+            "`Int`"
+        ],
+        "answer": "There is none"
+    },
+    {
+        "question": "Why is dispatchGroup used in certain situations?",
+        "options": [
+            "It allows multiple synchronous or asynchronous operations to run on different queues.",
+            "It allows track and control execution of multiple operations together.",
+            "It allows operations to wait for each other as desired.",
+            "All of these answers."
+        ],
+        "answer": "All of these answers."
+    },
+    {
+        "question": "What is this code an example of?",
+        "options": [
+            "String interpolation",
+            "String compilation",
+            "Method chaining",
+            "String concatenation"
+        ],
+        "answer": "String interpolation"
+    },
+    {
+        "question": "What are the contents of `vals` after this code is executed?",
+        "options": [
+            "`[10, 2]`",
+            "`[2, 10]`",
+            "`nil`",
+            "This code contains an error"
+        ],
+        "answer": "`[10, 2]`"
+    },
+    {
+        "question": "What does this code print?",
+        "options": [
+            "`Dictionary<String, Any>`",
+            "`Dictionary`",
+            "`Error`",
+            "`Thing`"
+        ],
+        "answer": "`Dictionary<String, Any>`"
+    },
+    {
+        "question": "What is the value of y?",
+        "options": [
+            "This code contains an error",
+            "`1`",
+            "`2`",
+            "`nil`"
+        ],
+        "answer": "This code contains an error"
+    },
+    {
+        "question": "What is the value of test in this code?",
+        "options": [
+            "`true`",
+            "`YES`",
+            "`1`",
+            "This code contains an error"
+        ],
+        "answer": "`true`"
+    },
+    {
+        "question": "What is the value of y?",
+        "options": [
+            "`5`",
+            "`0`",
+            "`nil`",
+            "This code contains an error"
+        ],
+        "answer": "`5`"
+    },
+    {
+        "question": "What is the type of this function?",
+        "options": [
+            "`Int`",
+            "`(Int, Int) -> Int`",
+            "`Int<Optional>`",
+            "Functions don't have types."
+        ],
+        "answer": "`(Int, Int) -> Int`"
+    },
+    {
+        "question": "What is the correct way to call this function?",
+        "options": [
+            "`myFunc(5, b: 6)`",
+            "`myFunc(5, 6)`",
+            "`myFunc(a: 5, b: 6)`",
+            "`myFunc(a, b)`"
+        ],
+        "answer": "`myFunc(5, b: 6)`"
+    },
+    {
+        "question": "The Codable protocol is **\\_**?",
+        "options": [
+            "A combination of `Encodable` and `Decodable`",
+            "Not a true protocol",
+            "Required of all classes",
+            "Automatically included in all classes"
+        ],
+        "answer": "A combination of `Encodable` and `Decodable`"
+    },
+    {
+        "question": "What is the type of value1 in this code?",
+        "options": [
+            "`String`",
+            "`Int`",
+            "`null`",
+            "`test.count`"
+        ],
+        "answer": "`String`"
+    },
+    {
+        "question": "When a function takes a closure as a parameter, when do you want to mark is as escaping?",
+        "options": [
+            "When it's executed after the function returns",
+            "When it's scope is undefined",
+            "When it's lazy loaded",
+            "All of these answers"
+        ],
+        "answer": "When it's executed after the function returns"
+    },
+    {
+        "question": "What's wrong with this code?",
+        "options": [
+            "Person has no initializers.",
+            "Person has no base class.",
+            "`var name` is not formatted correctly.",
+            "`address` is a keyword."
+        ],
+        "answer": "Person has no initializers."
+    },
+    {
+        "question": "What is the value of names after this code is executed?",
+        "options": [
+            "`[\"BEAR\", \"JOE\", \"CLARK\"]`",
+            "`[\"B\", \"J\", \"C\"]`",
+            "`[\"Bear\", \"Joe\", \"Clark\"]`",
+            "This code contains an error."
+        ],
+        "answer": "`[\"Bear\", \"Joe\", \"Clark\"]`"
+    },
+    {
+        "question": "What describes this line of code?",
+        "options": [
+            "A constant named val of type `Int`",
+            "A variable named val of type `item`",
+            "A constant named val of type `Number`",
+            "A variable named val of type `Int`"
+        ],
+        "answer": "A constant named val of type `Int`"
+    },
+    {
+        "question": "What is the error in this code?",
+        "options": [
+            "Extensions can't add properties.",
+            "Nothing is wrong with it.",
+            "`didSet` takes a parameter.",
+            "`c` is not a character."
+        ],
+        "answer": "Extensions can't add properties."
+    },
+    {
+        "question": "didSet and willSet are examples of **\\_**?",
+        "options": [
+            "Property observers",
+            "Key properties",
+            "All of these answers",
+            "`newOld` value calls"
+        ],
+        "answer": "Property observers"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "Use of `self` inside the closure causes retain cycle.",
+            "You cannot assign a value to a closure in this manner.",
+            "You need to define the type of closure explicitly.",
+            "There is nothing wrong with this code."
+        ],
+        "answer": "Use of `self` inside the closure causes retain cycle."
+    },
+    {
+        "question": "How many values does vals have after this code is executed?",
+        "options": [
+            "Three",
+            "Four",
+            "Eight",
+            "This code contains an error."
+        ],
+        "answer": "This code contains an error."
+    },
+    {
+        "question": "How can you avoid a strong reference cycle in a closure?",
+        "options": [
+            "Use a capture list to set class instances of `weak` or `unowned`.",
+            "You can't, there will always be a danger of strong reference cycles inside a closure.",
+            "Initialize the closure as read-only.",
+            "Declare the closure variable as `lazy`."
+        ],
+        "answer": "Use a capture list to set class instances of `weak` or `unowned`."
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "This `String` initializer does not return an optional.",
+            "String does not have an initializer that can take a `String`.",
+            "`=` is not a comparison.",
+            "Nothing is wrong with this code."
+        ],
+        "answer": "This `String` initializer does not return an optional."
+    },
+    {
+        "question": "Which code snippet correctly creates a typealias closure?",
+        "options": [
+            "`typealias CustomClosure = () -> ()`",
+            "`typealias CustomClosure { () -> () }`",
+            "`typealias CustomClosure -> () -> ()`",
+            "`typealias CustomClosure -> () {}`"
+        ],
+        "answer": "`typealias CustomClosure = () -> ()`"
+    },
+    {
+        "question": "How do you reference class members from within a class?",
+        "options": [
+            "`self`",
+            "`instance`",
+            "`class`",
+            "`this`"
+        ],
+        "answer": "`self`"
+    },
+    {
+        "question": "All value types in Swift are **\\_** under the hood?",
+        "options": [
+            "Structs",
+            "Classes",
+            "Optionals",
+            "Generics"
+        ],
+        "answer": "Structs"
+    },
+    {
+        "question": "What is the correct way to add a value to this array?",
+        "options": [
+            "All of these answers",
+            "`strings.append(4)`",
+            "`strings.insert(5, at: 1)`",
+            "`strings += [5]`"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "How many times will this loop be executed?",
+        "options": [
+            "0",
+            "101",
+            "99",
+            "100"
+        ],
+        "answer": "101"
+    },
+    {
+        "question": "What can AnyObject represent?",
+        "options": [
+            "An instance of any class",
+            "An instance of function type",
+            "All of these answers",
+            "An instance of an optional type"
+        ],
+        "answer": "An instance of any class"
+    },
+    {
+        "question": "What is the value of t after this code is executed?",
+        "options": [
+            "This code does not compile. / This code is invalid.",
+            "0",
+            "1",
+            "Larry"
+        ],
+        "answer": "This code does not compile. / This code is invalid."
+    },
+    {
+        "question": "What is the value of test after this code executes?",
+        "options": [
+            "`ABC`",
+            "`0`",
+            "`5`",
+            "`name`"
+        ],
+        "answer": "`ABC`"
+    },
+    {
+        "question": "What is the base class in this code?",
+        "options": [
+            "MMM",
+            "LSN",
+            "There is no base class.",
+            "This code is invalid."
+        ],
+        "answer": "MMM"
+    },
+    {
+        "question": "What does this code print to the console?",
+        "options": [
+            "`About to set userLocation to Work... userLocation updated with new value!`",
+            "`About to set userLocation to Work... userLocation already set to that value...`",
+            "`About to set userLocation to Home... userLocation updated to new value!`",
+            "`Error`"
+        ],
+        "answer": "`About to set userLocation to Work... userLocation updated with new value!`"
+    },
+    {
+        "question": "What must a convenience initializer call?",
+        "options": [
+            "A base class convenience initializer",
+            "Either a designated or another convenience initializer",
+            "A designated initializer",
+            "None of these answers"
+        ],
+        "answer": "A designated initializer"
+    },
+    {
+        "question": "Which object allows you access to specify that a block of code runs in a background thread?",
+        "options": [
+            "DispatchQueue.visible",
+            "DispatchQueue.global",
+            "errorExample need to be labeled as `throws`.",
+            "DispatchQueue.background"
+        ],
+        "answer": "DispatchQueue.global"
+    },
+    {
+        "question": "What is the inferred type of x?",
+        "options": [
+            "`String[]`",
+            "`Array<String>`",
+            "`Set<String>`",
+            "`Array<Character>`"
+        ],
+        "answer": "`Array<String>`"
+    },
+    {
+        "question": "What is the value of `oThings` after this code is executed?",
+        "options": [
+            "11212three",
+            "115",
+            "12three",
+            "Nothing, this code is invalid."
+        ],
+        "answer": "12three"
+    },
+    {
+        "question": "How would you call a function that throws errors and also returns a value?",
+        "options": [
+            "`!try`",
+            "`try?`",
+            "`try!`",
+            "`?try`"
+        ],
+        "answer": "`try?`"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "Protocol functions cannot have return types.",
+            "Protocol functions cannot have implementations.",
+            "Nothing is wrong with it.",
+            "`add` is a reserved keyword."
+        ],
+        "answer": "Protocol functions cannot have implementations."
+    },
+    {
+        "question": "In this code, what are `wheels` and `doors` examples of?",
+        "options": [
+            "Class members",
+            "This code is invalid",
+            "Class fields",
+            "Class properties"
+        ],
+        "answer": "Class properties"
+    },
+    {
+        "question": "How do you designated a failable initializer?",
+        "options": [
+            "You cannot",
+            "`deinit`",
+            "`init?`",
+            "`init`"
+        ],
+        "answer": "`init?`"
+    },
+    {
+        "question": "What is printed when this code is executed?",
+        "options": [
+            "`five`",
+            "`5a`",
+            "`.asString()`",
+            "`5`"
+        ],
+        "answer": "`.asString()`"
+    },
+    {
+        "question": "In the function below, what are `this` and `toThat` examples of?",
+        "options": [
+            "None of these answers",
+            "Local terms",
+            "Argument labels",
+            "Parameters names"
+        ],
+        "answer": "Argument labels"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "The interaction source is invalid",
+            "The interaction variable is invalid",
+            "There is nothing wrong with this code",
+            "The comma in the print is misplaced"
+        ],
+        "answer": "There is nothing wrong with this code"
+    },
+    {
+        "question": "Which of these choices is associated with unit testing?",
+        "options": [
+            "`XCTest`",
+            "All of these answers",
+            "`@testable`",
+            "`XCTAssert`"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "In the code below, what is width an example of?",
+        "options": [
+            "This code contains error",
+            "A closure",
+            "A computed property",
+            "Lazy loading"
+        ],
+        "answer": "A computed property"
+    },
+    {
+        "question": "What data type is this an example of?",
+        "options": [
+            "A dictionary",
+            "A tuple",
+            "An optional",
+            "This code contains error"
+        ],
+        "answer": "A tuple"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "You cannot assign a Double to a variable of type Int",
+            "`x` is undefined",
+            "`x` is a constant",
+            "`x` has no type"
+        ],
+        "answer": "You cannot assign a Double to a variable of type Int"
+    },
+    {
+        "question": "What will this code print to the console?",
+        "options": [
+            "Any",
+            "test",
+            "1,2,3",
+            "nil"
+        ],
+        "answer": "nil"
+    },
+    {
+        "question": "What is wrong with this code?",
+        "options": [
+            "There is nothing wrong with this code",
+            "`val` is a constant and cannot be changed",
+            "`5.0` and `10` are different types",
+            "There is no semicolon"
+        ],
+        "answer": "There is nothing wrong with this code"
+    },
+    {
+        "question": "How many parameters does the initializer for Test have?",
+        "options": [
+            "Zero",
+            "This code contains an error",
+            "Two",
+            "Structs do not have initializers"
+        ],
+        "answer": "Two"
+    },
+    {
+        "question": "What prints to the console when executing this code?",
+        "options": [
+            "nil",
+            "Nothing - this code contains an error",
+            "Optional(\"test\")",
+            "test"
+        ],
+        "answer": "Optional(\"test\")"
+    },
+    {
+        "question": "How can you sort this array?",
+        "options": [
+            "`vals.sort { $0 < $1 }`",
+            "`vals.sort { (s1, s2) in s1 < s2 }`",
+            "`vals.sort(by: <)`",
+            "All of these answers"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "DispatchQueue.main.async takes a block that will be",
+        "options": [
+            "Not executed",
+            "Executed in the main queue",
+            "None of these answers",
+            "Executed on the background thread"
+        ],
+        "answer": "Executed in the main queue"
+    },
+    {
+        "question": "When is deinit called?",
+        "options": [
+            "When a class instance needs memory",
+            "All of these answers",
+            "When the executable code is finished",
+            "When a class instance is being removed from memory"
+        ],
+        "answer": "When a class instance is being removed from memory"
+    },
+    {
+        "question": "How do you declare an optional String?",
+        "options": [
+            "`String?`",
+            "`Optional[String]`",
+            "`[String]?`",
+            "`?String`"
+        ],
+        "answer": "`String?`"
+    },
+    {
+        "question": "How many times this code will be executed? / How many times will this loop be performed?",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "This code does not compile"
+        ],
+        "answer": "Two"
+    },
+    {
+        "question": "What does this code print?",
+        "options": [
+            "1Bear",
+            "BearBear",
+            "TonyBear",
+            "Nothing, this code is invalid"
+        ],
+        "answer": "TonyBear"
+    },
+    {
+        "question": "What is true of this code?",
+        "options": [
+            "`name` can hold only a string value.",
+            "`name` can hold either a string or nil value.",
+            "Optional values cannot be `let` constants.",
+            "Only non-empty string variables can be stored in `name`."
+        ],
+        "answer": "`name` can hold either a string or nil value."
+    },
+    {
+        "question": "What is the value of `val` after this code is executed?",
+        "options": [
+            "This code is invalid.",
+            "6",
+            "30",
+            "0"
+        ],
+        "answer": "This code is invalid."
+    },
+    {
+        "question": "What does this code print?",
+        "options": [
+            "3",
+            "0",
+            "other",
+            "nil"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "What is printed to the console when this code is executed?",
+        "options": [
+            "nil",
+            "Nothing, since the code contains an error",
+            "t",
+            "zero"
+        ],
+        "answer": "t"
+    },
+    {
+        "question": "What prints when this code is executed?",
+        "options": [
+            "[]",
+            "[\"3\", \"2\", \"1\"]",
+            "[321]",
+            "[\"1\", \"2\", \"3\"]"
+        ],
+        "answer": "[\"3\", \"2\", \"1\"]"
+    },
+    {
+        "question": "What enumeration feature allows them to store case-specific data?",
+        "options": [
+            "Associated values",
+            "Integral values",
+            "Raw values",
+            "Custom values"
+        ],
+        "answer": "Associated values"
+    },
+    {
+        "question": "In the code below, AOM must be a(n)?",
+        "options": [
+            "Class",
+            "Protocol",
+            "Enumeration",
+            "Struct"
+        ],
+        "answer": "Protocol"
+    },
+    {
+        "question": "What is the value of numbers in the code below?",
+        "options": [
+            "[1, 3, 5]",
+            "[]",
+            "[2, 4, 6]",
+            "nil"
+        ],
+        "answer": "[2, 4, 6]"
+    },
+    {
+        "question": "What is the type of `vals` in this code?",
+        "options": [
+            "Array(char)",
+            "[Any]",
+            "Array<char>",
+            "[Generic]"
+        ],
+        "answer": "[Any]"
+    },
+    {
+        "question": "How can you extract val to `x` in tuple `vt`",
+        "options": [
+            "let x = vt.1",
+            "All of these answers",
+            "let x = vt.val",
+            "let (`_`, x) = vt"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "What is the type of x?",
+        "options": [
+            "String",
+            "String?",
+            "String!",
+            "try?"
+        ],
+        "answer": "String?"
+    },
+    {
+        "question": "How many times is this loop executed?",
+        "options": [
+            "Six",
+            "Zero",
+            "Five",
+            "Infinite"
+        ],
+        "answer": "Infinite"
+    },
+    {
+        "question": "How many values does vals have after this code is executed?",
+        "options": [
+            "This code contains an error.",
+            "Eight",
+            "Three",
+            "Four"
+        ],
+        "answer": "Three"
+    },
+    {
+        "question": "What is the base class in this code ?",
+        "options": [
+            "MMM",
+            "LSN",
+            "There is no base class.",
+            "This code is invalid."
+        ],
+        "answer": "MMM",
+        "explanation": null,
+        "codeblock": null
+    }
+]

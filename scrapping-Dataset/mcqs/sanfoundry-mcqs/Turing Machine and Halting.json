@@ -1,0 +1,115 @@
+[
+    {
+        "question": "Which of the following regular expression resembles the given diagram?",
+        "options": [
+            "a) {a}*{b}*{a,b}",
+            "b) {a,b}*{aba}",
+            "c) {a,b}*{bab}",
+            "d) {a,b}*{a}*{b}*"
+        ],
+        "answer": "b",
+        "explanation": "The given diagram is a transition graph for a turing machine which accepts the language with the regular expression {a,b}*{aba}."
+    },
+    {
+        "question": "Construct a turing machine which accepts a string with \u2018aba\u2019 as its substring.",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "c",
+        "explanation": "The language consist of strings with a substring \u2018aba\u2019 as fixed at its end and the left part can be anything including epsilon. Thus the turing machine uses five states to express the language excluding the rejection halting state which if allowed can modify the graph as:"
+    },
+    {
+        "question": "The number of states required to automate the last question i.e. {a,b}*{aba}{a,b}* using finite automata:",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "a",
+        "explanation": "The finite automata can be represented as:"
+    },
+    {
+        "question": "The machine accept the string by entering into hA or it can:",
+        "options": [
+            "a) explicitly reject x by entering into hR",
+            "b) enter into an infinte loop",
+            "c) explicitly reject x by entering into hR and enter into an infinte loop",
+            "d) None of the mentioned",
+            "a) enter into accept halting state",
+            "b) enter into reject halting state",
+            "c) goes into loop forever"
+        ],
+        "answer": "c",
+        "explanation": "Three things can occur when a string is tested over a turing machine:"
+    },
+    {
+        "question": "d(q,X)=(r,Y,D) where D cannot be:",
+        "options": [
+            "a) L",
+            "b) R",
+            "c) S",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "D represents the direction in which automata moves forward as per the queue which surely cannot be a starting variable."
+    },
+    {
+        "question": "Which of the following can accept even palindrome over {a,b}",
+        "options": [
+            "a) Push down Automata",
+            "b) Turing machine",
+            "c) NDFA",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A language generating strings which are palindrome is not regular, thus cannot b represented using a finite automaton."
+    },
+    {
+        "question": "Which of the functions can a turing machine not perform?",
+        "options": [
+            "a) Copying a string",
+            "b) Deleting a symbol",
+            "c) Accepting a pal",
+            "d) Inserting a symbol"
+        ],
+        "answer": "d",
+        "explanation": "Different turing machines exist for operations like copying a string, deleting a symbol, inserting a symbol and accepting palindromes."
+    },
+    {
+        "question": "If T1 and T2 are two turing machines. The composite can be represented using the expression:",
+        "options": [
+            "a) T1T2",
+            "b) T1 U T2",
+            "c) T1 X T2",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If T1 and T2 are TMs, with disjoint sets of non halting states and transition function d1 and d2, respectively, we write T1T2  to denote this composite TM."
+    },
+    {
+        "question": "The following turing machine acts like:",
+        "options": [
+            "a) Copies a string",
+            "b) Delete a symbol",
+            "c) Insert a symbol",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A turing machine does the deletion by changing the tape contents from yaz to yz, where y belongs to (S U {#})*."
+    },
+    {
+        "question": "What does the following transition graph shows:",
+        "options": [
+            "a) Copies a symbol",
+            "b) Reverses a string",
+            "c) Accepts a pal",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The composite TM accepts the language of palindromes over {a, b} by comparing the input string to its reverse and accepting if and only if the two are equal."
+    }
+]

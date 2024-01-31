@@ -1,0 +1,91 @@
+[
+    {
+        "question": "How can we define the clause \u201cFROM\u201d in Mysql?",
+        "options": [
+            "a) It defines the tables used by a query",
+            "b) It defines the linking of tables in Mysql",
+            "c) It defines the tables used by a query & linking of tables in Mysql",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following table exist in Mysql?",
+        "options": [
+            "a) Permanent Tables",
+            "b) Virtual tables",
+            "c) Temporary tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Depends on the query."
+    },
+    {
+        "question": "\u201cCREATE TABLE \u2026\u201d command is used to create which type of table in Mysql?",
+        "options": [
+            "a) Permanent Tables",
+            "b) Virtual tables",
+            "c) Temporary tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "CREATE table is used to create permanent tables in database."
+    },
+    {
+        "question": "\u201cCREATE VIEW \u2026\u201d command is used to create which type of table in Mysql?",
+        "options": [
+            "a) Permanent Tables",
+            "b) Virtual tables",
+            "c) Temporary tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CREATE VIEW is used to create virtual tables."
+    },
+    {
+        "question": "What is the meaning of \u201cTemporary Tables\u201d in Mysql?",
+        "options": [
+            "a) Rows returned by sub query",
+            "b) Permanent tables",
+            "c) Virtual tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "\u201cTemporary Tables\u201d are output format of any query on Mysql."
+    },
+    {
+        "question": "Which of the following statements is/are correct with respect to \u201cVIEW\u201d?",
+        "options": [
+            "a) \u201cVIEW\u201d  is a query that stored in the data dictionary",
+            "b) There is no data associated with \u201cVIEW\u201d",
+            "c) \u201cVIEW\u201d creates virtual tables in Database",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Find the missing clause from the following SQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cCREATE VIEW\u201d cannot be used without \u201cFROM\u201d clause."
+    },
+    {
+        "question": "In the following MySQL query, \u201cperson_1\u201d belongs to which category of table in MySQL?",
+        "options": [],
+        "answer": "b",
+        "explanation": "\u201cCREATE VIEW\u201d creates \u201cVirtual tables\u201d only."
+    },
+    {
+        "question": "Which command is used to create \u201cTemporary tables\u201d in MySQL?",
+        "options": [
+            "a) CREATE TABLE;",
+            "b) CREATE VIEW",
+            "c) Both CREATE TABLE; and CREATE VIEW",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "\u201cTemporary Tables\u201d are output format of any query."
+    }
+]

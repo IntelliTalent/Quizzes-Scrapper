@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which of the following statement is a proposition?",
+        "options": [
+            "a) Get me a glass of milkshake",
+            "b) God bless you!",
+            "c) What is the time now?",
+            "d) The only odd prime number is 2"
+        ],
+        "answer": "d",
+        "explanation": "Only this statement has got the truth value which is false."
+    },
+    {
+        "question": "The truth value of \u20184+3=7 or 5 is not prime\u2019.",
+        "options": [
+            "a) False",
+            "b) True"
+        ],
+        "answer": "b",
+        "explanation": "Compound statement with \u2018or\u2019 is true when either of the statement is true. Here the first part of the statement is true, hence the whole is true."
+    },
+    {
+        "question": "Which of the following option is true?",
+        "options": [
+            "a) If the Sun is a planet, elephants will fly",
+            "b) 3 +2 = 8 if 5-2 = 7",
+            "c) 1 > 3 and 3 is a positive integer",
+            "d) -2 > 3 or 3 is a negative integer"
+        ],
+        "answer": "a",
+        "explanation": "Hypothesis is false, thus the whole statement is true."
+    },
+    {
+        "question": "What is the value of x after this statement, assuming the initial value of x is 5?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 0",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "If condition is false so value decided according to else condition."
+    },
+    {
+        "question": "Let P: I am in Bangalore.; Q: I love cricket.; then q -> p(q implies p) is?",
+        "options": [
+            "a) If I love cricket then I am in Bangalore",
+            "b) If I am in Bangalore then I love cricket",
+            "c) I am not in Bangalore",
+            "d) I love cricket"
+        ],
+        "answer": "a",
+        "explanation": "Q is hypothesis and P is conclusion. So the compound statement will be if hypothesis then conclusion."
+    },
+    {
+        "question": "The truth value \u20189 is prime then 3 is even\u2019.",
+        "options": [
+            "a) False",
+            "b) True"
+        ],
+        "answer": "b",
+        "explanation": "The first part of the statement is false, hence whole is true."
+    },
+    {
+        "question": "Let P: I am in Delhi.; Q: Delhi is clean.; then q ^ p(q and p) is?",
+        "options": [
+            "a) Delhi is clean and I am in Delhi",
+            "b) Delhi is not clean or I am in Delhi",
+            "c) I am in Delhi and Delhi is not clean",
+            "d) Delhi is clean but I am in Mumbai"
+        ],
+        "answer": "a",
+        "explanation": "Connector should be \u2018and\u2019, that is q and p."
+    },
+    {
+        "question": "Let P: This is a great website, Q: You should not come back here. Then \u2018This is a great website and you should come back here.\u2019 is best represented by?",
+        "options": [
+            "a) ~P V ~Q",
+            "b) P \u2227 ~Q",
+            "c) P V Q",
+            "d) P \u2227 Q"
+        ],
+        "answer": "b",
+        "explanation": "The second part of the statement is negated, hence negation operator is used."
+    },
+    {
+        "question": "Let P: We should be honest., Q: We should be dedicated., R: We should be overconfident. Then \u2018We should be honest or dedicated but not overconfident.\u2019 is best represented by?",
+        "options": [
+            "a) ~P V ~Q V R",
+            "b) P \u2227 ~Q \u2227 R",
+            "c) P V Q \u2227 R",
+            "d) P V Q \u2227 ~R"
+        ],
+        "answer": "d",
+        "explanation": "The third part of the statement is negated, hence negation operator is used, for (\u2018or\u2019 \u2013V) is used and for(\u2019but\u2019- \u2227)."
+    }
+]

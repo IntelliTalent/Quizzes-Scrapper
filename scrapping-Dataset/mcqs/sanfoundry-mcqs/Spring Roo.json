@@ -1,0 +1,152 @@
+[
+    {
+        "question": "The main mission of Spring Roo is fundamentally and sustainably improve Java developer productivity without compromising engineering integrity or flexibility.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This has a lot of implications. Applications built in Roo are Java applications that benefit from the mature Java language and platform."
+    },
+    {
+        "question": "Library which helps Spring Roo in using of the command line shell.",
+        "options": [
+            "a) JTag",
+            "b) JLine",
+            "c) JHib",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The shell is quite smart, featuring tab completion, line history, and much more. These features are surfaced pretty consistently on all platforms, thanks to the excellent JLine library (http://jline.sourceforge.net). JLine handles some features inconsistently, however, on Windows\u2014nothing fundamentally irresolvable, mind you, just nuisances like shell color differences and line history glitches. Proceed full speed ahead, but if you\u2019re not using a Unix-like operating system, be aware of the (ever diminishing) possibility of issues."
+    },
+    {
+        "question": "To check version of Maven.",
+        "options": [
+            "a) mvn \u2013v",
+            "b) mvn -v",
+            "c) mvn \u2013version",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Start a new shell session and confirm that you can issue the following command without error, in any directory on your system: mvn \u2013version."
+    },
+    {
+        "question": "To confirm Roo version.",
+        "options": [
+            "a) roo.sh",
+            "b) roo",
+            "c) roo quit",
+            "d) roo.sh quit"
+        ],
+        "answer": "d",
+        "explanation": "Confirm that you saw output. On my system, the output looked like this:"
+    },
+    {
+        "question": "The Spring Roo shell is a blank slate. It represents the ultimate user interface for Spring Roo to facilitate development.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A custom command line shell to facilitate the developer. This shell can be intimidating to the uninitiated."
+    },
+    {
+        "question": "You can ask Roo questions using:-",
+        "options": [
+            "a) tab",
+            "b) hint",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can ask it questions using the hint command, and it does its best to direct you in response."
+    },
+    {
+        "question": "Spring Roo file extension is:-",
+        "options": [
+            "a) .xml",
+            "b) .xhtml",
+            "c) .roo",
+            "d) .groovy"
+        ],
+        "answer": "c",
+        "explanation": "The Spring Roo shell is pretty darned handy, and even fun, but on the surface, it would appear to lack the reusability we developers have come to expect from our tools."
+    },
+    {
+        "question": "To run the script:-",
+        "options": [
+            "a) roo.sh script \u2013file ~/Desktop/myapp.roo",
+            "b) roo.sh \u2013file ~/Desktop/myapp.roo",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To run the script, simply invoke the Roo shell as follows (changing the path of the file as appropriate):"
+    },
+    {
+        "question": "Maven Directory to hold the non\u2013unit-test Java files for your application.",
+        "options": [
+            "a) src/main/java",
+            "b) src/main/resources",
+            "c) src/main/webapp",
+            "d) src/test/java"
+        ],
+        "answer": "a",
+        "explanation": "A directory to hold the non\u2013unit-test Java files for your application."
+    },
+    {
+        "question": "Maven Directory which holds classpath resources that aren\u2019t Java class files.",
+        "options": [
+            "a) src/main/java",
+            "b) src/main/resources",
+            "c) src/main/webapp",
+            "d) src/test/java"
+        ],
+        "answer": "b",
+        "explanation": "Note, this is for classpath resources and is not appropriate, for example, for web application resources. For that you need src/main/webapp."
+    },
+    {
+        "question": "Maven Directory which is used to hold the rest of a web application\u2019s structure.",
+        "options": [
+            "a) src/main/java",
+            "b) src/main/resources",
+            "c) src/main/webapp",
+            "d) src/test/java"
+        ],
+        "answer": "c",
+        "explanation": "If you were going to develop a web application, put everything except what you would put in WEB-INF/classes in this folder."
+    },
+    {
+        "question": "This directory holds artifacts intended to test the Java classes under the src/main/java folder.",
+        "options": [
+            "a) src/test/java",
+            "b) src/main/resources",
+            "c) src/main/webapp",
+            "d) src/test/java"
+        ],
+        "answer": "a",
+        "explanation": "Typically, the package structures mirrors the package structure in src/main/java, allowing your tests to have package-friendly visibility to the classes under test."
+    },
+    {
+        "question": "This directory holds resources needed by your test classes at test time.",
+        "options": [
+            "a) src/test/java",
+            "b) src/test/resources",
+            "c) src/main/webapp",
+            "d) src/test/java"
+        ],
+        "answer": "b",
+        "explanation": "This directory holds resources needed by your test classes at test time, in the same way that src/main/resources works."
+    },
+    {
+        "question": "To package the project using the Roo shell.",
+        "options": [
+            "a) perform package",
+            "b) roo.sh",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "spring Roo also lets you perform certain operations using Maven from within the Roo shell. To package the project using the Roo shell, launch it again (using roo.sh), and invoke the following command:"
+    }
+]

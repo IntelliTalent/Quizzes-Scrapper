@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of these is a stored program associated with a schedule?",
+        "options": [
+            "a) Trigger",
+            "b) Event",
+            "c) Stored function",
+            "d) Stored procedure"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL version 5.1.6 and above has an event scheduler. It enables us to perform time activated database operations. An event is a stored program that is associated with a schedule."
+    },
+    {
+        "question": "The event scheduler does not run by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The event scheduler does not run by default, so it must be turned on if events are to be used. An event is a stored program that is associated with a schedule to perform database operations."
+    },
+    {
+        "question": "Which of the following lines is used to turn on the event scheduler?",
+        "options": [
+            "a) event_scheduler = ON",
+            "b) eventscheduler = ON",
+            "c) event_scheduler_ON",
+            "d) events_scheduler_ON"
+        ],
+        "answer": "a",
+        "explanation": "The line \u2018event_scheduler = ON\u2019 is put in the option file that the server reads. The event scheduler does not run by default. It must be turned on if events are to used in the database."
+    },
+    {
+        "question": "Which statement is used to check the status of the event scheduler at runtime?",
+        "options": [
+            "a) SHOW STATUS OF \u2018event_scheduler\u2019",
+            "b) SHOW VARIABLES OF \u2018event_scheduler\u2019",
+            "c) SHOW STATUS LIKE \u2018event_scheduler\u2019",
+            "d) SHOW VARIABLES LIKE \u2018event_scheduler\u2019"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, in order to check the status of the event scheduler at runtime, the statement: SHOW VARIABLES LIKE \u2018event_scheduler\u2019; is used. The event_scheduler is a system variable."
+    },
+    {
+        "question": "Which value of event_scheduler enables checking status but not changing it at runtime?",
+        "options": [
+            "a) ON",
+            "b) OFF",
+            "c) DISABLED",
+            "d) ENABLED"
+        ],
+        "answer": "c",
+        "explanation": "In MySQL, if the event_scheduler is set to \u2018DISABLED\u2019 at startup, its status cannot be changed but can be checked at runtime. The events can be created but they will not execute."
+    },
+    {
+        "question": "If the scheduler is stopped, no events run.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, if the event scheduler is stopped, no events are run. It is also possible to leave the scheduler running but disable the individual events. This can be done with \u2018DISABLED\u2019."
+    },
+    {
+        "question": "Which log does the event scheduler log to?",
+        "options": [
+            "a) error",
+            "b) record",
+            "c) library",
+            "d) update"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the event scheduler writes to the error log of the server, which can be checked for information about what the scheduler is doing. It logs the events as it runs them."
+    },
+    {
+        "question": "Which clause specifies periodic execution at fixed intervals?",
+        "options": [
+            "a) EVERY",
+            "b) ALL",
+            "c) AT",
+            "d) ALTERNATE"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018EVERY n interval\u2019 clause specifies the periodic execution at fixed intervals. The interval values are like those used for the DATE_ADD() function, such as HOUR, DAY or MONTH."
+    },
+    {
+        "question": "To create or drop events for a database, which privilege should be granted?",
+        "options": [
+            "a) CREATE",
+            "b) DROP",
+            "c) PRIVILEGE",
+            "d) EVENT"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, all events belong to some database, so the EVENT privilege must be granted for that database in order to both create or drop the events for it. An event is a stored program."
+    },
+    {
+        "question": "The default definer of an event is the user who _______________",
+        "options": [
+            "a) created the database",
+            "b) created the event",
+            "c) created the table",
+            "d) created the column"
+        ],
+        "answer": "b",
+        "explanation": "Unless the event has been altered, the default definer of an event is the user who created the event. In this case, the definer is the one who called the last \u2018ALTER EVENT\u2019 statement."
+    }
+]

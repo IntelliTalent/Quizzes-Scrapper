@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Which among the following is the correct syntax for creating table?",
+        "options": [
+            "a) CREATE TABLE name;",
+            "b) CREATE name;",
+            "c) CREATE TABLE",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the role of \u201cCONSTRAINS\u201d in defining a table in Mysql?",
+        "options": [
+            "a) Declaring primary key",
+            "b) Declaring Foreign Key",
+            "c) Restrictions on columns",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which command is used for the table definition in Mysql?",
+        "options": [
+            "a) DESC  table_name;",
+            "b) DESC table_name",
+            "c) DESC",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following is the correct syntax for defining \u201cConstraint Check\u201d in Mysql?",
+        "options": [
+            "a) gender  char(1)  check( gender IN (\u2018M\u2019, \u2018F\u2019)),",
+            "b) gender char (1) check,",
+            "c) gender char (1) check ( gender ),",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Check constraint constrains the allowable values for a particular column."
+    },
+    {
+        "question": "Which data type character merges the \u201cCheck Constraint\u201d into a data type definition?",
+        "options": [
+            "a) ENUM",
+            "b) ENUM1",
+            "c) ENUM2",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following is the correct syntax for defining \u201cENUM\u201d in Mysql?",
+        "options": [
+            "a) gender ENUM (\u2018M\u2019, \u2018F\u2019),",
+            "b) gender ENUM,",
+            "c) gender ENUM ( ),",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following are the correct definitions for \u201cNULL\u201d in Mysql?",
+        "options": [
+            "a) Absence of value",
+            "b) Unknown",
+            "c) Empty set",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Find out the logical error in the following MySQL code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Primary key is an essential attribute for each table declared in Mysql."
+    },
+    {
+        "question": "What is the meaning of \u201cREFERENCES\u201d in table definition?",
+        "options": [
+            "a) Primary key",
+            "b) NULL",
+            "c) Foreign Key",
+            "d) A \u201dforeign Key\u201d belong to this particular table"
+        ],
+        "answer": "d",
+        "explanation": "When \u201cForeign Key\u201d declared in a table then it necessary to define the name of the table to which it belong with help of constraint \u201cREFERENCES\u201d."
+    },
+    {
+        "question": "What default value gets stored in columns of the table?",
+        "options": [
+            "a) NULL",
+            "b) 0",
+            "c) 1",
+            "d) -1"
+        ],
+        "answer": "a",
+        "explanation": "NULL is the default value as it stands for \u201cAbsence of value\u201d."
+    }
+]

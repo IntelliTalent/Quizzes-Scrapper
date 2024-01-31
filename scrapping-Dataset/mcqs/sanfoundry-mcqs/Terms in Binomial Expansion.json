@@ -1,0 +1,101 @@
+[
+    {
+        "question": "In a blindfolded game, a boy can hit the target 8 times out of 12. If he fired 8 shots, find out the probability of more than 4 hits?",
+        "options": [
+            "a) 2.530",
+            "b) 0.1369",
+            "c) 0.5938",
+            "d) 3.998"
+        ],
+        "answer": "c",
+        "explanation": "Here, n = 8, p = 0.6, q = 0.4. Suppose X = number of hits x"
+    },
+    {
+        "question": "A fair coin is tossed 15 times. Determine the probability in which no heads turned up.",
+        "options": [
+            "a) 2.549 * 10",
+            "b) 0.976",
+            "c) 3.051 * 10",
+            "d) 5.471"
+        ],
+        "answer": "c",
+        "explanation": "According to the null hypothesis it is a fair coin and so in that case the probability of flipping at least 59% tails is ="
+    },
+    {
+        "question": "When a programmer compiles her code there is a 95% chance of finding a bug every time. It takes three hours to rewrite her code when she finds out a bug. Determine the probability such that she will finish her coding by the end of her workday. (Assume, a workday is 7 hours)",
+        "options": [
+            "a) 0.065",
+            "b) 0.344",
+            "c) 0.2",
+            "d) 3.13"
+        ],
+        "answer": "c",
+        "explanation": "A success is a bug-free compilation, and a failure is the finding out of a bug. The programmer has 0, 1, 2, or 3 failures and so her probability of finishing the program is :  Pr(X=0) + Pr(X=1) + Pr(X=2) + Pr(X=3) = (0.95)"
+    },
+    {
+        "question": "Determine the probability when a die is thrown 2 times such that there are no fours and no fives occur?",
+        "options": [
+            "a) \\(\\frac{4}{9}\\)",
+            "b) \\(\\frac{56}{89}\\)",
+            "c) \\(\\frac{13}{46}\\)",
+            "d) \\(\\frac{3}{97}\\)"
+        ],
+        "answer": "a",
+        "explanation": "In this experiment, throwing a die anything other than a 4 is a success and rolling a 4 is failure. Since there are two trials, the required probability is"
+    },
+    {
+        "question": "In earlier days, there was a chance to make a telephone call would be of 0.6. Determine the probability when it could make 11 successes in 20 attempts of phone call.",
+        "options": [
+            "a) 0.2783",
+            "b) 0.2013",
+            "c) 0.1597",
+            "d) 3.8561"
+        ],
+        "answer": "c",
+        "explanation": "Probability of success p=0.6 and q=0.4. X=success in making a telephone call. Hence, the probability of 11 successes in 20 attempts = P(X=11) ="
+    },
+    {
+        "question": "Evaluate the expression (y+1)",
+        "options": [
+            "a) 3y",
+            "b) 7(y",
+            "c) 8(y",
+            "d) y + y"
+        ],
+        "answer": "c",
+        "explanation": "By using Binomial theorem,the expression (y+1)"
+    },
+    {
+        "question": "Find the coefficient of x",
+        "options": [
+            "a) 523001",
+            "b) 428700",
+            "c) 327640",
+            "d) 129024"
+        ],
+        "answer": "d",
+        "explanation": "It is known that (r+1)"
+    },
+    {
+        "question": "Determine the 7th term in the expansion of (x-2y)",
+        "options": [
+            "a) 6128y",
+            "b) 59136y",
+            "c) 52632x",
+            "d) 39861y"
+        ],
+        "answer": "b",
+        "explanation": "By assuming that x"
+    },
+    {
+        "question": "What is the middle term in the expansion of (x/2 + 6y)",
+        "options": [
+            "a) 45360x",
+            "b) 34210x",
+            "c) 1207x",
+            "d) 3250x"
+        ],
+        "answer": "a",
+        "explanation": "We know that in the expansion of (x+y)"
+    }
+]

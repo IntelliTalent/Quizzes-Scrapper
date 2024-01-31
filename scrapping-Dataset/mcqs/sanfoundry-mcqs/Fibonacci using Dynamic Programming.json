@@ -1,0 +1,107 @@
+[
+    {
+        "question": "The following sequence is a fibonacci sequence:",
+        "options": [
+            "a) Recursion",
+            "b) Dynamic programming",
+            "c) A single for loop",
+            "d) Recursion, Dynamic Programming, For loops"
+        ],
+        "answer": "d",
+        "explanation": "Each of the above mentioned methods can be used to find the nth fibonacci term."
+    },
+    {
+        "question": "Consider the recursive implementation to find the nth fibonacci number:",
+        "options": [],
+        "answer": "d",
+        "explanation": "Consider the first five terms of the fibonacci sequence: 0,1,1,2,3. The 6th term can be found by adding the two previous terms, i.e. fibo(6) = fibo(5) + fibo(4) = 3 + 2 = 5. Therefore,the nth term of a fibonacci sequence would be given by:"
+    },
+    {
+        "question": "What is the time complexity of the recursive implementation used to find the nth fibonacci term?",
+        "options": [
+            "a) O(1)",
+            "b) O(n",
+            "c) O(n!)",
+            "d) Exponential"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation is given by fibo(n) = fibo(n \u2013 1) + fibo(n \u2013 2). So, the time complexity is given by:"
+    },
+    {
+        "question": "Suppose we find the 8th term using the recursive implementation. The arguments passed to the function calls will be as follows:",
+        "options": [],
+        "answer": "c",
+        "explanation": "From the function calls, we can see that fibonacci(4) is calculated twice and fibonacci(3) is calculated thrice. Thus, the same subproblem is solved many times and hence the function calls show the overlapping subproblems property."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The value of n is 50000. The function is recursive and it\u2019s time complexity is exponential. So, the function will be called almost 2"
+    },
+    {
+        "question": "What is the space complexity of the recursive implementation used to find the nth fibonacci term?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "a",
+        "explanation": "The recursive implementation doesn\u2019t store any values and calculates every value from scratch. So, the space complexity is O(1)."
+    },
+    {
+        "question": "Consider the following code to find the nth fibonacci term:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The lines, prevFib = curFib and curFib = nextFib, make the code complete."
+    },
+    {
+        "question": "What is the time complexity of the following for loop method used to compute the nth fibonacci term?",
+        "options": [],
+        "answer": "b",
+        "explanation": "To calculate the nth term, the for loop runs (n \u2013 1) times and each time a for loop is run, it takes a constant time. Therefore, the time complexity is of the order of n."
+    },
+    {
+        "question": "What is the space complexity of the following for loop method used to compute the nth fibonacci term?",
+        "options": [],
+        "answer": "a",
+        "explanation": "To calculate the nth term, we just store the previous term and the current term and then calculate the next term using these two terms. It takes a constant space to store these two terms and hence O(1) is the answer."
+    },
+    {
+        "question": "What will be the output when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The output is the 10th fibonacci number, which is 55."
+    },
+    {
+        "question": "Consider the following code to find the nth fibonacci term using dynamic programming:",
+        "options": [],
+        "answer": "a",
+        "explanation": "We find the nth fibonacci term by finding previous fibonacci terms, i.e. by solving subproblems. Hence, line 7 shows the optimal substructure property."
+    },
+    {
+        "question": "Consider the following code to find the nth fibonacci term using dynamic programming:",
+        "options": [],
+        "answer": "c",
+        "explanation": "Line 7 stores the current value that is calculated, so that the value can be used later directly without calculating it from scratch. This is memoization."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation used to compute the nth fibonacci term?",
+        "options": [],
+        "answer": "b",
+        "explanation": "To calculate the nth term, the for loop runs (n \u2013 1) times and each time a for loop is run, it takes a constant time. Therefore, the time complexity is of the order of n."
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation used to compute the nth fibonacci term?",
+        "options": [],
+        "answer": "b",
+        "explanation": "To calculate the nth term, we store all the terms from 0 to n \u2013 1. So, it takes O(n) space."
+    },
+    {
+        "question": "What will be the output when the following code is executed?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the 8th fibonacci term, which is 21."
+    }
+]

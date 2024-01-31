@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following will reverse the order of values in x?",
+        "options": [
+            "a) rev(x)",
+            "b) max(x, na.rm=TRUE)",
+            "c) all(x)",
+            "d) x%in%y"
+        ],
+        "answer": "a",
+        "explanation": "rev provides a reversed version of its argument."
+    },
+    {
+        "question": "Which of the following finds row sums for each level of a grouping variable?",
+        "options": [
+            "a) rowSums (x, na.rm = FALSE, dims = 1)",
+            "b) colMeans(x, na.rm = FALSE, dims = 1)",
+            "c) rowMeans(x, na.rm = FALSE, dims = 1)",
+            "d) rowsum(x, group, reorder = TRUE, \u2026)"
+        ],
+        "answer": "c",
+        "explanation": "False value leads to unexpected result."
+    },
+    {
+        "question": "Which of the following statement applies the function (FUN) to either rows (1) or columns (2) on object X?",
+        "options": [
+            "a) apply(x,1,min)",
+            "b) apply(x,2,max)",
+            "c) col.max(x)",
+            "d) apply(X, MARGIN, FUN, \u2026)"
+        ],
+        "answer": "d",
+        "explanation": "apply(x,2,max) finds the maximum for each column."
+    },
+    {
+        "question": "Which of the following statement finds the maximum for each column?",
+        "options": [
+            "a) apply(x,2,max)",
+            "b) col.max(x)",
+            "c) which.min(x)",
+            "d) which.max(x)"
+        ],
+        "answer": "a",
+        "explanation": "col.max(x) is another way to find which column has the maximum value for each row."
+    },
+    {
+        "question": "which of the following statement tells the row with the minimum value for every column?",
+        "options": [
+            "a) which.min(x)",
+            "b) which.max(x)",
+            "c) z=apply(x,1,which.min)",
+            "d) z=apply(1,1,which.max)"
+        ],
+        "answer": "a",
+        "explanation": "which() function gives the TRUE indices of a logical object, allowing for array indices."
+    },
+    {
+        "question": "Which of the following may be used for linear regression?",
+        "options": [
+            "a) X %*% Y",
+            "b) solve(A)",
+            "c) solve(A,B)",
+            "d) X $*$ Y"
+        ],
+        "answer": "c",
+        "explanation": "solve(A,B) implies inverse of A * B."
+    },
+    {
+        "question": "Which of the following finds row sums for each level of a grouping variable?",
+        "options": [
+            "a) as.numeric(x)",
+            "b) rowsum(x, group, reorder = TRUE, \u2026)",
+            "c) as.order(x)",
+            "d) colSums (x, na.rm = FALSE, dims = 1)"
+        ],
+        "answer": "b",
+        "explanation": "rowsum compute column sums across rows of a numeric matrix-like object for each level of a grouping variable."
+    },
+    {
+        "question": "Which of the following sets the size of the outer margins for the graph?",
+        "options": [
+            "a) par(mfrow=c(nrow,mcol))",
+            "b) par(ask=TRUE)",
+            "c) par(omi=c(0,0,1,0) )",
+            "d) par(ask=False)"
+        ],
+        "answer": "c",
+        "explanation": "par can be used to set or query graphical parameters."
+    },
+    {
+        "question": "Which of the following function is used for plotting histogram?",
+        "options": [
+            "a) hist()",
+            "b) histog()",
+            "c) histg()",
+            "d) histo()"
+        ],
+        "answer": "a",
+        "explanation": "The generic function hist computes a histogram of the given data values."
+    },
+    {
+        "question": "Which of the following will add the title \u201cR language\u201d to the graph?",
+        "options": [
+            "a) titleAdd( \u201cR language\u201d)",
+            "b) title( \u201cR language\u201d)",
+            "c) titleBar( \u201cR language\u201d)",
+            "d) var(x, na.rm=TRUE)"
+        ],
+        "answer": "b",
+        "explanation": "This function can be used to add labels to a plot."
+    }
+]

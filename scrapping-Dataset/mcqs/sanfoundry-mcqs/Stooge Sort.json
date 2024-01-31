@@ -1,0 +1,138 @@
+[
+    {
+        "question": "Which one of the following sorting algorithm requires recursion?",
+        "options": [
+            "a) odd even sort",
+            "b) stooge sort",
+            "c) selection sort",
+            "d) counting sort"
+        ],
+        "answer": "b",
+        "explanation": "Stooge sort requires the use of recursion for implementing its algorithm. On the other hand, the sorting algorithms given in the remaining options use iterative methods."
+    },
+    {
+        "question": "What is the recurrence relation for stooge sort?",
+        "options": [
+            "a) T(n) = 2T(2/3n) + O(n)",
+            "b) T(n) = 2T(2/3n) + O(1)",
+            "c) T(n) = 3T(2/3n) + O(n)",
+            "d) T(n) = 3T(2/3n) + O(1)"
+        ],
+        "answer": "d",
+        "explanation": "In stooge sort recursion is applied to 2/3 part of the array 3 times. Rest of the portion of code has a constant time complexity. So the overall recurrence relation becomes T(n) = 3T(2/3n) + O(1)."
+    },
+    {
+        "question": "In which of the following case stooge sort is most efficient (in terms of time complexity)?",
+        "options": [
+            "a) when input array is already sorted",
+            "b) when input array is reverse sorted",
+            "c) when input array is large",
+            "d) it has the same time complexity in any case"
+        ],
+        "answer": "d",
+        "explanation": "Stooge sort has the same time complexity under any case. It is given by the recurrence relation T(n) = 3T(2/3n) + O(1)."
+    },
+    {
+        "question": "What is the space complexity of stooge sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(log n)",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "The space complexity of the stooge sort is O(n). It is used to store the input array."
+    },
+    {
+        "question": "What is the first step in the algorithm of stooge sort(after base case)?",
+        "options": [
+            "a) apply stooge sort on first 2/3 elements of array",
+            "b) apply stooge sort on last 2/3 elements of array",
+            "c) apply stooge sort on first 1/3 elements of array",
+            "d) compare first and last element of the array"
+        ],
+        "answer": "d",
+        "explanation": "The first step in the algorithm of stooge sort is to compare the first and last element of the array and switch them if found out of order. In the second step stooge sort is applied on the first 2/3 elements of the array."
+    },
+    {
+        "question": "Stooge sort is a comparison based sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Stooge sort is an example of a comparison based sorting algorithm. This is because it compares the value of elements present in a list in order to sort them."
+    },
+    {
+        "question": "Stooge sort is a stable sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Stooge sort is not a stable sorting algorithm. It is because the elements with identical values do not appear in the same order in the output array as they were in the input array."
+    },
+    {
+        "question": "What is the average time complexity of stooge sort?",
+        "options": [
+            "a) O(n",
+            "b) O(n",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation of stooge sort is given as T(n) = 3T(2/3n) + O(1). It is found to be equal to O(n"
+    },
+    {
+        "question": "How many recursive statements are used in the algorithm of stooge sort?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "d",
+        "explanation": "The algorithm of stooge sort uses 3 recursive statements in its algorithm. The first and third recursive statement applies stooge sort to the first 2/3 elements of the array and the second recursive statement applies stooge sort to last 2/3 elements of the array."
+    },
+    {
+        "question": "Which of the following sorting algorithm has the same time complexity in every case?",
+        "options": [
+            "a) stooge sort",
+            "b) strand sort",
+            "c) quick sort",
+            "d) bubble sort"
+        ],
+        "answer": "a",
+        "explanation": "Stooge sort has the same time complexity of O(n"
+    },
+    {
+        "question": "Which of the following sorting algorithm is worst in terms of time complexity?",
+        "options": [
+            "a) bubble sort",
+            "b) selection sort",
+            "c) insertion sort",
+            "d) stooge sort"
+        ],
+        "answer": "d",
+        "explanation": "Stooge sort has a time complexity of O(n"
+    },
+    {
+        "question": "Which of the following is not an adaptive sorting algorithm?",
+        "options": [
+            "a) insertion sort",
+            "b) strand sort",
+            "c) stooge sort",
+            "d) bubble sort"
+        ],
+        "answer": "c",
+        "explanation": "Stooge sort is not an adaptive sorting algorithm. This is because it does not perform better in the case when the array is already/almost sorted."
+    },
+    {
+        "question": "Choose the correct function for stooge sort?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Stooge sort compare first and last element of the array and switch them if found out of order. Then it has 3 recursive statements. The first and third recursive statement applies stooge sort to the first 2/3 elements of the array and the second recursive statement applies stooge sort to last 2/3 elements of array."
+    }
+]

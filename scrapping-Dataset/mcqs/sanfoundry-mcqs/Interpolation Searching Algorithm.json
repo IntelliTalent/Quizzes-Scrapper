@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Which of the following is the most desirable condition for interpolation search?",
+        "options": [
+            "a) array should be sorted",
+            "b) array should not be sorted but the values should be uniformly distributed",
+            "c) array should have a less than 64 elements",
+            "d) array should be sorted and the values should be uniformly distributed"
+        ],
+        "answer": "d",
+        "explanation": "Desirable condition for interpolation search is that the array should be sorted and the values should be uniformly distributed. The algorithm would fail to give the correct result if array is not sorted."
+    },
+    {
+        "question": "Interpolation search is a variation of?",
+        "options": [
+            "a) Linear search",
+            "b) Binary search",
+            "c) Jump search",
+            "d) Exponential search"
+        ],
+        "answer": "b",
+        "explanation": "Interpolation search is a variation of binary search which gives the best result when the array has uniformly distributed values. Interpolation search goes to different positions depending on the value being searched whereas binary search always goes to the middle element."
+    },
+    {
+        "question": "Interpolation search performs better than binary search when?",
+        "options": [
+            "a) array has uniformly distributed values but is not sorted",
+            "b) array is sorted and has uniform distribution of values",
+            "c) array is sorted but the values are not uniformly distributed",
+            "d) array is not sorted"
+        ],
+        "answer": "b",
+        "explanation": "Interpolation search is an improvement over a binary search for the case when array is sorted and has uniformly distributed values. Binary search performs better when the values are not distributed uniformly."
+    },
+    {
+        "question": "In which of the following case jump search performs better than interpolation search?",
+        "options": [
+            "a) When array has uniformly distributed values but is not sorted",
+            "b) when array is sorted and has uniform distribution of values",
+            "c) when array is sorted but the values increases exponentially",
+            "d) when array is not sorted"
+        ],
+        "answer": "c",
+        "explanation": "In case of non uniform distribution of values the time complexity of interpolation search is O(n) whereas the average time complexity of jump search is O(n"
+    },
+    {
+        "question": "What is the time complexity of interpolation search when the input array has uniformly distributed values and is sorted?",
+        "options": [
+            "a) O(n)",
+            "b) O(log log n)",
+            "c) O(n log n)",
+            "d) O(log n)"
+        ],
+        "answer": "b",
+        "explanation": "Interpolation search goes to different positions in the array depending on the value being searched. It is an improvement over binary search and has a time complexity of O(log log n)."
+    },
+    {
+        "question": "What is the auxiliary space requirement of interpolation search?",
+        "options": [
+            "a) O(n)",
+            "b) O(2",
+            "c) O(1)",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "Interpolation search does not require any auxiliary space for finding the element being searched. So it has a constant auxiliary space O(1)."
+    },
+    {
+        "question": "What is the time complexity of exponential search when the input array is sorted but the values are not uniformly distributed?",
+        "options": [
+            "a) O(n",
+            "b) O(log log n)",
+            "c) O(n)",
+            "d) O(log n)"
+        ],
+        "answer": "c",
+        "explanation": "When an array has non uniformly distributed values then in that case the algorithm of interpolation search fails to work efficiently. As a result, it has a time complexity of O(n) in such a case."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest when the input array is sorted and has uniformly distributed values?",
+        "options": [
+            "a) jump search",
+            "b) exponential search",
+            "c) binary search",
+            "d) interpolation search"
+        ],
+        "answer": "d",
+        "explanation": "Interpolation search has a time complexity of O( log log n) when the array is sorted and has uniformly distributed values. It has the least time complexity out of the given options for such a case."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest when the input array is sorted but has non uniformly distributed values?",
+        "options": [
+            "a) jump search",
+            "b) linear search",
+            "c) binary search",
+            "d) interpolation search"
+        ],
+        "answer": "c",
+        "explanation": "Interpolation search has a time complexity of O(n) when the array does not have uniformly distributed values. So in such a case binary search has the least time complexity out of the given options."
+    },
+    {
+        "question": "Which of the following searching algorithm is fastest when the input array is not sorted but has uniformly distributed values?",
+        "options": [
+            "a) jump search",
+            "b) linear search",
+            "c) binary search",
+            "d) interpolation search"
+        ],
+        "answer": "b",
+        "explanation": "Out of the given options linear search is the only searching algorithm which can be applied to arrays which are not sorted. It has a time complexity of O(n) in the worst case."
+    },
+    {
+        "question": "Interpolation search is an in place algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Interpolation search has an auxiliary space complexity of O(1). So it qualifies as an in place algorithm."
+    },
+    {
+        "question": "Interpolation search has a better time complexity than exponential search for any given array.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The worst case time complexity of interpolation search and exponential search are O(n) and O(log n) respectively. So exponential search is better when the worst case scenario is considered."
+    },
+    {
+        "question": "What is the formula used for calculating the position in interpolation search?",
+        "options": [
+            "a) ((x \u2013 A[low]) * (high \u2013 low)) / (A[high] \u2013 A[low])",
+            "b) high + ((x \u2013 A[low]) * (high \u2013 low)) / (A[high] \u2013 A[low])",
+            "c) low + ((x \u2013 A[low]) * (high \u2013 low)) / (A[high] \u2013 A[low])",
+            "d) x + ((x \u2013 A[low]) * (high \u2013 low)) / (A[high] \u2013 A[low])"
+        ],
+        "answer": "c",
+        "explanation": "For calculating the position after each iteration in interpolation search we use the formula low + ((x \u2013 A[low]) * (high \u2013 low)) / (A[high] \u2013 A[low]). Then the value at the calculated position is compared with the element being searched."
+    },
+    {
+        "question": "What are the updated values of high and low in the array if the element being searched is greater than the value at calculated index in interpolation search? (pos = current position)",
+        "options": [
+            "a) low = pos + 1, high remains unchanged",
+            "b) high = pos \u2013 1, low remains unchanged",
+            "c) low = low +1, high = high \u2013 1",
+            "d) low = pos +1, high = pos \u2013 1"
+        ],
+        "answer": "a",
+        "explanation": "When the element being searched is greater than the value at the calculated position then in that case we update low and high remains unaltered. Updated value of low is low = pos + 1."
+    },
+    {
+        "question": "What are the updated values of high and low in the array if the element being searched is lower than the value at calculated index in interpolation search? (pos = current position)",
+        "options": [
+            "a) low = pos + 1, high remains unchanged",
+            "b) high = pos \u2013 1, low remains unchanged",
+            "c) low = low +1, high = high \u2013 1",
+            "d) low = pos +1, high = pos \u2013 1"
+        ],
+        "answer": "b",
+        "explanation": "When the element being searched is lower than the value at the calculated position then in that case we update high and low remains unaltered. Updated value of high is high = pos \u2013 1."
+    }
+]

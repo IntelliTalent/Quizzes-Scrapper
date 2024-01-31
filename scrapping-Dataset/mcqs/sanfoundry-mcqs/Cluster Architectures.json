@@ -1,0 +1,112 @@
+[
+    {
+        "question": "MongoDB allows administrators to direct the balancing policy using ______ aware sharding.",
+        "options": [
+            "a) tag",
+            "b) replica",
+            "c) rack",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Administrators create and associate tags with ranges of the shard key, and then assign those tags to the shards."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Use sharded clusters if your data set approaches or exceeds the storage capacity of a single MongoDB instance",
+            "b) Use sharded clusters if a single MongoDB instance can meet the demands of your write operations, and all other approaches have not reduced contention",
+            "c) Use sharded clusters if the size of your system\u2019s active working set will soon exceed the capacity of your system\u2019s minimum RAM",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The balancer is a background process that manages chunk migrations."
+    },
+    {
+        "question": "Tags are the primary mechanism to control the behavior of the _______ and the distribution of chunks in a cluster.",
+        "options": [
+            "a) Balancer",
+            "b) Collector",
+            "c) Compactor",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Tag aware sharding serves to improve the locality of data for sharded clusters that span multiple data centers"
+    },
+    {
+        "question": "How many background process runs behind balanced cluster?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB ensures a balanced cluster using two background process: splitting and the balancer."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To create splits, MongoDB does migrate any data or affect the shards",
+            "b) The addition of new data or the addition of new servers can result in data distribution imbalances within the cluster",
+            "c) The balancer can run from any of the query routers in a cluster",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The balancer is a background process that manages chunk migrations."
+    },
+    {
+        "question": "_________ is a background process that keeps chunks from growing too large.",
+        "options": [
+            "a) Splitting",
+            "b) Balancing",
+            "c) Chunking",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "When a chunk grows beyond a specified chunk size, MongoDB splits the chunk in half. Inserts and updates triggers splits."
+    },
+    {
+        "question": "The shards manage _______ migrations as a background operation between an origin shard and a destination shard.",
+        "options": [
+            "a) cluster",
+            "b) shard",
+            "c) chunk",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "During a chunk migration, the destination shard is sent all the current documents in the chunk from the origin shard."
+    },
+    {
+        "question": "For most deployments, the default value of chunk is _____ megabytes is ideal.",
+        "options": [
+            "a) 16",
+            "b) 32",
+            "c) 64",
+            "d) 72"
+        ],
+        "answer": "c",
+        "explanation": "Chunk size is user configurable."
+    },
+    {
+        "question": "The ______ instances are the routers for the cluster.",
+        "options": [
+            "a) mongod",
+            "b) mongos",
+            "c) collection",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Typically, deployments have one mongos instance on each application server."
+    },
+    {
+        "question": "A single sharded cluster must have exclusive use of its _______ servers.",
+        "options": [
+            "a) local",
+            "b) global",
+            "c) config",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you have multiple sharded clusters, you will need to have a group of config servers for each cluster."
+    }
+]

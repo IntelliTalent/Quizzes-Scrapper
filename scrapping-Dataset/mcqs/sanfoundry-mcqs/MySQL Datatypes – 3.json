@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Which data type is used to store data and time in Mysql?",
+        "options": [
+            "a) Numeric data type",
+            "b) Text data type",
+            "c) Temporal data type",
+            "d) Char/Varchar"
+        ],
+        "answer": "c",
+        "explanation": "Temporal data are used for storing Date, Time, TimeStamp or Datetime."
+    },
+    {
+        "question": "What is the default format for \u201cDate\u201d data type?",
+        "options": [
+            "a) YYYY-MM-DD",
+            "b) MM-YYYY-DD",
+            "c) DD-MM-YYYY",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Default means values that are assumed by the server."
+    },
+    {
+        "question": "What is the default format for \u201cDatetime\u201d data type?",
+        "options": [
+            "a) YYYY-MM-DD   HH:MI:SS",
+            "b) MM-YYYY-DD   HH:MI:SS",
+            "c) DD-YYYY-MM    MI:HH:SS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Default means values that are assumed by the server."
+    },
+    {
+        "question": "What is the default format for \u201cTimestamp\u201d data type?",
+        "options": [
+            "a) YYYY-MM-DD   HH:MI:SS",
+            "b) MM-YYYY-DD   HH:MI:SS",
+            "c) DD-YYYY-MM    MI:HH:SS",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Default means values that are assumed by the server."
+    },
+    {
+        "question": "What is the default format for \u201cYear\u201d data type?",
+        "options": [
+            "a) YYYY",
+            "b) YYYY-DD-MM",
+            "c) MM-YYYY-DD",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Default means values that are assumed by the server."
+    },
+    {
+        "question": "Is \u201cDatetime\u201d and \u201cTimestamp\u201d are same data type?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Depends",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "\u201cTimestamp\u201d column will automatically be populated with current Date/time by the Mysql server, when any row modified."
+    },
+    {
+        "question": "Which value will show an error when stored in float(4,2)?",
+        "options": [
+            "a) 12.11",
+            "b) 13.1",
+            "c) 1.12",
+            "d) 123.44"
+        ],
+        "answer": "d",
+        "explanation": "\u201cFloat(4,2)\u201d cannot store more than 4 digits."
+    }
+]

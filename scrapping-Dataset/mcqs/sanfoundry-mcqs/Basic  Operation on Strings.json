@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Which of the following  string() method are used to compare two strings with each other?",
+        "options": [
+            "a) CopyTo()",
+            "b) Copy()",
+            "c) Compare()",
+            "d) CompareTo()"
+        ],
+        "answer": "d",
+        "explanation": "In C#, the CompareTo() method is used to compare two strings and determine their relationship. It returns 0 if the strings are equal, a negative value if the first string is less, and a positive value if the first string is greater."
+    },
+    {
+        "question": "Choose the base class for string() method:",
+        "options": [
+            "a) System.Array",
+            "b) System.char",
+            "c) System.String",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "String is an alias for the predefined \u201cSystem.string\u201d class from which most of the string() methods are derived."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Insertion of character \u2018a\u2019 at position \u20183\u2019 using insert() which returns a new string with  a substring inserted at a specified location."
+    }
+]

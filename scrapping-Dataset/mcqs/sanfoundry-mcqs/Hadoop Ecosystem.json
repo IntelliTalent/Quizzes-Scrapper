@@ -1,0 +1,101 @@
+[
+    {
+        "question": "________ is a platform for constructing data flows for extract, transform, and load (ETL) processing and analysis of large datasets.",
+        "options": [
+            "a) Pig Latin",
+            "b) Oozie",
+            "c) Pig",
+            "d) Hive"
+        ],
+        "answer": "c",
+        "explanation": "Apache Pig is a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hive is not a relational database, but a query engine that supports the parts of SQL specific to querying data",
+            "b) Hive is  a relational database with SQL support",
+            "c) Pig is a relational database with SQL support",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems."
+    },
+    {
+        "question": "_________ hides the limitations of Java behind a powerful and concise Clojure API for Cascading.",
+        "options": [
+            "a) Scalding",
+            "b) HCatalog",
+            "c) Cascalog",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Cascalog also adds Logic Programming concepts inspired by Datalog. Hence the name \u201cCascalog\u201d is a contraction of Cascading and Datalog."
+    },
+    {
+        "question": "Hive also support custom extensions written in ____________",
+        "options": [
+            "a) C#",
+            "b) Java",
+            "c) C",
+            "d) C++"
+        ],
+        "answer": "b",
+        "explanation": "Hive also supports custom extensions written in Java, including user-defined functions (UDFs) and serializer-deserializers for reading and optionally writing custom formats."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Elastic MapReduce (EMR) is Facebook\u2019s packaged Hadoop offering",
+            "b) Amazon Web Service Elastic MapReduce (EMR) is Amazon\u2019s packaged Hadoop offering",
+            "c) Scalding is a Scala API on top of Cascading that removes most Java boilerplate",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Rather than building Hadoop deployments manually on EC2 (Elastic Compute Cloud) clusters, users can spin up fully configured Hadoop installations using simple invocation commands, either through the AWS Web Console or through command-line tools."
+    },
+    {
+        "question": "________ is the most popular high-level Java API in Hadoop Ecosystem",
+        "options": [
+            "a) Scalding",
+            "b) HCatalog",
+            "c) Cascalog",
+            "d) Cascading"
+        ],
+        "answer": "d",
+        "explanation": "Cascading hides many of the complexities of MapReduce programming behind more intuitive pipes and data flow abstractions."
+    },
+    {
+        "question": "The Pig Latin scripting language is not only a higher-level data flow language but also has operators similar to ____________",
+        "options": [
+            "a) SQL",
+            "b) JSON",
+            "c) XML",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Pig Latin, in essence, is designed to fill the gap between the declarative style of SQL and the low-level procedural style of MapReduce."
+    },
+    {
+        "question": "_______ jobs are optimized for scalability but not latency.",
+        "options": [
+            "a) Mapreduce",
+            "b) Drill",
+            "c) Oozie",
+            "d) Hive"
+        ],
+        "answer": "d",
+        "explanation": "Hive Queries are translated to MapReduce jobs to exploit the scalability of MapReduce."
+    },
+    {
+        "question": "______ is a framework for performing remote procedure calls and data serialization.",
+        "options": [
+            "a) Drill",
+            "b) BigTop",
+            "c) Avro",
+            "d) Chukwa"
+        ],
+        "answer": "c",
+        "explanation": "In the context of Hadoop, Avro can be used to pass data from one program or language to another."
+    }
+]

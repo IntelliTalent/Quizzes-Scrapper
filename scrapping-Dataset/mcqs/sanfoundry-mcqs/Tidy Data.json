@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is an example of tidy data?",
+        "options": [
+            "a) complicated JSON from facebook API",
+            "b) complicated JSON from Twitter API",
+            "c) unformatted excel file",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Tidy data is obtained after processing script."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Nearly 80% of data analysis is spent on wrangling data",
+            "b) Nearly 20% of data analysis is spent on data dredging",
+            "c) Nearly 80% of data analysis is spent on the cleaning and preparing data",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Data cleansing is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database."
+    },
+    {
+        "question": "Which of the following is a trait of tidy data?",
+        "options": [
+            "a) each variable in one column",
+            "b) each observation in different row",
+            "c) one table for each kind of variable",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The summary could be the sum of the observations, the number of occurrences, their mean value, and so on."
+    },
+    {
+        "question": "Which of the following package is used for tidy data?",
+        "options": [
+            "a) tidyr",
+            "b) souryr",
+            "c) NumPy",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "tidyr is used for tidy data with spread and gather functions."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Tidy datasets are all alike but every messy dataset is messy in its own way",
+            "b) Most statistical datasets are data frames made up of rows and columns",
+            "c) Tidy datasets provide a standardized way to link the structure of a dataset with its semantics",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The tidy data standard has been designed to simplify the development of data analysis tools that work well together."
+    },
+    {
+        "question": "Which of the following process involves structuring datasets to facilitate analysis?",
+        "options": [
+            "a) Data tidying",
+            "b) Data mining",
+            "c) Data booting",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The principles of tidy data provide a standard way to organize data values within a dataset."
+    },
+    {
+        "question": "Strange binary file generated from machines is an example of tidy data.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Data sets stored in spreadsheets, such as Microsoft\u2019s Excel, are binary, not raw ASCII data files."
+    },
+    {
+        "question": "Which of the following is the most common problem with messy data?",
+        "options": [
+            "a) Column headers are values",
+            "b) Variables are stored in both rows and columns",
+            "c) A single observational unit is stored in multiple tables",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Real datasets can, and often do, violate the three precepts of tidy data in almost every way imaginable."
+    },
+    {
+        "question": "tidyr is a reframing of _______ designed to accompany the tidy data framework.",
+        "options": [
+            "a) reshape5",
+            "b) dplyr",
+            "c) reshape2",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "tidyr does less reframing than reshape2."
+    },
+    {
+        "question": "Raw data in the real-world is tidy and properly formatted.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Data analysis is not a goal in itself; the goal is to enable the business to make better decisions."
+    }
+]

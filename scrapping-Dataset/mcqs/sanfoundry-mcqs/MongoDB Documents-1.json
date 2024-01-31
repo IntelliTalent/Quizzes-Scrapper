@@ -1,0 +1,79 @@
+[
+    {
+        "question": "The __________ JavaScript shell and the MongoDB language drivers translate between BSON and the language-specific document representation.",
+        "options": [
+            "a) mongod",
+            "b) mongo",
+            "c) iscript",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The value of a field can be any of the BSON data types."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB stores chunks on disk in the XML serialization format",
+            "b) MongoDB stores documents on disk in the BSON serialization format",
+            "c) MongoDB stores documents on RAM in the JSON serialization format",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " BSON documents may have more than one field with the same name."
+    },
+    {
+        "question": "BSON is a binary representation of ________ documents.",
+        "options": [
+            "a) JSON",
+            "b) XML",
+            "c) JScript",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " BSON contains more data types than JSON."
+    },
+    {
+        "question": "MongoDB documents are composed of field-and-value pairs and have the following structure?",
+        "options": [
+            "a) field1:; value1",
+            "b) field1: value1;",
+            "c) field1: value1",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The value of a field can be any of the BSON data types, including other documents, arrays, and arrays of documents."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Some documents created by internal MongoDB processes may have duplicate fields",
+            "b) no MongoDB process will ever add duplicate fields to an existing user document",
+            "c) The maximum BSON document size is 16 megabytes",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The maximum document size helps ensure that a single document cannot use excessive amount of RAM or, during transmission, excessive amount of bandwidth."
+    },
+    {
+        "question": "To store documents larger than the maximum size, MongoDB provides the _______ API.",
+        "options": [
+            "a) Grid",
+            "b) MMS",
+            "c) GridFS",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " MongoDB preserves the order of the document fields following write operations."
+    },
+    {
+        "question": "MongoDB uses the ________ notation to access the elements of an array and to access the fields of an embedded document.",
+        "options": [
+            "a) Dot",
+            "b) Array",
+            "c) Nested Sets",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To access an element of an array by the zero-based index position, concatenate the array name with the dot (.) and zero-based index position, and enclose in quotes."
+    }
+]

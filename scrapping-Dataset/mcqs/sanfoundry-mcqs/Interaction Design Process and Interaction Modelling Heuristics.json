@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Which of the following statement is true?",
+        "options": [
+            "a) The process of generating, evaluating, and improving designs of components and interactions together as component and interaction co-design",
+            "b) An interaction realizing a product function or operation may be specified in a sequence diagram that ignores individuals at several removes from the primary individual in the interaction",
+            "c) Designers may need to model product functions and operations at several levels of abstraction in several sequence diagrams",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are true."
+    },
+    {
+        "question": "What is outside in design?",
+        "options": [
+            "a) Interaction design works mainly from the computational goals mandated in requirements specifications, to the realization as interactions between cooperating program units",
+            "b) Many program interactions do not give rise to interesting or complicated program component interactions",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Interaction design works mainly from the computational goals mandated in requirements specifications (the outside of the program), to the realization as interactions between cooperating program units (the inside of the program)known as outside in design."
+    },
+    {
+        "question": "What are the general approaches to solving this problem?",
+        "options": [
+            "a) Polling",
+            "b) Notification",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " There are two general approaches to solving this problem Polling and Notification."
+    },
+    {
+        "question": "What is the controller?",
+        "options": [
+            "a) It is a program component that makes decisions and directs other components",
+            "b) It is a way that decision making is distributed among program components",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A controller is a program component that makes decisions and directs other components."
+    },
+    {
+        "question": "Which among the following are broad control styles?",
+        "options": [
+            "a) Centralized",
+            "b) Delegated",
+            "c) Dispersed",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are three broad control styles- Centralized, Delegated, Dispersed."
+    },
+    {
+        "question": "Which of these is a Delegated control style?",
+        "options": [
+            "a) In a program with such a  control style, a few controllers make all significant decisions",
+            "b) A program with such a control style has decision making is distributed through the program",
+            "c) In a program with such a control style, decision making is spread widely throughout the program; it is hard to identify controllers in such programs",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A program with delegated control style has decision making is distributed through the program."
+    },
+    {
+        "question": "Which of the following statement is true?",
+        "options": [
+            "a) The delegated style corresponds to micro-management in which supervisors make every decision",
+            "b) The centralized style corresponds to the empowered teams model where in supervisors make major strategic decisions but leave it to teams of employees to decide how to implement the larger decisions",
+            "c) The dispersed style corresponds to a leaderless organization, such as occurs when a group of individuals get together for an impromptu activity",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The dispersed style corresponds to a leaderless organization, such as occurs when a group of individuals get together for an imprompt activity."
+    },
+    {
+        "question": "Which of the following statements are followed in delegated style?",
+        "options": [
+            "a) The main advantage of a program with such a control style is that it is easy to and where decisions are being made",
+            "b) If the controllers are not too big and complex, it is easy to understand how decisions are made and to alter the decision-making process",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements are followed by centralized style and not delegated style."
+    },
+    {
+        "question": "Which of the following are the dangers faced by centralized style?",
+        "options": [
+            "a) The controller can become too large and complex. If only a few components make all the decisions, and there are many decisions to be made, it stands to reason that the controllers will be large and complex units",
+            "b) Controllers may treat other components as data repositories, merely storing and retrieving data in",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are the dangers faced by centralized styles."
+    },
+    {
+        "question": "Which of the following are the heuristics to avoid bloated controllers?",
+        "options": [
+            "a) Avoid interaction designs where most messages originate from a single component",
+            "b) Keep Components small",
+            "c) Make sure operational responsibilities are not all assigned to just a few components",
+            "d) Keep Components small & Make sure operational responsibilities are not all assigned to just a few components"
+        ],
+        "answer": "d",
+        "explanation": "The bloated controller heuristics are- Keep Components small and Make sure operational responsibilities are not all assigned to just a few components."
+    },
+    {
+        "question": "What are the advantages of delegated control?",
+        "options": [
+            "a) Controllers are coupled to fewer components, and overall program coupling is decreased",
+            "b) Information is hidden better",
+            "c) It is too hard to understand the low of control",
+            "d) Information is hidden better, Controllers are coupled to fewer components, and overall program coupling is decreased"
+        ],
+        "answer": "d",
+        "explanation": "The advantages for control design are \u2013 Controllers are coupled to fewer components, and overall program coupling is decreased and Information is hidden better."
+    },
+    {
+        "question": "What are the disadvantages for dispersed control?",
+        "options": [
+            "a) It is too hard to understand the low of control",
+            "b) When components are too finely divided, they tend not to be able to do anything on their own",
+            "c) It is difficult to hide information",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the disadvantages for dispersed control."
+    },
+    {
+        "question": "Which among these is the heuristic for dispersed control?",
+        "options": [
+            "a) Avoid interactions that require each component to send many messages",
+            "b) Have components delegate as many low-level tasks as possible",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Have components delegate as many low-level tasks as possible is the heuristic for delegate control."
+    },
+    {
+        "question": "An operation of an object obj should send messages only to which of the following entities?",
+        "options": [
+            "a) The object obj;",
+            "b) The attributes of obj;",
+            "c) The arguments of the operation;",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Law of dementor states An operation of an object obj should send messages only to the following entities- The object obj; The attributes of obj; The arguments of the operation."
+    },
+    {
+        "question": "Which of the following is interaction design heuristic?",
+        "options": [
+            "a)  Avoid interaction designs where most messages originate from a single component",
+            "b) Keep components small",
+            "c) Make sure operational responsibilities are not all assigned to just a few components",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the heuristic for the interaction design."
+    }
+]

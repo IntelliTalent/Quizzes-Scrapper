@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Which among the following are not the valid notations for package and component diagram?",
+        "options": [
+            "a) Notes",
+            "b) Box",
+            "c) Extension Mechanisms",
+            "d) Packages"
+        ],
+        "answer": "b",
+        "explanation": "Boxes are the notations for box and line diagram."
+    },
+    {
+        "question": "Which of the following statement is false?",
+        "options": [
+            "a) A note is a dog-eared box connected to any model element by a dashed line",
+            "b) The main way to extend UML is by constraints, properties, etc",
+            "c) A dependency relation holds between two entities D and I where change in I does not affect D",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " A dependency relation holds between two entities D and I where change in I affects D."
+    },
+    {
+        "question": "Which of these depicts the true definition for the UML extensions?",
+        "options": [
+            "a) A constraint is a statement that must be true of the entities designated by one or more model elements",
+            "b) A property is a characteristic of the entity designated by a model element",
+            "c) A stereotype is a UML model element given more specific meaning",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned statements are true definitions."
+    },
+    {
+        "question": "Which of the following is incorrect in reference to dependency?",
+        "options": [
+            "a) Module D uses module I when a correct version of I must be present for D to work correctly",
+            "b) Module D depends for compilation on module I",
+            "c) Class I imports elements from package D",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Class D imports elements from package I."
+    },
+    {
+        "question": "What is a collection of model elements called?",
+        "options": [
+            "a) Box",
+            "b) Dependency",
+            "c) UML packages",
+            "d) Package members"
+        ],
+        "answer": "d",
+        "explanation": "UML Package is a collection of model elements called package members."
+    },
+    {
+        "question": "A package diagram consists of the following?",
+        "options": [
+            "a) Package symbols",
+            "b) Groupings of Use cases, classes,  components",
+            "c) Interface",
+            "d) Package symbols, Groupings of Use cases, classes & components"
+        ],
+        "answer": "d",
+        "explanation": "A package diagram consists of package symbols,  groupings of use cases,  classes,  components, etc."
+    },
+    {
+        "question": "What types of units does Component follow?",
+        "options": [
+            "a) Modular Unit",
+            "b) Replaceable Unit",
+            "c) Unit with well defined interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A component consists of modular, replaceable unit with well defined interface."
+    },
+    {
+        "question": "Components can be represented by which of the following?",
+        "options": [
+            "a) Component symbols",
+            "b) Stereotypes",
+            "c) Rectangular boxes",
+            "d) Component symbols & Stereotypes"
+        ],
+        "answer": "d",
+        "explanation": "Components can be expressed by Symbols and stereotypes."
+    },
+    {
+        "question": "What does a component diagram consists of?",
+        "options": [
+            "a) Components,  their Relationship to the environment",
+            "b) Packages and dependency",
+            "c) Internal structure",
+            "d) Internal structure, Components & their Relationship to the environment"
+        ],
+        "answer": "d",
+        "explanation": "Component diagram consists of components, relationship to the environment and their internal structure."
+    },
+    {
+        "question": "Which of these is true with respect to interfaces?",
+        "options": [
+            "a) Interfaces in component diagram defines relationship between components and environment",
+            "b) Interfaces realized by a class or a component are required interfaces",
+            "c) Interface on which a class or component depends are called provided interfaces",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Interfaces realized by a class or a component are provided interfaces whereas Interfaces on which a class or component depends are called required interfaces."
+    },
+    {
+        "question": "What is a delegation connector?",
+        "options": [
+            "a) A delegation connector ties a component interface to one or more internal classes or components",
+            "b) Delegation connectors are solid arrows stereotyped <",
+            "c) A delegation connector may also extend from an internal class to an external interface",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned options represents delegation connector and are true."
+    },
+    {
+        "question": "Which of these are diagrammatic heuristics?",
+        "options": [
+            "a) Use notes, constraints, properties and stereotypes to add information to UML models",
+            "b) Use Stereotypes to name dependencies",
+            "c) Use packages to group elements in static models",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are the respective heuristics to be followed for the UML models diagram."
+    }
+]

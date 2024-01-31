@@ -1,0 +1,99 @@
+[
+    {
+        "question": "YACC is a computer program for ______ operation system.",
+        "options": [
+            "a) Windows",
+            "b) DOS",
+            "c) Unix",
+            "d) openSUSE"
+        ],
+        "answer": "c",
+        "explanation": "YACC technique is a computer code for the Unix operating system. It is a LALR parser generator, generating a parser, the part of a compiler that tries to make syntactic sense of the source code."
+    },
+    {
+        "question": "YACC is an acronym for:",
+        "options": [
+            "a) Yes Another Compile Compiler",
+            "b) Yet Another Compile Compiler",
+            "c) Yet Another Compiler Compiler",
+            "d) Yes Another Compiler Compiler"
+        ],
+        "answer": "c",
+        "explanation": "YACC stands for \u2018Yet another compiler compiler\u2019 and it was developed by Stephen Johnson in B programming language later translated to C."
+    },
+    {
+        "question": "The YACC takes C code as input and outputs_________",
+        "options": [
+            "a) Top down parsers",
+            "b) Bottom up parsers",
+            "c) Machine code",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The YACC takes C code as input and produces shift reduce parsers in C,also known as Bottom up parsers which execute C snippets with the associated rule."
+    },
+    {
+        "question": "The _______ table is created by YACC.",
+        "options": [
+            "a) LALR parsing",
+            "b) LL parsing",
+            "c) GLR parsing",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": " LALR parser generator is software tool that reads a BNF grammar and creates a LALR parser which is capable of parsing files written in programming language identified by BNF grammar."
+    },
+    {
+        "question": "The original YACC as written in __________ language",
+        "options": [
+            "a) R programming language",
+            "b) C programming language",
+            "c) B programming language",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Stephen Johnson wrote this parser generator in B programming language which was further modified and written in C, JAVA, Python, etc."
+    },
+    {
+        "question": "Which of the following is false for BNF?",
+        "options": [
+            "a) BNF means Backus Naur Form",
+            "b) It is a normal form used in Data base normalization",
+            "c) It is a notation technique for context free grammar",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The normal form used in Data base normalization is BCNF i.e. Boyce Codd normal form and NOT Backus Naur Form."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "BNF is a metasyntax used to express context free grammar, moreover a formal way to express the language."
+    },
+    {
+        "question": "Which of the following are not used to express CFG?",
+        "options": [
+            "a) BNF",
+            "b) EBNF, ABNF",
+            "c) Van Wijngaarden form",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "W grammar or van Wijngaarden form is used to define potentially infinite context free grammars in a finite number of rules. It is an example of larger class of affix grammars. This technique was used to define the P/L Algol 68."
+    },
+    {
+        "question": "Which of the following version of Unix came up with YACC first?",
+        "options": [
+            "a) V3",
+            "b) V5",
+            "c) CB UNIX",
+            "d) Unix-RT"
+        ],
+        "answer": "a",
+        "explanation": "Yacc appeared in version 3 of unix, though full description was published by 1975."
+    }
+]

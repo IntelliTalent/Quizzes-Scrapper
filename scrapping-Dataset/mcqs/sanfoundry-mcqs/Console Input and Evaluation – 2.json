@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "a",
+        "explanation": "List is a special type of vector that can contain elements of different classes. Lists is a very important data type in R. Lists can be created using the list() function, which takes an arbitrary number of arguments."
+    },
+    {
+        "question": "What is the meaning of the following R function?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Factors are used to represent categorical data and can unordered and ordered. One can think of a factor as an integer vector where each integer has a label. Factors are important in statistical modelling and are treated specially by modelling functions like lm() and glm()."
+    },
+    {
+        "question": "What is the meaning of the following R function?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Functions are often used to encapsulate a sequence of expressions that need to be executed numerous times, perhaps under slightly different conditions. Functions are also often written when code must be shared with others."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Dates are represented by the Date class and can be coerced from a character string using the as.Date() function. This is a common way to end in R with a Date. There are other alternatives to print date too."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Both paste() and cat() print out text to the console by combining multiple character vectors together, it is impossible for those functions to know in advance how many character vectors will be passed to the function by the user."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Both paste() and cat() print out text to the console by combining multiple character vectors together, it is impossible to those functions to know in advance how many character vectors will be passed to the function by the user."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "a",
+        "explanation": "nchar will print the number of characters as output. It does not print the whole characters, it just prints the number. It does not print first 5 and also last 5 characters of the input string."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Generally, the matrix can be printed with a matrix function. But the diagonal matrix can be easily created with diag function. In the question, we have in the same way."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Sys.time and also Sys.Date returns the system\u2019s idea of the current date with and without time. Sys.time returns an absolute date-time value which can be converted to various time zones and may return different days. Sys.Date returns the current day in the current time zone."
+    },
+    {
+        "question": "What will be the output of the following R function?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Sys.time returns a present date-time value which can be converted to various time zones and may return different days. Sys.time and also Sys.Date returns the system\u2019s idea of the current date with and without time."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "question": "________ generate random Normal variates with a given mean and standard deviation.",
+        "options": [
+            "a) dnorm",
+            "b) rnorm",
+            "c) pnorm",
+            "d) rpois"
+        ],
+        "answer": "b",
+        "explanation": "The \u201cr\u201d function is the one that actually simulates random numbers from that distribution."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) R comes with a set of pseudo-random number generators",
+            "b) Random number generators cannot be used to model random inputs",
+            "c) Statistical procedure does not require random number generation",
+            "d) For each probability distribution there are typically three functions"
+        ],
+        "answer": "a",
+        "explanation": "R allows you to simulate from well known probability distributions like the Normal, Poisson, and binomial."
+    },
+    {
+        "question": "______ evaluate the cumulative distribution function for a Normal distribution.",
+        "options": [
+            "a) dnorm",
+            "b) rnorm",
+            "c) pnorm",
+            "d) rpois"
+        ],
+        "answer": "c",
+        "explanation": "p stands for cumulative distribution."
+    },
+    {
+        "question": "_______ generate random Poisson variates with a given rate.",
+        "options": [
+            "a) dnorm",
+            "b) rnorm",
+            "c) pnorm",
+            "d) rpois"
+        ],
+        "answer": "d",
+        "explanation": "q stands for quantile function (inverse cumulative distribution)."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) For each probability distribution there are typically three functions",
+            "b) For each probability distribution there are typically four functions",
+            "c) r function is sufficient for simulating random numbers",
+            "d) R comes with a set of pseudo-random number generators"
+        ],
+        "answer": "a",
+        "explanation": "There are typically four functions available that start with a \u201cr\u201d, \u201cd\u201d, \u201cp\u201d, and \u201cq\u201d."
+    },
+    {
+        "question": "Which of the following evaluate the Normal probability density (with a given mean/SD) at a point?",
+        "options": [
+            "a) dnorm",
+            "b) rnorm",
+            "c) pnorm",
+            "d) rpois"
+        ],
+        "answer": "a",
+        "explanation": "That point can be a vector of points."
+    },
+    {
+        "question": "_________ is the most common probability distribution to work with.",
+        "options": [
+            "a) Gaussian",
+            "b) Parametric",
+            "c) Paradox",
+            "d) Simulation"
+        ],
+        "answer": "a",
+        "explanation": "Working with the Normal distributions requires using four functions."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Here we simulate standard Normal random numbers with mean 0 and standard deviation 1."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "We can modify the default parameters to simulate numbers with mean 20 and standard deviation 2."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "If you wanted to know what was the probability of a random Normal variable of being less than 2, you could use the pnorm() function to do that calculation."
+    }
+]

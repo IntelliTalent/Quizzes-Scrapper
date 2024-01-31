@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the number is not allowed in Binary representation of a number?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Binary numbers are formed with a combination of 0 & 1 only."
+    },
+    {
+        "question": "Which of the number is not allowed in Octal representation of a number?",
+        "options": [
+            "a) 0",
+            "b) 4",
+            "c) 8",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Octal numbers are formed with a combination of 0 to 7 only."
+    },
+    {
+        "question": "Hexadecimal number equivalent of decimal 10 is?",
+        "options": [
+            "a) 10",
+            "b) A",
+            "c) F",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In hexadecimal representation A is represented as decimal 10."
+    },
+    {
+        "question": "Decimal equivalent of binary number 1010 is?",
+        "options": [
+            "a) 11",
+            "b) A",
+            "c) 10",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "0X1 + 1X2 + 0X4 + 1X8 = 10 in decimal."
+    },
+    {
+        "question": "Decimal 13 in base 8 can be represented as _________",
+        "options": [
+            "a) 15",
+            "b) 12",
+            "c) 22",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "1X8 + 5X1 = 12, 15 is the octal representation of 13."
+    },
+    {
+        "question": "F in hexadecimal representation is equivalent to 9 in decimal.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "F in hexadecimal representation is equivalent to 15 in decimal."
+    },
+    {
+        "question": "Octal number may contain digits from 1 to 8.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Octal number contains digits from 0 to 7, * is not allowed."
+    },
+    {
+        "question": "For some base r, the digits which are allowed in its representation are?",
+        "options": [
+            "a) Digits from 1 to r",
+            "b) Digits from 0 to r-1",
+            "c) Digits from 1 to r-1",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A base r number may contain digits from 0 to r-1."
+    },
+    {
+        "question": "The binary number 100110 in octal is represented by _______________",
+        "options": [
+            "a) 45",
+            "b) 10012",
+            "c) 46",
+            "d) 58"
+        ],
+        "answer": "c",
+        "explanation": "Pairing 3 numbers from right hand side we get 110 as 6 and 100 as 4 in octal so the number is 46."
+    },
+    {
+        "question": "A number greater than 32 would require a minimum of how may bits in binary representation?",
+        "options": [
+            "a) 5",
+            "b) 6",
+            "c) 4",
+            "d) 10"
+        ],
+        "answer": "b",
+        "explanation": "Since through 5 bits we can only represent numbers till 31 since 2"
+    }
+]

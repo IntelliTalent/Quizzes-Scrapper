@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n)",
+            "b) T(n) = O(log n)",
+            "c) T(n) = O(n",
+            "d) T(n) = O(n"
+        ],
+        "answer": "c",
+        "explanation": "The given recurrence can be solved by using the second case of Master\u2019s theorem."
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n",
+            "b) T(n) = O(n",
+            "c) T(n) = O(2",
+            "d) cannot be solved"
+        ],
+        "answer": "c",
+        "explanation": "The given recurrence can be solved by using the third case (as f(n) > log21) of Master\u2019s theorem."
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n)",
+            "b) T(n) = O(log n)",
+            "c) T(n) = O(n",
+            "d) T(n) = O(n"
+        ],
+        "answer": "d",
+        "explanation": "The given recurrence can be solved by using the first case of Master\u2019s theorem. So the solution becomes T(n) = O(n"
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n)",
+            "b) T(n) = O(log n)",
+            "c) T(n) = O(n",
+            "d) cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "d",
+        "explanation": "The given recurrence cannot be solved by using the Master\u2019s theorem. It is because this recurrence relation does not fit into any case of Master\u2019s theorem."
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n)",
+            "b) T(n) = O(log n)",
+            "c) T(n) = O(n",
+            "d) cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "d",
+        "explanation": "The given recurrence cannot be solved by using the Master\u2019s theorem. It is because in this recurrence relation a < 1 so master\u2019s theorem cannot be applied."
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n!)",
+            "b) T(n) = O(n! log n)",
+            "c) T(n) = O(n",
+            "d) cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "a",
+        "explanation": "The given recurrence can be solved by using the third case of Master\u2019s theorem. So the solution becomes T(n) = O(n!)."
+    },
+    {
+        "question": "Solve the following recurrence using Master\u2019s theorem.",
+        "options": [
+            "a) T(n) = O(n (log n)",
+            "b) T(n) = O(n log n)",
+            "c) T(n) = O(n",
+            "d) cannot be solved using master\u2019s theorem"
+        ],
+        "answer": "a",
+        "explanation": "The given recurrence can be solved by using the extended second case of Master\u2019s theorem. So the solution becomes T(n) = O(n (log n)"
+    },
+    {
+        "question": "What will be the recurrence relation of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "As after every recursive call the integer up to which the sum is to be calculated decreases by 1. So the recurrence relation for the given code will be  T(n) = T(n-1) + O(1)."
+    },
+    {
+        "question": "What will be the recurrence relation of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "As after every recursive call the integer up to which the power is to be calculated decreases by half. So the recurrence relation for the given code will be T(n) = T(n/2) + O(1). It can be solved by using master\u2019s theorem."
+    },
+    {
+        "question": "What will be the time complexity of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "As the recurrence relation of the code is given by T(n) = T(n/2) + O(1) so it can be solved by using master\u2019s theorem second case."
+    }
+]

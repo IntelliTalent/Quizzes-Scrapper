@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Original idea comes of Literate Statistical Practice from _______________",
+        "options": [
+            "a) Don Knuth",
+            "b) Don Cutting",
+            "c) Douglas Cutting",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Literate programs are tangled to produce machine readable documents."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) An article is stream of code and text",
+            "b) Analysis code is divided in to code chunks only",
+            "c) Literate programs are tangled to produce human readable documents",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Analysis code is divided in to code chunks and text."
+    },
+    {
+        "question": "Which of the following is required for literate programming?",
+        "options": [
+            "a) documentation language",
+            "b) mapper language",
+            "c) reducer language",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Programming language is also required for literate programming."
+    },
+    {
+        "question": "Which of the following is required to implement a literate programming system?",
+        "options": [
+            "a) A programming language like Perl",
+            "b) A programming language like Java",
+            "c) A programming language like R",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "R is a language and environment for statistical computing and graphics."
+    },
+    {
+        "question": "Which of the following way is required to make work reproducible?",
+        "options": [
+            "a) keep track of things",
+            "b) Save output",
+            "c) Save data in proprietary formats",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Save data in NON proprietary formats to make work reproducible."
+    },
+    {
+        "question": "Which of the following disadvantage does literate programming have?",
+        "options": [
+            "a) Slow processing of documents",
+            "b) Code is not automatic",
+            "c) No logical order",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Code and text is in one place."
+    },
+    {
+        "question": "knitr supports only one documentation language.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "knitr supports various documentation languages."
+    },
+    {
+        "question": "Which of the following tool documentation language is supported by knitr?",
+        "options": [
+            "a) RMarkdown",
+            "b) LaTeX",
+            "c) HTML",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "knitr is available on CRAN."
+    },
+    {
+        "question": "Which of the following package by Yihui is built in to RStudio environment?",
+        "options": [
+            "a) rpy2",
+            "b) knitr",
+            "c) ggplot2",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "It can be exported to pdf and html."
+    },
+    {
+        "question": "Literate program code is live-automatic \u201cregression test\u201d when building a document.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Data and results are automatically updated to reflect external changes."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "question": "Which of these has higher priority?",
+        "options": [],
+        "answer": "a",
+        "explanation": "A client performing an operation that modifies a table is a writer and the client that performs a retrieval from the table is a reader. The writes have higher priority than reads."
+    },
+    {
+        "question": "How many of the following implement the default scheduling property of MySQL?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The MyISAM, MERGE and the MEMORY storage engines implement the default scheduling policy of MySQL with the help of the table locks. Whenever a client accesses a table a lock for it must be acquired first."
+    },
+    {
+        "question": "Which statement issues a lock on tables?",
+        "options": [
+            "a) ISSUE LOCK",
+            "b) LOCK ISSUE",
+            "c) LOCK TABLES",
+            "d) ISSUE LOCKS"
+        ],
+        "answer": "c",
+        "explanation": "Locks can be acquired and released explicitly by issuing LOCK TABLES and UNLOCK TABLES statements. Normally the server\u2019s lock manager automatically acquires locks as necessary and releases them when they no longer are needed."
+    },
+    {
+        "question": "To how many of these does the LOW_PRIORITY modifier apply to?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The LOW_PRIORITY statement modifier influences the default scheduling policy of MySQL. This keyword applies to all the four: DELETE, INSERT, LOAD DATA, REPLACE. It also applies to UPDATE."
+    },
+    {
+        "question": "The number of tables among the following for which HIGH_PRIORITY have an effect are _________________",
+        "options": [],
+        "answer": "d",
+        "explanation": "In MySQL, the LOW_PRIORITY and HIGH_PRIORITY modifiers have an effect only for those storage engines that use table locks. The storage engines MyISAM, MERGE and MEMORY use table locks."
+    },
+    {
+        "question": "The number of tables for which DELAYED works is _________________",
+        "options": [],
+        "answer": "d",
+        "explanation": "The \u2018DELAYED\u2019 statement modifier that influences the default scheduling policies of MySQL works for the following tables: MyISAM, MEMORY, ARCHIVE and as of MySQL 5.1.19, also for BLACKHOLE tables."
+    },
+    {
+        "question": "Find the odd one out in terms of scheduling policies.",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) MEMORY",
+            "d) MERGE"
+        ],
+        "answer": "b",
+        "explanation": "The InnoDB storage engine implements locking at a different level. It has differing performance characteristics in terms of contention management. It uses row-level locks."
+    },
+    {
+        "question": "The use of table level locks is always useful in MyISAM tables.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MyISAM is extremely fast for retrievals but the use of table level locks can be a problem in environments with mixed retrievals and updates if the retrievals are long running."
+    },
+    {
+        "question": "Which table is preferred when there are many updates?",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) MEMORY",
+            "d) MERGE"
+        ],
+        "answer": "b",
+        "explanation": "The InnoDB tables can provide better performance when there are many updates. Locking is done at the row level rather than at the table level. So the extent of the table that is locked is smaller."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "A ___________ node enables a workflow to make a selection on the execution path to follow.",
+        "options": [
+            "a) fork",
+            "b) decision",
+            "c) start",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "All decision nodes must have a default element to avoid bringing the workflow into an error state if none of the predicates evaluates to true."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Predicates are JSP Expression Language (EL) expressions",
+            "b) Predicates are evaluated in order or appearance until one of them evaluates to true and the corresponding transition is taken",
+            "c) The name attribute in the decision node is the name of the decision node",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The predicate ELs are evaluated in order until one returns true and the corresponding transition is taken."
+    },
+    {
+        "question": "Which of the following can be seen as a switch-case statement?",
+        "options": [
+            "a) fork",
+            "b) decision",
+            "c) start",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A decision node consists of a list of predicates-transition pairs plus a default transition."
+    },
+    {
+        "question": "All decision nodes must have a _____________ element to avoid bringing the workflow into an error state if none of the predicates evaluates to true.",
+        "options": [
+            "a) name",
+            "b) default",
+            "c) server",
+            "d) client"
+        ],
+        "answer": "b",
+        "explanation": "The default element indicates the transition to take if none of the predicates evaluates to true."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The fork and join nodes must be used in pairs",
+            "b) The fork node assumes concurrent execution paths are children of the same fork node",
+            "c) A join node waits until every concurrent execution path of a previous fork node arrives to it",
+            "d) A fork node splits one path of execution into multiple concurrent paths of execution"
+        ],
+        "answer": "b",
+        "explanation": "The join node assumes concurrent execution paths are children of the same fork node."
+    },
+    {
+        "question": "The ___________ attribute in the join node is the name of the workflow join node.",
+        "options": [
+            "a) name",
+            "b) to",
+            "c) down",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The to attribute in the join node indicates the name of the workflow node that will executed after all concurrent execution paths of the corresponding fork arrive to the join node."
+    },
+    {
+        "question": "If a computation/processing task -triggered by a workflow fails to complete successfully, its transitions to _____________",
+        "options": [
+            "a) error",
+            "b) ok",
+            "c) true",
+            "d) false"
+        ],
+        "answer": "a",
+        "explanation": "If a computation/processing task -triggered by a workflow completes successfully, it transitions to ok."
+    },
+    {
+        "question": "If the failure is of ___________ nature, Oozie will suspend the workflow job.",
+        "options": [
+            "a) transient",
+            "b) non-transient",
+            "c) permanent",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the failure is an error and a retry will not resolve the problem, Oozie will perform the error transition for the action."
+    },
+    {
+        "question": "A _______________ action can be configured to perform file system cleanup and directory creation before starting the mapreduce job.",
+        "options": [
+            "a) map",
+            "b) reduce",
+            "c) map-reduce",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The map-reduce action starts a Hadoop map/reduce job from a workflow."
+    },
+    {
+        "question": "___________ properties can be overridden by specifying them in the job-xml file or configuration element.",
+        "options": [
+            "a) Pipe",
+            "b) Decision",
+            "c) Flag",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Pipes information can be specified in the pipes element."
+    }
+]

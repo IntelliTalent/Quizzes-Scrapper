@@ -1,0 +1,78 @@
+[
+    {
+        "question": "What is co-ordinate compression?",
+        "options": [
+            "a) process of reassigning co-ordinates to remove gaps",
+            "b) inserting gaps in a co-ordinate system",
+            "c) removing redundant co-ordinates",
+            "d) adding extra gaps"
+        ],
+        "answer": "a",
+        "explanation": "Co-ordinate compression is the process of reassigning co-ordinates in order to remove gaps. This helps in improving efficiency of a solution."
+    },
+    {
+        "question": "What is the need for co-ordinate compression?",
+        "options": [
+            "a) for improving time complexity",
+            "b) for improving space complexity",
+            "c) for improving both time and space complexity",
+            "d) for making code simpler"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:Co-ordinate compression is the process of reassigning co-ordinates in order to remove gaps. This helps in improving both time and space complexity of a solution."
+    },
+    {
+        "question": "What is the output for the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code converts the elements of the input array. They are replaced with their respective position number in the sorted array."
+    },
+    {
+        "question": "What will be the time complexity of given code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the given code will be governed by the time complexity of the sorting algorithm used. As this code uses in built sorting of C++ so it will take O(n log n) time."
+    },
+    {
+        "question": "What is the auxiliary space complexity of the given code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code uses an auxiliary space of O(n). It is used by a vector which pairs each element of the array with their respective index number of the original array."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code converts the elements of input array. They are replaced with their respective position number in the sorted array."
+    },
+    {
+        "question": "What is the time complexity of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the given code will be governed by the time complexity of the sorting algorithm used. As this code uses inbuilt sorting of C++ so it will take O(n log n) time."
+    },
+    {
+        "question": "What will be the auxiliary space complexity of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The given code uses an auxiliary space of O(n). It is used by a vector which pairs each element of the array with their respective index number of the original array."
+    },
+    {
+        "question": "Co-ordinate compression reduces the number of squares in a graph.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "The idea behind co-ordinate compression is to reduce the number of squares in a graph by converting them into rectangles of viable size. This reduces the time complexity of traversal."
+    },
+    {
+        "question": "Co-ordinate compression can only be applied in a co-ordinate system problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Co-ordinate compression technique can be applied where such optimization is suitable. It does not require to co-ordinate system problem only."
+    }
+]

@@ -1,0 +1,1221 @@
+[
+    {
+        "question": "What is an example of dynamic binding?",
+        "options": [
+            "any method",
+            "method overloading",
+            "method overriding",
+            "compiling"
+        ],
+        "answer": "method overriding"
+    },
+    {
+        "question": "For which case would the use of a static attribute be appropriate?",
+        "options": [
+            "the number of people in each house in a small neighborhood",
+            "the lot size for each house in a small neighborhood",
+            "the color of each house in a small neighborhood",
+            "the weather conditions for each house in a small neighborhood"
+        ],
+        "answer": "the weather conditions for each house in a small neighborhood"
+    },
+    {
+        "question": "1 Why would you create an abstract class, if it can have no real instances?",
+        "options": [
+            "to avoid redundant coding in children",
+            "to explore a hypothetical class",
+            "to prevent unwanted method implementation",
+            "to reserve memory for an unspecified class type"
+        ],
+        "answer": "to avoid redundant coding in children"
+    },
+    {
+        "question": "2 Why would you create an abstract class, if it can have no real instances?",
+        "options": [
+            "to have common behavior in derived classes",
+            "to explore a hypothetical class",
+            "to prevent unwanted method implementation",
+            "to reserve memory for an unspecified class type"
+        ],
+        "answer": "to have common behavior in derived classes"
+    },
+    {
+        "question": "When does static binding happen?",
+        "options": [
+            "only when you export",
+            "both at compile time and runtime",
+            "at compile time",
+            "at runtime"
+        ],
+        "answer": "at compile time"
+    },
+    {
+        "question": "What is the best reason to use a design pattern?",
+        "options": [
+            "It will result in code that is more extensible and maintainable",
+            "It will result in a more compact product.",
+            "It will speed initial development.",
+            "It will allow you to add that design pattern to your resume."
+        ],
+        "answer": "It will result in code that is more extensible and maintainable"
+    },
+    {
+        "question": "What is encapsulation?",
+        "options": [
+            "defining classes by focusing on what is important for a purpose",
+            "hiding the data and implementation details within a class",
+            "making all methods private",
+            "using words to define classes"
+        ],
+        "answer": "hiding the data and implementation details within a class"
+    },
+    {
+        "question": "What is an IS-A relationship?",
+        "options": [
+            "It implies encapsulation.",
+            "A superclass object has an IS-A relationship with its subclass.",
+            "It implies a virtual method.",
+            "A subclass object has an IS-A relationship with its superclass or interface"
+        ],
+        "answer": "A subclass object has an IS-A relationship with its superclass or interface"
+    },
+    {
+        "question": "You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a method body. It just has a method signature. What kind of method should you use?",
+        "options": [
+            "an abstract method",
+            "a public internal method",
+            "an internal method",
+            "a protected internal method"
+        ],
+        "answer": "an abstract method"
+    },
+    {
+        "question": "Which code creates a new object from the Employee class?",
+        "options": [
+            "Employee currentEmployee = Employee.Create();",
+            "Employee currentEmployee = new Employee();",
+            "Employee currentEmployee;",
+            "Employee currentEmployee = Employee.New();"
+        ],
+        "answer": "Employee currentEmployee = new Employee();"
+    },
+    {
+        "question": "Which type of constructor cannot have a return type?",
+        "options": [
+            "default",
+            "copy",
+            "parameterized",
+            "Constructors do not have a return type"
+        ],
+        "answer": "Constructors do not have a return type"
+    },
+    {
+        "question": "1 When is a constructor executed?",
+        "options": [
+            "when an object is created from a class using the new keyword",
+            "when an class is defined using the class keyword",
+            "every time an object is referenced",
+            "when an object is created from a class using the create keyword"
+        ],
+        "answer": "when an object is created from a class using the new keyword"
+    },
+    {
+        "question": "2 When is a constructor executed?",
+        "options": [
+            "when an object is created from a class",
+            "when an class is defined using the class keyword",
+            "every time an object is referenced",
+            "when an object is created from a class using the create keyword"
+        ],
+        "answer": "when an object is created from a class"
+    },
+    {
+        "question": "If a local class is defined in a function, what is true for an object of that class?",
+        "options": [
+            "The object can be accessed, declared, and used locally in that function.",
+            "The object must be declared inside any other function.",
+            "The object is temporarily accessible outside the function.",
+            "The object can call all the other class members anywhere in the program."
+        ],
+        "answer": "The object can be accessed, declared, and used locally in that function."
+    },
+    {
+        "question": "Which two blocks are used to handle and check errors?",
+        "options": [
+            "do and check",
+            "catching and trying",
+            "try and catch",
+            "do and while"
+        ],
+        "answer": "try and catch"
+    },
+    {
+        "question": "Why would you implement composition using an id instead of a reference?",
+        "options": [
+            "It makes it easier to save the entity.",
+            "all of these answers",
+            "It can make the entity retrieval more efficient",
+            "It minimizes coupling."
+        ],
+        "answer": "all of these answers"
+    },
+    {
+        "question": "Which statement best describes the method of inheritance in OOP?",
+        "options": [
+            "Inheritance describes the ability to create new classes based on an existing class.",
+            "Inheritance means that a group of related properties, methods, and other members are treated as a single unit or object.",
+            "Inheritance forces a class to have a single responsibility from only one parent.",
+            "Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways."
+        ],
+        "answer": "Inheritance describes the ability to create new classes based on an existing class."
+    },
+    {
+        "question": "Which type of inheritance ,when done continuously, is similar to a tree structure?",
+        "options": [
+            "multilevel",
+            "hierarchical and multiple",
+            "hierarchical",
+            "multiple"
+        ],
+        "answer": "hierarchical"
+    },
+    {
+        "question": "Which statement is true?",
+        "options": [
+            "A default parameter's constructor is not equivalent to the default constructor",
+            "A default constructor is inherited from a parent class",
+            "A default constructor can be called explicitly",
+            "A default constructor cannot be defined by the coder"
+        ],
+        "answer": "A default constructor can be called explicitly"
+    },
+    {
+        "question": "Which of the following is NOT an advantage of using getters and setters?",
+        "options": [
+            "Getters and setters can speed up compilation.",
+            "Getters and setters provide encapsulation of behavior.",
+            "Getters and setters provide a debugging point for when a property changes at runtime.",
+            "Getters and setters permit different access levels."
+        ],
+        "answer": "Getters and setters can speed up compilation."
+    },
+    {
+        "question": "In context of OOP, what is association?",
+        "options": [
+            "Association is a relationship where all objects have their own life cycle and there is no owner.",
+            "Association is the process where model elements cooperate to provide higher-level behavior.",
+            "Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.",
+            "Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object."
+        ],
+        "answer": "Association is a relationship where all objects have their own life cycle and there is no owner."
+    },
+    {
+        "question": "How are user stories different from use cases?",
+        "options": [
+            "User Stories are shorter and less detailed.",
+            "User stories are more accurate.",
+            "User stories are more detailed and structured.",
+            "User storised are more anecdotal and personal."
+        ],
+        "answer": "User Stories are shorter and less detailed."
+    },
+    {
+        "question": "Which type of inheritance must be used so that the resultant is hybrid?",
+        "options": [
+            "multiple",
+            "any type of inheritance",
+            "multilevel",
+            "hierarchical"
+        ],
+        "answer": "multiple"
+    },
+    {
+        "question": "A language that does not support polymorphism but supports classes is considered what?",
+        "options": [
+            "an object-based language",
+            "a class-based language",
+            "a procedure-oriented language",
+            "if classes are supported, polymorphism will be supported"
+        ],
+        "answer": "an object-based language"
+    },
+    {
+        "question": "Two classes combine private data members and provide public member functions to access and manipulate those data members. Where is abstraction used?",
+        "options": [
+            "Abstraction is using a private access specifier for the data members.",
+            "Abstraction is using public member functions to access and manipulate the data members.",
+            "Abstraction is using the class concept with both data members and member functions.",
+            "There is insufficient information to decide where abstraction is being used."
+        ],
+        "answer": "Abstraction is using public member functions to access and manipulate the data members."
+    },
+    {
+        "question": "What are the five Creational Design patterns by the Gang of Four ?",
+        "options": [
+            "Observer, State, Strategy, Template Method, and Visitor.",
+            "Composite, Visitor, State, Prototype, and Singleton.",
+            "Composite, Builder, Factory Method, Prototype, and Singleton.",
+            "Abstract Factory, Builder, Factory Method, Prototype, and Singleton."
+        ],
+        "answer": "Abstract Factory, Builder, Factory Method, Prototype, and Singleton."
+    },
+    {
+        "question": "In multilevel inheritance, one class inherits how many classes?",
+        "options": [
+            "one class only",
+            "two classes",
+            "as many classes as required",
+            "at least two classes"
+        ],
+        "answer": "one class only"
+    },
+    {
+        "question": "if an object is passed by reference, the changes made in the function are reflected \\_.",
+        "options": [
+            "to the main object of the caller function, too",
+            "on the caller function object and also the called function object",
+            "on the copy of the object that is made during the pass",
+            "only in the local scope of the called function"
+        ],
+        "answer": "to the main object of the caller function, too"
+    },
+    {
+        "question": "What is a method?",
+        "options": [
+            "a set of instructions designed to perform a frequently used operation within a program and return no values",
+            "the exact same thing as a function and subroutine",
+            "a set of variables that can change over time",
+            "They are functions attached to specific classes (or instances) in object-oriented programming."
+        ],
+        "answer": "They are functions attached to specific classes (or instances) in object-oriented programming."
+    },
+    {
+        "question": "A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?",
+        "options": [
+            "camera",
+            "display",
+            "motherboard",
+            "mobile phone"
+        ],
+        "answer": "mobile phone"
+    },
+    {
+        "question": "Which class has the highest degree of abstraction in a multilevel inheritance relationship of five levels?",
+        "options": [
+            "the class at the third level",
+            "the class at the first level",
+            "All have the same degree of abstraction.",
+            "the class at the second level"
+        ],
+        "answer": "the class at the first level"
+    },
+    {
+        "question": "Which is NOT one of the basic types of inheritance?",
+        "options": [
+            "multilevel inheritance",
+            "double inheritance",
+            "single inheritance",
+            "hierarchical inheritance"
+        ],
+        "answer": "double inheritance"
+    },
+    {
+        "question": "Why is code duplication so insidious?",
+        "options": [
+            "The duplication uses unnecessary space.",
+            "One has to maintain all the duplicates.",
+            "Duplication can cause intellectual property concerns.",
+            "Duplication is easy to hide."
+        ],
+        "answer": "One has to maintain all the duplicates."
+    },
+    {
+        "question": "When and how often is a static constructor called?",
+        "options": [
+            "It is called initially when an object is created and called with every new object instance.",
+            "It is called when an object is destroyed and only one time.",
+            "It is called initially when an object is created and only one time.",
+            "It is created at time when the object is discarded."
+        ],
+        "answer": "It is called initially when an object is created and only one time."
+    },
+    {
+        "question": "What does the code shown below demonstrate, and why?",
+        "options": [
+            "polymorphism, because each method can perform different task",
+            "method overriding, because it display the same method name, different or same parameters, and same return type",
+            "method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter",
+            "method overriding, because it display the same method name, different parameters, and same return type"
+        ],
+        "answer": "method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter"
+    },
+    {
+        "question": "What is the usage of static constructor?",
+        "options": [
+            "to initialize all the members with static value",
+            "to delete the static members when not required",
+            "to initialize the static members of class",
+            "to clear all the static members' initialized values"
+        ],
+        "answer": "to initialize the static members of class"
+    },
+    {
+        "question": "What are CRC Cards?",
+        "options": [
+            "Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software",
+            "Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software",
+            "Code Responsibility Correction cards are tools used for debugging",
+            "Code Responsibility Correction cards are tools for modeling"
+        ],
+        "answer": "Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software"
+    },
+    {
+        "question": "1 How are contents of a composition different from those of aggregation?",
+        "options": [
+            "if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection",
+            "if a composition dies, the contents die",
+            "the contents of a composition are all siblings",
+            "an aggregation contains only abstract classes"
+        ],
+        "answer": "if a composition dies, the contents die"
+    },
+    {
+        "question": "2 Which statement about compositions and aggregations is true?",
+        "options": [
+            "if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection",
+            "if a composition dies, the contents die",
+            "the contents of a composition are all siblings",
+            "an aggregation contains only abstract classes"
+        ],
+        "answer": "if a composition dies, the contents die"
+    },
+    {
+        "question": "What is the result of using more abstraction?",
+        "options": [
+            "it can increase code vulnerability",
+            "it can make code unsafe",
+            "it can limit code readability",
+            "it can be safer for coding"
+        ],
+        "answer": "it can limit code readability"
+    },
+    {
+        "question": "Which is false for a member function of a class?",
+        "options": [
+            "Member functions can be defined only inside or outside the class body.",
+            "Member functions can be made to be friends of another class.",
+            "Member functions do not need to be declared inside the class definition.",
+            "All member functions need to be defined."
+        ],
+        "answer": "Member functions do not need to be declared inside the class definition."
+    },
+    {
+        "question": "Why is inheritance used when creating a new class?",
+        "options": [
+            "to protect attributes from unwanted changes",
+            "to delegate coding responsibility more efficiently",
+            "to conserve memory",
+            "to separate class behavior from the more general to more specific"
+        ],
+        "answer": "to separate class behavior from the more general to more specific"
+    },
+    {
+        "question": "In addition to attributes and behaviours, what quality must a class possess?",
+        "options": [
+            "a name",
+            "a state",
+            "a color",
+            "an object"
+        ],
+        "answer": "a name"
+    },
+    {
+        "question": "Which type of function among the following shows polymorphism?",
+        "options": [
+            "inline function",
+            "undefined function",
+            "virtual function",
+            "class member function"
+        ],
+        "answer": "virtual function"
+    },
+    {
+        "question": "Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?",
+        "options": [
+            "leaf and tree",
+            "clean, enrage, and collapse",
+            "clean, active, and lively",
+            "leaf, tree, and trumpet"
+        ],
+        "answer": "leaf, tree, and trumpet"
+    },
+    {
+        "question": "What best describes what object-oriented programming does?",
+        "options": [
+            "It focuses on objects that interact cleanly with one another.",
+            "It programs exclusively to interfaces.",
+            "It programs exclusively to classes.",
+            "It creates one class for all business logic."
+        ],
+        "answer": "It focuses on objects that interact cleanly with one another."
+    },
+    {
+        "question": "Can abstract classes be used in multilevel inheritance?",
+        "options": [
+            "No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.",
+            "yes, always",
+            "yes, but with only one abstract class",
+            "No, abstract classes do not have constructors."
+        ],
+        "answer": "yes, always"
+    },
+    {
+        "question": "What type of inheritance may lead to the diamond problem?",
+        "options": [
+            "single level",
+            "multilevel",
+            "hierarchical",
+            "multiple"
+        ],
+        "answer": "multiple"
+    },
+    {
+        "question": "What is the relationship between abstraction and encapsulation?",
+        "options": [
+            "Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.",
+            "Abstraction and encapsulation are essentially the same.",
+            "Abstraction and encapsulation are unrelated.",
+            "Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation."
+        ],
+        "answer": "Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction."
+    },
+    {
+        "question": "Which of these keywords are access specifiers?",
+        "options": [
+            "abstract and public",
+            "public and private",
+            "this and final",
+            "final and abstract"
+        ],
+        "answer": "public and private"
+    },
+    {
+        "question": "What is a reference to an object?",
+        "options": [
+            "It is the address of variable only -- not the method of an object.",
+            "It is a shallow pointer that contains address of an object.",
+            "It is the physical address of an object.",
+            "It is the address where the variables and methods of an object are stored."
+        ],
+        "answer": "It is the address where the variables and methods of an object are stored."
+    },
+    {
+        "question": "Why is unit testing harder in OOP than functional programming?",
+        "options": [
+            "Objects may maintain internal state, which is not easily accessible by the tests.",
+            "The quality of unit testing frameworks for functional languages is better.",
+            "OOP promotes code reuse, which means that your tests have to consider more use cases.",
+            "Object-oriented languages tend to rely on frameworks such as Spring or Hibernate, which make them difficult to test."
+        ],
+        "answer": "Objects may maintain internal state, which is not easily accessible by the tests."
+    },
+    {
+        "question": "What is the function of a user diagram?",
+        "options": [
+            "It connects actors to use cases.",
+            "It links actors to roles played in all use cases.",
+            "It lists all actors for each use case.",
+            "It minimizes the number of actors required."
+        ],
+        "answer": "It connects actors to use cases."
+    },
+    {
+        "question": "How do object behaviors and attributes differ?",
+        "options": [
+            "Behavior describe dynamic properties; attributes are static.",
+            "Attributes describe a state; behaviors describe a change.",
+            "Attributes apply only to a specified object; behavior apply to other linked objects.",
+            "Behaviors are vector quantities; attributes are scalars."
+        ],
+        "answer": "Attributes describe a state; behaviors describe a change."
+    },
+    {
+        "question": "The open/closed principle states that classes should be open for \\_ but closed for \\_.",
+        "options": [
+            "refactoring; duplication",
+            "modification; duplication",
+            "extension; modification",
+            "reuse; encapsulation"
+        ],
+        "answer": "extension; modification"
+    },
+    {
+        "question": "Why would you override a method of a base class?",
+        "options": [
+            "to define a method that must be implemented in a derived class",
+            "to define a custom implementation of an inherited member",
+            "to define a method that must be implemented in a superclass only",
+            "to define a class that can be inherited from"
+        ],
+        "answer": "to define a custom implementation of an inherited member"
+    },
+    {
+        "question": "What is a copy constructor?",
+        "options": [
+            "It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.",
+            "It is a constructor that duplicates itself when requested on demand.",
+            "It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.",
+            "It is a constructor that duplicates itself on its own, based on memory available."
+        ],
+        "answer": "It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system."
+    },
+    {
+        "question": "What defines the catch block most accurately?",
+        "options": [
+            "The catch block that will be executed is the one that best matches the type of exception thrown.",
+            "Multiple catch blocks can never be associated with a single try block.",
+            "Multiple catch blocks are mandatory for each try block.",
+            "Multiple catch blocks will all be executed in the case of an exception."
+        ],
+        "answer": "The catch block that will be executed is the one that best matches the type of exception thrown."
+    },
+    {
+        "question": "There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "C and B"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is used to describe this problem, and what is a potential solution?",
+        "options": [
+            "Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.",
+            "Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.",
+            "Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.",
+            "Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own."
+        ],
+        "answer": "Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection."
+    },
+    {
+        "question": "**\\_** describes an aggregation",
+        "options": [
+            "A class of resources",
+            "A group of methods",
+            "A collection of objects",
+            "A list of children"
+        ],
+        "answer": "A collection of objects"
+    },
+    {
+        "question": "Which type of function can be used for polymorphism?",
+        "options": [
+            "virtual function",
+            "inline function",
+            "undefined function",
+            "private function"
+        ],
+        "answer": "virtual function"
+    },
+    {
+        "question": "Which choice is a benefit of using dependency injection?",
+        "options": [
+            "loose coupling",
+            "code reusability",
+            "lazy initialization",
+            "data abstraction"
+        ],
+        "answer": "loose coupling"
+    },
+    {
+        "question": "Are you required to return an object if it was passed by reference to a function, and why or why not?",
+        "options": [
+            "Yes, the caller function needs to reflect the changes.",
+            "No, you should use a global variable instead.",
+            "No, changes will be automatically reflected in the calling function.",
+            "Yes, the object must be the same in the caller function."
+        ],
+        "answer": "No, changes will be automatically reflected in the calling function."
+    },
+    {
+        "question": "Why is inheritance?",
+        "options": [
+            "..."
+        ],
+        "answer": "..."
+    },
+    {
+        "question": "What is the best example of a superclass and subclass relationship?",
+        "options": [
+            "car:toyota",
+            "ducks:pond",
+            "toes:feet",
+            "rock:stone"
+        ],
+        "answer": "car:toyota"
+    },
+    {
+        "question": "Which statements best describe the Gang of Four design patterns called Memento and Observer?",
+        "options": [
+            "Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.",
+            "Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.",
+            "Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.",
+            "Memento captures and restores an object's internal state. Observer notifies multiple classes of changes."
+        ],
+        "answer": "Memento captures and restores an object's internal state. Observer notifies multiple classes of changes."
+    },
+    {
+        "question": "What does the value (0.5,0.5,0.5) indicate in the class diagram specification position: Coordinate = (0.5,0.5,0.5)?",
+        "options": [
+            "a default value of the Coordinate attribute",
+            "the size of the position array",
+            "an increment of the position attribute value",
+            "a default value of the position attribute"
+        ],
+        "answer": "a default value of the position attribute"
+    },
+    {
+        "question": "What is the most accurate example of the Liskov substitution principle?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is the difference between a parameter and an argument?",
+        "options": [
+            "An argument can have many values while a parameter can have only one value.",
+            "An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.",
+            "A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.",
+            "Parameters and arguments are the same"
+        ],
+        "answer": "A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function."
+    },
+    {
+        "question": "What is the scope of a class nested inside another class?",
+        "options": [
+            "Protected scope",
+            "Private scope",
+            "Global scope",
+            "Depends on access specifier and inheritance used"
+        ],
+        "answer": "Depends on access specifier and inheritance used"
+    },
+    {
+        "question": "Methods and attributes that define an object are a kind of blueprint called what?",
+        "options": [
+            "a collection",
+            "a variable",
+            "a class",
+            "a procedure"
+        ],
+        "answer": "a class"
+    },
+    {
+        "question": "Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected?",
+        "options": [
+            "Multilevel",
+            "Hybrid",
+            "Single level",
+            "Multiple"
+        ],
+        "answer": "Multilevel"
+    },
+    {
+        "question": "What is the main idea behind separation of concerns?",
+        "options": [
+            "All of these answers",
+            "Applications are decomposed into parts",
+            "Parts are defined with minimal overlap",
+            "Each part is responsible for a separate concern"
+        ],
+        "answer": "All of these answers"
+    },
+    {
+        "question": "What is the purpose of the finally block?",
+        "options": [
+            "To always run the finally block of code when the try block exits",
+            "To run code when an exception has not occurred",
+            "To run the block if an exception occurred",
+            "To run code whenever garbage collection requires it"
+        ],
+        "answer": "To always run the finally block of code when the try block exits"
+    },
+    {
+        "question": "Which choice is not an OOP language?",
+        "options": [
+            "C#",
+            "Java",
+            "C",
+            "Python"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the function of a finalizer or destructor?",
+        "options": [
+            "To relinquish resources that are no longer needed",
+            "To delete a variable name",
+            "To reset an attribute value",
+            "To hold space, even after an object is no longer being used"
+        ],
+        "answer": "To relinquish resources that are no longer needed"
+    },
+    {
+        "question": "An instance of which type of class cannot be created?",
+        "options": [
+            "Protected class",
+            "Base class",
+            "Anonymous class",
+            "Abstract class"
+        ],
+        "answer": "Abstract class"
+    },
+    {
+        "question": "In the context of OOP, what is composition?",
+        "options": [
+            "Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.",
+            "Composition is a part/whole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.",
+            "Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time",
+            "Composition is a process of collecting classes that provide a set of services for a particular domain"
+        ],
+        "answer": "Composition is a part/whole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole."
+    },
+    {
+        "question": "Static polymorphism uses method \\_ ?",
+        "options": [
+            "overloading",
+            "inheritance",
+            "abstraction",
+            "overriding"
+        ],
+        "answer": "overloading"
+    },
+    {
+        "question": "What does a concrete class not have?",
+        "options": [
+            "parents",
+            "pure virtual functions",
+            "attributes",
+            "purposes"
+        ],
+        "answer": "pure virtual functions"
+    },
+    {
+        "question": "How does dynamic typing complicate troubleshooting?",
+        "options": [
+            "It can be difficult to identify variables that are incorrectly typed",
+            "The dynamic variables can assume only limited values",
+            "Storage is fixed for dynamic variables",
+            "Static variables are more flexible than dynamic variables"
+        ],
+        "answer": "It can be difficult to identify variables that are incorrectly typed"
+    },
+    {
+        "question": "What is the difference between early binding and late binding?",
+        "options": [
+            "Early binding is when a variable is assigned a value when a scope is created. Late binding is when a variable is assigned a value after a scope is exited",
+            "Early binding is when a variable is assigned a value when the program starts. Late binding is when a variable is assigned after the program is running",
+            "There is no difference. In both cases, variables are assigned values when a program has completed startup and is running",
+            "Early binding is when a variable is assigned its value at compile time. Late binding is when a variable is assigned a value at run time"
+        ],
+        "answer": "Early binding is when a variable is assigned its value at compile time. Late binding is when a variable is assigned a value at run time"
+    },
+    {
+        "question": "What is the difference between an interface and an abstract class?",
+        "options": [
+            "Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.",
+            "Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.",
+            "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.",
+            "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface."
+        ],
+        "answer": "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces."
+    },
+    {
+        "question": "What parameters are required to be passed to a class constructor?",
+        "options": [
+            "reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.",
+            "reference to base class // References to the base class are not required in Java, Javascript & Python",
+            "reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.",
+            "none // Above 3 are incorrect so \"none\" is the answer"
+        ],
+        "answer": "none // Above 3 are incorrect so \"none\" is the answer"
+    },
+    {
+        "question": "What are the four principles of object-oriented programming?",
+        "options": [
+            "manipulation, encapsulation, inheritance, and dependency inversion",
+            "dependency inversion, open/closed principle, encapsulation, and inheritance",
+            "interface segregation, abstraction, dependency inversion, and inheritance",
+            "abstraction, encapsulation, inheritance, and polymorphism"
+        ],
+        "answer": "abstraction, encapsulation, inheritance, and polymorphism"
+    },
+    {
+        "question": "From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?",
+        "options": [
+            "A class should have only a single responsibility\u2014that is, only changes to one part of the software's specification should be able to affect the specification of the class.",
+            "Software entities should be open for extension, but closed for modification.",
+            "Many client-specific interfaces are better than one general-purpose interface.",
+            "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+        ],
+        "answer": "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+    },
+    {
+        "question": "In addition to responsibilities, what should be listed on Class-responsability-collaboration (CRC) cards?",
+        "options": [
+            "which programming language will be used.",
+            "the programmer responsible for implementation.",
+            "interacting classes.",
+            "attributes."
+        ],
+        "answer": "interacting classes."
+    },
+    {
+        "question": "What is the best name for the function that corrects this assessment?",
+        "options": [
+            "makeResult()",
+            "questionScore()",
+            "calculateScore()",
+            "getAnswers()"
+        ],
+        "answer": "calculateScore()"
+    },
+    {
+        "question": "Which relationship best illustrates an abstract-concrete class relationship?",
+        "options": [
+            "cat : kitten",
+            "color : red",
+            "planet : moon",
+            "truck : window"
+        ],
+        "answer": "planet : moon"
+    },
+    {
+        "question": "What cannot be used for polymorphism?",
+        "options": [
+            "overloading constructors",
+            "overloading member functions",
+            "static member functions",
+            "overloading predefined operator"
+        ],
+        "answer": "static member functions"
+    },
+    {
+        "question": "How many levels does multilevel inheritance allow in a program?",
+        "options": [
+            "only 10 levels of inheritance",
+            "as many levels of inheritance as required within 10 minutes",
+            "as many levels of inheritance as required",
+            "only the amount of levels memory permits, divided by processor speed"
+        ],
+        "answer": "as many levels of inheritance as required"
+    },
+    {
+        "question": "What is a virtual Method?",
+        "options": [
+            "a method that you expect may be redefined in derived classes",
+            "a method that you do not expect to be redefined in derived classes",
+            "a private method that you do not expect to be redefined in derived public classes",
+            "a method that exists temporarily - once used, it ceases to be used by any caller"
+        ],
+        "answer": "a method that you expect may be redefined in derived classes"
+    },
+    {
+        "question": "Which of these is not a basic principle of Object Oriented Programming?",
+        "options": [
+            "Encapsulation",
+            "Compilation",
+            "Inheritance",
+            "Polymorphism"
+        ],
+        "answer": "Compilation"
+    },
+    {
+        "question": "How do object behaviours and attributes differ?",
+        "options": [
+            "Behaviour describe dynamic properties; attributes are static.",
+            "Attributes describe a state; behaviours describe a change.",
+            "Attributes apply only to a specified object; behaviour apply to other linked objects.",
+            "Behaviours are vector quantities; attributes are scalars."
+        ],
+        "answer": "Attributes describe a state; behaviours describe a change."
+    },
+    {
+        "question": "How coupled should your classes be and why?",
+        "options": [
+            "You should increase coupling to improve dependencies between classes.",
+            "You should limit coupling to reduce dependencies between classes.",
+            "You should increase coupling so that class members relate to the class purpose.",
+            "You should limit coupling so that class members relate to the class objective."
+        ],
+        "answer": "You should limit coupling to reduce dependencies between classes."
+    },
+    {
+        "question": "Which statement best describes a friend class?",
+        "options": [
+            "Friend classes support base class when necessary.",
+            "A friend class can access the private and protected members of the class in which it is declared as a friend.",
+            "Friend classes do not have any implementation.",
+            "A friend class can access only protected members of the class of which it is a friend."
+        ],
+        "answer": "A friend class can access the private and protected members of the class in which it is declared as a friend."
+    },
+    {
+        "question": "Which code sample demonstrates multiple inheritance?",
+        "options": [
+            "`class employee{ }; class stream{ }; class topper{ };`",
+            "`class employee{int rating;}; class stream:public employee{ };`",
+            "`class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`",
+            "`class employeef{int rating};}: class stream{ }: class topper: public employee{ }:`"
+        ],
+        "answer": "`class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`"
+    },
+    {
+        "question": "What is multilevel inheritance?",
+        "options": [
+            "a class that does not have more than one parent.",
+            "a class not derived from another derived obiect.",
+            "not doubling single-level inheritance.",
+            "classes derived from other derived classes."
+        ],
+        "answer": "classes derived from other derived classes."
+    },
+    {
+        "question": "Can you have two classes with the same name in the same project?",
+        "options": [
+            "No, you cannot.",
+            "Yes, as long as their constructors are different.",
+            "Yes, as long as their methods are different.",
+            "Yes, as long as they are in different namespaces."
+        ],
+        "answer": "Yes, as long as they are in different namespaces."
+    },
+    {
+        "question": "Objects are passed by **\\_**",
+        "options": [
+            "value or reference, depending on the programming language used",
+            "value",
+            "value or reference, depending on program",
+            "reference"
+        ],
+        "answer": "reference"
+    },
+    {
+        "question": "If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?",
+        "options": [
+            "Yes, but only if it is a reference and not a primitive class.",
+            "Yes, since the value is a reference even though it is passed by value, it can be done.",
+            "No, you will get a compilation error.",
+            "No, a local copy will be initialized and will be lost as soon as it is out of scope."
+        ],
+        "answer": "No, a local copy will be initialized and will be lost as soon as it is out of scope."
+    },
+    {
+        "question": "What is encapsulation?",
+        "options": [
+            "defining classes by focusing on what is important for a purpose",
+            "defining data and relevant methods together in the same class",
+            "making all methods private",
+            "using words to define classes"
+        ],
+        "answer": "defining data and relevant methods together in the same class"
+    },
+    {
+        "question": "What is a method?",
+        "options": [
+            "a function associated with data and behavior",
+            "the exact same thing as a function and subroutine",
+            "a set of variables that can change over time",
+            "a set of instructions designed to perform a frequently used operation within a program and return no values"
+        ],
+        "answer": "a function associated with data and behavior"
+    },
+    {
+        "question": "#### Q105.What is the most accurate example of the Liskov substitution principle?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "#### Q106 what describes an agrregation",
+        "options": [
+            "A class of resources",
+            "A group of methods",
+            "A collection of objects",
+            "A list of children"
+        ],
+        "answer": "A collection of objects"
+    },
+    {
+        "question": "#### 107. Which choice is a benefit of using dependency injection?",
+        "options": [
+            "loose coupling",
+            "code reusability",
+            "lazy initialization",
+            "data abstraction"
+        ],
+        "answer": "loose coupling"
+    },
+    {
+        "question": "What cannot be used for polymorphism?",
+        "options": [
+            "overloading constructors",
+            "overloading member functions",
+            "static member functions",
+            "overloading predefined operator"
+        ],
+        "answer": "static member functions"
+    },
+    {
+        "question": "An instance of which type of class cannot be created?",
+        "options": [
+            "Protected class",
+            "Base class",
+            "Anonymous class",
+            "Abstract class"
+        ],
+        "answer": "Abstract class"
+    },
+    {
+        "question": "From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?",
+        "options": [
+            "A class should have only a single responsibility\u2014that is, only changes to one part of the software's specification should be able to affect the specification of the class.",
+            "Software entities should be open for extension, but closed for modification.",
+            "Many client-specific interfaces are better than one general-purpose interface.",
+            "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+        ],
+        "answer": "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+    },
+    {
+        "question": "What are the five Creational Design patterns by the Gang of Four ?",
+        "options": [
+            "Observer, State, Strategy, Template Method, and Visitor.",
+            "Composite, Visitor, State, Prototype, and Singleton.",
+            "Composite, Builder, Factory Method, Prototype, and Singleton.",
+            "Abstract Factory, Builder, Factory Method, Prototype, and Singleton."
+        ],
+        "answer": "Abstract Factory, Builder, Factory Method, Prototype, and Singleton."
+    },
+    {
+        "question": "What is the difference between an interface and an abstract class?",
+        "options": [
+            "Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.",
+            "Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.",
+            "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.",
+            "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface."
+        ],
+        "answer": "Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces."
+    },
+    {
+        "question": "Which relationship best illustrates an abstract-concrete class relationship?",
+        "options": [
+            "cat : kitten",
+            "color : red",
+            "planet : moon",
+            "truck : window"
+        ],
+        "answer": "planet : moon"
+    },
+    {
+        "question": "Which choice is a benefit of using dependency injection?",
+        "options": [
+            "loose coupling",
+            "code reusability",
+            "lazy initialization",
+            "data abstraction"
+        ],
+        "answer": "loose coupling"
+    },
+    {
+        "question": "**\\_** describes an aggregation",
+        "options": [
+            "A class of resources",
+            "A group of methods",
+            "A collection of objects",
+            "A list of children"
+        ],
+        "answer": "A collection of objects"
+    },
+    {
+        "question": "Which type of function can be used for polymorphism?",
+        "options": [
+            "virtual function",
+            "inline function",
+            "undefined function",
+            "private function"
+        ],
+        "answer": "virtual function"
+    },
+    {
+        "question": "Which choice is a benefit of using dependency injection?",
+        "options": [
+            "loose coupling",
+            "code reusability",
+            "lazy initialization",
+            "data abstraction"
+        ],
+        "answer": "loose coupling"
+    },
+    {
+        "question": "Are you required to return an object if it was passed by reference to a function, and why or why not?",
+        "options": [
+            "Yes, the caller function needs to reflect the changes.",
+            "No, you should use a global variable instead.",
+            "No, changes will be automatically reflected in the calling function.",
+            "Yes, the object must be the same in the caller function."
+        ],
+        "answer": "No, changes will be automatically reflected in the calling function."
+    },
+    {
+        "question": "From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?",
+        "options": [
+            "A class should have only a single responsibility\u2014that is, only changes to one part of the software's specification should be able to affect the specification of the class.",
+            "Software entities should be open for extension, but closed for modification.",
+            "Many client-specific interfaces are better than one general-purpose interface.",
+            "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+        ],
+        "answer": "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+    },
+    {
+        "question": "In addition to responsibilities, what should be listed on Class-responsability-collaboration (CRC) cards?",
+        "options": [
+            "which programming language will be used.",
+            "the programmer responsible for implementation.",
+            "interacting classes.",
+            "attributes."
+        ],
+        "answer": "interacting classes."
+    },
+    {
+        "question": "What is the best name for the function that corrects this assessment?",
+        "options": [
+            "makeResult()",
+            "questionScore()",
+            "calculateScore()",
+            "getAnswers()"
+        ],
+        "answer": "calculateScore()"
+    },
+    {
+        "question": "Who invented OOP?",
+        "options": [
+            "Andrea Ferro",
+            "Adele Goldberg",
+            "Alan Kay",
+            "Dennis Ritchie"
+        ],
+        "answer": "Alan Kay",
+        "explanation": null,
+        "codeblock": null
+    }
+]

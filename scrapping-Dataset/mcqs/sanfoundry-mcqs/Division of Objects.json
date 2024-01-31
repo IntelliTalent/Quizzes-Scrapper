@@ -1,0 +1,112 @@
+[
+    {
+        "question": "For a gaming competition, 8 girls are planning on splitting up into 3 (non-empty) groups. How many ways can they split up into these groups?",
+        "options": [
+            "a) 465",
+            "b) 1056",
+            "c) 966",
+            "d) 3215"
+        ],
+        "answer": "c",
+        "explanation": "Using the inclusion-exclusion principle, the total number of ways of splitting the girls into 3 groups is 3"
+    },
+    {
+        "question": "In a picnic with 20 persons where 6 chocolates will be given to the top 8 children(the chocolates are distinct: first, second). How many ways can this be done?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "b",
+        "explanation": "This is a permutation problem since the chocolates are distinct. The answer is P(20, 6) -> the number of ways to arrange 20 things taken 6 at a time -> which is \\(\\frac{20!}{(20-6)!}\\) = 20*19*18*17*16*15."
+    },
+    {
+        "question": "How many ways can one choose 20 cookies from 45 different types (assuming there are at least 20 of each type)?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "b",
+        "explanation": "Imagine the 20 cookies one is choosing are indistinguishable dots. The 45 different types of cookies are like 45 distinguishable boxes and so the answer is C(45 + 20-1, 20) ="
+    },
+    {
+        "question": "Assume that it is an afternoon. What is the time on the 24 hour clock after 146 hours?",
+        "options": [
+            "a) 12:10 pm",
+            "b) 8:30 am",
+            "c) 3 am",
+            "d) 2 pm"
+        ],
+        "answer": "d",
+        "explanation": " Divide 146 with 24. The remainder is the time on the 24 hour clock. So, 146 = 6*24 + 2 and the result is 2pm."
+    },
+    {
+        "question": "There are 28 identical oranges that are to be distributed among 8 distinct girls. How many ways are there to distribute the oranges?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "c",
+        "explanation": "By the definition of star and bar problem, there are"
+    },
+    {
+        "question": "There are 5 distinct fruits. How many ways can they be planted into identical fruit plants?",
+        "options": [
+            "a) 87",
+            "b) 52",
+            "c) 76",
+            "d) 128"
+        ],
+        "answer": "b",
+        "explanation": "These fruits can be placed into 1, 2, 3, 4 or 5 fruit plants. The number of distributions of fruits into fruit plants will thus be the sum of Stirling numbers of the second kind: S(5,1) + S(5,2) + S(5,3) + S(5,4) + S(5,5) = 1 + 15 + 25 + 10 + 1 =  52."
+    },
+    {
+        "question": "A woman has 14 identical pens to distribute among a group of 10 distinct students. How many ways are there to distribute the 14 pens such that each student gets at least one pencil?",
+        "options": [
+            "a)",
+            "b)",
+            "c)",
+            "d)"
+        ],
+        "answer": "d",
+        "explanation": "For this type of problem, n>=r must be true and so according to stars and bars model, the number of possible arrangements of stars and bars is n-1Cr-1 or equivalently, there are"
+    },
+    {
+        "question": "Suppose that M is the product of k distinct primes. Find the number of ways to write N as the product of positive integers(>1), where the order of terms does not matter.",
+        "options": [
+            "a)",
+            "b)",
+            "c) N * B",
+            "d) B"
+        ],
+        "answer": "d",
+        "explanation": "To solve the problem first find the prime factorization of each term of the product, and place the factors of each term into a box. Then, since N is the product of distinct prime factors, each prime factor appears in a unique box. Since the product of all of these terms is N, each prime factor must be in a box. Conversely, for any arrangement of these n distinct primes into r identical boxes, multiply the primes in a box to create a term and the product of these terms results in N. This establishes the bijection and the number of ways is B"
+    },
+    {
+        "question": "How many ways are there to place 7 differently colored toys into 5 identical urns if the urns can be empty? Note that all balls have to be used.",
+        "options": [
+            "a) 320",
+            "b) 438",
+            "c) 1287",
+            "d) 855"
+        ],
+        "answer": "d",
+        "explanation": "The problem can be described as distinct objects into any number of identical bins and this number can be found with B"
+    },
+    {
+        "question": "Suppose, there are 7 of your friends who want to eat pizza (8 distinct people in total). You order a 16-cut pizza (16 identical slices). How many distributions of pizza slices are there if each person gets at least one slice of pizza?",
+        "options": [
+            "a) 346",
+            "b) 6435",
+            "c) 3214",
+            "d) 765"
+        ],
+        "answer": "b",
+        "explanation": "This problem can be viewed as identical objects distributed into distinct non-empty bins. Using the formula for these kind of distributions"
+    }
+]

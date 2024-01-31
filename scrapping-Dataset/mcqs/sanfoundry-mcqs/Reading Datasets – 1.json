@@ -1,0 +1,84 @@
+[
+    {
+        "question": "The ________ function takes an arbitrary number of arguments and concatenates them one by one into character strings.",
+        "options": [
+            "a) copy()",
+            "b) paste()",
+            "c) bind()",
+            "d) del()"
+        ],
+        "answer": "a",
+        "explanation": "Any numbers given among the arguments are coerced into character strings in the evident way, that is, in the same way they would be if they were printed."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) Character strings are entered using either matching double (\u201c) or single (\u2018) quotes",
+            "b) Character vectors may be concatenated into a vector by the c() function",
+            "c) Subsets of the elements of a vector may be selected by appending to the name of the vector an index vector in square brackets",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Character quantities and character vectors are used frequently in R."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "rbind() function combines vector, matrix or data frame by rows."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Lists can be explicitly created using the list() function, which takes an arbitrary number of arguments."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) matrices or more generally arrays are multi-dimensional generalizations of vectors",
+            "b) factors provide compact ways to handle categorical data",
+            "c) vectors provide a convenient way to return the results of a statistical computation",
+            "d) lists can be explicitly created using the list() function"
+        ],
+        "answer": "c",
+        "explanation": "The dimension attribute is itself an integer vector of length 2 (number of rows, number of columns)."
+    },
+    {
+        "question": "Which of the following is valid assignment?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Factor objects can be created with the factor() function."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "We can also create an empty list of a pre-specified length with the vector() function."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The order of the levels of a factor can be set using the levels argument to factor()."
+    },
+    {
+        "question": "Which of the following code snippet will create a vector with NAs in it?",
+        "options": [
+            "a) x >- c(1, 2, NA, 10, 3)",
+            "b) x >- cNA(1, 2, NA, 10, 3)",
+            "c) x >- NA(1, 2, NA, 10, 3)",
+            "d) x >- NA(1, 5, NA, 10, 8)"
+        ],
+        "answer": "a",
+        "explanation": "This returns a logical vector indicating which elements are NA."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Missing values are denoted by NA or NaN for q undefined mathematical operations."
+    }
+]

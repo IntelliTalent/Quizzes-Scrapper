@@ -1,0 +1,113 @@
+[
+    {
+        "question": "To make use of jBPM from within a Spring application context.",
+        "options": [
+            "a) org.jbpm.pvm.internal.cfg.SpringConfiguration",
+            "b) org.jbpm.pvm.internal.cfg.Spring",
+            "c) org.jbpm.pvm.internal.cfg.*",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Earlier versions of Spring shipped with a custom bean for use with Spring (org.jbpm.pvm.internal.cfg.SpringConfiguration)."
+    },
+    {
+        "question": "To use jBPM as a stand-alone process server:-",
+        "options": [
+            "a) Javax",
+            "b) JBoss",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are many ways to use jBPM. One approach is to use it as a stand-alone process server, perhaps deployed using JBoss."
+    },
+    {
+        "question": "It\u2019s not too difficult to get jBPM working on JBoss EJB environment.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "As it\u2019s written using Hibernate, it\u2019s not too difficult to get it working on JBoss EJB environment."
+    },
+    {
+        "question": "JBoss itself supports deploying processes to a directory and loading those, with some configuration.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "So, you might use jBPM as a service."
+    },
+    {
+        "question": "jBPM is, fundamentally, a runtime that stores its state and jobs in a database. It uses:-",
+        "options": [
+            "a) Hibernate",
+            "b) Spring",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It uses Hibernate as its persistence mechanism (though it may eventually move to a strict JPA\u2013based model)."
+    },
+    {
+        "question": "To have an annotated class be registered as a Hibernate entity, it needs to be registered with the:-",
+        "options": [
+            "a) AnnotationSessionFactory",
+            "b) AnnotationSessionFactoryBean",
+            "c) AnnotationSession",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The annotatedClasses property expects a list of class names."
+    },
+    {
+        "question": "Because our jBPM configuration uses Hibernate, we have to configure the :-",
+        "options": [
+            "a) AnnotatedSessionFactory",
+            "b) AnnotatedSessionFactoryBean",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Because our jBPM configuration uses Hibernate, we have to configure the AnnotatedSessionFactoryBean on behalf of jBPM, which means that you can\u2019t create a separate one if you\u2019re using the jbpm4-context.xml and want only one Hibernate session in your application."
+    },
+    {
+        "question": "The next bean\u2014the dataSource\u2014is configured entirely at your discretion. The properties are set using properties in the properties file :-",
+        "options": [
+            "a) jbpm4.xml",
+            "b) jbpm.properties",
+            "c) jbpm4.properties",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The next bean\u2014the dataSource\u2014is configured entirely at your discretion. The properties are set using properties in the properties file jbpm4.properties."
+    },
+    {
+        "question": "When we\u2019re integrating with Spring, we modify the transaction-context element and the command-service element.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Because we\u2019re integrating with Spring, we modify the transaction-context element and the command-service element, as those are the touch points with Spring."
+    },
+    {
+        "question": "The hibernate-session element tells jBPM to reuse an existing Hibernate session:-",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The hibernate-session element tells jBPM to reuse an existing Hibernate session the one we created with our Hibernate session factory) instead of creating its own."
+    },
+    {
+        "question": "The spring-transaction-interceptor element is a special element to enable jBPM to defer to the TransactionManager defined in our application context.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Here again, jBPM integrates by delegating to the Spring services, making for a very eloquent solution."
+    }
+]

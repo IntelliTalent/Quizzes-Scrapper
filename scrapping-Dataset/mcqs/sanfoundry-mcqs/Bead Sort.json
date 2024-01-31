@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Bead sort is also known as _________",
+        "options": [
+            "a) gravity sort",
+            "b) strand sort",
+            "c) abacus sort",
+            "d) counting sort"
+        ],
+        "answer": "a",
+        "explanation": "Bead sort is also known as gravity sort. It is because this algorithm was designed by keeping the natural phenomenon of falling objects in mind."
+    },
+    {
+        "question": "Which of the following sorting algorithm was inspired by the natural phenomenon of falling objects?",
+        "options": [
+            "a) bogo sort",
+            "b) heap sort",
+            "c) bead sort",
+            "d) strand sort"
+        ],
+        "answer": "c",
+        "explanation": "The algorithm of bead sort was inspired by the natural phenomenon of falling objects. Thus, it is also known by the name of gravity sort."
+    },
+    {
+        "question": "Which of the following sorting algorithm is only applicable to positive integers?",
+        "options": [
+            "a) quick sort",
+            "b) heap sort",
+            "c) bead sort",
+            "d) strand sort"
+        ],
+        "answer": "c",
+        "explanation": "Bead sort algorithm is only applicable to positive integers. This is because it works by placing number of beads equal to key value, in each row."
+    },
+    {
+        "question": "What is the auxiliary space complexity of bead sort?",
+        "options": [
+            "a) O(n)",
+            "b) O(1)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "The auxiliary space complexity of bead sort is O(n"
+    },
+    {
+        "question": "Which of the following sorting algorithm is not in place?",
+        "options": [
+            "a) quick sort",
+            "b) bead sort",
+            "c) cycle sort",
+            "d) heap sort"
+        ],
+        "answer": "b",
+        "explanation": "Bead sort has an auxiliary space complexity of O(n2). So it is not an in place sorting algorithm."
+    },
+    {
+        "question": "Bead sort is a comparison based sorting algorithm.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Bead sort is an example of non comparison based sorting algorithm. This is because it does not compare the value of elements present in a list in order to sort them."
+    },
+    {
+        "question": "How many comparisons will be required to sort the array arr={5, 4, 7, 1, 9} using bead sort?",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 6",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "Bead sort is an example of a non-comparison based sorting algorithm. So no comparison is required to be performed in order to sort the array."
+    },
+    {
+        "question": "What is the average time complexity of bead sort (S = sum of input elements)?",
+        "options": [
+            "a) O(n)",
+            "b) O(S)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Average case time complexity of bead sort is O(S). It is because we drop each bead as a separate operation."
+    },
+    {
+        "question": "What is the best case time complexity of bead sort (S = sum of input elements)?",
+        "options": [
+            "a) O(n)",
+            "b) O(S)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "a",
+        "explanation": "Best case time complexity of bead sort is O(n). It is when a row of beads is dropped as a distinct operation and since the number of rows is equal to n."
+    },
+    {
+        "question": "What is the worst case time complexity of bead sort (S= sum of input elements)?",
+        "options": [
+            "a) O(n)",
+            "b) O(S)",
+            "c) O(n",
+            "d) O(n log n)"
+        ],
+        "answer": "b",
+        "explanation": "Worst case time complexity of bead sort is O(S). It is because we drop each bead as a separate operation."
+    },
+    {
+        "question": "Which of the following code fragment puts sorted values in an array using beads correctly?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "After sorting the elements in the bead array we finally need to shift them to the original array. So we need to apply the condition j < max && beads[i * max + j] in order to achieve this."
+    },
+    {
+        "question": "Bead sort is only applicable to positive integers.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "Bead sort algorithm is only applicable to positive integers. This is because it works by placing the number of beads equal to key value, in each row."
+    }
+]

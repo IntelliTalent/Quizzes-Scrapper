@@ -1,0 +1,111 @@
+[
+    {
+        "question": "Recursion is a method in which the solution of a problem depends on ____________",
+        "options": [
+            "a) Larger instances of different problems",
+            "b) Larger instances of the same problem",
+            "c) Smaller instances of the same problem",
+            "d) Smaller instances of different problems"
+        ],
+        "answer": "c",
+        "explanation": "In recursion, the solution of a problem depends on the solution of smaller instances of the same problem."
+    },
+    {
+        "question": "Which of the following problems can\u2019t be solved using recursion?",
+        "options": [
+            "a) Factorial of a number",
+            "b) Nth fibonacci number",
+            "c) Length of a string",
+            "d) Problems without base case"
+        ],
+        "answer": "d",
+        "explanation": "Problems without base case leads to infinite recursion call. In general, we will assume a base case to avoid infinite recursion call. Problems like finding Factorial of a number, Nth Fibonacci number and Length of a string can be solved using recursion."
+    },
+    {
+        "question": "Recursion is similar to which of the following?",
+        "options": [
+            "a) Switch Case",
+            "b) Loop",
+            "c) If-else",
+            "d) if elif else"
+        ],
+        "answer": "b",
+        "explanation": "Recursion is similar to a loop."
+    },
+    {
+        "question": "In recursion, the condition for which the function will stop calling itself is ____________",
+        "options": [
+            "a) Best case",
+            "b) Worst case",
+            "c) Base case",
+            "d) There is no such condition"
+        ],
+        "answer": "c",
+        "explanation": "For recursion to end at some point, there always has to be a condition for which the function will not call itself. This condition is known as base case."
+    },
+    {
+        "question": "What will happen when the below code snippet is executed?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Every function call is stored in the stack memory. In this case, there is no terminating condition(base case). So, my_recursive_function() will be called continuously till the stack overflows and there is no more space to store the function calls. At this point of time, the program will stop abruptly."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the numbers from 10 to 1."
+    },
+    {
+        "question": "What is the  base case for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "For the base case, the recursive function is not called. So, \u201cif(n == 0)\u201d is the base case."
+    },
+    {
+        "question": "How many times is the recursive function called, when the following code is executed?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The recursive function is called 11 times."
+    },
+    {
+        "question": "What does the following recursive code do?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The above code prints the numbers from 1 to 10."
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "a) Recursion is always better than iteration",
+            "b) Recursion uses more memory compared to iteration",
+            "c) Recursion uses less memory compared to iteration",
+            "d) Iteration is always better and simpler than recursion"
+        ],
+        "answer": "b",
+        "explanation": "Recursion uses more memory compared to iteration because every time the recursive function is called, the function call is stored in stack."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The program prints the number of digits in the number 123456789, which is 9."
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function checks if a number is a power of 2. Since 100 is not a power of 2, it prints false."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The function counts the number of vowels in a string. In this case the number is vowels is 6."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program searches for a value in the given array and prints the index at which the value is found. In this case, the program searches for value = 2. Since, the index of 2 is 4(0 based indexing), the program prints 4."
+    }
+]

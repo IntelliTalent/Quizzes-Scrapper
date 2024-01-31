@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In a 7-node directed cyclic graph, the number of Hamiltonian cycle is to be ______",
+        "options": [
+            "a) 728",
+            "b) 450",
+            "c) 360",
+            "d) 260"
+        ],
+        "answer": "c",
+        "explanation": "A Hamiltonian cycle in a connected graph G is defined as a closed path that traverses every vertex of G exactly once except the starting vertex, at which the path also terminates. In an n-complete graph, there are (n-1)!/2 hamiltonian cycles and so the answer is 360."
+    },
+    {
+        "question": "If each and every vertex in G has degree at most 23 then G can have a vertex colouring of __________",
+        "options": [
+            "a) 24",
+            "b) 23",
+            "c) 176",
+            "d) 54"
+        ],
+        "answer": "a",
+        "explanation": "A vertex colouring of a graph G = (V\u2019,E\u2019) with m colours is a mapping f:V\u2019 -> {1,\u2026,m}  such that f(u)!=f(v) for every (u,v) belongs to E\u2019. Since in worst case the graph can be complete, d+1 colours are necessary for graph containing vertices with degree at most \u2018d\u2019. So, the required answer is 24."
+    },
+    {
+        "question": "Triangle free graphs have the property of clique number is __________",
+        "options": [
+            "a) less than 2",
+            "b) equal to 2",
+            "c) greater than 3",
+            "d) more than 10"
+        ],
+        "answer": "d",
+        "explanation": "In an undirected triangle-free graph no three vertices can form a triangle of edges. It can be described as graphs with clique number less than 2 and the graphs with girth greater than 4."
+    },
+    {
+        "question": "Berge graph is similar to ______ due to strong perfect graph theorem.",
+        "options": [
+            "a) line graph",
+            "b) perfect graph",
+            "c) bar graph",
+            "d) triangle free graph"
+        ],
+        "answer": "b",
+        "explanation": "In a perfect graph, the chromatic number of each and every induced subgraph is equal to the size of the largest clique of that subgraph. These perfect graphs are same as Berge graphs due to strong perfect graph theorem."
+    },
+    {
+        "question": "Let D be a simple graph on 10 vertices such that there is a vertex of degree 1, a vertex of degree 2, a vertex of degree 3, a vertex of degree 4, a vertex of degree 5, a vertex of degree 6, a vertex of degree 7, a vertex of degree 8 and a vertex of degree 9. What can be the degree of the last vertex?",
+        "options": [
+            "a) 4",
+            "b) 0",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "c",
+        "explanation": "We know that sum of degrees of all vertices = 2X no of edges. Say number of edges is E. Degree of last vertex is x, 1+2+3+4+5+6+7++8+9+x = 2XE"
+    },
+    {
+        "question": "A ______ is a graph which has the same number of edges as its complement must have number of vertices congruent to 4m or 4m  modulo 4(for integral values of number of edges).",
+        "options": [
+            "a) Subgraph",
+            "b) Hamiltonian graph",
+            "c) Euler graph",
+            "d) Self complementary graph"
+        ],
+        "answer": "d",
+        "explanation": "It is the definition of self complementary graph. It is a graph that is isomorphic to its complement."
+    },
+    {
+        "question": "In a ______ the vertex set and the edge set are finite sets.",
+        "options": [
+            "a) finite graph",
+            "b) bipartite graph",
+            "c) infinite graph",
+            "d) connected graph"
+        ],
+        "answer": "b",
+        "explanation": "In graph theory, most common graphs are considered to be finite otherwise it is an infinite graph. Now, a finite graph is a graph in which the vertex set and the edge set are described as the finite sets."
+    },
+    {
+        "question": "If G is the forest with 54 vertices and 17 connected components, G has _______ total number of edges.",
+        "options": [
+            "a) 38",
+            "b) 37",
+            "c) 17/54",
+            "d) 17/53"
+        ],
+        "answer": "b",
+        "explanation": "Here we are given a forest with 54 vertices and 17 components. A  component is itself a tree and since there are 17 components means that every component has a root, therefore we have 17 roots. Each new vertex of the forest contributes to a single edge to a forest. So for remaining 54-17 = 37 vertices we can have m-n=37 edges. Hence, answer is 37."
+    },
+    {
+        "question": "The number of edges in a regular graph of degree 46 and 8 vertices is ____________",
+        "options": [
+            "a) 347",
+            "b) 230",
+            "c) 184",
+            "d) 186"
+        ],
+        "answer": "c",
+        "explanation": "In a complete graph which is (n-1) regular (where n is the number of vertices) has edges n*(n-1)/2. In the graph n vertices are adjacent to n-1 vertices and an edge contributes two degree so dividing by 2. Hence, in a d regular graph number of edges will be n*d/2 = 46*8/2 = 184."
+    },
+    {
+        "question": "An undirected graph G has bit strings of length 100 in its vertices and there is an edge between vertex u and vertex v if and only if u and v differ in exactly one bit position. Determine the ratio of the chromatic number of G to the diameter of G?",
+        "options": [
+            "a) 1/2",
+            "b) 1/50",
+            "c) 1/100",
+            "d) 1/20"
+        ],
+        "answer": "b",
+        "explanation": "For the given condition we can simply design a K-Map and mark an edge between every two adjacent cells in K-map. Hence, that will give us a Bipartite graph and chromatic number for this = 2. Hence the ratio is 2/n=2/100=1/50 and the given graph is actually a hypercube graph."
+    }
+]

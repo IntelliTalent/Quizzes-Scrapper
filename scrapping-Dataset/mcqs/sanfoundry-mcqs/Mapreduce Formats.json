@@ -1,0 +1,145 @@
+[
+    {
+        "question": "___________ takes node and rack locality into account when deciding which blocks to place in the same split.",
+        "options": [
+            "a) CombineFileOutputFormat",
+            "b) CombineFileInputFormat",
+            "c) TextFileInputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CombineFileInputFormat does not compromise the speed at which it can process the input in a typical MapReduce job."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) With TextInputFormat and KeyValueTextInputFormat, each mapper receives a variable number of lines of input",
+            "b) StreamXmlRecordReader, the page elements can be interpreted as records for processing by a mapper",
+            "c) The number depends on the size of the split and the length of the lines.",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Large XML documents that are composed of a series of \u201crecords\u201d can be broken into these records using simple string or regular-expression matching to find start and end tags of records."
+    },
+    {
+        "question": "The key, a ____________ is the byte offset within the file of the beginning of the line.",
+        "options": [
+            "a) LongReadable",
+            "b) LongWritable",
+            "c) ShortReadable",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The value is the contents of the line, excluding any line terminators (newline, carriage return), and is packaged as a Text object."
+    },
+    {
+        "question": "_________ is the output produced by TextOutputFor mat, Hadoop default OutputFormat.",
+        "options": [
+            "a) KeyValueTextInputFormat",
+            "b) KeyValueTextOutputFormat",
+            "c) FileValueTextInputFormat",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To interpret such files correctly, KeyValueTextInputFormat is appropriate."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Hadoop sequence file format stores sequences of binary key-value pairs",
+            "b) SequenceFileAsBinaryInputFormat is a variant of SequenceFileInputFormat that retrieves the sequence file\u2019s keys and values as opaque binary objects",
+            "c) SequenceFileAsTextInputFormat is a variant of SequenceFileInputFormat that retrieves the sequence file\u2019s keys and values as opaque binary objects.",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SequenceFileAsBinaryInputFormat is used for reading keys, values from SequenceFiles in binary (raw) format."
+    },
+    {
+        "question": "__________ is a variant of SequenceFileInputFormat that converts the sequence file\u2019s keys and values to Text objects.",
+        "options": [
+            "a) SequenceFile",
+            "b) SequenceFileAsTextInputFormat",
+            "c) SequenceAsTextInputFormat",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "With multiple reducers, records will be allocated evenly across reduce tasks, with all records that share the same key being processed by the same reduce task."
+    },
+    {
+        "question": "__________ class allows you to specify the InputFormat and Mapper to use on a per-path basis.",
+        "options": [
+            "a) MultipleOutputs",
+            "b) MultipleInputs",
+            "c) SingleInputs",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "One might be tab-separated plain text, the other a binary sequence file. Even if they are in the same format, they may have different representations, and therefore need to be parsed differently."
+    },
+    {
+        "question": "___________ is an input format for reading data from a relational database, using JDBC.",
+        "options": [
+            "a) DBInput",
+            "b) DBInputFormat",
+            "c) DBInpFormat",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "DBInputFormat is the most frequently used format for reading data."
+    },
+    {
+        "question": "Which of the following is the default output format?",
+        "options": [
+            "a) TextFormat",
+            "b) TextOutput",
+            "c) TextOutputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "TextOutputFormat keys and values may be of any type."
+    },
+    {
+        "question": "Which of the following writes MapFiles as output?",
+        "options": [
+            "a) DBInpFormat",
+            "b) MapFileOutputFormat",
+            "c) SequenceFileAsBinaryOutputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SequenceFileAsBinaryOutputFormat writes keys and values in raw binary format into a SequenceFile container."
+    },
+    {
+        "question": "The split size is normally the size of a ________ block, which is appropriate for most applications.",
+        "options": [
+            "a) Generic",
+            "b) Task",
+            "c) Library",
+            "d) HDFS"
+        ],
+        "answer": "d",
+        "explanation": "FileInputFormat splits only large files(Here \u201clarge\u201d means larger than an HDFS block)."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The minimum split size is usually 1 byte, although some formats have a lower bound on the split size",
+            "b) Applications may impose a minimum split size",
+            "c) The maximum split size defaults to the maximum value that can be represented by a Java long type",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The maximum split size has an effect only when it is less than the block size, forcing splits to be smaller than a block."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Hadoop works better with a small number of large files than a large number of small files",
+            "b) CombineFileInputFormat is designed to work well with small files",
+            "c) CombineFileInputFormat does not compromise the speed at which it can process the input in a typical MapReduce job",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If the file is very small (\u201csmall\u201d means significantly smaller than an HDFS block) and there are a lot of them, then each map task will process very little input, and there will be a lot of them (one per file), each of which imposes extra bookkeeping overhead."
+    }
+]

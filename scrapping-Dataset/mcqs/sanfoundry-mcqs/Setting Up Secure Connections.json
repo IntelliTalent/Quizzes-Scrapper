@@ -1,0 +1,88 @@
+[
+    {
+        "question": "How many files does each end of a client/server connection including SSL support use to set up secure communications?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "d",
+        "explanation": "With a MySQL installation that includes SSL support the server and its clients can communicate securely. Each end of a connection uses three files to set up secure communications."
+    },
+    {
+        "question": "The TLS protocol is _____________",
+        "options": [
+            "a) transparent layer security",
+            "b) transport layer security",
+            "c) transparent level security",
+            "d) transport level security"
+        ],
+        "answer": "b",
+        "explanation": "MySQL supports encrypted connections between clients and the server using the TLS protocol. It is also referred to as SSL but MySQL does not actually use the SSL protocol for encrypted connections."
+    },
+    {
+        "question": "The grant table scope columns that is case insensitive is _____________",
+        "options": [
+            "a) Host",
+            "b) User",
+            "c) Password",
+            "d) Db"
+        ],
+        "answer": "a",
+        "explanation": "\u2018Db\u2019 and \u2018Table_name\u2019 values are always treated as case sensitive even though treatment of database and table names in SQL statements depends on the filesystem case sensitivity of the host."
+    },
+    {
+        "question": "Which variable checks for the availability of SSL support?",
+        "options": [
+            "a) have_ssl",
+            "b) has_ssl",
+            "c) avail_ssl",
+            "d) ssl_avail"
+        ],
+        "answer": "a",
+        "explanation": "After the SSL-capable server is started, to verify that it supports SSL, connection is established with \u2018mysql\u2019 and the following query is issued: SHOW VARIABLES LIKE \u2018have_ssl\u2019."
+    },
+    {
+        "question": "MySQL does not provide a date type that has an optional time part.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, there is no data type provided which has an optional time part. The \u2018DATE\u2019 type values never have a time part. The \u2018DATETIME\u2019 type values must have a time part in them."
+    },
+    {
+        "question": "What is the best datatype for a column that is expected to store values up to 2 million?",
+        "options": [
+            "a) SMALLINT",
+            "b) TINYINT",
+            "c) MEDIUMINT",
+            "d) BIGINT"
+        ],
+        "answer": "d",
+        "explanation": "The different numeric types used in MySQL are used to store a different range of values. To store values of the order of a million, the MEDIUMINT or BIGINT datatype is sufficient."
+    },
+    {
+        "question": "The datatype that stores the longest length of strings is ______________",
+        "options": [
+            "a) CHAR",
+            "b) VARCHAR",
+            "c) TINYTEXT",
+            "d) TEXT"
+        ],
+        "answer": "d",
+        "explanation": "In MySQL, the different string datatypes are used to store different lenghts of the string. Here, the length would refer to the number of characters in the string. TEXT stores longer strings."
+    },
+    {
+        "question": "The security context when a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access is __________",
+        "options": [
+            "a) good",
+            "b) bad",
+            "c) illegal",
+            "d) fare"
+        ],
+        "answer": "b",
+        "explanation": "The security context is bad if a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access to that data as its definer."
+    }
+]

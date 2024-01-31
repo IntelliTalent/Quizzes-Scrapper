@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which program copies the databases from one server to another?",
+        "options": [
+            "a) mysqldbcopy",
+            "b) mysqlcopydb",
+            "c) mysqlflushdb",
+            "d) mysqldbflush"
+        ],
+        "answer": "a",
+        "explanation": "The utility program \u2018mysqldbcopy\u2019 is capable of copying databases from one server to another server. It can also prepare copies to make transfers on the same servers. This can be done simply by running the program."
+    },
+    {
+        "question": "To use \u2018mysqldbcopy\u2019 which privileges are required on the source server?",
+        "options": [
+            "a) CREATE",
+            "b) INSERT",
+            "c) UPDATE",
+            "d) SELECT"
+        ],
+        "answer": "d",
+        "explanation": "To use the utility program \u2018mysqldbcopy\u2019, the user must have SELECT privileges for the database(s) on the source server and have CREATE, INSERT, UPDATE on the destination server."
+    },
+    {
+        "question": "The program that performs logical backups is _____________",
+        "options": [
+            "a) mysqlimport",
+            "b) mysqldump",
+            "c) myslqpit",
+            "d) mysqllogic"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018mysqldump\u2019 performs logical backups. It produces a set of SQL statements that are executed to reproduce the original database object definitions. It dumps one or more MySQL databases for backup."
+    },
+    {
+        "question": "In \u2018mysqldump\u2019 which option is used to make all tables in the destination databases to use a different storage engine?",
+        "options": [
+            "a) \u2013next-storage-engine",
+            "b) \u2013new-storage-engine",
+            "c) \u2013clear-storage-engine",
+            "d) \u2013get-storage-engine"
+        ],
+        "answer": "b",
+        "explanation": "While using the program \u2018mysqldump\u2019 in MySQL to copy databases from server to server, all tables in the destination databases can be directed to use a different storage engine with the \u2013new-storage-engine option."
+    },
+    {
+        "question": "Which function returns reference to hash of row values?",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "d",
+        "explanation": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values keyed by ______________",
+        "options": [
+            "a) row name",
+            "b) column name",
+            "c) table name",
+            "d) database name"
+        ],
+        "answer": "b",
+        "explanation": "The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values, keyed by the column name. The function \u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values."
+    },
+    {
+        "question": "Which function returns reference to array of row values?",
+        "options": [
+            "a) fetchrow_array()",
+            "b) fetchrow_arrayref()",
+            "c) fetch()",
+            "d) fetchrow_hashref()"
+        ],
+        "answer": "b",
+        "explanation": "\u2018fetchrow_arrayref()\u2019 returns a reference to an array of row values. The function \u2018fetchrow_hashref()\u2019 returns reference to hash of row values. \u2018fetch()\u2019 is the same as fetchrow_arrayref()."
+    },
+    {
+        "question": "The MySQL server is poorly configurable.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL server is highly configurable. Some of the operational characteristics that you can control include which storage engines the server supports, the default character set, and its default time zone."
+    },
+    {
+        "question": "Multiple MySQL servers can be easily run on the same machine.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "It is useful to run multiple servers on the same machine under certain circumstances. A new MySQL release can also be tested while leaving the current production server in place."
+    },
+    {
+        "question": "Which is the log in which data changes received from a replication master server are written?",
+        "options": [
+            "a) error log",
+            "b) general query log",
+            "c) binary log",
+            "d) relay log"
+        ],
+        "answer": "d",
+        "explanation": "The Relay Log has the data changes received from a replication master server written in it. The problems encountered during the starting, running or stopping of \u2018mysqld\u2019 is written in error log."
+    }
+]

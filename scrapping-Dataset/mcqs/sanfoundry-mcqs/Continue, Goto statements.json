@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "\u2018Continue\u2019 loop cannot be used within \u2018if\u2019 loop. replace while with if(i <7)."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "\u201cUndefined label \u2018even\u2019 in main(). The syntax \u2018goto even:\u2019 is incorrect instead use \u2018goto even;\u2019."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "for i = 1. When control enters in loop first if condition is checked for where j = 1 and as (j > 2) which is false. Control is now passed to console statement  with i = 1 and j = 2. Now, in while condition value of \u2018i\u2019 reflected is 2 i.e i = 2 as i++. Since, (i < 3) control again enters in for loop with i = 2 but j = 1 not j = 2 for j++ and hence, again same condition executes for console statement."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "for i = 10, loop executes for first time in \u2018if\u2019 loop as (i>0) i.e (9 > 0) and hence printing \u20189\u2019. Similarly, label condition executes again go for (i\u2013) i.e (9-1=8) and hence again prints i = 8. In this way looping condition executes as 9, 8 to 3, 2, 1."
+    }
+]

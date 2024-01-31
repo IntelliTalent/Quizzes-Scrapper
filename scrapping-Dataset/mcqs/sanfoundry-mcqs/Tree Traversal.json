@@ -1,0 +1,91 @@
+[
+    {
+        "question": "In preorder traversal of a binary tree the second step is ____________",
+        "options": [
+            "a) traverse the right subtree",
+            "b) traverse the left subtree",
+            "c) traverse right subtree and visit the root",
+            "d) visit the root"
+        ],
+        "answer": "b",
+        "explanation": "In a preorder traversal of a binary tree first is to visit the root, second traverse the left subtree of the tree and third traverse the right subtree of the tree."
+    },
+    {
+        "question": "An important application of binary tree is ______",
+        "options": [
+            "a) Huffman coding",
+            "b) stack implementation",
+            "c) queue implementation",
+            "d) traverse a cyclic graph"
+        ],
+        "answer": "a",
+        "explanation": "A binary tree is used to sort a list of elements; the inorder traversal will do this automatically. Better tree sorting algorithm will involve balancing the trees. The binary coding, in particular for the Huffman coding is an immediate application of binary trees."
+    },
+    {
+        "question": "From the following code identify the which traversal of a binary tree is this __________",
+        "options": [],
+        "answer": " c",
+        "explanation": "In a postorder traversal of a binary tree first is to traverse the left subtree, second traverse the right subtree of the tree and third is to visit the node."
+    },
+    {
+        "question": "From the following code identify the which traversal of a binary tree is this __________",
+        "options": [],
+        "answer": "b",
+        "explanation": "The code signifies Euler Tour traversal which is a generic traversal of a binary tree. In this tree traversal we have to walk around the tree and visit each node three times:"
+    },
+    {
+        "question": "For the expression (7-(4*5))+(9/3) which of the following is the post order tree traversal?",
+        "options": [
+            "a) *745-93/+",
+            "b) 93/+745*-",
+            "c) 745*-93/+",
+            "d) 74*+593/-"
+        ],
+        "answer": "c",
+        "explanation": "First build a binary tree for the expression then find out the postorder traversal of that tree and after that the answer will be 745*-93/+."
+    },
+    {
+        "question": "The time complexity of calculating the sum of all leaf nodes in an n-order binary tree is __________",
+        "options": [
+            "a) O(n",
+            "b) O(n+1)",
+            "c) O(1)",
+            "d) O(n)"
+        ],
+        "answer": "d",
+        "explanation": "The approach is to traverse the binary tree in any fashion and check if the node is the leaf node(child node)or not. After that, add node data to the sum variable. So, after summing up all leaf nodes, the time complexity of the operation should be O(n)."
+    },
+    {
+        "question": "An immediate application of a Depth First Search traversal is __________",
+        "options": [
+            "a) count the number of leaf nodes",
+            "b) perform Inorder traversal in easy way",
+            "c) count number of nodes",
+            "d) implement preorder traversal"
+        ],
+        "answer": "a",
+        "explanation": "Given an n-ary binary tree, by performing DFS traversal on that tree number of leaf nodes can be calculated and for that we need to maintain an array for the leaf count."
+    },
+    {
+        "question": "Breadth First Search traversal of a binary tree finds its application in __________",
+        "options": [
+            "a) Cloud computing",
+            "b) Peer to peer networks",
+            "c) Weighted graph",
+            "d) Euler path"
+        ],
+        "answer": "b",
+        "explanation": "Breadth First Search traversal has diverse applications such as in the peer to peer networks like BitTorrent, BFS traversal is used to find all the neighbour nodes of the network."
+    },
+    {
+        "question": "Worst case complexity of Breadth First Search traversal __________",
+        "options": [
+            "a) O(n*n)",
+            "b) O(nlogn)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "In an n-ary binary tree, we must have to visit all nodes from an adjacent node and repeat the same for next unvisited nodes. Hence, in worst case the time complexity should be O(nlogn)."
+    }
+]

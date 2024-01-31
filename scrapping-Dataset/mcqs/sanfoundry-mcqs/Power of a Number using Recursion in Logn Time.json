@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What will be the output for following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given program calculates the value of x raised to power y. Thus 2"
+    },
+    {
+        "question": "What will be the time complexity of the following code which raises an integer x to the power y?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The recurrence relation for the above code is given by T(n)=2T(n/2)+c. By using master theorem we can calculate the result for this relation. It is found to be equal to O(n)."
+    },
+    {
+        "question": "What is the space complexity of the given code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The space complexity of the given code will be equal to O(1) as it uses only constant space in the memory."
+    },
+    {
+        "question": "Recursive program to raise an integer x to power y uses which of the following algorithm?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Backtracking",
+            "c) Divide and conquer",
+            "d) Greedy algorithm"
+        ],
+        "answer": "c",
+        "explanation": "The recursive approach uses divide and conquer algorithm as we break the problem into smaller parts and then solve the smaller parts and finally combine their results to get the overall solution."
+    },
+    {
+        "question": "What is the least time in which we can raise a number x to power y?",
+        "options": [
+            "a) O(x)",
+            "b) O(y)",
+            "c) O(log x)",
+            "d) O(log y)"
+        ],
+        "answer": "d",
+        "explanation": "We can optimize the code for finding power of a number by calculating x raised to power y/2 only once and using it depending on whether y is even or odd."
+    },
+    {
+        "question": "What will be the time complexity of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code is the optimized version for finding the power of a number. It forms a recurrence relation given by T(n)=T(n/2)+c which can be solved using master theorem. It is calculated to be equal to O(log n)."
+    },
+    {
+        "question": "What is the advantage of iterative code for finding power of number over recursive code?",
+        "options": [
+            "a) Iterative code requires less time",
+            "b) Iterative code requires less space",
+            "c) Iterative code is more compiler friendly",
+            "d) It has no advantage"
+        ],
+        "answer": "b",
+        "explanation": "Both iterative and recursive approach can be implemented in log n time but the recursive code requires memory in call stack which makes it less preferable."
+    },
+    {
+        "question": "Which of the following correctly implements iterative code for finding power of a number?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "It represents the iterative version of required code. It has a time and space complexity of O(log n) and O(1) respectively."
+    },
+    {
+        "question": "Recursive approach to find power of a number is preferred over iterative approach.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The recursive code requires memory in call stack which makes it less preferable as compared to iterative approach."
+    },
+    {
+        "question": "What will be the output for following code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The given code is capable of handling negative powers too. Thus, the output will be 2"
+    }
+]

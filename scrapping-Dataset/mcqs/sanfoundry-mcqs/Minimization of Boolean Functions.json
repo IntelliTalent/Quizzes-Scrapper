@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Find the simplified expression A\u2019BC\u2019+AC\u2019.",
+        "options": [
+            "a) B",
+            "b) A+C",
+            "c) (A+B)C\u2019",
+            "d) B\u2019C"
+        ],
+        "answer": "c",
+        "explanation": "Given: A\u2019BC\u2019 + AC\u2019"
+    },
+    {
+        "question": "Evaluate the expression: (X + Z)(X + XZ\u2019) + XY + Y.",
+        "options": [
+            "a) XY+Z\u2019",
+            "b) Y+XZ\u2019+Y\u2019Z",
+            "c) X\u2019Z+Y",
+            "d) X+Y"
+        ],
+        "answer": "d",
+        "explanation": "(X + Z)(X + XZ\u2019) + XY + Y      [Original Expression]"
+    },
+    {
+        "question": "Simplify the expression: A\u2019(A + BC) + (AC + B\u2019C).",
+        "options": [
+            "a) (AB\u2019C+BC\u2019)",
+            "b) (A\u2019B+C\u2019)",
+            "c) (A+ BC)",
+            "d) AC"
+        ],
+        "answer": "b",
+        "explanation": "Given:  A\u2019(A + BC) + (AC + B\u2019C)"
+    },
+    {
+        "question": "What is the simplification value of MN(M + N\u2019) + M(N + N\u2019)?",
+        "options": [
+            "a) M",
+            "b) MN+M\u2019N\u2019",
+            "c) (1+M)",
+            "d) M+N\u2019"
+        ],
+        "answer": "b",
+        "explanation": "Given: MN(M + N\u2019) + M(N + N\u2019)"
+    },
+    {
+        "question": "Simplify the expression XZ\u2019 + (Y + Y\u2019Z) + XY.",
+        "options": [
+            "a) (1+XY\u2019)",
+            "b) YZ + XY\u2019 + Z\u2019",
+            "c) (X + Y +Z)",
+            "d) XY\u2019+ Z\u2019"
+        ],
+        "answer": "c",
+        "explanation": "Given: X Z\u2019 + (Y + Y\u2019Z) + XY"
+    },
+    {
+        "question": "Find the simplified term Y\u2019 (X\u2019 + Y\u2019) (X + X\u2019Y)?",
+        "options": [
+            "a) XY\u2019",
+            "b) X\u2019Y",
+            "c) X + Y",
+            "d) X\u2019Y\u2019"
+        ],
+        "answer": "a",
+        "explanation": " Given: Y\u2019 (X\u2019 + Y\u2019) (X + X\u2019Y)"
+    },
+    {
+        "question": "If an expression is given that x+x\u2019y\u2019z=x+y\u2019z, find the minimal expression of the function F(x,y,z) = x+x\u2019y\u2019z+yz?",
+        "options": [
+            "a) y\u2019 + z",
+            "b) xz + y\u2019",
+            "c) x + z",
+            "d) x\u2019 + y"
+        ],
+        "answer": "c",
+        "explanation": "We have, x+x\u2019y\u2019z+yz"
+    },
+    {
+        "question": "Simplify the expression: XY\u2019 + X\u2019 + Y\u2019X\u2019.",
+        "options": [
+            "a) X\u2019 + Y",
+            "b) XY\u2019",
+            "c) (XY)\u2019",
+            "d) Y\u2019 + X"
+        ],
+        "answer": "c",
+        "explanation": "Given XY\u2019+X\u2019+Y\u2019X\u2019 = Y\u2019(X+X\u2019) + X\u2019 = Y\u2019.1 + X\u2019 = X\u2019 + Y\u2019 = (XY)\u2019 [De Morgan\u2019s law]."
+    },
+    {
+        "question": "Minimize the Boolean expression using Boolean identities: A\u2032B+ABC\u2032+BC\u2019+AB\u2032C\u2032.",
+        "options": [
+            "a) B(AC)\u2019 + AC\u2019",
+            "b) AC\u2019 + B\u2019",
+            "c) ABC + B\u2019 + C",
+            "d) BC\u2019 + A\u2019B"
+        ],
+        "answer": "a",
+        "explanation": "Given: A\u2032B+ABC\u2032+BC\u2019+AB\u2032C\u2032"
+    },
+    {
+        "question": "Minimize the following Boolean expression using Boolean identities.",
+        "options": [
+            "a) A + B + C\u2019",
+            "b) AC\u2019 + B",
+            "c) B + AC",
+            "d) A(B\u2019 + C)"
+        ],
+        "answer": "d",
+        "explanation": "Given, F(A,B,C) = (A+BC\u2019)(AB\u2019+C)"
+    }
+]

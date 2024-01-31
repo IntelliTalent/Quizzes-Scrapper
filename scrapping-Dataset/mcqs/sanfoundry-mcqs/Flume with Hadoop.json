@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Apache Flume 1.3.0 is the fourth release under the auspices of Apache of the so-called ________ codeline.",
+        "options": [
+            "a) NG",
+            "b) ND",
+            "c) NF",
+            "d) NR"
+        ],
+        "answer": "a",
+        "explanation": "Flume 1.3.0 has been put through many stress and regression tests, is stable, production-ready software, and is backwards-compatible with Flume 1.2.0."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Flume is a distributed, reliable, and available service",
+            "b) Version 1.5.2 is the eighth Flume release as an Apache top-level project",
+            "c) Flume 1.5.2 is production-ready software for integration with hadoop",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Flume is used for efficiently collecting, aggregating, and moving large amounts of streaming event data."
+    },
+    {
+        "question": "___________ was created to allow you to flow data from a source into your Hadoop environment.",
+        "options": [
+            "a) Imphala",
+            "b) Oozie",
+            "c) Flume",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In Flume, the entities you work with are called sources, decorators, and sinks."
+    },
+    {
+        "question": "A ____________ is an operation on the stream that can transform the stream.",
+        "options": [
+            "a) Decorator",
+            "b) Source",
+            "c) Sinks",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A source can be any data source, and Flume has many predefined source adapters."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Version 1.4.0 is the fourth Flume release as an Apache top-level project",
+            "b) Apache Flume 1.5.2 is a security and maintenance release that disables SSLv3 on all components in Flume that support SSL/TLS",
+            "c) Flume is backwards-compatible with previous versions of the Flume 1.x codeline",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Apache Flume 1.3.1 is a maintenance release for the 1.3.0 release, and includes several bug fixes and performance enhancements."
+    },
+    {
+        "question": "A number of ____________ source adapters give you the granular control to grab a specific file.",
+        "options": [
+            "a) multimedia file",
+            "b) text file",
+            "c) image file",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A number of predefined source adapters are built into Flume."
+    },
+    {
+        "question": "____________  is used when you want the sink to be the input source for another operation.",
+        "options": [
+            "a) Collector Tier Event",
+            "b) Agent Tier Event",
+            "c) Basic",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "All agents in a specific tier could be given the same name; One configuration file with \u2026 Clients send Events to Agents; Agents hosts number Flume components."
+    },
+    {
+        "question": "___________ is where you would land a flow (or possibly multiple flows joined together) into an HDFS-formatted file system.",
+        "options": [
+            "a) Collector Tier Event",
+            "b) Agent Tier Event",
+            "c) Basic",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A number of other predefined source adapters, as well as a command exit, allow you to use any executable command to feed the flow of data."
+    },
+    {
+        "question": "____________ sink can be a text file, the console display, a simple HDFS path, or a null bucket where the data is simply deleted.",
+        "options": [
+            "a) Collector Tier Event",
+            "b) Agent Tier Event",
+            "c) Basic",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Flume will also ensure the integrity of the flow by sending back acknowledgments that data has actually arrived at the sink."
+    },
+    {
+        "question": "Flume deploys as one or more agents, each contained within its own instance of _________",
+        "options": [
+            "a) JVM",
+            "b) Channels",
+            "c) Chunks",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "An agent must have at least one of each in order to run."
+    }
+]

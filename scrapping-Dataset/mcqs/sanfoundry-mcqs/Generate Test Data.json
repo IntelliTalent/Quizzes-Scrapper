@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Which of the following  will implicitly create the collection testData?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "From the mongo shell, use the for loop. If the testData collection does not exist, MongoDB will implicitly create the collection."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Collection is a group of MongoDB documents",
+            "b) MongoDB is an open-source document database, and leading NoSQL database",
+            "c) Collections do not enforce a schema",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "MongoDB is an open-source document-oriented database that stores data in collections made up of related documents. MongoDB collections do not enforce a schema, allowing for greater flexibility in data modeling. Therefore, all of the statements are true."
+    },
+    {
+        "question": "Which of the following method returns a cursor?",
+        "options": [
+            "a) find",
+            "b) sort",
+            "c) skip",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The find() method returns a cursor. To iterate the cursor and return more documents, type it in the mongo shell."
+    },
+    {
+        "question": "Which of the following function is valid for creation of new data inside MongoDB Shell?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "insertData() JavaScript function that follows creates new data for use in testing or training by either creating a new collection or appending data to an existing collection."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Database is a physical container for collections",
+            "b) A single MongoDB server typically has single databases",
+            "c) Collection is the equivalent of an RDBMS table",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A single MongoDB server typically has multiple databases."
+    },
+    {
+        "question": "_id is a ________ bytes hexadecimal number which assures the uniqueness of every document.",
+        "options": [
+            "a) 13",
+            "b) 16",
+            "c) 12",
+            "d) 10"
+        ],
+        "answer": "c",
+        "explanation": "You can provide _id while inserting the document."
+    },
+    {
+        "question": "Which of the following statement will insert 400 documents in to the testData collection?",
+        "options": [
+            "a) insertData(\"test\", \"testData\", 200)",
+            "b) insertData(\"test\", \"testData\", 400)",
+            "c) insertData(\"test\", \"testData\", 600)",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the collection and database do not exist, MongoDB creates them implicitly before inserting documents."
+    },
+    {
+        "question": "The mongo shell loads and parses the ___________ file on startup.",
+        "options": [
+            "a) mongo.js",
+            "b) mongoc.js",
+            "c) mongorc.js",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Store the function in your .mongorc.js file."
+    },
+    {
+        "question": "To iterate the cursor and return more documents, type _________ in the mongo shell.",
+        "options": [
+            "a) cursor",
+            "b) it",
+            "c) next",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The db.collection.find() method returns a cursor. To access the documents, you need to iterate the cursor."
+    },
+    {
+        "question": "Which of the following key is used to denote uniqueness in the collection?",
+        "options": [
+            "a) _id",
+            "b) id",
+            "c) id_",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "_id is the default key provided by mongodb itself."
+    }
+]

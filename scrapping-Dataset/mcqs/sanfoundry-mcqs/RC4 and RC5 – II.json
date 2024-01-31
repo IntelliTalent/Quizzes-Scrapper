@@ -1,0 +1,108 @@
+[
+    {
+        "question": "RC5 encryption uses Right shift and decryption uses Left shift.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "RC5 encryption rounds use left shift operations and the decryption uses right shift operations."
+    },
+    {
+        "question": "The below round is the last step in encryption /decryption in RC5.",
+        "options": [],
+        "answer": "b",
+        "explanation": "The last round is the last step in encryption but the first step in decryption process."
+    },
+    {
+        "question": "The code bellow is the RC5 encryption pseudo code in C language.",
+        "options": [],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "\u201cRC5 uses the Feistel Structure.\u201d",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "RC5 does not use the classic Feistel structure."
+    },
+    {
+        "question": "Find the error in the Decryption pseudo code for RC5 \u2013",
+        "options": [],
+        "answer": "a",
+        "explanation": "B= RD0 + S [1]; is incorrect as there should be a \u2018-\u2019 instead."
+    },
+    {
+        "question": "Which one of the following is not a RC5 mode of operation?",
+        "options": [
+            "a) RC5 block cipher",
+            "b) RC5-Cipher Block Chaining",
+            "c) RC5-Cipher Padding",
+            "d) RC5-CipherText Stealing"
+        ],
+        "answer": "c",
+        "explanation": "RFC 2040 [BALD96] defines four different modes of operation:"
+    },
+    {
+        "question": "Which RC5 mode will have the ciphertext longer than the plaintext by at most the size of a single RC5 block?",
+        "options": [
+            "a) RC5 block cipher",
+            "b) RC5-Cipher Block Chaining",
+            "c) RC5-Cipher Block Chaining Pad",
+            "d) RC5-CipherText Stealing"
+        ],
+        "answer": "c",
+        "explanation": "The Cipher Block Chaining Pad mode produces a ciphertext output as such."
+    },
+    {
+        "question": "Which RC5 mode of operation is this?",
+        "options": [],
+        "answer": "d",
+        "explanation": "This mode of operation is the RC5 CTS mode."
+    },
+    {
+        "question": "Which of these is not a characteristic of block ciphers?",
+        "options": [
+            "a) Variable key length / block size / number of rounds",
+            "b) Mixed operators, data/key dependent rotation",
+            "c) Key independent S-boxes",
+            "d) More complex key scheduling"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Which one of the following RC4 algorithm not used in?",
+        "options": [
+            "a) SSL",
+            "b) TLS",
+            "c) FTP",
+            "d) WEP"
+        ],
+        "answer": "c",
+        "explanation": "RC4 is used in Secure Socket Layer, Transport Layer Security and Wired Equivalency Privacy. Not used in File Transfer Protocol."
+    },
+    {
+        "question": "Till when was the RC4 algorithm kept a secret?",
+        "options": [
+            "a) 1990",
+            "b) 1992",
+            "c) 1996",
+            "d) 1994"
+        ],
+        "answer": "d",
+        "explanation": "In September 1994, the RC4 algorithm was anonymously posted on the Internet on the Cypherpunks anonymous remailers list."
+    },
+    {
+        "question": "RC4 algorithm uses the concept of Block Cipher System.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "RC4 algorithm uses the concept of Stream Cipher and uses a \u201cstream key\u201d."
+    }
+]

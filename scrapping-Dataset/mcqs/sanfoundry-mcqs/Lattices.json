@@ -1,0 +1,101 @@
+[
+    {
+        "question": "A Poset in which every pair of elements has both a least upper bound and a greatest lower bound is termed as _______",
+        "options": [
+            "a) sublattice",
+            "b) lattice",
+            "c) trail",
+            "d) walk"
+        ],
+        "answer": "b",
+        "explanation": "A poset in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice. A lattice can contain sublattices which are subsets of that lattice."
+    },
+    {
+        "question": "In the poset (Z",
+        "options": [
+            "a) comparable",
+            "b) not comparable",
+            "c) comparable but not determined",
+            "d) determined but not comparable"
+        ],
+        "answer": "a",
+        "explanation": "The two integers 9 and 351 are comparable since 9|351 i.e, 9 divides 351. But 5 and 127 are not comparable since 5 | 127 i.e 5 does not divide 127."
+    },
+    {
+        "question": "If every two elements of a poset are comparable then the poset is called ________",
+        "options": [
+            "a) sub ordered poset",
+            "b) totally ordered poset",
+            "c) sub lattice",
+            "d) semigroup"
+        ],
+        "answer": "b",
+        "explanation": "A poset (P, <=) is known as totally ordered if every two elements of the poset are comparable. \u201c<=\u201d is called a total order and a totally ordered set is also termed as a chain."
+    },
+    {
+        "question": "______ and _______ are the two binary operations defined for lattices.",
+        "options": [
+            "a) Join, meet",
+            "b) Addition, subtraction",
+            "c) Union, intersection",
+            "d) Multiplication, modulo division"
+        ],
+        "answer": "a",
+        "explanation": "Join and meet are the binary operations reserved for lattices. The join of two elements is their least upper bound. It is denoted by V, not to be confused with disjunction. The meet of two elements is their greatest lower bound. It is denoted by \u2227 and not to be confused with a conjunction."
+    },
+    {
+        "question": "A ________ has a greatest element and a least element which satisfy 0<=a<=1 for every a in the lattice(say, L).",
+        "options": [
+            "a) semilattice",
+            "b) join semilattice",
+            "c) meet semilattice",
+            "d) bounded lattice"
+        ],
+        "answer": "d",
+        "explanation": "A lattice that has additionally a supremum element and an infimum element which satisfy 0<=a<=1, for every an in the lattice is called a bounded lattice. A partially ordered set is a bounded lattice if and only if every finite set (including the empty set) of elements has a join and a meet."
+    },
+    {
+        "question": "A sublattice(say, S) of a lattice(say, L) is a convex sublattice of L if _________",
+        "options": [
+            "a) x>=z, where x in S implies z in S, for every element x, y in L",
+            "b) x=y and y<=z, where x, y in S implies z in S, for every element x, y, z in L",
+            "c) x<=y<=z, where x, y in S implies z in S, for every element x, y, z in L",
+            "d) x=y and y>=z,  where x, y in S implies z in S, for every element x, y, z in L"
+        ],
+        "answer": "c",
+        "explanation": "A sublattice S of a lattice L is a convex sublattice of L, if x \u2264 z \u2264 y and x, y in S implies that z belongs to S, for all elements x, y, z in L."
+    },
+    {
+        "question": "The graph is the smallest non-modular lattice N",
+        "options": [
+            "a) non-modular, complete lattice",
+            "b) moduler, semilattice",
+            "c) non-modular, sublattice",
+            "d) modular, sublattice"
+        ],
+        "answer": "d",
+        "explanation": "A lattice (L, \u2228, \u2227) is modular if for all elements a, b, c of L, the following identity holds->modular identity: (a \u2227 c) \u2228 (b \u2227 c) = [(a \u2227 c) \u2228 b] \u2227 c. This condition is equivalent to the following axiom -> modular law: a \u2264 c implies a \u2228 (b \u2227 c) = (a \u2228 b) \u2227 c. A lattice is modular if and only if it does not have a sublattice isomorphic to N"
+    },
+    {
+        "question": "Every poset that is a complete semilattice must always be a _______",
+        "options": [
+            "a) sublattice",
+            "b) complete lattice",
+            "c) free lattice",
+            "d) partial lattice"
+        ],
+        "answer": "b",
+        "explanation": "A poset is called a complete lattice if all its subsets have both a join and a meet. Every complete lattice is a bounded lattice.  Every poset that is a complete semilattice must always be a complete lattice."
+    },
+    {
+        "question": "A free semilattice has the _______ property.",
+        "options": [
+            "a) intersection",
+            "b) commutative and associative",
+            "c) identity",
+            "d) universal"
+        ],
+        "answer": "d",
+        "explanation": "Any set X may be used to generate the free semilattice FX. The free semilattice is defined to consist of all of the finite subsets of X with the semilattice operation given by ordinary set union; the free semilattice has the universal property."
+    }
+]

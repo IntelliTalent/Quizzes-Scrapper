@@ -1,0 +1,159 @@
+[
+    {
+        "question": "Spring supports most of the popular ORM (or data mapper) frameworks.",
+        "options": [
+            "a) Hibernate",
+            "b) JDO",
+            "c) JPA",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Spring supports most of the popular ORM (or data mapper) frameworks, including Hibernate, JDO, iBATIS, and the Java Persistence API (JPA)."
+    },
+    {
+        "question": "ORM which isn\u2019t supported by Spring:-",
+        "options": [
+            "a) Hibernate",
+            "b) JDO",
+            "c) TopLink",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Classic TopLink isn\u2019t supported starting from Spring 3.0 (the JPA implementation still supported, of course)."
+    },
+    {
+        "question": "An ORM framework persists your objects according to the mapping metadata you provide.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "XML- or annotation-based, such as the mappings between classes and tables, properties and columns, and so on."
+    },
+    {
+        "question": "Database Engine which uses low memory consumption and easy configuration.",
+        "options": [
+            "a) SQL",
+            "b) MySQL",
+            "c) Apache Derby",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Derby is an open source relational database engine provided under the Apache License and implemented in pure Java."
+    },
+    {
+        "question": "Mode which Derby prefers to run in:-",
+        "options": [
+            "a) embedded",
+            "b) client/server",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Derby can run in either the embedded mode or the client/server mode."
+    },
+    {
+        "question": "For testing purposes, the client/server mode is more appropriate.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It allows you to inspect and edit data with any visual database tools that support JDBC\u2014for example, the Eclipse Data Tools Platform (DTP)."
+    },
+    {
+        "question": "To start the Derby server in the client/server mode.",
+        "options": [
+            "a) startNetworkServer java file",
+            "b) startNetworkServer script",
+            "c) startNetwork script",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To start the Derby server in the client/server mode, just execute the startNetworkServer script for your platform (located in the bin directory of the Derby installation)."
+    },
+    {
+        "question": "JDBC Properties for Connecting to the Application Database.",
+        "options": [
+            "a) Driver Class",
+            "b) URL",
+            "c) Username",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "JDBC Properties for Connecting to the Application Database"
+    },
+    {
+        "question": "The general purpose of the Data Access Object (DAO) pattern is to avoid these logic related problems by separating data access logic from business logic and presentation logic.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This pattern recommends that data access logic be encapsulated in independent modules called data access objects."
+    },
+    {
+        "question": "To access the database with JDBC:-",
+        "options": [
+            "a) DAO interface",
+            "b) DAO Class",
+            "c) DataAccess interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Because your DAO implementation has to connect to the database to execute SQL statements, you may establish database connections by specifying the driver class name, database URL, username, and password."
+    },
+    {
+        "question": "Standard interface defined by the JDBC specification that factories Connection instances.",
+        "options": [
+            "a) javax.sql.DataAccess",
+            "b) javax.sql.DataSource",
+            "c) javax.sql.Data",
+            "d) javax.sql.DataSourceAccess"
+        ],
+        "answer": "b",
+        "explanation": "The javax.sql.DataSource interface is a standard interface defined by the JDBC specification that factories Connection instances."
+    },
+    {
+        "question": "Data source implementations provided by different vendors and projects.",
+        "options": [
+            "a) C3PO",
+            "b) Apache Commons DBCP",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "C3PO and Apache Commons DBCP are popular open source options, and most applications servers will provide their own implementation."
+    },
+    {
+        "question": "Spring also provides several convenient but less powerful data source implementations.",
+        "options": [
+            "a) DriverManagerDataSource",
+            "b) DriverManagerData",
+            "c) DriverManagerDataAccess",
+            "d) DriverManagerDataSourceAccess"
+        ],
+        "answer": "a",
+        "explanation": "The simplest one is DriverManagerDataSource, which opens a new connection every time one is requested."
+    },
+    {
+        "question": "SingleConnectionDataSource (a DriverManagerDataSource subclass). As its name indicates, this maintains only a single connection.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Another data source implementation provided by Spring is SingleConnectionDataSource (a DriverManagerDataSource subclass). As its name indicates, this maintains only a single connection that\u2019s reused all the time and never closed."
+    },
+    {
+        "question": "Which DataSource is not stable in MultiThreaded Environment?",
+        "options": [
+            "a) DriverManagerDataSource",
+            "b) SingleConnectionDataSource",
+            "c) All of the mentioned",
+            "d) None of the mentione"
+        ],
+        "answer": "c",
+        "explanation": "As its name indicates, this maintains only a single connection that\u2019s reused all the time and never closed. Obviously, it is not suitable in a multithreaded environment."
+    }
+]

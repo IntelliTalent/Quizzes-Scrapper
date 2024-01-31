@@ -1,0 +1,662 @@
+[
+    {
+        "question": "1) What is the maximum possible length of an identifier?",
+        "options": [
+            "16",
+            "32",
+            "64",
+            "None of these above"
+        ],
+        "answer": "None of these above",
+        "explanation": " The maximum possible length of an identifier is not defined in the python language. It can be of any number.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "2) Who developed the Python language?",
+        "options": [
+            "Zim Den",
+            "Guido van Rossum",
+            "Niene Stom",
+            "Wick van Rossum"
+        ],
+        "answer": "Guido van Rossum",
+        "explanation": " Python language was developed by Guido van Rossum in the Netherlands.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "3) In which year was the Python language developed?",
+        "options": [
+            "1995",
+            "1972",
+            "1981",
+            "1989"
+        ],
+        "answer": "1989",
+        "explanation": " Python language was developed by Guido van Rossum in 1989.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "4) In which language is Python written?",
+        "options": [
+            "English",
+            "PHP",
+            "C",
+            "All of the above"
+        ],
+        "answer": "C",
+        "explanation": " Python is written in C programming language, and it is also called CPython.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "5) Which one of the following is the correct extension of the Python file?",
+        "options": [
+            ".py",
+            ".python",
+            ".p",
+            "None of these"
+        ],
+        "answer": ".py",
+        "explanation": " \".py\" is the correct extension of the Python file.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "6) In which year was the Python 3.0 version developed?",
+        "options": [
+            "2008",
+            "2000",
+            "2010",
+            "2005"
+        ],
+        "answer": "2008",
+        "explanation": " Python 3.0 version was developed on December 3, 2008.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "7) What do we use to define a block of code in Python language?",
+        "options": [
+            "Key",
+            "Brackets",
+            "Indentation",
+            "None of these"
+        ],
+        "answer": "Indentation",
+        "explanation": " Python uses indentation to define blocks of code. Indentations are simply spaces or tabs used as an indicator that is part of the indent code child. As used in curly braces C, C++, and Java.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "8) Which character is used in Python to make a single line comment?",
+        "options": [
+            "/",
+            "//",
+            "#",
+            "!"
+        ],
+        "answer": "#",
+        "explanation": " \"#\" character is used in Python to make a single-line comment.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "9) Which of the following statements is correct regarding the object-oriented programming concept in Python?",
+        "options": [
+            "Classes are real-world entities while objects are not real",
+            "Objects are real-world entities while classes are not real",
+            "Both objects and classes are real-world entities",
+            "All of the above"
+        ],
+        "answer": "Objects are real-world entities while classes are not real",
+        "explanation": " None",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "10) Which of the following statements is correct in this python code?",
+        "options": [
+            "It will throw the error as multiple references to the same object is not possible",
+            "id(name1) and id(name2) will have same value",
+            "Both name1 and name2 will have reference to two different objects of class Name",
+            "All of the above"
+        ],
+        "answer": "id(name1) and id(name2) will have same value",
+        "explanation": " \"name1\" and \"name2\" refer to the same object, so id(name1) and id(name2) will have the same value.",
+        "codeblock": "class Name:\r\n\tdef __init__(javatpoint):\r\n\t\tjavatpoint = java\r\nname1=Name(\"ABC\")\r\nname2=name1"
+    },
+    {
+        "question": "11) What is the method inside the class in python language?",
+        "options": [
+            "Object",
+            "Function",
+            "Attribute",
+            "Argument"
+        ],
+        "answer": "Function",
+        "explanation": " Function is also known as the method.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "12) Which of the following declarations is incorrect?",
+        "options": [
+            "_x = 2",
+            "__x = 3",
+            "__xyz__ = 5",
+            "None of these"
+        ],
+        "answer": "None of these",
+        "explanation": " All declarations will execute successfully but at the expense of low readability.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "13) Why does the name of local variables start with an underscore discouraged?",
+        "options": [
+            "To identify the variable",
+            "It confuses the interpreter",
+            "It indicates a private variable of a class",
+            "None of these"
+        ],
+        "answer": "It indicates a private variable of a class",
+        "explanation": " Since there is no concept of private variables in Python language, the major underscore is used to denote variables that cannot be accessed from outside the class.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "14) Which of the following is not a keyword in Python language?",
+        "options": [
+            "val",
+            "raise",
+            "try",
+            "with"
+        ],
+        "answer": "val",
+        "explanation": " \"val\" is not a keyword in python language.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "15) Which of the following statements is correct for variable names in Python language?",
+        "options": [
+            "All variable names must begin with an underscore.",
+            "Unlimited length",
+            "The variable name length is a maximum of 2.",
+            "All of the above"
+        ],
+        "answer": "Unlimited length",
+        "explanation": " None",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "16) Which of the following declarations is incorrect in python language?",
+        "options": [
+            "xyzp = 5,000,000",
+            "x y z p = 5000 6000 7000 8000",
+            "x,y,z,p = 5000, 6000, 7000, 8000",
+            "x_y_z_p = 5,000,000"
+        ],
+        "answer": "x y z p = 5000 6000 7000 8000",
+        "explanation": " Spaces are not allowed in variable names.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "17) Which of the following words cannot be a variable in python language?",
+        "options": [
+            "_val",
+            "val",
+            "try",
+            "_try_"
+        ],
+        "answer": "try",
+        "explanation": " \"try\" is a keyword.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "18) Which of the following operators is the correct option for power(ab)?",
+        "options": [
+            "a ^ b",
+            "a**b",
+            "a ^ ^ b",
+            "a ^ * b"
+        ],
+        "answer": "a**b",
+        "explanation": " The power operator in python is a**b, i.e., 2**3=8.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "19) Which of the following precedence order is correct in Python?",
+        "options": [
+            "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+            "Multiplication, Division, Addition, Subtraction, Parentheses, Exponential",
+            "Division, Multiplication, Addition, Subtraction, Parentheses, Exponential",
+            "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction"
+        ],
+        "answer": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+        "explanation": " PEMDAS (similar to BODMAS).",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "20) Which one of the following has the same precedence level?",
+        "options": [
+            "Division, Power, Multiplication, Addition and Subtraction",
+            "Division and Multiplication",
+            "Subtraction and Division",
+            "Power and Division"
+        ],
+        "answer": "Division and Multiplication",
+        "explanation": " None",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "21) Which one of the following has the highest precedence in the expression?",
+        "options": [
+            "Division",
+            "Subtraction",
+            "Power",
+            "Parentheses"
+        ],
+        "answer": "Parentheses",
+        "explanation": " PEMDAS (similar to BODMAS).",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "22) Which of the following functions is a built-in function in python language?",
+        "options": [
+            "val()",
+            "print()",
+            "print()",
+            "None of these"
+        ],
+        "answer": "print()",
+        "explanation": " The print() function is a built-in function in python language that prints a value directly to the system.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "23) Study the following function:",
+        "options": [
+            "4",
+            "5",
+            "576",
+            "5"
+        ],
+        "answer": "5",
+        "explanation": " The round function is a built-in function in the Python language that round-off the value (like 3.85 is 4), so the output of this function will be 5.",
+        "codeblock": "round(4.576)"
+    },
+    {
+        "question": "24) Which of the following is correctly evaluated for this function?",
+        "options": [
+            "(x**y) / z",
+            "(x / y) * z",
+            "(x**y) % z",
+            "(x / y) / z"
+        ],
+        "answer": "(x**y) % z",
+        "explanation": " None",
+        "codeblock": "pow(x,y,z)"
+    },
+    {
+        "question": "25) Study the following function:",
+        "options": [
+            "False",
+            "True",
+            "0",
+            "Invalid code"
+        ],
+        "answer": "False",
+        "explanation": " If any element is zero, it returns a false value, and if all elements are non-zero, it returns a true value. Hence, the output of this \"all([2,4,0,6])\" function will be false.",
+        "codeblock": "all([2,4,0,6])"
+    },
+    {
+        "question": "26) Study the following program:",
+        "options": [
+            "error",
+            "2 1",
+            "0 3 1",
+            "None of these"
+        ],
+        "answer": "error",
+        "explanation": " Syntax error, there should not be a space between + and =.",
+        "codeblock": "x = 1\r\nwhile True:\r\n    if x % 5 = = 0:\r\n        break\r\n    print(x) \r\n    x + = 1"
+    },
+    {
+        "question": "27) Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\\java.txt''?",
+        "options": [
+            "Infile = open(''d:\\\\java.txt'', ''r'')",
+            "Infile = open(file=''d:\\\\\\java.txt'', ''r'')",
+            "Infile = open(''d:\\java.txt'',''r'')",
+            "Infile = open.file(''d:\\\\java.txt'',''r'')"
+        ],
+        "answer": "Infile = open(''c:\\\\scores.txt'', ''r'')",
+        "explanation": " None",
+        "codeblock": "x = ['XX', 'YY']\r\nfor i in a:\r\n    i.lower()\r\nprint(a)"
+    },
+    {
+        "question": "28) Study the following code:",
+        "options": [
+            "['XX', 'YY']",
+            "['xx', 'yy']",
+            "[XX, yy]",
+            "None of these"
+        ],
+        "answer": "['XX', 'YY']",
+        "explanation": " None",
+        "codeblock": "x = ['XX', 'YY']\r\nfor i in a:\r\n    i.lower()\r\nprint(a)"
+    },
+    {
+        "question": "29) Study the following function:",
+        "options": [
+            "Error",
+            "-6",
+            "6",
+            "6.0"
+        ],
+        "answer": "6.0",
+        "explanation": " This function prints the square of the value.",
+        "codeblock": "import math\r\nabs(math.sqrt(36))"
+    },
+    {
+        "question": "30) Study the following function:",
+        "options": [
+            "False",
+            "Ture",
+            "Invalid code",
+            "None of these"
+        ],
+        "answer": "True",
+        "explanation": " None",
+        "codeblock": "any([5>8, 6>3, 3>1])"
+    },
+    {
+        "question": "31) Study the following statement:",
+        "options": [
+            "a+bc",
+            "abc",
+            "a bc",
+            "a"
+        ],
+        "answer": "abc",
+        "explanation": " In Python, the \"+\" operator acts as a concatenation operator between two strings.",
+        "codeblock": ">>>\"a\"+\"bc\""
+    },
+    {
+        "question": "32) Study the following code:",
+        "options": [
+            "javatpoint",
+            "java",
+            "point",
+            "None of these"
+        ],
+        "answer": "point",
+        "explanation": " Slice operation is performed on the string.",
+        "codeblock": ">>>\"javatpoint\"[5:]"
+    },
+    {
+        "question": "33) The output to execute string.ascii_letters can also be obtained from:?",
+        "options": [
+            "character",
+            "ascii_lowercase_string.digits",
+            "lowercase_string.upercase",
+            "ascii_lowercase+string.ascii_upercase"
+        ],
+        "answer": "string.ascii_lowercase+string.ascii_upercase",
+        "explanation": " None",
+        "codeblock": ">>> str1 = \"javat\"\r\n>>> str2 = \":\"\r\n>>> str3 = \"point\"\r\n>>> str1[-1:]"
+    },
+    {
+        "question": "34) Study the following statements:",
+        "options": [
+            "t",
+            "j",
+            "point",
+            "java"
+        ],
+        "answer": "t",
+        "explanation": " The correct output of this program is \"t\" because -1 corresponds to the last index.",
+        "codeblock": ">>> str1 = \"javat\"\r\n>>> str2 = \":\"\r\n>>> str3 = \"point\"\r\n>>> str1[-1:]"
+    },
+    {
+        "question": "35) Study the following code:",
+        "options": [
+            "javapoint",
+            "java point",
+            "\\njavat\\npoint",
+            "Print the letter r and then javat and then point"
+        ],
+        "answer": "\\njavat\\npoint",
+        "explanation": " None",
+        "codeblock": ">>> print (r\"\\njavat\\npoint\")"
+    },
+    {
+        "question": "36) Study the following statements:",
+        "options": [
+            "33",
+            "63",
+            "0xA + 0xB + 0xC",
+            "None of these"
+        ],
+        "answer": "33",
+        "explanation": " A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum of A, B and C is 33.",
+        "codeblock": ">>> print(0xA + 0xB + 0xC)"
+    },
+    {
+        "question": "37) Study the following program:",
+        "options": [
+            "32",
+            "32 32",
+            "32 None",
+            "Error is generated"
+        ],
+        "answer": "Error is generated",
+        "explanation": " Error is generated because self.o1 was never created.",
+        "codeblock": "class book:\r\n    def __init__(a, b):\r\n        a.o1 = b\r\n \r\nclass child(book):\r\n    def __init__(a, b):\r\n        a.o2 = b\r\n \r\nobj = page(32)\r\nprint \"%d %d\" % (obj.o1, obj.o2)"
+    },
+    {
+        "question": "38) Study the following program:",
+        "options": [
+            "Ann Bob",
+            "Ann Nick",
+            "Wick Bob",
+            "Wick Nick"
+        ],
+        "answer": "Wick Nick",
+        "explanation": " None",
+        "codeblock": "class Std_Name:\t\r\n    def __init__(self, Std_firstName, Std_Phn, Std_lastName):\r\n        self.Std_firstName = Std_firstName\r\n        self. Std_Phn = Std_Phn\r\n        self. Std_lastName = Std_lastName\r\n \r\nStd_firstName = \"Wick\"\r\nname = Std_Name(Std_firstName, 'F', \"Bob\")\r\nStd_firstName = \"Ann\"\r\nname.lastName = \"Nick\"\r\nprint(name.Std_firstName, name.Std_lastName)"
+    },
+    {
+        "question": "39) Study the following statements:",
+        "options": [
+            "18",
+            "-18",
+            "17",
+            "-17"
+        ],
+        "answer": "-18",
+        "explanation": " ASCII value of h is less than the z. Hence the output of this code is 104-122, which is equal to -18.",
+        "codeblock": ">>> print(ord('h') - ord('z'))"
+    },
+    {
+        "question": "40) Study the following program:",
+        "options": [
+            "['xy', 'yz']",
+            "['XY', 'YZ']",
+            "[None, None]",
+            "None of these"
+        ],
+        "answer": "['xy', 'yz']",
+        "explanation": " None",
+        "codeblock": "x = ['xy', 'yz']\r\nfor i in a:\r\n    i.upper()\r\nprint(a)"
+    },
+    {
+        "question": "41) Study the following program:",
+        "options": [
+            "1 2 3",
+            "3 2 1",
+            "1 2",
+            "Invalid syntax"
+        ],
+        "answer": "Invalid syntax",
+        "explanation": " Invalid syntax, because this declaration (i = 1:) is wrong.",
+        "codeblock": "i = 1:\r\nwhile True:\r\n    if i%3 == 0:\r\n        break\r\n    print(i)"
+    },
+    {
+        "question": "42) Study the following program:",
+        "options": [
+            "1 2 3 4 5",
+            "1 2 3 4 5 6",
+            "1 2 3 4 5 6 7",
+            "Invalid syntax"
+        ],
+        "answer": "1 2 3 4 5 6",
+        "explanation": " None",
+        "codeblock": "a = 1\r\nwhile True:\r\n    if a % 7 = = 0:\r\n        break\r\n    print(a)\r\n    a += 1"
+    },
+    {
+        "question": "43) Study the following program:",
+        "options": [
+            "1 2 3",
+            "0 1 2 3",
+            "0 1 2",
+            "3 2 1"
+        ],
+        "answer": "0 1 2",
+        "explanation": " None",
+        "codeblock": "i = 0\r\nwhile i < 5:\r\n    print(i)\r\n    i += 1\r\n    if i == 3:\r\n        break\r\nelse:\r\n    print(0)"
+    },
+    {
+        "question": "44) Study the following program:",
+        "options": [
+            "0 1",
+            "0 1 2",
+            "0 1 2 0",
+            "0 1 2 3"
+        ],
+        "answer": "0 1 2 0",
+        "explanation": " None",
+        "codeblock": "i = 0\r\nwhile i < 3:\r\n    print(i)\r\n    i += 1\r\nelse:\r\n    print(0)"
+    },
+    {
+        "question": "45) Study the following program:",
+        "options": [
+            "xyz",
+            "No output",
+            "x y z",
+            "j j j j j j j.."
+        ],
+        "answer": "No output",
+        "explanation": " \"j\" is not in \"xyz\".",
+        "codeblock": "z = \"xyz\"\r\nj = \"j\"\r\nwhile j in z:\r\n    print(j, end=\" \")"
+    },
+    {
+        "question": "46) Study the following program:",
+        "options": [
+            "PQRS",
+            "pqrs",
+            "qrs",
+            "None of these"
+        ],
+        "answer": "pqrs",
+        "explanation": " None",
+        "codeblock": "x = 'pqrs'\r\nfor i in range(len(x)):\r\n    x[i].upper()\r\nprint (x)"
+    },
+    {
+        "question": "47) Study the following program:",
+        "options": [
+            "a b c",
+            "0 1 2",
+            "0 a \u00a0 1 b \u00a0 2 c",
+            "None of these above"
+        ],
+        "answer": "0 1 2",
+        "explanation": " None",
+        "codeblock": "d = {0: 'a', 1: 'b', 2: 'c'}\r\nfor i in d:\r\n    print(i)"
+    },
+    {
+        "question": "48) Study the following program:",
+        "options": [
+            "{0, 1, 2} {0, 1, 2} {0, 1, 2}",
+            "0 1 2",
+            "Syntax_Error",
+            "None of these above"
+        ],
+        "answer": "0 1 2",
+        "explanation": " None",
+        "codeblock": "d = {0, 1, 2}\r\nfor x in d:\r\n    print(x)"
+    },
+    {
+        "question": "49) Which of the following option is not a core data type in the python language?",
+        "options": [
+            "Dictionary",
+            "Lists",
+            "Class",
+            "All of the above"
+        ],
+        "answer": "Class",
+        "explanation": " Class is not a core data type because it is a user-defined data type.",
+        "codeblock": "MANGO = APPLE"
+    },
+    {
+        "question": "50) What error will occur when you execute the following code?",
+        "options": [
+            "NameError",
+            "SyntaxError",
+            "TypeError",
+            "ValueError"
+        ],
+        "answer": "NamaError",
+        "explanation": " Mango is not defined hence the name error.",
+        "codeblock": "MANGO = APPLE"
+    },
+    {
+        "question": "51) Study the following program:",
+        "options": [
+            "hello2hello2",
+            "hello2",
+            "Cannot perform mathematical operation on strings",
+            "indentationError"
+        ],
+        "answer": "indentationError",
+        "explanation": " None",
+        "codeblock": "def example(a):\r\n    a = a + '1'\r\n     a = a*1\r\n    return a\r\n>>>example(\"javatpoint\")"
+    },
+    {
+        "question": "52) Which of the following data types is shown below?",
+        "options": [
+            "Dictionary",
+            "Tuple",
+            "List",
+            "Stack"
+        ],
+        "answer": "List",
+        "explanation": " Any value can be stored in the list data type.",
+        "codeblock": "L = [2, 54, 'javatpoint', 5]"
+    },
+    {
+        "question": "53) What happens when '2' == 2 is executed?",
+        "options": [
+            "False",
+            "Ture",
+            "ValueError occurs",
+            "TypeError occurs"
+        ],
+        "answer": "False",
+        "explanation": " It only evaluates to false.",
+        "codeblock": "try:\r\n    if '2' != 2:\r\n        raise \"JavaTpoint\"\r\n    else:\r\n        print(\"JavaTpoint has not exist\")\r\nexcept \"JavaTpoint\":\r\n    print (\"JavaTpoint has exist\")"
+    },
+    {
+        "question": "54) Study the following program:",
+        "options": [
+            "invalid code",
+            "JavaTpoint has not exist",
+            "JavaTpoint has exist",
+            "none of these above"
+        ],
+        "answer": "invalid code",
+        "explanation": " A new exception class must inherit from a BaseException, and there is no such inheritance here.",
+        "codeblock": "try:\r\n    if '2' != 2:\r\n        raise \"JavaTpoint\"\r\n    else:\r\n        print(\"JavaTpoint has not exist\")\r\nexcept \"JavaTpoint\":\r\n    print (\"JavaTpoint has exist\")"
+    },
+    {
+        "question": "55) Study the following statement",
+        "options": [
+            "x dictionary z is created",
+            "x and y are the keys of dictionary z",
+            "0 and 1 are the values of dictionary z",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": " All of the above statements is correct regarding Python code.",
+        "codeblock": "z = {\"x\":0, \"y\":1}"
+    }
+]

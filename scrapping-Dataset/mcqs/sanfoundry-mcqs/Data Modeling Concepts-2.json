@@ -1,0 +1,112 @@
+[
+    {
+        "question": "_______________ is a specification for storing and retrieving files that exceed the BSON-document size limit of 16MB.",
+        "options": [
+            "a) DataFS",
+            "b) GridFS",
+            "c) ReadFS",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Instead of storing a file in a single document, GridFS divides a file into parts, or chunks."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) By default GridFS limits chunk size to 255k",
+            "b) GridFS is useful only for storing files that exceed 16MB",
+            "c) When you query a GridFS store for a file, the driver or client will reassemble the chunks as needed",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "GridFS is useful not only for storing files that exceed 16MB but also for storing any files for which you want to access without having to load the entire file into memory."
+    },
+    {
+        "question": "How many does collections GridFS use to store files?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "One collection stores the file chunks, and the other stores file metadata."
+    },
+    {
+        "question": "The default chunk size is changed from 256k to 255k in which version?",
+        "options": [
+            "a) 3.0",
+            "b) 2.4.9",
+            "c) 2.4.10",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The use of the term chunks in the context of GridFS is not related to the use of the term chunks in the context of sharding."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Client libraries provide a convenient, injection free, process to build these objects",
+            "b) MongoDB represents queries as BSON objects",
+            "c) Field names in MongoDB\u2019s query language have semantic meaning",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "If you need to use db.eval() with user supplied values, you can either use a CodeWScope or you can supply extra arguments to your function."
+    },
+    {
+        "question": "Which of the collection in GridFS stores the binary chunks?",
+        "options": [
+            "a) chunks",
+            "b) files",
+            "c) data",
+            "d) log"
+        ],
+        "answer": "a",
+        "explanation": "GridFS places the collections in a common bucket by prefixing each with the bucket name."
+    },
+    {
+        "question": "___________  is the _id is of the data type chosen for the original document in files collections.",
+        "options": [
+            "a) files._id",
+            "b) file._id",
+            "c) fileobj._id",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The default type for MongoDB documents is BSON ObjectId."
+    },
+    {
+        "question": "Which of the following checks and repairs errors and inconsistencies in data storage?",
+        "options": [
+            "a) repairDatabase",
+            "b) repairedDatabase",
+            "c) recoverDatabase",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "repairDatabase is analogous to an fsck command for file systems."
+    },
+    {
+        "question": "The files_id field contains the _id of the chunk\u2019s __________ document.",
+        "options": [
+            "a) parent",
+            "b) child",
+            "c) top",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "GridFS uses a unique, compound index on the chunks collection for the files_id and n fields."
+    },
+    {
+        "question": "Which of the following field allows efficient retrieval of chunks?",
+        "options": [
+            "a) n",
+            "b) name",
+            "c) object",
+            "d) 2n"
+        ],
+        "answer": "a",
+        "explanation": "The GridFS index allows efficient retrieval of chunks using the files_id and n values."
+    }
+]

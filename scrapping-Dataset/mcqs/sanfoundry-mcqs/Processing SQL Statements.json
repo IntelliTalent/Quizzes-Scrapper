@@ -1,0 +1,83 @@
+[
+    {
+        "question": "The general statement-issuing routine is _______________",
+        "options": [
+            "a) mysql_real_query()",
+            "b) mysql_query_real()",
+            "c) mysql_image_query()",
+            "d) mysql_query_image()"
+        ],
+        "answer": "a",
+        "explanation": "The general statement-issuing routine is mysql_real_query(). The statement is provided as a counted string (a string plus a length). The length of the statement string must be kept track of."
+    },
+    {
+        "question": "Which of these is more restrictive?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The statement-issuing function other than \u2018mysql_real_query()\u2019 is \u2018mysql_query()\u2019. It is more restrictive in what it allows in the statement string although it is often easier to use."
+    },
+    {
+        "question": "For failure, mysql_query() returns _______________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) a non-zero"
+        ],
+        "answer": "d",
+        "explanation": "Both of the functions named \u2018mysql_query()\u2019 and \u2018mysql_real_query()\u2019 return zero for statements that succeed. They return non zero for failure. A statement is successfully executed if the server accepts it."
+    },
+    {
+        "question": "How many of the following return rows?",
+        "options": [],
+        "answer": "d",
+        "explanation": "In MySQL, it is important to note that \u2018SELECT\u2019 is not the only statement that returns some rows. Statements like \u2018SHOW\u2019, \u2018DESCRIBE\u2019, \u2018EXPLAIN\u2019 and \u2018CHECK TABLE\u2019 do so as well."
+    },
+    {
+        "question": "mysql_fetch_row() returns _______________",
+        "options": [
+            "a) integer",
+            "b) float",
+            "c) structure",
+            "d) pointer"
+        ],
+        "answer": "d",
+        "explanation": "\u2018mysql_fetch_row()\u2019 returns a MYSQL_ROW value, a pointer to an array of values. If the return value is assigned to a variable named row each value within the row is accessed as row[i]."
+    },
+    {
+        "question": "The columns containing binary value that include null bytes will not print properly using the %s printf() format specifier.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The columns containing binary value including null bytes do not print properly using the %s printf() format specifier. printf() expects a null terminated string. It prints the column value only up to the first null byte."
+    },
+    {
+        "question": "mysql_store_result() does not return a result set.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The functions \u2018mysql_store_result()\u2019 and \u2018mysql_use_result()\u2019 are similar because both of them take a connection handler argument and then return a result set after carrying out processes."
+    },
+    {
+        "question": "How many of the following take a connection handler as an argument?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The functions \u2018mysql_store_result()\u2019 and \u2018mysql_use_result()\u2019 are similar because both of them take a connection handler argument and then return a result set after carrying out the processes."
+    },
+    {
+        "question": "Which of these has a lower memory requirements?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The function \u2018mysql_use_result()\u2019 has lower memory requirements than \u2018mysql_store_result()\u2019 because only enough space to handle a single row at a time needs to be allocated. This can be faster."
+    },
+    {
+        "question": "How many of the following is considered as a special character by \u2018mysql_real_escape_string()\u2019?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The characters that \u2018mysql_real_escape_string()\u2019 considers special are the null byte, single quote, double quote, \u2018backslash\u2019, \u2018newline\u2019, \u2018carriage return\u2019 and the \u2018Control-Z\u2019."
+    }
+]

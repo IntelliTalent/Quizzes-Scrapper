@@ -1,0 +1,112 @@
+[
+    {
+        "question": "PCollection, PTable, and PGroupedTable all support a __________ operation.",
+        "options": [
+            "a) intersection",
+            "b) union",
+            "c) OR",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Union operation takes a series of distinct PCollections that all have the same data type and treats them as a single virtual PCollection."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) StreamPipeline executes the pipeline in-memory on the client",
+            "b) MemPipeline executes the pipeline by converting it to a series of Spark pipelines",
+            "c) MapReduce framework approach makes it easy for the framework to serialize data from the client to the cluster",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SparkPipeline executes the pipeline by converting it to a series of Spark pipelines."
+    },
+    {
+        "question": "Crunch uses Java serialization to serialize the contents of all of the ______ in a pipeline definition.",
+        "options": [
+            "a) Transient",
+            "b) DoFns",
+            "c) Configuration",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Dofus is a Flash based massively multiplayer online role-playing game (MMORPG) developed and published by Ankama Games."
+    },
+    {
+        "question": "Inline DoFn that splits a line up into words is an inner class ____________",
+        "options": [
+            "a) Pipeline",
+            "b) MyPipeline",
+            "c) ReadPipeline",
+            "d) WritePipe"
+        ],
+        "answer": "b",
+        "explanation": "Inner classes contain references to their parent outer classes, so unless MyPipeline implements the Serializable interface, the NotSerializableException will be thrown when Crunch tries to serialize the inner DoFn."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) DoFns also have a number of helper methods for working with Hadoop Counters, all named increment",
+            "b) The Crunch APIs contain a number of useful subclasses of DoFn that handle common data processing scenarios and are easier to write and test",
+            "c) FilterFn class defines a single abstract method",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Counters are an incredibly useful way of keeping track of the state of long-running data pipelines and detecting any exceptional conditions that occur during processing"
+    },
+    {
+        "question": "DoFns provide direct access to the __________ object that is used within a given Map or Reduce task via the getContext method.",
+        "options": [
+            "a) TaskInputContext",
+            "b) TaskInputOutputContext",
+            "c) TaskOutputContext",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are also a number of helper methods for working with the objects associated with the TaskInputOutputContext"
+    },
+    {
+        "question": "The top-level ___________ package contains three of the most important specializations in Crunch.",
+        "options": [
+            "a) org.apache.scrunch",
+            "b) org.apache.crunch",
+            "c) org.apache.kcrunch",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Each of these specialized DoFn implementations has associated methods on the PCollection, PTable, and PGroupedTable interfaces to support common data processing steps."
+    },
+    {
+        "question": "The Avros class also has a _____ method for creating PTypes for POJOs using Avro\u2019s reflection-based serialization mechanism.",
+        "options": [
+            "a) spot",
+            "b) reflects",
+            "c) gets",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are a couple of restrictions on the structure of the POJO."
+    },
+    {
+        "question": "The ______________ class defines a configuration parameter named LINES_PER_MAP that controls how the input file is split.",
+        "options": [
+            "a) NLineInputFormat",
+            "b) InputLineFormat",
+            "c) LineInputFormat",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "We can set the value of parameter via the Source interface\u2019s inputConf method."
+    },
+    {
+        "question": "The ________ class allows developers to exercise precise control over how data is partitioned, sorted, and grouped by the underlying execution engine.",
+        "options": [
+            "a) Grouping",
+            "b) GroupingOptions",
+            "c) RowGrouping",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The GroupingOptions class is immutable."
+    }
+]

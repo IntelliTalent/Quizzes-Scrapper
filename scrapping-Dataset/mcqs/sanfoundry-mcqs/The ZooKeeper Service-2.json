@@ -1,0 +1,112 @@
+[
+    {
+        "question": "You need to have _________ installed before running ZooKeeper.",
+        "options": [
+            "a) Java",
+            "b) C",
+            "c) C++",
+            "d) SQLGUI"
+        ],
+        "answer": "a",
+        "explanation": "Client bindings are available in several other languages."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) All znodes are ephemeral, which means they are describing a \u201ctemporary\u201d state",
+            "b) /hbase/replication/state contains the list of RegionServers in the main cluster",
+            "c) Offline snapshots are coordinated by the Master using ZooKeeper to communicate with the RegionServers using a two-phase-commit-like transaction",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Although the Replication znodes do not describe a temporary state, they are meant to be the source of truth for the replication state, describing the replication state of each machine."
+    },
+    {
+        "question": "How many types of special znodes are present in Zookeeper?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "There are two special types of znode: sequential and ephemeral."
+    },
+    {
+        "question": "To register a \u201cwatch\u201d on a znode data, you need to use the _______ commands to access the current content or metadata.",
+        "options": [
+            "a) stat",
+            "b) put",
+            "c) receive",
+            "d) gets"
+        ],
+        "answer": "a",
+        "explanation": "ZooKeeper can also notify you of changes in a znode content or changes in a znode children."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) All the znodes are prefixed using the default /hbase location",
+            "b) ZooKeeper provides an interactive shell that allows you to explore the ZooKeeper state",
+            "c) The znodes that you\u2019ll most often see are the ones that coordinate operations like Region Assignment",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The HBase root znode path is configurable using hbase-site.xml, and by default the location is \u201c/hbase\u201d."
+    },
+    {
+        "question": "_______ has a design policy of using ZooKeeper only for transient data.",
+        "options": [
+            "a) Hive",
+            "b) Imphala",
+            "c) Hbase",
+            "d) Oozie"
+        ],
+        "answer": "c",
+        "explanation": "If the HBase ZooKeeper data is removed, only the transient operations are affected \u2013 data can continue to be written and read to/from HBase."
+    },
+    {
+        "question": "Zookeeper keep track of the cluster state such as the ______ table location.",
+        "options": [
+            "a) DOMAIN",
+            "b) NODE",
+            "c) ROOT",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Zookeeper keeps track of list of online RegionServers, unassigned Regions."
+    },
+    {
+        "question": "The ________ master will register its own address in this znode at startup, making this znode the source of truth for identifying which server is the Master.",
+        "options": [
+            "a) active",
+            "b) passive",
+            "c) region",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Each inactive Master will register itself as backup Master by creating a sub-znode."
+    },
+    {
+        "question": "___________ is used to decommission more than one RegionServer at a time by creating sub-znodes.",
+        "options": [
+            "a) /hbase/master",
+            "b) /hbase/draining",
+            "c) /hbase/passive",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "/hbase/draining lets you decommission multiple RegionServers without having the risk of regions temporarily moved to a RegionServer that will be decommissioned later."
+    },
+    {
+        "question": "The ______ znode is used for synchronizing the changes made to the _acl_ table by the grant/revoke commands.",
+        "options": [
+            "a) zcl",
+            "b) acl",
+            "c) scl",
+            "d) bnl"
+        ],
+        "answer": "b",
+        "explanation": "Each table will have a sub-znode (/hbase/acl/tableName) containing the ACLs of the table."
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "question": "Public key encryption/decryption is not preferred because",
+        "options": [
+            "a) it is slow",
+            "b) it is hardware/software intensive",
+            "c) it has a high computational load",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Due to high computational load ( thus being slow ) public key systems are not preferred for large cryptosystems and large networks."
+    },
+    {
+        "question": "Which one of the following is not a public key distribution means?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Hashing Certificates",
+            "c) Publicly available directories",
+            "d) Public-Key authority"
+        ],
+        "answer": "b",
+        "explanation": "Hashing certificates is some I just made up. It doesn\u2019t exist noob."
+    },
+    {
+        "question": "What is the PGP stand for?",
+        "options": [
+            "a) Permuted Gap Permission",
+            "b) Permuted Great Privacy",
+            "c) Pretty Good Permission",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "PGP stands for Pretty Good Privacy."
+    },
+    {
+        "question": "PGP makes use of which cryptographic algorithm?",
+        "options": [
+            "a) DES",
+            "b) AES",
+            "c) RSA",
+            "d) Rabin"
+        ],
+        "answer": "c",
+        "explanation": "PGP recommends the use of RSA."
+    },
+    {
+        "question": "USENET is related to which of the following Public Key distribution schemes?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Public announcements",
+            "c) Publicly available directories",
+            "d) Public-Key authority"
+        ],
+        "answer": "b",
+        "explanation": " Many PGP users append their public key to messages that they send to public forums, such as USENET and Internet mailing lists."
+    },
+    {
+        "question": "Which of the following public key distribution systems is most secure?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Public announcements",
+            "c) Publicly available directories",
+            "d) Public-Key authority"
+        ],
+        "answer": "a",
+        "explanation": "Public certificates are the most secure key distribution/management systems right now."
+    },
+    {
+        "question": "Which systems use a timestamp?",
+        "options": [
+            "i) Public-Key Certificates"
+        ],
+        "answer": "c",
+        "explanation": "Public announcements and Public Certificates involve the use of timestamps."
+    },
+    {
+        "question": "Which of these systems use timestamps as an expiration date?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Public announcements",
+            "c) Publicly available directories",
+            "d) Public-Key authority"
+        ],
+        "answer": "a",
+        "explanation": "Public key certificates use timestamps as expiration dates."
+    },
+    {
+        "question": "Which system uses a trusted third party interface?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Public announcements",
+            "c) Publicly available directories",
+            "d) Public-Key authority"
+        ],
+        "answer": "a",
+        "explanation": "Public-Key certificates use a trusted third party interface."
+    },
+    {
+        "question": "Publicly Available directory is more secure than which other system?",
+        "options": [
+            "a) Public-Key Certificates",
+            "b) Public announcements",
+            "c) Public-Key authority",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Publicly Available directory is more secure than Public announcements."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_________ shut down the mongod instance for one of the non-primary members of your replica set.",
+        "options": [
+            "a) db.shutdown()",
+            "b) db.shutdownServer()",
+            "c) db.shutServer()",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Restart this mongod as a standalone instance running on a different port and without the \u2013replSet parameter."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) To change the size of the oplog, you must perform maintenance on each member of the replica set in turn",
+            "b) Always start rolling replica set maintenance with the secondaries, and finish with the maintenance on primary member",
+            "c) The oplog exists internally as a capped collection",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In most cases the default oplog size is an acceptable size; however, in some situations you may need a larger or smaller oplog."
+    },
+    {
+        "question": "To finish the rolling maintenance operation, step down the primary with the _________ method.",
+        "options": [
+            "a) rs.syncFrom()",
+            "b) rs.stepDown()",
+            "c) rs.synchrepl()",
+            "d) secondary"
+        ],
+        "answer": "b",
+        "explanation": "The replica set member will recover and \u201ccatch up\u201d before it is eligible for election to primary."
+    },
+    {
+        "question": "You also can force a member never to become primary by setting its priority value to ___________",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 0"
+        ],
+        "answer": "d",
+        "explanation": "You can force a replica set member to become primary by giving it a higher priority value than any other member in the set."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Replica sets allow a MongoDB deployment to remain available during the majority of a maintenance window",
+            "b) Always start mongod with the same user, even when restarting a replica set member as a standalone instance",
+            "c) The secondary takes time to catch up to the primary",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "From the mongo shell, use the rs.status() command to verify that the member has caught up from the RECOVERING state to the SECONDARY state."
+    },
+    {
+        "question": "A replica set member becomes _________ when its replication process falls so far behind that the primary overwrites oplog entries the member has not yet replicated.",
+        "options": [
+            "a) stale",
+            "b) state",
+            "c) dead",
+            "d) secondary"
+        ],
+        "answer": "a",
+        "explanation": "When this occurs, you must completely resynchronize the member by removing its data and performing an initial sync."
+    },
+    {
+        "question": "You cannot use a _________backup for the data files, only a snapshot backup.",
+        "options": [
+            "a) mongorestore",
+            "b) mongodump",
+            "c) bsondump",
+            "d) rs.syncFrom()"
+        ],
+        "answer": "b",
+        "explanation": "If copying data files, you must copy the content of the local database."
+    },
+    {
+        "question": "You can use the ________ setting in Replica Set Configuration to disable chained replication for situations where chained replication is causing lag.",
+        "options": [
+            "a) chainingAllowed",
+            "b) chainingDisAllowed",
+            "c) chainingAllow",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB enables chained replication by default."
+    },
+    {
+        "question": "For most replica sets, the hostnames in the _________ field never change.",
+        "options": [
+            "a) tag",
+            "b) host",
+            "c) rs",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Always use resolvable hostnames for the value of the host field in the replica set configuration to avoid confusion and complexity."
+    }
+]

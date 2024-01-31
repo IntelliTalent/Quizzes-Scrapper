@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which of these clauses will be executed even if no exceptions are found?",
+        "options": [
+            "a) throws",
+            "b) finally",
+            "c) throw",
+            "d) catch"
+        ],
+        "answer": "b",
+        "explanation": "finally keyword is used to define a set of instructions that will be executed irrespective of whether the exception is found or not."
+    },
+    {
+        "question": "A single try block must be followed by which of these?",
+        "options": [
+            "a) finally",
+            "b) catch",
+            "c) Both finally & catch",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Try block can be followed by any of finally or catch block, try block checks for exceptions and work is performed by finally and catch block as per the exception."
+    },
+    {
+        "question": "Which of these exceptions handles the divide by zero error?",
+        "options": [
+            "a) ArithmeticException",
+            "b) MathException",
+            "c) IllegalAccessException",
+            "d) IllegarException"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of these exceptions will occur if we try to access the index of an array beyond its length?",
+        "options": [
+            "a) ArithmeticException",
+            "b) ArrayException",
+            "c) ArrayArguementException",
+            "d) IndexOutOfRangeException"
+        ],
+        "answer": "d",
+        "explanation": "IndexOutOfRangeException is a built in exception that is caused when we try to access an index location which is beyond the length of an array."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Try block is throwing NullPointerException but the catch block is used to counter Arithmetic Exception. Hence NullPointerException occurs since no catch is there which can handle it, runtime error occurs."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The inner try block does not have a catch which can tackle IndexOutOfRangeException hence finally is executed which prints \u2018A\u2019. The outer try block does have catch for IndexOutOfBoundException exception but no such exception occurs in it hence its catch is never executed and only \u2018A\u2019 is printed."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following keywords is used by the calling function to guard against the exception that is thrown by called function?",
+        "options": [
+            "a) try",
+            "b) throw",
+            "c) throws",
+            "d) catch"
+        ],
+        "answer": "c",
+        "explanation": "If a method is capable of causing an exception that it does not handle. It must specify this behaviour so that callers of the method can guard themselves against that exception. This is done by using throws clause in methods declaration."
+    },
+    {
+        "question": "Which of these classes is related to all the exceptions that are explicitly thrown?",
+        "options": [
+            "a) Error",
+            "b) Exception",
+            "c) Throwable",
+            "d) Throw"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    }
+]

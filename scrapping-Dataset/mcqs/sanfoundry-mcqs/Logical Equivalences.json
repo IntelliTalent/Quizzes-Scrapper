@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The compound propositions p and q are called logically equivalent if ________ is a tautology.",
+        "options": [
+            "a) p \u2194 q",
+            "b) p \u2192 q",
+            "c) \u00ac (p \u2228 q)",
+            "d) \u00acp \u2228 \u00acq"
+        ],
+        "answer": "a",
+        "explanation": "Definition of logical equivalence."
+    },
+    {
+        "question": "p \u2192 q is logically equivalent to ________",
+        "options": [
+            "a) \u00acp \u2228 \u00acq",
+            "b) p \u2228 \u00acq",
+            "c) \u00acp \u2228 q",
+            "d) \u00acp \u2227 q"
+        ],
+        "answer": "c",
+        "explanation": "(p \u2192 q) \u2194 (\u00acp \u2228 q) is tautology."
+    },
+    {
+        "question": "p \u2228 q is logically equivalent to ________",
+        "options": [
+            "a) \u00acq \u2192 \u00acp",
+            "b) q \u2192 p",
+            "c) \u00acp \u2192 \u00acq",
+            "d) \u00acp \u2192 q"
+        ],
+        "answer": "d",
+        "explanation": "(p \u2228 q) \u2194 (\u00acp \u2192 q) is tautology."
+    },
+    {
+        "question": "\u00ac (p \u2194 q) is logically equivalent to ________",
+        "options": [
+            "a) q\u2194p",
+            "b) p\u2194\u00acq",
+            "c) \u00acp\u2194\u00acq",
+            "d) \u00acq\u2194\u00acp"
+        ],
+        "answer": "b",
+        "explanation": "\u00ac(p\u2194q)\u2194(p\u2194\u00acq) is tautology."
+    },
+    {
+        "question": "p \u2227 q is logically equivalent to ________",
+        "options": [
+            "a) \u00ac (p \u2192 \u00acq)",
+            "b) (p \u2192 \u00acq)",
+            "c) (\u00acp \u2192 \u00acq)",
+            "d) (\u00acp \u2192 q)"
+        ],
+        "answer": "a",
+        "explanation": "(p \u2227 q) \u2194 (\u00ac(p \u2192 \u00acq)) is tautology."
+    },
+    {
+        "question": "Which of the following statement is correct?",
+        "options": [
+            "a) p \u2228 q \u2261 q \u2228 p",
+            "b) \u00ac(p \u2227 q) \u2261 \u00acp \u2228 \u00acq",
+            "c) (p \u2228 q) \u2228 r \u2261 p \u2228 (q \u2228 r)",
+            "d) All of mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Verify using truth table, all are correct."
+    },
+    {
+        "question": "p \u2194 q is logically equivalent to ________",
+        "options": [
+            "a) (p \u2192 q) \u2192 (q \u2192 p)",
+            "b) (p \u2192 q) \u2228 (q \u2192 p)",
+            "c) (p \u2192 q) \u2227 (q \u2192 p)",
+            "d) (p \u2227 q) \u2192 (q \u2227 p)"
+        ],
+        "answer": " c",
+        "explanation": "(p \u2194 q) \u2194 ((p \u2192 q) \u2227 (q \u2192 p)) is tautology."
+    },
+    {
+        "question": "(p \u2192 q) \u2227 (p \u2192 r) is logically equivalent to ________",
+        "options": [
+            "a) p \u2192 (q \u2227 r)",
+            "b) p \u2192 (q \u2228 r)",
+            "c) p \u2227 (q \u2228 r)",
+            "d) p \u2228 (q \u2227 r)"
+        ],
+        "answer": "a",
+        "explanation": "((p \u2192 q) \u2227 (p \u2192 r)) \u2194 (p \u2192 (q \u2227 r)) is tautology."
+    },
+    {
+        "question": "(p \u2192 r) \u2228 (q \u2192 r) is logically equivalent to ________",
+        "options": [
+            "a) (p \u2227 q) \u2228 r",
+            "b) (p \u2228 q) \u2192 r",
+            "c) (p \u2227 q) \u2192 r",
+            "d) (p \u2192 q) \u2192 r"
+        ],
+        "answer": "c",
+        "explanation": "((p \u2192 r) \u2228 (q \u2192 r)) \u2194 ((p \u2227 q) \u2192 r) is tautology."
+    },
+    {
+        "question": "\u00ac (p \u2194 q) is logically equivalent to ________",
+        "options": [
+            "a) p \u2194 \u00acq",
+            "b) \u00acp \u2194 q",
+            "c) \u00acp \u2194 \u00acq",
+            "d) \u00acq \u2194 \u00acp"
+        ],
+        "answer": "a",
+        "explanation": "(\u00ac (p \u2194 q)) \u2194 (p \u2194 \u00acq) is tautology."
+    }
+]

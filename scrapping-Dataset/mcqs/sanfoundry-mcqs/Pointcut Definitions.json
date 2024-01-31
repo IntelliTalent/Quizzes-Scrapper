@@ -1,0 +1,141 @@
+[
+    {
+        "question": "PointCut definitions can\u2019t be reused again",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Like many other AOP implementations, AspectJ also allows you to define a pointcut independently to be reused in multiple advices."
+    },
+    {
+        "question": "Annotation used to refer poincuts?",
+        "options": [
+            "a) @Pointcut",
+            "b) @PointcutExecution",
+            "c) @PointcutBefore",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In an AspectJ aspect, a pointcut can be declared as a simple method with the @Pointcut annotation."
+    },
+    {
+        "question": " what will be the output of the code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": "When you refer to this pointcut, you have to include the class name as well. If the class is not located in the same package as the aspect, you have to include the package name also."
+    },
+    {
+        "question": "Spring AOP only supports method execution join points for the beans in its IoC container",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If you use a pointcut expression out of this scope, an IllegalArgumentException will be thrown."
+    },
+    {
+        "question": "Is the following pointcut expression correct?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) If every target class is in same package",
+            "d) Depends where target class is located"
+        ],
+        "answer": "c",
+        "explanation": "You can omit the package name if the target class or interface is located in the same package as this aspect."
+    },
+    {
+        "question": "The annotations must be added to the implementation class but not the interface",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Annotations must be added to the implementation class but not the interface, as they will not be inherited."
+    },
+    {
+        "question": "Which of the following pattern is used to match bean name?",
+        "options": [
+            "a) bean(*Calculator)",
+            "b) bean(Calculator)",
+            "c) bean(com.appress.spring.Calculator)",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The following pointcut expression matches beans whose name ends with Calculator."
+    },
+    {
+        "question": "Bean name patterns are supported by all configurations(XML,Java,AspectJ)",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "This pointcut type is supported only in XML-based Spring AOP configurations, not in AspectJ annotations."
+    },
+    {
+        "question": "Expressions which returns Parameters of pointcuts?",
+        "options": [
+            "a) target",
+            "b) args",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The expressions target() and args() capture the target object and argument values of the current join point and expose them as pointcut parameters."
+    },
+    {
+        "question": "Are logical operators valid in pointcut expressions?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "In AspectJ, pointcut expressions can be combined with the operators && (and), || (or), and ! (not)."
+    },
+    {
+        "question": "Method which checks if all target classes are matched",
+        "options": [
+            "a) matches()",
+            "b) pair()",
+            "c) matchTargetClass()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If the matches() method always returns true, all target classes will be matched."
+    },
+    {
+        "question": "Spring supports operations on pointcuts:-",
+        "options": [
+            "a) notably",
+            "b) union",
+            "c) intersection",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Union means the methods that either pointcut matches."
+    },
+    {
+        "question": "Pointcuts can be composed using:-",
+        "options": [
+            "a) org.springframework.aop.support.Pointcuts class",
+            "b) composablePointcut class",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Using the static methods in the org.springframework.aop.support.Pointcuts class, or using the ComposablePointcut class in the same package."
+    },
+    {
+        "question": "Pointcut used to parse an AspectJ pointcut expression string",
+        "options": [
+            "a) org.springframework.aop.aspectj.AspectJExpressionPointcut",
+            "b) org.springframework.aop.aspectj.AspectJExpressionPointcutString",
+            "c) org.springframework.aop.aspectj.AspectJExpressionString",
+            "d) org.springframework.aop.aspectj.AspectJPointcuttoString"
+        ],
+        "answer": "a",
+        "explanation": "Since 2.0, the most important type of pointcut used by Spring is org.springframework.aop.aspectj.AspectJExpressionPointcut. This is a pointcut that uses an AspectJ supplied library to parse an AspectJ pointcut expression string."
+    }
+]

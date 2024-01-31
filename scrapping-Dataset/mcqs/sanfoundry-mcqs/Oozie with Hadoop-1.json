@@ -1,0 +1,112 @@
+[
+    {
+        "question": "__________ is a server based Bundle Engine that provides a higher-level oozie abstraction that will batch a set of coordinator applications.",
+        "options": [
+            "a) Oozie v2",
+            "b) Oozie v3",
+            "c) Oozie v4",
+            "d) Oozie v5"
+        ],
+        "answer": "c",
+        "explanation": "Oozie combines multiple jobs sequentially into one logical unit of work."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Oozie is a scalable, reliable and extensible system",
+            "b) Oozie is a server-based Workflow Engine specialized in running workflow jobs",
+            "c) Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Jobs include streaming as well as system specific jobs."
+    },
+    {
+        "question": "___________ is a Java Web application used to schedule Apache Hadoop jobs.",
+        "options": [
+            "a) Impala",
+            "b) Oozie",
+            "c) Mahout",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Oozie is a workflow scheduler system to manage Hadoop jobs."
+    },
+    {
+        "question": "Oozie Workflow jobs are Directed ________ graphs  of actions.",
+        "options": [
+            "a) Acyclical",
+            "b) Cyclical",
+            "c) Elliptical",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Oozie is a framework allowing to combine multiple Map/Reduce jobs into a logical unit of work."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Oozie v2 is a server based Coordinator Engine specialized in running workflows based on time and data triggers",
+            "b) Oozie v1 is a server based Workflow Engine specialized in running workflow jobs with actions that execute Hadoop Map/Reduce and Pig jobs",
+            "c) A Workflow application is DAG that coordinates the following types of actions",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Cycle in workflows are not supported."
+    },
+    {
+        "question": "Oozie v2 is a server based ___________ Engine specialized in running workflows based on time and data triggers.",
+        "options": [
+            "a) Compactor",
+            "b) Collector",
+            "c) Coordinator",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Oozie v2 can continuously run workflows based on time and data."
+    },
+    {
+        "question": "Which of the following is one of the possible state for a workflow jobs?",
+        "options": [
+            "a) PREP",
+            "b) START",
+            "c) RESUME",
+            "d) END"
+        ],
+        "answer": "a",
+        "explanation": "Possible states for a workflow jobs are: PREP, RUNNING, SUSPENDED, SUCCEEDED, KILLED and FAILED."
+    },
+    {
+        "question": "Oozie can make _________ callback notifications on action start events and workflow end events.",
+        "options": [
+            "a) TCP",
+            "b) HTTP",
+            "c) IP",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In the case of an action start failure in a workflow job, depending on the type of failure, Oozie will attempt automatic retries, it will request a manual retry or it will fail the workflow job."
+    },
+    {
+        "question": "A workflow definition is a ______ with control flow nodes or action nodes.",
+        "options": [
+            "a) CAG",
+            "b) DAG",
+            "c) BAG",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Oozie does not support cycles in workflow definitions, workflow definitions must be a strict DAG."
+    },
+    {
+        "question": "Which of the following workflow definition language is XML based?",
+        "options": [
+            "a) hpDL",
+            "b) hDL",
+            "c) hiDL",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "hpDL stands for Hadoop Process Definition Language."
+    }
+]

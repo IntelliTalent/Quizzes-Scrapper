@@ -1,0 +1,125 @@
+[
+    {
+        "question": "What does NP stands for in complexity classes theory?",
+        "options": [
+            "a) Non polynomial",
+            "b) Non-deterministic polynomial",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "NP is said to be one of the most fundamental complexity classes. NP is an acronym for   Non deterministic polynomial time."
+    },
+    {
+        "question": "The hardest of NP problems can be:",
+        "options": [
+            "a) NP-complete",
+            "b) NP-hard",
+            "c) P",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "NP class contains many important problems, the hardest of which is NP-complete, whose solution is sufficient to deal with any other NP problem in polynomial time."
+    },
+    {
+        "question": "Which of the following contains NP?",
+        "options": [
+            "a) PSPACE",
+            "b) EXPSPACE",
+            "c) Both PSPACE and EXPSPACE",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "It is sufficient to construct a PSPACE machine that loops over all proof strings and feeds each one to a polynomial time verifier. It is also contained in EXPTIME, since the same algorithm operates in exponential time."
+    },
+    {
+        "question": "Travelling sales man problem belongs to which of the class?",
+        "options": [
+            "a) P",
+            "b) NP",
+            "c) Linear",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Travelling Salesman Problem: Given an input matrix of distances between n cities, this problem is to determine if there is a route visiting all cities with total distance less than k."
+    },
+    {
+        "question": "State true or false?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "This is just a commutative property of NP complexity class where a problem is said to be in NP if it can be solved using an algorithm which was used to solve another NP problem in polynomial amount of time."
+    },
+    {
+        "question": "A problem which is both _______ and _________ is said to be NP complete.",
+        "options": [
+            "a) NP, P",
+            "b) NP, NP hard",
+            "c) P, P complete",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A problem is said to be NP Hard if an algorithm for solving the problem can be translated from for solving any other problem. It is easier to show a problem NP than showing it Np Hard."
+    },
+    {
+        "question": "Which of the following is incorrect for the given phrase",
+        "options": [
+            "a) NP Problems",
+            "b) During control flow, non deterministic algorithm may have more than one choice",
+            "c) If the choices that non deterministic algorithm makes are correct, the amount of time it takes is bounded by polynomial time.",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " Primality testing is a simple example. To decide whether a number is prime or not, one simply selects non deterministically a number checks whether factors exist for the number or not."
+    },
+    {
+        "question": "In terms of NTIME, NP problems are the set of decision problems which can be solved using a non deterministic machine in _______ time.",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The complexity class NP can be defined in terms of NTIME as:"
+    },
+    {
+        "question": "Which of the following can be used to define NP complexity class?",
+        "options": [
+            "a) Verifier",
+            "b) Polynomial time",
+            "c) Both Verifier and Polynomial time",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NP can be defined using deterministic turing machines as verifiers."
+    },
+    {
+        "question": "Which of the following are not in NP?",
+        "options": [
+            "a) All problems in P",
+            "b) Boolean Satisfiability problems",
+            "c) Integer factorization problem",
+            "d) None of the mentioned",
+            "a) All problems in P",
+            "b) Decision version of Integer factorization method",
+            "c) Graph Isomorphism Problem",
+            "d) All NP complete problems, etc."
+        ],
+        "answer": "d",
+        "explanation": "This is a list of some problems which are in NP:"
+    },
+    {
+        "question": "Which of the following does not belong to the closure properties of NP class?",
+        "options": [
+            "a) Union",
+            "b) Concatenation",
+            "c) Reversal",
+            "d) Complement"
+        ],
+        "answer": "d",
+        "explanation": "It is unknown about the closure property-complement for the complexity class NP. The question is so called NP versus co-NP problem."
+    }
+]

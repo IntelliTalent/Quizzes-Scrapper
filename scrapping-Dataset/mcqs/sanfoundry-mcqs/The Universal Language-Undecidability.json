@@ -1,0 +1,158 @@
+[
+    {
+        "question": "The decision problem is the function from string to ______________",
+        "options": [
+            "a) char",
+            "b) int",
+            "c) boolean",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The decision problem requires checking of input (string) has some property or not. That is a string to boolean transaction."
+    },
+    {
+        "question": "A language L is said to be ____________ if there is a turing machine M such that L(M)=L and M halts at every point.",
+        "options": [
+            "a) Turing acceptable",
+            "b) decidable",
+            "c) undecidable",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Decidability refers to the decision problem and existence of a effective method for determining membership, and return true and false accordingly rather that going into a loop forever."
+    },
+    {
+        "question": " Which among the following are undecidable theories?",
+        "options": [
+            "a) The first order theory of boolean algebra",
+            "b) The first order theory of Euclidean geomentry",
+            "c) The first order theory of hyperbolic geometry",
+            "d) The first order theory of the natural number with addition, multiplication, and equality"
+        ],
+        "answer": "d",
+        "explanation": "Tarski and Mostowski in 1949, established that the first order theory of natural numbers with addition, multiplication, and equality is an undecidable theory. Others mentioned are decidable theories."
+    },
+    {
+        "question": "Rec-DFA = {",
+        "options": [
+            "a) Undecidable",
+            "b) Decidable",
+            "c) Non finite",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Under decidablity of regular language properties we have the following lemma which states that A DFA which recognizes an input w is decidable."
+    },
+    {
+        "question": "Which among the following are semi decidable?",
+        "options": [
+            "a) Empty-DFA",
+            "b) Rec-NFA",
+            "c) Infinite-DFA",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All are the properties of regular languages and all are decidable languages."
+    },
+    {
+        "question": "The language accepted by a turing machine is called ____________",
+        "options": [
+            "a) Recursive Ennumerable",
+            "b) Recursive",
+            "c) Recursive Ennumerable and Recursive",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The language accepted by Turing machines are called recursively ennumerable (RE), and the subset of RE languages that are accepted by a turing machine that always halts are called recursive."
+    },
+    {
+        "question": "Decidable can be taken as a synonym to:",
+        "options": [
+            "a) recursive",
+            "b) non recursive",
+            "c) recognizable",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "We can refer to languages as \u2018recursive\u2019 and problems as \u2018decidable\u2019. If a language is not recursive, then we call the problem expressed by that language undecidable."
+    },
+    {
+        "question": "The problems which have no algorithm, regardless of whether or not they are accepted by a turing machine that fails to halts on some input are referred as:",
+        "options": [
+            "a) Decidable",
+            "b) Undecidable",
+            "c) Computable",
+            "d) None of the mentioned",
+            "a) Those that have an algorithm",
+            "b) Intractable problems: Those that are only solved by a turing machine that may run forever on inputs they do not accept."
+        ],
+        "answer": "b",
+        "explanation": "The problems that can be solved by a turing machine can divided into two classes:"
+    },
+    {
+        "question": "An algorithm is called efficient if it runs in ____________ time on a serial computer.",
+        "options": [
+            "a) polynomial",
+            "b) non polynomial",
+            "c) logarithmic",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Example: Runtimes of efficient algorithms"
+    },
+    {
+        "question": " A problem is called __________ if its has an efficient algorithm for itself.",
+        "options": [
+            "a) tractable",
+            "b) intractable",
+            "c) computational",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A problem is called intractable if there is an efficient (i.e. polynomial time) algorithm that solves it. A problem is called intractable if there exists no efficient algorithm that solves it."
+    },
+    {
+        "question": "A formal language is recursive if :",
+        "options": [
+            "a) a total turing machine exists",
+            "b) a turing machine that halts for every input",
+            "c) turing machine rejects if the input does not belong to the language",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A formal language is called recursive if it is a recursive subset of the set of all possible finite sequences over the alphabet of the language."
+    },
+    {
+        "question": "Recursive languages are also known as:",
+        "options": [
+            "a) decidable",
+            "b) undecidable",
+            "c) sometimes decidable",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A language is recursive if there exists a turing machine such that it halts i.e. accepts if the input belongs to the language else rejects. It is better called Turing decidable language."
+    },
+    {
+        "question": "The class of recursive language is known as:",
+        "options": [
+            "a) R",
+            "b) RC",
+            "c) RL",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "R is the set of all recursive languages, a class of decision problems solvable by turing machines. Although, R is also used for the class RP."
+    },
+    {
+        "question": "Which of the following was not a part of Chomsky hierarchy?",
+        "options": [
+            "a) Context sensitive grammar",
+            "b) Unrestricted grammar",
+            "c) Recursive grammar",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All recursive languages are recursively enumerable. All regular, context free and context sensitive languages are recursive."
+    }
+]

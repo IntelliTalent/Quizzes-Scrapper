@@ -1,0 +1,141 @@
+[
+    {
+        "question": "Euclid\u2019s algorithm is used for finding ___________",
+        "options": [
+            "a) GCD of two numbers",
+            "b) GCD of more than three numbers",
+            "c) LCM of two numbers",
+            "d) LCM of more than two numbers"
+        ],
+        "answer": "a",
+        "explanation": "Euclid\u2019s algorithm is basically used to find the GCD of two numbers. It cannot be directly applied to three or more numbers at a time."
+    },
+    {
+        "question": "Who invented Euclid\u2019s algorithm?",
+        "options": [
+            "a) Sieve",
+            "b) Euclid",
+            "c) Euclid-Sieve",
+            "d) Gabriel lame"
+        ],
+        "answer": "b",
+        "explanation": "Euclid invented Euclid\u2019s algorithm. Sieve provided an algorithm for finding prime numbers. Gabriel lame proved a theorem in Euclid\u2019s algorithm."
+    },
+    {
+        "question": "If 4 is the GCD of 16 and 12, What is the GCD of 12 and 4?",
+        "options": [
+            "a) 12",
+            "b) 6",
+            "c) 4",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "Euclid\u2019s algorithm states that the GCD of two numbers does not change even if the bigger number is replaced by a difference of two numbers. So, GCD of 16 and 12 and 12 and (16-12)=4 is the same."
+    },
+    {
+        "question": "Which of the following is not an application of Euclid\u2019s algorithm?",
+        "options": [
+            "a) Simplification of fractions",
+            "b) Performing divisions in modular arithmetic",
+            "c) Solving quadratic equations",
+            "d) Solving diophantine equations"
+        ],
+        "answer": "c",
+        "explanation": "Solving quadratic equations is not an application of Euclid\u2019s algorithm whereas the rest of the options are mathematical applications of Euclid\u2019s algorithm."
+    },
+    {
+        "question": "The Euclid\u2019s algorithm runs efficiently if the remainder of two numbers is divided by the minimum of two numbers until the remainder is zero.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The Euclid\u2019s algorithm runs efficiently if the remainder of two numbers is divided by the minimum of two numbers until the remainder is zero. This improvement in efficiency was put forth by Gabriel Lame."
+    },
+    {
+        "question": "According to Gabriel lame, how many steps does Euclid\u2019s algorithm require to solve a problem?",
+        "options": [
+            "a) Less than five times the number of digits",
+            "b) More than five times the number of digits",
+            "c) Less than two times the number of digits",
+            "d) More than two times the number of digits"
+        ],
+        "answer": "a",
+        "explanation": "The Euclid\u2019s algorithm requires less than five times the number of digits. It runs by dividing two numbers. It stops when a remainder zero is reached."
+    },
+    {
+        "question": "Which of the following is the correct mathematical application of Euclid\u2019s algorithm?",
+        "options": [
+            "a) Determination of prime numbers",
+            "b) Lagrange\u2019s four square theorem",
+            "c) Cauchy-Euler theorem",
+            "d) Residue theorem"
+        ],
+        "answer": "b",
+        "explanation": "Lagrange\u2019s four square theorem is one of the mathematical applications of Euclid\u2019s algorithm and it is the basic tool for proving theorems in number theory. It can be generalized into other types of numbers like the Gaussian integers."
+    },
+    {
+        "question": "If GCD of two numbers is 1, then the two numbers are said to be ________",
+        "options": [
+            "a) Co-prime numbers",
+            "b) Prime numbers",
+            "c) Composite numbers",
+            "d) Rational numbers"
+        ],
+        "answer": "a",
+        "explanation": "If GCD of two numbers is 1, they are called as co-prime or relatively prime numbers. It does not mean that they are prime numbers. They don\u2019t have any prime factors in common."
+    },
+    {
+        "question": "What is the total running time of Euclid\u2019s algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log M)",
+            "c) O(N log N)",
+            "d) O(log N +1)"
+        ],
+        "answer": "a",
+        "explanation": "The total running time of Euclid\u2019s algorithm according to Lame\u2019s analysis is found to be O(N)."
+    },
+    {
+        "question": "Euclidean algorithm does not require the calculation of prime factors.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Euclid\u2019s algorithm does not require the calculation of prime factors. We derive the answer straight away using formula. And also, factorization is complex."
+    },
+    {
+        "question": "What is the formula for Euclidean algorithm?",
+        "options": [
+            "a) GCD (m,n) = GCD (n, m mod n)",
+            "b) LCM(m,n)=LCM(n, m mod n)",
+            "c) GCD(m,n,o,p) = GCD (m, m mod n, o, p mod o)",
+            "d) LCM (m,n,o,p) = LCM (m, m mod n, o, p mod o)"
+        ],
+        "answer": "a",
+        "explanation": "The formula for computing GCD of two numbers using Euclidean algorithm is given as GCD (m,n)= GCD (n, m mod n). It is used recursively until zero is obtained as a remainder."
+    },
+    {
+        "question": "What is the total running time of the binary GCD algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N",
+            "c) O(log N)",
+            "d) O(N log N)"
+        ],
+        "answer": "b",
+        "explanation": "Binary GCD algorithm is a sub division of Euclidean algorithm with more faster operations. Its running time is given by O(N"
+    },
+    {
+        "question": "What is the GCD of 20 and 12 using Euclid\u2019s algorithm?",
+        "options": [
+            "a) 8",
+            "b) 2",
+            "c) 4",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "GCD(m,n)=GCD(n, m mod n)"
+    }
+]

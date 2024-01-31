@@ -1,0 +1,64 @@
+[
+    {
+        "question": "Select the class which is the base class for all arrays in C#?",
+        "options": [
+            "a) Array",
+            "b) Text",
+            "c) arrays",
+            "d) Both Array & Text"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the interfaces implemented by array class.",
+        "options": [
+            "a) ICloneable, ICollection",
+            "b) IEnumerable, IStructuralComparable, IStructuralEquatable",
+            "c) ICloneable, ICollection, IList",
+            "d) Only IEnumerable, IStructuralComparable, IStructuralEquatable & ICloneable, ICollection, IList"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Choose the correct statement about the IComparer interface in C#?",
+        "options": [
+            "a) The IComparer interface is in System.Collections",
+            "b) It defines a method called Compare(), which compares the values of two objects",
+            "c) Both The IComparer interface is in System.Collections & It defines a method called Compare(), which compares the values of two objects",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The IComparer interface is in System.Collections. It defines a method called Compare(), which compares the values of two objects. It is shown here: int Compare(object x, object y). It returns greater than zero if x is greater than y, less than zero if x is less than y, and zero if the two values are equal."
+    },
+    {
+        "question": "Choose the correct statement about the IComparer<T> interface in C#?",
+        "options": [
+            "a) The IComparer<T> is in System.Collections.Generic",
+            "b) It defines a generic form of Compare()",
+            "c) Only The IComparer<T> is in System.Collections.Generic",
+            "d) Both The IComparer is in System.Collections.Generic & It defines a generic form of Compare()"
+        ],
+        "answer": "d",
+        "explanation": " IComparer<T> is in System.Collections.Generic. It defines a generic form of Compare(), which is shown here:"
+    },
+    {
+        "question": "What does the following property defined in the array class defines in C#?",
+        "options": [],
+        "answer": "d",
+        "explanation": "A read-only property that is true if the Array object is read-only and false if it is not. This value is false for arrays."
+    },
+    {
+        "question": "What does the following property define in C#?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Searches a portion of the array specified by array for the value specified by value. The search begins at the index specified by index and is restricted to length elements. Returns the index of the first match. If the value is not found, returns a negative value. The array should be sorted and one-dimensional."
+    },
+    {
+        "question": "What will be the output of the following C# code snippet?",
+        "options": [],
+        "answer": "c",
+        "explanation": " Using Built in method Sort(), first array is sorted then index of number \u201914\u2019 is searched using array class built in method Array.BinarySearch(nums, 14) and hence at last if loop is used to make comparison of index position with random position \u20189\u2019 chosen here."
+    }
+]

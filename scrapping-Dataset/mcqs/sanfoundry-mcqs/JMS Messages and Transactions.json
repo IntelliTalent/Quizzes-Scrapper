@@ -1,0 +1,151 @@
+[
+    {
+        "question": "Template which can send and receive JMS messages with much less code",
+        "options": [
+            "a) JmsTemplate",
+            "b) EMail",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "With a JMS template (Spring framework class JmsTemplate), you can send and receive JMS messages with much less code."
+    },
+    {
+        "question": "The template handles the boilerplate tasks for you and also converts the JMS API JMSException hierarchy into Spring runtime exception:-",
+        "options": [
+            "a) org.springframework.jms.Jms",
+            "b) org.springframework.jms.JmsException",
+            "c) org.springframework.jms.JmsTemplate",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The translation converts exceptions to a mirrored hierarchy of unchecked exceptions."
+    },
+    {
+        "question": "To address different JMS APIs, Spring provides :-",
+        "options": [
+            "a) JmsTemplate",
+            "b) JmsTemplate102",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To address different JMS APIs, Spring provides two JMS template classes, JmsTemplate and JmsTemplate102, for these two versions of JMS."
+    },
+    {
+        "question": "Before you can send and receive JMS messages, you need to install a JMS message broker:-",
+        "options": [
+            "a) Apache ActiveM",
+            "b) Apache Active",
+            "c) Apache MQ",
+            "d) Apache ActiveMQ"
+        ],
+        "answer": "d",
+        "explanation": "Before you can send and receive JMS messages, you need to install a JMS message broker. For simplicity\u2019s sake, we have chosen Apache ActiveMQ (http://activemq.apache.org/) as our message broker, which is very easy to install and configure."
+    },
+    {
+        "question": "In the preceding sendMail() method, you first create JMS-specific ConnectionFactory.",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the preceding sendMail() method, you first create JMS-specific ConnectionFactory and Destination objects with the classes provided by ActiveMQ."
+    },
+    {
+        "question": "6.In JMS, there are two types of destinations:-",
+        "options": [],
+        "answer": "c",
+        "explanation": "The message broker URL is the default for ActiveMQ if you run it on localhost. In JMS, there are two types of destinations: queue and topic. As explained before, a queue is for the point-to-point communication model, while topic is for the publish-subscribe communication model."
+    },
+    {
+        "question": "There are several types of messages defined in the JMS API, including:-",
+        "options": [
+            "a) TextMessage",
+            "b) MapMessage",
+            "c) BytesMessage",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are several types of messages defined in the JMS API, including TextMessage, MapMessage, BytesMessage, ObjectMessage, and StreamMessage."
+    },
+    {
+        "question": "To send a JMS message with this template, you simply call:-",
+        "options": [
+            "a) send",
+            "b) sendTo",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To send a JMS message with this template, you simply call the send() method and provide a message destination, as well as a MessageCreator object, which creates the JMS message you are going to send."
+    },
+    {
+        "question": "The MessageCreator interface declares method:-",
+        "options": [
+            "a) createMessage()",
+            "b) create()",
+            "c) createMsg()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The MessageCreator interface declares only a createMessage() method for you to implement."
+    },
+    {
+        "question": "A JMS template helps you to obtain and release the JMS connection and session.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A JMS template helps you to obtain and release the JMS connection and session, and it sends the JMS message created by your MessageCreator object."
+    },
+    {
+        "question": "JMS sender and receiver classes can also extend to retrieve a JMS template:-",
+        "options": [
+            "a) JmsGatewaySupport",
+            "b) JmsGateway",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Just like your DAO class can extend JdbcDaoSupport to retrieve a JDBCtemplate, your JMS sender and receiver classes can also extend JmsGatewaySupport to retrieve a JMS template."
+    },
+    {
+        "question": "When you need access to the JMS template.",
+        "options": [
+            "a) setJmsTemplate",
+            "b) getJmsTemplate",
+            "c) getJms",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When you need access to the JMS template, you just make a call to getJmsTemplate()."
+    },
+    {
+        "question": "Spring provides an implementation of SimpleMessageConvertor to handle the translation of a JMS message received.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring provides an implementation of SimpleMessageConvertor to handle the translation of a JMS message received to a business object and the translation of a business object to a JMS message."
+    },
+    {
+        "question": "By default, the JMS template uses SimpleMessageConverter for converting TextMessage to or from a string.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "By default, the JMS template uses SimpleMessageConverter for converting TextMessage to or from a string, BytesMessage to or from a byte array, MapMessage to or from a map, and ObjectMessage to or from a serializable object."
+    },
+    {
+        "question": "For your front desk and back office classes, you can send and receive a map using the:-",
+        "options": [
+            "a) convertAndSend()",
+            "b) receiveAndConvert()",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For your front desk and back office classes, you can send and receive a map using the convertAndSend() and receiveAndConvert() methods, and the map will be converted to/from MapMessage."
+    }
+]

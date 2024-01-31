@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following return a subset of the columns of a data frame?",
+        "options": [
+            "a) select",
+            "b) retrieve",
+            "c) get",
+            "d) set"
+        ],
+        "answer": "a",
+        "explanation": "One important contribution of the dplyr package is that it provides a \u201cgrammar\u201d for data manipulation and for operating on data frames."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The data frame is a key data structure in statistics and in R",
+            "b) R has an internal implementation of data frames that is likely the one you will use most often",
+            "c) There are packages on CRAN that implement data frames via things like relational databases that allow you to operate on very very large data frames",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The basic structure of a data frame is that there is one observation per row and each column represents a variable, a measure, feature, or characteristic of that observation."
+    },
+    {
+        "question": "_________ extract a subset of rows from a dataframe based on logical conditions.",
+        "options": [
+            "a) rename",
+            "b) filter",
+            "c) set",
+            "d) subset"
+        ],
+        "answer": "a",
+        "explanation": "rename is used to rename variables in a dataframe."
+    },
+    {
+        "question": "_________ generate summary statistics of different variables in the data frame, possibly within strata.",
+        "options": [
+            "a) rename",
+            "b) summarize",
+            "c) set",
+            "d) subset"
+        ],
+        "answer": "b",
+        "explanation": "The dplyr package as a number of its own data types that it takes advantage of."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) The dplyr package was developed by Hadley Wickham of RStudio",
+            "b) The dplyr package is an optimized and distilled version of his plyr package",
+            "c) The dplyr package provides any \u201cnew\u201d functionality to R",
+            "d) The dplyr package does not provide any \u201cnew\u201d functionality to R"
+        ],
+        "answer": "c",
+        "explanation": "The dplyr package does not provide any \u201cnew\u201d functionality to R."
+    },
+    {
+        "question": "________ add new variables/columns or transform existing variables.",
+        "options": [
+            "a) mutate",
+            "b) add",
+            "c) apped",
+            "d) arrange"
+        ],
+        "answer": "a",
+        "explanation": "arrange is used to reorder rows of a dataframe."
+    },
+    {
+        "question": "The dplyr package can be installed from GitHub using the _______ package.",
+        "options": [
+            "a) dev",
+            "b) devtools",
+            "c) devtool",
+            "d) devdel"
+        ],
+        "answer": "b",
+        "explanation": "The GitHub repository will usually contain the latest updates to the package and the development version."
+    },
+    {
+        "question": "The dplyr package can be installed from CRAN using __________",
+        "options": [
+            "a) installall.packages(\u201cdplyr\u201d)",
+            "b) install.packages(\u201cdplyr\u201d)",
+            "c) installed.packages(\u201cdplyr\u201d)",
+            "d) installed.packages(\u201cdpl\u201d)"
+        ],
+        "answer": "b",
+        "explanation": "After installing the package it is important that you load it into your R session with the library() function."
+    },
+    {
+        "question": "Which of the following object is masked from \u2018package: stats\u2019?",
+        "options": [
+            "a) filter",
+            "b) union",
+            "c) set difference",
+            "d) get difference"
+        ],
+        "answer": "a",
+        "explanation": "The following objects are masked from \u2018package:base\u2019: intersect, setdiff, setequal, union."
+    }
+]

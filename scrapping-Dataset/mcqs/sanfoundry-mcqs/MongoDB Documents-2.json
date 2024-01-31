@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Which of the following data structures are documents in MongoDB?",
+        "options": [
+            "a) All database records",
+            "b) Query selectors",
+            "c) Update definitions",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Most user-accessible data structures in MongoDB are documents."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Update definitions define what fields to modify during an update",
+            "b) Query specifications, which define what fields to index",
+            "c) Index selectors, which define what records to select for read, update, and delete operations",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "MongoDB stores all data in documents, which are JSON-style data structures composed of field-and-value pairs."
+    },
+    {
+        "question": "An application communicates with MongoDB by way of a client library, called _____________",
+        "options": [
+            "a) Driver",
+            "b) Parent",
+            "c) Rank",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Driver handles all interaction with the database in a language appropriate to the application."
+    },
+    {
+        "question": "User-defined indexes on multiple fields is called ___________",
+        "options": [
+            "a) composite index",
+            "b) secondary index",
+            "c) compound index",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The order of fields listed in a compound index has significance."
+    },
+    {
+        "question": "If your driver has a version number of 2.9.1, What is the major version?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 9",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Driver version numbers use semantic versioning or \u201cmajor.minor.patch\u201d versioning system."
+    },
+    {
+        "question": "Updates that include _________ of field names may result in the reordering of fields in the document.",
+        "options": [
+            "a) Renaming",
+            "b) Joining",
+            "c) Nesting",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The $rename operator updates the name of a field."
+    },
+    {
+        "question": "The $rename operator logically performs a _______ of both the old name and the new name.",
+        "options": [
+            "a) $unset",
+            "b) $set",
+            "c) $Nested",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If the field to rename does not exist in a document, $rename does nothing."
+    }
+]

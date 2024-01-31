@@ -1,0 +1,106 @@
+[
+    {
+        "question": "What is an external sorting algorithm?",
+        "options": [
+            "a) Algorithm that uses tape or disk during the sort",
+            "b) Algorithm that uses main memory during the sort",
+            "c) Algorithm that involves swapping",
+            "d) Algorithm that are considered \u2018in place\u2019"
+        ],
+        "answer": "a",
+        "explanation": "As the name suggests, external sorting algorithm uses external memory like tape or disk."
+    },
+    {
+        "question": "What is an internal sorting algorithm?",
+        "options": [
+            "a) Algorithm that uses tape or disk during the sort",
+            "b) Algorithm that uses main memory during the sort",
+            "c) Algorithm that involves swapping",
+            "d) Algorithm that are considered \u2018in place\u2019"
+        ],
+        "answer": "b",
+        "explanation": "As the name suggests, internal sorting algorithm uses internal main memory."
+    },
+    {
+        "question": "What is the worst case complexity of bubble sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "Bubble sort works by starting from the first element and swapping the elements if required in each iteration."
+    },
+    {
+        "question": "Select the appropriate code that performs bubble sort.",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "The outer loop keeps count of number of iterations, and the inner loop checks to see if swapping is necessary."
+    },
+    {
+        "question": "What is the average case complexity of bubble sort?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "Bubble sort works by starting from the first element and swapping the elements if required in each iteration even in the average case."
+    },
+    {
+        "question": "Which of the following is not an advantage of optimised bubble sort over other sorting techniques in case of sorted elements?",
+        "options": [
+            "a) It is faster",
+            "b) Consumes less memory",
+            "c) Detects whether the input is already sorted",
+            "d) Consumes less time"
+        ],
+        "answer": "c",
+        "explanation": "Optimised Bubble sort is one of the simplest sorting techniques and perhaps the only advantage it has over other techniques is that it can detect whether the input is already sorted. It is faster than other in case of sorted array and consumes less time to describe whether the input array is sorted or not. It consumes same memory than other sorting techniques. Hence it is not an advantage."
+    },
+    {
+        "question": "The given array is arr = {1, 2, 4, 3}. Bubble sort is used to sort the array elements. How many iterations will be done to sort the array?",
+        "options": [
+            "a) 4",
+            "b) 2",
+            "c) 1",
+            "d) 0"
+        ],
+        "answer": "a",
+        "explanation": "Even though the first two elements are already sorted, bubble sort needs 4 iterations to sort the given array."
+    },
+    {
+        "question": "How can you improve the best case efficiency in bubble sort? (The input is already sorted)",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "A boolean variable \u2018swapped\u2019 determines whether any swapping has happened in a particular iteration, if no swapping has occurred, then the given array is sorted and no more iterations are required."
+    },
+    {
+        "question": "What is the best case efficiency of bubble sort in the improvised version?",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(logn)",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "c",
+        "explanation": "Some iterations can be skipped if the list is sorted, hence efficiency improves to O(n)."
+    },
+    {
+        "question": "The given array is arr = {1,2,4,3}. Bubble sort is used to sort the array elements. How many iterations will be done to sort the array with improvised version?",
+        "options": [
+            "a) 4",
+            "b) 2",
+            "c) 1",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "Only 2 elements in the given array are not sorted, hence only 2 iterations are required to sort them."
+    }
+]

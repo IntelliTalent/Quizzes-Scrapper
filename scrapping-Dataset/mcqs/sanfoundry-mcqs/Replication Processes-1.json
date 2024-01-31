@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following ddds an arbiter to a replica set?",
+        "options": [
+            "a) rs.addArb()",
+            "b) rs.addArbiter()",
+            "c) rs.addtoArb()",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "rs.addArb() adds a new arbiter to an existing replica set."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The rs.status() method is a wrapper that runs the replSetGetStatus database command",
+            "b) rs.freeze() provides a wrapper around the database command replSetFreeze",
+            "c) rs.init() initializes a new replica set",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "rs.init() initializes a new replica set."
+    },
+    {
+        "question": "_________ prevents the current member from seeking election as primary for a period of time.",
+        "options": [
+            "a) rs.freeze()",
+            "b) rs.conf()",
+            "c) rs.printReplicationInfo()",
+            "d) secondary"
+        ],
+        "answer": "a",
+        "explanation": "rs.freeze() makes the current replica set member ineligible to become primary for the period specified."
+    },
+    {
+        "question": "_________ returns the replica set configuration document.",
+        "options": [
+            "a) rs.freeze()",
+            "b) rs.conf()",
+            "c) rs.printReplicationInfo()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "rs.conf() returns a document that contains the current replica set configuration."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) rs.printinfo() prints a formatted report of the replica set member\u2019s oplog",
+            "b) The output of rs.printReplicationInfo() is identical to that of db.printReplicationInfo()",
+            "c) rs.printReplicationInfo() formats and prints the data returned by db.allReplicationInfo()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The rs.printReplicationInfo() in the mongo shell does not return JSON."
+    },
+    {
+        "question": "________ prints a report of the status of the replica set from the perspective of the primary.",
+        "options": [
+            "a) rs.freeze()",
+            "b) rs.printconf()",
+            "c) rs.printReplicationInfo()",
+            "d) secondary"
+        ],
+        "answer": "c",
+        "explanation": "Typically you will use db.fsyncUnlock() following a database backup operation."
+    },
+    {
+        "question": "__________ sets the member that this replica set member will sync from, overriding the default sync target selection logic.",
+        "options": [
+            "a) rs.reconfig()",
+            "b) rs.remove()",
+            "c) rs.stepDown()",
+            "d) rs.syncFrom()"
+        ],
+        "answer": "d",
+        "explanation": "rs.syncFrom() provides a wrapper around the replSetSyncFrom, which allows administrators to configure the member of a replica set that the current member will pull data from."
+    },
+    {
+        "question": "rs.reconfig() provides a wrapper around the ___________ command.",
+        "options": [
+            "a) replSetfinalReconfig",
+            "b) replSetReconfig",
+            "c) replSetReconfiguration",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The force parameter in reconfig method allows a reconfiguration command to be issued to a non-primary node."
+    },
+    {
+        "question": "________ sets the slaveOk property for the current connection.",
+        "options": [
+            "a) rs.reconfig()",
+            "b) rs.slaveOk()",
+            "c) rs.stepDown()",
+            "d) rs.slave()"
+        ],
+        "answer": "b",
+        "explanation": "Use readPref() and Mongo.setReadPref() to set read preference."
+    }
+]

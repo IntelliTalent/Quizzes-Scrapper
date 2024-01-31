@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following options is correct?",
+        "options": [
+            "a) Statement 1 is true and Statement 2 is true",
+            "b) Statement 1 is true and Statement 2 is false",
+            "c) Statement 1 can be true and Statement 2 is true",
+            "d) Statement 1 is false and Statement 2 is also false"
+        ],
+        "answer": "a",
+        "explanation": "Statement 1 and 2 always true for a given Language."
+    },
+    {
+        "question": "Given Language: L= {ab U aba}*",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 1"
+        ],
+        "answer": "a",
+        "explanation": "Construct the DFA and NFA individually, and the attain the difference of states."
+    },
+    {
+        "question": "An automaton that presents output based on previous state or current input:",
+        "options": [
+            "a) Acceptor",
+            "b) Classifier",
+            "c) Transducer",
+            "d) None of the mentioned."
+        ],
+        "answer": "c",
+        "explanation": "A transducer is an automaton that produces an output on the basis of what input has been given currently or previous state."
+    },
+    {
+        "question": "If NFA of 6 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is ?",
+        "options": [
+            "a) 64",
+            "b) 32",
+            "c) 128",
+            "d) 127"
+        ],
+        "answer": "c",
+        "explanation": "The maximum number of sets for DFA converted from NFA would be not greater than 2n."
+    },
+    {
+        "question": "NFA, in its name has \u2019non-deterministic\u2019 because of :",
+        "options": [
+            "a) The result is undetermined",
+            "b) The choice of path is non-deterministic",
+            "c) The state to be transited next is non-deterministic",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Non deterministic or deterministic depends upon the definite path defined for the transition from one state to another or undefined(multiple paths)."
+    },
+    {
+        "question": "Which of the following is correct proposition?",
+        "options": [
+            "a) Statement 1 is correct because Statement 2 is correct",
+            "b) Statement 2 is correct because Statement 2 is correct",
+            "c) Statement 2 is false and Statement 1 is false",
+            "d) Statement 1 is false because Statement 2 is false"
+        ],
+        "answer": "b",
+        "explanation": "DFA is a specific case of NFA."
+    },
+    {
+        "question": "Given Language L= {x\u03f5 {a, b}*|x contains aba as its substring}",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) Cannot be determined"
+        ],
+        "answer": "a",
+        "explanation": "The individual Transition graphs can be made and the difference of transitions can be determined."
+    },
+    {
+        "question": "The construction time for DFA from an equivalent NFA (m number of node)is:",
+        "options": [
+            "a) O(m",
+            "b) O(2",
+            "c) O(m)",
+            "d) O(log m)"
+        ],
+        "answer": "b",
+        "explanation": "From the coded NFA-DFA conversion."
+    },
+    {
+        "question": "If n is the length of Input string and m is the number of nodes, the running time of DFA  is x that of NFA.Find x?",
+        "options": [
+            "a) 1/m",
+            "b) 2",
+            "c) 1/m",
+            "d) log m"
+        ],
+        "answer": "a",
+        "explanation": "Running time of DFA: O(n) and Running time of NFA =O(m"
+    },
+    {
+        "question": "Which of the following option is correct?",
+        "options": [
+            "a) NFA is slower to process and its representation uses more memory than DFA",
+            "b) DFA is faster to process and its representation uses less memory than NFA",
+            "c) NFA is slower to process and its representation uses less memory than DFA",
+            "d) DFA is slower to process and its representation uses less memory than NFA"
+        ],
+        "answer": "c",
+        "explanation": "NFA, while computing strings, take parallel paths, make different copies of input and goes along different paths in order to search for the result. This creates the difference in processing speed of DFA and NFA."
+    }
+]

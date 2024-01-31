@@ -1,0 +1,64 @@
+[
+    {
+        "question": "Number of constructors a class can define is?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) Any number",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " A constructor is a  simple method which has the same name as the class and hence used to create object of a class. C#  class can define any number of constructors. Every class contains a default constructor."
+    },
+    {
+        "question": "Correct way to define object of sample class in which C# code will work correctly is:",
+        "options": [],
+        "answer": "d",
+        "explanation": "Return types of parameters of object of class matches with defined constructor arguments types."
+    },
+    {
+        "question": "Correct statement about constructors in C#.NET is?",
+        "options": [
+            "a) Constructors can be overloaded",
+            "b) Constructors are never called explicitly",
+            "c) Constructors have same name as name of the class",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " None."
+    },
+    {
+        "question": "Which among the following is the correct statement: Constructors are used to?",
+        "options": [
+            "a) initialize the objects",
+            "b) construct the data members",
+            "c) initialize the objects & construct the data members",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Once the object is declared means, the constructor is also declared by default."
+    },
+    {
+        "question": "Can the method add() be overloaded in the following ways in C#?",
+        "options": [],
+        "answer": "b",
+        "explanation": "C# provides the feature of method overloading which means methods with same name but different types and arguments."
+    },
+    {
+        "question": "Which of the following statements is correct about constructors in C#.NET?",
+        "options": [
+            "a) A constructor cannot be declared as private",
+            "b) A constructor cannot be overloaded",
+            "c) A constructor can be a static constructor",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Static constructor is a constructor which can be called before any object of class is created or any static method is invoked. A static constructor is implicitly called by .net CLR."
+    },
+    {
+        "question": "What will be the output of the following C# code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The class \u2018abc\u2019 first calls method()\u2019a\u2019 then object of class \u2018k\u2019 when calls method \u2018b\u2019. First of all, the method \u2018a\u2019 will be executed and then executes the second statement."
+    }
+]

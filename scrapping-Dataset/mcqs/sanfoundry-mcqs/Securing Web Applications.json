@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Form-based login is configured by:-",
+        "options": [
+            "a) servlet filters",
+            "b) refresh-check-delay",
+            "c) form-login",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The form-based login service will render a web page that contains a login form for users to input their login details and process the login form submission. It\u2019s configured via the form-login element."
+    },
+    {
+        "question": "Action URL can be customized using form-login.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Note that the form action URL and the input field names are Spring Security\u2013specific. However, the action URL can be customized with the login-url attribute of form-login."
+    },
+    {
+        "question": "Attribute used to display custom login page.",
+        "options": [
+            "a) login-url",
+            "b) custom-login",
+            "c) login-custom",
+            "d) custom-login"
+        ],
+        "answer": "a",
+        "explanation": "In order for Spring Security to display your custom login page when a login is requested, you have to specify its URL in the login-page attribute."
+    },
+    {
+        "question": "Attribute which specifies redirection URL on login error.",
+        "options": [
+            "a) authentication-failure-url",
+            "b) authentication-failure_login-url",
+            "c) authentication-login-url",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If you specify a custom login page, you will have to configure the authentication-failure-url attribute to specify which URL to redirect to on login error."
+    },
+    {
+        "question": "Session scope attribute to display error message.",
+        "options": [
+            "a) SPRING_SECURITY_FIRST_EXCEPTION",
+            "b) SPRING_SECURITY_LAST_EXCEPTION",
+            "c) SPRING_SECURITY_EXCEPTION",
+            "d) SPRING_SECURITY_LAST_ERROR"
+        ],
+        "answer": "b",
+        "explanation": "If an error has occurred, you will have to display the error message by accessing the session scope attribute SPRING_SECURITY_LAST_EXCEPTION, which stores the last exception for the current user."
+    },
+    {
+        "question": "Element which redirects to a specific URL on logout.",
+        "options": [
+            "a) logout-success",
+            "b) logout-success_url",
+            "c) logout-url",
+            "d) logout-success-url"
+        ],
+        "answer": "d",
+        "explanation": "By default, a user will be redirected to the context path root when the logout succeeds, but sometimes, you may wish to direct the user to another URL."
+    },
+    {
+        "question": "Anonymous login services can be configured by:-",
+        "options": [
+            "a) anonymous-basic",
+            "b) anonymous",
+            "c) anonymous-target",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The anonymous login service can be configured via the anonymous element."
+    },
+    {
+        "question": "Default values of customized Username and authorities are anonymousUser and ROLE_ANONYMOUS respectively.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "You can customize the username and authorities of an anonymous user, whose default values are anonymousUser and ROLE_ANONYMOUS."
+    },
+    {
+        "question": "Remember-me support can be configured by:-",
+        "options": [
+            "a) remember-me",
+            "b) remember-me-basic",
+            "c) remember-basic",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Remember-me support can be configured via the remember-me element."
+    },
+    {
+        "question": "By default, Remember-me encodes the username, password, remember-me expiration time, and a private key as a token, and stores it as a cache in the user\u2019s browser.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Remember-me stores as cookie in the user\u2019s browser not as cache."
+    },
+    {
+        "question": "Spring Security algorithms to secure password.",
+        "options": [
+            "a) MD5",
+            "b) SHA",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " Spring Security supports several algorithms for encoding passwords (including MD5 and SHA) and provides built-in password encoders for these algorithms."
+    },
+    {
+        "question": "Connection of database with Apache derby server requires.",
+        "options": [
+            "a) Derby client.jar",
+            "b) Spring JDBC support",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "To connect to a database in the Apache Derby server, you need the Derby client .jars, as well as the Spring JDBC support."
+    },
+    {
+        "question": "You can specify the statements for querying a user\u2019s information and authorities in the users-by-username-query and authorities-by-username-query attributes.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Security also supports using custom SQL statements to query a legacy database for user details."
+    },
+    {
+        "question": "Utility to calculate MD5 digests for your password.",
+        "options": [
+            "a) CheckSum",
+            "b) BeanShell",
+            "c) Jacksum",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Jacksum, which you can download from http://sourceforge.net/projects/jacksum/ and extract to a directory of your choice. Then execute the following command to calculate a digest for a text:"
+    }
+]

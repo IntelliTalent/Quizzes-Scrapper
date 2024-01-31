@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The server listens on a network port for TCP/IP connections unless started with the option ______________",
+        "options": [
+            "a) \u2013networking",
+            "b) \u2013skip-networking",
+            "c) \u2013skip-networks",
+            "d) \u2013quit-networking"
+        ],
+        "answer": "b",
+        "explanation": "On all the platforms the server listens on a network port for the TCP/IP connections, unless and until it is started with the \u2013skip-networking option. The default port number is 3306."
+    },
+    {
+        "question": "Which option is used to specify to the server the IP number of the server host on which the server should listen?",
+        "options": [
+            "a) \u2013verbose",
+            "b) \u2013bind-address",
+            "c) \u2013startup",
+            "d) \u2013shutdown"
+        ],
+        "answer": "b",
+        "explanation": "If the server host has more than one IP number, the server can be specified the one that it should use when listening for connections by starting it with a \u2018\u2013bind-address\u2019 option."
+    },
+    {
+        "question": "The option used to specify the socket file pathname is ______________",
+        "options": [
+            "a) \u2013socket",
+            "b) \u2013pathtosocket",
+            "c) \u2013path_socket",
+            "d) \u2013socket_pathfile"
+        ],
+        "answer": "a",
+        "explanation": "The default socket file usually is \u2018/tmp/mysql.sock\u2019. Operating system distributions that include MySQL often use a different location. The \u2013socket option is used to specify explicitly."
+    },
+    {
+        "question": "MySQL supports shared-memory connections on Windows.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL supports shared memory connections on Windows. This capability is disabled by default. In order to enable it, the server is started with the \u2018\u2013shared-memory\u2019 option."
+    },
+    {
+        "question": "INFORMATION_SCHEMA is not based on the SQL standard.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "\u2018INFORMATION_SCHEMA\u2019 is another way to access information about the databases and their objects (metadata). It is based on the \u2018SQL standard\u2019, although some content is MySQL-specific."
+    },
+    {
+        "question": "In which table of INFORMATION_SCHEMA is the information about table index characteristics stored?",
+        "options": [
+            "a) FILES",
+            "b) STATISTICS",
+            "c) SCHEMATA",
+            "d) VIEWS"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018STATISTICS\u2019 table in the \u2018INFORMATION_SCHEMA\u2019 stores information about the table index characteristics. \u2018INFORMATION_SCHEMA\u2019 is responsible for storing database metadata."
+    },
+    {
+        "question": "What is the join where all possible row combinations are produced?",
+        "options": [
+            "a) INNER JOIN",
+            "b) OUTER",
+            "c) NATURAL",
+            "d) CARTESIAN"
+        ],
+        "answer": "d",
+        "explanation": "In \u2018cartesian product\u2019, each row of each table is combined with each row in every other table to produce all possible combinations. This produces a very large number of rows since the number is the product of rows."
+    },
+    {
+        "question": "What is the clause that filters JOIN results called?",
+        "options": [
+            "a) WHERE",
+            "b) SORT",
+            "c) GROUP",
+            "d) GROUP BY"
+        ],
+        "answer": "a",
+        "explanation": "Sometimes the result of a join is very large and is not desirable. In these cases, the results can be filtered with the help of the \u2018WHERE\u2019 clause which is followed by a set of conditions."
+    },
+    {
+        "question": "What are CROSS JOIN and JOIN are similar to?",
+        "options": [
+            "a) INNER JOIN",
+            "b) NATURAL JOIN",
+            "c) OUTER JOIN",
+            "d) CARTESIAN JOIN"
+        ],
+        "answer": "a",
+        "explanation": "The joins \u2018CROSS JOIN\u2019 and \u2018JOIN\u2019 types are exactly similar to the \u2018INNER JOIN\u2019. The statements containing \u2018INNER JOIN\u2019 can replace it with \u2018CROSS JOIN\u2019 or \u2018JOIN\u2019 to get exactly the same result."
+    }
+]

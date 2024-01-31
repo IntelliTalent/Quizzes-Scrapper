@@ -1,0 +1,894 @@
+[
+    {
+        "question": "Which image matches the flex layout defined in this style rule?",
+        "options": [
+            "![A](images/Q1-A.jpg)",
+            "![B](images/Q1-B.jpg)",
+            "![C](images/Q1-C.jpg)",
+            "![D](images/Q1-D.jpg)"
+        ],
+        "answer": "![B](images/Q1-B.jpg)"
+    },
+    {
+        "question": "Variables declared with the let keyword have what type of scope?",
+        "options": [
+            "function scope",
+            "block scope",
+            "inline scope",
+            "global scope"
+        ],
+        "answer": "block scope"
+    },
+    {
+        "question": "Why would you surround a piece of text with `<h1></h1>` tags?",
+        "options": [
+            "to indicate that this text is the main heading on the page",
+            "to make the text bold",
+            "to ensure that search engines treat the keywords as being important for this page",
+            "to demonstrate to screen readers that this text is important"
+        ],
+        "answer": "to indicate that this text is the main heading on the page"
+    },
+    {
+        "question": "When might an empty alt attribute be the correct value?",
+        "options": [
+            "when you cannot think of useful alt text",
+            "when you don't think it would be interesting to someone who cannot see it",
+            "when the image has come from a CMS",
+            "when the image is purely decorative"
+        ],
+        "answer": "when the image is purely decorative"
+    },
+    {
+        "question": "Which attribute must have a unique value each time it is used in an HTML document?",
+        "options": [
+            "title",
+            "class",
+            "style",
+            "id"
+        ],
+        "answer": "id"
+    },
+    {
+        "question": "Which CSS property will not trigger layout recalculation?",
+        "options": [
+            "top",
+            "opacity",
+            "width",
+            "height"
+        ],
+        "answer": "opacity"
+    },
+    {
+        "question": "What will be the value of selected?",
+        "options": [
+            "log",
+            "apple",
+            "stone",
+            "turnip"
+        ],
+        "answer": "stone"
+    },
+    {
+        "question": "What does the `===` comparison operator do?",
+        "options": [
+            "It sets one variable equal to another in both value and type",
+            "It tests for equality of type only",
+            "It tests for equality of value only",
+            "It tests for equality of value and type"
+        ],
+        "answer": "It tests for equality of value and type"
+    },
+    {
+        "question": "In the following code, the variable `fruit` has been assigned a value of apple. How would you change the value to plum?",
+        "options": [
+            "`let fruit = 'plum'`",
+            "`var fruit = 'plum'`",
+            "`const fruit = 'plum'`",
+            "`fruit = 'plum'`"
+        ],
+        "answer": "`fruit = 'plum'`"
+    },
+    {
+        "question": "What is the `<label>` element used for?",
+        "options": [
+            "to identify the different parts of a figure",
+            "to explain what needs to be entered into a form field",
+            "as a caption for images",
+            "as a heading for tables"
+        ],
+        "answer": "to explain what needs to be entered into a form field"
+    },
+    {
+        "question": "The browser finds some CSS that it does not understand. What is likely to happen?",
+        "options": [
+            "The page will not display",
+            "An error message will be displayed",
+            "The browser will not load the stylesheet",
+            "The browser will ignore the unknown CSS"
+        ],
+        "answer": "The browser will ignore the unknown CSS"
+    },
+    {
+        "question": "In this code, what is the term for the h1?",
+        "options": [
+            "selector",
+            "combinator",
+            "declarator",
+            "markup"
+        ],
+        "answer": "selector"
+    },
+    {
+        "question": "Which HTML will result in text being highlighted in yellow?",
+        "options": [
+            "`<span class=\"highlight\">#BLM</span>`",
+            "`<span style=\"highlight\">#BLM</span>`",
+            "`<highlight\">#BLM</span>`",
+            "`<div id=\"highlight\">#BLM</span>`"
+        ],
+        "answer": "`<span class=\"highlight\">#BLM</span>`"
+    },
+    {
+        "question": "Which choice is not a value of the type attribute of the `<input>` element?",
+        "options": [
+            "range",
+            "address",
+            "date",
+            "password"
+        ],
+        "answer": "address"
+    },
+    {
+        "question": "You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?",
+        "options": [
+            "all users",
+            "users who can see the content on the screen",
+            "no users",
+            "screen reader users"
+        ],
+        "answer": "no users"
+    },
+    {
+        "question": "Which choice is not part of CSS box model?",
+        "options": [
+            "margin",
+            "border",
+            "padding",
+            "paragraph"
+        ],
+        "answer": "paragraph"
+    },
+    {
+        "question": "Which part of the URL `https://app.uniswap.org/pool` specifies the domain name?",
+        "options": [
+            "https",
+            "org",
+            "uniswap.org",
+            "app.uniswap"
+        ],
+        "answer": "uniswap.org"
+    },
+    {
+        "question": "Which HTML element is not considered a landmark element?",
+        "options": [
+            "`<form>`",
+            "`<ul>`",
+            "`<main>`",
+            "`<nav>`"
+        ],
+        "answer": "`<ul>`"
+    },
+    {
+        "question": "Which statement is true when an HTML tag has been deprecated?",
+        "options": [
+            "It employs code that can be viewed only on a desktop computer",
+            "It is obsolete and is not recommended for use in marking web content",
+            "It employs code that will require users to update their browsers",
+            "It employs incorrect syntax that will cause the browser to crash"
+        ],
+        "answer": "It is obsolete and is not recommended for use in marking web content"
+    },
+    {
+        "question": "How does the rem unit represent a font size?",
+        "options": [
+            "Font sizes are expressed relative to the font size of the containing div element",
+            "Font sizes are expressed relative to the font size of the parent elements",
+            "Font sizes are relative to the base font size of the operating system.",
+            "Font sizes are relative to the root em unit used in the HTML element."
+        ],
+        "answer": "Font sizes are relative to the root em unit used in the HTML element."
+    },
+    {
+        "question": "Which HTML element represents either a scalar value within a known range OR a fractional value?",
+        "options": [
+            "`<meter>`",
+            "`<range>`",
+            "`<datalist>`",
+            "`<optgroup>`"
+        ],
+        "answer": "`<meter>`"
+    },
+    {
+        "question": "What is Webpack primarily used for?",
+        "options": [
+            "sharing JavaScript code with other people",
+            "making JavaScript-reliant sites accessible to users who do not have JavaScript turned on",
+            "bundling individual JavaScript files for use on your website",
+            "source control"
+        ],
+        "answer": "bundling individual JavaScript files for use on your website"
+    },
+    {
+        "question": "How many columns will there be, given this code?",
+        "options": [
+            "one",
+            "three",
+            "four",
+            "two"
+        ],
+        "answer": "two"
+    },
+    {
+        "question": "Which style will change the color of the text?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "You find this code in a stylesheet. What is it being used for?",
+        "options": [
+            "inserting content that cannot be seen by screen readers",
+            "fixing an Internet Explorer 11 bug",
+            "clearing floats in float-based layouts",
+            "creating a new block formatting context"
+        ],
+        "answer": "clearing floats in float-based layouts"
+    },
+    {
+        "question": "What is the correct way to initialize an array of galaxies in JavaScript?",
+        "options": [
+            "`String[] galaxies = new Array(\"Milky Way\", \"Whirlpool\", \"Andromeda\");`",
+            "`let galaxies = {Milky Way, Whirlpool, Andromeda};`",
+            "`galaxies = [\"Milky Way\", \"Whirlpool\", \"Andromeda\"];`",
+            "`var galaxies = {\"Milky Way\", \"Whirlpool\", \"Andromeda\"};`"
+        ],
+        "answer": "`galaxies = [\"Milky Way\", \"Whirlpool\", \"Andromeda\"];`"
+    },
+    {
+        "question": "Which description correctly describes the initial values of flex items if you have applied `display: flex` to their parent?",
+        "options": [
+            "Items display in a row, lined up at the start, and do not stretch to fill the container",
+            "Items display in a column, lined up at the start, and do not stretch to fill the container",
+            "Items stay in a column until you add some flex properties.",
+            "Items displayed in a row, lined up at the start and stretched to fill the container"
+        ],
+        "answer": "Items display in a row, lined up at the start, and do not stretch to fill the container"
+    },
+    {
+        "question": "Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.",
+        "options": [
+            "`flex: 1 0 0;`",
+            "`flex: initial;`",
+            "`flex: 1 1 auto;`",
+            "`flex: 1 0 auto;`"
+        ],
+        "answer": "`flex: 1 1 auto;`"
+    },
+    {
+        "question": "A video on your webpage does not display and the console shows an error about mixed content. What is happening?",
+        "options": [
+            "The webpage is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.",
+            "Your browser does not support HTML5 video.",
+            "The video is from a source that cannot be displayed in your location for legal reasons.",
+            "The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it."
+        ],
+        "answer": "The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it."
+    },
+    {
+        "question": "What will this loop print?",
+        "options": [
+            "skrt skrt skrt",
+            "skrt skrt",
+            "skrt skrt skrt skrt",
+            "nothing"
+        ],
+        "answer": "nothing"
+    },
+    {
+        "question": "You have placed an image in a directory named images and want to reference it from a page located at the root of your site. Which choice would correctly display the image on the page?",
+        "options": [
+            "`<img src=\"image.jpg\">`",
+            "`<a href=\"images/image.jpg\"></a>`",
+            "`<img src=\"images/image.jpg\">`",
+            "`<img href=\"image.jpg\">`"
+        ],
+        "answer": "`<img src=\"images/image.jpg\">`"
+    },
+    {
+        "question": "Which choice is a correct use of the parseInt() function in Javascript that parses a string and returns an integer?",
+        "options": [
+            "parseInt(\"six\");",
+            "parse_int('6');",
+            "parseInt(\"6\");",
+            "parseint(\"6\");"
+        ],
+        "answer": "parseInt(\"6\");"
+    },
+    {
+        "question": "How can you rewrite this function using arrow function syntax?",
+        "options": [
+            "`let product => (x,y) { <br /> x \\* y; <br />}`",
+            "`let product = (x,y) => x\\*y;`",
+            "`let product => x\\*y;`",
+            "`let product = (x,y) -> x\\*y;`"
+        ],
+        "answer": "`let product = (x,y) => x\\*y;`"
+    },
+    {
+        "question": "Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse?",
+        "options": [
+            "performance",
+            "UX design",
+            "accessibility",
+            "SEO"
+        ],
+        "answer": "UX design"
+    },
+    {
+        "question": "In the context of this code, how would you describe user?",
+        "options": [
+            "function",
+            "array",
+            "variable",
+            "object"
+        ],
+        "answer": "object"
+    },
+    {
+        "question": "A webpage has `rel=\"preconnect\"` added to a link resource. What will this do?",
+        "options": [
+            "It will tell the browser that this link is a site belonging to the current domain.",
+            "It will do nothing because this is a deprecated attribute that browsers do not support.",
+            "It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.",
+            "It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible."
+        ],
+        "answer": "It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible."
+    },
+    {
+        "question": "Which choice is _not_ a render blocking resource?",
+        "options": [
+            "images",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "answer": "images"
+    },
+    {
+        "question": "Which choice does _not_ provide information on browser support for a particular CSS property?",
+        "options": [
+            "the \"Can I Use\" website",
+            "the Web Platform Tests Suite",
+            "the CSS specification",
+            "MDN property pages"
+        ],
+        "answer": "the Web Platform Tests Suite"
+    },
+    {
+        "question": "You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?",
+        "options": [
+            "object-fit: contain",
+            "object-fit: stretch",
+            "object-fit: all",
+            "object-fit: cover"
+        ],
+        "answer": "object-fit: cover"
+    },
+    {
+        "question": "what does the CSS selector a[href$=\"org\"] select?",
+        "options": [
+            "all \\<a> tags whose href attribute begins with \"org\"",
+            "all \\<a> tags whose href attribute equals \"org\"",
+            "all \\<a> tags whose href attribute ends with \"org\"",
+            "all \\<a> tags whose href attribute contains \"org\""
+        ],
+        "answer": "all \\<a> tags whose href attribute ends with \"org\""
+    },
+    {
+        "question": "Which choice <em>is not a result</em> of invoking strict mode in JavaScript?",
+        "options": [
+            "It eliminates some JavaScript silent errors by changing them to throw errors.",
+            "It prohibits some syntax likely to be defined in future versions of ECMAScript.",
+            "It forces the writing of valid HTML and CSS.",
+            "It fixes mistakes that make it difficult for JavaScript engines to perform optimizations."
+        ],
+        "answer": "It forces the writing of valid HTML and CSS."
+    },
+    {
+        "question": "In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\\*\\*",
+        "options": [
+            "ul, li, a",
+            "p, b, h3",
+            "div, p, em",
+            "div, main, h1"
+        ],
+        "answer": "div, main, h1"
+    },
+    {
+        "question": "Which line would you add to this code to add \"Cosmos\" to the list of currencies using JavaScript?",
+        "options": [
+            "`currencies.push(\"Cosmos\");`",
+            "`Array.append(\"Cosmos\", currencies);`",
+            "`currencies.add(\"Cosmos\");`",
+            "`currencies(2) = \"Cosmos\";`"
+        ],
+        "answer": "`currencies.push(\"Cosmos\");`"
+    },
+    {
+        "question": "How would you change this code to make Vanilla selected by default?",
+        "options": [
+            "`<input type=\"radio\" value=\"vanilla\" checked>`",
+            "`<input type=\"radio\" value=\"vanilla\" check>`",
+            "`<input type=\"radio\" value=\"vanilla\" selected>`",
+            "`<input type=\"radio\" value=\"vanilla\" on>`"
+        ],
+        "answer": "`<input type=\"radio\" value=\"vanilla\" checked>`"
+    },
+    {
+        "question": "**\\_** moves an element completely out of the page's normal layout flow like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element).",
+        "options": [
+            "Sticky positioning",
+            "Absolute positioning",
+            "Relative positioning",
+            "Fixed positioning"
+        ],
+        "answer": "Absolute positioning"
+    },
+    {
+        "question": "You have created a box that has a height set with CSS. Which line of CSS would add scroll bars if the content is taller than the box, but leave no visible scroll bars if the content fits into the box?",
+        "options": [
+            ".box { overflow: scroll; }",
+            ".box { overflow: scroll-x; }",
+            ".box { overflow: auto; }",
+            ".box { overflow: none; }"
+        ],
+        "answer": ".box { overflow: auto; }"
+    },
+    {
+        "question": "Which array method should you apply to run a function for every item within an array, returning an array of all items for which the function is true?",
+        "options": [
+            "every()",
+            "map()",
+            "forEach()",
+            "filter()"
+        ],
+        "answer": "filter()"
+    },
+    {
+        "question": "The image below has float: left applied. Text wraps the float on the right and bottom. How would you force the second paragraph to start underneath the float, leaving a gap after the preceding paragraph?",
+        "options": [
+            "Apply `float: left` to the second paragraph.",
+            "Apply `clear: right` to the floated item.",
+            "Apply `clear: left` to the second paragraph.",
+            "Apply `clear: left` to the floated item."
+        ],
+        "answer": "Apply `clear: left` to the second paragraph."
+    },
+    {
+        "question": "You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?",
+        "options": [
+            "`tr:nth-child(2) { background-color: #ccc; }`",
+            "`tr:nth-child(2n+1) { background-color: #ccc; }`",
+            "`tr:nth-child(2+1) { background-color: #ccc; }`",
+            "`tr:nth-child(2n) { background-color: #ccc; }`"
+        ],
+        "answer": "`tr:nth-child(2n+1) { background-color: #ccc; }`"
+    },
+    {
+        "question": "You are designing a site and creating a navigation bar linking to the main sections. Which HTML element should you use to indicate that this is the main navigation?",
+        "options": [
+            "`<nav>`",
+            "`<navigation>`",
+            "`<main>`",
+            "`<ul>`"
+        ],
+        "answer": "`<nav>`"
+    },
+    {
+        "question": "You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?",
+        "options": [
+            "The CSS is being loaded asynchronously in order to prevent render blocking.",
+            "This will stop the CSS from being loaded for old browsers that do not support the techniques in use.",
+            "This is part of a stylesheet-switching script to load different themes for the site.",
+            "This will stop the CCS from being loaded on slow data connections."
+        ],
+        "answer": "The CSS is being loaded asynchronously in order to prevent render blocking."
+    },
+    {
+        "question": "The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?",
+        "options": [
+            "flex: 0 0 100;",
+            "flex: 1 0 0;",
+            "flex: 0 0 auto;",
+            "flex: 1 1 auto;"
+        ],
+        "answer": "flex: 1 1 auto;"
+    },
+    {
+        "question": "What is the meaning of \"tree shaking\" in relation to JavaScript performance?",
+        "options": [
+            "only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers",
+            "removing unused code from the JavaScript files",
+            "splitting code into various bundles so that decisions can be made on loading priority",
+            "allowing the browser to ignore code it believes will perform badly"
+        ],
+        "answer": "removing unused code from the JavaScript files"
+    },
+    {
+        "question": "What is WebP?",
+        "options": [
+            "a method of auditing performance that gives your site a score, which is then used for Google ranking",
+            "a next-generation image format offering a smaller file size than equivalent PNG or JPEG images",
+            "a new font format that allows a single font to display at different styles and weights",
+            "a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents"
+        ],
+        "answer": "a next-generation image format offering a smaller file size than equivalent PNG or JPEG images"
+    },
+    {
+        "question": "Your website uses CSS Grid Layout extensively, and a visitor who navigates using the keyboard tells you that they seem to jump erratically all over the screen when navigating. What is the most likely problem?",
+        "options": [
+            "The visitor's browser does not have full support for CSS Grid Layout.",
+            "Items have been positioned in such a way that they are in a different order to the source.",
+            "The browser has a keyboard navigation bug.",
+            "You need to add the tabindex attribute to elements.?"
+        ],
+        "answer": "Items have been positioned in such a way that they are in a different order to the source."
+    },
+    {
+        "question": "What is the definition of the phrase \"Time to Interactive\"?",
+        "options": [
+            "when the browser displays the first bit of content from the DOM",
+            "when the user can consistently interact with all of the page elements",
+            "when HTML has loaded, but not necessarily JavaScript, CSS, or images",
+            "when the user can see the webpage on the screen"
+        ],
+        "answer": "when the user can consistently interact with all of the page elements"
+    },
+    {
+        "question": "What is yarn?",
+        "options": [
+            "a JavaScript framework that is leaner than React",
+            "a JavaScript bundler",
+            "a testing framework",
+            "a JavaScript package manager"
+        ],
+        "answer": "a JavaScript package manager"
+    },
+    {
+        "question": "What is the name of the event that occurs when the mouse pointer hovers over an element?",
+        "options": [
+            "load",
+            "mouseover",
+            "hover",
+            "focus"
+        ],
+        "answer": "mouseover"
+    },
+    {
+        "question": "What is meant by the term \"polyfill\" when used in web development?",
+        "options": [
+            "It is a piece of code that provides modern functionality in browsers that do not support it.",
+            "It is a piece of code that hides broken content from old browsers.",
+            "It is a term for languages such as Saas that compile to CSS.",
+            "It is a script that runs to add vendor prefixes to modern CSS."
+        ],
+        "answer": "It is a piece of code that provides modern functionality in browsers that do not support it."
+    },
+    {
+        "question": "Which choice is _not_ a JavaScript framework?",
+        "options": [
+            "Angular",
+            "Laravel",
+            "Vue",
+            "React"
+        ],
+        "answer": "Laravel"
+    },
+    {
+        "question": "What does setting `aria-live=polite` on a live region achieve?",
+        "options": [
+            "The screen reader will not notify the user of changes to live regions.",
+            "The screen reader will wait until there is a pause to announce changes.",
+            "The screen reader will announce all changes immediately.",
+            "The screen reader will use a polite voice when announcing changes."
+        ],
+        "answer": "The screen reader will wait until there is a pause to announce changes."
+    },
+    {
+        "question": "Review the CSS below. What color would you expect the background color of the element with a class of .box to be?",
+        "options": [
+            "black",
+            "blue",
+            "transparent",
+            "white"
+        ],
+        "answer": "transparent"
+    },
+    {
+        "question": "Which CSS property and value would correctly remove the bullets from a list item?",
+        "options": [
+            "`list-tem: none`",
+            "`bullets: hidden`",
+            "`list-style-type: none`",
+            "`list-bullet: none`"
+        ],
+        "answer": "`list-style-type: none`"
+    },
+    {
+        "question": "Which code example would center `.box` inside `.container`?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?",
+        "options": [
+            "`block-width`",
+            "`inline-size`",
+            "`inline-width`",
+            "`block-size`"
+        ],
+        "answer": "`inline-size`"
+    },
+    {
+        "question": "Which color value will create a background color that is semitransparent?",
+        "options": [
+            "`rgb(18, 138, 125)`",
+            "`#128a7d`",
+            "`rgba(18, 138, 125,.5)`",
+            "`hsl(174, 77%, 31%)`"
+        ],
+        "answer": "`rgba(18, 138, 125,.5)`"
+    },
+    {
+        "question": "In a grid layout, which property will create gaps between the rows in the grid?",
+        "options": [
+            "`row-gap`",
+            "`rowgap`",
+            "`gutter`",
+            "`row-gutter`"
+        ],
+        "answer": "`row-gap`"
+    },
+    {
+        "question": "You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shape?",
+        "options": [
+            "Set `object-fit: contain` on the images.",
+            "Set `max-width: 100%` on the images.",
+            "Set `width: 100%` on the images.",
+            "Set `resize: true` on the images."
+        ],
+        "answer": "Set `max-width: 100%` on the images."
+    },
+    {
+        "question": "The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?",
+        "options": [
+            "230px",
+            "220px",
+            "200px",
+            "260px"
+        ],
+        "answer": "220px"
+    },
+    {
+        "question": "How would you round the value 11.354 to the nearest full integer?",
+        "options": [
+            "round(11.354);",
+            "Math.round(11.354);",
+            "Math.rnd(11.354);",
+            "Maths.round(11.354);"
+        ],
+        "answer": "Math.round(11.354);"
+    },
+    {
+        "question": "What is the JavaScript compiler Babel used for?",
+        "options": [
+            "converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers",
+            "used to bundle individual JS files for use in your website",
+            "convert older JS code into modern ECMAScript 2015+ code",
+            "it is a SSR library that can enhance SEO and accessibility of your site"
+        ],
+        "answer": "converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers"
+    },
+    {
+        "question": "What is the correct way to link to an external stylesheet from the head of an HTML document?",
+        "options": [
+            "`<link rel=\"stylesheet\" href=\"styles.css\">`",
+            "`<script type=\"text/css\" href=\"styles.css\"></script>`",
+            "`<script type=\"text/css\" src=\"styles.css\">`",
+            "`<link rel=\"css\" href=\"styles.css\">`"
+        ],
+        "answer": "`<link rel=\"stylesheet\" href=\"styles.css\">`"
+    },
+    {
+        "question": "Which href attribute creates a link to the telephone number 1-(704) 555-1151?",
+        "options": [
+            "href = \"tel:+17045551151\"",
+            "href=\"17045551151\"",
+            "href=\"phone:+1704551151\"",
+            "href=\"call:+17045551151\""
+        ],
+        "answer": "href = \"tel:+17045551151\""
+    },
+    {
+        "question": "In the color value hsl(38, 90%, 60%), what does 38 represent?",
+        "options": [
+            "the tint of the color matching 38 degrade on the color wheel",
+            "the opacity of the color indicating 38% of fully opacity",
+            "the brightness of the color matching a brightness of 38%",
+            "the intensity of the color matching an intensity of 38%"
+        ],
+        "answer": "the tint of the color matching 38 degrade on the color wheel"
+    },
+    {
+        "question": "What is a skiplink?",
+        "options": [
+            "a replacement for inaccessible navigation",
+            "a method of allowing a screen-reader user to skip between headings",
+            "a link placed early in the <body> to allow the user to skip to the main content",
+            "a link to allow users to skip video that automatically plays on a website"
+        ],
+        "answer": "a link placed early in the <body> to allow the user to skip to the main content"
+    },
+    {
+        "question": "On a page with many images, what would be the effect of adding loading=\"lazy\" to the <img> tag?",
+        "options": [
+            "It will speed up the loading of the image when used with a JavaScript library",
+            "In supporting browsers, images will be highly compressed, therefore loading more quickly",
+            "In supporting browsers, images will load only when they are in or near the visible viewport",
+            "In supporting browsers, images will not load unless the user explicitly requests image loading"
+        ],
+        "answer": "In supporting browsers, images will load only when they are in or near the visible viewport"
+    },
+    {
+        "question": "What is GraphQL?",
+        "options": [
+            "a React library for storing data",
+            "a Vue.js library for storing and manipulating data",
+            "a query language for fetching data from APIs",
+            "a new database format designed to replace MySQL"
+        ],
+        "answer": "a query language for fetching data from APIs"
+    },
+    {
+        "question": "Which choice will place a multiline text input field on the page?",
+        "options": [
+            "`<multiline></multiline>`",
+            "`<textarea></textarea>`",
+            "`<input type=\"multiline\">`",
+            "`<input type=\"textarea\">`"
+        ],
+        "answer": "`<textarea></textarea>`"
+    },
+    {
+        "question": "Which browser is not based on Chromium?",
+        "options": [
+            "Firefox",
+            "Opera",
+            "Chrome",
+            "Edge"
+        ],
+        "answer": "Firefox"
+    },
+    {
+        "question": "In supporting browsers, what would be the effect of using font-display: swap, as in the example?",
+        "options": [
+            "The browser will show no content until the web font loads.",
+            "The browser will ignore the web font.",
+            "The browser will ignore the web font in a situation where the user has indicated they are saving data.",
+            "The browser will load a system font while waiting for the web font to load."
+        ],
+        "answer": "The browser will load a system font while waiting for the web font to load."
+    },
+    {
+        "question": "What does the term \"code splitting\" mean with regard to JavasScript performance?",
+        "options": [
+            "allowing the browser to ignore code that it believes will perform badly",
+            "splitting code into various bundles so that decisions can be made on loading priority",
+            "removing unused code from JavaScript files",
+            "only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers"
+        ],
+        "answer": "splitting code into various bundles so that decisions can be made on loading priority"
+    },
+    {
+        "question": "The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?",
+        "options": [
+            "div",
+            "td",
+            "figure",
+            "p"
+        ],
+        "answer": "td"
+    },
+    {
+        "question": "Which attribute is used to add text to an image that will be displayed if the image does not load and read out to screen reader users?",
+        "options": [
+            "title",
+            "data",
+            "src",
+            "alt"
+        ],
+        "answer": "alt"
+    },
+    {
+        "question": "#### Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?",
+        "options": [
+            "focus-show",
+            ":focus-visible",
+            ":focus-ring",
+            "focus-keyboard"
+        ],
+        "answer": ":focus-visible"
+    },
+    {
+        "question": "To create a collection of radio buttons associated with the same field, each <input> tag must \\_\\_\\_\\_.",
+        "options": [
+            "have the same value as the id attribute",
+            "have the same value of the name attribute",
+            "belong to the same field set",
+            "have the same value as the class attribute"
+        ],
+        "answer": "have the same value of the name attribute"
+    },
+    {
+        "question": "Which statement about HTML syntax is _false_?",
+        "options": [
+            "The value of a class attribute should be unique in an HTML document.",
+            "The `<img>` element does not have a closing `</img>` tag.",
+            "The `<h1>` element is the most important heading on the page.",
+            "The value of an id attribute should be unique in an HTML document."
+        ],
+        "answer": "The value of a class attribute should be unique in an HTML document."
+    },
+    {
+        "question": "Which command has no Syntax error in CSS?",
+        "options": [
+            "`p {font-size: 16em;}`",
+            "`h2 {colour: yellow;}`",
+            "`div {border-radius: 5px}`",
+            "`#my-div {background-color: blue;}`"
+        ],
+        "answer": "`#my-div {background-color: blue;}`"
+    },
+    {
+        "question": "What type of CSS is the following snippet?",
+        "options": [
+            "Inline",
+            "Internal",
+            "External",
+            "None of the above"
+        ],
+        "answer": "Inline"
+    },
+    {
+        "question": "How would you set the value of a property\u2014in this example,\u2014back to the default value, as listed in the specification?",
+        "options": [
+            "color: initial",
+            "color: default",
+            "color: reset",
+            "color: inherit"
+        ],
+        "answer": "color: initial",
+        "explanation": null,
+        "codeblock": null
+    }
+]

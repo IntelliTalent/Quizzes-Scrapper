@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Two t-shirts are drawn at random in succession without replacement from a drawer containing 5 red t-shirts and 8 white t-shirts. Find the probabilities of all the possible outcomes.",
+        "options": [
+            "a) 1",
+            "b) 13",
+            "c) 40",
+            "d) 346"
+        ],
+        "answer": "a",
+        "explanation": "Let X denote the number of red t-shirts in the outcome. Here, x"
+    },
+    {
+        "question": "A jar of pickle is picked at random using a filling process in which an automatic machine is filling pickle jars with 2.5 kg of pickle in each jar. Due to few faults in the automatic process, the weight of a jar could vary from jar to jar in the range 1.7 kg to 2.9 kg excluding the latter. Let X denote the weight of a jar of pickle selected. Find the range of X.",
+        "options": [
+            "a) 3.7 \u2264 X < 3.9",
+            "b) 1.6 \u2264 X < 3.2",
+            "c) 1.7 \u2264 X < 2.9",
+            "d) 1 \u2264 X < 5"
+        ],
+        "answer": "c",
+        "explanation": "Possible outcomes should be 1.7 \u2264 X < 2.9. That is the probable range of X for the answer."
+    },
+    {
+        "question": "A probability density function f(x) for the continuous random variable X is denoted as _______",
+        "options": [
+            "a) \u222b f(x)dx = \u221e, -1<=x<=1",
+            "b) \u222b f(x)dx = 1, -\u221e<=x<=\u221e",
+            "c) \u222b f(x)dx = 0, -\u221e<=x<=\u221e",
+            "d) \u222b f(x+2)dx = .5, -\u221e<=x<=\u221e"
+        ],
+        "answer": "b",
+        "explanation": "A probability density function f(x) for the continuous random variable X is denoted as \u222b f(x)dx = 1, -\u221e<=x<=\u221e. The area under the curve between any two ordinates x = a and x = b is a probability that X lies between a and b. So, \u222bf(x)dx = P(a\u2264X\u2264b)."
+    },
+    {
+        "question": "Let X is denoted as the number of heads in three tosses of a coin. Determine the mean and variance for the random variable X.",
+        "options": [
+            "a) 4.8",
+            "b) 6",
+            "c) 3.2",
+            "d) 1.5"
+        ],
+        "answer": "d",
+        "explanation": "Let H represents a head and T be a tail. X denotes the number of heads in three tosses of a coin. X can take the value 0, 1, 2, 3. P(X = 0) = \\(\\frac{1}{8}\\), P(X = 1) = \\(\\frac{3}{8}\\), P(X = 2) = \\(\\frac{3}{8}\\), P(X = 3) = \\(\\frac{1}{8}\\). The probability distribution of X is E(X) = \u03a3"
+    },
+    {
+        "question": "A football player makes 75% of his 5-point shots and 25% his 7-point shots. Determine the expected value for a 7-point shot of the player.",
+        "options": [
+            "a) 4.59",
+            "b) 12.35",
+            "c) 5.25",
+            "d) 42.8"
+        ],
+        "answer": "c",
+        "explanation": "Multiply the outcome by its probability, so the expected value becomes 0.75 * 7 points = 5.25."
+    },
+    {
+        "question": "In a card game Reena wins 3 Rs. if she draws a king or a spade and 7 Rs. if a heart or a queen from an pack of 52 playing cards. If she pays a certain amount of money each time she will lose the game. What will be the amount so that the game will come out a fair game?",
+        "options": [
+            "a) 15",
+            "b) 6",
+            "c) 23",
+            "d) 2"
+        ],
+        "answer": "d",
+        "explanation": "We know that E(X) = \u2211{x"
+    },
+    {
+        "question": "A Random Variable X can take only two values, 4 and 5 such that P(4) = 0.32 and P(5) = 0.47. Determine the Variance of X.",
+        "options": [
+            "a) 8.21",
+            "b) 12",
+            "c) 3.7",
+            "d) 4.8"
+        ],
+        "answer": "c",
+        "explanation": "Expected Value: \u03bc = E(X) = \u2211x * P(x) = 4 \u00d7 0.32 + 5 \u00d7 0.47 = 3.63. Next find \u2211x"
+    },
+    {
+        "question": "A 6-sided die is biased. Now, the numbers one to four are equally likely to happen, but five and six is thrice as likely to land face up as each of the other numbers. If X is the number shown on the uppermost face, determine the expected value of X when 6 is shown on the uppermost face.",
+        "options": [
+            "a) \\(\\frac{13}{4}\\)",
+            "b) \\(\\frac{3}{5}\\)",
+            "c) \\(\\frac{2}{7}\\)",
+            "d) \\(\\frac{21}{87}\\)"
+        ],
+        "answer": "a",
+        "explanation": "Let P(1) = P(2) = P(3) = P(4) = p; P(5) = P(6) = 2p. We know that the sum of all probabilities must be 1 \u21d2 p + p + p + p + 2p + 2p = 1"
+    },
+    {
+        "question": "A fair cubical die is thrown twice and their scores summed up. If the sum of the scores of upper side faces by throwing two times a die is an event. Find the Expected Value of that event.",
+        "options": [
+            "a) 48",
+            "b) 76",
+            "c) 7",
+            "d) 132"
+        ],
+        "answer": "c",
+        "explanation": " Sample space = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}.Suppose: P(2) = \\(\\frac{1}{36}\\), P(3) = \\(\\frac{2}{36}\\), P(4) = \\(\\frac{3}{36}\\), P(5) = \\(\\frac{4}{36}\\), P(6) = \\(\\frac{5}{36}\\), P(7) = \\(\\frac{6}{36}\\), P(8) = \\(\\frac{5}{36}\\), P(9) = \\(\\frac{4}{36}\\), P(10) = \\(\\frac{3}{36}\\), P(11) = \\(\\frac{2}{36}\\) and P(12) = \\(\\frac{1}{36}\\). Now, Expected Value:"
+    },
+    {
+        "question": "A random variable X can take only two values, 2 and 4 i.e., P(2) = 0.45 and P(4) = 0.97. What is the Expected value of X?",
+        "options": [
+            "a) 3.8",
+            "b) 2.9",
+            "c) 4.78",
+            "d) 5.32"
+        ],
+        "answer": "c",
+        "explanation": "We know that E(X) = \u2211 x*P(x) = 2 \u00d7 0.45 + 4 \u00d7 0.97 = 4.78, where x={2,4}."
+    }
+]

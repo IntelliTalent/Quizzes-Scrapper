@@ -1,0 +1,90 @@
+[
+    {
+        "question": "___________ selects geometries that intersect with a GeoJSON geometry.",
+        "options": [
+            "a) $near",
+            "b) $nearsphere",
+            "c) $geoIntersect",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The 2dsphere index supports $geoIntersects."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) If $near or $nearSphere query specifies the center point as a GeoJSON point, specify the distance as a non-negative number in meters",
+            "b) If $nearSphere query specifies the center point as legacy coordinate pair, specify the distance as a non-negative number in radians",
+            "c) $near can only use the 2dsphere index if the query specifies the center point as a GeoJSON point",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:$minDistance filters the results of a geospatial $near or $nearSphere query to those documents that are at least the specified distance from the center point."
+    },
+    {
+        "question": "_______ returns geospatial objects in proximity to a point.",
+        "options": [
+            "a) $near",
+            "b) $nearsphere",
+            "c) $geoIntersect",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:$near requires a geospatial index."
+    },
+    {
+        "question": "_________ specifies a geometry in GeoJSON format to geospatial query operators.",
+        "options": [
+            "a) $sphere",
+            "b) $geoin",
+            "c) $geometry",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:$geometry uses EPSG:4326 as the default coordinate reference system (CRS)."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Both 2dsphere and 2d geospatial indexes support $geoWithin",
+            "b) $geoWithin does not require a geospatial index",
+            "c) The $geoWithin operator does not return sorted results",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "However, a geospatial index will improve query performance."
+    },
+    {
+        "question": "_________ returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index.",
+        "options": [
+            "a) $near",
+            "b) $nearsphere",
+            "c) $geoIntersect",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The 2dsphere and 2d indexes support $nearSphere."
+    },
+    {
+        "question": "The _________ operator specifies a circle for a $geoWithin query.",
+        "options": [
+            "a) $within",
+            "b) $gwithin",
+            "c) $center",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The query returns legacy coordinate pairs that are within the bounds of the circle."
+    },
+    {
+        "question": "________ index must exist on a field holding coordinates before using any of the geospatial query operators.",
+        "options": [
+            "a) Unique",
+            "b) Geospatial",
+            "c) Temporal",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Only the 2d geospatial index supports $center."
+    }
+]

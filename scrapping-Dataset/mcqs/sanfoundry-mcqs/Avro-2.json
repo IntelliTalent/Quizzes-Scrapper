@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which of the following is a primitive data type in Avro?",
+        "options": [
+            "a) null",
+            "b) boolean",
+            "c) float",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Primitive type names are also defined type names."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Records use the type name \u201crecord\u201d and support three attributes",
+            "b) Enum are represented using JSON arrays",
+            "c) Avro data is always serialized with its schema",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A record is encoded by encoding the values of its fields in the order that they are declared."
+    },
+    {
+        "question": "Avro supports ______ kinds of complex types.",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 6",
+            "d) 7"
+        ],
+        "answer": "d",
+        "explanation": "Avro supports six kinds of complex types: records, enums, arrays, maps, unions and fixed."
+    },
+    {
+        "question": "________ are encoded as a series of blocks.",
+        "options": [
+            "a) Arrays",
+            "b) Enum",
+            "c) Unions",
+            "d) Maps"
+        ],
+        "answer": "a",
+        "explanation": "Each block of the array consists of a long count value, followed by that many array items. A block with count zero indicates the end of the array. Each item is encoded per the array\u2019s item schema."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Record, enums and fixed are named types",
+            "b) Unions may immediately contain other unions",
+            "c) A namespace is a dot-separated sequence of such names",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Unions may not immediately contain other unions."
+    },
+    {
+        "question": "________ instances are encoded using the number of bytes declared in the schema.",
+        "options": [
+            "a) Fixed",
+            "b) Enum",
+            "c) Unions",
+            "d) Maps"
+        ],
+        "answer": "a",
+        "explanation": "Except for unions, the JSON encoding is the same as is used to encode field default values."
+    },
+    {
+        "question": "_____________ are used between blocks to permit efficient splitting of files for MapReduce processing.",
+        "options": [
+            "a) Codec",
+            "b) Data Marker",
+            "c) Synchronization markers",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Avro includes a simple object container file format."
+    },
+    {
+        "question": "The __________ codec uses Google\u2019s Snappy compression library.",
+        "options": [
+            "a) null",
+            "b) snappy",
+            "c) deflate",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Snappy is a compression library developed at Google, and, like many technologies that come from Google, Snappy was designed to be fast."
+    },
+    {
+        "question": "Avro messages are framed as a list of _________",
+        "options": [
+            "a) buffers",
+            "b) frames",
+            "c) rows",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Framing is a layer between messages and transport. It exists to optimize certain operations."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Hive specific commands can be run from Beeline, when the Hive _______ driver is used.",
+        "options": [
+            "a) ODBC",
+            "b) JDBC",
+            "c) ODBC-JDBC",
+            "d) All of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Hive specific commands are same as Hive CLI commands."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) \u2013helpusage display a usage message",
+            "b) The JDBC connection URL format has the prefix jdbc:hive:",
+            "c) Starting with Hive 0.14, there are improved SV output formats",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Output formats available are namely DSV, CSV2 and TSV2."
+    },
+    {
+        "question": "_________ reduce the amount of informational messages displayed (true) or not (false).",
+        "options": [
+            "a) \u2013silent=[true/false]",
+            "b) \u2013autosave=[true/false]",
+            "c) \u2013force=[true/false]",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "It also stops displaying the log messages for the query from HiveServer2."
+    },
+    {
+        "question": "Which of the following is used to set transaction isolation level?",
+        "options": [
+            "a) \u2013incremental=[true/false]",
+            "b) \u2013isolation=LEVEL",
+            "c) \u2013force=[true/false]",
+            "d) \u2013truncateTable=[true/false]"
+        ],
+        "answer": "b",
+        "explanation": "Set the transaction isolation level to TRANSACTION_READ_COMMITTED or TRANSACTION_SERIALIZABLE."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) HiveServer2 has a new JDBC driver",
+            "b) CSV and TSV output formats are maintained for forward compatibility",
+            "c) HiveServer2 supports both embedded and remote access to HiveServer2",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "CSV and TSV output formats are maintained for backward compatibility."
+    },
+    {
+        "question": "The ________ allows users to read or write Avro data as Hive tables.",
+        "options": [
+            "a) AvroSerde",
+            "b) HiveSerde",
+            "c) SqlSerde",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "AvroSerde understands compressed Avro files."
+    },
+    {
+        "question": "Starting in Hive _______ the Avro schema can be inferred from the Hive table schema.",
+        "options": [
+            "a) 0.14",
+            "b) 0.12",
+            "c) 0.13",
+            "d) 0.11"
+        ],
+        "answer": "a",
+        "explanation": "Starting in Hive 0.14, columns can be added to an Avro backed Hive table using the Alter Table statement."
+    },
+    {
+        "question": "The AvroSerde has been built and tested against Hive 0.9.1 and later, and uses Avro _______ as of Hive 0.13 and 0.14.",
+        "options": [
+            "a) 1.7.4",
+            "b) 1.7.2",
+            "c) 1.7.3",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The AvroSerde uses Avro 1.7.5."
+    },
+    {
+        "question": "Which of the following data type is supported by Hive?",
+        "options": [
+            "a) map",
+            "b) record",
+            "c) string",
+            "d) enum"
+        ],
+        "answer": "d",
+        "explanation": "Hive has no concept of enums."
+    },
+    {
+        "question": "Which of the following data type is converted to Array prior to Hive 0.12.0?",
+        "options": [
+            "a) map",
+            "b) long",
+            "c) float",
+            "d) bytes"
+        ],
+        "answer": "d",
+        "explanation": "Bytes are converted to Array[smallint] prior to Hive 0.12.0."
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "question": "_________ is the name of the archive you would like to create.",
+        "options": [
+            "a) archive",
+            "b) archiveName",
+            "c) name",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The name should have a *.har extension."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) A Hadoop archive maps to a file system directory",
+            "b) Hadoop archives are special format archives",
+            "c) A Hadoop archive always has a *.har extension",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A Hadoop archive directory contains metadata (in the form of _index and _masterindex) and data (part-*) files."
+    },
+    {
+        "question": "Using Hadoop Archives in __________ is as easy as specifying a different input filesystem than the default file system.",
+        "options": [
+            "a) Hive",
+            "b) Pig",
+            "c) MapReduce",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Hadoop Archives is exposed as a file system MapReduce will be able to use all the logical input files in Hadoop Archives as input."
+    },
+    {
+        "question": "The __________ guarantees that excess resources taken from a queue will be restored to it within N minutes of its need for them.",
+        "options": [
+            "a) capacitor",
+            "b) scheduler",
+            "c) datanode",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Free resources can be allocated to any queue beyond its guaranteed capacity."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The Hadoop archive exposes itself as a file system layer",
+            "b) Hadoop archives are immutable",
+            "c) Archive rename, deletes and creates return an error",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the fs shell commands in the archives work but with a different URI."
+    },
+    {
+        "question": "_________ is a pluggable Map/Reduce scheduler for Hadoop which provides a way to share large clusters.",
+        "options": [
+            "a) Flow Scheduler",
+            "b) Data Scheduler",
+            "c) Capacity Scheduler",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The Capacity Scheduler supports multiple queues, where a job is submitted to a queue."
+    },
+    {
+        "question": "Which of the following parameter describes destination directory which would contain the archive?",
+        "options": [
+            "a) -archiveName <name>",
+            "b) <source>",
+            "c) <destination>",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " -archiveName <name> is the name of the archive to be created."
+    },
+    {
+        "question": "_________ identifies filesystem path names which work as usual with regular expressions.",
+        "options": [
+            "a) -archiveName <name>",
+            "b) <source>",
+            "c) <destination>",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": " __________ is the parent argument used to specify the relative path to which the files should be archived to",
+        "options": [
+            "a) -archiveName <name>",
+            "b) -p <parent_path>",
+            "c) <destination>",
+            "d) <source>"
+        ],
+        "answer": "b",
+        "explanation": "The hadoop archive command creates a Hadoop archive, a file that contains other files."
+    },
+    {
+        "question": "Which of the following is a valid syntax for hadoop archive?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "The Hadoop archiving tool can be invoked using the following command format: hadoop archive -archiveName name -p <parent> <src>* <dest>."
+    }
+]

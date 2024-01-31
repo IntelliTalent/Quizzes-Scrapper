@@ -1,0 +1,101 @@
+[
+    {
+        "question": "__________ query calculates distances using flat (planar) geometry.",
+        "options": [
+            "a) $center",
+            "b) $centre",
+            "c) $radii",
+            "d) Sort"
+        ],
+        "answer": "a",
+        "explanation": "In MongoDB, sort operations can obtain the sort order by retrieving documents based on the ordering in an index."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The query scans the index and not the collection",
+            "b) If overall selectivity is high, and if MongoDB must read a number of documents to return results, then some queries may perform faster without indexes",
+            "c) A better strategy, depending on your queries, would be to create a compound index that includes the high-selectivity field and another field",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To ensure selectivity, write queries that limit the number of possible documents with the indexed field. Write queries that are appropriately selective relative to your indexed data."
+    },
+    {
+        "question": "_________ defines a circle for a geospatial query that uses spherical geometry.",
+        "options": [
+            "a) $center",
+            "b) $centre",
+            "c) $radii",
+            "d) $centersphere"
+        ],
+        "answer": "d",
+        "explanation": "You can use the $centerSphere operator on both GeoJSON objects and legacy coordinate pairs."
+    },
+    {
+        "question": "When used with the $box operator, _________ returns documents based on grid coordinates and does not query for GeoJSON shapes.",
+        "options": [
+            "a) $geoNear",
+            "b) $geoWithin",
+            "c) $geoRear",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To use the $box operator, you must specify the bottom left and top right corners of the rectangle in an array object."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Applications can use $center without having a geospatial index",
+            "b) Before 3.0, a geospatial index must exist on a field holding coordinates before using any of the geospatial query operators",
+            "c) To use $centerSphere, specify an array that contains grid coordinates of the circle\u2019s center point",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "However, geospatial indexes support much faster queries than the unindexed equivalents."
+    },
+    {
+        "question": "Applications can use _________ without having a geospatial index.",
+        "options": [
+            "a) $center",
+            "b) $centre",
+            "c) $radii",
+            "d) $centersphere"
+        ],
+        "answer": "d",
+        "explanation": "The query returns documents that are within the bounds of the circle."
+    },
+    {
+        "question": "_________ specifies a polygon for a geospatial $geoWithin query on legacy coordinate pairs.",
+        "options": [
+            "a) $rect",
+            "b) $polygon",
+            "c) $poly",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To define the polygon, specify an array of coordinate points."
+    },
+    {
+        "question": "Only the ______ geospatial index supports the $polygon operator.",
+        "options": [
+            "a) 1dsphere",
+            "b) 2d",
+            "c) 3d",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The $polygon operator calculates distances using flat (planar) geometry."
+    },
+    {
+        "question": "________ returns a document only once for a geospatial query even if the document matches the query multiple times.",
+        "options": [
+            "a) $uniqueDocs",
+            "b) $unique",
+            "c) $Docs",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Geospatial queries no longer return duplicate results."
+    }
+]

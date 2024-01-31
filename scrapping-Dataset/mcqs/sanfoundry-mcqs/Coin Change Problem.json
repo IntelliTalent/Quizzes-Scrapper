@@ -1,0 +1,119 @@
+[
+    {
+        "question": "You are given infinite coins of denominations v1, v2, v3,\u2026..,vn and a sum S. The coin change problem is to find the minimum number of coins required to get the sum S. This problem can be solved using ____________",
+        "options": [
+            "a) Greedy algorithm",
+            "b) Dynamic programming",
+            "c) Divide and conquer",
+            "d) Backtracking"
+        ],
+        "answer": "b",
+        "explanation": "The coin change problem has overlapping subproblems(same subproblems are solved multiple times) and optimal substructure(the solution to the problem can be found by finding optimal solutions for subproblems). So, dynamic programming can be used to solve the coin change problem."
+    },
+    {
+        "question": "Suppose you have coins of denominations 1, 3 and 4. You use a greedy algorithm, in which you choose the largest denomination coin which is not greater than the remaining sum. For which of the following sums, will the algorithm NOT produce an optimal answer?",
+        "options": [
+            "a) 20",
+            "b) 12",
+            "c) 6",
+            "d) 5"
+        ],
+        "answer": "c",
+        "explanation": "Using the greedy algorithm, three coins {4,1,1} will be selected to make a sum of 6. But, the optimal answer is two coins {3,3}."
+    },
+    {
+        "question": "Suppose you have coins of denominations 1,3 and 4. You use a greedy algorithm, in which you choose the largest denomination coin which is not greater than the remaining sum. For which of the following sums, will the algorithm produce an optimal answer?",
+        "options": [
+            "a) 14",
+            "b) 10",
+            "c) 6",
+            "d) 100"
+        ],
+        "answer": "d",
+        "explanation": "Using the greedy algorithm, three coins {4,1,1} will be selected to make a sum of 6. But, the optimal answer is two coins {3,3}. Similarly, four coins {4,4,1,1} will be selected to make a sum of 10. But, the optimal answer is three coins {4,3,3}. Also, five coins {4,4,4,1,1} will be selected to make a sum of 14. But, the optimal answer is four coins {4,4,3,3}. For a sum of 100, twenty-five coins {all 4\u2019s} will be selected and the optimal answer is also twenty-five coins {all 4\u2019s}."
+    },
+    {
+        "question": "Fill in the blank to complete the code.",
+        "options": [],
+        "answer": "b",
+        "explanation": "min_coins = lookup[tmp] will complete the code."
+    },
+    {
+        "question": "You are given infinite coins of N denominations v1, v2, v3,\u2026..,vn and a sum S. The coin change problem is to find the minimum number of coins required to get the sum S. What is the time complexity of a dynamic programming implementation used to solve the coin change problem?",
+        "options": [
+            "a) O(N)",
+            "b) O(S)",
+            "c) O(N",
+            "d) O(S*N)"
+        ],
+        "answer": "d",
+        "explanation": "The time complexity is O(S*N)."
+    },
+    {
+        "question": "Suppose you are given infinite coins of N denominations v1, v2, v3,\u2026..,vn and a sum S. The coin change problem is to find the minimum number of coins required to get the sum S. What is the space complexity of a dynamic programming implementation used to solve the coin change problem?",
+        "options": [
+            "a) O(N)",
+            "b) O(S)",
+            "c) O(N",
+            "d) O(S*N)"
+        ],
+        "answer": "b",
+        "explanation": "To get the optimal solution for a sum S, the optimal solution is found for each sum less than equal to S and each solution is stored. So, the space complexity is O(S)."
+    },
+    {
+        "question": "You are given infinite coins of denominations 1, 3, 4. What is the total number of ways in which a sum of 7 can be achieved using these coins if the order of the coins is not important?",
+        "options": [
+            "a) 4",
+            "b) 3",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "A sum of 7 can be achieved in the following ways:"
+    },
+    {
+        "question": "You are given infinite coins of denominations 1, 3, 4. What is the minimum number of coins required to achieve a sum of 7?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "A sum of 7 can be achieved by using a minimum of two coins {3,4}."
+    },
+    {
+        "question": "You are given infinite coins of denominations 5, 7, 9. Which of the following sum CANNOT be achieved using these coins?",
+        "options": [
+            "a) 50",
+            "b) 21",
+            "c) 13",
+            "d) 23"
+        ],
+        "answer": "c",
+        "explanation": "One way to achieve a sum of 50 is to use ten coins of 5. A sum of 21 can be achieved by using three coins of 7. One way to achieve a sum of 23 is to use two coins of 7 and one coin of 9. A sum of 13 cannot be achieved."
+    },
+    {
+        "question": "You are given infinite coins of denominations 3, 5, 7. Which of the following sum CANNOT be achieved using these coins?",
+        "options": [
+            "a) 15",
+            "b) 16",
+            "c) 17",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "Sums can be achieved as follows:"
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the minimum number of coins required to get a sum of 10, which is 3."
+    },
+    {
+        "question": "What is the output of the following program?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the minimum number of coins required to get a sum of 14, which is 4."
+    }
+]

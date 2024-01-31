@@ -1,0 +1,113 @@
+[
+    {
+        "question": "Which of the following methods can be used to solve the longest palindromic subsequence problem?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Recursion",
+            "c) Brute force",
+            "d) Dynamic programming, Recursion, Brute force"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic programming, Recursion, Brute force can be used to solve the longest palindromic subsequence problem."
+    },
+    {
+        "question": "Which of the following is not a palindromic subsequence of the string \u201cababcdabba\u201d?",
+        "options": [
+            "a) abcba",
+            "b) abba",
+            "c) abbbba",
+            "d) adba"
+        ],
+        "answer": "d",
+        "explanation": "\u2018adba\u2019 is not a palindromic sequence."
+    },
+    {
+        "question": "For which of the following, the length of the string is not equal to the length of the longest palindromic subsequence?",
+        "options": [
+            "a) A string that is a palindrome",
+            "b) A string of length one",
+            "c) A string that has all the same letters(e.g. aaaaaa)",
+            "d) Some strings of length two"
+        ],
+        "answer": "d",
+        "explanation": "A string of length 2 for eg: ab is not a palindrome."
+    },
+    {
+        "question": "What is the length of the longest palindromic subsequence for the string \u201cababcdabba\u201d?",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 8",
+            "d) 9"
+        ],
+        "answer": "b",
+        "explanation": "The longest palindromic subsequence is \u201cabbabba\u201d and its length is 7."
+    },
+    {
+        "question": "What is the time complexity of the brute force algorithm used to find the length of the longest palindromic subsequence?",
+        "options": [
+            "a) O(1)",
+            "b) O(2",
+            "c) O(n)",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "In the brute force algorithm, all the subsequences are found and the length of the longest palindromic subsequence is calculated. This takes exponential time."
+    },
+    {
+        "question": "For every non-empty string, the length of the longest palindromic subsequence is at least one.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A single character of any string can always be considered as a palindrome and its length is one."
+    },
+    {
+        "question": "Longest palindromic subsequence is an example of ______________",
+        "options": [
+            "a) Greedy algorithm",
+            "b) 2D dynamic programming",
+            "c) 1D dynamic programming",
+            "d) Divide and conquer"
+        ],
+        "answer": "b",
+        "explanation": "Longest palindromic subsequence is an example of 2D dynamic programming."
+    },
+    {
+        "question": "Consider the following code:",
+        "options": [],
+        "answer": "a",
+        "explanation": "To find the longest palindromic subsequence, we need to reverse the copy of the string, which is done by  strrev."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation to find the longest palindromic subsequence where the length of the string is n?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The time complexity of the above dynamic programming implementation to find the longest palindromic subsequence is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation to find the longest palindromic subsequence where the length of the string is n?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation to find the longest palindromic subsequence is O(n"
+    },
+    {
+        "question": "What is the value stored in arr[3][3] when the following code is executed?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The value stored in arr[3][3] when the above code is executed is 2."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The program prints the length of the longest palindromic subsequence, which is 1."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the length of the longest palindromic subsequence, which is 9."
+    }
+]

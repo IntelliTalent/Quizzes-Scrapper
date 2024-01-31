@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which of the following code skips the first 20 iterations?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "next is used to skip an iteration of a loop."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The only way to exit a repeat loop is to call break",
+            "b) Infinite loops should generally be avoided",
+            "c) Control structures like if, while, and for allow you to control the flow of an R program",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Control structures are primarily useful for writing programs; for command line interactive work."
+    },
+    {
+        "question": "_________ initiates an infinite loop right from the start.",
+        "options": [
+            "a) never",
+            "b) repeat",
+            "c) break",
+            "d) set"
+        ],
+        "answer": "b",
+        "explanation": "These are not commonly used in statistical or data analysis applications but they do have their uses."
+    },
+    {
+        "question": "Which of the following R code snippet stops loop after 20 iterations?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "break is used to exit a loop immediately, regardless of what iteration the loop may be on."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Statements cannot be grouped together using braces \u2018{\u2019 and \u2018}\u2019",
+            "b) Computation in R consists of sequentially evaluating statements",
+            "c) Single statements are evaluated when a new line is typed at the end of the syntactically complete statement",
+            "d) next is used to skip an iteration of a loop"
+        ],
+        "answer": "a",
+        "explanation": "Blocks are not evaluated until a new line is entered after the closing brace."
+    },
+    {
+        "question": "_______ is used to skip an iteration of a loop.",
+        "options": [
+            "a) next",
+            "b) skip",
+            "c) group",
+            "d) cancel"
+        ],
+        "answer": "a",
+        "explanation": "No statement below next in the current loop is evaluated."
+    },
+    {
+        "question": "Which of the following R code can be used to avoid numeric problems such as taking the logarithm of a negative number?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "The else clause is optional. The statement if(any(x <= 0)) x <- x[x <= 0] is valid."
+    },
+    {
+        "question": "R has ________ statements that provide explicit looping.",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 4",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "They are for, while and repeat."
+    },
+    {
+        "question": "The syntax of the repeat loop is _________",
+        "options": [
+            "a) rep statement",
+            "b) repeat statement",
+            "c) repeat else",
+            "d) repeat while"
+        ],
+        "answer": "b",
+        "explanation": "The repeat statement causes repeated evaluation of the body until a break is specifically requested."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Conditions are always evaluated from left to right."
+    }
+]

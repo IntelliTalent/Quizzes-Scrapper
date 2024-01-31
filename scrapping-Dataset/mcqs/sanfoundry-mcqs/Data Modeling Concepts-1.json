@@ -1,0 +1,101 @@
+[
+    {
+        "question": "___________ data models allow applications to store related pieces of information in the same database record.",
+        "options": [
+            "a) Reference",
+            "b) Embedded",
+            "c) External",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "As a result, applications may need to issue fewer queries and updates to complete common operations."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) With MongoDB, you cannot embed related data in a single structure or document",
+            "b) The key consideration for the structure of your documents is the decision to embed or to use references",
+            "c) Reference schema is generally known as \u201cdenormalized\u201d models",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Effective data models support your application needs."
+    },
+    {
+        "question": "Embedded data model is used when you have _________ relationships between entities.",
+        "options": [
+            "a) contains",
+            "b) isa",
+            "c) inheritance",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Embedding provides better performance for read operations."
+    },
+    {
+        "question": "Normalized data models describe relationships using ___________ between documents.",
+        "options": [
+            "a) relativeness",
+            "b) references",
+            "c) evaluation",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Normalized data models can require more round trips to the server."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Embedded data models make it possible to update related data in a single atomic write operation",
+            "b) Embedding related data in documents may lead to situations where documents grow after creation",
+            "c) With the MMAPv1 storage engine, document growth can impact write performance and lead to data fragmentation",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In version 3.0.0, MongoDB uses Power of 2 Sized Allocations as the default allocation strategy for MMAPv1 in order to account for document growth, minimizing the likelihood of data fragmentation."
+    },
+    {
+        "question": "To interact with embedded documents, use ___________ notation to \u201creach into\u201d embedded documents.",
+        "options": [
+            "a) period",
+            "b) dot",
+            "c) comma",
+            "d) colon"
+        ],
+        "answer": "b",
+        "explanation": "References provides more flexibility than embedding."
+    },
+    {
+        "question": "To get the current number of namespaces in the mongo shell, use ________________",
+        "options": [
+            "a) db.system.namespaces.countc()",
+            "b) db.system.namespaces.count(*)",
+            "c) db.system.namespaces.count()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The limit on the number of namespaces depend on the <database>.ns size."
+    },
+    {
+        "question": "The __________ feature of collections expires documents after a period of time.",
+        "options": [
+            "a) TEL",
+            "b) TTL",
+            "c) TPL",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Consider using the TTL feature if your application requires some data to persist in the database for a limited period of time."
+    },
+    {
+        "question": "Capped collections provide __________ management of inserted documents in MongoDB.",
+        "options": [
+            "a) FIFO",
+            "b) LIFO",
+            "c) LRU",
+            "d) MRU"
+        ],
+        "answer": "a",
+        "explanation": "Capped collections efficiently support operations that insert and read documents based on insertion order."
+    }
+]

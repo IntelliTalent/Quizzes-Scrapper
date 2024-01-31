@@ -1,0 +1,112 @@
+[
+    {
+        "question": "In a group there must be only __________ element.",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 5"
+        ],
+        "answer": "a",
+        "explanation": "There can be only one identity element in a group and each element in a group has exactly one inverse element. Hence, two important consequences of the group axioms are the uniqueness of the identity element and the uniqueness of inverse elements."
+    },
+    {
+        "question": "_____ is the multiplicative identity of natural numbers.",
+        "options": [
+            "a) 0",
+            "b) -1",
+            "c) 1",
+            "d) 2"
+        ],
+        "answer": "c",
+        "explanation": "1 is the multiplicative identity of natural numbers as a\u22c51=a=1\u22c5a \u2200a\u2208N. Thus, 1 is the identity of multiplication for the set of integers(Z), set of rational numbers(Q), and set of real numbers(R)."
+    },
+    {
+        "question": "An identity element of a group has ______ element.",
+        "options": [
+            "a) associative",
+            "b) commutative",
+            "c) inverse",
+            "d) homomorphic"
+        ],
+        "answer": "c",
+        "explanation": "By the definition of all elements of a group have an inverse. For an element, a in a group G, an inverse of a is an element b such that ab=e, where e is the identity in the group. The inverse of an element is unique and usually denoted as -a."
+    },
+    {
+        "question": "__________ matrices do not have multiplicative inverses.",
+        "options": [
+            "a) non-singular",
+            "b) singular",
+            "c) triangular",
+            "d) inverse"
+        ],
+        "answer": "b",
+        "explanation": "The rational numbers are an extension of the integer numbers in which each non-zero number has an inverse under multiplication. A 3 \u00d7 3 matrix may or may not have an inverse under matrix multiplication. The matrices which do not have multiplicative inverses are termed as singular matrices."
+    },
+    {
+        "question": "If X is an idempotent nonsingular matrix, then X must be ___________",
+        "options": [
+            "a) singular matrix",
+            "b) identity matrix",
+            "c) idempotent matrix",
+            "d) nonsingular matrix"
+        ],
+        "answer": "b",
+        "explanation": "Since X is idempotent, we have X"
+    },
+    {
+        "question": "If A, B, and C are invertible matrices, the expression (AB",
+        "options": [
+            "a) BC",
+            "b) C",
+            "c) AB",
+            "d) C"
+        ],
+        "answer": "a",
+        "explanation": "Using the properties (AB)"
+    },
+    {
+        "question": "If the sum of elements in each row of an n\u00d7n matrix Z is zero, then the matrix is ______________",
+        "options": [
+            "a) inverse",
+            "b) non-singular",
+            "c) additive inverse",
+            "d) singular"
+        ],
+        "answer": "d",
+        "explanation": "By the definition, an n\u00d7n matrix A is said to be singular if there exists a nonzero vector v such that Av=0. Otherwise, it is known that A is a nonsingular matrix."
+    },
+    {
+        "question": " ___________ are the symmetry groups used in the Standard model.",
+        "options": [
+            "a) lie groups",
+            "b) subgroups",
+            "c) cyclic groups",
+            "d) poincare groups"
+        ],
+        "answer": "a",
+        "explanation": "A symmetry group can encode symmetry features of a geometrical object. The group consists of the set of transformations that leave the object unchanged. Lie groups are such symmetry groups used in the standard model of particle physics."
+    },
+    {
+        "question": "A semigroup S under binary operation * that has an identity is called __________",
+        "options": [
+            "a) multiplicative identity",
+            "b) monoid",
+            "c) subgroup",
+            "d) homomorphism"
+        ],
+        "answer": "b",
+        "explanation": "Let P(S) is a commutative semigroup has the identity e, since e*A=A=A*e for any element A belongs to P(S). Hence, P(S) is a monoid."
+    },
+    {
+        "question": "An element a in a monoid is called an idempotent if ______________",
+        "options": [
+            "a) a",
+            "b) a*a",
+            "c) a",
+            "d) a"
+        ],
+        "answer": "c",
+        "explanation": "An algebraic structure with a single associative binary operation and an Identity element are termed as a monoid. It is studied in semigroup theory. An element x in a monoid is called idempotent if a"
+    }
+]

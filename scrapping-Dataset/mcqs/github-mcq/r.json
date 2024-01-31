@@ -1,0 +1,684 @@
+[
+    {
+        "question": "How does a matrix differ from a data frame?",
+        "options": [
+            "A matrix may contain numeric values only.",
+            "A matrix must not be singular.",
+            "A data frame may contain variables that have different modes.",
+            "A data frame may contain variables of different lengths."
+        ],
+        "answer": "A data frame may contain variables that have different modes."
+    },
+    {
+        "question": "What value does this statement return?",
+        "options": [
+            "1",
+            "365",
+            "4",
+            "12"
+        ],
+        "answer": "365"
+    },
+    {
+        "question": "What do you use to take an object such as a data frame out of the workspace?",
+        "options": [
+            "remove()",
+            "erase()",
+            "detach()",
+            "delete()"
+        ],
+        "answer": "remove()"
+    },
+    {
+        "question": "Review the following code. What is the result of line 3?",
+        "options": [
+            "[1] 1 2 3",
+            "[1] \"1\" 2 \"3\"",
+            "[1] \"1\" \"2\" \"3\"",
+            "[1] 7 9"
+        ],
+        "answer": "[1] \"1\" \"2\" \"3\""
+    },
+    {
+        "question": "The variable height is a numeric vector in the code below. Which statement returns the value 35?",
+        "options": [
+            "`height(length(height))`",
+            "`height[length(height)]`",
+            "`height[length[height]]`",
+            "`height(5)`"
+        ],
+        "answer": "`height[length(height)]`"
+    },
+    {
+        "question": "In the image below, the data frame is named rates. The statement `sd(rates[, 2])` returns 39. As what does R regard Ellen's product ratings?",
+        "options": [
+            "sample with replacement",
+            "population",
+            "trimmed sample",
+            "sample <-- not sure"
+        ],
+        "answer": "sample <-- not sure"
+    },
+    {
+        "question": "Which choice does R regard as an acceptable name for a variable?",
+        "options": [
+            "`Var_A!`",
+            "`\\_VarA`",
+            "`.2Var_A`",
+            "`Var2_A`"
+        ],
+        "answer": "`Var2_A`"
+    },
+    {
+        "question": "What is the principal difference between an array and a matrix?",
+        "options": [
+            "A matrix has two dimensions, while an array can have three or more dimensions.",
+            "An array is a subtype of the data frame, while a matrix is a separate type entirely.",
+            "A matrix can have columns of different lengths, but an array's columns must all be the same length.",
+            "A matrix may contain numeric values only, while an array can mix different types of values."
+        ],
+        "answer": "A matrix has two dimensions, while an array can have three or more dimensions."
+    },
+    {
+        "question": "Which is not a property of lists and vectors?",
+        "options": [
+            "type",
+            "length",
+            "attributes",
+            "scalar"
+        ],
+        "answer": "scalar"
+    },
+    {
+        "question": "In the image below, the data frame on lines 1 through 4 is named StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?",
+        "options": [
+            "StDf[1:2,-3]",
+            "StDf[1:2,1]",
+            "StDf[1:2,]",
+            "StDf[1,2,]"
+        ],
+        "answer": "StDf[1:2,1]"
+    },
+    {
+        "question": "Which function displays the first five rows of the data frame named pizza?",
+        "options": [
+            "BOF(pizza, 5)",
+            "first(pizza, 5)",
+            "top(pizza, 5)",
+            "head(pizza, 5)"
+        ],
+        "answer": "head(pizza, 5)"
+    },
+    {
+        "question": "You accidentally display a large data frame on the R console, losing all the statements you entered during the current session. What is the best way to get the prior 25 statements back?",
+        "options": [
+            "console(-25)",
+            "console(reverse=TRUE)",
+            "history()",
+            "history(max.show = 25)"
+        ],
+        "answer": "history(max.show = 25)"
+    },
+    {
+        "question": "d.pizza is a data frame. It's a column named temperature contains only numbers. If you extract temperature using the [] accessors, its class defaults to numeric. How can you access temperature so that it retains the class of data.frame?",
+        "options": [
+            "`class( d.pizza( , \"temperature\" ) )`",
+            "`class( d.pizza[ , \"temperature\" ] )`",
+            "`class( d.pizza$temperature )`",
+            "`class( d.pizza[ , \"temperature\", drop=F ] )`"
+        ],
+        "answer": "`class( d.pizza[ , \"temperature\", drop=F ] )`"
+    },
+    {
+        "question": "What does c contain?",
+        "options": [
+            "[1] NaN",
+            "[1] -4",
+            "[1] 4 -1 -1 2",
+            "[1] TRUE FALSE FALSE TRUE"
+        ],
+        "answer": "[1] TRUE FALSE FALSE TRUE"
+    },
+    {
+        "question": "Review the statements below. Does the use of the dim function change the class of y, and if so what is y's new class?",
+        "options": [
+            "No, y's new class is \"array\".",
+            "Yes, y's new class is \"matrix\".",
+            "No, y's new class is \"vector\".",
+            "Yes, y's new class is \"integer\"."
+        ],
+        "answer": "Yes, y's new class is \"matrix\"."
+    },
+    {
+        "question": "What is `mydf$y` in this code?",
+        "options": [
+            "list",
+            "string",
+            "factor",
+            "character vector"
+        ],
+        "answer": "character vector"
+    },
+    {
+        "question": "How does a vector differ from a list?",
+        "options": [
+            "Vectors are used only for numeric data, while lists are useful for both numeric and string data.",
+            "Vectors and lists are the same thing and can be used interchangeably.",
+            "A vector contains items of a single data type, while a list can contain items of different data types.",
+            "Vectors are like arrays, while lists are like data frames."
+        ],
+        "answer": "A vector contains items of a single data type, while a list can contain items of different data types."
+    },
+    {
+        "question": "What statement shows the objects on your workspace?",
+        "options": [
+            "list.objects()",
+            "print.objects()",
+            "getws()",
+            "ls()"
+        ],
+        "answer": "ls()"
+    },
+    {
+        "question": "What function joins two or more column vectors to form a data frame?",
+        "options": [
+            "rbind()",
+            "cbind()",
+            "bind()",
+            "coerce()"
+        ],
+        "answer": "cbind()"
+    },
+    {
+        "question": "Review line 1 below. What does the statement in line 2 return?",
+        "options": [
+            "[1] 1 2 4 5",
+            "\"C\"",
+            "[1] \"1\" \"2\" \"C\" \"4\" \"5\"",
+            "[1] 1 2 C 4 5"
+        ],
+        "answer": "[1] \"1\" \"2\" \"C\" \"4\" \"5\""
+    },
+    {
+        "question": "What is the value of y in this code?",
+        "options": [
+            "Inf",
+            "Null",
+            "NaN",
+            "NA"
+        ],
+        "answer": "NA"
+    },
+    {
+        "question": "Two variable in the mydata data frame are named Var1 and Var2. How do you tell a bivariate function, such as cor.test, which two variables you want to analyze?",
+        "options": [
+            "`cor.test(Var1 ~ Var2)`",
+            "`cor.test(mydata$(Var1,Var2))`",
+            "`cor.test(mydata$Var1,mydata$Var2)`",
+            "`cor.test(Var1,Var2, mydata)`"
+        ],
+        "answer": "`cor.test(mydata$Var1,mydata$Var2)`"
+    },
+    {
+        "question": "A data frame named d.pizza is part of the DescTools package. A statement is missing from the following R code and an error is therefore likely to occur. Which statement is missing?",
+        "options": [
+            "`attach(d.pizza)`",
+            "`summarize(deliver)`",
+            "`mean <- rbind(d.pizza,count)`",
+            "`deliver[!complete.cases(deliver),]`"
+        ],
+        "answer": "`attach(d.pizza)`"
+    },
+    {
+        "question": "How to name rows and columns in DataFrames and Matrices F in R?",
+        "options": [
+            "data frame: names() and rownames() matrix: colnames() and row.names()",
+            "data frame: names() and row.names() matrix: dimnames() (not sure)",
+            "data frame: colnames() and row.names() matrix: names() and rownames()",
+            "data frame: colnames() and rownames() matrix: names() and row.names()"
+        ],
+        "answer": "data frame: names() and row.names() matrix: dimnames() (not sure)"
+    },
+    {
+        "question": "Which set of two statements-followed by the cbind() function-results in a data frame named vbound?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "&shy;"
+        ],
+        "answer": "&shy;"
+    },
+    {
+        "question": "ournames is a character vector. What values does the statement below return to Cpeople?",
+        "options": [
+            "records where the first character is a C",
+            "any record with a value containing a C",
+            "TRUE or FALSE, depending on whether any character in ournames is C",
+            "TRUE and FALSE values, depending on whether the first character in an ournames record is C"
+        ],
+        "answer": "TRUE and FALSE values, depending on whether the first character in an ournames record is C"
+    },
+    {
+        "question": "What is the value of names(v[4])?",
+        "options": [
+            "\"\"",
+            "d",
+            "NULL",
+            "NA"
+        ],
+        "answer": "\"\""
+    },
+    {
+        "question": "Which of the following statements doesn't yield the code output below. Review the following code. What is the result of line 3?",
+        "options": [
+            "x[c(2, 3, 4)]",
+            "x[-1]",
+            "x[c(-1, 0, 0, 0)]",
+            "x[c(-1, 2, 3, 4)]"
+        ],
+        "answer": "x[c(-1, 2, 3, 4)]"
+    },
+    {
+        "question": "Given DFMerged <- merge(DF1, DF2) and the image below, how many rows are in DFMerged?",
+        "options": [
+            "6",
+            "9",
+            "3",
+            "0"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "What does R return in response to the final statement?",
+        "options": [
+            "e f g h",
+            "5 6 7 8",
+            "e f g h",
+            "e f g h"
+        ],
+        "answer": "e f g h"
+    },
+    {
+        "question": "How do you return \"October\" from x in this code?",
+        "options": [
+            "attr()",
+            "months(x)",
+            "as.month(x)",
+            "month(x)"
+        ],
+        "answer": "months(x)"
+    },
+    {
+        "question": "How will R respond to the last line of this code?",
+        "options": [
+            ">",
+            "[,2]Ind",
+            "invalid factor level, NA generated",
+            "Ind"
+        ],
+        "answer": "invalid factor level, NA generated"
+    },
+    {
+        "question": "What does R return?",
+        "options": [
+            "\"1970-01-02\"",
+            "time difference of one day",
+            "time difference of two days",
+            "error in x-y: nonnumeric argument to binary operator"
+        ],
+        "answer": "time difference of two days"
+    },
+    {
+        "question": "What does the expression `mtrx * mtrx` do ?",
+        "options": [
+            "it transpose **mtrx**",
+            "it premultiplies the current **netwmat** row by the **newmat** column.",
+            "it returns the results of a matrix multiplication",
+            "It squares each cell in **mtrx**"
+        ],
+        "answer": "It squares each cell in **mtrx**"
+    },
+    {
+        "question": "Which function in R combines different values into a single object?",
+        "options": [
+            "connect()",
+            "concat()",
+            "contact()",
+            "c()"
+        ],
+        "answer": "c()"
+    },
+    {
+        "question": "Which file contains settings that R uses for all users of a given installation of R?",
+        "options": [
+            "Rdefaults.site",
+            "Renviron.site",
+            "Rprofile.site",
+            "Rstatus.site"
+        ],
+        "answer": "Rprofile.site"
+    },
+    {
+        "question": "If **mdf** is a data frame, which statement is true ?",
+        "options": [
+            "**ncol(mdf)** equals **length(mdf)**.",
+            "The number of rows must equals the number of columns.",
+            "The legnth of any column in **mdf** may differ from any other column in **mdf**",
+            "All columns must have the same data type."
+        ],
+        "answer": "**ncol(mdf)** equals **length(mdf)**."
+    },
+    {
+        "question": "A list can contain a list as an element. **MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **MyList** into a single vector?",
+        "options": [
+            "vector(MyList, length = 7)",
+            "coerce(MyList, nrows = 1)",
+            "unlist(MyList)",
+            "coerce(MyList, nrows = 7)"
+        ],
+        "answer": "unlist(MyList)"
+    },
+    {
+        "question": "Which strings could be returned by the function ls(path = \"^V\")?",
+        "options": [
+            "ANOVAData, anovadata",
+            "VisitPCA, VarX",
+            "VisitPCA, varx",
+            "Xvar, Yvar"
+        ],
+        "answer": "VisitPCA, VarX"
+    },
+    {
+        "question": "StDf is a data frame. Based on this knowledge, what does this statement return?",
+        "options": [
+            "all but the first row and first column of StDf",
+            "all but the final column of StDf",
+            "all but the first column of StDf",
+            "only the first column of StDf"
+        ],
+        "answer": "all but the first column of StDf"
+    },
+    {
+        "question": "Which statement enables you to interactively open a single file?",
+        "options": [
+            "file.list()",
+            "file.select()",
+            "file.choose()",
+            "file.open()"
+        ],
+        "answer": "file.choose()"
+    },
+    {
+        "question": "How are these data types alike: logical, integer, numeric, and character?",
+        "options": [
+            "Each is a type of data frame.",
+            "Each is a type of atomic vector.",
+            "Each is a type of complex vector.",
+            "Each is a type of raw vector."
+        ],
+        "answer": "Each is a type of atomic vector."
+    },
+    {
+        "question": "What does the `MyMat[ ,3]` subsetting operation return for this code?",
+        "options": [
+            ":",
+            ":",
+            ":",
+            ":"
+        ],
+        "answer": ":"
+    },
+    {
+        "question": "What does the function `power.anova.test` return?",
+        "options": [
+            "the probability of making a Type I error",
+            "the probability of not making a Type II error",
+            "the probability of making a Type II error",
+            "the probability of not making a Type I error"
+        ],
+        "answer": "the probability of not making a Type II error"
+    },
+    {
+        "question": "Review the statement below. What is the effect of `covariate:factor` on the analysis?",
+        "options": [
+            "It forces the intercepts of the individual regressions to zero.",
+            "It calls for the effect of the covariate **within each level of the factor**.",
+            "It calls for the effect of each variable from covariate to factor in testcoef.",
+            "It forces the covariate to enter the equation before the factor levels."
+        ],
+        "answer": "It calls for the effect of the covariate **within each level of the factor**."
+    },
+    {
+        "question": "A variable whose type is numeric can contain which items?",
+        "options": [
+            "integers and real values",
+            "integers, real, and raw values",
+            "real values only",
+            "integers, real, and logical values"
+        ],
+        "answer": "real values only"
+    },
+    {
+        "question": "What is the legitimate name of a data class in R?",
+        "options": [
+            "property",
+            "integer",
+            "number",
+            "variant"
+        ],
+        "answer": "integer"
+    },
+    {
+        "question": "How do you extract the values above the main diagonal from a square matrix named `Rmat`?",
+        "options": [
+            "`Rmat[upper.tri(Rmat)]`",
+            "`upper.triangular(Rmat)`",
+            "`upper.tri(Rmat)`",
+            "`upper.diag(Rmat)`"
+        ],
+        "answer": "`Rmat[upper.tri(Rmat)]`"
+    },
+    {
+        "question": "`x` is a vector of type integer, as shown on line 1 below. What is the type of the result returned by the statement > median(x)?",
+        "options": [
+            "numeric",
+            "integer",
+            "single",
+            "double"
+        ],
+        "answer": "double"
+    },
+    {
+        "question": "A list named `a` is created using the statement below. Which choice returns TRUE?",
+        "options": [
+            "is.list(a[1])",
+            "is.numeric(a[1])",
+            "is.logical(a[1])",
+            "is.character(a[1])"
+        ],
+        "answer": "is.list(a[1])"
+    },
+    {
+        "question": "How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?",
+        "options": [
+            ":",
+            ":",
+            ":",
+            ":"
+        ],
+        "answer": ":"
+    },
+    {
+        "question": "Which function returns `[1] TRUE FALSE TRUE`?",
+        "options": [
+            "grepl(\"[Rd|Ave|Dr|St]\", indat)",
+            "grepl(\"Rd|Ave|Dr|St\", indat)",
+            "grepl(\"Rd,Ave,Dr,St\", indat)",
+            "grepl(\"[Rd],[Ave],[Dr],[St]\", indat)"
+        ],
+        "answer": "grepl(\"Rd|Ave|Dr|St\", indat)"
+    },
+    {
+        "question": "Which statement returns the fourth row of a data frame named _fish_?",
+        "options": [
+            "fish[4, ]",
+            "fish( ,4)",
+            "fish(4, )",
+            "fish{4, }"
+        ],
+        "answer": "fish[4, ]"
+    },
+    {
+        "question": "What is the value of _csum_?",
+        "options": [
+            "8",
+            "3",
+            "0.2",
+            "21.6"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "A list named _a_ is created using the statement below. Which choice returns TRUE?",
+        "options": [
+            "is.list(a[1])",
+            "is.numeric(a[1])",
+            "is.logical(a[1])",
+            "is.character(a[1])"
+        ],
+        "answer": "is.list(a[1])"
+    },
+    {
+        "question": "What is the result of these three lines of code?",
+        "options": [
+            "[1] 1 4 3 8",
+            "ERROR",
+            "[1] 1 2 3 4 1 2",
+            "[1] 1 2 3 4 2 4 6 8"
+        ],
+        "answer": "[1] 1 4 3 8"
+    },
+    {
+        "question": "Which choice returns [1] \"2019-09-28\"?",
+        "options": [
+            "format(as.POSIXct(\"Sep-28-2019 07:54:31 AM\",format='%b%d%Y'))",
+            "as.POSIXlt(\"Sep-28-2019 07:54:31 AM\",format='%b-%d-%Y')",
+            "as.POSIXct(\"Sep-28-2019 07:54:31 AM UTC\")",
+            "format(as.POSIXct(\"Sep-28-2019 07:54:31 AM UTC\",format='%b-%d-%Y'))"
+        ],
+        "answer": "format(as.POSIXct(\"Sep-28-2019 07:54:31 AM UTC\",format='%b-%d-%Y'))"
+    },
+    {
+        "question": "The variable potus is a character vector, as shown in line 1 below. Wich statement returns the results shown?",
+        "options": [
+            "potus[-\"GW Bush\"]",
+            "potus[1:2 4]",
+            "potus[-3]",
+            "potus[1,2,4]"
+        ],
+        "answer": "potus[-3]"
+    },
+    {
+        "question": "A data frame contains two factor -fact1 and fact2- and a numerical outcome variable. Which statement returns results that do NOT include an interaction term?",
+        "options": [
+            "anova(lm(outcome ~ fact1 : fact2))",
+            "anova(lm(outcome ~ fact1 \\* fact2))",
+            "anova(lm(outcome ~ fact1 + fact2))",
+            "anova(lm(outcome ~ fact1 + fact2 + fact1 : fact2))"
+        ],
+        "answer": "anova(lm(outcome ~ fact1 : fact2))"
+    },
+    {
+        "question": "Review line 1 below. What does the statement on line 2 return?",
+        "options": [
+            "[1]-2 -1 0",
+            "[1]TRUE TRUE FALSE",
+            "[1]FALSE FALSE TRUE",
+            "[1]NA NA NA"
+        ],
+        "answer": "[1]TRUE TRUE FALSE"
+    },
+    {
+        "question": "Which option setting can cause difficulty if you want to add to a variable's possible values after you have designed an object's initial data structure?",
+        "options": [
+            "()OPTIONS(colnames(x)<-NULL)",
+            "()OPTIONS(max.print=5)",
+            "()OPTIONS(continue=\"... \",",
+            "()OPTIONS(stringAsFactors=TRUE"
+        ],
+        "answer": "()OPTIONS(stringAsFactors=TRUE"
+    },
+    {
+        "question": "In this image below, the data frame on lines 1 through 4 is named StDf. StDf contains no factors. Why does statement on line 6 return \"character\" while the statement on line 7 returns \"data.frame\"?",
+        "options": [
+            "Each value in the first row is a character value, but the values in the third column include both character and numeric values.",
+            "By specifying the final row, 3, and no column specified, StDf[3, ] calls for the complete structure.",
+            "Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame.",
+            "Each value in the first column is a character value, but the values in the third row include both character and numeric values."
+        ],
+        "answer": "Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame."
+    },
+    {
+        "question": "Review line 1. What does the statement on line 3 return?",
+        "options": [
+            "&shy;",
+            "&shy;",
+            "&shy;",
+            "[1] 4 5 6"
+        ],
+        "answer": "[1] 4 5 6"
+    },
+    {
+        "question": "Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?",
+        "options": [
+            "The exclamation point in !is.na(pizza$week) reverses the meaning of the test it precedes.",
+            "!is.na(pizza$week) counts the number of NA values in the column.",
+            "!is.na(pizza$week) returns a vector of TRUE/FALSE values, in which TRUE is treated as a 0 and FALSE as a 1.",
+            "!is.na(pizza$week) counts the number of non-missing values in the column."
+        ],
+        "answer": "The exclamation point in !is.na(pizza$week) reverses the meaning of the test it precedes."
+    },
+    {
+        "question": "How do you get documentation of an installed and loaded R package named dplyr and packages with dplyr as an alias?",
+        "options": [
+            "help(dplyr)",
+            "? dplyr",
+            "?? dplyr",
+            "Press the F1 key."
+        ],
+        "answer": "?? dplyr"
+    },
+    {
+        "question": "In the image below, the data frame named iris includes a numeric vector named Petal.Length. Do the functions labeled Pair 1 and Pair 2 return the same information?",
+        "options": [
+            "No, both the length and the class of the returned structures are different.",
+            "Yes, both pairs of statements return an object with the same length and class.",
+            "No, the length is the same but the class is different.",
+            "No, the class is the same but the length is different."
+        ],
+        "answer": "No, both the length and the class of the returned structures are different."
+    },
+    {
+        "question": "The **\\_** for R are the main feature that make it different from the original S language.",
+        "options": [
+            "closure rules",
+            "scoping rules",
+            "environment rules",
+            "None of the above"
+        ],
+        "answer": "scoping rules"
+    },
+    {
+        "question": "Which of the following is a base package for R programming ?",
+        "options": [
+            "tools",
+            "util",
+            "lang",
+            "All of the above"
+        ],
+        "answer": "tools",
+        "explanation": null,
+        "codeblock": null
+    }
+]

@@ -1,0 +1,290 @@
+[
+    {
+        "question": "1) What is the correct full form of SASS?",
+        "options": [
+            "Syntactically Awesome Style Sheets",
+            "Systematic Awesome Style Sheets",
+            "Symbolic Asymmetric Style Sheets",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " The correct full form of SASS is Syntactically Awesome Style Sheets.",
+        "codeblock": null
+    },
+    {
+        "question": "2) Who is the designer of SASS?",
+        "options": [
+            "James Gosling",
+            "Hampton Catlin",
+            "Guido van Rossum",
+            "Misko Hevery"
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": " Hampton Catlin is credited as the designer of SASS. SASS was developed by Natalie Weizenbaum and was designed by Hampton Catlin.",
+        "codeblock": null
+    },
+    {
+        "question": "3) How many ways we can use Sass in our application?",
+        "options": [
+            "We can use Sass in our application as a command-line tool.",
+            "We can use Sass in our application as a standalone Ruby module.",
+            "We can use Sass in our application as a plugin for any Rack-enabled framework.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option",
+        "explanation": " As all of the above are the different ways to use Sass in the application.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following directive is used to share rules and relationships between selectors in SASS?",
+        "options": [
+            "@extend",
+            "@media",
+            "@extend",
+            "None of the above"
+        ],
+        "answer": "Answer: C is the correct option.",
+        "explanation": " The @extend directive is used to share rules and relationships between selectors in SASS. This directive extends all other class styles in one class and can also apply its specific styles.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following are the most attractive features of SASS?",
+        "options": [
+            "SASS is more stable, powerful, and fully compatible with CSS3.",
+            "SASS is time-saving because it facilitates users to write CSS in less code.",
+            "SASS uses its syntax.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " All of the above are the attractive features of SASS.",
+        "codeblock": null
+    },
+    {
+        "question": "6) Which of the following directive is used to set the style rule to different media types?",
+        "options": [
+            "@media",
+            "@import",
+            "@extend",
+            "@debug"
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " The @media directive is used to set the style rule to different media types. Media queries look at the device's capability and can be used to check many things, such as the width and height of the viewport and device, orientation, resolution, and much more.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which of the following is the main reason behind using SASS?",
+        "options": [
+            "SASS facilitates us to write codes easily and efficiently, and they are easy to maintain",
+            "SASS is a pre-processing language that provides its syntax.",
+            "SASS is a superset of CSS that contains all CSS features and is an open-source pre-processor coded in Ruby.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " All of the above is the reason behind using SASS.",
+        "codeblock": null
+    },
+    {
+        "question": "8) What are the key features of SASS?",
+        "options": [
+            "SASS is a CSS pre-processor with syntax advancements and an extension of CSS3.",
+            "SASS has two syntaxes. The first syntax is \"SCSS,\" and it uses the .scss extension.",
+            "SASS supports language extensions such as nesting, variables, and mixins.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " All of the above are the key features of SASS.",
+        "codeblock": null
+    },
+    {
+        "question": "9) Which of the following directive is used to display the SassScript expression value as a fatal error?",
+        "options": [
+            "@error",
+            "@warn",
+            "@at-root",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " The @error directive is used to display the SassScript expression value as a fatal error.",
+        "codeblock": null
+    },
+    {
+        "question": "10) What is the correct way to define a variable in SASS?",
+        "options": [
+            "$primary-color: #888",
+            "@primary-color: #888",
+            "%primary-color: #888",
+            "#primary-color: #888"
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": null,
+        "codeblock": null
+    },
+    {
+        "question": "11) Which of the following directive facilitates you to generate styles in a loop?",
+        "options": [
+            "@while",
+            "@if",
+            "@for",
+            "@each"
+        ],
+        "answer": "Answer: C is the correct option.",
+        "explanation": " The @for directive facilitates us to generate styles in a loop. The @for directive comes in two forms. The first option is @for $var from <start> through <end> which starts at <start> and loops \"through\" each iteration and ends at <end>. The second option is @for $var from <start> to <end> which starts at <start> and loops through each iteration \"to\" <end> and stops. Once the directive reaches the <end>, it stops the looping process and does not evaluate the loop that one last time.",
+        "codeblock": null
+    },
+    {
+        "question": "12) What is the usage of the @include directive in SASS?",
+        "options": [
+            "It is used to define the mixin.",
+            "It is used to include the mixins in the document.",
+            "It is used to include the media.",
+            "None of the above."
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": " It is used to include the mixins in the document. The styles defined by the mixin can be included in the current rule.",
+        "codeblock": null
+    },
+    {
+        "question": "13) What are the data types that SassScript supports?",
+        "options": [
+            "Numbers",
+            "Strings of texts",
+            "Colors",
+            "All of the above"
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " All of the above data types are supported by SassScript.",
+        "codeblock": null
+    },
+    {
+        "question": "14) In which of the following directive, a variable is defined that contains the value of each item in a list?",
+        "options": [
+            "@if",
+            "@each",
+            "@for",
+            "@while"
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": " In @each directive, a variable is defined that contains the value of each item in a list.",
+        "codeblock": null
+    },
+    {
+        "question": "15) What is the use of @at-root directive in SASS?",
+        "options": [
+            "It is used to import the SASS or SCSS files. It directly takes the filename to import.",
+            "It is used to set style rules for different media types.",
+            "It is used to specify and share the rules and relationships between the selectors.",
+            "It is specified as a collection of nested rules that can make style blocks at the root of the document."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " The @at-root directive in SASS is specified as a collection of nested rules that can make style blocks at the root of the document.",
+        "codeblock": null
+    },
+    {
+        "question": "16) What is the use of the @return directive in SASS?",
+        "options": [
+            "The @return directive in SASS is used to define the mixin.",
+            "It is used to include the mixins in the document.",
+            "It is used to call the return value for the function.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option.",
+        "explanation": " In Sass, the @return directive is used to call the return value for the function.",
+        "codeblock": null
+    },
+    {
+        "question": "17) Why is SASS considered better than LESS?",
+        "options": [
+            "SASS allows the users to write reusable methods and use logic statements, such as loops and conditions.",
+            "SASS facilitates users to access Compass library and use some awesome features like dynamic sprite map generation, legacy browser hacks, and cross-browser support for CSS3 features.",
+            "LESS facilities you to write a basic logic statement using a 'guarded mixin', equivalent to SASS if statements.",
+            "All of the above."
+        ],
+        "answer": "Answer: D is the correct option.",
+        "explanation": " All of the above statements specify that SASS is better than LESS.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following operator provides the path for the CSS stylesheets in the application?",
+        "options": [
+            ":filename",
+            ":load_paths",
+            ":css_location",
+            ":template_location"
+        ],
+        "answer": "Answer: C is the correct option.",
+        "explanation": " The :css_location operator provides the path for the CSS stylesheets in the application.",
+        "codeblock": null
+    },
+    {
+        "question": "19) Which of the following are types of mixin arguments?",
+        "options": [
+            "Keyword Arguments",
+            "Variable Arguments",
+            "Both of the above.",
+            "None of the above."
+        ],
+        "answer": "Answer: C is the correct option.",
+        "explanation": " There are two types of mixin arguments: Keyword Arguments and Variable Arguments.",
+        "codeblock": null
+    },
+    {
+        "question": "20) Why is SASS called a superset of CSS?",
+        "options": [
+            "SASS is called a superset of CSS because it contains all the features of CSS.",
+            "SASS is called a superset of CSS because it is an open-source pre-processor written in the Ruby programming language.",
+            "SASS is called a superset of CSS because it is better than CSS.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " SASS is called a superset of CSS because it contains all the features of CSS.",
+        "codeblock": null
+    },
+    {
+        "question": "21) What is Rack?",
+        "options": [
+            "Rack is a Web server interface.",
+            "Rack is a Web framework.",
+            "Rack is an application framework written in Ruby.",
+            "None of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " Rack is a web server interface that provides a minimal interface between webservers. It supports Ruby and Ruby's frameworks.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Which of the following is a web application framework that provides speed and modularity to Rails?",
+        "options": [
+            "Rails",
+            "Merb",
+            "Rack",
+            "All of the above."
+        ],
+        "answer": "Answer: B is the correct option.",
+        "explanation": " Merb is a web application framework that provides speed and modularity to Rails. It is an MVC framework that is ORM-agnostic, JavaScript library agnostic, and template language agnostic.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following is an open-source server-side web application framework?",
+        "options": [
+            "Rails",
+            "Merb",
+            "Rack",
+            "All of the above."
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " Rails is an open-source server-side web application framework. It is written in Ruby and is a model-view-controller (MVC) framework, providing default structures for a database, a web service, and web pages.",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following directive is used to detect the errors in SASS?",
+        "options": [
+            "@debug directive",
+            "@warm directive",
+            "@error directive",
+            "@import directive"
+        ],
+        "answer": "Answer: A is the correct option.",
+        "explanation": " The SASS @debug directive is used to detect the errors and display the Sass Script expressions values to the standard error output stream.",
+        "codeblock": null
+    }
+]

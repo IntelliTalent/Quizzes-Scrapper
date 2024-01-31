@@ -1,0 +1,153 @@
+[
+    {
+        "question": "OSGi\u2014which was formerly known as the:-",
+        "options": [
+            "a) Open Services Gateway initiative",
+            "b) Open Source Gateway initiative",
+            "c) Open Services Gateway initialisation",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "OSGi\u2014which was formerly known as the Open Services Gateway initiative, though the name\u2019s obsolete now\u2014has its roots in the embedded space, where dynamic service provisioning is far more important than it is in the gridiron world of enterprise applications."
+    },
+    {
+        "question": "OSGi provides a layer on top of the JVM\u2019s default class loader.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The deployment unit for OSGi is a bundle, which is essentially a JAR with an augmented MANIFEST.MF."
+    },
+    {
+        "question": "On top of Spring Dynamic Modules, SpringSource built SpringSource dm Server, which is a server wired from top to bottom with OSGi and Spring.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "SpringSource dm Server supports dynamic deployment, enhanced tooling, HTTP, and native .war deployment."
+    },
+    {
+        "question": "OSGi is a framework.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "OSGi is a specification, not a framework. There are many implementations of the specification, just as there are many implementations of the Java EE specification."
+    },
+    {
+        "question": "User component models are:-",
+        "options": [
+            "a) OSGi",
+            "b) Spring",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "OSGi is not a user component model, like Spring or EJB 3. Instead, it sits below your components, providing life-cycle management for Java classes."
+    },
+    {
+        "question": "In OSGi, anything used by something else is a state.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "In OSGi, anything used by something else is a service. \u201cService\u201d doesn\u2019t imply any concrete inheritance."
+    },
+    {
+        "question": "\u201cService\u201d doesn\u2019t imply any:-",
+        "options": [
+            "a) RPC",
+            "b) inheritance",
+            "c) transactional qualities",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "\u201cService\u201d doesn\u2019t imply any concrete inheritance; it doesn\u2019t imply transactional qualities, and it doesn\u2019t imply RPC. It\u2019s merely a class on whose concrete, black-box functionality and interface your class relies."
+    },
+    {
+        "question": "OSGi bundles are simply standard .jar files with customized MANIFESTs that OSGi consumes at runtime.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The plug-in wraps the bnd command line tool."
+    },
+    {
+        "question": "Tool which dynamically interrogates classes for their imports and generates OSGi\u2013compliant entries.",
+        "options": [
+            "a) pnd",
+            "b) jndi",
+            "c) bnd",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We repeat it here mainly for illustrative purposes."
+    },
+    {
+        "question": "The plug-in produces OSGi\u2013compliant bundles that work in any container.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "c",
+        "explanation": "To read more on the plug-in itself, see http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html."
+    },
+    {
+        "question": "The Bundle-Activator directive describes to the OSGi environment, which class implements :-",
+        "options": [
+            "a) BundleActivator",
+            "b) BundleActivate",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The Bundle-Activator directive describes to the OSGi environment, which class implements BundleActivator, and should be consulted when life cycle events occur."
+    },
+    {
+        "question": "When the bundle begins to load and start, it calls the start method of the:-",
+        "options": [
+            "a) BundleActivator",
+            "b) Activator",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "When the bundle begins to load and start, it calls the start method of the Activator."
+    },
+    {
+        "question": "To start using Spring to smooth over some of the minutiae of resource acquisition and to help build more reliable systems in an OSGi environment.",
+        "options": [
+            "a) Spring DM server",
+            "b) Spring Dynamic Modules",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use Spring Dynamic Modules to provide the integration. Spring Dynamic Modules is a framework on top of OSGi that works with any OSGi environment."
+    },
+    {
+        "question": "Spring Dynamic Modules scans our deployed bundles and loads an ApplicationContext (actually, the specific type of the ApplicationContext is OsgiBundleXmlApplicationContext) into memory based on an event, or a trigger.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "There are two ways to trigger this behavior. The first is to explicitly specify in the META-INF/MANIFEST.MF file the attribute Spring-Context, which allows you to override the default location it consults. Otherwise, by default, Spring Dynamic Modules will look for the XML file in the META-INF/spring directory of a bundle."
+    },
+    {
+        "question": "You\u2019ll split your OSGi\u2013specific Spring configuration and your plain-vanilla Spring configuration into:-",
+        "options": [
+            "a) modulename-context.xml",
+            "b) modulename-osgi-context.xml",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Typically, you\u2019ll split your OSGi\u2013specific Spring configuration and your plain-vanilla Spring configuration into two different files, of the form: modulename-context.xml and modulename-osgi-context.xml."
+    }
+]

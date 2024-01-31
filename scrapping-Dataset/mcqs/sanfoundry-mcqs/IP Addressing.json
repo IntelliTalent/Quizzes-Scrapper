@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Convert the following binary notation to dotted-decimal notation \u2013",
+        "options": [
+            "a) 128.11.5.32",
+            "b) 128.11.3.31",
+            "c) 127.11.3.32",
+            "d) 127.12.5.31"
+        ],
+        "answer": "b",
+        "explanation": "Converting the binary value to their respective  decimal values yields 128.11.3.31."
+    },
+    {
+        "question": "Convert the following binary notation to hexadecimal notation \u2013",
+        "options": [
+            "a) 0x 80 0B 03 1E",
+            "b) 0x 81 0B 04 1E",
+            "c) 0x 80 0C 03 1F",
+            "d) 0x 80 0B 03 1F"
+        ],
+        "answer": "d",
+        "explanation": "Converting the binary value to their respective  hex values yields 0x 80 0B 03 1F."
+    },
+    {
+        "question": "Convert the following binary notation to dotted-decimal notation \u2013",
+        "options": [
+            "a) 129.11.11.239",
+            "b) 128.11.12.231",
+            "c) 127.11.13.244",
+            "d) 129.12.1.231"
+        ],
+        "answer": "a",
+        "explanation": "Converting the binary value to their respective  decimal values yields 129.11.11.239."
+    },
+    {
+        "question": "Convert the following dotted-decimal notation to binary notation \u2013 111.56.45.78",
+        "options": [
+            "a) 01101111 00111000 00101101 01001110",
+            "b) 11101111 00111000 00101101 10001110",
+            "c) 10000000 00001011 00000011 00011111",
+            "d) 10000001 00001011 00001011 11101111"
+        ],
+        "answer": "a",
+        "explanation": "Replacing each decimal number with its binary equivalent we get 01101111 00111000 00101101 01001110."
+    },
+    {
+        "question": "What is the error (if any) in the following representation \u2013 111.56.045.78?",
+        "options": [
+            "a) There should be no leading zeros",
+            "b) We cannot have more than 4 bytes in an IPv4 address",
+            "c) Each byte should be less than or equal to 255",
+            "d) No error"
+        ],
+        "answer": "a",
+        "explanation": "There should be no leading zeros."
+    },
+    {
+        "question": "What is the error (if any) in the following representation \u2013 75.45.301.14?",
+        "options": [
+            "a) There should be no leading zeros",
+            "b) We cannot have more than 4 bytes in an IPv4 address",
+            "c) Each byte should be less than or equal to 255",
+            "d) No error"
+        ],
+        "answer": "c",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the error (if any) in the following representation \u2013 11100010.23.14.67?",
+        "options": [
+            "a) There should be no leading zeros",
+            "b) We cannot have more than 4 bytes in an IPv4 address",
+            "c) Each byte should be less than or equal to 255",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The error is that there is a mixture of binary and dotted-decimal notation."
+    },
+    {
+        "question": "The following IPv4 addresses in hexadecimal notation is \u2013 10000001 00001011 00001011 11101111-",
+        "options": [
+            "a) 0x810B0BEF",
+            "b) 0x810D0AFF",
+            "c) 0x810B0BFE",
+            "d) 0x810C0CEF"
+        ],
+        "answer": "a",
+        "explanation": "We replace each group of 4 bits with its hexadecimal equivalent. Note that 0X (or 0x) is added at the beginning or the subscript 16 at the end. 0x810B0BEF or 810B0BEF_16."
+    },
+    {
+        "question": "Find the number of addresses in a range if the first address is 146.102.29.0 and last address is 146.102.32.255.",
+        "options": [
+            "a) 1028",
+            "b) 1024",
+            "c) 578",
+            "d) 512"
+        ],
+        "answer": "b",
+        "explanation": "Subtract the first address from the last address in base 256."
+    },
+    {
+        "question": "The first address in a range of addresses is 14.11.45.96. If the number of addresses in the range is 32, what is the last address?",
+        "options": [
+            "a) 14.11.44.64",
+            "b) 14.11.44.128",
+            "c) 14.12.44.128",
+            "d) 14.11.45.127"
+        ],
+        "answer": "d",
+        "explanation": "Last Address = (14.11.45.96 + 0.0.0.31)_256 = 14.11.45.127."
+    }
+]

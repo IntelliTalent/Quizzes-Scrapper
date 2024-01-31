@@ -1,0 +1,108 @@
+[
+    {
+        "question": "For a matrix A, B and identity matrix I, if a matrix AB=I=BA then?",
+        "options": [
+            "a) B is inverse of A",
+            "b) A is inverse of B",
+            "c) A",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Since AB = I, A = B"
+    },
+    {
+        "question": "For matrix A,(A",
+        "options": [
+            "a) A",
+            "b) A",
+            "c) Can\u2019t say",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A(A"
+    },
+    {
+        "question": "Let A = [0 1 0 0 ], A",
+        "options": [
+            "a) Null matrix",
+            "b) Identity matrix",
+            "c) Does not exist",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Since A is singular matrix, inverse does not exists."
+    },
+    {
+        "question": "If A is an invertible square matrix then _________",
+        "options": [
+            "a) (A",
+            "b) (A",
+            "c) (A",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For invertible matrix A, A"
+    },
+    {
+        "question": "If matrix A, B and C are invertible matrix of same order then (ABC)",
+        "options": [
+            "a) CBA",
+            "b) C",
+            "c) C",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Reversal rule holds for inverse multiplication of the matrices."
+    },
+    {
+        "question": "If A is non singular matrix then  AB = AC implies B = C.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Pre-multipliying by A"
+    },
+    {
+        "question": "For a matrix A of order n, the det(adj(A)) = (det(A))",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "For a matrix A of order n, the det(adj(A)) = (det(A))"
+    },
+    {
+        "question": "For a non-singular matrix A, A",
+        "options": [
+            "a) (adj(A))/det(A)",
+            "b) det(A)*(adj(A))",
+            "c) det(A)*A",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A(adj(A)) = det(A)I, I = A(adj(A))/det(A) which implies A"
+    },
+    {
+        "question": "Let I",
+        "options": [
+            "a) 0",
+            "b) 3I",
+            "c)  I",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Idenity matrices are self invertible that is I"
+    },
+    {
+        "question": "If for a square matrix A(non-singular) and B, null matrix O, AB = O then?",
+        "options": [
+            "a) B is a null matrix",
+            "b) B is a non singular matrix",
+            "c) B is a identity  matrix",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Given det(A) is not equal to zero. A-1 exists, A"
+    }
+]

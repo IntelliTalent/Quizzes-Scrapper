@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Conversion of the Plaintext MANIPALINSTITUTE  to a state matrix leads to",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "b)",
+        "options": [],
+        "answer": "d",
+        "explanation": "First convert the state matrix to their equivalent ASCII values and then perform XOR operation."
+    },
+    {
+        "question": "The multiplicative inverse of 0x95 in AES where m(x)=x",
+        "options": [
+            "a) 0x8F",
+            "b) 0xF8",
+            "c) 0x8A",
+            "d) 0xA8"
+        ],
+        "answer": "c",
+        "explanation": "The multiplicative inverse is 0x8A."
+    },
+    {
+        "question": "In AES, to make the s-box, we apply the transformation",
+        "options": [
+            "a) c_i is the ith bit of byte c with value 0x63",
+            "b) c_i is the ith bit of byte c with value 0x25",
+            "c) c_i is the ith bit of byte c with value 0x8F",
+            "d) c_i is the ith bit of byte c with value 0x8A"
+        ],
+        "answer": "a",
+        "explanation": "Ci is the ith bit of byte c with value 0x63 i.e,"
+    },
+    {
+        "question": "The S-box value for byte stored in cell (6,D)",
+        "options": [
+            "a) 0x3C",
+            "b) 0x7F",
+            "c) 0xFD",
+            "d) 0x4A"
+        ],
+        "answer": "a",
+        "explanation": "We first find the multiplicative inverse of 0x6D. The multiplicative inverse of 0x6D is 0x93. On performing the transformation on 0x93 we get 0x3C."
+    },
+    {
+        "question": "The S-box value for byte stored in cell (B,3)",
+        "options": [
+            "a) 0x3C",
+            "b) 0xB3",
+            "c) 0x4F",
+            "d) 0x90"
+        ],
+        "answer": "b",
+        "explanation": "We first find the multiplicative inverse of 0xB3. The multiplicative inverse of 0xB3 is 0xEF. On performing the transformation on 0xEF we get 0x63."
+    },
+    {
+        "question": "The S-box value for byte stored in cell (3,3)",
+        "options": [
+            "a) 0xC3",
+            "b) 0x3C",
+            "c) 0x44",
+            "d) 0x9B"
+        ],
+        "answer": "a",
+        "explanation": "We first find the multiplicative inverse of 0x33. The multiplicative inverse of 0x33 is 0x6C. On performing the transformation on 0x6C we get 0xC3."
+    },
+    {
+        "question": "The inverse s-box permutation follows,",
+        "options": [
+            "a) d_i is the ith bit of a byte \u2018d\u2019 whose hex value is 0x15",
+            "b) d_i is the ith bit of a byte \u2018d\u2019 whose hex value is 0x05",
+            "c) d_i is the ith bit of a byte \u2018d\u2019 whose hex value is 0x25",
+            "d) d_i is the ith bit of a byte \u2018d\u2019 whose hex value is 0x51"
+        ],
+        "answer": "b",
+        "explanation": "The value of \u2018d\u2019 is 0x05."
+    },
+    {
+        "question": "The Inverse S-box value for byte stored in cell (3,3)",
+        "options": [
+            "a) 0xC3",
+            "b) 0x66",
+            "c) 0x1F",
+            "d) 0x9B"
+        ],
+        "answer": "b",
+        "explanation": "We first find the multiplicative inverse of 0x33. And then perform the matrix transformation to get 0x66."
+    },
+    {
+        "question": "The Inverse S-box value for byte stored in cell (6,3)",
+        "options": [
+            "a) 0x00",
+            "b) 0x11",
+            "c) 0x01",
+            "d) 0x04"
+        ],
+        "answer": "a",
+        "explanation": "We first find the multiplicative inverse of 0x63. And then perform the matrix transformation to get 0x00."
+    },
+    {
+        "question": "The Inverse S-box value for byte stored in cell (D,2)",
+        "options": [
+            "a) 0x5F",
+            "b) 0x2D",
+            "c) 0x7F",
+            "d) 0x5D"
+        ],
+        "answer": "c",
+        "explanation": "We first find the multiplicative inverse of 0xD2. And then perform the matrix transformation to get 0x7F."
+    },
+    {
+        "question": "What is the Shifted Row transformation for the matrix bellow?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The Shift Rows transformation consists of:"
+    }
+]

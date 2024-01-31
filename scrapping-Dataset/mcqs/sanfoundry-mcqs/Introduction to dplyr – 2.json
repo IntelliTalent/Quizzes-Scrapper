@@ -1,0 +1,101 @@
+[
+    {
+        "question": "The _________ function can be used to select columns of a data frame that you want to focus on.",
+        "options": [
+            "a) select",
+            "b) rename",
+            "c) get",
+            "d) set"
+        ],
+        "answer": "a",
+        "explanation": "The select() function allows you to get the few columns you might need."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) You can also omit variables using the select() function by using the negative sign",
+            "b) The arrange() function also allows a special syntax that allows you to specify variable names based on patterns",
+            "c) Reordering rows of a data frame is normally easier to do in R",
+            "d) The dplyr package provides any \u201cnew\u201d functionality to R"
+        ],
+        "answer": "a",
+        "explanation": "The arrange() function is used to reorder rows of a data frame according to one of the variables/columns."
+    },
+    {
+        "question": "________ function is similar to the existing subset() function in R but is quite a bit faster.",
+        "options": [
+            "a) rename",
+            "b) filter",
+            "c) set",
+            "d) subset"
+        ],
+        "answer": "b",
+        "explanation": "The filter() function is used to extract subsets of rows from a data frame."
+    },
+    {
+        "question": "Columns can be arranged in descending order too by using the special ____ operator.",
+        "options": [
+            "a) asc()",
+            "b) desc()",
+            "c) descending()",
+            "d) subset"
+        ],
+        "answer": "b",
+        "explanation": "This will sort the order in decreasing order."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Renaming a variable in a data frame in R is surprisingly hard to do",
+            "b) The mutate() function exists to compute transformations of variables in a data frame",
+            "c) mute() function, which does the same thing as mutate() but then drops all non-transformed variables",
+            "d) The data frame is a key data structure in statistics and in R"
+        ],
+        "answer": "c",
+        "explanation": "The rename() function is designed to make this process easier."
+    },
+    {
+        "question": "The _________ function is used to generate summary statistics from the data frame within strata defined by a variable.",
+        "options": [
+            "a) groupby()",
+            "b) group()",
+            "c) group_by()",
+            "d) arrange"
+        ],
+        "answer": "c",
+        "explanation": "The general operation here is a combination of splitting a data frame into separate pieces defined by a variable or group of variables (group_by()), and then applying a summary function across those subsets (summarize())."
+    },
+    {
+        "question": "There is an SQL interface for relational databases via the _______ package.",
+        "options": [
+            "a) DIB",
+            "b) DB2",
+            "c) DBI",
+            "d) DIB21"
+        ],
+        "answer": "c",
+        "explanation": "dplyr can work with other data frame \u201cbackends\u201d such as SQL databases."
+    },
+    {
+        "question": "dplyr can be integrated with the ________ package for large fast tables.",
+        "options": [
+            "a) data.table",
+            "b) read.table",
+            "c) data.data",
+            "d) table.read"
+        ],
+        "answer": "a",
+        "explanation": "The dplyr package is handy way to both simplify and speed up your data frame management code."
+    },
+    {
+        "question": "Which of the following function is similar to summarize?",
+        "options": [
+            "a) arrange_by()",
+            "b) group()",
+            "c) group_by()",
+            "d) arrange"
+        ],
+        "answer": "c",
+        "explanation": "The dplyr package provides a concise set of operations for managing data frames."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "___________ nodes are the mechanism by which a workflow triggers the execution of a computation/processing task.",
+        "options": [
+            "a) Server",
+            "b) Client",
+            "c) Mechanism",
+            "d) Action"
+        ],
+        "answer": "d",
+        "explanation": "Oozie provides support for the following types of actions: Hadoop map-reduce, Hadoop file system, Pig, Java and Oozie sub-workflow."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Oozie is a Java Web-Application that runs in a Java servlet-container",
+            "b) Oozie workflow is a collection of actions arranged in a control dependency DAG",
+            "c) hPDL is a fairly compact language",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " Control nodes define the flow of execution and include beginning and end of a workflow (start, end and fail nodes) and mechanisms to control the workflow execution path."
+    },
+    {
+        "question": "Workflow with id __________ should be in SUCCEEDED/KILLED/FAILED.",
+        "options": [
+            "a) wfId",
+            "b) iUD",
+            "c) iFD",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Workflow with id wfId should exist."
+    },
+    {
+        "question": "Nodes in the config _____________  must be completed successfully.",
+        "options": [
+            "a) oozie.wid.rerun.skip.nodes",
+            "b) oozie.wf.rerun.skip.nodes",
+            "c) oozie.wf.run.skip.nodes",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If no configuration is passed, existing coordinator/workflow configuration will be used."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Oozie provides a unique callback URL to the task, the task should invoke the given URL to notify its completion",
+            "b) All computation/processing tasks triggered by an mechanism node are remote to Oozie",
+            "c) Oozie workflows can be parameterized",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "All computation/processing tasks are executed by Hadoop Map/Reduce framework."
+    },
+    {
+        "question": "_____________ will skip the nodes given in the config with the same exit transition as before.",
+        "options": [
+            "a) ActionMega handler",
+            "b) Action handler",
+            "c) Data handler",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Currently there is no way to remove an existing configuration but only override by passing a different value in the input configuration."
+    },
+    {
+        "question": "________ nodes that control the start and end of the workflow and workflow job execution path.",
+        "options": [
+            "a) Action",
+            "b) Control",
+            "c) Data",
+            "d) SubDomain"
+        ],
+        "answer": "b",
+        "explanation": "Workflow nodes are classified in control flow nodes and action nodes."
+    },
+    {
+        "question": "Node names and transitions must be conform to the following pattern =[a-zA-Z][\\-_a-zA-Z0-0]*=, of up to __________ characters long.",
+        "options": [
+            "a) 10",
+            "b) 15",
+            "c) 20",
+            "d) 25"
+        ],
+        "answer": "c",
+        "explanation": "Action nodes trigger the execution of a computation/processing task."
+    },
+    {
+        "question": "A workflow definition must have one ________ node.",
+        "options": [
+            "a) start",
+            "b) resume",
+            "c) finish",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The start node is the entry point for a workflow job, it indicates the first workflow node the workflow job must transition to."
+    },
+    {
+        "question": "If one or more actions started by the workflow job are executing when the ________ node is reached, the actions will be killed.",
+        "options": [
+            "a) kill",
+            "b) start",
+            "c) end",
+            "d) finsih"
+        ],
+        "answer": "a",
+        "explanation": "A workflow definition may have zero or more kill nodes."
+    }
+]

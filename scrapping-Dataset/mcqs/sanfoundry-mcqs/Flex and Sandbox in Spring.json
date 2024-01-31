@@ -1,0 +1,157 @@
+[
+    {
+        "question": "IntelliJ IDEA product, versions 8 and 9, supports:-",
+        "options": [
+            "a) Flex",
+            "b) AIR",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Particularly, IntelliJ IDEA product, versions 8 and 9, support Flex and AIR development with aplomb."
+    },
+    {
+        "question": "Flex is that it is, technically, a library implemented on top of the middleware.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Flex is, technically, a library implemented on top of the Flash virtual machine."
+    },
+    {
+        "question": "In Flash, the displayed area where animation and rendering occurs.",
+        "options": [
+            "a) Stage",
+            "b) Animation",
+            "c) Stagery",
+            "d) State"
+        ],
+        "answer": "a",
+        "explanation": "In Flash, the displayed area where animation and rendering occurs is called the stage."
+    },
+    {
+        "question": "Flex uses a language called ActionScript 3.0.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Flash uses a language called ActionScript 3.0."
+    },
+    {
+        "question": "ActionScript code pages end in .as, and ActionScript binaries are .sf files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "ActionScript code pages end in .as, and ActionScript binaries are .swf files."
+    },
+    {
+        "question": "Linkable libraries have the extension.",
+        "options": [
+            "a) .swc",
+            "b) .dll",
+            "c) .so",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "You can use ActionScript tools to build linkable libraries, much like a .dll on Windows, or a .so on Linux. These linkable libraries have the extension .swc."
+    },
+    {
+        "question": "The source artifacts of a Flex application are:-",
+        "options": [
+            "a) ActionScript files (ending in .as)",
+            "b) ActionScript files (ending in .mxml)",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The two source artifacts of a Flex application are the ActionScript files (ending in .as) and the .mxml files."
+    },
+    {
+        "question": "XML variant that describe the UI components and provide a DOM.",
+        "options": [
+            "a) AS files",
+            "b) MXML files",
+            "c) XML Files",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MXML files are an XML variant that describe the UI components and provide a DOM."
+    },
+    {
+        "question": "MXML files support a limited form of expression language binding",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Limited when compared to the EL support in frameworks like Tapestry or JSF, anyway."
+    },
+    {
+        "question": "Outermost tag in Flex.",
+        "options": [
+            "a) mx:Application",
+            "b) mx:WindowedApplication",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In the case of Flex applications, the outermost tag is the mx:Application tag."
+    },
+    {
+        "question": "Outermost tag in AIR.",
+        "options": [
+            "a) mx:Application",
+            "b) mx:WindowedApplication",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "In the case of AIR applications, the outermost tag is the mx:WindowedApplication tag."
+    },
+    {
+        "question": " As soon as the application has been loaded and all the objects configured, an event will be fired.",
+        "options": [
+            "a) applicationEvent",
+            "b) applicationComplete",
+            "c) eventConfigure",
+            "d) eventComplete"
+        ],
+        "answer": "b",
+        "explanation": "Just as you can in the browser, you have two choices for listening to events in Flex: programmatic registration and through MXML attributes on the component that fires the event."
+    },
+    {
+        "question": "JavaScript library dynamically adds the plug-in content to the page.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Because of this property, it triggered the \u201cDynamic Content\u201d warning in Internet Explorer 6 for a few years."
+    },
+    {
+        "question": "JavaScript library dynamically generates.",
+        "options": [
+            "a) object",
+            "b) plugin",
+            "c) FlashVars",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The library dynamically generates the relevant object and plugin tags, along with the FlashVars parameters."
+    },
+    {
+        "question": "15.To talk to the containing HTML page.",
+        "options": [
+            "a) flash.external.ExternalInterface",
+            "b) flash.external.External",
+            "c) flash.external.ExternalInterface",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To talk to the containing HTML page, you can use the flash.external.ExternalInterface class. This class defines two static methods, call() (which lets the Flex application talk to the host) and addCallback() (which lets the host talk to Flex)."
+    }
+]

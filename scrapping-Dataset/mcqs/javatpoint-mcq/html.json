@@ -1,0 +1,482 @@
+[
+    {
+        "question": "1) HTML stands for -",
+        "options": [
+            "HighText Machine Language",
+            "HyperText and links Markup Language",
+            "HyperText Markup Language",
+            "None of these"
+        ],
+        "answer": "HyperText Markup Language",
+        "explanation": " HTML is an acronym that stands for HyperText Markup Language, which is used for creating web pages and web applications.",
+        "codeblock": null
+    },
+    {
+        "question": "2) The correct sequence of HTML tags for starting a webpage is -",
+        "options": [
+            "Head, Title, HTML, body",
+            "HTML, Body, Title, Head",
+            "HTML, Head, Title, Body",
+            "HTML, Head, Title, Body"
+        ],
+        "answer": "HTML, Head, Title, Body",
+        "explanation": " The correct sequence of HTML tags to start a webpage is html, head, title, and body.",
+        "codeblock": null
+    },
+    {
+        "question": "3) Which of the following element is responsible for making the text bold in HTML?",
+        "options": [
+            "<pre>",
+            "<a>",
+            "<b>",
+            "<br>"
+        ],
+        "answer": "<b>",
+        "explanation": " The <b> (bold tag) tag in HTML is used to display the written text in bold format.",
+        "codeblock": null
+    },
+    {
+        "question": "4) Which of the following tag is used for inserting the largest heading in HTML?",
+        "options": [
+            "<h3>",
+            "<h1>",
+            "<h5>",
+            "<h6>"
+        ],
+        "answer": "<h1>",
+        "explanation": " The <h1> tag is used to insert the main heading or the highest level heading.",
+        "codeblock": null
+    },
+    {
+        "question": "5) Which of the following tag is used to insert a line-break in HTML?",
+        "options": [
+            "<br>",
+            "<a>",
+            "<pre>",
+            "<b>"
+        ],
+        "answer": "<br>",
+        "explanation": " The <br> tag in the HTML document is used to create a line break in a text. If we place the <br> tag in HTML code, then it works the same as pressing the enter key in a word processor.",
+        "codeblock": null
+    },
+    {
+        "question": "6) How to create an unordered list (a list with the list items in bullets) in HTML?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<i>"
+        ],
+        "answer": "<ul>",
+        "explanation": " The <ul> tag in HTML is used to display the list items in a bulleted format. There can be four types of an unordered list: disc, circle, square, and none.",
+        "codeblock": null
+    },
+    {
+        "question": "7) Which character is used to represent the closing of a tag in HTML?",
+        "options": [
+            "\\",
+            "!",
+            "/",
+            "."
+        ],
+        "answer": "/",
+        "explanation": " The forward-slash (/) character is used to indicate the closing of a tag in HTML.",
+        "codeblock": null
+    },
+    {
+        "question": "8) How to create a hyperlink in HTML?",
+        "options": [
+            "<a href = \"www.javatpoint.com\"> javaTpoint.com </a>",
+            "<a url = \"www.javatpoint.com\" javaTpoint.com /a>",
+            "<a link = \"www.javatpoint.com\"> javaTpoint.com </a>",
+            "<a> www.javatpoint.com <javaTpoint.com /a>"
+        ],
+        "answer": "<a href = \"www.javatpoint.com\"> javaTpoint.com </a>",
+        "explanation": " The anchor tag and the href attribute is used to create the link in HTML.",
+        "codeblock": null
+    },
+    {
+        "question": "9) How to create an ordered list (a list with the list items in numbers) in HTML?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<i>"
+        ],
+        "answer": "<ol>",
+        "explanation": " The <ol> tag in HTML is used to display the list items in a numbered format. There can be different types of numbered list: numeric number, capital alphabet, small alphabet, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "10) Which of the following element is responsible for making the text italic in HTML?",
+        "options": [
+            "<i>",
+            "<italic>",
+            "<it>",
+            "<pre>"
+        ],
+        "answer": "<i>",
+        "explanation": " The <i> (italic tag) tag in HTML is used to display the written text in italic format.",
+        "codeblock": null
+    },
+    {
+        "question": "11) How to insert an image in HTML?",
+        "options": [
+            "<img href = \"jtp.png\" />",
+            "<img url = \"jtp.png\" />",
+            "<img link = \"jtp.png\" />",
+            "<img src = \"jtp.png\" />"
+        ],
+        "answer": "<img src = \"jtp.png\" />",
+        "explanation": " The img tag and the src attribute is used to display an image on the webpage.",
+        "codeblock": null
+    },
+    {
+        "question": "12) How to add a background color in HTML?",
+        "options": [
+            "<marquee bg color: \"red\">",
+            "<marquee bg-color = \"red\">",
+            "<marquee bgcolor = \"red\">",
+            "<marquee color = \"red\">"
+        ],
+        "answer": "<marquee bgcolor = \"red\">",
+        "explanation": " The bgcolor attribute is used to set the background color of an HTML element.",
+        "codeblock": null
+    },
+    {
+        "question": "13) <input> is -",
+        "options": [
+            "a format tag.",
+            "an empty tag.",
+            "All of the above",
+            "None of the above"
+        ],
+        "answer": "an empty tag",
+        "explanation": " The <input> tag in HTML is used to represent a form input control in HTML document.",
+        "codeblock": null
+    },
+    {
+        "question": "14) Which of the following tag is used to make the underlined text?",
+        "options": [
+            "<i>",
+            "<ul>",
+            "<u>",
+            "<pre>"
+        ],
+        "answer": "<u>",
+        "explanation": " The <u> (underline tag) tag in HTML is used to display the underlined text. It rendered as a solid underlined text, but it can be changed using CSS properties.",
+        "codeblock": null
+    },
+    {
+        "question": "15) How to create a checkbox in HTML?",
+        "options": [
+            "<input type = \"checkbox\">",
+            "<input type = \"button\">",
+            "<checkbox>",
+            "<input type = \"check\">"
+        ],
+        "answer": "<input type = \"checkbox\">",
+        "explanation": " To create a checkbox in HTML, we have to use the <input> tag and give the value checkbox to its type attribute.",
+        "codeblock": null
+    },
+    {
+        "question": "16) Which of the following tag is used to define options in a drop-down selection list?",
+        "options": [
+            "<select>",
+            "<list>",
+            "<dropdown>",
+            "<option>"
+        ],
+        "answer": "<option>",
+        "explanation": " The <option> tag in HTML is used to define options in a dropdown list within <select> or <datalist> element. A dropdown list must have at least one <option> element.",
+        "codeblock": null
+    },
+    {
+        "question": "17) HTML tags are enclosed in-",
+        "options": [
+            "# and #",
+            "{ and }",
+            "! and ?",
+            "< and >"
+        ],
+        "answer": "< and >",
+        "explanation": " All HTML tags must be enclosed within angular < > brackets.",
+        "codeblock": null
+    },
+    {
+        "question": "18) Which of the following tag is used to add rows in the table?",
+        "options": [
+            "<td> and </td>",
+            "<th> and </th>",
+            "<tr> and </tr>",
+            "None of the above"
+        ],
+        "answer": "<tr> and </tr>",
+        "explanation": " The <tr> tag in HTML is used to define the rows in the table. It can consist one or more <th> head cells and <td> data cells to define a single row of HTML table.",
+        "codeblock": null
+    },
+    {
+        "question": "19) The <hr> tag in HTML is used for -",
+        "options": [
+            "new line",
+            "vertical ruler",
+            "new paragraph",
+            "horizontal ruler"
+        ],
+        "answer": "horizontal ruler",
+        "explanation": " The <hr> tag is used to specify a paragraph-level thematic break in HTML document. It is called a horizontal rule and draws a horizontal line.",
+        "codeblock": null
+    },
+    {
+        "question": "20) Which of the following attribute is used to provide a unique name to an element?",
+        "options": [
+            "class",
+            "id",
+            "type",
+            "None of the above"
+        ],
+        "answer": "id",
+        "explanation": " The id attribute is used to specify a unique id for an element of the HTML document. It allocates the unique identifier which can be used by the JavaScript and CSS to perform certain tasks.",
+        "codeblock": null
+    },
+    {
+        "question": "21) Which of the following HTML tag is used to display the text with scrolling effect?",
+        "options": [
+            "<marquee>",
+            "<scroll>",
+            "<div>",
+            "None of the above"
+        ],
+        "answer": "<marquee>",
+        "explanation": " The <marquee> tag is a non-standard HTML element that is used to scroll a text or image either horizontally or vertically. In simple words, we can say that it automatically scrolls the image or text in up, down, left, and right direction.",
+        "codeblock": null
+    },
+    {
+        "question": "22) Which of the following HTML tag is the special formatting tag?",
+        "options": [
+            "<p>",
+            "<b>",
+            "<pre>",
+            "None of the above"
+        ],
+        "answer": "<pre>",
+        "explanation": " The HTML <pre> tag is used to specify pre-formatted texts. Texts within <pre>\u2026</pre> tag is displayed in a fixed-width font. Usually, it is displayed in courier font. It maintains both line break space.",
+        "codeblock": null
+    },
+    {
+        "question": "23) Which of the following is the correct way to send mail in HTML?",
+        "options": [
+            "<a href = \"mailto: xy@y\">",
+            "<a href = \"xy@y\">",
+            "<mail xy@y</mail>",
+            "None of the above"
+        ],
+        "answer": "<a href = \"mailto: xy@y\">",
+        "explanation": " We can use the <a> (anchor tag) tag, and the href attribute to mail a person.",
+        "codeblock": null
+    },
+    {
+        "question": "24) Which of the following is the container for <tr>, <th>, and <td> ?",
+        "options": [
+            "<data>",
+            "<table>",
+            "<group>",
+            "All of the above"
+        ],
+        "answer": "<table>",
+        "explanation": " The <table> tag in HTML, is generally used to display data in tabular format. We can create a table to display the data in the tabular form using the <table> element, with the help of <tr>, <th>, and <td> elements.",
+        "codeblock": null
+    },
+    {
+        "question": "25) How to insert a background image in HTML?",
+        "options": [
+            "<body background = \"img.png\">",
+            "<img background = \"img.png\">",
+            "<bg-image = \"img.png\">",
+            "None of the above"
+        ],
+        "answer": "<body background = \"img.png\">",
+        "explanation": " To apply a background image on entire document, we have to specify the background attribute in the <body> of the HTML document.",
+        "codeblock": null
+    },
+    {
+        "question": "26) What are the types of unordered or bulleted list in HTML?",
+        "options": [
+            "disc, square, triangle",
+            "polygon, triangle, circle",
+            "disc, circle, square",
+            "All of the above"
+        ],
+        "answer": "disc, circle, square",
+        "explanation": " The unordered or bulleted list in HTML is used to display the elements in a bulleted format. Mainly, there are three types of an unordered list: disc, circle, and square.",
+        "codeblock": null
+    },
+    {
+        "question": "27) Which of the following is the correct way to create a list using the lowercase letters?",
+        "options": [
+            "<ol alpha = \"a\" >",
+            "<ol type = \"a\">",
+            "<ol letter = \"a\">",
+            "None of the above"
+        ],
+        "answer": "<ol type = \"a\">",
+        "explanation": " The type attribute is used with the <ol> tag to specify the type of list items.",
+        "codeblock": null
+    },
+    {
+        "question": "28) Which of the following is the correct way to start an ordered list with the count of numeric value 4?",
+        "options": [
+            "<ol type = \"1\" initial = \"4\">",
+            "<ol type = \"1\" begin = \"4\">",
+            "<ol type = \"1\" num = \"4\">",
+            "<ol type = \"1\" start = \"4\">"
+        ],
+        "answer": "<ol type = \"1\"\u00a0 start = \"4\">",
+        "explanation": " The start attribute is used with the <ol> tag to specify where to start the list items.",
+        "codeblock": null
+    },
+    {
+        "question": "29) Which of the following HTML attribute is used to define inline styles?",
+        "options": [
+            "style",
+            "type",
+            "class",
+            "None of the above"
+        ],
+        "answer": "style",
+        "explanation": " The style attribute in HTML is used to change the style of existing HTML elements. It can be used with any HTML tag. To apply the style on the HTML tag, you should have the basic knowledge of CSS properties.",
+        "codeblock": null
+    },
+    {
+        "question": "30) Which of the following is the paragraph tag in HTML?",
+        "options": [
+            "<p>",
+            "<b>",
+            "<pre>",
+            "None of the above"
+        ],
+        "answer": "<p>",
+        "explanation": " The <p> (paragraph tag) tag in HTML is used to define a paragraph in a webpage. The HTML <p> tag indicates the starting of new paragraph.",
+        "codeblock": null
+    },
+    {
+        "question": "31) An HTML program is saved by using the ____ extension.",
+        "options": [
+            ".ht",
+            ".html",
+            ".hml",
+            "None of the above"
+        ],
+        "answer": ".html",
+        "explanation": " The .html or .htm extension both are used to save the HTML program. We can save our HTML file either by using the .html extension or by .htm extension. When the file delivered to the network, the HTML extension indicates that the content of file is HTML.",
+        "codeblock": null
+    },
+    {
+        "question": "32) A program in HTML can be rendered and read by -",
+        "options": [
+            "Web browser",
+            "Server",
+            "Interpreter",
+            "None of the above"
+        ],
+        "answer": "Web browser",
+        "explanation": " HTML programs can be read and rendered by the web browser. A web browser can support several web pages.",
+        "codeblock": null
+    },
+    {
+        "question": "33) The tags in HTML are -",
+        "options": [
+            "case-sensitive",
+            "in upper case",
+            "not case sensitive",
+            "in lowercase"
+        ],
+        "answer": "not case sensitive",
+        "explanation": " HTML is a case-insensitive language, which means we can use tags either in the upper-case or in lower-case. It is recommended to write all tags in the lowercase for readability, consistency, etc.",
+        "codeblock": null
+    },
+    {
+        "question": "34) Which of the following is the root tag of the HTML document?",
+        "options": [
+            "<body>",
+            "<head>",
+            "<title>",
+            "<html>"
+        ],
+        "answer": "<html>",
+        "explanation": " The <html> tag represents the root of an HTML document, hence also called as the root element. It is a container of all elements (except !Doctype) such as <head>, <body> and each element which appears in the HTML document.",
+        "codeblock": null
+    },
+    {
+        "question": "35) In HTML5, which of the following tag is used to initialize the document type?",
+        "options": [
+            "<Doctype HTML>",
+            "<\\Doctype html>",
+            "<Doctype>",
+            "<!DOCTYPE html>"
+        ],
+        "answer": "<!DOCTYPE html>",
+        "explanation": " The <!DOCTYPE html> tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD).",
+        "codeblock": null
+    },
+    {
+        "question": "36) Which of the following tag is used to create a combo box (or drop-down box)?",
+        "options": [
+            "<list>",
+            "<select>",
+            "<input type = \"dropdown\">",
+            "<ul>"
+        ],
+        "answer": "<select>",
+        "explanation": " HTML <select> tag is used to create a drop down list with multiple options. The <option> element is nested within the <select> tag to define options in a list.",
+        "codeblock": null
+    },
+    {
+        "question": "37) Which of the following are the attributes of the  tag?",
+        "options": [
+            "method",
+            "action",
+            "Both (a) & (b)",
+            "None of the above"
+        ],
+        "answer": "Both (a) & (b)",
+        "explanation": " The <form> tag creates the HTML form for taking the input from the user. Both method and action are attributes of the <form> tag. The action attribute specifies where the form data is sent when the form is submitted, and the method attribute specifies the HTTP method (GET & POST) when sending the form data.",
+        "codeblock": null
+    },
+    {
+        "question": "38) Which is the correct way to comment out something in HTML?",
+        "options": [
+            "Using ## and #",
+            "Using <!-- and -->",
+            "Using </-- and -/->",
+            "Using <!-- and -!>"
+        ],
+        "answer": "Using <!-- and -->",
+        "explanation": " To comment out something in HTML, we have to place the information between the <!\u2014and --> tags. Comments are some text or code which provides an explanation about the code and not visible to the user. It increases the readability of code and makes the code easy to understand.",
+        "codeblock": null
+    },
+    {
+        "question": "39) Which HTML tag is used to display the power in expression, i.e., (x2 - y2)?",
+        "options": [
+            "<sup>",
+            "<sub>",
+            "<p>",
+            "None of the above"
+        ],
+        "answer": "<sup>",
+        "explanation": " HTML <sup> tag is termed as a superscript tag, which is used to define the superscript text. The text within <sup> tag appears with an upper baseline and renders with a smaller size than the surrounding text.",
+        "codeblock": null
+    },
+    {
+        "question": "40) Which of the following is the correct way to change the font face in HTML?",
+        "options": [
+            "<font name = \"Calibri\"> \u2026\u2026\u2026 </font>",
+            "<font face = \"Calibri\"> \u2026\u2026\u2026 </font>",
+            "<font = \"Calibri\"> \u2026\u2026\u2026 </font>",
+            "None of the above"
+        ],
+        "answer": "<font face = \"Calibri\"> \u2026\u2026.. </font>",
+        "explanation": " HTML <font> tag defines the font style for the text contained within it. The face attribute of the <font> tag is used to define the face of text in an HTML document.",
+        "codeblock": null
+    }
+]

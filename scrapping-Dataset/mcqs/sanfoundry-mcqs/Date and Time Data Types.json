@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Which of these has special automatic update behavior?",
+        "options": [
+            "a) DATE",
+            "b) TIME",
+            "c) TIMESTAMP",
+            "d) YEAR"
+        ],
+        "answer": "c",
+        "explanation": "The date and time types for representing temporal values are \u2018DATE\u2019, \u2018TIME\u2019, \u2018DATETIME\u2019, \u2018TIMESTAMP\u2019 and \u2018YEAR\u2019. Each temporal type has a range of valid values and a \u2018zero\u2019 value."
+    },
+    {
+        "question": "To disallow zero month or day parts in dates, the option used is _____________",
+        "options": [
+            "a) NO_ZERO_IN_DATE",
+            "b) NO_DATE_WITH_ZERO",
+            "c) ZERO_IN_DATE",
+            "d) DATE_WITH_ZERO"
+        ],
+        "answer": "a",
+        "explanation": "MySQL permits to store the dates where the day or month and day are zero in a DATE or DATETIME column. This is helpful for applications that need to store birthdates for which the exact date is unknown."
+    },
+    {
+        "question": "The mode that does not remove trailing spaces when CHAR values are retrieved is _____________",
+        "options": [
+            "a) PAD_CHAR_TO_FULL_LENGTH",
+            "b) TO_FULL_LENGTH_CHAR_PAD",
+            "c) CHAR_PAD_TO_FULL_LENGTH",
+            "d) PAD_CHAR_TO_LENGTH"
+        ],
+        "answer": "a",
+        "explanation": "When the CHAR values are stored, they are right-padded with spaces to the specified length. When CHAR values are retrieved, trailing spaces are removed unless the SQL mode \u2018PAD_CHAR_TO_FULL_LENGTH\u2019 is enabled."
+    },
+    {
+        "question": "MySQL automatically converts a date or time value to a number if the value is used in a numeric context.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "MySQL automatically converts a date or time value into a number if the value is used in a numeric context and vice versa. A \u2018zero\u2019 value can also be represented in MySQL."
+    },
+    {
+        "question": "The functions in Perl DBI called?",
+        "options": [
+            "a) functions",
+            "b) procedures",
+            "c) methods",
+            "d) programs"
+        ],
+        "answer": "c",
+        "explanation": "In the DBI API, functions are called and pointers to structures are used. The functions are called \u2018methods\u2019, pointers are called \u2018references\u2019, pointer variables are called \u2018handles\u2019."
+    },
+    {
+        "question": "The variable used as a handle to an open file is ______________",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "c",
+        "explanation": "The variable named \u2018$fh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    },
+    {
+        "question": "Which variable is a handle to a database object?",
+        "options": [
+            "a) $dbh",
+            "b) $sth",
+            "c) $fh",
+            "d) $h"
+        ],
+        "answer": "a",
+        "explanation": "The variable named \u2018$dbh\u2019 is a handle to an open file. \u2018$h\u2019 is a generic handle and the meaning depends on context. \u2018$dbh\u2019 is a handle to a database object. \u2018$sth\u2019 is a handle to a query object."
+    }
+]

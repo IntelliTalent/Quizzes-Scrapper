@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Individual R objects can be saved to a file using the _____ function.",
+        "options": [
+            "a) save",
+            "b) put",
+            "c) save_image",
+            "d) get"
+        ],
+        "answer": "a",
+        "explanation": "The key functions for converting R objects into a binary format are save(), save.image(), and serialize()."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) The complement to the textual format is the binary format",
+            "b) If you have a lot of objects that you want to save to a file, you can save all objects in your workspace using the save.image() function",
+            "c) The serialize() function is used to convert individual R objects into a binary format that can be communicated across an arbitrary connection",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It\u2019s better to stick with a binary format for efficiency and accuracy."
+    },
+    {
+        "question": "Which of the following R statement will save the output to the file for following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "You can save all objects in your workspace using the save.image() function."
+    },
+    {
+        "question": "Which of the following statement will load the objects to the file named \u201cmydata.RData\u201d?",
+        "options": [
+            "a) save(\u201cmydata.RData\u201d)",
+            "b) load(\u201cmydata.RData\u201d)",
+            "c) loadAll(\u201cmydata.RData\u201d)",
+            "d) put(\u201cmydata.RData\u201d)"
+        ],
+        "answer": "b",
+        "explanation": ".rda and .RData are fairly common extensions and you may want to use them because they are recognized by other software."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) When you call unserialize() on an R object, the output will be a raw vector coded in hexadecimal format",
+            "b) serialize() function is the only way to perfectly represent an R object in an exportable format",
+            "c) .rda extension is used when save() function is incorporated",
+            "d) The complement to the textual format is the binary format"
+        ],
+        "answer": "a",
+        "explanation": "Output may get sent to a file, but it could get sent over a network or other connection."
+    },
+    {
+        "question": "________ opens a connection to a file compressed with gzip.",
+        "options": [
+            "a) url",
+            "b) gzfile",
+            "c) bzfile",
+            "d) file"
+        ],
+        "answer": "b",
+        "explanation": "\u201cfile\u201d opens a connection to a file."
+    },
+    {
+        "question": "Connections to text files can be created with the ________ function.",
+        "options": [
+            "a) url",
+            "b) gzfile",
+            "c) bzfile",
+            "d) file"
+        ],
+        "answer": "d",
+        "explanation": "The file() function has a number of arguments that are common to many other connection functions."
+    },
+    {
+        "question": "Which of the following R code creates a connection to \u2018foo.txt\u2019?",
+        "options": [
+            "a) con <- file(\u201cfoo.txt\u201d)",
+            "b) open(con, \u201cr\u201d)",
+            "c) opencon(con, \u201cr\u201d)",
+            "d) ocon(con, \u201cr\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "Open is used for opening connection to \u2018foo.txt\u2019 in read-only mode."
+    },
+    {
+        "question": "Which of the following code opens a connection to the file foo.txt, reads from it, and closes the connection when its done?",
+        "options": [
+            "a) data <- read.csv(\u201cfoo.txt\u201d)",
+            "b) data <- read.csvo(\u201cfoo.txt\u201d)",
+            "c) data <- readonly.csv(\u201cfoo.txt\u201d)",
+            "d) data <- getonly.csv(\u201cfoo.txt\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "Connections must be opened, then the are read from or written to, and then they are closed."
+    },
+    {
+        "question": "Which of the following opens connection to gz-compressed text file?",
+        "options": [
+            "a) con <- gzfiles(\u201cwords.gz\u201d)",
+            "b) con <- gzfile(\u201cwords.gz\u201d)",
+            "c) con <- gzfile2(\u201cwords.gz\u201d)",
+            "d) con <- gzfiles2(\u201cwords.gz\u201d)"
+        ],
+        "answer": "b",
+        "explanation": "For more structured text data like CSV files or tab-delimited files, there are other functions like read.csv() or read.table()."
+    }
+]

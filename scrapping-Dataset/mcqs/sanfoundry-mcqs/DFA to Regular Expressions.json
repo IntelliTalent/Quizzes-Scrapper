@@ -1,0 +1,115 @@
+[
+    {
+        "question": "Which of the following is same as the given DFA?",
+        "options": [
+            "a) (0+1)*001(0+1)*",
+            "b) 1*001(0+1)*",
+            "c) (01)*(0+0+1)(01)*",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There needs to be 001 together in the string as an essential substring. Thus, the other components can be anything, 0 or 1 or e."
+    },
+    {
+        "question": "Which of the following statements is not true?",
+        "options": [
+            "a) Every language defined by any of the automata is also defined by a regular expression",
+            "b) Every language defined by a regular expression can be represented using a DFA",
+            "c) Every language defined by a regular expression can be represented using NFA with e moves",
+            "d) Regular expression is just another representation for any automata definition"
+        ],
+        "answer": "b",
+        "explanation": "Using NFA with e moves, we can represent all the regular expressions as an automata. As regular expressions include e, we need to use  e moves."
+    },
+    {
+        "question": "The total number of states required to automate the given regular expression",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": " Which of the given regular expressions correspond to the automata shown?",
+        "options": [
+            "a) (110+1)*0",
+            "b) (11+110)*1",
+            "c) (110+11)*0",
+            "d) (1+110)*1"
+        ],
+        "answer": "c",
+        "explanation": "There is no state change for union operation, but has two different paths while for concatenation or dot operation, we have a state change for every element of the string."
+    },
+    {
+        "question": "Generate a regular expression for the following problem statement:",
+        "options": [
+            "a) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,15}$",
+            "b) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{9,16}$",
+            "c) ^(?=.[a-z])(?=.[A-Z])(?=.\\d).{8,15}$",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Passwords like abc123, 123XYZ, should not be accepted . If one also wants to include special characters as one of the constraint, one can use the following regular expression:"
+    },
+    {
+        "question": "Generate a regular expression for the following problem statement:",
+        "options": [
+            "a) (1+0+e)6",
+            "b) (10)6",
+            "c) (1+0)(1+0)(1+0)(1+0)(1+0)(1+0)",
+            "d) More than one of the mentioned is correct"
+        ],
+        "answer": "a",
+        "explanation": "As the input variables are under Kleene Operation, we need to include e,thus option c is not correct,thereby option (a) is the right answer."
+    },
+    {
+        "question": "The minimum number of states required in a DFA (along with a dumping state)  to check whether the 3rd bit is 1 or not for |n|>=3",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 1"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Which of the regular expressions corresponds to the given problem statement:",
+        "options": [
+            "a) (l+_)(d+_)*",
+            "b) (l+d+_)*",
+            "c) (l+_)(l+d+_)*",
+            "d) (_+d)(l+d+_)*",
+            "a) The name of the identifier should not begin with a digit.",
+            "b) It can only begin with a letter or a underscore.",
+            "c) It can be of length 1 or more."
+        ],
+        "answer": "c",
+        "explanation": "Identifiers in C Programming Language follows the following identifiers rule:"
+    },
+    {
+        "question": "Generate a regular expression for the given language:l",
+        "options": [
+            "a) (0+01)*",
+            "b) (0+01)*1",
+            "c) (0+01)*(1+01)",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "(a) and (b) are the general cases where we restrict the acceptance of a string witrh substring 00 but we ignore the case where the string needs to end with 1 which therby, does not allows the acceptance of e."
+    },
+    {
+        "question": "The minimum number of transitions to pass to reach the final state as per the following regular expression is:",
+        "options": [
+            "a) 4",
+            "b) 5",
+            "c) 6",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "Explanation:"
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "question": "The server is told to accept spaces after function names by _____________",
+        "options": [
+            "a) \u2013sql-mode=SKIP_SPACE",
+            "b) \u2013sql-mode=IGNORE_SPACE",
+            "c) \u2013sql-mode=SPACE_IGNORE",
+            "d) \u2013sql-mode=SPACE_SKIP"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL server is told to accept spaces after function names by starting it with the \u2018\u2013sql-mode=IGNORE_SPACE\u2019 option. Individual client programs can request this behavior by using the \u2018CLIENT_IGNORE_SPACE\u2019 option for \u2018mysql_real_connect()\u2019."
+    },
+    {
+        "question": "Which function returns NULL if expr1 = expr2?",
+        "options": [
+            "a) CASE",
+            "b) IF()",
+            "c) IFNULL()",
+            "d) NULLIF()"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018CASE\u2019 is used for the case operator. The function \u2018IF()\u2019 is used for the if/else construct. The function \u2018IFNULL()\u2019 is the Null if/else construct. \u2018NULLIF()\u2019 returns NULL if expr1 = expr2."
+    },
+    {
+        "question": "The operator that compares sounds is _____________",
+        "options": [
+            "a) MATCH SOUNDS",
+            "b) CHECK SOUNDS",
+            "c) SOUNDS LIKE",
+            "d) SOUNDS SIMILAR"
+        ],
+        "answer": "c",
+        "explanation": "The operator \u2018SOUNDS LIKE\u2019 is used to compare sound. The \u2018RLIKE\u2019 is a synonym for \u2018REGEXP\u2019, which is a pattern matching using regular expressions. There are a lot of other operators for use."
+    },
+    {
+        "question": "The string function that returns the index of the first occurrence of substring is _____________",
+        "options": [
+            "a) INSERT()",
+            "b) INSTR()",
+            "c) INSTRING()",
+            "d) INFSTR()"
+        ],
+        "answer": "b",
+        "explanation": "The string function \u2018INSTR()\u2019 is used to return the index of the first occurrence of the substring. The function \u2018INSERT()\u2019 is used to insert a substring at the specified position up to the specified number of characters."
+    },
+    {
+        "question": "CGI.pm does not support an object oriented style of use.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "\u2018CGI.pm\u2019 supports an object oriented style of use which allows to invoke its functions without importing the names. To do this, a use statement is included and a CGI object is created."
+    },
+    {
+        "question": "What does the AUTO_INCREMENT sequences begin at by default?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) -1",
+            "d) 2"
+        ],
+        "answer": "b",
+        "explanation": "The AUTO_INCREMENT column attribute provides unique numbers for column identification. AUTO_INCREMENT sequences normally begin at 1 and increase monotonically like 1, 2, 3, and so on."
+    },
+    {
+        "question": "The one that is not optional is _____________",
+        "options": [],
+        "answer": "a",
+        "explanation": "Given above was a basic syntax of the SELECT statement. Everything in the syntax is optional except the \u2018select_list\u2019 option. All the others are free to be omitted, and will work fine."
+    },
+    {
+        "question": "The join in which all the rows from the right table appear in the output irrespective of the content of the other table is ______________",
+        "options": [
+            "a) CARTESIAN JOIN",
+            "b) CROSS JOIN",
+            "c) INNER JOIN",
+            "d) RIGHT JOIN"
+        ],
+        "answer": "d",
+        "explanation": "In a \u2018RIGHT JOIN\u2019, the output is produced for every row of the right table, even if it does not exist in the other table. This is the reason why it is called a \u2018RIGHT JOIN\u2019. \u2018RIGHT JOIN\u2019 and \u2018LEFT JOIN\u2019 are a kind of OUTER JOIN."
+    },
+    {
+        "question": "The facility that allows nesting one select statement into another is ______________",
+        "options": [
+            "a) nesting",
+            "b) binding",
+            "c) subquerying",
+            "d) encapsulating"
+        ],
+        "answer": "c",
+        "explanation": "The \u2018subquerying\u2019 support provided by MySQL is a capability that allows writing one \u2018SELECT\u2019 statement within parentheses and nesting within another. This allows logically selecting content from tables."
+    }
+]

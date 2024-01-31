@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which of the following statement is true about stack?",
+        "options": [
+            "a) Pop operation removes the top most element",
+            "b) Pop operation removes the bottom most element",
+            "c) Push operation adds new element at the bottom",
+            "d) Push operation removes the top most element"
+        ],
+        "answer": "a",
+        "explanation": "As stack is based on LIFO(Last In First Out) principle so the deletion takes place from the topmost element. Thus pop operator removes topmost element."
+    },
+    {
+        "question": "What is the space complexity of program to reverse stack recursively?",
+        "options": [
+            "a) O(1)",
+            "b) O(log n)",
+            "c) O(n)",
+            "d) O(n log n)"
+        ],
+        "answer": "c",
+        "explanation": "The recursive program to reverse stack uses memory of the order n to store function call stack."
+    },
+    {
+        "question": "Stack can be reversed without using extra space by _____________",
+        "options": [
+            "a) using recursion",
+            "b) using linked list to implement stack",
+            "c) using an extra stack",
+            "d) it is not possible"
+        ],
+        "answer": "b",
+        "explanation": "If linked list is used for implementing stack then it can be reversed without using any extra space."
+    },
+    {
+        "question": "Which of the following is considered as the top of the stack in the linked list implementation of the stack?",
+        "options": [
+            "a) Last node",
+            "b) First node",
+            "c) Random node",
+            "d) Middle node"
+        ],
+        "answer": "b",
+        "explanation": "First node is considered as the top element when stack is implemented using linked list."
+    },
+    {
+        "question": "What is the time complexity of the program to reverse stack when linked list is used for its implementation?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(n",
+            "d) O(log n)"
+        ],
+        "answer": "a",
+        "explanation": "As a linked list takes O(n) time for getting reversed thus linked list version of stack will also take the same time."
+    },
+    {
+        "question": "Which of the following takes O(n) time in worst case in array implementation of stack?",
+        "options": [
+            "a) pop",
+            "b) push",
+            "c) isEmpty",
+            "d) pop, push and isEmpty takes constant time"
+        ],
+        "answer": "d",
+        "explanation": "Functions pop, push and isEmpty all are implemented in constant time in worst case."
+    },
+    {
+        "question": "What will be the time complexity of the code to reverse stack recursively?",
+        "options": [
+            "a) O(n)",
+            "b) O(n log n)",
+            "c) O(log n)",
+            "d) O(n"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation for the recursive code to reverse stack will be given by-T(n)=T(n-1)+n.This is calculated to be equal to O(n"
+    },
+    {
+        "question": "Which of the following functions correctly represents the recursive approach to reverse a stack?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "We keep on holding the elements in call stack until we reach the bottom of the stack.Then we insert elements at the bottom.This reverses our stack."
+    },
+    {
+        "question": "Which of the following correctly represents the function to insert elements at the bottom of stack?",
+        "options": [
+            "a)"
+        ],
+        "answer": "c",
+        "explanation": "We hold all the elements in the call stack until we reach the bottom of stack and then the first if statement is executed as the stack is empty at this stage.Finally we push back all the elements held in the call stack."
+    },
+    {
+        "question": "Which of the following code correctly represents the function to reverse stack without using recursion?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "We are using one extra stack to reverse the given stack. First the elements of the original stack are pushed into the other stack which creates a reversed version of the original stack. Then we swap this stack with the original stack."
+    }
+]

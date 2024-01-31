@@ -1,0 +1,112 @@
+[
+    {
+        "question": "They primary R system is available from the ______",
+        "options": [
+            "a) CRAN",
+            "b) CRWO",
+            "c) GNU",
+            "d) CRDO"
+        ],
+        "answer": "a",
+        "explanation": "CRAN stands for Comprehensive R Archive Network."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Key feature of R was that its syntax is very similar to S",
+            "b) R runs only on Windows computing platform and operating system",
+            "c) R has been reported to be running on modern tablets, phones, PDAs, and game consoles",
+            "d) R functionality is divided into a number of Packages"
+        ],
+        "answer": "b",
+        "explanation": "R runs on almost any standard computing platform and operating system."
+    },
+    {
+        "question": "R functionality is divided into a number of ________",
+        "options": [
+            "a) Packages",
+            "b) Functions",
+            "c) Domains",
+            "d) Classes"
+        ],
+        "answer": "a",
+        "explanation": "CRAN also hosts many add-on packages that can be used to extend the functionality of R."
+    },
+    {
+        "question": "Which Package contains most fundamental functions to run R?",
+        "options": [
+            "a) root",
+            "b) child",
+            "c) base",
+            "d) parent"
+        ],
+        "answer": "c",
+        "explanation": "base package in R contains the most fundamental functions."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) One nice feature that R shares with many popular open source projects is frequent releases",
+            "b) R has sophisticated graphics capabilities",
+            "c) S\u2019s base graphics system allows for very fine control over essentially every aspect of a plot or graph",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "R has maintained the original S philosophy, which is that it provides a language that is both useful for interactive work, but contains a powerful programming language for developing new tools."
+    },
+    {
+        "question": "Which of the following is a base package for R language?",
+        "options": [
+            "a) util",
+            "b) lang",
+            "c) tools",
+            "d) spatial"
+        ],
+        "answer": "c",
+        "explanation": "The other packages contained in the \u201cbase\u201d system include utils, stats, datasets, graphics, grDevices, grid, methods, parallel, compiler, splines, tcltk, stats4."
+    },
+    {
+        "question": "Which of the following is \u201cRecommended\u201d package in R?",
+        "options": [
+            "a) util",
+            "b) lang",
+            "c) stats",
+            "d) spatial"
+        ],
+        "answer": "d",
+        "explanation": "\u201cRecommended\u201d packages also include boot, class, cluster, codetools, foreign, KernSmooth, lattice, mgcv, nlme, rpart, survival, MASS, nnet, Matrix."
+    },
+    {
+        "question": "What is the output of getOption(\u201cdefaultPackages\u201d) in R studio?",
+        "options": [
+            "a) Installs a new package",
+            "b) Shows default packages in R",
+            "c) Error",
+            "d) Nothing will print"
+        ],
+        "answer": "b",
+        "explanation": "There are base packages (which come with R automatically), and contributed packages. The base packages are maintained by a select group of volunteers called R Core. In addition to the base packages, there are over ten thousand additional contributed packages written by individuals all over the world."
+    },
+    {
+        "question": "Advanced users can write ___ code to manipulate R objects directly.",
+        "options": [
+            "a) C, C++",
+            "b) C++, Java",
+            "c) Java, C",
+            "d) Java"
+        ],
+        "answer": "a",
+        "explanation": "For computationally-intensive tasks, C, C++ and Fortran code can be linked and called at run time."
+    },
+    {
+        "question": "Which of the following is used for Statistical analysis in R language?",
+        "options": [
+            "a) RStudio",
+            "b) Studio",
+            "c) Heck",
+            "d) KStudio"
+        ],
+        "answer": "a",
+        "explanation": "RStudio is a web application framework for R."
+    }
+]

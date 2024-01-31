@@ -1,0 +1,100 @@
+[
+    {
+        "question": "Which of the following cannot further inspect the attribute that is once applied?",
+        "options": [
+            "a) Linker",
+            "b) ASP.NET Runtime",
+            "c) Language compilers",
+            "d) CLR"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "To apply an attribute to an Assembly, the correct way of implementation is?",
+        "options": [
+            "a) [AssemblyInfo: AssemblyDescription (\u201cCsharp\u201d)]",
+            "b) [assembly: AssemblyDescription(\u201cCsharp\u201d)]",
+            "c) [AssemblyDescription(\u201cCsharp\u201d)]",
+            "d) (Assembly:AssemblyDescription(\u201cCsharp\u201d)]"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    },
+    {
+        "question": "The correct method to pass a parameter to an attribute is?",
+        "options": [
+            "a) By name",
+            "b) By address",
+            "c) By value",
+            "d) By reference"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which among the following cannot be a target for a custom attribute?",
+        "options": [
+            "a) Enum",
+            "b) Event",
+            "c) Interface",
+            "d) Namespace"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Select the correct statement about Attributes used in C#.NET?",
+        "options": [
+            "a) The CLR can change the behaviour of the code depending on attributes applied to it",
+            "b) If a bugFixAttribute is to receive three parameters, then the BugFixAttribute class should implement a zero argument constructor",
+            "c) To create a custom attribute we need to create a custom attribute structure and derive it from System.Attribute",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "The correct way to apply the custom attribute called Employer which receives two arguments \u2013 name of the employee and employeeid is?",
+        "options": [
+            "a) Custom attribute can be applied to an assembly",
+            "b) [assembly : Employer(\u201cAnkit\u201d,employeeid.one)]",
+            "c)"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "Which of the following is the correct statement about inspecting an attribute in C#.NET?",
+        "options": [
+            "a) An attribute can be inspected at link time",
+            "b) An attribute can be inspected at design time",
+            "c) An attribute can be inspected at run time",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Attributes could be applied to ___________",
+        "options": [
+            "a) Method",
+            "b) Class",
+            "c) Assembly",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "The [Serializable()] attributes gets inspected at _________",
+        "options": [
+            "a) compile time",
+            "b) run time",
+            "c) design time",
+            "d) linking time"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    }
+]

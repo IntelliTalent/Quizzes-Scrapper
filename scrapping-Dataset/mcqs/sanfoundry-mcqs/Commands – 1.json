@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following code create n samples of size \u201csize\u201d with probability prob from the binomial?",
+        "options": [
+            "a) z <- rinom(n,size,prob)",
+            "b) z <- rbinom(n,size,prob)",
+            "c) z <- binom(n,size,prob)",
+            "d) z >- nom(n,size,prob)"
+        ],
+        "answer": "b",
+        "explanation": "To use the rbinom() function, you need to define three parameters."
+    },
+    {
+        "question": "Which of the following code create a n item vector of random normal deviates?",
+        "options": [
+            "a) x1 <- c(snorm(n))",
+            "b) x1 <- c(pnorm(n))",
+            "c) x1 <- c(rnorm(n))",
+            "d) x1 >- c(norm(n))"
+        ],
+        "answer": "c",
+        "explanation": "rnorm generates random deviates."
+    },
+    {
+        "question": "Which of the following statement can read csv files?",
+        "options": [
+            "a) read.table(filename,header=TRUE,sep=\u2019,\u2019)",
+            "b) read.csv(filename,header=TRUE,sep=\u2019,\u2019)",
+            "c) read.tab(filename,header=TRUE,sep=\u2019,\u2019)",
+            "d) read.tab(filename,header=False,sep=\u2019,\u2019)"
+        ],
+        "answer": "a",
+        "explanation": "Each row of the table appears as one line of the file."
+    },
+    {
+        "question": "Which of the following statement read a tab or space delimited file?",
+        "options": [
+            "a) read.table(filename,header=TRUE)",
+            "b) read.CSV(filename,header=TRUE)",
+            "c) read.table(filename,header=FALSE)",
+            "d) read.tableall(filename,header=TRUE)"
+        ],
+        "answer": "a",
+        "explanation": "read.csv and read.csv2 are identical to read.table except for the defaults."
+    },
+    {
+        "question": "which of the following statement chose those objects meeting a logical criterion?",
+        "options": [
+            "a) sub(dataset,logical)",
+            "b) subset(dataset,logical)",
+            "c) subsetcon(dataset,logical)",
+            "d) subcon(dataset,logical)"
+        ],
+        "answer": "b",
+        "explanation": "R subsetting operators are powerful and fast."
+    },
+    {
+        "question": "Which of the following statement is another way to get a subset?",
+        "options": [
+            "a) subsetcon(dataset,logical)",
+            "b) data.df[data.df=logical]",
+            "c) sub(dataset,logical)",
+            "d) subcon(dataset,logical)"
+        ],
+        "answer": "b",
+        "explanation": "subset(data.df,select=variables,logical) get those objects from a data frame that meet a criterion."
+    },
+    {
+        "question": "Which of the following sort a dataframe by the order of the elements in B?",
+        "options": [
+            "a) x[rev(order(x$B)),]",
+            "b) x[ordersort(x$B),]",
+            "c) x[order(x$B),]",
+            "d) x[rev(x$B),]"
+        ],
+        "answer": "a",
+        "explanation": "x[rev(order(x$B)),] sort the dataframe in reverse order."
+    },
+    {
+        "question": "Which of the following is Mac menu command?",
+        "options": [
+            "a) browse.workspace",
+            "b) browse.works",
+            "c) browser.workspace",
+            "d) a statistical transformation"
+        ],
+        "answer": "a",
+        "explanation": "It is a Mac menu command that creates a window with information about all variables in the workspace."
+    },
+    {
+        "question": "_____ list the variables in the workspace.",
+        "options": [
+            "a) rm(x)",
+            "b) rm(list=ls())",
+            "c) ls()",
+            "d) attach(mat)"
+        ],
+        "answer": "c",
+        "explanation": "rm(x) removes x from the workspace."
+    },
+    {
+        "question": "___________ remove all the variables from the workspace.",
+        "options": [
+            "a) rm(x)",
+            "b) rm(list=ls())",
+            "c) ls()",
+            "d) attach(mat)"
+        ],
+        "answer": "b",
+        "explanation": "attach(mat) make the names of the variables in the matrix or data frame available in the workspace."
+    }
+]

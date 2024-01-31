@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Which of the following is correct?",
+        "options": [
+            "a) Statement 1 and 2 both are correct",
+            "b) Statement 1 is false but 2 is correct",
+            "c) Statement 1 and 2 both are false",
+            "d) There is no difference between both the statements, \u03b5 and \u0424 are different notation for same reason"
+        ],
+        "answer": "a",
+        "explanation": "\u03b5 represents a single string in the set namely, the empty string while Statement 2 is also correct."
+    },
+    {
+        "question": "The appropriate precedence order of operations over a Regular Language is",
+        "options": [
+            "a) Kleene, Union, Concatenate",
+            "b) Kleene, Star, Union",
+            "c) Kleene, Dot, Union",
+            "d) Star, Union, Dot"
+        ],
+        "answer": "c",
+        "explanation": "If a regular language expression is given, the appropriate order of precedence if the parenthesis is ignored is: Star or Kleene, Dot or Concatenation, Union or Plus."
+    },
+    {
+        "question": "Regular Expression R and the language it describes can be represented as:",
+        "options": [
+            "a) R, R(L)",
+            "b) L(R), R(L)",
+            "c) R, L(R)",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When we wish to distinguish between a regular expression R and the language it represents; we write L(R) to be the language of R."
+    },
+    {
+        "question": "Let for \u2211= {0,1} R= (\u2211\u2211\u2211) *, the language of R would be",
+        "options": [
+            "a) {w | w is a string of odd length}",
+            "b) {w | w is a string of length multiple of 3}",
+            "c) {w | w is a string of length 3}",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This regular expression can be used to eliminate the answers and get the result. The length can be even and as well more than 3 when R= (\u2211\u2211\u2211) (\u2211\u2211\u2211) (particular case)."
+    },
+    {
+        "question": "If \u2211= {0,1}, then \u0424* will result to:",
+        "options": [
+            "a) \u03b5",
+            "b) \u0424",
+            "c) \u2211",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The star operation brings together any number of strings from the language to get a string in the result. If the language is empty, the star operation can put together 0 strings, resulting only the empty string."
+    },
+    {
+        "question": "The given NFA represents which of the following NFA",
+        "options": [
+            "a) (ab U a) *",
+            "b) (a*b* U a*)",
+            "c) (ab U a*)",
+            "d) (ab)* U a*"
+        ],
+        "answer": "a",
+        "explanation": "The Regular expression (ab U a) * is converted to NFA in a sequence of stages as it can be clearly seen in the diagram. This NFA consist of 8 stated while its minimized form only contains 2 states."
+    },
+    {
+        "question": "Which of the following represents a language which has no pair of consecutive 1\u2019s if \u2211= {0,1}?",
+        "options": [
+            "a) (0+10)*(1+\u03b5)",
+            "b) (0+10)*(1+\u03b5)*",
+            "c) (0+101)*(0+\u03b5)",
+            "d) (1+010)*(1+\u03b5)"
+        ],
+        "answer": "a",
+        "explanation": "All the options except \u2018a\u2019 accept those strings which comprises minimum one pair of 1\u2019s together."
+    },
+    {
+        "question": "The finite automata accept the following languages:",
+        "options": [
+            "a) Context Free Languages",
+            "b) Context Sensitive Languages",
+            "c) Regular Languages",
+            "d) All the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A finite automaton accepts the languages which are regular and for which a DFA can be constructed."
+    },
+    {
+        "question": "(a + b*c) most correctly represents:",
+        "options": [
+            "a) (a +b) *c",
+            "b) (a)+((b)*.c)",
+            "c) (a + (b*)).c",
+            "d) a+ ((b*).c)"
+        ],
+        "answer": "d",
+        "explanation": "Following the rules of precedence, Kleene or star operation would be done first, then concatenation and finally union or plus operation."
+    },
+    {
+        "question": " Which of the following regular expressions represents the set of strings which do not contain a substring \u2018rt\u2019 if \u2211= {r, t}",
+        "options": [
+            "a) (rt)*",
+            "b) (tr)*",
+            "c) (r*t*)",
+            "d) (t*r*)"
+        ],
+        "answer": "d",
+        "explanation": "As Kleene operation is not on the whole of the substring, it will not repeat and maintain the order of t, r."
+    },
+    {
+        "question": "According to the precedence rules, x-y-z is equivalent to which of the following?",
+        "options": [
+            "a) (x-y)-z",
+            "b) x-(y-z)",
+            "c) Both (x-y)-z and x-(y-z)",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "In arithmetic, we group two of the same operators from the left, hence x-y-z is equivalent to (x-y)-z and not x-(y\u2014z)."
+    },
+    {
+        "question": "Dot operator in regular expression resembles which of the following?",
+        "options": [
+            "a) Expressions are juxtaposed",
+            "b) Expressions are multiplied",
+            "c) Cross operation",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Dot operation or concatenation operation means that the two expressions are juxtaposed i.e. there are no intervening operators in between. In fact, UNIX regular expressions use the dot for an entirely different purpose: representing any ASCII character."
+    },
+    {
+        "question": "Which among the following is not an associative operation?",
+        "options": [
+            "a) Union",
+            "b) Concatenation",
+            "c) Dot",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "It does not matter in which order we group the expression with the operators as they are associative. If one gets a chance to group the expression, one should group them from left for convenience. For instance, 012 is grouped as (01)2."
+    },
+    {
+        "question": "14.Which among the following is equivalent to the given regular expression?",
+        "options": [
+            "a) (01)*+1",
+            "b) 0((1)*+1)",
+            "c) (0(1)*)+1",
+            "d) ((0*1)1*)*"
+        ],
+        "answer": "c",
+        "explanation": "Using the rules of precedence on the give expression, c is the appropriate choice with the order of: Bracket>Kleene>Dot>Union"
+    }
+]

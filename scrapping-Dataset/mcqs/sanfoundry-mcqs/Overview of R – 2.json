@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What will be the output of the following R program?",
+        "options": [],
+        "answer": "b",
+        "explanation": "1 is the output of the above code as indexing in R starts from 1. The output can be viewed in the R console. R studio has both R terminal and the R console. Each output format is implemented as a function in R. You can customize the output by passing arguments to the function as sub-values of the output field."
+    },
+    {
+        "question": "Which of the following operator is used to create integer sequences?",
+        "options": [
+            "a) :",
+            "b) ;",
+            "c) \u2013",
+            "d) ~"
+        ],
+        "answer": "a",
+        "explanation": "\u201c:\u201d operator is used to create an integer sequence. The other operators are used for other purposes. Integer sequence is the basic operator used in R. The [ operator can be used to extract multiple elements of a vector by passing the operator an integer sequence."
+    },
+    {
+        "question": "What will be the output of the following R program?",
+        "options": [],
+        "answer": "a",
+        "explanation": "y is already vector; second line is an invalid argument. The third line will give us the output. When an R vector is printed you will notice that an index for the vector is printed in square brackets"
+    },
+    {
+        "question": "In R language, a vector is defined that it can only contain objects of the ________",
+        "options": [
+            "a) Same class",
+            "b) Different class",
+            "c) Similar class",
+            "d) Any class"
+        ],
+        "answer": "a",
+        "explanation": "A vector can only contain objects of the same class. A vector cannot have contain objects of the different class. Same class objects are used mostly. The most basic type of R object is a vector. Empty vectors can be created with the vector() function."
+    },
+    {
+        "question": "A list is represented as a vector but can contain objects of ___________",
+        "options": [
+            "a) Same class",
+            "b) Different class",
+            "c) Similar class",
+            "d) Any class"
+        ],
+        "answer": "b",
+        "explanation": "A list can contain objects of different class. But a vector can only contain objects of the same class. A vector cannot have contain objects of the different class. Same class objects are used mostly."
+    },
+    {
+        "question": "How can we define \u2018undefined value\u2019 in R language?",
+        "options": [
+            "a) Inf",
+            "b) Sup",
+            "c) Und",
+            "d) NaN"
+        ],
+        "answer": "d",
+        "explanation": "NaN is used to define the \u201cundefined\u201d value in the R language. Undefined values also have some value in R. Missing values are denoted by NA or NaN for q undefined mathematical operations. A NaN value is also NA but the converse is not true."
+    },
+    {
+        "question": "What is NaN called?",
+        "options": [
+            "a) Not a Number",
+            "b) Not a Numeric",
+            "c) Number and Number",
+            "d) Number a Numeric"
+        ],
+        "answer": "a",
+        "explanation": "NaN is called Not a Number. It is the full form of NaN. Full forms can be viewed in R studio by typing help. A NaN value is also NA but the converse is not true. The value NaN represents an undefined value."
+    },
+    {
+        "question": "How can we define \u2018infinity\u2019 in R language?",
+        "options": [
+            "a) Inf",
+            "b) Sup",
+            "c) Und",
+            "d) NaN"
+        ],
+        "answer": "a",
+        "explanation": "Inf is used to define \u201cInfinity\u201d in R. It is somewhat different from other programming languages. There is also a special number of Inf which represents infinity."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "Here TRUE is taken as 1. Then it will give output as 1 and 2. FALSE can be taken as 0. T and F are short-hand ways to specify TRUE and FALSE."
+    },
+    {
+        "question": "What is the class defined by the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Here 2 is changed into character. Since the y belongs to list. A list contains only characters. Combining a numeric object with a character object will create a character vector because numbers can usually be easily represented as strings."
+    }
+]

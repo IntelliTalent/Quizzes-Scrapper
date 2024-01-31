@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Is \u201cGROUP BY\u201d clause is similar to \u201cORDER BY\u201d clause?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Depends",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "\u201cORDER BY\u201d clause is used for sorting while \u201cGROUP BY\u201d clause is used for aggregation of fields."
+    },
+    {
+        "question": "What is the meaning of \u201cORDER BY\u201d clause in Mysql?",
+        "options": [
+            "a) Sorting your result set using column data",
+            "b) Aggregation of fields",
+            "c) Sorting your result set using row data",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "What is the significance of \u201cORDER BY\u201d in the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Sorting in ascending or descending order depends on keyword \u201cDESC\u201d and \u201cASC\u201d."
+    },
+    {
+        "question": "What will be the order of sorting in the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "In the query, first \u201cemp_id\u201d will be sorted then emp_name with respect to emp_id."
+    },
+    {
+        "question": "If  emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cORDER BY\u201d clause sort the emp_id in the result set."
+    },
+    {
+        "question": "If emp_id contain the following set {1, 2, 3, 4, 1, 1}, what will be the output on execution of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cORDER BY\u201d clause sort the emp_id in the result set."
+    },
+    {
+        "question": "If emp_id contain the following set {1, 2, 2, 3, 3, 1}, what will be the output on execution of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cORDER BY\u201d clause sort the emp_id in the result set."
+    },
+    {
+        "question": "If emp_id contain the following set {-1, -2, 2, 3, -3, 1}, what will be the output on execution of the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cORDER BY\u201d clause sort the emp_id in the result set."
+    },
+    {
+        "question": "Which keyword is used for sorting the data in descending order in Mysql?",
+        "options": [
+            "a) DESC",
+            "b) ASC",
+            "c) ALTER",
+            "d) MODIFY"
+        ],
+        "answer": "a",
+        "explanation": "None."
+    },
+    {
+        "question": "Which keyword is used for sorting the data in ascending order in Mysql?",
+        "options": [
+            "a) DESC",
+            "b) ASC",
+            "c) ALTER",
+            "d) MODIFY"
+        ],
+        "answer": "b",
+        "explanation": "None."
+    }
+]

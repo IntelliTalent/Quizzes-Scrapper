@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Which of the following collection do not support the TTL property?",
+        "options": [
+            "a) Compound indexes",
+            "b) Primary indexes",
+            "c) Composite indexes",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The TTL index is a single field index."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Data expiration is useful for some classes of information, including machine generated event data, logs, and session information",
+            "b) A special TTL index property supports the implementation of TTL collections",
+            "c) TTL collections make it possible to store data in MongoDB and have the mongod automatically remove data after a specified number of seconds or at a specific clock time",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": " The TTL feature relies on a background thread in mongod that reads the date-typed values in the index and removes expired documents from the collection."
+    },
+    {
+        "question": "If the indexed field in a document is not a _____ or an array that holds a date value(s), the document will not expire.",
+        "options": [
+            "a) DATE",
+            "b) TIME",
+            "c) DATETIME",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Built-in first-in-first-out property maintains the order of events while managing storage use."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) TTL indexes expire documents after the specified number of seconds has passed since the indexed field value",
+            "b) TTL indexes are special compound indexes",
+            "c) If a document does not contain the indexed field, the document will expire",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The expiration threshold is the indexed field value plus the specified number of seconds."
+    },
+    {
+        "question": "Secondary members replicate _________ operations from the primary.",
+        "options": [
+            "a) Update",
+            "b) Drop",
+            "c) Insert",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "On replica sets, the TTL background thread only deletes documents on the primary."
+    },
+    {
+        "question": "Which field does not support TTL indexes?",
+        "options": [
+            "a) _identity",
+            "b) _option",
+            "c) _id",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You cannot create a TTL index on a capped collection because MongoDB cannot remove documents from a capped collection."
+    },
+    {
+        "question": "You cannot use _________ to change the value of expireAfterSeconds of an existing index.",
+        "options": [
+            "a) createIndex()",
+            "b) dropIndex()",
+            "c) removeIndex()",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Instead use the collMod database command in conjunction with the index collection flag. Otherwise, to change the value of the option of an existing index, you must drop the index first and recreate."
+    },
+    {
+        "question": "You cannot create a TTL index on a ________ collection.",
+        "options": [
+            "a) Sharded",
+            "b) Capped",
+            "c) Primary",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB cannot remove documents from a capped collection."
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Assume 2 columns named as Product and Category how can be both sorted out based on first by category and then by product name?",
+        "options": [
+            "a) var sortedProds = _db.Products.Orderby(c => c.Category)",
+            "b) var sortedProds = _db.Products.Orderby(c => c.Category) + ThenBy(n => n.Name)",
+            "c) var sortedProds = _db.Products.Orderby(c => c.Category) . ThenBy(n => n.Name)",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " var sortedProds = _db.Products.Orderby(c => c.Category) . ThenBy(n => n.Name)."
+    },
+    {
+        "question": "Choose the wrong statement about the LINQ?",
+        "options": [
+            "a) The main concept behind the linq is query",
+            "b) linq makes use of foreach loop to execute the query",
+            "c) It is not required that linq should make use of IEnumerable interface",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "LINQ at core is the query. A query specifies what data will be obtained from a data source. Query in linq is executed using foreach loop. In order for a source of data to be used by LINQ, it must implement the IEnumerable interface."
+    },
+    {
+        "question": "Choose the namespace in which the interface IEnumerable is declared?",
+        "options": [
+            "a) System.Collections",
+            "b) System.Collections.Generic",
+            "c) Both System.Collections & System.Collections.Generic",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "By definition."
+    },
+    {
+        "question": "Can we use linq to query against a DataTable?",
+        "options": [
+            "a) Yes",
+            "b) No",
+            "c) Either Yes or No",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "We cannot use query against the DataTable\u2019s Rows collection, since DataRowCollection doesn\u2019t implement IEnumerable<T>. We need to use the AsEnumerable() extension for DataTable. As an example:"
+    }
+]

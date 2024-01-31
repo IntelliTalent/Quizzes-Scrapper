@@ -1,0 +1,127 @@
+[
+    {
+        "question": "N_sub = n + log_2(N/N_sub) is used to find the suffix length.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "N_sub = n + log_2(N/N_sub) is used to find the prefix length."
+    },
+    {
+        "question": "An organization is granted the block 130.34.12.64/26. Find the number of addresses for the whole network.",
+        "options": [
+            "a) 128",
+            "b) 32",
+            "c) 256",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "N = 2"
+    },
+    {
+        "question": "An organization is granted the block 130.34.12.64/26. What is the last address of the network?",
+        "options": [
+            "a) 130.34.12.63/26",
+            "b) 130.34.12.64/26",
+            "c) 130.34.12.127/26",
+            "d) 130.34.12.128/28"
+        ],
+        "answer": "c",
+        "explanation": "Last address = 130.34.12.127/26."
+    },
+    {
+        "question": "An organization is granted the block 130.34.12.64/26. The organization needs four subnetworks, each with an equal number of hosts. What is the number of addresses to each subnetwork?",
+        "options": [
+            "a) 4",
+            "b) 16",
+            "c) 8",
+            "d) 32"
+        ],
+        "answer": "b",
+        "explanation": "N = 2^(32-36) = 64."
+    },
+    {
+        "question": "In the above question, what is the subnetwork mask for each network?",
+        "options": [
+            "a) 27",
+            "b) 29",
+            "c) 28",
+            "d) 26"
+        ],
+        "answer": "c",
+        "explanation": "nsub1 = nsub2 = nsub3 = nsub4 = n + log2(N/Nsub) =26+ log2(64/16)= 28."
+    },
+    {
+        "question": "An organization is granted a block of addresses with the beginning address 14.24.74.0/24. The organization needs to have 3 subblocks of addresses to use in its three subnets as shown below:",
+        "options": [],
+        "answer": "c",
+        "explanation": "N = 2^(32-24) = 256."
+    },
+    {
+        "question": "Last Address \u2013",
+        "options": [
+            "a) 14.24.74.64/24",
+            "b) 14.24.74.127/24",
+            "c) 14.24.74.255/24",
+            "d) 14.24.74.256/24"
+        ],
+        "answer": "c",
+        "explanation": "Last Address = 14.24.74.255/24"
+    },
+    {
+        "question": "The subnet mask nsub1=",
+        "options": [
+            "a) 23",
+            "b) 25",
+            "c) 26",
+            "d) 27"
+        ],
+        "answer": "b",
+        "explanation": "nsub1= n+log2(N/Nsub1) = 25."
+    },
+    {
+        "question": "First address of the second subblock \u2013",
+        "options": [
+            "a) 14.24.74.192/26",
+            "b) 14.24.74.128/26",
+            "c) 14.24.74.127/28",
+            "d) 14.24.74.67/27"
+        ],
+        "answer": "b",
+        "explanation": "First address = 14.24.74.128/26"
+    },
+    {
+        "question": "Nsub3 =",
+        "options": [
+            "a) 16",
+            "b) 14",
+            "c) 12",
+            "d) 10"
+        ],
+        "answer": "a",
+        "explanation": "The number of addresses in the third subblock (10) is not a power of 2."
+    },
+    {
+        "question": "First Address of the third subblock \u2013",
+        "options": [
+            "a) 14.24.74.128/28",
+            "b) 14.24.74.127 /28",
+            "c) 14.24.74.192/27",
+            "d) 14.24.74.192/28"
+        ],
+        "answer": "d",
+        "explanation": "First address = 14.24.74.192/28"
+    },
+    {
+        "question": "The subnet mask nsub3=",
+        "options": [
+            "a) 28",
+            "b) 27",
+            "c) 26",
+            "d) 24"
+        ],
+        "answer": "a",
+        "explanation": "The subnet mask nsub3= n+log2(N/Nsub3) = 28."
+    }
+]

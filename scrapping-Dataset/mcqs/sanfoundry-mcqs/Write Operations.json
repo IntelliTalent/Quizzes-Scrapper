@@ -1,0 +1,101 @@
+[
+    {
+        "question": "___________ concern describes the guarantee that MongoDB provides when reporting on the success of a write operation.",
+        "options": [
+            "a) Write",
+            "b) Read",
+            "c) Update",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The strength of the write concerns determine the level of guarantee."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Read operations on sharded clusters are most efficient when directed to a specific shard",
+            "b) Sharded clusters allow you to partition a data set among a cluster of mongod instances in a way that is nearly transparent to the application",
+            "c) For a sharded cluster, applications issue operations to one of the mongos instances associated with the cluster",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Queries to sharded collections should include the collection\u2019s shard key."
+    },
+    {
+        "question": "When inserts, updates and deletes have a _________ write concern, write operations return quickly.",
+        "options": [
+            "a) strong",
+            "b) weak",
+            "c) average",
+            "d) very strong"
+        ],
+        "answer": "b",
+        "explanation": "With stronger write concerns, clients wait after sending a write operation for MongoDB to confirm the write operations."
+    },
+    {
+        "question": "The mongo shell and the MongoDB drivers use __________ as the default write concern.",
+        "options": [
+            "a) Nacknowledged",
+            "b) Acknowledgement",
+            "c) Acknowledged",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "MongoDB allows clients to read documents inserted or modified before it commits these modifications to disk, regardless of write concern level or journaling configuration."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) When a query does not include a shard key, the mongos can use cluster metadata from the config database to route the queries to shards",
+            "b) On larger clusters, scatter gather queries are unfeasible for routine operations",
+            "c) Replica sets use read preferences to determine where and how to route read operations to members of the replica set",
+            "d) None of the mwntioned"
+        ],
+        "answer": "a",
+        "explanation": "If a query does not include the shard key, the mongos must direct the query to all shards in the cluster."
+    },
+    {
+        "question": "_____________ is used to control mongod commits in the journal.",
+        "options": [
+            "a) commitIntervMs",
+            "b) commitInterval",
+            "c) commitIntervalMs",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "For replica sets, write operations are durable only after a write replicates and commits to the journal on a majority of the voting members of the set."
+    },
+    {
+        "question": "MongoDB does not ___________ modifications made before the wtimeout interval expired.",
+        "options": [
+            "a) commit",
+            "b) rollback",
+            "c) save",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The driver\u2019s ability to detect network errors depends on the system\u2019s networking configuration."
+    },
+    {
+        "question": "With an __________ write concern, MongoDB does not acknowledge the receipt of write operations.",
+        "options": [
+            "a) Nacknowledged",
+            "b) Acknowledgement",
+            "c) Acknowledged",
+            "d) Unacknowledged"
+        ],
+        "answer": "d",
+        "explanation": "Unacknowledged is similar to errors ignored."
+    },
+    {
+        "question": "With a receipt acknowledged write concern, the _________confirms that it received the write operation and applied the change to the in-memory view of data.",
+        "options": [
+            "a) mongod",
+            "b) mongos",
+            "c) mongo",
+            "d) mongoc"
+        ],
+        "answer": "a",
+        "explanation": "Acknowledged write concern allows clients to catch network, duplicate key, and other errors."
+    }
+]

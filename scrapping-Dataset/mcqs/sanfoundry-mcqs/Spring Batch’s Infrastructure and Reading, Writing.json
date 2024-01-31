@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Spring Batch provides a lot of flexibility and guarantees to your application, but it cannot work in a vacuum. To do its work:-",
+        "options": [
+            "a) Job",
+            "b) JobRepo",
+            "c) JobRepository",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To do its work, the JobRepository requires a database. Additionally, there are several collaborators required for Spring Batch to do its work. This configuration is mostly boilerplate."
+    },
+    {
+        "question": "There\u2019s only one really useful implementation of the JobRepository interface, which stores information about the state of the batch processes in a database.",
+        "options": [
+            "a) SimpleJobRepository",
+            "b) SimpleJob",
+            "c) SimpleRepo",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Creation is done through a JobRepositoryFactoryBean. Another standard factory, MapJobRepositoryFactoryBean is useful mainly for testing because its state is not durable \u2013 it\u2019s an in-memory implementation. Both factories create an instance of SimpleJobRepository."
+    },
+    {
+        "question": "To load the contents of a properties file (batch.properties) whose values you use to configure the data source.",
+        "options": [
+            "a) PropertyPlaceholder",
+            "b) PropertyPlaceholderConfigurer",
+            "c) Property",
+            "d) PropertyConfigurer"
+        ],
+        "answer": "b",
+        "explanation": "You need to place values for your particular database in this file. This example uses Spring\u2019s property schema (\u201cp\u201d) to abbreviate the tedious configuration."
+    },
+    {
+        "question": "MapJobRegistry instance. This is critical\u2014it is the central store for information regarding a given Job.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It controls the \u201cbig picture\u201d about all Jobs in the system. Everything else works with this instance."
+    },
+    {
+        "question": "SimpleJobLauncher, whose sole purpose is to give you a mechanism to launch batch jobs, where a \u201cjob\u201d in this case is our batch solution.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The jobLauncher is used to specify the name of the batch solution to run as well as any parameters required."
+    },
+    {
+        "question": "However, it\u2019s important to wear another hat, that of a DBA, when writing applications.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A common solution is to create a denormalized table whose contents can be coerced into valid data once inside the database, perhaps by a trigger on inserts."
+    },
+    {
+        "question": "Indeed, a step could be considered the smallest unit of work for a job. Input (what\u2019s read) is passed to the Step and potentially processed; then output (what\u2019s written) is created from the step.",
+        "options": [
+            "a) Steplet",
+            "b) Tasklet",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "This processing is spelled out using a Tasklet. You can provide your own Tasklet implementation or simply use some of the preconfigured configurations for different processing scenarios."
+    },
+    {
+        "question": "Attribute to configure how many items will be processed before the transaction is committed all the input is sent to the writer.",
+        "options": [
+            "a) interval",
+            "b) commit",
+            "c) commit-interval",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If there is a transaction manager in play, the transaction is also committed."
+    },
+    {
+        "question": "Class which delegates the task of delimiting fields and records within a file to a LineMapper",
+        "options": [
+            "a) org.springframework.batch.item.file.FlatFileItemReader",
+            "b) org.springframework.batch.item.file.FlatFile",
+            "c) org.springframework.batch.item.file.FlatFileItem",
+            "d) org.springframework.batch.item.file.FileItemReader"
+        ],
+        "answer": "a",
+        "explanation": "The FlatFileItemReader also declares a fieldSetMapper attribute that requires an implementation of FieldSetMapper."
+    },
+    {
+        "question": "The names and values for the named parameters are being created by the bean configured for the itemSqlParameterSourceProvider property, an instance of the interface",
+        "options": [
+            "a) BeanPropertyItemSqlParameterSourceProvider",
+            "b) BeanPropertyItemSqlParameterSource",
+            "c) BeanPropertyItemSqlParameter",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "BeanPropertyItemSqlParameterSourceProvider, whose sole job it is to take JavaBean properties and make them available as named parameters corresponding to the property name on the JavaBean."
+    },
+    {
+        "question": "There\u2019s support for writing JMS:-",
+        "options": [
+            "a) JmsItemWriter",
+            "b) JpaItemWriter",
+            "c) JdbcBatchItemWriter",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There\u2019s support for writing JMS (JmsItemWriter"
+    },
+    {
+        "question": "The processor attribute on the chunk element expects a reference to a bean of the interface:-",
+        "options": [
+            "a) org.springframework.batch.item.Item",
+            "b) org.springframework.batch.item",
+            "c) org.springframework.batch.item.ItemProcessor",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The processor attribute on the chunk element expects a reference to a bean of the interface org.springframework.batch.item.ItemProcessor"
+    },
+    {
+        "question": "Spring Batch provides a convenience class, CompositeItemProcessor",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In this way, you can write many, singly focused ItemProcessor"
+    },
+    {
+        "question": "If the preceding job was run on a batch with a 100 rows, each item was read and passed through the processor, and it found 10 items invalid (it returned null 10 times), the value for the filter_count column would be:-",
+        "options": [
+            "a) 100",
+            "b) 1",
+            "c) 10",
+            "d) 1000"
+        ],
+        "answer": "c",
+        "explanation": "You could see that a 100 items were read from the read_count. The write_count column would reflect that 10 items didn\u2019t make it and would show 90."
+    }
+]

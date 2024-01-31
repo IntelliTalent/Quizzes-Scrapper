@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Which of the following is an utility of state elimination phenomenon?",
+        "options": [
+            "a) DFA to NFA",
+            "b) NFA to DFA",
+            "c) DFA to Regular Expression",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "We use this algorithm to simplify a finite automaton to regular expression or vice versa. We eliminate states while converting given finite automata to its corresponding regular expression."
+    },
+    {
+        "question": "If we have more than one accepting states or an accepting state with an outdegree, which of the following actions will be taken?",
+        "options": [
+            "a) addition of new state",
+            "b) removal of a state",
+            "c) make the newly added state as final",
+            "d) more than one option is correct"
+        ],
+        "answer": "d",
+        "explanation": "If there is more than one accepting state or if the single accepting state as an out degree, add a new accepting state, make all other states non accepting, and hold an e-transitions from each former accepting state to the new accepting state."
+    },
+    {
+        "question": "Which of the following is not a step in elimination of states procedure?",
+        "options": [
+            "a) Unifying all the final states into one using e-transitions",
+            "b) Unify single transitions to multi transitions that contains union of input",
+            "c) Remove states until there is only starting and accepting states",
+            "d) Get the resulting regular expression by direct calculation"
+        ],
+        "answer": "b",
+        "explanation": "While eliminating the states, we unify multiple transitions to one transition that contains union of input and not the vice versa."
+    },
+    {
+        "question": "Can the given state diagram be reduced?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "The state q2 can be eliminated with ease and the reduced state diagram can be represented as:"
+    },
+    {
+        "question": "Which of the following methods is suitable for conversion of DFA to RE?",
+        "options": [
+            "a) Brzozowski method",
+            "b) Arden\u2019s method",
+            "c) Walter\u2019s method",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Brzozowski method takes a unique approach to generating regular expressions. We create a system of regular expressions with one regular expression unknown for each state in M, and then we solve the system for R\u03bb where R\u03bb is the regular expression associated with starting state q\u03bb."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "This method has the advantage over the transitive closure technique as it can easily be visualized."
+    },
+    {
+        "question": "The behaviour of NFA can be simulated using DFA.",
+        "options": [
+            "a) always",
+            "b) never",
+            "c) sometimes",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "For every NFA, there exists an equivalent DFA and vice versa."
+    },
+    {
+        "question": "It is suitable to use ____________ method/methods to convert a DFA to regular expression.",
+        "options": [
+            "a) Transitive Closure properties",
+            "b) Brzozowski method",
+            "c) State elimination method",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "For converting RE to DFA , first we convert RE to NFA (Thompson Construction), and then NFA is converted into DFA(Subset Construction)."
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "For every state which is eliminated, a new regular expression is produced. The newly generated regular expression act as an input for a state which is next to removed state."
+    },
+    {
+        "question": "Is it possible to obtain more than one regular expression from a given DFA using the state elimination method?",
+        "options": [
+            "a) Yes",
+            "b) No"
+        ],
+        "answer": "a",
+        "explanation": "Using different sequence of removal of state, we can have different possible solution of regular expressions. For n-state deterministic finite automata excluding starting and final states, n! Removal sequences are there. It is very tough to try all the possible removal sequences for smaller expressions."
+    }
+]

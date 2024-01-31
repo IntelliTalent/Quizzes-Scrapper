@@ -1,0 +1,103 @@
+[
+    {
+        "question": "The system variable in MySQL server that enables to configure the SQL mode is __________",
+        "options": [
+            "a) sql_config",
+            "b) sql_mode",
+            "c) sql_server",
+            "d) sql_enable"
+        ],
+        "answer": "b",
+        "explanation": "The system variable \u2018sql_mode\u2019 is used by the MySQL server to configure the SQL mode. It has an impact on various aspects of the SQL statement executions. The other variables do not exist in the server."
+    },
+    {
+        "question": "Any client in the client/server architecture of MySQL can change how the server behaves in relation to itself without impact on other clients.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The MySQL server system variable \u2018sql_mode\u2019 can be set up globally. In this way, individual clients would have the ability to change their connection to the server. This variable can affect several aspects of statement executions."
+    },
+    {
+        "question": "How do the STRICT_ALL_TABLES and STRICT_TRANS_TABLES mode values deal with bad data?",
+        "options": [
+            "a) reject them",
+            "b) accept them",
+            "c) change them to the closest legal value and accept",
+            "d) change them to the closest legal value and reject"
+        ],
+        "answer": "a",
+        "explanation": "\u2018STRICT_ALL_TABLES\u2019 and \u2018STRICT_TRANS_TABLES\u2019 are the MySQL server mode values that deal with bad data in a \u2018strict\u2019 manner. They do not make any change to the data. It is simply rejected."
+    },
+    {
+        "question": "Which mode tells the server to recognize double quote as an identifier quoting character?",
+        "options": [
+            "a) ANSI_DQ",
+            "b) ANSI_QUOTES",
+            "c) ANSI_RECG_QUOTES",
+            "d) ANSI_RECG_DQUOTES"
+        ],
+        "answer": "b",
+        "explanation": "\u2018ANSI_QUOTES\u2019 is the MySQL server mode value stored in the system variable which directs the MySQL server to treat the double quote character as a quoting character for identifiers. The others are not valid mode values."
+    },
+    {
+        "question": "Which mode tells the server to recognize || as the string concatenation operator?",
+        "options": [
+            "a) PIPES_AS_CONCAT",
+            "b) ORS_AS_CONCAT",
+            "c) DOUBLE_PIPE_AS_CONCAT",
+            "d) LOGIC_OR_AS_CONCAT"
+        ],
+        "answer": "a",
+        "explanation": "\u2018PIPES_AS_CONCAT\u2019, one of the many MySQL server mode values stored in the system variable would direct the server to treat the pipe characters as the standard SQL string concatenation operator rather than the logical or. The rest mode values are invalid."
+    },
+    {
+        "question": "Which of these modes is a composite server mode?",
+        "options": [
+            "a) COMPOSITE",
+            "b) COMPOSITE_MODE",
+            "c) COMPOSITE_SERVER",
+            "d) ANSI"
+        ],
+        "answer": "d",
+        "explanation": "The \u2018ANSI\u2019 mode value is a composite mode. It turns on several other mode values like ANSI_QUOTES, PIPES_AS_CONCAT. This makes the server behave much like standard SQL than the default mode."
+    },
+    {
+        "question": "MySQL server mode values are case sensitive.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The MySQL server mode values stored in the system variable are not case sensitive. So it does not make a difference if you accidentally store the mode values in lowercase or uppercase."
+    },
+    {
+        "question": "Which of the following commands sets the SQL mode as TRADITIONAL?",
+        "options": [
+            "a) \u2013sqlmode=\u2019TRADITIONAL\u2019",
+            "b) \u2013sql_mode=\u2019TRADITIONAL\u2019",
+            "c) \u2013sql-mode=\u2019TRADITIONAL\u2019",
+            "d) \u2013sql.mode=\u2019TRADITIONAL\u2019"
+        ],
+        "answer": "c",
+        "explanation": "When the server starts, the command \u2013sql-mode=\u2019TRADITIONAL\u2019 can be used to set the SQL mode as \u2018TRADITIONAL\u2019. This can be stored in an option file or can be directly executed on the command line."
+    },
+    {
+        "question": "Which statement can be used to specify the sql_mode system variable at runtime?",
+        "options": [
+            "a) SPECIFY",
+            "b) SET",
+            "c) ASSIGN",
+            "d) CHANGE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018SET\u2019 statement can change the SQL mode at runtime. For example, the statement SET sql_mode = \u2018ANSI_QUOTES\u2019 can be used by a client in its own session specific SQL mode."
+    },
+    {
+        "question": "When no modes are enabled, what does this SQL statement return?",
+        "options": [],
+        "answer": "a",
+        "explanation": "When it is needed to determine the current value of the session SQL mode, the above statement is executed. The returned value consists of a comma-separated list of the modes that are enabled."
+    }
+]

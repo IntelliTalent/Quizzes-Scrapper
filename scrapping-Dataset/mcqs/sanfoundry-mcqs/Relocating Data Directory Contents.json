@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Symlink is an applicable relocation method for ______________",
+        "options": [
+            "a) entire data directory",
+            "b) individual database tables",
+            "c) server PID file",
+            "d) log files"
+        ],
+        "answer": "b",
+        "explanation": "Symlink is an applicable relocation method for the individual database tables. However, the startup option is better suited relocation method for server PID file and the log files."
+    },
+    {
+        "question": "For which of these is the startup option best suited?",
+        "options": [
+            "a) entire data directory",
+            "b) individual database tables",
+            "c) server PID file",
+            "d) individual database directories"
+        ],
+        "answer": "c",
+        "explanation": "The startup option is better suited relocation method for server PID file and the log files, while symlink is an applicable relocation method for the individual database tables."
+    },
+    {
+        "question": "Before relocation of database, the server should be stopped if running.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The server always looks for the database directories in the data directory. The only way to relocate a database is by the symlink method. The server should be stopped if running."
+    },
+    {
+        "question": "When relocating an individual table, the table to be relocated should be ______________",
+        "options": [
+            "a) MyISAM",
+            "b) InnoDB",
+            "c) TRANSACTION",
+            "d) ENGINE"
+        ],
+        "answer": "a",
+        "explanation": "The relocation of an individual table is supported only under certain limited circumstances. When relocating an individual table, the table to be relocated should be a MyISAM table."
+    },
+    {
+        "question": "What is the special database that always exists after setting up MySQL on a computer?",
+        "options": [
+            "a) sampdb",
+            "b) mysql",
+            "c) information_schema",
+            "d) readme_db"
+        ],
+        "answer": "c",
+        "explanation": "After installation of MySQL, \u2018information_schema\u2019 is the special database that always exists. \u2018mysql\u2019 can be seen depending on access rights. It holds the grant tables. \u2018sampdb\u2019 and \u2018readme_db\u2019 do not exist by default."
+    },
+    {
+        "question": "What is InnoDB in the following MySQL code?",
+        "options": [],
+        "answer": "d",
+        "explanation": "\u2018InnoDB\u2019 is the name of the \u2018storage engine\u2019 for the above table. The \u2018ENGINE\u2019 clause is used to specify the name of the storage engine that MySQL should use to handle the table being created. MySQL has several storage engines with its own properties."
+    },
+    {
+        "question": "What is the table name in the following SQL code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The \u2018INSERT INTO\u2019 clause here inserts a row in the table named \u2018student\u2019. The table has three fields. The first field or attribute value in the row/tuple is \u2018Kyle\u2019. The second attribute value is \u2018M\u2019 and the last attribute is set to NULL."
+    },
+    {
+        "question": "In which file are the statements entered in \u2018mysql\u2019 saved?",
+        "options": [
+            "a) .mysql_queries",
+            "b) .queries",
+            "c) .mysql_history",
+            "d) .history"
+        ],
+        "answer": "c",
+        "explanation": "Statements entered in \u2018mysql\u2019 are stored in the file named \u2018.mysql_history\u2019. This file is located in the home directory itself. The SQL statements can be directly pasted into this file."
+    },
+    {
+        "question": "Mysql cannot be used to execute script files.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Mysql is capable of reading input from a file in batch mode. This is also known as the non-interactive mode. A lot of typing and time can be saved when commands are stored in a file and executed from a file."
+    },
+    {
+        "question": "Which command is used to make a script file \u2018run_me.sh\u2019 executable?",
+        "options": [
+            "a) chmod +e run_me.sh",
+            "b) chmod +a run_me.sh",
+            "c) chmod +y run_me.sh",
+            "d) chmod +x run_me.sh"
+        ],
+        "answer": "d",
+        "explanation": "The command name \u2018chmod\u2019 stands for \u2018change mode\u2019. It is used to define the way a file can be accessed. To make the script file \u2018run_me.sh\u2019 executable, the chmod command is used."
+    }
+]

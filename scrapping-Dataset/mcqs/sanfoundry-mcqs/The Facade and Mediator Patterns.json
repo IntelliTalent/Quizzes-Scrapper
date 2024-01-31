@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is true for facade pattern?",
+        "options": [
+            "a) The Fa\u00e7ade pattern is a broker pattern that eases interaction between a client and a sub-system of suppliers",
+            "b) Sub-systems may contain many classes with complex interfaces and relationships, but often clients only need basic services that can be supplied through a simple interface",
+            "c) The broker class, called a fa\u00e7ade, provides basic, simplified services to clients by taking upon itself the job of dealing with a complex sub-system",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned is true for facade pattern."
+    },
+    {
+        "question": "Which of the following belongs to iterator pattern?",
+        "options": [
+            "a) They delegate activities to other portions of the sub-system to which they provide an interface",
+            "b) The details of such delegations depend on the sub-system in question",
+            "c) The behavior follows the general outline of a broker pattern interaction",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the statements belongs to facade pattern."
+    },
+    {
+        "question": "Which of the following i correct?",
+        "options": [
+            "a) The Mediator pattern provides a means of increasing coupling",
+            "b) In the Mediator pattern, interacts with one another, collaborating objects and with a special mediator class",
+            "c) The objects are coupled only to the mediator, which contains all the code for coordinating the collaboration",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Rest other are false-The Mediator pattern provides a means of reducing coupling, In the Mediator pattern, classes interacts only with a special mediator class."
+    },
+    {
+        "question": "Which of the pattern all the classes coupling is reduced?",
+        "options": [
+            "a) Iterator",
+            "b) Facade",
+            "c) Mediator",
+            "d) Proxy"
+        ],
+        "answer": "c",
+        "explanation": "Coupling is reduced as interaction is only to special mediator class."
+    },
+    {
+        "question": "Which of the following is for Facade Pattern?",
+        "options": [
+            "a) Interaction is begun by one of the collaborators or a client object outside the collaboration",
+            "b) The object directs the collaboration, with all communication going between it and the colleagues in the interaction",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are for mediator pattern."
+    },
+    {
+        "question": "Which of the following is a type of broker pattern?",
+        "options": [
+            "a) Mediator",
+            "b) Facade",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are types of broker pattern."
+    },
+    {
+        "question": "Which of the following does not follow the sequence of the mediator pattern?",
+        "options": [
+            "a) As in any broker pattern, the Mediator receives a request for service at last",
+            "b) It then controls an interaction with the collaborating colleagues to supply the service",
+            "c) If one collaborator needs help from another, it notifies the Mediator object, which obtains the needed service from another collaborator",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "As in any broker pattern, the Mediator receives a request for service at first."
+    },
+    {
+        "question": "The Mediator pattern has which of the following advantages?",
+        "options": [
+            "a) It decouples collaborators, making them more changeable and reusable",
+            "b) It centralizes control of an interaction in the mediator class, making it easier to change, thus increasing modifiability",
+            "c) It simplifies the collaborators, making them easier to understand, and hence to change",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned are advantages for mediator pattern."
+    },
+    {
+        "question": "Which are the drawback for mediator pattern?",
+        "options": [
+            "a) It may also increase collaborator cohesion",
+            "b) Forcing collaborator interaction through the mediator may compromise performance",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Increase in collaborator cohesion is advantage."
+    },
+    {
+        "question": "Which of the following is consequence of mediator class?",
+        "options": [
+            "a) They makes a sub-system easier for clients to use",
+            "b) Lowers the coupling between the client and the sub-system",
+            "c) Increase re-usability by adapting a sub-system\u2019s interface to client needs",
+            "d) It encapsulates an interaction, making the interaction easier to change"
+        ],
+        "answer": "d",
+        "explanation": "Rest others are consequence of facade class."
+    }
+]

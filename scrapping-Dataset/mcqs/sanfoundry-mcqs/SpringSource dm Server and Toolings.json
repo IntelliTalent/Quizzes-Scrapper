@@ -1,0 +1,126 @@
+[
+    {
+        "question": "Support for deployment of traditional .war artifacts, enable use of some of the standard Java EE libraries, provide useful defaults for many de facto standard libraries, and provide fully integrated support for Spring Dynamic Modules.",
+        "options": [
+            "a) Spring Dynamic Modules",
+            "b) Spring dm Server",
+            "c) Spring Tooling",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Use Spring dm Server, SpringSource\u2019s tried and true OSGi\u2013oriented server built on many technologies including Equinox and the Spring framework itself."
+    },
+    {
+        "question": "OSGi doesn\u2019t solve framework concerns, instead focusing on infrastructure requirements for Java applications.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Spring Dynamic Modules provides functionality that sits on top of those implementations, providing very powerful runtime sophistication for developers looking to produce and consume OSGi services in a Spring-friendly fashion."
+    },
+    {
+        "question": "Spring Dynamic Modules was, while powerful for those already invested in an OSGi platform, not the most natural accommodations for those trying to migrate large code into the OSGi environment, SpringSource created.",
+        "options": [
+            "a) Spring Dynamic Modules",
+            "b) Spring dm Server",
+            "c) Spring Tooling",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SpringSource dm Server is a robust solution. There are several editions available."
+    },
+    {
+        "question": "SpringSource dm Server many advances focus on delivering a solution, and not just a framework, for delivering:-",
+        "options": [
+            "a) Spring Tooling",
+            "b) Spring dm",
+            "c) OSGi",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "SpringSource dm Server many advances focus on delivering a solution, and not just a framework, for delivering OSGi\u2013based enterprise applications."
+    },
+    {
+        "question": "SpringSource dm Server provides value above and beyond a regular OSGi solution.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It\u2019s already well integrated."
+    },
+    {
+        "question": "SpringSource dm Server also allows you to bend the rules where necessary.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For example, consider the application of an aspect using Spring\u2019s AOP. This might require weaving of classes, which in the case of a pointcut that matches classes deployed across multiple bundles, would prove cumbersome. SpringSource dm Server can intervene on Spring\u2019s behalf, propagating such changes across multiple bundles where necessary."
+    },
+    {
+        "question": "SpringSource dm Server works with several types of deployment formats:-",
+        "options": [
+            "a) bundle",
+            "b) Java EE .war",
+            "c) platform archive",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "SpringSource dm Server works with four types of deployment formats."
+    },
+    {
+        "question": "Application isolation is critical because it allows you to solve the issue of reconciliation of two services whose interfaces collide. You can use:-",
+        "options": [
+            "a) .WAR",
+            "b) .XML",
+            "c) .PAR",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can use a .PAR to isolate services within the deployment unit."
+    },
+    {
+        "question": "SpringSource dm Server provides the robustness needed to commoditize enterprise application development in an OSGi environment.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "For a really good reference, specifically on SpringSource dm Server, I (Josh Long) would humbly recommend you investigate my co-author in-depth treatment of the subject, Pro SpringSource dm Server, by Gary Mak and Daniel Rubio (Apress, 2009)."
+    },
+    {
+        "question": "To begin with SpringSource dm Server but need a way to rapidly turnaround development.",
+        "options": [
+            "a) Spring Dynamic Module",
+            "b) Spring Dynamic Server",
+            "c) SpringSource dm Server",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Use the SpringSource dm Server tooling available as part of SpringSource Tool Suite (STS)."
+    },
+    {
+        "question": "SpringSource has provided solid tooling for Eclipse, called :-",
+        "options": [
+            "a) Spring Dynamic Module",
+            "b) dm Server Tools",
+            "c) SpringSource dm Server",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "SpringSource has provided solid tooling for Eclipse, called dm Server Tools, which facilitate executing applications directly in a development environment."
+    },
+    {
+        "question": "These tools\u2014part of the broader SpringSource Tool Suite\u2014are available as :-",
+        "options": [
+            "a) plug-in",
+            "b) stand-alone environment",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "These tools\u2014part of the broader SpringSource Tool Suite\u2014are available as either a plug-in or as a stand-alone environment."
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Which level plotting commands generate figures?",
+        "options": [
+            "a) Low",
+            "b) High",
+            "c) Both high and low",
+            "d) No levels"
+        ],
+        "answer": "b",
+        "explanation": "High level plotting commands generate figures. A figure consists of a plot region surrounded by margins."
+    },
+    {
+        "question": "The size of the margins is controlled by the argument _____",
+        "options": [
+            "a) Mai",
+            "b) Sai",
+            "c) Lai",
+            "d) Jai"
+        ],
+        "answer": "a",
+        "explanation": "The size of the margins is controlled by the argument mai. The value of mai is a vector c(bottom, left, top, right) of length 4 whose values are the widths."
+    },
+    {
+        "question": "______ will be called inside par() to set margins.",
+        "options": [
+            "a) Mai",
+            "b) Smai",
+            "c) May",
+            "d) Jay"
+        ],
+        "answer": "a",
+        "explanation": "The value of mai is vector c(bottom, left, top, right) of length 4 whose values are the widths.  Mai will be called inside par() to set margins."
+    },
+    {
+        "question": "Axes, axis labels and titles all appear in the ________ of the figure.",
+        "options": [
+            "a) Directions",
+            "b) Margin labels",
+            "c) Margins",
+            "d) Widths"
+        ],
+        "answer": "c",
+        "explanation": "Axes, axis labels and titles all appear in the margins of the figure. Mai will be called inside par() to set margins."
+    },
+    {
+        "question": "Each margin is considered to have a number of ___________",
+        "options": [
+            "a) Test",
+            "b) Text lines",
+            "c) Line segment",
+            "d) Margins"
+        ],
+        "answer": "c",
+        "explanation": "Axes, axis labels and titles all appear in the margins of the figure. Each margin is considered to have a number of text lines (not necessarily a whole number)."
+    },
+    {
+        "question": "The graphical parameter __________ defines how many lines appear in each of the four margins.",
+        "options": [
+            "a) Par",
+            "b) Mar",
+            "c) Char",
+            "d) Ian"
+        ],
+        "answer": "b",
+        "explanation": "The graphical parameter mar defines how many lines appear in each of the four margins. So mar is an alternative way of defining margins."
+    },
+    {
+        "question": "Which is the alternative way of defining margins?",
+        "options": [
+            "a) Mar",
+            "b) Par",
+            "c) Char",
+            "d) Nar"
+        ],
+        "answer": "a",
+        "explanation": "The graphical parameter mar defines how many lines appear in each of the four margins. So mar is an alternative way of defining margins."
+    },
+    {
+        "question": "The standard font determines the width of the text lines in the __________",
+        "options": [
+            "a) Function",
+            "b) Package",
+            "c) Library",
+            "d) Margin"
+        ],
+        "answer": "d",
+        "explanation": "For any open graphics device there is a standard font which will be used for any characters if no other font is specified (font). The standard font determines the width of the text lines in the margins."
+    },
+    {
+        "question": "Which function draws an axis on the current plot?",
+        "options": [
+            "a) axis()",
+            "b) par()",
+            "c) mar()",
+            "d) jar()"
+        ],
+        "answer": "a",
+        "explanation": "The axis() function draws an axis on the current plot. The side argument determines on which side it is to appear."
+    }
+]

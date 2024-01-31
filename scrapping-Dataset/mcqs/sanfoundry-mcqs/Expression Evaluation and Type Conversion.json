@@ -1,0 +1,92 @@
+[
+    {
+        "question": "The expression 12 DIV 5 evaluates to ____________",
+        "options": [
+            "a) 2.4",
+            "b) 2",
+            "c) error",
+            "d) 0"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018DIV\u2019 operator in MySQL is used to perform the integer divisions. The operator \u2018/\u2019 performs the quotient of the operands. If result exceeds the 64-bit range, unpredicted results are shown."
+    },
+    {
+        "question": "If the PIPES_AS_CONCAT is disabled, \u2018abc\u2019 || \u2018xyz\u2019 results in ____________",
+        "options": [
+            "a) 1",
+            "b) 0",
+            "c) error",
+            "d) -1"
+        ],
+        "answer": "b",
+        "explanation": "When the SQL mode PIPES_AS_CONCAT is disabled, the SQL standard \u2018||\u2019 operation for string concatenation is not valid in MySQL. Both operands are converted to zero. So the result is zero."
+    },
+    {
+        "question": "\u2018abc\u2019 || \u2018xyz\u2019, when PIPES_AS_CONCAT is enabled, results in ____________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) abcxyz",
+            "d) xyzabc"
+        ],
+        "answer": "c",
+        "explanation": "If the SQL mode PIPES_AS_CONCAT has been enabled, the SQL standard \u2018||\u2019 operation for string concatenation becomes valid in MySQL. Both operands are concatenated to give \u2018abcxyz\u2019."
+    },
+    {
+        "question": "The expression \u20182 BETWEEN 2 AND 5\u2019 results in ____________",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) -1",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018BETWEEN \u2026\u2026. AND\u2019 clause is used to return a boolean value, if the given operand value lies between the values specified by the \u2018AND\u2019 clause. The range endpoints are inclusive."
+    },
+    {
+        "question": "REGEXP takes collation into account.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "MySQL provides pattern matching based on the \u2018REGEXP\u2019 operator and regular expressions that are similar to those used in Unix programs, namely, grep, sed and vi. REGEXP does not take collation into account."
+    },
+    {
+        "question": "If the operands are non binary strings, LIKE compares them according to their collation.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, the LIKE operator compares its operands as binary strings if either operand is a binary string. If the operands are non binary strings, the LIKE operator compares them according to their collation."
+    },
+    {
+        "question": "The number of strings among the following matched with \u2018%all%\u2019 is _____________",
+        "options": [],
+        "answer": "d",
+        "explanation": "In MySQL, the wildcard characters may be specified anywhere in a pattern. The \u2018%\u2019 wildcard is used to match variable number of characters. Here, the wildcard matches all the four words."
+    },
+    {
+        "question": "Which of the following is the correct order of precedence (high to low)?",
+        "options": [
+            "a) !, ^, <<, XOR",
+            "b) ^, !,  <<, XOR",
+            "c) !,  <<, XOR, ^",
+            "d) !, ^, XOR,  <<"
+        ],
+        "answer": "a",
+        "explanation": "When MySQL evaluates an expression, it looks at the operators to determine the order in which it should group the terms of the expression. Some operators have higher precedence, and evaluated earlier than others."
+    },
+    {
+        "question": "0x61 + 0 results in _____________",
+        "options": [
+            "a) 0",
+            "b) \u2018a\u2019",
+            "c) 97",
+            "d) arbitrary"
+        ],
+        "answer": "c",
+        "explanation": "The hexadecimal constants are treated as binary strings unless the context indicates a number. In the string contexts, each pair of hexadecimal digits is converted to a character, then the result is used as a string."
+    }
+]

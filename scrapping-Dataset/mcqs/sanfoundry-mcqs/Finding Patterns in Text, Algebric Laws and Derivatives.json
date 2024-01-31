@@ -1,0 +1,99 @@
+[
+    {
+        "question": "The minimum length of a string {0,1}* not in the language corresponding to the given regular expression:",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 5",
+            "d) 6"
+        ],
+        "answer": "b",
+        "explanation": "0101 or 1010 the strings with minimum length on {0,1}* which does not belong to the language of the given regular expression.Other strings like 111, 000, 1101, etc are accepted by the language ."
+    },
+    {
+        "question": "Which of the following regular expression is equivalent to R(1,0)?",
+        "options": [
+            "a) (11+111)*",
+            "b) (111+1111)*",
+            "c) (111+11*)*",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "What we observe from the question is that, it includes e and 11 and any number of 1\u2019s then. Therefore, its simplifies when we write the same reg. Expression as (11+111)*."
+    },
+    {
+        "question": "The minimum number of 1\u2019s to be used in a regular expression of the given language:",
+        "options": [
+            "a) 2",
+            "b) 3",
+            "c) 0",
+            "d) 1"
+        ],
+        "answer": "b",
+        "explanation": "It is not required to automate the question if asked theoretically.The number of zeroes fixed is 2. Therefore, we can represent the regular expression as 1*01*01*."
+    },
+    {
+        "question": "The given regular language corresponds to which of the given regular language",
+        "options": [
+            "a) The language of all strings that end with 11 or 00",
+            "b) The language of all strings that end with 0 or 1",
+            "c) The language of all strings which does not end with 01",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "According to the given regular expression, e is accepted by its language and it does not end with 00 or 11 or 0 or 1. Thus option a and b are eliminated. Further, the regular expression is valid for the third option."
+    },
+    {
+        "question": "Statement: If we take the union of two identical expression, we can replace them by one copy of the expression.",
+        "options": [
+            "a) Absorption Law",
+            "b) Idempotent Law",
+            "c) Closure Law",
+            "d) Commutative Law"
+        ],
+        "answer": "b",
+        "explanation": "Idempotent Law states that if we take the union of two like expression, we can use a copy of the expression instead i.e. L+L=L. The common arithmetic operators are not idempotent."
+    },
+    {
+        "question": "Statement: A digit, when used in the CFG notation, will always be used as a terminal.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Lowercase letters near the beginning of an alphabet, a, b and so on are terminal symbols. We shall also assume that digits and other characters such as + or parenthesis are terminals."
+    },
+    {
+        "question": "Choose the incorrect process to check whether the string belongs to the language of certain variable or not?",
+        "options": [
+            "a) recursive inference",
+            "b) derivations",
+            "c) head to body method",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are two approaches to infer that certain string are in the language of a certain variable. The most conventional way is to use the rules from body to head, recursive inference. The second approach is expanding the starting variable using one of its productions whose head is tart symbol and derive a string consisting entirely of terminals(head to body or derivations)."
+    },
+    {
+        "question": "Statement: Left most derivations are lengthy as compared to Right most derivations.",
+        "options": [
+            "a) correct statement",
+            "b) incorrect statement",
+            "c) may or may not be correct",
+            "d) depends on the language of the grammar"
+        ],
+        "answer": "c",
+        "explanation": "It completely depends on the person who develops the grammar of any language, how to make use of the tools i.e. leftmost and rightmost derivations."
+    },
+    {
+        "question": "A->aAa|bAb|a|b|e",
+        "options": [
+            "a) Left most derivation",
+            "b) Right most derivation",
+            "c) Recursive Inference",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The given form represents leftmost derivations in which at each step we replace the leftmost variable by one of its production bodies."
+    }
+]

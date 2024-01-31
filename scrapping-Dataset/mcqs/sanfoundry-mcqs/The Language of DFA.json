@@ -1,0 +1,112 @@
+[
+    {
+        "question": "How many languages are over the alphabet R?",
+        "options": [
+            "a) countably infinite",
+            "b) countably finite",
+            "c) uncountable finite",
+            "d) uncountable infinite"
+        ],
+        "answer": "d",
+        "explanation": "A language over an alphabet R is a set of strings over A which is uncountable and infinite."
+    },
+    {
+        "question": "According to the 5-tuple representation i.e. FA= {Q, \u2211, \u03b4, q, F}",
+        "options": [
+            "a) Statement 1 is true, Statement 2 is false",
+            "b) Statement 1 is false, Statement 2 is true",
+            "c) Statement 1 is false, Statement 2 may be true",
+            "d) Statement 1 may be true, Statement 2 is false"
+        ],
+        "answer": "b",
+        "explanation": "Q is the Finite set of states, whose elements i.e. the states constitute the finite automata."
+    },
+    {
+        "question": "\u03b4\u02c6 tells us the best:",
+        "options": [
+            "a) how the DFA S behaves on a word u",
+            "b) the state is the dumping state",
+            "c) the final state has been reached",
+            "d) Kleene operation is performed on the set"
+        ],
+        "answer": "a",
+        "explanation": "\u03b4 or the Transition function describes the best, how a DFA behaves on a string where to transit next, which direction to take."
+    },
+    {
+        "question": "Which of the following option is correct?",
+        "options": [
+            "a) abcbb \u20b5 A",
+            "b) \u03b5\u20b5A",
+            "c) \u03b5 may not belong to A",
+            "d) abca \u20b5 A"
+        ],
+        "answer": "b",
+        "explanation": "As the question has dot operation, \u03b5 will not be a part of the concatenated set. Had it been a union operation, \u03b5 would be a part of the operated set."
+    },
+    {
+        "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 4, what are all the possible remainders?",
+        "options": [
+            "a) 0",
+            "b) 0,2",
+            "c) 0,2,4",
+            "d) 0,1,2,3"
+        ],
+        "answer": "d",
+        "explanation": "All the decimal numbers on division would lead to only 4 remainders i.e. 0,1,2,3 (Property of Decimal division)."
+    },
+    {
+        "question": "Which of the following x is accepted by the given DFA (x is a binary string \u2211= {0,1})?",
+        "options": [
+            "a) divisible by 3",
+            "b) divisible by 2",
+            "c) divisible by 2 and 3",
+            "d) divisible by 3 and 2"
+        ],
+        "answer": "d",
+        "explanation": "The given DFA accepts all the binary strings such that they are divisible by 3 and 2.Thus, it can be said that it also accepts all the strings which is divisible by 6."
+    },
+    {
+        "question": "Given:",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "The maximum number of transition which can be performed over a state in a DFA?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "The maximum number of transitions which a DFA allows for a language is the number of elements the transitions constitute."
+    },
+    {
+        "question": "The maximum sum of in degree and out degree over a state in a DFA can be determined as:",
+        "options": [
+            "a) 4+4",
+            "b) 4+16",
+            "c) 4+0",
+            "d) depends on the Language"
+        ],
+        "answer": "d",
+        "explanation": "The out degree for a DFA I fixed while the in degree depends on the number of states in the DFA and that cannot be determined without the dependence over the Language."
+    },
+    {
+        "question": "The sum of minimum and maximum number of final states for a DFA n states is equal to:",
+        "options": [
+            "a) n+1",
+            "b) n",
+            "c) n-1",
+            "d) n+2"
+        ],
+        "answer": "a",
+        "explanation": "The maximum number of final states for a DFA can be total number of states itself and minimum would always be 1, as no DFA exits without a final state. Therefore, the solution is n+1."
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "question": "You want to control how steps are executed, perhaps to eliminate a needless waste of time by:-",
+        "options": [
+            "a) concurrent steps",
+            "b) decisions",
+            "c) sequential steps",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are different ways to change the runtime profile of your jobs, mainly by exerting control over the way steps are executed: concurrent steps, decisions, and sequential steps."
+    },
+    {
+        "question": "Typical jobs of almost any complexity will have multiple steps, however.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "A step provides a boundary (transactional or not) to the beans and logic it encloses."
+    },
+    {
+        "question": "There\u2019s nothing to prevent you from having many steps within the flow elements.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Nor was there anything preventing you from having more steps after the split element. The split element, like the step elements, takes a next attribute as well."
+    },
+    {
+        "question": "Spring Batch provides a mechanism to offload processing to another process.",
+        "options": [
+            "a) chunking",
+            "b) remote chunking",
+            "c) remote",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring Batch provides a mechanism to offload processing to another process. This feature, called remote chunking, is new in Spring Batch 2.x."
+    },
+    {
+        "question": "Pattern which refers to the arrangement of multiple JMS clients all consuming the same queue messages.",
+        "options": [
+            "a) aggressive-consumer",
+            "b) aggressive",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "If one client consumes a message and is busy processing, other idle queues will get the message instead."
+    },
+    {
+        "question": "To determine the next step is the simplest example of a conditional flow.",
+        "options": [
+            "a) Exit",
+            "b) Status",
+            "c) ExitStatus",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring Batch facilitates this through the use of the stop, next, fail, and end elements."
+    },
+    {
+        "question": "If you want to vary the execution flow based on some logic more complex than a job\u2019s ExitStatuses:-",
+        "options": [
+            "a) ExitStatus",
+            "b) Exit",
+            "c) Decision",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If you want to vary the execution flow based on some logic more complex than a job\u2019s ExitStatuses, you may give Spring Batch a helping hand by using a decision element and providing it with an implementation of a JobExecutionDecider."
+    },
+    {
+        "question": "Spring Batch work with a system scheduler:-",
+        "options": [
+            "a) cron",
+            "b) autosys",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Spring Batch work with a system scheduler such as cron or autosys, or from a web application."
+    },
+    {
+        "question": "JobLauncher reference you configured previously is obtained and used to then launch an instance of a Job.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The result is a JobExecution. You can interrogate the JobExecution for information on the state of the Job, including its exit status and runtime status."
+    },
+    {
+        "question": "TaskExecutor that will spawn a thread of execution and manage that thread without blocking.",
+        "options": [
+            "a) Async",
+            "b) Sync",
+            "c) Simple",
+            "d) SimpleAsyncTaskExecutor"
+        ],
+        "answer": "d",
+        "explanation": "SimpleAsyncTaskExecutor will spawn a thread of execution and manage that thread without blocking."
+    },
+    {
+        "question": "The CommandLineJobRunner for success will return system error codes:-",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The CommandLineJobRunner will even return system error codes (0 for success, 1 for failure, and 2 for an issue with loading the batch job) so that a shell (such as used by most system schedulers) can react or do something about the failure."
+    },
+    {
+        "question": "More complicated return codes can be returned by creating and declaring a top-level bean that implements the interface:-",
+        "options": [
+            "a) ExitCode",
+            "b) ExitCodeMapper",
+            "c) ExitMapper",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "More complicated return codes can be returned by creating and declaring a top-level bean that implements the interface ExitCodeMapper, in which you can specify a more useful translation of exit status messages to integer-based error codes that the shell will see on process exit."
+    },
+    {
+        "question": "The bean is recognized and becomes part of the application context because of the:-",
+        "options": [
+            "a) @Component",
+            "b) @Attr",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The bean is recognized and becomes part of the application context because of the @Component annotation, which we enabled with the context:component-scan element in our reworked batch.xml (which we\u2019re calling scheduled_batch.xml)."
+    },
+    {
+        "question": "To parameterize a job, which is then available to your steps through Spring Batch expression language.",
+        "options": [
+            "a) Job",
+            "b) Steps",
+            "c) JobParameters",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A job is a prototype of a JobInstance. JobParameters are used to provide a way of identifying a unique run of a job (a JobInstance). These JobParameters allow you to give input to your batch process, just as you would with a method definition in Java."
+    }
+]

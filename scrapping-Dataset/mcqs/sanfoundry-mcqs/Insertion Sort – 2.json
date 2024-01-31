@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Which of the following is correct with regard to insertion sort?",
+        "options": [
+            "a) insertion sort is stable and it sorts In-place",
+            "b) insertion sort is unstable and it sorts In-place",
+            "c) insertion sort is stable and it does not sort In-place",
+            "d) insertion sort is unstable and it does not sort In-place"
+        ],
+        "answer": "a",
+        "explanation": "During insertion sort, the relative order of elements is not changed. Therefore, it is a stable sorting algorithm. And insertion sort requires only O(1) of additional memory space. Therefore, it sorts In-place."
+    },
+    {
+        "question": "Which of the following sorting algorithm is best suited if the elements are already sorted?",
+        "options": [
+            "a) Heap Sort",
+            "b) Quick Sort",
+            "c) Insertion Sort",
+            "d) Merge Sort"
+        ],
+        "answer": "c",
+        "explanation": "The best case running time of the insertion sort is O(n). The best case occurs when the input array is already sorted. As the elements are already sorted, only one comparison is made on each pass, so that the time required is O(n)."
+    },
+    {
+        "question": "The worst case time complexity of insertion sort is O(n",
+        "options": [
+            "a) O(nlogn)",
+            "b) O(n",
+            "c) O(n)",
+            "d) O(logn)"
+        ],
+        "answer": "b",
+        "explanation": "The use of binary search reduces the time of finding the correct position from O(n) to O(logn). But the worst case of insertion sort remains O(n"
+    },
+    {
+        "question": "Insertion sort is an example of an incremental algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "In the incremental algorithms, the complicated structure on n items is built by first building it on n \u2212 1 items. And then we make the necessary changes to fix things in adding the last item. Insertion sort builds the sorted sequence one element at a time. Therefore, it is an example of an incremental algorithm."
+    },
+    {
+        "question": "Consider the code given below, which runs insertion sort:",
+        "options": [],
+        "answer": "b",
+        "explanation": "In insertion sort, the element is A[j] is inserted into the correct position in the sorted sequence A[1\u2026 j \u2013 1]. So, condition given in (j > 0) && (arr[j \u2212 1] > value) will implement while loop correctly."
+    },
+    {
+        "question": "Which of the following is good for sorting arrays having less than 100 elements?",
+        "options": [
+            "a) Quick Sort",
+            "b) Selection Sort",
+            "c) Merge Sort",
+            "d) Insertion Sort"
+        ],
+        "answer": "d",
+        "explanation": "The insertion sort is good for sorting small arrays. It sorts smaller arrays faster than any other sorting algorithm."
+    },
+    {
+        "question": "Consider an array of length 5, arr[5] = {9,7,4,2,1}. What are the steps of insertions done while running insertion sort on the array?",
+        "options": [
+            "a) 7 9 4 2 1\u00a0\u00a0\u00a0\t4 7 9 2 1\u00a0\u00a0\u00a0\t2 4 7 9 1\u00a0\u00a0\u00a0\t1 2 4 7 9",
+            "b) 9 7 4 1 2\u00a0\u00a0\u00a0\t9 7 1 2 4\u00a0\u00a0\u00a0\t9 1 2 4 7\u00a0\u00a0\u00a0\t1 2 4 7 9",
+            "c) 7 4 2 1 9\u00a0\u00a0\u00a0\t4 2 1 9 7\u00a0\u00a0\u00a0 \t2 1 9 7 4\u00a0\u00a0\u00a0\t1 9 7 4 2",
+            "d) 7 9 4 2 1\u00a0\u00a0\u00a0 \t2 4 7 9 1\u00a0\u00a0\u00a0\t4 7 9 2 1\u00a0\u00a0\u00a0 \t1 2 4 7 9"
+        ],
+        "answer": "a",
+        "explanation": "The steps performed while running insertion sort on given array are:"
+    }
+]

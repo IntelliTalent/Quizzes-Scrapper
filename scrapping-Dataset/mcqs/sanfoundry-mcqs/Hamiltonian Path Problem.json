@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Which of the following algorithm can be used to solve the Hamiltonian path problem efficiently?",
+        "options": [
+            "a) branch and bound",
+            "b) iterative improvement",
+            "c) divide and conquer",
+            "d) greedy algorithm"
+        ],
+        "answer": "a",
+        "explanation": "The Hamiltonian path problem can be solved efficiently using branch and bound approach. It can also be solved using a backtracking approach."
+    },
+    {
+        "question": "The problem of finding a path in a graph that visits every vertex exactly once is called?",
+        "options": [
+            "a) Hamiltonian path problem",
+            "b) Hamiltonian cycle problem",
+            "c) Subset sum problem",
+            "d) Turnpike reconstruction problem"
+        ],
+        "answer": "a",
+        "explanation": "Hamiltonian path problem is a problem of finding a path in a graph that visits every node exactly once whereas Hamiltonian cycle problem is finding a cycle in a graph."
+    },
+    {
+        "question": "Hamiltonian path problem is _________",
+        "options": [
+            "a) NP problem",
+            "b) N class problem",
+            "c) P class problem",
+            "d) NP complete problem"
+        ],
+        "answer": "d",
+        "explanation": "Hamiltonian path problem is found to be NP complete. Hamiltonian cycle problem is also an NP- complete problem."
+    },
+    {
+        "question": "There is no existing relationship between a Hamiltonian path problem and Hamiltonian circuit problem.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "There is a relationship between Hamiltonian path problem and Hamiltonian circuit problem. The Hamiltonian path in graph G is equal to Hamiltonian cycle in graph H under certain conditions."
+    },
+    {
+        "question": "Which of the following problems is similar to that of a Hamiltonian path problem?",
+        "options": [
+            "a) knapsack problem",
+            "b) closest pair problem",
+            "c) travelling salesman problem",
+            "d) assignment problem"
+        ],
+        "answer": "c",
+        "explanation": "Hamiltonian path problem is similar to that of a travelling salesman problem since both the problem traverses all the nodes in a graph exactly once."
+    },
+    {
+        "question": "In what time can the Hamiltonian path problem can be solved using dynamic programming?",
+        "options": [
+            "a) O(N)",
+            "b) O(N log N)",
+            "c) O(N",
+            "d) O(N"
+        ],
+        "answer": "d",
+        "explanation": "Using dynamic programming, the time taken to solve the Hamiltonian path problem is mathematically found to be O(N"
+    },
+    {
+        "question": "In graphs, in which all vertices have an odd degree, the number of Hamiltonian cycles through any fixed edge is always even.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "According to a handshaking lemma, in graphs, in which all vertices have an odd degree, the number of Hamiltonian cycles through any fixed edge is always even."
+    },
+    {
+        "question": "Who invented the inclusion-exclusion principle to solve the Hamiltonian path problem?",
+        "options": [
+            "a) Karp",
+            "b) Leonard Adleman",
+            "c) Andreas Bjorklund",
+            "d) Martello"
+        ],
+        "answer": "c",
+        "explanation": "Andreas Bjorklund came up with the inclusion-exclusion principle to reduce the counting of number of Hamiltonian cycles."
+    },
+    {
+        "question": "For a graph of degree three, in what time can a Hamiltonian path be found?",
+        "options": [
+            "a) O(0.251",
+            "b) O(0.401",
+            "c) O(0.167",
+            "d) O(0.151"
+        ],
+        "answer": "a",
+        "explanation": "For a graph of maximum degree three, a Hamiltonian path can be found in time O(0.251"
+    },
+    {
+        "question": "What is the time complexity for finding a Hamiltonian path for a graph having N vertices (using permutation)?",
+        "options": [
+            "a) O(N!)",
+            "b) O(N! * N)",
+            "c) O(log N)",
+            "d) O(N)"
+        ],
+        "answer": "b",
+        "explanation": "For a graph having N vertices traverse the permutations in N! iterations and it traverses the permutations to see if adjacent vertices are connected or not takes N iterations (i.e.) O(N! * N)."
+    },
+    {
+        "question": "How many Hamiltonian paths does the following graph have?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "a",
+        "explanation": "The above graph has only one Hamiltonian path that is from a-b-c-d-e."
+    },
+    {
+        "question": "How many Hamiltonian paths does the following graph have?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 0",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The above graph has no Hamiltonian paths. That is, we cannot traverse the graph with meeting vertices exactly once."
+    }
+]

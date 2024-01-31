@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Unlike writing out a table or CSV file, dump() and dput() preserve the ______ so that another user doesn\u2019t have to specify the all over again.",
+        "options": [
+            "a) metadata",
+            "b) backup data",
+            "c) attribute data",
+            "d) normal data"
+        ],
+        "answer": "a",
+        "explanation": "The read.table() function is one of the most commonly used functions for reading data. The help file with read.table() is worth reading in its entirety if only because the function gets used a lot."
+    },
+    {
+        "question": "One way to pass data around is by de parsing the R object with _________",
+        "options": [
+            "a) dput()",
+            "b) write()",
+            "c) read()",
+            "d) dget()"
+        ],
+        "answer": "a",
+        "explanation": "dput is used for outputting a textual representation of an R object. The dump() and dput() functions are useful because the resulting textual format is editable, and in the case of corruption, potentially recoverable."
+    },
+    {
+        "question": "Main way to read the data back in (parsing it) using the function.",
+        "options": [
+            "a) dput()",
+            "b) write()",
+            "c) read()",
+            "d) dget()"
+        ],
+        "answer": "d",
+        "explanation": "One way to pass data around is by deparsing the R object with dput() and reading it back in (parsing it) using dget(). dget is used for reading in R code files (inverse of dput)."
+    },
+    {
+        "question": "dput() output is in the form of ___________",
+        "options": [
+            "a) R code",
+            "b) text file code",
+            "c) binary code",
+            "d) both binary and text"
+        ],
+        "answer": "a",
+        "explanation": "dput is used for outputting a textual representation of an R object. The dump() and dput() functions are useful because the resulting textual format is editable, and in the case of corruption, potentially recoverable."
+    },
+    {
+        "question": "Multiple objects can be de parsed at once using the ______ function.",
+        "options": [
+            "a) dput()",
+            "b) write()",
+            "c) dump()",
+            "d) dget()"
+        ],
+        "answer": "a",
+        "explanation": "dput is used for outputting a textual representation of an R object. The dump() and dput() functions are useful because the resulting textual format is editable, and in the case of corruption, potentially recoverable."
+    },
+    {
+        "question": "We can dump() R objects to a file by passing _____",
+        "options": [
+            "a) character vector of their names",
+            "b) object name",
+            "c) arguments",
+            "d) file name"
+        ],
+        "answer": "a",
+        "explanation": "Dump is used for dumping a textual representation of multiple R objects. Descriptive representation of an R object by using the dput() or dump() functions. The dump() and dput() functions are useful because the resulting textual format is editable, and in the case of corruption, potentially recoverable."
+    },
+    {
+        "question": "If we want to save individual R objects to a file, we use the _______ function.",
+        "options": [
+            "a) save()",
+            "b) save.image()",
+            "c) serialize()",
+            "d) deserialize()"
+        ],
+        "answer": "a",
+        "explanation": "Save is used for saving an arbitrary number of R objects with a binary format (possibly compressed) to a file. The output of dput() can also be saved directly to a file."
+    },
+    {
+        "question": "If you have a lot of objects that you want to save to a file, we use ________ function.",
+        "options": [
+            "a) save()",
+            "b) save.image()",
+            "c) serialize()",
+            "d) deserialize()"
+        ],
+        "answer": "b",
+        "explanation": "Save is used for saving an arbitrary number of R objects with a binary format (possibly compressed) to a file. The output of dput() can also be saved directly to a file. Save.Image can be used mostly in R."
+    },
+    {
+        "question": ".rda extension used when saving data with function __________",
+        "options": [
+            "a) save()",
+            "b) save.image()",
+            "c) save and save.image functions",
+            "d) serialize()"
+        ],
+        "answer": "c",
+        "explanation": "Save is used for saving an arbitrary number of R objects with a binary format (possibly compressed) to a file. The output of dput() can also be saved directly to a file. Save.Image can be used mostly in R."
+    },
+    {
+        "question": ".RData extension used when we save data using the functions ___________",
+        "options": [
+            "a) save()",
+            "b) save.image()",
+            "c) save and save.image functions",
+            "d) serialize()"
+        ],
+        "answer": "c",
+        "explanation": "Save is used for saving an arbitrary number of R objects with a binary format (possibly compressed) to a file. The output of dput() can also be saved directly to a file. Save.Image can be used mostly in R."
+    },
+    {
+        "question": "When you call serialize() on an R object, the output will be ____ coded in hexadecimal format.",
+        "options": [
+            "a) raw vector",
+            "b) character vector",
+            "c) integer vector",
+            "d) binary vector"
+        ],
+        "answer": "a",
+        "explanation": "When you call serialize() on an R object, the output will be raw vector coded in hexadecimal format. Serialize is used for converting an R object into a binary format for outputting to a connection."
+    },
+    {
+        "question": "The benefit of the _____ function is that it is the only way to perfectly repressed an R object in an exportable format, without losing precision or any metadata.",
+        "options": [
+            "a) save()",
+            "b) save.image()",
+            "c) unserialize()",
+            "d) serialize()"
+        ],
+        "answer": "d",
+        "explanation": "Unserialize is used for reading single R objects in the binary form. Serialize is used for converting an R object into a binary format for outputting to a connection (or file)."
+    },
+    {
+        "question": "load() is used for _______",
+        "options": [
+            "a) reading",
+            "b) loading",
+            "c) working",
+            "d) not exist"
+        ],
+        "answer": "a",
+        "explanation": "Load is used for reading in saved workspaces. After installing the package it is important that you load it into your R session with the library() function. you can load the data into R using the readRDS() function."
+    },
+    {
+        "question": "readlines is used for ____________",
+        "options": [
+            "a) working on data",
+            "b) reading files",
+            "c) reading lines in files",
+            "d) not exist"
+        ],
+        "answer": "b",
+        "explanation": "ReadLines is used for reading lines of a text file. you can load the data into R using the readRDS() function. Text files can be read line by line using the readLines() function. This function is useful for reading text files that may be unstructured or contain non-standard data."
+    }
+]

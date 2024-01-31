@@ -1,0 +1,87 @@
+[
+    {
+        "question": "Which of the following methods can be used to search an element in a linked list?",
+        "options": [
+            "a) Iterative linear search",
+            "b) Iterative binary search",
+            "c) Recursive binary search",
+            "d) Normal binary search"
+        ],
+        "answer": "a",
+        "explanation": "Iterative linear search can be used to search an element in a linked list. Binary search can be used only when the list is sorted."
+    },
+    {
+        "question": "Consider the following code snippet to search an element in a linked list:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line \u201ctemp = temp->next\u201d should be inserted to complete the above code."
+    },
+    {
+        "question": "What does the following code do?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The above code checks if a number is present in a linked list."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "Since the number -1 is not present in the linked list, the program prints not found."
+    },
+    {
+        "question": "What is the time complexity of the following implementation of linear search on a linked list?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above implementation of linear search on a linked list is O(n)."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The condition in the while loop \u201ctemp->next == 0\u201d, checks if the current element is the last element. If the current element is the last element, the value of the current element is not compared with the value to be searched. So, even though the number 6 is present in the linked list, it will print not found."
+    },
+    {
+        "question": "Can binary search be applied on a sorted linked list in O(Logn) time?",
+        "options": [
+            "a) No",
+            "b) Yes"
+        ],
+        "answer": "a",
+        "explanation": "Since linked list doesn\u2019t allow random access, binary search cannot be applied on a sorted linked list in O(Logn) time."
+    },
+    {
+        "question": "What will be time complexity when binary search is applied on a linked list?",
+        "options": [
+            "a) O(1)",
+            "b) O(n)",
+            "c) O(n",
+            "d) O(n"
+        ],
+        "answer": "b",
+        "explanation": "The time complexity will be O(n) when binary search is applied on a linked list."
+    },
+    {
+        "question": "Consider the following recursive implementation of linear search on a linked list:",
+        "options": [],
+        "answer": "d",
+        "explanation": "The line \u201clinear_search(temp->next, value)\u201d, should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since the element 6 is present in the linked list, the program prints \u201cFound\u201d."
+    },
+    {
+        "question": "How many times is the function linear_search() called when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The function linear_search() is called 6 times when the above code is executed."
+    },
+    {
+        "question": "What is the time complexity of the following recursive implementation of linear search?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The time complexity of the above recursive implementation of linear search is O(n)."
+    }
+]

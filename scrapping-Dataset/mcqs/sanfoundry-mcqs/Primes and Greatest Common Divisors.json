@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The prime factorization of 7007 is __________",
+        "options": [
+            "a) 7",
+            "b) 7",
+            "c) 7.11.13",
+            "d) 7.11"
+        ],
+        "answer": "b",
+        "explanation": "Perform successive division beginning with 2."
+    },
+    {
+        "question": "Out of following which one is Mersenne Primes?",
+        "options": [
+            "a) 3",
+            "b) 7",
+            "c) 2047",
+            "d) 31"
+        ],
+        "answer": "c",
+        "explanation": "2047 = 23.89 also not in form of 2"
+    },
+    {
+        "question": "Out of the following which of these integers is not prime?",
+        "options": [
+            "a) 21",
+            "b) 35",
+            "c) 71",
+            "d) 101"
+        ],
+        "answer": "b",
+        "explanation": "35 = 5.7 which is the product of two prime numbers."
+    },
+    {
+        "question": "The prime factorization of 1001 is __________",
+        "options": [
+            "a) 7",
+            "b) 7",
+            "c) 7.11.13",
+            "d) 7.11"
+        ],
+        "answer": "c",
+        "explanation": "Perform successive division beginning with 2."
+    },
+    {
+        "question": "Which positive integer less than 21 are relatively prime to 21?",
+        "options": [
+            "a) 18",
+            "b) 19",
+            "c) 21",
+            "d) 24"
+        ],
+        "answer": "b",
+        "explanation": "gcd(19,21) = 1. According to the definition of relatively prime gcd of two numbers is 1."
+    },
+    {
+        "question": "Is 7, 8, 9, 11 are pairwise relatively prime.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "gcd(7, 9) = gcd(8, 9) = gcd(9, 11) = gcd(11, 7) = 1. The numbers 7 and 11 are prime and numbers 8 and 9 are relatively prime."
+    },
+    {
+        "question": "The greatest common divisor of 3",
+        "options": [
+            "a) 3",
+            "b) 3",
+            "c) 3",
+            "d) 3"
+        ],
+        "answer": "d",
+        "explanation": "gcd(a, b) = 3"
+    },
+    {
+        "question": "The greatest common divisor of 0 and 5 is ___________",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "gcd(0, 5) = 0"
+    },
+    {
+        "question": "The lcm of 3 and 21 is ________ if gcd(3,21)=3.",
+        "options": [
+            "a) 3",
+            "b) 12",
+            "c) 21",
+            "d) 42"
+        ],
+        "answer": "c",
+        "explanation": "3 * lcm(3, 21) = 63 hence, lcm(3, 21) = 63 / 3 = 21."
+    },
+    {
+        "question": "The least common multiple of 41.42 and 42.41 is ____________",
+        "options": [
+            "a) 42",
+            "b) 41",
+            "c) 84",
+            "d) 41.42"
+        ],
+        "answer": "d",
+        "explanation": "lcm(41 * 42, 42 * 42) = 41.42.42.41 / 41.42 = 41.42."
+    }
+]

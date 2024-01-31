@@ -1,0 +1,96 @@
+[
+    {
+        "question": "Which compiler is used to execute the structured query language?",
+        "options": [
+            "a) DCL",
+            "b) DDL",
+            "c) DML",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Structured query language consists of Data manipulation language as well as data definition language. Therefore DML compiler."
+    },
+    {
+        "question": "Which among the following tags belong to Data definition language?",
+        "options": [
+            "a) SELECT",
+            "b) FROM",
+            "c) WHERE",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Data definition language contains all tags which are used for the definition of the structures in Mysql."
+    },
+    {
+        "question": "Which among the following tags belong to Data Manipulation language?",
+        "options": [
+            "a) UPDATE",
+            "b) ALTER",
+            "c) MODIFY",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Data Manipulation language contains all tags which are used for manipulating the existing structure in Mysql."
+    },
+    {
+        "question": "Query Mechanism performs the following functions?",
+        "options": [
+            "a) Syntax correction",
+            "b) Checking permission for executing the query",
+            "c) Checking permission for accessing the desired data",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "None."
+    },
+    {
+        "question": "What jobs \u201cQuery Optimizer\u201d perform in Mysql?",
+        "options": [
+            "a) Determine the efficient way to execute a query",
+            "b) Syntax errors",
+            "c) Permissions",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Query optimizer is used to find the efficient way to execute a query in Mysql."
+    },
+    {
+        "question": "What is the meaning of \u201cEMPTY SET\u201d in the following MySQL command?",
+        "options": [],
+        "answer": "a",
+        "explanation": "\u201cEMPTY SET\u201d means there were no values stored in the structure that belongs to lname."
+    },
+    {
+        "question": "Which are the two languages used in Mysql?",
+        "options": [
+            "a) DML/DDL",
+            "b) DDL/DCL",
+            "c) DML/DDM",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DDL (Data Definition Language)"
+    },
+    {
+        "question": "The users responsible for  query processing in database system are ___________",
+        "options": [
+            "a) Native users",
+            "b) Application programmers",
+            "c) Sophisticated users",
+            "d) Specialized users"
+        ],
+        "answer": "c",
+        "explanation": "Sophisticated users interact with the system without writing any application programs; they form the request in a database query language."
+    },
+    {
+        "question": "Select the sequence for how the query mechanism works?",
+        "options": [
+            "a) Authentication-> DDL->DML->query optimizer->output",
+            "b) DDL->DML->query optimizer-> Authentication->output",
+            "c) DML->query optimizer-> Authentication-> DDL-> output",
+            "d) All of the mentioned"
+        ],
+        "answer": "Answers: a",
+        "explanation": "When we execute any query, the first step is authentication (password). Second step for data definition mechanism, the third step is for Data Manipulation and the last is optimizer for efficient execution."
+    }
+]

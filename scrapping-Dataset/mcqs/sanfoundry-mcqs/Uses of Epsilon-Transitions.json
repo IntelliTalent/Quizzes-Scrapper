@@ -1,0 +1,77 @@
+[
+    {
+        "question": "The automaton which allows transformation to a new state without consuming any input symbols:",
+        "options": [
+            "a) NFA",
+            "b) DFA",
+            "c) NFA-l",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NFA-l or e-NFA is an extension of Non deterministic Finite Automata which are usually called NFA with epsilon moves or lambda transitions."
+    },
+    {
+        "question": "e-transitions are",
+        "options": [
+            "a) conditional",
+            "b) unconditional",
+            "c) input dependent",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "An epsilon move is a transition from one state to another that doesn\u2019t require any specific condition."
+    },
+    {
+        "question": "The __________ of a set of states, P, of an NFA is defined as the set of states reachable from any state in P following e-transitions.",
+        "options": [
+            "a) e-closure",
+            "b) e-pack",
+            "c) Q in the tuple",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The e-closure of a set of states, P, of an NFAis defined as the set of states reachable from any state in P following e-transitions."
+    },
+    {
+        "question": "The e-NFA  recognizable languages are not closed under ___________",
+        "options": [
+            "a) Union",
+            "b) Negation",
+            "c) Kleene Closure",
+            "d) None of the mentioned",
+            "i) Union",
+            "v) Star"
+        ],
+        "answer": "d",
+        "explanation": "The languages which are recognized by an epsilon Non deterministic automata are closed under the following operations:"
+    },
+    {
+        "question": "Is the language preserved in all the steps while eliminating epsilon transitions from a NFA?",
+        "options": [
+            "a) yes",
+            "b) no"
+        ],
+        "answer": "a",
+        "explanation": "Yes, the language is preserved during the dteps of construction: L(N)=L(N1)=L(N2)=L(3)."
+    },
+    {
+        "question": "An e-NFA is ___________ in representation.",
+        "options": [
+            "a) Quadruple",
+            "b) Quintuple",
+            "c) Triple",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "An e-NFA consist of 5 tuples: A=(Q, S, d, q0, F)"
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "e-NFA do come up with a convenient feature but nothing new.They do not extend the class of languages that can be represented."
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of the following methods can be used to solve the matrix chain multiplication problem?",
+        "options": [
+            "a) Dynamic programming",
+            "b) Brute force",
+            "c) Recursion",
+            "d) Dynamic Programming, Brute force, Recursion"
+        ],
+        "answer": "d",
+        "explanation": "Dynamic Programming, Brute force, Recursion methods can be used to solve the matrix chain multiplication problem."
+    },
+    {
+        "question": "Which of the following is the recurrence relation for the matrix chain multiplication problem where mat[i-1] * mat[i] gives the dimension of the ith matrix?",
+        "options": [
+            "a) dp[i,j] = 1 if i=j",
+            "b) dp[i,j] = 0 if i=j",
+            "c) dp[i,j] = 1 if i=j",
+            "d) dp[i,j] = 0 if i=j"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation is given by:"
+    },
+    {
+        "question": "Consider the two matrices P and Q which are 10 x 20 and 20 x 30 matrices respectively. What is the number of multiplications required to multiply the two matrices?",
+        "options": [
+            "a) 10*20",
+            "b) 20*30",
+            "c) 10*30",
+            "d) 10*20*30"
+        ],
+        "answer": "d",
+        "explanation": "The number of multiplications required is 10*20*30."
+    },
+    {
+        "question": "Consider the matrices P, Q and R which are 10 x 20, 20 x 30 and 30 x 40 matrices respectively. What is the minimum number of multiplications required to multiply the three matrices?",
+        "options": [
+            "a) 18000",
+            "b) 12000",
+            "c) 24000",
+            "d) 32000"
+        ],
+        "answer": "a",
+        "explanation": "The minimum number of multiplications are 18000. This is the case when the matrices are parenthesized as (P*Q)*R."
+    },
+    {
+        "question": "Consider the matrices P, Q, R and S which are 20 x 15, 15 x 30, 30 x 5 and 5 x 40 matrices respectively. What is the minimum number of multiplications required to multiply the four matrices?",
+        "options": [
+            "a) 6050",
+            "b) 7500",
+            "c) 7750",
+            "d) 12000"
+        ],
+        "answer": "c",
+        "explanation": "The minimum number of multiplications required is 7750."
+    },
+    {
+        "question": "Consider the brute force implementation in which we find all the possible ways of multiplying the given set of n matrices. What is the time complexity of this implementation?",
+        "options": [
+            "a) O(n!)",
+            "b) O(n",
+            "c) O(n",
+            "d) Exponential"
+        ],
+        "answer": "d",
+        "explanation": "The time complexity of finding all the possible ways of multiplying a set of n matrices is given by (n-1)"
+    },
+    {
+        "question": "Consider the following dynamic programming implementation of the matrix chain problem:",
+        "options": [],
+        "answer": "c",
+        "explanation": "The line arr[row][k] + arr[k + 1][col] + mat[row \u2013 1] * mat[k] * mat[col] should be inserted to complete the above code."
+    },
+    {
+        "question": "What is the time complexity of the following dynamic programming implementation of the matrix chain problem?",
+        "options": [],
+        "answer": "d",
+        "explanation": "The time complexity of the above dynamic programming implementation of the matrix chain multiplication is O(n"
+    },
+    {
+        "question": "What is the space complexity of the following dynamic programming implementation of the matrix chain problem?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The space complexity of the above dynamic programming implementation of the matrix chain multiplication is O(n"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The program prints the minimum number of multiplications required, which is 64000."
+    },
+    {
+        "question": "What is the value stored in arr[2][3] when the following code is executed?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The value stored in arr[2][3] when the above code is executed is 60000."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The program prints the minimum number of multiplications required to multiply the given matrices, which is 4000."
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The output of the program is 64000."
+    }
+]

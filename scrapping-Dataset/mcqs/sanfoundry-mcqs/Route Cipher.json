@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What is route cipher?",
+        "options": [
+            "a) a transposition cipher that performs encryption by following an imaginary pattern on a grid",
+            "b) a substitution cipher that performs encryption by following an imaginary pattern on a grid",
+            "c) a transposition cipher that performs encryption by following a zig zag pattern on a grid",
+            "d) a substitution cipher that performs encryption by following a zig zag pattern on a grid"
+        ],
+        "answer": "a",
+        "explanation": "Route cipher is a transposition cipher. It encrypts the plain text by following an imaginary pattern on a grid. This pattern can vary from one version of route cipher to others."
+    },
+    {
+        "question": "Route cipher is an example of ____________",
+        "options": [
+            "a) mono-alphabetic cipher",
+            "b) poly-alphabetic cipher",
+            "c) transposition cipher",
+            "d) additive cipher"
+        ],
+        "answer": "c",
+        "explanation": "Route cipher is a transposition cipher. It falls under the category of transposition cipher as it encrypts the plain text by rearranging its letters."
+    },
+    {
+        "question": "Encryption in Route cipher is done ___________",
+        "options": [
+            "a) by arranging the letters in a zig zag fashion in a table",
+            "b) by randomly arranging letters",
+            "c) by following an imaginary pattern drawn on a grid",
+            "d) by swapping adjacent letters"
+        ],
+        "answer": "c",
+        "explanation": "Route cipher is a transposition cipher. It encrypts the plain text by following an imaginary pattern on a grid."
+    },
+    {
+        "question": "Which of the following ciphers are created by shuffling the letters of a word?",
+        "options": [
+            "a) playfair cipher",
+            "b) route cipher",
+            "c) vigenere cipher",
+            "d) hill cipher"
+        ],
+        "answer": "b",
+        "explanation": "In transposition cipher the letters of the given data are shuffled in a particular order, fixed by a given rule. Route cipher is the only transposition cipher out of the given options."
+    },
+    {
+        "question": "Route cipher is closely related to?",
+        "options": [
+            "a) Autokey cipher",
+            "b) Hill cipher",
+            "c) Rail fence cipher",
+            "d) Columnar transposition cipher"
+        ],
+        "answer": "c",
+        "explanation": "Route cipher is closely related to rail fence cipher. In rail fence cipher the plain text is written in a zig zag fashion in a grid whereas in route cipher the plain text is written horizontally."
+    },
+    {
+        "question": "Rail fence cipher is more secure as compared to route cipher?",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Rail fence is cipher is less secure than route cipher. It is because the key of route cipher not only defines the size of the grid but also the path that is to be followed."
+    },
+    {
+        "question": "Router cipher becomes less secure when we have to encrypt longer messages.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "The key of route cipher not only defines the size of grid but also the path that is to be followed. So longer the message is, the harder it becomes to guess the path."
+    },
+    {
+        "question": "What will be the plain text corresponding to cipher text \u201cRSEADC\u201d if with the number of columns are given to be 3 and route of reading is down the columns?",
+        "options": [
+            "a) SACRED",
+            "b) DERSAC",
+            "c) REDSAC",
+            "d) SEDRAC"
+        ],
+        "answer": "c",
+        "explanation": "For decryption we reverse the process used in encryption. So we arrange the letters of cipher text down the columns and then read the grid horizontally."
+    }
+]

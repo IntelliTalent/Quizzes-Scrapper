@@ -1,0 +1,145 @@
+[
+    {
+        "question": "Which of the following sorting algorithms is the fastest for sorting small arrays?",
+        "options": [
+            "a) Quick sort",
+            "b) Shell sort",
+            "c) Insertion sort",
+            "d) Heap sort"
+        ],
+        "answer": "c",
+        "explanation": "For sorting small arrays, insertion sort runs even faster than quick sort. But, it is impractical to sort large arrays."
+    },
+    {
+        "question": "What is the advantage of selection sort over other sorting techniques?",
+        "options": [
+            "a) It is faster than any other sorting technique",
+            "b) It is scalable",
+            "c) It works best for inputs which are already sorted",
+            "d) It requires no additional storage space"
+        ],
+        "answer": "d",
+        "explanation": "Since selection sort is an in-place sorting algorithm, it does not require additional storage."
+    },
+    {
+        "question": "Which of the following method is used for sorting in merge sort?",
+        "options": [
+            "a) partitioning",
+            "b) merging",
+            "c) exchanging",
+            "d) selection"
+        ],
+        "answer": "b",
+        "explanation": "Merge sort algorithm divides the array into two halves and applies merge sort algorithm to each half individually after which the two sorted halves are merged together. Thus its method of sorting is called merging."
+    },
+    {
+        "question": "Which of the following sorting algorithm does not use recursion?",
+        "options": [
+            "a) bottom up merge sort",
+            "b) merge sort",
+            "c) heap sort",
+            "d) quick sort"
+        ],
+        "answer": "a",
+        "explanation": "Bottom up merge sort uses the iterative method in order to implement sorting. It begins by merging a pair of adjacent array of size 1 each and then merge arrays of size 2 each in the next step and so on."
+    },
+    {
+        "question": "Merge sort uses which of the following method to implement sorting?",
+        "options": [
+            "a) selection",
+            "b) exchanging",
+            "c) merging",
+            "d) partitioning"
+        ],
+        "answer": "c",
+        "explanation": "Merge sort implements sorting by merging the sorted versions of smaller parts of the array. Thus its method of sorting is called merging."
+    },
+    {
+        "question": "Which of the following sorting algorithms is the fastest?",
+        "options": [
+            "a) Merge sort",
+            "b) Shell sort",
+            "c) Insertion sort",
+            "d) Quick sort"
+        ],
+        "answer": "d",
+        "explanation": "Quick sort is the fastest known sorting algorithm because of its highly optimized inner loop."
+    },
+    {
+        "question": "Shell sort algorithm is an example of?",
+        "options": [
+            "a) Bottom-up sorting",
+            "b) In-place sorting",
+            "c) Internal sorting",
+            "d) External sorting"
+        ],
+        "answer": "c",
+        "explanation": "Shell sort is an example of internal sorting because sorting of elements is done internally using an array."
+    },
+    {
+        "question": "Quick sort uses which of the following method to implement sorting?",
+        "options": [
+            "a) partitioning",
+            "b) selection",
+            "c) exchanging",
+            "d) merging"
+        ],
+        "answer": "a",
+        "explanation": "Quick sort makes partitions of the input array about the pivot in order to implement sorting. Thus its method of sorting is called partitioning."
+    },
+    {
+        "question": "In heap sort, after deleting the last minimum element, the array will contain elements in?",
+        "options": [
+            "a) increasing sorting order",
+            "b) tree preorder",
+            "c) tree inorder",
+            "d) decreasing sorting order"
+        ],
+        "answer": "d",
+        "explanation": "By logic, after deleting minimum element, the heap will contain elements in decreasing sorting order. We can change this by altering the ordering property."
+    },
+    {
+        "question": "Which of the following sorting algorithm is used by C++ internally?",
+        "options": [
+            "a) quicksort",
+            "b) merge sort",
+            "c) introsort",
+            "d) heap sort"
+        ],
+        "answer": "c",
+        "explanation": "Introsort is the in built sorting algorithm used by C++. It is an example of a hybrid sorting algorithm which means it uses more than one sorting algorithm as a routine."
+    },
+    {
+        "question": "Which of the following sorting algorithm is stable?",
+        "options": [
+            "a) Introsort",
+            "b) Tim sort",
+            "c) Heap sort",
+            "d) Quick sort"
+        ],
+        "answer": "b",
+        "explanation": "Out of the given options Tim sort is the only algorithm which is stable. As both constituents of Tim sort (I.e insertion sort and merge sort) are stable so Tim sort also becomes stable."
+    },
+    {
+        "question": "Which of the following sorting algorithm uses the method of insertion?",
+        "options": [
+            "a) selection sort",
+            "b) quick sort",
+            "c) bubble sort",
+            "d) cycle sort"
+        ],
+        "answer": "d",
+        "explanation": "Cycle sort is the only algorithm from the given ones that uses the method of insertion. Other than this, insertion sort also uses the method of insertion for sorting."
+    },
+    {
+        "question": "Which of the following pair of sorting algorithms are stable?",
+        "options": [
+            "a) gnome sort and merge sort",
+            "b) heap sort and merge sort",
+            "c) gnome sort and quick sort",
+            "d) merge sort and selection sort"
+        ],
+        "answer": "a",
+        "explanation": "Gnome sort and merge sort are stable sorting algorithms as the elements with identical values appear in the same order in the output array as they were in the input array when any of these sorting algorithms are implemented."
+    }
+]

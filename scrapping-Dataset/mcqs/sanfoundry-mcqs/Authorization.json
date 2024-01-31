@@ -1,0 +1,112 @@
+[
+    {
+        "question": "MongoDB employs _________ to govern access to a MongoDB system.",
+        "options": [
+            "a) RBAS",
+            "b) RBAC",
+            "c) RBCC",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "RBAC stands for Role-Based Access Control."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) MongoDB provides built-in roles, each with a dedicated purpose for a common use case",
+            "b) MongoDB does not enable authorization by default",
+            "c) Administrators also can create new roles and privileges to cater to operational needs",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can enable authorization using the \u2013auth or the \u2013keyFile options, or if using a configuration file, with the security.authorization or the security.keyFile settings."
+    },
+    {
+        "question": "__________ consists of a specified resource and the actions permitted on the resource.",
+        "options": [
+            "a) privilege",
+            "b) action",
+            "c) command",
+            "d) right"
+        ],
+        "answer": "a",
+        "explanation": "A privilege resource is either a database, collection, set of collections, or the cluster."
+    },
+    {
+        "question": "_________ provides all the privileges of the read role.",
+        "options": [
+            "a) delete",
+            "b) update",
+            "c) readWrite",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The role provides the ability to modify data on all non-system collections and the system.js collection."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) When granted a role, a user receives all the privileges of that role",
+            "b) A role consists of privileges that pair resources with not allowed operations",
+            "c) User cannot have several roles in MongoDB",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " A user can have several roles concurrently, in which case the user receives the union of all the privileges of the respective roles."
+    },
+    {
+        "question": "MongoDB stores user credentials in the protected admin.system._________",
+        "options": [
+            "a) user",
+            "b) capped",
+            "c) cappeduser",
+            "d) users"
+        ],
+        "answer": "d",
+        "explanation": "The admin.system.users collection stores the user\u2019s authentication credentials as well as any roles assigned to the user."
+    },
+    {
+        "question": "You must have the _______ action on a database to create a new user on that database.",
+        "options": [
+            "a) createUser",
+            "b) createSuperUser",
+            "c) createSuUser",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "To provide user administrators, MongoDB has userAdmin and userAdminAnyDatabase roles."
+    },
+    {
+        "question": "Data of  <database>.system.indexes can be accessed using ____________",
+        "options": [
+            "a) listallIndexes",
+            "b) listIndexes",
+            "c) ViewIndexes",
+            "d) SelectIndexes"
+        ],
+        "answer": "b",
+        "explanation": "Kerberos is an industry standard authentication protocol for large client/server systems."
+    },
+    {
+        "question": "You must have the __________ action on a role\u2019s database to grant the role to another user.",
+        "options": [
+            "a) grantRole",
+            "b) grantRoleAdm",
+            "c) grantRolePrivilege",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "listIndexes returns information about the indexes on the specified collection."
+    },
+    {
+        "question": "Command listIndexes.ok returning value 1 indicates ______________",
+        "options": [
+            "a) failure",
+            "b) success",
+            "c) abnormal exit",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A value of 1 indicates success."
+    }
+]

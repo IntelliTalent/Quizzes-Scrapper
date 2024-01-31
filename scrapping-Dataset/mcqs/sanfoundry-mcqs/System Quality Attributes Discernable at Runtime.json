@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Which of the following factors are discernable by run-time?",
+        "options": [
+            "a) Performance",
+            "b) Modifiability",
+            "c) Portability",
+            "d) Integrability"
+        ],
+        "answer": "a",
+        "explanation": "Rest other factors are discernable at time."
+    },
+    {
+        "question": "Which of the following is incorrect for performance?",
+        "options": [
+            "a) Performance refers to the responsiveness of the system",
+            "b) Performance qualities are often expressed as number of transaction per unit time",
+            "c) Performance can be measured by looking at the arrival rates and distributions of service requests",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are true for performance."
+    },
+    {
+        "question": "How can performance attribute calculated?",
+        "options": [
+            "a) Performance are number of transactions per unit time",
+            "b) Performance are number of events processed in some interval of time",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are the methods in which performance attribute can be calculated."
+    },
+    {
+        "question": "What is security?",
+        "options": [
+            "a) Security is a measure of the system\u2019s ability to resist authorized attempts at usage",
+            "b) Security is Denial of service while still providing its services to legitimate users",
+            "c) Security is systems functionality to interact",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Security is a measure of the system\u2019s ability to resist unauthorized attempts at usage and Security is Denial of service while still providing its services to legitimate users."
+    },
+    {
+        "question": "Which among the following are the types of threats that are generally observed?",
+        "options": [
+            "a) Denial Service",
+            "b) IP source address spoofing",
+            "c) Denial source",
+            "d) Denial Service & IP source address spoofing"
+        ],
+        "answer": "d",
+        "explanation": "The types of threats that are generally observed \u2013 Denial Service, Ip source address spoofing."
+    },
+    {
+        "question": "Which of the following strategies include prevention,detection of threats?",
+        "options": [
+            "a) An authentication server may be placed outside users and the portion of the system that provides services",
+            "b) Network monitors may be installed for the inspection and logging of network events",
+            "c) The system may be placed behind a communications\u201dfirewall\u201d",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned are correct strategies to prevent and detect threats."
+    },
+    {
+        "question": "What is Availability?",
+        "options": [
+            "a) It measures the proportion of time the system is up",
+            "b) It measures the proportion of time the system is running",
+            "c) It measures the proportion of time the system is up and running",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Availability \u2013 measures the proportion of time the system is up and running."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Reliability is usually measured with mean time to failure",
+            "b) Both Availability and reliability are tied to the architecture",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned are true."
+    },
+    {
+        "question": "What is true for availability?",
+        "options": [
+            "a) Availability comes with both mean time to failure and mean time to repair",
+            "b) Mean time to failure is lowered by designing components that are easy to modify",
+            "c) Mean time to repair can be lengthened by fielding a less prone system",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Availability comes with both mean time to failure and mean time to repair. Mean time to failure can be lengthened by fielding a less prone system. Mean time to repair is lowered by designing components that are easy to modify."
+    },
+    {
+        "question": "What is functionality?",
+        "options": [
+            "a) Functionality is ability of the system to do work for which it is intended",
+            "b) It is orthogonal to structure i.e. it is largely non architectural in nature",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "All of the mentioned statements describes functionality."
+    },
+    {
+        "question": "What is Usability?",
+        "options": [
+            "a) Usability is learnability",
+            "b) Usability is Efficiency",
+            "c) Usability is Memorability",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Usability is learnability,efficiency,memorability and error avoidance."
+    },
+    {
+        "question": "12.What among the following belongs to learnability?",
+        "options": [
+            "a) Does the system respond with appropriate speed to a user request",
+            "b) Can the user remember how to do system operations between users of the system",
+            "c) How quick is it for the user to learn to use the system\u2019s interface",
+            "d) Does the system anticipate and prevent common user error?"
+        ],
+        "answer": "c",
+        "explanation": "Learnability-How quick is it for the user to learn to use the system\u2019s interface."
+    },
+    {
+        "question": "What among the following belongs to Efficiency?",
+        "options": [
+            "a) Does the system respond with appropriate speed to a user request",
+            "b) Can the user remember how to do system operations between users of the system",
+            "c) How quick is it for the user to learn to use the system\u2019s interface",
+            "d) Does the system anticipate and prevent common user error?"
+        ],
+        "answer": "a",
+        "explanation": "Efficiency-Does the system respond with appropriate speed to a user request."
+    },
+    {
+        "question": "What among the following belongs to Memorability?",
+        "options": [
+            "a) Does the system respond with appropriate speed to a user request",
+            "b) Can the user remember how to do system operations between users of the system",
+            "c) How quick is it for the user to learn to use the system\u2019s interface",
+            "d) Does the system anticipate and prevent common user error?"
+        ],
+        "answer": "b",
+        "explanation": "Memorability-Can the user remember how to do system operations between users of the system."
+    },
+    {
+        "question": "What among the following belongs to Error avoidance?",
+        "options": [
+            "a) Does the system respond with appropriate speed to a user request",
+            "b) Can the user remember how to do system operations between users of the system",
+            "c) How quick is it for the user to learn to use the system\u2019s interface",
+            "d) Does the system anticipate and prevent common user error?"
+        ],
+        "answer": "d",
+        "explanation": "Error Avoidance-Does the system anticipate and prevent common user error."
+    }
+]

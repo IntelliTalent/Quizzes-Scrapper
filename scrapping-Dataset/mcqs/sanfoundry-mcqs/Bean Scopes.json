@@ -1,0 +1,149 @@
+[
+    {
+        "question": "A bean can be requested by:-",
+        "options": [
+            "a) getBean method",
+            "b) reference from another bean using autowiring, property etc",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "When a bean is requested by the getBean() method or a reference from other beans, Spring will decide which bean instance should be returned according to the bean scope."
+    },
+    {
+        "question": "Which attribute is used to set the scope of the bean?",
+        "options": [
+            "a) setScope",
+            "b) scope",
+            "c) getScope",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Scope attribute defines the scope of a bean."
+    },
+    {
+        "question": "Which one is the default scope of the beans?",
+        "options": [
+            "a) Prototype",
+            "b) Session",
+            "c) Request",
+            "d) Singleton"
+        ],
+        "answer": "d",
+        "explanation": "This unique bean instance will be returned for all subsequent getBean() calls and bean references."
+    },
+    {
+        "question": "Which scope creates a new bean instance each time when requested?",
+        "options": [
+            "a) Singleton",
+            "b) Prototype",
+            "c) Session",
+            "d) Request"
+        ],
+        "answer": "b",
+        "explanation": "Creates a new bean instance each time when requested."
+    },
+    {
+        "question": "Session Creates a single bean instance per HTTP request, only valid in the context of a web application?",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Session Creates a single bean instance per HTTP session, only valid in the context of a web application."
+    },
+    {
+        "question": "What will be the output?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Since the default scope is singleton, so items added by first bean instantiated will be used again by same bean if instantiated again."
+    },
+    {
+        "question": "In above question if scope of shoppingCart named bean is prototype, then what will be the output?",
+        "options": [
+            "a) Shopping cart 1 contains (AAA 2.5, CD-RW 1.5)",
+            "b) Shopping cart 1 contains (AAA 2.5, CD-RW 1.5)",
+            "c) BeanCreationException",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Since the default scope is prototype, so items added by first bean instantiated will be removed by same bean if instantiated again, and will add new items listed."
+    },
+    {
+        "question": "Which interface is used to perform initialization of beans?",
+        "options": [
+            "a) InitializingBean",
+            "b) Disposablebean",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Spring allows your bean to perform initialization callback methods afterPropertiesSet() by implementing the InitializingBean and interfaces."
+    },
+    {
+        "question": "Which interface is used to perform destruction of beans?",
+        "options": [
+            "a) InitializingBean",
+            "b) Disposablebean",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Spring allows your bean to perform destroy callback methods destroy() by implementing the DisposableBean and interfaces."
+    },
+    {
+        "question": "Alternate way of initialization method is:-",
+        "options": [
+            "a) init-method attribute",
+            "b) afterPropertiesSet",
+            "c) destroy-method attribute",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A better approach of specifying the initialization callback methods is by setting the init-method attributes in your bean declaration."
+    },
+    {
+        "question": "Alternate way of destruction method is:-",
+        "options": [
+            "a) init-method attribute",
+            "b) afterPropertiesSet",
+            "c) destroy-method attribute",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "A better approach of specifying the destroy callback methods is by setting the destroy-method attributes in your bean declaration."
+    },
+    {
+        "question": "Which annotation is used as a substitute of initialization method?",
+        "options": [
+            "a) @PostConstruct",
+            "b) @PreDestroy",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Using JSR annotation."
+    },
+    {
+        "question": "14.Which annotation is used as a substitute of destroy method?",
+        "options": [
+            "a) @PostConstruct",
+            "b) @PreDestroy",
+            "c) None of the mentioned",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Using JSR annotation."
+    },
+    {
+        "question": "Which configuration can be used for Dependency Injection?",
+        "options": [
+            "a) XML Configuration",
+            "b) Annotation Configuration",
+            "c) Java Based Configuration",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the above mentioned can be used for Dependency Injection."
+    }
+]

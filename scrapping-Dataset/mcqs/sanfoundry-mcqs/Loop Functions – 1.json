@@ -1,0 +1,104 @@
+[
+    {
+        "question": "________ loop over a list and evaluate a function on each element.",
+        "options": [
+            "a) apply()",
+            "b) lapply()",
+            "c) sapply()",
+            "d) mapply()"
+        ],
+        "answer": "a",
+        "explanation": "An auxiliary function split is also useful, particularly in conjunction with lapply."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) Multi-line expressions with curly braces are just not that easy to sort through when working on the command line",
+            "b) lappy() loops over a list, iterating over each element in that list",
+            "c) lapply() does not always returns a list",
+            "d) You cannot use lapply() to evaluate a function multiple times each with a different argument"
+        ],
+        "answer": "c",
+        "explanation": "lapply() always returns a list, regardless of the class of the input."
+    },
+    {
+        "question": "__________ function is same as lapply in R.",
+        "options": [
+            "a) apply()",
+            "b) lapply()",
+            "c) sapply()",
+            "d) mapply()"
+        ],
+        "answer": "c",
+        "explanation": "lapply tries to simplify the result."
+    },
+    {
+        "question": "Which of the following is multivariate version of lapply?",
+        "options": [
+            "a) apply()",
+            "b) lapply()",
+            "c) sapply()",
+            "d) mapply()"
+        ],
+        "answer": "d",
+        "explanation": "The mapply() function is a multivariate apply of sorts which applies a function in parallel over a set of arguments."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) lapply() takes elements of the list and passes them as the first argument of the function you are applying",
+            "b) You can use lapply() to evaluate a function multiple times each with a different argument",
+            "c) Functions that you pass to lapply() may have other arguments",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The lapply() function and its friends make heavy use of anonymous functions."
+    },
+    {
+        "question": "________ applies a function over the margins of an array.",
+        "options": [
+            "a) apply()",
+            "b) lapply()",
+            "c) tapply()",
+            "d) mapply()"
+        ],
+        "answer": "a",
+        "explanation": "The apply() function is used to a evaluate a function (often an anonymous one) over the margins of an array."
+    },
+    {
+        "question": "_______ is used to apply a function over subsets of a vector.",
+        "options": [
+            "a) apply()",
+            "b) lapply()",
+            "c) tapply()",
+            "d) mapply()"
+        ],
+        "answer": "c",
+        "explanation": "t in tapply stands for table."
+    },
+    {
+        "question": "lappy functions takes _________ arguments in R language.",
+        "options": [
+            "a) two",
+            "b) three",
+            "c) four",
+            "d) five"
+        ],
+        "answer": "c",
+        "explanation": "This function takes three arguments: (1) a list X; (2) a function (or the name of a function) FUN; (3) other arguments via its \u2026 argument."
+    },
+    {
+        "question": "Body of lapply function is?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "Actual looping is done internally in C code for efficiency reasons."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "a",
+        "explanation": "If the original list has names, the the names will be preserved in the output."
+    }
+]

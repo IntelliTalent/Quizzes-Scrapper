@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The plugin, which provides Maven support to Eclipse",
+        "options": [
+            "a) m2eclipse",
+            "b) m2plugin",
+            "c) plugin",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The m2eclipse plugin, which provides Maven support to Eclipse (and thus to SpringSource Tool Suite), can do all the heavy lifting of importing your project since it is just a stock-standard Maven project."
+    },
+    {
+        "question": "Spring Roo provides very powerful support to bootstrap most solutions.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "It\u2019s entirely possible there\u2019s a plugin that will do the job for you."
+    },
+    {
+        "question": "A database and some sort of persistence mechanism using command:-",
+        "options": [
+            "a) persistence setup \u2013database HYPERSONIC_IN_MEMORY \u2013provider HIBERNATE",
+            "b) persistence setup \u2013database HYPERSONIC_IN_MEMORY \u2013provider",
+            "c) persistence setup \u2013database HYPERSONIC_IN_MEMORY",
+            "d) persistence \u2013database HYPERSONIC_IN_MEMORY \u2013provider HIBERNATE"
+        ],
+        "answer": "a",
+        "explanation": "Enter persistence setup as it suggests. On my console, I ended up entering the following command:"
+    },
+    {
+        "question": "persistence setup \u2013database HYPERSONIC_IN_MEMORY \u2013provider HIBERNATE command creates files:-",
+        "options": [
+            "a) src/main/resources/META-INF/persistence.xml",
+            "b) src/main/resources/META-INF/spring/database.properties",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In my project, the command created two new files (src/main/resources/META-INF/persistence.xml and src/main/resources/META-INF/spring/database.properties), and it updated two files (src/main/resources/META-INF/spring/applicationContext.xml and pom.xml)."
+    },
+    {
+        "question": "The file which contains useful configuration for Hypersonic in-memory database.",
+        "options": [
+            "a) src/main/resources/META-INF/spring/database.properties",
+            "b) src/main/resources/META-INF/persistence.xml",
+            "c) src/main/resources/META-INF/pom.xml",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The file src/main/resources/META-INF/spring/database.properties contains useful configuration to facilitate connection to the Hypersonic in-memory database."
+    },
+    {
+        "question": "The file which is the standard JPA configuration file to enable the Hibernate-based JPA implementation.",
+        "options": [
+            "a) src/main/resources/META-INF/spring/database.properties",
+            "b) src/main/resources/META-INF/persistence.xml",
+            "c) src/main/resources/META-INF/pom.xml",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The file src/main/resources/META-INF/persistence.xml is the standard JPA configuration file to enable the Hibernate-based JPA implementation to do its work."
+    },
+    {
+        "question": "Spring application context, src/main/resources/META-INF/spring/applicationContext.xml consists of:-",
+        "options": [
+            "a) Data Source",
+            "b) JPA Transaction Manager",
+            "c) JPA entity manager factory",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Finally, the Spring application context, src/main/resources/META-INF/spring/applicationContext.xml, has been updated to have a data source, a JPA transaction manager, and a JPA entity manager factory."
+    },
+    {
+        "question": "Command to create a Spring MVC controller that provides a UI:-",
+        "options": [
+            "a) controller scaff \u2013class ~.web.CustomerController \u2013entity ~.domain.Customer",
+            "b) controller scaff \u2013class ~.web.CustomerController \u2013entity",
+            "c) none of the mentioned",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Type the following command to create a Spring MVC controller that provides a UI to manipulate Customer entities (and stand back!):"
+    },
+    {
+        "question": "To deploy the application to a web container:-",
+        "options": [
+            "a) mvn tomcat:run",
+            "b) mvn jetty:run",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "In the project directory, in the standard shell, run mvn tomcat:run or mvn jetty:run, and open http://localhost:8080 in your browser."
+    },
+    {
+        "question": "Spring Roo\u2019s root folder (or any of the source packages) is:-",
+        "options": [
+            "a) src/main/java, src/main/resources",
+            "b) src/test/java",
+            "c) src/test/resources",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The root folder (or any of the source packages, e.g., src/main/java, src/main/resources, src/test/java, or src/test/resources)."
+    }
+]

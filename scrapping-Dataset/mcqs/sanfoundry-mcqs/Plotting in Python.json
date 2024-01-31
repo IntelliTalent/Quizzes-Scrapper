@@ -1,0 +1,108 @@
+[
+    {
+        "question": "The plot method on Series and DataFrame is just a simple wrapper around ____________",
+        "options": [
+            "a) gplt.plot()",
+            "b) plt.plot()",
+            "c) plt.plotgraph()",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the index consists of dates, it calls gcf().autofmt_xdate() to try to format the x-axis nicely."
+    },
+    {
+        "question": "Point out the correct combination with regards to kind keyword for graph plotting.",
+        "options": [
+            "a) \u2018hist\u2019 for histogram",
+            "b) \u2018box\u2019 for boxplot",
+            "c) \u2018area\u2019 for area plots",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The kind keyword argument of plot() accepts a handful of values for plots other than the default Line plot."
+    },
+    {
+        "question": "Which of the following value is provided by kind keyword for barplot?",
+        "options": [
+            "a) bar",
+            "b) kde",
+            "c) hexbin",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "bar can also be used for barplot."
+    },
+    {
+        "question": "You can create a scatter plot matrix using the __________ method in pandas.tools.plotting.",
+        "options": [
+            "a) sca_matrix",
+            "b) scatter_matrix",
+            "c) DataFrame.plot",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "You can create density plots using the Series/DataFrame.plot."
+    },
+    {
+        "question": "Point out the wrong combination with regards to kind keyword for graph plotting.",
+        "options": [
+            "a) \u2018scatter\u2019 for scatter plots",
+            "b) \u2018kde\u2019 for hexagonal bin plots",
+            "c) \u2018pie\u2019 for pie plots",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "kde is used for density plots."
+    },
+    {
+        "question": "Which of the following plots are used to check if a data set or time series is random?",
+        "options": [
+            "a) Lag",
+            "b) Random",
+            "c) Lead",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Random data should not exhibit any structure in the lag plot."
+    },
+    {
+        "question": "Plots may also be adorned with error bars or tables.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "There are several plotting functions in pandas.tools.plotting."
+    },
+    {
+        "question": "Which of the following plots are often used for checking randomness in time series?",
+        "options": [
+            "a) Autocausation",
+            "b) Autorank",
+            "c) Autocorrelation",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If the time series is random, such autocorrelations should be near zero for any and all time-lag separations."
+    },
+    {
+        "question": "__________ plots are used to visually assess the uncertainty of a statistic.",
+        "options": [
+            "a) Lag",
+            "b) RadViz",
+            "c) Bootstrap",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Resulting plots and histograms are what constitutes the bootstrap plot."
+    },
+    {
+        "question": "Andrews curves allow one to plot multivariate data.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Curves belonging to samples of the same class will usually be closer together and form larger structures."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "________ systems are scale-out file-based (HDD) systems moving to more uses of memory in the nodes.",
+        "options": [
+            "a) NoSQL",
+            "b) NewSQL",
+            "c) SQL",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "NoSQL systems make the most sense whenever the application is based on data with varying data types and the data can be stored in key-value notation."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Hadoop is ideal for the analytical, post-operational, data-warehouse-ish type of workload",
+            "b) HDFS runs on a small cluster of commodity-class nodes",
+            "c) NEWSQL is frequently the collection point for big data",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Hadoop together with a relational data warehouse, they can form very effective data warehouse infrastructure."
+    },
+    {
+        "question": "Hadoop data is not sequenced and is in 64MB to 256MB block sizes of delimited record values with schema applied on read based on ____________",
+        "options": [
+            "a) HCatalog",
+            "b) Hive",
+            "c) Hbase",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Other means of tagging the values also can be used."
+    },
+    {
+        "question": "__________ are highly resilient and eliminate the single-point-of-failure risk with traditional Hadoop deployments.",
+        "options": [
+            "a) EMR",
+            "b) Isilon solutions",
+            "c) AWS",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "enterprise data protection and security options including file system auditing and data-at-rest encryption to address compliance requirements are also provided by Isilon solution."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) EMC Isilon Scale-out Storage Solutions for Hadoop combine a powerful yet simple and highly efficient storage platform",
+            "b) Isilon native HDFS integration means you can avoid the need to invest in a separate Hadoop infrastructure",
+            "c) NoSQL systems do provide high latency access and accommodate less concurrent users",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "NoSQL systems do provide low latency access and accommodate many concurrent users."
+    },
+    {
+        "question": "HDFS and NoSQL file systems focus almost exclusively on adding nodes to ____________",
+        "options": [
+            "a) Scale out",
+            "b) Scale up",
+            "c) Both Scale out and up",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HDFS and NoSQL file systems focus almost exclusively on adding nodes to increase performance (scale-out) but even they require node configuration with elements of scale up."
+    },
+    {
+        "question": "Which is the most popular NoSQL database for scalable big data store with Hadoop?",
+        "options": [
+            "a) Hbase",
+            "b) MongoDB",
+            "c) Cassandra",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HBase is the Hadoop database: a distributed, scalable Big Data store that lets you host very large tables \u2014 billions of rows multiplied by millions of columns \u2014 on clusters built with commodity hardware."
+    },
+    {
+        "question": "The ___________ can also be used to distribute both jars and native libraries for use in the map and/or reduce tasks.",
+        "options": [
+            "a) DataCache",
+            "b) DistributedData",
+            "c) DistributedCache",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "The child-jvm always has its current working directory added to the java.library.path and LD_LIBRARY_PATH."
+    },
+    {
+        "question": "HBase provides ___________ like capabilities on top of Hadoop and HDFS.",
+        "options": [
+            "a) TopTable",
+            "b) BigTop",
+            "c) Bigtable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": " Google Bigtable leverages the distributed data storage provided by the Google File System."
+    },
+    {
+        "question": "__________ refers to incremental costs with no major impact on solution design, performance and complexity.",
+        "options": [
+            "a) Scale-out",
+            "b) Scale-down",
+            "c) Scale-up",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Adding more CPU/RAM/Disk capacity to Hadoop DataNode that is already part of a cluster does not require additional network switches."
+    }
+]

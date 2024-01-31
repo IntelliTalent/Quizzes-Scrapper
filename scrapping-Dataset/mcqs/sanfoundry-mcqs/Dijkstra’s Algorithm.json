@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Dijkstra\u2019s Algorithm is used to solve _____________ problems.",
+        "options": [
+            "a) All pair shortest path",
+            "b) Single source shortest path",
+            "c) Network flow",
+            "d) Sorting"
+        ],
+        "answer": "b",
+        "explanation": " Dijkstra\u2019s Algorithm is used for solving single source shortest path problems. In this algorithm, a single node is fixed as a source node and shortest paths from this node to all other nodes in graph is found."
+    },
+    {
+        "question": "Which of the following is the most commonly used data structure for implementing Dijkstra\u2019s Algorithm?",
+        "options": [
+            "a) Max priority queue",
+            "b) Stack",
+            "c) Circular queue",
+            "d) Min priority queue"
+        ],
+        "answer": "d",
+        "explanation": "Minimum priority queue is the most commonly used data structure for implementing Dijkstra\u2019s Algorithm because the required operations to be performed in Dijkstra\u2019s Algorithm match with specialty of a minimum priority queue."
+    },
+    {
+        "question": "What is the time complexity of Dijikstra\u2019s algorithm?",
+        "options": [
+            "a) O(N)",
+            "b) O(N",
+            "c) O(N",
+            "d) O(logN)"
+        ],
+        "answer": "c",
+        "explanation": "Time complexity of Dijkstra\u2019s algorithm is O(N"
+    },
+    {
+        "question": "Dijkstra\u2019s Algorithm cannot be applied on ______________",
+        "options": [
+            "a) Directed and weighted graphs",
+            "b) Graphs having negative weight function",
+            "c) Unweighted graphs",
+            "d) Undirected and unweighted graphs"
+        ],
+        "answer": "b",
+        "explanation": "Dijkstra\u2019s Algorithm cannot be applied on graphs having negative weight function because calculation of cost to reach a destination node from the source node becomes complex."
+    },
+    {
+        "question": "What is the pseudo code to compute the shortest path in Dijkstra\u2019s algorithm?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": " If the known value of the adjacent vertex(w) is not set then check whether the  sum of  distance from source vertex(v) and cost to travel from source to adjacent vertex is less than the existing distance of the adjacent node. If so, perform decrease key operation."
+    },
+    {
+        "question": "How many priority queue operations are involved in Dijkstra\u2019s Algorithm?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 2",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "The number of priority queue operations involved is 3. They are insert, extract-min and decrease key."
+    },
+    {
+        "question": "How many times the insert and extract min operations are invoked per vertex?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 0"
+        ],
+        "answer": "a",
+        "explanation": "Insert and extract min operations are invoked only once per vertex because each vertex is added only once to the set and each edge in the adjacency list is examined only once during the course of algorithm."
+    },
+    {
+        "question": "The maximum number of times the decrease key operation performed in Dijkstra\u2019s algorithm will be equal to ___________",
+        "options": [
+            "a) Total number of vertices",
+            "b) Total number of edges",
+            "c) Number of vertices \u2013 1",
+            "d) Number of edges \u2013 1"
+        ],
+        "answer": "b",
+        "explanation": "If the total number of edges in all adjacency list is E, then there will be a total of E number of iterations, hence there will be a total of at most E decrease key operations."
+    },
+    {
+        "question": "What is running time of Dijkstra\u2019s algorithm using Binary min- heap method?",
+        "options": [
+            "a) O(V)",
+            "b) O(VlogV)",
+            "c) O(E)",
+            "d) O(ElogV)"
+        ],
+        "answer": "d",
+        "explanation": "Time required to build a binary min heap is O(V). Each decrease key operation takes O(logV) and there are still at most E such operations. Hence total running time is O(ElogV)."
+    },
+    {
+        "question": "The running time of Bellmann Ford algorithm is lower than that of Dijkstra\u2019s Algorithm.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "The number of iterations involved in Bellmann Ford Algorithm is more than that of Dijkstra\u2019s Algorithm."
+    },
+    {
+        "question": "Dijkstra\u2019s Algorithm run on a weighted, directed graph G={V,E} with non-negative weight function w and source s, terminates with d[u]=delta(s,u) for all vertices u in V.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The equality d[u]=delta(s,u) holds good when vertex u is added to set S and this equality is maintained thereafter by the upper bound property."
+    },
+    {
+        "question": "Given pseudo code of Dijkstra\u2019s Algorithm.",
+        "options": [],
+        "answer": "b",
+        "explanation": "In the normal execution of Dijkstra\u2019s Algorithm, the while loop gets executed V times. The change in the while loop statement causes it to execute only V \u2013 1 times."
+    },
+    {
+        "question": "Consider the following graph.",
+        "options": [
+            "a) 8",
+            "b) 9",
+            "c) 4",
+            "d) 6"
+        ],
+        "answer": "d",
+        "explanation": "The minimum cost to reach f vertex from b vertex is 6 by having vertices g and e as intermediates."
+    },
+    {
+        "question": "In the given graph, identify the shortest path having minimum cost to reach vertex E if A is the source vertex.",
+        "options": [
+            "a) a-b-e",
+            "b) a-c-e",
+            "c) a-c-d-e",
+            "d) a-c-d-b-e"
+        ],
+        "answer": "b",
+        "explanation": "The minimum cost required to travel from vertex A to E is via vertex C"
+    },
+    {
+        "question": "Dijkstra\u2019s Algorithm is the prime example for ___________",
+        "options": [
+            "a) Greedy algorithm",
+            "b) Branch and bound",
+            "c) Back tracking",
+            "d) Dynamic programming"
+        ],
+        "answer": "a",
+        "explanation": "Dijkstra\u2019s Algorithm is the prime example for greedy algorithms because greedy algorithms generally solve a problem in stages by doing what appears to be the best thing at each stage."
+    }
+]

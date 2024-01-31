@@ -1,0 +1,91 @@
+[
+    {
+        "question": "Which of the following is used for reading in saved workspaces?",
+        "options": [
+            "a) unserialize",
+            "b) load",
+            "c) get",
+            "d) set"
+        ],
+        "answer": "b",
+        "explanation": "unserialize is used for reading single R objects in binary form. Load is used for reading in saved workspaces. Search by name for an object (get) or zero or more objects (mget)."
+    },
+    {
+        "question": "Point out the wrong statement?",
+        "options": [
+            "a) write.table is used for for writing tabular data to text files (i.e. CSV) or connections",
+            "b) writeLines is used for for writing character data line-by-line to a file or connection",
+            "c) dump is used for for dumping a textual representation of multiple R objects",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "There are analogous functions for writing data to files."
+    },
+    {
+        "question": "________ is used for outputting a textual representation of an R object.",
+        "options": [
+            "a) dput",
+            "b) dump",
+            "c) dget",
+            "d) dset"
+        ],
+        "answer": "a",
+        "explanation": "dump is used for dumping a textual representation of multiple R objects."
+    },
+    {
+        "question": "Which of the following argument denotes if the file has a header line?",
+        "options": [
+            "a) header",
+            "b) sep",
+            "c) file",
+            "d) footer"
+        ],
+        "answer": "a",
+        "explanation": "sep is a string indicating how the columns are separated."
+    },
+    {
+        "question": "Point out the correct statement?",
+        "options": [
+            "a) unserialize is used for converting an R object into a binary format for outputting to a connection",
+            "b) save is used for saving an arbitrary number of R objects in binary format to a file",
+            "c) The read.data() function is one of the most commonly used functions for reading data",
+            "d) save is not used for saving an arbitrary"
+        ],
+        "answer": "b",
+        "explanation": "read.table reads a file in table format and creates a data frame from it."
+    },
+    {
+        "question": "Which of the following statement would read file \u201cfoo.txt\u201d?",
+        "options": [
+            "a) data <- read.table(\u201cfoo.txt\u201d)",
+            "b) read.data <- read.table(\u201cfoo.txt\u201d)",
+            "c) data <- read.data(\u201cfoo.txt\u201d)",
+            "d) data <- data(\u201cfoo.txt\u201d)"
+        ],
+        "answer": "a",
+        "explanation": "R will automatically skip lines that begin with a #."
+    },
+    {
+        "question": "Which of the following code would read 100 rows?",
+        "options": [
+            "a) initial <- read.table(\u201cdatatable.txt\u201d, nrows = 100)",
+            "b) tabAll <- read.table(\u201cdatatable.txt\u201d, colClasses = classes)",
+            "c) initial <- read.table(\u201cdatatable.txt\u201d, nrows = 99)",
+            "d) initial <- read.table(\u201cdatatable.txt\u201d, nrows = 101)"
+        ],
+        "answer": "a",
+        "explanation": "You can use the Unix tool wc to calculate the number of lines in a file."
+    },
+    {
+        "question": "What will be the output of the following R code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "dput() output is in the form of R code and that it preserves metadata like the class of the object, the row names, and the column names."
+    },
+    {
+        "question": "Which of the following is used for reading tabular data?",
+        "options": [],
+        "answer": "a",
+        "explanation": "Multiple objects can be deparsed at once using the dump function and read back in using source."
+    }
+]

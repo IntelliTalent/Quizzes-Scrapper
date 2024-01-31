@@ -1,0 +1,116 @@
+[
+    {
+        "question": "Use Caesar\u2019s Cipher to decipher the following",
+        "options": [
+            "a) ABANDONED LOCK",
+            "b) ENCRYPTED TEXT",
+            "c) ABANDONED TEXT",
+            "d) ENCRYPTED LOCK"
+        ],
+        "answer": "b",
+        "explanation": "Caesar Cipher uses C =(p+3) mod 26 to encrypt."
+    },
+    {
+        "question": "Caesar Cipher is an example of",
+        "options": [
+            "a) Poly-alphabetic Cipher",
+            "b) Mono-alphabetic Cipher",
+            "c) Multi-alphabetic Cipher",
+            "d) Bi-alphabetic Cipher"
+        ],
+        "answer": "b",
+        "explanation": "Caesar Cipher is an example of Mono-alphabetic cipher, as single alphabets are encrypted or decrypted at a time."
+    },
+    {
+        "question": "Monoalphabetic ciphers are stronger than Polyalphabetic ciphers because frequency analysis is tougher on the former.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Monoalphabetic ciphers are easier to break because they reflect the frequency of the original alphabet."
+    },
+    {
+        "question": "Which are the most frequently found letters in the English language ?",
+        "options": [
+            "a) e,a",
+            "b) e,o",
+            "c) e,t",
+            "d) e,i"
+        ],
+        "answer": "c",
+        "explanation": "The relativity frequency of these letters in percent : e-12.702, a-8.167, t-9.056, i-6.996, o-7.507."
+    },
+    {
+        "question": "Choose from among the following cipher systems, from best to the worst, with respect to ease of decryption using frequency analysis.",
+        "options": [
+            "a) Random Polyalphabetic, Plaintext, Playfair",
+            "b) Random Polyalphabetic, Playfair, Vignere",
+            "c) Random Polyalphabetic, Vignere, Playfair, Plaintext",
+            "d) Random Polyalphabetic, Plaintext, Beaufort, Playfair"
+        ],
+        "answer": "c",
+        "explanation": "Random Polyalphabetic is the most resistant to frequency analysis, followed by Vignere, Playfair and then Plaintext."
+    },
+    {
+        "question": "On Encrypting \u201ccryptography\u201d using Vignere Cipher System using the keyword \u201cLUCKY\u201d we get cipher text",
+        "options": [
+            "a) nlazeiibljji",
+            "b) nlazeiibljii",
+            "c) olaaeiibljki",
+            "d) mlaaeiibljki"
+        ],
+        "answer": "a",
+        "explanation": "Cipher text:=   Ci = Pi + ki mod m (mod 26)."
+    },
+    {
+        "question": "The Index of Coincidence for English language is approximately",
+        "options": [
+            "a) 0.068",
+            "b) 0.038",
+            "c) 0.065",
+            "d) 0.048"
+        ],
+        "answer": "c",
+        "explanation": "The IC for the English language is approximately 0.065."
+    },
+    {
+        "question": "If all letters have the same chance of being chosen, the IC is approximately",
+        "options": [
+            "a) 0.065",
+            "b) 0.035",
+            "c) 0.048",
+            "d) 0.038"
+        ],
+        "answer": "d",
+        "explanation": "If all letters have the same chance of being chosen, the IC is approximately 0.038, about half of the IC for the English language."
+    },
+    {
+        "question": "Consider the cipher text message with relative frequencies:",
+        "options": [
+            "a) 0.065",
+            "b) 0.048",
+            "c) 0.067",
+            "d) 0.042"
+        ],
+        "answer": "c",
+        "explanation": "Number of letters = 250. From this, IC=0.0676627. This is very strong evidence that \tthe message came from a Monoalphabetic ciphering scheme."
+    },
+    {
+        "question": "11.Consider the cipher text message:",
+        "options": [],
+        "answer": "d",
+        "explanation": "Number of letters = 145.From this, IC=0.0438697 .This is very strong evidence that the message came from a polyalphabetic ciphering scheme."
+    },
+    {
+        "question": "A symmetric cipher system has an IC of 0.041. What is the length of the key \u2018m\u2019?",
+        "options": [
+            "a) 1",
+            "b) 3",
+            "c) 2",
+            "d) 5"
+        ],
+        "answer": "d",
+        "explanation": "Using the formula for calculating \u2018m\u2019 we get m=5, where"
+    }
+]

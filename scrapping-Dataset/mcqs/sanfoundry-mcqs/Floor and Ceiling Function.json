@@ -1,0 +1,106 @@
+[
+    {
+        "question": "A floor function map a real number to ___________",
+        "options": [
+            "a) smallest previous integer",
+            "b) greatest previous integer",
+            "c) smallest following integer",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Floor function f(x) is the largest integer not greater than x."
+    },
+    {
+        "question": "A ceil function map a real number to __________",
+        "options": [
+            "a) smallest previous integer",
+            "b) greatest previous integer",
+            "c) smallest following integer",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Ceil function f(x) is the smallest  integer not less than x."
+    },
+    {
+        "question": "A function f(x) is defined as f(x) = x \u2013 [x], where [.] represents GIF then __________",
+        "options": [
+            "a) f(x) will be intergral part of x",
+            "b) f(x) will be fractional part of x",
+            "c) f(x) will always be 0",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A integral part of a number is subtracted from that number we are left with the fractional part of that number."
+    },
+    {
+        "question": "Floor(2.4) + Ceil(2.9) is equal to __________",
+        "options": [
+            "a) 4",
+            "b) 6",
+            "c) 5",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Floor(2.4) = 2, Ceil(2.9) = 3, 2 + 3 = 5."
+    },
+    {
+        "question": "For some integer n such that x < n < x + 1, ceil(x) < n.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "If  x < n < x + 1  then ceil(x) = n."
+    },
+    {
+        "question": "For some number x, Floor(x) <= x <= Ceil(x).",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Floor function f(x) is the largest integer not greater than x and ceil function f(x) is the smallest  integer not less than x."
+    },
+    {
+        "question": "If x, and y are positive numbers both are less than one, then maximum value of floor(x + y) is?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) -1"
+        ],
+        "answer": "b",
+        "explanation": "Since x < 1 and y < 1 this implies x + y < 2 which means maximium value of floor(x + y) is 1."
+    },
+    {
+        "question": "If x, and y are positive numbers both are less than one, then maximum value of ceil(x + y) is?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) -1"
+        ],
+        "answer": "c",
+        "explanation": "Since x < 1 and y < 1 this implies x + y < 2 which means maximum value of ceil(x + y) is 2."
+    },
+    {
+        "question": "If X = Floor(X) = Ceil(X) then __________",
+        "options": [
+            "a) X is a fractional number",
+            "b) X is a Integer",
+            "c) X is less than 1",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Only in case of integers  X = Floor(X) = Ceil(X) holds good."
+    },
+    {
+        "question": "Let n be some integer greater than 1,then floor((n-1)/n) is 1.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Since (n-1)/n will always be less than one thus f floor((n-1)/n) is 0."
+    }
+]

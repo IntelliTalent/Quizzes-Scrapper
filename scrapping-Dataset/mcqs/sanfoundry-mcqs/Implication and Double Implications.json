@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Let P and Q be statements, then P<->Q is logically equivalent to __________",
+        "options": [
+            "a) P<->~Q",
+            "b) ~P<->Q",
+            "c) ~P<->~Q",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Both of them have same truth table, Hence they are equal."
+    },
+    {
+        "question": "What is the negation of the statement A->(B v(or) C)?",
+        "options": [
+            "a) A \u2227 ~B \u2227 ~C",
+            "b) A->B->C",
+            "c) ~A \u2227 B v C",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A->P is logically equivalent to ~A v P."
+    },
+    {
+        "question": "The compound statement A-> (A->B) is false, then the truth values of A, B are respectively _________",
+        "options": [
+            "a) T, T",
+            "b) F, T",
+            "c) T, F",
+            "d) F, F"
+        ],
+        "answer": "c",
+        "explanation": "For implications to be false hypothesis should be true and conclusion should be false."
+    },
+    {
+        "question": "The statement which is logically equivalent to A\u2227 (and) B is?",
+        "options": [
+            "a) A->B",
+            "b) ~A \u2227 ~ B",
+            "c) A \u2227 ~B",
+            "d) ~(A->~B)"
+        ],
+        "answer": "d",
+        "explanation": "The truth table of both statements are same."
+    },
+    {
+        "question": "Let P: We give a nice overall squad performance, Q: We will win the match.",
+        "options": [
+            "a) P v Q",
+            "b) Q \u2227 P",
+            "c) Q<->P",
+            "d) ~P v Q"
+        ],
+        "answer": "c",
+        "explanation": "If and only if statements are bi-conditionals."
+    },
+    {
+        "question": "Let P, Q, R be true, false  true, respectively, which of the following is true?",
+        "options": [
+            "a) P\u2227Q\u2227R",
+            "b) P\u2227~Q\u2227~R",
+            "c) Q->(P\u2227R)",
+            "d) P->(Q\u2227R)"
+        ],
+        "answer": "c",
+        "explanation": "Hypothesis is false, hence statement is true."
+    },
+    {
+        "question": "\u201cMatch will be played only if it is not a humid day.\u201d The negation of this statement is?",
+        "options": [
+            "a) Match will be played but it is a humid day",
+            "b) Match will be played or it  is a humid day",
+            "c) All of the mentioned statement are correct",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Negation of P->Q is P\u2227~Q."
+    },
+    {
+        "question": "Consider the following statements.",
+        "options": [
+            "a) A->B->C",
+            "b) B\u2227(C->A)",
+            "c) C->B\u2227A",
+            "d) B<->A\u2227C"
+        ],
+        "answer": "b",
+        "explanation": "For conditionals statement (if then), implications are used."
+    },
+    {
+        "question": "The statement (~P<->Q)\u2227~Q is true when?",
+        "options": [
+            "a) P: True  Q: False",
+            "b) P: True Q: True",
+            "c) P: False Q: True",
+            "d) P: False Q: False"
+        ],
+        "answer": "a",
+        "explanation": "For a bi-conditional to be true both inputs should be same."
+    },
+    {
+        "question": "Let P, Q, R be true, false, false, respectively, which of the following is true?",
+        "options": [
+            "a) P\u2227(Q\u2227~R)",
+            "b) (P->Q)\u2227~R",
+            "c) Q<->(P\u2227R)",
+            "d) P<->(QvR)"
+        ],
+        "answer": "c",
+        "explanation": "For a bi-conditional to be true both inputs should be the same."
+    }
+]

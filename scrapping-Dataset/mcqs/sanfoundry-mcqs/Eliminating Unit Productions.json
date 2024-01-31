@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is the format of unit production?",
+        "options": [
+            "a) A->B",
+            "b) A->b",
+            "c) B->Aa",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Any production of the format A-> B where A and B belongs to the V set, is called Unit production."
+    },
+    {
+        "question": "Given Grammar G:",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "c",
+        "explanation": "The productions in the format A-> A are removed immediately as they produce self and that is not a terminal or will not lead to a string. Hence, it is removed immediately."
+    },
+    {
+        "question": "Given grammar:",
+        "options": [
+            "a) A",
+            "b) bb",
+            "c) aA",
+            "d) A| bb"
+        ],
+        "answer": "b",
+        "explanation": "The simplified grammar can be presented as follows:"
+    },
+    {
+        "question": "If grammar G is unambiguous, G\u2019 produced after the removal of Unit production will be:",
+        "options": [
+            "a) ambiguous",
+            "b) unambiguous",
+            "c) finite",
+            "d) cannot be said"
+        ],
+        "answer": "b",
+        "explanation": "With the simplification of Context free grammars, undesirable properties are introduced. It says, if grammar G, before simplification is unambiguous, after simplification will also be unambiguous."
+    },
+    {
+        "question": "If C is A-derivable, C->B is a production, and B \u00b9 A, then B is",
+        "options": [
+            "a) nullable",
+            "b) Non-derivable",
+            "c) A-derivable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "A can be A-> derivable if and only if __________",
+        "options": [
+            "a) A-> A is actually a production",
+            "b) A->B, B-> A exists",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The format says: If A->B is a production, B is called A-derivable.Thus A to be A-derivable, a production : A-> A need to exist."
+    },
+    {
+        "question": "Given Grammar:",
+        "options": [
+            "a) T*V",
+            "b) T+V",
+            "c) R*T",
+            "d) R*V"
+        ],
+        "answer": "d",
+        "explanation": "The grammar produced after the elimination of unit production is:"
+    },
+    {
+        "question": "Given grammar G:",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 9",
+            "d) 5"
+        ],
+        "answer": "b",
+        "explanation": "After reduction the grammar looks like:"
+    },
+    {
+        "question": "Given grammar G:",
+        "options": [
+            "a) 5",
+            "b) 4",
+            "c) 3",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "The reduced production:"
+    },
+    {
+        "question": "Which of the following variables in the given grammar is called live variable?",
+        "options": [
+            "a) S",
+            "b) A",
+            "c) B",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Any variable A for which there is a production A-> x with x \u0395 \u03a3* is called live."
+    }
+]

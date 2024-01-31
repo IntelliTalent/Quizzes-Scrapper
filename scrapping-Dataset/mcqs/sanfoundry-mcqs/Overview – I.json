@@ -1,0 +1,165 @@
+[
+    {
+        "question": "Number of Blocks in class C are \u2013",
+        "options": [
+            "a) 2",
+            "b) 2",
+            "c) 2",
+            "d) 2"
+        ],
+        "answer": "a",
+        "explanation": "Number of Blocks in class A are 2"
+    },
+    {
+        "question": "A router receives a packet with the destination address 132.7.21.84. Find the network address of the packet.",
+        "options": [
+            "a) 1.32.7",
+            "b) 132.7",
+            "c) 13.27",
+            "d) 21.84"
+        ],
+        "answer": "b",
+        "explanation": "132 is between 128 and 191, so it is Class B address i.e. n=16-bit. Therefore,"
+    },
+    {
+        "question": "If the first address is First address = 18.14.12.0/22. What is the last address?",
+        "options": [
+            "a) 18.14.15.128/22",
+            "b) 18.14.15.64/22",
+            "c) 18.14.15.32/22",
+            "d) 18.14.15.255/22"
+        ],
+        "answer": "d",
+        "explanation": "Last address = (any address) OR [NOT (network mask)]."
+    },
+    {
+        "question": "N",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "N"
+    },
+    {
+        "question": "Convert the following binary notation to hexadecimal notation \u2013",
+        "options": [
+            "a) 0x 80 0B 03 1E",
+            "b) 0x 81 0B 04 1E",
+            "c) 0x 80 0C 03 1F",
+            "d) 0x 80 0B 03 1F"
+        ],
+        "answer": "d",
+        "explanation": "Converting the binary value to their respective  hex values yields 0x 80 0B 03 1F."
+    },
+    {
+        "question": "The first address in a range of addresses is 14.11.45.96. If the number of addresses in the range is 32, what is the last address?",
+        "options": [
+            "a) 14.11.44.64",
+            "b) 14.11.44.128",
+            "c) 14.12.44.128",
+            "d) 14.11.45.127"
+        ],
+        "answer": "d",
+        "explanation": "Last Address = (14.11.45.96 + 0.0.0.31)_256 = 14.11.45.127."
+    },
+    {
+        "question": "In an IP packet, the value of HLEN is 516 and the value of the total length field is 002816.What is the efficiency of this datagram?",
+        "options": [
+            "a) 80%",
+            "b) 50%",
+            "c) 66%",
+            "d) 75%"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the last byte",
+        "options": [
+            "a) 880",
+            "b) 879",
+            "c) 881",
+            "d) 801"
+        ],
+        "answer": "b",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "Assume we need to download text documents at the rate of 100 pages per second. What is the required bit rate of the channel?",
+        "options": [
+            "a) 1.846 Mbps",
+            "b) 1.536 Mbps",
+            "c) 2.4 Mbps",
+            "d) None of the Mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Average No, of lines u=in each page = 24"
+    },
+    {
+        "question": "Generate the CRC codeword for the data word 1101011011 using generator 10011. Also write both in the polynomial form.",
+        "options": [
+            "a) 11010110110011",
+            "b) 11010110110110",
+            "c) 11010110111100",
+            "d) 11010110111110"
+        ],
+        "answer": "d",
+        "explanation": "Solve using polynomial division and then appending the remainder to the divisor."
+    },
+    {
+        "question": "A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 1000 frames per second.",
+        "options": [
+            "a) 92 frames",
+            "b) 368 frames",
+            "c) 276 frames",
+            "d) 151 frames"
+        ],
+        "answer": "b",
+        "explanation": "G =1 S=G\u00d7e\u2212G=0.368 (36.8%)"
+    },
+    {
+        "question": "After performing bit stuffing on the following stream : 01101111111111111110010, the output is-",
+        "options": [
+            "a) 01101111101111101111100010",
+            "b) 01101111111111111110010111",
+            "c) 10010000000000000000001101",
+            "d) 01101111111111111111110010"
+        ],
+        "answer": "a",
+        "explanation": "Bit stuffing involves adding a 0 after every five 1s during transmission."
+    },
+    {
+        "question": "A device that helps prevent congestion and data collisions \u2013",
+        "options": [
+            "a) Switch",
+            "b) Hub",
+            "c) Gateway",
+            "d) Proxy Server"
+        ],
+        "answer": "a",
+        "explanation": "A switch is a device that splits large networks into smaller segments, decreasing the number of users sharing the same network resources and bandwidth."
+    },
+    {
+        "question": "Which one of these does not lie in the Link Layer of the TCP/IP Model?",
+        "options": [
+            "a) DSL",
+            "b) IP",
+            "c) SONET",
+            "d) 802.11"
+        ],
+        "answer": "b",
+        "explanation": "IP (Internet Protocol) is a member of the Internet layer."
+    },
+    {
+        "question": "How many layers are present in the TCP/IP Reference model?",
+        "options": [
+            "a) 6",
+            "b) 7",
+            "c) 5",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "There are 4 layers in the TCP/IP reference model : Link, Internet, Transport and Application."
+    }
+]

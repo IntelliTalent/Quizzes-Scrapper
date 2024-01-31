@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following thing can be data in Pandas?",
+        "options": [
+            "a) a python dict",
+            "b) an ndarray",
+            "c) a scalar value",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The passed index is a list of axis labels."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) If data is a list, if index is passed the values in data corresponding to the labels in the index will be pulled out",
+            "b) NaN is the standard missing data marker used in pandas",
+            "c) Series acts very similarly to a array",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If data is a dict, if index is passed the values in data corresponding to the labels in the index will be pulled out."
+    },
+    {
+        "question": "The result of an operation between unaligned Series will have the ________ of the indexes involved.",
+        "options": [
+            "a) intersection",
+            "b) union",
+            "c) total",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If a label is not found in one Series or the other, the result will be marked as missing NaN."
+    },
+    {
+        "question": "Which of the following input can be accepted by DataFrame?",
+        "options": [
+            "a) Structured ndarray",
+            "b) Series",
+            "c) DataFrame",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "DataFrame is a 2-dimensional labeled data structure with columns of potentially different types."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) A DataFrame is like a fixed-size dict in that you can get and set values by index label",
+            "b) Series can be be passed into most NumPy methods expecting an ndarray",
+            "c) A key difference between Series and ndarray is that operations between Series automatically align the data based on label",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "A Series is like a fixed-size dict in that you can get and set values by index label."
+    },
+    {
+        "question": "Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?",
+        "options": [
+            "a) DataFrame.from_items",
+            "b) DataFrame.from_records",
+            "c) DataFrame.from_dict",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DataFrame.from_dict operates like the DataFrame constructor except for the orient parameter which is \u2018columns\u2019 by default."
+    },
+    {
+        "question": "Series is a one-dimensional labeled array capable of holding any data type.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The axis labels are collectively referred to as the index."
+    },
+    {
+        "question": "Which of the following works analogously to the form of the dict constructor?",
+        "options": [
+            "a) DataFrame.from_items",
+            "b) DataFrame.from_records",
+            "c) DataFrame.from_dict",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "DataFrame.from_records takes a list of tuples or an ndarray with structured dtype."
+    },
+    {
+        "question": "Which of the following operation works with the same syntax as the analogous dict operations?",
+        "options": [
+            "a) Getting columns",
+            "b) Setting columns",
+            "c) Deleting columns",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "You can treat a DataFrame semantically like a dict of like-indexed Series objects."
+    },
+    {
+        "question": "If data is an ndarray, index must be the same length as data.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If no index is passed, one will be created having values [0, \u2026, len(data) \u2013 1]."
+    }
+]

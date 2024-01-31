@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Larger networks would prefer a full decentralization.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Full decentralization is not practical for larger networks as there would be too many connections."
+    },
+    {
+        "question": "Which of these is not a type of session key?",
+        "options": [
+            "a) PIN-encrypting key",
+            "b) File-encrypting key",
+            "c) Session encrypting key",
+            "d) Data encrypting key"
+        ],
+        "answer": "c",
+        "explanation": "Data, PIN and File are the different session keys."
+    },
+    {
+        "question": "Which session key is used for electronic funds transfer and point of sale applications?",
+        "options": [
+            "a) Data-encrypting key",
+            "b) File-encrypting key",
+            "c) PIN-encrypting key",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "PIN-encrypting key is the session key which is used for electronic funds transfer and point of sale applications."
+    },
+    {
+        "question": "Sometimes a simple tag is introduced along with the session key. This tag has 8 bits. Which of the following options is wrong?",
+        "options": [
+            "a)  One bit indicates whether the key is a session key or a master key",
+            "b) One bit indicates whether the key can be used for encryption",
+            "c) Three bit indicates whether the key can be used for decryption",
+            "d) Remaining bits are for future use"
+        ],
+        "answer": "c",
+        "explanation": "One bit indicates whether the key can be used for decryption."
+    },
+    {
+        "question": "Hash Value = H = h(CV)",
+        "options": [
+            "a) Cipher vector",
+            "b) Current vector",
+            "c) Control vector",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "CV is known as Control Vector."
+    },
+    {
+        "question": "Which of the following is required to find the session key?",
+        "options": [
+            "i) Control Vector"
+        ],
+        "answer": "d",
+        "explanation": "We require all three to find the session key."
+    },
+    {
+        "question": "\u201cMeet in the middle attack\u201d and \u201cman in the middle attack\u201d are the same.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Man is the middle attack is different from meet in the middle attack."
+    },
+    {
+        "question": "\u201cMeet in the middle attack\u201d is an attack",
+        "options": [
+            "a) where the timing required for the attack via brute force is drastically reduced",
+            "b) where the adversary uses 2 or more machines to decrypt thus trying to reduce the time",
+            "c) where messages are intercepted and then either relayed or substituted with another message",
+            "d) where cryptanalysis takes lesser time than the brute force decryption"
+        ],
+        "answer": "c",
+        "explanation": "\u201cMeet in the middle attack\u201d is an attack where messages are intercepted and then either relayed or substituted with another message."
+    }
+]

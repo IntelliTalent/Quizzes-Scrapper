@@ -1,0 +1,94 @@
+[
+    {
+        "question": "To produce a stored function, which statement is used?",
+        "options": [
+            "a) PRODUCE FUNCTION",
+            "b) CREATE FUNCTION",
+            "c) PRODUCE PROCEDURE",
+            "d) CREATE PROCEDURE"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018CREATE FUNCTION\u2019 statement is used to create a stored function in MySQL. The \u2018CREATE PROCEDURE\u2019 statement is used to create a stored procedure instead, from which values are not returned."
+    },
+    {
+        "question": "How many values can be returned from a given stored function?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "b",
+        "explanation": "In MySQL, the stored function cannot return multiple values. Instead, multiple stored functions can be written and invoked from within a single statement however, they are different from stored procedures."
+    },
+    {
+        "question": "How many values can be returned from a stored procedure?",
+        "options": [
+            "a) 0",
+            "b) 1",
+            "c) 2",
+            "d) 3"
+        ],
+        "answer": "a",
+        "explanation": "In MySQL, unlike the stored functions, the stored procedures cannot return values. They can be used to perform calculations or produce the result sets passed back to the clients."
+    },
+    {
+        "question": "Suppose a stored function named PI() is written in the database \u2018sampdb\u2019. How would it be called?",
+        "options": [
+            "a) PI()",
+            "b) sampdb.PI()",
+            "c) MySQL.PI()",
+            "d) db.PI()"
+        ],
+        "answer": "b",
+        "explanation": "When a stored function is defined with the same name as a built in function, the function name should be qualified with the database name when it is invoked. The function \u2018PI()\u2019 is built in."
+    },
+    {
+        "question": "Which privilege must be given to the database to create a stored function or procedure?",
+        "options": [
+            "a) CREATE ROUTINE",
+            "b) CREATE METHOD",
+            "c) CREATE FUNCTION",
+            "d) CREATE PROCEDURE"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018CREATE ROUTINE\u2019 privilege must be given for the database in order to create a stored function or procedure. Stored functions and procedures always belong to a particular database."
+    },
+    {
+        "question": "Which procedure parameter enables the caller to pass in a value and get back a value?",
+        "options": [
+            "a) IN",
+            "b) OUT",
+            "c) INOUT",
+            "d) GETINOUT"
+        ],
+        "answer": "c",
+        "explanation": "In an IN parameter, the caller passes a value into the procedure. An OUT parameter is exactly the opposite. The \u2018INOUT\u2019 parameter enables the caller to pass in a value and also to get back a value."
+    },
+    {
+        "question": "The IN, OUT and INOUT keywords do not apply to stored functions.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "The IN, OUT and INOUT keywords do not apply to stored functions, triggers and events. Triggers and events do not have parameters at all. For the stored functions, all parameters are like IN parameters."
+    },
+    {
+        "question": "For the same input parameters, if the stored function returns the same result, it is called _____________",
+        "options": [
+            "a) deterministic",
+            "b) non deterministic",
+            "c) regular",
+            "d) monotonous"
+        ],
+        "answer": "a",
+        "explanation": "For the same input parameters, if the stored function returns the same result, it is called a deterministic function. Otherwise, the stored function is called not deterministic."
+    },
+    {
+        "question": "What is abc in the following MySQL statement?",
+        "options": [],
+        "answer": "a",
+        "explanation": "The \u2018DECLARE HANDLER\u2019 statement is used to declare a handler. When a condition whose value matches def, MySQL will execute ghi and either continue or exit the current code block."
+    }
+]

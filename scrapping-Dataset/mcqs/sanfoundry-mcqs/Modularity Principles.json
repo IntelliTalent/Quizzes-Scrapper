@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following fall under constructive design principles?",
+        "options": [
+            "a) Modularity principles",
+            "b) Implementary principles",
+            "c) Aesthetic principles",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned principles are known as constructive design principles."
+    },
+    {
+        "question": "What is the Aesthetic principle among the following?",
+        "options": [
+            "a) High quality programs can be constructed from self contained,  understandable parts or modules",
+            "b) A design will be more or less easy to be build",
+            "c) Beauty is one of the important factor to be acknowledged as design principle",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Aesthetic principle states Beauty as one of the most important factor to be acknowledged."
+    },
+    {
+        "question": "Which of these distinctions of modular programs over non modular are true?",
+        "options": [
+            "a) They are not that easier to understand and explain",
+            "b) They are not easier to document",
+            "c) They are easier to change",
+            "d) Testing and Debugging is complex comparatively"
+        ],
+        "answer": "c",
+        "explanation": "Modular programs are easier to explain and understand,  easier to document, easier to change and also easier to test and debug."
+    },
+    {
+        "question": "Which of these comes under the Modularity principle?",
+        "options": [
+            "a) Small modules",
+            "b) Coupling",
+            "c) Cohesion",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All the mentioned follows the modularity principle."
+    },
+    {
+        "question": "What does Coupling mean?",
+        "options": [
+            "a) Coupling is the degree of connection between pair of module",
+            "b) Coupling is the degree to which a module\u2019s part are related to one another",
+            "c) All of the mentioned",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Coupling is the degree of connection between pair of module."
+    },
+    {
+        "question": "Which of the following is true?",
+        "options": [
+            "a) Module coupling should be maximized",
+            "b) Module cohesion should be minimized",
+            "c) Modules should not have access to unneeded resources",
+            "d) Design with small modules are not better"
+        ],
+        "answer": "c",
+        "explanation": "Module coupling should be minimized,  module cohesion should be maximized,  design with small modules are always better,  modules should not access unneeded resources( principle of least privilege)."
+    },
+    {
+        "question": "Which of the following information should be kept hidden?",
+        "options": [
+            "a) Internal data representation such as data types and structures",
+            "b) Volatile design decisions such as size, capacities, waiting time etc",
+            "c) Names, parameters, return types of operations provided by module",
+            "d) Internal data representation and volatile design decisions should be kept hidden"
+        ],
+        "answer": "d",
+        "explanation": "Names,  parameters,  return type are public information need not be hidden whereas internal data representation and volatile design decisions should be kept hidden."
+    },
+    {
+        "question": "Which of the following violates principle of least privilege?",
+        "options": [
+            "a) Modules that import packages",
+            "b) Modules with unneeded access to files",
+            "c) Classes with reference to Objects",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "All of the mentioned statements violated principle of least privilege."
+    },
+    {
+        "question": "Which of these is correct with context to coupling?",
+        "options": [
+            "a) Failure to hide information leads to loose coupling and cannot be avoided",
+            "b) Modules that communicate using special data types and structures are less tightly coupled than modules with simple values",
+            "c) When modules communicate only through public module interface,  their coupling strength is proportional to the number of messages and number of data passed in between",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Failure to hide information leads to tight coupling,  Modules with special data types are more tightly coupled."
+    },
+    {
+        "question": "Which of these is correct with the context of cohesion?",
+        "options": [
+            "a) Cohesion is least in modules that have a single clear,  logically independent responsibility or role",
+            "b) Cohesion can not be achieved by forming modules that implement data types",
+            "c) One way to increase cohesion is to build a module hierarchy reflecting the level of abstraction in a program",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Cohesion is highest in modules that have a single clear,  logically independent responsibility or role, Cohesion can be easily achieved by forming modules that implement data types are the correct statements."
+    }
+]

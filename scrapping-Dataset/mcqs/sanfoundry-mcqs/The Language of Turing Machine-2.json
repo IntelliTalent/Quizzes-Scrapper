@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The class of recursively enumerable language is known as:",
+        "options": [
+            "a) Turing Class",
+            "b) Recursive Languages",
+            "c) Universal Languages",
+            "d) RE"
+        ],
+        "answer": "d",
+        "explanation": "RE or recursively enumerable is only called the class of recursively enumerable language."
+    },
+    {
+        "question": "A language L is said to be Turing decidable if:",
+        "options": [
+            "a) recursive",
+            "b) TM recognizes L",
+            "c) TM accepts L",
+            "d) recursive & TM recognizes L"
+        ],
+        "answer": "d",
+        "explanation": "A language L is recursively enumerable if there is a turing machine that accepts L, and recursive if there is a TM that recognizes L.(Sometimes these languages are alse called Turing-acceptable and Turing-decidable respectively)."
+    },
+    {
+        "question": "Which of the following statements are false?",
+        "options": [
+            "a) Every recursive language is recursively enumerable",
+            "b) Recursively enumerable language may not be recursive",
+            "c) Recursive languages may not be recursively enumerable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Every recursive language is recursively enumerable but there exists recursively enumerable languages that are not recursive. If L is accepted by a Non deterministic TM  T, and every possible sequence of moves of T causes it to halt, then L is recursive."
+    },
+    {
+        "question": "Choose the correct option:",
+        "options": [
+            "a) L1 U L2",
+            "b) L2 \u2229 L2",
+            "c) Both L1 U L2 and L2 \u2229 L2",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Both the union and intersection operations preserve the property of recursive enumerablity(Theorem)."
+    },
+    {
+        "question": "If L is a recursive language, L\u2019 is:",
+        "options": [
+            "a) Recursive",
+            "b) Recursively Enumerable",
+            "c) Recursive and Recursively Enumerable",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "If T is a turing machine recognizing L, we can make it recognize L\u2019 by interchanging the two outputs. And every recursive language is recursively enumerable."
+    },
+    {
+        "question": "Choose the appropriate option:",
+        "options": [
+            "a) Union",
+            "b) Intersection",
+            "c) Complement",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "The closure property of recursive languages include union, intersection and complement operations."
+    },
+    {
+        "question": "A recursively enumerable language L can be recursive if:",
+        "options": [
+            "a) L\u2019 is recursively enumerable",
+            "b) Every possible sequence of moves of T, the TM which accept L, causes it to halt",
+            "c) L\u2019 is recursively enumerable and every possible sequence of moves of T, the TM which accept L, causes it to halt",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Theorem- If L is a recursively enumerable language whose complement is recursively enumerable, then L is recursive."
+    },
+    {
+        "question": "A language L is recursively enumerable if L=L(M) for some turing machine M.",
+        "options": [
+            "a) yes  w \u2208 L",
+            "b) no w \u2209 L",
+            "c) M does not halt w \u2209 L",
+            "d) None of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Explanation:"
+    },
+    {
+        "question": "State true or false:",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "a",
+        "explanation": "To enumerate a set means to list the elements once at a time, and to say that a set is enumerable should perhaps mean that there exists an algorithm for enumerating it."
+    },
+    {
+        "question": "A Language L may not be accepted by a Turing Machine if:",
+        "options": [
+            "a) It is recursively enumerable",
+            "b) It is recursive",
+            "c) L can be enumerated by some turing machine",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "A language L is recursively enumerable if and only if it can be enumerated by some turing machine. A recursive enumerable language may or may not be recursive."
+    }
+]

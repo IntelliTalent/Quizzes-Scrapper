@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which of the following is correct about regularized regression?",
+        "options": [
+            "a) Can help with bias trade-off",
+            "b) Cannot help with model selection",
+            "c) Cannot help with variance trade-off",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Regularized regression does not perform as well as random forest."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Model based approach may be computationally convenient",
+            "b) Model based approach use Bayes theorem",
+            "c) Model based approach are reasonably inaccurate on real problems",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Model based approach are reasonably accurate on real problems."
+    },
+    {
+        "question": "Which of the following methods are present in caret for regularized regression?",
+        "options": [
+            "a) ridge",
+            "b) lasso",
+            "c) relaxo",
+            "d) all of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "In caret one can tune over the no of predictors to retain instead of defined values for penalty."
+    },
+    {
+        "question": "Which of the following method can be used to combine different classifiers?",
+        "options": [
+            "a) Model stacking",
+            "b) Model combining",
+            "c) Model structuring",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Model ensembling is also used for combining different classifiers."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) Combining classifiers improves interpretability",
+            "b) Combining classifiers reduces accuracy",
+            "c) Combining classifiers improves accuracy",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "You can combine classifier by averaging."
+    },
+    {
+        "question": "Which of the following function provides unsupervised prediction?",
+        "options": [
+            "a) cl_forecast",
+            "b) cl_nowcast",
+            "c) cl_precast",
+            "d) none of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "cl_predict function is clue package provides unsupervised prediction."
+    },
+    {
+        "question": "Model based prediction considers relatively easy version for covariance matrix.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Model based prediction considers relatively easy version for covariance matrix."
+    },
+    {
+        "question": "Which of the following is used to assist the quantitative trader in the development?",
+        "options": [
+            "a) quantmod",
+            "b) quantile",
+            "c) quantity",
+            "d) mboost"
+        ],
+        "answer": "a",
+        "explanation": "Quandl package is similar to quantmod."
+    },
+    {
+        "question": "Which of the following function can be used for forecasting?",
+        "options": [
+            "a) predict",
+            "b) forecast",
+            "c) ets",
+            "d) all of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Forecasting is the process of making predictions of the future based on past and present data and analysis of trends."
+    },
+    {
+        "question": "Predictive analytics is same as forecasting.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Predictive analytics goes beyond forecasting."
+    }
+]

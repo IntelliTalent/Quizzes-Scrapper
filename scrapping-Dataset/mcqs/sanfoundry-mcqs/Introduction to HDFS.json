@@ -1,0 +1,145 @@
+[
+    {
+        "question": "A ________ serves as the master and there is only one NameNode per cluster.",
+        "options": [
+            "a) Data Node",
+            "b) NameNode",
+            "c) Data block",
+            "d) Replication"
+        ],
+        "answer": "b",
+        "explanation": "All the metadata related to HDFS including the information about data nodes, files stored on HDFS, and Replication, etc. are stored and maintained on the NameNode."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) DataNode is the slave/worker node and holds the user data in the form of Data Blocks",
+            "b) Each incoming file is broken into 32 MB by default",
+            "c) Data blocks are replicated across different nodes in the cluster to ensure a low degree of fault tolerance",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There can be any number of DataNodes in a Hadoop Cluster."
+    },
+    {
+        "question": "HDFS works in a  __________ fashion.",
+        "options": [
+            "a) master-worker",
+            "b) master-slave",
+            "c) worker/slave",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "NameNode servers as the master and each DataNode servers as a worker/slave"
+    },
+    {
+        "question": "________ NameNode is used when the Primary NameNode goes down.",
+        "options": [
+            "a) Rack",
+            "b) Data",
+            "c) Secondary",
+            "d) None of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Secondary namenode is used for all time availability and reliability."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) Replication Factor can be configured at a cluster level (Default is set to 3) and also at a file level",
+            "b) Block Report from each DataNode contains a list of all the blocks that are stored on that DataNode",
+            "c) User data is stored on the local file system of DataNodes",
+            "d) DataNode is aware of the files to which the blocks stored on it belong to"
+        ],
+        "answer": "d",
+        "explanation": " NameNode is aware of the files to which the blocks stored on it belong to."
+    },
+    {
+        "question": "The need for data replication can arise in various scenarios like ____________",
+        "options": [
+            "a) Replication Factor is changed",
+            "b) DataNode goes down",
+            "c) Data Blocks get corrupted",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Data is replicated across different DataNodes to ensure a high degree of fault-tolerance."
+    },
+    {
+        "question": "________ is the slave/worker node and holds the user data in the form of Data Blocks.",
+        "options": [
+            "a) DataNode",
+            "b) NameNode",
+            "c) Data block",
+            "d) Replication"
+        ],
+        "answer": "a",
+        "explanation": " A DataNode stores data in the [HadoopFileSystem]. A functional filesystem has more than one DataNode, with data replicated across them."
+    },
+    {
+        "question": "HDFS provides a command line interface called __________ used to interact with HDFS.",
+        "options": [
+            "a) \u201cHDFS Shell\u201d",
+            "b) \u201cFS Shell\u201d",
+            "c) \u201cDFS Shell\u201d",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "The File System (FS) shell includes various shell-like commands that directly interact with the Hadoop Distributed File System (HDFS)."
+    },
+    {
+        "question": "HDFS is implemented in _____________ programming language.",
+        "options": [
+            "a) C++",
+            "b) Java",
+            "c) Scala",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HDFS is implemented in Java and any computer which can run Java can host a NameNode/DataNode on it."
+    },
+    {
+        "question": "For YARN, the ___________ Manager UI provides host and port information.",
+        "options": [
+            "a) Data Node",
+            "b) NameNode",
+            "c) Resource",
+            "d) Replication"
+        ],
+        "answer": "c",
+        "explanation": "All the metadata related to HDFS including the information about data nodes, files stored on HDFS, and Replication, etc. are stored and maintained on the NameNode."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) The Hadoop framework publishes the job flow status to an internally running web server on the master nodes of the Hadoop cluster",
+            "b) Each incoming file is broken into 32 MB by default",
+            "c) Data blocks are replicated across different nodes in the cluster to ensure a low degree of fault tolerance",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The web interface for the Hadoop Distributed File System (HDFS) shows information about the NameNode itself."
+    },
+    {
+        "question": "For ________ the HBase Master UI provides information about the HBase Master uptime.",
+        "options": [
+            "a) HBase",
+            "b) Oozie",
+            "c) Kafka",
+            "d) All of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "HBase Master UI provides information about the num\u00adber of live, dead and transitional servers, logs, ZooKeeper information, debug dumps, and thread stacks."
+    },
+    {
+        "question": "During start up, the ___________ loads the file system state from the fsimage and the edits log file.",
+        "options": [
+            "a) DataNode",
+            "b) NameNode",
+            "c) ActionNode",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "HDFS is implemented on any computer which can run Java can host a NameNode/DataNode on it."
+    }
+]

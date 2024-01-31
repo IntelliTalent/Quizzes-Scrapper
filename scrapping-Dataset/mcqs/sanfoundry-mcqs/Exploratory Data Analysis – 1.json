@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Which of the following is a principle of analytic graphics?",
+        "options": [
+            "a) Don\u2019t plot more than two variables at at time",
+            "b) Make judicious use of color in your scatterplots",
+            "c) Show box plots (univariate summaries)",
+            "d) Show causality, mechanism, explanation"
+        ],
+        "answer": "d",
+        "explanation": "Only do what your tools allow you to do."
+    },
+    {
+        "question": "What is the role of exploratory graphs in data analysis?",
+        "options": [
+            "a) They are made for formal presentations",
+            "b) They are typically made very quickly",
+            "c) Axes, legends, and other details are clean and exactly detailed",
+            "d) They are used in place of formal modeling"
+        ],
+        "answer": "b",
+        "explanation": "EDA is used to summarize main characteristic of data."
+    },
+    {
+        "question": "Which of the following is true about the base plotting system?",
+        "options": [
+            "a) Margins and spacings are adjusted automatically depending on the type of plot and the data",
+            "b) Plots are typically created with a single function call",
+            "c) Plots are created and annotated with separate functions",
+            "d) The system is most useful for conditioning plots"
+        ],
+        "answer": "c",
+        "explanation": "Functions like \u2018plot\u2019 or \u2018hist\u2019 typically create the plot on the graphics device and functions like \u2018lines\u2019, \u2018text\u2019, or \u2018points\u2019 will annotate or add data"
+    },
+    {
+        "question": "Which of the following is an example of a valid graphics device in R?",
+        "options": [
+            "a) A socket connection",
+            "b) A Microsoft Word document",
+            "c) A PDF file",
+            "d) A file folder"
+        ],
+        "answer": "c",
+        "explanation": "PNG file is also valid graphics device."
+    },
+    {
+        "question": "Which of the following is an example of a vector graphics device in R?",
+        "options": [
+            "a) JPEG",
+            "b) PNG",
+            "c) GIF",
+            "d) SVG"
+        ],
+        "answer": "d",
+        "explanation": "SVG stands for scalable vector graphics."
+    },
+    {
+        "question": "Bitmapped file formats can be most useful for ____________",
+        "options": [
+            "a) Plots that may need to be resized",
+            "b) Plots that require animation or interactivity",
+            "c) Plots that are not scaled to a specific resolution",
+            "d) Scatterplots with many many points"
+        ],
+        "answer": "d",
+        "explanation": "Scatterplots would be used frequently for particular dimension."
+    },
+    {
+        "question": "Which of the following functions is typically used to add elements to a plot in the base graphics system?",
+        "options": [
+            "a) lines()",
+            "b) hist()",
+            "c) plot()",
+            "d) boxplot()"
+        ],
+        "answer": "d",
+        "explanation": "text() also can be used to add elements to a plot. boxplot() used to add elements to a plot in the base graphics system."
+    },
+    {
+        "question": "Which function opens the screen graphics device for the Mac?",
+        "options": [
+            "a) bitmap()",
+            "b) quartz()",
+            "c) pdf()",
+            "d) png()"
+        ],
+        "answer": "b",
+        "explanation": "quartz starts a graphics device driver for the Mac."
+    },
+    {
+        "question": "What does the \u2018pch\u2019 option to par() control?",
+        "options": [
+            "a) the size of the plotting symbol in a scatterplot",
+            "b) the line width in the base graphics system",
+            "c) the orientation of the axis labels on the plot",
+            "d) the plotting symbol/character in the base graphics system"
+        ],
+        "answer": "d",
+        "explanation": "R makes it easy to combine multiple plots into one overall graph, using either the par ( ) or layout( ) function."
+    },
+    {
+        "question": "If I want to save a plot to a PDF file, which of the following is a correct way of doing that?",
+        "options": [
+            "a) Construct the plot on the screen device and then copy it to a PDF file with dev.copy2pdf()",
+            "b) Construct the plot on the PNG device with png(), then copy it to a PDF with dev.copy2pdf()",
+            "c) Open the PostScript device with postscript(), construct the plot, then close the device with dev.off()",
+            "d) Open the screen device with quartz(), construct the plot, and then close the device with dev.off()"
+        ],
+        "answer": "a",
+        "explanation": "With the par( ) function, you can include the option mfrow=c(nrows, ncols) to create a matrix of nrows x ncols plots that are filled in by row."
+    }
+]

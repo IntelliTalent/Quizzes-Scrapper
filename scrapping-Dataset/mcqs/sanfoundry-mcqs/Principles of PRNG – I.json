@@ -1,0 +1,99 @@
+[
+    {
+        "question": "PRNG stands for",
+        "options": [
+            "a) Personal Random Number Generation",
+            "b) Pseudo Random Number Generation",
+            "c) Primitive Number Generators",
+            "d) Private Number Generators"
+        ],
+        "answer": "b",
+        "explanation": "PRNG stands for Pseudo Random Number Generation."
+    },
+    {
+        "question": "TRNG stands for",
+        "options": [
+            "a) True Random Number Generation",
+            "b) Trust Random Number Generation",
+            "c) Text Ring Number Generators",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "TRNG stands for True Random Number Generation."
+    },
+    {
+        "question": "A rule to check for a large number N being a prime number",
+        "options": [
+            "a) by dividing N by every even interger less than N/2",
+            "b) by dividing N by every odd interger less than root(N)",
+            "c) by dividing N by every even interger less than root(N)",
+            "d) by dividing N by every interger less than N/2"
+        ],
+        "answer": "b",
+        "explanation": "A rule for checking if a number N is a prime is by dividing N by every odd interger less than root(N)."
+    },
+    {
+        "question": "PRNGs are derived through algorithms.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "PRNGs are derived through algorithms. These algorithms are deterministic and therefore produce sequences of numbers that are not statistically random. Thus we should choose an algorithm which provides a high degree of randomness."
+    },
+    {
+        "question": "TRNGs take in an input which is referred to as",
+        "options": [
+            "a) random variable",
+            "b) external variable",
+            "c) entropy source",
+            "d) bit stream"
+        ],
+        "answer": "c",
+        "explanation": "TRNGs use an input known as \u201centropy source\u201d which is an input source that is effectively random."
+    },
+    {
+        "question": "Which of the following produces an output of fixed length?",
+        "options": [
+            "a) PRNG",
+            "b) TRNG",
+            "c) PRF",
+            "d) All of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Only PRFs produce an output of fixed length. TRNGs and PRNGs have open ended outputs."
+    },
+    {
+        "question": "Which of the following a is NOT a check for randomness?",
+        "options": [
+            "a) Uniformity",
+            "b) Scalability",
+            "c) Consistency",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "Uniformity, Scalability and Consistency are all checks for randomness of a PRNG."
+    },
+    {
+        "question": "The property that there should be equally likely number of 1s and 0s in a Pseudo Random Number sequence is",
+        "options": [
+            "a) Scalability",
+            "b) Uniformity",
+            "c) Stability",
+            "d) Consistency"
+        ],
+        "answer": "b",
+        "explanation": "This is the property of Uniformity."
+    },
+    {
+        "question": "The property that any extracted subsequence should pass the test for randomness is",
+        "options": [
+            "a) Scalability",
+            "b) Uniformity",
+            "c) Stability",
+            "d) Consistency"
+        ],
+        "answer": "a",
+        "explanation": "Scalability is the property where any extracted subsequence should pass the test for randomness."
+    }
+]

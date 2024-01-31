@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What is meant by the term lexicographical order?",
+        "options": [
+            "a) dictionary ordering of elements",
+            "b) reverse dictionary ordering of elements",
+            "c) to sort according to value of first element",
+            "d) to sort according to value of last element"
+        ],
+        "answer": "a",
+        "explanation": "Lexicographical order is also known as dictionary order. It is a generalized method of the way words are alphabetically ordered in a dictionary."
+    },
+    {
+        "question": "How many combinations of 2 elements will be formed from the array arr={1,2,3}?",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "c",
+        "explanation": "No.of combinations of r elements for an array of size n will be given by the formula nCr. So for the given problem, we have 3C2=3."
+    },
+    {
+        "question": "What will be the lexicographical order of combinations of 2 elements each formed from the array arr={1,2,3}?",
+        "options": [
+            "a) {{2,1},{3,2},{3,1}}",
+            "b) {{1,2},{2,3},{1,3}}",
+            "c) {{1,2},{1,3},{2,3}}",
+            "d) {{2,1},{3,1},{3,2}}"
+        ],
+        "answer": "c",
+        "explanation": "The number of combinations for the problem will be 3 according to the formula 3C2. When ordered in lexicographical manner these will be {{1,2},{1,3},{2,3}}."
+    },
+    {
+        "question": "What will be the auxiliary space requirement (excluding call stack) of the program to print combinations of r elements each from array of size n?",
+        "options": [
+            "a) O(n*r)",
+            "b) O(n/r)",
+            "c) O(n)",
+            "d) O(r)"
+        ],
+        "answer": "d",
+        "explanation": "Code to print combinations will require an auxiliary space of O(r) other than call stack memory. This memory is required by an array that is used for storing combinations formed."
+    },
+    {
+        "question": "The code for printing combinations is in-place.",
+        "options": [
+            "a) true",
+            "b) false"
+        ],
+        "answer": "b",
+        "explanation": "Code to print combinations will require an auxiliary space of O(r) other than call stack memory. So it is not an in-place algorithm."
+    },
+    {
+        "question": "What will be the time complexity of the code to print combinations?",
+        "options": [
+            "a) O(n)",
+            "b) O(n",
+            "c) O(n log n)",
+            "d) O(2"
+        ],
+        "answer": "d",
+        "explanation": "The recurrence relation of the code to print combinations will be T(n)=2T(n-1)+k. It is found to be equal to O(2"
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "b",
+        "explanation": "The given code prints the combinations of the given array in lexicographical order.The given code considers the duplicate 2s as different entities.Note that the comma is printed even for the last combination."
+    },
+    {
+        "question": "Which of the following code prints the combinations of a given array?",
+        "options": [
+            "a)"
+        ],
+        "answer": "b",
+        "explanation": "In the code we start from first index (index = 0) in array aux and one by one fix elements at this index and recur for remaining indexes. Finally, when index becomes equal to r we print the combination."
+    },
+    {
+        "question": "Which of the following code prints the combinations of a given array?",
+        "options": [
+            "a)"
+        ],
+        "answer": "a",
+        "explanation": "In this method we consider each method one by one and recur for two cases.In first case we include that element in our array and in second case we don\u2019t .When the number of elements in the array aux[] becomes equal to r then we print that combination."
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "The given code prints the combinations of the given array in lexicographical order.Note that the comma is printed even for the last combination."
+    },
+    {
+        "question": "What will be the output for the following code?",
+        "options": [],
+        "answer": "c",
+        "explanation": "Explanation:The given code prints combination of the elements of a given array.But the difference here is that this code also handles duplicate elements due to which we get only 2 combinations instead of 3."
+    }
+]

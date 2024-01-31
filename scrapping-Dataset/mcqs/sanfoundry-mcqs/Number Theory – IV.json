@@ -1,0 +1,132 @@
+[
+    {
+        "question": "What is the Discrete logarithm to the base 10 (mod 19) for a =7?",
+        "options": [
+            "a) 12",
+            "b) 14",
+            "c) 8",
+            "d) 11"
+        ],
+        "answer": "a",
+        "explanation": "log_10(7) mod 19 = 12."
+    },
+    {
+        "question": "3",
+        "options": [
+            "a) 3",
+            "b) 5",
+            "c) 6",
+            "d) 10"
+        ],
+        "answer": "a",
+        "explanation": "Use Fermats Theorum. Fermat\u2019s Theorem states that if p is prime and a is a positive integer not divisible"
+    },
+    {
+        "question": "Find a number x between 0 and 28 with x^85 congruent to 6 mod 29.",
+        "options": [
+            "a) 22",
+            "b) 12",
+            "c) 6",
+            "d) 18"
+        ],
+        "answer": "c",
+        "explanation": "Use Fermats Theorum."
+    },
+    {
+        "question": "What is the Discrete logarithm to the base 13 (mod 19) for a =13?",
+        "options": [
+            "a) 14",
+            "b) 1",
+            "c) 8",
+            "d) 17"
+        ],
+        "answer": "b",
+        "explanation": "log_13(13) mod 19 = 1."
+    },
+    {
+        "question": "What is the Discrete logarithm to the base 15 (mod 19) for a =9?",
+        "options": [
+            "a) 3",
+            "b) 7",
+            "c) 12",
+            "d) 4"
+        ],
+        "answer": "d",
+        "explanation": "log_15(9) mod 19 = 4."
+    },
+    {
+        "question": "Find a number \u2018a\u2019 between 0 and 72 with \u2018a\u2019 congruent to 9794 mod 73.",
+        "options": [
+            "a) 53",
+            "b) 29",
+            "c) 12",
+            "d) 37"
+        ],
+        "answer": "c",
+        "explanation": "Use Fermats Theorum."
+    },
+    {
+        "question": "What is the Discrete logarithm to the base 2 (mod 19) for a =7?",
+        "options": [
+            "a) 3",
+            "b) 4",
+            "c) 6",
+            "d) 9"
+        ],
+        "answer": "c",
+        "explanation": "log_2(7) mod 19 = 6."
+    },
+    {
+        "question": "\u1db2(41)=",
+        "options": [
+            "a) 40",
+            "b) 20",
+            "c) 18",
+            "d) 22"
+        ],
+        "answer": "a",
+        "explanation": "41 is a prime."
+    },
+    {
+        "question": "\u1db2(27)=",
+        "options": [
+            "a) 6",
+            "b) 12",
+            "c) 26",
+            "d) 18"
+        ],
+        "answer": "d",
+        "explanation": "\u1db2(27) = \u1db2(33) = 3"
+    },
+    {
+        "question": "Find a number \u2018a\u2019 between 0 and 9  such that \u2018a\u2019 is congruent to 7^1000 mod 10.",
+        "options": [
+            "a) 2",
+            "b) 1",
+            "c) 3",
+            "d) 4"
+        ],
+        "answer": "b",
+        "explanation": "Use Eulers Theorum."
+    },
+    {
+        "question": "\u1db2(440)=",
+        "options": [
+            "a) 200",
+            "b) 180",
+            "c) 160",
+            "d) 220"
+        ],
+        "answer": "c",
+        "explanation": "\u1db2(440) = \u1db2(2^3) x \u1db2(5) x \u1db2(11) = (2^3 \u2013 2^2) x 4 x 10 = 160."
+    },
+    {
+        "question": "GCD(n,n+1) = 1 always.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "If p were any prime dividing n and n + 1 it would also have to divide (n + 1) \u2013 n = 1. Thus GCD of 2 consecutive numbers is always 1."
+    }
+]

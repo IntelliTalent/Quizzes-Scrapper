@@ -1,0 +1,101 @@
+[
+    {
+        "question": "_________ operations that use an index often have better performance than those that do not use an index.",
+        "options": [
+            "a) Select",
+            "b) Update",
+            "c) Delete",
+            "d) Sort"
+        ],
+        "answer": "d",
+        "explanation": "In MongoDB, sort operations can obtain the sort order by retrieving documents based on the ordering in an index."
+    },
+    {
+        "question": "Point out the wrong statement.",
+        "options": [
+            "a) The query scans the index and the collection",
+            "b) An index supports a query when the index contains all the fields scanned by the query",
+            "c) Creating indexes that support queries results in greatly increased query performance",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "The query scans the index and not the collection."
+    },
+    {
+        "question": "A prefix of a _______ index is a subset that consists of one or more keys at the start of the index key pattern.",
+        "options": [
+            "a) unique",
+            "b) primary",
+            "c) compound",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the sort keys correspond to the index keys or an index prefix, MongoDB can use the index to sort the query results."
+    },
+    {
+        "question": "Sort operations that do not use an index will abort when they use _______ megabytes of memory.",
+        "options": [
+            "a) 16",
+            "b) 32",
+            "c) 64",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "If the query planner cannot obtain the sort order from an index, it will sort the results in memory."
+    },
+    {
+        "question": "Point out the correct statement.",
+        "options": [
+            "a) If you only ever query on a single key in a given collection, then you need to create just multikey index for that collection",
+            "b) If you sometimes query on only one key and at other times query on that key combined with a second key, then creating a compound index is more efficient than creating a single-key index",
+            "c) The choice between creating compound indexes that support your queries or relying on index intersection is independent of specifics of your system",
+            "d) None of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "MongoDB will use the compound index for both queries."
+    },
+    {
+        "question": "An index can support sort operations on a non-prefix subset of the index key pattern using _________ condition.",
+        "options": [
+            "a) predicate",
+            "b) selection",
+            "c) equality",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "Query must include equality conditions on all the prefix keys that precede the sort keys."
+    },
+    {
+        "question": "__________ method provides a wrapper around the totalIndexSize output of the collStats (i.e. db.collection.stats()) operation.",
+        "options": [
+            "a) db.collection.totalallIndexSize()",
+            "b) db.collection.totalIndexSizeAll()",
+            "c) db.collection.totalIndexSize()",
+            "d) all of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "To check the size of your indexes, use the db.collection.totalIndexSize() helper, which returns data in bytes."
+    },
+    {
+        "question": "Indexes do not have to fit entirely into ______ in all cases.",
+        "options": [
+            "a) ROM",
+            "b) RAM",
+            "c) Secondary Storage",
+            "d) None of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "There are some limited cases where indexes do not need to fit in memory."
+    },
+    {
+        "question": "________ is the ability of a query to narrow results using the index.",
+        "options": [
+            "a) Causality",
+            "b) Cardinality",
+            "c) Selectivity",
+            "d) All of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "Effective indexes are more selective and allow MongoDB to use the index for a larger portion of the work associated with fulfilling the query."
+    }
+]

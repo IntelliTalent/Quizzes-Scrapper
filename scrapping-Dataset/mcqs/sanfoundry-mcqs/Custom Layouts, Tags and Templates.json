@@ -1,0 +1,157 @@
+[
+    {
+        "question": "A Grails view can contain:-",
+        "options": [
+            "a) HTML Tags",
+            "b) GSP or JSTL Tags",
+            "c) Groovy or Java code",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "A Grails view can contain display elements (e.g., HTML tags), business logic elements (e.g., GSP or JSTL tags) or straightforward Groovy or Java code to achieve its display objectives."
+    },
+    {
+        "question": "A view can require a unique combination of display elements and business logic.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "To simplify the inclusion of such a combination and facilitate its reuse in multiple views a custom tag can be used."
+    },
+    {
+        "question": "To create custom tags.",
+        "options": [
+            "a) grails create tag",
+            "b) grails create-tag-lib  tag-lib-name",
+            "c) all of the mentioned",
+            "d) none of the mentioned"
+        ],
+        "answer": "b",
+        "explanation": "To create custom tags, you can use the grails create-tag-lib tag-lib-name command."
+    },
+    {
+        "question": "grails create-tag-lib tag-lib-name command creates a custom tag library under:-",
+        "options": [
+            "a) /grails-app/tag/",
+            "b) /grails-app/",
+            "c) /grails-app/tag-lib/",
+            "d) none of the mentioned"
+        ],
+        "answer": "c",
+        "explanation": "This command creates a skeleton class for a custom tag library under an application\u2019s /grails-app/tag-lib/ directory."
+    },
+    {
+        "question": "In order for this custom tag to function properly in JSP, it\u2019s necessary to add it to the corresponding Tag Library Definition (TLD) grails.tld.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "TLDs are located in an application\u2019s /web-app/WEB-INF/tld/ directory."
+    },
+    {
+        "question": "Custom tags can also rely on input parameters.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "Custom tags can also rely on input parameters passed in as tag attributes to perform a backing class\u2019s logic."
+    },
+    {
+        "question": "By default, Grails assigns custom tags to:-",
+        "options": [
+            "a) g: namespace",
+            "b) f: namespace",
+            "c) j: namespace",
+            "d) all of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Finally, a word about the namespace used in Grails custom tags\u2014by default, Grails assigns custom tags to the g: namespace."
+    },
+    {
+        "question": "By default, Grails applies a global layout to display an application\u2019s content.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "This allows views to have a minimal set of display elements (e.g., HTML, CSS, and JavaScript) and inherit their layout behavior from a separate location."
+    },
+    {
+        "question": "Grails doesn\u2019t supports the concept of templates.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "b",
+        "explanation": "Grails also supports the concept of templates, which serve the same purpose as layouts, except applied at a more granular level. In addition, it\u2019s also possible to use templates for rendering a controller\u2019s output, instead of a view as in most controllers."
+    },
+    {
+        "question": "Where is subdirectory called layouts located, containing the layouts available to an application?",
+        "options": [
+            "a) /grails-app/view/",
+            "b) /grails-app/",
+            "c) /grails-app/view/WEB-INF",
+            "d) none of the mentioned"
+        ],
+        "answer": "a",
+        "explanation": "Inside the /grails-app/view/ directory of an application, you can find a subdirectory called layouts, containing the layouts available to an application."
+    },
+    {
+        "question": "Tag is used to define the contents of a layout\u2019s title section.",
+        "options": [
+            "a) g:layoutTitle",
+            "b) g:layoutHead",
+            "c) g:layoutBody",
+            "d) g:layoutMeta"
+        ],
+        "answer": "a",
+        "explanation": "The g:layoutTitle tag is used to define the contents of a layout\u2019s title section."
+    },
+    {
+        "question": "Tag is used to define the contents of a layout\u2019s head section.",
+        "options": [
+            "a) g:layoutTitle",
+            "b) g:layoutHead",
+            "c) g:layoutBody",
+            "d) g:layoutMeta"
+        ],
+        "answer": "b",
+        "explanation": "Any values declared in the head of a view head inheriting this layout are placed in this location upon rendering."
+    },
+    {
+        "question": "Tag allows any view inheriting this layout automatic access to JavaScript libraries.",
+        "options": [
+            "a) g:javascript library=\u201dapplication\u201d",
+            "b) g:layoutHead",
+            "c) g:layoutBody",
+            "d) g:layoutMeta"
+        ],
+        "answer": "a",
+        "explanation": "Upon rendering, this element is transformed into the following: script type=\u201dtext/javascript\u201d src=\u201d/court/js/application.js\u201d /script."
+    },
+    {
+        "question": "A view\u2019s body content is inside the:-",
+        "options": [
+            "a) g:javascript library=\u201dapplication\u201d",
+            "b) g:layoutHead",
+            "c) g:layoutBody",
+            "d) g:layoutMeta"
+        ],
+        "answer": "c",
+        "explanation": "Grails automatically sorts out the substitution process by placing a view\u2019s title content inside the g:layoutTitle tag, a view\u2019s body content inside the g:layoutBody / tag, and so on."
+    },
+    {
+        "question": "GORM dynamic finder comparators:-",
+        "options": [
+            "a) InList",
+            "b) LessThan",
+            "c) LessThanEquals",
+            "d) All of the mentioned"
+        ],
+        "answer": "d",
+        "explanation": "GORM comparator Query"
+    }
+]

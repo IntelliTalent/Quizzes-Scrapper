@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Which option is necessary to compile a C program havin math functions?",
+        "options": [
+            "a) -lm",
+            "b) -ln",
+            "c) -lp",
+            "d) -lq"
+        ],
+        "answer": "a",
+        "explanation": "To compile a program written in the C language, it is compiled by issuing the option \u2018-lm\u2019. The examples of some math functions found in \u2018math.h\u2019 are floor(), sqrt(), pow(), log()."
+    },
+    {
+        "question": "The option for specifying the executable name while compiling with gcc is _____________",
+        "options": [
+            "a) -e",
+            "b) -o",
+            "c) -a",
+            "d) -b"
+        ],
+        "answer": "b",
+        "explanation": "When a C program is compiled with gcc, the option -o is issued in order to specify the name of the executable that is created after compilation. The default name given is \u2018a.out\u2019."
+    },
+    {
+        "question": "Which file can be used to execute multiple compile statements?",
+        "options": [
+            "a) makefile",
+            "b) dofile",
+            "c) putfile",
+            "d) pushfile"
+        ],
+        "answer": "a",
+        "explanation": "The Makefile is used to write multiple commands in there. The file is executed by prefixing the command \u2018make\u2019 with the command to run the file script containing the statements."
+    },
+    {
+        "question": "Which flag is used to compile client programs that use MySQL header files?",
+        "options": [
+            "a) -O",
+            "b) -I",
+            "c) -U",
+            "d) -A"
+        ],
+        "answer": "b",
+        "explanation": "The \u2018-I\u2019 option is specified when the client programs are compiled that use the MySQL header files. The compiler can easily find these header files when the \u2018-I\u2019 option is used."
+    },
+    {
+        "question": "The MySQL clients are linked with _____________",
+        "options": [
+            "a) -lmysqlclient",
+            "b) -cmysqlclient",
+            "c) -dmysqlclient",
+            "d) -vmysqlclient"
+        ],
+        "answer": "a",
+        "explanation": "MySQL clients should be linked using the \u2018-lmysqlclient\u2019 option in the link command. A \u2018-L\u2019 option also needs to be specified to tell the linker where to find the library for it."
+    },
+    {
+        "question": "On Unix, linking uses dynamic libraries by default.",
+        "options": [
+            "a) True",
+            "b) False"
+        ],
+        "answer": "a",
+        "explanation": "On Unix, the linking process uses the dynamic libraries by default. In order to link to the static client library instead, its path name should be added to the link command to do the job."
+    },
+    {
+        "question": "What can be used as an alternative to mysqlconfig?",
+        "options": [
+            "a) pkg-config",
+            "b) dkg-config",
+            "c) rkg-config",
+            "d) qkg-config"
+        ],
+        "answer": "a",
+        "explanation": "The \u2018pkg-config\u2019 statement can be used as an alternative to the \u2018mysql_config\u2019 statement for obtaining information like compiler flags or to link libraries required to compile some MySQL applications."
+    },
+    {
+        "question": "Which of these has a smaller memory footprint?",
+        "options": [],
+        "answer": "b",
+        "explanation": "A clearly significant difference between Perl and PHP is that Perl has a bigger memory footprint than PHP. Apache processes are larger with \u2018mod_perl\u2019 linked in than with \u2018mod_php\u2019."
+    },
+    {
+        "question": "The static C library client in Windows is _____________",
+        "options": [
+            "a) mysqlclient.lib",
+            "b) mysqlclient.lb",
+            "c) mysqlclient.lm",
+            "d) myclient.lib"
+        ],
+        "answer": "a",
+        "explanation": "The code can be linked with either the dynamic or static C client library. On Windows, the static library is named \u2018mysqlclient.lib\u2019 and the dynamic library is named \u2018libmysql.dll\u2019."
+    },
+    {
+        "question": "Which of the following is used on Solaris?",
+        "options": [
+            "a) gcc",
+            "b) clang",
+            "c) Sun Studio",
+            "d) FreeBSD"
+        ],
+        "answer": "c",
+        "explanation": "The program \u2018gcc\u2019 is generally used on Unix. \u2018clang\u2019 is used on \u2018OSX\u2019 or \u2018FreeBSD\u2019. The \u2018Sun Studio\u2019 is used on Solaris. However, \u2018gcc\u2019 on Unix is a widely popular choice for client programs."
+    }
+]
