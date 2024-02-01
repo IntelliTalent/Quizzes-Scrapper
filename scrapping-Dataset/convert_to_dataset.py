@@ -43,8 +43,10 @@ def convert_to_dataset(data):
                 explanation_text = explanation_text.lstrip('Explanation:').lstrip() if explanation_text else None
                 code_block = code_block.lstrip('Code:').lstrip() if code_block else None
 
+                context_text = fname.strip('"').strip()
+
                 dataset.append({
-                    'context': fname,
+                    'context': context_text,
                     'question': question_text,
                     'options': options_text,
                     'answer': answer_text,
@@ -56,11 +58,26 @@ def convert_to_dataset(data):
 
 
 
+import pandas as pd
+
+def print_unique_contexts(dataset):
+    # Extract the 'context' values from the dataset
+    contexts = [item['context'] for item in dataset]
+
+    # Convert to a DataFrame and drop duplicates
+    unique_contexts_df = pd.DataFrame(contexts, columns=['context']).drop_duplicates()
+
+    # Write the DataFrame to a CSV file
+    unique_contexts_df.to_csv('unique_contexts.csv', index=False)
+
 if __name__ == "__main__":
     data = read_jsons_in_folders()
     dataset = convert_to_dataset(data)
 
     print(f"Total questions: {len(dataset)}")
 
-    with open('dataset.json', 'w') as f:
-        json.dump(dataset, f, indent=4)
+    # Call the function to print unique contexts
+    print_unique_contexts(dataset)
+
+    # with open('dataset.json', 'w') as f:
+    #     json.dump(dataset, f, indent=4)
