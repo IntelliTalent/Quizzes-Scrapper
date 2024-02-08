@@ -13,8 +13,10 @@ def read_jsons_in_folders():
         for fname in file_list:
             if fname.endswith('.json'):
                 with open(os.path.join(dir_name, fname), 'r') as f:
-                    clean_fname = fname.lstrip('0123456789').rstrip('.json')
+                    filename_without_extension = os.path.splitext(fname)[0]
+                    clean_fname = filename_without_extension.lstrip('0123456789')
                     data[clean_fname] = json.load(f)
+
 
     return data
 
@@ -23,6 +25,8 @@ def convert_to_dataset(data):
     dataset = []
 
     for fname, content in data.items():
+        context_text = fname.strip('"').strip()
+
         for question in content:
             raw_answer_text = question.get('answer', None)
             raw_options_text = question.get('options', None)
@@ -33,7 +37,6 @@ def convert_to_dataset(data):
                 if any('images/' in option for option in raw_options_text):
                     continue
 
-
                 question_text = re.sub('^[0-9.)*]+', '', raw_question_text).lstrip()
                 options_text = [re.sub('`', '', option.lstrip()) for option in raw_options_text]
                 answer_text = re.sub('^[A-Z]+[.)]+', '', raw_answer_text.lstrip().rstrip())
@@ -43,7 +46,6 @@ def convert_to_dataset(data):
                 explanation_text = explanation_text.lstrip('Explanation:').lstrip() if explanation_text else None
                 code_block = code_block.lstrip('Code:').lstrip() if code_block else None
 
-                context_text = fname.strip('"').strip()
 
                 dataset.append({
                     'context': context_text,
@@ -79,5 +81,5 @@ if __name__ == "__main__":
     # Call the function to print unique contexts
     print_unique_contexts(dataset)
 
-    # with open('dataset.json', 'w') as f:
-    #     json.dump(dataset, f, indent=4)
+    with open('dataset.json', 'w') as f:
+        json.dump(dataset, f, indent=4)
